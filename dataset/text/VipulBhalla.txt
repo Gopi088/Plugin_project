@@ -1,0 +1,39 @@
+Vipul  Bhalla	Email : vipul.tce@gmail.com
+https://www.linkedin.com/in/vipul-bhalla	Mobile : +91-988-420-7697
+Work Experience
+Wells Fargo	Bangalore, India
+Senior GenAI Scientist	July 2024 - Present
+Text2SQL Chatbot: Engineered a Multi-Agent Text2SQL Engine (TAG: Table Augmented Generation)—an advanced RAG alternative—to autonomously generate concise textual and visual responses by leveraging Gemini’s Function Calling MCP–based Agentic AI Framework. This system processes structured banking transaction data in response to user queries, uncovering trends, liquidity risks, and opportunities. By delivering rapid insights, it empowers strategic decision-making across pricing, customer retention, and banking solutions.
+Global Treasury Management (GTM) - Retrieval Augmented Generation (RAG): Implemented a RAG pipeline to generate summarized responses for user queries by automatically retrieving relevant information from chunked (using langchain’s recursivecharactertextsplitter chunking method) policy documents (within the GTM knowledge center) stored in embedded vector format in ranked Elastic index of Elastic DB, enabling faster resolution of customer inquiries. Boosted the accuracy/relevancy of retrieved results up by 9%, on improving the searching capability by implementing hybrid search (Sparse + Dense Retreival) mechanism along with re-ranker (context aware ranking using cross encoder) to better rank the retrieved documents.
+Wells Fargo	Bangalore, India
+Data Scientist	July 2022 - June 2024
+Appraisal Bias Semantics Detection: Pioneer across industry to come up with a real-time inference
+AI-based solution (where a LLM: BERT was fine tuned for classification) to detect the presence of bias language in a given appraisal document for Real Estate Valuation Services. The AI/ML model is intended to reduce the error by acting as a co-pilot in the review process by providing the list of bias instances detected. Estimated cost saving including operational costs and potential regulatory fines avoided approximates to $10.5 M per year.
+Large Language Model Optimization: Expedition to enhance the efficiency of the Large Language Model (BERT) with the aim of streamlining the deployment process across diverse domains. This initiative focuses on minimizing the model size by 40% while concurrently augmenting the latency by 60% (through knowledge distillation), all while maintaining consistent performance standards.
+Tata 1mg	Bangalore, India
+Data Scientist	Aug 2021 - July 2022
+Dynamic Pricing - Upfront Discounts: Designed and implemented a Reinforcement learning framework to determine the ideal discounted price offered to customers with the goal of increasing profit margin without compromising revenue. Bringing the net profit earned from 4% to 8% on an average.
+Adaptive Reinforcement - Upfront Discounts: Revamped the reinforcement learning model architecture by introducing probabilistic Q Learning approach for smarter exploration, incorporating competitor prices and performance of similar skus to learn/converge faster, thereby extending the profit earned from 8% to 12% on an average.
+Dynamic Pricing - Shipping Charges: Contributed in developing a framework to automate strategically
+setting the shipping charge (using Q-Learning Algorithm) in order to increase our VAS collection charges from customers with minimal/ no impact on growth/conversion.
+Siemens Technology and Services	Bangalore, India
+Data Scientist - AI/NLP	July 2019 - June 2021
+Program Block Optimization: Micro service based application to perform Program Analytics, suggesting AI aided optimizations (using NLP:Transformers) to reduce the program complexity up to 1/3rd of the original.
+Code Similarity: Service Module to detect and identify semantically similar blocks of code within and across the given program/s, based on similarity index calculated between Doc2vec embeddings of the code blocks.
+Automated Test Data Generation: Integrated service module to automate (using Graph Neural Network) the generation of minimal number of Test Cases with maximum code coverage(reaching 95%), evaluated via Knowledge Graph.
+GUI Automation Tool: Computer vision plus AI based (template & text detection) automation tool designed to automate the Software Testing process. Setting the benchmark speed for the automated execution of test cases.
+
+Patents
+Method and System for Generating and Optimizing Test Cases for an Engineering Program
+Siemens Technology and Services	Sept-21
+System for Generating and Optimizing Engineering Program for a Technical Installation
+Siemens Technology and Services	Sept-21
+Projects And Publications
+Virtualisation and Cloud Security Vulnerabilities: Research expedition on the potential security threats in cloud based platforms because of architectural limitations in the shared hardware. Accepted to be published in IJITEE.
+Netwalker: Domain Specific Search Engine (deployed on Flask Server) for faster and efficient retrieval of search results (using tf-idf vectorize) from ranked (scraped through Beautiful-Soup) database.
+Technical Skills
+Languages: Python, SPARQL, SQL, C++,
+Technologies: GCP (Vertex AI, Gemini, BigQuery, AgentBuilder), ElasticSearch, TensorFlow, PyTorch, AWS (S3, Athena, Snowflake), Airflow, Knowledge Graph, Django, Docker, Git
+Educational Qualification
+SRM Institute of Science and Technology	Chennai, India
+Bachelor of Technology in Computer Science	July. 2015 – May. 2019

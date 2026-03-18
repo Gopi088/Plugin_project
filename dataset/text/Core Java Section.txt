@@ -1,0 +1,59 @@
+Sitecore 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Questions
+✅ 1. What’s the difference between orElse() and orElseGet() in Java 8’s Optional?
+You’re listening for:
+"orElseGet() only runs the fallback when needed. orElse() always runs it, even if not used."
+Red flag cues:
+Says both are the same
+Doesn’t know orElseGet() exists
+Says “they avoid nulls” but can’t explain difference
+
+✅ 2. Have you ever faced a ConcurrentModificationException? How did you fix it?
+You’re listening for:
+“Yes, it happens when you modify a list while looping. I fixed it using an iterator or copying the list before changing it.”
+Red flag cues:
+Blames threading blindly
+Says “used try-catch” to fix it
+Has never heard of it
+
+✅ 3. What’s one real mistake someone might make when trying to make a class immutable?
+You’re listening for:
+“Exposing internal lists or maps. Even if fields are final, you must protect access to them.”
+Red flag cues:
+Says just “make everything private”
+Doesn’t mention constructors or final
+Mentions @Data as a shortcut
+
+✅ 4. How do you shut down an ExecutorService properly?
+You’re listening for:
+“Use shutdown() first, then awaitTermination() to wait. If it doesn’t stop, use shutdownNow().”
+Red flag cues:
+Says just “kill the thread”
+Doesn’t mention shutdown or waiting
+Never used it, only used Thread.sleep()
+
+✅ 5. In Kafka, what does idempotent consumer processing mean?
+You’re listening for:
+“It means if the same message comes twice, I won’t process it again. We use unique IDs or keys to check before processing.”
+Red flag cues:
+Doesn’t know the term
+Says “just consume and move on”
+Thinks Kafka handles this automatically
+

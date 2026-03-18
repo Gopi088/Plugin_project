@@ -1,0 +1,181 @@
+Rajashekar Madishetti
+Email: madishetti7@gmail.com
+Contact Number: 9989770426
+LinkedIn: https://www.linkedin.com/in/madishetti-rajashekar-0b3309136
+Summary:
+Data Scientist and Engineering Graduate from Sree Dattha Institute of Engineering and Sciences.
+Having Related Experience to statistical & quantitative analysis using R, Python and data driven decision-making and have a very good understanding of Data Mining techniques.
+6.9 years of experience in IT and related experience as both Data Scientist and Reporting Analyst
+Strong Understanding of life cycle of analytics projects
+Implementation of the End-to-End ML models using Machine learning OOPs in Azure.
+Good exposure to Data Mining Techniques like clustering, Association Rules and Recommendation Engine etc
+Experienced in analyzing complex data and finding patterns from the data, which helps to develop best predictive models for processing, cleansing and verifying the integrity of data
+Very Good Exposure on machine learning algorithms like Decision Tree, Random Forest, Boosting, Simple Neural Networks, SVM, Deep Learning Techniques and OCR with API’S
+Working knowledge in building Prediction Models using linear regression, multiple linear regression analysis, and logistic regression analysis techniques
+Good Hands-on experience in tools like R, Visualizations in R, Python Scripting language
+Knowledge on Keras, TensorFlow for Deep Learning
+Good exposure on cloud platform Azure Devops MLOp’s, Pipeline creation and monitoring maintaining issue log’s, Crete Adf pipelines to pull data from Snowflakes, Aml to develop the models with different hyperparameters
+Very good exposure of working on POC’s and Stakeholder engagements. Where I used to Lead the whole team.
+Hands-on experience in implementing LLM, RAG, and Agentic frameworks for life sciences and medical domain use cases, including unified bot development using tool calling and integrations with Azure OpenAI
+
+Technical Skill Set:
+Gen-AI Technologies: LLMs, RAG and its architecture, Hugging face transformer-based models. Agentic Framework
+
+Cloud: Microsoft Azure and related services like ADF (Azure Data Factory), AML (Azure Machine Learning), Azure DevOps, ADB (Azure Databricks), MLflow
+Regression Analysis: Linear, Logistic and Multinomial, Zero inflated, Lasso and Ridge Regression.
+Supervised Machine learning Algorithms: Decision Tree, Random Forest, KNN, SVM, Naïve Bayes, Neural Network
+Unsupervised Machine Learning Algorithms: Cluster Analysis, DBscan, PCA, SVD, Market Basket Analysis, Recommendation Systems, Latent Dirichlet Allocation
+Times Series Analysis: Forecasting (Model Based & Data Driven)
+Advanced Analytics: Feature Engineering, Imbalanced Classification, Boosting, Bagging, XGBM, Gradient Descent, Deep Learning (ANN, CNN, RNN)
+Text Analytics: Text Mining, Sentimental Analysis & Topic Extraction, NLP
+Statistical Analysis Techniques: Confidence Intervals, Hypothesis Testing
+Programming languages (Tool Skills): R Programming, Python, Minitab, XL Miner, Microsoft Excel, Tableau as BI Tool.
+Statistical Tools: XL- Miner, MINITAB, R Studio.
+EXPERIENCE SUMMARY:
+Projects:
+Project: Finance Based Agents with tool calling.	(May 2025- current)
+Role: AI Engineer
+Industry: Company’s C-suite
+Description:
+Currently developing a finance-focused agentic framework designed to respond to user queries related to financial metrics such as invoices and revenue segmented by account managers.
+This initiative builds upon two successfully implemented and deployed modules— Business and Timesheets—which are currently running on a local server. We are now in the process of migrating the solution to a scalable cloud infrastructure, targeting either Azure or GCP.
+As part of this transition, we are adapting the codebase to integrate with Semantic Kernel and Google AI Development Kit (ADK) to enable more robust orchestration, enhanced scalability, and seamless enterprise integration.
+Project: Demand prediction and price optimization	(Mar 2025-Apr 2025)
+Role: Sr Data Scientist
+Industry: Chemical & plastic’s manufacturing
+Description:
+Project is all about Predicting the demand, and based on the demand optimizing the Unit Price. And detailed purchasing behaviour of the customers using RFM and CLV analysis.
+Conducted Exploratory Data Analysis (EDA), with a key focus on unit of measurement (UOM) standardization, ensuring consistent product comparisons.
+
+Implemented price elasticity analysis at the product level to determine the optimal pricing strategy.
+Integrated temporal features into the dataset to enhance model performance with time-based trends
+Developed multiple machine learning and time series models, applying crossvalidation techniques for robustness.
+Conducted extensive model experiments with boosting algorithms, finally optimizing a Bayesian model with Hyperopt alongside RF and XGBoost, leading to significant accuracy improvements.
+Achieved higher model efficiency and accuracy, improving predictive pricing insights.
+Delivered optimized pricing recommendations to maximize revenue while maintaining demand.
+Provided with CLV and RFM analysis along with long data reports which can help in understanding the customers purchasing behavior.
+Project: AI-Driven Workforce Forecasting for Nursing Homes
+Role: Sr. Data Scientist	(Jan 2025 – Feb 2025)
+Industry: Health & Nursing Care
+Description:
+Partnered with Mowlam to develop a predictive analytics solution for forecasting staffing needs across various nursing homes. The project focused on predicting staff requirements based on existing staff categories and optimizing workforce planning.
+Responsibilities:
+Developed predictive models for key staffing insights, including:
+Attrition Risk Analysis – Identifying employees at risk of leaving.
+Employee/Nurse Recruitment Prediction – Forecasting staffing needs at each nursing_home_id level.
+Employee Segmentation Analysis – Categorizing staff based on roles, tenure, and risk factors.
+Pay Rate Prediction – Optimizing spending on different staff categories.
+Data Preprocessing & Analysis: Conducted univariate, bivariate, and multivariate analysis, uncovering key insights such as staff attrition risks and patient clusters requiring specific care.
+Business Impact:
+Identified staff attrition trends and age-based risk factors.
+Helped optimize recruitment planning and workforce allocation.
+Pay rate prediction module enabled cost optimization across staff categories.
+Deployment & Automation: Developed and deployed models using Flask APIs for seamless integration into Mowlam’s decision-making processes.
+Project - PE & PEA
+Client - PepsiCo	(Feb 2024 – Sep 2024)
+
+As a team I have to Build Price Elasticity models for different SKUs of the market South Africa, and extend the same analysis for the different markets like Egypt, Spain, Turkey, Pakistan etc
+We followed the Data Science Life cycle to pull the data from Delta lakes with help of the DE team. After applying certain transformations, I tried different models.
+Performed Feature engineering to improve the performance of the model
+Finally, we achieved the desired results of maps less than 25% and Elasticity values as positive for SA and need to extend for different markets.
+As of now there is no deployment done so far, need to work on it once if business confirms.
+Project- Store DNA
+Client – PepsiCo	(July 2021- Dec 2023)
+Extending the forecasting models to the different regions in the USA for one of the food categories like beverages using MLOPS.
+Build Ensembled model to forecast for different formats available.
+Using ADF to pull the data and store in blob storage as input files
+Where on training the models by selecting the clusters as data for different formats in GB’s
+Finding the optimal parameters which suits for better MAPE value
+Building the pipelines in Devops to run the pipelines and deploying them in production using Azure Devops
+Project - AFBC Boiler efficiency prediction using python-- Thermax Limited Responsibilities:
+Create a machine learning and Artificial intelligence application which predicts the efficiency of different Boilers with key Efficiency parameters. Analyzing the impact of different input fuels to maintain uniform temperature
+Received the various months of data from sensors fixed in and around Boilers
+Exploratory data analysis to understand the distribution, entire plant is divided into 4 groups to generate efficient data which is easy to make decisions
+Consolidated the data accordingly, implemented research which parameters are important to estimate the efficiency.
+Understood the entire plant working process with different components and their behavior
+Handling missing values using different imputation methods
+Predicting the efficiency using the given parameters, by training the historical data using machine learning methods (KNN, SVM)
+Visualized the data to get more inferences pertaining to different efficiency parameters.
+
+Handling overfitting and underfitting of the models using regularization techniques
+Still to deploy in cloud environment
+Tools & Techniques: Python, Python Packages: sklearn, Numpy, Pandas, Flask Framework
+Project - HR Analytics – Predict Recruitment Success Responsibilities:
+To predict whether a Candidate will join an organization or not. An organization invests a lot of its time and resources in search of the potential candidates. The investment becomes lost if the selected candidates do not join the organization in the end.
+As a first step, to understand the Business Problem and to get clearly understand on the data set provided by the Client
+Build a Python Code with EDA to make the data into structured format
+And implemented some Classification models on that data set and noticed Random Forest is giving highest Accuracy after following Cross validation technique
+Analyzed the important features and used for the further analysis
+Tools & Techniques: Python, Packages: sklearn, Numpy, Pandas
+Project - Metric’s system – Visualizations Objective:
+To find whether the customers of an organization converted to take any one Product or not. And want to visualize how many customers converted, closed, and their location etc.
+Build R script to pull the data from Local Database using R Selenium package
+Collected data is dumped into Mysql using RODBC package
+Created a Database in Mysql for extracted Data
+Connected Mysql with Tableau and made Visualizations by using multiple filtering options
+Tools & Techniques: R, MYSQL, Tableau.
+
+Project - Agriculture Project – Fraud Analysis Objective:
+To find fraudulent vendors in the Company
+EDA has to be done to make data structured
+We gave a credit score to each and every vendor of that company
+From Credit score we can find the fraud customer or vendor available
+Tools & Techniques: R, Tableau
+Project - CADD Student Feedback - Text Analytics
+To perform sentiment analysis and to understand whether the overall students are satisfied or dissatisfied and to provide key insights from the student feedback.
+
+Build R Scripts to mine the unstructured text/data
+Collect, synthesize, and propose requirements and create effective product/feature roadmaps
+Build Statistical Models that gives power to the customer in decision making
+Visualized the unstructured data with Uni-Gram, Bi-Gram, Tri-Gram and Comparing the content of unstructured data by Positive and Negative word clouds
+Identified the clusters from Unstructured Data using K-means Clustering and drawing insights from the obtained Clusters
+Identifying the proportions of Emotions in Unstructured data.
+
+Tools & Techniques: R, Word-Clouds, polarity plot, Clustering based on word Frequency, Emotion Classification.
+
+Project - Warranty claims
+To predict an item when sold, what is the probability that the customer would file for warranty and to understand important factors associated with them.
+Data pulled from SQL, and connected to python
+By doing exploratory data Analysis I have to make the data into structured format
+Several techniques were involved like making the data into dummy, scaling the data, with help of sklearn, pipeline
+Segregate the data into train and test data, and build some classification models.
+Predicted probability Value, on which product get fraud warranty
+Got good accuracy, And final output is stored in SQL database
+Prepared Dashboards, made through Tableau
+Tools & Techniques: Python, SQL, Tableau.
+Project - Fraud Analytics for client Hindhuja Leyland Objective:
+The goal is to detect the customer making fraud in paying the loans Variables: 280; Observations: 4,76,000
+Cleaning, merging of different Data Frames, and preprocessing the data and thorough understanding of the data distributions to give better inferences
+Implemented Exploratory Data Analysis to understand the performance
+Predict the values of precision and recall by performing different Machine Learning algorithms like RandomForest, XGBoost, MLP with different optimization techniques
+Tools & Techniques: Data Cleansing & Data Pre-processing using R. Data visualization using Tableau
+
+Professional Experience:
+MouriTech, Hyderabad	Sep’2024 – Till Now
+Worked across the entire Data Science and Machine Learning project lifecycle, managing end-to-end solutions without being limited to a specific role.
+Delivered multiple MVPs, POCs, and accelerators as an individual contributor, balancing technical delivery with business-facing responsibilities.
+Actively participated in sales and marketing calls, providing technical expertise to support business development and client acquisition.
+Mentored and trained junior associates, helping them upskill and contribute effectively to ongoing projects.
+Designed and implemented Retrieval-Augmented Generation (RAG) architecture-based POCs for multiple clients to enhance generative AI capabilities.
+Led a project for a USA-based client, building a price optimization model and a 6-month quantity forecasting solution tailored to their business needs.
+Developed and deployed an end-to-end pipeline for the client project and presented the solution through a Streamlit-based interactive prototype.
+PwC India, Hyderabad	July’2021– Sep’2024
+Data Scientist (Senior Associate)
+Worked on Azure Devops, Adf, Aml, Databricks to Build the ML models and Pipelines scheduling, monitoring maintaining the Issue Log’s
+Working experience of End to End Machine learning using MLops concepts in Azure
+Analyzing the data and providing the inferences which increases the business value
+Working in Azure devops platform to deploy the forecasting models in dev environment
+Extension to this working on Migrating the project to use databricks in the place of Aml to develop the model
+ExcelR Solutions, Bengaluru	Nov’18 – June’21
+Data Scientist
+Handling unstructured data and making it into Structured Format.
+Understanding the Data set and preprocessing the data if required
+Building Prediction Models using Regression techniques.
+Administering activities related to new data management, Team Management.
+Making reports as required by the Client
+Gather the required data to accomplish analysis from a number of sources, accumulate it together in a pre-arranged format and enter the data in several data analysis software.
+
+Education:
+
+Sree Dattha institute of engineering and Science, Rangareddy TS 2015
+B.Tech (EEE)

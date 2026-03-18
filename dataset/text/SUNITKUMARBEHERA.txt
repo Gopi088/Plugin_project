@@ -1,0 +1,149 @@
+Sunit Kumar Behera
+
+Email - sunitkumarbehera@gmail.com.
+ Phone : +91 8249267289
+Location - Bangalore
+
+IT professional with 9 Years of experience Working as a Data Scientist for development and integration of AI/ML services with existing applications, for last 1-2 years working on LLMs and RAG React framework on Langchain
+Experience in Functional and Non-function requirement analysis
+Architecting enterprise and complex application using different tech-stacks
+Severless deployment architecture using AWS (ECR,ECS fargate,Rout53)
+Configuring CI/CD pipeline.
+Hands on experience in handling and manipulating big data using Pyspark on Databricks platform.
+Hands on experience of developing/debugging the unit test cases .
+Experience in system analysis, design, workflow architecture, development, testing and maintenance of ML applications.
+Experience in developing and deploying AI/ML based web applications in AWS EC2 instance,Google App Service and integrating Restful API’s.
+In	depth	knowledge	of	AI/ML	technologies	including	Computer	Vision(OpenCv), NLP,Forecasting, classifications, RNN,CNN,ANN .etc.
+Ability to create rapid prototypes of ML apps..
+Extensive experience in RPA using selenium,Kafka, message ques for micro-services using redis and ZMQ to create master slave architecture.
+Proficiency in building Data flow and ML pipepelines.creating Data warehouse and datalake, ETL.
+Worked in various version control systems – GIT.
+Worked extensively in Agile Development process.
+Hands on experience in PySpark,spark mllib.
+Strong database skills, Functional Programming, Object Oriented Programming, and algorithm knowledge
+
+
+
+Artificial Intelligence/ML	: Regression,classification,NLP,RNN,CNN,OpenCV ,ML,
+OpenAI,Langchain,OCR,Statistical analysis and modelling
+Databases	: MongoDB, MySQL, Redis,MsSqlServer,PG
+Backend Programming	: Python
+Cloud ML service Skills	: AWS,GCP,AZURE
+Frameworks	: FastAPI, Flask
+Prototyping	: Streamlit
+Messaging	: Kafka,ZMQ
+BigData	: PySpark,Hive
+Deployment	: Docker,AWS
+Operating Systems	: Windows, Linux (Ubuntu 14/16/18)
+Installation & Configuration	: Expertise in Setting up/trouble shooting the ML lifecycle.
+
+
+Completed PGD in Data Science from Manipal university, Manipal in 2020.
+Completed B.Tech in Mechanical Engineering from BPUT, Rourkela in 2014.
+
+
+
+
+
+Project # 1
+Project name	: GPT playground
+Organization	: Valuelabs
+Duration	: June 2024 to till date
+Environment	: AWS, LLM(GPT 3.5 Turbo),Databricks,Golang,CI/CD
+Client	: Outreach
+Role	: Data Scientist
+
+Description:
+Creation of an LLM application which takes in copilot api and company database. Data is stored in S3 buckets, ETL orchestration is done in Databricks with tasks and jobs. Different GPT models are used to test the response. The frontend is in React, Api in GRPC and the backend for routing is Flask. The CI/CD pipeline is in Git and Circle CI. Dev environment is Outreach devenv.
+Roles & Responsibilities:
+Creating data pipeline.
+Code refactoring and reviews
+App deployment
+Fixing issues with existing libraries and components
+Project # 2
+Project name	: Pond-Lehocky Worker’s Compensation
+Organization	: Valuelabs
+Duration	: Dec 2023 to till date
+Environment	: Azure OpenAI, LLM(GPT 3.5 Turbo),Langchain,Salesforce SDK,OCR
+Client	: Verinext
+Role	: Data Scientist
+
+Description:
+Creation of an LLM application which takes in large documents(PDF,Images,text files) extracts text from it . Then the text is splitted into chunks and stored in a vector DB. Later through the RAG framework in langchain ,similar chunks are stuffed with the query and proper prompt to retrive the required summary. On the other hand data from salesforce is extracted through the salesforce SDK and the summary and salesforce data is serialized in Django REST api and shared through a post method.
+Roles & Responsibilities:
+
+Developing RAG in Langchain and OCR.
+Code refactoring and reviews
+Salesforce connection, Azure Document Intelligence service
+Fixing issues with existing libraries and components
+Project # 3
+Project name	: MLP Data Pipeline
+Organization	: Valuelabs
+Duration	: Mar 2024 to till date
+Environment	: Databricks
+Client	: Outreach Corporation
+Role	: Data Scientist
+
+Description:
+Creation of data pipeline for production. Data transformation and logic building using pyspark in databricks. Creating workflow monitoring in databricks. Fetching the silver standard data from AWS S3,database schemas then transforming it and storing in S3 or pushing it back to the data warehouse
+.
+Roles & Responsibilities:
+Writing pyspark codes for big data transformation
+Code refactoring and reviews
+AWS connection
+Fixing issues with existing libraries and components
+
+
+Project # 4
+Project name	: Jana Sunani Project
+Organization	: CSM Technologies
+Duration	: June 2022 to Oct 2023
+Environment	: NLP, Kafka, Artificial Intelligence
+Client	: Govt. of Odisha
+URL	: https://janasunani.odisha.gov.in/
+Role	: Data Scientist
+
+Description:
+It is a document similarity model running on live streaming platform .Technologies used KAFKA(for streaming), TFIDF vector matrix, Data Sanitization using NLP(Tokenization,cleaning,stemming), Sentence Transformers, RNNs, FASTAPI for communication with frontend app
+
+Responsibilities:
+Developing components and custom algorithms for stremlining the processflow..
+Integration of different data sources and providing different options available.
+Data processing using NLP techniques
+Code reviews and refactoring
+Mentoring a team of 3 people
+
+Project # 5
+Project name	: OMC revenue prediction
+Organization	: CSM Technologies
+Duration	: Dec 2021 to Aug 2022
+Client	: Odisha Mining Corporation
+Environment	: Python,RNN,Regression,ARIMA
+Role	: Data Scientist
+
+
+Description:
+Revenue prediction using different ML models like Multivariate Regression Model,Decision Tree Regressor, RNNs considering different parameters for prediction of revenue from royalty given by different miners.
+Categorization of the lessies(the entity which owns the mine for that period) into different levels considering their mining capabilities, revenue etc using ANNs, logistic regression models,random forest etc. Then creating the confusion matrix for precision and recall calculation and comparison of F1 score and R2 values.
+
+Responsibilities:
+Working as Data scientist to perform the EDA, statistical modelling.
+Implementation and validation of different ML models.
+Code reviews and refactoring
+Mentoring a team of 2 people
+Project # 6
+Project name	: Clinical inspection and assesment of Psycological medication
+Organization	: InstaDataHelp Analytics
+Duration	: June 2020 to Feb 2021
+Client	:
+Environment	: Colaborative and content based filtering, ETL
+Role	: ML Engineer
+
+Description:
+We used to receive data on a daily basis through API about the patients of a psychiatric clinic based out of London. That data is loaded in a warehouse after the ETL process, where we keep the required data and change the data types and format and load to a MsSqlServer. Then we connect the data to the python script through the ODBC connector. Minor manipulation is done to the data and we go for the colaborative filtering where we consider the similar type of patients and their medication. The factors that were important are type of medication,period of medication, period medication not taken
+e.t.c and create a model to recommend medication. Then we go for a classification model to clasify the highest priority zones for providing healthcare service. Then on the basis of recommendation,categorization we used to finally prepare a sheet that is the final requirement of the client.
+
+Responsibilities:
+Working as ML Engineer to perform the ETL, statistical modelling, Recommendation engine
+Implementation and validation of different ML models for categorization.
+Code reviews and refactoring

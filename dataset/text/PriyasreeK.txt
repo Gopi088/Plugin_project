@@ -1,0 +1,168 @@
+Priyasree K
+Senior Software Engineer
++91-8431832709 | sashanksu@gmail.com | Bengaluru, INDIA | Experience: 8 Years 4 Months
+
+
+As a results-oriented Senior AI Engineer with over 8 years of software experience, I specialize in architecting production AI systems that drive significant business impact. Skilled in leading teams to build sophisticated intelligent systems using Python, PyTorch/TensorFlow, and state-of-the-art model families, I excel in agentic AI, RAG 2.0, and multimodal pipelines. My expertise lies in fine-tuning, distillation, quantization, and prompt engineering strategies, balancing performance with inference efficiency and cost. I bridge the gap between research and production, establishing best practices for testing, data quality, evaluation, and model governance. With a track record of effectively mentoring engineers and contributing to critical path features, I consistently deliver scalable and maintainable AI systems.
+
+SKILLS
+
+
+
+
+CERTIFICATION
+
+
+Microsoft Certified: Azure AI Engineer Associate (Valid upto November 2026)
+Core Designer Certificate
+ ML Practitioner Certification
+
+WORK EXPERIENCE
+
+
+Senior Software Engineer - Celestial Systems	Mar 2021 - Present
+Led the design and development of AI and GenAI solutions across enterprise automation, HR analytics, and financial intelligence domains.
+Architected LLM-powered conversational systems using LangChain and multi-agent orchestration for trade query resolution and market insight generation.
+Designed routing, memory, and policy subsystems within conversational agents to enable context retention and dynamic decision-making.
+Developed Retrieval-Augmented Generation (RAG) pipelines integrating Azure OpenAI, Azure AI Search, and vector databases (Pinecone, FAISS) for semantic retrieval.
+Built a hybrid RAG system combining BM25 and vector search to improve precision and recall in technical documentation queries.
+Implemented semantic chunking using Azure Document Intelligence for intelligent document splitting and context preservation.
+Fine-tuned transformer models (GPT-4, FinBERT, BERT, RoBERTa) for sentiment analysis, classification, and financial document comprehension.
+Engineered reinforcement learning agents (PPO, DQN, A3C) for portfolio optimization and automated trading strategy selection, improving returns by 18%.
+Developed real-time NLP pipelines for financial news sentiment extraction and market signal generation, processing 15K+ articles per day.
+
+Built anomaly detection models to identify unusual trading patterns and potential fraud using time-series and unsupervised learning methods.
+Spearheaded AI-driven workflow automation through REST API integration, enabling seamless coordination between data processing and model inference layers.
+
+Senior Software Engineer - mVerve Inc	Aug 2017 - Mar 2021
+ Led UI/Front-end and Backend development for the Plex ERP Supply Chain Management System (Termax) using Ext JS 7.0, Jira, and Python, improving UI responsiveness by 20%.
+ Designed and implemented reusable UI components, enhancing development efficiency by 30% across modules.  Built a custom database for Plex data, improving data analysis and reporting efficiency by 25%.
+ Managed end-to-end development and release cycles, reducing post-release defects by 15% through strict adherence to quality and timelines.
+ Cloned and repurposed Plex server data to develop a new quotation management application, streamlining supply chain operations.
+ Served as a UI/Front-end and Backend Developer (Ruby) for the Elevatoz Loyalty Management Platform, leveraging Ext JS 6.4, Kanboard, and Ruby.
+ Developed hybrid mobile apps using Cordova and REST APIs, expanding accessibility and increasing mobile user adoption by 25%.
+ Contributed to the B2B and B2C loyalty management system, optimizing customer engagement, rewards, and order management workflows—boosting engagement and retention by 15%.
+
+PROJECTS
+
+
+
+Hybrid RAG System for Technical Documentation (Proof of Concept)
+Environment: Azure AI Search, Azure Document Intelligence, Azure OpenAI, Python
+860 Days
+
+Built a hybrid retrieval system leveraging Azure AI Search, combining BM25 (keyword search) and vector search (cosine similarity) for balanced precision and recall
+Applied semantic chunking using Azure Document Intelligence to split documents intelligently while preserving contextual integrity
+Enhanced LLM output by integrating Azure AI Search's re-ranking features to prioritize the most relevant passages during generation
+Project Description: Designed a retrieval-augmented generation (RAG) pipeline using Azure AI services to enable intelligent, scalable Q&A over complex technical documentation.
+
+
+Aviationstack - MCP Server
+Environment: Python 3.12, FastMCP (Model Context Protocol), Aviationstack REST API, Redis
+891 Days
+
+Designed a high-performance Model Context Protocol (MCP) server using FastMCP, enabling AI assistants to access real- time and historical aviation data via 20+ tools and 4 resource endpoints
+Implemented custom token-based authentication where each user's API key dynamically authenticates with Aviationstack, enhancing security and multi-tenant flexibility (BYOK - Bring Your Own Key)
+Cached frequent queries (Redis) to reduce Aviationstack API costs by 35% while improving response times Project Description: Comprehensive MCP server that integrates with the Aviationstack API to provide real-time and
+historical aviation data to AI assistants. Built with Python 3.13+ and FastMCP framework, offering 20+ tools and 4 resource endpoints for complete aviation data access.
+
+NGT, PTS, R2S, UC, Rerate, ORGLE - Equilend	1317 Days
+Environment: Python, PyTorch, TensorFlow, LangChain, OpenAI GPT-4, AWS SageMaker, Docker, Kubernetes, Redis
+Designed and deployed deep learning models for algorithmic trading decisions and risk assessment
+Built LLM-powered conversational interface for trade query resolution and market insights
+Implemented reinforcement learning agents (DQN, A3C) for portfolio optimization
+Developed real-time NLP pipeline for news sentiment analysis and market signal extraction
+Fine-tuned transformer models (FinBERT, GPT-4) for financial document understanding and analysis
+Integrated RAG (Retrieval Augmented Generation) system for regulatory compliance and trade documentation
+Built multi-agent AI system for automated trade matching and settlement processes
+Implemented anomaly detection models for fraud prevention and unusual trading pattern identification
+Designed custom embeddings for financial entities and relationships using knowledge graphs
+
+
+ERP Application Development - OneEAM (Aptean)
+Environment: Ext JS 7.2, Azure
+Worked as UI/Front-end developer
+120 Days
+
+Developed new modules matching designs to support current application
+Problem-solving to satisfy designs and architecture requirements
+Project Description: ERP-level application managing mechanical goods procurement, accounting, work management, etc. Developed multiple reusable components to build a scalable, optimized application.
+
+
+Application Migration Assistant - Sencha Architect 4.3.6
+Environment: ExtJS 4.3.1, JavaScript, Jira
+Worked as UI/Front-end developer
+Developed migration tool to upgrade apps from current version to any desired version
+153 Days
+
+Project Description: Ultimate visual app builder for developing cross-platform HTML5 applications on desktop and mobile devices.
+
+
+Enterprise Asset Management System - Hitachi Asset Suite
+Environment: Ext JS 7.5, Azure
+Worked as UI/Front-end developer
+Added custom-theme to application
+Upgraded application from version 5.1.2 to latest version
+Added custom components to application
+Developed new modules matching designs to support current application
+Problem-solving to satisfy designs and architecture requirements
+245 Days
+
+Project Description: ERP-level application managing mechanical goods procurement, accounting, work management, employee management, etc. Developed multiple reusable components to build a scalable, optimized application.
+
+
+Framework Optimization - Sencha 7.8
+Environment: JavaScript, Jira
+Worked as UI/Front-end developer
+Resolved problems at the framework level
+273 Days
+
+Project Description: JavaScript framework for creating web and mobile applications with responsive interfaces, interactive features, and high performance.
+
+
+Custom Grid Filtering & Theming - Buffalo Automation
+Environment: Ext JS 7.2, Git
+Implemented menu opening based on column's field data type
+Created customized filters for date, integer, and string data types
+Displayed customized filter values on grid header
+Implemented all required web services (APIs) for the application
+Created custom theme using Sencha Themer extending theme-classic to match provided mock-ups
+212 Days
+
+Project Description: Added customized filtering options in grid header menu and created custom theme package per provided mock-ups.
+
+
+Supply Chain Management System - Plex ERP System (Termax)
+Environment: Ext JS 7.0, Jira, Python
+Worked as UI/Front-end developer and Backend developer (Python)
+Built common reusable components
+Analyzed Plex data and created custom database
+Handled end-to-end development and release
+274 Days
+
+Project Description: Cloned Plex server data and created new application to create/update quotations for supply chain management.
+
+
+Loyalty Management Platform - Elevatoz Loyalty Programs
+Environment: Ext JS 6.4, Kanboard, Ruby
+Worked as UI/Front-end developer and Backend developer (Ruby)
+Built common reusable components
+Handled end-to-end development and release
+Developed hybrid mobile apps using Cordova packages and APIs
+365 Days
+
+Project Description: B2B and B2C loyalty management system handling customer relationships, loyalty programs, rewards and recognition, order management, and coupons.
+
+EDUCATION
+
+
+2016  M.Tech | Computers
+AMC Engineering College, Bangalore Marks - 76%
+
+2014 B.Tech/B.E. | Information Science Ballari Institute of Technology and Management
+Marks - 72%
+
+ADDITIONAL INFORMATION
+
+
+Languages: English, Kannada, Hindi, Telugu

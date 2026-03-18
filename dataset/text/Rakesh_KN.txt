@@ -1,0 +1,119 @@
+OMS Interview Preparation Guide
+Technical Readiness + How to Answer (Confidence-Safe)
+Purpose of this document
+This guide is meant to organise what you already know, not teach you new things or give scripted answers.
+Use it as a mental checklist so your answers are clear, structured, and aligned with what OMS typically looks for.
+
+1. How OMS Interviews (Reality Check)
+OMS interviews are project-centric and practical.
+They are trying to understand: - Have you built real systems end-to-end? - Do you understand workflows, validation, and reliability? - Can you explain your work clearly to other engineers?
+They are not testing: - DSA / algorithms - Framework trivia - Overly deep distributed-systems theory
+
+2. How to Structure Any Technical Answer (Very Important)
+Whenever you are asked about any feature, module, or project, mentally structure your answer in this order:
+Context – What problem was being solved?
+Responsibility – What did you work on?
+Approach – How was it designed at a high level?
+Reliability / Validation – How did you ensure correctness?
+Outcome – What improved or changed?
+You do not need to explicitly label these in the interview — just ensure they are covered.
+
+3. Project Discussion (Core of the Interview)
+What OMS Expects
+You should be able to explain one major project confidently, end-to-end.
+They will probe: - Business workflow - API flow - Validation & error handling - One real issue you fixed
+When Explaining a Project, Make Sure You Cover
+What kind of system it was (workflow-driven, compliance-driven, internal users, external users)
+How the frontend and backend interact
+Where business logic lives
+How failures are handled
+Avoid jumping straight into code or frameworks.
+
+4. Backend (Spring Boot) — What to Be Clear About
+You should be comfortable explaining:
+Architecture
+Controller → Service → Repository separation
+Why business logic belongs in services
+APIs
+How REST endpoints are designed
+How request validation is done
+How errors are returned to the frontend
+Error Handling
+Centralised exception handling
+Meaningful error responses (not stack traces)
+Logging for debugging
+Security (High Level)
+Authentication vs authorization
+Basic Spring Security / JWT concepts
+You are not expected to explain internal Spring mechanics.
+
+5. Frontend (Angular) — OMS Level Expectations
+OMS expects clean, practical Angular usage, not deep framework internals.
+Be clear on: - Component vs service responsibilities - Form handling and validation - API integration - Error handling in UI - Basic performance practices (lazy loading, reduced payloads)
+When answering Angular questions: - Keep explanations simple - Focus on user experience and correctness
+
+6. Database & Data Handling
+What They Look For
+Sensible schema / collection design
+Correct data validation
+Pagination for large datasets
+Basic indexing awareness
+If asked about MongoDB: - Explain why document databases are useful for workflow-heavy systems - Show conceptual clarity even if experience is limited
+Avoid deep database internals.
+
+7. Reliability, Debugging & Production Issues
+You should be ready to discuss one real issue you handled.
+When describing a problem: 1. What went wrong? 2. How did you detect it? 3. How did you debug it? 4. What change fixed it?
+OMS values engineers who can keep systems stable, not just build features.
+
+8. Communication & Presentation Tips (Subtle but Critical)
+Speak calmly and at a steady pace
+If a question is broad, pause and structure your answer
+It’s okay to ask for clarification
+If you don’t know something deeply, explain what you do know clearly
+Avoid: - Over-explaining internals - Jumping between topics - Using too many buzzwords
+
+9. Final Mental Checklist (Before the Interview)
+Before each answer, quickly check: - Am I explaining the problem first? - Did I mention my responsibility? - Did I cover correctness and reliability? - Is my answer clear and concise?
+If yes, you’re answering at the right level for OMS.
+
+10. OMS Tech Readiness Checklist (Last-Mile Prep)
+Use this section as a confidence check, not a study syllabus. You should be comfortable explaining each item at a practical level using examples from your own projects.
+Backend – Spring Boot
+Be clear on: - Controller → Service → Repository separation (and why) - DTO vs Entity (why DTOs are used for APIs) - Request validation (@Valid, field-level validations) - Global exception handling and error responses - Basic authentication vs authorization concepts
+You do not need framework internals or advanced Spring theory.
+
+REST APIs & Data Flow
+Be ready to walk through: - One API end-to-end (request → validation → service → DB → response) - How errors are returned to the frontend - Pagination for large datasets
+
+Frontend – Angular
+Be comfortable explaining: - Component vs service responsibilities - Form handling and validation - API integration and error handling - Basic performance practices (lazy loading, reduced payloads)
+Avoid deep Angular internals unless explicitly asked.
+
+Database (MongoDB / SQL)
+Be clear on: - When MongoDB vs relational DB is a good fit - Collections vs tables (conceptual difference) - Indexing (what it improves, at a high level) - Pagination
+Depth is conceptual, not query-level.
+
+Reliability & Debugging
+Prepare one real issue you handled: - What went wrong - How you identified the issue - What you changed - What improved after
+OMS values engineers who can keep systems stable.
+
+11. Focus Areas Based on Screening Discussion
+The following are light emphasis areas identified from the screening conversation. These are not weaknesses, but places where a short refresh will improve clarity and confidence.
+Messaging / Asynchronous Processing
+You have hands-on experience here. Before the interview, quickly revisit: - Why async processing was needed (business reason) - What problem it solved compared to synchronous calls - How failures are handled at a high level
+Focus more on reasoning than implementation details.
+
+MongoDB Confidence
+MongoDB is mentioned in your experience, but interviewers may probe lightly. Do a quick refresh on: - Typical use cases for document databases - How you would design a simple collection - Why indexing matters
+You only need conceptual clarity, not deep expertise.
+
+Angular Answer Structure
+You clearly know Angular, but ensure your answers: - Start with the user flow (form → API → response) - Mention validation and error handling - Avoid jumping straight into code details
+A quick mental structure will make answers sharper.
+
+Validation & Error Handling
+OMS systems are workflow- and compliance-heavy. Be ready to explain: - Where validation happens (frontend + backend) - How incorrect data is prevented from flowing through the system - How errors are communicated clearly
+
+Closing Note
+If you focus on explaining why things were built and how you ensured correctness, you’ll be aligned with what OMS looks for.

@@ -1,0 +1,114 @@
+Udaya Kiran D
+26, Shiva Teja Building,
+Balaji Arch, SGR Dental College Road,
+Marathahalli, Bangalore – 560037.	Email: udaykiran430@outlook.com	Cell: 9492478037,
+8867897656
+
+Education:
+
+Jawaharlal Nehru Technological University – Anantapur,	(2008 – 2012)
+B. Tech in Electronics & Communication Engineering.	Percent: 72
+
+Skills & Abilities:
+Frameworks: Struts, Spring Boot, Microservices.
+Messaging Queues: RABBIT MQ, KAFKA.
+Cloud Platform: PCF (Pivotal Cloud Foundry), AWS ( EKS, CloudWatch etc)
+Front End Languages: React JS, Redux & Redux Saga (MiddleWare)
+API Query Language: GraphQL.
+Programming Languages: Java, Javascript
+Cache: Redis Cache
+Build Tools: Maven, Gradle
+Testing Tools: Junit, RestAssured.
+Private Maven Repos: JFROG Repository.
+Source Code Repo: Tortoise SVN, GitLab & BitBucket.
+Application Server: Apache Tomcat
+DB: MySql, MongoDB
+Actuator Metrics: Kibana & Graphana
+Others: Docker, Kubernetes, Jenkins, Ansible.
+Strong knowledge of Software Development Life Cycle (SDLC) models like Agile software development methodology.
+
+Certifications/Courses Completed:
+CNCF Certified Kubernetes Application Developer (CKAD) -- ID: LF- 9hd9yi02du (Date of Completion: 20-Jun-2021).
+
+Experience:
+
+Synechron Technologies Pvt Ltd – Associate Specialist Technology (Java) (28 June 2025 – Present)
+Project – Internal
+Responsibilities –
+I was selected for some new project of US BANK Account that was planned to start immediately upon my joining, but it didn’t. So waited for it to start for 2 months. Later they confirmed that it was cancelled. So started looking for other opportunities inside Synechron.
+Meanwhile i focused on myself on keeping in touch with my skills by doing POCs related to Java, SpringBoot, Microservices, Rest APIs etc.
+Attended the internal trainings provided by Synechron to get in touch with my core skills
+Also worked on POCs related to ReactJS while waiting for new project to start.
+
+Ernst And Young LLP – Senior Consultant (19 November 2021 – 8 February 2024)
+Project – DELL Cust kits & APOS (19 November 2021 – 15 December 2023)
+Responsibilities –
+APOS was an application of EVENT DRIVEN ARCHITECTURE using KAFKA.
+Kafka was implemented using SPRING CLOUD STREAM as an ABSTRACTION over KAFKA/RABBITMQ using Functional Binding of Topics to Java Methods.
+Initially we were using RABBITMQ queues for messaging, then later moved to
+KAFKA CLUSTER for messaging.
+Upon receiving the PAC events send by DOMINO to APOS, those events were saved to
+MONGODB to check whether events missed processing by APOS.
+Messages were validated by verifying message headers. Invalid messages were ignored and valid ones were then processed for detecting the changes
+Once a valid PAC event message was processed for detecting changes
+programmatically, the message was compared with the GraphQL API query response by sending parameters.
+Using RestTemplate we were sending GraphQL API Query along with Http headers and getting the response Cached using REDIS Cache.
+Based on the number of changes detected in the PAC event (i.e, Chassis, Business Units, Modules, Options, Skus) that many number of events were being sent to the immediate downstream applications (comit & salescat). Then these comit & salescat applications were processing the changes send by APOS.
+In APOS, detecting changes programmatically was done using java streams, lambda functions and other java functionalities.
+Written Unit test Cases & Integration test Cases. Also ensuring the code quality standards by maintaining the code coverage of > 90%.
+APOS was a DEVOPS project. JENKINS was integrated with GITLAB source repo. Using that we were deploying APOS applications into PCF(Pivotal Cloud Foundry) to both Non-Prod & Prod Environments.
+
+
+Wipro Technologies Pvt. Ltd – Senior Software Engineer (28 Jan 2013 – 18 Nov 2021)
+Project – Roads & Maritime Services AUS (Sep 2019– Nov 2021)
+Responsibilities –
+Gained knowledge on Kubernetes, Docker, Jenkins, Ansible etc. As this project is mainly for migrating Java Apps to Cloud Native.
+Worked on Docker file to create Images to be used in k8s deployment file and also on Jenkins file with Stages to include Maven Build, Docker Build & Docker Push to JFROG Repo.
+Created k8s files (deployment.yml, service.yml, ingress.yml, configmaps.yml etc) and Ansible Playbook files (firsttime.yml, undeploy.yml etc).
+Builded our project using Jenkins and BitBucket as a Source Code Repository. Once done, we have used JFROG Repo where all the images are stored.
+Deployed Kubernetes Objects to AWS EKS Cluster Using Red Hat Ansible Automation Platform, where all the job templates are configured with ansible play book yml files.
+Our Kubernetes POD mainly contains one Init-Container (Vault-Agent-Auth) which will generate Oauth token to authorize HashiCorp Vault. Next, Consul-Template Container to copy the key and values from the HashiCorp Vault upon Authorization by Init-Container. Next, we have our webapp container where tomcat is running and finally we have one side-car container called Fluentd-Container where are using Fluentd-Debian-CloudWatch Image, which is logging service to move the logs from to AWS CloudWatch.
+Used DynaTrace to monitor the WebApp for Performance related metrics
+JIRA was used as a Bug Tracker.
+
+Project – Pitney Bowes (Sep 2017 – Aug 2019)
+Responsibilities –
+Worked on React JS framework, implemented both Class Components and functional Components for life cycle hooks.
+Class Component LifeCycle Methods like ComponentDidMount, ComponentShouldMount, ComponentWillMount, ComponentWillUnmount etc and Functional Component LifeCycle hooks like useState, useEffect etc.
+Gained significant knowledge on the understanding of React JS, like for every state variable change component got re-rendered and props were propagating from parent to child components.
+Implemented routing using BrowserRouter, Routes, Route, Navigate, NavLink etc.
+Redux reducers was implemented using useReducer and based upon action dispatched corresponding changes to the state variable can be made.
+Also implemented Redux Saga Middleware, in that while configuring Store we had linked
+reducers, which was implemented using createSlice with Redux saga MiddleWare.
+UseDispatch was used to dispatch the action to reducer and the same action was also available to the Redux Saga Middleware through store configuration.
+Redux Saga Middleware was then made external API call using ‘axios’ & async – await. Once the axios call was successful, Redux Saga then made a reducer call with successMethod invocation with the result data. Inside Reducer, state list variable was updated using the data received from succesful external API resulted in re-rendering of component.
+If the externalAPI call using axios was failed, then corresponding failure method of reducer was called with error message. The corresponding state error variable was updated resulted in re- rendering of component.
+Implemented CRUD(Create, Read, Update & Delete) operations using React and also using Redux Saga.
+
+
+Project – 8x8 INC (Jul 2015 – Aug 2017)
+Responsibilities –
+Gained expertise on Spring Boot Framework by implementing RESTFul APIs.
+Builded Project using Maven and used GitLab as Source Code Repository.
+Done Config Server Implementation, worked on RestTemplate for hitting REST APIs of CRMs programmatically using JAVA. Apache Slueth was also implemented to include trace Ids for each request to keep track of it as it will go through many microservices.
+Asynchronous programming of java using @EnableAsync & @Async was done to achieve parallel execution.
+Backend integration was done with CRMs like Oracle Netsuite, Salesforce etc. So no Database was used in this project.
+Spring Oauth2.0 was used by integrating with Okta for this application.
+PostMan was used to test REST Api EndPoints using Authorization header and using Bearer
+token.
+Application actuator metrics were monitored using Graphana & Kibana.
+Application was deployed to cloud through Docker & Kubernetes.
+JIRA was used as a Bug Tracker.
+Wrote unit test cases using Junit & Mockito. Also did Rest Api testing using RestAssured.
+
+Project – Guam Power Authority (Jun 2013 – Apr 2015)
+Responsibilities –
+Based on Oracle CC&B using Struts Framework.
+Based on MVC(Model, View & Controller) Architecture based on Servlets and JSPs.
+ActionServlet was acting as the Front controller, serving as the single entry point for all the incoming HTTP requests.
+ActionServlet forwards the request to the Appropriate Action for processing.
+MySql was the DB Used
+Worked on customer issues, once those were raised in JIRA Bug Tracker worked on those and provided the best possible solutions.
+Did Unit Testing using JUnit.
+Did Deployments to servers as and when required.
+

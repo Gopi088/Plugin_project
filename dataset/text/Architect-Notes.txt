@@ -1,0 +1,145 @@
+✅ **TA-Friendly Role Summary
+(AI/ML Architect — Manager + Senior Manager)**
+(Updated & Unified for Tribera TAs)
+
+Role:
+AI/ML Architect
+Levels:
+Manager (10–15 YOE)
+Senior Manager (15–20 YOE)
+Industry: Media Preferred
+Locations: Gurgaon / Pune / Bengaluru
+Mode: Hybrid
+Source JD: AI/ML Architect — Multimodal, LLM, Video AI, RAG, GPU Infra, Governance, Integrations, Strategy 
+
+🎯 What This Role Is About (TA Pitch – 30 seconds)
+This role is for enterprise-level AI/ML Architects who can design the full AI strategy and end-to-end architecture for a large media organization.
+They build systems involving:
+Multimodal AI: text + image + audio + video
+LLMs + adapters + vector search
+Video intelligence at scale (10,000+ hours of media)
+Multimodal RAG (transcripts + frames + metadata)
+GPU clusters + distributed compute
+AI governance, auditability, lineage
+CMS/MAM/data-lake/vector DB integrations
+Manager (10–15 YOE)
+Architects large systems, drives platform integration and design, ensures performance, scalability, and best practices.
+Senior Manager (15–20 YOE)
+Owns enterprise-wide AI strategy, governance, adoption of LLMOps, agentic automation, and C-level architectural communication.
+
+🟦 Must-Have Skills (Manager vs Senior Manager)
+Multimodal & Media AI
+
+LLMs, RAG & Knowledge Systems
+
+Platform & Infrastructure
+
+Governance, Compliance & Security
+
+Leadership & Innovation
+
+🟩 Good-to-Have Skills
+Experience with broadcast/OTT, MAM, DAM
+Familiarity with video generation, audio synthesis, generative media
+Experience designing AI COEs or platform orgs
+Knowledge of NVIDIA Triton, Ray Serve, K8s for AI workloads
+Understanding of content rights/IP protection workflows
+
+🟥 Red Flags (Unified)
+🔻 Multimodal / Media Gaps
+Only NLP experience
+Only CV classification/detection (no video/audio)
+No exposure to large-scale media pipelines
+🔻 LLM + RAG Weakness
+Talks only about “using LangChain”
+No knowledge of fine-tuning, adapters, or vector search
+No understanding of retrieval quality, latency, or chunking
+🔻 Infrastructure Gaps
+No GPU optimization
+No distributed compute experience
+No cloud platform depth
+🔻 Enterprise Architecture Gaps
+Has executed but never architected
+No system boundary design
+No integrations with CMS/MAM/lakehouse
+🔻 Governance / Compliance Weakness
+No knowledge of data privacy, copyright/IP workflows
+No experience with governance frameworks (NIST AI RMF)
+🔻 Fakery Signals
+Lists “CV + NLP + ASR + LLM + RAG + GPU + agentic” in one line
+No examples, metrics, or outcomes
+Copy-pasted responsibilities
+Overpolished generic bullets like “architected AI platform end-to-end”
+
+🟦 Behavioural Markers (Manager vs Senior Manager)
+Manager — Strong Indicators
+Talks about architectural decisions: “We chose X because…”
+Describes real trade-offs (latency, cost, model size)
+Clear ownership of large components
+Pipeline-level reasoning (ingest → transform → infer → monitor)
+Senior Manager — Strong Indicators
+Talks at enterprise scale
+Uses language like “roadmap”, “platform strategy”, “governance”, “lineage”
+Handles ambiguity and stakeholder alignment
+Describes cross-team orchestration and C-level communication
+Shows maturity in designing compliant and secure systems
+
+🟧 What Great Candidates Typically Say
+Manager-Level Examples
+“We processed 50K hours of content using a distributed ingestion pipeline with FFmpeg + Ray.”
+“Our multimodal RAG pipeline combined transcript embeddings + frame embeddings using FAISS.”
+“I designed the lineage tracking using MLflow + metadata store to meet audit requirements.”
+Senior Manager-Level Examples
+“I defined the AI architecture roadmap for multimodal LLMs across the org.”
+“We created a governance framework aligned with NIST AI RMF.”
+“We designed a GPU cluster with autoscaling policies for LLM workloads, reducing cost by X%.”
+“I presented architecture trade-offs to C-level for our personalization platform.”
+
+🔍 Boolean Search Strings (Multimodal + Video + LLM + Architecture)
+1. Enterprise Multimodal Architects
+("AI architect" OR "ML architect" OR "AI/ML architect")
+AND ("multimodal" OR "video AI" OR "ASR" OR "speech" OR "CV" OR "NLP")
+AND ("LLM" OR "fine-tuning" OR "adapter" OR "vector search")
+AND ("GPU" OR "distributed compute" OR "DeepSpeed" OR "Horovod")
+2. Large-Scale Media Processing Profiles
+("video processing" OR "media pipeline" OR "content intelligence")
+AND ("10k hours" OR "large scale" OR "metadata enrichment")
+3. RAG / Vector DB Architects
+("RAG" OR "retrieval augmented generation")
+AND ("Weaviate" OR "Pinecone" OR "FAISS" OR "Milvus")
+AND ("multimodal" OR "frame embeddings" OR "transcripts")
+4. Governance + Compliance
+("AI governance" OR "responsible AI")
+AND ("NIST" OR "data privacy" OR "copyright" OR "IP protection")
+5. Platform Architects
+("AI platform" OR "ML platform" OR "LLMOps")
+AND ("Kubernetes" OR "Ray" OR "Triton" OR "GPU cluster")
+
+📝 TA Summary — What to Look For
+Manager Fit (10–15 YOE)
+Strong multimodal engineering depth
+Real exposure to video/audio pipelines
+Good LLM and RAG understanding
+GPU/distributed training understanding
+Solid architecture ownership of sub-systems
+Good cross-functional collaboration
+Senior Manager Fit (15–20 YOE)
+Enterprise architecture thinking
+Platform-level ownership (AI COEs, standardization)
+Strong governance, compliance, privacy
+C-level stakeholder communication
+Strategy, roadmap, adoption of multimodal LLMs
+Designs scalable GPU and inference platforms
+Grey Zone
+Strong multimodal/video but weak governance
+Good RAG but no LLM finetuning
+Strong ML architect but no media experience
+Strong infra but weak multimodal side
+Claims leadership but no examples
+Reject
+Only NLP; no video/speech multimodal
+Only data science; no engineering or architecture
+No cloud + GPU + distributed compute experience
+Pure IC with zero architecture ownership
+Over-inflated claims
+No examples or metrics

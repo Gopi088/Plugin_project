@@ -1,0 +1,124 @@
+		
+MANGESH KUMAR SONI
+📍 Pune, Maharashtra, India | 📧 mangeshsoni82@gmail.com | 📱 +91 93258 55569
+🔗 linkedin.com/in/mangesh-soni-4a405216
+Certifications: GCP Data Engineer | GCP Data Architect | SAFe Agilist | ROI Training (MLOps, Vertex AI, LLM)
+
+
+PROFESSIONAL SUMMARY
+​With over 18 years of experience, I lead the design and development of scalable, interoperable, and reusable machine learning and data pipeline components as a Lead Data & MLOps Engine​er. I specialize in Data Engineering, Analytics, and MLOps, leveraging GCP (BigQuery, Dataflow, Dataproc), Python (Vertex AI), and Kubeflow to build high-performing, automated, and reliable systems that enable data-driven decision-making.
+
+CORE COMPETENCIES
+Cloud Platforms:
+GCP (BigQuery, Vertex AI, Dataflow, Dataproc, DataFusion, Composer, Spanner)
+MLOps Tools:
+Kubeflow, MLflow, GitHub Actions, Docker, Artifact Registry, Vertex AI Pipelines — expertise in end-to-end pipeline automation, CI/CD integration, and model lifecycle management.
+Data Engineering:
+Python, PySpark, BigQuery, Dataproc, Dataflow, Pub/Sub, Airflow, dbt, ETL/ELT, Data Quality & Governance, Schema Enforcement 
+Orchestration:
+Airflow, Composer, Cloud Build, Jenkins
+Data Modeling & Warehousing:
+Logical Data Models across Financial Services, Communication, and Retail domains. 
+Database & Query Optimization:
+BigQuery (nested/repeated fields, UNNEST, de-normalization, partitioning, sharding, index, Row and Column Level Security), MySQL, Teradata — optimizing queries for performance and cost efficiency.
+Feature Engineering & ML Techniques:
+Standardization, Logarithmic Transformation, One-Hot Encoding, Imputation, Outlier Handling, Binning
+Forecasting & Analytics:
+ARIMA+, SARIMA, Prophet, Regression, Ensemble Models — specialized in time-series forecasting, model drift detection, and ensemble evaluation for sales, demand, and promotional uplift forecasting.
+CI/CD & Automation:
+GitHub, Cloud Build, Terraform, Jenkins, Composer 
+Security & Governance:
+IAM, dbt RLS/CLS (i.e. Row and Column Level Security)
+Leadership:
+Team Mentorship, Solution Architecture, Stakeholder Management, Agile (SAFe) — proven leadership in mentoring, project delivery, and cross-functional collaboration with global data science and analytics teams.
+
+
+PROFESSIONAL EXPERIENCE
+​General Mills India Pvt. Ltd.   
+Lead Data Engineer / MLOps Specialist
+Aug 2022 – Present | Mumbai, Maharashtra, India (Hybrid)
+Led the design and development of the Scenario Planning Tool for forecasting baseline and promotional sales volumes using a two-stage hybrid model (ARIMA+, Linear Regression), improving forecast precision.
+Designed ML and Data pipelines on GCP (BigQuery, Dataflow, Composer) to support large-scale forecasting and high-availability workloads, enabling near real-time sales and demand insights.
+Developed and productionized time series models (ARIMA+, SARIMA, Prophet) in Vertex AI and Kubeflow for ingestion, feature engineering, hyperparameter tuning, training, evaluation, inference, and deployment.
+Refactored (R to Python and monolithic to modularized) and automated Vertex AI pipelines for batch and online prediction, incorporating weighted-average logic for display bins, improving accuracy and flexibility.
+Built modular, reusable transformation pipelines using dbt with embedded data-quality tests, lineage tracking, and governance controls in BigQuery, ensuring transparent, auditable, and compliant ML operations.
+Implemented enterprise-grade CI/CD automation via GitHub Actions + Vertex AI + Kubeflow, triggering end-to-end pipeline runs on code or image updates, ensuring reproducible deployments across environments.
+Developed dbt-based modular transformation pipelines with data-quality tests, schema enforcement, and RLS/CLS for secured access in BigQuery.
+Managed Artifact Registry for secure, versioned storage and deployment of containerized (Docker) ML environments, supporting consistent pipelines.
+Mentored a cross-functional team of engineers and analysts, promoting best practices in time-series modeling, CI/CD, governance, observability, and automation, driving MLOps maturity.
+Modernized legacy workflows into GCP-native, version-controlled architectures, improving scalability, reliability, and developer productivity while reducing manual workload.
+Skills: VertexAI · BigQuery · MLOps · Kubeflow · MLFlow · Docker · GKE · Airflow · Dataflow · Dataproc
+ 
+Vodafone India Services Pvt. Ltd.
+GCP Data Engineer / Analyst
+Aug 2020 – Aug 2022 | Pune, Maharashtra, India (Hybrid)
+Migrated enterprise data pipelines from ANT → MySQL → Teradata and from Teradata/Hadoop → GCS → BigQuery, improving query efficiency and reducing latency.
+Designed and implemented ETL pipelines using GCP DataFusion for cleansing, deduplication, and transformation workflows with improved maintainability.
+Optimized BigQuery performance using partitioning, clustering, and cost-aware query design.
+Developed and orchestrated Apache Airflow DAGs (Composer) for dynamic Dataproc cluster management and PySpark job submission.
+Skills: Teradata · MySQL · AWS Lambda · ANT · Alibaba Cloud · Hive · PySpark · Google BigQuery
+ 
+Sears Holdings India Pvt. Ltd.
+GCP Data Engineer / ETL & DWH Specialist
+Aug 2014 – Aug 2020 | Pune, Maharashtra, India (On-site)
+Built Enterprise Data Warehouse
+Automated ingestion and transformation for 50+ data sources using config-driven pipelines, improving scalability and reducing batch processing time by 40%.
+Achieved 99.9% pipeline uptime while optimizing costs via auto-scaling Dataflow pipelines, BQ reservations, and Coldline/Archive storage strategies.
+Migrated and provisioned data from HDFS, Oracle, SAP, Teradata to GCP BigQuery using TPT, Sqoop, gsutil, and bq CLI, ensuring reliability and consistency.
+Architected PySpark-based transformation pipelines converting heterogeneous data (Flat/JSON/XML) into AVRO format directly consumed by BigQuery.
+Designed real-time ingestion using Pub/Sub → Dataflow, implementing watermarking, windowing, and side inputs for streaming analytics.
+Skills: Google BigQuery · Python · PySpark · Hive · Sqoop · GitLab · Dataproc · Spanner
+ 
+Infosys Ltd.
+Data Management and Operations Lead (Oracle, Teradata, Informatica, Autosys)
+Jul 2013 – Aug 2014 | Pune, Maharashtra, India (On-site)
+Led and managed a 20-member cross-functional team across Oracle, Teradata, and Informatica, driving full lifecycle delivery of data integration and analytics solutions.
+Directed reverse engineering and source-to-target mapping from Informatica Designer, improving documentation, maintainability, and data traceability.
+Implemented data validation and reconciliation frameworks to detect and recover missing or failed records in sales and purchase order workflows.
+Skills: Teradata · Informatica · Oracle · Autosys
+ 
+IBM India Pvt. Ltd.
+ETL/DWH Developer (Teradata & Oracle Data Integrator)
+Jul 2012 – Jul 2013 | Pune, India
+Developed a Teradata Stored Procedure (Scheduler) framework to streamline ETL orchestration, improving efficiency and scalability of daily batch runs. That handles alerting for data latency, failure, and throughput issues.
+Configured Oracle Data Integrator (ODI) and Teradata environments, including driver setup, reverse engineering, global filter application, and transformation logic.
+Skills: Teradata · Oracle Data Integrator (ODI)
+
+Barclays Global Service Centre
+Analyst – ELT / DWH (Teradata, Mainframe)
+Jul 2010 – Jul 2012 | Pune, Maharashtra, India
+Developed Teradata (Mainframe) BTEQ scripts for SCD1 and SCD2 implementations, ensuring historical data accuracy and auditability.
+Resolved data integrity and reconciliation issues in financial systems (e.g., Novated Agreements, Missing Deals).
+Supported BASEL II to BASEL III transition, ensuring regulatory compliance and accurate capital reporting.
+Skills: Teradata · Mainframe · BTEQ · SQL
+ 
+Wipro Infotech Ltd.
+Data Engineer – ELT / DWH (Teradata, Oracle PL/SQL)
+Jul 2009 – Jun 2010 | Mumbai, Maharashtra, India
+Designed procedures to extract and transfer data from three databases (LOBs) via FTP, automating multi-source data delivery.
+Customized FSLDM models per business requirements and implemented SCD1/SCD2 logic for warehouse data management.
+Conducted data quality checks (BODI) on source systems using PL/SQL and DUMP utilities, ensuring clean and accurate loads.
+Skills: Teradata · SAP BusinessObjects · Oracle PL/SQL · BODI
+ 
+Exilant Technologies Pvt. Ltd.
+Software Engineer (Java Developer | SQL)
+Jun 2007 – Jul 2009 | Bangalore, India
+Developed in-house projects like VIVO, eRAD, TIME, and WHO, enhancing internal productivity and system visibility.
+Supported workflow automation and configuration, integrating backend data validation with front-end dashboards.
+Skills: Java · JavaScript · PL/SQL · Oracle · T-SQL · Teradata SQL
+ 
+CERTIFICATIONS
+ROI Training – GCP Fundamentals: Core Infrastructure (2016)
+ROI Training – Google BigQuery for Data Analytics (2016)
+Google Cloud Professional Data Engineer (2021)
+SAFe 5 Agilist (2022)
+Google Cloud Professional Data Architect (2023)
+ROI Training – Build & Deploy ML Solutions on Vertex AI (2023)
+Application Development with LLMs on Google Cloud (2025)
+
+PERSONAL DETAILS
+Name: Mangesh Kumar Soni
+Location: Pune, Maharashtra, India
+Email: mangeshsoni82@gmail.com
+Mobile: +91 9325855569
+LinkedIn: linkedin.com/in/mangesh-soni-4a405216

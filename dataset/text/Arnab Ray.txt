@@ -1,0 +1,41 @@
+Arnab Ray
++91 8939336693 | ay733943@gmail.com | www.arnabray.in | github.com/arnabuchiha
+Experience
+
+Senior Application Developer	April 2022 – Present
+Oracle India	Bengaluru, India
+Re-engineered the Integrator’s Engine and UI transitioning from Java Servlets to Spring Boot, improving the scalability and maintainability of the core workflows and also updated the frontend to OJET.
+Designed a memory offloading strategy for large payload processing and began introducing off heap patterns to reduce OutOfMemory failures in high volume runs. Additionally made DB calls optimizations leading to overall reduction of memory overhead by around 50 %.
+Implemented a circuit breaker mechanism to stop unnecessary transaction attempts, preventing DB connection and thread lockups and reducing resource-stuck failures by nearly 50% in the shared Weblogic environment.
+
+Implemented an in-memory cache synchronization layer using Kafka Streams so configuration and metadata changes propagate across engine nodes within seconds.
+Built a hybrid logging system that streams to OpenSearch and application managed block storage, cutting debug environment setup time from about 40 minutes to a few seconds.
+Systems Engineer - Digital	Nov. 2020 – April 2022
+Tata Consultancy Services (TCS)	Hyderabad, India
+Worked on the Boeing EnCore Galley Configuration Studio using ASP.Net MVC, Entity Framework and SQL Server to build backend features that handled configuration data, validations and approval workflows.
+Developed Angular components and built a portable adjustable-coordinate module that allowed accurate placement and marking of galley containers in the visual cutout view, allowing responsive view including all devices.
+
+Integration replaced a slow, paper-based review cycle. The full configuration and approval process dropped from about three days to just a few minutes, improving clarity for customers and reducing engineering overhead.
+Projects
+Second Hand Auction System | Microservice, Express, Socket.IO, Redis, Message Queue, Redlock, Event-Driven Design
+Built a decoupled microservice architecture using Socket.io and Redis Pub/Sub to synchronize real-time price drops for thousands of concurrent users.
+Eliminated bidding race conditions by implementing Redlock distributed locking and internal queuing, ensuring atomic state transitions during peak traffic.
+Designed a fault-tolerant recovery system that persists auction state in Redis/MongoDB, enabling seamless session resumption and data integrity after crashes. LINK
+DrMonka | React Native, Express, Socket-io, MongoDB, Firebase
+Developed a cross-platform mobile app using React Native, implementing real-time video/voice consultations via WebRTC and instant messaging through Socket.io.
+Architected an appointment booking and doctor discovery system utilizing MongoDB, enabling seamless profile management. LINK
+Algorithm Visualizer | React.js
+React App to visualise multiple algorithms which includes Sorting (Selection Sort, Merge Sort, Quick Sort), Pathfinding (Dijkstra) and ConvexHull (Graham’s Scan). LINK
+Education
+SRM Institute of Science and Technology	Chennai, India
+B.Tech in Computer Science and Engineering (86.16%)	2016 – 2020
+Technical Skills
+Languages: Java, JavaScript, TypeScript, SQL, HTML/CSS
+Frameworks: Spring Boot, Node.js, React.js, React Native, Express
+Technologies/Tools: Microservices, Docker, Kubernetes, Kafka, Redis, MongoDB, Git
+
+Achievements
+Published: ”Skin Lesion Classification With Deep Convolutional Neural Network: Process Development and Validation”, JMIR Dermatology (2020)
+Winner: Hitsathon v2.0 (Hindustan Institute of Technology and Science)
+Finalist: TATA Innovista 2021
+Received Technical Excellence Award and Best Team Award at TCS

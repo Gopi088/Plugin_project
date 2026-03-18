@@ -1,0 +1,138 @@
+📋 Tribera Resume Evaluation Framework
+Version 2.1 | Internal Use Only
+
+🔎 Executive Summary
+Purpose
+To ensure that every candidate's resume is evaluated consistently, accurately, and credibly before screening or submission.
+This framework combines human judgment and AI-driven rule checks to identify authentic, experienced, and in-depth candidates.
+Structure
+🟢 Core 9 Categories (Total: 66 Rules) – Mandatory evaluation dimensions for all profiles.
+🟡 Optional 3 Categories (Total: 14 Rules) – Contextual checks depending on role, JD, or domain.
+Total Rules: 80 (52 Mandatory / 15 Optional / 13 Positive Boosts)
+Legend
+
+🟢 CORE 9 CATEGORIES (66 RULES)
+
+1. Experience Timeline Integrity (8 Rules)
+Validate chronology, stability, and authenticity of employment.
+❌ Claimed vs. calculated experience mismatch > 1.5 years.
+❌ Overlapping full-time roles (unless dual payroll proof).
+❌ Backward or invalid dates (e.g., Feb 2018 – Jan 2017).
+❌ Unexplained gaps > 6 months.
+⚠️ Multiple short stints (< 12 months each) within one year → possible role inflation.
+⚠️ Too-clean transitions (12M/24M/36M) → artificial smoothing.
+⚠️ < 1 month gap between education & first job (unless campus placement).
+✅ Stable tenure (2–4 years) → credibility boost.
+
+2. Must-Have Skills Depth (7 Rules)
+Assess depth, authenticity, and continuity of key technical skills.
+❌ Depth < 3 (“applied in project”) on any must-have skill.
+❌ Skill only name-dropped (score = 1) with no project context.
+⚠️ Used without clarity (score = 2) → probe further.
+✅ Depth 3 = Applied in project with context/tools.
+✅ Depth 4 = Architected / mentored / optimised (ownership).
+✅ At least one must-have skill should reach depth 4 for senior roles (8Y+).
+❌ Inconsistent skill claims across roles.
+
+3. Project Ownership & Realism (7 Rules)
+Measure real contribution, ownership, and measurable impact.
+❌ Missing ownership in ≥ 2 major projects.
+❌ No measurable KPIs or outcomes.
+❌ No team or scope context (scale, team size).
+❌ Inflated ownership (“architected enterprise platform” in 6M role).
+⚠️ Overly generic bullets repeated across projects (“responsible for X”).
+✅ Clear personal accountability and differentiation from team/company work.
+✅ Quantified KPIs (latency ↓40%, throughput ↑3x, cost ↓20%).
+
+4. Language & Tone Realism (8 Rules)
+Detect AI-written tone, over-polished phrasing, or vague resumes.
+❌ Polished but vague tone with no specifics.
+❌ Entirely passive voice across roles.
+❌ Obvious GPT-template phrasing (“leveraged synergies”, “orchestrated outcomes”).
+⚠️ > 3 vague or buzzword-heavy statements.
+⚠️ Repeated phrasing across roles (> 6 times).
+❌ Inflated metrics (“95% accuracy” reused).
+⚠️ Overused generic verbs (> 10x: “responsible for”, “worked on”).
+✅ Balanced tone (mix of technical depth + business outcomes).
+
+5. Credibility & Authenticity Signals (7 Rules)
+Ensure employer, education, and role data are verifiable.
+❌ Employer vs. client mismatch (vendor claiming client).
+❌ > 2 payroll/vendor layers.
+❌ Full-time job during full-time education (unless justified).
+⚠️ LinkedIn missing or newly created (< 3 months).
+⚠️ Fake-sounding email ID.
+⚠️ Employer branding contradiction (Tier-3 vendor → FAANG claim).
+✅ Clear, verifiable employers and clients.
+
+6. Proxy / Clone Detection (7 Rules)
+Identify cloned or AI-generated resumes.
+❌ Resume cloned (known template).
+❌ Repeated identical achievements across roles.
+❌ Cloned + reused KPIs → auto-reject.
+⚠️ Resume formatting too uniform.
+⚠️ Phrase reuse across projects.
+⚠️ AI tone shift mid-resume (half passive, half detailed).
+✅ Organic variation in phrasing and project style.
+
+7. Education & Foundational Background (6 Rules)
+Validate education credibility and logical career foundation.
+❌ Fake or unverifiable institution.
+❌ Full-time education overlapping full-time role.
+⚠️ < 1 month gap post-education → suspicious unless campus hire.
+⚠️ Irrelevant degree (note but not penalize).
+✅ Premium institute → credibility boost.
+✅ Logical transition (education → entry → progression).
+
+8. Leadership & Career Progression (5 Rules)
+Evaluate trajectory, growth, and evidence of leadership.
+❌ Flat career over 8+ years.
+❌ Repeated lateral roles with no progression story.
+✅ Promotion within same company (Engineer → Sr. Engineer → Lead).
+✅ Scope growth: mentoring, stakeholder management, design authority.
+✅ Leadership activities (hiring, mentoring, tech talks).
+
+9. Pedigree & Macro Signals (6 Rules)
+Assess overall employer quality and trajectory.
+❌ Repeated downgrade in employer quality.
+❌ Job-hopping across Tier-3 vendors.
+✅ Employer trajectory improves (Tier-3 → Tier-2 → Tier-1).
+✅ Multiple Tier-1 employers → strong signal.
+✅ Premium education + Tier-1 experience → high trust.
+⚠️ Mixed pedigree → neutral outcome.
+
+🟡 OPTIONAL 3 CATEGORIES (14 RULES)
+
+10. Tools & Certification Validation (6 Rules)
+Verify authenticity, relevance, and context of certifications.
+❌ Fake or irrelevant certifications.
+❌ Laundry list of certifications without project link.
+❌ “Pursuing” certification > 6 months old.
+⚠️ Tool overload (> 15 tools in short role).
+✅ OEM certifications (AWS, GCP, Azure, Oracle) → credibility boost.
+✅ Tools clearly tied to project outcomes.
+
+11. JD Alignment & Broadness (3 Rules)
+Ensure resume aligns with required and optional JD expectations.
+✅ Broad JD → confirm with recruiter whether to cluster or evaluate equally.
+❌ Missing must-have skills → auto-reject.
+⚠️ JD too generic → mark as “equal weight” evaluation.
+
+12. Domain / Industry Relevance (3 Rules)
+Check domain alignment for industry-specific roles.
+❌ No domain exposure where mandated (e.g., BFSI).
+⚠️ Adjacent domain only (e.g., telecom vs BFSI).
+✅ Multiple domain-relevant roles → credibility boost.
+
+🧾 Summary Insights
+Strict Rejection Rules (❌)
+Experience overclaims, fake education, missing must-have depth, proxy/clone templates, inflated ownership, payroll chains, irrelevant certifications, and pedigree downgrades.
+Warning Rules (⚠️)
+Vague tone, short stints, tool overload, buzzword overuse, adjacent domains, generic JDs, or unclear depth.
+Positive Rules (✅)
+Promotion within company, Tier-1 employers, stable tenure, measurable KPIs, depth-4 mastery, premium education, and OEM certifications.
+
+Total Rules: 80
+❌ 37 Mandatory Rejects
+⚠️ 30 Warnings / Optional Checks
+✅ 13 Credibility Boosts

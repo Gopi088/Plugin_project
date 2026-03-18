@@ -1,0 +1,234 @@
+Mobile no:- 7828708872
+Email:- raj73424@gmail.com	Raushan Kumar
+
+PROFESSIONAL SYNOPSIS
+As a Data Scientist, having decent knowledge of statistical analysis, machine learning techniques to extract valuable insights from complex datasets. With a solid understanding of data engineering and visualization, which is key for transforming raw data into actionable intelligence, driving informed decision-making within organizations.
+Hands-on experience in data science, Machine learning, and AI development. Proven expertise in developing and deploying advanced Generative AI models, including experience with LangChain, Strands, Agentic AI and Retrieval-Augmented Generation (RAG). Strong technical skills in Python, NLP, and cloud platforms (Azure, AWS, Google Cloud), with a passion for staying at the forefront of generative AI advancement.
+Proficient in programming languages such as Python for model development and various Python frameworks and libraries, with a strong ability to solve complex problems and deliver high-quality code.
+Experience in developing predictive models to drive informed decision-making.
+Excellent Knowledge of Regression Algorithms in Machine Learning, Linear Regression, Logistic Regression, Support Vector Regression, Decision Tree Regression, Random Forest Regression
+Software Development professional with 7+ years of experience using various languages like Python, C.
+TECHNICAL SKILLS
+
+
+Languages	Python, SQL, C, MATLAB Operating Systems	 Windows, Linux
+Database	SQL,Chroma DB, Pinecone DB, Data Bricks
+Technologies	Machine Learning, Deep Learning, Generative AI, Natural Language Processing (NLP), Data Analysis, Data Preprocessing, Embedded IOT, Dataiku.
+Flask, Fast API, Vector Databases (Chroma, Pinecone), DataIKU, CDF (Cognite data fusion),
+Tools	Docker, CDF (Cognite Data Fusion), DataIku
+
+
+Microcontroller Programming
+Microcontroller Programming- Intel’s 8051, PIC16F and PIC18F, AVR Microcontroller ARM
+(LPC2148), ARDUINO, Atmega8,16,16,32.
+
+
+IDE for Firmware	VS Code (Visual Studio), Jupiter Notebook, PyCharm, Keil, MP Lab x Serial Buses	UART, I2C, SPI, CAN (CAN Controller MCP2515.)
+Python/ML Packages	NumPy, Pandas
+
+
+Visualization Techniques
+Power-BI, Matplotlib, Seaborn
+
+Cloud Platforms	Azure, Google Cloud, AWS,
+
+ORGANISATIONAL SCAN
+
+Organization		Designation		Duration Birlasoft (India) Ltd.	Senior Software Engineer	June 2023 to present.
+
+PROJECTS EXECUTED
+
+SmartForge AI-PTC
+
+Role	Sr Software Developer
+Tools used	VS Code, AWS Bedrock, Docker, GitHub, Strands, FasttAPI, Mangum
+
+Synopsis
+Developed an intelligent agent-based system that enables users to perform complex Product Lifecycle Management (PLM) tasks on Windchill using natural language commands. The solution leverages AWS Bedrock for LLM capabilities, AWS Strands for agentic orchestration, and a custom MCP protocol adapter to bridge communication between the agent and Windchill APIs. The system was deployed as a set of microservices using AWS Lambda and Docker, ensuring scalability and modularity.
+Role & Responsibilities:
+Designed an innovative AI solution: Developed an agentic AI layer using AWS Strands and AWS Bedrock to interpret and execute natural language instructions for Windchill PLM tasks. Built a scalable, serverless FastAPI system on AWS Lambda, integrating AWS Bedrock’s Claude Sonnet model to enable natural language-driven interactions with platforms such as Apriso and Windchill.
+Developed AI Agent: Developed an intelligent agent using AWS Bedrock’s Claude Sonnet to process
+natural language queries and route tasks to appropriate tools.
+Implemented APIs: Developed RESTful APIs for user queries and MES interactions, using Pydantic for validation and CORS for front-end support.
+Developed Secure Middleware Designed and implemented a bi-directional MCP adapter to translate between MCP and Windchill-native formats, enabling robust and compatible communication.
+Built MCP Adaptor: Developed middleware to translate agent requests to Windchill-native formats, (compatible formats), ensuring secure API calls with CSRF tokens.
+Built Intelligent Integration Tools: Converted agent instructions into API requests using a custom
+MCP protocol, ensuring seamless integration with Windchill.
+Integrated Tools: Designed various modular tool functions, for tasks like part creation, updation and more, with standardized payloads and robust error handling.
+Enhanced Security: Managed AWS credentials and environment variables to ensure secure, production-ready deployments.
+Optimized Performance: Conducted rigorous testing and performance tuning to deliver a scalable, reliable system for industrial use.
+Containerized & Deployed Services: Containerized microservices using Docker and deployed them as AWS Lambda functions, managing images via AWS ECR for scalability and seamless updates.
+Documented and Collaborated: Produced clear documentation and collaborated with UI teams to ensure smooth integration and usability.
+
+Cummins Copilot using GenAI
+Role	Sr Software Developer
+Tools used	VS Code, Jupyter notebook, Microsoft SQL Server, Azure Open Al (GPT4o), SQL Server, pyodbc, GitHub, LangChain, Flask
+Synopsis
+The project aims at creating a system for Cummins that utilizes Azure OpenAI (GPT4o) to transform natural language queries into SQL queries. enabling seamless data retrieval from a SQL Server database. The system allows users to query operational metrics using everyday language, streamlining access to plant and production line data for non-technical users. The system is intended to simplify and facilitate data retrieval processes by allowing users to communicate with databases, hence making the process of queries more efficient and accessible.
+
+Role & Responsibilities:
+
+Create algorithms to analyze and understand user queries effectively.
+Develop algorithms to analyze and understand user queries effectively.
+Implemented secure SQL Server connections using pyodbc, retrieving plant and line metadata and executing queries to fetch operational metrics with high accuracy.
+Improve AI models for better accuracy and efficiency in query conversion.
+Design and maintain the database schema to support natural language queries.
+Develop APIs and guarantee smooth integration with front-end interfaces.
+Design and perform test processes for SQL queries generated by AI.
+Check query outputs match expected results.
+Validate query results against expected outcomes.
+
+Monitor system performance and address operational issues promptly.
+Updating the test case as per the review comments.
+Drafting various Delivery Documents required for the project Release.
+Experience of version control Tools like Git.
+AI Agent-Driven Intelligent Document Processing (IDP) System/ Tyler-Tech
+Role	Sr Software Developer
+Tools used	VS Code, Mistral-8x7B-Instruct, LangChain, Mistral-generated embeddings, MongoDB, Qdrant, FastAPI, GitHub
+
+Synopsis
+To build an end-to-end, AI Agent-driven Intelligent Document Processing (IDP) system capable of autonomously classifying, parsing, and extracting structured data from scanned and digital documents using Large Language Models (LLMs) and modern orchestration techniques. The solution aimed to eliminate manual intervention, reduce processing time, and enhance data accuracy across high-volume document workflows.
+Role & Responsibilities:
+Designed and implemented an end-to-end AI Agent workflow to process scanned and digital documents, leveraging multi-step orchestration from classification to structured data extraction.
+Developed a Folder Watch service that monitors designated directories (local/network) and automatically triggers the document processing pipeline upon file arrival, eliminating manual intervention.
+Engineered a domain and subcategory classification agent using LLMs to categorize incoming documents (e.g., Finance → investments,), dynamically selecting the appropriate prompt set for extraction.
+Integrated a Prompt Retrieval Agent linked to MongoDB, enabling contextual prompt selection based on classification results, with support for 79+ dynamic prompts indexed by prompt ID and metadata.
+Built a LLM Extraction Agent using Mistral-8x7B-Instruct to extract structured information from chunked document content and deliver clean YAML/JSON outputs.
+Used Lang chain’s Unstructured module and page-wise chunking strategy to handle scanned and OCR-based PDFs with rich metadata tagging.
+Embedded chunked data into a Qdrant vector store, supporting semantic search and retrieval, with MongoDB used to persist file metadata and extraction results.
+Designed the system as a Dockerized microservices architecture, supporting scalability and modular deployment.
+Integrated a web UI for searchable access to processed documents, complete with classified metadata and structured extraction output display.
+Daikin MTO (Birlasoft)
+Role	Sr Software Developer
+Tools used	 VS Code, Jupyter Notebook, Flask GitHub, and SharePoint, Language	Python
+Synopsis
+The project involves staff augmentation to implement Daikin's Make-to-Order (MTO) process. The primary objective is to develop a prototype that demonstrates the feasibility and functionality of the MTO process using a Bill of Materials (BOM) for DAHU. The project will be developed using Python and Flask for API creation, with data stored in a local SQL database.
+
+Role & Responsibilities:
+Requirement gathering, Requirement analysis, Requirement development,
+To carry out Exploratory Data Analysis,
+Performed Univariate and Multivariate analysis.
+Participated in various meetings to discuss Enhancement and Modification Requests.
+Designing, Developing and Executing Test cases to validate the functionality of the application.
+Updating the test case as per the review comments.
+Debugging and troubleshooting Python Code
+Drafting various Delivery Documents required for the project Release.
+Expertise with Microsoft products (Excel, Word, Visio, etc)
+Experience of version control Tools like Git.
+MRF Product Design using GenAI (Birlasoft)
+Role	Sr Software Developer
+Tools used	VS Code, Microsoft SQL Server, Azure, Vanna.AI, GitHub
+
+Synopsis
+The project involves implementing a system for MRF (Madras Rubber Factory) that utilizes Azure Open Al to transform natural language queries into SQL queries. This system aims to streamline and enhance data retrieval processes by allowing users to interact with databases using everyday language, thereby improving query efficiency and accessibility.
+Role & Responsibilities:
+Implement Azure Open Al services for natural language understanding (NLU) and SQL query generation.
+Develop algorithms to process and interpret user queries.
+Optimize Al models for accuracy and performance in query conversion.
+Design and maintain the database schema to support natural language queries.
+Develop APIs and Integrate with Front-end APIs.
+Plan and execute testing procedures for Al-generated SQL queries.
+Validate query results against expected outcomes.
+Monitor system performance and address operational issues promptly.
+Updating the test case as per the review comments.
+Drafting various Delivery Documents required for the project Release.
+Experience of version control Tools like Git
+Ultra Tech Smart Factory to Increase Throughput (Birlasoft)
+Role: Data scientist Domain: Manufacturing
+Synopsis:
+Enhancing Throughput, improving consumption of Alternate Fuel Resource (AFR) and optimizing overall Specific Energy Consumption (SEC) through informed insights and proactive measures in smart process monitoring to minimize fluctuations in process parameters.
+Role & Responsibilities:
+Developed AI-ML Model to achieve increment in Production of Cement by handling all the Control and Resultant parameters in their optimum range and also handle their cascading effects.
+Leveraged machine learning algorithms and statistical techniques to develop predictive models and perform data analysis on large-scale datasets.
+Conducted Exploratory Data Analysis to discover patterns, trends, and insights for informing strategic decision-making.
+Implemented data preprocessing techniques, data cleaning, to ensure data quality and accuracy.
+Feature engineering, correlation and covariance of different features with respect to each other. Conducted statistical analysis to identify patterns and trends in the data, enabling the team to make data-driven decisions.
+Developed machine learning models for various applications, including customer segmentation, prediction, and demand forecasting.
+Implemented different optimizers like Genetic Algorithm based Differential Evolution, basin hopping,
+etc. as per model’s requirement.
+Implemented ANN (Artificial Neural Network) for Multi-Output and Input (MMR) data for finding the relation between the parameters.
+Used ANN to find the weights and biases of particular element.
+Implemented Pipeline of the models to build a project Modules.
+Conducted unit testing for diverse conditions to ensure the reliability of functionality.
+Developed functional blocks proficiently using Python, contributing to the overall functionality and efficiency.
+Prepared and presented daily statistical reports with respect to optimized TPH, AFR and SEC to stakeholders, summarizing findings, insights, and actionable recommendations.
+
+
+Weatherford OT Model Conversion (Birlasoft)
+
+Duration	June 2023 to Jan 2024
+Role	Software Developer
+Tools used	 VS Code, Jupyter Notebook, GitHub, and SharePoint, Language	Python
+Synopsis
+Weatherford, an Oil and Gas Company operating in the MATLAB domain, currently utilizes Desktop applications for all their operations. However, in an effort to transition these Desktop applications into Web applications, and considering that MATLAB does not support this
+
+transition, we have undertaken the conversion of all MATLAB codes into Python. The Python codes will be seamlessly integrated into the Web applications.
+
+Role & Responsibilities:
+To carry out Exploratory Data Analysis,
+Performed Univariate and Multivariate analysis.
+Calculated RFM (Recency, Frequency, Monetary) features and RFM rankings
+Data Scaling, Data transformation
+plotted graphs using matplotlib and seaborn, Power-BI.
+Requirement gathering, Requirement analysis, Requirement development,
+Participated in various meetings to discuss Enhancement and Modification Requests.
+Designing, Developing and Executing Test cases to validate the functionality of the application.
+Updating the test case as per the review comments.
+Debugging and troubleshooting the C and Python Code
+Drafting various Delivery Documents required for the project Release.
+Expertise with Microsoft products (Excel, Word, Visio, etc)
+Experience of version control Tools like Git.
+
+FORD BODY MODULE (Driver Seat Module) (TCS) March 2021 to May 2023
+Role	Embedded Software engineer
+Tools used:	C, MATLAB, JIRA, GitHub, and SharePoint, FTIDE
+
+Synopsis
+Power seat is the front driver and/or Passenger seat of car which can be adjusted with motors. To make seat more comfortable, it can be adjusted by different seat movement. This feature has switches to control the movement of the driver’s seat in up to ten possible directions. On receiving request from switch movement command is generated to move the seat in particular direction.
+Role & Responsibilities
+Learned basics of Model Based Design in MATLAB in DSM. Developing unit models as per functional specification.
+Performing unit model testing And Functional Testing using Panel.
+Work under the V-Cycle model process using MATLAB (Simulink, State Flow) - R2016b, R2018b,
+R2019b, and R2021b.
+Reviewing the developed Unit models and test cases comply with the functional specification.
+Drafting various Delivery Documents required for the project Release.
+Model based development -MATLAB Simulink /State flow modelling, Model-based
+Autosaur component creation, Integration testings’ Fs Design
+Development and implementation of Functional based on
+requirements/specification
+Requirement gathering, Requirement analysis, Requirement development,
+Debugging and troubleshooting the C Code
+Expertise with Microsoft products (Excel, Word, Visio, etc)
+Functional testing and Code/Model coverage testing
+Understanding of DSM Functionality, Aware of MAAB Guidelines
+Knowledge of panel testing, Knowledge of MIL Testing
+Experience of version control Tools like Git.
+•usWinogrkMeAdToLnABporting C software to MATLAB Models and then auto code generation
+ROBOPACK (Gridboats Technologies) Aug 21 – Feb 22
+Developed On	C
+Tool and IDE used	Programmer Notepad, Key Cad.
+Role & Responsibilities
+Requirement gathering, Requirement analysis, Requirement development,
+Debugging and troubleshooting the C Code
+Expertise with Microsoft products (Excel, Word, Visio, etc)
+Deploying various programming languages like C, Python, Performance Testing & Enhancement.
+Creating technical presentations to brief the employees about the usage of complex tools and techniques Writing code to improve the functionality of the software and designing device driver software. Tracking the changes in coding by deploying version control tools such as Git etc.
+R&D Engineer (Darshan Heat Electrical Pvt Ltd) Dec 17 - Aug 21 Synopsis
+Developed an advanced autonomous robot for warehouse trolley transportation, leveraging 3D vision and LiDAR for precise, fully autonomous navigation. The Trolley-Matik robot handles payloads from 100 kg to 2000 kg,
+
+using 3D camera-based localization and safe align technology to latch trolleys accurately. Features include dynamic obstacle avoidance, minimal turning radius, automatic battery management, system health monitoring, and a fleet management system for multiple robots.
+Role & Responsibilities
+Requirement gathering, Requirement analysis, Requirement development,
+Debugging and troubleshooting the C Code
+Expertise with Microsoft products (Excel, Word, Visio, etc)
+Deploying various programming languages like C, Python, Performance Testing & Enhancement.
+Creating technical presentations to brief the employees about the usage of complex tools and techniques Writing code to improve the functionality of the software and designing device driver software. Tracking the changes in coding by deploying version control tools such as Git etc.
+Troubleshooting and diagnostics
+Education
+BE (Bachelor of Engineering) - Aisect University from Electronics & Communication Engineering in 2017 with First class grade A.
+
+HSC- GJ college-Science – 59% SSC- Rajkiya high school – 59%
+Contact details
+Mobile no.	7828708872
+Email	krraushan1415@gmail.com
+Certification: IBM Machine learning, IBM Generative AI Engineering, Generative AI from I Neuron.

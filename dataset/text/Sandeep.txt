@@ -1,0 +1,110 @@
+OMS Interview Preparation Guide
+Technical Readiness + How to Answer
+Purpose of this document
+This guide is meant to organise what you already know, not teach you new things or give scripted answers.
+Use it as a mental checklist so your answers are clear, structured, and aligned with what OMS typically looks for.
+
+1. How OMS Interviews (Reality Check)
+OMS interviews are project-centric and practical.
+They are trying to understand: - Have you built real systems end-to-end? - Do you understand workflows, validation, and reliability? - Can you explain your work clearly to other engineers?
+They are not testing: - DSA / algorithms - Framework internals - Deep distributed-systems theory
+
+2. How to Structure Any Technical Answer (Very Important)
+Whenever you are asked about any feature, module, or project, mentally structure your answer in this order:
+Context – What problem was being solved?
+Responsibility – What did you build or own?
+Approach – How was it designed at a high level?
+Reliability / Validation – How did you ensure correctness?
+Outcome – What improved or changed?
+Avoid starting answers with framework internals.
+
+3. Project Discussion (Core of the Interview)
+What OMS Expects
+You should be able to explain one major project clearly, end-to-end.
+They will probe: - Business workflow - Frontend → Backend → Database flow - Validation & error handling - One real production issue you fixed
+Recommended Project to Lead With
+Power Access H2H (Axis Bank) or Sahara (Govt workflow system)
+When explaining the project, ensure you cover: - Who the users are - What workflow the system supports - How Angular and Spring Boot interact - How failures are handled
+
+4. Backend (Spring Boot) — What to Be Clear About
+You should be comfortable explaining:
+Architecture
+Controller → Service → Repository separation
+Why business logic belongs in services
+APIs
+REST endpoint design
+Request validation (bean validation, checks in service layer)
+Error responses and HTTP status codes
+Error Handling
+Global exception handling
+Custom exceptions
+Logging for debugging
+Security (High Level)
+Authentication vs authorization
+JWT-based security flow (conceptual)
+Avoid deep dives into Spring filter chains unless explicitly asked.
+
+5. Frontend (Angular) — OMS Level Expectations
+OMS expects clean, user-focused Angular usage.
+Be clear on: - Component vs service responsibilities - Form handling and validation - API integration using services - Showing loaders and error messages - Preventing double submit
+When answering UI questions: - Start with user flow - Mention error handling - Keep explanations simple
+
+6. Database & Data Handling
+What They Look For
+Correct data modeling
+Validation at backend
+Pagination for large datasets
+Indexing (high level)
+If asked about MongoDB: - Explain when document DBs are useful - Show conceptual understanding - Focus on schema design and pagination
+
+7. Reliability, Performance & Debugging
+You should be ready to discuss: - One performance improvement (caching, pagination, pooling) - One production bug you fixed
+When explaining an issue: 1. What went wrong 2. How you detected it (logs / monitoring) 3. What you changed 4. How you prevented recurrence
+Avoid listing too many tools; focus on reasoning.
+
+8. Communication & Presentation Tips
+Pause before answering broad questions
+Do not jump into internals immediately
+It’s okay to say you’ll check logs or involve seniors
+Keep answers structured
+Avoid: - Overusing buzzwords - Explaining internals unless asked
+
+9. Final Mental Checklist
+Before each answer, check: - Did I explain the problem first? - Did I clarify my responsibility? - Did I mention validation and error handling? - Is my answer clear and concise?
+
+10. OMS Tech Readiness Checklist (Last-Mile Prep)
+Backend – Spring Boot
+Be confident explaining: - Layered architecture - DTO vs Entity - Validation and custom exceptions - Global exception handling - Basic JWT security flow
+
+REST APIs & Data Flow
+Be able to walk through: - One API end-to-end - Error handling and status codes - Pagination
+
+Frontend – Angular
+Be comfortable with: - Forms and validation - API calls via services - Loaders and error messages - Preventing duplicate submissions
+
+Database (MongoDB / SQL)
+Be clear on: - When to use MongoDB vs SQL - Indexing (conceptual) - Pagination
+
+Reliability & Debugging
+Prepare one clear story: - Bug or performance issue - Root cause - Fix - Prevention
+
+11. Focus Areas Based on Screening Discussion
+The following emphasis areas are based on your screening conversation and are meant to improve clarity, not change your experience.
+Answer Structure (High Priority)
+You tend to start with internal framework flow. Instead: - Start with the business problem - Then explain high-level flow - Mention internals only if asked
+
+Spring Boot Internals
+You clearly understand Spring internals. For OMS: - Keep explanations at architectural level - Avoid deep filter-chain or servlet lifecycle descriptions unless requested
+
+Angular Error Handling
+Ensure you explicitly mention: - Loaders during API calls - User-friendly error messages - Disabled submit to prevent duplicates
+
+Database & Performance Positioning
+You have worked with: - Pagination - Redis caching - Connection pooling
+When explaining performance: - Focus on why changes were made - Avoid tool-heavy explanations
+
+Strengths to Lean Into
+Make sure you surface these clearly: - Workflow-heavy projects (Banking, Govt systems) - Production debugging experience - Performance optimization (pooling, pagination) - CI/CD exposure
+
+Closing Note
+If you explain your work calmly, starting from the problem and ending with reliability, you’ll be well aligned with OMS expectations.
