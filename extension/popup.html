@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+body { font: 14px/1.45 system-ui, sans-serif; width: 320px; padding: 12px; color: #111; }
+h3 { margin: 0 0 8px; }
+.row { margin: 8px 0; }
+input[type=text] { width: 100%; box-sizing: border-box; }
+button { cursor: pointer; }
+#health { font-weight: 700; }
+.ok { color: #15803d; } .bad { color: #b91c1c; }
+small { color: #555; }
+</style>
+</head>
+<body>
+<h3>Resume Timeline</h3>
+<div class="row">Backend: <span id="health">checking…</span></div>
+<div class="row"><label>API base<br><input type="text" id="apiBase" value="http://127.0.0.1:8000"></label></div>
+<div class="row"><button id="save">Save</button></div>
+<hr>
+<div class="row"><label>Resume file<br><input type="file" id="file" accept=".pdf,.docx,.txt"></label></div>
+<div class="row"><button id="upload">Analyze file</button></div>
+<div class="row"><label>Resume URL<br><input type="text" id="url" placeholder="https://…/resume.pdf"></label></div>
+<div class="row"><button id="sendUrl">Analyze URL</button></div>
+<div class="row" id="out"><small>Results open in the page sidebar; the document id is kept below.</small></div>
+<div class="row" id="summary"></div>
+<div class="row"><button id="view" disabled>Open in page sidebar</button></div>
+<script src="api.js"></script>
+<script src="popup.js"></script>
+</body>
+</html>
