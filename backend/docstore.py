@@ -42,6 +42,11 @@ def connect(path=DEFAULT_DB):
     os.makedirs(os.path.dirname(path), exist_ok=True)
     cx = sqlite3.connect(path)
     cx.executescript(SCHEMA)
+    # additive migration for DBs created before candidate storage
+    try:
+        cx.execute("ALTER TABLE documents ADD COLUMN candidate TEXT DEFAULT ''")
+    except Exception:
+        pass
     return cx
 
 
@@ -52,10 +57,13 @@ def new_doc_id():
 def save_result(cx, ctx, overall):
     now = time.time()
     cx.execute(
-        "INSERT OR REPLACE INTO documents VALUES(?,?,?,?,?,?,?,?)",
+        "INSERT OR REPLACE INTO documents"
+        "(doc_id,filename,source,status,created,pages,chars,model_versions,candidate)"
+        " VALUES(?,?,?,?,?,?,?,?,?)",
         (ctx.doc_id, ctx.filename, ctx.source, overall, now,
          ctx.meta.get("pages", 0), ctx.meta.get("char_count", 0),
-         json.dumps(dict(ctx.model_versions))))
+         json.dumps(dict(ctx.model_versions)),
+         (ctx.recruiter_output or {}).get("candidate_name", "")))
     for name, r in ctx.stage_results.items():
         cx.execute(
             "INSERT OR REPLACE INTO stages VALUES(?,?,?,?,?,?,?)",
@@ -90,9 +98,23 @@ def get_status(cx, doc_id):
             "stages": [{"stage": s[0], "status": s[1], "confidence": s[2]} for s in stages]}
 
 
+def _ym(value):
+    """Normalize stored dates ('(2025, 5)', '[2025, 5]', '2025-05') -> 'YYYY-MM'."""
+    import re
+    if not value or value in ("None", ""):
+        return None
+    m = re.search(r"\(?\[?(\d{4})\s*,\s*(\d{1,2})\]?\)?", str(value))
+    if m:
+        return f"{int(m.group(1)):04d}-{int(m.group(2)):02d}"
+    m = re.search(r"(\d{4})-(\d{1,2})", str(value))
+    if m:
+        return f"{int(m.group(1)):04d}-{int(m.group(2)):02d}"
+    return str(value)
+
+
 def get_timeline(cx, doc_id):
     """Recruiter DTO rebuilt from storage + stored feedback applied."""
-    doc = cx.execute("SELECT filename,status FROM documents WHERE doc_id=?", (doc_id,)).fetchone()
+    doc = cx.execute("SELECT filename,status,candidate FROM documents WHERE doc_id=?", (doc_id,)).fetchone()
     if not doc:
         return None
     events = [dict(zip(("id", "type", "title", "org", "start", "end",
@@ -101,8 +123,11 @@ def get_timeline(cx, doc_id):
                   "SELECT event_id,type,title,org,start,end,precision,status,confidence"
                   " FROM events WHERE doc_id=?", (doc_id,)).fetchall()]
     # dated events form the visual timeline; undated ones stay visible but separate
-    timeline = [e for e in events if e.get("start") and e["start"] != "None"]
-    unresolved = [e for e in events if not (e.get("start") and e["start"] != "None")]
+    timeline = []
+    unresolved = []
+    for e in events:
+        e["start"], e["end"] = _ym(e.get("start")), _ym(e.get("end"))
+        (timeline if e["start"] else unresolved).append(e)
     gaps = [dict(zip(("id", "start", "end", "months", "state", "confidence",
                        "reasons", "evidence"), r))
             for r in cx.execute(
@@ -114,6 +139,10 @@ def get_timeline(cx, doc_id):
                 g[k] = json.loads(g[k])
             except Exception:
                 pass
+        g["start"] = _ym(g.get("start")) or g.get("start")
+        g["end"] = _ym(g.get("end")) or g.get("end")
+        if g["start"] and g["end"]:
+            g["start_label"], g["end_label"] = g["start"], g["end"]
     fb = cx.execute(
         "SELECT dismissed_gap_ids,overrides,notes FROM feedback WHERE doc_id=? ORDER BY id",
         (doc_id,)).fetchall()
@@ -133,6 +162,7 @@ def get_timeline(cx, doc_id):
             if g["state"] == "POTENTIAL_GAP":
                 g["state"] = "DISMISSED_GAP"
     return {"doc_id": doc_id, "filename": doc[0], "status": doc[1],
+            "candidate_name": doc[2] or "",
             "timeline": timeline, "unresolved_events": unresolved, "gaps": gaps,
             "recruiter_overrides": overrides,
             "disclaimer": ("Potential gaps mark periods with no clearly represented "

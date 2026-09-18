@@ -202,6 +202,61 @@ def _looks_like_entry_start(line):
     return False
 
 
+def _segment_section(sec_id, sec_kind, header_text, bids, by_id, entries, warnings):
+    """Segment one section's blocks into entries. Returns leftover (bid, line)
+    pairs that belong to an inferred PROJECTS section (EXPERIENCE only)."""
+    cur_lines, cur_bids, pending, pending_ids = [], [], [], []
+    leftover = []
+
+    def flush():
+        if cur_lines:
+            eid = f"e{len(entries)}"
+            entries.append(M.Entry(eid, sec_id, " ".join(cur_lines),
+                                   list(cur_bids), len(entries)))
+
+    for bid in bids:
+        b = by_id.get(bid)
+        if b is None:
+            continue
+        line = b.text.strip()
+        if not line or line.strip(":").upper() == header_text.strip(":").upper():
+            continue
+        # A numbered project inside EXPERIENCE starts inferred PROJECTS content:
+        # never let project metadata become employment entries.
+        if sec_kind == "EXPERIENCE" and (PROJECT_HEAD.match(line) or leftover):
+            if cur_lines:
+                flush()
+                cur_lines, cur_bids = [], []
+            leftover.append((bid, line))
+            continue
+        if NAV_PAT.search(line):
+            if cur_lines:
+                flush()
+                cur_lines, cur_bids = [], []
+            continue
+        if _looks_like_entry_start(line):
+            if cur_lines:
+                flush()
+            cur_lines = pending + [line]
+            cur_bids = pending_ids + [bid]
+            pending, pending_ids = [], []
+        elif line.startswith("•") and cur_lines:
+            cur_lines.append(line)
+            cur_bids.append(bid)
+        elif cur_lines:
+            cur_lines[-1] += " " + line
+        else:
+            pending.append(line)
+            pending_ids.append(bid)
+    if cur_lines:
+        flush()
+    elif pending:
+        eid = f"e{len(entries)}"
+        entries.append(M.Entry(eid, sec_id, " ".join(pending), list(pending_ids), len(entries)))
+        warnings.append(f"section {sec_kind}: entry without dated header preserved as-is")
+    return leftover
+
+
 def s04_entry_segmentation(ctx):
     """Input: sections+blocks. Output: entries preserving text + location."""
     if not ctx.sections:
@@ -209,50 +264,20 @@ def s04_entry_segmentation(ctx):
                    errors=["no sections"])
     by_id = {b.id: b for b in ctx.blocks}
     entries, warnings = [], []
+    inferred = []  # (bid, line) pairs for a synthetic PROJECTS section
     for sec in ctx.sections:
         if sec.kind not in ("EXPERIENCE", "EDUCATION", "PROJECTS"):
             continue
-        cur_lines, cur_bids, pending, pending_ids = [], [], [], []
-
-        def flush():
-            if cur_lines:
-                eid = f"e{len(entries)}"
-                entries.append(M.Entry(eid, sec.id, " ".join(cur_lines),
-                                       list(cur_bids), len(entries)))
-
-        for bid in sec.block_ids:
-            b = by_id.get(bid)
-            if b is None:
-                continue
-            line = b.text.strip()
-            if not line or line.strip(":").upper() == sec.header_text.strip(":").upper():
-                continue
-            if NAV_PAT.search(line):
-                if cur_lines:
-                    flush()
-                    cur_lines, cur_bids = [], []
-                continue
-            if _looks_like_entry_start(line):
-                if cur_lines:
-                    flush()
-                cur_lines = pending + [line]
-                cur_bids = pending_ids + [bid]
-                pending, pending_ids = [], []
-            elif line.startswith("•") and cur_lines:
-                cur_lines.append(line)
-                cur_bids.append(bid)
-            elif cur_lines:
-                cur_lines[-1] += " " + line
-            else:
-                pending.append(line)
-                pending_ids.append(bid)
-        if cur_lines:
-            flush()
-        elif pending:
-            eid = f"e{len(entries)}"
-            entries.append(M.Entry(eid, sec.id, " ".join(pending), list(pending_ids), len(entries)))
-            warnings.append(f"section {sec.kind}: entry without dated header preserved as-is")
-    # fix placeholder bids: entries store real block ids only
+        rest = _segment_section(sec.id, sec.kind, sec.header_text,
+                                sec.block_ids, by_id, entries, warnings)
+        inferred.extend(rest)
+    if inferred:
+        proj_sec = M.Section("s-inf", "PROJECTS", "inferred projects",
+                             [bid for bid, _ in inferred], 0.6, "SECTION_INFERRED")
+        ctx.sections.append(proj_sec)
+        warnings.append(f"{len(inferred)} lines moved to inferred PROJECTS section")
+        _segment_section(proj_sec.id, "PROJECTS", proj_sec.header_text,
+                         proj_sec.block_ids, by_id, entries, warnings)
     ctx.entries = entries
     if not entries:
         return _sr("entry_segmentation", status="PARTIAL", confidence=0.3,
@@ -565,6 +590,7 @@ def s12_recruiter_output(ctx):
     dto = {
         "doc_id": ctx.doc_id,
         "filename": ctx.filename,
+        "candidate_name": _guess_candidate_name(ctx),
         "status": overall,
         "timeline": dto_events,
         "unresolved_events": [
@@ -588,6 +614,28 @@ def s12_recruiter_output(ctx):
 def by_en_text(ctx, entry_id):
     e = ctx.entries_by_id().get(entry_id)
     return (e.text[:300] if e else "")
+
+
+def _guess_candidate_name(ctx):
+    """Heuristic display name only (first content line); never used in logic."""
+    skip = {"detailed info", "professional summary", "summary", "objective",
+            "contact", "resume", "curriculum vitae", "profile"}
+    for ln in (ctx.raw_text or "").split("\n")[:8]:
+        s = ln.strip()
+        if not s or "@" in s or "linkedin" in s.lower() or "github" in s.lower():
+            continue
+        if re.search(r"(19|20)\d{2}|present|years|experience|engineer|developer|mob|phone|india", s.lower()):
+            m = re.split(r"[–—\-|]", s)[0].strip()
+            parts = m.split()
+            if 2 <= len(parts) <= 4 and re.match(r"^[A-Za-z .]+$", m):
+                return m.title()
+            continue
+        cand = re.split(r"[–—\-|]", s)[0].strip()
+        if cand.lower() in skip:
+            continue
+        if 2 <= len(cand.split()) <= 4 and re.match(r"^[A-Za-z .]+$", cand):
+            return cand.title()
+    return ""
 
 
 def _overall_status(ctx):

@@ -15,6 +15,26 @@ Detection, in order: PDF/DOCX file URL → embedded PDF → ATS/HTML resume text
 offers file upload or URL submit. The original page is never modified — the UI
 is a dismissible side dock.
 
+## Recruiter UI (attention-first)
+
+The panel consumes a recruiter view-model (`viewmodel.js`), never raw DTOs:
+
+- **Summary card** — CLEAR / ATTENTION / REVIEW / insufficient-evidence, with
+  candidate name, headline, and counts. Understood in ~5 seconds.
+- **Tabs** — Overview (attention items only) · Timeline (visual vertical
+  timeline, year-grouped, expandable cards) · Review (badge-counted).
+- **Gap cards** — status → dates → duration; confidence verbalized
+  (High confidence / Needs review / Low confidence); numeric detail hidden in
+  Advanced. Presentation priority (HIGH/REVIEW/LOW) comes from configurable
+  `attentionRules` (duration + confidence) — backend results stay source of truth.
+- **Review cards** — one per ambiguous/unresolved finding, never a text dump.
+- **Evidence drawer** — Why? (bounding activities) + resume quotes with page
+  numbers, date mentions, association status; numeric confidence under Advanced.
+- **Actions** — Confirm / Mark as explained / Needs follow-up / Dismiss, each
+  with optional note, stored as feedback (evidence itself is never modified).
+- Footer disclaimer stays subtle; status is always icon + label + color;
+  `Esc` closes; all styling via `--status-*` design tokens.
+
 ## Review / override
 
 - **Evidence** expands the full chain: event → entry → date association → date

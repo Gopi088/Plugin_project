@@ -34,7 +34,7 @@ async function summarize(docId, label) {
   const gaps = (dto.gaps || []).filter((g) => g.state === "POTENTIAL_GAP");
   $("out").innerHTML =
     `<small>Analyzed <code>${docId}</code> (${dto.status}): ` +
-    `${dto.timeline.length} dated events, ${gaps.length} potential gap(s).</small>`;
+    `${dto.timeline.length} dated events, ${gaps.length} potential unrepresented period(s).</small>`;
   $("summary").innerHTML =
     `<small>${esc(dto.timeline.map((e) => `${e.start}→${e.end} ${e.title}`).join("<br>")) || "No dated roles."}` +
     (gaps.length ? `<br>Gaps: ${esc(gaps.map((g) => `${g.start}→${g.end} (${g.months}m)`).join("; "))}` : "") +

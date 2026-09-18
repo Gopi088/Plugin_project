@@ -1,5 +1,5 @@
-/* Content script: detect resume on the page, inject non-intrusive UI,
-   send content to backend via the service worker, render timeline. */
+/* Content script: detect resume, analyze via backend, render the
+   attention-first recruiter UI (see viewmodel.js for the presentation model). */
 (() => {
   if (window.__rtInjected) return;
   window.__rtInjected = true;
@@ -10,52 +10,62 @@
       return r;
     });
 
-  // ------------------------------------------------ detection
+  // ------------------------------------------------ detection (unchanged)
   function detect() {
     const url = location.href;
     if (/\.(pdf|docx?)(\?|#|$)/i.test(url))
-      return { kind: "document-url", url, note: "Resume file opened in browser" };
+      return { kind: "document-url", url };
     const pdfEmbed = document.querySelector(
       'embed[type="application/pdf"], object[type="application/pdf"], embed[src*=".pdf"]'
     );
     if (pdfEmbed?.src || pdfEmbed?.data)
-      return { kind: "document-url", url: pdfEmbed.src || pdfEmbed.data, note: "Embedded resume PDF" };
-    // HTML resume (ATS profile / web CV): needs Experience + Education + dates.
+      return { kind: "document-url", url: pdfEmbed.src || pdfEmbed.data };
     const text = (document.body?.innerText || "").slice(0, 60000);
     const hasExp = /professional experience|work experience|employment/i.test(text);
     const hasEdu = /education|academic|qualification/i.test(text);
     const hasDate = /(19|20)\d{2}/.test(text);
     if (hasExp && hasEdu && hasDate && text.length > 1500)
-      return { kind: "page-text", text, note: "Resume content found on page" };
+      return { kind: "page-text", text };
     const link = [...document.querySelectorAll("a[href]")].find((a) =>
       /\.(pdf|docx?)(\?|#|$)/i.test(a.href)
     );
-    if (link) return { kind: "document-url", url: link.href, note: "Resume link on page" };
+    if (link) return { kind: "document-url", url: link.href };
     return null;
   }
 
-  // ------------------------------------------------ UI shell
-  function el(tag, cls, html) {
-    const e = document.createElement(tag);
-    if (cls) e.className = cls;
-    if (html != null) e.innerHTML = html;
-    return e;
-  }
+  // ------------------------------------------------ helpers
   const esc = (s) =>
     String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const setPanel = (html) => { document.getElementById("rt-panel").innerHTML = html; };
+  const head = (name, chip) =>
+    `<div class="rt-head"><div><div class="rt-title">Resume Timeline</div>` +
+    `<div class="rt-candidate">${esc(name || "")}</div></div>` +
+    `<div class="rt-head-r">${chip || ""}<button class="rt-x" id="rt-close" aria-label="Close panel">✕</button></div></div>`;
+  const body = (inner) => `<div class="rt-body">${inner}</div>`;
+  const foot = () => `<div class="rt-disc">Potential gaps indicate periods not clearly represented in the resume. They do not establish unemployment.</div>`;
+  const bindClose = () => {
+    const b = document.getElementById("rt-close");
+    if (b) b.onclick = () => togglePanel(false);
+  };
 
   function ensureUI() {
     if (document.getElementById("rt-pill")) return;
-    const pill = el("button", "rt-pill", "Timeline");
+    const pill = document.createElement("button");
+    pill.className = "rt-pill";
     pill.id = "rt-pill";
+    pill.textContent = "Timeline";
     pill.title = "Resume Timeline & Gap Detection";
     pill.addEventListener("click", () => togglePanel());
     document.documentElement.appendChild(pill);
-
-    const panel = el("aside", "rt-panel rt-hidden");
+    const panel = document.createElement("aside");
+    panel.className = "rt-panel rt-hidden";
     panel.id = "rt-panel";
+    panel.setAttribute("role", "dialog");
     panel.setAttribute("aria-label", "Resume timeline panel");
     document.documentElement.appendChild(panel);
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") togglePanel(false);
+    });
   }
 
   function togglePanel(force) {
@@ -65,203 +75,411 @@
     if (show) start();
   }
 
-  function setPanel(html) {
-    document.getElementById("rt-panel").innerHTML = html;
-  }
-
-  // ------------------------------------------------ flow
+  // ------------------------------------------------ state + flow
   let currentDoc = null;
+  let vm = null;
+  let activeTab = "overview";
+  const expanded = new Set();   // "gap:<id>" | "ev:<id>"
+  const evCache = {};           // gapId -> chain
+  const noteOpen = new Set();   // "note:<kind>:<id>:<decision>"
+
+  const STEPS = ["Reading resume", "Finding dated activities", "Building timeline", "Checking represented periods"];
 
   async function start() {
-    setPanel(`<div class="rt-head"><strong>Resume Timeline</strong><button class="rt-x" id="rt-close">✕</button></div>
-      <div class="rt-body"><div class="rt-loading">Detecting resume…</div></div>`);
-    document.getElementById("rt-close").onclick = () => togglePanel(false);
-    let det;
+    activeTab = "overview";
+    expanded.clear();
     let apiBase = "http://127.0.0.1:8000";
     try {
       const s = await chrome.storage.local.get("apiBase");
       if (s.apiBase) apiBase = s.apiBase;
-    } catch (e) {
-      /* storage unavailable; keep default */
-    }
+    } catch (e) { /* keep default */ }
+    setPanel(head("", "") + body(`<div class="rt-steps" role="status" aria-live="polite">${STEPS.map((s, i) => `<div class="rt-step" data-step="${i}"><span class="rt-spin"></span>${esc(s)}…</div>`).join("")}</div>`));
+    bindClose();
+    const tick = (i) => {
+      const n = document.querySelector(`#rt-panel [data-step="${i}"]`);
+      if (n) { n.classList.add("rt-done"); n.innerHTML = `<span class="rt-tick">✓</span>${esc(STEPS[i])}`; }
+    };
     try {
       await send({ type: "rt-health" });
     } catch (e) {
-      return setPanel(head() + body(`<div class="rt-err">Backend not reachable at <code>${apiBase.replace(/[<>&"]/g, "")}</code>.<br>Start it with<br><code>venv/bin/python backend/server.py</code><br>and match the API base in the extension popup.</div>`));
+      return setPanel(head("", "") + body(`<div class="rt-err">Backend not reachable at <code>${esc(apiBase)}</code>.<br>Start it with<br><code>venv/bin/python backend/server.py</code><br>and match the API base in the extension popup.</div>`)) + bindClose();
     }
-    det = detect();
+    const det = detect();
     if (!det) {
-      return setPanel(head() + body(`<div class="rt-err">No resume detected on this page.</div>
-        <div class="rt-hint">Open a PDF/DOCX resume, an ATS candidate page, or upload a file from the extension popup.</div>`));
+      return setPanel(head("", "") + body(`<div class="rt-err">No resume detected on this page.</div>
+        <div class="rt-hint">Open a PDF/DOCX resume, an ATS candidate page, or upload a file from the extension popup.</div>`)) + bindClose();
     }
-    setPanel(head() + body(`<div class="rt-loading">Processing ${esc(det.note.toLowerCase())}…</div>`));
+    tick(0);
     try {
-      let payload;
-      if (det.kind === "page-text") {
-        payload = { filename: "page-resume.txt", text: det.text, source: "extension-text" };
-      } else if (det.url.startsWith("file://")) {
-        // Local file: the backend cannot reach this disk, so read the bytes
-        // here (works with "Allow access to file URLs") and upload them.
-        const resp = await fetch(det.url);
-        if (!resp.ok) throw new Error(`cannot read local file (${resp.status})`);
-        const bytes = new Uint8Array(await resp.arrayBuffer());
-        let bin = "";
-        for (let i = 0; i < bytes.length; i += 8192)
-          bin += String.fromCharCode(...bytes.subarray(i, i + 8192));
-        const name = decodeURIComponent(det.url.split("/").pop().split("?")[0]) || "resume";
-        payload = { filename: name, content_b64: btoa(bin), source: "extension-file" };
-      } else {
-        payload = {
-          filename: det.url.split("/").pop().split("?")[0] || "resume",
-          source_url: det.url,
-          source: "extension-url",
-        };
-      }
+      const payload = await buildPayload(det);
+      tick(1);
       const sub = await send({ type: "rt-submit", payload });
       currentDoc = sub.doc_id;
       await chrome.storage.local.set({ lastDocId: currentDoc });
-      await renderTimeline(currentDoc);
+      tick(2);
+      const dto = await send({ type: "rt-timeline", docId: currentDoc });
+      tick(3);
+      show(dto);
     } catch (e) {
-      const picked = det && det.url && det.url.startsWith("file://");
-      setPanel(head() + body(`<div class="rt-err">Analysis failed: ${esc(e.message)}</div>
-        ${picked ? `<div class="rt-hint">Chrome blocked direct reading of this local file. Pick it below instead — analysis runs the same pipeline:</div>
-        <div class="rt-row"><input type="file" id="rt-file" accept=".pdf,.docx,.txt"><button id="rt-go">Analyze</button></div>`
-        : `<div class="rt-hint">The resume may be scanned (OCR needed) or the URL may block server-side fetch — try uploading the file via the popup.</div>`}`));
-      bindClose();
-      const go = document.getElementById("rt-go");
-      if (go) go.onclick = panelUpload;
+      showError(det, e);
     }
+  }
+
+  async function buildPayload(det) {
+    if (det.kind === "page-text")
+      return { filename: "page-resume.txt", text: det.text, source: "extension-text" };
+    if (det.url.startsWith("file://")) {
+      const resp = await fetch(det.url);
+      if (!resp.ok) throw new Error("local-file-blocked");
+      const bytes = new Uint8Array(await resp.arrayBuffer());
+      let bin = "";
+      for (let i = 0; i < bytes.length; i += 8192)
+        bin += String.fromCharCode(...bytes.subarray(i, i + 8192));
+      const name = decodeURIComponent(det.url.split("/").pop().split("?")[0]) || "resume";
+      return { filename: name, content_b64: btoa(bin), source: "extension-file" };
+    }
+    return {
+      filename: det.url.split("/").pop().split("?")[0] || "resume",
+      source_url: det.url,
+      source: "extension-url",
+    };
+  }
+
+  function showError(det, e) {
+    const picked = det && det.url && det.url.startsWith("file://");
+    setPanel(head("", "") + body(
+      `<div class="rt-err">Analysis failed: ${esc(picked ? "Chrome blocked reading this local file." : e.message)}</div>` +
+      (picked
+        ? `<div class="rt-hint">Pick the file below instead — same analysis:</div>
+           <div class="rt-row"><input type="file" id="rt-file" accept=".pdf,.docx,.txt" aria-label="Resume file"><button id="rt-go">Analyze</button></div>`
+        : `<div class="rt-hint">The resume may be scanned or the link may block fetching — try uploading via the popup.</div>`)
+    ));
+    bindClose();
+    const go = document.getElementById("rt-go");
+    if (go) go.onclick = panelUpload;
   }
 
   async function panelUpload() {
     const f = document.getElementById("rt-file")?.files[0];
     if (!f) return;
-    setPanel(head() + body(`<div class="rt-loading">Processing ${esc(f.name)}…</div>`));
+    setPanel(head("", "") + body(`<div class="rt-loading" role="status">Analyzing resume…</div>`));
     bindClose();
     try {
       const bytes = new Uint8Array(await f.arrayBuffer());
       let bin = "";
       for (let i = 0; i < bytes.length; i += 8192)
         bin += String.fromCharCode(...bytes.subarray(i, i + 8192));
-      const sub = await send({
-        type: "rt-submit",
-        payload: { filename: f.name, content_b64: btoa(bin), source: "extension-file" },
-      });
+      const sub = await send({ type: "rt-submit", payload: { filename: f.name, content_b64: btoa(bin), source: "extension-file" } });
       currentDoc = sub.doc_id;
       await chrome.storage.local.set({ lastDocId: currentDoc });
-      await renderTimeline(currentDoc);
+      show(await send({ type: "rt-timeline", docId: currentDoc }));
     } catch (e) {
-      setPanel(head() + body(`<div class="rt-err">Analysis failed: ${esc(e.message)}</div>`));
+      setPanel(head("", "") + body(`<div class="rt-err">Analysis failed: ${esc(e.message)}</div>`));
       bindClose();
     }
   }
 
-  const head = () =>
-    `<div class="rt-head"><strong>Resume Timeline</strong><button class="rt-x" id="rt-close">✕</button></div>`;
-  const body = (inner) => `<div class="rt-body">${inner}</div>`;
-
-  function bindClose() {
-    const b = document.getElementById("rt-close");
-    if (b) b.onclick = () => togglePanel(false);
+  // ------------------------------------------------ view-model render
+  function rules() {
+    return (window.RT_VM || {}).attentionRules || {};
   }
 
-  // ------------------------------------------------ render
-  async function renderTimeline(docId) {
-    const dto = await send({ type: "rt-timeline", docId });
-    bindNone();
-    const gaps = dto.gaps || [];
-    const events = dto.timeline || [];
-    const unres = dto.unresolved_events || [];
+  function show(dto) {
+    vm = RT_VM.mapTimelineResultToRecruiterViewModel(dto, { ...RT_VM.attentionRules, ...rules() });
+    vm._dto = dto;
+    render();
+  }
 
-    let statusBanner = "";
-    if (dto.status === "FAILED")
-      statusBanner = `<div class="rt-err">Processing failed — see details below. The resume may be scanned or empty.</div>`;
-    else if (events.length === 0)
-      statusBanner = `<div class="rt-warn">Insufficient evidence: no dated roles found. No gaps inferred.</div>`;
+  function statusChip() {
+    const m = {
+      ATTENTION: ["rt-chip-high", "⚠", "Attention"],
+      REVIEW: ["rt-chip-review", "?", "Review"],
+      INSUFFICIENT_EVIDENCE: ["rt-chip-review", "?", "Needs review"],
+      CLEAR: ["rt-chip-clear", "✓", "Clear"],
+    }[vm.overallStatus] || ["rt-chip-review", "?", ""];
+    return `<span class="rt-chip ${m[0]}" aria-label="Status: ${m[2]}"><span aria-hidden="true">${m[1]}</span> ${m[2]}</span>`;
+  }
 
-    const evHtml = events
-      .map((e) => `<li class="rt-ev"><span class="rt-dot"></span><div>
-        <div class="rt-ev-t">${esc(e.title || "Untitled")} ${e.org ? `<span class="rt-org">@ ${esc(e.org)}</span>` : ""}</div>
-        <div class="rt-ev-d">${esc(e.start || "?")} → ${esc(e.end || "?")} · ${esc(e.type)} · conf ${e.confidence}</div>
-      </div></li>`)
-      .join("");
+  function summaryCard() {
+    const icon = { ATTENTION: "⚠", REVIEW: "?", INSUFFICIENT_EVIDENCE: "?", CLEAR: "✓", FAILED: "✕" }[vm.docStatus === "FAILED" ? "FAILED" : vm.overallStatus];
+    if (vm.docStatus === "FAILED")
+      return `<section class="rt-sum rt-sum-review" aria-label="Summary"><div class="rt-sum-i" aria-hidden="true">✕</div>
+        <div><div class="rt-sum-h">Unable to build timeline</div><div class="rt-sum-s">The resume could not be processed reliably.</div>
+        <button data-nav="retry">Retry</button></div></section>`;
+    if (vm.overallStatus === "ATTENTION") {
+      const g = vm.highGaps[0];
+      return `<section class="rt-sum rt-sum-high" aria-label="Summary: attention needed"><div class="rt-sum-i" aria-hidden="true">⚠</div>
+        <div><div class="rt-sum-h">Attention needed</div>
+        <div class="rt-sum-s">${vm.counts.potentialGaps} potential unrepresented period${vm.counts.potentialGaps > 1 ? "s" : ""}</div>
+        <div class="rt-sum-big">${esc(g.range.start)} → ${esc(g.range.end)}</div>
+        <div class="rt-sum-dur">${g.months} months</div>
+        <div class="rt-sum-s">No activity is clearly represented during this period.</div>
+        <button data-nav="overview">Review</button></div></section>`;
+    }
+    if (vm.overallStatus === "INSUFFICIENT_EVIDENCE")
+      return `<section class="rt-sum rt-sum-review" aria-label="Summary: needs review"><div class="rt-sum-i" aria-hidden="true">?</div>
+        <div><div class="rt-sum-h">Timeline needs review</div>
+        <div class="rt-sum-s">Some dates could not be confidently interpreted.</div>
+        <div class="rt-sum-s">${vm.counts.reviewItems} item${vm.counts.reviewItems === 1 ? "" : "s"} need review</div>
+        <button data-nav="review">Review items</button></div></section>`;
+    if (vm.overallStatus === "REVIEW")
+      return `<section class="rt-sum rt-sum-review" aria-label="Summary: review"><div class="rt-sum-i" aria-hidden="true">?</div>
+        <div><div class="rt-sum-h">${esc(vm.headline)}</div><div class="rt-sum-s">${esc(vm.summary)}</div>
+        <button data-nav="review">Review</button></div></section>`;
+    return `<section class="rt-sum rt-sum-clear" aria-label="Summary: clear"><div class="rt-sum-i" aria-hidden="true">✓</div>
+      <div><div class="rt-sum-h">Timeline looks continuous</div>
+      <div class="rt-sum-s">${vm.counts.events} timeline events · ${vm.counts.potentialGaps} potential periods · ${vm.counts.reviewItems} need review</div>
+      <button data-nav="timeline">View timeline</button></div></section>`;
+  }
 
-    const gapHtml = gaps
-      .map((g) => {
-        if (g.state === "NO_GAP_DETECTED")
-          return `<div class="rt-ok">No gaps detected — continuous representation.</div>`;
-        if (g.state === "INSUFFICIENT_EVIDENCE")
-          return `<div class="rt-warn">Gap analysis not possible: ${esc((g.evidence && g.evidence.note) || "not enough dated events")}.</div>`;
-        if (g.state === "DISMISSED_GAP")
-          return `<div class="rt-muted">Dismissed by recruiter: ${esc(g.start)} → ${esc(g.end)} (${g.months}m).</div>`;
-        const quotes = (g.evidence_quotes || []).map((q) => `<blockquote>“${esc(q)}”</blockquote>`).join("");
-        return `<div class="rt-gap" data-gap="${esc(g.id)}">
-          <div class="rt-gap-t">Potential unrepresented period: ${esc(g.start)} → ${esc(g.end)} (${g.months} mo)</div>
-          <div class="rt-gap-c">confidence ${g.confidence} · reasons: ${esc((g.reasons || []).join(", "))}</div>
-          ${quotes}
-          <div class="rt-row">
-            <button data-act="evidence" data-gap="${esc(g.id)}">Evidence</button>
-            <button data-act="dismiss" data-gap="${esc(g.id)}">Dismiss</button>
-          </div>
-          <div class="rt-evbox rt-hidden" id="rt-ev-${esc(g.id)}"></div>
-        </div>`;
-      })
-      .join("");
+  function gapCard(g) {
+    const r = g.range || { start: "?", end: "?" };
+    const cls = g.priority === "HIGH" ? "rt-gap-high" : "rt-gap-review";
+    const tag = g.priority === "HIGH" ? "POTENTIAL UNREPRESENTED" : "POSSIBLE UNREPRESENTED";
+    const key = `gap:${g.id}`;
+    const open = expanded.has(key);
+    const dec = decisionFor("gap", g.id);
+    return `<article class="rt-gap ${cls}" aria-label="${tag}, ${r.start} to ${r.end}, ${g.months} months">
+      <div class="rt-gap-tag"><span aria-hidden="true">${g.priority === "HIGH" ? "⚠" : "?"}</span> ${tag}</div>
+      <div class="rt-gap-dates">${esc(r.start)} <span class="rt-gap-line" aria-hidden="true">──────</span> ${esc(r.end)}</div>
+      <div class="rt-gap-dur">${g.months} month${g.months === 1 ? "" : "s"}</div>
+      <div class="rt-gap-sub">No activity clearly shown during this period.</div>
+      ${dec ? `<div class="rt-dec">✓ ${esc(decLabel(dec.decision))}${dec.note ? ` — “${esc(dec.note)}”` : ""}</div>` : ""}
+      <div class="rt-row"><button data-act="why" data-id="${esc(g.id)}">${open ? "Hide" : "Why?"}</button>
+      <button data-act="evidence" data-id="${esc(g.id)}">Review evidence</button></div>
+      ${open ? whyBox(g) : ""}
+      <div class="rt-evbox rt-hidden" id="rt-ev-${esc(g.id)}"></div>
+      ${actionRow("gap", g.id)}
+    </article>`;
+  }
 
-    const unresHtml = unres.length
-      ? `<h4>Needs review (${unres.length})</h4><ul class="rt-unres">${unres
-          .map((e) => `<li>${esc(e.title || e.type)} ${e.org ? `@ ${esc(e.org)}` : ""}<br><small>${esc((e.entry_text || "").slice(0, 160))}</small></li>`)
-          .join("")}</ul>`
-      : "";
+  function whyBox(g) {
+    const chain = evCache[g.id];
+    const before = (chain?.links || [])[0]?.event;
+    const after = (chain?.links || [])[1]?.event;
+    const line = (ev) => ev ? `<div><strong>${esc(ev.title || "Untitled")}</strong>${ev.org ? ` · ${esc(ev.org)}` : ""}<br><small>${esc(fmtEv(ev))}</small></div>` : "<div><small>—</small></div>";
+    return `<div class="rt-why"><div class="rt-why-h">Why was this flagged?</div>
+      <div class="rt-why-r"><span>Previous represented activity</span>${line(before)}</div>
+      <div class="rt-why-r"><span>Next represented activity</span>${line(after)}</div>
+      <div class="rt-why-s">No dated activity was identified between these intervals.</div></div>`;
+  }
 
-    setPanel(head() + body(`
-      ${statusBanner}
-      <div class="rt-file">${esc(dto.filename)} · <span class="rt-status">${esc(dto.status)}</span></div>
-      <h4>Timeline (${events.length})</h4><ul class="rt-tl">${evHtml || "<li>—</li>"}</ul>
-      <h4>Unrepresented periods</h4>${gapHtml || "<div>—</div>"}
-      ${unresHtml}
-      <div class="rt-disc">${esc(dto.disclaimer || "")}</div>`));
+  function fmtEv(ev) {
+    const f = (s) => String(s || "").replace(/^\((\d+), (\d+)\)$/, (_, y, m) => `${y}-${String(m).padStart(2, "0")}`);
+    return `${f(ev.start)} → ${f(ev.end)}`;
+  }
+
+  function reviewCard(item, idx) {
+    const key = `rev:${idx}`;
+    const open = expanded.has(key);
+    const target = item.gap ? { kind: "gap", id: item.gap.id } : { kind: "event", id: item.event?.id };
+    const dec = target.id ? decisionFor(target.kind, target.id) : null;
+    return `<article class="rt-rev" aria-label="Needs review: ${esc(item.title)}">
+      <div class="rt-rev-tag"><span aria-hidden="true">?</span> ${item.kind === "GAP" ? "PERIOD NEEDS REVIEW" : item.kind === "DATE" ? "DATE NEEDS REVIEW" : "ENTRY NEEDS REVIEW"}</div>
+      <div class="rt-rev-t">${esc(item.title)}</div>
+      <div class="rt-rev-s">${esc(item.detail)}</div>
+      ${dec ? `<div class="rt-dec">✓ ${esc(decLabel(dec.decision))}${dec.note ? ` — “${esc(dec.note)}”` : ""}</div>` : ""}
+      <div class="rt-row"><button data-rev="${idx}">${open ? "Hide" : "Review"}</button></div>
+      ${open && item.event ? `<div class="rt-why"><blockquote>“${esc((item.event.entry_text || item.event.title || "").slice(0, 300))}”</blockquote>
+        <div><small>Confidence: ${esc(item.event.confidenceVerbal?.label || verbal(item.event.confidence))}</small></div></div>` : ""}
+      ${open && target.id ? actionRow(target.kind, target.id) : ""}
+    </article>`;
+  }
+
+  function verbal(c) {
+    if (c == null) return "Insufficient evidence";
+    if (c >= 0.75) return "High confidence";
+    if (c >= 0.5) return "Needs review";
+    return "Low confidence";
+  }
+
+  function decLabel(d) {
+    return { CONFIRMED: "Confirmed", EXPLAINED: "Marked as explained", FOLLOW_UP: "Flagged for follow-up", DISMISSED: "Dismissed" }[d] || d;
+  }
+
+  function decisionFor(kind, id) {
+    return (vm.decisions || []).filter((d) => d.target === `${kind}:${id}`).slice(-1)[0] || null;
+  }
+
+  function actionRow(kind, id) {
+    const key = (dec) => `note:${kind}:${id}:${dec}`;
+    const btns = [["CONFIRMED", "Confirm"], ["EXPLAINED", "Mark as explained"], ["FOLLOW_UP", "Needs follow-up"]]
+      .map(([d, l]) => `<button data-dec="${d}" data-kind="${kind}" data-id="${esc(id)}">${l}</button>`).join("") +
+      (kind === "gap" ? `<button data-dec="DISMISSED" data-kind="${kind}" data-id="${esc(id)}">Dismiss</button>` : "");
+    const openNote = [...noteOpen].find((k) => k.startsWith(`note:${kind}:${id}:`));
+    let noteHtml = "";
+    if (openNote) {
+      const dec = openNote.split(":").pop();
+      noteHtml = `<div class="rt-note"><input id="rt-note-in" placeholder="Note (optional)" aria-label="Decision note">
+        <button data-save="${esc(openNote)}">Save</button></div>`;
+    }
+    return `<div class="rt-actions" role="group" aria-label="Recruiter actions">${btns}</div>${noteHtml}`;
+  }
+
+  function eventCard(e) {
+    const key = `ev:${e.id}`;
+    const open = expanded.has(key);
+    const dec = decisionFor("event", e.id);
+    return `<li class="rt-tev" aria-label="${esc(e.title)}, ${esc(e.range.start)} to ${esc(e.range.end)}">
+      <span class="rt-tdot" aria-hidden="true">${esc(e.icon)}</span>
+      <div class="rt-tev-b"><button class="rt-tev-h" data-ev="${esc(e.id)}" aria-expanded="${open}">
+        <span class="rt-tev-o">${esc(e.org || e.title || "Untitled")}</span><br>
+        <span class="rt-tev-t">${esc(e.org ? e.title : e.type)} · ${esc(e.range.start)} – ${esc(e.range.end)}</span></button>
+      ${open ? `<div class="rt-tev-d"><small>Type ${esc(e.type)} · ${esc(e.confidenceVerbal.label)}${e.precision === "year" ? " · year precision" : ""}</small>
+        ${dec ? `<div class="rt-dec">✓ ${esc(decLabel(dec.decision))}</div>` : ""}${actionRow("event", e.id)}</div>` : ""}</div></li>`;
+  }
+
+  function timelineHtml() {
+    const evs = [...vm.timelineEvents].sort((a, b) => (a.start || "") < (b.start || "") ? -1 : 1);
+    let html = `<ol class="rt-tl">`, lastYear = "";
+    for (const e of evs) {
+      const y = (e.start || "").slice(0, 4);
+      if (y && y !== lastYear) { html += `<li class="rt-year" aria-hidden="true">${esc(y)}</li>`; lastYear = y; }
+      html += eventCard(e);
+    }
+    return html + "</ol>";
+  }
+
+  function render() {
+    const tabs = [["overview", "Overview", ""], ["timeline", "Timeline", vm.counts.events], ["review", "Review", vm.counts.reviewItems]]
+      .map(([k, l, n]) => `<button role="tab" aria-selected="${activeTab === k}" data-tab="${k}" class="${activeTab === k ? "rt-tab-on" : ""}">${l}${n ? ` <span class="rt-badge">${n}</span>` : ""}</button>`).join("");
+    let content = "";
+    if (activeTab === "overview") {
+      const attn = [...vm.highGaps, ...vm.reviewGaps].map(gapCard).join("");
+      const rev = vm.reviewItems.slice(0, 3).map(reviewCard).join("");
+      content = (attn || `<div class="rt-clear">✓ No potential unrepresented periods detected</div>`) +
+        (vm.counts.events ? `<div class="rt-counts">${vm.counts.events} timeline events${vm.counts.reviewItems ? ` · ${vm.counts.reviewItems} need review` : ""}</div>` : "") +
+        (rev ? `<h4>Needs review</h4>${rev}` : "") +
+        (vm.lowGaps.length ? `<details class="rt-more"><summary>Minor periods (${vm.lowGaps.length})</summary>${vm.lowGaps.map(gapCard).join("")}</details>` : "") +
+        (vm.dismissedGaps.length ? `<details class="rt-more"><summary>Dismissed (${vm.dismissedGaps.length})</summary>${vm.dismissedGaps.map((g) => `<div class="rt-muted">Dismissed: ${esc(g.start_label || g.start)} → ${esc(g.end_label || g.end)}</div>`).join("")}</details>` : "");
+    } else if (activeTab === "timeline") {
+      content = vm.timelineEvents.length ? timelineHtml()
+        : `<div class="rt-warn">No dated events — timeline cannot be drawn.</div>`;
+    } else {
+      content = vm.reviewItems.length ? vm.reviewItems.map(reviewCard).join("")
+        : `<div class="rt-clear">✓ Nothing needs review.</div>`;
+    }
+    setPanel(head(esc(vm.candidateName), statusChip()) + body(
+      summaryCard() +
+      `<div class="rt-counts" aria-label="Counts">${vm.counts.events} events · ${vm.counts.potentialGaps} potential periods · ${vm.counts.reviewItems} to review</div>
+       <div class="rt-tabs" role="tablist">${tabs}</div>
+       <div class="rt-tabbody" role="tabpanel">${content}</div>` + foot()
+    ));
     bindClose();
-    document.querySelectorAll("#rt-panel [data-act]").forEach((btn) => {
-      btn.onclick = () => onGapAction(btn.dataset.act, btn.dataset.gap);
+    bindAll();
+  }
+
+  function bindAll() {
+    document.querySelectorAll("#rt-panel [data-tab]").forEach((b) => {
+      b.onclick = () => { activeTab = b.dataset.tab; render(); };
+    });
+    document.querySelectorAll("#rt-panel [data-nav]").forEach((b) => {
+      b.onclick = () => {
+        const t = b.dataset.nav;
+        activeTab = t === "retry" ? activeTab : t;
+        if (t === "retry") start();
+        else render();
+      };
+    });
+    document.querySelectorAll("#rt-panel [data-act]").forEach((b) => {
+      b.onclick = () => onGapAction(b.dataset.act, b.dataset.id);
+    });
+    document.querySelectorAll("#rt-panel [data-rev]").forEach((b) => {
+      b.onclick = () => {
+        const k = `rev:${b.dataset.rev}`;
+        expanded.has(k) ? expanded.delete(k) : expanded.add(k);
+        render();
+      };
+    });
+    document.querySelectorAll("#rt-panel [data-ev]").forEach((b) => {
+      b.onclick = () => {
+        const k = `ev:${b.dataset.ev}`;
+        expanded.has(k) ? expanded.delete(k) : expanded.add(k);
+        render();
+      };
+    });
+    document.querySelectorAll("#rt-panel [data-dec]").forEach((b) => {
+      b.onclick = () => {
+        if (b.dataset.dec === "DISMISSED") return decide(b.dataset.kind, b.dataset.id, "DISMISSED", "");
+        const k = `note:${b.dataset.kind}:${b.dataset.id}:${b.dataset.dec}`;
+        noteOpen.has(k) ? noteOpen.delete(k) : noteOpen.add(k);
+        render();
+        const inp = document.getElementById("rt-note-in");
+        if (inp) inp.focus();
+      };
+    });
+    document.querySelectorAll("#rt-panel [data-save]").forEach((b) => {
+      b.onclick = () => {
+        // key format: note:<kind>:<id>:<DECISION> (kind/id contain no colons)
+        const parts = b.dataset.save.split(":");
+        const decision = parts.pop(), eid = parts.pop();
+        const ekind = parts.slice(1).join(":");
+        const note = document.getElementById("rt-note-in")?.value || "";
+        noteOpen.clear();
+        decide(ekind, eid, decision, note);
+      };
     });
   }
 
-  function bindNone() {
-    bindClose();
+  async function decide(kind, id, decision, note) {
+    if (!currentDoc) return;
+    const payload = { dismissed_gap_ids: [], overrides: [], notes: "" };
+    if (kind === "gap" && decision === "DISMISSED") payload.dismissed_gap_ids = [id];
+    else payload.overrides = [{ target: `${kind}:${id}`, decision, note, at: new Date().toISOString() }];
+    await send({ type: "rt-feedback", docId: currentDoc, payload });
+    show(await send({ type: "rt-timeline", docId: currentDoc }));
   }
 
   async function onGapAction(act, gapId) {
     if (!currentDoc) return;
-    if (act === "dismiss") {
-      await send({ type: "rt-feedback", docId: currentDoc, payload: { dismissed_gap_ids: [gapId], overrides: [], notes: "dismissed in browser" } });
-      await renderTimeline(currentDoc);
-    } else if (act === "evidence") {
+    if (act === "evidence") {
+      // toggle drawer; lazy-load chain once
       const box = document.getElementById(`rt-ev-${gapId}`);
-      if (!box) return;
-      if (!box.classList.contains("rt-hidden")) return box.classList.add("rt-hidden");
-      const ev = await send({ type: "rt-evidence", docId: currentDoc, params: { gap_id: gapId } });
-      const links = (ev.chain?.links || [])
-        .map((l) => `<div class="rt-link"><div><strong>${esc(l.event?.title || "")}</strong> @ ${esc(l.event?.org || "")}</div>
-          <div><small>assoc: ${esc((l.associations || []).map((a) => `${a.status}/${a.reason}`).join("; "))}</small></div>
-          <div><small>dates: ${esc((l.mentions || []).map((m) => m.raw).join("; "))}</small></div>
-          <blockquote>“${esc(l.entry_quote || "")}”</blockquote></div>`)
-        .join("");
-      box.innerHTML = links || "<small>No chain available.</small>";
-      box.classList.remove("rt-hidden");
+      if (!evCache[gapId]) {
+        if (box) box.innerHTML = `<small>Loading evidence…</small>`;
+        const ev = await send({ type: "rt-evidence", docId: currentDoc, params: { gap_id: gapId } });
+        evCache[gapId] = ev.chain;
+      }
+      const key = `gap:${gapId}`;
+      expanded.has(key) ? expanded.delete(key) : expanded.add(key);
+      render();
+      const box2 = document.getElementById(`rt-ev-${gapId}`);
+      if (box2) {
+        box2.classList.remove("rt-hidden");
+        box2.innerHTML = drawerHtml(gapId);
+        box2.querySelectorAll("[data-pagebtn]")?.forEach(() => {});
+      }
+    } else if (act === "why") {
+      const key = `gap:${gapId}`;
+      expanded.has(key) ? expanded.delete(key) : expanded.add(key);
+      render();
     }
   }
 
-  // ------------------------------------------------ boot (non-intrusive: pill only)
-  ensureUI();
+  function drawerHtml(gapId) {
+    const chain = evCache[gapId];
+    if (!chain || !chain.links) return "<small>No chain available.</small>";
+    return chain.links.map((l) => {
+      const pages = (l.text_blocks || []).map((b) => `p.${b.page}`).join(", ");
+      const dates = (l.mentions || []).map((m) => `“${esc(m.raw)}”`).join("; ") || "—";
+      const assoc = (l.associations || []).map((a) => `${a.status} (${esc(a.reason)})`).join("; ") || "—";
+      return `<div class="rt-link"><div><strong>${esc(l.event?.title || "")}</strong>${l.event?.org ? ` · ${esc(l.event.org)}` : ""}</div>
+        <blockquote>“${esc(l.entry_quote || "")}”</blockquote>
+        <div><small>Pages: ${esc(pages || "—")} · Dates: ${dates}</small></div>
+        <div><small>Association: ${assoc}</small></div>
+        <details class="rt-adv"><summary>Advanced</summary>
+        <div><small>Event confidence: ${l.event?.confidence ?? "—"} · Reasons: ${esc((l.event?.reasons || []).join(", "))}</small></div></details></div>`;
+    }).join("");
+  }
 
-  // Popup can ask an already-detected page to show a freshly uploaded doc.
+  // ------------------------------------------------ boot
+  ensureUI();
   chrome.runtime.onMessage.addListener((msg, _sender, reply) => {
     if (msg && msg.type === "rt-show-doc" && msg.docId) {
       currentDoc = msg.docId;
       togglePanel(true);
-      renderTimeline(msg.docId).then(
-        () => reply({ ok: true }),
+      send({ type: "rt-timeline", docId: msg.docId }).then(
+        (dto) => { activeTab = "overview"; show(dto); reply({ ok: true }); },
         (e) => reply({ _rtError: String(e.message || e) })
       );
       return true;
