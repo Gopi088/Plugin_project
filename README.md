@@ -31,7 +31,7 @@ venv/bin/python -m pip install -r requirements.txt
 Verify:
 
 ```bash
-venv/bin/python -m unittest discover -s tests   # expect OK (28 tests)
+venv/bin/python -m unittest discover -s tests
 ```
 
 ## Run the backend
@@ -51,7 +51,7 @@ Check `http://127.0.0.1:8000/health` → `{"ok": true, ...}`. **Keep this termin
 
 ## Use it (3 ways)
 
-1. **Auto (recommended):** open a resume PDF in Chrome → **Timeline** pill → panel analyzes automatically.
+1. **Auto (recommended):** open a resume PDF in Chrome → **Timeline** pill → panel analyzes automatically. If Chrome’s built-in PDF viewer hides the pill, click the pinned **Resume Timeline** extension icon: its popup analyzes the open file automatically.
 2. **Popup upload:** extension icon → Choose File → Analyze file → summary inline + *Open in page sidebar*.
 3. **CLI (no browser):** `venv/bin/python test_resume.py "dataset/resumes/GopalPrasad K.pdf"`
 
@@ -74,7 +74,7 @@ Retrain the assist model: `venv/bin/python scripts/train_timeline.py --epochs 8`
 | `ERR_CONNECTION_REFUSED` at `127.0.0.1:8000` | Backend isn't running — start it and keep the terminal open |
 | Windows Chrome + WSL backend refused | Admin PowerShell: `netsh interface portproxy add v4tov4 listenport=8000 listenaddress=127.0.0.1 connectport=8000 connectaddress=<WSL-IP>` (`hostname -I` in WSL); or set popup API base to `http://<WSL-IP>:8000` |
 | Pill missing on local PDF | Enable **Allow access to file URLs**; reload extension; reopen file |
-| `Analysis failed: Failed to fetch` (local file) | Panel shows a file picker fallback — pick the PDF there |
+| Local file cannot be read | Reload the extension, enable **Allow access to file URLs** in its Details, and reopen the PDF. The extension reads the open file directly. |
 | `table documents has N columns but M values` | Stale server — `Ctrl+C` and restart it (DB migrates itself) |
 | `externally-managed-environment` on pip | Use `venv/bin/python -m pip ...`, never bare `pip` |
 | `Manifest file is missing` on load unpacked | Select the `extension/` folder (the one containing `manifest.json`), not the project root |
@@ -91,3 +91,16 @@ dataset/          sample resumes + texts
 tests/            unittest suite (backend, API, extension checks)
 eval/             hand-labeled cases + metrics
 ```
+
+## Result percentages
+
+Results show **extraction confidence** (the mean heuristic confidence of dated
+entries) and **dated entry completeness**. These are not verified accuracy for
+an individual resume. **Measured evaluation accuracy** is the mean of job and
+gap F1 on the labeled evaluation set, with case count/date displayed. The bundled
+report contains only four cases; its percentage is not a guarantee on new resumes.
+
+The extension reads local and online resume bytes in its background worker and
+sends them to the configured backend after you click Timeline or open its popup
+on a resume. HTTP/HTTPS host permissions also support signed download links and
+browser credentials. Local file access still requires Chrome’s file-URL toggle.

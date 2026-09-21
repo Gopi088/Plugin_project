@@ -14,38 +14,39 @@ import json
 import os
 import random
 import re
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from spacy.training import Example
 import spacy
+
+from backend.cues import load as _load_cues
+
+_CUES = _load_cues()
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TEXT_DIR = os.path.join(BASE_DIR, "dataset", "text")
 
 MONTH = r"(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:t(?:ember)?)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\.?"
 YEAR = r"(?:19|20)\d{2}"
-PRESENT = r"(?:Present|till\s+date|to\s+date|current|now|ongoing)"
+PRESENT = r"(?:" + "|".join(_CUES.get("present_words_regex", ["present"])) + r")"
 DATE_BIT = rf"(?:{MONTH}[\s.\-/]*?)?{YEAR}|{PRESENT}|(?:0?[1-9]|1[0-2])[\-/]{YEAR}|{YEAR}[\-/](?:0?[1-9]|1[0-2])"
 SEP = r"(?:\s*(?:\u2013|\u2014|-|–|—|to|till|until|through|/)\s*)"
 RANGE_RE = re.compile(rf"(?P<a>{DATE_BIT}){SEP}(?P<b>{DATE_BIT})", re.IGNORECASE)
 SINGLE_RE = re.compile(rf"\b{DATE_BIT}\b", re.IGNORECASE)
 
-DEGREE_RE = re.compile(
-    r"B\.?\s*E\.?|B\.?\s*Tech(?:nology)?|Bachelor(?:'s)?(?:\s+of\s+\w+)?|"
-    r"M\.?\s*Tech(?:nology)?|Master(?:'s)?(?:\s+of\s+\w+)?|\bMCA\b|\bMBA\b|"
-    r"\bBCA\b|Diploma|Ph\.?\s*D\.?|B\.?\s*Sc\.?|M\.?\s*Sc\.?",
-    re.IGNORECASE,
-)
+_fam = "|".join(f"(?:{f})" for f in _CUES["job_family_words_regex"])
+_roles = "|".join(f"(?:{f})" for f in _CUES["title_words_regex"])
+_suf = "|".join(f"(?:{f})" for f in _CUES["company_suffixes_regex"])
+_deg = "|".join(f"(?:{f})" for f in _CUES["degree_words_regex"])
+
+DEGREE_RE = re.compile(_deg, re.IGNORECASE)
 COMPANY_RE = re.compile(
-    r"(?:Worked\s+at\s+)?([A-Z][A-Za-z&.,\- ]{2,60}?\s+"
-    r"(?:Pvt\.?(?:\s*Ltd\.?)?|Ltd\.?|Inc\.?|LLP|Technologies|Technology|Solutions|"
-    r"Systems|Services|Consulting|Digital|Engineering|Labs|Group|Bank|Infotech))",
+    r"(?:Worked\s+at\s+)?([A-Z][A-Za-z&.,\- ]{2,60}?\s+(?:" + _suf + r"))",
 )
 TITLE_RE = re.compile(
-    r"\b((?:Senior|Junior|Associate|Lead|Principal)?\s*?"
-    r"(?:Software|Data|AI|ML|Full[\s\-]?Stack|Backend|Frontend|DevOps|Cloud|RPA|"
-    r"Business|Project|Product|Test|QA|System)\s*?"
-    r"(?:Engineer|Developer|Analyst|Manager|Consultant|Architect|Tester|Owner|"
-    r"Administrator|Specialist|Lead))\b",
+    r"\b((?:Senior|Junior|Associate|Lead|Principal)?\s*?(?:" + _fam + r")\s*?(?:" + _roles + r"))\b",
     re.IGNORECASE,
 )
 PROJECT_HEAD_RE = re.compile(r"^(?:#\d+\s*)?(?:Project(?:\s+name)?\s*[:#]\s*.+|.+\s+project)$",

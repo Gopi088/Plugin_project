@@ -13,6 +13,12 @@ Rules:
 import re
 from datetime import date
 
+from .cues import load as _load_cues
+
+_CUES = _load_cues()
+_present_words = _CUES.get("present_words_regex", ["present"])
+_CUTOFF = int(_CUES.get("two_digit_year_cutoff", 39))
+
 MONTHS = {
     "jan": 1, "january": 1, "feb": 2, "february": 2, "mar": 3, "march": 3,
     "apr": 4, "april": 4, "may": 5, "jun": 6, "june": 6, "jul": 7, "july": 7,
@@ -24,14 +30,29 @@ MONTH_PAT = (r"(Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|"
              r"Jul(?:y)?|Aug(?:ust)?|Sep(?:t(?:ember)?)?|Oct(?:ober)?|"
              r"Nov(?:ember)?|Dec(?:ember)?)\.?")
 YEAR_PAT = r"((?:19|20)\d{2})"
-PRESENT_PAT = r"(?:present|till\s+date|to\s+date|current|now|ongoing|till\s+now|tilldate)"
-SEPARATOR_PAT = r"(?:\s*(?:\u2013|\u2014|-|–|—|to|till|until|through|/)\s*)"
+PRESENT_PAT = r"(?:" + "|".join(_present_words) + r")"
+# brackets often wrap dates ("[March - 2022] – Present"); tolerate them.
+SEPARATOR_PAT = r"(?:\s*[\]\)\"']*\s*(?:\u2013|\u2014|-|–|—|to|till|until|through|/)\s*[\[\(]*\s*)"
 
 MONTH_YEAR_RE = re.compile(MONTH_PAT + r"[\s.\-/]*?" + YEAR_PAT, re.IGNORECASE)
+DAY_MY_RE = re.compile(
+    MONTH_PAT + r"\s+(0?[1-9]|[12][0-9]|3[01])(?:st|nd|rd|th)?[,\s]+" + YEAR_PAT,
+    re.IGNORECASE)
+DMY_RE = re.compile(
+    r"(0?[1-9]|[12][0-9]|3[01])(?:st|nd|rd|th)?\s+" + MONTH_PAT + r"[,\s]*" + YEAR_PAT,
+    re.IGNORECASE)
+APOS_MY_RE = re.compile(MONTH_PAT + r"\s*[’']\s*(\d{2})(?!\d)", re.IGNORECASE)
+DASH_MY_RE = re.compile(MONTH_PAT + r"\s*[-./]\s*(\d{2})(?!\d)", re.IGNORECASE)
 NUM_MY_RE = re.compile(r"(0?[1-9]|1[0-2])[\-/]((?:19|20)\d{2})")
 NUM_YM_RE = re.compile(r"((?:19|20)\d{2})[\-/](0?[1-9]|1[0-2])")
 YEAR_ONLY_RE = re.compile(r"(?<!\d)((?:19|20)\d{2})(?!\d)")
 PRESENT_RE = re.compile(PRESENT_PAT, re.IGNORECASE)
+
+
+def _expand_2digit(yy):
+    """Two-digit years split at the configured cutoff (default '00–'39 -> 2000s)."""
+    yy = int(yy)
+    return (2000 if yy <= _CUTOFF else 1900) + yy
 
 
 def _month_num(name):
@@ -46,6 +67,27 @@ def parse_month_year(s):
         mon = _month_num(m.group(1))
         if mon:
             return (int(m.group(2)), mon)
+    m = DAY_MY_RE.search(s or "")
+    if m:
+        mon = _month_num(m.group(1))
+        if mon:
+            return (int(m.group(3)), mon)
+    m = DMY_RE.search(s or "")
+    if m:
+        mon = _month_num(m.group(2))
+        if mon:
+            return (int(m.group(3)), mon)
+    m = APOS_MY_RE.search(s or "")
+    if m:
+        mon = _month_num(m.group(1))
+        if mon:
+            return (_expand_2digit(m.group(2)), mon)
+    m = DASH_MY_RE.search(s or "")
+    if m and not YEAR_ONLY_RE.search(s or ""):
+        # MON-YY only when no 4-digit year present (else MONTH_YEAR_RE owns it)
+        mon = _month_num(m.group(1))
+        if mon:
+            return (_expand_2digit(m.group(2)), mon)
     m = NUM_MY_RE.search(s or "")
     if m:
         return (int(m.group(2)), int(m.group(1)))
@@ -71,8 +113,14 @@ def find_mentions(line, today=None):
     text = line or ""
     out = []
     # 1) explicit ranges: <date-ish> sep <date-ish>
-    date_bit = (r"(?:(?:" + MONTH_PAT + r"[\s.\-/]*?)?" + YEAR_PAT + r"|"
-                + PRESENT_PAT + r"|(?:0?[1-9]|1[0-2])[\-/](?:19|20)\d{2})")
+    _day = (r"(?:" + MONTH_PAT + r"\s+(?:0?[1-9]|[12][0-9]|3[01])(?:st|nd|rd|th)?[,\s]+"
+            + YEAR_PAT + r"|(?:0?[1-9]|[12][0-9]|3[01])(?:st|nd|rd|th)?\s+"
+            + MONTH_PAT + r"[,\s]*" + YEAR_PAT + r")")
+    _apos = MONTH_PAT + r"\s*[’']\s*\d{2}(?!\d)"
+    _dashyy = MONTH_PAT + r"\s*[-./]\s*\d{2}(?!\d)"
+    date_bit = (r"(?:" + _day + r"|" + _apos + r"|" + _dashyy + r"|(?:(?:" + MONTH_PAT
+                + r"[\s.\-/]*?)?" + YEAR_PAT + r"|"
+                + PRESENT_PAT + r"|(?:0?[1-9]|1[0-2])[\-/](?:19|20)\d{2}))")
     pat = re.compile(r"(?P<a>" + date_bit + r")" + SEPARATOR_PAT +
                      r"(?P<b>" + PRESENT_PAT + r"|(?:" + date_bit + r"))",
                      re.IGNORECASE)
@@ -102,22 +150,37 @@ def find_mentions(line, today=None):
         # month evidence must not be a digit fragment of a year range
         # (e.g. the "3-2017" inside "2013-2017" is not a numeric date)
         has_month = bool(
-            MONTH_YEAR_RE.search(raw)
+            MONTH_YEAR_RE.search(raw) or DAY_MY_RE.search(raw)
+            or DMY_RE.search(raw) or APOS_MY_RE.search(raw)
+            or (DASH_MY_RE.search(raw) and not YEAR_ONLY_RE.search(raw))
             or re.search(r"(?<!\d)(?:0?[1-9]|1[0-2])[\-/](?:19|20)\d{2}(?!\d)", raw)
             or re.search(r"(?<!\d)(?:19|20)\d{2}[\-/](?:0?[1-9]|1[0-2])(?!\d)", raw))
         out.append({"raw": raw, "start": sa, "end": sb,
                     "precision": "month" if has_month else "year",
                     "is_range": True, "is_present": present})
     # 2) single dates outside consumed ranges
-    for m in MONTH_YEAR_RE.finditer(text):
-        if any(s <= m.start() < e for s, e in consumed):
-            continue
+    def _single(rx, parse):
+        for m in rx.finditer(text):
+            if any(s <= m.start() < e for s, e in consumed):
+                continue
+            parsed = parse(m)
+            if parsed:
+                out.append({"raw": m.group(0).strip(), "start": parsed, "end": parsed,
+                            "precision": "month", "is_range": False, "is_present": False})
+
+    def _parse_my(m):
         mon = _month_num(m.group(1))
-        if not mon or not m.group(2):
-            continue
-        y = int(m.group(2))
-        out.append({"raw": m.group(0).strip(), "start": (y, mon), "end": (y, mon),
-                    "precision": "month", "is_range": False, "is_present": False})
+        return (int(m.group(2)), mon) if mon and m.group(2) else None
+
+    _single(MONTH_YEAR_RE, _parse_my)
+    _single(DAY_MY_RE, lambda m: (int(m.group(3)), _month_num(m.group(1)))
+            if _month_num(m.group(1)) else None)
+    _single(DMY_RE, lambda m: (int(m.group(3)), _month_num(m.group(2)))
+            if _month_num(m.group(2)) else None)
+    _single(APOS_MY_RE, lambda m: (_expand_2digit(m.group(2)), _month_num(m.group(1)))
+            if _month_num(m.group(1)) else None)
+    _single(DASH_MY_RE, lambda m: (_expand_2digit(m.group(2)), _month_num(m.group(1)))
+            if _month_num(m.group(1)) and not YEAR_ONLY_RE.search(m.group(0)) else None)
     for m in list(NUM_MY_RE.finditer(text)) + list(NUM_YM_RE.finditer(text)):
         if any(s <= m.start() < e for s, e in consumed):
             continue
@@ -125,6 +188,18 @@ def find_mentions(line, today=None):
         if parsed:
             out.append({"raw": m.group(0).strip(), "start": parsed, "end": parsed,
                         "precision": "month", "is_range": False, "is_present": False})
+            consumed.append((m.start(), m.end()))
+    for m in YEAR_ONLY_RE.finditer(text):
+        if any(s <= m.start() < e for s, e in consumed):
+            continue
+        pre = text[max(0, m.start() - 2):m.start()]
+        post = text[m.end():min(len(text), m.end() + 2)]
+        if any(c in pre for c in ("+", "@", "$", "₹")) or any(c in post for c in ("@", "%")):
+            continue
+        y = int(m.group(1))
+        out.append({"raw": m.group(0).strip(), "start": (y, 1), "end": (y, 12),
+                    "precision": "year", "is_range": False, "is_present": False})
+        consumed.append((m.start(), m.end()))
     # bare "Present" alone (e.g. end-date-only context) is not a standalone date.
     return out
 

@@ -59,33 +59,6 @@ def label_text(text):
 
     return entities
 
-    entities = []
-
-    # NAME (first line assumption)
-    lines = text.split("\n")
-    if lines:
-        name = lines[0].strip()
-        if len(name.split()) <= 4:
-            start = text.find(name)
-            end = start + len(name)
-            entities.append((start, end, "NAME"))
-
-    # SKILLS
-    lower_text = text.lower()
-
-    for skill in SKILLS:
-        start = 0
-        while True:
-            idx = lower_text.find(skill, start)
-            if idx == -1:
-                break
-
-            end = idx + len(skill)
-            entities.append((idx, end, "SKILL"))
-            start = end
-
-    return entities
-
 
 # -------------------------
 # MAIN

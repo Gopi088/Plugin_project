@@ -39,6 +39,14 @@ never unemployment (asserted in code, tested).
 - `docstore.py` — sqlite: documents, stages, events, gaps, lineage, feedback
 - `server.py` — HTTP API + CORS for the extension
 
+## Tuning without code changes
+
+All vocabularies live in `data/cues.json` (sections, company suffixes, title/
+degree words, present words, stop words, thresholds) and `data/skills.json`.
+Edit the JSON and restart the server — no code edits needed. Override path via
+`RT_CUES_PATH` env var (used by tests). Validate with
+`venv/bin/python -m unittest tests.test_cues`.
+
 ## Monitoring / audit
 
 Every stage result (status, confidence, errors, warnings, output summary) is

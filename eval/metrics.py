@@ -16,6 +16,7 @@ from backend.pipeline import runner
 from eval.labels import CASES
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+EVAL_PATH = os.path.join(BASE, "eval", "latest.json")
 
 
 def run_case(case):
@@ -84,14 +85,32 @@ def main():
     fpr = round(gap_fp / (gap_fp + gap_tp) if gap_fp + gap_tp else 0.0, 3)
     cal = round(sum(confs) / len(confs), 3) if confs else None
     acc = round(sum(correct) / len(correct), 3) if correct else None
-    print(json.dumps({
+    import datetime
+    # single headline number: mean of job-F1 and gap-F1 (documented composite,
+    # not a replacement for the individual scores below it)
+    overall = round((jf + gf) / 2, 3)
+    report = {
+        "generated_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+        "cases": len(CASES),
+        "overall_accuracy": overall,
+        "overall_accuracy_definition": "mean of job_extraction.f1 and gap.f1 on the hand-labeled set",
         "job_extraction": {"precision": jp, "recall": jr, "f1": jf},
         "association_accuracy": round(assoc_ok / assoc_n, 3) if assoc_n else None,
         "gap": {"precision": gp, "recall": gr, "f1": gf, "false_positive_rate": fpr},
         "gap_confidence": {"mean_predicted": cal, "empirical_accuracy": acc,
                            "calibration_gap": round(abs(cal - acc), 3)
                            if cal is not None and acc is not None else None},
-    }, indent=2))
+    }
+    print(json.dumps(report, indent=2))
+    save_report(report)
+    return report
+
+
+def save_report(report, path=EVAL_PATH):
+    """Persist machine-readable quality report for /api/quality + UI."""
+    with open(path, "w", encoding="utf-8") as fh:
+        json.dump(report, fh, indent=2)
+    print(f"saved {path}")
 
 
 if __name__ == "__main__":

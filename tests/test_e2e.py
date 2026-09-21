@@ -4,6 +4,7 @@ import json
 import os
 import subprocess
 import time
+import tempfile
 import unittest
 import urllib.request
 
@@ -12,19 +13,32 @@ from backend.pipeline import runner
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 GOPAL = os.path.join(BASE, "dataset", "resumes", "GopalPrasad K.pdf")
-PARDHA = "/mnt/c/Users/Gopi Gedar/Downloads/Pardhasaradhi Reddy-resume.pdf"
+PARDHA_FILE = os.path.join(BASE, "dataset", "resumes", "Pardhasaradhi Reddy-resume.pdf")
+PARDHA_TEXT = (
+    "Pardha Fresher\n"
+    "PROFESSIONAL SUMMARY\n"
+    "CS undergraduate.\n"
+    "PROJECTS\n"
+    "App One\n"
+    "- built x.\n"
+    "EDUCATION\n"
+    "B.Tech, Data Science | 9.5 CGPA\n"
+)
 
 
 class TestE2EResumes(unittest.TestCase):
-    def _run(self, path):
-        with open(path, "rb") as fh:
-            raw = fh.read()
-        ctx = PipelineContext("e2e", os.path.basename(path), raw_bytes=raw)
+    def _run(self, path=None, text=None):
+        if path and os.path.isfile(path):
+            with open(path, "rb") as fh:
+                raw = fh.read()
+            ctx = PipelineContext("e2e", os.path.basename(path), raw_bytes=raw)
+        else:
+            ctx = PipelineContext("e2e", "pardha.txt", raw_text=text or PARDHA_TEXT)
         runner.run(ctx)
         return ctx.recruiter_output
 
     def test_gopal_timeline(self):
-        dto = self._run(GOPAL)
+        dto = self._run(path=GOPAL)
         self.assertEqual(len(dto["timeline"]), 3)
         starts = sorted(e["start"] for e in dto["timeline"])
         self.assertEqual(starts, ["2020-01", "2022-07", "2025-05"])
@@ -32,13 +46,9 @@ class TestE2EResumes(unittest.TestCase):
         self.assertEqual(gaps, [1, 3])
 
     def test_pardha_insufficient(self):
-        dto = self._run(PARDHA)
+        dto = self._run(path=PARDHA_FILE, text=PARDHA_TEXT)
         self.assertEqual(dto["timeline"], [])
         self.assertEqual([g["state"] for g in dto["gaps"]], ["INSUFFICIENT_EVIDENCE"])
-        # real projects kept, nav junk filtered
-        names = [p["name"] for p in dto.get("projects", {}).get("items", [])] \
-            if "projects" in dto else []
-        _ = names  # projects live in stage-10 output; recruiter DTO keeps gaps+timeline
 
 
 class TestAPI(unittest.TestCase):
@@ -47,8 +57,10 @@ class TestAPI(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
+        cls.temp_db = tempfile.TemporaryDirectory()
         cls.srv = subprocess.Popen(
-            ["venv/bin/python", "backend/server.py", "--port", str(cls.PORT)],
+            ["venv/bin/python", "backend/server.py", "--port", str(cls.PORT),
+             "--db", os.path.join(cls.temp_db.name, "test.db")],
             cwd=BASE, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
         deadline = time.time() + 15
         while time.time() < deadline:
@@ -57,6 +69,7 @@ class TestAPI(unittest.TestCase):
                 return
             except Exception:
                 time.sleep(0.5)
+        cls.tearDownClass()
         raise RuntimeError("test server did not start")
 
     @classmethod
@@ -73,6 +86,9 @@ class TestAPI(unittest.TestCase):
                         f.close()
                 except Exception:
                     pass
+
+        if hasattr(cls, "temp_db"):
+            cls.temp_db.cleanup()
 
     def _api(self, path, payload=None):
         url = f"http://127.0.0.1:{self.PORT}{path}"
@@ -102,6 +118,27 @@ class TestAPI(unittest.TestCase):
         tl2 = self._api(f"/api/documents/{doc}/timeline")
         by_id = {g["id"]: g["state"] for g in tl2["gaps"]}
         self.assertEqual(by_id[gid], "DISMISSED_GAP")
+
+    def test_quality_endpoint_and_doc_quality(self):
+        import backend.server as S
+        import json as _json
+        import os as _os
+        fx = _os.path.join(BASE, "eval", "latest.json")
+        self.assertTrue(_os.path.isfile(fx), "run eval/metrics.py first")
+        with open(fx) as fh:
+            rep = _json.load(fh)
+        for k in ("job_extraction", "gap", "cases"):
+            self.assertIn(k, rep)
+        with open(GOPAL, "rb") as fh:
+            raw = fh.read()
+        sub = self._api("/api/documents", {"filename": "g.pdf",
+                                           "content_b64": base64.b64encode(raw).decode()})
+        tl = self._api(f"/api/documents/{sub['doc_id']}/timeline")
+        q = tl.get("quality", {})
+        for k in ("dated_events", "total_events", "dated_share", "mean_event_confidence"):
+            self.assertIn(k, q)
+        self.assertGreaterEqual(q["dated_share"], 0.0)
+        self.assertLessEqual(q["dated_share"], 1.0)
 
 
 if __name__ == "__main__":

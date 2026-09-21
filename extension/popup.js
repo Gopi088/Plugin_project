@@ -18,7 +18,18 @@ async function refresh() {
   const s = await chrome.storage.local.get(["apiBase", "pendingUrl", "lastDocId"]);
   if (s.apiBase) $("apiBase").value = s.apiBase;
   if (s.pendingUrl) $("url").value = s.pendingUrl;
-  if (s.lastDocId) $("out").innerHTML = `<small>Last document: <code>${s.lastDocId}</code></small>`;
+  if (s.lastDocId && !lastDoc) $("out").innerHTML = `<small>Last document: <code>${s.lastDocId}</code></small>`;
+  try {
+    const q = await via({ type: "rt-quality" });
+    const pc = (v) => (v == null ? "—" : `${Math.round(v * 100)}%`);
+    $("quality").innerHTML =
+      `<div style="font-size:20px;font-weight:800;">${pc(q.overall_accuracy)} <small style="font-weight:400;">evaluation mean F1</small></div>` +
+      `<small>Jobs F1 <strong>${pc(q.job_extraction?.f1)}</strong> (P ${pc(q.job_extraction?.precision)} / R ${pc(q.job_extraction?.recall)})<br>` +
+      `Gaps F1 <strong>${pc(q.gap?.f1)}</strong> (P ${pc(q.gap?.precision)} / R ${pc(q.gap?.recall)}, FPR ${pc(q.gap?.false_positive_rate)})<br>` +
+      `Cases: ${q.cases ?? "—"} · evaluated: ${esc((q.generated_at || "").slice(0, 10))}</small>`;
+  } catch (e) {
+    $("quality").innerHTML = `<small>Not evaluated yet — run <code>venv/bin/python eval/metrics.py</code>.</small>`;
+  }
 }
 
 $("save").onclick = async () => {
@@ -36,9 +47,10 @@ async function summarize(docId, label) {
     `<small>Analyzed <code>${docId}</code> (${dto.status}): ` +
     `${dto.timeline.length} dated events, ${gaps.length} potential unrepresented period(s).</small>`;
   $("summary").innerHTML =
-    `<small>${esc(dto.timeline.map((e) => `${e.start}→${e.end} ${e.title}`).join("<br>")) || "No dated roles."}` +
+    `<small>${dto.timeline.map((e) => esc(`${e.start}→${e.end} ${e.title}`)).join("<br>") || "No dated roles."}` +
     (gaps.length ? `<br>Gaps: ${esc(gaps.map((g) => `${g.start}→${g.end} (${g.months}m)`).join("; "))}` : "") +
-    `</small>`;
+    `<br><strong>Extraction confidence: ${typeof dto.quality?.mean_event_confidence === "number" ? Math.round(dto.quality.mean_event_confidence * 100) + "%" : "Unavailable"}</strong>` +
+    `<br>Heuristic confidence; measured evaluation accuracy is shown below.</small>`;
   $("view").disabled = false;
 }
 
@@ -50,6 +62,7 @@ $("view").onclick = async () => {
   if (!lastDoc) return;
   try {
     const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
+    if (!tab?.id) throw new Error("No active tab found");
     await chrome.tabs.sendMessage(tab.id, { type: "rt-show-doc", docId: lastDoc });
     window.close();
   } catch (e) {
@@ -85,7 +98,7 @@ $("sendUrl").onclick = async () => {
   try {
     const r = await via({
       type: "rt-submit",
-      payload: { filename: url.split("/").pop().split("?")[0], source_url: url, source: "extension-url" },
+      payload: await via({ type: "rt-read-resume", url }),
     });
     await chrome.storage.local.set({ lastDocId: r.doc_id, pendingUrl: "" });
     await summarize(r.doc_id, url);
@@ -94,4 +107,16 @@ $("sendUrl").onclick = async () => {
   }
 };
 
-refresh();
+async function analyzeOpenResume() {
+  const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
+  if (!tab?.url || !/\.(pdf|docx?|txt)(\?|#|$)/i.test(tab.url)) return;
+  $("out").textContent = "Analyzing the open resume…";
+  try {
+    const payload = await via({ type: "rt-read-resume", url: tab.url });
+    const sub = await via({ type: "rt-submit", payload });
+    await chrome.storage.local.set({ lastDocId: sub.doc_id });
+    await summarize(sub.doc_id);
+  } catch (e) { $("out").textContent = `Analysis failed: ${e.message}`; }
+}
+
+refresh().then(analyzeOpenResume).catch((e) => { $("out").textContent = e.message; });

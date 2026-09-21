@@ -40,7 +40,7 @@ DEGREE_PAT = re.compile(
     r"(B\.?\s*E\.?|B\.?\s*Tech(?:nology)?|Bachelor(?:'s)?[^,\n]{0,60}|"
     r"M\.?\s*Tech(?:nology)?|Master(?:'s)?[^,\n]{0,60}|\bMCA\b|\bMBA\b|"
     r"\bBCA\b|Diploma|Ph\.?\s*D\.?|Doctorate|"
-    r" nicety|B\.?\s*Sc\.?|M\.?\s*Sc\.?|B\.?\s*Com\.?|INTER(?:MEDIATE)?|\bSSC\b|\bHSC\b)",
+    r"B\.?\s*Sc\.?|M\.?\s*Sc\.?|B\.?\s*Com\.?|INTER(?:MEDIATE)?|\bSSC\b|\bHSC\b)",
     re.IGNORECASE,
 )
 

@@ -36,5 +36,6 @@ var RT_API = (() => {
     stages: (id) => req(`/api/documents/${id}/stages`),
     feedback: (id, payload) =>
       req(`/api/documents/${id}/feedback`, { method: "POST", body: JSON.stringify(payload) }),
+    quality: () => req("/api/quality"),
   };
 })();

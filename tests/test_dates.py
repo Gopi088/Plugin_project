@@ -28,6 +28,30 @@ class TestFindMentions(unittest.TestCase):
         ms = D.find_mentions("B.Tech 2013-2017", TODAY)
         rng = [m for m in ms if m["is_range"]]
         self.assertTrue(rng and rng[0]["precision"] == "year")
+        ms_single = D.find_mentions("Graduated B.Tech in 2021", TODAY)
+        self.assertEqual(len(ms_single), 1)
+        self.assertEqual(ms_single[0]["start"], (2021, 1))
+        self.assertEqual(ms_single[0]["end"], (2021, 12))
+        self.assertEqual(ms_single[0]["precision"], "year")
+
+    def test_day_month_year(self):
+        ms = D.find_mentions("Engineer - Tech Mahindra Jul 27, 2021 - Dec 04, 2019", TODAY)
+        # end before start -> invalid range skipped, singles preserved
+        self.assertFalse(any(m["is_range"] for m in ms))
+        ms = D.find_mentions("Engineer, Dec 11, 2023 - Present", TODAY)
+        rng = [m for m in ms if m["is_range"]]
+        self.assertTrue(rng)
+        self.assertEqual((rng[0]["start"], rng[0]["end"]), ((2023, 12), (2026, 9)))
+
+    def test_apostrophe_two_digit_year(self):
+        ms = D.find_mentions("Apr’22-Sep’23: Data Scientist", TODAY)
+        rng = [m for m in ms if m["is_range"]]
+        self.assertTrue(rng)
+        self.assertEqual((rng[0]["start"], rng[0]["end"]), ((2022, 4), (2023, 9)))
+        ms = D.find_mentions("Jul’25 - Present: Lead Engineer", TODAY)
+        rng = [m for m in ms if m["is_range"]]
+        self.assertTrue(rng)
+        self.assertEqual((rng[0]["start"], rng[0]["end"]), ((2025, 7), (2026, 9)))
 
     def test_no_invention(self):
         self.assertEqual(D.find_mentions("loves hiking and open source", TODAY), [])

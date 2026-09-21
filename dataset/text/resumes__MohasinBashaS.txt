@@ -1,0 +1,189 @@
+Mohasin S
+Bangalore, India
+Phone: +91 9845478602
+Email: mohasinbasha@gmail.com
+LinkedIn: www.linkedin.com/in/mohasin-basha-1a58b1aa GitHub: https://github.com/mohasinbasha
+
+
+Professional Summary
+Enterprise-grade Solution Architect with 13+ years of experience in designing scalable AI/ML, Generative AI, and Agentic AI solutions across cloud environments (AWS, Azure).
+Specialized in LLM-driven architectures, RAG pipelines, LangChain, Bedrock (Claude), and MLOps orchestration for production-scale systems.
+Directed cross-functional teams of 30+ across data engineering, DevOps, and analytics, driving presales, delivery, and solution estimation for enterprise AI platforms.
+Proven record of delivering GenAI assistants, autonomous agents, and data-centric ML systems that improve operational efficiency, reduce cost, and enhance decision-making.
+
+
+Professional Experience
+Mphasis Limited | Solution Architect – GenAI, AI/ML & Cloud
+Jan 2021 – Present | Bangalore, India
+
+Led architecture and delivery of GenAI and Agentic AI systems, including enterprise chatbots, document assistants, and autonomous task agents.
+
+Designed RAG pipelines using LangChain, Bedrock (Claude), and FAISS for contextual document retrieval and reasoning.
+
+Migrated enterprise analytics platforms from Azure to AWS, integrating Kafka, Iceberg, Glue, Lake Formation, Athena, and Redshift for real-time analytics.
+
+Managed a 30+ member engineering & DevOps team, delivering AI projects with 99.9% uptime and 40% cost efficiency improvement.
+
+Created Enterprise GenAI Framework reused across multiple POCs, reducing production cycle time by 50%.
+
+Delivered 15+ client-facing presales proposals with detailed architecture diagrams, cost modeling, and scalability roadmaps.
+
+
+Key Achievements:
+
+Deployed Claude-powered airline chatbot with 92% accuracy across multilingual documents.
+
+Built RAG-based knowledge engine, saving 300+ manual hours annually.
+
+Developed Smart Segmentation ML model with 18% uplift in campaign ROI.
+
+Reduced ETL latency by 60% using optimized data lake zoning (raw → curated).
+
+
+
+
+iReff Technologies | Operations + ML Engineer
+May 2015 – May 2018 | Bangalore, India
+
+Delivered scikit-learn–based models for product recommendation, churn detection, and user segmentation across 1M+ telecom users.
+
+Automated campaign analytics using Python, Pandas, and Tableau dashboards, increasing CTR by 35%.
+
+Designed SEO and performance dashboards increasing organic traffic by 40%.
+
+Collaborated with marketing and dev teams to align sprint goals and ML-driven optimizations.
+
+
+
+Kaynes Technologies | Software Engineer (ERP & ML)
+Jul 2013 – Apr 2015 | Mysuru, India
+
+Built ML-based process automation tools for defect prediction and part inspection in electronics manufacturing.
+
+Developed Oracle ERP reports for manufacturing KPIs.
+
+Integrated IoT sensor data into fault detection ML pipelines.
+
+
+
+
+Customer Support Chatbot (GenAI + RAG)
+Tech Stack: LangChain, Bedrock Claude, FAISS, Streamlit, AWS Lambda
+
+Description:
+Developed a multilingual Generative AI-powered chatbot to automate customer support for a global client. The solution used Retrieval-Augmented Generation (RAG) to extract contextual answers from PDF manuals, Runbooks and SOP documents. The system handled over 10,000 daily customer queries, providing accurate responses in English, Hindi, and Arabic, significantly improving response time and service scalability.
+Roles & Responsibilities:
+
+Designed and implemented RAG architecture integrating LangChain and FAISS for contextual retrieval.
+
+Developed custom prompt templates for multilingual query understanding and intent classification.
+
+Built Streamlit-based interface for live chatbot interactions and analytics dashboards.
+
+Deployed on AWS Lambda for serverless scalability with minimal operational overhead.
+
+Integrated feedback loop for continuous learning and performance improvement.
+
+Achieved 55% reduction in manual support dependency and improved CSAT scores by 30%.
+
+
+
+Database Chatbot (Natural Language → SQL)
+Tech Stack: LangChain SQLAgent, GPT-4, PostgreSQL, Redshift, Streamlit
+
+Description:
+Built an intelligent Database Query Assistant that converts natural language questions into executable SQL statements. The chatbot enables business users to query databases without SQL knowledge, improving analytics efficiency and decision-making speed. It supports dynamic schema detection, data visualization, and role-based access control across multiple data sources.
+Roles & Responsibilities:
+
+Implemented LangChain SQLAgent to map user intent to accurate SQL syntax dynamically.
+
+Integrated GPT-4 for query translation, schema mapping, and optimization.
+
+Developed Streamlit dashboard for real-time query execution and data visualization.
+
+Ensured secure database access using JWT authentication and audit logging.
+
+Reduced dependency on data engineering teams by 70%, accelerating business reporting.
+
+Delivered multi-database compatibility (PostgreSQL, Redshift, Snowflake) for enterprise scalability.
+
+
+
+Agentic AI Ticket Booking System
+Tech Stack: AutoGen, LangGraph, Bedrock Claude, Google Flights API, PayPal SDK
+
+Description:
+Developed an autonomous multi-agent system capable of searching flights, comparing prices, booking tickets, and making payments — entirely without human intervention. This project demonstrated the power of Agentic AI orchestration, leveraging specialized agents for different subtasks that collaborate through defined protocols.
+Roles & Responsibilities:
+
+Designed LangGraph-based orchestration layer for task planning and inter-agent communication.
+
+Configured Autogen agents for flight search, price comparison, booking, and payment processing.
+
+Integrated Google Flights API and PayPal SDK for real-time flight data and secure transactions.
+
+Implemented Bedrock Claude model for contextual reasoning and workflow validation.
+
+Deployed as a proof-of-concept system demonstrating 90% automation in travel bookings.
+
+Documented architecture for enterprise use cases in e-commerce and travel automation.
+
+
+
+
+Customer Churn Prediction (Classification Model)
+Tech Stack: Python, Scikit-learn, XGBoost, SMOTE, Flask
+
+Description:
+Developed a machine learning classification model to predict customer churn for a telecom client. The system analyzed behavioral and demographic data to identify at-risk customers and trigger retention actions through automated CRM alerts.
+Roles & Responsibilities:
+
+Collected and cleaned customer datasets, performing EDA to identify churn-driving features.
+
+Applied feature engineering and class balancing (SMOTE) for model stability.
+
+Trained and tuned XGBoost model achieving 87% recall on imbalanced data.
+
+Deployed the model as a Flask microservice accessible via REST API.
+
+Integrated alert mechanism for high-risk customers into the client’s CRM system.
+
+Created Power BI dashboards to visualize churn trends and feature importance.
+
+
+
+
+Product Review Sentiment Analysis (ML/NLP)
+Tech Stack: TensorFlow, BERT, FastAPI, Streamlit
+
+Description:
+Implemented a sentiment analysis solution to classify customer reviews as positive, neutral, or negative for an e-commerce platform. Leveraged BERT embeddings for contextual understanding and deployed the system via FastAPI with an interactive Streamlit UI for analytics and monitoring.
+Roles & Responsibilities:
+
+Collected and preprocessed over 100,000+ product reviews for training and validation.
+
+Fine-tuned BERT transformer on domain-specific data for sentiment prediction.
+
+Developed a FastAPI backend for inference serving with latency <200ms.
+
+Built a Streamlit dashboard showing sentiment distribution, trends, and KPIs.
+
+Improved sentiment classification accuracy by 28%, enhancing brand insight capabilities.
+
+Deployed model using Docker containers for scalable cloud deployment.
+
+
+
+
+
+Tools & Technologies
+Programming & ML: Python, SQL, Scikit-learn, TensorFlow, PyTorch, Transformers, LangChain, HuggingFace, FAISS, Bedrock, GPT, Claude
+Cloud & Data: AWS (S3, Glue, Athena, Redshift, Lambda, EMR), Kafka, Iceberg, Snowflake, Spark, Airflow, Oracle, Postgres
+DevOps & MLOps: Docker, Jenkins, Terraform, MLFlow, GitHub Actions, DVC, CI/CD Pipelines
+Visualization: Power BI, Tableau, QuickSight, Streamlit, Google Analytics
+Collaboration: Jira, Confluence, Draw.io, Notion, AWS Pricing Calculator
+
+
+Education
+Bachelor of Computer Applications
+ICFAI University, Tripura — Graduated 2013 | GPA: 7.8 / 10

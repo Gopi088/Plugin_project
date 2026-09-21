@@ -5,10 +5,16 @@
 1. Start the backend: `venv/bin/python backend/server.py` (serves `127.0.0.1:8000`).
 2. Open `chrome://extensions`, enable **Developer mode** → **Load unpacked** → select `extension/`.
 3. Pin the action; set the API base in the popup if your backend differs.
+4. For local resumes, enable **Allow access to file URLs** in extension Details.
+5. After updating the extension, click **Reload** and reopen the resume tab.
 
 ## Recruiter flow (no manual start needed)
 
 Open resume → pill appears → click **Timeline** → panel auto-detects and analyzes → timeline + unrepresented periods with confidence, reasons, and resume quotes.
+
+If Chrome’s built-in PDF viewer does not allow the pill, click the pinned extension icon. The popup automatically analyzes the current resume without selecting it again.
+
+Results include numeric extraction confidence and measured evaluation accuracy. The latter is a labeled-set mean F1, not verified accuracy of the open resume.
 
 Detection, in order: PDF/DOCX file URL → embedded PDF → ATS/HTML resume text
 (Experience + Education + dates) → resume link on page. Otherwise the popup
@@ -46,6 +52,8 @@ The panel consumes a recruiter view-model (`viewmodel.js`), never raw DTOs:
 
 `activeTab` + `scripting` (inject dock), `storage` (API base, last doc),
 `contextMenus` (analyze link), `webNavigation` (badge on PDF/DOCX pages),
-`host_permissions` limited to `127.0.0.1:8000`/`localhost:8000` (backend only —
-resume URLs are fetched server-side, so no broad host access is needed).
-No data leaves the machine except recruiter-initiated backend calls.
+`host_permissions` include HTTP/HTTPS and local file URLs so the background
+worker can read the browser document and contact the configured backend.
+Chrome additionally requires **Allow access to file URLs** for local files.
+Online requests include browser credentials where the site permits them.
+Resume bytes are sent to the configured backend only when analysis is requested.

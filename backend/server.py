@@ -9,6 +9,7 @@ Endpoints (the extension never touches pipeline internals):
     GET  /api/documents/{id}/evidence?gap_id=.. | ?event_id=..
     GET  /api/documents/{id}/stages
     POST /api/documents/{id}/feedback   {dismissed_gap_ids[], overrides[], notes?}
+    GET  /api/quality                  measured accuracy (eval/latest.json)
     GET  /health
 """
 
@@ -19,7 +20,7 @@ import os
 import sys
 import urllib.request
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
-from urllib.parse import urlparse, parse_qs
+from urllib.parse import urlparse, parse_qs, unquote
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
@@ -29,6 +30,10 @@ from backend.pipeline import runner
 from backend import ml_assist
 
 DB_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "store.db")
+EVAL_PATH = os.environ.get(
+    "RT_EVAL_PATH",
+    os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                 "eval", "latest.json"))
 
 
 def _process(filename, raw_bytes, raw_text, source):
@@ -75,6 +80,14 @@ class Handler(BaseHTTPRequestHandler):
             if parts == ["health"]:
                 return self._json(200, {"ok": True,
                                         "model_versions": {"model_timeline": ml_assist.version()}})
+            if parts == ["api", "quality"]:
+                try:
+                    with open(EVAL_PATH, encoding="utf-8") as fh:
+                        rep = json.load(fh)
+                    rep["model_versions"] = {"model_timeline": ml_assist.version()}
+                    return self._json(200, rep)
+                except FileNotFoundError:
+                    return self._json(404, {"error": "no evaluation yet; run venv/bin/python eval/metrics.py"})
             if len(parts) >= 3 and parts[0] == "api" and parts[1] == "documents":
                 doc_id, action = parts[2], (parts[3] if len(parts) > 3 else "")
                 cx = DB.connect(DB_PATH)
@@ -106,23 +119,42 @@ class Handler(BaseHTTPRequestHandler):
         parts = [p for p in u.path.split("/") if p]
         try:
             length = int(self.headers.get("Content-Length", 0) or 0)
-            payload = json.loads(self.rfile.read(length) or b"{}") if length else {}
+            try:
+                payload = json.loads(self.rfile.read(length) or b"{}") if length else {}
+            except Exception:
+                return self._json(400, {"error": "malformed JSON body"})
             if parts == ["api", "documents"]:
                 filename = payload.get("filename", "resume")
                 raw_bytes, raw_text = b"", payload.get("text", "")
                 if payload.get("content_b64"):
                     try:
-                        raw_bytes = base64.b64decode(payload["content_b64"])
+                        raw_bytes = base64.b64decode(payload["content_b64"], validate=True)
                     except Exception:
                         return self._json(400, {"error": "invalid content_b64"})
                 elif payload.get("source_url"):
+                    u = urlparse(payload["source_url"])
+                    if u.scheme not in ("http", "https"):
+                        return self._json(400, {"error": "source_url must use HTTP or HTTPS"})
+                    host = u.hostname or ""
+                    if not host or host.lower() in ("localhost", "127.0.0.1", "::1", "0.0.0.0"):
+                        return self._json(400, {"error": "forbidden host in source_url"})
+                    import socket
+                    import ipaddress
+                    try:
+                        resolved = socket.getaddrinfo(host, None)
+                        for item in resolved:
+                            ip = ipaddress.ip_address(item[4][0])
+                            if ip.is_private or ip.is_loopback or ip.is_link_local or ip.is_reserved:
+                                return self._json(400, {"error": "forbidden internal network host"})
+                    except socket.gaierror:
+                        return self._json(400, {"error": "invalid host in source_url"})
                     try:
                         req = urllib.request.Request(
                             payload["source_url"],
                             headers={"User-Agent": "ResumeTimeline/1.0"})
                         with urllib.request.urlopen(req, timeout=15) as resp:
                             raw_bytes = resp.read(25_000_000)
-                        filename = payload["source_url"].split("/")[-1] or filename
+                        filename = unquote(urlparse(payload["source_url"]).path.rsplit("/", 1)[-1]) or filename
                     except Exception as exc:
                         return self._json(422, {"error": f"fetch failed: {exc}"})
                 if not raw_bytes and not (raw_text or "").strip():
@@ -157,7 +189,7 @@ def main():
     ap.add_argument("--db", default=DB_PATH)
     args = ap.parse_args()
     DB_PATH = args.db
-    DB.connect(DB_PATH).close()
+    DB.init_db(DB_PATH)
     srv = ThreadingHTTPServer((args.host, args.port), Handler)
     print(f"Resume Timeline API on http://{args.host}:{args.port} (db={DB_PATH})")
     srv.serve_forever()

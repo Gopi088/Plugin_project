@@ -85,7 +85,14 @@
 
   const STEPS = ["Reading resume", "Finding dated activities", "Building timeline", "Checking represented periods"];
 
+  let analyzing = false;
   async function start() {
+    if (analyzing) return;
+    analyzing = true;
+    try { await analyzeDetected(); } finally { analyzing = false; }
+  }
+
+  async function analyzeDetected() {
     activeTab = "overview";
     expanded.clear();
     let apiBase = "http://127.0.0.1:8000";
@@ -102,12 +109,16 @@
     try {
       await send({ type: "rt-health" });
     } catch (e) {
-      return setPanel(head("", "") + body(`<div class="rt-err">Backend not reachable at <code>${esc(apiBase)}</code>.<br>Start it with<br><code>venv/bin/python backend/server.py</code><br>and match the API base in the extension popup.</div>`)) + bindClose();
+      setPanel(head("", "") + body(`<div class="rt-err">Backend not reachable at <code>${esc(apiBase)}</code>.<br>Start it with<br><code>venv/bin/python backend/server.py</code><br>and match the API base in the extension popup.</div>`));
+      bindClose();
+      return;
     }
     const det = detect();
     if (!det) {
-      return setPanel(head("", "") + body(`<div class="rt-err">No resume detected on this page.</div>
-        <div class="rt-hint">Open a PDF/DOCX resume, an ATS candidate page, or upload a file from the extension popup.</div>`)) + bindClose();
+      setPanel(head("", "") + body(`<div class="rt-err">No resume detected on this page.</div>
+        <div class="rt-hint">Open a PDF/DOCX resume, an ATS candidate page, or upload a file from the extension popup.</div>`));
+      bindClose();
+      return;
     }
     tick(0);
     try {
@@ -128,29 +139,15 @@
   async function buildPayload(det) {
     if (det.kind === "page-text")
       return { filename: "page-resume.txt", text: det.text, source: "extension-text" };
-    if (det.url.startsWith("file://")) {
-      const resp = await fetch(det.url);
-      if (!resp.ok) throw new Error("local-file-blocked");
-      const bytes = new Uint8Array(await resp.arrayBuffer());
-      let bin = "";
-      for (let i = 0; i < bytes.length; i += 8192)
-        bin += String.fromCharCode(...bytes.subarray(i, i + 8192));
-      const name = decodeURIComponent(det.url.split("/").pop().split("?")[0]) || "resume";
-      return { filename: name, content_b64: btoa(bin), source: "extension-file" };
-    }
-    return {
-      filename: det.url.split("/").pop().split("?")[0] || "resume",
-      source_url: det.url,
-      source: "extension-url",
-    };
+    return send({ type: "rt-read-resume", url: det.url });
   }
 
   function showError(det, e) {
     const picked = det && det.url && det.url.startsWith("file://");
     setPanel(head("", "") + body(
-      `<div class="rt-err">Analysis failed: ${esc(picked ? "Chrome blocked reading this local file." : e.message)}</div>` +
+      `<div class="rt-err">Analysis failed: ${esc(e.message)}</div>` +
       (picked
-        ? `<div class="rt-hint">Pick the file below instead — same analysis:</div>
+        ? `<div class="rt-hint">If the file is unavailable, you can select a copy:</div>
            <div class="rt-row"><input type="file" id="rt-file" accept=".pdf,.docx,.txt" aria-label="Resume file"><button id="rt-go">Analyze</button></div>`
         : `<div class="rt-hint">The resume may be scanned or the link may block fetching — try uploading via the popup.</div>`)
     ));
@@ -188,6 +185,7 @@
     vm = RT_VM.mapTimelineResultToRecruiterViewModel(dto, { ...RT_VM.attentionRules, ...rules() });
     vm._dto = dto;
     render();
+    send({ type: "rt-quality" }).then((q) => { evaluation = q; render(); }).catch(() => {});
   }
 
   function statusChip() {
@@ -238,6 +236,8 @@
     const tag = g.priority === "HIGH" ? "POTENTIAL UNREPRESENTED" : "POSSIBLE UNREPRESENTED";
     const key = `gap:${g.id}`;
     const open = expanded.has(key);
+    const evKey = `evdrawer:${g.id}`;
+    const evOpen = expanded.has(evKey);
     const dec = decisionFor("gap", g.id);
     return `<article class="rt-gap ${cls}" aria-label="${tag}, ${r.start} to ${r.end}, ${g.months} months">
       <div class="rt-gap-tag"><span aria-hidden="true">${g.priority === "HIGH" ? "⚠" : "?"}</span> ${tag}</div>
@@ -246,9 +246,9 @@
       <div class="rt-gap-sub">No activity clearly shown during this period.</div>
       ${dec ? `<div class="rt-dec">✓ ${esc(decLabel(dec.decision))}${dec.note ? ` — “${esc(dec.note)}”` : ""}</div>` : ""}
       <div class="rt-row"><button data-act="why" data-id="${esc(g.id)}">${open ? "Hide" : "Why?"}</button>
-      <button data-act="evidence" data-id="${esc(g.id)}">Review evidence</button></div>
+      <button data-act="evidence" data-id="${esc(g.id)}">${evOpen ? "Hide evidence" : "Review evidence"}</button></div>
       ${open ? whyBox(g) : ""}
-      <div class="rt-evbox rt-hidden" id="rt-ev-${esc(g.id)}"></div>
+      <div class="rt-evbox ${evOpen ? "" : "rt-hidden"}" id="rt-ev-${esc(g.id)}">${evOpen ? drawerHtml(g.id) : ""}</div>
       ${actionRow("gap", g.id)}
     </article>`;
   }
@@ -347,7 +347,7 @@
     if (activeTab === "overview") {
       const attn = [...vm.highGaps, ...vm.reviewGaps].map(gapCard).join("");
       const rev = vm.reviewItems.slice(0, 3).map(reviewCard).join("");
-      content = (attn || `<div class="rt-clear">✓ No potential unrepresented periods detected</div>`) +
+      content = (attn || (vm.overallStatus === "INSUFFICIENT_EVIDENCE" || vm.docStatus === "FAILED" ? `<div class="rt-warn">Insufficient evidence to assess represented periods.</div>` : `<div class="rt-clear">✓ No potential unrepresented periods detected</div>`)) +
         (vm.counts.events ? `<div class="rt-counts">${vm.counts.events} timeline events${vm.counts.reviewItems ? ` · ${vm.counts.reviewItems} need review` : ""}</div>` : "") +
         (rev ? `<h4>Needs review</h4>${rev}` : "") +
         (vm.lowGaps.length ? `<details class="rt-more"><summary>Minor periods (${vm.lowGaps.length})</summary>${vm.lowGaps.map(gapCard).join("")}</details>` : "") +
@@ -359,14 +359,26 @@
       content = vm.reviewItems.length ? vm.reviewItems.map(reviewCard).join("")
         : `<div class="rt-clear">✓ Nothing needs review.</div>`;
     }
-    setPanel(head(esc(vm.candidateName), statusChip()) + body(
+    setPanel(head(vm.candidateName, statusChip()) + body(
       summaryCard() +
-      `<div class="rt-counts" aria-label="Counts">${vm.counts.events} events · ${vm.counts.potentialGaps} potential periods · ${vm.counts.reviewItems} to review</div>
+      `<div class="rt-counts" aria-label="Counts">${vm.counts.events} events · ${vm.counts.potentialGaps} potential periods · ${vm.counts.reviewItems} to review${qualityLine()}</div>
        <div class="rt-tabs" role="tablist">${tabs}</div>
        <div class="rt-tabbody" role="tabpanel">${content}</div>` + foot()
     ));
     bindClose();
     bindAll();
+  }
+
+  let evaluation = null;
+  function qualityLine() {
+    const q = vm._dto?.quality;
+    const pc = (v) => typeof v === "number" && Number.isFinite(v)
+      ? `${Math.round(Math.max(0, Math.min(1, v)) * 100)}%` : "Unavailable";
+    return `<br><strong>Extraction confidence: ${pc(q?.mean_event_confidence)}</strong>` +
+      `<br><small>Heuristic confidence, not verified accuracy for this resume.</small>` +
+      `<br>Dated entry completeness: ${pc(q?.dated_share)}` +
+      `<br>Measured evaluation accuracy: ${pc(evaluation?.overall_accuracy)}` +
+      (evaluation ? `<br><small>${esc(evaluation.cases)} labeled cases · mean job/gap F1 · ${esc((evaluation.generated_at || "").slice(0, 10))}</small>` : "");
   }
 
   function bindAll() {
@@ -433,22 +445,19 @@
   async function onGapAction(act, gapId) {
     if (!currentDoc) return;
     if (act === "evidence") {
-      // toggle drawer; lazy-load chain once
-      const box = document.getElementById(`rt-ev-${gapId}`);
-      if (!evCache[gapId]) {
-        if (box) box.innerHTML = `<small>Loading evidence…</small>`;
-        const ev = await send({ type: "rt-evidence", docId: currentDoc, params: { gap_id: gapId } });
-        evCache[gapId] = ev.chain;
+      const evKey = `evdrawer:${gapId}`;
+      if (!expanded.has(evKey)) {
+        if (!evCache[gapId]) {
+          const box = document.getElementById(`rt-ev-${gapId}`);
+          if (box) { box.classList.remove("rt-hidden"); box.innerHTML = `<small>Loading evidence…</small>`; }
+          const ev = await send({ type: "rt-evidence", docId: currentDoc, params: { gap_id: gapId } });
+          evCache[gapId] = ev.chain;
+        }
+        expanded.add(evKey);
+      } else {
+        expanded.delete(evKey);
       }
-      const key = `gap:${gapId}`;
-      expanded.has(key) ? expanded.delete(key) : expanded.add(key);
       render();
-      const box2 = document.getElementById(`rt-ev-${gapId}`);
-      if (box2) {
-        box2.classList.remove("rt-hidden");
-        box2.innerHTML = drawerHtml(gapId);
-        box2.querySelectorAll("[data-pagebtn]")?.forEach(() => {});
-      }
     } else if (act === "why") {
       const key = `gap:${gapId}`;
       expanded.has(key) ? expanded.delete(key) : expanded.add(key);
@@ -477,7 +486,7 @@
   chrome.runtime.onMessage.addListener((msg, _sender, reply) => {
     if (msg && msg.type === "rt-show-doc" && msg.docId) {
       currentDoc = msg.docId;
-      togglePanel(true);
+      document.getElementById("rt-panel").classList.remove("rt-hidden");
       send({ type: "rt-timeline", docId: msg.docId }).then(
         (dto) => { activeTab = "overview"; show(dto); reply({ ok: true }); },
         (e) => reply({ _rtError: String(e.message || e) })

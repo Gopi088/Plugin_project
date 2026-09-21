@@ -22,23 +22,35 @@ from scripts.timeline import analyze_resume_timeline  # noqa: E402
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-STOP = set(
-    "and or the a an of to in for with on as at by from is are was were be been "
-    "this that these those it its we you your our they their he she his her via per "
-    "will shall can must should would could may might do does did done having has have had "
-    "more most other also strong good proven ability work working etc including include years year".split()
-)
+def _load_stop():
+    try:
+        with open(os.path.join(BASE_DIR, "backend", "data", "cues.json"), encoding="utf-8") as fh:
+            return set(json.load(fh).get("stop_words", []))
+    except Exception:
+        return set("and or the a an of to in for with on as at by from is are was were be been".split())
 
-SKILL_VOCAB = [
-    "python", "java", "javascript", "typescript", "sql",
-    "aws", "azure", "gcp", "docker", "kubernetes", "jenkins",
-    "react", "angular", "node.js", "spring", "spring boot", "microservices",
-    "hibernate", "rest", "kafka", "spark", "hadoop", "airflow",
-    "mongodb", "mysql", "postgresql", "redis",
-    "llm", "rag", "langchain", "embeddings", "huggingface", "faiss", "pinecone",
-    "mlops", "devops", "mlflow", "github", "jira", "ci/cd", "terraform",
-    "fastapi", "django", "flask", "html", "css", "git", "maven",
-]
+
+STOP = _load_stop()
+
+def _load_vocab():
+    """Shared skill vocabulary (backend/data/skills.json); falls back to built-in."""
+    try:
+        with open(os.path.join(BASE_DIR, "backend", "data", "skills.json"), encoding="utf-8") as fh:
+            return [s.lower() for s in json.load(fh)]
+    except Exception:
+        return [
+            "python", "java", "javascript", "typescript", "sql",
+            "aws", "azure", "gcp", "docker", "kubernetes", "jenkins",
+            "react", "angular", "node.js", "spring", "spring boot", "microservices",
+            "hibernate", "rest", "kafka", "spark", "hadoop", "airflow",
+            "mongodb", "mysql", "postgresql", "redis",
+            "llm", "rag", "langchain", "embeddings", "huggingface", "faiss", "pinecone",
+            "mlops", "devops", "mlflow", "github", "jira", "ci/cd", "terraform",
+            "fastapi", "django", "flask", "html", "css", "git", "maven",
+        ]
+
+
+SKILL_VOCAB = _load_vocab()
 
 
 def _norm(text):

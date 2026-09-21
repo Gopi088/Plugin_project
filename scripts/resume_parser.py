@@ -45,19 +45,30 @@ email_regex = r"[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+"
 linkedin_regex = r"(linkedin\.com/in/[A-Za-z0-9_\-]+)"
 github_regex = r"(github\.com/[A-Za-z0-9_\-]+)"
 
-VALID_SKILLS = [
-    "python", "java", "javascript", "sql",
-    "aws", "docker", "kubernetes",
-    "react", "redux", "typescript",
-    "spring", "spring boot", "microservices",
-    "mongodb", "mysql", "postgresql", "redis",
-    "langchain", "rag", "llm", "embeddings",
-    "kafka", "hadoop", "spark", "airflow",
-    "fastapi", "django", "flask",
-    "node.js", "express.js", "angular", "hibernate",
-    "rest", "rest api", "rest apis", "html", "css",
-    "git", "maven", "junit", "sonar", "jira",
-]
+def _load_skills():
+    """Shared skill vocabulary (backend/data/skills.json); falls back to built-in."""
+    import json as _json
+    base = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    try:
+        with open(os.path.join(base, "backend", "data", "skills.json"), encoding="utf-8") as fh:
+            return [s.lower() for s in _json.load(fh)]
+    except Exception:
+        return [
+            "python", "java", "javascript", "sql",
+            "aws", "docker", "kubernetes",
+            "react", "redux", "typescript",
+            "spring", "spring boot", "microservices",
+            "mongodb", "mysql", "postgresql", "redis",
+            "langchain", "rag", "llm", "embeddings",
+            "kafka", "hadoop", "spark", "airflow",
+            "fastapi", "django", "flask",
+            "node.js", "express.js", "angular", "hibernate",
+            "rest", "rest api", "rest apis", "html", "css",
+            "git", "maven", "junit", "sonar", "jira",
+        ]
+
+
+VALID_SKILLS = _load_skills()
 
 HEADER_SKIP = {
     "detailed info", "professional summary", "professional experience",
@@ -284,7 +295,7 @@ def extract_skills(doc, text):
             if ent.label_ == "SKILL" and ent.text.lower() in VALID_SKILLS:
                 skills.add(ent.text.lower().title() if ent.text.lower() != "node.js" else "Node.js")
     for skill in VALID_SKILLS:
-        if skill in low:
+        if re.search(r"(?<![a-z0-9+#])" + re.escape(skill) + r"(?![a-z0-9+#])", low):
             disp = skill.title()
             if skill == "node.js":
                 disp = "Node.js"
@@ -434,10 +445,15 @@ def extract_education(text):
             entries = timeline_education(text)
             out = []
             for e in entries:
+                label = e.get("label", "").lstrip("• ").strip()
+                ym = re.findall(r"(19|20)\d{2}", label)
+                year = e.get("end", "")[:4] or (ym[-1] if ym else "")
+                parts = re.split(r"[-–—]", label)
+                inst = parts[-1].strip() if len(parts) > 1 else ""
                 out.append({
-                    "degree": e.get("label", "").lstrip("• ").strip(),
-                    "institution": "",
-                    "year": e.get("end", "")[:4],
+                    "degree": label,
+                    "institution": inst,
+                    "year": year,
                 })
             if out:
                 return out

@@ -1,0 +1,165 @@
+KIRAN G
+CONTACT
+AI/ML Specialist | Machine Learning | NLP | Generative AI
++91 8310706048
+PROFILE SUMMARY
+kiran.g.gangadhar@gmail.com
+• Data scientist with over 10 years of total experience and with 6 years of
+https://www.linkedin.com/in/kiran-g-
+experience in delivering valuable insights through data analytics and
+a5aa5a176/
+machine learning driven modelling solutions to challenging business
+problems across Automotive, Manufacturing, Banking, Insurance, and
+https://github.com/KiranGangadhar01
+CPG domains.
+• Knowledgeable with machine learning (Supervised Learning and
+EDUCATION Unsupervised Learning algorithms), NLP using Generative AI with LLM,
+and Knowledge Graph.
+• Data Science enthusiasts with excellent communication skills -
+2009 - 2013 flexible/quick learners comfortable with variety of platforms – familiar with
+Acharya institute of technology, new age development frameworks.
+Bangalore • Devise POCs on Search Engine, Question Answering system (on
+enterprise data) using both OpenAI and open-sourced based LLM models
+Bachelor of Engineering in
+and deploying them to production.
+Mechanical
+• I am good at developing and maintaining code, implementing efficient
+CI‑CD pipelines, testing new features, and resolving issues promptly. I
+have consistently delivered high‑quality code with a keen focus on
+CORE COMPETENCIES
+minimizing defects.
+Data Science & Analysis
+Machine Learning / Deep Learning
+WORK EXPERIENCE
+Predictive Modeling
+Data Mining Accenture 2022 - PRESENT
+AI Engineering Senior Analyst
+Statistical Analysis
+Natural Language Processing Devise POCs on Search Engine, Question Answering system (on
+enterprise data) using both OpenAI and open-sourced based LLM
+Generative AI / LLM
+models and deploying them to production.
+Construct end-to-end pipelines starting from data acquisition to
+TECHNICAL SKILLS
+inference in the cloud.
+Experienced in CI/CD pipelines, release management process and
+security compliances, and DevOps principles
+Python Programming
+Natural Language Processing
+TCS 2020 - 2022
+Vector database
+Associate Data Scientist
+Power BI & Tableau
+Design and develop AI solutions using machine learning and deep
+Azure DevOps / Git
+learning algorithms.
+Linux/Redhat/SQL
+Build end-to-end pipelines from data pre-processing till model
+inference and monitoring in GCP.
+Monitor performance of existing models, in production, for data drift
+and concept drift.
+LANGUAGES
+CSG 2014 - 2020
+English
+Analyst
+Kannada
+Hindi (Basics)
+Devised POCs for various process of vehicle crash analysis like Predict
+rollover test speed, Loads predictions for “General Motors”
+Deploy automation script to reduce the repeated tasks by automating
+the process of CAE modelling and connection activities.
+Project Annexure
+1) SCALABLE HYBRID SEARCH ENGINE FOR ENTERPRISE DATA
+Objective: Replace legacy keyword search with a high-recall, low-latency hybrid search engine enhanced with
+generative AI capabilities.
+Solution & Responsibilities:
+Built an ETL pipeline to extract content from unstructured files (PDF, PPTX, DOCX, XLSX), preprocess text,
+generate embeddings using OpenAI text-embedding-ada-002, and index in Elastic Search (vector + BM25).
+Developed a unified search API using FastAPI, deployed via Azure App Service, and scheduled data refresh
+pipelines with Azure Functions.
+Implemented reciprocal rank fusion (RRF) to merge results from vector and keyword retrieval.
+Integrated GPT-4o (Azure OpenAI) for on-the-fly summarization of top retrieved documents to improve result
+comprehension and user engagement.
+Tech Stack: Python, FastAPI, Azure App Service, Azure Functions, Azure DevOps, Docker, Elastic Search (BM25 +
+Vector), Azure OpenAI (text-embedding-ada-002, GPT-4o).
+LLM Technique: Hybrid retrieval with RRF + GPT-4o summarization.
+Impact:
+Used by 3 000+ practitioners; avg. 120 min/week saved per user.
+GPT-based summaries improved result interpretability and decision-making.
+Outperformed traditional search in Top-5 and Top-10 Precision metrics; user feedback indicated significant
+improvement in relevance and usability.
+2) RESPONSIBLE RAG SYSTEM WITH QA, SUMMARIZATION & LANGUAGE GUARDRAILS
+Objective: Develop a secure and trustworthy enterprise AI assistant that combines question answering,
+summarization, and Responsible AI enforcement using Generative AI.
+Solution & Responsibilities:
+Designed a Retrieval-Augmented Generation (RAG) pipeline to retrieve relevant enterprise content from Milvus
+Vector DB, and generate contextual answers using GPT-4o (Azure OpenAI).
+Enabled automatic summarization of top-ranked documents using GPT-4o when users requested a summary or
+entered open-ended queries.
+Integrated guardrails for Responsible AI using the guardrails-ai library, including:
+Detection and mitigation of toxicity, bias, and unsafe content
+Enforced English-only output constraint across all LLM generations
+Schema validation for summaries and answers to ensure consistency and structure
+Developed a modular backend with FastAPI, and used PostgreSQL to log user queries, feedback, model
+responses, and guardrail violation events.
+Implemented continuous monitoring and audit logging for model behavior, used for iterative retriever threshold
+tuning and safe prompt refinement.
+Tech Stack: Python, FastAPI, Milvus, PostgreSQL, Azure OpenAI (GPT-4o), guardrails-ai, Docker, Azure DevOps
+LLM Techniques:
+RAG (Milvus vector search + GPT-4o completion)
+Generative Summarization (on top-k retrieved chunks)
+Guardrails for responsible AI enforcement (toxicity filtering, language policy, structured outputs)
+Multi-turn QA with context-aware prompt chaining
+Impact:
+Ensured 100% English-only output compliance across diverse input scenarios
+Filtered or blocked 98.7% of unsafe outputs before user delivery
+Boosted user trust and adoption, with a 4.5/5 satisfaction rating
+3) AGENTIC INSIGHT GENERATOR FOR CLIENT EARNINGS TRANSCRIPTS
+Objective: Build an intelligent agentic system that automatically analyzes earnings transcripts (e.g., ManpowerGroup
+Inc.), extracts high-impact strategic themes, classifies them into actionable consulting areas, and delivers tailored
+solution insights to clients via email and presentation decks.
+Solution & Responsibilities:
+Designed a multi-agent workflow using a centralized RAG pipeline to:
+Ingest and chunk earnings call transcripts
+Classify themes into categories of Growth, Cost, or Sustainability using a structured prompt and reasoning
+chain using GPT-4o (Azure OpenAI)
+Project Annexure
+For each theme, the system generates:
+Theme Name
+ThemeCategorization based on business impact
+ThemeBrief (≤ 300 characters)
+ValidatingFactsfromEarningsTranscript — pulled directly from transcript with citations
+Each theme is passed as a semantic query to an internal enterprise solution knowledge base indexed in Milvus
+Vector DB, retrieving:
+Relevant solution components, prebuilt narratives, and case studies which will help improve the client
+performance.
+Implemented Guardrails-AI to:
+Enforce structured schema for theme response (JSON format)
+Ensure outputs are in English only
+Detect hallucinated or unsupported claims from transcripts
+Developed automated flows to:
+Send customized emails to client stakeholders with insights + solutions
+Offer an option to auto-generate a client-facing PowerPoint deck for internal/external sales use.
+Tech Stack: Python, FastAPI, GPT-4o (Azure OpenAI), Milvus, Haystack framework, CrewAI, guardrails-ai,
+PostgreSQL, PowerPoint generation (python-pptx)
+LLM Technique:
+RAG for solution retrieval
+Agentic orchestration of multiple LLM tasks (extraction of theme and theme brief classification of theme
+→
+category retrieval from enterprise solution -> sending email to client -> powerpoint generation)
+→
+Structured prompt chaining + validation with Guardrails
+Impact:
+Reduced analyst time for earnings transcript review by 90%
+Enabled scalable and consistent client insight generation across 50+ enterprise clients
+Increased solution pitch conversion by 25% due to aligned and personalized recommendations.
+Cloud Certifications
+Microsoft Certification:
+1. Azure AI Fundamentals - AI 900
+2. Azure AI Engineer Associate - AI102
+AWS certification:
+1. AWS Certified Machine Learning - Specialty
+GCP:
+1. GCP Associate Cloud Engineer
+2. GCP - Professional Data Engineering
+3. GCP - Professional Machine learning Engineer

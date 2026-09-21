@@ -50,6 +50,11 @@ class TestExtension(unittest.TestCase):
                            capture_output=True, text=True, cwd=BASE)
         self.assertEqual(p.returncode, 0, p.stderr or p.stdout)
 
+    def test_document_relay(self):
+        p = subprocess.run([shutil_which_node(), os.path.join(EXT, "background.test.js")],
+                           capture_output=True, text=True)
+        self.assertEqual(p.returncode, 0, p.stderr or p.stdout)
+
     def test_vocabulary(self):
         for f in ("content.js", "popup.js", "background.js", "viewmodel.js"):
             with open(os.path.join(EXT, f), encoding="utf-8") as fh:

@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-09-21T07:34:06.944151+00:00",
+  "cases": 4,
+  "overall_accuracy": 1.0,
+  "overall_accuracy_definition": "mean of job_extraction.f1 and gap.f1 on the hand-labeled set",
+  "job_extraction": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "association_accuracy": 1.0,
+  "gap": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "false_positive_rate": 0.0
+  },
+  "gap_confidence": {
+    "mean_predicted": 0.846,
+    "empirical_accuracy": 1.0,
+    "calibration_gap": 0.154
+  }
+}

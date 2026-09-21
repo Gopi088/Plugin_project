@@ -1,0 +1,164 @@
+SREELAKSHMI GANDLA
+Analyst - Machine Learning Engineer | Generative AI & LLM Specialist | Cloud AI Solutions
+
+
+Results-driven Machine Learning Engineer with nearly 8 years of total experience in NLP, AWS, and over 4 years specializing in Generative AI, LLMs, and cloud-based AI deployments. Skilled in designing and productionizing scalable AI solutions, leading teams, mentoring engineers, and translating complex AI/ML concepts into practical applications that drive operational efficiency, enhance compliance, and deliver measurable business impact.
+(+91) 964-046-7149	
+jahnavi2022m@gmail.com	 Language Known: English	 
+Bangalore, India
+
+
+
+
+Profile Summary
+Proficient in designing and deploying end-to-end AI systems for regulated industries, including healthcare and pharmaceutical documentation.
+Experienced in LangChain, LangGraph, hierarchical RAG pipelines, multi-agent AI systems, and Few-Shot Learning for context-rich document generation.
+
+Successfully reduced regulatory document authoring timelines from weeks to days, enhancing productivity and compliance for multi-region submissions.
+
+Skilled in NER model development with >90% accuracy, improving automated data extraction and information retrieval processes.
+Hands-on expertise in cloud deployment and DevOps, leveraging AWS (S3, ECS, SageMaker, OpenSearch) and Azure OpenAI for scalable production-ready AI solutions.
+
+Strong backend development experience with Python, FastAPI, Docker, and frontend integration using React.js and Vue.js for AI-powered tools.
+
+Demonstrated leadership through mentoring and managing teams of 5+, guiding full project lifecycles from ideation to production deployment.
+Adept at automating repetitive workflows using AI, such as document redaction, abbreviation extraction, and multi-region CTD document generation, reducing manual effort by over 90%.
+
+Proven ability to translate complex AI/ML concepts into business value, delivering solutions that improve operational efficiency, reduce risk, and accelerate decision-making in enterprise environments.
+
+
+Certifications
+TensorFlow Developer Certificate - TensorFlow (Google)
+TensorFlow Developer Specialization - DeepLearning.AI (Coursera)
+Neural Networks and Deep Learning - Coursera
+
+ Career Timeline
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Core Competencies
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Education & Credentials
+2019 - 2021 | Post Graduate Diploma | Great Lakes Executive Learning, Bangalore
+
+2013 - 2017 | B.Tech. | Sree Vidyanikethan Engineering College, Tirupati | Graduated with Gold Medal, CGPA: 8.9
+
+
+
+Dec 2017 - Nov 2021
+ValueLabs, Bangalore Software Engineer
+Dec 2022 - Present ValueLabs, Bengaluru Analyst
+ Soft Skills
+
+
+
+Nov 2021 - Dec 2022
+Amadeus, Bangalore
+Software Engineer
+
+ Work Experience
+
+Dec 2022 - Present | ValueLabs, Bengaluru | Analyst	
+Projects Executed:
+AI-Powered CTD Module 2 (QOS) Generator
+Challenge: Manual authoring of the Quality Overall Summary (QOS) for regulatory submissions was time-consuming, error-prone, and dependent on specialized tribal knowledge.
+Solution: Developed an end-to-end AI platform using a fine-tuned GPT-4o model with few-shot learning to generate section-wise draft summaries from source technical data and historical submissions. Managed via a human-in-the-loop dashboard for expert review and approval.
+Impact: Reduced QOS authoring cycle from weeks/months to days, minimized regulatory risk, and freed SMEs to focus on high-value scientific review.
+Tech: Azure OpenAI (GPT-4o), Few-Shot Learning, Vector Embeddings, Python, FastAPI, Docker, React.js, AWS (S3, ECS, Lambda), Microsoft Office Add-in.
+Hierarchical RAG Pipeline for Contextual Retrieval
+Challenge: Traditional RAG pipelines break document structure, leading to context-poor and inaccurate outputs.
+Solution: Built a hierarchical RAG system parsing documents into logical trees. Child chunks are vectorized and indexed in OpenSearch, while full parent sections are retrieved to enrich LLM prompts.
+Impact: Improved accuracy, relevance, and reliability of LLM responses by preserving full document context.
+Tech: AWS S3 & OpenSearch, Azure Document Intelligence, GPT-4 & Claude 3, Python, Hierarchical Data Structures.
+Documender Multi-Agent Enhancement
+Challenge: Original Documender tool produced inconsistent outputs requiring extensive manual reviews.
+Solution: Refactored into reusable components and implemented a multi-agent system with LangGraph to automate critique-and-refinement loops against a scoring rubric.
+Impact: Enabled automated multi-persona review, reduced review cycles, and ensured consistent high-quality output.
+Tech: LangGraph, GPT-4o, Multi-Agent Systems, Python, FastAPI, Docker.
+CTD Colour Extractor Utility
+Challenge: Manual creation of region-specific regulatory documents took ~150 hours per molecule and was error-prone.
+Solution: Developed an automation tool with a single-source-of-truth approach. The system reads a color-coded master Word document and generates region-specific documents programmatically.
+Impact: Reduced processing time by 99%, eliminated copy-paste errors, and simplified version control.
+Tech: Python, GPT-4o, Vue.js, python-docx, Document Automation.
+
+
+Nov 2021 - Dec 2022 | Amadeus, Bangalore | Software Engineer	
+Projects Executed :
+Redaction Bot
+Challenge: Manual redaction of PII from large clinical and research documents (up to 3,000 pages) was time-consuming and required compliance with HIPAA, GDPR, and Health Canada regulations.
+Solution: Developed an RPA-based Python application that automates PII detection using AWS Comprehend and Hugging Face NER models, applies masking via AWS Textract and PyMuPDF, and validates results using Azure OpenAI GPT-4.
+Impact: Streamlined redaction process, reduced manual effort, and improved quality control, significantly accelerating document processing.
+Tech: PyMuPDF, Fitz, AWS Textract & SageMaker, Hugging Face, LangChain, Azure OpenAI GPT-4, Chain-of-Thought Prompting.
+Automated Abbreviation Web Portal
+Challenge: Medical writers spent hours manually extracting abbreviations and definitions from clinical documents.
+Solution: Built a web portal allowing users to upload documents and automatically generate abbreviation lists using a deep learning NER model trained on 100,000+ clinical documents.
+Impact: Reduced manual effort, improved accuracy, and enhanced workflow efficiency for medical writers.
+Tech: Hugging Face, AWS, Python, Pandas, Docx, Named Entity Recognition (NER).
+
+
+Dec 2017 - Nov 2021 | ValueLabs, Bangalore | Software Engineer	
+Projects Executed :
+Text Classification API for Ehelpline
+Challenge: Existing Elastic Search-based API for classifying internal helpline tickets at ValueLabs was inaccurate and required significant manual effort.
+Solution: Developed a Machine Learning-based API using pre-trained word embeddings, improving classification accuracy up to 90%, and deployed it as a Flask API.
+Impact: Increased accuracy of ticket classification, reduced manual effort, and improved routing for better customer experience.
+Tech: Neural Networks, Keras, TensorFlow, Scikit-Learn, Pandas, Flask.
+Loan Closing Date Prediction (Gallagher Solutions)
+Challenge: Gallagher Solutions needed to predict loan closing dates to manage resources efficiently and reduce risk.
+Solution: Built a machine learning model trained on historical loan applications to predict closing dates.
+Impact: Reduced mean absolute error (MAE) from 24 to 10, enabling more accurate decision-making, resource planning, and risk mitigation.
+Tech: Machine Learning, Python, Scikit-Learn, Flask, Data Science.

@@ -38,16 +38,30 @@ CREATE TABLE IF NOT EXISTS feedback(
 """
 
 
-def connect(path=DEFAULT_DB):
+_initialized_paths = set()
+
+
+def init_db(path=DEFAULT_DB):
     os.makedirs(os.path.dirname(path), exist_ok=True)
-    cx = sqlite3.connect(path)
+    cx = sqlite3.connect(path, timeout=30.0)
+    try:
+        cx.execute("PRAGMA journal_mode=WAL;")
+    except Exception:
+        pass
     cx.executescript(SCHEMA)
-    # additive migration for DBs created before candidate storage
     try:
         cx.execute("ALTER TABLE documents ADD COLUMN candidate TEXT DEFAULT ''")
     except Exception:
         pass
-    return cx
+    cx.close()
+    _initialized_paths.add(path)
+
+
+def connect(path=DEFAULT_DB):
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    if path not in _initialized_paths:
+        init_db(path)
+    return sqlite3.connect(path, timeout=30.0)
 
 
 def new_doc_id():
@@ -161,9 +175,20 @@ def get_timeline(cx, doc_id):
             g["dismissed_by_recruiter"] = True
             if g["state"] == "POTENTIAL_GAP":
                 g["state"] = "DISMISSED_GAP"
+    total_ev = len(timeline) + len(unresolved)
+    confs = [e["confidence"] for e in timeline if e.get("confidence") is not None]
+    quality = {
+        "dated_events": len(timeline),
+        "total_events": total_ev,
+        "dated_share": round(len(timeline) / total_ev, 3) if total_ev else 0.0,
+        "unresolved": len(unresolved),
+        "ambiguous": sum(1 for e in timeline if e.get("status") == "AMBIGUOUS"),
+        "mean_event_confidence": round(sum(confs) / len(confs), 3) if confs else None,
+    }
     return {"doc_id": doc_id, "filename": doc[0], "status": doc[1],
             "candidate_name": doc[2] or "",
             "timeline": timeline, "unresolved_events": unresolved, "gaps": gaps,
+            "quality": quality,
             "recruiter_overrides": overrides,
             "disclaimer": ("Potential gaps mark periods with no clearly represented "
                            "activity in the resume. They are not evidence of unemployment. "

@@ -1,161 +1,92 @@
 KUNDAN KUMAR PANDEY
-
-Senior Data Engineer  ·  Distributed Systems  ·  Real-Time Streaming  ·  Lakehouse  ·  Cloud-Native
-
-Bengaluru, India  ·  +91-7550267026  ·  kkp2798@gmail.com  ·  Databricks Certified GenAI Engineer
-
+Senior Data Engineer · Distributed Systems · Real-Time Streaming · Lakehouse · Cloud-Native
+Bengaluru, India · +91-7550267026 · kkp2798@gmail.com · Databricks Certified GenAI Engineer
 PROFESSIONAL SUMMARY
-Senior Data Engineer with 6 years designing and operating large-scale distributed data platforms in production. Architected 
-streaming infrastructure for Marriott International (500+ hotels, 10K+ events/sec, sub-5s SLA) and contract intelligence platform for 
+Senior Data Engineer with 6 years designing and operating large-scale distributed data platforms in production. Architected
+streaming infrastructure for Marriott International (500+ hotels, 10K+ events/sec, sub-5s SLA) and contract intelligence platform for
 Morgan Stanley (2M+ docs/month). Expert in Spark internals, Kafka, Delta Lake, and AWS. Comfortable owning system design end-
-to-end — trade-off analysis, fault-tolerance strategy, and cross-functional alignment. Delivered 40% Spark performance gains, 24× 
+to-end — trade-off analysis, fault-tolerance strategy, and cross-functional alignment. Delivered 40% Spark performance gains, 24×
 SLA improvement, and 60% QA reduction in production.
-
 SYSTEM DESIGN HIGHLIGHTS
-
-• Designed a real-time distributed pipeline processing 10K+ events/sec across 500+ global properties with exactly-once 
-
-guarantees, stateful stream processing, and 99.9% SLA — using Kafka + Spark Structured Streaming with transactional Delta 
+• Designed a real-time distributed pipeline processing 10K+ events/sec across 500+ global properties with exactly-once
+guarantees, stateful stream processing, and 99.9% SLA — using Kafka + Spark Structured Streaming with transactional Delta
 Lake writes.
-
 • Architected fault-tolerant ingestion at 2M+ docs/month with backpressure handling, dead-letter queue strategy, circuit-
-
 breaker failover, and automatic checkpointing — zero message loss under upstream API failures.
-
-• Led Kappa vs. Lambda architecture decision for a production streaming platform — trade-off analysis, stakeholder alignment, 
-
+• Led Kappa vs. Lambda architecture decision for a production streaming platform — trade-off analysis, stakeholder alignment,
 and full design doc ownership — eliminating dual-codebase complexity.
-
 TECHNICAL SKILLS
 Languages: Python, PySpark, Scala, Java, SQL, Groovy
-Streaming & Batch: Apache Spark (Batch & Streaming), Kafka, NiFi, Flink (familiar), Stateful Stream Processing, Checkpointing 
+Streaming & Batch: Apache Spark (Batch & Streaming), Kafka, NiFi, Flink (familiar), Stateful Stream Processing, Checkpointing
 Strategy
-Cloud & Infra: AWS (S3, EMR, Redshift, Lambda, Glue, Kinesis), Databricks, GCP/BigQuery (familiar), Terraform (familiar), 
+Cloud & Infra: AWS (S3, EMR, Redshift, Lambda, Glue, Kinesis), Databricks, GCP/BigQuery (familiar), Terraform (familiar),
 Autoscaling
-Data Architecture: Lakehouse (Delta Lake), Kappa/Lambda Architecture, ETL/ELT, SCD Type 2, Exactly-Once Semantics, Data 
+Data Architecture: Lakehouse (Delta Lake), Kappa/Lambda Architecture, ETL/ELT, SCD Type 2, Exactly-Once Semantics, Data
 Contracts
-Spark Tuning: AQE, Partition Pruning, Broadcast Joins, Skew Salting, Z-Ordering, JVM Tuning, Memory Tuning, Dynamic Partition 
+Spark Tuning: AQE, Partition Pruning, Broadcast Joins, Skew Salting, Z-Ordering, JVM Tuning, Memory Tuning, Dynamic Partition
 Coalescing
 Reliability: Fault-Tolerance Strategy, Backpressure Handling, DLQ, Circuit Breaker, On-Call Runbooks, MTTD/MTTR Optimization
 Tooling: Airflow, Oozie, Jenkins, Git, CI/CD, dbt (familiar), Avro, Schema Registry, AWS Glue Catalog, Great Expectations (familiar)
-
 WORK EXPERIENCE
-
-Senior Data Engineer  ·  LTIMindtree  (Client: Marriott International)  ·  Bengaluru, India
-
-Jan 2025 – Present
-
-• Authored design doc and led architecture decision to adopt Kappa over Lambda — eliminated dual-codebase maintenance, 
-
+Senior Data Engineer · LTIMindtree (Client: Marriott International) · Bengaluru, India Jan 2025 – Present
+• Authored design doc and led architecture decision to adopt Kappa over Lambda — eliminated dual-codebase maintenance,
 reduced operational complexity by 35%; system processes 10M+ records/day at 99.9% uptime.
-
-• Cut Spark job runtime 40% via AQE, broadcast join optimization, skew-key salting, JVM tuning, and memory tuning — reduced 
-
+• Cut Spark job runtime 40% via AQE, broadcast join optimization, skew-key salting, JVM tuning, and memory tuning — reduced
 AWS EMR cluster cost ~30% for the same throughput.
-
-• Built Delta Lake Lakehouse (partition writes, Z-ordering, OPTIMIZE/VACUUM) — 3× query throughput vs. raw Parquet; 
-
+• Built Delta Lake Lakehouse (partition writes, Z-ordering, OPTIMIZE/VACUUM) — 3× query throughput vs. raw Parquet;
 implemented exactly-once semantics with idempotent producers and transactional Delta writes.
-
-• Designed observability framework (freshness, volume, schema drift) across 20+ stages — cut MTTD from 4 hours to 10 
-
+• Designed observability framework (freshness, volume, schema drift) across 20+ stages — cut MTTD from 4 hours to 10
 minutes; established on-call runbooks reducing MTTR by 35%.
-
-• Led schema evolution with Avro + Schema Registry (full-compatibility mode) — zero-downtime upgrades across 15+ 
-
+• Led schema evolution with Avro + Schema Registry (full-compatibility mode) — zero-downtime upgrades across 15+
 downstream services for 12 months of production operation.
-
-• Mentored 4 engineers via Spark internals study groups and structured code reviews — 2 promoted within 12 months; on-call 
-
+• Mentored 4 engineers via Spark internals study groups and structured code reviews — 2 promoted within 12 months; on-call
 incidents dropped 40%.
-
-Software Engineer – Data Integration  ·  Sirion  ·  Bengaluru, India
-
-Dec 2021 – Jan 2025
-
-• Designed full OLTP→OLAP migration (MySQL to Redshift) with SCD Type 2 dimensional model — enabled sub-second KPI 
-
+Software Engineer – Data Integration · Sirion · Bengaluru, India Dec 2021 – Jan 2025
+• Designed full OLTP→OLAP migration (MySQL to Redshift) with SCD Type 2 dimensional model — enabled sub-second KPI
 queries, unblocked product analytics initiative, and delivered complete regulatory audit trail.
-
-• Built custom NiFi processors integrated with Spring Boot microservices for 500K+ contract records/month — 50% reduction in 
-
-•
-
-manual data handling. Tuned Redshift physical design with KEY/EVEN distribution, compound sort keys, and ENCODE 
+• Built custom NiFi processors integrated with Spring Boot microservices for 500K+ contract records/month — 50% reduction in
+manual data handling. Tuned Redshift physical design with KEY/EVEN distribution, compound sort keys, and ENCODE
 compression — 45% query time reduction.
-Implemented automated DQ framework with completeness, uniqueness, and referential integrity checks plus schema drift 
-detection and pipeline quarantine — 100% data accuracy SLA across all client compliance audits, 70% drop in data incidents 
+• Implemented automated DQ framework with completeness, uniqueness, and referential integrity checks plus schema drift
+detection and pipeline quarantine — 100% data accuracy SLA across all client compliance audits, 70% drop in data incidents
 over 3 years.
-
-• AWS Glue Data Catalog coverage reduced analyst onboarding from 2 weeks to 3 days; eliminated 10+ weekly ad-hoc data 
-
+• AWS Glue Data Catalog coverage reduced analyst onboarding from 2 weeks to 3 days; eliminated 10+ weekly ad-hoc data
 requests to the engineering team.
-
-Senior Data Integration Developer  ·  SmartServ  ·  Bengaluru, India
-
-Feb 2020 – Dec 2021
-
-• Migrated legacy ETL to NiFi distributed architecture — authored trade-off analysis vs. Kafka Streams, drove engineering 
-
-consensus; fault-tolerance strategy with retry, backpressure handling, and DLQ achieved 25% maintenance cost reduction and 
+Senior Data Integration Developer · SmartServ · Bengaluru, India Feb 2020 – Dec 2021
+• Migrated legacy ETL to NiFi distributed architecture — authored trade-off analysis vs. Kafka Streams, drove engineering
+consensus; fault-tolerance strategy with retry, backpressure handling, and DLQ achieved 25% maintenance cost reduction and
 zero data loss across 10+ upstream sources.
-
-• Built data cleansing and enrichment pipelines improving BI accuracy by 25%; Tableau self-service integration eliminated 15+ 
-
+• Built data cleansing and enrichment pipelines improving BI accuracy by 25%; Tableau self-service integration eliminated 15+
 eng-hours/week of analyst support and onboarded 3 business units to independent reporting.
-
-• Facilitated cross-functional data design workshops — produced formal data contracts and schema agreements between 
-
+• Facilitated cross-functional data design workshops — produced formal data contracts and schema agreements between
 business, product, and engineering, reducing downstream rework by 30%.
-
 SELECTED PROJECTS
-
-SPB Room Availability Pipeline — Marriott International   ·   Spark · Kafka · NiFi · EMR · Delta Lake · Avro
-
-• Architected real-time stateful streaming pipeline processing 10K+ events/sec across 500+ hotels with sub-5s end-to-end SLA. 
-
-Chose Spark Structured Streaming over Flink after trade-off analysis. Exactly-once semantics via idempotent producers + 
+SPB Room Availability Pipeline — Marriott International · Spark · Kafka · NiFi · EMR · Delta Lake · Avro
+• Architected real-time stateful streaming pipeline processing 10K+ events/sec across 500+ hotels with sub-5s end-to-end SLA.
+Chose Spark Structured Streaming over Flink after trade-off analysis. Exactly-once semantics via idempotent producers +
 transactional Delta writes eliminated 2–3% duplicate inventory inflation.
-
-• Delta Lake storage optimized with ZORDER on high-cardinality columns and automated OPTIMIZE + VACUUM schedules — 
-
-60% query scan cost reduction vs. raw Parquet. Statistical anomaly detection cut silent failure MTTD from 4 hours to 10 
+• Delta Lake storage optimized with ZORDER on high-cardinality columns and automated OPTIMIZE + VACUUM schedules —
+60% query scan cost reduction vs. raw Parquet. Statistical anomaly detection cut silent failure MTTD from 4 hours to 10
 minutes.
-Impact: 40% booking error reduction, multi-million revenue protected at peak, 99.9% production uptime.
-
-•
-
-CI vs OY Room Block Reconciliation — Marriott International   ·   PySpark · SQL · Delta Lake · S3
-
-• Stateful PySpark engine with checkpointing strategy, incremental processing, and idempotent writes — SLA reduced from 2 
+• Impact: 40% booking error reduction, multi-million revenue protected at peak, 99.9% production uptime.
+CI vs OY Room Block Reconciliation — Marriott International · PySpark · SQL · Delta Lake · S3
+• Stateful PySpark engine with checkpointing strategy, incremental processing, and idempotent writes — SLA reduced from 2
 days to 2 hours (24× improvement). QA effort down 60%, 2 FTEs freed from manual work. Zero data quality escalations post-
 launch.
-
-Contract Data Ingestion Platform — Morgan Stanley   ·   NiFi · Kafka · Salesforce API · Redshift
-
-• Multi-modal ingestion at 2M+ docs/month with backpressure handling, DLQ strategy, and autoscaling via partitioned Kafka 
-
+Contract Data Ingestion Platform — Morgan Stanley · NiFi · Kafka · Salesforce API · Redshift
+• Multi-modal ingestion at 2M+ docs/month with backpressure handling, DLQ strategy, and autoscaling via partitioned Kafka
 topics — 30% reliability gain, zero message loss under upstream API outages.
-
-• Redshift schema tuning (distribution keys, compound sort keys, ENCODE compression) — 45% query time reduction. Replaced 
-
+• Redshift schema tuning (distribution keys, compound sort keys, ENCODE compression) — 45% query time reduction. Replaced
 48-hour data lag with near-real-time access for 200+ legal and procurement professionals.
-Reusable NiFi Processor Framework for Flow Control   ·   Java · Groovy · Spring Boot · Apache NiFi
-
-• Designed a config-driven, environment-aware NiFi processor framework for automated flow lifecycle management — enabled 
-
-one-click deployment across Dev, Staging, and Production with backpressure handling, self-healing retry, and centralized 
+Reusable NiFi Processor Framework for Flow Control · Java · Groovy · Spring Boot · Apache NiFi
+• Designed a config-driven, environment-aware NiFi processor framework for automated flow lifecycle management — enabled
+one-click deployment across Dev, Staging, and Production with backpressure handling, self-healing retry, and centralized
 alerting, reducing manual ops toil by 30%.
-Integrated with Spring Boot microservices via secured REST APIs for cross-environment orchestration — eliminated 
+• Integrated with Spring Boot microservices via secured REST APIs for cross-environment orchestration — eliminated
 environment-specific configuration drift across all 3 deployment tiers.
-
-•
-
 EDUCATION & CERTIFICATIONS
-B.Tech, Electronics & Communication Engineering  —  Vellore Institute of Technology, Vellore2020  ·  Score: 83.9%  ·  Top 10% of Batch
-Certifications:  Databricks Certified GenAI Engineer Associate  ·  HackerRank Problem-Solving – Intermediate  ·  Confluent Kafka 
+B.Tech, Electronics & Communication Engineering — Vellore Institute of Technology, Vellore2020 · Score: 83.9% · Top 10% of Batch
+Certifications: Databricks Certified GenAI Engineer Associate · HackerRank Problem-Solving – Intermediate · Confluent Kafka
 Certification (in progress, 2025)
-Open Source & Community:  Active contributor on GeeksForGeeks · HackerRank top percentile in Problem Solving · Spark & Kafka stack 
+Open Source & Community: Active contributor on GeeksForGeeks · HackerRank top percentile in Problem Solving · Spark & Kafka stack
 discussions on community forums
-
-
