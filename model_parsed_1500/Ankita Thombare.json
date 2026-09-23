@@ -1,0 +1,490 @@
+{
+  "file_name": "Ankita Thombare.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 5,
+    "total_events": 5,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.846,
+    "document_accuracy": 0.85
+  },
+  "work_experience": [
+    {
+      "id": "v38532c14d4c482d8",
+      "company": "Thane Bharat Sahakari Bank Ltd (TBSB",
+      "title": "",
+      "start_date": "2023-05",
+      "end_date": "2023-07",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v7abe86b3dc9718ac",
+      "company": "Financial Services Operations",
+      "title": "Intern",
+      "start_date": "2024-10",
+      "end_date": "2024-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v588b18b32000aee4",
+      "company": "Financial Services Operations",
+      "title": "Associate",
+      "start_date": "2025-01",
+      "end_date": "2026-07",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "vcb382553bd5b7e41",
+      "company": "Bachelor of Accounting & Finance (B.A.F.)– Mumbai University",
+      "title": "",
+      "start_date": "2019-01",
+      "end_date": "2022-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    },
+    {
+      "id": "v915ae4964645f962",
+      "company": "",
+      "title": "Master of Management Studies(MMS",
+      "start_date": "2022-01",
+      "end_date": "2024-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 3,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "Ankita Thombare",
+    "filename": "Ankita Thombare.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "vcb382553bd5b7e41",
+        "type": "EDUCATION",
+        "title": "",
+        "org": "Bachelor of Accounting & Finance (B.A.F.)– Mumbai University",
+        "start": "2019-01",
+        "end": "2022-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "Bachelor of Accounting & Finance (B.A.F.)– Mumbai University                                       2019 – 2022\nICLE's College, Vashi,Navi Mumbai, Maharashtra",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor of Accounting & Finance (B.A.F.)– Mumbai University                                       2019 – 2022",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 5086,
+              "end": 5196
+            },
+            {
+              "page": 1,
+              "text": "ICLE's College, Vashi,Navi Mumbai, Maharashtra",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 5198,
+              "end": 5244
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2019 – 2022",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 5185,
+              "end": 5196
+            },
+            {
+              "page": 1,
+              "text": "2025",
+              "block_id": "b86",
+              "kind": "text",
+              "start": 6184,
+              "end": 6188
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Bachelor of Accounting & Finance (B.A.F.)– Mumbai University",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 5086,
+              "end": 5146
+            }
+          ],
+          "title": [],
+          "section": "EDUCATION",
+          "date_label": "2019 – 2022",
+          "is_present": false
+        },
+        "date_label": "2019 – 2022",
+        "section": "EDUCATION",
+        "is_present": false
+      },
+      {
+        "id": "v915ae4964645f962",
+        "type": "EDUCATION",
+        "title": "Master of Management Studies(MMS",
+        "org": "",
+        "start": "2022-01",
+        "end": "2024-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "Master of Management Studies(MMS)\nDR. V.N. BedekarInstitute of Management Studies, Thane, Maharashtra 2022 – 2024",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Master of Management Studies(MMS)",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 4970,
+              "end": 5003
+            },
+            {
+              "page": 1,
+              "text": "DR. V.N. BedekarInstitute of Management Studies, Thane, Maharashtra 2022 – 2024",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 5005,
+              "end": 5084
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2022 – 2024",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 5073,
+              "end": 5084
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Master of Management Studies(MMS",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 4970,
+              "end": 5002
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2022 – 2024",
+          "is_present": false
+        },
+        "date_label": "2022 – 2024",
+        "section": "EDUCATION",
+        "is_present": false
+      },
+      {
+        "id": "v38532c14d4c482d8",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Thane Bharat Sahakari Bank Ltd (TBSB",
+        "start": "2023-05",
+        "end": "2023-07",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Thane Bharat Sahakari Bank Ltd (TBSB) May 2023 – Jul 2023",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Thane Bharat Sahakari Bank Ltd (TBSB) May 2023 – Jul 2023",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 4314,
+              "end": 4371
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "May 2023 – Jul 2023",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 4352,
+              "end": 4371
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Thane Bharat Sahakari Bank Ltd (TBSB",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 4314,
+              "end": 4350
+            }
+          ],
+          "title": [],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "May 2023 – Jul 2023",
+          "is_present": false
+        },
+        "date_label": "May 2023 – Jul 2023",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v7abe86b3dc9718ac",
+        "type": "INTERNSHIP",
+        "title": "Intern",
+        "org": "Financial Services Operations",
+        "start": "2024-10",
+        "end": "2024-12",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_INTERNSHIP_CUES"
+        ],
+        "quote": "Intern – Financial Services Operations\nSS&C Fintech Services Ltd Oct 2024 – Dec 2024",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Intern – Financial Services Operations",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 3660,
+              "end": 3698
+            },
+            {
+              "page": 1,
+              "text": "SS&C Fintech Services Ltd Oct 2024 – Dec 2024",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 3700,
+              "end": 3745
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Oct 2024 – Dec 2024",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 3726,
+              "end": 3745
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Financial Services Operations",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 3669,
+              "end": 3698
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Intern",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 3660,
+              "end": 3666
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Oct 2024 – Dec 2024",
+          "is_present": false
+        },
+        "date_label": "Oct 2024 – Dec 2024",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v588b18b32000aee4",
+        "type": "EMPLOYMENT",
+        "title": "Associate",
+        "org": "Financial Services Operations",
+        "start": "2025-01",
+        "end": "2026-07",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Associate – Financial Services Operations                                                                 Jan 2025 – July 2026\nSS&C Fintech Services Ltd",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Associate – Financial Services Operations                                                                 Jan 2025 – July 2026",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 1405,
+              "end": 1531
+            },
+            {
+              "page": 1,
+              "text": "SS&C Fintech Services Ltd",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 1533,
+              "end": 1558
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jan 2025 – July 2026",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 1511,
+              "end": 1531
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Financial Services Operations",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 1417,
+              "end": 1446
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Associate",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 1405,
+              "end": 1414
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Jan 2025 – July 2026",
+          "is_present": false
+        },
+        "date_label": "Jan 2025 – July 2026",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [],
+        "evidence": {
+          "note": "year-only dates need verification"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 5,
+      "total_events": 5,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.846,
+      "document_accuracy": 0.85
+    },
+    "total_represented_months": 91,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

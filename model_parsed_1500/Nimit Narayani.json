@@ -1,0 +1,441 @@
+{
+  "file_name": "Nimit Narayani.pdf",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 4,
+    "total_events": 5,
+    "dated_share": 0.8,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.866,
+    "document_accuracy": 0.87
+  },
+  "work_experience": [
+    {
+      "id": "v667a5bb10dbf56c8",
+      "company": "AI-ML virtual internship, AWS Academy",
+      "title": "",
+      "start_date": "2021-10",
+      "end_date": "2021-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v8d547e88b34c07bd",
+      "company": "",
+      "title": "Technical Undergraduate Intern",
+      "start_date": "2022-01",
+      "end_date": "2022-07",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v5288eb6c253f2f7e",
+      "company": "",
+      "title": "Consulting Engineer",
+      "start_date": "2022-08",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "v1eb5fac7cb7767bc",
+      "company": "Galgotias University",
+      "title": "Bachelor of Technology in Computer Science",
+      "start_date": "2018-01",
+      "end_date": "2022-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    },
+    {
+      "id": "v5072f9c12f585d8e",
+      "company": "",
+      "title": "7.18/ 10 CGPA (First Division",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 3,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "Nimit Narayani",
+    "filename": "Nimit Narayani.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "v1eb5fac7cb7767bc",
+        "type": "EDUCATION",
+        "title": "Bachelor of Technology in Computer Science",
+        "org": "Galgotias University",
+        "start": "2018-01",
+        "end": "2022-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "Bachelor of Technology in Computer Science,\nGalgotias University\n2018 – 2022  | Noida, India",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor of Technology in Computer Science,",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 2696,
+              "end": 2739
+            },
+            {
+              "page": 1,
+              "text": "Galgotias University",
+              "block_id": "b45",
+              "kind": "text",
+              "start": 2741,
+              "end": 2761
+            },
+            {
+              "page": 1,
+              "text": "2018 – 2022  | Noida, India",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 2762,
+              "end": 2789
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2018 – 2022",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 2762,
+              "end": 2773
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Galgotias University",
+              "block_id": "b45",
+              "kind": "text",
+              "start": 2741,
+              "end": 2761
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Technology in Computer Science",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 2696,
+              "end": 2738
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2018 – 2022",
+          "is_present": false
+        },
+        "date_label": "2018 – 2022",
+        "section": "EDUCATION",
+        "is_present": false
+      },
+      {
+        "id": "v667a5bb10dbf56c8",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "AI-ML virtual internship, AWS Academy",
+        "start": "2021-10",
+        "end": "2021-12",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "AI-ML virtual internship, AWS Academy 10/2021 – 12/2021  | Delhi, India",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "AI-ML virtual internship, AWS Academy 10/2021 – 12/2021  | Delhi, India",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 2266,
+              "end": 2337
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "10/2021 – 12/2021",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 2304,
+              "end": 2321
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "AI-ML virtual internship, AWS Academy",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 2266,
+              "end": 2303
+            }
+          ],
+          "title": [],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "10/2021 – 12/2021",
+          "is_present": false
+        },
+        "date_label": "10/2021 – 12/2021",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v8d547e88b34c07bd",
+        "type": "INTERNSHIP",
+        "title": "Technical Undergraduate Intern",
+        "org": "",
+        "start": "2022-01",
+        "end": "2022-07",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_INTERNSHIP_CUES"
+        ],
+        "quote": "Technical Undergraduate Intern, Cisco 01/2022 – 07/2022  | Bangalore, India",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Technical Undergraduate Intern, Cisco 01/2022 – 07/2022  | Bangalore, India",
+              "block_id": "b30",
+              "kind": "text",
+              "start": 2024,
+              "end": 2099
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "01/2022 – 07/2022",
+              "block_id": "b30",
+              "kind": "text",
+              "start": 2062,
+              "end": 2079
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Technical Undergraduate Intern",
+              "block_id": "b30",
+              "kind": "text",
+              "start": 2024,
+              "end": 2054
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "01/2022 – 07/2022",
+          "is_present": false
+        },
+        "date_label": "01/2022 – 07/2022",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v5288eb6c253f2f7e",
+        "type": "EMPLOYMENT",
+        "title": "Consulting Engineer",
+        "org": "",
+        "start": "2022-08",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Consulting Engineer, Cisco 08/2022 – present  | Bangalore, India",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Consulting Engineer, Cisco 08/2022 – present  | Bangalore, India",
+              "block_id": "b7",
+              "kind": "text",
+              "start": 105,
+              "end": 169
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "08/2022 – present",
+              "block_id": "b7",
+              "kind": "text",
+              "start": 132,
+              "end": 149
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Consulting Engineer",
+              "block_id": "b7",
+              "kind": "text",
+              "start": 105,
+              "end": 124
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "08/2022 – present",
+          "is_present": true
+        },
+        "date_label": "08/2022 – present",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v5072f9c12f585d8e",
+        "type": "EDUCATION",
+        "title": "7.18/ 10 CGPA (First Division",
+        "org": "",
+        "entry_text": "7.18/ 10 CGPA (First Division) PUBLICATIONS WEB SCRAPING & AUTOMATION BOT, Nimit Narayani Authored a Survey Research Paper on using Python to automate all the tasks including Stock Market, YouTube and other websites.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "7.18/ 10 CGPA (First Division)",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 2790,
+              "end": 2820
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "7.18/ 10 CGPA (First Division",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 2790,
+              "end": 2819
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "EDUCATION",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [],
+        "evidence": {
+          "note": "year-only dates need verification"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 4,
+      "total_events": 5,
+      "dated_share": 0.8,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.866,
+      "document_accuracy": 0.87
+    },
+    "total_represented_months": 105,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

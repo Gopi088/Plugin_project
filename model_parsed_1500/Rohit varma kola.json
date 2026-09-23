@@ -1,0 +1,814 @@
+{
+  "file_name": "Rohit varma kola.docx",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 4,
+    "total_events": 5,
+    "dated_share": 0.8,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v8b8b2840096c347e",
+      "company": "Tata Consultancy services",
+      "title": "PowerApps Developer",
+      "start_date": "2021-12",
+      "end_date": "2025-04",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v170653f4592a91ad",
+      "company": "",
+      "title": "Project Name",
+      "start_date": "2025-05",
+      "end_date": "2025-10",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v593743649f3e4482",
+      "company": "Wafer wire Cloud Technologies",
+      "title": "PowerApps Developer",
+      "start_date": "2025-11",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "Project",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "McCain Product Services Application (02/2023 - 04/2024)",
+        "Designed and implemented a region-specific product request application using PowerApps, supporting operations across four global regions. The app allows users to select their region, choose from six core products, and respond to dynamic, product-specific questions. Requests are generated within the app and routed through a sequential approval process, where teams review and approve directly via gallery-based controls. A dedicated dashboard enables users to track request status and view team-level approvals or rejections. Oversaw app design, security role configuration, administration, and provided ongoing support to ensure reliability and compliance across environments."
+      ]
+    },
+    {
+      "id": "proj_2",
+      "name": "Project",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Reporting Application (05/2024 - 02/2025)",
+        "Leveraged Copilot Studio to create an AI chatbot that interacts with users to log time and track work progress. User-submitted data is automatically saved to SharePoint, sent to the manager via email, and updated in the relevant Teams channel. Ensured a seamless, automated workﬂow that improves reporting accuracy and team collaboration. Designed with a focus on scalability, security, and user-friendly experience."
+      ]
+    },
+    {
+      "id": "proj_3",
+      "name": "Project Name",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Automated BPF and Data Validation Solution (05/2025 - 10/2025)",
+        "Developed a model-driven application to validate and manage business process data efficiently across multiple tables.",
+        "Implemented data and metadata validation by mapping records from two grid tables, ensuring accuracy before processing. Enabled users to complete stages in a Business Process Flow (BPF) and submit it to trigger automated workﬂows. Integrated with client systems to fetch and update data from the client tenant via automated ﬂows. Improved operational efficiency by ensuring data integrity and automating cross-system updates."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "va79388679e16649a",
+      "company": "NS Raju institute of technology",
+      "title": "Bachelor of technology",
+      "start_date": "2018-02",
+      "end_date": "2021-08",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v6fcf37d448664d86",
+      "company": "",
+      "title": "Courses - Electrical and Electronics Engineering -7.2 CGPA",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "gaps": [
+    {
+      "id": "g5a59a23e9c53c2c9",
+      "start": "2025-05",
+      "end": "2025-10",
+      "months": 6,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    }
+  ],
+  "total_work_experience": 3,
+  "total_projects": 3,
+  "total_gaps": 1,
+  "raw_pipeline_dto": {
+    "doc_id": "Rohit varma kola",
+    "filename": "Rohit varma kola.docx",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "va79388679e16649a",
+        "type": "EDUCATION",
+        "title": "Bachelor of technology",
+        "org": "NS Raju institute of technology",
+        "start": "2018-02",
+        "end": "2021-08",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "Bachelor of technology\nNS Raju institute of technology\n02/2018 - 08/2021\tVisakhapatnam",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor of technology",
+              "block_id": "b18",
+              "kind": "text",
+              "start": 2402,
+              "end": 2424
+            },
+            {
+              "page": 1,
+              "text": "NS Raju institute of technology",
+              "block_id": "b19",
+              "kind": "text",
+              "start": 2425,
+              "end": 2456
+            },
+            {
+              "page": 1,
+              "text": "02/2018 - 08/2021\tVisakhapatnam",
+              "block_id": "b20",
+              "kind": "text",
+              "start": 2457,
+              "end": 2488
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "02/2018 - 08/2021",
+              "block_id": "b20",
+              "kind": "text",
+              "start": 2457,
+              "end": 2474
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "NS Raju institute of technology",
+              "block_id": "b19",
+              "kind": "text",
+              "start": 2425,
+              "end": 2456
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of technology",
+              "block_id": "b18",
+              "kind": "text",
+              "start": 2402,
+              "end": 2424
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "02/2018 - 08/2021",
+          "is_present": false
+        },
+        "date_label": "02/2018 - 08/2021",
+        "section": "EDUCATION",
+        "is_present": false
+      },
+      {
+        "id": "v8b8b2840096c347e",
+        "type": "EMPLOYMENT",
+        "title": "PowerApps Developer",
+        "org": "Tata Consultancy services",
+        "start": "2021-12",
+        "end": "2025-04",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "PowerApps Developer\nTata Consultancy services\n12/2021 - 04/2025\tHyderabad",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "PowerApps Developer",
+              "block_id": "b5",
+              "kind": "text",
+              "start": 410,
+              "end": 429
+            },
+            {
+              "page": 1,
+              "text": "Tata Consultancy services",
+              "block_id": "b6",
+              "kind": "text",
+              "start": 430,
+              "end": 455
+            },
+            {
+              "page": 1,
+              "text": "12/2021 - 04/2025\tHyderabad",
+              "block_id": "b7",
+              "kind": "text",
+              "start": 456,
+              "end": 483
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "12/2021 - 04/2025",
+              "block_id": "b7",
+              "kind": "text",
+              "start": 456,
+              "end": 473
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Tata Consultancy services",
+              "block_id": "b6",
+              "kind": "text",
+              "start": 430,
+              "end": 455
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "PowerApps Developer",
+              "block_id": "b5",
+              "kind": "text",
+              "start": 410,
+              "end": 429
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "12/2021 - 04/2025",
+          "is_present": false
+        },
+        "date_label": "12/2021 - 04/2025",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v170653f4592a91ad",
+        "type": "PROJECT",
+        "title": "Project Name",
+        "org": "",
+        "start": "2025-05",
+        "end": "2025-10",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_PROJECT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Project Name",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project Name",
+              "block_id": "b28",
+              "kind": "text",
+              "start": 3758,
+              "end": 3770
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "05/2025 - 10/2025",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 3815,
+              "end": 3832
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Project Name",
+              "block_id": "b28",
+              "kind": "text",
+              "start": 3758,
+              "end": 3770
+            }
+          ],
+          "section": "PROJECTS",
+          "date_label": "05/2025 - 10/2025",
+          "is_present": false
+        },
+        "date_label": "05/2025 - 10/2025",
+        "section": "PROJECTS",
+        "is_present": false
+      },
+      {
+        "id": "v593743649f3e4482",
+        "type": "EMPLOYMENT",
+        "title": "PowerApps Developer",
+        "org": "Wafer wire Cloud Technologies",
+        "start": "2025-11",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "PowerApps Developer\nWafer wire Cloud Technologies\n11/2025 - Present\tHyderabad",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "PowerApps Developer",
+              "block_id": "b13",
+              "kind": "text",
+              "start": 2008,
+              "end": 2027
+            },
+            {
+              "page": 1,
+              "text": "Wafer wire Cloud Technologies",
+              "block_id": "b14",
+              "kind": "text",
+              "start": 2028,
+              "end": 2057
+            },
+            {
+              "page": 1,
+              "text": "11/2025 - Present\tHyderabad",
+              "block_id": "b15",
+              "kind": "text",
+              "start": 2058,
+              "end": 2085
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "11/2025 - Present",
+              "block_id": "b15",
+              "kind": "text",
+              "start": 2058,
+              "end": 2075
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Wafer wire Cloud Technologies",
+              "block_id": "b14",
+              "kind": "text",
+              "start": 2028,
+              "end": 2057
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "PowerApps Developer",
+              "block_id": "b13",
+              "kind": "text",
+              "start": 2008,
+              "end": 2027
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "11/2025 - Present",
+          "is_present": true
+        },
+        "date_label": "11/2025 - Present",
+        "section": "WORK EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v6fcf37d448664d86",
+        "type": "EDUCATION",
+        "title": "Courses - Electrical and Electronics Engineering -7.2 CGPA",
+        "org": "",
+        "entry_text": "Courses - Electrical and Electronics Engineering -7.2 CGPA",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Courses -",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 2489,
+              "end": 2498
+            },
+            {
+              "page": 1,
+              "text": "Electrical and Electronics Engineering -7.2 CGPA",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 2499,
+              "end": 2547
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Courses -",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 2489,
+              "end": 2498
+            },
+            {
+              "page": 1,
+              "text": "Electrical and Electronics Engineering -7.2 CGPA",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 2499,
+              "end": 2547
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "EDUCATION",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "Project",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "McCain Product Services Application (02/2023 - 04/2024)",
+          "Designed and implemented a region-specific product request application using PowerApps, supporting operations across four global regions. The app allows users to select their region, choose from six core products, and respond to dynamic, product-specific questions. Requests are generated within the app and routed through a sequential approval process, where teams review and approve directly via gallery-based controls. A dedicated dashboard enables users to track request status and view team-level approvals or rejections. Oversaw app design, security role configuration, administration, and provided ongoing support to ensure reliability and compliance across environments."
+        ],
+        "raw_text": "McCain Product Services Application (02/2023 - 04/2024)\nDesigned and implemented a region-specific product request application using PowerApps, supporting operations across four global regions. The app allows users to select their region, choose from six core products, and respond to dynamic, product-specific questions. Requests are generated within the app and routed through a sequential approval process, where teams review and approve directly via gallery-based controls. A dedicated dashboard enables users to track request status and view team-level approvals or rejections. Oversaw app desig",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "McCain Product Services Application (02/2023 - 04/2024)",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 2564,
+              "end": 2619
+            },
+            {
+              "page": 1,
+              "text": "Designed and implemented a region-specific product request application using PowerApps, supporting operations across four global regions. The app allows users to select their region, choose from six core products, and respond to dynamic, product-specific questions. Requests are generated within the app and routed through a sequential approval process, where teams review and approve directly via gallery-based controls. A dedicated dashboard enables users to track request status and view team-level approvals or rejections. Oversaw app design, security role configuration, administration, and provided ongoing support to ensure reliability and compliance across environments.",
+              "block_id": "b25",
+              "kind": "text",
+              "start": 2620,
+              "end": 3298
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "Project",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Reporting Application (05/2024 - 02/2025)",
+          "Leveraged Copilot Studio to create an AI chatbot that interacts with users to log time and track work progress. User-submitted data is automatically saved to SharePoint, sent to the manager via email, and updated in the relevant Teams channel. Ensured a seamless, automated workﬂow that improves reporting accuracy and team collaboration. Designed with a focus on scalability, security, and user-friendly experience."
+        ],
+        "raw_text": "Reporting Application (05/2024 - 02/2025)\nLeveraged Copilot Studio to create an AI chatbot that interacts with users to log time and track work progress. User-submitted data is automatically saved to SharePoint, sent to the manager via email, and updated in the relevant Teams channel. Ensured a seamless, automated workﬂow that improves reporting accuracy and team collaboration. Designed with a focus on scalability, security, and user-friendly experience.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Reporting Application (05/2024 - 02/2025)",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 3299,
+              "end": 3340
+            },
+            {
+              "page": 1,
+              "text": "Leveraged Copilot Studio to create an AI chatbot that interacts with users to log time and track work progress. User-submitted data is automatically saved to SharePoint, sent to the manager via email, and updated in the relevant Teams channel. Ensured a seamless, automated workﬂow that improves reporting accuracy and team collaboration. Designed with a focus on scalability, security, and user-friendly experience.",
+              "block_id": "b27",
+              "kind": "text",
+              "start": 3341,
+              "end": 3757
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_3",
+        "name": "Project Name",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Automated BPF and Data Validation Solution (05/2025 - 10/2025)",
+          "Developed a model-driven application to validate and manage business process data efficiently across multiple tables.",
+          "Implemented data and metadata validation by mapping records from two grid tables, ensuring accuracy before processing. Enabled users to complete stages in a Business Process Flow (BPF) and submit it to trigger automated workﬂows. Integrated with client systems to fetch and update data from the client tenant via automated ﬂows. Improved operational efficiency by ensuring data integrity and automating cross-system updates."
+        ],
+        "raw_text": "Project Name\nAutomated BPF and Data Validation Solution (05/2025 - 10/2025)\nDeveloped a model-driven application to validate and manage business process data efficiently across multiple tables.\nImplemented data and metadata validation by mapping records from two grid tables, ensuring accuracy before processing. Enabled users to complete stages in a Business Process Flow (BPF) and submit it to trigger automated workﬂows. Integrated with client systems to fetch and update data from the client tenant via automated ﬂows. Improved operational efficiency by ensuring data integrity and automating cro",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project Name",
+              "block_id": "b28",
+              "kind": "text",
+              "start": 3758,
+              "end": 3770
+            },
+            {
+              "page": 1,
+              "text": "Automated BPF and Data Validation Solution (05/2025 - 10/2025)",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 3771,
+              "end": 3833
+            },
+            {
+              "page": 1,
+              "text": "Developed a model-driven application to validate and manage business process data efficiently across multiple tables.",
+              "block_id": "b30",
+              "kind": "text",
+              "start": 3834,
+              "end": 3951
+            },
+            {
+              "page": 1,
+              "text": "Implemented data and metadata validation by mapping records from two grid tables, ensuring accuracy before processing. Enabled users to complete stages in a Business Process Flow (BPF) and submit it to trigger automated workﬂows. Integrated with client systems to fetch and update data from the client tenant via automated ﬂows. Improved operational efficiency by ensuring data integrity and automating cross-system updates.",
+              "block_id": "b31",
+              "kind": "text",
+              "start": 3952,
+              "end": 4376
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g5a59a23e9c53c2c9",
+        "start": [
+          2025,
+          5
+        ],
+        "end": [
+          2025,
+          10
+        ],
+        "months": 6,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "v8b8b2840096c347e",
+          "event_after": "v593743649f3e4482",
+          "coverage_scope": "employment"
+        },
+        "start_label": "2025-05",
+        "end_label": "2025-10",
+        "evidence_quotes": [
+          "PowerApps Developer Tata Consultancy services 12/2021 - 04/2025\tHyderabad",
+          "PowerApps Developer Wafer wire Cloud Technologies 11/2025 - Present\tHyderabad"
+        ],
+        "evidence_details": [
+          {
+            "header": "PowerApps Developer at Tata Consultancy services",
+            "quote": "PowerApps Developer Tata Consultancy services 12/2021 - 04/2025\tHyderabad",
+            "event_id": "v8b8b2840096c347e",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "PowerApps Developer",
+                  "block_id": "b5",
+                  "kind": "text",
+                  "start": 410,
+                  "end": 429
+                },
+                {
+                  "page": 1,
+                  "text": "Tata Consultancy services",
+                  "block_id": "b6",
+                  "kind": "text",
+                  "start": 430,
+                  "end": 455
+                },
+                {
+                  "page": 1,
+                  "text": "12/2021 - 04/2025\tHyderabad",
+                  "block_id": "b7",
+                  "kind": "text",
+                  "start": 456,
+                  "end": 483
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "12/2021 - 04/2025",
+                  "block_id": "b7",
+                  "kind": "text",
+                  "start": 456,
+                  "end": 473
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Tata Consultancy services",
+                  "block_id": "b6",
+                  "kind": "text",
+                  "start": 430,
+                  "end": 455
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "PowerApps Developer",
+                  "block_id": "b5",
+                  "kind": "text",
+                  "start": 410,
+                  "end": 429
+                }
+              ],
+              "section": "WORK EXPERIENCE",
+              "date_label": "12/2021 - 04/2025",
+              "is_present": false
+            }
+          },
+          {
+            "header": "PowerApps Developer at Wafer wire Cloud Technologies",
+            "quote": "PowerApps Developer Wafer wire Cloud Technologies 11/2025 - Present\tHyderabad",
+            "event_id": "v593743649f3e4482",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "PowerApps Developer",
+                  "block_id": "b13",
+                  "kind": "text",
+                  "start": 2008,
+                  "end": 2027
+                },
+                {
+                  "page": 1,
+                  "text": "Wafer wire Cloud Technologies",
+                  "block_id": "b14",
+                  "kind": "text",
+                  "start": 2028,
+                  "end": 2057
+                },
+                {
+                  "page": 1,
+                  "text": "11/2025 - Present\tHyderabad",
+                  "block_id": "b15",
+                  "kind": "text",
+                  "start": 2058,
+                  "end": 2085
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "11/2025 - Present",
+                  "block_id": "b15",
+                  "kind": "text",
+                  "start": 2058,
+                  "end": 2075
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Wafer wire Cloud Technologies",
+                  "block_id": "b14",
+                  "kind": "text",
+                  "start": 2028,
+                  "end": 2057
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "PowerApps Developer",
+                  "block_id": "b13",
+                  "kind": "text",
+                  "start": 2008,
+                  "end": 2027
+                }
+              ],
+              "section": "WORK EXPERIENCE",
+              "date_label": "11/2025 - Present",
+              "is_present": true
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 4,
+      "total_events": 5,
+      "dated_share": 0.8,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 101,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

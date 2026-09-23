@@ -1,0 +1,1229 @@
+{
+  "file_name": "dohendradubey.pdf",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 3,
+    "total_events": 4,
+    "dated_share": 0.75,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.855,
+    "document_accuracy": 0.83
+  },
+  "work_experience": [
+    {
+      "id": "v363fad4c928eb39f",
+      "company": "JELLYGIT",
+      "title": "So#ware Developer (MERN",
+      "start_date": "2022-01",
+      "end_date": "2024-04",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v228abd2b486c717f",
+      "company": "NEOSOFT PRIVATE LIMITED",
+      "title": "So#ware Engineer (MERN",
+      "start_date": "2024-04",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vc0d61e53d6f5ca72",
+      "company": "",
+      "title": "Systems Manager (SSM).",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "E-commerce & AI PlaPorm — Germany",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "•Architected and deployed 8+ stateful AI agent workﬂows using LangGraph to automate GTM execuNon, lead",
+        "qualiﬁcaNon, and sales follow-ups, reducing manual campaign eﬀort by 60%.",
+        "•Designed a producNon-grade RAG pipeline using LangChain and Supabase pgvector, indexing 25,000+",
+        "knowledge chunks and improving AI response relevance while reducing hallucinaNons.",
+        "•Built a scalable Lerna monorepo supporNng 5+ frontend and backend applicaPons, enabling shared",
+        "TypeScript models and reusable business components.",
+        "•Developed enterprise dashboards supporNng server-side search, ﬁltering, sorNng and paginaNon across 100K+",
+        "records, improving usability for sales teams.",
+        "•Automated 200+ Playwright end-to-end test cases, reducing regression tesNng eﬀort by approximately 70%.",
+        "•Integrated mulNple LLM providers including OpenAI and Claude, enabling conﬁgurable AI workﬂows and prompt",
+        "orchestraNon across enterprise use cases.",
+        "Tech Stack: Next.js, TypeScript, LangChain, LangGraph, RAG, Supabase, Playwright, MUI, Lerna, Vercel"
+      ]
+    },
+    {
+      "id": "proj_2",
+      "name": "LogisJcs Knowledge PlaPorm — DHL| Team Size: 6",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "• Designed and developed scalable Python microservices using FastAPI to build 15+ high-performance REST APIs for",
+        "AI-powered document ingesNon, semanNc search, and enterprise knowledge retrieval.",
+        "• Architected and implemented a producNon-grade Retrieval-Augmented GeneraNon (RAG) plaUorm using",
+        "LangChain, LangGraph, OpenAI GPT-4, Anthropic Claude, and Pinecone Vector Database, enabling semanNc search",
+        "across 500K+ enterprise logisJcs documents..",
+        "• Developed AI Agent workﬂows for intelligent document retrieval, prompt orchestraNon, and mulN-step reasoning,",
+        "reducing manual document search Nme by approximately 70%.",
+        "• Built asynchronous backend services using Python asyncio to process thousands of concurrent AI requests while",
+        "reducing average API response Nme by 40%.",
+        "• Developed database models using SQLAlchemy ORM and managed schema migraNons using Alembic for",
+        "PostgreSQL, supporNng millions of metadata records for enterprise document management.",
+        "• Implemented request validaNon, response serializaNon, and conﬁguraNon management using PydanJc to ensure",
+        "secure and reliable API communicaNon.",
+        "• Developed asynchronous background processing services using Celery and Redis to process 100K+ document",
+        "indexing and embedding generaNon jobs.",
+        "• Containerized Python microservices using Docker and collaborated with DevOps teams to implement CI/CD",
+        "pipelines for automated deployment across development, staging, and producNon environments.",
+        "• Developed comprehensive unit and integraNon test suites using pytest, improving applicaNon reliability, API quality,",
+        "and deployment stability.",
+        "Tech Stack: Python, FastAPI, LangChain, LangGraph, OpenAI SDK, Anthropic SDK, PydanNc, SQLAlchemy, Alembic,",
+        "asyncio, PostgreSQL (pgvector), Redis, Celery, sentence-transformers, pytest, Docker"
+      ]
+    },
+    {
+      "id": "proj_3",
+      "name": "Digital – Ignite Core — UK",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "•  Designed scalable Node.js services processing 1M+ SAP work-order records, ensuring reliable ingesNon,",
+        "validaNon, and transformaNon pipelines.",
+        "•  Built event-driven AWS architecture using S3 and EventBridge, reducing ﬁle processing latency by",
+        "approximately 45%.",
+        "•  Secured applicaNons by implemenNng idenNty management and Role-Based Access Control (RBAC) via AWS",
+        "Cognito.",
+        "•  OpNmized frontend performance using React Query caching and opNmisNc updates, reducing unnecessary API",
+        "requests by approximately 40%.",
+        "• Co-led the strategic migraNon of the user interface from legacy MUI libraries to shadcn/ui and Tailwind CSS.",
+        "•Collaborated with cross-funcNonal teams following Agile Scrum methodology, parNcipaNng in sprint planning, code",
+        "reviews, and producNon deployments.",
+        "Tech Stack: React, Node.js, TypeScript, AWS (S3, EventBridge, Cognito), SQL, React Query, shadcn/ui, Tailwind CSS"
+      ]
+    },
+    {
+      "id": "proj_4",
+      "name": "NavigaJon – Crew Training Module — Cyprus",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "•  Developed inventory management and training service interfaces uNlizing Next.js and MUI shared component",
+        "libraries within a Lerna Monorepo.",
+        "• Built server-side paginaNon, search, sorNng, and ﬁltering supporNng datasets containing 50K+ records.",
+        "•  Composed rigorous unit tests in Jest and component integraNon tesNng in Cypress to elevate codebase reliability",
+        "through 150+ unit.",
+        "Tech Stack: Next.js, TypeScript, MUI, Redux, Redux-Saga, Lerna, Cypress, Jest, Vitest"
+      ]
+    },
+    {
+      "id": "proj_5",
+      "name": "Care ApplicaJon – Centene — USA | Team Size: 4",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "•  Developed a scalable healthcare backend using Node.js and Express.js, building 20 + robust RESTful APIs for paNent",
+        "and medical records.",
+        "•  Integrated JWT/OAuth-based authenNcaNon and authorizaNon to strictly secure sensiNve health data.",
+        "•  Built interacNve, responsive appointment scheduling and telemedicine consultaNon components using React.js.",
+        "•  Deployed backend services using AWS EC2 and ElasJc Beanstalk; managed conﬁguraNon secrets securely via AWS"
+      ]
+    },
+    {
+      "id": "proj_6",
+      "name": "E-Procure Marketplace — Saudi Arabia | Team Size: 4",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "•  Developed and maintained 8+ independent microservices, including dedicated AuthenNcaNon, Cart, and User",
+        "Proﬁle management services.",
+        "•  Integrated the Stripe Payment Gateway to handle secure, seamless online ﬁnancial transacNons.",
+        "•  Created responsive frontend e-commerce ﬂows using Next.js, TypeScript, and Redux for state opNmizaNon.",
+        "Tech Stack: Next.js, Node.js, Express.js, TypeScript, SQL, Stripe, JWT , Redux, MUI, Microservices, GitHub"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "vcbdb04bf40763484",
+      "company": "Loyola High School",
+      "title": "B.E. in Civil Engineering",
+      "start_date": "2014-01",
+      "end_date": "2018-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 3,
+  "total_projects": 6,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "dohendradubey",
+    "filename": "dohendradubey.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "vcbdb04bf40763484",
+        "type": "EDUCATION",
+        "title": "B.E. in Civil Engineering",
+        "org": "Loyola High School",
+        "start": "2014-01",
+        "end": "2018-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "Birla InsJtute of Technology, Mesra  —  B.E. in Civil Engineering  |  CGPA: 7.91  (2014 – 2018)\nLoyola High School, Patna  —  Class XII (CBSE)  |  Score: 86.8%  (2013)\nSt. Paul's High School, Patna  —  Class X (CBSE)  |  Score: 90.56%  (2011)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Birla InsJtute of Technology, Mesra  —  B.E. in Civil Engineering  |  CGPA: 7.91  (2014 – 2018)",
+              "block_id": "b102",
+              "kind": "text",
+              "start": 7994,
+              "end": 8089
+            },
+            {
+              "page": 1,
+              "text": "Loyola High School, Patna  —  Class XII (CBSE)  |  Score: 86.8%  (2013)",
+              "block_id": "b103",
+              "kind": "text",
+              "start": 8091,
+              "end": 8162
+            },
+            {
+              "page": 1,
+              "text": "St. Paul's High School, Patna  —  Class X (CBSE)  |  Score: 90.56%  (2011)",
+              "block_id": "b104",
+              "kind": "text",
+              "start": 8164,
+              "end": 8238
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2014 – 2018",
+              "block_id": "b102",
+              "kind": "text",
+              "start": 8077,
+              "end": 8088
+            },
+            {
+              "page": 1,
+              "text": "2013",
+              "block_id": "b103",
+              "kind": "text",
+              "start": 8157,
+              "end": 8161
+            },
+            {
+              "page": 1,
+              "text": "2011",
+              "block_id": "b104",
+              "kind": "text",
+              "start": 8233,
+              "end": 8237
+            },
+            {
+              "page": 1,
+              "text": "2016",
+              "block_id": "b106",
+              "kind": "text",
+              "start": 8373,
+              "end": 8377
+            },
+            {
+              "page": 1,
+              "text": "March 2015",
+              "block_id": "b107",
+              "kind": "text",
+              "start": 8486,
+              "end": 8496
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Loyola High School",
+              "block_id": "b103",
+              "kind": "text",
+              "start": 8091,
+              "end": 8109
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "B.E. in Civil Engineering",
+              "block_id": "b102",
+              "kind": "text",
+              "start": 8034,
+              "end": 8059
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2014 – 2018",
+          "is_present": false
+        },
+        "date_label": "2014 – 2018",
+        "section": "EDUCATION",
+        "is_present": false
+      },
+      {
+        "id": "v363fad4c928eb39f",
+        "type": "EMPLOYMENT",
+        "title": "So#ware Developer (MERN",
+        "org": "JELLYGIT",
+        "start": "2022-01",
+        "end": "2024-04",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "JELLYGIT  |  So#ware Developer (MERN) (January 2022 – April 2024)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "JELLYGIT  |  So#ware Developer (MERN) (January 2022 – April 2024)",
+              "block_id": "b82",
+              "kind": "text",
+              "start": 6457,
+              "end": 6522
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "January 2022 – April 2024",
+              "block_id": "b82",
+              "kind": "text",
+              "start": 6496,
+              "end": 6521
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "JELLYGIT",
+              "block_id": "b82",
+              "kind": "text",
+              "start": 6457,
+              "end": 6465
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "So#ware Developer (MERN",
+              "block_id": "b82",
+              "kind": "text",
+              "start": 6470,
+              "end": 6493
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "January 2022 – April 2024",
+          "is_present": false
+        },
+        "date_label": "January 2022 – April 2024",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v228abd2b486c717f",
+        "type": "EMPLOYMENT",
+        "title": "So#ware Engineer (MERN",
+        "org": "NEOSOFT PRIVATE LIMITED",
+        "start": "2024-04",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "NEOSOFT PRIVATE LIMITED  |  So#ware Engineer (MERN) (April 2024 – Present)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "NEOSOFT PRIVATE LIMITED  |  So#ware Engineer (MERN) (April 2024 – Present)",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 1946,
+              "end": 2020
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "April 2024 – Present",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 1999,
+              "end": 2019
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "NEOSOFT PRIVATE LIMITED",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 1946,
+              "end": 1969
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "So#ware Engineer (MERN",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 1974,
+              "end": 1996
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "April 2024 – Present",
+          "is_present": true
+        },
+        "date_label": "April 2024 – Present",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "vc0d61e53d6f5ca72",
+        "type": "EMPLOYMENT",
+        "title": "Systems Manager (SSM).",
+        "org": "",
+        "entry_text": "Systems Manager (SSM). • Improved API response Nmes by approximately 35% using Redis caching and MongoDB for high-throughput NoSQL data handling. •Worked closely with QA and DevOps teams to automate deployments and ensure reliable producNon releases through CI/CD pipelines. Tech Stack: React.js, Nod",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Systems Manager (SSM).",
+              "block_id": "b89",
+              "kind": "text",
+              "start": 7060,
+              "end": 7082
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Systems Manager (SSM",
+              "block_id": "b89",
+              "kind": "text",
+              "start": 7060,
+              "end": 7080
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "E-commerce & AI PlaPorm — Germany",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "•Architected and deployed 8+ stateful AI agent workﬂows using LangGraph to automate GTM execuNon, lead",
+          "qualiﬁcaNon, and sales follow-ups, reducing manual campaign eﬀort by 60%.",
+          "•Designed a producNon-grade RAG pipeline using LangChain and Supabase pgvector, indexing 25,000+",
+          "knowledge chunks and improving AI response relevance while reducing hallucinaNons.",
+          "•Built a scalable Lerna monorepo supporNng 5+ frontend and backend applicaPons, enabling shared",
+          "TypeScript models and reusable business components.",
+          "•Developed enterprise dashboards supporNng server-side search, ﬁltering, sorNng and paginaNon across 100K+",
+          "records, improving usability for sales teams.",
+          "•Automated 200+ Playwright end-to-end test cases, reducing regression tesNng eﬀort by approximately 70%.",
+          "•Integrated mulNple LLM providers including OpenAI and Claude, enabling conﬁgurable AI workﬂows and prompt",
+          "orchestraNon across enterprise use cases.",
+          "Tech Stack: Next.js, TypeScript, LangChain, LangGraph, RAG, Supabase, Playwright, MUI, Lerna, Vercel"
+        ],
+        "raw_text": "Project: Osiro – E-commerce & AI PlaPorm — Germany",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project: Osiro – E-commerce & AI PlaPorm — Germany",
+              "block_id": "b27",
+              "kind": "text",
+              "start": 2022,
+              "end": 2072
+            },
+            {
+              "page": 1,
+              "text": "•Architected and deployed 8+ stateful AI agent workﬂows using LangGraph to automate GTM execuNon, lead",
+              "block_id": "b28",
+              "kind": "text",
+              "start": 2074,
+              "end": 2176
+            },
+            {
+              "page": 1,
+              "text": "qualiﬁcaNon, and sales follow-ups, reducing manual campaign eﬀort by 60%.",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 2178,
+              "end": 2251
+            },
+            {
+              "page": 1,
+              "text": "•Designed a producNon-grade RAG pipeline using LangChain and Supabase pgvector, indexing 25,000+",
+              "block_id": "b30",
+              "kind": "text",
+              "start": 2253,
+              "end": 2349
+            },
+            {
+              "page": 1,
+              "text": "knowledge chunks and improving AI response relevance while reducing hallucinaNons.",
+              "block_id": "b31",
+              "kind": "text",
+              "start": 2351,
+              "end": 2433
+            },
+            {
+              "page": 1,
+              "text": "•Built a scalable Lerna monorepo supporNng 5+ frontend and backend applicaPons, enabling shared",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 2435,
+              "end": 2530
+            },
+            {
+              "page": 1,
+              "text": "TypeScript models and reusable business components.",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 2532,
+              "end": 2583
+            },
+            {
+              "page": 1,
+              "text": "•Developed enterprise dashboards supporNng server-side search, ﬁltering, sorNng and paginaNon across 100K+",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 2585,
+              "end": 2691
+            },
+            {
+              "page": 1,
+              "text": "records, improving usability for sales teams.",
+              "block_id": "b35",
+              "kind": "text",
+              "start": 2693,
+              "end": 2738
+            },
+            {
+              "page": 1,
+              "text": "•Automated 200+ Playwright end-to-end test cases, reducing regression tesNng eﬀort by approximately 70%.",
+              "block_id": "b36",
+              "kind": "text",
+              "start": 2740,
+              "end": 2844
+            },
+            {
+              "page": 1,
+              "text": "•Integrated mulNple LLM providers including OpenAI and Claude, enabling conﬁgurable AI workﬂows and prompt",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 2846,
+              "end": 2952
+            },
+            {
+              "page": 1,
+              "text": "orchestraNon across enterprise use cases.",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 2954,
+              "end": 2995
+            },
+            {
+              "page": 1,
+              "text": "Tech Stack: Next.js, TypeScript, LangChain, LangGraph, RAG, Supabase, Playwright, MUI, Lerna, Vercel",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 2997,
+              "end": 3097
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "LogisJcs Knowledge PlaPorm — DHL| Team Size: 6",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "• Designed and developed scalable Python microservices using FastAPI to build 15+ high-performance REST APIs for",
+          "AI-powered document ingesNon, semanNc search, and enterprise knowledge retrieval.",
+          "• Architected and implemented a producNon-grade Retrieval-Augmented GeneraNon (RAG) plaUorm using",
+          "LangChain, LangGraph, OpenAI GPT-4, Anthropic Claude, and Pinecone Vector Database, enabling semanNc search",
+          "across 500K+ enterprise logisJcs documents..",
+          "• Developed AI Agent workﬂows for intelligent document retrieval, prompt orchestraNon, and mulN-step reasoning,",
+          "reducing manual document search Nme by approximately 70%.",
+          "• Built asynchronous backend services using Python asyncio to process thousands of concurrent AI requests while",
+          "reducing average API response Nme by 40%.",
+          "• Developed database models using SQLAlchemy ORM and managed schema migraNons using Alembic for",
+          "PostgreSQL, supporNng millions of metadata records for enterprise document management.",
+          "• Implemented request validaNon, response serializaNon, and conﬁguraNon management using PydanJc to ensure",
+          "secure and reliable API communicaNon.",
+          "• Developed asynchronous background processing services using Celery and Redis to process 100K+ document",
+          "indexing and embedding generaNon jobs.",
+          "• Containerized Python microservices using Docker and collaborated with DevOps teams to implement CI/CD",
+          "pipelines for automated deployment across development, staging, and producNon environments.",
+          "• Developed comprehensive unit and integraNon test suites using pytest, improving applicaNon reliability, API quality,",
+          "and deployment stability.",
+          "Tech Stack: Python, FastAPI, LangChain, LangGraph, OpenAI SDK, Anthropic SDK, PydanNc, SQLAlchemy, Alembic,",
+          "asyncio, PostgreSQL (pgvector), Redis, Celery, sentence-transformers, pytest, Docker"
+        ],
+        "raw_text": "Project: Intelligent LogisJcs Knowledge PlaPorm — DHL| Team Size: 6",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project: Intelligent LogisJcs Knowledge PlaPorm — DHL| Team Size: 6",
+              "block_id": "b40",
+              "kind": "text",
+              "start": 3099,
+              "end": 3166
+            },
+            {
+              "page": 1,
+              "text": "• Designed and developed scalable Python microservices using FastAPI to build 15+ high-performance REST APIs for",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 3168,
+              "end": 3280
+            },
+            {
+              "page": 1,
+              "text": "AI-powered document ingesNon, semanNc search, and enterprise knowledge retrieval.",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 3282,
+              "end": 3363
+            },
+            {
+              "page": 1,
+              "text": "• Architected and implemented a producNon-grade Retrieval-Augmented GeneraNon (RAG) plaUorm using",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 3365,
+              "end": 3462
+            },
+            {
+              "page": 1,
+              "text": "LangChain, LangGraph, OpenAI GPT-4, Anthropic Claude, and Pinecone Vector Database, enabling semanNc search",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 3464,
+              "end": 3571
+            },
+            {
+              "page": 1,
+              "text": "across 500K+ enterprise logisJcs documents..",
+              "block_id": "b45",
+              "kind": "text",
+              "start": 3573,
+              "end": 3617
+            },
+            {
+              "page": 1,
+              "text": "• Developed AI Agent workﬂows for intelligent document retrieval, prompt orchestraNon, and mulN-step reasoning,",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 3619,
+              "end": 3730
+            },
+            {
+              "page": 1,
+              "text": "reducing manual document search Nme by approximately 70%.",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 3732,
+              "end": 3789
+            },
+            {
+              "page": 1,
+              "text": "• Built asynchronous backend services using Python asyncio to process thousands of concurrent AI requests while",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 3791,
+              "end": 3902
+            },
+            {
+              "page": 1,
+              "text": "reducing average API response Nme by 40%.",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 3904,
+              "end": 3945
+            },
+            {
+              "page": 1,
+              "text": "• Developed database models using SQLAlchemy ORM and managed schema migraNons using Alembic for",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 3947,
+              "end": 4042
+            },
+            {
+              "page": 1,
+              "text": "PostgreSQL, supporNng millions of metadata records for enterprise document management.",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 4044,
+              "end": 4130
+            },
+            {
+              "page": 1,
+              "text": "• Implemented request validaNon, response serializaNon, and conﬁguraNon management using PydanJc to ensure",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 4132,
+              "end": 4238
+            },
+            {
+              "page": 1,
+              "text": "secure and reliable API communicaNon.",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 4240,
+              "end": 4277
+            },
+            {
+              "page": 1,
+              "text": "• Developed asynchronous background processing services using Celery and Redis to process 100K+ document",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 4279,
+              "end": 4383
+            },
+            {
+              "page": 1,
+              "text": "indexing and embedding generaNon jobs.",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 4385,
+              "end": 4423
+            },
+            {
+              "page": 1,
+              "text": "• Containerized Python microservices using Docker and collaborated with DevOps teams to implement CI/CD",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 4425,
+              "end": 4528
+            },
+            {
+              "page": 1,
+              "text": "pipelines for automated deployment across development, staging, and producNon environments.",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 4530,
+              "end": 4621
+            },
+            {
+              "page": 1,
+              "text": "• Developed comprehensive unit and integraNon test suites using pytest, improving applicaNon reliability, API quality,",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 4623,
+              "end": 4741
+            },
+            {
+              "page": 1,
+              "text": "and deployment stability.",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 4743,
+              "end": 4768
+            },
+            {
+              "page": 1,
+              "text": "Tech Stack: Python, FastAPI, LangChain, LangGraph, OpenAI SDK, Anthropic SDK, PydanNc, SQLAlchemy, Alembic,",
+              "block_id": "b60",
+              "kind": "text",
+              "start": 4770,
+              "end": 4877
+            },
+            {
+              "page": 1,
+              "text": "asyncio, PostgreSQL (pgvector), Redis, Celery, sentence-transformers, pytest, Docker",
+              "block_id": "b61",
+              "kind": "text",
+              "start": 4879,
+              "end": 4963
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_3",
+        "name": "Digital – Ignite Core — UK",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "•  Designed scalable Node.js services processing 1M+ SAP work-order records, ensuring reliable ingesNon,",
+          "validaNon, and transformaNon pipelines.",
+          "•  Built event-driven AWS architecture using S3 and EventBridge, reducing ﬁle processing latency by",
+          "approximately 45%.",
+          "•  Secured applicaNons by implemenNng idenNty management and Role-Based Access Control (RBAC) via AWS",
+          "Cognito.",
+          "•  OpNmized frontend performance using React Query caching and opNmisNc updates, reducing unnecessary API",
+          "requests by approximately 40%.",
+          "• Co-led the strategic migraNon of the user interface from legacy MUI libraries to shadcn/ui and Tailwind CSS.",
+          "•Collaborated with cross-funcNonal teams following Agile Scrum methodology, parNcipaNng in sprint planning, code",
+          "reviews, and producNon deployments.",
+          "Tech Stack: React, Node.js, TypeScript, AWS (S3, EventBridge, Cognito), SQL, React Query, shadcn/ui, Tailwind CSS"
+        ],
+        "raw_text": "Project: SkewB Digital – Ignite Core — UK",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project: SkewB Digital – Ignite Core — UK",
+              "block_id": "b62",
+              "kind": "text",
+              "start": 4965,
+              "end": 5006
+            },
+            {
+              "page": 1,
+              "text": "•  Designed scalable Node.js services processing 1M+ SAP work-order records, ensuring reliable ingesNon,",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 5008,
+              "end": 5112
+            },
+            {
+              "page": 1,
+              "text": "validaNon, and transformaNon pipelines.",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 5117,
+              "end": 5156
+            },
+            {
+              "page": 1,
+              "text": "•  Built event-driven AWS architecture using S3 and EventBridge, reducing ﬁle processing latency by",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 5158,
+              "end": 5257
+            },
+            {
+              "page": 1,
+              "text": "approximately 45%.",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 5263,
+              "end": 5281
+            },
+            {
+              "page": 1,
+              "text": "•  Secured applicaNons by implemenNng idenNty management and Role-Based Access Control (RBAC) via AWS",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 5283,
+              "end": 5384
+            },
+            {
+              "page": 1,
+              "text": "Cognito.",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 5389,
+              "end": 5397
+            },
+            {
+              "page": 1,
+              "text": "•  OpNmized frontend performance using React Query caching and opNmisNc updates, reducing unnecessary API",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 5399,
+              "end": 5504
+            },
+            {
+              "page": 1,
+              "text": "requests by approximately 40%.",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 5509,
+              "end": 5539
+            },
+            {
+              "page": 1,
+              "text": "• Co-led the strategic migraNon of the user interface from legacy MUI libraries to shadcn/ui and Tailwind CSS.",
+              "block_id": "b71",
+              "kind": "text",
+              "start": 5541,
+              "end": 5651
+            },
+            {
+              "page": 1,
+              "text": "•Collaborated with cross-funcNonal teams following Agile Scrum methodology, parNcipaNng in sprint planning, code",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 5653,
+              "end": 5765
+            },
+            {
+              "page": 1,
+              "text": "reviews, and producNon deployments.",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 5767,
+              "end": 5802
+            },
+            {
+              "page": 1,
+              "text": "Tech Stack: React, Node.js, TypeScript, AWS (S3, EventBridge, Cognito), SQL, React Query, shadcn/ui, Tailwind CSS",
+              "block_id": "b74",
+              "kind": "text",
+              "start": 5804,
+              "end": 5917
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_4",
+        "name": "NavigaJon – Crew Training Module — Cyprus",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "•  Developed inventory management and training service interfaces uNlizing Next.js and MUI shared component",
+          "libraries within a Lerna Monorepo.",
+          "• Built server-side paginaNon, search, sorNng, and ﬁltering supporNng datasets containing 50K+ records.",
+          "•  Composed rigorous unit tests in Jest and component integraNon tesNng in Cypress to elevate codebase reliability",
+          "through 150+ unit.",
+          "Tech Stack: Next.js, TypeScript, MUI, Redux, Redux-Saga, Lerna, Cypress, Jest, Vitest"
+        ],
+        "raw_text": "Project: Marlow NavigaJon – Crew Training Module — Cyprus",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project: Marlow NavigaJon – Crew Training Module — Cyprus",
+              "block_id": "b75",
+              "kind": "text",
+              "start": 5919,
+              "end": 5976
+            },
+            {
+              "page": 1,
+              "text": "•  Developed inventory management and training service interfaces uNlizing Next.js and MUI shared component",
+              "block_id": "b76",
+              "kind": "text",
+              "start": 5978,
+              "end": 6085
+            },
+            {
+              "page": 1,
+              "text": "libraries within a Lerna Monorepo.",
+              "block_id": "b77",
+              "kind": "text",
+              "start": 6090,
+              "end": 6124
+            },
+            {
+              "page": 1,
+              "text": "• Built server-side paginaNon, search, sorNng, and ﬁltering supporNng datasets containing 50K+ records.",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 6126,
+              "end": 6229
+            },
+            {
+              "page": 1,
+              "text": "•  Composed rigorous unit tests in Jest and component integraNon tesNng in Cypress to elevate codebase reliability",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 6231,
+              "end": 6345
+            },
+            {
+              "page": 1,
+              "text": "through 150+ unit.",
+              "block_id": "b80",
+              "kind": "text",
+              "start": 6350,
+              "end": 6368
+            },
+            {
+              "page": 1,
+              "text": "Tech Stack: Next.js, TypeScript, MUI, Redux, Redux-Saga, Lerna, Cypress, Jest, Vitest",
+              "block_id": "b81",
+              "kind": "text",
+              "start": 6370,
+              "end": 6455
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_5",
+        "name": "Care ApplicaJon – Centene — USA | Team Size: 4",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "•  Developed a scalable healthcare backend using Node.js and Express.js, building 20 + robust RESTful APIs for paNent",
+          "and medical records.",
+          "•  Integrated JWT/OAuth-based authenNcaNon and authorizaNon to strictly secure sensiNve health data.",
+          "•  Built interacNve, responsive appointment scheduling and telemedicine consultaNon components using React.js.",
+          "•  Deployed backend services using AWS EC2 and ElasJc Beanstalk; managed conﬁguraNon secrets securely via AWS"
+        ],
+        "raw_text": "Project: Health Care ApplicaJon – Centene — USA | Team Size: 4",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project: Health Care ApplicaJon – Centene — USA | Team Size: 4",
+              "block_id": "b83",
+              "kind": "text",
+              "start": 6524,
+              "end": 6586
+            },
+            {
+              "page": 1,
+              "text": "•  Developed a scalable healthcare backend using Node.js and Express.js, building 20 + robust RESTful APIs for paNent",
+              "block_id": "b84",
+              "kind": "text",
+              "start": 6588,
+              "end": 6705
+            },
+            {
+              "page": 1,
+              "text": "and medical records.",
+              "block_id": "b85",
+              "kind": "text",
+              "start": 6710,
+              "end": 6730
+            },
+            {
+              "page": 1,
+              "text": "•  Integrated JWT/OAuth-based authenNcaNon and authorizaNon to strictly secure sensiNve health data.",
+              "block_id": "b86",
+              "kind": "text",
+              "start": 6732,
+              "end": 6832
+            },
+            {
+              "page": 1,
+              "text": "•  Built interacNve, responsive appointment scheduling and telemedicine consultaNon components using React.js.",
+              "block_id": "b87",
+              "kind": "text",
+              "start": 6834,
+              "end": 6944
+            },
+            {
+              "page": 1,
+              "text": "•  Deployed backend services using AWS EC2 and ElasJc Beanstalk; managed conﬁguraNon secrets securely via AWS",
+              "block_id": "b88",
+              "kind": "text",
+              "start": 6946,
+              "end": 7055
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_6",
+        "name": "E-Procure Marketplace — Saudi Arabia | Team Size: 4",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "•  Developed and maintained 8+ independent microservices, including dedicated AuthenNcaNon, Cart, and User",
+          "Proﬁle management services.",
+          "•  Integrated the Stripe Payment Gateway to handle secure, seamless online ﬁnancial transacNons.",
+          "•  Created responsive frontend e-commerce ﬂows using Next.js, TypeScript, and Redux for state opNmizaNon.",
+          "Tech Stack: Next.js, Node.js, Express.js, TypeScript, SQL, Stripe, JWT , Redux, MUI, Microservices, GitHub"
+        ],
+        "raw_text": "Project: Saudi E-Procure Marketplace — Saudi Arabia | Team Size: 4",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project: Saudi E-Procure Marketplace — Saudi Arabia | Team Size: 4",
+              "block_id": "b95",
+              "kind": "text",
+              "start": 7462,
+              "end": 7528
+            },
+            {
+              "page": 1,
+              "text": "•  Developed and maintained 8+ independent microservices, including dedicated AuthenNcaNon, Cart, and User",
+              "block_id": "b96",
+              "kind": "text",
+              "start": 7530,
+              "end": 7636
+            },
+            {
+              "page": 1,
+              "text": "Proﬁle management services.",
+              "block_id": "b97",
+              "kind": "text",
+              "start": 7641,
+              "end": 7668
+            },
+            {
+              "page": 1,
+              "text": "•  Integrated the Stripe Payment Gateway to handle secure, seamless online ﬁnancial transacNons.",
+              "block_id": "b98",
+              "kind": "text",
+              "start": 7670,
+              "end": 7766
+            },
+            {
+              "page": 1,
+              "text": "•  Created responsive frontend e-commerce ﬂows using Next.js, TypeScript, and Redux for state opNmizaNon.",
+              "block_id": "b99",
+              "kind": "text",
+              "start": 7768,
+              "end": 7873
+            },
+            {
+              "page": 1,
+              "text": "Tech Stack: Next.js, Node.js, Express.js, TypeScript, SQL, Stripe, JWT , Redux, MUI, Microservices, GitHub",
+              "block_id": "b100",
+              "kind": "text",
+              "start": 7875,
+              "end": 7981
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "vc0d61e53d6f5ca72"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 3,
+      "total_events": 4,
+      "dated_share": 0.75,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.855,
+      "document_accuracy": 0.83
+    },
+    "total_represented_months": 117,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

@@ -1,0 +1,573 @@
+{
+  "file_name": "Dheeraj Sangorr.pdf",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 6,
+    "dated_share": 0.333,
+    "unresolved": 4,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.87
+  },
+  "work_experience": [
+    {
+      "id": "vb5dfd60f92263244",
+      "company": "WORLDLINE GLOBAL SERVICES",
+      "title": "BUSINESS ANALYST",
+      "start_date": "2024-08",
+      "end_date": "2025-06",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "va3df590444c6a469",
+      "company": "",
+      "title": "BUSINESS ANALYST",
+      "start_date": "2025-07",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vec23a255f7d4b256",
+      "company": "",
+      "title": "BUSINESS ANALYST L3",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    },
+    {
+      "id": "v5e8074ab6a6120ba",
+      "company": "",
+      "title": "PRODUCT OWNER/SENIOR BA",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "TRAINEE | GENERAL MOTORS, PUNE| JUNE 18 TO MAY 19",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": []
+    },
+    {
+      "id": "proj_2",
+      "name": "problem statement is that the A/C 9000 contributes 11.8% in the total CPU of the car, which accounts for",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "423 headcounts. The objective is to identify opportunities, i.e., the non-value-added activities in the process, with a goal",
+        "to reduce the headcounts by 5.8%, thereby reducing manpower cost for Leeway agency. MTM system is used as a",
+        "standard tool to calculate the MPU."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "v5b98e33097beacbf",
+      "company": "COEP Technological University",
+      "title": "Master of Project Management",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    },
+    {
+      "id": "veb8f3a7f40732497",
+      "company": "SP Pune University",
+      "title": "Bachelor of Engineering",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 4,
+  "total_projects": 2,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "Dheeraj Sangorr",
+    "filename": "Dheeraj Sangorr.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "vb5dfd60f92263244",
+        "type": "EMPLOYMENT",
+        "title": "BUSINESS ANALYST",
+        "org": "WORLDLINE GLOBAL SERVICES",
+        "start": "2024-08",
+        "end": "2025-06",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "BUSINESS ANALYST | WORLDLINE GLOBAL SERVICES - FINTECH | AUGUST 2024 – JUNE 2025",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "BUSINESS ANALYST | WORLDLINE GLOBAL SERVICES - FINTECH | AUGUST 2024 – JUNE 2025",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 3071,
+              "end": 3151
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "AUGUST 2024 – JUNE 2025",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 3128,
+              "end": 3151
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "WORLDLINE GLOBAL SERVICES",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 3090,
+              "end": 3115
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "BUSINESS ANALYST",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 3071,
+              "end": 3087
+            }
+          ],
+          "section": "Experience",
+          "date_label": "AUGUST 2024 – JUNE 2025",
+          "is_present": false
+        },
+        "date_label": "AUGUST 2024 – JUNE 2025",
+        "section": "Experience",
+        "is_present": false
+      },
+      {
+        "id": "va3df590444c6a469",
+        "type": "EMPLOYMENT",
+        "title": "BUSINESS ANALYST",
+        "org": "",
+        "start": "2025-07",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "BUSINESS ANALYST - Risk & Reporting | BITWISE | CLIENT: GLOBAL PAYMENTS – FINTECH |JULY 2025 – PRESENT",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "BUSINESS ANALYST - Risk & Reporting | BITWISE | CLIENT: GLOBAL PAYMENTS – FINTECH |JULY 2025 – PRESENT",
+              "block_id": "b28",
+              "kind": "text",
+              "start": 2091,
+              "end": 2193
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "JULY 2025 – PRESENT",
+              "block_id": "b28",
+              "kind": "text",
+              "start": 2174,
+              "end": 2193
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "BUSINESS ANALYST",
+              "block_id": "b28",
+              "kind": "text",
+              "start": 2091,
+              "end": 2107
+            }
+          ],
+          "section": "Experience",
+          "date_label": "JULY 2025 – PRESENT",
+          "is_present": true
+        },
+        "date_label": "JULY 2025 – PRESENT",
+        "section": "Experience",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "vec23a255f7d4b256",
+        "type": "EMPLOYMENT",
+        "title": "BUSINESS ANALYST L3",
+        "org": "",
+        "entry_text": "BUSINESS ANALYST L3 | WIPRO | NOV 21 – JUL 24 Clients: Cynergy Bank, UK (FinTech) | Standard Bank, SA (FinTech) | MGM RESORTS, US (Shift 4 Integration – Fintech) • Global Gateway Launch: Delivered a multi-processor Payment Gateway for MGM Resorts supporting Auth, Sale, Refund, and Tokenization. • Re",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "BUSINESS ANALYST L3 | WIPRO | NOV 21 – JUL 24",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 4127,
+              "end": 4172
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "BUSINESS ANALYST L3",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 4127,
+              "end": 4146
+            }
+          ],
+          "section": "Experience",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Experience",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v5e8074ab6a6120ba",
+        "type": "EMPLOYMENT",
+        "title": "PRODUCT OWNER/SENIOR BA",
+        "org": "",
+        "entry_text": "PRODUCT OWNER/SENIOR BA | QUANTUM PHINANCE | OCT 19 TO NOV 21 Client: Axis Bank, IN - FinTech Projects: RPA Implementation (Automated ~25 Retail Banking Processes) • RPA Implementation: Automated 25+ Retail Banking processes for Axis Bank. Managed requirement gathering, process mapping, BRD/FRD crea",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "PRODUCT OWNER/SENIOR BA | QUANTUM PHINANCE | OCT 19 TO NOV 21",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 5092,
+              "end": 5153
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "PRODUCT OWNER/SENIOR BA",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 5092,
+              "end": 5115
+            }
+          ],
+          "section": "Experience",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Experience",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v5b98e33097beacbf",
+        "type": "EDUCATION",
+        "title": "Master of Project Management",
+        "org": "COEP Technological University",
+        "entry_text": "Master of Project Management | COEP Technological University | 2019",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Master of Project Management | COEP Technological University | 2019",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 6177,
+              "end": 6244
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2019",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 6240,
+              "end": 6244
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "COEP Technological University",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 6208,
+              "end": 6237
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Master of Project Management",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 6177,
+              "end": 6205
+            }
+          ],
+          "section": "Education & Certifications",
+          "date_label": "2019",
+          "is_present": false
+        },
+        "date_label": "2019",
+        "section": "Education & Certifications",
+        "status": "AMBIGUOUS"
+      },
+      {
+        "id": "veb8f3a7f40732497",
+        "type": "EDUCATION",
+        "title": "Bachelor of Engineering",
+        "org": "SP Pune University",
+        "entry_text": "Bachelor of Engineering | SP Pune University | 2017 Certifications: Certified SAFe® 6 Product Owner/Product Manager, UiPath RPA Business Analyst, Tableau Analyst, Design Thinking (Beginner), SQL for PostgreSQL. Thought Leadership / Publication Published research paper on topic “Reduction in Manufact",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor of Engineering | SP Pune University | 2017",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 6246,
+              "end": 6297
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2017",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 6293,
+              "end": 6297
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "SP Pune University",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 6272,
+              "end": 6290
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Engineering",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 6246,
+              "end": 6269
+            }
+          ],
+          "section": "Education & Certifications",
+          "date_label": "2017",
+          "is_present": false
+        },
+        "date_label": "2017",
+        "section": "Education & Certifications",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "TRAINEE | GENERAL MOTORS, PUNE| JUNE 18 TO MAY 19",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [],
+        "raw_text": "PROJECT MANAGEMENT TRAINEE | GENERAL MOTORS, PUNE| JUNE 18 TO MAY 19",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "PROJECT MANAGEMENT TRAINEE | GENERAL MOTORS, PUNE| JUNE 18 TO MAY 19",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 5686,
+              "end": 5754
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "problem statement is that the A/C 9000 contributes 11.8% in the total CPU of the car, which accounts for",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "423 headcounts. The objective is to identify opportunities, i.e., the non-value-added activities in the process, with a goal",
+          "to reduce the headcounts by 5.8%, thereby reducing manpower cost for Leeway agency. MTM system is used as a",
+          "standard tool to calculate the MPU."
+        ],
+        "raw_text": "Project: The problem statement is that the A/C 9000 contributes 11.8% in the total CPU of the car, which accounts for",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project: The problem statement is that the A/C 9000 contributes 11.8% in the total CPU of the car, which accounts for",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 5756,
+              "end": 5873
+            },
+            {
+              "page": 1,
+              "text": "423 headcounts. The objective is to identify opportunities, i.e., the non-value-added activities in the process, with a goal",
+              "block_id": "b74",
+              "kind": "text",
+              "start": 5875,
+              "end": 5999
+            },
+            {
+              "page": 1,
+              "text": "to reduce the headcounts by 5.8%, thereby reducing manpower cost for Leeway agency. MTM system is used as a",
+              "block_id": "b75",
+              "kind": "text",
+              "start": 6001,
+              "end": 6108
+            },
+            {
+              "page": 1,
+              "text": "standard tool to calculate the MPU.",
+              "block_id": "b76",
+              "kind": "text",
+              "start": 6110,
+              "end": 6145
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "vec23a255f7d4b256",
+            "v5e8074ab6a6120ba"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 6,
+      "dated_share": 0.333,
+      "unresolved": 4,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.87
+    },
+    "total_represented_months": 26,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

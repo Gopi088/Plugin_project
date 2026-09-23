@@ -1,0 +1,275 @@
+{
+  "file_name": "Pankaj Kumar Manjhi.pdf",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 0,
+    "total_events": 2,
+    "dated_share": 0.0,
+    "unresolved": 2,
+    "ambiguous": 0,
+    "mean_event_confidence": null,
+    "document_accuracy": 0.85
+  },
+  "work_experience": [
+    {
+      "id": "v61c8b7134a9193c8",
+      "company": "Dynacons System and Solution Pvt. Ltd",
+      "title": "E-2.2) Senior Specialist",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "v74778e2860342381",
+      "company": "",
+      "title": "B.Tech. (CSE) from RGPV",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 1,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "Pankaj Kumar Manjhi",
+    "filename": "Pankaj Kumar Manjhi.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [],
+    "unresolved_events": [
+      {
+        "id": "v74778e2860342381",
+        "type": "EDUCATION",
+        "title": "B.Tech. (CSE) from RGPV",
+        "org": "",
+        "entry_text": "B.Tech. (CSE) from RGPV 2012| 62.8 XII from BSEB",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "B.Tech. (CSE) from RGPV",
+              "block_id": "b3",
+              "kind": "text",
+              "start": 23,
+              "end": 46
+            },
+            {
+              "page": 1,
+              "text": "2012| 62.8",
+              "block_id": "b4",
+              "kind": "text",
+              "start": 50,
+              "end": 60
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2012",
+              "block_id": "b4",
+              "kind": "text",
+              "start": 50,
+              "end": 54
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "B.Tech. (CSE) from RGPV",
+              "block_id": "b3",
+              "kind": "text",
+              "start": 23,
+              "end": 46
+            }
+          ],
+          "section": "Education",
+          "date_label": "2012",
+          "is_present": false
+        },
+        "date_label": "2012",
+        "section": "Education",
+        "status": "AMBIGUOUS"
+      },
+      {
+        "id": "v61c8b7134a9193c8",
+        "type": "EMPLOYMENT",
+        "title": "E-2.2) Senior Specialist",
+        "org": "Dynacons System and Solution Pvt. Ltd",
+        "entry_text": "2024 (E-2.2) Senior Specialist Dynacons System and Solution Pvt. Ltd., Mumbai (Delhi NCR, PAN India) | February 2017 to April 2018(L1) Desktop and Network Support Engineer Responsibilities: • Proficient in routing and switching technologies, including configuration, optimization, and troubleshooting",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "2024 (E-2.2) Senior Specialist",
+              "block_id": "b153",
+              "kind": "text",
+              "start": 8401,
+              "end": 8431
+            },
+            {
+              "page": 1,
+              "text": "Dynacons System and Solution Pvt. Ltd., Mumbai (Delhi NCR, PAN India) | February 2017 to April",
+              "block_id": "b154",
+              "kind": "text",
+              "start": 8435,
+              "end": 8529
+            },
+            {
+              "page": 1,
+              "text": "2018(L1) Desktop and Network Support Engineer",
+              "block_id": "b155",
+              "kind": "text",
+              "start": 8531,
+              "end": 8576
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2024",
+              "block_id": "b153",
+              "kind": "text",
+              "start": 8401,
+              "end": 8405
+            },
+            {
+              "page": 1,
+              "text": "February 2017",
+              "block_id": "b154",
+              "kind": "text",
+              "start": 8507,
+              "end": 8520
+            },
+            {
+              "page": 1,
+              "text": "2018",
+              "block_id": "b155",
+              "kind": "text",
+              "start": 8531,
+              "end": 8535
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Dynacons System and Solution Pvt. Ltd",
+              "block_id": "b154",
+              "kind": "text",
+              "start": 8435,
+              "end": 8472
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "E-2.2) Senior Specialist",
+              "block_id": "b153",
+              "kind": "text",
+              "start": 8407,
+              "end": 8431
+            }
+          ],
+          "section": "Work Experience",
+          "date_label": "2024 / February 2017 / 2018",
+          "is_present": false
+        },
+        "date_label": "2024 / February 2017 / 2018",
+        "section": "Work Experience",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "v61c8b7134a9193c8"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 0,
+      "total_events": 2,
+      "dated_share": 0.0,
+      "unresolved": 2,
+      "ambiguous": 0,
+      "mean_event_confidence": null,
+      "document_accuracy": 0.85
+    },
+    "total_represented_months": 0,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "PARTIAL",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "PARTIAL",
+        "confidence": 0.3
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

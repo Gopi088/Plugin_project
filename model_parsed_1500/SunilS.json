@@ -1,0 +1,293 @@
+{
+  "file_name": "SunilS.pdf",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 2,
+    "dated_share": 0.5,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "va1792636488aae8f",
+      "company": "Convergys India Pvt Ltd",
+      "title": "Support Associate",
+      "start_date": "2015-05",
+      "end_date": "2016-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "/ Specialist | Silicon Valley Bank, Bengaluru, India Jul 2021 – Nov 2024",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Senior Analyst – Project Management & Due Diligence | HSBC Electronic Data Processing India Pvt Ltd"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "v3929705beea1acd0",
+      "company": "Monad University",
+      "title": "MBA",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 1,
+  "total_projects": 1,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "SunilS",
+    "filename": "SunilS.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "va1792636488aae8f",
+        "type": "EMPLOYMENT",
+        "title": "Support Associate",
+        "org": "Convergys India Pvt Ltd",
+        "start": "2015-05",
+        "end": "2016-12",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Support Associate – KYC Reviews | Convergys India Pvt Ltd May 2015 – Dec 2016",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Support Associate – KYC Reviews | Convergys India Pvt Ltd May 2015 – Dec 2016",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 4333,
+              "end": 4410
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "May 2015 – Dec 2016",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 4391,
+              "end": 4410
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Convergys India Pvt Ltd",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 4367,
+              "end": 4390
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Support Associate",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 4333,
+              "end": 4350
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "May 2015 – Dec 2016",
+          "is_present": false
+        },
+        "date_label": "May 2015 – Dec 2016",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v3929705beea1acd0",
+        "type": "EDUCATION",
+        "title": "MBA",
+        "org": "Monad University",
+        "entry_text": "MBA – Finance | Monad University B.Com | PES Degree College",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "MBA – Finance | Monad University",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 4941,
+              "end": 4973
+            },
+            {
+              "page": 1,
+              "text": "B.Com | PES Degree College",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 4975,
+              "end": 5001
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "Monad University",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 4957,
+              "end": 4973
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "MBA",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 4941,
+              "end": 4944
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "EDUCATION",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "/ Specialist | Silicon Valley Bank, Bengaluru, India Jul 2021 – Nov 2024",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Senior Analyst – Project Management & Due Diligence | HSBC Electronic Data Processing India Pvt Ltd"
+        ],
+        "raw_text": "Project Manager / Specialist | Silicon Valley Bank, Bengaluru, India Jul 2021 – Nov 2024",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project Manager / Specialist | Silicon Valley Bank, Bengaluru, India Jul 2021 – Nov 2024",
+              "block_id": "b17",
+              "kind": "text",
+              "start": 1312,
+              "end": 1400
+            },
+            {
+              "page": 1,
+              "text": "Senior Analyst – Project Management & Due Diligence | HSBC Electronic Data Processing India Pvt Ltd",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 3293,
+              "end": 3392
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 2,
+      "dated_share": 0.5,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 20,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

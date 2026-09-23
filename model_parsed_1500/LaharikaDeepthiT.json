@@ -1,0 +1,1041 @@
+{
+  "file_name": "LaharikaDeepthiT.pdf",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 4,
+    "dated_share": 0.5,
+    "unresolved": 2,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.88
+  },
+  "work_experience": [
+    {
+      "id": "v647a456445312c3a",
+      "company": "",
+      "title": "Business Analyst",
+      "start_date": "2019-01",
+      "end_date": "2022-11",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v3d963492dabd53d2",
+      "company": "Australia and New Zealand Bank (ANZ",
+      "title": "",
+      "start_date": "2022-11",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v6eaf768c51be4cdf",
+      "company": "",
+      "title": "QA Analyst",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "Project 2",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Work Area: Liquidity Management, Application and platform Upgrade",
+        "• Led JAD workshops to baseline requirements across Interest Optimisation, Sweep Transfers, Notional/Physical Pooling,",
+        "and Intercompany Loan Models in multi-entity banking environments.",
+        "• Produced BRDs, FRDs, and INVEST-compliant User Stories; conducted sign-off sessions and traceability audits to maintain scope integrity across stakeholder groups.",
+        "• Applied MoSCoW and value-stream mapping to prioritise capabilities; delivered As-Is/To-Be BPMN models and change",
+        "impact assessments to drive Operations and Testing adoption.",
+        "• Tracked defects in JIRA and facilitated RCA with engineering teams, ensuring closure within agreed SLAs.",
+        "• Leveraged AI tooling to generate RTMs, Acceptance Criteria, and test artefacts achieving 100% bi-directional",
+        "traceability with significantly reduced manual effort.",
+        "• Operated as embedded BA across Agile ceremonies, applied WSJF prioritisation to improve sprint velocity and manage",
+        "scope creep.",
+        "• Governed release activities including CIA, regression scoping, RAID log maintenance, BVT coordination, and executive",
+        "status reporting."
+      ]
+    },
+    {
+      "id": "proj_2",
+      "name": "Project 1",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Work Area: Payments Initiation channels, Payments flow",
+        "• Elicited and baselined requirements for domestic and cross-border payment flows (ACH, RTGS, NEFT, BKT, TT,",
+        "CHEQUE, multi-currency) across GPP and core banking; formalised in BABOK-aligned BRDs and FSDs.",
+        "• Produced swimlane diagrams and BPMN maps across GPP, GCP, and PTM to close STP gaps and establish full",
+        "payment channel traceability.",
+        "• Decomposed Epics into Gherkin-formatted User Stories, led Product Owner sign-off to lock scope and minimise",
+        "late-cycle change.",
+        "• Executed Oracle SQL queries to trace payment status transitions, validate data integrity, and generate",
+        "evidence-based stakeholder reports.",
+        "• Managed JIRA defect logs and chaired RCA sessions, secured stakeholder-confirmed resolution within defined SLAs.",
+        "• Defined requirements and acceptance criteria for Automation Anywhere BOT workflows, validated bot behaviour",
+        "across regression and data integrity cycles.",
+        "• Owned full UAT lifecycle in strategy, entry/exit criteria, defect triage, and sign-off, produced Release Summary",
+        "Reports for governance forums.",
+        "• Maintained RTM with end-to-end traceability from business objectives to UAT sign-off, supplied regulatory",
+        "coverage evidence with zero gaps.",
+        "Tata Consultancy Services (TCS) Jan 2019 – Nov 2022"
+      ]
+    },
+    {
+      "id": "proj_3",
+      "name": "Corporate Banking – ISO 20022 APAC Migration (CBPR+)",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Work Area: ISO 20022, SWIFT MT/MX, CBPR+, Cross-Border Payments",
+        "• Tested ISO 20022 migration for cross-border payments (CBPR+) including MT–MX and MX–MT message format",
+        "conversions using Volpay and Postman.",
+        "• Validated SWIFT MT and MX message formats (pain, pacs, camt) in E2E payment flows integrating GPP Fusion, FTI,",
+        "SWIFT Web Portal, and BigData platforms.",
+        "• Executed complex payment test scenarios covering domestic and cross-border transactions — ACH, international wire",
+        "transfers, RTGS, multi-currency, BKT, NEFT, CHEQUE, SEPA.",
+        "• Designed comprehensive test strategies, test plans, and test cases from functional requirements and system",
+        "architecture documentation.",
+        "• Acted as primary testing point of contact for facilitators, executors, and validators; coordinated release control and",
+        "effort estimation.",
+        "• Maintained 100% business coverage through defect creation, retesting, and tracking to closure."
+      ]
+    },
+    {
+      "id": "proj_4",
+      "name": "Corporate Banking – Payment & Service Insights (Real-Time Payments Visibility)",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Work Area: Cross-Border & Domestic Funds Transfer, ACH, SEPA, Instant Payments, Return of Funds",
+        "• Orchestrated comprehensive UAT testing for multi-regional payment systems (NAM, EMEA, APAC) covering real-time",
+        "payment visibility and on-demand payment action capabilities.",
+        "• Managed end-to-end transaction lifecycle testing through GPP Fusion, BigData ingestion, and Core Banking Systems.",
+        "• Led cross-functional validation of payment gateway capabilities for credit/debit transactions, bank transfers, ACH,",
+        "SEPA, Instant Payments, and Return of Funds.",
+        "• Performed GPP database querying (Oracle DB) to trace transaction states, validate payment processing, and",
+        "investigate defects.",
+        "• Designed test strategies and created test plans and test cases aligned to user stories; analysed execution results and",
+        "logs for functional quality assurance.",
+        "• Executed Production Verification Testing (PVT) post-deployment ensuring zero leakage to production.",
+        "• Collaborated with Product Owners, developers, and vendors to clarify requirements, resolve ambiguities, and ensure",
+        "delivery quality."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "vbbaf3619dec7b674",
+      "company": "Dayanand Sagar College of Engineering",
+      "title": "Bachelor of Engineering",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 3,
+  "total_projects": 4,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "LaharikaDeepthiT",
+    "filename": "LaharikaDeepthiT.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "v647a456445312c3a",
+        "type": "EMPLOYMENT",
+        "title": "Business Analyst",
+        "org": "",
+        "start": "2019-01",
+        "end": "2022-11",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Business Analyst – Payments | Bengaluru, India",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Business Analyst – Payments | Bengaluru, India",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 1355,
+              "end": 1401
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jan 2019 – Nov 2022",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 3861,
+              "end": 3880
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Business Analyst",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 1355,
+              "end": 1371
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Jan 2019 – Nov 2022",
+          "is_present": false
+        },
+        "date_label": "Jan 2019 – Nov 2022",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v3d963492dabd53d2",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Australia and New Zealand Bank (ANZ",
+        "start": "2022-11",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Australia and New Zealand Bank (ANZ) Nov 2022 – Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Australia and New Zealand Bank (ANZ) Nov 2022 – Present",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 1298,
+              "end": 1353
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Nov 2022 – Present",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 1335,
+              "end": 1353
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Australia and New Zealand Bank (ANZ",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 1298,
+              "end": 1333
+            }
+          ],
+          "title": [],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Nov 2022 – Present",
+          "is_present": true
+        },
+        "date_label": "Nov 2022 – Present",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v6eaf768c51be4cdf",
+        "type": "EMPLOYMENT",
+        "title": "QA Analyst",
+        "org": "",
+        "entry_text": "QA Analyst – BFSI (Payments) | Bengaluru, India Project 2 : Corporate Banking – ISO 20022 APAC Migration (CBPR+) Work Area: ISO 20022, SWIFT MT/MX, CBPR+, Cross-Border Payments • Tested ISO 20022 migration for cross-border payments (CBPR+) including MT–MX and MX–MT message format conversions using V",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "QA Analyst – BFSI (Payments) | Bengaluru, India",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 3882,
+              "end": 3929
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "QA Analyst",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 3882,
+              "end": 3892
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "vbbaf3619dec7b674",
+        "type": "EDUCATION",
+        "title": "Bachelor of Engineering",
+        "org": "Dayanand Sagar College of Engineering",
+        "entry_text": "Dayanand Sagar College of Engineering, Bengaluru Bachelor of Engineering – Electronics & Communication",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Dayanand Sagar College of Engineering, Bengaluru",
+              "block_id": "b96",
+              "kind": "text",
+              "start": 6705,
+              "end": 6753
+            },
+            {
+              "page": 1,
+              "text": "Bachelor of Engineering – Electronics & Communication",
+              "block_id": "b98",
+              "kind": "text",
+              "start": 6777,
+              "end": 6830
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "Dayanand Sagar College of Engineering",
+              "block_id": "b96",
+              "kind": "text",
+              "start": 6705,
+              "end": 6742
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Engineering",
+              "block_id": "b98",
+              "kind": "text",
+              "start": 6777,
+              "end": 6800
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "EDUCATION",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "Project 2",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Work Area: Liquidity Management, Application and platform Upgrade",
+          "• Led JAD workshops to baseline requirements across Interest Optimisation, Sweep Transfers, Notional/Physical Pooling,",
+          "and Intercompany Loan Models in multi-entity banking environments.",
+          "• Produced BRDs, FRDs, and INVEST-compliant User Stories; conducted sign-off sessions and traceability audits to maintain scope integrity across stakeholder groups.",
+          "• Applied MoSCoW and value-stream mapping to prioritise capabilities; delivered As-Is/To-Be BPMN models and change",
+          "impact assessments to drive Operations and Testing adoption.",
+          "• Tracked defects in JIRA and facilitated RCA with engineering teams, ensuring closure within agreed SLAs.",
+          "• Leveraged AI tooling to generate RTMs, Acceptance Criteria, and test artefacts achieving 100% bi-directional",
+          "traceability with significantly reduced manual effort.",
+          "• Operated as embedded BA across Agile ceremonies, applied WSJF prioritisation to improve sprint velocity and manage",
+          "scope creep.",
+          "• Governed release activities including CIA, regression scoping, RAID log maintenance, BVT coordination, and executive",
+          "status reporting."
+        ],
+        "raw_text": "Project 2:",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project 2:",
+              "block_id": "b25",
+              "kind": "text",
+              "start": 1403,
+              "end": 1413
+            },
+            {
+              "page": 1,
+              "text": "Work Area: Liquidity Management, Application and platform Upgrade",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 1415,
+              "end": 1480
+            },
+            {
+              "page": 1,
+              "text": "• Led JAD workshops to baseline requirements across Interest Optimisation, Sweep Transfers, Notional/Physical Pooling,",
+              "block_id": "b27",
+              "kind": "text",
+              "start": 1484,
+              "end": 1602
+            },
+            {
+              "page": 1,
+              "text": "and Intercompany Loan Models in multi-entity banking environments.",
+              "block_id": "b28",
+              "kind": "text",
+              "start": 1604,
+              "end": 1670
+            },
+            {
+              "page": 1,
+              "text": "• Produced BRDs, FRDs, and INVEST-compliant User Stories; conducted sign-off sessions and traceability audits to",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 1672,
+              "end": 1784
+            },
+            {
+              "page": 1,
+              "text": "maintain scope integrity across stakeholder groups.",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 1786,
+              "end": 1837
+            },
+            {
+              "page": 1,
+              "text": "• Applied MoSCoW and value-stream mapping to prioritise capabilities; delivered As-Is/To-Be BPMN models and change",
+              "block_id": "b30",
+              "kind": "text",
+              "start": 1839,
+              "end": 1953
+            },
+            {
+              "page": 1,
+              "text": "impact assessments to drive Operations and Testing adoption.",
+              "block_id": "b31",
+              "kind": "text",
+              "start": 1955,
+              "end": 2015
+            },
+            {
+              "page": 1,
+              "text": "• Tracked defects in JIRA and facilitated RCA with engineering teams, ensuring closure within agreed SLAs.",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 2017,
+              "end": 2123
+            },
+            {
+              "page": 1,
+              "text": "• Leveraged AI tooling to generate RTMs, Acceptance Criteria, and test artefacts achieving 100% bi-directional",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 2125,
+              "end": 2235
+            },
+            {
+              "page": 1,
+              "text": "traceability with significantly reduced manual effort.",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 2237,
+              "end": 2291
+            },
+            {
+              "page": 1,
+              "text": "• Operated as embedded BA across Agile ceremonies, applied WSJF prioritisation to improve sprint velocity and manage",
+              "block_id": "b35",
+              "kind": "text",
+              "start": 2293,
+              "end": 2409
+            },
+            {
+              "page": 1,
+              "text": "scope creep.",
+              "block_id": "b36",
+              "kind": "text",
+              "start": 2411,
+              "end": 2423
+            },
+            {
+              "page": 1,
+              "text": "• Governed release activities including CIA, regression scoping, RAID log maintenance, BVT coordination, and executive",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 2425,
+              "end": 2543
+            },
+            {
+              "page": 1,
+              "text": "status reporting.",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 2545,
+              "end": 2562
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "Project 1",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Work Area: Payments Initiation channels, Payments flow",
+          "• Elicited and baselined requirements for domestic and cross-border payment flows (ACH, RTGS, NEFT, BKT, TT,",
+          "CHEQUE, multi-currency) across GPP and core banking; formalised in BABOK-aligned BRDs and FSDs.",
+          "• Produced swimlane diagrams and BPMN maps across GPP, GCP, and PTM to close STP gaps and establish full",
+          "payment channel traceability.",
+          "• Decomposed Epics into Gherkin-formatted User Stories, led Product Owner sign-off to lock scope and minimise",
+          "late-cycle change.",
+          "• Executed Oracle SQL queries to trace payment status transitions, validate data integrity, and generate",
+          "evidence-based stakeholder reports.",
+          "• Managed JIRA defect logs and chaired RCA sessions, secured stakeholder-confirmed resolution within defined SLAs.",
+          "• Defined requirements and acceptance criteria for Automation Anywhere BOT workflows, validated bot behaviour",
+          "across regression and data integrity cycles.",
+          "• Owned full UAT lifecycle in strategy, entry/exit criteria, defect triage, and sign-off, produced Release Summary",
+          "Reports for governance forums.",
+          "• Maintained RTM with end-to-end traceability from business objectives to UAT sign-off, supplied regulatory",
+          "coverage evidence with zero gaps.",
+          "Tata Consultancy Services (TCS) Jan 2019 – Nov 2022"
+        ],
+        "raw_text": "Project 1:",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project 1:",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 2568,
+              "end": 2578
+            },
+            {
+              "page": 1,
+              "text": "Work Area: Payments Initiation channels, Payments flow",
+              "block_id": "b40",
+              "kind": "text",
+              "start": 2580,
+              "end": 2634
+            },
+            {
+              "page": 1,
+              "text": "• Elicited and baselined requirements for domestic and cross-border payment flows (ACH, RTGS, NEFT, BKT, TT,",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 2638,
+              "end": 2746
+            },
+            {
+              "page": 1,
+              "text": "CHEQUE, multi-currency) across GPP and core banking; formalised in BABOK-aligned BRDs and FSDs.",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 2748,
+              "end": 2843
+            },
+            {
+              "page": 1,
+              "text": "• Produced swimlane diagrams and BPMN maps across GPP, GCP, and PTM to close STP gaps and establish full",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 2845,
+              "end": 2949
+            },
+            {
+              "page": 1,
+              "text": "payment channel traceability.",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 2951,
+              "end": 2980
+            },
+            {
+              "page": 1,
+              "text": "• Decomposed Epics into Gherkin-formatted User Stories, led Product Owner sign-off to lock scope and minimise",
+              "block_id": "b45",
+              "kind": "text",
+              "start": 2982,
+              "end": 3091
+            },
+            {
+              "page": 1,
+              "text": "late-cycle change.",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 3093,
+              "end": 3111
+            },
+            {
+              "page": 1,
+              "text": "• Executed Oracle SQL queries to trace payment status transitions, validate data integrity, and generate",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 3113,
+              "end": 3217
+            },
+            {
+              "page": 1,
+              "text": "evidence-based stakeholder reports.",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 3219,
+              "end": 3254
+            },
+            {
+              "page": 1,
+              "text": "• Managed JIRA defect logs and chaired RCA sessions, secured stakeholder-confirmed resolution within defined SLAs.",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 3256,
+              "end": 3370
+            },
+            {
+              "page": 1,
+              "text": "• Defined requirements and acceptance criteria for Automation Anywhere BOT workflows, validated bot behaviour",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 3372,
+              "end": 3481
+            },
+            {
+              "page": 1,
+              "text": "across regression and data integrity cycles.",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 3483,
+              "end": 3527
+            },
+            {
+              "page": 1,
+              "text": "• Owned full UAT lifecycle in strategy, entry/exit criteria, defect triage, and sign-off, produced Release Summary",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 3529,
+              "end": 3643
+            },
+            {
+              "page": 1,
+              "text": "Reports for governance forums.",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 3645,
+              "end": 3675
+            },
+            {
+              "page": 1,
+              "text": "• Maintained RTM with end-to-end traceability from business objectives to UAT sign-off, supplied regulatory",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 3677,
+              "end": 3784
+            },
+            {
+              "page": 1,
+              "text": "coverage evidence with zero gaps.",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 3786,
+              "end": 3819
+            },
+            {
+              "page": 1,
+              "text": "Tata Consultancy Services (TCS) Jan 2019 – Nov 2022",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 3829,
+              "end": 3880
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_3",
+        "name": "Corporate Banking – ISO 20022 APAC Migration (CBPR+)",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Work Area: ISO 20022, SWIFT MT/MX, CBPR+, Cross-Border Payments",
+          "• Tested ISO 20022 migration for cross-border payments (CBPR+) including MT–MX and MX–MT message format",
+          "conversions using Volpay and Postman.",
+          "• Validated SWIFT MT and MX message formats (pain, pacs, camt) in E2E payment flows integrating GPP Fusion, FTI,",
+          "SWIFT Web Portal, and BigData platforms.",
+          "• Executed complex payment test scenarios covering domestic and cross-border transactions — ACH, international wire",
+          "transfers, RTGS, multi-currency, BKT, NEFT, CHEQUE, SEPA.",
+          "• Designed comprehensive test strategies, test plans, and test cases from functional requirements and system",
+          "architecture documentation.",
+          "• Acted as primary testing point of contact for facilitators, executors, and validators; coordinated release control and",
+          "effort estimation.",
+          "• Maintained 100% business coverage through defect creation, retesting, and tracking to closure."
+        ],
+        "raw_text": "Project 2 : Corporate Banking – ISO 20022 APAC Migration (CBPR+)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project 2 : Corporate Banking – ISO 20022 APAC Migration (CBPR+)",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 3933,
+              "end": 3997
+            },
+            {
+              "page": 1,
+              "text": "Work Area: ISO 20022, SWIFT MT/MX, CBPR+, Cross-Border Payments",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 3999,
+              "end": 4062
+            },
+            {
+              "page": 1,
+              "text": "• Tested ISO 20022 migration for cross-border payments (CBPR+) including MT–MX and MX–MT message format",
+              "block_id": "b60",
+              "kind": "text",
+              "start": 4064,
+              "end": 4167
+            },
+            {
+              "page": 1,
+              "text": "conversions using Volpay and Postman.",
+              "block_id": "b61",
+              "kind": "text",
+              "start": 4169,
+              "end": 4206
+            },
+            {
+              "page": 1,
+              "text": "• Validated SWIFT MT and MX message formats (pain, pacs, camt) in E2E payment flows integrating GPP Fusion, FTI,",
+              "block_id": "b62",
+              "kind": "text",
+              "start": 4208,
+              "end": 4320
+            },
+            {
+              "page": 1,
+              "text": "SWIFT Web Portal, and BigData platforms.",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 4322,
+              "end": 4362
+            },
+            {
+              "page": 1,
+              "text": "• Executed complex payment test scenarios covering domestic and cross-border transactions — ACH, international wire",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 4364,
+              "end": 4479
+            },
+            {
+              "page": 1,
+              "text": "transfers, RTGS, multi-currency, BKT, NEFT, CHEQUE, SEPA.",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 4481,
+              "end": 4538
+            },
+            {
+              "page": 1,
+              "text": "• Designed comprehensive test strategies, test plans, and test cases from functional requirements and system",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 4540,
+              "end": 4648
+            },
+            {
+              "page": 1,
+              "text": "architecture documentation.",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 4650,
+              "end": 4677
+            },
+            {
+              "page": 1,
+              "text": "• Acted as primary testing point of contact for facilitators, executors, and validators; coordinated release control and",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 4679,
+              "end": 4799
+            },
+            {
+              "page": 1,
+              "text": "effort estimation.",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 4801,
+              "end": 4819
+            },
+            {
+              "page": 1,
+              "text": "• Maintained 100% business coverage through defect creation, retesting, and tracking to closure.",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 4821,
+              "end": 4917
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_4",
+        "name": "Corporate Banking – Payment & Service Insights (Real-Time Payments Visibility)",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Work Area: Cross-Border & Domestic Funds Transfer, ACH, SEPA, Instant Payments, Return of Funds",
+          "• Orchestrated comprehensive UAT testing for multi-regional payment systems (NAM, EMEA, APAC) covering real-time",
+          "payment visibility and on-demand payment action capabilities.",
+          "• Managed end-to-end transaction lifecycle testing through GPP Fusion, BigData ingestion, and Core Banking Systems.",
+          "• Led cross-functional validation of payment gateway capabilities for credit/debit transactions, bank transfers, ACH,",
+          "SEPA, Instant Payments, and Return of Funds.",
+          "• Performed GPP database querying (Oracle DB) to trace transaction states, validate payment processing, and",
+          "investigate defects.",
+          "• Designed test strategies and created test plans and test cases aligned to user stories; analysed execution results and",
+          "logs for functional quality assurance.",
+          "• Executed Production Verification Testing (PVT) post-deployment ensuring zero leakage to production.",
+          "• Collaborated with Product Owners, developers, and vendors to clarify requirements, resolve ambiguities, and ensure",
+          "delivery quality."
+        ],
+        "raw_text": "Project 1 : Corporate Banking – Payment & Service Insights (Real-Time Payments Visibility)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project 1 : Corporate Banking – Payment & Service Insights (Real-Time Payments Visibility)",
+              "block_id": "b71",
+              "kind": "text",
+              "start": 4919,
+              "end": 5009
+            },
+            {
+              "page": 1,
+              "text": "Work Area: Cross-Border & Domestic Funds Transfer, ACH, SEPA, Instant Payments, Return of Funds",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 5011,
+              "end": 5106
+            },
+            {
+              "page": 1,
+              "text": "• Orchestrated comprehensive UAT testing for multi-regional payment systems (NAM, EMEA, APAC) covering real-time",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 5108,
+              "end": 5220
+            },
+            {
+              "page": 1,
+              "text": "payment visibility and on-demand payment action capabilities.",
+              "block_id": "b74",
+              "kind": "text",
+              "start": 5222,
+              "end": 5283
+            },
+            {
+              "page": 1,
+              "text": "• Managed end-to-end transaction lifecycle testing through GPP Fusion, BigData ingestion, and Core Banking Systems.",
+              "block_id": "b75",
+              "kind": "text",
+              "start": 5285,
+              "end": 5400
+            },
+            {
+              "page": 1,
+              "text": "• Led cross-functional validation of payment gateway capabilities for credit/debit transactions, bank transfers, ACH,",
+              "block_id": "b76",
+              "kind": "text",
+              "start": 5402,
+              "end": 5519
+            },
+            {
+              "page": 1,
+              "text": "SEPA, Instant Payments, and Return of Funds.",
+              "block_id": "b77",
+              "kind": "text",
+              "start": 5521,
+              "end": 5565
+            },
+            {
+              "page": 1,
+              "text": "• Performed GPP database querying (Oracle DB) to trace transaction states, validate payment processing, and",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 5567,
+              "end": 5674
+            },
+            {
+              "page": 1,
+              "text": "investigate defects.",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 5676,
+              "end": 5696
+            },
+            {
+              "page": 1,
+              "text": "• Designed test strategies and created test plans and test cases aligned to user stories; analysed execution results and",
+              "block_id": "b80",
+              "kind": "text",
+              "start": 5698,
+              "end": 5818
+            },
+            {
+              "page": 1,
+              "text": "logs for functional quality assurance.",
+              "block_id": "b81",
+              "kind": "text",
+              "start": 5820,
+              "end": 5858
+            },
+            {
+              "page": 1,
+              "text": "• Executed Production Verification Testing (PVT) post-deployment ensuring zero leakage to production.",
+              "block_id": "b82",
+              "kind": "text",
+              "start": 5860,
+              "end": 5961
+            },
+            {
+              "page": 1,
+              "text": "• Collaborated with Product Owners, developers, and vendors to clarify requirements, resolve ambiguities, and ensure",
+              "block_id": "b83",
+              "kind": "text",
+              "start": 5963,
+              "end": 6079
+            },
+            {
+              "page": 1,
+              "text": "delivery quality.",
+              "block_id": "b84",
+              "kind": "text",
+              "start": 6081,
+              "end": 6098
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "v6eaf768c51be4cdf"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 4,
+      "dated_share": 0.5,
+      "unresolved": 2,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.88
+    },
+    "total_represented_months": 93,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

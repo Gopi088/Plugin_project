@@ -1,0 +1,553 @@
+{
+  "file_name": "HimanshuRajpali.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 3,
+    "total_events": 5,
+    "dated_share": 0.6,
+    "unresolved": 2,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v7a8677ca8c2c8e41",
+      "company": "Pune, India",
+      "title": "",
+      "start_date": "2014-04",
+      "end_date": "2018-08",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v412b374c59394819",
+      "company": "Pune",
+      "title": "Associate Business Analyst",
+      "start_date": "2018-08",
+      "end_date": "2021-08",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "va9fccb85241014cd",
+      "company": "Pune",
+      "title": "Lead Business Analyst",
+      "start_date": "2021-08",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "360",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "• Client Services Engineering: Handled core software development and production support within the client",
+        "services team for a major Capital Markets platform.",
+        "• Domain Mastery: Gained deep technical and functional knowledge of the end-to-end trade lifecycle, covering",
+        "trade capture, post-trade asset processing, settlement, and reconciliation.",
+        "• Collaborative Delivery: Partnered closely with consulting business analysts and global banking clients to design",
+        "and deploy platform enhancements aligned with regulatory standards."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "ve44ffb17e74909ea",
+      "company": "BITS Pilani",
+      "title": "MBA (FinTech)",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    },
+    {
+      "id": "vd8ba756d3c4d8934",
+      "company": "",
+      "title": "BE (Computer Science)",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 3,
+  "total_projects": 1,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "HimanshuRajpali",
+    "filename": "HimanshuRajpali.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v7a8677ca8c2c8e41",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Pune, India",
+        "start": "2014-04",
+        "end": "2018-08",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Apr 2014 – Aug 2018 | Pune, India",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Apr 2014 – Aug 2018 | Pune, India",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 3512,
+              "end": 3545
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Apr 2014 – Aug 2018",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 3512,
+              "end": 3531
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Pune, India",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 3534,
+              "end": 3545
+            }
+          ],
+          "title": [],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Apr 2014 – Aug 2018",
+          "is_present": false
+        },
+        "date_label": "Apr 2014 – Aug 2018",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v412b374c59394819",
+        "type": "EMPLOYMENT",
+        "title": "Associate Business Analyst",
+        "org": "Pune",
+        "start": "2018-08",
+        "end": "2021-08",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Cognizant | Associate Business Analyst\nAug 2018 – Aug 2021 | Pune, India",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Cognizant | Associate Business Analyst",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 2868,
+              "end": 2906
+            },
+            {
+              "page": 1,
+              "text": "Aug 2018 – Aug 2021 | Pune, India",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 2908,
+              "end": 2941
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Aug 2018 – Aug 2021",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 2908,
+              "end": 2927
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Pune",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 2930,
+              "end": 2934
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Associate Business Analyst",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 2880,
+              "end": 2906
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Aug 2018 – Aug 2021",
+          "is_present": false
+        },
+        "date_label": "Aug 2018 – Aug 2021",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "va9fccb85241014cd",
+        "type": "EMPLOYMENT",
+        "title": "Lead Business Analyst",
+        "org": "Pune",
+        "start": "2021-08",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "CGI | Lead Business Analyst\nAug 2021 – Present | Pune, India",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "CGI | Lead Business Analyst",
+              "block_id": "b15",
+              "kind": "text",
+              "start": 1050,
+              "end": 1077
+            },
+            {
+              "page": 1,
+              "text": "Aug 2021 – Present | Pune, India",
+              "block_id": "b16",
+              "kind": "text",
+              "start": 1079,
+              "end": 1111
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Aug 2021 – Present",
+              "block_id": "b16",
+              "kind": "text",
+              "start": 1079,
+              "end": 1097
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Pune",
+              "block_id": "b16",
+              "kind": "text",
+              "start": 1100,
+              "end": 1104
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Lead Business Analyst",
+              "block_id": "b15",
+              "kind": "text",
+              "start": 1056,
+              "end": 1077
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Aug 2021 – Present",
+          "is_present": true
+        },
+        "date_label": "Aug 2021 – Present",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "ve44ffb17e74909ea",
+        "type": "EDUCATION",
+        "title": "MBA (FinTech)",
+        "org": "BITS Pilani",
+        "entry_text": "• MBA (FinTech) | BITS Pilani | 2023",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "• MBA (FinTech) | BITS Pilani | 2023",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 4277,
+              "end": 4313
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2023",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 4309,
+              "end": 4313
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "BITS Pilani",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 4295,
+              "end": 4306
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "MBA (FinTech",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 4279,
+              "end": 4291
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2023",
+          "is_present": false
+        },
+        "date_label": "2023",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      },
+      {
+        "id": "vd8ba756d3c4d8934",
+        "type": "EDUCATION",
+        "title": "BE (Computer Science)",
+        "org": "",
+        "entry_text": "• BE (Computer Science) | RGPV | 2012 KEY ACHIEVEMENTS • Silver Award (CGI): Recognized for the on-time, high-quality delivery of a critical banking system enhancement that expanded client business footprint.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "• BE (Computer Science) | RGPV | 2012",
+              "block_id": "b60",
+              "kind": "text",
+              "start": 4315,
+              "end": 4352
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2012",
+              "block_id": "b60",
+              "kind": "text",
+              "start": 4348,
+              "end": 4352
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "BE (Computer Science",
+              "block_id": "b60",
+              "kind": "text",
+              "start": 4317,
+              "end": 4337
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2012",
+          "is_present": false
+        },
+        "date_label": "2012",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "360",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "• Client Services Engineering: Handled core software development and production support within the client",
+          "services team for a major Capital Markets platform.",
+          "• Domain Mastery: Gained deep technical and functional knowledge of the end-to-end trade lifecycle, covering",
+          "trade capture, post-trade asset processing, settlement, and reconciliation.",
+          "• Collaborative Delivery: Partnered closely with consulting business analysts and global banking clients to design",
+          "and deploy platform enhancements aligned with regulatory standards."
+        ],
+        "raw_text": "Project: Securities 360",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project: Securities 360",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 3547,
+              "end": 3570
+            },
+            {
+              "page": 1,
+              "text": "• Client Services Engineering: Handled core software development and production support within the client",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 3572,
+              "end": 3677
+            },
+            {
+              "page": 1,
+              "text": "services team for a major Capital Markets platform.",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 3679,
+              "end": 3730
+            },
+            {
+              "page": 1,
+              "text": "• Domain Mastery: Gained deep technical and functional knowledge of the end-to-end trade lifecycle, covering",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 3732,
+              "end": 3840
+            },
+            {
+              "page": 1,
+              "text": "trade capture, post-trade asset processing, settlement, and reconciliation.",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 3842,
+              "end": 3917
+            },
+            {
+              "page": 1,
+              "text": "• Collaborative Delivery: Partnered closely with consulting business analysts and global banking clients to design",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 3919,
+              "end": 4033
+            },
+            {
+              "page": 1,
+              "text": "and deploy platform enhancements aligned with regulatory standards.",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 4035,
+              "end": 4102
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "NO_GAP_DETECTED",
+        "confidence": 0.9,
+        "reasons": [],
+        "evidence": {
+          "note": "no uncovered months between supported entries"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 3,
+      "total_events": 5,
+      "dated_share": 0.6,
+      "unresolved": 2,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 150,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

@@ -1,0 +1,672 @@
+{
+  "file_name": "Gangadhar.docx",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 0,
+    "total_events": 6,
+    "dated_share": 0.0,
+    "unresolved": 6,
+    "ambiguous": 0,
+    "mean_event_confidence": null,
+    "document_accuracy": 0.88
+  },
+  "work_experience": [
+    {
+      "id": "vbf73753d4e236364",
+      "company": "with Datanet Technosolutions Pvt Ltd",
+      "title": "Worked as Power Platform Developer",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    },
+    {
+      "id": "v1d785e5f0319d431",
+      "company": "",
+      "title": "Project #: Albertson",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    },
+    {
+      "id": "v400f293a656eff44",
+      "company": "",
+      "title": "Project #: 3",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    },
+    {
+      "id": "v0d297b41b876aac4",
+      "company": "",
+      "title": "Project #: 2",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    },
+    {
+      "id": "vd1f186928def8e20",
+      "company": "",
+      "title": "Project #: 1",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "Project #: Albertson",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Environment: Power Apps & Power Automate",
+        "Team Size: 8",
+        "Power Platform Developer"
+      ]
+    },
+    {
+      "id": "proj_2",
+      "name": "Project #: 3",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Name: Sempra",
+        "Team Size: 8",
+        "Power Platform Developer."
+      ]
+    },
+    {
+      "id": "proj_3",
+      "name": "Project #: 2",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Name: SCSS and BECR",
+        "Team Size: 8",
+        "Power Platform Developer"
+      ]
+    },
+    {
+      "id": "proj_4",
+      "name": "Project #: 1",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Name: GRC Support",
+        "Team Size: 10",
+        "Sharepoint Developer"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "vcc0efef7e7e6954f",
+      "company": "Completed MCA at Sri Krishnadevaraya University (SKU)",
+      "title": "",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 5,
+  "total_projects": 4,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "Gangadhar",
+    "filename": "Gangadhar.docx",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [],
+    "unresolved_events": [
+      {
+        "id": "vcc0efef7e7e6954f",
+        "type": "EDUCATION",
+        "title": "",
+        "org": "Completed MCA at Sri Krishnadevaraya University (SKU)",
+        "entry_text": "Completed MCA at Sri Krishnadevaraya University (SKU) ,Anantapur.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Completed MCA at Sri Krishnadevaraya University (SKU) ,Anantapur.",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 1419,
+              "end": 1484
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "Completed MCA at Sri Krishnadevaraya University (SKU",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 1419,
+              "end": 1471
+            }
+          ],
+          "title": [],
+          "section": "Education",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Education",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "vbf73753d4e236364",
+        "type": "EMPLOYMENT",
+        "title": "Worked as Power Platform Developer",
+        "org": "with Datanet Technosolutions Pvt Ltd",
+        "entry_text": "Worked as Power Platform Developer  with Datanet Technosolutions Pvt Ltd, from 13-Feb 2020 to 20-Jan- 2022",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Worked as Power Platform Developer  with Datanet Technosolutions Pvt Ltd, from 13-Feb 2020 to 20-Jan- 2022",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 1724,
+              "end": 1830
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Feb 2020",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 1806,
+              "end": 1814
+            },
+            {
+              "page": 1,
+              "text": "Jan- 2022",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 1821,
+              "end": 1830
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "with Datanet Technosolutions Pvt Ltd",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 1760,
+              "end": 1796
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Worked as Power Platform Developer",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 1724,
+              "end": 1758
+            }
+          ],
+          "section": "Professional Experience",
+          "date_label": "Feb 2020 / Jan- 2022",
+          "is_present": false
+        },
+        "date_label": "Feb 2020 / Jan- 2022",
+        "section": "Professional Experience",
+        "status": "AMBIGUOUS"
+      },
+      {
+        "id": "v1d785e5f0319d431",
+        "type": "PROJECT",
+        "title": "Project #: Albertson",
+        "org": "",
+        "entry_text": "Project #: Albertson Environment: Power Apps & Power Automate Team Size: 8 Power Platform Developer",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project #: Albertson",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 2159,
+              "end": 2179
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Project #: Albertson",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 2159,
+              "end": 2179
+            }
+          ],
+          "section": "Project Details:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Project Details:",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v400f293a656eff44",
+        "type": "PROJECT",
+        "title": "Project #: 3",
+        "org": "",
+        "entry_text": "Project #: 3 Name: Sempra Team Size: 8 Power Platform Developer.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project #: 3",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 3235,
+              "end": 3247
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Project #: 3",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 3235,
+              "end": 3247
+            }
+          ],
+          "section": "Project Details:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Project Details:",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v0d297b41b876aac4",
+        "type": "PROJECT",
+        "title": "Project #: 2",
+        "org": "",
+        "entry_text": "Project #: 2 Name: SCSS and BECR Team Size: 8 Power Platform Developer",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project #: 2",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 4280,
+              "end": 4292
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Project #: 2",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 4280,
+              "end": 4292
+            }
+          ],
+          "section": "Project Details:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Project Details:",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "vd1f186928def8e20",
+        "type": "PROJECT",
+        "title": "Project #: 1",
+        "org": "",
+        "entry_text": "Project #: 1 Name: GRC Support Team Size: 10 Sharepoint Developer",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project #: 1",
+              "block_id": "b77",
+              "kind": "text",
+              "start": 5200,
+              "end": 5212
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Project #: 1",
+              "block_id": "b77",
+              "kind": "text",
+              "start": 5200,
+              "end": 5212
+            }
+          ],
+          "section": "Project Details:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Project Details:",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "Project #: Albertson",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Environment: Power Apps & Power Automate",
+          "Team Size: 8",
+          "Power Platform Developer"
+        ],
+        "raw_text": "Project #: Albertson\nEnvironment: Power Apps & Power Automate\nTeam Size: 8\nPower Platform Developer",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project #: Albertson",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 2159,
+              "end": 2179
+            },
+            {
+              "page": 1,
+              "text": "Environment: Power Apps & Power Automate",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 2180,
+              "end": 2220
+            },
+            {
+              "page": 1,
+              "text": "Team Size: 8",
+              "block_id": "b35",
+              "kind": "text",
+              "start": 2221,
+              "end": 2233
+            },
+            {
+              "page": 1,
+              "text": "Power Platform Developer",
+              "block_id": "b36",
+              "kind": "text",
+              "start": 2235,
+              "end": 2259
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "Project #: 3",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Name: Sempra",
+          "Team Size: 8",
+          "Power Platform Developer."
+        ],
+        "raw_text": "Project #: 3\nName: Sempra\nTeam Size: 8\nPower Platform Developer.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project #: 3",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 3235,
+              "end": 3247
+            },
+            {
+              "page": 1,
+              "text": "Name: Sempra",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 3248,
+              "end": 3260
+            },
+            {
+              "page": 1,
+              "text": "Team Size: 8",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 3261,
+              "end": 3273
+            },
+            {
+              "page": 1,
+              "text": "Power Platform Developer.",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 3274,
+              "end": 3299
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_3",
+        "name": "Project #: 2",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Name: SCSS and BECR",
+          "Team Size: 8",
+          "Power Platform Developer"
+        ],
+        "raw_text": "Project #: 2\nName: SCSS and BECR\nTeam Size: 8\nPower Platform Developer",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project #: 2",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 4280,
+              "end": 4292
+            },
+            {
+              "page": 1,
+              "text": "Name: SCSS and BECR",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 4294,
+              "end": 4313
+            },
+            {
+              "page": 1,
+              "text": "Team Size: 8",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 4314,
+              "end": 4326
+            },
+            {
+              "page": 1,
+              "text": "Power Platform Developer",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 4327,
+              "end": 4351
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_4",
+        "name": "Project #: 1",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Name: GRC Support",
+          "Team Size: 10",
+          "Sharepoint Developer"
+        ],
+        "raw_text": "Project #: 1\nName: GRC Support\nTeam Size: 10\nSharepoint Developer",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project #: 1",
+              "block_id": "b77",
+              "kind": "text",
+              "start": 5200,
+              "end": 5212
+            },
+            {
+              "page": 1,
+              "text": "Name: GRC Support",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 5214,
+              "end": 5231
+            },
+            {
+              "page": 1,
+              "text": "Team Size: 10",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 5233,
+              "end": 5246
+            },
+            {
+              "page": 1,
+              "text": "Sharepoint Developer",
+              "block_id": "b80",
+              "kind": "text",
+              "start": 5247,
+              "end": 5267
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "vbf73753d4e236364"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 0,
+      "total_events": 6,
+      "dated_share": 0.0,
+      "unresolved": 6,
+      "ambiguous": 0,
+      "mean_event_confidence": null,
+      "document_accuracy": 0.88
+    },
+    "total_represented_months": 0,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "PARTIAL",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "PARTIAL",
+        "confidence": 0.3
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

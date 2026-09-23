@@ -1,0 +1,411 @@
+{
+  "file_name": "Sunil Jadhav.pdf",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 3,
+    "total_events": 4,
+    "dated_share": 0.75,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.765,
+    "document_accuracy": 0.77
+  },
+  "work_experience": [
+    {
+      "id": "vd566e4ddc8a9ecd6",
+      "company": "Operational Excellence",
+      "title": "Manager",
+      "start_date": "2008-01",
+      "end_date": "2014-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    },
+    {
+      "id": "v7de4df78ea9e0c58",
+      "company": "Process Excellence",
+      "title": "Manager",
+      "start_date": "2014-01",
+      "end_date": "2018-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    },
+    {
+      "id": "v2a386df6126a6b5f",
+      "company": "Quality & Process Excellence",
+      "title": "Manager",
+      "start_date": "2018-01",
+      "end_date": "2025-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "v9e79f0b599b67bcd",
+      "company": "Shivaji University",
+      "title": "Bachelor of Production Engineering",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 3,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "Sunil Jadhav",
+    "filename": "Sunil Jadhav.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "vd566e4ddc8a9ecd6",
+        "type": "EMPLOYMENT",
+        "title": "Manager",
+        "org": "Operational Excellence",
+        "start": "2008-01",
+        "end": "2014-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Manager – Operational Excellence\n2008 – August 2014",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Manager – Operational Excellence",
+              "block_id": "b84",
+              "kind": "text",
+              "start": 4666,
+              "end": 4698
+            },
+            {
+              "page": 1,
+              "text": "2008 – August 2014",
+              "block_id": "b86",
+              "kind": "text",
+              "start": 4731,
+              "end": 4749
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2008 – August 2014",
+              "block_id": "b86",
+              "kind": "text",
+              "start": 4731,
+              "end": 4749
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Operational Excellence",
+              "block_id": "b84",
+              "kind": "text",
+              "start": 4676,
+              "end": 4698
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Manager",
+              "block_id": "b84",
+              "kind": "text",
+              "start": 4666,
+              "end": 4673
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "2008 – August 2014",
+          "is_present": false
+        },
+        "date_label": "2008 – August 2014",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v7de4df78ea9e0c58",
+        "type": "EMPLOYMENT",
+        "title": "Manager",
+        "org": "Process Excellence",
+        "start": "2014-01",
+        "end": "2018-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Manager – Process Excellence\n2014 – May 2018",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Manager – Process Excellence",
+              "block_id": "b71",
+              "kind": "text",
+              "start": 3998,
+              "end": 4026
+            },
+            {
+              "page": 1,
+              "text": "2014 – May 2018",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 4064,
+              "end": 4079
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2014 – May 2018",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 4064,
+              "end": 4079
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Process Excellence",
+              "block_id": "b71",
+              "kind": "text",
+              "start": 4008,
+              "end": 4026
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Manager",
+              "block_id": "b71",
+              "kind": "text",
+              "start": 3998,
+              "end": 4005
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "2014 – May 2018",
+          "is_present": false
+        },
+        "date_label": "2014 – May 2018",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v2a386df6126a6b5f",
+        "type": "EMPLOYMENT",
+        "title": "Manager",
+        "org": "Quality & Process Excellence",
+        "start": "2018-01",
+        "end": "2025-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Manager – Quality & Process Excellence\n2018 – April 2025",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Manager – Quality & Process Excellence",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 2637,
+              "end": 2675
+            },
+            {
+              "page": 1,
+              "text": "2018 – April 2025",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 2703,
+              "end": 2720
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2018 – April 2025",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 2703,
+              "end": 2720
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Quality & Process Excellence",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 2647,
+              "end": 2675
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Manager",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 2637,
+              "end": 2644
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "2018 – April 2025",
+          "is_present": false
+        },
+        "date_label": "2018 – April 2025",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v9e79f0b599b67bcd",
+        "type": "EDUCATION",
+        "title": "Bachelor of Production Engineering",
+        "org": "Shivaji University",
+        "entry_text": "Bachelor of Production Engineering – Shivaji University, Kolhapur",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor of Production Engineering – Shivaji University, Kolhapur",
+              "block_id": "b100",
+              "kind": "text",
+              "start": 5593,
+              "end": 5658
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "Shivaji University",
+              "block_id": "b100",
+              "kind": "text",
+              "start": 5630,
+              "end": 5648
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Production Engineering",
+              "block_id": "b100",
+              "kind": "text",
+              "start": 5593,
+              "end": 5627
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "EDUCATION",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [],
+        "evidence": {
+          "note": "year-only dates need verification"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 3,
+      "total_events": 4,
+      "dated_share": 0.75,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.765,
+      "document_accuracy": 0.77
+    },
+    "total_represented_months": 216,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

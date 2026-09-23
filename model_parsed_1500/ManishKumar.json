@@ -1,0 +1,382 @@
+{
+  "file_name": "ManishKumar.pdf",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 4,
+    "dated_share": 0.5,
+    "unresolved": 2,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.88
+  },
+  "work_experience": [
+    {
+      "id": "v10218fcfb86c11c5",
+      "company": "",
+      "title": "Software Developer Gurugram",
+      "start_date": "2022-02",
+      "end_date": "2022-08",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v0b8edb3bcdb6868f",
+      "company": "Ascent Business Technology",
+      "title": "",
+      "start_date": "2024-01",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v62780e96ce33c847",
+      "company": "",
+      "title": "Software Engineer Noida",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "v38d781a26ad52267",
+      "company": "DIT University",
+      "title": "Bachelor of Technology(B.Tech) in Mechanical Engineering Dehradun",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 3,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "ManishKumar",
+    "filename": "ManishKumar.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "v10218fcfb86c11c5",
+        "type": "EMPLOYMENT",
+        "title": "Software Developer Gurugram",
+        "org": "",
+        "start": "2022-02",
+        "end": "2022-08",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Software Developer Gurugram, Haryana",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Software Developer Gurugram, Haryana",
+              "block_id": "b5",
+              "kind": "text",
+              "start": 209,
+              "end": 245
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Feb 2022 - Aug 2022",
+              "block_id": "b17",
+              "kind": "text",
+              "start": 1248,
+              "end": 1267
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Software Developer Gurugram",
+              "block_id": "b5",
+              "kind": "text",
+              "start": 209,
+              "end": 236
+            }
+          ],
+          "section": "Experience",
+          "date_label": "Feb 2022 - Aug 2022",
+          "is_present": false
+        },
+        "date_label": "Feb 2022 - Aug 2022",
+        "section": "Experience",
+        "is_present": false
+      },
+      {
+        "id": "v0b8edb3bcdb6868f",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Ascent Business Technology",
+        "start": "2024-01",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Ascent Business Technology Jan 2024 - Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Ascent Business Technology Jan 2024 - Present",
+              "block_id": "b4",
+              "kind": "text",
+              "start": 162,
+              "end": 207
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jan 2024 - Present",
+              "block_id": "b4",
+              "kind": "text",
+              "start": 189,
+              "end": 207
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Ascent Business Technology",
+              "block_id": "b4",
+              "kind": "text",
+              "start": 162,
+              "end": 188
+            }
+          ],
+          "title": [],
+          "section": "Experience",
+          "date_label": "Jan 2024 - Present",
+          "is_present": true
+        },
+        "date_label": "Jan 2024 - Present",
+        "section": "Experience",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v62780e96ce33c847",
+        "type": "EMPLOYMENT",
+        "title": "Software Engineer Noida",
+        "org": "",
+        "entry_text": "Software Engineer Noida, UP, India • Built RESTful APIs using Spring Boot for CRUD operations with proper HTTP status codes, exception handling and secured REST APIs with JWT-based authentication",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Software Engineer Noida, UP, India",
+              "block_id": "b18",
+              "kind": "text",
+              "start": 1269,
+              "end": 1303
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Software Engineer Noida",
+              "block_id": "b18",
+              "kind": "text",
+              "start": 1269,
+              "end": 1292
+            }
+          ],
+          "section": "Experience",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Experience",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v38d781a26ad52267",
+        "type": "EDUCATION",
+        "title": "Bachelor of Technology(B.Tech) in Mechanical Engineering Dehradun",
+        "org": "DIT University",
+        "entry_text": "DIT University 2016 - 2020 Bachelor of Technology(B.Tech) in Mechanical Engineering Dehradun, India NIIT StackRoute Institute Oct 2022 - Nov 2023 Full-Stack Software Development",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "DIT University 2016 - 2020",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 1479,
+              "end": 1505
+            },
+            {
+              "page": 1,
+              "text": "Bachelor of Technology(B.Tech) in Mechanical Engineering Dehradun, India",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 1507,
+              "end": 1579
+            },
+            {
+              "page": 1,
+              "text": "NIIT StackRoute Institute Oct 2022 - Nov 2023",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 1583,
+              "end": 1628
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2016 - 2020",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 1494,
+              "end": 1505
+            },
+            {
+              "page": 1,
+              "text": "Oct 2022 - Nov 2023",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 1609,
+              "end": 1628
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "DIT University",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 1479,
+              "end": 1493
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Technology(B.Tech) in Mechanical Engineering Dehradun",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 1507,
+              "end": 1572
+            }
+          ],
+          "section": "Education",
+          "date_label": "2016 - 2020 / Oct 2022 - Nov 2023",
+          "is_present": false
+        },
+        "date_label": "2016 - 2020 / Oct 2022 - Nov 2023",
+        "section": "Education",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "v62780e96ce33c847"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 4,
+      "dated_share": 0.5,
+      "unresolved": 2,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.88
+    },
+    "total_represented_months": 40,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

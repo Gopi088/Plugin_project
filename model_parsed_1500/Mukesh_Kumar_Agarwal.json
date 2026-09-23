@@ -1,0 +1,512 @@
+{
+  "file_name": "Mukesh_Kumar_Agarwal.pdf",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 4,
+    "total_events": 6,
+    "dated_share": 0.667,
+    "unresolved": 2,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.765,
+    "document_accuracy": 0.73
+  },
+  "work_experience": [
+    {
+      "id": "v4f0acdb3fe19018d",
+      "company": "",
+      "title": "Analyst II",
+      "start_date": "2018-01",
+      "end_date": "2020-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    },
+    {
+      "id": "v8e35fe4f2551d2cd",
+      "company": "Northern Trust",
+      "title": "",
+      "start_date": "2021-01",
+      "end_date": "2023-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    },
+    {
+      "id": "vc0f75d3744a9842a",
+      "company": "",
+      "title": "Specialist II",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    },
+    {
+      "id": "vd091f0b2abcbaac0",
+      "company": "",
+      "title": "Compliance Analyst",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "v579103ac19a7672d",
+      "company": "",
+      "title": "Score: 9.8 CGPA",
+      "start_date": "2011-01",
+      "end_date": "2013-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    },
+    {
+      "id": "vd4838b8df74ef3fe",
+      "company": "St. Xavier's College",
+      "title": "Bachelor of Business Administration (Finance)",
+      "start_date": "2015-01",
+      "end_date": "2018-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 4,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "Mukesh_Kumar_Agarwal",
+    "filename": "Mukesh_Kumar_Agarwal.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "v579103ac19a7672d",
+        "type": "EDUCATION",
+        "title": "Score: 9.8 CGPA",
+        "org": "",
+        "start": "2011-01",
+        "end": "2013-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "Score: 9.8 CGPA\n2011 – 2013",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Score: 9.8 CGPA",
+              "block_id": "b121",
+              "kind": "text",
+              "start": 10264,
+              "end": 10279
+            },
+            {
+              "page": 1,
+              "text": "2011 – 2013",
+              "block_id": "b122",
+              "kind": "text",
+              "start": 10281,
+              "end": 10292
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2011 – 2013",
+              "block_id": "b122",
+              "kind": "text",
+              "start": 10281,
+              "end": 10292
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Score: 9.8 CGPA",
+              "block_id": "b121",
+              "kind": "text",
+              "start": 10264,
+              "end": 10279
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2011 – 2013",
+          "is_present": false
+        },
+        "date_label": "2011 – 2013",
+        "section": "EDUCATION",
+        "is_present": false
+      },
+      {
+        "id": "vd4838b8df74ef3fe",
+        "type": "EDUCATION",
+        "title": "Bachelor of Business Administration (Finance)",
+        "org": "St. Xavier's College",
+        "start": "2015-01",
+        "end": "2018-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "Bachelor of Business Administration (Finance) — St. Xavier's College, Ranchi\n2015 – 2018\nIntermediate (Class XII) — Delhi Public School, Ranchi",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor of Business Administration (Finance) — St. Xavier's College, Ranchi",
+              "block_id": "b114",
+              "kind": "text",
+              "start": 10019,
+              "end": 10095
+            },
+            {
+              "page": 1,
+              "text": "2015 – 2018",
+              "block_id": "b116",
+              "kind": "text",
+              "start": 10112,
+              "end": 10123
+            },
+            {
+              "page": 1,
+              "text": "Intermediate (Class XII) — Delhi Public School, Ranchi",
+              "block_id": "b117",
+              "kind": "text",
+              "start": 10125,
+              "end": 10179
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2015 – 2018",
+              "block_id": "b116",
+              "kind": "text",
+              "start": 10112,
+              "end": 10123
+            },
+            {
+              "page": 1,
+              "text": "2013 – 2015",
+              "block_id": "b119",
+              "kind": "text",
+              "start": 10196,
+              "end": 10207
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "St. Xavier's College",
+              "block_id": "b114",
+              "kind": "text",
+              "start": 10067,
+              "end": 10087
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Business Administration (Finance",
+              "block_id": "b114",
+              "kind": "text",
+              "start": 10019,
+              "end": 10063
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2015 – 2018",
+          "is_present": false
+        },
+        "date_label": "2015 – 2018",
+        "section": "EDUCATION",
+        "is_present": false
+      },
+      {
+        "id": "v4f0acdb3fe19018d",
+        "type": "EMPLOYMENT",
+        "title": "Analyst II",
+        "org": "",
+        "start": "2018-01",
+        "end": "2020-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Analyst II – Custody & Cash Operations | Pune, India",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Analyst II – Custody & Cash Operations | Pune, India",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 6690,
+              "end": 6742
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2018 – 2020",
+              "block_id": "b86",
+              "kind": "text",
+              "start": 8097,
+              "end": 8108
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Analyst II",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 6690,
+              "end": 6700
+            }
+          ],
+          "section": "BNY (Bank of New York) 2023 – Present",
+          "date_label": "2018 – 2020",
+          "is_present": false
+        },
+        "date_label": "2018 – 2020",
+        "section": "BNY (Bank of New York) 2023 – Present",
+        "is_present": false
+      },
+      {
+        "id": "v8e35fe4f2551d2cd",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Northern Trust",
+        "start": "2021-01",
+        "end": "2023-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Northern Trust 2021 – 2023",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Northern Trust 2021 – 2023",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 6662,
+              "end": 6688
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2021 – 2023",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 6677,
+              "end": 6688
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Northern Trust",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 6662,
+              "end": 6676
+            }
+          ],
+          "title": [],
+          "section": "BNY (Bank of New York) 2023 – Present",
+          "date_label": "2021 – 2023",
+          "is_present": false
+        },
+        "date_label": "2021 – 2023",
+        "section": "BNY (Bank of New York) 2023 – Present",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "vc0f75d3744a9842a",
+        "type": "EMPLOYMENT",
+        "title": "Specialist II",
+        "org": "",
+        "entry_text": "Specialist II – Fund Oversight & Depositary Compliance | Pune, India • Led the end-to-end operational transition of Trustee and Depositary Business from Ireland & UK to Pune, enabling seamless continuity of serv ice for global institutional clients — recognised with VIP Award by BNY Management. • En",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Specialist II – Fund Oversight & Depositary Compliance | Pune, India",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 2530,
+              "end": 2598
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Specialist II",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 2530,
+              "end": 2543
+            }
+          ],
+          "section": "BNY (Bank of New York) 2023 – Present",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "BNY (Bank of New York) 2023 – Present",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "vd091f0b2abcbaac0",
+        "type": "EMPLOYMENT",
+        "title": "Compliance Analyst",
+        "org": "",
+        "entry_text": "Compliance Analyst – Mukhyamantri Jan Samvad Kendra (State Grievance Redressal Project) • Served as Compliance Analyst for Planning  Cum Finance and Urban Development Departments,  reviewing grievance nature and ATR submissions from nodal officers. • Prepared daily  reports on grievance registration",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Compliance Analyst – Mukhyamantri Jan Samvad Kendra (State Grievance Redressal Project)",
+              "block_id": "b87",
+              "kind": "text",
+              "start": 8110,
+              "end": 8197
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Compliance Analyst",
+              "block_id": "b87",
+              "kind": "text",
+              "start": 8110,
+              "end": 8128
+            }
+          ],
+          "section": "BNY (Bank of New York) 2023 – Present",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "BNY (Bank of New York) 2023 – Present",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "vc0f75d3744a9842a",
+            "vd091f0b2abcbaac0"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 4,
+      "total_events": 6,
+      "dated_share": 0.667,
+      "unresolved": 2,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.765,
+      "document_accuracy": 0.73
+    },
+    "total_represented_months": 144,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

@@ -1,0 +1,350 @@
+{
+  "file_name": "NagaSwethaKata.pdf",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 3,
+    "dated_share": 0.667,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.833,
+    "document_accuracy": 0.8
+  },
+  "work_experience": [
+    {
+      "id": "v001bed6d46833b4f",
+      "company": "HCL Technologies",
+      "title": "Associate Project Manager",
+      "start_date": "2007-08",
+      "end_date": "2018-08",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v7b47777f8a5b7b1a",
+      "company": "digital banking initiatives",
+      "title": "Transformation leader delivering AML modernization",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "v37d4bb3b0b78ac0a",
+      "company": "Indian Institute of Management Bangalore",
+      "title": ": PG Diploma in AI & ML",
+      "start_date": "2020-01",
+      "end_date": "2021-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 2,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "NagaSwethaKata",
+    "filename": "NagaSwethaKata.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "v001bed6d46833b4f",
+        "type": "EMPLOYMENT",
+        "title": "Associate Project Manager",
+        "org": "HCL Technologies",
+        "start": "2007-08",
+        "end": "2018-08",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "HCL Technologies | Associate Project Manager\nAugust 2007 – August 2018",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "HCL Technologies | Associate Project Manager",
+              "block_id": "b150",
+              "kind": "text",
+              "start": 10959,
+              "end": 11003
+            },
+            {
+              "page": 1,
+              "text": "August 2007 – August 2018",
+              "block_id": "b151",
+              "kind": "text",
+              "start": 11005,
+              "end": 11030
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "August 2007 – August 2018",
+              "block_id": "b151",
+              "kind": "text",
+              "start": 11005,
+              "end": 11030
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "HCL Technologies",
+              "block_id": "b150",
+              "kind": "text",
+              "start": 10959,
+              "end": 10975
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Associate Project Manager",
+              "block_id": "b150",
+              "kind": "text",
+              "start": 10978,
+              "end": 11003
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "August 2007 – August 2018",
+          "is_present": false
+        },
+        "date_label": "August 2007 – August 2018",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v37d4bb3b0b78ac0a",
+        "type": "EDUCATION",
+        "title": ": PG Diploma in AI & ML",
+        "org": "Indian Institute of Management Bangalore",
+        "start": "2020-01",
+        "end": "2021-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "Batch) | Indian Institute of Management Bangalore\n2020 – 2021: PG Diploma in AI & ML | International Institute of\n2007: B.E. – Information Science | VTU",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Batch) | Indian Institute of Management Bangalore",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 3016,
+              "end": 3065
+            },
+            {
+              "page": 1,
+              "text": "2020 – 2021: PG Diploma in AI & ML | International Institute of",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 3067,
+              "end": 3130
+            },
+            {
+              "page": 1,
+              "text": "2007: B.E. – Information Science | VTU",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 3166,
+              "end": 3204
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2020 – 2021",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 3067,
+              "end": 3078
+            },
+            {
+              "page": 1,
+              "text": "2007",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 3166,
+              "end": 3170
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Indian Institute of Management Bangalore",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 3025,
+              "end": 3065
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "PG Diploma in AI & ML",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 3080,
+              "end": 3101
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2020 – 2021",
+          "is_present": false
+        },
+        "date_label": "2020 – 2021",
+        "section": "EDUCATION",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v7b47777f8a5b7b1a",
+        "type": "EMPLOYMENT",
+        "title": "Transformation leader delivering AML modernization",
+        "org": "digital banking initiatives",
+        "entry_text": "Transformation leader delivering AML modernization, cost optimization, digital banking initiatives, and enterprise data strat egy across global banking platforms. ❖ Delivered end -to-end AML transaction monitoring enhancements, reducing false positives and improving investigative efficiency, contrib",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Transformation leader delivering AML modernization, cost optimization, digital banking initiatives, and enterprise data strat egy across global",
+              "block_id": "b107",
+              "kind": "text",
+              "start": 6971,
+              "end": 7114
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "digital banking initiatives",
+              "block_id": "b107",
+              "kind": "text",
+              "start": 7042,
+              "end": 7069
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Transformation leader delivering AML modernization",
+              "block_id": "b107",
+              "kind": "text",
+              "start": 6971,
+              "end": 7021
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "WORK EXPERIENCE",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "v7b47777f8a5b7b1a"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 3,
+      "dated_share": 0.667,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.833,
+      "document_accuracy": 0.8
+    },
+    "total_represented_months": 157,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

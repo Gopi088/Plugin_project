@@ -1,0 +1,402 @@
+{
+  "file_name": "AkshayNaik.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 4,
+    "total_events": 4,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v5d0eacbf10c531df",
+      "company": "Capital Markets",
+      "title": "Financial Analyst (Barclays)",
+      "start_date": "2012-10",
+      "end_date": "2015-01",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "va64e79f713e83d60",
+      "company": "Asset Finance",
+      "title": "Deputy Manager",
+      "start_date": "2015-02",
+      "end_date": "2016-02",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "ve003fe5bf3d59f1c",
+      "company": "Supply Chain Finance",
+      "title": "Business Analyst (Operations Manager)",
+      "start_date": "2016-03",
+      "end_date": "2022-11",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vcbd3356a50baf7b8",
+      "company": "Risk Finance & Treasury",
+      "title": "Senior Business Analyst",
+      "start_date": "2022-12",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [],
+  "gaps": [],
+  "total_work_experience": 4,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "AkshayNaik",
+    "filename": "AkshayNaik.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v5d0eacbf10c531df",
+        "type": "EMPLOYMENT",
+        "title": "Financial Analyst (Barclays)",
+        "org": "Capital Markets",
+        "start": "2012-10",
+        "end": "2015-01",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Financial Analyst (Barclays) - Capital Markets Oct 2012 – Jan 2015",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Financial Analyst (Barclays) - Capital Markets Oct 2012 – Jan 2015",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 5427,
+              "end": 5493
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Oct 2012 – Jan 2015",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 5474,
+              "end": 5493
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Capital Markets",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 5458,
+              "end": 5473
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Financial Analyst (Barclays",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 5427,
+              "end": 5454
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Oct 2012 – Jan 2015",
+          "is_present": false
+        },
+        "date_label": "Oct 2012 – Jan 2015",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "va64e79f713e83d60",
+        "type": "EMPLOYMENT",
+        "title": "Deputy Manager",
+        "org": "Asset Finance",
+        "start": "2015-02",
+        "end": "2016-02",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Deputy Manager – Asset Finance Feb 2015 – Feb 2016",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Deputy Manager – Asset Finance Feb 2015 – Feb 2016",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 4905,
+              "end": 4955
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Feb 2015 – Feb 2016",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 4936,
+              "end": 4955
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Asset Finance",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 4922,
+              "end": 4935
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Deputy Manager",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 4905,
+              "end": 4919
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Feb 2015 – Feb 2016",
+          "is_present": false
+        },
+        "date_label": "Feb 2015 – Feb 2016",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "ve003fe5bf3d59f1c",
+        "type": "EMPLOYMENT",
+        "title": "Business Analyst (Operations Manager)",
+        "org": "Supply Chain Finance",
+        "start": "2016-03",
+        "end": "2022-11",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Business Analyst (Operations Manager) – Supply Chain Finance Mar-2016 – Nov-2022",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Business Analyst (Operations Manager) – Supply Chain Finance Mar-2016 – Nov-2022",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 3744,
+              "end": 3824
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Mar-2016 – Nov-2022",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 3805,
+              "end": 3824
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Supply Chain Finance",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 3784,
+              "end": 3804
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Business Analyst (Operations Manager",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 3744,
+              "end": 3780
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Mar-2016 – Nov-2022",
+          "is_present": false
+        },
+        "date_label": "Mar-2016 – Nov-2022",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vcbd3356a50baf7b8",
+        "type": "EMPLOYMENT",
+        "title": "Senior Business Analyst",
+        "org": "Risk Finance & Treasury",
+        "start": "2022-12",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Senior Business Analyst – Risk Finance & Treasury Dec-2022 - Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Business Analyst – Risk Finance & Treasury Dec-2022 - Present",
+              "block_id": "b30",
+              "kind": "text",
+              "start": 2012,
+              "end": 2080
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Dec-2022 - Present",
+              "block_id": "b30",
+              "kind": "text",
+              "start": 2062,
+              "end": 2080
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Risk Finance & Treasury",
+              "block_id": "b30",
+              "kind": "text",
+              "start": 2038,
+              "end": 2061
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Business Analyst",
+              "block_id": "b30",
+              "kind": "text",
+              "start": 2012,
+              "end": 2035
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Dec-2022 - Present",
+          "is_present": true
+        },
+        "date_label": "Dec-2022 - Present",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "NO_GAP_DETECTED",
+        "confidence": 0.9,
+        "reasons": [],
+        "evidence": {
+          "note": "no uncovered months between supported entries"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 4,
+      "total_events": 4,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 168,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

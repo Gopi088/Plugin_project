@@ -1,0 +1,867 @@
+{
+  "file_name": "Dipali Kothawade.pdf",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 4,
+    "dated_share": 0.25,
+    "unresolved": 3,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "vbb35b1c2b9105e8e",
+      "company": "/ Power Apps Developer in Quation Solutions",
+      "title": "Worked as Business Consultant",
+      "start_date": "2022-02",
+      "end_date": "2024-07",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vd35517850f041215",
+      "company": "",
+      "title": "Project 1:",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    },
+    {
+      "id": "v149c067841c4019a",
+      "company": "",
+      "title": "Project 2:",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "Project 1:",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "• Project Name  :  Microsoft Teams Chatbot for Employee Support",
+        "• Client   :  Dell",
+        "• Technology/Tools  :  Copilot Studio, Microsoft Teams Integration, Power Automate, Dataverse, Outlook Connector,",
+        "SharePoint Online, AI Builder (Intent & Entity Handling), Power Fx",
+        "• Role   :  Power Automate/Apps Developer",
+        "Responsibilities:",
+        "• Designed and developed an AI-powered conversational chatbot using Copilot Studio, tailored for internal",
+        "employee support use cases."
+      ]
+    },
+    {
+      "id": "proj_2",
+      "name": "Project 2:",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "• Project Name                   :  Email Summarization & Automation Solution",
+        "• Client                    :  Sappe",
+        "• Technology/Tools :  Copilot Studio, Microsoft Teams Integration, Power Automate, Dataverse,",
+        "Outlook Connector, SharePoint Online, AI Builder (Intent & Entity Handling), Power Fx",
+        "• Role   :  Power App/Automate Developer",
+        "Responsibilities:",
+        "• Designed and developed Power Automate automated flows triggered by incoming Outlook emails based on",
+        "specific conditions (sender, subject, keywords, priority)."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "v33130ca2f5bb2716",
+      "company": "Savitribai Phule Pune University in",
+      "title": "Bachelor of Science (Physics)",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 3,
+  "total_projects": 2,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "Dipali Kothawade",
+    "filename": "Dipali Kothawade.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "vbb35b1c2b9105e8e",
+        "type": "EMPLOYMENT",
+        "title": "Worked as Business Consultant",
+        "org": "/ Power Apps Developer in Quation Solutions",
+        "start": "2022-02",
+        "end": "2024-07",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "• Worked as Business Consultant / Power Apps Developer in Quation Solutions from Feb 2022– Jul 2024",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "• Worked as Business Consultant / Power Apps Developer in Quation Solutions from Feb 2022– Jul 2024",
+              "block_id": "b45",
+              "kind": "text",
+              "start": 3317,
+              "end": 3416
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Feb 2022– Jul 2024",
+              "block_id": "b45",
+              "kind": "text",
+              "start": 3398,
+              "end": 3416
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Power Apps Developer in Quation Solutions",
+              "block_id": "b45",
+              "kind": "text",
+              "start": 3351,
+              "end": 3392
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Worked as Business Consultant",
+              "block_id": "b45",
+              "kind": "text",
+              "start": 3319,
+              "end": 3348
+            }
+          ],
+          "section": "EXPERIENCE SUMMARY:",
+          "date_label": "Feb 2022– Jul 2024",
+          "is_present": false
+        },
+        "date_label": "Feb 2022– Jul 2024",
+        "section": "EXPERIENCE SUMMARY:",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v33130ca2f5bb2716",
+        "type": "EDUCATION",
+        "title": "Bachelor of Science (Physics)",
+        "org": "Savitribai Phule Pune University in",
+        "entry_text": "• Bachelor of Science (Physics) — Savitribai Phule Pune University in 2018",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "• Bachelor of Science (Physics) — Savitribai Phule Pune University in 2018",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 3580,
+              "end": 3654
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2018",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 3650,
+              "end": 3654
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Savitribai Phule Pune University in",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 3614,
+              "end": 3649
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Science (Physics",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 3582,
+              "end": 3610
+            }
+          ],
+          "section": "EDUCATION:",
+          "date_label": "2018",
+          "is_present": false
+        },
+        "date_label": "2018",
+        "section": "EDUCATION:",
+        "status": "AMBIGUOUS"
+      },
+      {
+        "id": "vd35517850f041215",
+        "type": "PROJECT",
+        "title": "Project 1:",
+        "org": "",
+        "entry_text": "Project 1: • Project Name  :  Microsoft Teams Chatbot for Employee Support • Client   :  Dell • Technology/Tools  :  Copilot Studio, Microsoft Teams Integration, Power Automate, Dataverse, Outlook Connector, SharePoint Online, AI Builder (Intent & Entity Handling), Power Fx • Role   :  Power Automat",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project 1:",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 3678,
+              "end": 3688
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Project 1",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 3678,
+              "end": 3687
+            }
+          ],
+          "section": "PROJECT SUMMARY:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROJECT SUMMARY:",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v149c067841c4019a",
+        "type": "PROJECT",
+        "title": "Project 2:",
+        "org": "",
+        "entry_text": "Project 2: • Project Name                   :  Email Summarization & Automation Solution • Client                    :  Sappe • Technology/Tools :  Copilot Studio, Microsoft Teams Integration, Power Automate, Dataverse, Outlook Connector, SharePoint Online, AI Builder (Intent & Entity Handling), Pow",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project 2:",
+              "block_id": "b80",
+              "kind": "text",
+              "start": 5607,
+              "end": 5617
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Project 2",
+              "block_id": "b80",
+              "kind": "text",
+              "start": 5607,
+              "end": 5616
+            }
+          ],
+          "section": "PROJECT SUMMARY:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROJECT SUMMARY:",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "Project 1:",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "• Project Name  :  Microsoft Teams Chatbot for Employee Support",
+          "• Client   :  Dell",
+          "• Technology/Tools  :  Copilot Studio, Microsoft Teams Integration, Power Automate, Dataverse, Outlook Connector,",
+          "SharePoint Online, AI Builder (Intent & Entity Handling), Power Fx",
+          "• Role   :  Power Automate/Apps Developer",
+          "Responsibilities:",
+          "• Designed and developed an AI-powered conversational chatbot using Copilot Studio, tailored for internal",
+          "employee support use cases."
+        ],
+        "raw_text": "Project 1:\n• Project Name  :  Microsoft Teams Chatbot for Employee Support\n• Client   :  Dell\n• Technology/Tools  :  Copilot Studio, Microsoft Teams Integration, Power Automate, Dataverse, Outlook Connector,\nSharePoint Online, AI Builder (Intent & Entity Handling), Power Fx\n• Role   :  Power Automate/Apps Developer\nResponsibilities:\n• Designed and developed an AI-powered conversational chatbot using Copilot Studio, tailored for internal\nemployee support use cases.\n• Deployed and configured the chatbot within Microsoft Teams, enabling seamless access through employee\nworkspaces.\n• Created inten",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project 1:",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 3678,
+              "end": 3688
+            },
+            {
+              "page": 1,
+              "text": "• Project Name  :  Microsoft Teams Chatbot for Employee Support",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 3691,
+              "end": 3754
+            },
+            {
+              "page": 1,
+              "text": "• Client   :  Dell",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 3756,
+              "end": 3774
+            },
+            {
+              "page": 1,
+              "text": "• Technology/Tools  :  Copilot Studio, Microsoft Teams Integration, Power Automate, Dataverse, Outlook Connector,",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 3776,
+              "end": 3889
+            },
+            {
+              "page": 1,
+              "text": "SharePoint Online, AI Builder (Intent & Entity Handling), Power Fx",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 3936,
+              "end": 4002
+            },
+            {
+              "page": 1,
+              "text": "• Role   :  Power Automate/Apps Developer",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 4004,
+              "end": 4045
+            },
+            {
+              "page": 1,
+              "text": "Responsibilities:",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 4049,
+              "end": 4066
+            },
+            {
+              "page": 1,
+              "text": "• Designed and developed an AI-powered conversational chatbot using Copilot Studio, tailored for internal",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 4068,
+              "end": 4173
+            },
+            {
+              "page": 1,
+              "text": "employee support use cases.",
+              "block_id": "b60",
+              "kind": "text",
+              "start": 4175,
+              "end": 4202
+            },
+            {
+              "page": 1,
+              "text": "• Deployed and configured the chatbot within Microsoft Teams, enabling seamless access through employee",
+              "block_id": "b61",
+              "kind": "text",
+              "start": 4204,
+              "end": 4307
+            },
+            {
+              "page": 1,
+              "text": "workspaces.",
+              "block_id": "b62",
+              "kind": "text",
+              "start": 4309,
+              "end": 4320
+            },
+            {
+              "page": 1,
+              "text": "• Created intents, topics, entities, and conversation flows to handle common employee queries such as",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 4322,
+              "end": 4423
+            },
+            {
+              "page": 1,
+              "text": "requests, approvals, and status tracking.",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 4425,
+              "end": 4466
+            },
+            {
+              "page": 1,
+              "text": "• Integrated the chatbot with Power Automate workflows to trigger backend business processes and approval",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 4468,
+              "end": 4573
+            },
+            {
+              "page": 1,
+              "text": "mechanisms.",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 4575,
+              "end": 4586
+            },
+            {
+              "page": 1,
+              "text": "• Implemented adaptive cards in Microsoft Teams for rich user interactions, request submissions, and real-",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 4588,
+              "end": 4694
+            },
+            {
+              "page": 1,
+              "text": "time status updates.",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 4695,
+              "end": 4715
+            },
+            {
+              "page": 1,
+              "text": "• Built Power Automate approval flows to route employee requests to respective approvers and notify users",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 4717,
+              "end": 4822
+            },
+            {
+              "page": 1,
+              "text": "upon completion.",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 4824,
+              "end": 4840
+            },
+            {
+              "page": 1,
+              "text": "• Connected chatbot workflows with Dataverse and SharePoint Online for secure data storage and retrieval.",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 4842,
+              "end": 4947
+            },
+            {
+              "page": 1,
+              "text": "• Configured Outlook email notifications and Teams alerts to keep stakeholders informed throughout the",
+              "block_id": "b71",
+              "kind": "text",
+              "start": 4949,
+              "end": 5051
+            },
+            {
+              "page": 1,
+              "text": "process lifecycle.",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 5053,
+              "end": 5071
+            },
+            {
+              "page": 1,
+              "text": "• Applied AI capabilities to improve intent recognition and enhance chatbot response accuracy.",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 5073,
+              "end": 5167
+            },
+            {
+              "page": 1,
+              "text": "• Implemented role-based access and user context handling using Teams authentication.",
+              "block_id": "b74",
+              "kind": "text",
+              "start": 5169,
+              "end": 5254
+            },
+            {
+              "page": 1,
+              "text": "• Performed unit testing, UAT support, and production deployment, ensuring reliability and performance.",
+              "block_id": "b75",
+              "kind": "text",
+              "start": 5256,
+              "end": 5359
+            },
+            {
+              "page": 1,
+              "text": "• Collaborated with business stakeholders to gather requirements and continuously enhance chatbot",
+              "block_id": "b76",
+              "kind": "text",
+              "start": 5361,
+              "end": 5458
+            },
+            {
+              "page": 1,
+              "text": "capabilities.",
+              "block_id": "b77",
+              "kind": "text",
+              "start": 5460,
+              "end": 5473
+            },
+            {
+              "page": 1,
+              "text": "• Reduced manual support effort by automating repetitive queries and improved response turnaround time",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 5475,
+              "end": 5577
+            },
+            {
+              "page": 1,
+              "text": "significantly.",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 5579,
+              "end": 5593
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "Project 2:",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "• Project Name                   :  Email Summarization & Automation Solution",
+          "• Client                    :  Sappe",
+          "• Technology/Tools :  Copilot Studio, Microsoft Teams Integration, Power Automate, Dataverse,",
+          "Outlook Connector, SharePoint Online, AI Builder (Intent & Entity Handling), Power Fx",
+          "• Role   :  Power App/Automate Developer",
+          "Responsibilities:",
+          "• Designed and developed Power Automate automated flows triggered by incoming Outlook emails based on",
+          "specific conditions (sender, subject, keywords, priority)."
+        ],
+        "raw_text": "Project 2:\n• Project Name                   :  Email Summarization & Automation Solution\n• Client                    :  Sappe\n• Technology/Tools :  Copilot Studio, Microsoft Teams Integration, Power Automate, Dataverse,\nOutlook Connector, SharePoint Online, AI Builder (Intent & Entity Handling), Power Fx\n• Role   :  Power App/Automate Developer\nResponsibilities:\n• Designed and developed Power Automate automated flows triggered by incoming Outlook emails based on\nspecific conditions (sender, subject, keywords, priority).\n• Integrated AI Builder and Copilot AI capabilities to summarize email con",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project 2:",
+              "block_id": "b80",
+              "kind": "text",
+              "start": 5607,
+              "end": 5617
+            },
+            {
+              "page": 1,
+              "text": "• Project Name                   :  Email Summarization & Automation Solution",
+              "block_id": "b81",
+              "kind": "text",
+              "start": 5620,
+              "end": 5697
+            },
+            {
+              "page": 1,
+              "text": "• Client                    :  Sappe",
+              "block_id": "b82",
+              "kind": "text",
+              "start": 5699,
+              "end": 5735
+            },
+            {
+              "page": 1,
+              "text": "• Technology/Tools :  Copilot Studio, Microsoft Teams Integration, Power Automate, Dataverse,",
+              "block_id": "b83",
+              "kind": "text",
+              "start": 5737,
+              "end": 5830
+            },
+            {
+              "page": 1,
+              "text": "Outlook Connector, SharePoint Online, AI Builder (Intent & Entity Handling), Power Fx",
+              "block_id": "b84",
+              "kind": "text",
+              "start": 5892,
+              "end": 5977
+            },
+            {
+              "page": 1,
+              "text": "• Role   :  Power App/Automate Developer",
+              "block_id": "b85",
+              "kind": "text",
+              "start": 5979,
+              "end": 6019
+            },
+            {
+              "page": 1,
+              "text": "Responsibilities:",
+              "block_id": "b86",
+              "kind": "text",
+              "start": 6023,
+              "end": 6040
+            },
+            {
+              "page": 1,
+              "text": "• Designed and developed Power Automate automated flows triggered by incoming Outlook emails based on",
+              "block_id": "b87",
+              "kind": "text",
+              "start": 6042,
+              "end": 6143
+            },
+            {
+              "page": 1,
+              "text": "specific conditions (sender, subject, keywords, priority).",
+              "block_id": "b88",
+              "kind": "text",
+              "start": 6145,
+              "end": 6203
+            },
+            {
+              "page": 1,
+              "text": "• Integrated AI Builder and Copilot AI capabilities to summarize email content, extract key points, and",
+              "block_id": "b89",
+              "kind": "text",
+              "start": 6205,
+              "end": 6308
+            },
+            {
+              "page": 1,
+              "text": "identify intent or request type.",
+              "block_id": "b90",
+              "kind": "text",
+              "start": 6310,
+              "end": 6342
+            },
+            {
+              "page": 1,
+              "text": "• Implemented email classification logic to route requests to appropriate Teams channels or stakeholders.",
+              "block_id": "b91",
+              "kind": "text",
+              "start": 6344,
+              "end": 6449
+            },
+            {
+              "page": 1,
+              "text": "• Built Teams notifications and adaptive cards to post summarized email insights for faster review and",
+              "block_id": "b92",
+              "kind": "text",
+              "start": 6451,
+              "end": 6553
+            },
+            {
+              "page": 1,
+              "text": "decision-making.",
+              "block_id": "b93",
+              "kind": "text",
+              "start": 6555,
+              "end": 6571
+            },
+            {
+              "page": 1,
+              "text": "• Automated creation of tasks, approvals, or follow-up actions based on extracted email information.",
+              "block_id": "b94",
+              "kind": "text",
+              "start": 6573,
+              "end": 6673
+            },
+            {
+              "page": 1,
+              "text": "• Stored summarized data and metadata in Dataverse / SharePoint Online for tracking, auditing, and",
+              "block_id": "b95",
+              "kind": "text",
+              "start": 6675,
+              "end": 6773
+            },
+            {
+              "page": 1,
+              "text": "reporting.",
+              "block_id": "b96",
+              "kind": "text",
+              "start": 6775,
+              "end": 6785
+            },
+            {
+              "page": 1,
+              "text": "• Configured exception handling, retries, and logging mechanisms to ensure reliable automation.",
+              "block_id": "b97",
+              "kind": "text",
+              "start": 6787,
+              "end": 6882
+            },
+            {
+              "page": 1,
+              "text": "• Optimized flow performance by reducing unnecessary actions and implementing parallel branches where",
+              "block_id": "b98",
+              "kind": "text",
+              "start": 6884,
+              "end": 6985
+            },
+            {
+              "page": 1,
+              "text": "applicable.",
+              "block_id": "b99",
+              "kind": "text",
+              "start": 6987,
+              "end": 6998
+            },
+            {
+              "page": 1,
+              "text": "• Collaborated with business users to fine-tune summarization rules and improve accuracy.",
+              "block_id": "b100",
+              "kind": "text",
+              "start": 7000,
+              "end": 7089
+            },
+            {
+              "page": 1,
+              "text": "• Conducted testing, UAT support, deployment, and post-production monitoring of automation workflows.",
+              "block_id": "b101",
+              "kind": "text",
+              "start": 7091,
+              "end": 7192
+            },
+            {
+              "page": 1,
+              "text": "• Ensured data security and compliance while handling email content and user information.",
+              "block_id": "b102",
+              "kind": "text",
+              "start": 7194,
+              "end": 7283
+            },
+            {
+              "page": 1,
+              "text": "• Significantly reduced manual effort required to read and process high-volume emails.",
+              "block_id": "b103",
+              "kind": "text",
+              "start": 7285,
+              "end": 7371
+            },
+            {
+              "page": 1,
+              "text": "• Improved response time by delivering actionable summaries directly to Microsoft Teams.",
+              "block_id": "b104",
+              "kind": "text",
+              "start": 7373,
+              "end": 7461
+            },
+            {
+              "page": 1,
+              "text": "• Enhanced operational efficiency through AI-driven email processing and automation.",
+              "block_id": "b105",
+              "kind": "text",
+              "start": 7463,
+              "end": 7547
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 4,
+      "dated_share": 0.25,
+      "unresolved": 3,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 30,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

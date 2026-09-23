@@ -1,0 +1,741 @@
+{
+  "file_name": "Pankaj_Amilkanthwar.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 7,
+    "total_events": 7,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.881,
+    "document_accuracy": 0.88
+  },
+  "work_experience": [
+    {
+      "id": "v9d1542063378db46",
+      "company": "Accounts & Liquidity Officer",
+      "title": "",
+      "start_date": "2009-12",
+      "end_date": "2012-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v3fe36b21fffd0a7c",
+      "company": "Core Trade Settlements & Confirmations",
+      "title": "Senior Analyst",
+      "start_date": "2013-01",
+      "end_date": "2014-11",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vbb57b3bfcb1e581f",
+      "company": "FX & Options",
+      "title": "Senior Analyst",
+      "start_date": "2015-02",
+      "end_date": "2017-06",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v96d85d70fc9eb5bf",
+      "company": "Trade Settlements (Fixed Income",
+      "title": "Team Leader",
+      "start_date": "2017-06",
+      "end_date": "2022-07",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vd60f2243dda32b8e",
+      "company": "Middle Office (Equity & Fixed Income",
+      "title": "Deputy Manager",
+      "start_date": "2022-07",
+      "end_date": "2023-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v4de32709e7bf1b40",
+      "company": "Middle Office (Derivatives Operations & Change",
+      "title": "Manager",
+      "start_date": "2024-01",
+      "end_date": "2026-06",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "v3beeebda9ff0d0d3",
+      "company": "MITCON Institute of Management",
+      "title": "MBA in Finance",
+      "start_date": "2008-01",
+      "end_date": "2010-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    }
+  ],
+  "gaps": [
+    {
+      "id": "g844d7fe24140ca1e",
+      "start": "2014-12",
+      "end": "2015-01",
+      "months": 2,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    }
+  ],
+  "total_work_experience": 6,
+  "total_projects": 0,
+  "total_gaps": 1,
+  "raw_pipeline_dto": {
+    "doc_id": "Pankaj_Amilkanthwar",
+    "filename": "Pankaj_Amilkanthwar.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v3beeebda9ff0d0d3",
+        "type": "EDUCATION",
+        "title": "MBA in Finance",
+        "org": "MITCON Institute of Management",
+        "start": "2008-01",
+        "end": "2010-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "MBA in Finance  |  MITCON Institute of Management, Pune (2008 – 2010)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "MBA in Finance  |  MITCON Institute of Management, Pune (2008 – 2010)",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 5804,
+              "end": 5873
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2008 – 2010",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 5861,
+              "end": 5872
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "MITCON Institute of Management",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 5823,
+              "end": 5853
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "MBA in Finance",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 5804,
+              "end": 5818
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2008 – 2010",
+          "is_present": false
+        },
+        "date_label": "2008 – 2010",
+        "section": "EDUCATION",
+        "is_present": false
+      },
+      {
+        "id": "v9d1542063378db46",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Accounts & Liquidity Officer",
+        "start": "2009-12",
+        "end": "2012-12",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Accounts & Liquidity Officer Dec 2009 – Dec 2012",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Accounts & Liquidity Officer Dec 2009 – Dec 2012",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 5616,
+              "end": 5664
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Dec 2009 – Dec 2012",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 5645,
+              "end": 5664
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Accounts & Liquidity Officer",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 5616,
+              "end": 5644
+            }
+          ],
+          "title": [],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Dec 2009 – Dec 2012",
+          "is_present": false
+        },
+        "date_label": "Dec 2009 – Dec 2012",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v3fe36b21fffd0a7c",
+        "type": "EMPLOYMENT",
+        "title": "Senior Analyst",
+        "org": "Core Trade Settlements & Confirmations",
+        "start": "2013-01",
+        "end": "2014-11",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Senior Analyst – Core Trade Settlements & Confirmations Jan 2013 – Nov 2014",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Analyst – Core Trade Settlements & Confirmations Jan 2013 – Nov 2014",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 5333,
+              "end": 5408
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jan 2013 – Nov 2014",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 5389,
+              "end": 5408
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Core Trade Settlements & Confirmations",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 5350,
+              "end": 5388
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Analyst",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 5333,
+              "end": 5347
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Jan 2013 – Nov 2014",
+          "is_present": false
+        },
+        "date_label": "Jan 2013 – Nov 2014",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vbb57b3bfcb1e581f",
+        "type": "EMPLOYMENT",
+        "title": "Senior Analyst",
+        "org": "FX & Options",
+        "start": "2015-02",
+        "end": "2017-06",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Senior Analyst – FX & Options Feb 2015 – Jun 2017",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Analyst – FX & Options Feb 2015 – Jun 2017",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 4743,
+              "end": 4792
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Feb 2015 – Jun 2017",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 4773,
+              "end": 4792
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "FX & Options",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 4760,
+              "end": 4772
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Analyst",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 4743,
+              "end": 4757
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Feb 2015 – Jun 2017",
+          "is_present": false
+        },
+        "date_label": "Feb 2015 – Jun 2017",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v96d85d70fc9eb5bf",
+        "type": "EMPLOYMENT",
+        "title": "Team Leader",
+        "org": "Trade Settlements (Fixed Income",
+        "start": "2017-06",
+        "end": "2022-07",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Team Leader – Trade Settlements (Fixed Income) Jun 2017 – Jul 2022",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Team Leader – Trade Settlements (Fixed Income) Jun 2017 – Jul 2022",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 3649,
+              "end": 3715
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jun 2017 – Jul 2022",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 3696,
+              "end": 3715
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Trade Settlements (Fixed Income",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 3663,
+              "end": 3694
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Team Leader",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 3649,
+              "end": 3660
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Jun 2017 – Jul 2022",
+          "is_present": false
+        },
+        "date_label": "Jun 2017 – Jul 2022",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vd60f2243dda32b8e",
+        "type": "EMPLOYMENT",
+        "title": "Deputy Manager",
+        "org": "Middle Office (Equity & Fixed Income",
+        "start": "2022-07",
+        "end": "2023-12",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Deputy Manager – Middle Office (Equity & Fixed Income) Jul 2022 – Dec 2023",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Deputy Manager – Middle Office (Equity & Fixed Income) Jul 2022 – Dec 2023",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 2628,
+              "end": 2702
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jul 2022 – Dec 2023",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 2683,
+              "end": 2702
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Middle Office (Equity & Fixed Income",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 2645,
+              "end": 2681
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Deputy Manager",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 2628,
+              "end": 2642
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Jul 2022 – Dec 2023",
+          "is_present": false
+        },
+        "date_label": "Jul 2022 – Dec 2023",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v4de32709e7bf1b40",
+        "type": "EMPLOYMENT",
+        "title": "Manager",
+        "org": "Middle Office (Derivatives Operations & Change",
+        "start": "2024-01",
+        "end": "2026-06",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Manager – Middle Office (Derivatives Operations & Change) Jan 2024 – 7th June 2026.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Manager – Middle Office (Derivatives Operations & Change) Jan 2024 – 7th June 2026.",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 1701,
+              "end": 1784
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jan 2024 – 7th June 2026",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 1759,
+              "end": 1783
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Middle Office (Derivatives Operations & Change",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 1711,
+              "end": 1757
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Manager",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 1701,
+              "end": 1708
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Jan 2024 – 7th June 2026",
+          "is_present": false
+        },
+        "date_label": "Jan 2024 – 7th June 2026",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g844d7fe24140ca1e",
+        "start": [
+          2014,
+          12
+        ],
+        "end": [
+          2015,
+          1
+        ],
+        "months": 2,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "v3fe36b21fffd0a7c",
+          "event_after": "vbb57b3bfcb1e581f",
+          "coverage_scope": "all_dated_activity"
+        },
+        "start_label": "2014-12",
+        "end_label": "2015-01",
+        "evidence_quotes": [
+          "Senior Analyst – Core Trade Settlements & Confirmations Jan 2013 – Nov 2014",
+          "Senior Analyst – FX & Options Feb 2015 – Jun 2017"
+        ],
+        "evidence_details": [
+          {
+            "header": "Senior Analyst at Core Trade Settlements & Confirmations",
+            "quote": "Senior Analyst – Core Trade Settlements & Confirmations Jan 2013 – Nov 2014",
+            "event_id": "v3fe36b21fffd0a7c",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Senior Analyst – Core Trade Settlements & Confirmations Jan 2013 – Nov 2014",
+                  "block_id": "b64",
+                  "kind": "text",
+                  "start": 5333,
+                  "end": 5408
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Jan 2013 – Nov 2014",
+                  "block_id": "b64",
+                  "kind": "text",
+                  "start": 5389,
+                  "end": 5408
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Core Trade Settlements & Confirmations",
+                  "block_id": "b64",
+                  "kind": "text",
+                  "start": 5350,
+                  "end": 5388
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Senior Analyst",
+                  "block_id": "b64",
+                  "kind": "text",
+                  "start": 5333,
+                  "end": 5347
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "Jan 2013 – Nov 2014",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Senior Analyst at FX & Options",
+            "quote": "Senior Analyst – FX & Options Feb 2015 – Jun 2017",
+            "event_id": "vbb57b3bfcb1e581f",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Senior Analyst – FX & Options Feb 2015 – Jun 2017",
+                  "block_id": "b56",
+                  "kind": "text",
+                  "start": 4743,
+                  "end": 4792
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Feb 2015 – Jun 2017",
+                  "block_id": "b56",
+                  "kind": "text",
+                  "start": 4773,
+                  "end": 4792
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "FX & Options",
+                  "block_id": "b56",
+                  "kind": "text",
+                  "start": 4760,
+                  "end": 4772
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Senior Analyst",
+                  "block_id": "b56",
+                  "kind": "text",
+                  "start": 4743,
+                  "end": 4757
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "Feb 2015 – Jun 2017",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 7,
+      "total_events": 7,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.881,
+      "document_accuracy": 0.88
+    },
+    "total_represented_months": 220,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

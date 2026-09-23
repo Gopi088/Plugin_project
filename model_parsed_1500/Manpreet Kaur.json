@@ -1,0 +1,663 @@
+{
+  "file_name": "Manpreet Kaur.pdf",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 6,
+    "total_events": 8,
+    "dated_share": 0.75,
+    "unresolved": 2,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.89
+  },
+  "work_experience": [
+    {
+      "id": "vc520520d435f2281",
+      "company": "Fidelity International",
+      "title": "Associate",
+      "start_date": "2015-12",
+      "end_date": "2017-08",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vb4e5cf32cee72cac",
+      "company": "Barclays",
+      "title": "",
+      "start_date": "2017-09",
+      "end_date": "2018-10",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "ve6c50b06dc61010b",
+      "company": "Technology & Operations",
+      "title": "Associate/Analyst",
+      "start_date": "2019-07",
+      "end_date": "2021-02",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v7646f610908b61ce",
+      "company": "BlackRock Inc",
+      "title": "",
+      "start_date": "2021-02",
+      "end_date": "2025-06",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vae973e87812b9644",
+      "company": "American Express",
+      "title": "Business Analyst",
+      "start_date": "2025-10",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v95e45330363fdb85",
+      "company": "EXL Services",
+      "title": "Manager",
+      "start_date": "2026-09",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "ve81f05b9614651e7",
+      "company": "Finance Information & Analytics",
+      "title": "Associate",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "v243b1ba863dfda3e",
+      "company": "Guru Gobind Singh Indraprastha University",
+      "title": "Bachelor of Business Administration",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 7,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "Manpreet Kaur",
+    "filename": "Manpreet Kaur.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "vc520520d435f2281",
+        "type": "EMPLOYMENT",
+        "title": "Associate",
+        "org": "Fidelity International",
+        "start": "2015-12",
+        "end": "2017-08",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Fidelity International | Associate – Banking, Reconciliation & Controls                                                                                          (12/2015 – 08/2017)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Fidelity International | Associate – Banking, Reconciliation & Controls                                                                                          (12/2015 – 08/2017)",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 5520,
+              "end": 5700
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "12/2015 – 08/2017",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 5682,
+              "end": 5699
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Fidelity International",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 5520,
+              "end": 5542
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Associate",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 5545,
+              "end": 5554
+            }
+          ],
+          "section": "Professional Experience",
+          "date_label": "12/2015 – 08/2017",
+          "is_present": false
+        },
+        "date_label": "12/2015 – 08/2017",
+        "section": "Professional Experience",
+        "is_present": false
+      },
+      {
+        "id": "vb4e5cf32cee72cac",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Barclays",
+        "start": "2017-09",
+        "end": "2018-10",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Barclays | Process Advisor – Corporate & Investment Banking                                                                                                             (09/2017 – 10/2018)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Barclays | Process Advisor – Corporate & Investment Banking                                                                                                             (09/2017 – 10/2018)",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 5070,
+              "end": 5257
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "09/2017 – 10/2018",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 5239,
+              "end": 5256
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Barclays",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 5070,
+              "end": 5078
+            }
+          ],
+          "title": [],
+          "section": "Professional Experience",
+          "date_label": "09/2017 – 10/2018",
+          "is_present": false
+        },
+        "date_label": "09/2017 – 10/2018",
+        "section": "Professional Experience",
+        "is_present": false
+      },
+      {
+        "id": "ve6c50b06dc61010b",
+        "type": "EMPLOYMENT",
+        "title": "Associate/Analyst",
+        "org": "Technology & Operations",
+        "start": "2019-07",
+        "end": "2021-02",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Associate/Analyst -Technology & Operations",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Associate/Analyst -Technology & Operations",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 3416,
+              "end": 3458
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "07/2019 – 02/2021",
+              "block_id": "b40",
+              "kind": "text",
+              "start": 4346,
+              "end": 4363
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Technology & Operations",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 3435,
+              "end": 3458
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Associate/Analyst",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 3416,
+              "end": 3433
+            }
+          ],
+          "section": "Professional Experience",
+          "date_label": "07/2019 – 02/2021",
+          "is_present": false
+        },
+        "date_label": "07/2019 – 02/2021",
+        "section": "Professional Experience",
+        "is_present": false
+      },
+      {
+        "id": "v7646f610908b61ce",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "BlackRock Inc",
+        "start": "2021-02",
+        "end": "2025-06",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "BlackRock Inc                                                                                                                                                                                                                                                 (02/2021 – 06/2025)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "BlackRock Inc                                                                                                                                                                                                                                                 (02/2021 – 06/2025)",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 2396,
+              "end": 2669
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "02/2021 – 06/2025",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 2651,
+              "end": 2668
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "BlackRock Inc",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 2396,
+              "end": 2409
+            }
+          ],
+          "title": [],
+          "section": "Professional Experience",
+          "date_label": "02/2021 – 06/2025",
+          "is_present": false
+        },
+        "date_label": "02/2021 – 06/2025",
+        "section": "Professional Experience",
+        "is_present": false
+      },
+      {
+        "id": "vae973e87812b9644",
+        "type": "EMPLOYMENT",
+        "title": "Business Analyst",
+        "org": "American Express",
+        "start": "2025-10",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "American Express | Business Analyst – Reporting and Governance (Contract)                                                                                                              (10/2025 – 09/2026)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "American Express | Business Analyst – Reporting and Governance (Contract)                                                                                                              (10/2025 – 09/2026)",
+              "block_id": "b17",
+              "kind": "text",
+              "start": 1636,
+              "end": 1838
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "10/2025 – 09/2026",
+              "block_id": "b17",
+              "kind": "text",
+              "start": 1820,
+              "end": 1837
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "American Express",
+              "block_id": "b17",
+              "kind": "text",
+              "start": 1636,
+              "end": 1652
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Business Analyst",
+              "block_id": "b17",
+              "kind": "text",
+              "start": 1655,
+              "end": 1671
+            }
+          ],
+          "section": "Professional Experience",
+          "date_label": "10/2025 – 09/2026",
+          "is_present": false
+        },
+        "date_label": "10/2025 – 09/2026",
+        "section": "Professional Experience",
+        "is_present": false
+      },
+      {
+        "id": "v95e45330363fdb85",
+        "type": "EMPLOYMENT",
+        "title": "Manager",
+        "org": "EXL Services",
+        "start": "2026-09",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "EXL Services | Manager – Business Analyst Developer – Finance Systems                                                                                       (09/2026 - Present)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "EXL Services | Manager – Business Analyst Developer – Finance Systems                                                                                       (09/2026 - Present)",
+              "block_id": "b16",
+              "kind": "text",
+              "start": 1457,
+              "end": 1632
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "09/2026 - Present",
+              "block_id": "b16",
+              "kind": "text",
+              "start": 1614,
+              "end": 1631
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "EXL Services",
+              "block_id": "b16",
+              "kind": "text",
+              "start": 1457,
+              "end": 1469
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Manager",
+              "block_id": "b16",
+              "kind": "text",
+              "start": 1472,
+              "end": 1479
+            }
+          ],
+          "section": "Professional Experience",
+          "date_label": "09/2026 - Present",
+          "is_present": true
+        },
+        "date_label": "09/2026 - Present",
+        "section": "Professional Experience",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "ve81f05b9614651e7",
+        "type": "EMPLOYMENT",
+        "title": "Associate",
+        "org": "Finance Information & Analytics",
+        "entry_text": "Associate - Finance Information & Analytics • Developed and maintained Power BI dashboards and financial models to analyse and report on key metrics (AUM, Net New Business , Base Fee Revenue), directly informing forecasting, budgeting, and P&L analysis for senior management. • Collaborated with mana",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Associate - Finance Information & Analytics",
+              "block_id": "b25",
+              "kind": "text",
+              "start": 2671,
+              "end": 2714
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "Finance Information & Analytics",
+              "block_id": "b25",
+              "kind": "text",
+              "start": 2683,
+              "end": 2714
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Associate",
+              "block_id": "b25",
+              "kind": "text",
+              "start": 2671,
+              "end": 2680
+            }
+          ],
+          "section": "Professional Experience",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Professional Experience",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v243b1ba863dfda3e",
+        "type": "EDUCATION",
+        "title": "Bachelor of Business Administration",
+        "org": "Guru Gobind Singh Indraprastha University",
+        "entry_text": "• Bachelor of Business Administration | Guru Gobind Singh Indraprastha University • Microsoft Certified: Azure AI Fundamentals (AI-910) – In Progress Key Achievements • BlackRock Python Competition: Ranked 3rd in BlackRock’s 2023 Python Challenge; led an 8- member team during the project phase to a ",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "• Bachelor of Business Administration | Guru Gobind Singh Indraprastha University",
+              "block_id": "b61",
+              "kind": "text",
+              "start": 6215,
+              "end": 6296
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2023",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 6444,
+              "end": 6448
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Guru Gobind Singh Indraprastha University",
+              "block_id": "b61",
+              "kind": "text",
+              "start": 6255,
+              "end": 6296
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Business Administration",
+              "block_id": "b61",
+              "kind": "text",
+              "start": 6217,
+              "end": 6252
+            }
+          ],
+          "section": "Education",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Education",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "ve81f05b9614651e7"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 6,
+      "total_events": 8,
+      "dated_share": 0.75,
+      "unresolved": 2,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.89
+    },
+    "total_represented_months": 119,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

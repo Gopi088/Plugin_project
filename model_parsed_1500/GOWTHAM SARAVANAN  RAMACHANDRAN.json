@@ -1,0 +1,659 @@
+{
+  "file_name": "GOWTHAM SARAVANAN  RAMACHANDRAN.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 4,
+    "total_events": 5,
+    "dated_share": 0.8,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v76e075e052a7cd0d",
+      "company": "Wipro LTD",
+      "title": "Associate",
+      "start_date": "2014-06",
+      "end_date": "2015-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "va1963a5e4f475cc2",
+      "company": "BNP Paribas Securities Services",
+      "title": "Assistant Manager Lead",
+      "start_date": "2015-12",
+      "end_date": "2024-01",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v11f4f9a5553fd776",
+      "company": "Neurealm",
+      "title": "Lead Business Analyst",
+      "start_date": "2024-07",
+      "end_date": "2026-01",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v67328b5d4a9b43ba",
+      "company": "Neurealm",
+      "title": "Lead Business Analyst",
+      "start_date": "2026-01",
+      "end_date": "2026-07",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "vabb9a536ab4f7974",
+      "company": "SRM University - Kattankulathur",
+      "title": "MBA: Finance and Marketing",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    }
+  ],
+  "gaps": [
+    {
+      "id": "g42dd6d96155268c8",
+      "start": "2024-02",
+      "end": "2024-06",
+      "months": 5,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    }
+  ],
+  "total_work_experience": 4,
+  "total_projects": 0,
+  "total_gaps": 1,
+  "raw_pipeline_dto": {
+    "doc_id": "GOWTHAM SARAVANAN  RAMACHANDRAN",
+    "filename": "GOWTHAM SARAVANAN  RAMACHANDRAN.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v76e075e052a7cd0d",
+        "type": "EMPLOYMENT",
+        "title": "Associate",
+        "org": "Wipro LTD",
+        "start": "2014-06",
+        "end": "2015-12",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "06/2014 - 12/2015 Associate\nWipro LTD - Chennai, CHENNAI",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "06/2014 - 12/2015 Associate",
+              "block_id": "b104",
+              "kind": "text",
+              "start": 5043,
+              "end": 5070
+            },
+            {
+              "page": 1,
+              "text": "Wipro LTD - Chennai, CHENNAI",
+              "block_id": "b105",
+              "kind": "text",
+              "start": 5072,
+              "end": 5100
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "06/2014 - 12/2015",
+              "block_id": "b104",
+              "kind": "text",
+              "start": 5043,
+              "end": 5060
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Wipro LTD",
+              "block_id": "b105",
+              "kind": "text",
+              "start": 5072,
+              "end": 5081
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Associate",
+              "block_id": "b104",
+              "kind": "text",
+              "start": 5061,
+              "end": 5070
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "06/2014 - 12/2015",
+          "is_present": false
+        },
+        "date_label": "06/2014 - 12/2015",
+        "section": "EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "va1963a5e4f475cc2",
+        "type": "EMPLOYMENT",
+        "title": "Assistant Manager Lead",
+        "org": "BNP Paribas Securities Services",
+        "start": "2015-12",
+        "end": "2024-01",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "12/2015 - 01/2024 Assistant Manager Lead\nBNP Paribas Securities Services - Chennai, TN",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "12/2015 - 01/2024 Assistant Manager Lead",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 3091,
+              "end": 3131
+            },
+            {
+              "page": 1,
+              "text": "BNP Paribas Securities Services - Chennai, TN",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 3133,
+              "end": 3178
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "12/2015 - 01/2024",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 3091,
+              "end": 3108
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "BNP Paribas Securities Services",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 3133,
+              "end": 3164
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Assistant Manager Lead",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 3109,
+              "end": 3131
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "12/2015 - 01/2024",
+          "is_present": false
+        },
+        "date_label": "12/2015 - 01/2024",
+        "section": "EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v11f4f9a5553fd776",
+        "type": "EMPLOYMENT",
+        "title": "Lead Business Analyst",
+        "org": "Neurealm",
+        "start": "2024-07",
+        "end": "2026-01",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "07/2024 – 01/2026 Lead Business Analyst\nNeurealm (Client: Northern Trust)- Chennai, India",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "07/2024 – 01/2026 Lead Business Analyst",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 1999,
+              "end": 2038
+            },
+            {
+              "page": 1,
+              "text": "Neurealm (Client: Northern Trust)- Chennai, India",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 2040,
+              "end": 2089
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "07/2024 – 01/2026",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 1999,
+              "end": 2016
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Neurealm",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 2040,
+              "end": 2048
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Lead Business Analyst",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 2017,
+              "end": 2038
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "07/2024 – 01/2026",
+          "is_present": false
+        },
+        "date_label": "07/2024 – 01/2026",
+        "section": "EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v67328b5d4a9b43ba",
+        "type": "EMPLOYMENT",
+        "title": "Lead Business Analyst",
+        "org": "Neurealm",
+        "start": "2026-01",
+        "end": "2026-07",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "01/2026 – 07/2026 Lead Business Analyst\nNeurealm (Client: Aditya Birla Sunlife AMC)- Chennai, India",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "01/2026 – 07/2026 Lead Business Analyst",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 1145,
+              "end": 1184
+            },
+            {
+              "page": 1,
+              "text": "Neurealm (Client: Aditya Birla Sunlife AMC)- Chennai, India",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 1186,
+              "end": 1245
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "01/2026 – 07/2026",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 1145,
+              "end": 1162
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Neurealm",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 1186,
+              "end": 1194
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Lead Business Analyst",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 1163,
+              "end": 1184
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "01/2026 – 07/2026",
+          "is_present": false
+        },
+        "date_label": "01/2026 – 07/2026",
+        "section": "EXPERIENCE",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "vabb9a536ab4f7974",
+        "type": "EDUCATION",
+        "title": "MBA: Finance and Marketing",
+        "org": "SRM University - Kattankulathur",
+        "entry_text": "01/2013 MBA: Finance and Marketing SRM University - Kattankulathur,  Chennai • Graduated with 7.5 GPA • GPA: 7.5 GPA 01/2011 BBM: Business Management Kongu Arts & Science College - Erode • Graduated with 6.8 GPA • GPA: 6.8 GPA ACCOMPLISHMENTS",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "01/2013 MBA: Finance and Marketing",
+              "block_id": "b127",
+              "kind": "text",
+              "start": 6199,
+              "end": 6233
+            },
+            {
+              "page": 1,
+              "text": "SRM University - Kattankulathur,  Chennai",
+              "block_id": "b128",
+              "kind": "text",
+              "start": 6235,
+              "end": 6276
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "01/2013",
+              "block_id": "b127",
+              "kind": "text",
+              "start": 6199,
+              "end": 6206
+            },
+            {
+              "page": 1,
+              "text": "01/2011",
+              "block_id": "b131",
+              "kind": "text",
+              "start": 6322,
+              "end": 6329
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "SRM University - Kattankulathur",
+              "block_id": "b128",
+              "kind": "text",
+              "start": 6235,
+              "end": 6266
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "MBA: Finance and Marketing",
+              "block_id": "b127",
+              "kind": "text",
+              "start": 6207,
+              "end": 6233
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "01/2013",
+          "is_present": false
+        },
+        "date_label": "01/2013",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g42dd6d96155268c8",
+        "start": [
+          2024,
+          2
+        ],
+        "end": [
+          2024,
+          6
+        ],
+        "months": 5,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "va1963a5e4f475cc2",
+          "event_after": "v11f4f9a5553fd776",
+          "coverage_scope": "employment"
+        },
+        "start_label": "2024-02",
+        "end_label": "2024-06",
+        "evidence_quotes": [
+          "12/2015 - 01/2024 Assistant Manager Lead BNP Paribas Securities Services - Chennai, TN",
+          "07/2024 – 01/2026 Lead Business Analyst Neurealm (Client: Northern Trust)- Chennai, India"
+        ],
+        "evidence_details": [
+          {
+            "header": "Assistant Manager Lead at BNP Paribas Securities Services",
+            "quote": "12/2015 - 01/2024 Assistant Manager Lead BNP Paribas Securities Services - Chennai, TN",
+            "event_id": "va1963a5e4f475cc2",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "12/2015 - 01/2024 Assistant Manager Lead",
+                  "block_id": "b68",
+                  "kind": "text",
+                  "start": 3091,
+                  "end": 3131
+                },
+                {
+                  "page": 1,
+                  "text": "BNP Paribas Securities Services - Chennai, TN",
+                  "block_id": "b69",
+                  "kind": "text",
+                  "start": 3133,
+                  "end": 3178
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "12/2015 - 01/2024",
+                  "block_id": "b68",
+                  "kind": "text",
+                  "start": 3091,
+                  "end": 3108
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "BNP Paribas Securities Services",
+                  "block_id": "b69",
+                  "kind": "text",
+                  "start": 3133,
+                  "end": 3164
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Assistant Manager Lead",
+                  "block_id": "b68",
+                  "kind": "text",
+                  "start": 3109,
+                  "end": 3131
+                }
+              ],
+              "section": "EXPERIENCE",
+              "date_label": "12/2015 - 01/2024",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Lead Business Analyst at Neurealm",
+            "quote": "07/2024 – 01/2026 Lead Business Analyst Neurealm (Client: Northern Trust)- Chennai, India",
+            "event_id": "v11f4f9a5553fd776",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "07/2024 – 01/2026 Lead Business Analyst",
+                  "block_id": "b48",
+                  "kind": "text",
+                  "start": 1999,
+                  "end": 2038
+                },
+                {
+                  "page": 1,
+                  "text": "Neurealm (Client: Northern Trust)- Chennai, India",
+                  "block_id": "b49",
+                  "kind": "text",
+                  "start": 2040,
+                  "end": 2089
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "07/2024 – 01/2026",
+                  "block_id": "b48",
+                  "kind": "text",
+                  "start": 1999,
+                  "end": 2016
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Neurealm",
+                  "block_id": "b49",
+                  "kind": "text",
+                  "start": 2040,
+                  "end": 2048
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Lead Business Analyst",
+                  "block_id": "b48",
+                  "kind": "text",
+                  "start": 2017,
+                  "end": 2038
+                }
+              ],
+              "section": "EXPERIENCE",
+              "date_label": "07/2024 – 01/2026",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 4,
+      "total_events": 5,
+      "dated_share": 0.8,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 141,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

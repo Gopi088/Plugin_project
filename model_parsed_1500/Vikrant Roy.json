@@ -1,0 +1,230 @@
+{
+  "file_name": "Vikrant Roy.pdf",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 0,
+    "total_events": 1,
+    "dated_share": 0.0,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": null,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [],
+  "projects": [],
+  "education": [
+    {
+      "id": "v5d7e516273302200",
+      "company": "University/College Degree Year",
+      "title": "",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 0,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "Vikrant Roy",
+    "filename": "Vikrant Roy.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [],
+    "unresolved_events": [
+      {
+        "id": "v5d7e516273302200",
+        "type": "EDUCATION",
+        "title": "",
+        "org": "University/College Degree Year",
+        "entry_text": "University/College Degree Year Uttar Pradesh Technical University Master of computer Delhi University Bachelor of Science 7/2001 8x8 Partner Sales Certification 8x8 University June 2020 8x8 Sales Engineer Certified: XCaaS 8x8 University June 202 8.5 Genesys University July 2017 Genesys Composer Trai",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "University/College Degree Year",
+              "block_id": "b142",
+              "kind": "text",
+              "start": 4693,
+              "end": 4723
+            },
+            {
+              "page": 1,
+              "text": "Uttar Pradesh Technical University Master of computer",
+              "block_id": "b143",
+              "kind": "text",
+              "start": 4725,
+              "end": 4778
+            },
+            {
+              "page": 1,
+              "text": "Delhi University Bachelor of Science 7/2001",
+              "block_id": "b145",
+              "kind": "text",
+              "start": 4801,
+              "end": 4844
+            },
+            {
+              "page": 1,
+              "text": "8x8 Partner Sales Certification 8x8 University June 2020",
+              "block_id": "b150",
+              "kind": "text",
+              "start": 4949,
+              "end": 5005
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "7/2001",
+              "block_id": "b145",
+              "kind": "text",
+              "start": 4838,
+              "end": 4844
+            },
+            {
+              "page": 1,
+              "text": "June 2020",
+              "block_id": "b150",
+              "kind": "text",
+              "start": 4996,
+              "end": 5005
+            },
+            {
+              "page": 1,
+              "text": "July 2017",
+              "block_id": "b153",
+              "kind": "text",
+              "start": 5124,
+              "end": 5133
+            },
+            {
+              "page": 1,
+              "text": "July 2014",
+              "block_id": "b154",
+              "kind": "text",
+              "start": 5180,
+              "end": 5189
+            },
+            {
+              "page": 1,
+              "text": "April 2001",
+              "block_id": "b165",
+              "kind": "text",
+              "start": 5498,
+              "end": 5508
+            },
+            {
+              "page": 1,
+              "text": "April 2026",
+              "block_id": "b166",
+              "kind": "text",
+              "start": 5538,
+              "end": 5548
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "University/College Degree Year",
+              "block_id": "b142",
+              "kind": "text",
+              "start": 4693,
+              "end": 4723
+            }
+          ],
+          "title": [],
+          "section": "EDUCATION",
+          "date_label": "7/2001 / June 2020",
+          "is_present": false
+        },
+        "date_label": "7/2001 / June 2020",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 0,
+      "total_events": 1,
+      "dated_share": 0.0,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": null,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 0,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "PARTIAL",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "PARTIAL",
+        "confidence": 0.3
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

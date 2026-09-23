@@ -1,0 +1,674 @@
+{
+  "file_name": "KrishnadevS.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 5,
+    "total_events": 5,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v588a28c1dd520a9f",
+      "company": "",
+      "title": "Associate / TCS E-Serve Pvt Ltd",
+      "start_date": "2009-12",
+      "end_date": "2013-03",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v238c362a6ecb3eb4",
+      "company": "",
+      "title": "Specialist",
+      "start_date": "2013-03",
+      "end_date": "2016-02",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vf781882a9b491c5c",
+      "company": "",
+      "title": "Lead Representative",
+      "start_date": "2016-06",
+      "end_date": "2023-01",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v2f49e66e51716d47",
+      "company": "",
+      "title": "Manager",
+      "start_date": "2023-02",
+      "end_date": "2025-01",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v70e82534fa725f69",
+      "company": "",
+      "title": "Sr. Business Analyst / Aston Carter",
+      "start_date": "2025-05",
+      "end_date": "2025-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [],
+  "gaps": [
+    {
+      "id": "ga50ba61e15e94a8f",
+      "start": "2016-03",
+      "end": "2016-05",
+      "months": 3,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    },
+    {
+      "id": "g99ec0b738f7f155a",
+      "start": "2025-02",
+      "end": "2025-04",
+      "months": 3,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    }
+  ],
+  "total_work_experience": 5,
+  "total_projects": 0,
+  "total_gaps": 2,
+  "raw_pipeline_dto": {
+    "doc_id": "KrishnadevS",
+    "filename": "KrishnadevS.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v588a28c1dd520a9f",
+        "type": "EMPLOYMENT",
+        "title": "Associate / TCS E-Serve Pvt Ltd",
+        "org": "",
+        "start": "2009-12",
+        "end": "2013-03",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Associate / TCS E-Serve Pvt Ltd 12/2009 - 03/2013",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Associate / TCS E-Serve Pvt Ltd 12/2009 - 03/2013",
+              "block_id": "b122",
+              "kind": "text",
+              "start": 8855,
+              "end": 8904
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "12/2009 - 03/2013",
+              "block_id": "b122",
+              "kind": "text",
+              "start": 8887,
+              "end": 8904
+            },
+            {
+              "page": 1,
+              "text": "05/2009",
+              "block_id": "b129",
+              "kind": "text",
+              "start": 9454,
+              "end": 9461
+            },
+            {
+              "page": 1,
+              "text": "04/2006",
+              "block_id": "b131",
+              "kind": "text",
+              "start": 9536,
+              "end": 9543
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Associate / TCS E-Serve Pvt Ltd",
+              "block_id": "b122",
+              "kind": "text",
+              "start": 8855,
+              "end": 8886
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "12/2009 - 03/2013",
+          "is_present": false
+        },
+        "date_label": "12/2009 - 03/2013",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v238c362a6ecb3eb4",
+        "type": "EMPLOYMENT",
+        "title": "Specialist",
+        "org": "",
+        "start": "2013-03",
+        "end": "2016-02",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Specialist in Internal Reconciliations team / State Street HCL Services Pvt ltd 03/2013 - 02/2016",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Specialist in Internal Reconciliations team / State Street HCL Services Pvt ltd 03/2013 - 02/2016",
+              "block_id": "b113",
+              "kind": "text",
+              "start": 8150,
+              "end": 8247
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "03/2013 - 02/2016",
+              "block_id": "b113",
+              "kind": "text",
+              "start": 8230,
+              "end": 8247
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Specialist",
+              "block_id": "b113",
+              "kind": "text",
+              "start": 8150,
+              "end": 8160
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "03/2013 - 02/2016",
+          "is_present": false
+        },
+        "date_label": "03/2013 - 02/2016",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vf781882a9b491c5c",
+        "type": "EMPLOYMENT",
+        "title": "Lead Representative",
+        "org": "",
+        "start": "2016-06",
+        "end": "2023-01",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Lead Representative – Operations & Business Analyst / BNY Mellon Pvt Ltd 06/2016 - 01/2023",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Lead Representative – Operations & Business Analyst / BNY Mellon Pvt Ltd 06/2016 - 01/2023",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 5408,
+              "end": 5498
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "06/2016 - 01/2023",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 5481,
+              "end": 5498
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Lead Representative",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 5408,
+              "end": 5427
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "06/2016 - 01/2023",
+          "is_present": false
+        },
+        "date_label": "06/2016 - 01/2023",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v2f49e66e51716d47",
+        "type": "EMPLOYMENT",
+        "title": "Manager",
+        "org": "",
+        "start": "2023-02",
+        "end": "2025-01",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Manager – Business Analyst / State Street Services Pvt ltd 02/2023 - 01/2025",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Manager – Business Analyst / State Street Services Pvt ltd 02/2023 - 01/2025",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 2610,
+              "end": 2686
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "02/2023 - 01/2025",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 2669,
+              "end": 2686
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Manager",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 2610,
+              "end": 2617
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "02/2023 - 01/2025",
+          "is_present": false
+        },
+        "date_label": "02/2023 - 01/2025",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v70e82534fa725f69",
+        "type": "EMPLOYMENT",
+        "title": "Sr. Business Analyst / Aston Carter",
+        "org": "",
+        "start": "2025-05",
+        "end": "2025-12",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Sr. Business Analyst / Aston Carter 05/2025 – 12/2025",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Sr. Business Analyst / Aston Carter 05/2025 – 12/2025",
+              "block_id": "b17",
+              "kind": "text",
+              "start": 601,
+              "end": 654
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "05/2025 – 12/2025",
+              "block_id": "b17",
+              "kind": "text",
+              "start": 637,
+              "end": 654
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Sr. Business Analyst / Aston Carter",
+              "block_id": "b17",
+              "kind": "text",
+              "start": 601,
+              "end": 636
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "05/2025 – 12/2025",
+          "is_present": false
+        },
+        "date_label": "05/2025 – 12/2025",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "ga50ba61e15e94a8f",
+        "start": [
+          2016,
+          3
+        ],
+        "end": [
+          2016,
+          5
+        ],
+        "months": 3,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "v238c362a6ecb3eb4",
+          "event_after": "vf781882a9b491c5c",
+          "coverage_scope": "all_dated_activity"
+        },
+        "start_label": "2016-03",
+        "end_label": "2016-05",
+        "evidence_quotes": [
+          "Specialist in Internal Reconciliations team / State Street HCL Services Pvt ltd 03/2013 - 02/2016",
+          "Lead Representative – Operations & Business Analyst / BNY Mellon Pvt Ltd 06/2016 - 01/2023"
+        ],
+        "evidence_details": [
+          {
+            "header": "Specialis",
+            "quote": "Specialist in Internal Reconciliations team / State Street HCL Services Pvt ltd 03/2013 - 02/2016",
+            "event_id": "v238c362a6ecb3eb4",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Specialist in Internal Reconciliations team / State Street HCL Services Pvt ltd 03/2013 - 02/2016",
+                  "block_id": "b113",
+                  "kind": "text",
+                  "start": 8150,
+                  "end": 8247
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "03/2013 - 02/2016",
+                  "block_id": "b113",
+                  "kind": "text",
+                  "start": 8230,
+                  "end": 8247
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Specialist",
+                  "block_id": "b113",
+                  "kind": "text",
+                  "start": 8150,
+                  "end": 8160
+                }
+              ],
+              "section": "WORK EXPERIENCE",
+              "date_label": "03/2013 - 02/2016",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Lead Representative",
+            "quote": "Lead Representative – Operations & Business Analyst / BNY Mellon Pvt Ltd 06/2016 - 01/2023",
+            "event_id": "vf781882a9b491c5c",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Lead Representative – Operations & Business Analyst / BNY Mellon Pvt Ltd 06/2016 - 01/2023",
+                  "block_id": "b79",
+                  "kind": "text",
+                  "start": 5408,
+                  "end": 5498
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "06/2016 - 01/2023",
+                  "block_id": "b79",
+                  "kind": "text",
+                  "start": 5481,
+                  "end": 5498
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Lead Representative",
+                  "block_id": "b79",
+                  "kind": "text",
+                  "start": 5408,
+                  "end": 5427
+                }
+              ],
+              "section": "WORK EXPERIENCE",
+              "date_label": "06/2016 - 01/2023",
+              "is_present": false
+            }
+          }
+        ]
+      },
+      {
+        "id": "g99ec0b738f7f155a",
+        "start": [
+          2025,
+          2
+        ],
+        "end": [
+          2025,
+          4
+        ],
+        "months": 3,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "v2f49e66e51716d47",
+          "event_after": "v70e82534fa725f69",
+          "coverage_scope": "all_dated_activity"
+        },
+        "start_label": "2025-02",
+        "end_label": "2025-04",
+        "evidence_quotes": [
+          "Manager – Business Analyst / State Street Services Pvt ltd 02/2023 - 01/2025",
+          "Sr. Business Analyst / Aston Carter 05/2025 – 12/2025"
+        ],
+        "evidence_details": [
+          {
+            "header": "Manager",
+            "quote": "Manager – Business Analyst / State Street Services Pvt ltd 02/2023 - 01/2025",
+            "event_id": "v2f49e66e51716d47",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Manager – Business Analyst / State Street Services Pvt ltd 02/2023 - 01/2025",
+                  "block_id": "b47",
+                  "kind": "text",
+                  "start": 2610,
+                  "end": 2686
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "02/2023 - 01/2025",
+                  "block_id": "b47",
+                  "kind": "text",
+                  "start": 2669,
+                  "end": 2686
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Manager",
+                  "block_id": "b47",
+                  "kind": "text",
+                  "start": 2610,
+                  "end": 2617
+                }
+              ],
+              "section": "WORK EXPERIENCE",
+              "date_label": "02/2023 - 01/2025",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Sr. Business Analyst / Aston Carter",
+            "quote": "Sr. Business Analyst / Aston Carter 05/2025 – 12/2025",
+            "event_id": "v70e82534fa725f69",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Sr. Business Analyst / Aston Carter 05/2025 – 12/2025",
+                  "block_id": "b17",
+                  "kind": "text",
+                  "start": 601,
+                  "end": 654
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "05/2025 – 12/2025",
+                  "block_id": "b17",
+                  "kind": "text",
+                  "start": 637,
+                  "end": 654
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Sr. Business Analyst / Aston Carter",
+                  "block_id": "b17",
+                  "kind": "text",
+                  "start": 601,
+                  "end": 636
+                }
+              ],
+              "section": "WORK EXPERIENCE",
+              "date_label": "05/2025 – 12/2025",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 5,
+      "total_events": 5,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 187,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

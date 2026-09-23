@@ -1,0 +1,874 @@
+{
+  "file_name": "K PRADEEP.docx",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 4,
+    "total_events": 5,
+    "dated_share": 0.8,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v516798396da5726e",
+      "company": "Royal Bank Of Scotland",
+      "title": "Senior Analyst(Business Analyst",
+      "start_date": "2018-11",
+      "end_date": "2021-05",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vd0b02a07386d401c",
+      "company": "",
+      "title": "Assistant Manager(Business Analyst/Product Owner",
+      "start_date": "2021-11",
+      "end_date": "2023-01",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v82a6e440b1464f50",
+      "company": "Gopik Connect Pvt.Ltd",
+      "title": "Lead Analyst(Business Analyst/Product Manager",
+      "start_date": "2023-06",
+      "end_date": "2024-03",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vf164774a747ca215",
+      "company": "",
+      "title": "Team Lead II",
+      "start_date": "2025-08",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "v8408c66a59446298",
+      "company": "Loyola Institute Of Technology - Chennai",
+      "title": "Bachelor of Engineering: Electrical",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    }
+  ],
+  "gaps": [
+    {
+      "id": "g28a546e8e8fa4947",
+      "start": "2021-06",
+      "end": "2021-10",
+      "months": 5,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    },
+    {
+      "id": "g4c4cc9aa01a7a99b",
+      "start": "2023-02",
+      "end": "2023-05",
+      "months": 4,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    },
+    {
+      "id": "g50377db7b7a13228",
+      "start": "2024-04",
+      "end": "2025-07",
+      "months": 16,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    }
+  ],
+  "total_work_experience": 4,
+  "total_projects": 0,
+  "total_gaps": 3,
+  "raw_pipeline_dto": {
+    "doc_id": "K PRADEEP",
+    "filename": "K PRADEEP.docx",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v516798396da5726e",
+        "type": "EMPLOYMENT",
+        "title": "Senior Analyst(Business Analyst",
+        "org": "Royal Bank Of Scotland",
+        "start": "2018-11",
+        "end": "2021-05",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "2018-11 - 2021-05\tSenior Analyst(Business Analyst)\nRoyal Bank Of Scotland, Chennai, TamilNadu",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "2018-11 - 2021-05\tSenior Analyst(Business Analyst)",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 5838,
+              "end": 5888
+            },
+            {
+              "page": 1,
+              "text": "Royal Bank Of Scotland, Chennai, TamilNadu",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 5889,
+              "end": 5931
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2018-11 - 2021-05",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 5838,
+              "end": 5855
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Royal Bank Of Scotland",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 5889,
+              "end": 5911
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Analyst(Business Analyst",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 5856,
+              "end": 5887
+            }
+          ],
+          "section": "Work History",
+          "date_label": "2018-11 - 2021-05",
+          "is_present": false
+        },
+        "date_label": "2018-11 - 2021-05",
+        "section": "Work History",
+        "is_present": false
+      },
+      {
+        "id": "vd0b02a07386d401c",
+        "type": "EMPLOYMENT",
+        "title": "Assistant Manager(Business Analyst/Product Owner",
+        "org": "",
+        "start": "2021-11",
+        "end": "2023-01",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "2021-11 - 2023-01\tAssistant Manager(Business Analyst/Product Owner)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "2021-11 - 2023-01\tAssistant Manager(Business Analyst/Product Owner)",
+              "block_id": "b45",
+              "kind": "text",
+              "start": 4873,
+              "end": 4940
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2021-11 - 2023-01",
+              "block_id": "b45",
+              "kind": "text",
+              "start": 4873,
+              "end": 4890
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Assistant Manager(Business Analyst/Product Owner",
+              "block_id": "b45",
+              "kind": "text",
+              "start": 4891,
+              "end": 4939
+            }
+          ],
+          "section": "Work History",
+          "date_label": "2021-11 - 2023-01",
+          "is_present": false
+        },
+        "date_label": "2021-11 - 2023-01",
+        "section": "Work History",
+        "is_present": false
+      },
+      {
+        "id": "v82a6e440b1464f50",
+        "type": "EMPLOYMENT",
+        "title": "Lead Analyst(Business Analyst/Product Manager",
+        "org": "Gopik Connect Pvt.Ltd",
+        "start": "2023-06",
+        "end": "2024-03",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "2023-06 - 2024-03\tLead Analyst(Business Analyst/Product Manager)\nGopik Connect Pvt.Ltd, Chennai, India",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "2023-06 - 2024-03\tLead Analyst(Business Analyst/Product Manager)",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 3523,
+              "end": 3587
+            },
+            {
+              "page": 1,
+              "text": "Gopik Connect Pvt.Ltd, Chennai, India",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 3588,
+              "end": 3625
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2023-06 - 2024-03",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 3523,
+              "end": 3540
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Gopik Connect Pvt.Ltd",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 3588,
+              "end": 3609
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Lead Analyst(Business Analyst/Product Manager",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 3541,
+              "end": 3586
+            }
+          ],
+          "section": "Work History",
+          "date_label": "2023-06 - 2024-03",
+          "is_present": false
+        },
+        "date_label": "2023-06 - 2024-03",
+        "section": "Work History",
+        "is_present": false
+      },
+      {
+        "id": "vf164774a747ca215",
+        "type": "EMPLOYMENT",
+        "title": "Team Lead II",
+        "org": "",
+        "start": "2025-08",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "2025-08 - Current\tTeam Lead II - Product Owner",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "2025-08 - Current\tTeam Lead II - Product Owner",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 941,
+              "end": 987
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2025-08 - Current",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 941,
+              "end": 958
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Team Lead II",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 959,
+              "end": 971
+            }
+          ],
+          "section": "Work History",
+          "date_label": "2025-08 - Current",
+          "is_present": true
+        },
+        "date_label": "2025-08 - Current",
+        "section": "Work History",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v8408c66a59446298",
+        "type": "EDUCATION",
+        "title": "Bachelor of Engineering: Electrical",
+        "org": "Loyola Institute Of Technology - Chennai",
+        "entry_text": "2014-08\tBachelor of Engineering: Electrical, Electronics And Communications Engineering Loyola Institute Of Technology - Chennai",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "2014-08\tBachelor of Engineering: Electrical, Electronics And Communications Engineering",
+              "block_id": "b83",
+              "kind": "text",
+              "start": 8375,
+              "end": 8462
+            },
+            {
+              "page": 1,
+              "text": "Loyola Institute Of Technology - Chennai",
+              "block_id": "b84",
+              "kind": "text",
+              "start": 8463,
+              "end": 8503
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2014-08",
+              "block_id": "b83",
+              "kind": "text",
+              "start": 8375,
+              "end": 8382
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Loyola Institute Of Technology - Chennai",
+              "block_id": "b84",
+              "kind": "text",
+              "start": 8463,
+              "end": 8503
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Engineering: Electrical",
+              "block_id": "b83",
+              "kind": "text",
+              "start": 8383,
+              "end": 8418
+            }
+          ],
+          "section": "Education",
+          "date_label": "2014-08",
+          "is_present": false
+        },
+        "date_label": "2014-08",
+        "section": "Education",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g28a546e8e8fa4947",
+        "start": [
+          2021,
+          6
+        ],
+        "end": [
+          2021,
+          10
+        ],
+        "months": 5,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "v516798396da5726e",
+          "event_after": "vd0b02a07386d401c",
+          "coverage_scope": "employment"
+        },
+        "start_label": "2021-06",
+        "end_label": "2021-10",
+        "evidence_quotes": [
+          "2018-11 - 2021-05\tSenior Analyst(Business Analyst) Royal Bank Of Scotland, Chennai, TamilNadu",
+          "2021-11 - 2023-01\tAssistant Manager(Business Analyst/Product Owner)"
+        ],
+        "evidence_details": [
+          {
+            "header": "Senior Analyst(Business Analyst at Royal Bank Of Scotland",
+            "quote": "2018-11 - 2021-05\tSenior Analyst(Business Analyst) Royal Bank Of Scotland, Chennai, TamilNadu",
+            "event_id": "v516798396da5726e",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "2018-11 - 2021-05\tSenior Analyst(Business Analyst)",
+                  "block_id": "b54",
+                  "kind": "text",
+                  "start": 5838,
+                  "end": 5888
+                },
+                {
+                  "page": 1,
+                  "text": "Royal Bank Of Scotland, Chennai, TamilNadu",
+                  "block_id": "b55",
+                  "kind": "text",
+                  "start": 5889,
+                  "end": 5931
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "2018-11 - 2021-05",
+                  "block_id": "b54",
+                  "kind": "text",
+                  "start": 5838,
+                  "end": 5855
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Royal Bank Of Scotland",
+                  "block_id": "b55",
+                  "kind": "text",
+                  "start": 5889,
+                  "end": 5911
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Senior Analyst(Business Analyst",
+                  "block_id": "b54",
+                  "kind": "text",
+                  "start": 5856,
+                  "end": 5887
+                }
+              ],
+              "section": "Work History",
+              "date_label": "2018-11 - 2021-05",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Assistant Manager(Business Analyst/Product Owner",
+            "quote": "2021-11 - 2023-01\tAssistant Manager(Business Analyst/Product Owner)",
+            "event_id": "vd0b02a07386d401c",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "2021-11 - 2023-01\tAssistant Manager(Business Analyst/Product Owner)",
+                  "block_id": "b45",
+                  "kind": "text",
+                  "start": 4873,
+                  "end": 4940
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "2021-11 - 2023-01",
+                  "block_id": "b45",
+                  "kind": "text",
+                  "start": 4873,
+                  "end": 4890
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Assistant Manager(Business Analyst/Product Owner",
+                  "block_id": "b45",
+                  "kind": "text",
+                  "start": 4891,
+                  "end": 4939
+                }
+              ],
+              "section": "Work History",
+              "date_label": "2021-11 - 2023-01",
+              "is_present": false
+            }
+          }
+        ]
+      },
+      {
+        "id": "g4c4cc9aa01a7a99b",
+        "start": [
+          2023,
+          2
+        ],
+        "end": [
+          2023,
+          5
+        ],
+        "months": 4,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "vd0b02a07386d401c",
+          "event_after": "v82a6e440b1464f50",
+          "coverage_scope": "employment"
+        },
+        "start_label": "2023-02",
+        "end_label": "2023-05",
+        "evidence_quotes": [
+          "2021-11 - 2023-01\tAssistant Manager(Business Analyst/Product Owner)",
+          "2023-06 - 2024-03\tLead Analyst(Business Analyst/Product Manager) Gopik Connect Pvt.Ltd, Chennai, India"
+        ],
+        "evidence_details": [
+          {
+            "header": "Assistant Manager(Business Analyst/Product Owner",
+            "quote": "2021-11 - 2023-01\tAssistant Manager(Business Analyst/Product Owner)",
+            "event_id": "vd0b02a07386d401c",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "2021-11 - 2023-01\tAssistant Manager(Business Analyst/Product Owner)",
+                  "block_id": "b45",
+                  "kind": "text",
+                  "start": 4873,
+                  "end": 4940
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "2021-11 - 2023-01",
+                  "block_id": "b45",
+                  "kind": "text",
+                  "start": 4873,
+                  "end": 4890
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Assistant Manager(Business Analyst/Product Owner",
+                  "block_id": "b45",
+                  "kind": "text",
+                  "start": 4891,
+                  "end": 4939
+                }
+              ],
+              "section": "Work History",
+              "date_label": "2021-11 - 2023-01",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Lead Analyst(Business Analyst/Product Manager at Gopik Connect Pvt.Ltd",
+            "quote": "2023-06 - 2024-03\tLead Analyst(Business Analyst/Product Manager) Gopik Connect Pvt.Ltd, Chennai, India",
+            "event_id": "v82a6e440b1464f50",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "2023-06 - 2024-03\tLead Analyst(Business Analyst/Product Manager)",
+                  "block_id": "b33",
+                  "kind": "text",
+                  "start": 3523,
+                  "end": 3587
+                },
+                {
+                  "page": 1,
+                  "text": "Gopik Connect Pvt.Ltd, Chennai, India",
+                  "block_id": "b34",
+                  "kind": "text",
+                  "start": 3588,
+                  "end": 3625
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "2023-06 - 2024-03",
+                  "block_id": "b33",
+                  "kind": "text",
+                  "start": 3523,
+                  "end": 3540
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Gopik Connect Pvt.Ltd",
+                  "block_id": "b34",
+                  "kind": "text",
+                  "start": 3588,
+                  "end": 3609
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Lead Analyst(Business Analyst/Product Manager",
+                  "block_id": "b33",
+                  "kind": "text",
+                  "start": 3541,
+                  "end": 3586
+                }
+              ],
+              "section": "Work History",
+              "date_label": "2023-06 - 2024-03",
+              "is_present": false
+            }
+          }
+        ]
+      },
+      {
+        "id": "g50377db7b7a13228",
+        "start": [
+          2024,
+          4
+        ],
+        "end": [
+          2025,
+          7
+        ],
+        "months": 16,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "v82a6e440b1464f50",
+          "event_after": "vf164774a747ca215",
+          "coverage_scope": "employment"
+        },
+        "start_label": "2024-04",
+        "end_label": "2025-07",
+        "evidence_quotes": [
+          "2023-06 - 2024-03\tLead Analyst(Business Analyst/Product Manager) Gopik Connect Pvt.Ltd, Chennai, India",
+          "2025-08 - Current\tTeam Lead II - Product Owner"
+        ],
+        "evidence_details": [
+          {
+            "header": "Lead Analyst(Business Analyst/Product Manager at Gopik Connect Pvt.Ltd",
+            "quote": "2023-06 - 2024-03\tLead Analyst(Business Analyst/Product Manager) Gopik Connect Pvt.Ltd, Chennai, India",
+            "event_id": "v82a6e440b1464f50",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "2023-06 - 2024-03\tLead Analyst(Business Analyst/Product Manager)",
+                  "block_id": "b33",
+                  "kind": "text",
+                  "start": 3523,
+                  "end": 3587
+                },
+                {
+                  "page": 1,
+                  "text": "Gopik Connect Pvt.Ltd, Chennai, India",
+                  "block_id": "b34",
+                  "kind": "text",
+                  "start": 3588,
+                  "end": 3625
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "2023-06 - 2024-03",
+                  "block_id": "b33",
+                  "kind": "text",
+                  "start": 3523,
+                  "end": 3540
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Gopik Connect Pvt.Ltd",
+                  "block_id": "b34",
+                  "kind": "text",
+                  "start": 3588,
+                  "end": 3609
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Lead Analyst(Business Analyst/Product Manager",
+                  "block_id": "b33",
+                  "kind": "text",
+                  "start": 3541,
+                  "end": 3586
+                }
+              ],
+              "section": "Work History",
+              "date_label": "2023-06 - 2024-03",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Team Lead II",
+            "quote": "2025-08 - Current\tTeam Lead II - Product Owner",
+            "event_id": "vf164774a747ca215",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "2025-08 - Current\tTeam Lead II - Product Owner",
+                  "block_id": "b10",
+                  "kind": "text",
+                  "start": 941,
+                  "end": 987
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "2025-08 - Current",
+                  "block_id": "b10",
+                  "kind": "text",
+                  "start": 941,
+                  "end": 958
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Team Lead II",
+                  "block_id": "b10",
+                  "kind": "text",
+                  "start": 959,
+                  "end": 971
+                }
+              ],
+              "section": "Work History",
+              "date_label": "2025-08 - Current",
+              "is_present": true
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 4,
+      "total_events": 5,
+      "dated_share": 0.8,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 70,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

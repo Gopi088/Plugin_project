@@ -1,0 +1,667 @@
+{
+  "file_name": "Shruti Tiwari.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 3,
+    "total_events": 4,
+    "dated_share": 0.75,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v543ea980e4f72d40",
+      "company": "ICICI Securities Ltd. Mumbai",
+      "title": "India Equity Advisor and Fund Analyst",
+      "start_date": "2017-01",
+      "end_date": "2019-03",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v12fd21d870a851be",
+      "company": "Design Cafe Mumbai",
+      "title": "India Manager",
+      "start_date": "2019-05",
+      "end_date": "2020-06",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vc74779603627220c",
+      "company": "State Street Corporation Bengaluru",
+      "title": "India Business Analyst",
+      "start_date": "2021-08",
+      "end_date": "2025-05",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "v3a09fc05810ab03b",
+      "company": "Institute of Technology and Management Navi Mumbai",
+      "title": "India Bachelor of Commerce",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    }
+  ],
+  "gaps": [
+    {
+      "id": "gc9fe649a2cebb620",
+      "start": "2019-04",
+      "end": "2019-04",
+      "months": 1,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    },
+    {
+      "id": "g56b68bc9fcaccd38",
+      "start": "2020-07",
+      "end": "2021-07",
+      "months": 13,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    }
+  ],
+  "total_work_experience": 3,
+  "total_projects": 0,
+  "total_gaps": 2,
+  "raw_pipeline_dto": {
+    "doc_id": "Shruti Tiwari",
+    "filename": "Shruti Tiwari.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v543ea980e4f72d40",
+        "type": "EMPLOYMENT",
+        "title": "India Equity Advisor and Fund Analyst",
+        "org": "ICICI Securities Ltd. Mumbai",
+        "start": "2017-01",
+        "end": "2019-03",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "• ICICI Securities Ltd. Mumbai, India Equity Advisor and Fund Analyst Jan 2017 – Mar 2019",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "• ICICI Securities Ltd. Mumbai, India Equity Advisor and Fund Analyst Jan 2017 – Mar 2019",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 3668,
+              "end": 3757
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jan 2017 – Mar 2019",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 3738,
+              "end": 3757
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "ICICI Securities Ltd. Mumbai",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 3670,
+              "end": 3698
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "India Equity Advisor and Fund Analyst",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 3700,
+              "end": 3737
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "Jan 2017 – Mar 2019",
+          "is_present": false
+        },
+        "date_label": "Jan 2017 – Mar 2019",
+        "section": "EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v12fd21d870a851be",
+        "type": "EMPLOYMENT",
+        "title": "India Manager",
+        "org": "Design Cafe Mumbai",
+        "start": "2019-05",
+        "end": "2020-06",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "• Design Cafe Mumbai, India Manager – Finance May 2019 – Jun 2020",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "• Design Cafe Mumbai, India Manager – Finance May 2019 – Jun 2020",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 2050,
+              "end": 2115
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "May 2019 – Jun 2020",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 2096,
+              "end": 2115
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Design Cafe Mumbai",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 2052,
+              "end": 2070
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "India Manager",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 2072,
+              "end": 2085
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "May 2019 – Jun 2020",
+          "is_present": false
+        },
+        "date_label": "May 2019 – Jun 2020",
+        "section": "EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vc74779603627220c",
+        "type": "EMPLOYMENT",
+        "title": "India Business Analyst",
+        "org": "State Street Corporation Bengaluru",
+        "start": "2021-08",
+        "end": "2025-05",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "• State Street Corporation Bengaluru, India Business Analyst – Capital Markets Aug 2021 – May 2025",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "• State Street Corporation Bengaluru, India Business Analyst – Capital Markets Aug 2021 – May 2025",
+              "block_id": "b12",
+              "kind": "text",
+              "start": 527,
+              "end": 625
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Aug 2021 – May 2025",
+              "block_id": "b12",
+              "kind": "text",
+              "start": 606,
+              "end": 625
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "State Street Corporation Bengaluru",
+              "block_id": "b12",
+              "kind": "text",
+              "start": 529,
+              "end": 563
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "India Business Analyst",
+              "block_id": "b12",
+              "kind": "text",
+              "start": 565,
+              "end": 587
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "Aug 2021 – May 2025",
+          "is_present": false
+        },
+        "date_label": "Aug 2021 – May 2025",
+        "section": "EXPERIENCE",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v3a09fc05810ab03b",
+        "type": "EDUCATION",
+        "title": "India Bachelor of Commerce",
+        "org": "Institute of Technology and Management Navi Mumbai",
+        "entry_text": "• Institute of Technology and Management Navi Mumbai, India • Pt. Ravishankar Shukla University Raipur, India Bachelor of Commerce 2014",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "• Institute of Technology and Management Navi Mumbai, India",
+              "block_id": "b96",
+              "kind": "text",
+              "start": 6741,
+              "end": 6800
+            },
+            {
+              "page": 1,
+              "text": "• Pt. Ravishankar Shukla University Raipur, India Bachelor of Commerce 2014",
+              "block_id": "b98",
+              "kind": "text",
+              "start": 6834,
+              "end": 6909
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2014",
+              "block_id": "b98",
+              "kind": "text",
+              "start": 6905,
+              "end": 6909
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Institute of Technology and Management Navi Mumbai",
+              "block_id": "b96",
+              "kind": "text",
+              "start": 6743,
+              "end": 6793
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "India Bachelor of Commerce",
+              "block_id": "b98",
+              "kind": "text",
+              "start": 6878,
+              "end": 6904
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2014",
+          "is_present": false
+        },
+        "date_label": "2014",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "gc9fe649a2cebb620",
+        "start": [
+          2019,
+          4
+        ],
+        "end": [
+          2019,
+          4
+        ],
+        "months": 1,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "v543ea980e4f72d40",
+          "event_after": "v12fd21d870a851be",
+          "coverage_scope": "employment"
+        },
+        "start_label": "2019-04",
+        "end_label": "2019-04",
+        "evidence_quotes": [
+          "• ICICI Securities Ltd. Mumbai, India Equity Advisor and Fund Analyst Jan 2017 – Mar 2019",
+          "• Design Cafe Mumbai, India Manager – Finance May 2019 – Jun 2020"
+        ],
+        "evidence_details": [
+          {
+            "header": "India Equity Advisor and Fund Analyst at ICICI Securities Ltd. Mumbai",
+            "quote": "• ICICI Securities Ltd. Mumbai, India Equity Advisor and Fund Analyst Jan 2017 – Mar 2019",
+            "event_id": "v543ea980e4f72d40",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "• ICICI Securities Ltd. Mumbai, India Equity Advisor and Fund Analyst Jan 2017 – Mar 2019",
+                  "block_id": "b53",
+                  "kind": "text",
+                  "start": 3668,
+                  "end": 3757
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Jan 2017 – Mar 2019",
+                  "block_id": "b53",
+                  "kind": "text",
+                  "start": 3738,
+                  "end": 3757
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "ICICI Securities Ltd. Mumbai",
+                  "block_id": "b53",
+                  "kind": "text",
+                  "start": 3670,
+                  "end": 3698
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "India Equity Advisor and Fund Analyst",
+                  "block_id": "b53",
+                  "kind": "text",
+                  "start": 3700,
+                  "end": 3737
+                }
+              ],
+              "section": "EXPERIENCE",
+              "date_label": "Jan 2017 – Mar 2019",
+              "is_present": false
+            }
+          },
+          {
+            "header": "India Manager at Design Cafe Mumbai",
+            "quote": "• Design Cafe Mumbai, India Manager – Finance May 2019 – Jun 2020",
+            "event_id": "v12fd21d870a851be",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "• Design Cafe Mumbai, India Manager – Finance May 2019 – Jun 2020",
+                  "block_id": "b33",
+                  "kind": "text",
+                  "start": 2050,
+                  "end": 2115
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "May 2019 – Jun 2020",
+                  "block_id": "b33",
+                  "kind": "text",
+                  "start": 2096,
+                  "end": 2115
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Design Cafe Mumbai",
+                  "block_id": "b33",
+                  "kind": "text",
+                  "start": 2052,
+                  "end": 2070
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "India Manager",
+                  "block_id": "b33",
+                  "kind": "text",
+                  "start": 2072,
+                  "end": 2085
+                }
+              ],
+              "section": "EXPERIENCE",
+              "date_label": "May 2019 – Jun 2020",
+              "is_present": false
+            }
+          }
+        ]
+      },
+      {
+        "id": "g56b68bc9fcaccd38",
+        "start": [
+          2020,
+          7
+        ],
+        "end": [
+          2021,
+          7
+        ],
+        "months": 13,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "v12fd21d870a851be",
+          "event_after": "vc74779603627220c",
+          "coverage_scope": "employment"
+        },
+        "start_label": "2020-07",
+        "end_label": "2021-07",
+        "evidence_quotes": [
+          "• Design Cafe Mumbai, India Manager – Finance May 2019 – Jun 2020",
+          "• State Street Corporation Bengaluru, India Business Analyst – Capital Markets Aug 2021 – May 2025"
+        ],
+        "evidence_details": [
+          {
+            "header": "India Manager at Design Cafe Mumbai",
+            "quote": "• Design Cafe Mumbai, India Manager – Finance May 2019 – Jun 2020",
+            "event_id": "v12fd21d870a851be",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "• Design Cafe Mumbai, India Manager – Finance May 2019 – Jun 2020",
+                  "block_id": "b33",
+                  "kind": "text",
+                  "start": 2050,
+                  "end": 2115
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "May 2019 – Jun 2020",
+                  "block_id": "b33",
+                  "kind": "text",
+                  "start": 2096,
+                  "end": 2115
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Design Cafe Mumbai",
+                  "block_id": "b33",
+                  "kind": "text",
+                  "start": 2052,
+                  "end": 2070
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "India Manager",
+                  "block_id": "b33",
+                  "kind": "text",
+                  "start": 2072,
+                  "end": 2085
+                }
+              ],
+              "section": "EXPERIENCE",
+              "date_label": "May 2019 – Jun 2020",
+              "is_present": false
+            }
+          },
+          {
+            "header": "India Business Analyst at State Street Corporation Bengaluru",
+            "quote": "• State Street Corporation Bengaluru, India Business Analyst – Capital Markets Aug 2021 – May 2025",
+            "event_id": "vc74779603627220c",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "• State Street Corporation Bengaluru, India Business Analyst – Capital Markets Aug 2021 – May 2025",
+                  "block_id": "b12",
+                  "kind": "text",
+                  "start": 527,
+                  "end": 625
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Aug 2021 – May 2025",
+                  "block_id": "b12",
+                  "kind": "text",
+                  "start": 606,
+                  "end": 625
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "State Street Corporation Bengaluru",
+                  "block_id": "b12",
+                  "kind": "text",
+                  "start": 529,
+                  "end": 563
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "India Business Analyst",
+                  "block_id": "b12",
+                  "kind": "text",
+                  "start": 565,
+                  "end": 587
+                }
+              ],
+              "section": "EXPERIENCE",
+              "date_label": "Aug 2021 – May 2025",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 3,
+      "total_events": 4,
+      "dated_share": 0.75,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 87,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

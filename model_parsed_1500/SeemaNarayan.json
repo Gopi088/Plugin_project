@@ -1,0 +1,572 @@
+{
+  "file_name": "SeemaNarayan.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 6,
+    "total_events": 6,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.765,
+    "document_accuracy": 0.77
+  },
+  "work_experience": [
+    {
+      "id": "vb67456aad61c1f78",
+      "company": "Mafatlal Systems Ltd",
+      "title": "",
+      "start_date": "2002-01",
+      "end_date": "2007-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    },
+    {
+      "id": "v52e744e6fcd39111",
+      "company": "ING Vysya Life Insurance Company",
+      "title": "Territory Manager",
+      "start_date": "2007-01",
+      "end_date": "2010-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    },
+    {
+      "id": "vc560f5f20e872306",
+      "company": "Aramex India Private Limited",
+      "title": "Area Manager",
+      "start_date": "2010-01",
+      "end_date": "2012-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    },
+    {
+      "id": "v8453054e2cf8d2c3",
+      "company": "Carzonrent India Private Limited",
+      "title": "Branch Head",
+      "start_date": "2012-01",
+      "end_date": "2018-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    },
+    {
+      "id": "vd6305aa3ba2c2f8c",
+      "company": "ECOS (I) Mobility & Hospitality Pvt Ltd",
+      "title": "Area Head",
+      "start_date": "2018-01",
+      "end_date": "2020-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    },
+    {
+      "id": "vc1117760a89266de",
+      "company": "WELLS FARGO INTERNATIONAL SOLUTIONS PRIVATE LIMITED",
+      "title": "",
+      "start_date": "2021-01",
+      "end_date": "2024-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    }
+  ],
+  "projects": [],
+  "education": [],
+  "gaps": [],
+  "total_work_experience": 6,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "SeemaNarayan",
+    "filename": "SeemaNarayan.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "vb67456aad61c1f78",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Mafatlal Systems Ltd",
+        "start": "2002-01",
+        "end": "2007-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Mafatlal Systems Ltd. | Law Kim India Pvt. Ltd. | Infinity Solutions — Early Career | 2002–2007",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Mafatlal Systems Ltd. | Law Kim India Pvt. Ltd. | Infinity Solutions — Early Career | 2002–2007",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 4421,
+              "end": 4516
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2002–2007",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 4507,
+              "end": 4516
+            },
+            {
+              "page": 1,
+              "text": "2025",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 5140,
+              "end": 5144
+            },
+            {
+              "page": 1,
+              "text": "2025",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 5153,
+              "end": 5157
+            },
+            {
+              "page": 1,
+              "text": "2026",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 5195,
+              "end": 5199
+            },
+            {
+              "page": 1,
+              "text": "2010",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 5251,
+              "end": 5255
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Mafatlal Systems Ltd",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 4421,
+              "end": 4441
+            }
+          ],
+          "title": [],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "2002–2007",
+          "is_present": false
+        },
+        "date_label": "2002–2007",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v52e744e6fcd39111",
+        "type": "EMPLOYMENT",
+        "title": "Territory Manager",
+        "org": "ING Vysya Life Insurance Company",
+        "start": "2007-01",
+        "end": "2010-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "ING Vysya Life Insurance Company — Territory Manager – Operations | 2007–2010 | Team: 80",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "ING Vysya Life Insurance Company — Territory Manager – Operations | 2007–2010 | Team: 80",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 4191,
+              "end": 4279
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2007–2010",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 4259,
+              "end": 4268
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "ING Vysya Life Insurance Company",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 4191,
+              "end": 4223
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Territory Manager",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 4226,
+              "end": 4243
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "2007–2010",
+          "is_present": false
+        },
+        "date_label": "2007–2010",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vc560f5f20e872306",
+        "type": "EMPLOYMENT",
+        "title": "Area Manager",
+        "org": "Aramex India Private Limited",
+        "start": "2010-01",
+        "end": "2012-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Aramex India Private Limited — Area Manager – Operations | 2010–2012 | Team: 100",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Aramex India Private Limited — Area Manager – Operations | 2010–2012 | Team: 100",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 3986,
+              "end": 4066
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2010–2012",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 4045,
+              "end": 4054
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Aramex India Private Limited",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 3986,
+              "end": 4014
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Area Manager",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 4017,
+              "end": 4029
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "2010–2012",
+          "is_present": false
+        },
+        "date_label": "2010–2012",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v8453054e2cf8d2c3",
+        "type": "EMPLOYMENT",
+        "title": "Branch Head",
+        "org": "Carzonrent India Private Limited",
+        "start": "2012-01",
+        "end": "2018-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Carzonrent India Private Limited — Branch Head – Operations | 2012–2018 | Team: 80",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Carzonrent India Private Limited — Branch Head – Operations | 2012–2018 | Team: 80",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 3661,
+              "end": 3743
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2012–2018",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 3723,
+              "end": 3732
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Carzonrent India Private Limited",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 3661,
+              "end": 3693
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Branch Head",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 3696,
+              "end": 3707
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "2012–2018",
+          "is_present": false
+        },
+        "date_label": "2012–2018",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vd6305aa3ba2c2f8c",
+        "type": "EMPLOYMENT",
+        "title": "Area Head",
+        "org": "ECOS (I) Mobility & Hospitality Pvt Ltd",
+        "start": "2018-01",
+        "end": "2020-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "ECOS (I) Mobility & Hospitality Pvt Ltd. — Area Head – Operations | 2018–2020 | Team: 90+",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "ECOS (I) Mobility & Hospitality Pvt Ltd. — Area Head – Operations | 2018–2020 | Team: 90+",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 3320,
+              "end": 3409
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2018–2020",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 3388,
+              "end": 3397
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "ECOS (I) Mobility & Hospitality Pvt Ltd",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 3320,
+              "end": 3359
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Area Head",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 3363,
+              "end": 3372
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "2018–2020",
+          "is_present": false
+        },
+        "date_label": "2018–2020",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vc1117760a89266de",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "WELLS FARGO INTERNATIONAL SOLUTIONS PRIVATE LIMITED",
+        "start": "2021-01",
+        "end": "2024-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "WELLS FARGO INTERNATIONAL SOLUTIONS PRIVATE LIMITED | Vice President – Operations | 2021–2024\nFinancial Services / GCC Operations | Team size: 80+ | Multi-city operations",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "WELLS FARGO INTERNATIONAL SOLUTIONS PRIVATE LIMITED | Vice President – Operations | 2021–2024",
+              "block_id": "b18",
+              "kind": "text",
+              "start": 1567,
+              "end": 1660
+            },
+            {
+              "page": 1,
+              "text": "Financial Services / GCC Operations | Team size: 80+ | Multi-city operations",
+              "block_id": "b19",
+              "kind": "text",
+              "start": 1662,
+              "end": 1738
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2021–2024",
+              "block_id": "b18",
+              "kind": "text",
+              "start": 1651,
+              "end": 1660
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "WELLS FARGO INTERNATIONAL SOLUTIONS PRIVATE LIMITED",
+              "block_id": "b18",
+              "kind": "text",
+              "start": 1567,
+              "end": 1618
+            }
+          ],
+          "title": [],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "2021–2024",
+          "is_present": false
+        },
+        "date_label": "2021–2024",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [],
+        "evidence": {
+          "note": "year-only dates need verification"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 6,
+      "total_events": 6,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.765,
+      "document_accuracy": 0.77
+    },
+    "total_represented_months": 276,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

@@ -1,0 +1,334 @@
+{
+  "file_name": "NAVEEN MUDDANA.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 3,
+    "total_events": 3,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.81,
+    "document_accuracy": 0.81
+  },
+  "work_experience": [
+    {
+      "id": "vafb008e2d240ea85",
+      "company": "Diploma Mechanical Engineering - GVMP College, SBTET",
+      "title": "",
+      "start_date": "2013-01",
+      "end_date": "2016-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    },
+    {
+      "id": "vd4ded9ada2543009",
+      "company": "Kakinada",
+      "title": "",
+      "start_date": "2016-01",
+      "end_date": "2019-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    },
+    {
+      "id": "vf34bf67989beea5b",
+      "company": "GTPL Hathway PVT LTD",
+      "title": "Network Engineer",
+      "start_date": "2021-06",
+      "end_date": "2022-09",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [],
+  "gaps": [],
+  "total_work_experience": 3,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "NAVEEN MUDDANA",
+    "filename": "NAVEEN MUDDANA.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "vafb008e2d240ea85",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Diploma Mechanical Engineering - GVMP College, SBTET",
+        "start": "2013-01",
+        "end": "2016-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "• Diploma Mechanical Engineering - GVMP College, SBTET (2013-2016)\n• SSC - Saraswathi High School, Prakasam (2013)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "• Diploma Mechanical Engineering - GVMP College, SBTET (2013-2016)",
+              "block_id": "b62",
+              "kind": "text",
+              "start": 3713,
+              "end": 3779
+            },
+            {
+              "page": 1,
+              "text": "• SSC - Saraswathi High School, Prakasam (2013)",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 3781,
+              "end": 3828
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2013-2016",
+              "block_id": "b62",
+              "kind": "text",
+              "start": 3769,
+              "end": 3778
+            },
+            {
+              "page": 1,
+              "text": "2013",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 3823,
+              "end": 3827
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Diploma Mechanical Engineering - GVMP College, SBTET",
+              "block_id": "b62",
+              "kind": "text",
+              "start": 3715,
+              "end": 3767
+            }
+          ],
+          "title": [],
+          "section": "Atria Convergence Technologies LTD, Hyderabad",
+          "date_label": "2013-2016",
+          "is_present": false
+        },
+        "date_label": "2013-2016",
+        "section": "Atria Convergence Technologies LTD, Hyderabad",
+        "is_present": false
+      },
+      {
+        "id": "vd4ded9ada2543009",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Kakinada",
+        "start": "2016-01",
+        "end": "2019-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Kakinada (2016-2019)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Kakinada (2016-2019)",
+              "block_id": "b61",
+              "kind": "text",
+              "start": 3691,
+              "end": 3711
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2016-2019",
+              "block_id": "b61",
+              "kind": "text",
+              "start": 3701,
+              "end": 3710
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Kakinada",
+              "block_id": "b61",
+              "kind": "text",
+              "start": 3691,
+              "end": 3699
+            }
+          ],
+          "title": [],
+          "section": "Atria Convergence Technologies LTD, Hyderabad",
+          "date_label": "2016-2019",
+          "is_present": false
+        },
+        "date_label": "2016-2019",
+        "section": "Atria Convergence Technologies LTD, Hyderabad",
+        "is_present": false
+      },
+      {
+        "id": "vf34bf67989beea5b",
+        "type": "EMPLOYMENT",
+        "title": "Network Engineer",
+        "org": "GTPL Hathway PVT LTD",
+        "start": "2021-06",
+        "end": "2022-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Network Engineer Jun 2021 - Sep 2022\nGTPL Hathway PVT LTD, Hyderabad",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Network Engineer Jun 2021 - Sep 2022",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 3083,
+              "end": 3119
+            },
+            {
+              "page": 1,
+              "text": "GTPL Hathway PVT LTD, Hyderabad",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 3121,
+              "end": 3152
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jun 2021 - Sep 2022",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 3100,
+              "end": 3119
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "GTPL Hathway PVT LTD",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 3121,
+              "end": 3141
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Network Engineer",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 3083,
+              "end": 3099
+            }
+          ],
+          "section": "Atria Convergence Technologies LTD, Hyderabad",
+          "date_label": "Jun 2021 - Sep 2022",
+          "is_present": false
+        },
+        "date_label": "Jun 2021 - Sep 2022",
+        "section": "Atria Convergence Technologies LTD, Hyderabad",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [],
+        "evidence": {
+          "note": "year-only dates need verification"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 3,
+      "total_events": 3,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.81,
+      "document_accuracy": 0.81
+    },
+    "total_represented_months": 100,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

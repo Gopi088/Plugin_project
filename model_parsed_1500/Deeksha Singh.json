@@ -1,0 +1,525 @@
+{
+  "file_name": "Deeksha Singh.docx",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 3,
+    "total_events": 3,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.855,
+    "document_accuracy": 0.85
+  },
+  "work_experience": [
+    {
+      "id": "v19179583ed5b40c9",
+      "company": "LntInfotech",
+      "title": "Software Associate",
+      "start_date": "2015-05",
+      "end_date": "2018-09",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v8bc26b291b69eced",
+      "company": "Hcl Technologies Germany GmbH",
+      "title": "Tech Lead",
+      "start_date": "2020-11",
+      "end_date": "2024-10",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "vab443cd77726a928",
+      "company": "",
+      "title": "M.sc - Physics",
+      "start_date": "2009-01",
+      "end_date": "2014-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    }
+  ],
+  "gaps": [
+    {
+      "id": "gc0f9c43b3846c628",
+      "start": "2018-10",
+      "end": "2020-10",
+      "months": 25,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    }
+  ],
+  "total_work_experience": 2,
+  "total_projects": 0,
+  "total_gaps": 1,
+  "raw_pipeline_dto": {
+    "doc_id": "Deeksha Singh",
+    "filename": "Deeksha Singh.docx",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "vab443cd77726a928",
+        "type": "EDUCATION",
+        "title": "M.sc - Physics",
+        "org": "",
+        "start": "2009-01",
+        "end": "2014-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "M.sc - Physics\n2009 – 2014 | India",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "M.sc - Physics",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 3722,
+              "end": 3736
+            },
+            {
+              "page": 1,
+              "text": "2009 – 2014 | India",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 3737,
+              "end": 3756
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2009 – 2014",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 3737,
+              "end": 3748
+            },
+            {
+              "page": 1,
+              "text": "2024",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 3895,
+              "end": 3899
+            },
+            {
+              "page": 1,
+              "text": "2019",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 3900,
+              "end": 3904
+            },
+            {
+              "page": 1,
+              "text": "2016",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 3995,
+              "end": 3999
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "M.sc - Physics",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 3722,
+              "end": 3736
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2009 – 2014",
+          "is_present": false
+        },
+        "date_label": "2009 – 2014",
+        "section": "EDUCATION",
+        "is_present": false
+      },
+      {
+        "id": "v19179583ed5b40c9",
+        "type": "EMPLOYMENT",
+        "title": "Software Associate",
+        "org": "LntInfotech",
+        "start": "2015-05",
+        "end": "2018-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "LntInfotech, Software Associate\tMay 2015 – Sept 2018 | Pune\nMember of API and Core Services Team for Perfios, a market leader in Fintech industry",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "LntInfotech, Software Associate\tMay 2015 – Sept 2018 | Pune",
+              "block_id": "b36",
+              "kind": "text",
+              "start": 3154,
+              "end": 3213
+            },
+            {
+              "page": 1,
+              "text": "Member of API and Core Services Team for Perfios, a market leader in Fintech industry",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 3214,
+              "end": 3299
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "May 2015 – Sept 2018",
+              "block_id": "b36",
+              "kind": "text",
+              "start": 3186,
+              "end": 3206
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "LntInfotech",
+              "block_id": "b36",
+              "kind": "text",
+              "start": 3154,
+              "end": 3165
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Software Associate",
+              "block_id": "b36",
+              "kind": "text",
+              "start": 3167,
+              "end": 3185
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "May 2015 – Sept 2018",
+          "is_present": false
+        },
+        "date_label": "May 2015 – Sept 2018",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v8bc26b291b69eced",
+        "type": "EMPLOYMENT",
+        "title": "Tech Lead",
+        "org": "Hcl Technologies Germany GmbH",
+        "start": "2020-11",
+        "end": "2024-10",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Hcl Technologies Germany GmbH, Tech Lead\tNov 2020 – Oct 2024 | Berlin\nLeading development team creating a real-time banking app for deutsche bank on springboot.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Hcl Technologies Germany GmbH, Tech Lead\tNov 2020 – Oct 2024 | Berlin",
+              "block_id": "b15",
+              "kind": "text",
+              "start": 1072,
+              "end": 1141
+            },
+            {
+              "page": 1,
+              "text": "Leading development team creating a real-time banking app for deutsche bank on springboot.",
+              "block_id": "b16",
+              "kind": "text",
+              "start": 1142,
+              "end": 1232
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Nov 2020 – Oct 2024",
+              "block_id": "b15",
+              "kind": "text",
+              "start": 1113,
+              "end": 1132
+            },
+            {
+              "page": 1,
+              "text": "April 2019 – Nov 2020",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 2329,
+              "end": 2350
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Hcl Technologies Germany GmbH",
+              "block_id": "b15",
+              "kind": "text",
+              "start": 1072,
+              "end": 1101
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Tech Lead",
+              "block_id": "b15",
+              "kind": "text",
+              "start": 1103,
+              "end": 1112
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Nov 2020 – Oct 2024",
+          "is_present": false
+        },
+        "date_label": "Nov 2020 – Oct 2024",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "gc0f9c43b3846c628",
+        "start": [
+          2018,
+          10
+        ],
+        "end": [
+          2020,
+          10
+        ],
+        "months": 25,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "v19179583ed5b40c9",
+          "event_after": "v8bc26b291b69eced",
+          "coverage_scope": "all_dated_activity"
+        },
+        "start_label": "2018-10",
+        "end_label": "2020-10",
+        "evidence_quotes": [
+          "LntInfotech, Software Associate\tMay 2015 – Sept 2018 | Pune Member of API and Core Services Team for Perfios, a market leader in Fintech industry",
+          "Hcl Technologies Germany GmbH, Tech Lead\tNov 2020 – Oct 2024 | Berlin Leading development team creating a real-time banking app for deutsche bank on springboot."
+        ],
+        "evidence_details": [
+          {
+            "header": "Software Associate at LntInfotech",
+            "quote": "LntInfotech, Software Associate\tMay 2015 – Sept 2018 | Pune Member of API and Core Services Team for Perfios, a market leader in Fintech industry",
+            "event_id": "v19179583ed5b40c9",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "LntInfotech, Software Associate\tMay 2015 – Sept 2018 | Pune",
+                  "block_id": "b36",
+                  "kind": "text",
+                  "start": 3154,
+                  "end": 3213
+                },
+                {
+                  "page": 1,
+                  "text": "Member of API and Core Services Team for Perfios, a market leader in Fintech industry",
+                  "block_id": "b37",
+                  "kind": "text",
+                  "start": 3214,
+                  "end": 3299
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "May 2015 – Sept 2018",
+                  "block_id": "b36",
+                  "kind": "text",
+                  "start": 3186,
+                  "end": 3206
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "LntInfotech",
+                  "block_id": "b36",
+                  "kind": "text",
+                  "start": 3154,
+                  "end": 3165
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Software Associate",
+                  "block_id": "b36",
+                  "kind": "text",
+                  "start": 3167,
+                  "end": 3185
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "May 2015 – Sept 2018",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Tech Lead at Hcl Technologies Germany GmbH",
+            "quote": "Hcl Technologies Germany GmbH, Tech Lead\tNov 2020 – Oct 2024 | Berlin Leading development team creating a real-time banking app for deutsche bank on springboot.",
+            "event_id": "v8bc26b291b69eced",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Hcl Technologies Germany GmbH, Tech Lead\tNov 2020 – Oct 2024 | Berlin",
+                  "block_id": "b15",
+                  "kind": "text",
+                  "start": 1072,
+                  "end": 1141
+                },
+                {
+                  "page": 1,
+                  "text": "Leading development team creating a real-time banking app for deutsche bank on springboot.",
+                  "block_id": "b16",
+                  "kind": "text",
+                  "start": 1142,
+                  "end": 1232
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Nov 2020 – Oct 2024",
+                  "block_id": "b15",
+                  "kind": "text",
+                  "start": 1113,
+                  "end": 1132
+                },
+                {
+                  "page": 1,
+                  "text": "April 2019 – Nov 2020",
+                  "block_id": "b29",
+                  "kind": "text",
+                  "start": 2329,
+                  "end": 2350
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Hcl Technologies Germany GmbH",
+                  "block_id": "b15",
+                  "kind": "text",
+                  "start": 1072,
+                  "end": 1101
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Tech Lead",
+                  "block_id": "b15",
+                  "kind": "text",
+                  "start": 1103,
+                  "end": 1112
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "Nov 2020 – Oct 2024",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 3,
+      "total_events": 3,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.855,
+      "document_accuracy": 0.85
+    },
+    "total_represented_months": 161,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

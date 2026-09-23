@@ -1,0 +1,660 @@
+{
+  "file_name": "SiddheshRBhagat.pdf",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 5,
+    "total_events": 8,
+    "dated_share": 0.625,
+    "unresolved": 3,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.873,
+    "document_accuracy": 0.84
+  },
+  "work_experience": [
+    {
+      "id": "v2ede007701b25d31",
+      "company": "",
+      "title": "Intern Software Developer",
+      "start_date": "2017-02",
+      "end_date": "2017-06",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vcb72b70d6bd18602",
+      "company": "",
+      "title": "Software Developer",
+      "start_date": "2017-06",
+      "end_date": "2019-06",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v3b5ffeb31db78521",
+      "company": "",
+      "title": "Senior Software Developer",
+      "start_date": "2019-07",
+      "end_date": "2022-04",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v6eace5d92197699a",
+      "company": "",
+      "title": "Team Lead",
+      "start_date": "2022-04",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v5b0e84e4dba86bce",
+      "company": "India’s largest public sector bank",
+      "title": "Working as the Lead Developer/Team Lead on a Loan Risk Management System for",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    },
+    {
+      "id": "v18bf8f282b6ede00",
+      "company": "",
+      "title": "As a module lead",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    },
+    {
+      "id": "vddba5b081c7adb19",
+      "company": "HDFC Ergo",
+      "title": "Lead and delivered end -to-end insurance integrations with top insurers",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "v8df244aff0e9ac03",
+      "company": "University of Pune",
+      "title": "B.E - Computer Engineering",
+      "start_date": "2010-01",
+      "end_date": "2015-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 7,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "SiddheshRBhagat",
+    "filename": "SiddheshRBhagat.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "v8df244aff0e9ac03",
+        "type": "EDUCATION",
+        "title": "B.E - Computer Engineering",
+        "org": "University of Pune",
+        "start": "2010-01",
+        "end": "2015-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EDUCATION_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "B.E - Computer Engineering\nUniversity of Pune",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "B.E - Computer Engineering",
+              "block_id": "b94",
+              "kind": "text",
+              "start": 4231,
+              "end": 4257
+            },
+            {
+              "page": 1,
+              "text": "University of Pune",
+              "block_id": "b95",
+              "kind": "text",
+              "start": 4259,
+              "end": 4277
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2010 - 2015",
+              "block_id": "b98",
+              "kind": "text",
+              "start": 4320,
+              "end": 4331
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "University of Pune",
+              "block_id": "b95",
+              "kind": "text",
+              "start": 4259,
+              "end": 4277
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "B.E - Computer Engineering",
+              "block_id": "b94",
+              "kind": "text",
+              "start": 4231,
+              "end": 4257
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2010 - 2015",
+          "is_present": false
+        },
+        "date_label": "2010 - 2015",
+        "section": "EDUCATION",
+        "is_present": false
+      },
+      {
+        "id": "v2ede007701b25d31",
+        "type": "INTERNSHIP",
+        "title": "Intern Software Developer",
+        "org": "",
+        "start": "2017-02",
+        "end": "2017-06",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_INTERNSHIP_CUES"
+        ],
+        "quote": "Intern Software Developer\nFeb 2017 - June 2017",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Intern Software Developer",
+              "block_id": "b80",
+              "kind": "text",
+              "start": 3760,
+              "end": 3785
+            },
+            {
+              "page": 1,
+              "text": "Feb 2017 - June 2017",
+              "block_id": "b81",
+              "kind": "text",
+              "start": 3787,
+              "end": 3807
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Feb 2017 - June 2017",
+              "block_id": "b81",
+              "kind": "text",
+              "start": 3787,
+              "end": 3807
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Intern Software Developer",
+              "block_id": "b80",
+              "kind": "text",
+              "start": 3760,
+              "end": 3785
+            }
+          ],
+          "section": "KEY  SKILLS",
+          "date_label": "Feb 2017 - June 2017",
+          "is_present": false
+        },
+        "date_label": "Feb 2017 - June 2017",
+        "section": "KEY  SKILLS",
+        "is_present": false
+      },
+      {
+        "id": "vcb72b70d6bd18602",
+        "type": "EMPLOYMENT",
+        "title": "Software Developer",
+        "org": "",
+        "start": "2017-06",
+        "end": "2019-06",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Software Developer\nJune 2017 - June 2019",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Software Developer",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 3051,
+              "end": 3069
+            },
+            {
+              "page": 1,
+              "text": "June 2017 - June 2019",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 3071,
+              "end": 3092
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "June 2017 - June 2019",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 3071,
+              "end": 3092
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Software Developer",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 3051,
+              "end": 3069
+            }
+          ],
+          "section": "KEY  SKILLS",
+          "date_label": "June 2017 - June 2019",
+          "is_present": false
+        },
+        "date_label": "June 2017 - June 2019",
+        "section": "KEY  SKILLS",
+        "is_present": false
+      },
+      {
+        "id": "v3b5ffeb31db78521",
+        "type": "EMPLOYMENT",
+        "title": "Senior Software Developer",
+        "org": "",
+        "start": "2019-07",
+        "end": "2022-04",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Senior Software Developer\nJuly 2019 - April 2022",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Software Developer",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 2116,
+              "end": 2141
+            },
+            {
+              "page": 1,
+              "text": "July 2019 - April 2022",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 2143,
+              "end": 2165
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "July 2019 - April 2022",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 2143,
+              "end": 2165
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Software Developer",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 2116,
+              "end": 2141
+            }
+          ],
+          "section": "KEY  SKILLS",
+          "date_label": "July 2019 - April 2022",
+          "is_present": false
+        },
+        "date_label": "July 2019 - April 2022",
+        "section": "KEY  SKILLS",
+        "is_present": false
+      },
+      {
+        "id": "v6eace5d92197699a",
+        "type": "EMPLOYMENT",
+        "title": "Team Lead",
+        "org": "",
+        "start": "2022-04",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Team Lead\nAprIl 2022 - Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Team Lead",
+              "block_id": "b20",
+              "kind": "text",
+              "start": 835,
+              "end": 844
+            },
+            {
+              "page": 1,
+              "text": "AprIl 2022 - Present",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 846,
+              "end": 866
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "AprIl 2022 - Present",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 846,
+              "end": 866
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Team Lead",
+              "block_id": "b20",
+              "kind": "text",
+              "start": 835,
+              "end": 844
+            }
+          ],
+          "section": "KEY  SKILLS",
+          "date_label": "AprIl 2022 - Present",
+          "is_present": true
+        },
+        "date_label": "AprIl 2022 - Present",
+        "section": "KEY  SKILLS",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v5b0e84e4dba86bce",
+        "type": "EMPLOYMENT",
+        "title": "Working as the Lead Developer/Team Lead on a Loan Risk Management System for",
+        "org": "India’s largest public sector bank",
+        "entry_text": "Working as the Lead Developer/Team Lead on a Loan Risk Management System for India’s largest public sector bank, used by 500+ banking officials to assess and manage corporate borrower risks. Implemented workflow automation, detailed MIS analytics, and risk-grade assessments to minimize loan defaults",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Working as the Lead Developer/Team Lead on a Loan Risk Management System for",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 1016,
+              "end": 1092
+            },
+            {
+              "page": 1,
+              "text": "India’s largest public sector bank, used by 500+ banking officials to assess and manage",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 1094,
+              "end": 1181
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "India’s largest public sector bank",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 1094,
+              "end": 1128
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Working as the Lead Developer/Team Lead on a Loan Risk Management System for",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 1016,
+              "end": 1092
+            }
+          ],
+          "section": "KEY  SKILLS",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "KEY  SKILLS",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v18bf8f282b6ede00",
+        "type": "EMPLOYMENT",
+        "title": "As a module lead",
+        "org": "",
+        "entry_text": "As a module lead - Architected and implemented a high -volume notification framework for India’s largest payment gateway, integrating with 40+ banks (HDFC, ICICI, SBI, etc.) using Kafka, Spring Boot, and Async HTTP, handling 50M+ notifications/month.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "As a module lead - Architected and implemented a high -volume notification framework",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 2339,
+              "end": 2423
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "As a module lead",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 2339,
+              "end": 2355
+            }
+          ],
+          "section": "KEY  SKILLS",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "KEY  SKILLS",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "vddba5b081c7adb19",
+        "type": "EMPLOYMENT",
+        "title": "Lead and delivered end -to-end insurance integrations with top insurers",
+        "org": "HDFC Ergo",
+        "entry_text": "Lead and delivered end -to-end insurance integrations with top insurers - HDFC Ergo, ICICI Lombard, Max Bupa, HDFC Life, ICICI Prudential, Bajaj Allianz, Universal Sompo, and more. Used generic designs in the implementations, thus avoiding the use of any insurer-specific code. Tech stack: Java, Play",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Lead and delivered end -to-end insurance integrations with top insurers - HDFC Ergo,",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 3362,
+              "end": 3446
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "HDFC Ergo",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 3436,
+              "end": 3445
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Lead and delivered end -to-end insurance integrations with top insurers",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 3362,
+              "end": 3433
+            }
+          ],
+          "section": "KEY  SKILLS",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "KEY  SKILLS",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "v5b0e84e4dba86bce",
+            "v18bf8f282b6ede00",
+            "vddba5b081c7adb19"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 5,
+      "total_events": 8,
+      "dated_share": 0.625,
+      "unresolved": 3,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.873,
+      "document_accuracy": 0.84
+    },
+    "total_represented_months": 188,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

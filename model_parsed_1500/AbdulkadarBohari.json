@@ -1,0 +1,723 @@
+{
+  "file_name": "AbdulkadarBohari.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 5,
+    "total_events": 6,
+    "dated_share": 0.833,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v0cb46cdc2007bbb5",
+      "company": "",
+      "title": "Network Engineer Intern",
+      "start_date": "2019-01",
+      "end_date": "2019-03",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v152e69d91dc60802",
+      "company": "Nexapp Technology Pvt. Ltd",
+      "title": "Network Support Engineer",
+      "start_date": "2019-05",
+      "end_date": "2021-10",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vf1cd69ebadd41e92",
+      "company": "ESDS Software Solutions",
+      "title": "Senior Network Engineer",
+      "start_date": "2021-10",
+      "end_date": "2025-06",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v8fde8101491ce1e2",
+      "company": "Blackline Systems",
+      "title": "Senior Network Engineer",
+      "start_date": "2025-07",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "v97fd5d85e9e971d1",
+      "company": "Trinity College of Engineering",
+      "title": "B.E. (Electronics & Telecommunication",
+      "start_date": "2014-06",
+      "end_date": "2018-07",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v21d7ea5643646c70",
+      "company": "Poona College of Art & Science",
+      "title": "HSC (Higher Secondary Certificate",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    }
+  ],
+  "gaps": [
+    {
+      "id": "gb92e71cf9ec20fd3",
+      "start": "2019-04",
+      "end": "2019-04",
+      "months": 1,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    }
+  ],
+  "total_work_experience": 4,
+  "total_projects": 0,
+  "total_gaps": 1,
+  "raw_pipeline_dto": {
+    "doc_id": "AbdulkadarBohari",
+    "filename": "AbdulkadarBohari.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v97fd5d85e9e971d1",
+        "type": "EDUCATION",
+        "title": "B.E. (Electronics & Telecommunication",
+        "org": "Trinity College of Engineering",
+        "start": "2014-06",
+        "end": "2018-07",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "B.E. (Electronics & Telecommunication) June 2014 – July 2018\nTrinity College of Engineering | CGPA: 60.19%",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "B.E. (Electronics & Telecommunication) June 2014 – July 2018",
+              "block_id": "b77",
+              "kind": "text",
+              "start": 5051,
+              "end": 5111
+            },
+            {
+              "page": 1,
+              "text": "Trinity College of Engineering | CGPA: 60.19%",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 5113,
+              "end": 5158
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "June 2014 – July 2018",
+              "block_id": "b77",
+              "kind": "text",
+              "start": 5090,
+              "end": 5111
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Trinity College of Engineering",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 5113,
+              "end": 5143
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "B.E. (Electronics & Telecommunication",
+              "block_id": "b77",
+              "kind": "text",
+              "start": 5051,
+              "end": 5088
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "June 2014 – July 2018",
+          "is_present": false
+        },
+        "date_label": "June 2014 – July 2018",
+        "section": "EDUCATION",
+        "is_present": false
+      },
+      {
+        "id": "v0cb46cdc2007bbb5",
+        "type": "INTERNSHIP",
+        "title": "Network Engineer Intern",
+        "org": "",
+        "start": "2019-01",
+        "end": "2019-03",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_INTERNSHIP_CUES"
+        ],
+        "quote": "Network Engineer Intern January 2019 – March 2019",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Network Engineer Intern January 2019 – March 2019",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 3683,
+              "end": 3732
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "January 2019 – March 2019",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 3707,
+              "end": 3732
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Network Engineer Intern",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 3683,
+              "end": 3706
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "January 2019 – March 2019",
+          "is_present": false
+        },
+        "date_label": "January 2019 – March 2019",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v152e69d91dc60802",
+        "type": "EMPLOYMENT",
+        "title": "Network Support Engineer",
+        "org": "Nexapp Technology Pvt. Ltd",
+        "start": "2019-05",
+        "end": "2021-10",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Network Support Engineer May 2019 – October 2021\nNexapp Technology Pvt. Ltd.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Network Support Engineer May 2019 – October 2021",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 3098,
+              "end": 3146
+            },
+            {
+              "page": 1,
+              "text": "Nexapp Technology Pvt. Ltd.",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 3148,
+              "end": 3175
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "May 2019 – October 2021",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 3123,
+              "end": 3146
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Nexapp Technology Pvt. Ltd",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 3148,
+              "end": 3174
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Network Support Engineer",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 3098,
+              "end": 3122
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "May 2019 – October 2021",
+          "is_present": false
+        },
+        "date_label": "May 2019 – October 2021",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vf1cd69ebadd41e92",
+        "type": "EMPLOYMENT",
+        "title": "Senior Network Engineer",
+        "org": "ESDS Software Solutions",
+        "start": "2021-10",
+        "end": "2025-06",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Senior Network Engineer October 2021 – June 2025\nESDS Software Solutions",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Network Engineer October 2021 – June 2025",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 1835,
+              "end": 1883
+            },
+            {
+              "page": 1,
+              "text": "ESDS Software Solutions",
+              "block_id": "b30",
+              "kind": "text",
+              "start": 1885,
+              "end": 1908
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "October 2021 – June 2025",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 1859,
+              "end": 1883
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "ESDS Software Solutions",
+              "block_id": "b30",
+              "kind": "text",
+              "start": 1885,
+              "end": 1908
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Network Engineer",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 1835,
+              "end": 1858
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "October 2021 – June 2025",
+          "is_present": false
+        },
+        "date_label": "October 2021 – June 2025",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v8fde8101491ce1e2",
+        "type": "EMPLOYMENT",
+        "title": "Senior Network Engineer",
+        "org": "Blackline Systems",
+        "start": "2025-07",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Senior Network Engineer July 2025 – Present\nBlackline Systems",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Network Engineer July 2025 – Present",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 1216,
+              "end": 1259
+            },
+            {
+              "page": 1,
+              "text": "Blackline Systems",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 1261,
+              "end": 1278
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "July 2025 – Present",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 1240,
+              "end": 1259
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Blackline Systems",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 1261,
+              "end": 1278
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Network Engineer",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 1216,
+              "end": 1239
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "July 2025 – Present",
+          "is_present": true
+        },
+        "date_label": "July 2025 – Present",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v21d7ea5643646c70",
+        "type": "EDUCATION",
+        "title": "HSC (Higher Secondary Certificate",
+        "org": "Poona College of Art & Science",
+        "entry_text": "HSC (Higher Secondary Certificate) April 2014 Poona College of Art & Science | 60% SSC (Secondary School Certificate) March 2012 K.R. Public School | 73.84%",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "HSC (Higher Secondary Certificate) April 2014",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 5160,
+              "end": 5205
+            },
+            {
+              "page": 1,
+              "text": "Poona College of Art & Science | 60%",
+              "block_id": "b80",
+              "kind": "text",
+              "start": 5207,
+              "end": 5243
+            },
+            {
+              "page": 1,
+              "text": "SSC (Secondary School Certificate) March 2012",
+              "block_id": "b81",
+              "kind": "text",
+              "start": 5245,
+              "end": 5290
+            },
+            {
+              "page": 1,
+              "text": "K.R. Public School | 73.84%",
+              "block_id": "b82",
+              "kind": "text",
+              "start": 5292,
+              "end": 5319
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "April 2014",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 5195,
+              "end": 5205
+            },
+            {
+              "page": 1,
+              "text": "March 2012",
+              "block_id": "b81",
+              "kind": "text",
+              "start": 5280,
+              "end": 5290
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Poona College of Art & Science",
+              "block_id": "b80",
+              "kind": "text",
+              "start": 5207,
+              "end": 5237
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "HSC (Higher Secondary Certificate",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 5160,
+              "end": 5193
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "April 2014 / March 2012",
+          "is_present": false
+        },
+        "date_label": "April 2014 / March 2012",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "gb92e71cf9ec20fd3",
+        "start": [
+          2019,
+          4
+        ],
+        "end": [
+          2019,
+          4
+        ],
+        "months": 1,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "v0cb46cdc2007bbb5",
+          "event_after": "v152e69d91dc60802",
+          "coverage_scope": "employment"
+        },
+        "start_label": "2019-04",
+        "end_label": "2019-04",
+        "evidence_quotes": [
+          "Network Engineer Intern January 2019 – March 2019",
+          "Network Support Engineer May 2019 – October 2021 Nexapp Technology Pvt. Ltd."
+        ],
+        "evidence_details": [
+          {
+            "header": "Network Engineer Intern",
+            "quote": "Network Engineer Intern January 2019 – March 2019",
+            "event_id": "v0cb46cdc2007bbb5",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Network Engineer Intern January 2019 – March 2019",
+                  "block_id": "b56",
+                  "kind": "text",
+                  "start": 3683,
+                  "end": 3732
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "January 2019 – March 2019",
+                  "block_id": "b56",
+                  "kind": "text",
+                  "start": 3707,
+                  "end": 3732
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Network Engineer Intern",
+                  "block_id": "b56",
+                  "kind": "text",
+                  "start": 3683,
+                  "end": 3706
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "January 2019 – March 2019",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Network Support Engineer at Nexapp Technology Pvt. Ltd",
+            "quote": "Network Support Engineer May 2019 – October 2021 Nexapp Technology Pvt. Ltd.",
+            "event_id": "v152e69d91dc60802",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Network Support Engineer May 2019 – October 2021",
+                  "block_id": "b47",
+                  "kind": "text",
+                  "start": 3098,
+                  "end": 3146
+                },
+                {
+                  "page": 1,
+                  "text": "Nexapp Technology Pvt. Ltd.",
+                  "block_id": "b48",
+                  "kind": "text",
+                  "start": 3148,
+                  "end": 3175
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "May 2019 – October 2021",
+                  "block_id": "b47",
+                  "kind": "text",
+                  "start": 3123,
+                  "end": 3146
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Nexapp Technology Pvt. Ltd",
+                  "block_id": "b48",
+                  "kind": "text",
+                  "start": 3148,
+                  "end": 3174
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Network Support Engineer",
+                  "block_id": "b47",
+                  "kind": "text",
+                  "start": 3098,
+                  "end": 3122
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "May 2019 – October 2021",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 5,
+      "total_events": 6,
+      "dated_share": 0.833,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 142,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

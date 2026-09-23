@@ -1,0 +1,434 @@
+{
+  "file_name": "Ram Verma.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 5,
+    "dated_share": 0.4,
+    "unresolved": 3,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "vb292cb959bd9a19d",
+      "company": "",
+      "title": "Technical Lead",
+      "start_date": "2026-06",
+      "end_date": "2026-07",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v60f4827dac3d7ed4",
+      "company": "",
+      "title": "Delivery Senior Specialist",
+      "start_date": "2026-07",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "v0e4fa4ec6c7129ab",
+      "company": "Kuvempu University",
+      "title": "B.SC.IT",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    },
+    {
+      "id": "vc793fc84f8e25c5f",
+      "company": "",
+      "title": "HSC",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    },
+    {
+      "id": "v41706539b68da285",
+      "company": "",
+      "title": "SSC",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 2,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "Ram Verma",
+    "filename": "Ram Verma.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "vb292cb959bd9a19d",
+        "type": "EMPLOYMENT",
+        "title": "Technical Lead",
+        "org": "",
+        "start": "2026-06",
+        "end": "2026-07",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Technical Lead, 06/2026 – 07/2026",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Technical Lead, 06/2026 – 07/2026",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 1730,
+              "end": 1763
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "06/2026 – 07/2026",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 1746,
+              "end": 1763
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Technical Lead",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 1730,
+              "end": 1744
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "06/2026 – 07/2026",
+          "is_present": false
+        },
+        "date_label": "06/2026 – 07/2026",
+        "section": "EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v60f4827dac3d7ed4",
+        "type": "EMPLOYMENT",
+        "title": "Delivery Senior Specialist",
+        "org": "",
+        "start": "2026-07",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Delivery Senior Specialist, 7/2026-current",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Delivery Senior Specialist, 7/2026-current",
+              "block_id": "b14",
+              "kind": "text",
+              "start": 766,
+              "end": 808
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "7/2026-current",
+              "block_id": "b14",
+              "kind": "text",
+              "start": 794,
+              "end": 808
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Delivery Senior Specialist",
+              "block_id": "b14",
+              "kind": "text",
+              "start": 766,
+              "end": 792
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "7/2026-current",
+          "is_present": true
+        },
+        "date_label": "7/2026-current",
+        "section": "EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v0e4fa4ec6c7129ab",
+        "type": "EDUCATION",
+        "title": "B.SC.IT",
+        "org": "Kuvempu University",
+        "entry_text": "B.SC.IT, 01/2015 Kuvempu University GPA: 60% GNIIT,  01/2014 NIIT GPA: 78%",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "B.SC.IT, 01/2015",
+              "block_id": "b148",
+              "kind": "text",
+              "start": 6805,
+              "end": 6821
+            },
+            {
+              "page": 1,
+              "text": "Kuvempu University",
+              "block_id": "b149",
+              "kind": "text",
+              "start": 6823,
+              "end": 6841
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "01/2015",
+              "block_id": "b148",
+              "kind": "text",
+              "start": 6814,
+              "end": 6821
+            },
+            {
+              "page": 1,
+              "text": "01/2014",
+              "block_id": "b151",
+              "kind": "text",
+              "start": 6863,
+              "end": 6870
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Kuvempu University",
+              "block_id": "b149",
+              "kind": "text",
+              "start": 6823,
+              "end": 6841
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "B.SC.IT",
+              "block_id": "b148",
+              "kind": "text",
+              "start": 6805,
+              "end": 6812
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "01/2015",
+          "is_present": false
+        },
+        "date_label": "01/2015",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      },
+      {
+        "id": "vc793fc84f8e25c5f",
+        "type": "EDUCATION",
+        "title": "HSC",
+        "org": "",
+        "entry_text": "HSC, 01/2010 CBSE GPA: 52%",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "HSC, 01/2010",
+              "block_id": "b154",
+              "kind": "text",
+              "start": 6890,
+              "end": 6902
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "01/2010",
+              "block_id": "b154",
+              "kind": "text",
+              "start": 6895,
+              "end": 6902
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "HSC",
+              "block_id": "b154",
+              "kind": "text",
+              "start": 6890,
+              "end": 6893
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "01/2010",
+          "is_present": false
+        },
+        "date_label": "01/2010",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      },
+      {
+        "id": "v41706539b68da285",
+        "type": "EDUCATION",
+        "title": "SSC",
+        "org": "",
+        "entry_text": "SSC, 01/2008 CBSE GPA: 67%",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "SSC, 01/2008",
+              "block_id": "b157",
+              "kind": "text",
+              "start": 6922,
+              "end": 6934
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "01/2008",
+              "block_id": "b157",
+              "kind": "text",
+              "start": 6927,
+              "end": 6934
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "SSC",
+              "block_id": "b157",
+              "kind": "text",
+              "start": 6922,
+              "end": 6925
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "01/2008",
+          "is_present": false
+        },
+        "date_label": "01/2008",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "NO_GAP_DETECTED",
+        "confidence": 0.9,
+        "reasons": [],
+        "evidence": {
+          "note": "no uncovered months between supported entries"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 5,
+      "dated_share": 0.4,
+      "unresolved": 3,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 4,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

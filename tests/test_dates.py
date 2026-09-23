@@ -53,6 +53,19 @@ class TestFindMentions(unittest.TestCase):
         self.assertTrue(rng)
         self.assertEqual((rng[0]["start"], rng[0]["end"]), ((2025, 7), (2026, 9)))
 
+    def test_iso_numeric_range_and_repeated_offsets(self):
+        for text, expected in [
+            ("2018-10 – 2021-05", ((2018, 10), (2021, 5))),
+            ("08/2014 – 07/2018", ((2014, 8), (2018, 7))),
+        ]:
+            ms = D.find_mentions(text)
+            self.assertEqual(len(ms), 1)
+            self.assertEqual((ms[0]["start"], ms[0]["end"]), expected)
+            self.assertTrue(ms[0]["is_range"])
+        ms = D.find_mentions("January 2020")
+        self.assertEqual(len(ms), 1)  # no duplicate year-only mention
+        self.assertFalse(any(m["is_range"] for m in D.find_mentions("13/2018 – 10/2019")))
+
     def test_no_invention(self):
         self.assertEqual(D.find_mentions("loves hiking and open source", TODAY), [])
         self.assertEqual(D.find_mentions("", TODAY), [])

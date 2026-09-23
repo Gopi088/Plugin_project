@@ -1,0 +1,191 @@
+{
+  "file_name": "KaustubhSalvi.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 1,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.765,
+    "document_accuracy": 0.77
+  },
+  "work_experience": [],
+  "projects": [],
+  "education": [
+    {
+      "id": "ved66402cb61cf20f",
+      "company": "University of Mumbai",
+      "title": "Bachelor of Accounting and Finance",
+      "start_date": "2020-01",
+      "end_date": "2023-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 0,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "KaustubhSalvi",
+    "filename": "KaustubhSalvi.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "ved66402cb61cf20f",
+        "type": "EDUCATION",
+        "title": "Bachelor of Accounting and Finance",
+        "org": "University of Mumbai",
+        "start": "2020-01",
+        "end": "2023-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "Bachelor of Accounting and Finance\nUniversity of Mumbai | 2020 – 2023",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor of Accounting and Finance",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 3415,
+              "end": 3449
+            },
+            {
+              "page": 1,
+              "text": "University of Mumbai | 2020 – 2023",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 3451,
+              "end": 3485
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2020 – 2023",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 3474,
+              "end": 3485
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "University of Mumbai",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 3451,
+              "end": 3471
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Accounting and Finance",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 3415,
+              "end": 3449
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2020 – 2023",
+          "is_present": false
+        },
+        "date_label": "2020 – 2023",
+        "section": "EDUCATION",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 1,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.765,
+      "document_accuracy": 0.77
+    },
+    "total_represented_months": 48,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

@@ -1,0 +1,553 @@
+{
+  "file_name": "MuditKumarSrivastava[10y_4m] (2).pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 3,
+    "total_events": 4,
+    "dated_share": 0.75,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "vcf2c56b43034c1bc",
+      "company": "Alight Solutions",
+      "title": "Senior Setup Configuration Specialist",
+      "start_date": "2015-11",
+      "end_date": "2018-08",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v46afb4e7ba693b0e",
+      "company": "Mercer",
+      "title": "Lead Analyst",
+      "start_date": "2018-10",
+      "end_date": "2022-08",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v2e9a23149174e39d",
+      "company": "Infosys",
+      "title": "Senior Consultant",
+      "start_date": "2022-08",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "vec0e7a7180f94e25",
+      "company": "Integral University",
+      "title": "B.Tech/B.E.",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    }
+  ],
+  "gaps": [
+    {
+      "id": "g48091dc7d6070d27",
+      "start": "2018-09",
+      "end": "2018-09",
+      "months": 1,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    }
+  ],
+  "total_work_experience": 3,
+  "total_projects": 0,
+  "total_gaps": 1,
+  "raw_pipeline_dto": {
+    "doc_id": "MuditKumarSrivastava[10y_4m] (2)",
+    "filename": "MuditKumarSrivastava[10y_4m] (2).pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "vcf2c56b43034c1bc",
+        "type": "EMPLOYMENT",
+        "title": "Senior Setup Configuration Specialist",
+        "org": "Alight Solutions",
+        "start": "2015-11",
+        "end": "2018-08",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Senior Setup Configuration Specialist - Alight Solutions Nov 2015 - Aug 2018\nAlight Solutions",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Setup Configuration Specialist - Alight Solutions Nov 2015 - Aug 2018",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 3086,
+              "end": 3162
+            },
+            {
+              "page": 1,
+              "text": "Alight Solutions",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 3166,
+              "end": 3182
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Nov 2015 - Aug 2018",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 3143,
+              "end": 3162
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Alight Solutions",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 3126,
+              "end": 3142
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Setup Configuration Specialist",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 3086,
+              "end": 3123
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "Nov 2015 - Aug 2018",
+          "is_present": false
+        },
+        "date_label": "Nov 2015 - Aug 2018",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v46afb4e7ba693b0e",
+        "type": "EMPLOYMENT",
+        "title": "Lead Analyst",
+        "org": "Mercer",
+        "start": "2018-10",
+        "end": "2022-08",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Lead Analyst - Mercer Oct 2018 - Aug 2022",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Lead Analyst - Mercer Oct 2018 - Aug 2022",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 3031,
+              "end": 3072
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Oct 2018 - Aug 2022",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 3053,
+              "end": 3072
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Mercer",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 3046,
+              "end": 3052
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Lead Analyst",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 3031,
+              "end": 3043
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "Oct 2018 - Aug 2022",
+          "is_present": false
+        },
+        "date_label": "Oct 2018 - Aug 2022",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v2e9a23149174e39d",
+        "type": "EMPLOYMENT",
+        "title": "Senior Consultant",
+        "org": "Infosys",
+        "start": "2022-08",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Senior Consultant - Infosys Aug 2022 - Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Consultant - Infosys Aug 2022 - Present",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 1049,
+              "end": 1095
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Aug 2022 - Present",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 1077,
+              "end": 1095
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Infosys",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 1069,
+              "end": 1076
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Consultant",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 1049,
+              "end": 1066
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "Aug 2022 - Present",
+          "is_present": true
+        },
+        "date_label": "Aug 2022 - Present",
+        "section": "WORK EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "vec0e7a7180f94e25",
+        "type": "EDUCATION",
+        "title": "B.Tech/B.E.",
+        "org": "Integral University",
+        "entry_text": "B.Tech/B.E. | Computer Science and Engineering (CSE) Integral University, Lucknow 2015 MUDIT KUMAR SRIVASTAVA CONSULTANT 9140571059         mudit064@gmail.com                     Pune        10 Years Experience",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "B.Tech/B.E. | Computer Science and Engineering (CSE)",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 3200,
+              "end": 3252
+            },
+            {
+              "page": 1,
+              "text": "Integral University, Lucknow",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 3254,
+              "end": 3282
+            },
+            {
+              "page": 1,
+              "text": "2015",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 3288,
+              "end": 3292
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2015",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 3288,
+              "end": 3292
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Integral University",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 3254,
+              "end": 3273
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "B.Tech/B.E",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 3200,
+              "end": 3210
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2015",
+          "is_present": false
+        },
+        "date_label": "2015",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g48091dc7d6070d27",
+        "start": [
+          2018,
+          9
+        ],
+        "end": [
+          2018,
+          9
+        ],
+        "months": 1,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "vcf2c56b43034c1bc",
+          "event_after": "v46afb4e7ba693b0e",
+          "coverage_scope": "employment"
+        },
+        "start_label": "2018-09",
+        "end_label": "2018-09",
+        "evidence_quotes": [
+          "Senior Setup Configuration Specialist - Alight Solutions Nov 2015 - Aug 2018 Alight Solutions",
+          "Lead Analyst - Mercer Oct 2018 - Aug 2022"
+        ],
+        "evidence_details": [
+          {
+            "header": "Senior Setup Configuration Specialist at Alight Solutions",
+            "quote": "Senior Setup Configuration Specialist - Alight Solutions Nov 2015 - Aug 2018 Alight Solutions",
+            "event_id": "vcf2c56b43034c1bc",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Senior Setup Configuration Specialist - Alight Solutions Nov 2015 - Aug 2018",
+                  "block_id": "b54",
+                  "kind": "text",
+                  "start": 3086,
+                  "end": 3162
+                },
+                {
+                  "page": 1,
+                  "text": "Alight Solutions",
+                  "block_id": "b55",
+                  "kind": "text",
+                  "start": 3166,
+                  "end": 3182
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Nov 2015 - Aug 2018",
+                  "block_id": "b54",
+                  "kind": "text",
+                  "start": 3143,
+                  "end": 3162
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Alight Solutions",
+                  "block_id": "b54",
+                  "kind": "text",
+                  "start": 3126,
+                  "end": 3142
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Senior Setup Configuration Specialist",
+                  "block_id": "b54",
+                  "kind": "text",
+                  "start": 3086,
+                  "end": 3123
+                }
+              ],
+              "section": "WORK EXPERIENCE",
+              "date_label": "Nov 2015 - Aug 2018",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Lead Analyst at Mercer",
+            "quote": "Lead Analyst - Mercer Oct 2018 - Aug 2022",
+            "event_id": "v46afb4e7ba693b0e",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Lead Analyst - Mercer Oct 2018 - Aug 2022",
+                  "block_id": "b52",
+                  "kind": "text",
+                  "start": 3031,
+                  "end": 3072
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Oct 2018 - Aug 2022",
+                  "block_id": "b52",
+                  "kind": "text",
+                  "start": 3053,
+                  "end": 3072
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Mercer",
+                  "block_id": "b52",
+                  "kind": "text",
+                  "start": 3046,
+                  "end": 3052
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Lead Analyst",
+                  "block_id": "b52",
+                  "kind": "text",
+                  "start": 3031,
+                  "end": 3043
+                }
+              ],
+              "section": "WORK EXPERIENCE",
+              "date_label": "Oct 2018 - Aug 2022",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 3,
+      "total_events": 4,
+      "dated_share": 0.75,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 130,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

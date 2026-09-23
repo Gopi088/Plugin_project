@@ -1,0 +1,469 @@
+{
+  "file_name": "Navjyot Chaware.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 3,
+    "total_events": 4,
+    "dated_share": 0.75,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v2581aa651d5d0e17",
+      "company": "",
+      "title": "Process Associate",
+      "start_date": "2023-05",
+      "end_date": "2023-08",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v81218e16fc53fe5f",
+      "company": "",
+      "title": "Clearing & Settlement Associate",
+      "start_date": "2023-09",
+      "end_date": "2025-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v24aca474a79b8839",
+      "company": "Transcom India - Gurugram, India (Onsite",
+      "title": "",
+      "start_date": "2026-02",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "ve9e5adad6cb873c8",
+      "company": "",
+      "title": "Bachelor Of Business Administration",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    }
+  ],
+  "gaps": [
+    {
+      "id": "g87778e2565738940",
+      "start": "2026-01",
+      "end": "2026-01",
+      "months": 1,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    }
+  ],
+  "total_work_experience": 3,
+  "total_projects": 0,
+  "total_gaps": 1,
+  "raw_pipeline_dto": {
+    "doc_id": "Navjyot Chaware",
+    "filename": "Navjyot Chaware.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v2581aa651d5d0e17",
+        "type": "EMPLOYMENT",
+        "title": "Process Associate",
+        "org": "",
+        "start": "2023-05",
+        "end": "2023-08",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Process Associate – Morgan Stanley & Int. PLC Project – BFSI",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Process Associate – Morgan Stanley & Int. PLC Project – BFSI",
+              "block_id": "b27",
+              "kind": "text",
+              "start": 2047,
+              "end": 2107
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "05/2023 – 08/2023",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 4733,
+              "end": 4750
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Process Associate",
+              "block_id": "b27",
+              "kind": "text",
+              "start": 2047,
+              "end": 2064
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "05/2023 – 08/2023",
+          "is_present": false
+        },
+        "date_label": "05/2023 – 08/2023",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v81218e16fc53fe5f",
+        "type": "EMPLOYMENT",
+        "title": "Clearing & Settlement Associate",
+        "org": "",
+        "start": "2023-09",
+        "end": "2025-12",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Clearing & Settlement Associate",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Clearing & Settlement Associate",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 600,
+              "end": 631
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "09/2023 – 12/2025",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 2026,
+              "end": 2043
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Clearing & Settlement Associate",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 600,
+              "end": 631
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "09/2023 – 12/2025",
+          "is_present": false
+        },
+        "date_label": "09/2023 – 12/2025",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v24aca474a79b8839",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Transcom India - Gurugram, India (Onsite",
+        "start": "2026-02",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Transcom India - Gurugram, India (Onsite) 02/2026 - Ongoing",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Transcom India - Gurugram, India (Onsite) 02/2026 - Ongoing",
+              "block_id": "b9",
+              "kind": "text",
+              "start": 537,
+              "end": 596
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "02/2026 - Ongoing",
+              "block_id": "b9",
+              "kind": "text",
+              "start": 579,
+              "end": 596
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Transcom India - Gurugram, India (Onsite",
+              "block_id": "b9",
+              "kind": "text",
+              "start": 537,
+              "end": 577
+            }
+          ],
+          "title": [],
+          "section": "WORK EXPERIENCE",
+          "date_label": "02/2026 - Ongoing",
+          "is_present": true
+        },
+        "date_label": "02/2026 - Ongoing",
+        "section": "WORK EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "ve9e5adad6cb873c8",
+        "type": "EDUCATION",
+        "title": "Bachelor Of Business Administration",
+        "org": "",
+        "entry_text": "Bachelor Of Business Administration [2022] OTHER DETAILS ERP Systems • FIS - Intelli match, Tally ERP, Euroclear • MS – Office, Excel VBA(Basic)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor Of Business Administration [2022]",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 5355,
+              "end": 5397
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2022",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 5392,
+              "end": 5396
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor Of Business Administration",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 5355,
+              "end": 5390
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2022",
+          "is_present": false
+        },
+        "date_label": "2022",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g87778e2565738940",
+        "start": [
+          2026,
+          1
+        ],
+        "end": [
+          2026,
+          1
+        ],
+        "months": 1,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "v81218e16fc53fe5f",
+          "event_after": "v24aca474a79b8839",
+          "coverage_scope": "employment"
+        },
+        "start_label": "2026-01",
+        "end_label": "2026-01",
+        "evidence_quotes": [
+          "Clearing & Settlement Associate",
+          "Transcom India - Gurugram, India (Onsite) 02/2026 - Ongoing"
+        ],
+        "evidence_details": [
+          {
+            "header": "Clearing & Settlement Associate",
+            "quote": "Clearing & Settlement Associate",
+            "event_id": "v81218e16fc53fe5f",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Clearing & Settlement Associate",
+                  "block_id": "b10",
+                  "kind": "text",
+                  "start": 600,
+                  "end": 631
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "09/2023 – 12/2025",
+                  "block_id": "b26",
+                  "kind": "text",
+                  "start": 2026,
+                  "end": 2043
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Clearing & Settlement Associate",
+                  "block_id": "b10",
+                  "kind": "text",
+                  "start": 600,
+                  "end": 631
+                }
+              ],
+              "section": "WORK EXPERIENCE",
+              "date_label": "09/2023 – 12/2025",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Transcom India - Gurugram, India (Onsite",
+            "quote": "Transcom India - Gurugram, India (Onsite) 02/2026 - Ongoing",
+            "event_id": "v24aca474a79b8839",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Transcom India - Gurugram, India (Onsite) 02/2026 - Ongoing",
+                  "block_id": "b9",
+                  "kind": "text",
+                  "start": 537,
+                  "end": 596
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "02/2026 - Ongoing",
+                  "block_id": "b9",
+                  "kind": "text",
+                  "start": 579,
+                  "end": 596
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Transcom India - Gurugram, India (Onsite",
+                  "block_id": "b9",
+                  "kind": "text",
+                  "start": 537,
+                  "end": 577
+                }
+              ],
+              "title": [],
+              "section": "WORK EXPERIENCE",
+              "date_label": "02/2026 - Ongoing",
+              "is_present": true
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 3,
+      "total_events": 4,
+      "dated_share": 0.75,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 40,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

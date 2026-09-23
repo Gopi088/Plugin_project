@@ -32,19 +32,19 @@ MONTH_PAT = (r"(Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|"
 YEAR_PAT = r"((?:19|20)\d{2})"
 PRESENT_PAT = r"(?:" + "|".join(_present_words) + r")"
 # brackets often wrap dates ("[March - 2022] – Present"); tolerate them.
-SEPARATOR_PAT = r"(?:\s*[\]\)\"']*\s*(?:\u2013|\u2014|-|–|—|to|till|until|through|/)\s*[\[\(]*\s*)"
+SEPARATOR_PAT = r"(?:\s*[\]\)\"',]*\s*(?:\u2013|\u2014|-|–|—|to|till|until|through|/)\s*[\[\(]*\s*)"
 
-MONTH_YEAR_RE = re.compile(MONTH_PAT + r"[\s.\-/]*?" + YEAR_PAT, re.IGNORECASE)
+MONTH_YEAR_RE = re.compile(MONTH_PAT + r"[\s.\-/,]*?" + YEAR_PAT, re.IGNORECASE)
 DAY_MY_RE = re.compile(
-    MONTH_PAT + r"\s+(0?[1-9]|[12][0-9]|3[01])(?:st|nd|rd|th)?[,\s]+" + YEAR_PAT,
+    MONTH_PAT + r"\s*(0?[1-9]|[12][0-9]|3[01])(?:st|nd|rd|th)?[,\s]*" + YEAR_PAT,
     re.IGNORECASE)
 DMY_RE = re.compile(
     r"(0?[1-9]|[12][0-9]|3[01])(?:st|nd|rd|th)?\s+" + MONTH_PAT + r"[,\s]*" + YEAR_PAT,
     re.IGNORECASE)
 APOS_MY_RE = re.compile(MONTH_PAT + r"\s*[’']\s*(\d{2})(?!\d)", re.IGNORECASE)
 DASH_MY_RE = re.compile(MONTH_PAT + r"\s*[-./]\s*(\d{2})(?!\d)", re.IGNORECASE)
-NUM_MY_RE = re.compile(r"(0?[1-9]|1[0-2])[\-/]((?:19|20)\d{2})")
-NUM_YM_RE = re.compile(r"((?:19|20)\d{2})[\-/](0?[1-9]|1[0-2])")
+NUM_MY_RE = re.compile(r"(?<!\d)(1[0-2]|0?[1-9])[\-/]((?:19|20)\d{2})(?!\d)")
+NUM_YM_RE = re.compile(r"(?<!\d)((?:19|20)\d{2})[\-/](1[0-2]|0?[1-9])(?!\d)")
 YEAR_ONLY_RE = re.compile(r"(?<!\d)((?:19|20)\d{2})(?!\d)")
 PRESENT_RE = re.compile(PRESENT_PAT, re.IGNORECASE)
 
@@ -113,17 +113,17 @@ def find_mentions(line, today=None):
     text = line or ""
     out = []
     # 1) explicit ranges: <date-ish> sep <date-ish>
-    _day = (r"(?:" + MONTH_PAT + r"\s+(?:0?[1-9]|[12][0-9]|3[01])(?:st|nd|rd|th)?[,\s]+"
-            + YEAR_PAT + r"|(?:0?[1-9]|[12][0-9]|3[01])(?:st|nd|rd|th)?\s+"
+    _day = (r"(?:" + MONTH_PAT + r"\s*(?:0?[1-9]|[12][0-9]|3[01])(?:st|nd|rd|th)?[,\s]*"
+            + YEAR_PAT + r"|(?:0?[1-9]|[12][0-9]|3[01])(?:st|nd|rd|th)?\s*"
             + MONTH_PAT + r"[,\s]*" + YEAR_PAT + r")")
     _apos = MONTH_PAT + r"\s*[’']\s*\d{2}(?!\d)"
     _dashyy = MONTH_PAT + r"\s*[-./]\s*\d{2}(?!\d)"
-    date_bit = (r"(?:" + _day + r"|" + _apos + r"|" + _dashyy + r"|(?:(?:" + MONTH_PAT
-                + r"[\s.\-/]*?)?" + YEAR_PAT + r"|"
-                + PRESENT_PAT + r"|(?:0?[1-9]|1[0-2])[\-/](?:19|20)\d{2}))")
-    pat = re.compile(r"(?P<a>" + date_bit + r")" + SEPARATOR_PAT +
-                     r"(?P<b>" + PRESENT_PAT + r"|(?:" + date_bit + r"))",
-                     re.IGNORECASE)
+    numeric = r"(?:(?:19|20)\d{2}[\-/](?:1[0-2]|0?[1-9])|(?:1[0-2]|0?[1-9])[\-/](?:19|20)\d{2})(?!\d)"
+    date_bit = (r"(?:" + _day + r"|" + _apos + r"|" + _dashyy + r"|" + numeric
+                + r"|(?:" + MONTH_PAT + r"[\s.\-/,]*?)?" + YEAR_PAT
+                + r"|" + PRESENT_PAT + r")")
+    pat = re.compile(r"(?<![\d/])(?P<a>" + date_bit + r")" + SEPARATOR_PAT +
+                     r"(?P<b>" + date_bit + r")(?!\d)", re.IGNORECASE)
     consumed = []
     for m in pat.finditer(text):
         a, b = m.group("a"), m.group("b")
@@ -155,8 +155,8 @@ def find_mentions(line, today=None):
             or (DASH_MY_RE.search(raw) and not YEAR_ONLY_RE.search(raw))
             or re.search(r"(?<!\d)(?:0?[1-9]|1[0-2])[\-/](?:19|20)\d{2}(?!\d)", raw)
             or re.search(r"(?<!\d)(?:19|20)\d{2}[\-/](?:0?[1-9]|1[0-2])(?!\d)", raw))
-        out.append({"raw": raw, "start": sa, "end": sb,
-                    "precision": "month" if has_month else "year",
+        out.append({"raw": raw, "char_start": m.start(), "char_end": m.end(), "start": sa, "end": sb,
+                    "precision": "month" if parse_month_year(a) and (present or parse_month_year(b)) else "year",
                     "is_range": True, "is_present": present})
     # 2) single dates outside consumed ranges
     def _single(rx, parse):
@@ -165,8 +165,9 @@ def find_mentions(line, today=None):
                 continue
             parsed = parse(m)
             if parsed:
-                out.append({"raw": m.group(0).strip(), "start": parsed, "end": parsed,
+                out.append({"raw": m.group(0).strip(), "char_start": m.start(), "char_end": m.end(), "start": parsed, "end": parsed,
                             "precision": "month", "is_range": False, "is_present": False})
+                consumed.append((m.start(), m.end()))
 
     def _parse_my(m):
         mon = _month_num(m.group(1))
@@ -186,7 +187,7 @@ def find_mentions(line, today=None):
             continue
         parsed = parse_month_year(m.group(0))
         if parsed:
-            out.append({"raw": m.group(0).strip(), "start": parsed, "end": parsed,
+            out.append({"raw": m.group(0).strip(), "char_start": m.start(), "char_end": m.end(), "start": parsed, "end": parsed,
                         "precision": "month", "is_range": False, "is_present": False})
             consumed.append((m.start(), m.end()))
     for m in YEAR_ONLY_RE.finditer(text):
@@ -197,7 +198,7 @@ def find_mentions(line, today=None):
         if any(c in pre for c in ("+", "@", "$", "₹")) or any(c in post for c in ("@", "%")):
             continue
         y = int(m.group(1))
-        out.append({"raw": m.group(0).strip(), "start": (y, 1), "end": (y, 12),
+        out.append({"raw": m.group(0).strip(), "char_start": m.start(), "char_end": m.end(), "start": (y, 1), "end": (y, 12),
                     "precision": "year", "is_range": False, "is_present": False})
         consumed.append((m.start(), m.end()))
     # bare "Present" alone (e.g. end-date-only context) is not a standalone date.
@@ -206,6 +207,11 @@ def find_mentions(line, today=None):
 
 def month_index(ym):
     return ym[0] * 12 + ym[1]
+
+
+def add_months(ym, delta):
+    year, month = divmod(ym[0] * 12 + ym[1] - 1 + delta, 12)
+    return year, month + 1
 
 
 def months_between(a, b):

@@ -16,6 +16,9 @@ Endpoints (the extension never touches pipeline internals):
 import argparse
 import base64
 import json
+import hashlib
+import mimetypes
+from pathlib import Path
 import os
 import sys
 import urllib.request
@@ -28,6 +31,7 @@ from backend import docstore as DB
 from backend.pipeline_context import PipelineContext
 from backend.pipeline import runner
 from backend import ml_assist
+from backend import resume_matcher as MATCHER
 
 DB_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "store.db")
 EVAL_PATH = os.environ.get(
@@ -37,11 +41,27 @@ EVAL_PATH = os.environ.get(
 
 
 def _process(filename, raw_bytes, raw_text, source):
-    ctx = PipelineContext(DB.new_doc_id(), filename or "resume",
+    identity = raw_bytes if raw_bytes else (raw_text or "").encode("utf-8")
+    doc_id = hashlib.sha256(identity).hexdigest()[:32]
+    ctx = PipelineContext(doc_id, filename or "resume",
                           raw_text=raw_text or "", raw_bytes=raw_bytes or b"",
                           source=source or "upload",
                           model_versions={"model_timeline": ml_assist.version()})
+    # If external RESUME_PARSER_API_URL is active on port 8001, try querying it
+    api_result = MATCHER.parse_with_api(raw_bytes, filename or "resume.pdf")
+    if api_result:
+        ctx.meta["resume_parser_api"] = api_result
+        name = api_result.get("personalInfo", {}).get("name")
+        if name:
+            ctx.meta["candidate_name"] = name
+
     runner.run(ctx)
+
+    if ctx.recruiter_output:
+        cand = ctx.meta.get("candidate_name")
+        if cand and not ctx.recruiter_output.get("candidate_name"):
+            ctx.recruiter_output["candidate_name"] = cand
+
     overall = ctx.recruiter_output.get("status", "PARTIAL") if ctx.recruiter_output else "FAILED"
     cx = DB.connect(DB_PATH)
     try:
@@ -56,7 +76,7 @@ class Handler(BaseHTTPRequestHandler):
 
     def _cors(self):
         self.send_header("Access-Control-Allow-Origin", "*")
-        self.send_header("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
+        self.send_header("Access-Control-Allow-Methods", "GET, POST, PATCH, OPTIONS")
         self.send_header("Access-Control-Allow-Headers", "Content-Type")
 
     def _json(self, code, obj):
@@ -73,7 +93,66 @@ class Handler(BaseHTTPRequestHandler):
         self._cors()
         self.end_headers()
 
+    def _matcher(self):
+        parsed = urlparse(self.path)
+        path = parsed.path.removeprefix('/api/resume-manager')
+        if not MATCHER.allowed_route(self.command, path):
+            return self._json(404, {"detail":"Unknown resume workspace endpoint."})
+        try:
+            body = None
+            content_type = self.headers.get('Content-Type', '')
+            if self.command in ('POST','PATCH'):
+                size = int(self.headers.get('Content-Length','0'))
+                limit = MATCHER.MAX_UPLOAD_BODY if self.command == 'POST' else 2*1024*1024
+                if size <= 0 or size > limit:
+                    return self._json(413, {"detail":"Request exceeds the resume size limit."})
+                body = self.rfile.read(size)
+                if self.command == 'POST':
+                    body,content_type = MATCHER.prepare_upload(body,content_type)
+                else:
+                    body = json.dumps(MATCHER.adapt_update(json.loads(body))).encode()
+                    content_type = 'application/json'
+            code, result, headers = MATCHER.forward(self.command, path+('?' + parsed.query if parsed.query else ''), body, content_type)
+            self.send_response(code)
+            self._cors()
+            self.send_header('Content-Type', headers.get('Content-Type','application/json'))
+            self.send_header('Cache-Control','no-store')
+            if headers.get('Content-Disposition'):
+                self.send_header('Content-Disposition',headers['Content-Disposition'])
+            self.send_header('Content-Length', str(len(result)))
+            self.end_headers()
+            self.wfile.write(result)
+        except (ValueError, UnicodeError) as exc:
+            return self._json(400, {"detail":str(exc)})
+
+    def do_PATCH(self):
+        if self.path.startswith('/api/resume-manager/'):
+            return self._matcher()
+        return self._json(404, {"error":"Unknown endpoint"})
+
+    def _workspace(self):
+        if urlparse(self.path).path == '/workspace':
+            self.send_response(302);self.send_header('Location','/workspace/');self.end_headers();return
+        root = Path(__file__).resolve().parents[1] / 'web'
+        name = unquote(urlparse(self.path).path.removeprefix('/workspace')) or '/index.html'
+        if name == '/':
+            name = '/index.html'
+        target = (root / name.lstrip('/')).resolve()
+        if not target.is_relative_to(root) or not target.is_file() or target.suffix not in ('.html','.css','.js'):
+            return self._json(404, {"error":"Page not found"})
+        content = target.read_bytes()
+        self.send_response(200)
+        self.send_header('Content-Type', (mimetypes.guess_type(str(target))[0] or 'text/plain')+'; charset=utf-8')
+        self.send_header('Content-Security-Policy', "default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self' data: blob:; object-src 'none'; base-uri 'none'")
+        self.send_header('Content-Length',str(len(content)))
+        self.end_headers()
+        self.wfile.write(content)
+
     def do_GET(self):
+        if self.path.startswith('/workspace'):
+            return self._workspace()
+        if self.path.startswith('/api/resume-manager/'):
+            return self._matcher()
         u = urlparse(self.path)
         parts = [p for p in u.path.split("/") if p]
         try:
@@ -96,6 +175,15 @@ class Handler(BaseHTTPRequestHandler):
                         r = DB.get_status(cx, doc_id)
                     elif action == "timeline":
                         r = DB.get_timeline(cx, doc_id)
+                    elif action == "source-text":
+                        r = {"doc_id": doc_id, "text": DB.get_source_text(cx, doc_id)}
+                    elif action == "source-page":
+                        q = parse_qs(u.query)
+                        try:
+                            page = int(q.get("page", ["1"])[0])
+                            r = DB.get_source_page(cx, doc_id, page)
+                        except ValueError as exc:
+                            return self._json(400, {"error": str(exc)})
                     elif action == "stages":
                         r = DB.get_stages(cx, doc_id)
                     elif action == "evidence":
@@ -115,14 +203,23 @@ class Handler(BaseHTTPRequestHandler):
             return self._json(500, {"error": f"{type(exc).__name__}: {exc}"})
 
     def do_POST(self):
+        if self.path.startswith('/api/resume-manager/'):
+            return self._matcher()
         u = urlparse(self.path)
         parts = [p for p in u.path.split("/") if p]
         try:
-            length = int(self.headers.get("Content-Length", 0) or 0)
+            try:
+                length = int(self.headers.get("Content-Length", 0) or 0)
+            except ValueError:
+                return self._json(400, {"error": "invalid Content-Length"})
+            if length < 0 or length > 36_000_000:
+                return self._json(413, {"error": "document exceeds the request size limit"})
             try:
                 payload = json.loads(self.rfile.read(length) or b"{}") if length else {}
-            except Exception:
-                return self._json(400, {"error": "malformed JSON body"})
+            except (ValueError, UnicodeError):
+                return self._json(400, {"error": "invalid JSON"})
+            if not isinstance(payload, dict):
+                return self._json(400, {"error": "JSON object required"})
             if parts == ["api", "documents"]:
                 filename = payload.get("filename", "resume")
                 raw_bytes, raw_text = b"", payload.get("text", "")
@@ -162,6 +259,18 @@ class Handler(BaseHTTPRequestHandler):
                 doc_id, status = _process(filename, raw_bytes, raw_text,
                                           payload.get("source", "upload"))
                 return self._json(200, {"doc_id": doc_id, "status": status})
+            if len(parts) == 4 and parts[:2] == ["api", "documents"] and parts[3] in ("notes", "state"):
+                cx = DB.connect(DB_PATH)
+                try:
+                    if not DB.get_status(cx, parts[2]):
+                        return self._json(404, {"error": "document not found"})
+                    try:
+                        value = DB.add_note(cx, parts[2], payload) if parts[3] == "notes" else DB.save_item_state(cx, parts[2], payload)
+                    except ValueError as exc:
+                        return self._json(400, {"error": str(exc)})
+                    return self._json(200, value)
+                finally:
+                    cx.close()
             if (len(parts) == 4 and parts[0] == "api" and parts[1] == "documents"
                     and parts[3] == "feedback"):
                 cx = DB.connect(DB_PATH)

@@ -1,0 +1,718 @@
+{
+  "file_name": "Ashok Kumar.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 3,
+    "total_events": 3,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.81,
+    "document_accuracy": 0.81
+  },
+  "work_experience": [
+    {
+      "id": "v57595b9ea27128a6",
+      "company": "Concentrix Catalyst Technologies Private Limited",
+      "title": "",
+      "start_date": "2024-11",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "Trade (IBDIC), Trade Free Portal/Digi Trade (Au Bank)",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "One Trade is an enterprise Trade Finance platform that digitizes and automates end -to- end Trade Finance operations, including Letters of Credit (LC), Bank Guarantees (BG),",
+        "Import & Export Finance, Foreign Remittances, Regulatory Reporting, and Customer Por tal",
+        "services. The application integrates with Core Banking Systems and multiple third -party",
+        "systems to streamline banking operations and enhance customer experience.",
+        "Trade Free is trade finance transaction processing system.",
+        "Collaborated with Product Owners, Business Stakeholders, and Solution Architects to gather, analyze, and document business requirements.",
+        "Conducted stakeholder workshops, requirement elicitation sessions, and business",
+        "process analysis.",
+        "Prepared Business Requirement Documents (BRD), Functional Requirement.",
+        "Performed Gap Analysis and Impact Analysis for change requests and regulatory",
+        "enhancements.",
+        "Designed business process flows, UML diagrams, wireframes, and screen mock-ups.",
+        "Created User Stories, Acceptance Criteria, Business Rules, and Functional Workflows.",
+        "Worked closely with Development and QA teams to clarify functional requirements and",
+        "support implementation.",
+        "Participated in Sprint Planning, Sprint Reviews, Backlog Grooming, and Agile",
+        "ceremonies.",
+        "Coordinated User Acceptance Testing (UAT), defect triage, and production validation.",
+        "Acted as the functional point of contact for client discussions and requirement sign-offs.",
+        "Business Analysis Planning",
+        "and Monitoring",
+        "Elicitation and Collaboration",
+        "Requirement Lifecycle",
+        "Management",
+        "Requirement Analysis and",
+        "Design Definition",
+        "Strategy Analysis",
+        "Stakeholder Engagement",
+        "Solution Evaluation",
+        "B u s i n e s s  A n a l y s t",
+        "Soft Skills",
+        "• Leadership",
+        "• Analytical",
+        "• Collaborator",
+        "• Decision Making"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "v3e71ba376c08ea87",
+      "company": "",
+      "title": "MBA (Master of",
+      "start_date": "2011-01",
+      "end_date": "2013-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    },
+    {
+      "id": "v04777449736cd394",
+      "company": "",
+      "title": "Graduate Diploma",
+      "start_date": "2013-01",
+      "end_date": "2014-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 1,
+  "total_projects": 1,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "Ashok Kumar",
+    "filename": "Ashok Kumar.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v3e71ba376c08ea87",
+        "type": "EDUCATION",
+        "title": "MBA (Master of",
+        "org": "",
+        "start": "2011-01",
+        "end": "2013-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "• MBA (Master of\nAdministration-\n2011-2013)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "• MBA (Master of",
+              "block_id": "b91",
+              "kind": "text",
+              "start": 4060,
+              "end": 4076
+            },
+            {
+              "page": 1,
+              "text": "Administration-",
+              "block_id": "b93",
+              "kind": "text",
+              "start": 4088,
+              "end": 4103
+            },
+            {
+              "page": 1,
+              "text": "2011-2013)",
+              "block_id": "b93",
+              "kind": "text",
+              "start": 4104,
+              "end": 4114
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2011-2013",
+              "block_id": "b93",
+              "kind": "text",
+              "start": 4104,
+              "end": 4113
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "MBA (Master of",
+              "block_id": "b91",
+              "kind": "text",
+              "start": 4062,
+              "end": 4076
+            }
+          ],
+          "section": "Education",
+          "date_label": "2011-2013",
+          "is_present": false
+        },
+        "date_label": "2011-2013",
+        "section": "Education",
+        "is_present": false
+      },
+      {
+        "id": "v04777449736cd394",
+        "type": "EDUCATION",
+        "title": "Graduate Diploma",
+        "org": "",
+        "start": "2013-01",
+        "end": "2014-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EDUCATION_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Graduate Diploma",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Graduate Diploma",
+              "block_id": "b86",
+              "kind": "text",
+              "start": 3978,
+              "end": 3994
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2013-2014",
+              "block_id": "b90",
+              "kind": "text",
+              "start": 4046,
+              "end": 4055
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Graduate Diploma",
+              "block_id": "b86",
+              "kind": "text",
+              "start": 3978,
+              "end": 3994
+            }
+          ],
+          "section": "Education",
+          "date_label": "2013-2014",
+          "is_present": false
+        },
+        "date_label": "2013-2014",
+        "section": "Education",
+        "is_present": false
+      },
+      {
+        "id": "v57595b9ea27128a6",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Concentrix Catalyst Technologies Private Limited",
+        "start": "2024-11",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Concentrix Catalyst Technologies Private Limited  Nov’24 – Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Concentrix Catalyst Technologies Private Limited  Nov’24 – Present",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 1977,
+              "end": 2043
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Nov’24 – Present",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 2027,
+              "end": 2043
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Concentrix Catalyst Technologies Private Limited",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 1977,
+              "end": 2025
+            }
+          ],
+          "title": [],
+          "section": "Professional Experience",
+          "date_label": "Nov’24 – Present",
+          "is_present": true
+        },
+        "date_label": "Nov’24 – Present",
+        "section": "Professional Experience",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "Trade (IBDIC), Trade Free Portal/Digi Trade (Au Bank)",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "One Trade is an enterprise Trade Finance platform that digitizes and automates end -to- end Trade Finance operations, including Letters of Credit (LC), Bank Guarantees (BG),",
+          "Import & Export Finance, Foreign Remittances, Regulatory Reporting, and Customer Por tal",
+          "services. The application integrates with Core Banking Systems and multiple third -party",
+          "systems to streamline banking operations and enhance customer experience.",
+          "Trade Free is trade finance transaction processing system.",
+          "Collaborated with Product Owners, Business Stakeholders, and Solution Architects to gather, analyze, and document business requirements.",
+          "Conducted stakeholder workshops, requirement elicitation sessions, and business",
+          "process analysis.",
+          "Prepared Business Requirement Documents (BRD), Functional Requirement.",
+          "Performed Gap Analysis and Impact Analysis for change requests and regulatory",
+          "enhancements.",
+          "Designed business process flows, UML diagrams, wireframes, and screen mock-ups.",
+          "Created User Stories, Acceptance Criteria, Business Rules, and Functional Workflows.",
+          "Worked closely with Development and QA teams to clarify functional requirements and",
+          "support implementation.",
+          "Participated in Sprint Planning, Sprint Reviews, Backlog Grooming, and Agile",
+          "ceremonies.",
+          "Coordinated User Acceptance Testing (UAT), defect triage, and production validation.",
+          "Acted as the functional point of contact for client discussions and requirement sign-offs.",
+          "Business Analysis Planning",
+          "and Monitoring",
+          "Elicitation and Collaboration",
+          "Requirement Lifecycle",
+          "Management",
+          "Requirement Analysis and",
+          "Design Definition",
+          "Strategy Analysis",
+          "Stakeholder Engagement",
+          "Solution Evaluation",
+          "B u s i n e s s  A n a l y s t",
+          "Soft Skills",
+          "• Leadership",
+          "• Analytical",
+          "• Collaborator",
+          "• Decision Making"
+        ],
+        "raw_text": "Project: One Trade (IBDIC), Trade Free Portal/Digi Trade (Au Bank):",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project: One Trade (IBDIC), Trade Free Portal/Digi Trade (Au Bank):",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 2103,
+              "end": 2170
+            },
+            {
+              "page": 1,
+              "text": "One Trade is an enterprise Trade Finance platform that digitizes and automates end -to-",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 2172,
+              "end": 2259
+            },
+            {
+              "page": 1,
+              "text": "end Trade Finance operations, including Letters of Credit (LC), Bank Guarantees (BG),",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 2260,
+              "end": 2345
+            },
+            {
+              "page": 1,
+              "text": "Import & Export Finance, Foreign Remittances, Regulatory Reporting, and Customer Por tal",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 2347,
+              "end": 2435
+            },
+            {
+              "page": 1,
+              "text": "services. The application integrates with Core Banking Systems and multiple third -party",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 2437,
+              "end": 2525
+            },
+            {
+              "page": 1,
+              "text": "systems to streamline banking operations and enhance customer experience.",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 2527,
+              "end": 2600
+            },
+            {
+              "page": 1,
+              "text": "Trade Free is trade finance transaction processing system.",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 2602,
+              "end": 2660
+            },
+            {
+              "page": 1,
+              "text": "Collaborated with Product Owners, Business Stakeholders, and Solution Architects to",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 2662,
+              "end": 2745
+            },
+            {
+              "page": 1,
+              "text": "gather, analyze, and document business requirements.",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 2747,
+              "end": 2799
+            },
+            {
+              "page": 1,
+              "text": "Conducted stakeholder workshops, requirement elicitation sessions, and business",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 2801,
+              "end": 2880
+            },
+            {
+              "page": 1,
+              "text": "process analysis.",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 2882,
+              "end": 2899
+            },
+            {
+              "page": 1,
+              "text": "Prepared Business Requirement Documents (BRD), Functional Requirement.",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 2901,
+              "end": 2971
+            },
+            {
+              "page": 1,
+              "text": "Performed Gap Analysis and Impact Analysis for change requests and regulatory",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 2973,
+              "end": 3050
+            },
+            {
+              "page": 1,
+              "text": "enhancements.",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 3052,
+              "end": 3065
+            },
+            {
+              "page": 1,
+              "text": "Designed business process flows, UML diagrams, wireframes, and screen mock-ups.",
+              "block_id": "b60",
+              "kind": "text",
+              "start": 3068,
+              "end": 3147
+            },
+            {
+              "page": 1,
+              "text": "Created User Stories, Acceptance Criteria, Business Rules, and Functional Workflows.",
+              "block_id": "b61",
+              "kind": "text",
+              "start": 3149,
+              "end": 3233
+            },
+            {
+              "page": 1,
+              "text": "Worked closely with Development and QA teams to clarify functional requirements and",
+              "block_id": "b62",
+              "kind": "text",
+              "start": 3236,
+              "end": 3319
+            },
+            {
+              "page": 1,
+              "text": "support implementation.",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 3321,
+              "end": 3344
+            },
+            {
+              "page": 1,
+              "text": "Participated in Sprint Planning, Sprint Reviews, Backlog Grooming, and Agile",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 3347,
+              "end": 3423
+            },
+            {
+              "page": 1,
+              "text": "ceremonies.",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 3425,
+              "end": 3436
+            },
+            {
+              "page": 1,
+              "text": "Coordinated User Acceptance Testing (UAT), defect triage, and production validation.",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 3439,
+              "end": 3523
+            },
+            {
+              "page": 1,
+              "text": "Acted as the functional point of contact for client discussions and requirement sign-offs.",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 3526,
+              "end": 3616
+            },
+            {
+              "page": 1,
+              "text": "Business Analysis Planning",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 3618,
+              "end": 3644
+            },
+            {
+              "page": 1,
+              "text": "and Monitoring",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 3646,
+              "end": 3660
+            },
+            {
+              "page": 1,
+              "text": "Elicitation and Collaboration",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 3661,
+              "end": 3690
+            },
+            {
+              "page": 1,
+              "text": "Requirement Lifecycle",
+              "block_id": "b71",
+              "kind": "text",
+              "start": 3691,
+              "end": 3712
+            },
+            {
+              "page": 1,
+              "text": "Management",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 3714,
+              "end": 3724
+            },
+            {
+              "page": 1,
+              "text": "Requirement Analysis and",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 3725,
+              "end": 3749
+            },
+            {
+              "page": 1,
+              "text": "Design Definition",
+              "block_id": "b74",
+              "kind": "text",
+              "start": 3751,
+              "end": 3768
+            },
+            {
+              "page": 1,
+              "text": "Strategy Analysis",
+              "block_id": "b75",
+              "kind": "text",
+              "start": 3769,
+              "end": 3786
+            },
+            {
+              "page": 1,
+              "text": "Stakeholder Engagement",
+              "block_id": "b76",
+              "kind": "text",
+              "start": 3787,
+              "end": 3809
+            },
+            {
+              "page": 1,
+              "text": "Solution Evaluation",
+              "block_id": "b77",
+              "kind": "text",
+              "start": 3810,
+              "end": 3829
+            },
+            {
+              "page": 1,
+              "text": "B u s i n e s s  A n a l y s t",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 3830,
+              "end": 3860
+            },
+            {
+              "page": 1,
+              "text": "Soft Skills",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 3863,
+              "end": 3874
+            },
+            {
+              "page": 1,
+              "text": "• Leadership",
+              "block_id": "b80",
+              "kind": "text",
+              "start": 3878,
+              "end": 3890
+            },
+            {
+              "page": 1,
+              "text": "• Analytical",
+              "block_id": "b81",
+              "kind": "text",
+              "start": 3894,
+              "end": 3906
+            },
+            {
+              "page": 1,
+              "text": "• Collaborator",
+              "block_id": "b82",
+              "kind": "text",
+              "start": 3910,
+              "end": 3924
+            },
+            {
+              "page": 1,
+              "text": "• Decision Making",
+              "block_id": "b83",
+              "kind": "text",
+              "start": 3928,
+              "end": 3945
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [],
+        "evidence": {
+          "note": "year-only dates need verification"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 3,
+      "total_events": 3,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.81,
+      "document_accuracy": 0.81
+    },
+    "total_represented_months": 71,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

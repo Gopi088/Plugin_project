@@ -1,0 +1,957 @@
+{
+  "file_name": "Kaustubh Chavan  .pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 8,
+    "total_events": 9,
+    "dated_share": 0.889,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "vc2cbb120ca3a6f32",
+      "company": "Computer Faculty",
+      "title": "",
+      "start_date": "2015-05",
+      "end_date": "2016-02",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v2b9624d9ecd9b5a4",
+      "company": "MIS Assistant",
+      "title": "",
+      "start_date": "2016-02",
+      "end_date": "2017-07",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v0b3adab16be4f318",
+      "company": "MIS Executive",
+      "title": "",
+      "start_date": "2017-07",
+      "end_date": "2019-06",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v5729677a49147697",
+      "company": "Capgemini Technology",
+      "title": "Senior Analyst",
+      "start_date": "2019-06",
+      "end_date": "2020-05",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v9510f1d0be2fe52a",
+      "company": "Suryoday Small Finance Bank",
+      "title": "Associate",
+      "start_date": "2020-09",
+      "end_date": "2020-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v65795b1d290d5d7d",
+      "company": "",
+      "title": "Data Engineer",
+      "start_date": "2021-02",
+      "end_date": "2024-01",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v0515ee835d4eec4c",
+      "company": "",
+      "title": "Senior Software Engineer",
+      "start_date": "2024-01",
+      "end_date": "2025-08",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v88c040d01a49e232",
+      "company": "",
+      "title": "Big Data Training Consultant",
+      "start_date": "2025-08",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "v00752a64d4c0a355",
+      "company": "",
+      "title": "Bachelor of Science in Information Technology (B.Sc. IT)",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    }
+  ],
+  "gaps": [
+    {
+      "id": "g1ca8d0465f402763",
+      "start": "2020-06",
+      "end": "2020-08",
+      "months": 3,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    },
+    {
+      "id": "ga92bca8d929e42ca",
+      "start": "2021-01",
+      "end": "2021-01",
+      "months": 1,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    }
+  ],
+  "total_work_experience": 8,
+  "total_projects": 0,
+  "total_gaps": 2,
+  "raw_pipeline_dto": {
+    "doc_id": "Kaustubh Chavan  ",
+    "filename": "Kaustubh Chavan  .pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "vc2cbb120ca3a6f32",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Computer Faculty",
+        "start": "2015-05",
+        "end": "2016-02",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Computer Faculty | ICIT Computer Institute | May 2015 – Feb 2016",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Computer Faculty | ICIT Computer Institute | May 2015 – Feb 2016",
+              "block_id": "b45",
+              "kind": "text",
+              "start": 2632,
+              "end": 2696
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "May 2015 – Feb 2016",
+              "block_id": "b45",
+              "kind": "text",
+              "start": 2677,
+              "end": 2696
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Computer Faculty",
+              "block_id": "b45",
+              "kind": "text",
+              "start": 2632,
+              "end": 2648
+            }
+          ],
+          "title": [],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "May 2015 – Feb 2016",
+          "is_present": false
+        },
+        "date_label": "May 2015 – Feb 2016",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v2b9624d9ecd9b5a4",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "MIS Assistant",
+        "start": "2016-02",
+        "end": "2017-07",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "MIS Assistant | Meyer Organics | Feb 2016 – July 2017",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "MIS Assistant | Meyer Organics | Feb 2016 – July 2017",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 2491,
+              "end": 2544
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Feb 2016 – July 2017",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 2524,
+              "end": 2544
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "MIS Assistant",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 2491,
+              "end": 2504
+            }
+          ],
+          "title": [],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Feb 2016 – July 2017",
+          "is_present": false
+        },
+        "date_label": "Feb 2016 – July 2017",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v0b3adab16be4f318",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "MIS Executive",
+        "start": "2017-07",
+        "end": "2019-06",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "MIS Executive | Ipca Laboratories | July 2017 – June 2019",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "MIS Executive | Ipca Laboratories | July 2017 – June 2019",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 2358,
+              "end": 2415
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "July 2017 – June 2019",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 2394,
+              "end": 2415
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "MIS Executive",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 2358,
+              "end": 2371
+            }
+          ],
+          "title": [],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "July 2017 – June 2019",
+          "is_present": false
+        },
+        "date_label": "July 2017 – June 2019",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v5729677a49147697",
+        "type": "EMPLOYMENT",
+        "title": "Senior Analyst",
+        "org": "Capgemini Technology",
+        "start": "2019-06",
+        "end": "2020-05",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Senior Analyst | Capgemini Technology | June 2019 – May 2020",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Analyst | Capgemini Technology | June 2019 – May 2020",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 2118,
+              "end": 2178
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "June 2019 – May 2020",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 2158,
+              "end": 2178
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Capgemini Technology",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 2135,
+              "end": 2155
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Analyst",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 2118,
+              "end": 2132
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "June 2019 – May 2020",
+          "is_present": false
+        },
+        "date_label": "June 2019 – May 2020",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v9510f1d0be2fe52a",
+        "type": "EMPLOYMENT",
+        "title": "Associate",
+        "org": "Suryoday Small Finance Bank",
+        "start": "2020-09",
+        "end": "2020-12",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Associate | Suryoday Small Finance Bank | Sept 2020 – Dec 2020",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Associate | Suryoday Small Finance Bank | Sept 2020 – Dec 2020",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 1864,
+              "end": 1926
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Sept 2020 – Dec 2020",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 1906,
+              "end": 1926
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Suryoday Small Finance Bank",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 1876,
+              "end": 1903
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Associate",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 1864,
+              "end": 1873
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Sept 2020 – Dec 2020",
+          "is_present": false
+        },
+        "date_label": "Sept 2020 – Dec 2020",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v65795b1d290d5d7d",
+        "type": "EMPLOYMENT",
+        "title": "Data Engineer",
+        "org": "",
+        "start": "2021-02",
+        "end": "2024-01",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Data Engineer | Finicity, a Mastercard Company | Feb 2021 – Jan 2024",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Data Engineer | Finicity, a Mastercard Company | Feb 2021 – Jan 2024",
+              "block_id": "b28",
+              "kind": "text",
+              "start": 1555,
+              "end": 1623
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Feb 2021 – Jan 2024",
+              "block_id": "b28",
+              "kind": "text",
+              "start": 1604,
+              "end": 1623
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Data Engineer",
+              "block_id": "b28",
+              "kind": "text",
+              "start": 1555,
+              "end": 1568
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Feb 2021 – Jan 2024",
+          "is_present": false
+        },
+        "date_label": "Feb 2021 – Jan 2024",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v0515ee835d4eec4c",
+        "type": "EMPLOYMENT",
+        "title": "Senior Software Engineer",
+        "org": "",
+        "start": "2024-01",
+        "end": "2025-08",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Senior Software Engineer | Circana | Jan 2024 – Aug 2025",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Software Engineer | Circana | Jan 2024 – Aug 2025",
+              "block_id": "b19",
+              "kind": "text",
+              "start": 1068,
+              "end": 1124
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jan 2024 – Aug 2025",
+              "block_id": "b19",
+              "kind": "text",
+              "start": 1105,
+              "end": 1124
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Software Engineer",
+              "block_id": "b19",
+              "kind": "text",
+              "start": 1068,
+              "end": 1092
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Jan 2024 – Aug 2025",
+          "is_present": false
+        },
+        "date_label": "Jan 2024 – Aug 2025",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v88c040d01a49e232",
+        "type": "EMPLOYMENT",
+        "title": "Big Data Training Consultant",
+        "org": "",
+        "start": "2025-08",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Big Data Training Consultant | Freelancer | Aug 2025 – Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Big Data Training Consultant | Freelancer | Aug 2025 – Present",
+              "block_id": "b14",
+              "kind": "text",
+              "start": 721,
+              "end": 783
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Aug 2025 – Present",
+              "block_id": "b14",
+              "kind": "text",
+              "start": 765,
+              "end": 783
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Big Data Training Consultant",
+              "block_id": "b14",
+              "kind": "text",
+              "start": 721,
+              "end": 749
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Aug 2025 – Present",
+          "is_present": true
+        },
+        "date_label": "Aug 2025 – Present",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v00752a64d4c0a355",
+        "type": "EDUCATION",
+        "title": "Bachelor of Science in Information Technology (B.Sc. IT)",
+        "org": "",
+        "entry_text": "Bachelor of Science in Information Technology (B.Sc. IT) | Graduated: 2013",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor of Science in Information Technology (B.Sc. IT) | Graduated: 2013",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 2767,
+              "end": 2841
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2013",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 2837,
+              "end": 2841
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Science in Information Technology (B.Sc. IT",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 2767,
+              "end": 2822
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2013",
+          "is_present": false
+        },
+        "date_label": "2013",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g1ca8d0465f402763",
+        "start": [
+          2020,
+          6
+        ],
+        "end": [
+          2020,
+          8
+        ],
+        "months": 3,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "v5729677a49147697",
+          "event_after": "v9510f1d0be2fe52a",
+          "coverage_scope": "employment"
+        },
+        "start_label": "2020-06",
+        "end_label": "2020-08",
+        "evidence_quotes": [
+          "Senior Analyst | Capgemini Technology | June 2019 – May 2020",
+          "Associate | Suryoday Small Finance Bank | Sept 2020 – Dec 2020"
+        ],
+        "evidence_details": [
+          {
+            "header": "Senior Analyst at Capgemini Technology",
+            "quote": "Senior Analyst | Capgemini Technology | June 2019 – May 2020",
+            "event_id": "v5729677a49147697",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Senior Analyst | Capgemini Technology | June 2019 – May 2020",
+                  "block_id": "b37",
+                  "kind": "text",
+                  "start": 2118,
+                  "end": 2178
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "June 2019 – May 2020",
+                  "block_id": "b37",
+                  "kind": "text",
+                  "start": 2158,
+                  "end": 2178
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Capgemini Technology",
+                  "block_id": "b37",
+                  "kind": "text",
+                  "start": 2135,
+                  "end": 2155
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Senior Analyst",
+                  "block_id": "b37",
+                  "kind": "text",
+                  "start": 2118,
+                  "end": 2132
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "June 2019 – May 2020",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Associate at Suryoday Small Finance Bank",
+            "quote": "Associate | Suryoday Small Finance Bank | Sept 2020 – Dec 2020",
+            "event_id": "v9510f1d0be2fe52a",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Associate | Suryoday Small Finance Bank | Sept 2020 – Dec 2020",
+                  "block_id": "b33",
+                  "kind": "text",
+                  "start": 1864,
+                  "end": 1926
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Sept 2020 – Dec 2020",
+                  "block_id": "b33",
+                  "kind": "text",
+                  "start": 1906,
+                  "end": 1926
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Suryoday Small Finance Bank",
+                  "block_id": "b33",
+                  "kind": "text",
+                  "start": 1876,
+                  "end": 1903
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Associate",
+                  "block_id": "b33",
+                  "kind": "text",
+                  "start": 1864,
+                  "end": 1873
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "Sept 2020 – Dec 2020",
+              "is_present": false
+            }
+          }
+        ]
+      },
+      {
+        "id": "ga92bca8d929e42ca",
+        "start": [
+          2021,
+          1
+        ],
+        "end": [
+          2021,
+          1
+        ],
+        "months": 1,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "v9510f1d0be2fe52a",
+          "event_after": "v65795b1d290d5d7d",
+          "coverage_scope": "employment"
+        },
+        "start_label": "2021-01",
+        "end_label": "2021-01",
+        "evidence_quotes": [
+          "Associate | Suryoday Small Finance Bank | Sept 2020 – Dec 2020",
+          "Data Engineer | Finicity, a Mastercard Company | Feb 2021 – Jan 2024"
+        ],
+        "evidence_details": [
+          {
+            "header": "Associate at Suryoday Small Finance Bank",
+            "quote": "Associate | Suryoday Small Finance Bank | Sept 2020 – Dec 2020",
+            "event_id": "v9510f1d0be2fe52a",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Associate | Suryoday Small Finance Bank | Sept 2020 – Dec 2020",
+                  "block_id": "b33",
+                  "kind": "text",
+                  "start": 1864,
+                  "end": 1926
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Sept 2020 – Dec 2020",
+                  "block_id": "b33",
+                  "kind": "text",
+                  "start": 1906,
+                  "end": 1926
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Suryoday Small Finance Bank",
+                  "block_id": "b33",
+                  "kind": "text",
+                  "start": 1876,
+                  "end": 1903
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Associate",
+                  "block_id": "b33",
+                  "kind": "text",
+                  "start": 1864,
+                  "end": 1873
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "Sept 2020 – Dec 2020",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Data Engineer",
+            "quote": "Data Engineer | Finicity, a Mastercard Company | Feb 2021 – Jan 2024",
+            "event_id": "v65795b1d290d5d7d",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Data Engineer | Finicity, a Mastercard Company | Feb 2021 – Jan 2024",
+                  "block_id": "b28",
+                  "kind": "text",
+                  "start": 1555,
+                  "end": 1623
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Feb 2021 – Jan 2024",
+                  "block_id": "b28",
+                  "kind": "text",
+                  "start": 1604,
+                  "end": 1623
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Data Engineer",
+                  "block_id": "b28",
+                  "kind": "text",
+                  "start": 1555,
+                  "end": 1568
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "Feb 2021 – Jan 2024",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 8,
+      "total_events": 9,
+      "dated_share": 0.889,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 133,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

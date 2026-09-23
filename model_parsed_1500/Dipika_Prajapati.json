@@ -1,0 +1,970 @@
+{
+  "file_name": "Dipika_Prajapati.pdf",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 4,
+    "total_events": 5,
+    "dated_share": 0.8,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v61c67dc192cef8af",
+      "company": "",
+      "title": "ASSOCIATE",
+      "start_date": "2019-05",
+      "end_date": "2021-01",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v46b51dd1c906d964",
+      "company": "Accenture Services",
+      "title": "ANALYST",
+      "start_date": "2022-01",
+      "end_date": "2024-02",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "ve350e33b1dfb5268",
+      "company": "Bank of New York",
+      "title": "ASSOCIATE 1",
+      "start_date": "2024-04",
+      "end_date": "2025-02",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v46c111de076d6438",
+      "company": "",
+      "title": "SPECIALIST",
+      "start_date": "2026-05",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "v65a4a15eba5f40dc",
+      "company": "Ramniranjan Jhunjhunwala Jr. College",
+      "title": "HSC",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "gaps": [
+    {
+      "id": "gf34b8cab007752fa",
+      "start": "2021-02",
+      "end": "2021-12",
+      "months": 11,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    },
+    {
+      "id": "g5ceabe23388e5852",
+      "start": "2024-03",
+      "end": "2024-03",
+      "months": 1,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    },
+    {
+      "id": "g91dff4b53883fa6d",
+      "start": "2025-03",
+      "end": "2026-04",
+      "months": 14,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    }
+  ],
+  "total_work_experience": 4,
+  "total_projects": 0,
+  "total_gaps": 3,
+  "raw_pipeline_dto": {
+    "doc_id": "Dipika_Prajapati",
+    "filename": "Dipika_Prajapati.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "v61c67dc192cef8af",
+        "type": "EMPLOYMENT",
+        "title": "ASSOCIATE",
+        "org": "",
+        "start": "2019-05",
+        "end": "2021-01",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "ASSOCIATE\n05/2019 to 01/2021",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "ASSOCIATE",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 3460,
+              "end": 3469
+            },
+            {
+              "page": 1,
+              "text": "05/2019 to 01/2021",
+              "block_id": "b71",
+              "kind": "text",
+              "start": 3470,
+              "end": 3488
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "05/2019 to 01/2021",
+              "block_id": "b71",
+              "kind": "text",
+              "start": 3470,
+              "end": 3488
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "ASSOCIATE",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 3460,
+              "end": 3469
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "05/2019 to 01/2021",
+          "is_present": false
+        },
+        "date_label": "05/2019 to 01/2021",
+        "section": "EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v46b51dd1c906d964",
+        "type": "EMPLOYMENT",
+        "title": "ANALYST",
+        "org": "Accenture Services",
+        "start": "2022-01",
+        "end": "2024-02",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "ANALYST\n01/2022 to 02/2024\nAccenture Services",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "ANALYST",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 2234,
+              "end": 2241
+            },
+            {
+              "page": 1,
+              "text": "01/2022 to 02/2024",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 2242,
+              "end": 2260
+            },
+            {
+              "page": 1,
+              "text": "Accenture Services",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 2261,
+              "end": 2279
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "01/2022 to 02/2024",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 2242,
+              "end": 2260
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Accenture Services",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 2261,
+              "end": 2279
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "ANALYST",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 2234,
+              "end": 2241
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "01/2022 to 02/2024",
+          "is_present": false
+        },
+        "date_label": "01/2022 to 02/2024",
+        "section": "EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "ve350e33b1dfb5268",
+        "type": "EMPLOYMENT",
+        "title": "ASSOCIATE 1",
+        "org": "Bank of New York",
+        "start": "2024-04",
+        "end": "2025-02",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "ASSOCIATE 1\n04/2024 to 02/2025\nBank of New York",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "ASSOCIATE 1",
+              "block_id": "b28",
+              "kind": "text",
+              "start": 1318,
+              "end": 1329
+            },
+            {
+              "page": 1,
+              "text": "04/2024 to 02/2025",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 1330,
+              "end": 1348
+            },
+            {
+              "page": 1,
+              "text": "Bank of New York",
+              "block_id": "b30",
+              "kind": "text",
+              "start": 1349,
+              "end": 1365
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "04/2024 to 02/2025",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 1330,
+              "end": 1348
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Bank of New York",
+              "block_id": "b30",
+              "kind": "text",
+              "start": 1349,
+              "end": 1365
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "ASSOCIATE 1",
+              "block_id": "b28",
+              "kind": "text",
+              "start": 1318,
+              "end": 1329
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "04/2024 to 02/2025",
+          "is_present": false
+        },
+        "date_label": "04/2024 to 02/2025",
+        "section": "EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v46c111de076d6438",
+        "type": "EMPLOYMENT",
+        "title": "SPECIALIST",
+        "org": "",
+        "start": "2026-05",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "SPECIALIST\nMay 2026 – Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "SPECIALIST",
+              "block_id": "b12",
+              "kind": "text",
+              "start": 580,
+              "end": 590
+            },
+            {
+              "page": 1,
+              "text": "May 2026 – Present",
+              "block_id": "b13",
+              "kind": "text",
+              "start": 591,
+              "end": 609
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "May 2026 – Present",
+              "block_id": "b13",
+              "kind": "text",
+              "start": 591,
+              "end": 609
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "SPECIALIST",
+              "block_id": "b12",
+              "kind": "text",
+              "start": 580,
+              "end": 590
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "May 2026 – Present",
+          "is_present": true
+        },
+        "date_label": "May 2026 – Present",
+        "section": "EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v65a4a15eba5f40dc",
+        "type": "EDUCATION",
+        "title": "HSC",
+        "org": "Ramniranjan Jhunjhunwala Jr. College",
+        "entry_text": "• Ramniranjan Jhunjhunwala Jr. College, Mumbai, MH — HSC, Commerce. • Ramanand Arya D.A.V. College, Mumbai, MH — Bachelor's of Accounting and Finance, Mumbai University.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "• Ramniranjan Jhunjhunwala Jr. College, Mumbai, MH — HSC, Commerce.",
+              "block_id": "b89",
+              "kind": "text",
+              "start": 4254,
+              "end": 4321
+            },
+            {
+              "page": 1,
+              "text": "• Ramanand Arya D.A.V. College, Mumbai, MH — Bachelor's of Accounting and Finance,",
+              "block_id": "b90",
+              "kind": "text",
+              "start": 4323,
+              "end": 4405
+            },
+            {
+              "page": 1,
+              "text": "Mumbai University.",
+              "block_id": "b91",
+              "kind": "text",
+              "start": 4407,
+              "end": 4425
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "Ramniranjan Jhunjhunwala Jr. College",
+              "block_id": "b89",
+              "kind": "text",
+              "start": 4256,
+              "end": 4292
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "HSC",
+              "block_id": "b89",
+              "kind": "text",
+              "start": 4307,
+              "end": 4310
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "EDUCATION",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "gf34b8cab007752fa",
+        "start": [
+          2021,
+          2
+        ],
+        "end": [
+          2021,
+          12
+        ],
+        "months": 11,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "v61c67dc192cef8af",
+          "event_after": "v46b51dd1c906d964",
+          "coverage_scope": "employment"
+        },
+        "start_label": "2021-02",
+        "end_label": "2021-12",
+        "evidence_quotes": [
+          "ASSOCIATE 05/2019 to 01/2021",
+          "ANALYST 01/2022 to 02/2024 Accenture Services"
+        ],
+        "evidence_details": [
+          {
+            "header": "ASSOCIATE",
+            "quote": "ASSOCIATE 05/2019 to 01/2021",
+            "event_id": "v61c67dc192cef8af",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "ASSOCIATE",
+                  "block_id": "b70",
+                  "kind": "text",
+                  "start": 3460,
+                  "end": 3469
+                },
+                {
+                  "page": 1,
+                  "text": "05/2019 to 01/2021",
+                  "block_id": "b71",
+                  "kind": "text",
+                  "start": 3470,
+                  "end": 3488
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "05/2019 to 01/2021",
+                  "block_id": "b71",
+                  "kind": "text",
+                  "start": 3470,
+                  "end": 3488
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "ASSOCIATE",
+                  "block_id": "b70",
+                  "kind": "text",
+                  "start": 3460,
+                  "end": 3469
+                }
+              ],
+              "section": "EXPERIENCE",
+              "date_label": "05/2019 to 01/2021",
+              "is_present": false
+            }
+          },
+          {
+            "header": "ANALYST at Accenture Services",
+            "quote": "ANALYST 01/2022 to 02/2024 Accenture Services",
+            "event_id": "v46b51dd1c906d964",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "ANALYST",
+                  "block_id": "b47",
+                  "kind": "text",
+                  "start": 2234,
+                  "end": 2241
+                },
+                {
+                  "page": 1,
+                  "text": "01/2022 to 02/2024",
+                  "block_id": "b48",
+                  "kind": "text",
+                  "start": 2242,
+                  "end": 2260
+                },
+                {
+                  "page": 1,
+                  "text": "Accenture Services",
+                  "block_id": "b49",
+                  "kind": "text",
+                  "start": 2261,
+                  "end": 2279
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "01/2022 to 02/2024",
+                  "block_id": "b48",
+                  "kind": "text",
+                  "start": 2242,
+                  "end": 2260
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Accenture Services",
+                  "block_id": "b49",
+                  "kind": "text",
+                  "start": 2261,
+                  "end": 2279
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "ANALYST",
+                  "block_id": "b47",
+                  "kind": "text",
+                  "start": 2234,
+                  "end": 2241
+                }
+              ],
+              "section": "EXPERIENCE",
+              "date_label": "01/2022 to 02/2024",
+              "is_present": false
+            }
+          }
+        ]
+      },
+      {
+        "id": "g5ceabe23388e5852",
+        "start": [
+          2024,
+          3
+        ],
+        "end": [
+          2024,
+          3
+        ],
+        "months": 1,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "v46b51dd1c906d964",
+          "event_after": "ve350e33b1dfb5268",
+          "coverage_scope": "employment"
+        },
+        "start_label": "2024-03",
+        "end_label": "2024-03",
+        "evidence_quotes": [
+          "ANALYST 01/2022 to 02/2024 Accenture Services",
+          "ASSOCIATE 1 04/2024 to 02/2025 Bank of New York"
+        ],
+        "evidence_details": [
+          {
+            "header": "ANALYST at Accenture Services",
+            "quote": "ANALYST 01/2022 to 02/2024 Accenture Services",
+            "event_id": "v46b51dd1c906d964",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "ANALYST",
+                  "block_id": "b47",
+                  "kind": "text",
+                  "start": 2234,
+                  "end": 2241
+                },
+                {
+                  "page": 1,
+                  "text": "01/2022 to 02/2024",
+                  "block_id": "b48",
+                  "kind": "text",
+                  "start": 2242,
+                  "end": 2260
+                },
+                {
+                  "page": 1,
+                  "text": "Accenture Services",
+                  "block_id": "b49",
+                  "kind": "text",
+                  "start": 2261,
+                  "end": 2279
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "01/2022 to 02/2024",
+                  "block_id": "b48",
+                  "kind": "text",
+                  "start": 2242,
+                  "end": 2260
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Accenture Services",
+                  "block_id": "b49",
+                  "kind": "text",
+                  "start": 2261,
+                  "end": 2279
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "ANALYST",
+                  "block_id": "b47",
+                  "kind": "text",
+                  "start": 2234,
+                  "end": 2241
+                }
+              ],
+              "section": "EXPERIENCE",
+              "date_label": "01/2022 to 02/2024",
+              "is_present": false
+            }
+          },
+          {
+            "header": "ASSOCIATE 1 at Bank of New York",
+            "quote": "ASSOCIATE 1 04/2024 to 02/2025 Bank of New York",
+            "event_id": "ve350e33b1dfb5268",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "ASSOCIATE 1",
+                  "block_id": "b28",
+                  "kind": "text",
+                  "start": 1318,
+                  "end": 1329
+                },
+                {
+                  "page": 1,
+                  "text": "04/2024 to 02/2025",
+                  "block_id": "b29",
+                  "kind": "text",
+                  "start": 1330,
+                  "end": 1348
+                },
+                {
+                  "page": 1,
+                  "text": "Bank of New York",
+                  "block_id": "b30",
+                  "kind": "text",
+                  "start": 1349,
+                  "end": 1365
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "04/2024 to 02/2025",
+                  "block_id": "b29",
+                  "kind": "text",
+                  "start": 1330,
+                  "end": 1348
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Bank of New York",
+                  "block_id": "b30",
+                  "kind": "text",
+                  "start": 1349,
+                  "end": 1365
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "ASSOCIATE 1",
+                  "block_id": "b28",
+                  "kind": "text",
+                  "start": 1318,
+                  "end": 1329
+                }
+              ],
+              "section": "EXPERIENCE",
+              "date_label": "04/2024 to 02/2025",
+              "is_present": false
+            }
+          }
+        ]
+      },
+      {
+        "id": "g91dff4b53883fa6d",
+        "start": [
+          2025,
+          3
+        ],
+        "end": [
+          2026,
+          4
+        ],
+        "months": 14,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "ve350e33b1dfb5268",
+          "event_after": "v46c111de076d6438",
+          "coverage_scope": "employment"
+        },
+        "start_label": "2025-03",
+        "end_label": "2026-04",
+        "evidence_quotes": [
+          "ASSOCIATE 1 04/2024 to 02/2025 Bank of New York",
+          "SPECIALIST May 2026 – Present"
+        ],
+        "evidence_details": [
+          {
+            "header": "ASSOCIATE 1 at Bank of New York",
+            "quote": "ASSOCIATE 1 04/2024 to 02/2025 Bank of New York",
+            "event_id": "ve350e33b1dfb5268",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "ASSOCIATE 1",
+                  "block_id": "b28",
+                  "kind": "text",
+                  "start": 1318,
+                  "end": 1329
+                },
+                {
+                  "page": 1,
+                  "text": "04/2024 to 02/2025",
+                  "block_id": "b29",
+                  "kind": "text",
+                  "start": 1330,
+                  "end": 1348
+                },
+                {
+                  "page": 1,
+                  "text": "Bank of New York",
+                  "block_id": "b30",
+                  "kind": "text",
+                  "start": 1349,
+                  "end": 1365
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "04/2024 to 02/2025",
+                  "block_id": "b29",
+                  "kind": "text",
+                  "start": 1330,
+                  "end": 1348
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Bank of New York",
+                  "block_id": "b30",
+                  "kind": "text",
+                  "start": 1349,
+                  "end": 1365
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "ASSOCIATE 1",
+                  "block_id": "b28",
+                  "kind": "text",
+                  "start": 1318,
+                  "end": 1329
+                }
+              ],
+              "section": "EXPERIENCE",
+              "date_label": "04/2024 to 02/2025",
+              "is_present": false
+            }
+          },
+          {
+            "header": "SPECIALIST",
+            "quote": "SPECIALIST May 2026 – Present",
+            "event_id": "v46c111de076d6438",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "SPECIALIST",
+                  "block_id": "b12",
+                  "kind": "text",
+                  "start": 580,
+                  "end": 590
+                },
+                {
+                  "page": 1,
+                  "text": "May 2026 – Present",
+                  "block_id": "b13",
+                  "kind": "text",
+                  "start": 591,
+                  "end": 609
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "May 2026 – Present",
+                  "block_id": "b13",
+                  "kind": "text",
+                  "start": 591,
+                  "end": 609
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "SPECIALIST",
+                  "block_id": "b12",
+                  "kind": "text",
+                  "start": 580,
+                  "end": 590
+                }
+              ],
+              "section": "EXPERIENCE",
+              "date_label": "May 2026 – Present",
+              "is_present": true
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 4,
+      "total_events": 5,
+      "dated_share": 0.8,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 63,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

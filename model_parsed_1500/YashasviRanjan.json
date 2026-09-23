@@ -1,0 +1,613 @@
+{
+  "file_name": "YashasviRanjan.pdf",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 6,
+    "total_events": 7,
+    "dated_share": 0.857,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.878,
+    "document_accuracy": 0.86
+  },
+  "work_experience": [
+    {
+      "id": "v1d697f61b9f1c571",
+      "company": "Justdial",
+      "title": "Software Engineer",
+      "start_date": "2016-07",
+      "end_date": "2018-05",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v3893dda4ee24b1c2",
+      "company": "IQVIA (IMS Health",
+      "title": "Software Developer Analyst",
+      "start_date": "2018-05",
+      "end_date": "2019-06",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v7b407ef380d547c0",
+      "company": "",
+      "title": "Senior Software Engineer",
+      "start_date": "2019-07",
+      "end_date": "2020-04",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "ve50963a0df1d463a",
+      "company": "Motorola Solutions",
+      "title": "Software Engineer (Acting Team Lead)",
+      "start_date": "2020-04",
+      "end_date": "2022-03",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v6e8f92bc20c1dd75",
+      "company": "Rakuten India",
+      "title": "Senior Software Engineer 2",
+      "start_date": "2022-04",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vf7993c1cd5db083c",
+      "company": "Grow LMS and internal Knowledge Base platform",
+      "title": "Lead developer",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "v38abb73b1141b532",
+      "company": "CMR Institute of Technology",
+      "title": "Bachelor of Engineering",
+      "start_date": "2012-01",
+      "end_date": "2016-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 6,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "YashasviRanjan",
+    "filename": "YashasviRanjan.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "v38abb73b1141b532",
+        "type": "EDUCATION",
+        "title": "Bachelor of Engineering",
+        "org": "CMR Institute of Technology",
+        "start": "2012-01",
+        "end": "2016-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "Bachelor of Engineering — Information Science and Engineering\nCMR Institute of Technology, Bangalore | 2012 – 2016",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor of Engineering — Information Science and Engineering",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 6274,
+              "end": 6335
+            },
+            {
+              "page": 1,
+              "text": "CMR Institute of Technology, Bangalore | 2012 – 2016",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 6336,
+              "end": 6388
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2012 – 2016",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 6377,
+              "end": 6388
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "CMR Institute of Technology",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 6336,
+              "end": 6363
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Engineering",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 6274,
+              "end": 6297
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2012 – 2016",
+          "is_present": false
+        },
+        "date_label": "2012 – 2016",
+        "section": "EDUCATION",
+        "is_present": false
+      },
+      {
+        "id": "v1d697f61b9f1c571",
+        "type": "EMPLOYMENT",
+        "title": "Software Engineer",
+        "org": "Justdial",
+        "start": "2016-07",
+        "end": "2018-05",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Software Engineer — Justdial Jul 2016 – May 2018",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Software Engineer — Justdial Jul 2016 – May 2018",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 5928,
+              "end": 5976
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jul 2016 – May 2018",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 5957,
+              "end": 5976
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Justdial",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 5948,
+              "end": 5956
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Software Engineer",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 5928,
+              "end": 5945
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "Jul 2016 – May 2018",
+          "is_present": false
+        },
+        "date_label": "Jul 2016 – May 2018",
+        "section": "EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v3893dda4ee24b1c2",
+        "type": "EMPLOYMENT",
+        "title": "Software Developer Analyst",
+        "org": "IQVIA (IMS Health",
+        "start": "2018-05",
+        "end": "2019-06",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Software Developer Analyst — IQVIA (IMS Health) May 2018 – Jun 2019",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Software Developer Analyst — IQVIA (IMS Health) May 2018 – Jun 2019",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 5514,
+              "end": 5581
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "May 2018 – Jun 2019",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 5562,
+              "end": 5581
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "IQVIA (IMS Health",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 5543,
+              "end": 5560
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Software Developer Analyst",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 5514,
+              "end": 5540
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "May 2018 – Jun 2019",
+          "is_present": false
+        },
+        "date_label": "May 2018 – Jun 2019",
+        "section": "EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v7b407ef380d547c0",
+        "type": "EMPLOYMENT",
+        "title": "Senior Software Engineer",
+        "org": "",
+        "start": "2019-07",
+        "end": "2020-04",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Senior Software Engineer — Envestnet | Yodlee Jul 2019 – Apr 2020",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Software Engineer — Envestnet | Yodlee Jul 2019 – Apr 2020",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 5222,
+              "end": 5287
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jul 2019 – Apr 2020",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 5268,
+              "end": 5287
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Software Engineer",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 5222,
+              "end": 5246
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "Jul 2019 – Apr 2020",
+          "is_present": false
+        },
+        "date_label": "Jul 2019 – Apr 2020",
+        "section": "EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "ve50963a0df1d463a",
+        "type": "EMPLOYMENT",
+        "title": "Software Engineer (Acting Team Lead)",
+        "org": "Motorola Solutions",
+        "start": "2020-04",
+        "end": "2022-03",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Software Engineer (Acting Team Lead) — Motorola Solutions Apr 2020 – Mar 2022",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Software Engineer (Acting Team Lead) — Motorola Solutions Apr 2020 – Mar 2022",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 4061,
+              "end": 4138
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Apr 2020 – Mar 2022",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 4119,
+              "end": 4138
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Motorola Solutions",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 4100,
+              "end": 4118
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Software Engineer (Acting Team Lead",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 4061,
+              "end": 4096
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "Apr 2020 – Mar 2022",
+          "is_present": false
+        },
+        "date_label": "Apr 2020 – Mar 2022",
+        "section": "EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v6e8f92bc20c1dd75",
+        "type": "EMPLOYMENT",
+        "title": "Senior Software Engineer 2",
+        "org": "Rakuten India",
+        "start": "2022-04",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Senior Software Engineer 2 — Rakuten India Apr 2022 – Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Software Engineer 2 — Rakuten India Apr 2022 – Present",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 1735,
+              "end": 1796
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Apr 2022 – Present",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 1778,
+              "end": 1796
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Rakuten India",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 1764,
+              "end": 1777
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Software Engineer 2",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 1735,
+              "end": 1761
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "Apr 2022 – Present",
+          "is_present": true
+        },
+        "date_label": "Apr 2022 – Present",
+        "section": "EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "vf7993c1cd5db083c",
+        "type": "EMPLOYMENT",
+        "title": "Lead developer",
+        "org": "Grow LMS and internal Knowledge Base platform",
+        "entry_text": "Lead developer — Grow LMS and internal Knowledge Base platform •  GrowBot (GenAI / RAG): Architected a production RAG chatbot serving 3,000+ daily queries using Python, FastAPI, ChromaDB, and Claude/Gemini APIs. Built multi-source ingestion (PDF, CSV, Excel, Confluence, live MySQL), role-based vecto",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Lead developer — Grow LMS and internal Knowledge Base platform",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 1797,
+              "end": 1859
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "Grow LMS and internal Knowledge Base platform",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 1814,
+              "end": 1859
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Lead developer",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 1797,
+              "end": 1811
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "EXPERIENCE",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "vf7993c1cd5db083c"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 6,
+      "total_events": 7,
+      "dated_share": 0.857,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.878,
+      "document_accuracy": 0.86
+    },
+    "total_represented_months": 177,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

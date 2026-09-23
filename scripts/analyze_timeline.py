@@ -52,9 +52,9 @@ def main():
         for f in files:
             with open(os.path.join(args.sweep, f), encoding="utf-8", errors="ignore") as fh:
                 r = analyze_resume_timeline(fh.read())
-            n_grad += bool(r["graduation"])
+            n_grad += any(e["end"] for e in r["education_entries"])
             n_job += bool(r["jobs"])
-        print(f"files={len(files)} with_graduation={n_grad} "
+        print(f"files={len(files)} with_dated_education={n_grad} "
               f"({100.0 * n_grad / max(1, len(files)):.1f}%) "
               f"with_jobs={n_job} ({100.0 * n_job / max(1, len(files)):.1f}%)")
         return
@@ -62,7 +62,11 @@ def main():
     if not args.resume:
         ap.error("provide <resume> or --sweep")
     text = read_text(args.resume)
-    result = analyze_resume_timeline(text)
+    raw = b""
+    if args.resume.lower().endswith((".pdf", ".docx")):
+        with open(args.resume, "rb") as fh:
+            raw = fh.read()
+    result = analyze_resume_timeline(text, raw_bytes=raw, filename=os.path.basename(args.resume))
     print(json.dumps(result, indent=2, ensure_ascii=False))
     if nlp is not None:
         print("\n--- model_timeline entities (first 20) ---")

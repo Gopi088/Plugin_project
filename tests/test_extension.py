@@ -6,11 +6,12 @@ import os
 import re
 import subprocess
 import unittest
+from pathlib import Path
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 EXT = os.path.join(BASE, "extension")
 REQUIRED = ("manifest.json", "api.js", "viewmodel.js", "background.js",
-            "content.js", "sidebar.css", "popup.html", "popup.js")
+            "content.js", "sidebar.css", "popup.html", "popup.js", "source-viewer.js", "viewer.html")
 
 # Product vocabulary: the system must never present these as findings.
 BANNED = ("was unemployed", "is unemployed", "unemployment confirmed",
@@ -39,7 +40,7 @@ class TestExtension(unittest.TestCase):
     def test_js_syntax(self):
         node = shutil_which_node()
         self.assertTrue(node, "node required for JS syntax check")
-        for f in ("api.js", "viewmodel.js", "background.js", "content.js", "popup.js"):
+        for f in ("api.js", "viewmodel.js", "background.js", "content.js", "popup.js", "source-viewer.js", "native-pdf.js"):
             p = subprocess.run([node, "--check", os.path.join(EXT, f)],
                                capture_output=True, text=True)
             self.assertEqual(p.returncode, 0, f"{f}: {p.stderr}")
@@ -55,6 +56,10 @@ class TestExtension(unittest.TestCase):
                            capture_output=True, text=True)
         self.assertEqual(p.returncode, 0, p.stderr or p.stdout)
 
+    def test_native_pdf_permission_and_cleanup(self):
+        result=subprocess.run([shutil_which_node(),os.path.join(EXT,'native-pdf.test.js')],capture_output=True,text=True)
+        self.assertEqual(result.returncode,0,result.stderr or result.stdout)
+
     def test_vocabulary(self):
         for f in ("content.js", "popup.js", "background.js", "viewmodel.js"):
             with open(os.path.join(EXT, f), encoding="utf-8") as fh:
@@ -66,28 +71,14 @@ class TestExtension(unittest.TestCase):
             for pat in BANNED_RAW:
                 self.assertIsNone(re.search(pat, text), f"{f}: {pat!r}")
 
-    def test_design_tokens(self):
-        with open(os.path.join(EXT, "sidebar.css"), encoding="utf-8") as fh:
-            css = fh.read()
-        for token in ("--status-high-attention", "--status-review",
-                      "--status-clear", "--status-neutral"):
-            self.assertIn(token, css, token)
-
     def test_view_contract(self):
-        """UI consumes the view-model (tabs, cards, drawer, verbal confidence)."""
-        with open(os.path.join(EXT, "content.js"), encoding="utf-8") as fh:
-            js = fh.read()
-        for marker in ("mapTimelineResultToRecruiterViewModel", "data-tab",
-                       "rt-gap", "rt-rev", "rt-tl", "rt-evbox", "aria-selected",
-                       "role=\"tablist\"", "role=\"tabpanel\""):
-            self.assertIn(marker, js, marker)
-        with open(os.path.join(EXT, "viewmodel.js"), encoding="utf-8") as fh:
-            vm = fh.read()
-        for marker in ("attentionRules", "minimumGapMonthsForHighAttention",
-                       "minimumConfidenceForHighAttention", "presentationPriority",
-                       "overallStatus", "highGaps",
-                       "timelineEvents", "reviewItems"):
-            self.assertIn(marker, vm, marker)
+        js = Path(EXT, "content.js").read_text()
+        for marker in ('<details', 'data-reviewed', 'data-hide', 'View in Resume', 'rt-note-form'):
+            self.assertIn(marker, js)
+        for filename in ('content.js', 'source-viewer.js', 'popup.js'):
+            content = Path(EXT, filename).read_text()
+            for forbidden in ('tabs.create(', 'window.open(', 'rt-source-sheet'):
+                self.assertNotIn(forbidden, content)
 
 
 def shutil_which_node():

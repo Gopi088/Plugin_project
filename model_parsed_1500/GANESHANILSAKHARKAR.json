@@ -1,0 +1,926 @@
+{
+  "file_name": "GANESHANILSAKHARKAR.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 4,
+    "total_events": 4,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "vdc6afc78b019d3c2",
+      "company": "Java Develoer",
+      "title": "",
+      "start_date": "2023-03",
+      "end_date": "2023-11",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vae5fcebd08bc2672",
+      "company": "",
+      "title": "Java Developer",
+      "start_date": "2024-01",
+      "end_date": "2024-07",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v63c251e64a08a1d4",
+      "company": "",
+      "title": "Full Stack Java Developer",
+      "start_date": "2024-08",
+      "end_date": "2024-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v5b24cc98f30790ea",
+      "company": "",
+      "title": "Full Stack Java Developer",
+      "start_date": "2025-04",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "E-Samridhi",
+      "client": "IPTV Skypro",
+      "role": "",
+      "duration": "",
+      "details": [
+        "• Technologies: Core Java, Spring Boot & Microservices, REST API, JDBC, PostgreSQL.",
+        "• Description: e-Samridhi stands as the cornerstone of NAFED's mission towards India's self-sufficiency in oilseeds and",
+        "pulses, epitomizing progress, and efficiency. This Aadhaar-based verification platform guarantees seamless operations,",
+        "facilitating everything from registration to direct payments. By promoting transparency and traceability for farmers, it",
+        "enhances their experience and ensures a more efficient procurement process.",
+        "Onnet System India pvt. Ltd. | Bengaluru, Karnataka."
+      ]
+    },
+    {
+      "id": "proj_2",
+      "name": "Skypro IPTV",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Technologies: core Java, Spring boot, Microservice, Angular 14, PostgreSQL, RESTful Web Services",
+        "Description: Skypro TV is an IPTV application offering live streaming of multilingual channels, enhancing the entertainment",
+        "experience. The service operates seamlessly with the Skypro Network. Key contributions include:",
+        "• Set-Top Box (STB) Management: APIs for creating, updating STBs, and managing channel subscriptions.",
+        "• Payment Integration: Integrated Easy Buzz for secure and efficient payment processing.",
+        "• Customer Service Chatbot: Developed an end-user chatbot enabling direct channel subscriptions and payments,",
+        "enhancing user convenience. This project focuses on delivering a streamlined live TV and customer service experience.",
+        "Protean e-Governance Technologies pvt ltd. | New Delhi"
+      ]
+    },
+    {
+      "id": "proj_3",
+      "name": "Agristack Project",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Technologies: Core Java, Spring Boot, Microservices, Angular, PostgreSQL, AWS.",
+        "Description: Worked on the AgriStack platform, focusing on supporting registry management and network administration",
+        "functionalities. Developed backend microservices using Spring Boot to deliver scalable, secure APIs and collaborated with the",
+        "front-end team to implement user-friendly interfaces using Angular. Ensured seamless integration and efficient management of",
+        "agricultural data systems.",
+        "• Developed and supported AgriStack, focusing on registry management and network administration.",
+        "• Built and maintained backend microservices using Spring Boot, ensuring scalable and secure APIs.\\",
+        "• Collaborated on front-end development with Angular to provide a user-friendly interface for registry and network",
+        "management functions."
+      ]
+    }
+  ],
+  "education": [],
+  "gaps": [
+    {
+      "id": "g74c4fbf1411dbd6e",
+      "start": "2023-12",
+      "end": "2023-12",
+      "months": 1,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    },
+    {
+      "id": "gfb40642771842190",
+      "start": "2025-01",
+      "end": "2025-03",
+      "months": 3,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    }
+  ],
+  "total_work_experience": 4,
+  "total_projects": 3,
+  "total_gaps": 2,
+  "raw_pipeline_dto": {
+    "doc_id": "GANESHANILSAKHARKAR",
+    "filename": "GANESHANILSAKHARKAR.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "vdc6afc78b019d3c2",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Java Develoer",
+        "start": "2023-03",
+        "end": "2023-11",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Java Develoer | 03/2023 – 11/2023",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Java Develoer | 03/2023 – 11/2023",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 2693,
+              "end": 2726
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "03/2023 – 11/2023",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 2709,
+              "end": 2726
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Java Develoer",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 2693,
+              "end": 2706
+            }
+          ],
+          "title": [],
+          "section": "Stayed updated with industry regulations and emerging technologies for continuous improvement.",
+          "date_label": "03/2023 – 11/2023",
+          "is_present": false
+        },
+        "date_label": "03/2023 – 11/2023",
+        "section": "Stayed updated with industry regulations and emerging technologies for continuous improvement.",
+        "is_present": false
+      },
+      {
+        "id": "vae5fcebd08bc2672",
+        "type": "EMPLOYMENT",
+        "title": "Java Developer",
+        "org": "",
+        "start": "2024-01",
+        "end": "2024-07",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Java Developer | 02 Jan 2024 – 30 July 2024",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Java Developer | 02 Jan 2024 – 30 July 2024",
+              "block_id": "b40",
+              "kind": "text",
+              "start": 3578,
+              "end": 3621
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "02 Jan 2024 – 30 July 2024",
+              "block_id": "b40",
+              "kind": "text",
+              "start": 3595,
+              "end": 3621
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Java Developer",
+              "block_id": "b40",
+              "kind": "text",
+              "start": 3578,
+              "end": 3592
+            }
+          ],
+          "section": "Stayed updated with industry regulations and emerging technologies for continuous improvement.",
+          "date_label": "02 Jan 2024 – 30 July 2024",
+          "is_present": false
+        },
+        "date_label": "02 Jan 2024 – 30 July 2024",
+        "section": "Stayed updated with industry regulations and emerging technologies for continuous improvement.",
+        "is_present": false
+      },
+      {
+        "id": "v63c251e64a08a1d4",
+        "type": "EMPLOYMENT",
+        "title": "Full Stack Java Developer",
+        "org": "",
+        "start": "2024-08",
+        "end": "2024-12",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Full Stack Java Developer | Aug 2024 – December 2024",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Full Stack Java Developer | Aug 2024 – December 2024",
+              "block_id": "b60",
+              "kind": "text",
+              "start": 5134,
+              "end": 5186
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Aug 2024 – December 2024",
+              "block_id": "b60",
+              "kind": "text",
+              "start": 5162,
+              "end": 5186
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Full Stack Java Developer",
+              "block_id": "b60",
+              "kind": "text",
+              "start": 5134,
+              "end": 5159
+            }
+          ],
+          "section": "Stayed updated with industry regulations and emerging technologies for continuous improvement.",
+          "date_label": "Aug 2024 – December 2024",
+          "is_present": false
+        },
+        "date_label": "Aug 2024 – December 2024",
+        "section": "Stayed updated with industry regulations and emerging technologies for continuous improvement.",
+        "is_present": false
+      },
+      {
+        "id": "v5b24cc98f30790ea",
+        "type": "EMPLOYMENT",
+        "title": "Full Stack Java Developer",
+        "org": "",
+        "start": "2025-04",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Full Stack Java Developer | Apr-2025 – Present.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Full Stack Java Developer | Apr-2025 – Present.",
+              "block_id": "b81",
+              "kind": "text",
+              "start": 6889,
+              "end": 6936
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Apr-2025 – Present",
+              "block_id": "b81",
+              "kind": "text",
+              "start": 6917,
+              "end": 6935
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Full Stack Java Developer",
+              "block_id": "b81",
+              "kind": "text",
+              "start": 6889,
+              "end": 6914
+            }
+          ],
+          "section": "Stayed updated with industry regulations and emerging technologies for continuous improvement.",
+          "date_label": "Apr-2025 – Present",
+          "is_present": true
+        },
+        "date_label": "Apr-2025 – Present",
+        "section": "Stayed updated with industry regulations and emerging technologies for continuous improvement.",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "E-Samridhi",
+        "client": "IPTV Skypro",
+        "role": "",
+        "duration": "",
+        "details": [
+          "• Technologies: Core Java, Spring Boot & Microservices, REST API, JDBC, PostgreSQL.",
+          "• Description: e-Samridhi stands as the cornerstone of NAFED's mission towards India's self-sufficiency in oilseeds and",
+          "pulses, epitomizing progress, and efficiency. This Aadhaar-based verification platform guarantees seamless operations,",
+          "facilitating everything from registration to direct payments. By promoting transparency and traceability for farmers, it",
+          "enhances their experience and ensures a more efficient procurement process.",
+          "Onnet System India pvt. Ltd. | Bengaluru, Karnataka."
+        ],
+        "raw_text": "Project Name: E-Samridhi",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project Name: E-Samridhi",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 4499,
+              "end": 4523
+            },
+            {
+              "page": 1,
+              "text": "• Technologies: Core Java, Spring Boot & Microservices, REST API, JDBC, PostgreSQL.",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 4527,
+              "end": 4610
+            },
+            {
+              "page": 1,
+              "text": "• Description: e-Samridhi stands as the cornerstone of NAFED's mission towards India's self-sufficiency in oilseeds and",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 4612,
+              "end": 4731
+            },
+            {
+              "page": 1,
+              "text": "pulses, epitomizing progress, and efficiency. This Aadhaar-based verification platform guarantees seamless operations,",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 4733,
+              "end": 4851
+            },
+            {
+              "page": 1,
+              "text": "facilitating everything from registration to direct payments. By promoting transparency and traceability for farmers, it",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 4853,
+              "end": 4973
+            },
+            {
+              "page": 1,
+              "text": "enhances their experience and ensures a more efficient procurement process.",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 4975,
+              "end": 5050
+            },
+            {
+              "page": 1,
+              "text": "Onnet System India pvt. Ltd. | Bengaluru, Karnataka.",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 5054,
+              "end": 5106
+            },
+            {
+              "page": 1,
+              "text": "Client Name: IPTV Skypro",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 5108,
+              "end": 5132
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "Skypro IPTV",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Technologies: core Java, Spring boot, Microservice, Angular 14, PostgreSQL, RESTful Web Services",
+          "Description: Skypro TV is an IPTV application offering live streaming of multilingual channels, enhancing the entertainment",
+          "experience. The service operates seamlessly with the Skypro Network. Key contributions include:",
+          "• Set-Top Box (STB) Management: APIs for creating, updating STBs, and managing channel subscriptions.",
+          "• Payment Integration: Integrated Easy Buzz for secure and efficient payment processing.",
+          "• Customer Service Chatbot: Developed an end-user chatbot enabling direct channel subscriptions and payments,",
+          "enhancing user convenience. This project focuses on delivering a streamlined live TV and customer service experience.",
+          "Protean e-Governance Technologies pvt ltd. | New Delhi"
+        ],
+        "raw_text": "Project Name: Skypro IPTV",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project Name: Skypro IPTV",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 6063,
+              "end": 6088
+            },
+            {
+              "page": 1,
+              "text": "Technologies: core Java, Spring boot, Microservice, Angular 14, PostgreSQL, RESTful Web Services",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 6090,
+              "end": 6186
+            },
+            {
+              "page": 1,
+              "text": "Description: Skypro TV is an IPTV application offering live streaming of multilingual channels, enhancing the entertainment",
+              "block_id": "b74",
+              "kind": "text",
+              "start": 6188,
+              "end": 6311
+            },
+            {
+              "page": 1,
+              "text": "experience. The service operates seamlessly with the Skypro Network. Key contributions include:",
+              "block_id": "b75",
+              "kind": "text",
+              "start": 6313,
+              "end": 6408
+            },
+            {
+              "page": 1,
+              "text": "• Set-Top Box (STB) Management: APIs for creating, updating STBs, and managing channel subscriptions.",
+              "block_id": "b76",
+              "kind": "text",
+              "start": 6410,
+              "end": 6511
+            },
+            {
+              "page": 1,
+              "text": "• Payment Integration: Integrated Easy Buzz for secure and efficient payment processing.",
+              "block_id": "b77",
+              "kind": "text",
+              "start": 6513,
+              "end": 6601
+            },
+            {
+              "page": 1,
+              "text": "• Customer Service Chatbot: Developed an end-user chatbot enabling direct channel subscriptions and payments,",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 6603,
+              "end": 6712
+            },
+            {
+              "page": 1,
+              "text": "enhancing user convenience. This project focuses on delivering a streamlined live TV and customer service experience.",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 6714,
+              "end": 6831
+            },
+            {
+              "page": 1,
+              "text": "Protean e-Governance Technologies pvt ltd. | New Delhi",
+              "block_id": "b80",
+              "kind": "text",
+              "start": 6833,
+              "end": 6887
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_3",
+        "name": "Agristack Project",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Technologies: Core Java, Spring Boot, Microservices, Angular, PostgreSQL, AWS.",
+          "Description: Worked on the AgriStack platform, focusing on supporting registry management and network administration",
+          "functionalities. Developed backend microservices using Spring Boot to deliver scalable, secure APIs and collaborated with the",
+          "front-end team to implement user-friendly interfaces using Angular. Ensured seamless integration and efficient management of",
+          "agricultural data systems.",
+          "• Developed and supported AgriStack, focusing on registry management and network administration.",
+          "• Built and maintained backend microservices using Spring Boot, ensuring scalable and secure APIs.\\",
+          "• Collaborated on front-end development with Angular to provide a user-friendly interface for registry and network",
+          "management functions."
+        ],
+        "raw_text": "Project Name: Agristack Project",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project Name: Agristack Project",
+              "block_id": "b91",
+              "kind": "text",
+              "start": 7638,
+              "end": 7669
+            },
+            {
+              "page": 1,
+              "text": "Technologies: Core Java, Spring Boot, Microservices, Angular, PostgreSQL, AWS.",
+              "block_id": "b92",
+              "kind": "text",
+              "start": 7671,
+              "end": 7749
+            },
+            {
+              "page": 1,
+              "text": "Description: Worked on the AgriStack platform, focusing on supporting registry management and network administration",
+              "block_id": "b93",
+              "kind": "text",
+              "start": 7751,
+              "end": 7867
+            },
+            {
+              "page": 1,
+              "text": "functionalities. Developed backend microservices using Spring Boot to deliver scalable, secure APIs and collaborated with the",
+              "block_id": "b94",
+              "kind": "text",
+              "start": 7869,
+              "end": 7994
+            },
+            {
+              "page": 1,
+              "text": "front-end team to implement user-friendly interfaces using Angular. Ensured seamless integration and efficient management of",
+              "block_id": "b95",
+              "kind": "text",
+              "start": 7996,
+              "end": 8120
+            },
+            {
+              "page": 1,
+              "text": "agricultural data systems.",
+              "block_id": "b96",
+              "kind": "text",
+              "start": 8122,
+              "end": 8148
+            },
+            {
+              "page": 1,
+              "text": "• Developed and supported AgriStack, focusing on registry management and network administration.",
+              "block_id": "b97",
+              "kind": "text",
+              "start": 8150,
+              "end": 8246
+            },
+            {
+              "page": 1,
+              "text": "• Built and maintained backend microservices using Spring Boot, ensuring scalable and secure APIs.\\",
+              "block_id": "b98",
+              "kind": "text",
+              "start": 8248,
+              "end": 8347
+            },
+            {
+              "page": 1,
+              "text": "• Collaborated on front-end development with Angular to provide a user-friendly interface for registry and network",
+              "block_id": "b99",
+              "kind": "text",
+              "start": 8349,
+              "end": 8463
+            },
+            {
+              "page": 1,
+              "text": "management functions.",
+              "block_id": "b100",
+              "kind": "text",
+              "start": 8465,
+              "end": 8486
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g74c4fbf1411dbd6e",
+        "start": [
+          2023,
+          12
+        ],
+        "end": [
+          2023,
+          12
+        ],
+        "months": 1,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "vdc6afc78b019d3c2",
+          "event_after": "vae5fcebd08bc2672",
+          "coverage_scope": "all_dated_activity"
+        },
+        "start_label": "2023-12",
+        "end_label": "2023-12",
+        "evidence_quotes": [
+          "Java Develoer | 03/2023 – 11/2023",
+          "Java Developer | 02 Jan 2024 – 30 July 2024"
+        ],
+        "evidence_details": [
+          {
+            "header": "Java Develoer",
+            "quote": "Java Develoer | 03/2023 – 11/2023",
+            "event_id": "vdc6afc78b019d3c2",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Java Develoer | 03/2023 – 11/2023",
+                  "block_id": "b29",
+                  "kind": "text",
+                  "start": 2693,
+                  "end": 2726
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "03/2023 – 11/2023",
+                  "block_id": "b29",
+                  "kind": "text",
+                  "start": 2709,
+                  "end": 2726
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Java Develoer",
+                  "block_id": "b29",
+                  "kind": "text",
+                  "start": 2693,
+                  "end": 2706
+                }
+              ],
+              "title": [],
+              "section": "Stayed updated with industry regulations and emerging technologies for continuous improvement.",
+              "date_label": "03/2023 – 11/2023",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Java Developer",
+            "quote": "Java Developer | 02 Jan 2024 – 30 July 2024",
+            "event_id": "vae5fcebd08bc2672",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Java Developer | 02 Jan 2024 – 30 July 2024",
+                  "block_id": "b40",
+                  "kind": "text",
+                  "start": 3578,
+                  "end": 3621
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "02 Jan 2024 – 30 July 2024",
+                  "block_id": "b40",
+                  "kind": "text",
+                  "start": 3595,
+                  "end": 3621
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Java Developer",
+                  "block_id": "b40",
+                  "kind": "text",
+                  "start": 3578,
+                  "end": 3592
+                }
+              ],
+              "section": "Stayed updated with industry regulations and emerging technologies for continuous improvement.",
+              "date_label": "02 Jan 2024 – 30 July 2024",
+              "is_present": false
+            }
+          }
+        ]
+      },
+      {
+        "id": "gfb40642771842190",
+        "start": [
+          2025,
+          1
+        ],
+        "end": [
+          2025,
+          3
+        ],
+        "months": 3,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "v63c251e64a08a1d4",
+          "event_after": "v5b24cc98f30790ea",
+          "coverage_scope": "all_dated_activity"
+        },
+        "start_label": "2025-01",
+        "end_label": "2025-03",
+        "evidence_quotes": [
+          "Full Stack Java Developer | Aug 2024 – December 2024",
+          "Full Stack Java Developer | Apr-2025 – Present."
+        ],
+        "evidence_details": [
+          {
+            "header": "Full Stack Java Developer",
+            "quote": "Full Stack Java Developer | Aug 2024 – December 2024",
+            "event_id": "v63c251e64a08a1d4",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Full Stack Java Developer | Aug 2024 – December 2024",
+                  "block_id": "b60",
+                  "kind": "text",
+                  "start": 5134,
+                  "end": 5186
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Aug 2024 – December 2024",
+                  "block_id": "b60",
+                  "kind": "text",
+                  "start": 5162,
+                  "end": 5186
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Full Stack Java Developer",
+                  "block_id": "b60",
+                  "kind": "text",
+                  "start": 5134,
+                  "end": 5159
+                }
+              ],
+              "section": "Stayed updated with industry regulations and emerging technologies for continuous improvement.",
+              "date_label": "Aug 2024 – December 2024",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Full Stack Java Developer",
+            "quote": "Full Stack Java Developer | Apr-2025 – Present.",
+            "event_id": "v5b24cc98f30790ea",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Full Stack Java Developer | Apr-2025 – Present.",
+                  "block_id": "b81",
+                  "kind": "text",
+                  "start": 6889,
+                  "end": 6936
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Apr-2025 – Present",
+                  "block_id": "b81",
+                  "kind": "text",
+                  "start": 6917,
+                  "end": 6935
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Full Stack Java Developer",
+                  "block_id": "b81",
+                  "kind": "text",
+                  "start": 6889,
+                  "end": 6914
+                }
+              ],
+              "section": "Stayed updated with industry regulations and emerging technologies for continuous improvement.",
+              "date_label": "Apr-2025 – Present",
+              "is_present": true
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 4,
+      "total_events": 4,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 39,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

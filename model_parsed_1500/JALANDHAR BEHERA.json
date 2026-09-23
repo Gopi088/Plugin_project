@@ -1,0 +1,785 @@
+{
+  "file_name": "JALANDHAR BEHERA.docx",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 5,
+    "total_events": 7,
+    "dated_share": 0.714,
+    "unresolved": 2,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.89
+  },
+  "work_experience": [
+    {
+      "id": "v9f7ae99e5ca0b233",
+      "company": "Bhubaneshwar, India",
+      "title": "",
+      "start_date": "2015-05",
+      "end_date": "2018-06",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v63602027796bc011",
+      "company": "",
+      "title": "Associate Technical Consultant",
+      "start_date": "2018-06",
+      "end_date": "2021-08",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v1665aa65233920f4",
+      "company": "",
+      "title": "Module Lead",
+      "start_date": "2021-09",
+      "end_date": "2021-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v01a80c5d15cd47fc",
+      "company": "",
+      "title": "Technical Specialist",
+      "start_date": "2021-12",
+      "end_date": "2024-07",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v4df0533f98bbe9d5",
+      "company": "",
+      "title": "Principal DevOps Engineer",
+      "start_date": "2024-08",
+      "end_date": "2025-10",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v99d497e04b43da4f",
+      "company": "",
+      "title": "Key Vault/Secrets Manager",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "Project",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "2024 — Oct '25",
+        "Remote, India",
+        "Adidas: BCTF and ORIGO/ FlowBird, LTIMindtree Limited"
+      ]
+    },
+    {
+      "id": "proj_2",
+      "name": "Project",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Dec '21 — Mar '24 Bhubaneswar, India"
+      ]
+    },
+    {
+      "id": "proj_3",
+      "name": "Project",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Nokia, Sopra Steria Sep '21 — Dec '21 Noida, India",
+        "CML ONE/DOCOMO, Globestar Software Limited"
+      ]
+    },
+    {
+      "id": "proj_4",
+      "name": "Project",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Jun '18 — Aug '21 Delhi, India",
+        "EDUCATION:- B.Tech, Electrical, Electronics and Communications Engineering in Electrical, The Techno School (TTS), Bhubaneswar Sep '10 — Aug '14",
+        "10th, Counselor Education/School Counseling and Guidance Services in Counselor Education/School Counseling and",
+        "Guidance Services, GHVM"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "vc1b220f9c7f7c688",
+      "company": "The Techno School (TTS)",
+      "title": "B.Tech",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 6,
+  "total_projects": 4,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "JALANDHAR BEHERA",
+    "filename": "JALANDHAR BEHERA.docx",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "v9f7ae99e5ca0b233",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Bhubaneshwar, India",
+        "start": "2015-05",
+        "end": "2018-06",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "May '15 — Jun '18 Bhubaneshwar, India",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "May '15 — Jun '18 Bhubaneshwar, India",
+              "block_id": "b102",
+              "kind": "text",
+              "start": 8742,
+              "end": 8779
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "May '15 — Jun '18",
+              "block_id": "b102",
+              "kind": "text",
+              "start": 8742,
+              "end": 8759
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Bhubaneshwar, India",
+              "block_id": "b102",
+              "kind": "text",
+              "start": 8760,
+              "end": 8779
+            }
+          ],
+          "title": [],
+          "section": "EXPERIENCE",
+          "date_label": "May '15 — Jun '18",
+          "is_present": false
+        },
+        "date_label": "May '15 — Jun '18",
+        "section": "EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v63602027796bc011",
+        "type": "EMPLOYMENT",
+        "title": "Associate Technical Consultant",
+        "org": "",
+        "start": "2018-06",
+        "end": "2021-08",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Associate Technical Consultant\nJun '18 — Aug '21",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Associate Technical Consultant",
+              "block_id": "b84",
+              "kind": "text",
+              "start": 6718,
+              "end": 6748
+            },
+            {
+              "page": 1,
+              "text": "Jun '18 — Aug '21",
+              "block_id": "b86",
+              "kind": "text",
+              "start": 6776,
+              "end": 6793
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jun '18 — Aug '21",
+              "block_id": "b86",
+              "kind": "text",
+              "start": 6776,
+              "end": 6793
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Associate Technical Consultant",
+              "block_id": "b84",
+              "kind": "text",
+              "start": 6718,
+              "end": 6748
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "Jun '18 — Aug '21",
+          "is_present": false
+        },
+        "date_label": "Jun '18 — Aug '21",
+        "section": "EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v1665aa65233920f4",
+        "type": "EMPLOYMENT",
+        "title": "Module Lead",
+        "org": "",
+        "start": "2021-09",
+        "end": "2021-12",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Module Lead\nSep '21 — Dec '21",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Module Lead",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 5642,
+              "end": 5653
+            },
+            {
+              "page": 1,
+              "text": "Sep '21 — Dec '21",
+              "block_id": "b74",
+              "kind": "text",
+              "start": 5667,
+              "end": 5684
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Sep '21 — Dec '21",
+              "block_id": "b74",
+              "kind": "text",
+              "start": 5667,
+              "end": 5684
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Module Lead",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 5642,
+              "end": 5653
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "Sep '21 — Dec '21",
+          "is_present": false
+        },
+        "date_label": "Sep '21 — Dec '21",
+        "section": "EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v01a80c5d15cd47fc",
+        "type": "EMPLOYMENT",
+        "title": "Technical Specialist",
+        "org": "",
+        "start": "2021-12",
+        "end": "2024-07",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Technical Specialist\nDec '21 — Jul '24",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Technical Specialist",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 4357,
+              "end": 4377
+            },
+            {
+              "page": 1,
+              "text": "Dec '21 — Jul '24",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 4390,
+              "end": 4407
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Dec '21 — Jul '24",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 4390,
+              "end": 4407
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Technical Specialist",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 4357,
+              "end": 4377
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "Dec '21 — Jul '24",
+          "is_present": false
+        },
+        "date_label": "Dec '21 — Jul '24",
+        "section": "EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v4df0533f98bbe9d5",
+        "type": "EMPLOYMENT",
+        "title": "Principal DevOps Engineer",
+        "org": "",
+        "start": "2024-08",
+        "end": "2025-10",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Principal DevOps Engineer\nAug '24 — Oct '25",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Principal DevOps Engineer",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 2130,
+              "end": 2155
+            },
+            {
+              "page": 1,
+              "text": "Aug '24 — Oct '25",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 2162,
+              "end": 2179
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Aug '24 — Oct '25",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 2162,
+              "end": 2179
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Principal DevOps Engineer",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 2130,
+              "end": 2155
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "Aug '24 — Oct '25",
+          "is_present": false
+        },
+        "date_label": "Aug '24 — Oct '25",
+        "section": "EXPERIENCE",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v99d497e04b43da4f",
+        "type": "EMPLOYMENT",
+        "title": "Key Vault/Secrets Manager",
+        "org": "",
+        "entry_text": "Key Vault/Secrets Manager,VPC isolation, Security Groups,NACLs, and private endpoints — ensuring compliance with best practices (CIS, NIST). Configured unified monitoring, logging, and alerting using AWS CloudWatch, CloudTrail, X-Ray, Azure Monitor, Log Analytics,Application Insights, and Prometheus",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Key Vault/Secrets Manager,VPC isolation, Security Groups,NACLs, and private endpoints — ensuring compliance with best practices (CIS, NIST).",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 3326,
+              "end": 3466
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Key Vault/Secrets Manager",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 3326,
+              "end": 3351
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "EXPERIENCE",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "vc1b220f9c7f7c688",
+        "type": "EDUCATION",
+        "title": "B.Tech",
+        "org": "The Techno School (TTS)",
+        "entry_text": "B.Tech, Electrical, Electronics and Communications Engineering in Electrical, The Techno School (TTS), Bhubaneswar 10th, Counselor Education/School Counseling and Guidance Services in Counselor Education/School Counseling and Guidance Services, GHVM",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "B.Tech, Electrical, Electronics and Communications Engineering in Electrical, The Techno School (TTS), Bhubaneswar",
+              "block_id": "b111",
+              "kind": "text",
+              "start": 9558,
+              "end": 9672
+            },
+            {
+              "page": 1,
+              "text": "10th, Counselor Education/School Counseling and Guidance Services in Counselor Education/School Counseling and Guidance Services, GHVM",
+              "block_id": "b112",
+              "kind": "text",
+              "start": 9673,
+              "end": 9807
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "The Techno School (TTS",
+              "block_id": "b111",
+              "kind": "text",
+              "start": 9636,
+              "end": 9658
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "B.Tech",
+              "block_id": "b111",
+              "kind": "text",
+              "start": 9558,
+              "end": 9564
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "EDUCATION",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "Project",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "2024 — Oct '25",
+          "Remote, India",
+          "Adidas: BCTF and ORIGO/ FlowBird, LTIMindtree Limited"
+        ],
+        "raw_text": "2024 — Oct '25\nRemote, India\nAdidas: BCTF and ORIGO/ FlowBird, LTIMindtree Limited",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "2024 — Oct '25",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 1594,
+              "end": 1608
+            },
+            {
+              "page": 1,
+              "text": "Remote, India",
+              "block_id": "b27",
+              "kind": "text",
+              "start": 1609,
+              "end": 1622
+            },
+            {
+              "page": 1,
+              "text": "Adidas: BCTF and ORIGO/ FlowBird, LTIMindtree Limited",
+              "block_id": "b28",
+              "kind": "text",
+              "start": 1623,
+              "end": 1676
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "Project",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Dec '21 — Mar '24 Bhubaneswar, India"
+        ],
+        "raw_text": "Dec '21 — Mar '24 Bhubaneswar, India",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Dec '21 — Mar '24 Bhubaneswar, India",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 1677,
+              "end": 1713
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_3",
+        "name": "Project",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Nokia, Sopra Steria Sep '21 — Dec '21 Noida, India",
+          "CML ONE/DOCOMO, Globestar Software Limited"
+        ],
+        "raw_text": "Nokia, Sopra Steria Sep '21 — Dec '21 Noida, India\nCML ONE/DOCOMO, Globestar Software Limited",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Nokia, Sopra Steria Sep '21 — Dec '21 Noida, India",
+              "block_id": "b30",
+              "kind": "text",
+              "start": 1714,
+              "end": 1764
+            },
+            {
+              "page": 1,
+              "text": "CML ONE/DOCOMO, Globestar Software Limited",
+              "block_id": "b31",
+              "kind": "text",
+              "start": 1765,
+              "end": 1807
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_4",
+        "name": "Project",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Jun '18 — Aug '21 Delhi, India",
+          "EDUCATION:- B.Tech, Electrical, Electronics and Communications Engineering in Electrical, The Techno School (TTS), Bhubaneswar Sep '10 — Aug '14",
+          "10th, Counselor Education/School Counseling and Guidance Services in Counselor Education/School Counseling and",
+          "Guidance Services, GHVM"
+        ],
+        "raw_text": "Jun '18 — Aug '21 Delhi, India\nEDUCATION:- B.Tech, Electrical, Electronics and Communications Engineering in Electrical, The Techno School (TTS), Bhubaneswar Sep '10 — Aug '14\n10th, Counselor Education/School Counseling and Guidance Services in Counselor Education/School Counseling and\nGuidance Services, GHVM",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Jun '18 — Aug '21 Delhi, India",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 1808,
+              "end": 1838
+            },
+            {
+              "page": 1,
+              "text": "EDUCATION:-",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 1839,
+              "end": 1850
+            },
+            {
+              "page": 1,
+              "text": "B.Tech, Electrical, Electronics and Communications Engineering in Electrical, The Techno School (TTS), Bhubaneswar Sep '10 — Aug '14",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 1851,
+              "end": 1983
+            },
+            {
+              "page": 1,
+              "text": "10th, Counselor Education/School Counseling and Guidance Services in Counselor Education/School Counseling and",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 1984,
+              "end": 2094
+            },
+            {
+              "page": 1,
+              "text": "Guidance Services, GHVM",
+              "block_id": "b35",
+              "kind": "text",
+              "start": 2095,
+              "end": 2118
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "v99d497e04b43da4f"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 5,
+      "total_events": 7,
+      "dated_share": 0.714,
+      "unresolved": 2,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.89
+    },
+    "total_represented_months": 126,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

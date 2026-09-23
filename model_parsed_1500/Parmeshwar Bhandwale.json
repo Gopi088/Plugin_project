@@ -1,0 +1,705 @@
+{
+  "file_name": "Parmeshwar Bhandwale.docx",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 3,
+    "total_events": 4,
+    "dated_share": 0.75,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v3c57676f0c1f1fe4",
+      "company": "📌 Relentless Sports Retail Pvt Ltd",
+      "title": "Data Analyst",
+      "start_date": "2020-01",
+      "end_date": "2021-11",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v64df8911f1f90ef8",
+      "company": "📌 Optimal Virtual Employee",
+      "title": "Python Developer",
+      "start_date": "2021-11",
+      "end_date": "2023-04",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vbfc4cd96fb20a90a",
+      "company": "📌 The Automation Office (TAO",
+      "title": "Senior Associate Consultant",
+      "start_date": "2023-04",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "& Finance Manual Bot [LLM-RAG]",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Developed and implemented an LLM-RAG bot to analyze and determine appropriate accounting treatments for various sales transactions.",
+        "Covered areas such as hardware sales, warranties, CarePacks services, contra revenue, and special negotiated discounts.",
+        "Enhanced accuracy and compliance in financial reporting through advanced data analysis and model refinement.",
+        "Integrated embedding methods to enhance retrieval of relevant information within the LLM RAG application.",
+        "Collaborated with cross-functional teams like cybersecurity for data protection and DevOps for deployment pipelines."
+      ]
+    },
+    {
+      "id": "proj_2",
+      "name": "Toner Supplies NPI Modeling",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Designed and automated business processes to reduce processing time per item and increase efficiency.",
+        "Eliminated human errors and optimized workflow execution.",
+        "Key Achievements:",
+        "• Reduced processing time by 40% through automation."
+      ]
+    },
+    {
+      "id": "proj_3",
+      "name": "Project pAIges",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Developed intelligent document processing solutions for financial documents (Invoices, Credit Notes, Purchase Orders).",
+        "Extracted key fields from unstructured financial documents and pushed data to RPA systems for touchless payments.",
+        "Designed backend APIs, implemented business logic, and built workflow automation.",
+        "Integrated Azure cloud services (Logic Apps, Webhooks, Service Bus, Event Hub) for real-time data processing.",
+        "Tech Stack:",
+        "Programming Languages: Python, SQL, NoSQL",
+        "ML Techniques: Image Processing, Feature Engineering, Text Extraction, Classification",
+        "Cloud Services: Azure Functions, Azure Storage, Azure Service Bus",
+        "APIs & Frameworks: Flask, FastAPI, Kelvin",
+        "Containerization & Orchestration: Docker, Kubernetes"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "v6c3e2f121bb710cd",
+      "company": "Dr. Babasaheb Ambedkar Marathwada University",
+      "title": "🎓 Master’s in Computer Science",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 3,
+  "total_projects": 3,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "Parmeshwar Bhandwale",
+    "filename": "Parmeshwar Bhandwale.docx",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v3c57676f0c1f1fe4",
+        "type": "EMPLOYMENT",
+        "title": "Data Analyst",
+        "org": "📌 Relentless Sports Retail Pvt Ltd",
+        "start": "2020-01",
+        "end": "2021-11",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Data Analyst\n📌 Relentless Sports Retail Pvt Ltd | 📆 Jan 2020 – Nov 2021 | 📍 Bangalore, India",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Data Analyst",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 2795,
+              "end": 2807
+            },
+            {
+              "page": 1,
+              "text": "📌 Relentless Sports Retail Pvt Ltd | 📆 Jan 2020 – Nov 2021 | 📍 Bangalore, India",
+              "block_id": "b40",
+              "kind": "text",
+              "start": 2808,
+              "end": 2887
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jan 2020 – Nov 2021",
+              "block_id": "b40",
+              "kind": "text",
+              "start": 2847,
+              "end": 2866
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Relentless Sports Retail Pvt Ltd",
+              "block_id": "b40",
+              "kind": "text",
+              "start": 2810,
+              "end": 2842
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Data Analyst",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 2795,
+              "end": 2807
+            }
+          ],
+          "section": "Work Experience",
+          "date_label": "Jan 2020 – Nov 2021",
+          "is_present": false
+        },
+        "date_label": "Jan 2020 – Nov 2021",
+        "section": "Work Experience",
+        "is_present": false
+      },
+      {
+        "id": "v64df8911f1f90ef8",
+        "type": "EMPLOYMENT",
+        "title": "Python Developer",
+        "org": "📌 Optimal Virtual Employee",
+        "start": "2021-11",
+        "end": "2023-04",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Python Developer\n📌 Optimal Virtual Employee | 📆 Nov 2021 – Apr 2023 | 📍 Bangalore, India",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Python Developer",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 1964,
+              "end": 1980
+            },
+            {
+              "page": 1,
+              "text": "📌 Optimal Virtual Employee | 📆 Nov 2021 – Apr 2023 | 📍 Bangalore, India",
+              "block_id": "b27",
+              "kind": "text",
+              "start": 1981,
+              "end": 2052
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Nov 2021 – Apr 2023",
+              "block_id": "b27",
+              "kind": "text",
+              "start": 2012,
+              "end": 2031
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Optimal Virtual Employee",
+              "block_id": "b27",
+              "kind": "text",
+              "start": 1983,
+              "end": 2007
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Python Developer",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 1964,
+              "end": 1980
+            }
+          ],
+          "section": "Work Experience",
+          "date_label": "Nov 2021 – Apr 2023",
+          "is_present": false
+        },
+        "date_label": "Nov 2021 – Apr 2023",
+        "section": "Work Experience",
+        "is_present": false
+      },
+      {
+        "id": "vbfc4cd96fb20a90a",
+        "type": "EMPLOYMENT",
+        "title": "Senior Associate Consultant",
+        "org": "📌 The Automation Office (TAO",
+        "start": "2023-04",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Senior Associate Consultant – Tech\n📌 The Automation Office (TAO) | 📆 Apr 2023 – Present | 📍 Bangalore, India",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Associate Consultant – Tech",
+              "block_id": "b13",
+              "kind": "text",
+              "start": 940,
+              "end": 974
+            },
+            {
+              "page": 1,
+              "text": "📌 The Automation Office (TAO) | 📆 Apr 2023 – Present | 📍 Bangalore, India",
+              "block_id": "b14",
+              "kind": "text",
+              "start": 975,
+              "end": 1048
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Apr 2023 – Present",
+              "block_id": "b14",
+              "kind": "text",
+              "start": 1009,
+              "end": 1027
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "The Automation Office (TAO",
+              "block_id": "b14",
+              "kind": "text",
+              "start": 977,
+              "end": 1003
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Associate Consultant",
+              "block_id": "b13",
+              "kind": "text",
+              "start": 940,
+              "end": 967
+            }
+          ],
+          "section": "Work Experience",
+          "date_label": "Apr 2023 – Present",
+          "is_present": true
+        },
+        "date_label": "Apr 2023 – Present",
+        "section": "Work Experience",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v6c3e2f121bb710cd",
+        "type": "EDUCATION",
+        "title": "🎓 Master’s in Computer Science",
+        "org": "Dr. Babasaheb Ambedkar Marathwada University",
+        "entry_text": "🎓 Master’s in Computer Science | Dr. Babasaheb Ambedkar Marathwada University | 2018",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "🎓 Master’s in Computer Science | Dr. Babasaheb Ambedkar Marathwada University | 2018",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 3368,
+              "end": 3452
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2018",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 3448,
+              "end": 3452
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Dr. Babasaheb Ambedkar Marathwada University",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 3401,
+              "end": 3445
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Master’s in Computer Science",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 3370,
+              "end": 3398
+            }
+          ],
+          "section": "Education",
+          "date_label": "2018",
+          "is_present": false
+        },
+        "date_label": "2018",
+        "section": "Education",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "& Finance Manual Bot [LLM-RAG]",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Developed and implemented an LLM-RAG bot to analyze and determine appropriate accounting treatments for various sales transactions.",
+          "Covered areas such as hardware sales, warranties, CarePacks services, contra revenue, and special negotiated discounts.",
+          "Enhanced accuracy and compliance in financial reporting through advanced data analysis and model refinement.",
+          "Integrated embedding methods to enhance retrieval of relevant information within the LLM RAG application.",
+          "Collaborated with cross-functional teams like cybersecurity for data protection and DevOps for deployment pipelines."
+        ],
+        "raw_text": "Project: Accounting & Finance Manual Bot [LLM-RAG]",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project: Accounting & Finance Manual Bot [LLM-RAG]",
+              "block_id": "b15",
+              "kind": "text",
+              "start": 1049,
+              "end": 1099
+            },
+            {
+              "page": 1,
+              "text": "Developed and implemented an LLM-RAG bot to analyze and determine appropriate accounting treatments for various sales transactions.",
+              "block_id": "b16",
+              "kind": "text",
+              "start": 1100,
+              "end": 1231
+            },
+            {
+              "page": 1,
+              "text": "Covered areas such as hardware sales, warranties, CarePacks services, contra revenue, and special negotiated discounts.",
+              "block_id": "b17",
+              "kind": "text",
+              "start": 1232,
+              "end": 1351
+            },
+            {
+              "page": 1,
+              "text": "Enhanced accuracy and compliance in financial reporting through advanced data analysis and model refinement.",
+              "block_id": "b18",
+              "kind": "text",
+              "start": 1352,
+              "end": 1460
+            },
+            {
+              "page": 1,
+              "text": "Integrated embedding methods to enhance retrieval of relevant information within the LLM RAG application.",
+              "block_id": "b19",
+              "kind": "text",
+              "start": 1461,
+              "end": 1566
+            },
+            {
+              "page": 1,
+              "text": "Collaborated with cross-functional teams like cybersecurity for data protection and DevOps for deployment pipelines.",
+              "block_id": "b20",
+              "kind": "text",
+              "start": 1567,
+              "end": 1683
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "Toner Supplies NPI Modeling",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Designed and automated business processes to reduce processing time per item and increase efficiency.",
+          "Eliminated human errors and optimized workflow execution.",
+          "Key Achievements:",
+          "• Reduced processing time by 40% through automation."
+        ],
+        "raw_text": "Project: Automation Toner Supplies NPI Modeling",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project: Automation Toner Supplies NPI Modeling",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 1684,
+              "end": 1731
+            },
+            {
+              "page": 1,
+              "text": "Designed and automated business processes to reduce processing time per item and increase efficiency.",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 1732,
+              "end": 1833
+            },
+            {
+              "page": 1,
+              "text": "Eliminated human errors and optimized workflow execution.",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 1834,
+              "end": 1891
+            },
+            {
+              "page": 1,
+              "text": "Key Achievements:",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 1892,
+              "end": 1909
+            },
+            {
+              "page": 1,
+              "text": "• Reduced processing time by 40% through automation.",
+              "block_id": "b25",
+              "kind": "text",
+              "start": 1910,
+              "end": 1962
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_3",
+        "name": "Project pAIges",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Developed intelligent document processing solutions for financial documents (Invoices, Credit Notes, Purchase Orders).",
+          "Extracted key fields from unstructured financial documents and pushed data to RPA systems for touchless payments.",
+          "Designed backend APIs, implemented business logic, and built workflow automation.",
+          "Integrated Azure cloud services (Logic Apps, Webhooks, Service Bus, Event Hub) for real-time data processing.",
+          "Tech Stack:",
+          "Programming Languages: Python, SQL, NoSQL",
+          "ML Techniques: Image Processing, Feature Engineering, Text Extraction, Classification",
+          "Cloud Services: Azure Functions, Azure Storage, Azure Service Bus",
+          "APIs & Frameworks: Flask, FastAPI, Kelvin",
+          "Containerization & Orchestration: Docker, Kubernetes"
+        ],
+        "raw_text": "Project: pAIges",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project: pAIges",
+              "block_id": "b28",
+              "kind": "text",
+              "start": 2053,
+              "end": 2068
+            },
+            {
+              "page": 1,
+              "text": "Developed intelligent document processing solutions for financial documents (Invoices, Credit Notes, Purchase Orders).",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 2069,
+              "end": 2187
+            },
+            {
+              "page": 1,
+              "text": "Extracted key fields from unstructured financial documents and pushed data to RPA systems for touchless payments.",
+              "block_id": "b30",
+              "kind": "text",
+              "start": 2188,
+              "end": 2301
+            },
+            {
+              "page": 1,
+              "text": "Designed backend APIs, implemented business logic, and built workflow automation.",
+              "block_id": "b31",
+              "kind": "text",
+              "start": 2302,
+              "end": 2383
+            },
+            {
+              "page": 1,
+              "text": "Integrated Azure cloud services (Logic Apps, Webhooks, Service Bus, Event Hub) for real-time data processing.",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 2384,
+              "end": 2493
+            },
+            {
+              "page": 1,
+              "text": "Tech Stack:",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 2494,
+              "end": 2505
+            },
+            {
+              "page": 1,
+              "text": "Programming Languages: Python, SQL, NoSQL",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 2506,
+              "end": 2547
+            },
+            {
+              "page": 1,
+              "text": "ML Techniques: Image Processing, Feature Engineering, Text Extraction, Classification",
+              "block_id": "b35",
+              "kind": "text",
+              "start": 2548,
+              "end": 2633
+            },
+            {
+              "page": 1,
+              "text": "Cloud Services: Azure Functions, Azure Storage, Azure Service Bus",
+              "block_id": "b36",
+              "kind": "text",
+              "start": 2634,
+              "end": 2699
+            },
+            {
+              "page": 1,
+              "text": "APIs & Frameworks: Flask, FastAPI, Kelvin",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 2700,
+              "end": 2741
+            },
+            {
+              "page": 1,
+              "text": "Containerization & Orchestration: Docker, Kubernetes",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 2742,
+              "end": 2794
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "NO_GAP_DETECTED",
+        "confidence": 0.9,
+        "reasons": [],
+        "evidence": {
+          "note": "no uncovered months between supported entries"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 3,
+      "total_events": 4,
+      "dated_share": 0.75,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 81,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

@@ -1,59 +1,63 @@
-# Extension — Resume Timeline & Gap Detection (MV3)
+# Resume Timeline extension (MV3)
 
-## Install (Chrome/Edge, developer mode)
+Start `venv/bin/python backend/server.py`, then load `extension/` unpacked at
+`chrome://extensions`. Enable **Allow access to file URLs** for local resumes.
+After updating, reload the extension and reopen the resume.
 
-1. Start the backend: `venv/bin/python backend/server.py` (serves `127.0.0.1:8000`).
-2. Open `chrome://extensions`, enable **Developer mode** → **Load unpacked** → select `extension/`.
-3. Pin the action; set the API base in the popup if your backend differs.
-4. For local resumes, enable **Allow access to file URLs** in extension Details.
-5. After updating the extension, click **Reload** and reopen the resume tab.
+Open the resume and click **Timeline**. In Chrome's native PDF viewer, use the
+pinned extension icon: it analyzes the open file automatically. **Open timeline**
+opens the results side panel, without a second resume tab. Manual upload and URL
+entry remain under **Analyze another resume**.
 
-## Recruiter flow (no manual start needed)
+Overview, Timeline and Needs review tabs organize the original card layout.
+The timeline is grouped by year with a vertical line and event markers.
+Cards show roles, dates and review/eye/evidence actions; source details expand on demand. Only ambiguous dates or missing dates on actual employment entries need review.
+An undated degree and valid month/year dates do not create review items.
+An empty Needs review tab is hidden. Detected periods appear at the top with
+dates, duration and the two bounding employers; employment-only findings are
+labeled as gaps in listed employment.
+**View in Resume** highlights original HTML offsets, existing PDF.js page
+coordinates without navigating, reloading, or rendering a copy. The button only
+reports success after the existing viewer confirms a highlight. Chrome's built-in
+PDF viewer uses optional `debugger` access (Chrome 125+). On the first PDF click,
+choose **Enable live PDF highlighting** and accept Chrome's permission prompt.
+The extension attaches only to the bound resume tab, highlights its original PDF
+text and disconnects immediately. A temporary Chrome debugging banner is normal.
+It does not navigate, reload, or open another document. Declining permission leaves
+the resume unchanged; unsupported viewer versions show an explicit error. Missing or stale
+source locations produce a message instead of an approximate text match.
 
-Open resume → pill appears → click **Timeline** → panel auto-detects and analyzes → timeline + unrepresented periods with confidence, reasons, and resume quotes.
+Use the reviewed checkbox and eye icon to track review and hide/show information.
+One collapsed general notes section saves the recruiter's name, text, date and time. Notes,
+review state and hidden items persist across refresh/reanalysis of identical
+contents. Repeated legacy notes are grouped under collapsed Earlier notes without deleting
+the original records or timestamps. Local drafts survive a failed save.
 
-If Chrome’s built-in PDF viewer does not allow the pill, click the pinned extension icon. The popup automatically analyzes the current resume without selecting it again.
+The popup's **Evaluation accuracy** reports labeled-set mean F1, case count and
+date. It is not the verified accuracy of the currently opened resume.
 
-Results include numeric extraction confidence and measured evaluation accuracy. The latter is a labeled-set mean F1, not verified accuracy of the open resume.
+Permissions: `activeTab`/`scripting` support page integration; `sidePanel` hosts
+results beside native PDFs; `storage` holds settings, document bindings and note
+drafts; `contextMenus`/`webNavigation` support document detection. HTTP/HTTPS and
+file host permissions allow the worker to read the requested resume and contact
+the configured backend. Online document reads include browser credentials.
 
-Detection, in order: PDF/DOCX file URL → embedded PDF → ATS/HTML resume text
-(Experience + Education + dates) → resume link on page. Otherwise the popup
-offers file upload or URL submit. The original page is never modified — the UI
-is a dismissible side dock.
+## Full resume workspace
 
-## Recruiter UI (attention-first)
+The popup's **Resume editor & PDF export** link opens the full management
+workspace on the configured project backend. This adds Matcher upload, all-section
+editing, custom sections, category-filtered timelines and template PDF downloads.
+Matcher runs separately on port 8001; the extension's original evidence workflow
+continues to use the existing twelve-stage backend. See [workspace details](../web/README.md).
 
-The panel consumes a recruiter view-model (`viewmodel.js`), never raw DTOs:
+The panel header shows the loaded extension version (currently **1.1.3**). If
+Chrome still shows the old viewer error without this version, update/reload the
+loaded extension folder and reopen its panel. Native PDF routing works from both
+the in-page Timeline panel and the side panel, including when an older content
+script replies with a generic unsupported-source message.
 
-- **Summary card** — CLEAR / ATTENTION / REVIEW / insufficient-evidence, with
-  candidate name, headline, and counts. Understood in ~5 seconds.
-- **Tabs** — Overview (attention items only) · Timeline (visual vertical
-  timeline, year-grouped, expandable cards) · Review (badge-counted).
-- **Gap cards** — status → dates → duration; confidence verbalized
-  (High confidence / Needs review / Low confidence); numeric detail hidden in
-  Advanced. Presentation priority (HIGH/REVIEW/LOW) comes from configurable
-  `attentionRules` (duration + confidence) — backend results stay source of truth.
-- **Review cards** — one per ambiguous/unresolved finding, never a text dump.
-- **Evidence drawer** — Why? (bounding activities) + resume quotes with page
-  numbers, date mentions, association status; numeric confidence under Advanced.
-- **Actions** — Confirm / Mark as explained / Needs follow-up / Dismiss, each
-  with optional note, stored as feedback (evidence itself is never modified).
-- Footer disclaimer stays subtle; status is always icon + label + color;
-  `Esc` closes; all styling via `--status-*` design tokens.
-
-## Review / override
-
-- **Evidence** expands the full chain: event → entry → date association → date
-  mention (original text) → text block/page.
-- **Dismiss** records recruiter feedback; dismissed gaps reload as
-  `DISMISSED_GAP` (audit trail in backend `feedback` table).
-
-## Permissions rationale
-
-`activeTab` + `scripting` (inject dock), `storage` (API base, last doc),
-`contextMenus` (analyze link), `webNavigation` (badge on PDF/DOCX pages),
-`host_permissions` include HTTP/HTTPS and local file URLs so the background
-worker can read the browser document and contact the configured backend.
-Chrome additionally requires **Allow access to file URLs** for local files.
-Online requests include browser credentials where the site permits them.
-Resume bytes are sent to the configured backend only when analysis is requested.
+Results display **Evaluation accuracy**, fetched from `/api/quality`, with the
+labeled test count and evaluation date. This is the measured benchmark F1 score,
+not a claim that the current candidate's resume is independently verified. If
+no valid report is available, the UI says unavailable rather than inventing a
+percentage.

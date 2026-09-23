@@ -1,0 +1,464 @@
+{
+  "file_name": "Nishant Tikale.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 5,
+    "dated_share": 0.4,
+    "unresolved": 3,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.88
+  },
+  "work_experience": [
+    {
+      "id": "v788332455f35bb50",
+      "company": "Venture Capital Deal Sourcing Extern",
+      "title": "",
+      "start_date": "2024-03",
+      "end_date": "2024-04",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vc242976ca6453f62",
+      "company": "Capital Markets & Client Reporting",
+      "title": "Operations Analyst",
+      "start_date": "2025-08",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v17ec7e44638332b3",
+      "company": "",
+      "title": "Consultant- Sales Operations December 25",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "vf46dec227b348b26",
+      "company": "Vivekanand Education Society’s Business School Mumbai",
+      "title": "Master of Business Administration",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    },
+    {
+      "id": "vfa040ed7c0d57538",
+      "company": "",
+      "title": "B. Tech",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 3,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "Nishant Tikale",
+    "filename": "Nishant Tikale.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v788332455f35bb50",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Venture Capital Deal Sourcing Extern",
+        "start": "2024-03",
+        "end": "2024-04",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Venture Capital Deal Sourcing Extern Mar 2024 – Apr 2024",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Venture Capital Deal Sourcing Extern Mar 2024 – Apr 2024",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 3132,
+              "end": 3188
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Mar 2024 – Apr 2024",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 3169,
+              "end": 3188
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Venture Capital Deal Sourcing Extern",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 3132,
+              "end": 3168
+            }
+          ],
+          "title": [],
+          "section": "WORK EXPRIENCE",
+          "date_label": "Mar 2024 – Apr 2024",
+          "is_present": false
+        },
+        "date_label": "Mar 2024 – Apr 2024",
+        "section": "WORK EXPRIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vc242976ca6453f62",
+        "type": "EMPLOYMENT",
+        "title": "Operations Analyst",
+        "org": "Capital Markets & Client Reporting",
+        "start": "2025-08",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Operations Analyst – Capital Markets & Client Reporting Aug 2025 – Current",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Operations Analyst – Capital Markets & Client Reporting Aug 2025 – Current",
+              "block_id": "b14",
+              "kind": "text",
+              "start": 691,
+              "end": 765
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Aug 2025 – Current",
+              "block_id": "b14",
+              "kind": "text",
+              "start": 747,
+              "end": 765
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Capital Markets & Client Reporting",
+              "block_id": "b14",
+              "kind": "text",
+              "start": 712,
+              "end": 746
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Operations Analyst",
+              "block_id": "b14",
+              "kind": "text",
+              "start": 691,
+              "end": 709
+            }
+          ],
+          "section": "WORK EXPRIENCE",
+          "date_label": "Aug 2025 – Current",
+          "is_present": true
+        },
+        "date_label": "Aug 2025 – Current",
+        "section": "WORK EXPRIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "vf46dec227b348b26",
+        "type": "EDUCATION",
+        "title": "Master of Business Administration",
+        "org": "Vivekanand Education Society’s Business School Mumbai",
+        "entry_text": "Vivekanand Education Society’s Business School Mumbai, Maharashtra Master of Business Administration – Finance July 2025 Sharad Institute of Technology College of Engineering Ichalkaranji, Maharashtra",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Vivekanand Education Society’s Business School Mumbai, Maharashtra",
+              "block_id": "b8",
+              "kind": "text",
+              "start": 416,
+              "end": 482
+            },
+            {
+              "page": 1,
+              "text": "Master of Business Administration – Finance July 2025",
+              "block_id": "b9",
+              "kind": "text",
+              "start": 484,
+              "end": 537
+            },
+            {
+              "page": 1,
+              "text": "Sharad Institute of Technology College of Engineering Ichalkaranji, Maharashtra",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 539,
+              "end": 618
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "July 2025",
+              "block_id": "b9",
+              "kind": "text",
+              "start": 528,
+              "end": 537
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Vivekanand Education Society’s Business School Mumbai",
+              "block_id": "b8",
+              "kind": "text",
+              "start": 416,
+              "end": 469
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Master of Business Administration",
+              "block_id": "b9",
+              "kind": "text",
+              "start": 484,
+              "end": 517
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "July 2025",
+          "is_present": false
+        },
+        "date_label": "July 2025",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      },
+      {
+        "id": "vfa040ed7c0d57538",
+        "type": "EDUCATION",
+        "title": "B. Tech",
+        "org": "",
+        "entry_text": "B. Tech – Electrical Engineering July 2022",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "B. Tech – Electrical Engineering July 2022",
+              "block_id": "b11",
+              "kind": "text",
+              "start": 620,
+              "end": 662
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "July 2022",
+              "block_id": "b11",
+              "kind": "text",
+              "start": 653,
+              "end": 662
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "B. Tech",
+              "block_id": "b11",
+              "kind": "text",
+              "start": 620,
+              "end": 627
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "July 2022",
+          "is_present": false
+        },
+        "date_label": "July 2022",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      },
+      {
+        "id": "v17ec7e44638332b3",
+        "type": "EMPLOYMENT",
+        "title": "Consultant- Sales Operations December 25",
+        "org": "",
+        "entry_text": "Consultant- Sales Operations December 25 – June 2025 • Managed and maintained accurate client data across JioAds and Moloco platforms, ensuring 100% data integrity. • Collaborated with brands like MAHINDRA, Red Bull, TATA SONS and Malaysian Airlines to execute 95% of planned campaigns on time. • Sch",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Consultant- Sales Operations December 25 – June 2025",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 2440,
+              "end": 2492
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "June 2025",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 2483,
+              "end": 2492
+            },
+            {
+              "page": 1,
+              "text": "2025",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 2839,
+              "end": 2843
+            },
+            {
+              "page": 1,
+              "text": "2025",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 2853,
+              "end": 2857
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Consultant- Sales Operations December 25",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 2440,
+              "end": 2480
+            }
+          ],
+          "section": "WORK EXPRIENCE",
+          "date_label": "June 2025",
+          "is_present": false
+        },
+        "date_label": "June 2025",
+        "section": "WORK EXPRIENCE",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "v17ec7e44638332b3"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 5,
+      "dated_share": 0.4,
+      "unresolved": 3,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.88
+    },
+    "total_represented_months": 16,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

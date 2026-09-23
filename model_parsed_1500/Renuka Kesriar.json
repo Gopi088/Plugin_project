@@ -1,0 +1,446 @@
+{
+  "file_name": "Renuka Kesriar.pdf",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 3,
+    "total_events": 5,
+    "dated_share": 0.6,
+    "unresolved": 2,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.88
+  },
+  "work_experience": [
+    {
+      "id": "vab4c901095930c9d",
+      "company": "Tata Consultancy Services (Nordea",
+      "title": "Software Engineer",
+      "start_date": "2016-06",
+      "end_date": "2021-08",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vf45f229e2ada38b5",
+      "company": "",
+      "title": "Data Engineer",
+      "start_date": "2021-08",
+      "end_date": "2025-02",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v7f4b75e3fa30a2ce",
+      "company": "",
+      "title": "Senior Data Engineer",
+      "start_date": "2025-02",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "ved3f8afd9fb8b315",
+      "company": "",
+      "title": "Software Engineer",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "ve4f9aae29247415c",
+      "company": "",
+      "title": "B.Tech",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 4,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "Renuka Kesriar",
+    "filename": "Renuka Kesriar.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "vab4c901095930c9d",
+        "type": "EMPLOYMENT",
+        "title": "Software Engineer",
+        "org": "Tata Consultancy Services (Nordea",
+        "start": "2016-06",
+        "end": "2021-08",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Software Engineer Jun 2016 – Aug 2021\nTata Consultancy Services (Nordea – Analytics Platform)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Software Engineer Jun 2016 – Aug 2021",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 3002,
+              "end": 3039
+            },
+            {
+              "page": 1,
+              "text": "Tata Consultancy Services (Nordea – Analytics Platform)",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 3041,
+              "end": 3096
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jun 2016 – Aug 2021",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 3020,
+              "end": 3039
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Tata Consultancy Services (Nordea",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 3041,
+              "end": 3074
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Software Engineer",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 3002,
+              "end": 3019
+            }
+          ],
+          "section": "Professional Experience",
+          "date_label": "Jun 2016 – Aug 2021",
+          "is_present": false
+        },
+        "date_label": "Jun 2016 – Aug 2021",
+        "section": "Professional Experience",
+        "is_present": false
+      },
+      {
+        "id": "vf45f229e2ada38b5",
+        "type": "EMPLOYMENT",
+        "title": "Data Engineer",
+        "org": "",
+        "start": "2021-08",
+        "end": "2025-02",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Data Engineer Aug 2021 – Feb 2025",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Data Engineer Aug 2021 – Feb 2025",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 1901,
+              "end": 1934
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Aug 2021 – Feb 2025",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 1915,
+              "end": 1934
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Data Engineer",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 1901,
+              "end": 1914
+            }
+          ],
+          "section": "Professional Experience",
+          "date_label": "Aug 2021 – Feb 2025",
+          "is_present": false
+        },
+        "date_label": "Aug 2021 – Feb 2025",
+        "section": "Professional Experience",
+        "is_present": false
+      },
+      {
+        "id": "v7f4b75e3fa30a2ce",
+        "type": "EMPLOYMENT",
+        "title": "Senior Data Engineer",
+        "org": "",
+        "start": "2025-02",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Senior Data Engineer Feb 2025 – Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Data Engineer Feb 2025 – Present",
+              "block_id": "b15",
+              "kind": "text",
+              "start": 884,
+              "end": 923
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Feb 2025 – Present",
+              "block_id": "b15",
+              "kind": "text",
+              "start": 905,
+              "end": 923
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Data Engineer",
+              "block_id": "b15",
+              "kind": "text",
+              "start": 884,
+              "end": 904
+            }
+          ],
+          "section": "Professional Experience",
+          "date_label": "Feb 2025 – Present",
+          "is_present": true
+        },
+        "date_label": "Feb 2025 – Present",
+        "section": "Professional Experience",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "ved3f8afd9fb8b315",
+        "type": "EMPLOYMENT",
+        "title": "Software Engineer",
+        "org": "",
+        "entry_text": "Software Engineer Tata Projects (Bank of America DCRS(Mainframe)) Skills/Domain: Big Data – Worked in technology unit that supports a collection of content archives that are records (statements, notices, account records and reports). It’s a banking enterprise archive for consumer checking, saving an",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Software Engineer",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 3881,
+              "end": 3898
+            },
+            {
+              "page": 1,
+              "text": "Tata Projects (Bank of America DCRS(Mainframe)) Skills/Domain: Big Data",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 3900,
+              "end": 3971
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Software Engineer",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 3881,
+              "end": 3898
+            }
+          ],
+          "section": "Professional Experience",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Professional Experience",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "ve4f9aae29247415c",
+        "type": "EDUCATION",
+        "title": "B.Tech",
+        "org": "",
+        "entry_text": "B.Tech – Electronics & Telecommunication Engineering 2016 Trident Academy of Technology, India",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "B.Tech – Electronics & Telecommunication Engineering 2016",
+              "block_id": "b61",
+              "kind": "text",
+              "start": 4561,
+              "end": 4618
+            },
+            {
+              "page": 1,
+              "text": "Trident Academy of Technology, India",
+              "block_id": "b62",
+              "kind": "text",
+              "start": 4620,
+              "end": 4656
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2016",
+              "block_id": "b61",
+              "kind": "text",
+              "start": 4614,
+              "end": 4618
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "B.Tech",
+              "block_id": "b61",
+              "kind": "text",
+              "start": 4561,
+              "end": 4567
+            }
+          ],
+          "section": "Education",
+          "date_label": "2016",
+          "is_present": false
+        },
+        "date_label": "2016",
+        "section": "Education",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "ved3f8afd9fb8b315"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 3,
+      "total_events": 5,
+      "dated_share": 0.6,
+      "unresolved": 2,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.88
+    },
+    "total_represented_months": 124,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

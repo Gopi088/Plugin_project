@@ -1,0 +1,324 @@
+{
+  "file_name": "AnoopButola_2.docx",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 3,
+    "dated_share": 0.333,
+    "unresolved": 2,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v8e6cc65a283e49eb",
+      "company": "Rackspace Technology",
+      "title": "Technical Lead/Software Architect",
+      "start_date": "2020-08",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "vf8fbb96f49f00a99",
+      "company": "Panjab University Main Campus",
+      "title": "Master of Computer Applications(MOFA attested",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    },
+    {
+      "id": "v4cc97e84ec22b0ff",
+      "company": "",
+      "title": "Bachelor of Computer Applications",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 1,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "AnoopButola_2",
+    "filename": "AnoopButola_2.docx",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v8e6cc65a283e49eb",
+        "type": "EMPLOYMENT",
+        "title": "Technical Lead/Software Architect",
+        "org": "Rackspace Technology",
+        "start": "2020-08",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Technical Lead/Software Architect, 08/2020 - Current\nRackspace Technology - Gurgaon, India",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Technical Lead/Software Architect, 08/2020 - Current",
+              "block_id": "b9",
+              "kind": "text",
+              "start": 920,
+              "end": 972
+            },
+            {
+              "page": 1,
+              "text": "Rackspace Technology - Gurgaon, India",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 973,
+              "end": 1010
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "08/2020 - Current",
+              "block_id": "b9",
+              "kind": "text",
+              "start": 955,
+              "end": 972
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Rackspace Technology",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 973,
+              "end": 993
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Technical Lead/Software Architect",
+              "block_id": "b9",
+              "kind": "text",
+              "start": 920,
+              "end": 953
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "08/2020 - Current",
+          "is_present": true
+        },
+        "date_label": "08/2020 - Current",
+        "section": "EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "vf8fbb96f49f00a99",
+        "type": "EDUCATION",
+        "title": "Master of Computer Applications(MOFA attested",
+        "org": "Panjab University Main Campus",
+        "entry_text": "Master of Computer Applications(MOFA attested), 06/2014 Panjab University Main Campus",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Master of Computer Applications(MOFA attested), 06/2014",
+              "block_id": "b90",
+              "kind": "text",
+              "start": 7293,
+              "end": 7348
+            },
+            {
+              "page": 1,
+              "text": "Panjab University Main Campus",
+              "block_id": "b91",
+              "kind": "text",
+              "start": 7349,
+              "end": 7378
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "06/2014",
+              "block_id": "b90",
+              "kind": "text",
+              "start": 7341,
+              "end": 7348
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Panjab University Main Campus",
+              "block_id": "b91",
+              "kind": "text",
+              "start": 7349,
+              "end": 7378
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Master of Computer Applications(MOFA attested",
+              "block_id": "b90",
+              "kind": "text",
+              "start": 7293,
+              "end": 7338
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "06/2014",
+          "is_present": false
+        },
+        "date_label": "06/2014",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      },
+      {
+        "id": "v4cc97e84ec22b0ff",
+        "type": "EDUCATION",
+        "title": "Bachelor of Computer Applications",
+        "org": "",
+        "entry_text": "Bachelor of Computer Applications, 07/2010 SASIIT",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor of Computer Applications, 07/2010",
+              "block_id": "b92",
+              "kind": "text",
+              "start": 7379,
+              "end": 7421
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "07/2010",
+              "block_id": "b92",
+              "kind": "text",
+              "start": 7414,
+              "end": 7421
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Computer Applications",
+              "block_id": "b92",
+              "kind": "text",
+              "start": 7379,
+              "end": 7412
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "07/2010",
+          "is_present": false
+        },
+        "date_label": "07/2010",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 3,
+      "dated_share": 0.333,
+      "unresolved": 2,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 74,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

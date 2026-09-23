@@ -1,0 +1,793 @@
+{
+  "file_name": "Amit Saharan.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 7,
+    "total_events": 8,
+    "dated_share": 0.875,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v4f23c13f2a164ba4",
+      "company": "",
+      "title": "Software Engineer",
+      "start_date": "2010-08",
+      "end_date": "2012-02",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "ve49720bdf5de1645",
+      "company": "Mercer India Pvt Ltd Noida",
+      "title": "",
+      "start_date": "2012-03",
+      "end_date": "2013-06",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v80d8e09b24bbdb3e",
+      "company": "Markit India Pvt Ltd Noida",
+      "title": "",
+      "start_date": "2013-06",
+      "end_date": "2016-03",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v5b15f053907928da",
+      "company": "Sapient Consulting Gurgaon",
+      "title": "",
+      "start_date": "2016-03",
+      "end_date": "2019-03",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "va559114ace61ddde",
+      "company": "",
+      "title": "Senior Business Analyst",
+      "start_date": "2019-07",
+      "end_date": "2021-07",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vc1fbffe4004352cc",
+      "company": "Tata Consultancy Services Gurgaon",
+      "title": "Lead Business Analyst",
+      "start_date": "2021-07",
+      "end_date": "2023-02",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vdddd1ee555a63244",
+      "company": "",
+      "title": "Lead Business Analyst",
+      "start_date": "2023-02",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "v028ca34bacdcb718",
+      "company": "BRCM College Of Engineering & Technology",
+      "title": "Bachelor of Engineering - Information Technology",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    }
+  ],
+  "gaps": [
+    {
+      "id": "gc29df4543d297109",
+      "start": "2019-04",
+      "end": "2019-06",
+      "months": 3,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    }
+  ],
+  "total_work_experience": 7,
+  "total_projects": 0,
+  "total_gaps": 1,
+  "raw_pipeline_dto": {
+    "doc_id": "Amit Saharan",
+    "filename": "Amit Saharan.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v4f23c13f2a164ba4",
+        "type": "EMPLOYMENT",
+        "title": "Software Engineer",
+        "org": "",
+        "start": "2010-08",
+        "end": "2012-02",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Software Engineer Aug 2010 - Feb 2012",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Software Engineer Aug 2010 - Feb 2012",
+              "block_id": "b91",
+              "kind": "text",
+              "start": 6146,
+              "end": 6183
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Aug 2010 - Feb 2012",
+              "block_id": "b91",
+              "kind": "text",
+              "start": 6164,
+              "end": 6183
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Software Engineer",
+              "block_id": "b91",
+              "kind": "text",
+              "start": 6146,
+              "end": 6163
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "Aug 2010 - Feb 2012",
+          "is_present": false
+        },
+        "date_label": "Aug 2010 - Feb 2012",
+        "section": "EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "ve49720bdf5de1645",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Mercer India Pvt Ltd Noida",
+        "start": "2012-03",
+        "end": "2013-06",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "QA  Mar 2012 – Jun 2013\nMercer India Pvt Ltd Noida",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "QA  Mar 2012 – Jun 2013",
+              "block_id": "b87",
+              "kind": "text",
+              "start": 6015,
+              "end": 6038
+            },
+            {
+              "page": 1,
+              "text": "Mercer India Pvt Ltd Noida",
+              "block_id": "b88",
+              "kind": "text",
+              "start": 6040,
+              "end": 6066
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Mar 2012 – Jun 2013",
+              "block_id": "b87",
+              "kind": "text",
+              "start": 6019,
+              "end": 6038
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Mercer India Pvt Ltd Noida",
+              "block_id": "b88",
+              "kind": "text",
+              "start": 6040,
+              "end": 6066
+            }
+          ],
+          "title": [],
+          "section": "EXPERIENCE",
+          "date_label": "Mar 2012 – Jun 2013",
+          "is_present": false
+        },
+        "date_label": "Mar 2012 – Jun 2013",
+        "section": "EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v80d8e09b24bbdb3e",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Markit India Pvt Ltd Noida",
+        "start": "2013-06",
+        "end": "2016-03",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "QA Jun 2013 - Mar 2016\nMarkit India Pvt Ltd Noida",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "QA Jun 2013 - Mar 2016",
+              "block_id": "b83",
+              "kind": "text",
+              "start": 5874,
+              "end": 5896
+            },
+            {
+              "page": 1,
+              "text": "Markit India Pvt Ltd Noida",
+              "block_id": "b84",
+              "kind": "text",
+              "start": 5898,
+              "end": 5924
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jun 2013 - Mar 2016",
+              "block_id": "b83",
+              "kind": "text",
+              "start": 5877,
+              "end": 5896
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Markit India Pvt Ltd Noida",
+              "block_id": "b84",
+              "kind": "text",
+              "start": 5898,
+              "end": 5924
+            }
+          ],
+          "title": [],
+          "section": "EXPERIENCE",
+          "date_label": "Jun 2013 - Mar 2016",
+          "is_present": false
+        },
+        "date_label": "Jun 2013 - Mar 2016",
+        "section": "EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v5b15f053907928da",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Sapient Consulting Gurgaon",
+        "start": "2016-03",
+        "end": "2019-03",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "QA/BA Mar 2016 - Mar 2019\nSapient Consulting Gurgaon",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "QA/BA Mar 2016 - Mar 2019",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 5195,
+              "end": 5220
+            },
+            {
+              "page": 1,
+              "text": "Sapient Consulting Gurgaon",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 5222,
+              "end": 5248
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Mar 2016 - Mar 2019",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 5201,
+              "end": 5220
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Sapient Consulting Gurgaon",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 5222,
+              "end": 5248
+            }
+          ],
+          "title": [],
+          "section": "EXPERIENCE",
+          "date_label": "Mar 2016 - Mar 2019",
+          "is_present": false
+        },
+        "date_label": "Mar 2016 - Mar 2019",
+        "section": "EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "va559114ace61ddde",
+        "type": "EMPLOYMENT",
+        "title": "Senior Business Analyst",
+        "org": "",
+        "start": "2019-07",
+        "end": "2021-07",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Senior Business Analyst Jul 2019 - Jul 2021",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Business Analyst Jul 2019 - Jul 2021",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 4665,
+              "end": 4708
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jul 2019 - Jul 2021",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 4689,
+              "end": 4708
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Business Analyst",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 4665,
+              "end": 4688
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "Jul 2019 - Jul 2021",
+          "is_present": false
+        },
+        "date_label": "Jul 2019 - Jul 2021",
+        "section": "EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vc1fbffe4004352cc",
+        "type": "EMPLOYMENT",
+        "title": "Lead Business Analyst",
+        "org": "Tata Consultancy Services Gurgaon",
+        "start": "2021-07",
+        "end": "2023-02",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Lead Business Analyst Jul 2021 - Feb 2023\nTata Consultancy Services Gurgaon",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Lead Business Analyst Jul 2021 - Feb 2023",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 3861,
+              "end": 3902
+            },
+            {
+              "page": 1,
+              "text": "Tata Consultancy Services Gurgaon",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 3904,
+              "end": 3937
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jul 2021 - Feb 2023",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 3883,
+              "end": 3902
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Tata Consultancy Services Gurgaon",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 3904,
+              "end": 3937
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Lead Business Analyst",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 3861,
+              "end": 3882
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "Jul 2021 - Feb 2023",
+          "is_present": false
+        },
+        "date_label": "Jul 2021 - Feb 2023",
+        "section": "EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vdddd1ee555a63244",
+        "type": "EMPLOYMENT",
+        "title": "Lead Business Analyst",
+        "org": "",
+        "start": "2023-02",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Lead Business Analyst Feb 2023 - Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Lead Business Analyst Feb 2023 - Present",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 1830,
+              "end": 1870
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Feb 2023 - Present",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 1852,
+              "end": 1870
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Lead Business Analyst",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 1830,
+              "end": 1851
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "Feb 2023 - Present",
+          "is_present": true
+        },
+        "date_label": "Feb 2023 - Present",
+        "section": "EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v028ca34bacdcb718",
+        "type": "EDUCATION",
+        "title": "Bachelor of Engineering - Information Technology",
+        "org": "BRCM College Of Engineering & Technology",
+        "entry_text": "Bachelor of Engineering - Information Technology  2009 BRCM College Of Engineering & Technology, MDU Rohtak",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor of Engineering - Information Technology  2009",
+              "block_id": "b96",
+              "kind": "text",
+              "start": 6267,
+              "end": 6321
+            },
+            {
+              "page": 1,
+              "text": "BRCM College Of Engineering & Technology, MDU Rohtak",
+              "block_id": "b97",
+              "kind": "text",
+              "start": 6323,
+              "end": 6375
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2009",
+              "block_id": "b96",
+              "kind": "text",
+              "start": 6317,
+              "end": 6321
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "BRCM College Of Engineering & Technology",
+              "block_id": "b97",
+              "kind": "text",
+              "start": 6323,
+              "end": 6363
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Engineering - Information Technology",
+              "block_id": "b96",
+              "kind": "text",
+              "start": 6267,
+              "end": 6315
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2009",
+          "is_present": false
+        },
+        "date_label": "2009",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "gc29df4543d297109",
+        "start": [
+          2019,
+          4
+        ],
+        "end": [
+          2019,
+          6
+        ],
+        "months": 3,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "v5b15f053907928da",
+          "event_after": "va559114ace61ddde",
+          "coverage_scope": "employment"
+        },
+        "start_label": "2019-04",
+        "end_label": "2019-06",
+        "evidence_quotes": [
+          "QA/BA Mar 2016 - Mar 2019 Sapient Consulting Gurgaon",
+          "Senior Business Analyst Jul 2019 - Jul 2021"
+        ],
+        "evidence_details": [
+          {
+            "header": "Sapient Consulting Gurgaon",
+            "quote": "QA/BA Mar 2016 - Mar 2019 Sapient Consulting Gurgaon",
+            "event_id": "v5b15f053907928da",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "QA/BA Mar 2016 - Mar 2019",
+                  "block_id": "b72",
+                  "kind": "text",
+                  "start": 5195,
+                  "end": 5220
+                },
+                {
+                  "page": 1,
+                  "text": "Sapient Consulting Gurgaon",
+                  "block_id": "b73",
+                  "kind": "text",
+                  "start": 5222,
+                  "end": 5248
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Mar 2016 - Mar 2019",
+                  "block_id": "b72",
+                  "kind": "text",
+                  "start": 5201,
+                  "end": 5220
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Sapient Consulting Gurgaon",
+                  "block_id": "b73",
+                  "kind": "text",
+                  "start": 5222,
+                  "end": 5248
+                }
+              ],
+              "title": [],
+              "section": "EXPERIENCE",
+              "date_label": "Mar 2016 - Mar 2019",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Senior Business Analys",
+            "quote": "Senior Business Analyst Jul 2019 - Jul 2021",
+            "event_id": "va559114ace61ddde",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Senior Business Analyst Jul 2019 - Jul 2021",
+                  "block_id": "b63",
+                  "kind": "text",
+                  "start": 4665,
+                  "end": 4708
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Jul 2019 - Jul 2021",
+                  "block_id": "b63",
+                  "kind": "text",
+                  "start": 4689,
+                  "end": 4708
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Senior Business Analyst",
+                  "block_id": "b63",
+                  "kind": "text",
+                  "start": 4665,
+                  "end": 4688
+                }
+              ],
+              "section": "EXPERIENCE",
+              "date_label": "Jul 2019 - Jul 2021",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 7,
+      "total_events": 8,
+      "dated_share": 0.875,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 191,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

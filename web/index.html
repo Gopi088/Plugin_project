@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Resume workspace</title><link rel="stylesheet" href="style.css"></head>
+<body data-resume-workspace><header class="app-header"><a href="/workspace/" class="brand">Resume workspace</a><span id="connection" role="status">Connecting to Resume Matcher…</span><button id="reconnect">Reconnect</button></header>
+<main><section class="intro"><div><p class="eyebrow">RESUME MANAGEMENT</p><h1>A clear view of your career.</h1><p>Upload, review every section, and keep your resume and timeline together.</p></div><button id="new-resume">Upload a resume</button></section>
+<div id="message" role="status" aria-live="polite"></div>
+<section id="upload-panel" class="panel"><label id="dropzone" tabindex="0"><strong>Drop your resume here</strong><span>or choose a file · PDF, DOCX, DOC, TXT · up to 4 MB</span><input id="file" type="file" accept=".pdf,.docx,.doc,.txt"></label><div class="row"><progress id="progress" hidden></progress><button id="cancel-upload" hidden>Cancel waiting</button></div><p class="muted">Parsing uses the model configured in your local Resume Matcher service. Review the extracted information before saving or exporting.</p></section>
+<section class="library panel"><label>Saved resumes<select id="resume-list"><option value="">Choose a resume</option></select></label><button id="refresh-list">Refresh</button><form id="open-form"><label>Resume ID<input id="resume-id" required placeholder="Open a saved resume by ID"></label><button>Open</button></form></section>
+<section id="workspace" hidden><div class="document-header"><div><h2 id="resume-title"></h2><span id="save-state" class="muted"></span></div><button id="btn-workspace-reviewed" class="btn-review-toggle unreviewed" type="button" title="Click to mark resume as reviewed"><span class="tick-circle">✓</span><span id="workspace-review-text">Mark Reviewed</span></button></div>
+<div class="row"><button id="save">Save changes</button><button id="discard">Discard draft</button></div>
+<nav class="tabs"><button data-tab="timeline" aria-pressed="true">Career timeline</button><button data-tab="editor" aria-pressed="false">Resume editor</button><button data-tab="export" aria-pressed="false">PDF export</button></nav>
+<section id="timeline" class="tab-view">
+  <div id="gaps-container" class="gaps-container"></div>
+  <div id="filters" class="filters" aria-label="Timeline categories"></div>
+  <p class="muted">Based on the current structured resume. Missing dates remain unknown; edited or model-extracted fields are not original-document evidence.</p>
+  <ol id="timeline-events" class="timeline"></ol>
+</section>
+<section id="editor" class="tab-view" hidden><div class="editor-layout"><aside><nav id="section-nav"></nav><button id="add-section">Add section</button></aside><div id="editor-fields"></div></div></section>
+<section id="export" class="tab-view panel" hidden><h2>PDF export</h2><form id="pdf-form"><div class="fields"><label>Template<select name="template"><option value="swiss-single">Swiss</option><option value="modern">Modern</option></select></label><label>Page size<select name="pageSize"><option>A4</option><option>LETTER</option></select></label><label>Accent<select name="accentColor"><option>blue</option><option>green</option><option>black</option></select></label></div><div id="pdf-controls" class="fields"></div><button id="download">Download PDF</button></form></section>
+<details class="panel source-panel" id="source-panel"><summary>Cached parser text</summary><p class="muted">This is cached extraction text, not the open original resume. Use the extension on the original resume for source verification.</p><pre id="raw-source"></pre></details>
+</section></main><script type="module" src="app.js"></script></body></html>

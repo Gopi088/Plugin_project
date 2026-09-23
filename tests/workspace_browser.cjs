@@ -1,0 +1,63 @@
+const fs=require('node:fs');
+const config=JSON.parse(fs.readFileSync(process.argv[2],'utf8'));
+(async()=>{
+ const target=(await(await fetch(`http://127.0.0.1:${config.port}/json/list`)).json()).find(t=>t.type==='page');
+ const ws=new WebSocket(target.webSocketDebuggerUrl);await new Promise((resolve,reject)=>{ws.onopen=resolve;ws.onerror=reject;});
+ let id=0;const pending=new Map(),errors=[];
+ const call=(method,params={})=>new Promise((resolve,reject)=>{const mid=++id;const timer=setTimeout(()=>{pending.delete(mid);reject(Error('CDP timed out: '+method));},30000);pending.set(mid,{resolve:r=>{clearTimeout(timer);resolve(r);},reject:e=>{clearTimeout(timer);reject(e);}});ws.send(JSON.stringify({id:mid,method,params}));});
+ ws.onmessage=event=>{
+   const msg=JSON.parse(event.data);
+   if(msg.id){const p=pending.get(msg.id);if(!p)return;pending.delete(msg.id);msg.error?p.reject(Error(msg.error.message)):p.resolve(msg.result);}
+   if(msg.method==='Runtime.exceptionThrown')errors.push(msg.params.exceptionDetails.text);
+   if(msg.method==='Page.javascriptDialogOpening')call('Page.handleJavaScriptDialog',{accept:true}).catch(()=>{});
+ };
+ const evaluate=async expression=>{let r;try{r=await call('Runtime.evaluate',{expression,awaitPromise:true,returnByValue:true});}catch(error){throw Error(error.message+' while '+expression);}if(r.exceptionDetails)throw Error(JSON.stringify(r.exceptionDetails));return r.result.value;};
+ const wait=async expression=>{for(let i=0;i<150;i++){if(await evaluate(expression))return;await new Promise(r=>setTimeout(r,100));}throw Error('Timeout: '+expression+'; '+await evaluate("document.querySelector('#message')?.textContent"));};
+ const check=async(expression,message)=>{if(!await evaluate(expression))throw Error(message);};
+ const click=selector=>evaluate(`document.querySelector(${JSON.stringify(selector)}).click()`);
+ const input=(selector,value)=>evaluate(`(()=>{const el=document.querySelector(${JSON.stringify(selector)});el.value=${JSON.stringify(value)};el.dispatchEvent(new Event('input',{bubbles:true}));})()`);
+ try {
+ await call('Page.enable');await call('Runtime.enable');
+ await call('Browser.setDownloadBehavior',{behavior:'allow',downloadPath:config.downloads});
+ await call('Page.navigate',{url:config.url});
+ await wait("document.querySelector('#connection').textContent.includes('connected')");
+ const root=await call('DOM.getDocument');const node=await call('DOM.querySelector',{nodeId:root.root.nodeId,selector:'#file'});
+ console.log('Connected; uploading fixture');
+ await call('DOM.setFileInputFiles',{nodeId:node.nodeId,files:[config.file]});
+ await wait("document.querySelector('#workspace').hidden===false && !document.querySelector('#cancel-upload').offsetParent");
+ console.log('Upload ready; checking timeline');
+ await check("document.querySelectorAll('#timeline-events>li').length===3",'All timeline categories missing');
+ await check("!document.querySelector('#timeline-events').textContent.includes('1970')",'Invented missing date');
+ await click('[data-category="project"]');
+ await check("document.querySelectorAll('#timeline-events>li').length===1",'Category filter failed');
+ console.log('Opening editor');
+ await click('[data-tab="editor"]');
+ await input('#field-personalInfo-name','Updated Test Candidate');
+ await click('[data-section="additional"]');await input('#field-additional-languages','English\nHindi');
+ await click('[data-section="education"]');await input('#field-education-0-description','Graduated with honors');
+ await click('[data-section="volunteer"]');await input('#field-customSections-volunteer-text','Updated volunteer text');
+ await click('[data-section="publications"]');await input('#field-customSections-publications-strings','Paper A\nPaper B');
+ await click('[data-section="speaking"]');await input('#field-customSections-speaking-items-0-description','Updated talk\nSecond bullet');
+ await click('#section-visible');
+ await check("document.querySelector('#download').disabled",'Export allowed with unsaved edits');
+ console.log('Saving complete model');
+ await click('#save');await wait("document.querySelector('#save-state').textContent==='Saved in Resume Matcher'");
+ await click('[data-tab="export"]');
+ await input('[name="marginTop"]','15');await input('[name="template"]','modern');await click('#download');
+ await wait("document.querySelector('#message').textContent==='PDF downloaded.'");
+ await click('[data-tab="editor"]');await click('[data-section="summary"]');
+ await input('#field-summary','Unsaved draft survives reload');
+ await new Promise(r=>setTimeout(r,300));await call('Page.reload');
+ await wait("document.querySelector('#message').textContent.includes('Restored your unsaved draft')");
+ await click('[data-tab="editor"]');await click('[data-section="summary"]');
+ await check("document.querySelector('#field-summary').value==='Unsaved draft survives reload'",'Draft lost on refresh');
+ await check("document.querySelector('#resume-title').textContent==='Updated Test Candidate'",'Saved name lost');
+ await click('[data-tab="timeline"]');
+ const shot=await call('Page.captureScreenshot');fs.writeFileSync(config.screenshot,Buffer.from(shot.data,'base64'));
+ await call('Emulation.setDeviceMetricsOverride',{width:390,height:844,deviceScaleFactor:1,mobile:false});
+ await check('document.documentElement.scrollWidth<=document.documentElement.clientWidth','Mobile layout overflows');
+ const mobile=await call('Page.captureScreenshot');fs.writeFileSync(config.screenshot+'.mobile.png',Buffer.from(mobile.data,'base64'));
+ if(errors.length)throw Error(errors.join('\n'));
+ console.log('PASS: upload, complete editor, custom sections, save, PDF, category filters and draft reload');
+ }finally{await call('Browser.close').catch(()=>{});ws.close();}
+})().catch(error=>{console.error(error);process.exitCode=1;});

@@ -1,0 +1,460 @@
+{
+  "file_name": "Priyanka Jaideep.docx",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 3,
+    "dated_share": 0.667,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "veb99557aa36e1526",
+      "company": "Wipro Technologies",
+      "title": "Software Engineer",
+      "start_date": "2010-02",
+      "end_date": "2012-07",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v2252a17bb61210f2",
+      "company": "",
+      "title": "Project Manager",
+      "start_date": "2019-05",
+      "end_date": "2021-05",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "v650d106ce11e9da4",
+      "company": "Welingkar Institute of Management",
+      "title": "B.E (Electronics & Electrical)",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "gaps": [
+    {
+      "id": "gb5e3b4baeb70de26",
+      "start": "2012-08",
+      "end": "2019-04",
+      "months": 81,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    }
+  ],
+  "total_work_experience": 2,
+  "total_projects": 0,
+  "total_gaps": 1,
+  "raw_pipeline_dto": {
+    "doc_id": "Priyanka Jaideep",
+    "filename": "Priyanka Jaideep.docx",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "veb99557aa36e1526",
+        "type": "EMPLOYMENT",
+        "title": "Software Engineer",
+        "org": "Wipro Technologies",
+        "start": "2010-02",
+        "end": "2012-07",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Wipro Technologies | Software Engineer\nFebruary 2010 – July 2012",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Wipro Technologies | Software Engineer",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 5851,
+              "end": 5889
+            },
+            {
+              "page": 1,
+              "text": "February 2010 – July 2012",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 5890,
+              "end": 5915
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "February 2010 – July 2012",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 5890,
+              "end": 5915
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Wipro Technologies",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 5851,
+              "end": 5869
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Software Engineer",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 5872,
+              "end": 5889
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "February 2010 – July 2012",
+          "is_present": false
+        },
+        "date_label": "February 2010 – July 2012",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v2252a17bb61210f2",
+        "type": "EMPLOYMENT",
+        "title": "Project Manager",
+        "org": "",
+        "start": "2019-05",
+        "end": "2021-05",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Oracle | Project Manager – Finance Transformation & M&A Integration\nMay 2019 – May 2021",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Oracle | Project Manager – Finance Transformation & M&A Integration",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 4219,
+              "end": 4286
+            },
+            {
+              "page": 1,
+              "text": "May 2019 – May 2021",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 4287,
+              "end": 4306
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "May 2019 – May 2021",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 4287,
+              "end": 4306
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Project Manager",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 4228,
+              "end": 4243
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "May 2019 – May 2021",
+          "is_present": false
+        },
+        "date_label": "May 2019 – May 2021",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v650d106ce11e9da4",
+        "type": "EDUCATION",
+        "title": "B.E (Electronics & Electrical)",
+        "org": "Welingkar Institute of Management",
+        "entry_text": "PGDM (Finance) – Welingkar Institute of Management, Mumbai University B.E (Electronics & Electrical) – Manipal Institute of Technology",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "PGDM (Finance) – Welingkar Institute of Management, Mumbai University",
+              "block_id": "b80",
+              "kind": "text",
+              "start": 6555,
+              "end": 6624
+            },
+            {
+              "page": 1,
+              "text": "B.E (Electronics & Electrical) – Manipal Institute of Technology",
+              "block_id": "b81",
+              "kind": "text",
+              "start": 6625,
+              "end": 6689
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "Welingkar Institute of Management",
+              "block_id": "b80",
+              "kind": "text",
+              "start": 6572,
+              "end": 6605
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "B.E (Electronics & Electrical",
+              "block_id": "b81",
+              "kind": "text",
+              "start": 6625,
+              "end": 6654
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "EDUCATION",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "gb5e3b4baeb70de26",
+        "start": [
+          2012,
+          8
+        ],
+        "end": [
+          2019,
+          4
+        ],
+        "months": 81,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "veb99557aa36e1526",
+          "event_after": "v2252a17bb61210f2",
+          "coverage_scope": "employment"
+        },
+        "start_label": "2012-08",
+        "end_label": "2019-04",
+        "evidence_quotes": [
+          "Wipro Technologies | Software Engineer February 2010 – July 2012",
+          "Oracle | Project Manager – Finance Transformation & M&A Integration May 2019 – May 2021"
+        ],
+        "evidence_details": [
+          {
+            "header": "Software Engineer at Wipro Technologies",
+            "quote": "Wipro Technologies | Software Engineer February 2010 – July 2012",
+            "event_id": "veb99557aa36e1526",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Wipro Technologies | Software Engineer",
+                  "block_id": "b64",
+                  "kind": "text",
+                  "start": 5851,
+                  "end": 5889
+                },
+                {
+                  "page": 1,
+                  "text": "February 2010 – July 2012",
+                  "block_id": "b65",
+                  "kind": "text",
+                  "start": 5890,
+                  "end": 5915
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "February 2010 – July 2012",
+                  "block_id": "b65",
+                  "kind": "text",
+                  "start": 5890,
+                  "end": 5915
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Wipro Technologies",
+                  "block_id": "b64",
+                  "kind": "text",
+                  "start": 5851,
+                  "end": 5869
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Software Engineer",
+                  "block_id": "b64",
+                  "kind": "text",
+                  "start": 5872,
+                  "end": 5889
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "February 2010 – July 2012",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Project Manager",
+            "quote": "Oracle | Project Manager – Finance Transformation & M&A Integration May 2019 – May 2021",
+            "event_id": "v2252a17bb61210f2",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Oracle | Project Manager – Finance Transformation & M&A Integration",
+                  "block_id": "b43",
+                  "kind": "text",
+                  "start": 4219,
+                  "end": 4286
+                },
+                {
+                  "page": 1,
+                  "text": "May 2019 – May 2021",
+                  "block_id": "b44",
+                  "kind": "text",
+                  "start": 4287,
+                  "end": 4306
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "May 2019 – May 2021",
+                  "block_id": "b44",
+                  "kind": "text",
+                  "start": 4287,
+                  "end": 4306
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Project Manager",
+                  "block_id": "b43",
+                  "kind": "text",
+                  "start": 4228,
+                  "end": 4243
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "May 2019 – May 2021",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 3,
+      "dated_share": 0.667,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 55,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

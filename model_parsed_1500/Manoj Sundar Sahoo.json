@@ -1,0 +1,404 @@
+{
+  "file_name": "Manoj Sundar Sahoo.pdf",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 3,
+    "total_events": 5,
+    "dated_share": 0.6,
+    "unresolved": 2,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.86
+  },
+  "work_experience": [
+    {
+      "id": "v3a8e69096aeeb8c3",
+      "company": "FIS, Bengaluru",
+      "title": "",
+      "start_date": "2012-08",
+      "end_date": "2025-09",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v5c46856d5594c6de",
+      "company": "QA ENGG",
+      "title": "",
+      "start_date": "2012-08",
+      "end_date": "2018-02",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v715bef8172c40c1f",
+      "company": "",
+      "title": "BUSINESS ANALYST",
+      "start_date": "2018-03",
+      "end_date": "2025-09",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vee912b4baef6d4e6",
+      "company": "",
+      "title": "As Business Analyst",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    },
+    {
+      "id": "vf087539faa4a00b8",
+      "company": "",
+      "title": "SAFe Certified Product Owner/Product Manager",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "projects": [],
+  "education": [],
+  "gaps": [],
+  "total_work_experience": 5,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "Manoj Sundar Sahoo",
+    "filename": "Manoj Sundar Sahoo.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "v3a8e69096aeeb8c3",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "FIS, Bengaluru",
+        "start": "2012-08",
+        "end": "2025-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "FIS, Bengaluru Aug 2012 – Sep 2025",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "FIS, Bengaluru Aug 2012 – Sep 2025",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 2659,
+              "end": 2693
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Aug 2012 – Sep 2025",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 2674,
+              "end": 2693
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "FIS, Bengaluru",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 2659,
+              "end": 2673
+            }
+          ],
+          "title": [],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Aug 2012 – Sep 2025",
+          "is_present": false
+        },
+        "date_label": "Aug 2012 – Sep 2025",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v5c46856d5594c6de",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "QA ENGG",
+        "start": "2012-08",
+        "end": "2018-02",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "QA ENGG (Aug 2012 – Feb 2018)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "QA ENGG (Aug 2012 – Feb 2018)",
+              "block_id": "b45",
+              "kind": "text",
+              "start": 2750,
+              "end": 2779
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Aug 2012 – Feb 2018",
+              "block_id": "b45",
+              "kind": "text",
+              "start": 2759,
+              "end": 2778
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "QA ENGG",
+              "block_id": "b45",
+              "kind": "text",
+              "start": 2750,
+              "end": 2757
+            }
+          ],
+          "title": [],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Aug 2012 – Feb 2018",
+          "is_present": false
+        },
+        "date_label": "Aug 2012 – Feb 2018",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v715bef8172c40c1f",
+        "type": "EMPLOYMENT",
+        "title": "BUSINESS ANALYST",
+        "org": "",
+        "start": "2018-03",
+        "end": "2025-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "BUSINESS ANALYST (Mar 2018 – Sep 2025)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "BUSINESS ANALYST (Mar 2018 – Sep 2025)",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 2710,
+              "end": 2748
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Mar 2018 – Sep 2025",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 2728,
+              "end": 2747
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "BUSINESS ANALYST",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 2710,
+              "end": 2726
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Mar 2018 – Sep 2025",
+          "is_present": false
+        },
+        "date_label": "Mar 2018 – Sep 2025",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "vee912b4baef6d4e6",
+        "type": "EMPLOYMENT",
+        "title": "As Business Analyst",
+        "org": "",
+        "entry_text": "As Business Analyst • Partnered with Product Owners to refine and prioritize the product backlog, ensuring alignment with business objectives and sprint goals. • Translated business requirements into Epics, User Stories, and Tasks in JIRA to support Agile delivery. • Collaborated with business stake",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "As Business Analyst",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 2781,
+              "end": 2800
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "As Business Analyst",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 2781,
+              "end": 2800
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "vf087539faa4a00b8",
+        "type": "EMPLOYMENT",
+        "title": "SAFe Certified Product Owner/Product Manager",
+        "org": "",
+        "entry_text": "SAFe Certified Product Owner/Product Manager",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "SAFe Certified Product Owner/Product Manager",
+              "block_id": "b104",
+              "kind": "text",
+              "start": 7084,
+              "end": 7128
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "SAFe Certified Product Owner/Product Manager",
+              "block_id": "b104",
+              "kind": "text",
+              "start": 7084,
+              "end": 7128
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "vee912b4baef6d4e6",
+            "vf087539faa4a00b8"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 3,
+      "total_events": 5,
+      "dated_share": 0.6,
+      "unresolved": 2,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.86
+    },
+    "total_represented_months": 158,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

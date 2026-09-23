@@ -1,0 +1,374 @@
+{
+  "file_name": "VijayKumarKurakula.pdf",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 3,
+    "total_events": 4,
+    "dated_share": 0.75,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.88
+  },
+  "work_experience": [
+    {
+      "id": "va8adf072e6cbee0a",
+      "company": "",
+      "title": "Power Platform Consultant • Full-time",
+      "start_date": "2022-05",
+      "end_date": "2024-07",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v378a8e038aafafee",
+      "company": "Freshworks • Bengaluru, India",
+      "title": "",
+      "start_date": "2024-08",
+      "end_date": "2026-04",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v39023583b0270c95",
+      "company": "",
+      "title": "Power Apps Associate",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "v3d58d392de2f1d98",
+      "company": "Osmania University • Hyderabad",
+      "title": "Bachelor of Business Administration in Finance",
+      "start_date": "2018-07",
+      "end_date": "2022-03",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 3,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "VijayKumarKurakula",
+    "filename": "VijayKumarKurakula.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "v3d58d392de2f1d98",
+        "type": "EDUCATION",
+        "title": "Bachelor of Business Administration in Finance",
+        "org": "Osmania University • Hyderabad",
+        "start": "2018-07",
+        "end": "2022-03",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "Bachelor of Business Administration in Finance\nOsmania University • Hyderabad, India • 07/2018 - 03/2022",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor of Business Administration in Finance",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 3251,
+              "end": 3297
+            },
+            {
+              "page": 1,
+              "text": "Osmania University • Hyderabad, India • 07/2018 - 03/2022",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 3298,
+              "end": 3355
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "07/2018 - 03/2022",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 3338,
+              "end": 3355
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Osmania University • Hyderabad",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 3298,
+              "end": 3328
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Business Administration in Finance",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 3251,
+              "end": 3297
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "07/2018 - 03/2022",
+          "is_present": false
+        },
+        "date_label": "07/2018 - 03/2022",
+        "section": "EDUCATION",
+        "is_present": false
+      },
+      {
+        "id": "va8adf072e6cbee0a",
+        "type": "EMPLOYMENT",
+        "title": "Power Platform Consultant • Full-time",
+        "org": "",
+        "start": "2022-05",
+        "end": "2024-07",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Power Platform Consultant • Full-time",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Power Platform Consultant • Full-time",
+              "block_id": "b15",
+              "kind": "text",
+              "start": 1046,
+              "end": 1083
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "05/2022 - 07/2024",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 2364,
+              "end": 2381
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Power Platform Consultant • Full-time",
+              "block_id": "b15",
+              "kind": "text",
+              "start": 1046,
+              "end": 1083
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "05/2022 - 07/2024",
+          "is_present": false
+        },
+        "date_label": "05/2022 - 07/2024",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v378a8e038aafafee",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Freshworks • Bengaluru, India",
+        "start": "2024-08",
+        "end": "2026-04",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Freshworks • Bengaluru, India • 08/2024 - 04/2026",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Freshworks • Bengaluru, India • 08/2024 - 04/2026",
+              "block_id": "b14",
+              "kind": "text",
+              "start": 996,
+              "end": 1045
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "08/2024 - 04/2026",
+              "block_id": "b14",
+              "kind": "text",
+              "start": 1028,
+              "end": 1045
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Freshworks • Bengaluru, India",
+              "block_id": "b14",
+              "kind": "text",
+              "start": 996,
+              "end": 1025
+            }
+          ],
+          "title": [],
+          "section": "WORK EXPERIENCE",
+          "date_label": "08/2024 - 04/2026",
+          "is_present": false
+        },
+        "date_label": "08/2024 - 04/2026",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v39023583b0270c95",
+        "type": "EMPLOYMENT",
+        "title": "Power Apps Associate",
+        "org": "",
+        "entry_text": "Power Apps Associate • Developed enterprise Canvas Apps using SharePoint Online and Dataverse. • Built automated approval workflows using Power Automate Cloud Flows. • Managed SharePoint document libraries, metadata and permission structures. • Configured role-based access controls and document appr",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Power Apps Associate",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 2382,
+              "end": 2402
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Power Apps Associate",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 2382,
+              "end": 2402
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "WORK EXPERIENCE",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "v39023583b0270c95"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 3,
+      "total_events": 4,
+      "dated_share": 0.75,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.88
+    },
+    "total_represented_months": 93,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

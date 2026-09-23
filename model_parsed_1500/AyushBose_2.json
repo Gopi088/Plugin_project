@@ -1,0 +1,358 @@
+{
+  "file_name": "AyushBose_2.docx",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 2,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "vc990157e355aa007",
+      "company": "Data Science & Analytics",
+      "title": "Senior Consultant",
+      "start_date": "2022-04",
+      "end_date": "2024-08",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "Project 01",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Apr 2022- Aug 2024",
+        "in Python, SQL, and Power BI. Skilled in Machine Learning, NLP, GenAI and LLM. Strong foundation in statistical analysis, A/B testing, Tensorflow, AWS SageMaker and Natural Language Processing. Adept at collaborating with cross-functional teams, translating business requirements into actionable insights, and delivering measurable impact."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "v9541fde00baa1d04",
+      "company": "Great Learning in affiliation with Texas University",
+      "title": "BTech in Electronics and Communication",
+      "start_date": "2014-01",
+      "end_date": "2025-09",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 1,
+  "total_projects": 1,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "AyushBose_2",
+    "filename": "AyushBose_2.docx",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v9541fde00baa1d04",
+        "type": "EDUCATION",
+        "title": "BTech in Electronics and Communication",
+        "org": "Great Learning in affiliation with Texas University",
+        "start": "2014-01",
+        "end": "2025-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EDUCATION_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Great Learning in affiliation with Texas University\nJaypee Institute of Information Technology, Noida\nBTech in Electronics and Communication | 8.5 CGPA\nSt. Joseph’s College, Allahabad",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Great Learning in affiliation with Texas University",
+              "block_id": "b123",
+              "kind": "text",
+              "start": 11924,
+              "end": 11975
+            },
+            {
+              "page": 1,
+              "text": "Jaypee Institute of Information Technology, Noida",
+              "block_id": "b125",
+              "kind": "text",
+              "start": 12013,
+              "end": 12062
+            },
+            {
+              "page": 1,
+              "text": "BTech in Electronics and Communication | 8.5 CGPA",
+              "block_id": "b126",
+              "kind": "text",
+              "start": 12063,
+              "end": 12112
+            },
+            {
+              "page": 1,
+              "text": "St. Joseph’s College, Allahabad",
+              "block_id": "b127",
+              "kind": "text",
+              "start": 12115,
+              "end": 12146
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jan 2024 - Sept 2025",
+              "block_id": "b131",
+              "kind": "text",
+              "start": 12249,
+              "end": 12269
+            },
+            {
+              "page": 1,
+              "text": "2014-2018",
+              "block_id": "b132",
+              "kind": "text",
+              "start": 12270,
+              "end": 12279
+            },
+            {
+              "page": 1,
+              "text": "2014",
+              "block_id": "b133",
+              "kind": "text",
+              "start": 12280,
+              "end": 12284
+            },
+            {
+              "page": 1,
+              "text": "2012",
+              "block_id": "b134",
+              "kind": "text",
+              "start": 12285,
+              "end": 12289
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Great Learning in affiliation with Texas University",
+              "block_id": "b123",
+              "kind": "text",
+              "start": 11924,
+              "end": 11975
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "BTech in Electronics and Communication",
+              "block_id": "b126",
+              "kind": "text",
+              "start": 12063,
+              "end": 12101
+            }
+          ],
+          "section": "Education",
+          "date_label": "2014-01 to 2025-09",
+          "is_present": false
+        },
+        "date_label": "2014-01 to 2025-09",
+        "section": "Education",
+        "is_present": false
+      },
+      {
+        "id": "vc990157e355aa007",
+        "type": "EMPLOYMENT",
+        "title": "Senior Consultant",
+        "org": "Data Science & Analytics",
+        "start": "2022-04",
+        "end": "2024-08",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Senior Consultant - Data Science & Analytics",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Consultant - Data Science & Analytics",
+              "block_id": "b12",
+              "kind": "text",
+              "start": 383,
+              "end": 427
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Apr 2022- Aug 2024",
+              "block_id": "b14",
+              "kind": "text",
+              "start": 439,
+              "end": 457
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Data Science & Analytics",
+              "block_id": "b12",
+              "kind": "text",
+              "start": 403,
+              "end": 427
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Consultant",
+              "block_id": "b12",
+              "kind": "text",
+              "start": 383,
+              "end": 400
+            }
+          ],
+          "section": "Experience",
+          "date_label": "Apr 2022- Aug 2024",
+          "is_present": false
+        },
+        "date_label": "Apr 2022- Aug 2024",
+        "section": "Experience",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "Project 01",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Apr 2022- Aug 2024",
+          "in Python, SQL, and Power BI. Skilled in Machine Learning, NLP, GenAI and LLM. Strong foundation in statistical analysis, A/B testing, Tensorflow, AWS SageMaker and Natural Language Processing. Adept at collaborating with cross-functional teams, translating business requirements into actionable insights, and delivering measurable impact."
+        ],
+        "raw_text": "Project 01",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project 01",
+              "block_id": "b13",
+              "kind": "text",
+              "start": 428,
+              "end": 438
+            },
+            {
+              "page": 1,
+              "text": "Apr 2022- Aug 2024",
+              "block_id": "b14",
+              "kind": "text",
+              "start": 439,
+              "end": 457
+            },
+            {
+              "page": 1,
+              "text": "in Python, SQL, and Power BI. Skilled in Machine Learning, NLP, GenAI and LLM. Strong foundation in statistical analysis, A/B testing, Tensorflow, AWS SageMaker and Natural Language Processing. Adept at collaborating with cross-functional teams, translating business requirements into actionable insights, and delivering measurable impact.",
+              "block_id": "b15",
+              "kind": "text",
+              "start": 458,
+              "end": 797
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "NO_GAP_DETECTED",
+        "confidence": 0.9,
+        "reasons": [],
+        "evidence": {
+          "note": "no uncovered months between supported entries"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 2,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 141,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

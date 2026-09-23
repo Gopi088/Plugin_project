@@ -1,0 +1,568 @@
+{
+  "file_name": "RuchirMahajan.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 2,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.833,
+    "document_accuracy": 0.83
+  },
+  "work_experience": [
+    {
+      "id": "v0d94e2eeae117b92",
+      "company": "",
+      "title": "Project Manager – NTT Data (Client : SEI Investments",
+      "start_date": "2020-09",
+      "end_date": "2021-08",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "EXL Services (Client : Barclays Bank UK | Mar 2025 – May 2026)",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": []
+    },
+    {
+      "id": "proj_2",
+      "name": "IBM (Client : Barclays Bank UK | Aug 2021 – Mar 2025)",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": []
+    },
+    {
+      "id": "proj_3",
+      "name": "Project Manager – NTT Data (Client : SEI Investments | Sept 2020 – Aug 2021)",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Key Projects: Capital markets and investment programme support for SEI Investments — contributing to governance,",
+        "stakeholder management and delivery execution.",
+        "Responsibilities held:",
+        "• Programme Support & Governance: Supported delivery of capital markets and investment programmes",
+        "across governance and stakeholder management.",
+        "• Requirements Management: Reduced requirement rework by 30–35% through structured stakeholder",
+        "workshops, improving business readiness and validation.",
+        "• Agile Delivery: Improved backlog clarity enabling 15% faster release cycles across programme workstreams."
+      ]
+    },
+    {
+      "id": "proj_4",
+      "name": "Project",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Test Analyst and Business Analyst – Accenture (Client : Multi | Nov 2014 – Aug 2020)",
+        "Key Projects: PeopleSoft FSCM and HCM implementation for US Government, Canadian Government and Finland- based enterprise client across pension and insurance domains.",
+        "Responsibilities held:",
+        "• Requirements & FRD: Led requirements analysis and FRD creation for PeopleSoft HCM and FSCM across",
+        "pension and insurance platforms for US and Europe clients.",
+        "• Quality & Testing: Reduced SIT defect leakage into UAT by 25–30% through improved traceability and",
+        "validation frameworks.",
+        "• Test Delivery: Supported SIT, UAT and regression cycles across structured waterfall and hybrid delivery"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "vda281375d0c0ec71",
+      "company": "Punjab Technical University",
+      "title": "Bachelor of Technology",
+      "start_date": "2010-01",
+      "end_date": "2014-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 1,
+  "total_projects": 4,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "RuchirMahajan",
+    "filename": "RuchirMahajan.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "vda281375d0c0ec71",
+        "type": "EDUCATION",
+        "title": "Bachelor of Technology",
+        "org": "Punjab Technical University",
+        "start": "2010-01",
+        "end": "2014-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "Bachelor of Technology – Mechanical Engineering, Punjab Technical University (2010 – 2014)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor of Technology – Mechanical Engineering, Punjab Technical University (2010 – 2014)",
+              "block_id": "b15",
+              "kind": "text",
+              "start": 901,
+              "end": 991
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2010 – 2014",
+              "block_id": "b15",
+              "kind": "text",
+              "start": 979,
+              "end": 990
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Punjab Technical University",
+              "block_id": "b15",
+              "kind": "text",
+              "start": 950,
+              "end": 977
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Technology",
+              "block_id": "b15",
+              "kind": "text",
+              "start": 901,
+              "end": 923
+            }
+          ],
+          "section": "Education",
+          "date_label": "2010 – 2014",
+          "is_present": false
+        },
+        "date_label": "2010 – 2014",
+        "section": "Education",
+        "is_present": false
+      },
+      {
+        "id": "v0d94e2eeae117b92",
+        "type": "PROJECT",
+        "title": "Project Manager – NTT Data (Client : SEI Investments",
+        "org": "",
+        "start": "2020-09",
+        "end": "2021-08",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_PROJECT_CUES"
+        ],
+        "quote": "Project Manager – NTT Data (Client : SEI Investments | Sept 2020 – Aug 2021)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project Manager – NTT Data (Client : SEI Investments | Sept 2020 – Aug 2021)",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 3454,
+              "end": 3530
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Sept 2020 – Aug 2021",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 3509,
+              "end": 3529
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Project Manager – NTT Data (Client : SEI Investments",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 3454,
+              "end": 3506
+            }
+          ],
+          "section": "Key Projects:",
+          "date_label": "Sept 2020 – Aug 2021",
+          "is_present": false
+        },
+        "date_label": "Sept 2020 – Aug 2021",
+        "section": "Key Projects:",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "EXL Services (Client : Barclays Bank UK | Mar 2025 – May 2026)",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [],
+        "raw_text": "Project Manager – EXL Services (Client : Barclays Bank UK | Mar 2025 – May 2026)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project Manager – EXL Services (Client : Barclays Bank UK | Mar 2025 – May 2026)",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 1159,
+              "end": 1239
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "IBM (Client : Barclays Bank UK | Aug 2021 – Mar 2025)",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [],
+        "raw_text": "Project Manager – IBM (Client : Barclays Bank UK | Aug 2021 – Mar 2025)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project Manager – IBM (Client : Barclays Bank UK | Aug 2021 – Mar 2025)",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 2218,
+              "end": 2289
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_3",
+        "name": "Project Manager – NTT Data (Client : SEI Investments | Sept 2020 – Aug 2021)",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Key Projects: Capital markets and investment programme support for SEI Investments — contributing to governance,",
+          "stakeholder management and delivery execution.",
+          "Responsibilities held:",
+          "• Programme Support & Governance: Supported delivery of capital markets and investment programmes",
+          "across governance and stakeholder management.",
+          "• Requirements Management: Reduced requirement rework by 30–35% through structured stakeholder",
+          "workshops, improving business readiness and validation.",
+          "• Agile Delivery: Improved backlog clarity enabling 15% faster release cycles across programme workstreams."
+        ],
+        "raw_text": "Project Manager – NTT Data (Client : SEI Investments | Sept 2020 – Aug 2021)\nKey Projects: Capital markets and investment programme support for SEI Investments — contributing to governance,\nstakeholder management and delivery execution.\nResponsibilities held:\n• Programme Support & Governance: Supported delivery of capital markets and investment programmes\nacross governance and stakeholder management.\n• Requirements Management: Reduced requirement rework by 30–35% through structured stakeholder\nworkshops, improving business readiness and validation.\n• Agile Delivery: Improved backlog clarity en",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project Manager – NTT Data (Client : SEI Investments | Sept 2020 – Aug 2021)",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 3454,
+              "end": 3530
+            },
+            {
+              "page": 1,
+              "text": "Key Projects: Capital markets and investment programme support for SEI Investments — contributing to governance,",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 3534,
+              "end": 3646
+            },
+            {
+              "page": 1,
+              "text": "stakeholder management and delivery execution.",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 3648,
+              "end": 3694
+            },
+            {
+              "page": 1,
+              "text": "Responsibilities held:",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 3698,
+              "end": 3720
+            },
+            {
+              "page": 1,
+              "text": "• Programme Support & Governance: Supported delivery of capital markets and investment programmes",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 3722,
+              "end": 3819
+            },
+            {
+              "page": 1,
+              "text": "across governance and stakeholder management.",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 3821,
+              "end": 3866
+            },
+            {
+              "page": 1,
+              "text": "• Requirements Management: Reduced requirement rework by 30–35% through structured stakeholder",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 3868,
+              "end": 3962
+            },
+            {
+              "page": 1,
+              "text": "workshops, improving business readiness and validation.",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 3964,
+              "end": 4019
+            },
+            {
+              "page": 1,
+              "text": "• Agile Delivery: Improved backlog clarity enabling 15% faster release cycles across programme workstreams.",
+              "block_id": "b60",
+              "kind": "text",
+              "start": 4021,
+              "end": 4128
+            },
+            {
+              "page": 1,
+              "text": "• Traceability & Documentation: Owned FRD creation and requirements traceability from business need",
+              "block_id": "b61",
+              "kind": "text",
+              "start": 4130,
+              "end": 4229
+            },
+            {
+              "page": 1,
+              "text": "through to delivery acceptance.",
+              "block_id": "b62",
+              "kind": "text",
+              "start": 4231,
+              "end": 4262
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_4",
+        "name": "Project",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Test Analyst and Business Analyst – Accenture (Client : Multi | Nov 2014 – Aug 2020)",
+          "Key Projects: PeopleSoft FSCM and HCM implementation for US Government, Canadian Government and Finland- based enterprise client across pension and insurance domains.",
+          "Responsibilities held:",
+          "• Requirements & FRD: Led requirements analysis and FRD creation for PeopleSoft HCM and FSCM across",
+          "pension and insurance platforms for US and Europe clients.",
+          "• Quality & Testing: Reduced SIT defect leakage into UAT by 25–30% through improved traceability and",
+          "validation frameworks.",
+          "• Test Delivery: Supported SIT, UAT and regression cycles across structured waterfall and hybrid delivery"
+        ],
+        "raw_text": "Test Analyst and Business Analyst – Accenture (Client : Multi | Nov 2014 – Aug 2020)\nKey Projects: PeopleSoft FSCM and HCM implementation for US Government, Canadian Government and Finland- based enterprise client across pension and insurance domains.\nResponsibilities held:\n• Requirements & FRD: Led requirements analysis and FRD creation for PeopleSoft HCM and FSCM across\npension and insurance platforms for US and Europe clients.\n• Quality & Testing: Reduced SIT defect leakage into UAT by 25–30% through improved traceability and\nvalidation frameworks.\n• Test Delivery: Supported SIT, UAT and re",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Test Analyst and Business Analyst – Accenture (Client : Multi | Nov 2014 – Aug 2020)",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 4266,
+              "end": 4350
+            },
+            {
+              "page": 1,
+              "text": "Key Projects: PeopleSoft FSCM and HCM implementation for US Government, Canadian Government and Finland-",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 4354,
+              "end": 4458
+            },
+            {
+              "page": 1,
+              "text": "based enterprise client across pension and insurance domains.",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 4459,
+              "end": 4520
+            },
+            {
+              "page": 1,
+              "text": "Responsibilities held:",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 4524,
+              "end": 4546
+            },
+            {
+              "page": 1,
+              "text": "• Requirements & FRD: Led requirements analysis and FRD creation for PeopleSoft HCM and FSCM across",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 4550,
+              "end": 4649
+            },
+            {
+              "page": 1,
+              "text": "pension and insurance platforms for US and Europe clients.",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 4651,
+              "end": 4709
+            },
+            {
+              "page": 1,
+              "text": "• Quality & Testing: Reduced SIT defect leakage into UAT by 25–30% through improved traceability and",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 4711,
+              "end": 4811
+            },
+            {
+              "page": 1,
+              "text": "validation frameworks.",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 4813,
+              "end": 4835
+            },
+            {
+              "page": 1,
+              "text": "• Test Delivery: Supported SIT, UAT and regression cycles across structured waterfall and hybrid delivery",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 4837,
+              "end": 4942
+            },
+            {
+              "page": 1,
+              "text": "programmes.",
+              "block_id": "b71",
+              "kind": "text",
+              "start": 4944,
+              "end": 4955
+            },
+            {
+              "page": 1,
+              "text": "• Domain Expertise: Delivered BFSI transformation across finance, pension, insurance and HR platforms for",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 4957,
+              "end": 5062
+            },
+            {
+              "page": 1,
+              "text": "global clients.",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 5064,
+              "end": 5079
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [],
+        "evidence": {
+          "note": "year-only dates need verification"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 2,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.833,
+      "document_accuracy": 0.83
+    },
+    "total_represented_months": 72,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

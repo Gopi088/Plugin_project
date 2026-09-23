@@ -1,0 +1,836 @@
+{
+  "file_name": "MajjiDurgaRao.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 3,
+    "total_events": 4,
+    "dated_share": 0.75,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "vb4779b7f6eba018d",
+      "company": "Centinel Spark Technologies Pvt. Ltd",
+      "title": "",
+      "start_date": "2021-01",
+      "end_date": "2021-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v2c514f13f40f89a9",
+      "company": "",
+      "title": "Programmer Analyst",
+      "start_date": "2022-10",
+      "end_date": "2024-07",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vef14cc3cf21d159e",
+      "company": "HTC Global Services",
+      "title": "Software Development Engineer",
+      "start_date": "2024-08",
+      "end_date": "2026-06",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "Insurance Platform",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "• Owned the Third-Party Interest (TPI) module end-to-end as subject matter expert, coordinating with product, QA, and",
+        "design stakeholders to ship stakeholder- and claim-management workflows in React.js, TypeScript, Node.js, and",
+        "GraphQL.",
+        "• Improved application performance by 30% through code splitting, lazy loading, and React rendering optimizations,",
+        "directly reducing page load time for enterprise insurance users.",
+        "• Designed a scalable Node.js Data Access Layer (DAL) that cut API response times by 50% while decoupling services",
+        "and simplifying downstream maintenance.",
+        "• Built reusable, accessible UI components with Material UI (MUI), achieving WCAG 2.1 AA compliance, and drove a",
+        "Jest / React Testing Library strategy that sustained 98%+ code coverage across the module.",
+        "• Mentored junior engineers on component reuse and code-review standards, reducing rework flagged in review cycles."
+      ]
+    },
+    {
+      "id": "proj_2",
+      "name": "Blind Man — Next-Gen Sales Platform",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "• Built and maintained a cross-platform SaaS application on the MERN stack with MSSQL, React, and React Native,",
+        "supporting field sales operations for enterprise clients.",
+        "• Architected a Document Management System (DMS) with role-based access control that improved platform scalability",
+        "by 60% while securing business-critical documents.",
+        "• Designed RESTful APIs and reusable UI components, and implemented a RAG-based AI chatbot using Ollama that",
+        "reduced manual lookup time for field reps by surfacing sales documentation through natural-language queries.",
+        "• Optimized rendering performance through code splitting and lazy loading, improving perceived load time on lower- bandwidth field connections."
+      ]
+    },
+    {
+      "id": "proj_3",
+      "name": "Government Platform",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "• Developed responsive government and educational web applications using HTML5, CSS3, JavaScript, and Bootstrap,",
+        "improving accessibility for statewide student users.",
+        "• Mentored students and delivered hands-on technical training in web development, robotics, and IoT, leading project- based learning cohorts."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "v911d7ec5639047b8",
+      "company": "Chhattisgarh Swami Vivekanand Technical University",
+      "title": "Bachelor of Engineering",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    }
+  ],
+  "gaps": [
+    {
+      "id": "g726bd25bcbadaa5a",
+      "start": "2022-01",
+      "end": "2022-09",
+      "months": 9,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    }
+  ],
+  "total_work_experience": 3,
+  "total_projects": 3,
+  "total_gaps": 1,
+  "raw_pipeline_dto": {
+    "doc_id": "MajjiDurgaRao",
+    "filename": "MajjiDurgaRao.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "vb4779b7f6eba018d",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Centinel Spark Technologies Pvt. Ltd",
+        "start": "2021-01",
+        "end": "2021-12",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "ICT Instructor  |  Centinel Spark Technologies Pvt. Ltd.  |  Hyderabad, Telangana Jan 2021 – Dec 2021",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "ICT Instructor  |  Centinel Spark Technologies Pvt. Ltd.  |  Hyderabad, Telangana Jan 2021 – Dec 2021",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 3645,
+              "end": 3746
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jan 2021 – Dec 2021",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 3727,
+              "end": 3746
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Centinel Spark Technologies Pvt. Ltd",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 3664,
+              "end": 3700
+            }
+          ],
+          "title": [],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Jan 2021 – Dec 2021",
+          "is_present": false
+        },
+        "date_label": "Jan 2021 – Dec 2021",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v2c514f13f40f89a9",
+        "type": "EMPLOYMENT",
+        "title": "Programmer Analyst",
+        "org": "",
+        "start": "2022-10",
+        "end": "2024-07",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Programmer Analyst  |  Bodex LLC  |  Bhilai, Chhattisgarh Oct 2022 – Jul 2024",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Programmer Analyst  |  Bodex LLC  |  Bhilai, Chhattisgarh Oct 2022 – Jul 2024",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 2817,
+              "end": 2894
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Oct 2022 – Jul 2024",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 2875,
+              "end": 2894
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Programmer Analyst",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 2817,
+              "end": 2835
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Oct 2022 – Jul 2024",
+          "is_present": false
+        },
+        "date_label": "Oct 2022 – Jul 2024",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vef14cc3cf21d159e",
+        "type": "EMPLOYMENT",
+        "title": "Software Development Engineer",
+        "org": "HTC Global Services",
+        "start": "2024-08",
+        "end": "2026-06",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Software Development Engineer  |  HTC Global Services  |  Hyderabad, Telangana Aug 2024 – Jun 2026",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Software Development Engineer  |  HTC Global Services  |  Hyderabad, Telangana Aug 2024 – Jun 2026",
+              "block_id": "b25",
+              "kind": "text",
+              "start": 1787,
+              "end": 1885
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Aug 2024 – Jun 2026",
+              "block_id": "b25",
+              "kind": "text",
+              "start": 1866,
+              "end": 1885
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "HTC Global Services",
+              "block_id": "b25",
+              "kind": "text",
+              "start": 1821,
+              "end": 1840
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Software Development Engineer",
+              "block_id": "b25",
+              "kind": "text",
+              "start": 1787,
+              "end": 1816
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Aug 2024 – Jun 2026",
+          "is_present": false
+        },
+        "date_label": "Aug 2024 – Jun 2026",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v911d7ec5639047b8",
+        "type": "EDUCATION",
+        "title": "Bachelor of Engineering",
+        "org": "Chhattisgarh Swami Vivekanand Technical University",
+        "entry_text": "Bachelor of Engineering — Electronics & Telecommunication  |  May 2019 Chhattisgarh Swami Vivekanand Technical University, Bhilai Higher Secondary (Class XII)  |  Mar 2015  |  Gangotri Higher Secondary School, CGBSE Secondary School (Class X)  |  Mar 2013  |  Vivekanand Higher Secondary School, CGBS",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor of Engineering — Electronics & Telecommunication  |  May 2019",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 4609,
+              "end": 4679
+            },
+            {
+              "page": 1,
+              "text": "Chhattisgarh Swami Vivekanand Technical University, Bhilai",
+              "block_id": "b60",
+              "kind": "text",
+              "start": 4680,
+              "end": 4738
+            },
+            {
+              "page": 1,
+              "text": "Higher Secondary (Class XII)  |  Mar 2015  |  Gangotri Higher Secondary School, CGBSE",
+              "block_id": "b61",
+              "kind": "text",
+              "start": 4739,
+              "end": 4824
+            },
+            {
+              "page": 1,
+              "text": "Secondary School (Class X)  |  Mar 2013  |  Vivekanand Higher Secondary School, CGBSE",
+              "block_id": "b62",
+              "kind": "text",
+              "start": 4825,
+              "end": 4910
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "May 2019",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 4671,
+              "end": 4679
+            },
+            {
+              "page": 1,
+              "text": "Mar 2015",
+              "block_id": "b61",
+              "kind": "text",
+              "start": 4772,
+              "end": 4780
+            },
+            {
+              "page": 1,
+              "text": "Mar 2013",
+              "block_id": "b62",
+              "kind": "text",
+              "start": 4856,
+              "end": 4864
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Chhattisgarh Swami Vivekanand Technical University",
+              "block_id": "b60",
+              "kind": "text",
+              "start": 4680,
+              "end": 4730
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Engineering",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 4609,
+              "end": 4632
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "May 2019 / Mar 2015 / Mar 2013",
+          "is_present": false
+        },
+        "date_label": "May 2019 / Mar 2015 / Mar 2013",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "Insurance Platform",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "• Owned the Third-Party Interest (TPI) module end-to-end as subject matter expert, coordinating with product, QA, and",
+          "design stakeholders to ship stakeholder- and claim-management workflows in React.js, TypeScript, Node.js, and",
+          "GraphQL.",
+          "• Improved application performance by 30% through code splitting, lazy loading, and React rendering optimizations,",
+          "directly reducing page load time for enterprise insurance users.",
+          "• Designed a scalable Node.js Data Access Layer (DAL) that cut API response times by 50% while decoupling services",
+          "and simplifying downstream maintenance.",
+          "• Built reusable, accessible UI components with Material UI (MUI), achieving WCAG 2.1 AA compliance, and drove a",
+          "Jest / React Testing Library strategy that sustained 98%+ code coverage across the module.",
+          "• Mentored junior engineers on component reuse and code-review standards, reducing rework flagged in review cycles."
+        ],
+        "raw_text": "Project: AMFAM Insurance Platform",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project: AMFAM Insurance Platform",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 1886,
+              "end": 1919
+            },
+            {
+              "page": 1,
+              "text": "• Owned the Third-Party Interest (TPI) module end-to-end as subject matter expert, coordinating with product, QA, and",
+              "block_id": "b27",
+              "kind": "text",
+              "start": 1920,
+              "end": 2037
+            },
+            {
+              "page": 1,
+              "text": "design stakeholders to ship stakeholder- and claim-management workflows in React.js, TypeScript, Node.js, and",
+              "block_id": "b28",
+              "kind": "text",
+              "start": 2039,
+              "end": 2148
+            },
+            {
+              "page": 1,
+              "text": "GraphQL.",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 2150,
+              "end": 2158
+            },
+            {
+              "page": 1,
+              "text": "• Improved application performance by 30% through code splitting, lazy loading, and React rendering optimizations,",
+              "block_id": "b30",
+              "kind": "text",
+              "start": 2159,
+              "end": 2273
+            },
+            {
+              "page": 1,
+              "text": "directly reducing page load time for enterprise insurance users.",
+              "block_id": "b31",
+              "kind": "text",
+              "start": 2275,
+              "end": 2339
+            },
+            {
+              "page": 1,
+              "text": "• Designed a scalable Node.js Data Access Layer (DAL) that cut API response times by 50% while decoupling services",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 2340,
+              "end": 2454
+            },
+            {
+              "page": 1,
+              "text": "and simplifying downstream maintenance.",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 2456,
+              "end": 2495
+            },
+            {
+              "page": 1,
+              "text": "• Built reusable, accessible UI components with Material UI (MUI), achieving WCAG 2.1 AA compliance, and drove a",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 2496,
+              "end": 2608
+            },
+            {
+              "page": 1,
+              "text": "Jest / React Testing Library strategy that sustained 98%+ code coverage across the module.",
+              "block_id": "b35",
+              "kind": "text",
+              "start": 2610,
+              "end": 2700
+            },
+            {
+              "page": 1,
+              "text": "• Mentored junior engineers on component reuse and code-review standards, reducing rework flagged in review cycles.",
+              "block_id": "b36",
+              "kind": "text",
+              "start": 2701,
+              "end": 2816
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "Blind Man — Next-Gen Sales Platform",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "• Built and maintained a cross-platform SaaS application on the MERN stack with MSSQL, React, and React Native,",
+          "supporting field sales operations for enterprise clients.",
+          "• Architected a Document Management System (DMS) with role-based access control that improved platform scalability",
+          "by 60% while securing business-critical documents.",
+          "• Designed RESTful APIs and reusable UI components, and implemented a RAG-based AI chatbot using Ollama that",
+          "reduced manual lookup time for field reps by surfacing sales documentation through natural-language queries.",
+          "• Optimized rendering performance through code splitting and lazy loading, improving perceived load time on lower- bandwidth field connections."
+        ],
+        "raw_text": "Project: The Blind Man — Next-Gen Sales Platform",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project: The Blind Man — Next-Gen Sales Platform",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 2895,
+              "end": 2943
+            },
+            {
+              "page": 1,
+              "text": "• Built and maintained a cross-platform SaaS application on the MERN stack with MSSQL, React, and React Native,",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 2944,
+              "end": 3055
+            },
+            {
+              "page": 1,
+              "text": "supporting field sales operations for enterprise clients.",
+              "block_id": "b40",
+              "kind": "text",
+              "start": 3057,
+              "end": 3114
+            },
+            {
+              "page": 1,
+              "text": "• Architected a Document Management System (DMS) with role-based access control that improved platform scalability",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 3115,
+              "end": 3229
+            },
+            {
+              "page": 1,
+              "text": "by 60% while securing business-critical documents.",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 3231,
+              "end": 3281
+            },
+            {
+              "page": 1,
+              "text": "• Designed RESTful APIs and reusable UI components, and implemented a RAG-based AI chatbot using Ollama that",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 3282,
+              "end": 3390
+            },
+            {
+              "page": 1,
+              "text": "reduced manual lookup time for field reps by surfacing sales documentation through natural-language queries.",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 3392,
+              "end": 3500
+            },
+            {
+              "page": 1,
+              "text": "• Optimized rendering performance through code splitting and lazy loading, improving perceived load time on lower-",
+              "block_id": "b45",
+              "kind": "text",
+              "start": 3501,
+              "end": 3615
+            },
+            {
+              "page": 1,
+              "text": "bandwidth field connections.",
+              "block_id": "b45",
+              "kind": "text",
+              "start": 3616,
+              "end": 3644
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_3",
+        "name": "Government Platform",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "• Developed responsive government and educational web applications using HTML5, CSS3, JavaScript, and Bootstrap,",
+          "improving accessibility for statewide student users.",
+          "• Mentored students and delivered hands-on technical training in web development, robotics, and IoT, leading project- based learning cohorts."
+        ],
+        "raw_text": "Project: TSWRSEIS Government Platform",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project: TSWRSEIS Government Platform",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 3747,
+              "end": 3784
+            },
+            {
+              "page": 1,
+              "text": "• Developed responsive government and educational web applications using HTML5, CSS3, JavaScript, and Bootstrap,",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 3785,
+              "end": 3897
+            },
+            {
+              "page": 1,
+              "text": "improving accessibility for statewide student users.",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 3899,
+              "end": 3951
+            },
+            {
+              "page": 1,
+              "text": "• Mentored students and delivered hands-on technical training in web development, robotics, and IoT, leading project-",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 3952,
+              "end": 4069
+            },
+            {
+              "page": 1,
+              "text": "based learning cohorts.",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 4070,
+              "end": 4093
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g726bd25bcbadaa5a",
+        "start": [
+          2022,
+          1
+        ],
+        "end": [
+          2022,
+          9
+        ],
+        "months": 9,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "vb4779b7f6eba018d",
+          "event_after": "v2c514f13f40f89a9",
+          "coverage_scope": "employment"
+        },
+        "start_label": "2022-01",
+        "end_label": "2022-09",
+        "evidence_quotes": [
+          "ICT Instructor  |  Centinel Spark Technologies Pvt. Ltd.  |  Hyderabad, Telangana Jan 2021 – Dec 2021",
+          "Programmer Analyst  |  Bodex LLC  |  Bhilai, Chhattisgarh Oct 2022 – Jul 2024"
+        ],
+        "evidence_details": [
+          {
+            "header": "Centinel Spark Technologies Pvt. Ltd",
+            "quote": "ICT Instructor  |  Centinel Spark Technologies Pvt. Ltd.  |  Hyderabad, Telangana Jan 2021 – Dec 2021",
+            "event_id": "vb4779b7f6eba018d",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "ICT Instructor  |  Centinel Spark Technologies Pvt. Ltd.  |  Hyderabad, Telangana Jan 2021 – Dec 2021",
+                  "block_id": "b46",
+                  "kind": "text",
+                  "start": 3645,
+                  "end": 3746
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Jan 2021 – Dec 2021",
+                  "block_id": "b46",
+                  "kind": "text",
+                  "start": 3727,
+                  "end": 3746
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Centinel Spark Technologies Pvt. Ltd",
+                  "block_id": "b46",
+                  "kind": "text",
+                  "start": 3664,
+                  "end": 3700
+                }
+              ],
+              "title": [],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "Jan 2021 – Dec 2021",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Programmer Analys",
+            "quote": "Programmer Analyst  |  Bodex LLC  |  Bhilai, Chhattisgarh Oct 2022 – Jul 2024",
+            "event_id": "v2c514f13f40f89a9",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Programmer Analyst  |  Bodex LLC  |  Bhilai, Chhattisgarh Oct 2022 – Jul 2024",
+                  "block_id": "b37",
+                  "kind": "text",
+                  "start": 2817,
+                  "end": 2894
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Oct 2022 – Jul 2024",
+                  "block_id": "b37",
+                  "kind": "text",
+                  "start": 2875,
+                  "end": 2894
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Programmer Analyst",
+                  "block_id": "b37",
+                  "kind": "text",
+                  "start": 2817,
+                  "end": 2835
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "Oct 2022 – Jul 2024",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 3,
+      "total_events": 4,
+      "dated_share": 0.75,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 57,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

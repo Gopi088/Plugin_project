@@ -1,0 +1,568 @@
+{
+  "file_name": "Abhishek.S.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 3,
+    "total_events": 3,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.855,
+    "document_accuracy": 0.85
+  },
+  "work_experience": [
+    {
+      "id": "va6bfbb015f27dcc9",
+      "company": "Digiforth Solutions Private Limited",
+      "title": "Buisness Development Manager",
+      "start_date": "2021-07",
+      "end_date": "2023-03",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v3a71987ddbc73743",
+      "company": "Turn Turtle Private Limited / G Square",
+      "title": "",
+      "start_date": "2024-01",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v5f617ee71b161663",
+      "company": "",
+      "title": "BUSINESS DEVELOPMENT MANAGER",
+      "start_date": "2025-01",
+      "end_date": "2026-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "Project",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "2001 - 2011",
+        "ST.LOURDES HIGH SCHOOL",
+        "SSLC"
+      ]
+    },
+    {
+      "id": "proj_2",
+      "name": "Project",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Jagran Solutions Pvt Ltd  Aug 2017 -  June 2021",
+        "Sales Team Supervisor",
+        "Took a lead in the Karnataka team in achieving their targets.",
+        "Met the end customers to solve their problems and increase sales."
+      ]
+    }
+  ],
+  "education": [],
+  "gaps": [
+    {
+      "id": "g4d2c8e8d1db95b20",
+      "start": "2023-04",
+      "end": "2023-12",
+      "months": 9,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    }
+  ],
+  "total_work_experience": 3,
+  "total_projects": 2,
+  "total_gaps": 1,
+  "raw_pipeline_dto": {
+    "doc_id": "Abhishek.S",
+    "filename": "Abhishek.S.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "va6bfbb015f27dcc9",
+        "type": "EMPLOYMENT",
+        "title": "Buisness Development Manager",
+        "org": "Digiforth Solutions Private Limited",
+        "start": "2021-07",
+        "end": "2023-03",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Buisness Development Manager\nJuly 2021 -  March 2023 Digiforth Solutions Private Limited",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Buisness Development Manager",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 647,
+              "end": 675
+            },
+            {
+              "page": 1,
+              "text": "July 2021 -  March 2023 Digiforth Solutions Private Limited",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 677,
+              "end": 736
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "July 2021 -  March 2023",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 677,
+              "end": 700
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Digiforth Solutions Private Limited",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 701,
+              "end": 736
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Buisness Development Manager",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 647,
+              "end": 675
+            }
+          ],
+          "section": "ABHISHEK SHANKAR",
+          "date_label": "July 2021 -  March 2023",
+          "is_present": false
+        },
+        "date_label": "July 2021 -  March 2023",
+        "section": "ABHISHEK SHANKAR",
+        "is_present": false
+      },
+      {
+        "id": "v3a71987ddbc73743",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Turn Turtle Private Limited / G Square",
+        "start": "2024-01",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "JAN 2024 - PRESENTTurn Turtle Private Limited / G Square",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "JAN 2024 - PRESENTTurn Turtle Private Limited / G Square",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 589,
+              "end": 645
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "JAN 2024 - PRESENT",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 589,
+              "end": 607
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Turn Turtle Private Limited / G Square",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 607,
+              "end": 645
+            }
+          ],
+          "title": [],
+          "section": "ABHISHEK SHANKAR",
+          "date_label": "JAN 2024 - PRESENT",
+          "is_present": true
+        },
+        "date_label": "JAN 2024 - PRESENT",
+        "section": "ABHISHEK SHANKAR",
+        "is_present": true
+      },
+      {
+        "id": "v5f617ee71b161663",
+        "type": "EMPLOYMENT",
+        "title": "BUSINESS DEVELOPMENT MANAGER",
+        "org": "",
+        "start": "2025-01",
+        "end": "2026-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "BUSINESS DEVELOPMENT MANAGER\n2025 - 2026",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "BUSINESS DEVELOPMENT MANAGER",
+              "block_id": "b3",
+              "kind": "text",
+              "start": 35,
+              "end": 63
+            },
+            {
+              "page": 1,
+              "text": "2025 - 2026",
+              "block_id": "b4",
+              "kind": "text",
+              "start": 65,
+              "end": 76
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2025 - 2026",
+              "block_id": "b4",
+              "kind": "text",
+              "start": 65,
+              "end": 76
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "BUSINESS DEVELOPMENT MANAGER",
+              "block_id": "b3",
+              "kind": "text",
+              "start": 35,
+              "end": 63
+            }
+          ],
+          "section": "ABHISHEK SHANKAR",
+          "date_label": "2025 - 2026",
+          "is_present": false
+        },
+        "date_label": "2025 - 2026",
+        "section": "ABHISHEK SHANKAR",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "Project",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "2001 - 2011",
+          "ST.LOURDES HIGH SCHOOL",
+          "SSLC"
+        ],
+        "raw_text": "2001 - 2011\nST.LOURDES HIGH SCHOOL\nSSLC",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "2001 - 2011",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 2031,
+              "end": 2042
+            },
+            {
+              "page": 1,
+              "text": "ST.LOURDES HIGH SCHOOL",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 2043,
+              "end": 2065
+            },
+            {
+              "page": 1,
+              "text": "SSLC",
+              "block_id": "b74",
+              "kind": "text",
+              "start": 2066,
+              "end": 2070
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "Project",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Jagran Solutions Pvt Ltd  Aug 2017 -  June 2021",
+          "Sales Team Supervisor",
+          "Took a lead in the Karnataka team in achieving their targets.",
+          "Met the end customers to solve their problems and increase sales."
+        ],
+        "raw_text": "Jagran Solutions Pvt Ltd  Aug 2017 -  June 2021\nSales Team Supervisor\nTook a lead in the Karnataka team in achieving their targets.\nMet the end customers to solve their problems and increase sales.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Jagran Solutions Pvt Ltd  Aug 2017 -  June 2021",
+              "block_id": "b75",
+              "kind": "text",
+              "start": 2071,
+              "end": 2118
+            },
+            {
+              "page": 1,
+              "text": "Sales Team Supervisor",
+              "block_id": "b76",
+              "kind": "text",
+              "start": 2120,
+              "end": 2141
+            },
+            {
+              "page": 1,
+              "text": "Took a lead in the Karnataka team in achieving their targets.",
+              "block_id": "b77",
+              "kind": "text",
+              "start": 2143,
+              "end": 2204
+            },
+            {
+              "page": 1,
+              "text": "Met the end customers to solve their problems and increase sales.",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 2205,
+              "end": 2270
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g4d2c8e8d1db95b20",
+        "start": [
+          2023,
+          4
+        ],
+        "end": [
+          2023,
+          12
+        ],
+        "months": 9,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "va6bfbb015f27dcc9",
+          "event_after": "v3a71987ddbc73743",
+          "coverage_scope": "all_dated_activity"
+        },
+        "start_label": "2023-04",
+        "end_label": "2023-12",
+        "evidence_quotes": [
+          "Buisness Development Manager July 2021 -  March 2023 Digiforth Solutions Private Limited",
+          "JAN 2024 - PRESENTTurn Turtle Private Limited / G Square"
+        ],
+        "evidence_details": [
+          {
+            "header": "Buisness Development Manager at Digiforth Solutions Private Limited",
+            "quote": "Buisness Development Manager July 2021 -  March 2023 Digiforth Solutions Private Limited",
+            "event_id": "va6bfbb015f27dcc9",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Buisness Development Manager",
+                  "block_id": "b22",
+                  "kind": "text",
+                  "start": 647,
+                  "end": 675
+                },
+                {
+                  "page": 1,
+                  "text": "July 2021 -  March 2023 Digiforth Solutions Private Limited",
+                  "block_id": "b23",
+                  "kind": "text",
+                  "start": 677,
+                  "end": 736
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "July 2021 -  March 2023",
+                  "block_id": "b23",
+                  "kind": "text",
+                  "start": 677,
+                  "end": 700
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Digiforth Solutions Private Limited",
+                  "block_id": "b23",
+                  "kind": "text",
+                  "start": 701,
+                  "end": 736
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Buisness Development Manager",
+                  "block_id": "b22",
+                  "kind": "text",
+                  "start": 647,
+                  "end": 675
+                }
+              ],
+              "section": "ABHISHEK SHANKAR",
+              "date_label": "July 2021 -  March 2023",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Turn Turtle Private Limited / G Square",
+            "quote": "JAN 2024 - PRESENTTurn Turtle Private Limited / G Square",
+            "event_id": "v3a71987ddbc73743",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "JAN 2024 - PRESENTTurn Turtle Private Limited / G Square",
+                  "block_id": "b21",
+                  "kind": "text",
+                  "start": 589,
+                  "end": 645
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "JAN 2024 - PRESENT",
+                  "block_id": "b21",
+                  "kind": "text",
+                  "start": 589,
+                  "end": 607
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Turn Turtle Private Limited / G Square",
+                  "block_id": "b21",
+                  "kind": "text",
+                  "start": 607,
+                  "end": 645
+                }
+              ],
+              "title": [],
+              "section": "ABHISHEK SHANKAR",
+              "date_label": "JAN 2024 - PRESENT",
+              "is_present": true
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 3,
+      "total_events": 3,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.855,
+      "document_accuracy": 0.85
+    },
+    "total_represented_months": 57,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

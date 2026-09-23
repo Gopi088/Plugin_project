@@ -1,14 +1,16 @@
 {
   "manifest_version": 3,
   "name": "Resume Timeline & Gap Detection",
-  "version": "1.0.0",
+  "version": "1.1.6",
   "description": "Reconstructs a candidate timeline from the resume on screen and flags potential unrepresented periods. Gaps are never claims of unemployment.",
   "permissions": [
     "activeTab",
     "scripting",
     "storage",
     "contextMenus",
-    "webNavigation"
+    "webNavigation",
+    "sidePanel",
+    "debugger"
   ],
   "host_permissions": [
     "http://127.0.0.1:8000/*",
@@ -28,6 +30,7 @@
       "js": [
         "api.js",
         "viewmodel.js",
+        "source-viewer.js",
         "content.js"
       ],
       "css": [
@@ -39,5 +42,9 @@
   "action": {
     "default_popup": "popup.html",
     "default_title": "Resume Timeline"
-  }
+  },
+  "side_panel": {
+    "default_path": "viewer.html"
+  },
+  "minimum_chrome_version": "125"
 }

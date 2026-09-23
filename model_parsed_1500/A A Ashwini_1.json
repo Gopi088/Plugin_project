@@ -1,0 +1,1842 @@
+{
+  "file_name": "A A Ashwini_1.docx",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 11,
+    "total_events": 12,
+    "dated_share": 0.917,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.888,
+    "document_accuracy": 0.89
+  },
+  "work_experience": [
+    {
+      "id": "ve26506aed0acfc00",
+      "company": "Tech Mahindra",
+      "title": "",
+      "start_date": "2018-07",
+      "end_date": "2022-05",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v45718bdcd5e9c53c",
+      "company": "",
+      "title": "Project: 7",
+      "start_date": "2018-12",
+      "end_date": "2020-01",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v41471a8317e9b963",
+      "company": "",
+      "title": "Project: 6",
+      "start_date": "2020-03",
+      "end_date": "2021-02",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v85ca84ca9530f7d5",
+      "company": "",
+      "title": "Project: 5",
+      "start_date": "2021-04",
+      "end_date": "2022-05",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v4ee4472a7514ae77",
+      "company": "Tiger Analytics",
+      "title": "",
+      "start_date": "2022-05",
+      "end_date": "2023-11",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v8dd27706d7f0b1cf",
+      "company": "",
+      "title": "Project: 4",
+      "start_date": "2022-06",
+      "end_date": "2022-09",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vc47f5783f4c14582",
+      "company": "",
+      "title": "Project: 3",
+      "start_date": "2022-10",
+      "end_date": "2023-03",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v0540bf276c5a0e9c",
+      "company": "",
+      "title": "Project: 2",
+      "start_date": "2023-04",
+      "end_date": "2023-11",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vd2f083b0e2da849d",
+      "company": "Sonata Software Ltd",
+      "title": "",
+      "start_date": "2023-12",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v684a8290300cc214",
+      "company": "",
+      "title": "Project: 1",
+      "start_date": "2023-12",
+      "end_date": "2024-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v33002a23f07a9348",
+      "company": "",
+      "title": "POC: 1",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "Intelligent Document Question Answering using RAG Details:",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Objective of the project is to ask questions (that are not included in the training data) about the document without finetuning the LLM and get the relevant answers",
+        "In this POC, I have used Langchain Framework and Chroma DB as vector database and llama-3-70B-Instruct model by meta.",
+        "All the coding and developmental activities are done with python programming integrated with VS Code, ensuring",
+        "modularity and ease of experimentation.",
+        "Approach:",
+        "Questions are processed through a retrieval step to fetch relevant documents from the vector store.",
+        "Retrieved context is passed to the LLM to generate precise answers, even for queries not seen during training.",
+        "No model fine-tuning was performed, demonstrating the power of RAG in zero-shot scenarios."
+      ]
+    },
+    {
+      "id": "proj_2",
+      "name": "Project: 1: Microsoft Role: Senior Digital Engineer Duration: Dec-23 to Dec-24 Roles & Responsibilities",
+      "client": "Microsoft Role: Senior Digital Engineer Duration: Dec-23 to Dec-24 Roles & Responsibilities",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Acted as a trusted advisor to customers by providing expert guidance on Azure Cloud services, addressing technical queries, and delivering tailored cloud solutions aligned with business objectives.",
+        "Analyzed customer business use cases and designed end-to-end cloud architecture using Azure services to meet performance, scalability, and cost-efficiency requirements.",
+        "Hands-on experience with Azure Machine Learning services, including AutoML, ML pipelines, compute instances/clusters, and environment configurations for streamlined model training and deployment.",
+        "Managed and configured Azure Blob Storage, implementing best practices for data management, security, and access patterns based on diverse customer use cases.",
+        "Assisted customers in setting up Managed Virtual Networks (VNet), and provided in-depth knowledge transfer sessions on custom VNet configurations and integration strategies.",
+        "Worked extensively with Azure OpenAI services to support customers in building and fine-tuning large language model (LLM) solutions for various business applications."
+      ]
+    },
+    {
+      "id": "proj_3",
+      "name": "Project: 2: KELLOGS Role: Senior Analyst in DS Duration: Apr-23 to Nov-23 Roles & Responsibilities",
+      "client": "KELLOGS Role: Senior Analyst in DS Duration: Apr-23 to Nov-23 Roles & Responsibilities",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Responsible for analysing and providing the required insights for the following 3 KPIs:",
+        "Creating funnels using the data to calculate Recruit, Retain and Reclaim:",
+        "Performed data collection, data preparation, extraction of required fields and data exploration",
+        "Extracted the attributes required for value calculations of Funnels",
+        "Observe and forecast the trend:",
+        "Collecting previous 3-year data and checking for trends in 3R values",
+        "Forecasting goals for 3Rs:",
+        "Collecting previous 3-year data, check for seasonality and forecast 3R values for next year using time- series forecasting"
+      ]
+    },
+    {
+      "id": "proj_4",
+      "name": "Project: 3: Johnson Brothers Role: Senior Analyst in DS Duration: Oct-22 to Mar-23",
+      "client": "Johnson Brothers Role: Senior Analyst in DS Duration: Oct-22 to Mar-23",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Roles & Responsibilities",
+        "Built a Machine learning model to forecast sales on various products",
+        "Data collected from client Database",
+        "Performed various EDA checks such as missing/incomplete data, Datatype checks and corrections, ACF, PACF, correlation checks, Statistical feature creation: Log, Lag, FFT (as applicable)",
+        "Forecasting was done at different levels",
+        "Various forecasting models have been checked and finally decided to use Prophet model",
+        "Compared the results with existing model and exhibited 15% more accurate model",
+        "Used Azure Machine learning studio to carry the development activities"
+      ]
+    },
+    {
+      "id": "proj_5",
+      "name": "Project: 4: Signet Role: Senior Analyst in DS",
+      "client": "Signet Role: Senior Analyst in DS",
+      "role": "",
+      "duration": "Jun-22 to Sep-22 Roles & Responsibilities",
+      "details": [
+        "Involved in data collection of Engagement rings that are trending",
+        "Collected Data via scraping and manually from various social platforms such as Instagram, Twitter, and YouTube",
+        "Annotated the data using CVAT"
+      ]
+    },
+    {
+      "id": "proj_6",
+      "name": "Project: 5: PepsiCo Role: Software Engineer",
+      "client": "PepsiCo Role: Software Engineer",
+      "role": "",
+      "duration": "Apr-21 to May-22 Roles & Responsibilities",
+      "details": [
+        "Worked on generation of medium, low, and high-level alerts for different KPIs.",
+        "Alerts on below scenarios:",
+        "Scenario 1: Shipments currently delayed (past due); alerts will be graded based on\tno. of days past due Scenario 2: Shipments planned in the immediate future at risk of delay",
+        "Alert based on latest sales velocity (e.g., last 3-4 weeks) and demand gap",
+        "Alert based on significant difference between planned orders (Baseline) & optimizer recommended allocations",
+        "Forecasted sales velocity based on the past 3-year data using Time Series models",
+        "R programming is used for developmental activities",
+        "Azure Devops is used as Scrum platform"
+      ]
+    },
+    {
+      "id": "proj_7",
+      "name": "Project: 6: TDC group Role: Software Engineer Duration: Mar-20 to Feb-21 Roles & Responsibilities",
+      "client": "TDC group Role: Software Engineer Duration: Mar-20 to Feb-21 Roles & Responsibilities",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Worked to maximize the no. of 5G connections in different places of Denmark and predict which area might take more connections in future.",
+        "Collected the existing data from the customer and divided clusters based on different attributes",
+        "Used different clustering algorithms such as K-Means, DBSCAN Clustering etc.",
+        "200 clusters were taken, and prediction algorithms were applied on them to predict which area might take more connections in future.",
+        "Used prediction algorithms such as Decision tree, Random Forest, Naive Bayes, Ensemble techniques etc.",
+        "Python programming is used for developmental activities"
+      ]
+    },
+    {
+      "id": "proj_8",
+      "name": "Project: 7: PepsiCo",
+      "client": "PepsiCo",
+      "role": "Associate Software Engineer",
+      "duration": "Dec-18 to Jan-20 Roles & Responsibilities",
+      "details": [
+        "Gathering the requirements from the client and preparing required documents.",
+        "Extracted the data from database and generated reports by using Tableau Desktop",
+        "Extracted the data from non-database sources and generated reports by using Tableau Desktop",
+        "Developed different types of visualizations reports like bar charts and line charts.",
+        "Developed the reference lines in reports by using Parameters.",
+        "Publishing the reports to Tableau server.",
+        "Created data visualizations with different charts.",
+        "Deploying graphical visualizations in dashboards to create effective views of data such as: Line Charts, Bar Charts, Pie Charts, Tree Maps, Heat Maps, etc."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "v05691124cdc770df",
+      "company": "B.E in CIVIL Engineering from GITAM School of Technology",
+      "title": "",
+      "start_date": "2013-01",
+      "end_date": "2017-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 11,
+  "total_projects": 8,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "A A Ashwini_1",
+    "filename": "A A Ashwini_1.docx",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "v05691124cdc770df",
+        "type": "EDUCATION",
+        "title": "",
+        "org": "B.E in CIVIL Engineering from GITAM School of Technology",
+        "start": "2013-01",
+        "end": "2017-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "B.E in CIVIL Engineering from GITAM School of Technology 2013-2017",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "B.E in CIVIL Engineering from GITAM School of Technology 2013-2017",
+              "block_id": "b107",
+              "kind": "text",
+              "start": 8089,
+              "end": 8155
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2013-2017",
+              "block_id": "b107",
+              "kind": "text",
+              "start": 8146,
+              "end": 8155
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "B.E in CIVIL Engineering from GITAM School of Technology",
+              "block_id": "b107",
+              "kind": "text",
+              "start": 8089,
+              "end": 8145
+            }
+          ],
+          "title": [],
+          "section": "EDUCATION",
+          "date_label": "2013-2017",
+          "is_present": false
+        },
+        "date_label": "2013-2017",
+        "section": "EDUCATION",
+        "is_present": false
+      },
+      {
+        "id": "ve26506aed0acfc00",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Tech Mahindra",
+        "start": "2018-07",
+        "end": "2022-05",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Tech Mahindra : July 2018- May 2022",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Tech Mahindra : July 2018- May 2022",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 1689,
+              "end": 1724
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "July 2018- May 2022",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 1705,
+              "end": 1724
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Tech Mahindra",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 1689,
+              "end": 1702
+            }
+          ],
+          "title": [],
+          "section": "WORK EXPERIENCE",
+          "date_label": "July 2018- May 2022",
+          "is_present": false
+        },
+        "date_label": "July 2018- May 2022",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v45718bdcd5e9c53c",
+        "type": "PROJECT",
+        "title": "Project: 7",
+        "org": "",
+        "start": "2018-12",
+        "end": "2020-01",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_PROJECT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Project: 7",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project: 7",
+              "block_id": "b94",
+              "kind": "text",
+              "start": 7316,
+              "end": 7326
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Dec-18 to Jan-20",
+              "block_id": "b97",
+              "kind": "text",
+              "start": 7392,
+              "end": 7408
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Project: 7",
+              "block_id": "b94",
+              "kind": "text",
+              "start": 7316,
+              "end": 7326
+            }
+          ],
+          "section": "PROJECTS and POCs:",
+          "date_label": "Dec-18 to Jan-20",
+          "is_present": false
+        },
+        "date_label": "Dec-18 to Jan-20",
+        "section": "PROJECTS and POCs:",
+        "is_present": false
+      },
+      {
+        "id": "v41471a8317e9b963",
+        "type": "PROJECT",
+        "title": "Project: 6",
+        "org": "",
+        "start": "2020-03",
+        "end": "2021-02",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_PROJECT_CUES"
+        ],
+        "quote": "Project: 6\nClient Name: TDC group Role: Software Engineer Duration: Mar-20 to Feb-21 Roles & Responsibilities",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project: 6",
+              "block_id": "b86",
+              "kind": "text",
+              "start": 6602,
+              "end": 6612
+            },
+            {
+              "page": 1,
+              "text": "Client Name: TDC group Role: Software Engineer Duration: Mar-20 to Feb-21 Roles & Responsibilities",
+              "block_id": "b87",
+              "kind": "text",
+              "start": 6613,
+              "end": 6711
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Mar-20 to Feb-21",
+              "block_id": "b87",
+              "kind": "text",
+              "start": 6670,
+              "end": 6686
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Project: 6",
+              "block_id": "b86",
+              "kind": "text",
+              "start": 6602,
+              "end": 6612
+            }
+          ],
+          "section": "PROJECTS and POCs:",
+          "date_label": "Mar-20 to Feb-21",
+          "is_present": false
+        },
+        "date_label": "Mar-20 to Feb-21",
+        "section": "PROJECTS and POCs:",
+        "is_present": false
+      },
+      {
+        "id": "v85ca84ca9530f7d5",
+        "type": "PROJECT",
+        "title": "Project: 5",
+        "org": "",
+        "start": "2021-04",
+        "end": "2022-05",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_PROJECT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Project: 5",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project: 5",
+              "block_id": "b75",
+              "kind": "text",
+              "start": 5859,
+              "end": 5869
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Apr-21 to May-22",
+              "block_id": "b77",
+              "kind": "text",
+              "start": 5925,
+              "end": 5941
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Project: 5",
+              "block_id": "b75",
+              "kind": "text",
+              "start": 5859,
+              "end": 5869
+            }
+          ],
+          "section": "PROJECTS and POCs:",
+          "date_label": "Apr-21 to May-22",
+          "is_present": false
+        },
+        "date_label": "Apr-21 to May-22",
+        "section": "PROJECTS and POCs:",
+        "is_present": false
+      },
+      {
+        "id": "v4ee4472a7514ae77",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Tiger Analytics",
+        "start": "2022-05",
+        "end": "2023-11",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Tiger Analytics : May 2022 – Nov 2023",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Tiger Analytics : May 2022 – Nov 2023",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 1651,
+              "end": 1688
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "May 2022 – Nov 2023",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 1669,
+              "end": 1688
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Tiger Analytics",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 1651,
+              "end": 1666
+            }
+          ],
+          "title": [],
+          "section": "WORK EXPERIENCE",
+          "date_label": "May 2022 – Nov 2023",
+          "is_present": false
+        },
+        "date_label": "May 2022 – Nov 2023",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v8dd27706d7f0b1cf",
+        "type": "PROJECT",
+        "title": "Project: 4",
+        "org": "",
+        "start": "2022-06",
+        "end": "2022-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_PROJECT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Project: 4",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project: 4",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 5542,
+              "end": 5552
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jun-22 to Sep-22",
+              "block_id": "b71",
+              "kind": "text",
+              "start": 5610,
+              "end": 5626
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Project: 4",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 5542,
+              "end": 5552
+            }
+          ],
+          "section": "PROJECTS and POCs:",
+          "date_label": "Jun-22 to Sep-22",
+          "is_present": false
+        },
+        "date_label": "Jun-22 to Sep-22",
+        "section": "PROJECTS and POCs:",
+        "is_present": false
+      },
+      {
+        "id": "vc47f5783f4c14582",
+        "type": "PROJECT",
+        "title": "Project: 3",
+        "org": "",
+        "start": "2022-10",
+        "end": "2023-03",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_PROJECT_CUES"
+        ],
+        "quote": "Project: 3\nClient Name: Johnson Brothers Role: Senior Analyst in DS Duration: Oct-22 to Mar-23",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project: 3",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 4785,
+              "end": 4795
+            },
+            {
+              "page": 1,
+              "text": "Client Name: Johnson Brothers Role: Senior Analyst in DS Duration: Oct-22 to Mar-23",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 4796,
+              "end": 4879
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Oct-22 to Mar-23",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 4863,
+              "end": 4879
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Project: 3",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 4785,
+              "end": 4795
+            }
+          ],
+          "section": "PROJECTS and POCs:",
+          "date_label": "Oct-22 to Mar-23",
+          "is_present": false
+        },
+        "date_label": "Oct-22 to Mar-23",
+        "section": "PROJECTS and POCs:",
+        "is_present": false
+      },
+      {
+        "id": "v0540bf276c5a0e9c",
+        "type": "PROJECT",
+        "title": "Project: 2",
+        "org": "",
+        "start": "2023-04",
+        "end": "2023-11",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_PROJECT_CUES"
+        ],
+        "quote": "Project: 2\nClient Name: KELLOGS Role: Senior Analyst in DS Duration: Apr-23 to Nov-23 Roles & Responsibilities",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project: 2",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 3955,
+              "end": 3965
+            },
+            {
+              "page": 1,
+              "text": "Client Name: KELLOGS Role: Senior Analyst in DS Duration: Apr-23 to Nov-23 Roles & Responsibilities",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 3966,
+              "end": 4065
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Apr-23 to Nov-23",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 4024,
+              "end": 4040
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Project: 2",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 3955,
+              "end": 3965
+            }
+          ],
+          "section": "PROJECTS and POCs:",
+          "date_label": "Apr-23 to Nov-23",
+          "is_present": false
+        },
+        "date_label": "Apr-23 to Nov-23",
+        "section": "PROJECTS and POCs:",
+        "is_present": false
+      },
+      {
+        "id": "vd2f083b0e2da849d",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Sonata Software Ltd",
+        "start": "2023-12",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Sonata Software Ltd : Dec 2023- till now",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Sonata Software Ltd : Dec 2023- till now",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 1610,
+              "end": 1650
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Dec 2023- till now",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 1632,
+              "end": 1650
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Sonata Software Ltd",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 1610,
+              "end": 1629
+            }
+          ],
+          "title": [],
+          "section": "WORK EXPERIENCE",
+          "date_label": "Dec 2023- till now",
+          "is_present": true
+        },
+        "date_label": "Dec 2023- till now",
+        "section": "WORK EXPERIENCE",
+        "is_present": true
+      },
+      {
+        "id": "v684a8290300cc214",
+        "type": "PROJECT",
+        "title": "Project: 1",
+        "org": "",
+        "start": "2023-12",
+        "end": "2024-12",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_PROJECT_CUES"
+        ],
+        "quote": "Project: 1\nClient Name: Microsoft Role: Senior Digital Engineer Duration: Dec-23 to Dec-24 Roles & Responsibilities",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project: 1",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 2776,
+              "end": 2786
+            },
+            {
+              "page": 1,
+              "text": "Client Name: Microsoft Role: Senior Digital Engineer Duration: Dec-23 to Dec-24 Roles & Responsibilities",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 2787,
+              "end": 2891
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Dec-23 to Dec-24",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 2850,
+              "end": 2866
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Project: 1",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 2776,
+              "end": 2786
+            }
+          ],
+          "section": "PROJECTS and POCs:",
+          "date_label": "Dec-23 to Dec-24",
+          "is_present": false
+        },
+        "date_label": "Dec-23 to Dec-24",
+        "section": "PROJECTS and POCs:",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v33002a23f07a9348",
+        "type": "PROJECT",
+        "title": "POC: 1",
+        "org": "",
+        "entry_text": "POC: 1 Title: Intelligent Document Question Answering using RAG Details: Objective of the project is to ask questions (that are not included in the training data) about the document without finetuning the LLM and get the relevant answers In this POC, I have used Langchain Framework and Chroma DB as ",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "POC: 1",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 1744,
+              "end": 1750
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "POC: 1",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 1744,
+              "end": 1750
+            }
+          ],
+          "section": "PROJECTS and POCs:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROJECTS and POCs:",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "Intelligent Document Question Answering using RAG Details:",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Objective of the project is to ask questions (that are not included in the training data) about the document without finetuning the LLM and get the relevant answers",
+          "In this POC, I have used Langchain Framework and Chroma DB as vector database and llama-3-70B-Instruct model by meta.",
+          "All the coding and developmental activities are done with python programming integrated with VS Code, ensuring",
+          "modularity and ease of experimentation.",
+          "Approach:",
+          "Questions are processed through a retrieval step to fetch relevant documents from the vector store.",
+          "Retrieved context is passed to the LLM to generate precise answers, even for queries not seen during training.",
+          "No model fine-tuning was performed, demonstrating the power of RAG in zero-shot scenarios."
+        ],
+        "raw_text": "POC: 1\nTitle: Intelligent Document Question Answering using RAG Details:\nObjective of the project is to ask questions (that are not included in the training data) about the document without finetuning the LLM and get the relevant answers\nIn this POC, I have used Langchain Framework and Chroma DB as vector database and llama-3-70B-Instruct model by meta.\nAll the coding and developmental activities are done with python programming integrated with VS Code, ensuring\nmodularity and ease of experimentation.\nApproach:\nQuestions are processed through a retrieval step to fetch relevant documents from t",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "POC: 1",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 1744,
+              "end": 1750
+            },
+            {
+              "page": 1,
+              "text": "Title: Intelligent Document Question Answering using RAG Details:",
+              "block_id": "b27",
+              "kind": "text",
+              "start": 1751,
+              "end": 1816
+            },
+            {
+              "page": 1,
+              "text": "Objective of the project is to ask questions (that are not included in the training data) about the document without finetuning the LLM and get the relevant answers",
+              "block_id": "b28",
+              "kind": "text",
+              "start": 1817,
+              "end": 1981
+            },
+            {
+              "page": 1,
+              "text": "In this POC, I have used Langchain Framework and Chroma DB as vector database and llama-3-70B-Instruct model by meta.",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 1982,
+              "end": 2099
+            },
+            {
+              "page": 1,
+              "text": "All the coding and developmental activities are done with python programming integrated with VS Code, ensuring",
+              "block_id": "b30",
+              "kind": "text",
+              "start": 2100,
+              "end": 2210
+            },
+            {
+              "page": 1,
+              "text": "modularity and ease of experimentation.",
+              "block_id": "b31",
+              "kind": "text",
+              "start": 2211,
+              "end": 2250
+            },
+            {
+              "page": 1,
+              "text": "Approach:",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 2251,
+              "end": 2260
+            },
+            {
+              "page": 1,
+              "text": "Questions are processed through a retrieval step to fetch relevant documents from the vector store.",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 2261,
+              "end": 2360
+            },
+            {
+              "page": 1,
+              "text": "Retrieved context is passed to the LLM to generate precise answers, even for queries not seen during training.",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 2361,
+              "end": 2471
+            },
+            {
+              "page": 1,
+              "text": "No model fine-tuning was performed, demonstrating the power of RAG in zero-shot scenarios.",
+              "block_id": "b35",
+              "kind": "text",
+              "start": 2472,
+              "end": 2562
+            },
+            {
+              "page": 1,
+              "text": "Outcome:",
+              "block_id": "b36",
+              "kind": "text",
+              "start": 2563,
+              "end": 2571
+            },
+            {
+              "page": 1,
+              "text": "Successfully demonstrated the feasibility of using RAG with state-of-the-art LLMs for intelligent document Q&A, paving the way for scalable enterprise applications in knowledge management and automation.",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 2572,
+              "end": 2775
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "Project: 1: Microsoft Role: Senior Digital Engineer Duration: Dec-23 to Dec-24 Roles & Responsibilities",
+        "client": "Microsoft Role: Senior Digital Engineer Duration: Dec-23 to Dec-24 Roles & Responsibilities",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Acted as a trusted advisor to customers by providing expert guidance on Azure Cloud services, addressing technical queries, and delivering tailored cloud solutions aligned with business objectives.",
+          "Analyzed customer business use cases and designed end-to-end cloud architecture using Azure services to meet performance, scalability, and cost-efficiency requirements.",
+          "Hands-on experience with Azure Machine Learning services, including AutoML, ML pipelines, compute instances/clusters, and environment configurations for streamlined model training and deployment.",
+          "Managed and configured Azure Blob Storage, implementing best practices for data management, security, and access patterns based on diverse customer use cases.",
+          "Assisted customers in setting up Managed Virtual Networks (VNet), and provided in-depth knowledge transfer sessions on custom VNet configurations and integration strategies.",
+          "Worked extensively with Azure OpenAI services to support customers in building and fine-tuning large language model (LLM) solutions for various business applications."
+        ],
+        "raw_text": "Project: 1\nClient Name: Microsoft Role: Senior Digital Engineer Duration: Dec-23 to Dec-24 Roles & Responsibilities\nActed as a trusted advisor to customers by providing expert guidance on Azure Cloud services, addressing technical queries, and delivering tailored cloud solutions aligned with business objectives.\nAnalyzed customer business use cases and designed end-to-end cloud architecture using Azure services to meet performance, scalability, and cost-efficiency requirements.\nHands-on experience with Azure Machine Learning services, including AutoML, ML pipelines, compute instances/clusters,",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project: 1",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 2776,
+              "end": 2786
+            },
+            {
+              "page": 1,
+              "text": "Client Name: Microsoft Role: Senior Digital Engineer Duration: Dec-23 to Dec-24 Roles & Responsibilities",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 2787,
+              "end": 2891
+            },
+            {
+              "page": 1,
+              "text": "Acted as a trusted advisor to customers by providing expert guidance on Azure Cloud services, addressing technical queries, and delivering tailored cloud solutions aligned with business objectives.",
+              "block_id": "b40",
+              "kind": "text",
+              "start": 2892,
+              "end": 3089
+            },
+            {
+              "page": 1,
+              "text": "Analyzed customer business use cases and designed end-to-end cloud architecture using Azure services to meet performance, scalability, and cost-efficiency requirements.",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 3090,
+              "end": 3258
+            },
+            {
+              "page": 1,
+              "text": "Hands-on experience with Azure Machine Learning services, including AutoML, ML pipelines, compute instances/clusters, and environment configurations for streamlined model training and deployment.",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 3259,
+              "end": 3454
+            },
+            {
+              "page": 1,
+              "text": "Managed and configured Azure Blob Storage, implementing best practices for data management, security, and access patterns based on diverse customer use cases.",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 3455,
+              "end": 3613
+            },
+            {
+              "page": 1,
+              "text": "Assisted customers in setting up Managed Virtual Networks (VNet), and provided in-depth knowledge transfer sessions on custom VNet configurations and integration strategies.",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 3614,
+              "end": 3787
+            },
+            {
+              "page": 1,
+              "text": "Worked extensively with Azure OpenAI services to support customers in building and fine-tuning large language model (LLM) solutions for various business applications.",
+              "block_id": "b45",
+              "kind": "text",
+              "start": 3788,
+              "end": 3954
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_3",
+        "name": "Project: 2: KELLOGS Role: Senior Analyst in DS Duration: Apr-23 to Nov-23 Roles & Responsibilities",
+        "client": "KELLOGS Role: Senior Analyst in DS Duration: Apr-23 to Nov-23 Roles & Responsibilities",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Responsible for analysing and providing the required insights for the following 3 KPIs:",
+          "Creating funnels using the data to calculate Recruit, Retain and Reclaim:",
+          "Performed data collection, data preparation, extraction of required fields and data exploration",
+          "Extracted the attributes required for value calculations of Funnels",
+          "Observe and forecast the trend:",
+          "Collecting previous 3-year data and checking for trends in 3R values",
+          "Forecasting goals for 3Rs:",
+          "Collecting previous 3-year data, check for seasonality and forecast 3R values for next year using time- series forecasting"
+        ],
+        "raw_text": "Project: 2\nClient Name: KELLOGS Role: Senior Analyst in DS Duration: Apr-23 to Nov-23 Roles & Responsibilities\nResponsible for analysing and providing the required insights for the following 3 KPIs:\nCreating funnels using the data to calculate Recruit, Retain and Reclaim:\nPerformed data collection, data preparation, extraction of required fields and data exploration\nExtracted the attributes required for value calculations of Funnels\nObserve and forecast the trend:\nCollecting previous 3-year data and checking for trends in 3R values\nForecasting goals for 3Rs:\nCollecting previous 3-year data, ch",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project: 2",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 3955,
+              "end": 3965
+            },
+            {
+              "page": 1,
+              "text": "Client Name: KELLOGS Role: Senior Analyst in DS Duration: Apr-23 to Nov-23 Roles & Responsibilities",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 3966,
+              "end": 4065
+            },
+            {
+              "page": 1,
+              "text": "Responsible for analysing and providing the required insights for the following 3 KPIs:",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 4066,
+              "end": 4153
+            },
+            {
+              "page": 1,
+              "text": "Creating funnels using the data to calculate Recruit, Retain and Reclaim:",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 4154,
+              "end": 4227
+            },
+            {
+              "page": 1,
+              "text": "Performed data collection, data preparation, extraction of required fields and data exploration",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 4228,
+              "end": 4323
+            },
+            {
+              "page": 1,
+              "text": "Extracted the attributes required for value calculations of Funnels",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 4324,
+              "end": 4391
+            },
+            {
+              "page": 1,
+              "text": "Observe and forecast the trend:",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 4392,
+              "end": 4423
+            },
+            {
+              "page": 1,
+              "text": "Collecting previous 3-year data and checking for trends in 3R values",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 4424,
+              "end": 4492
+            },
+            {
+              "page": 1,
+              "text": "Forecasting goals for 3Rs:",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 4493,
+              "end": 4519
+            },
+            {
+              "page": 1,
+              "text": "Collecting previous 3-year data, check for seasonality and forecast 3R values for next year using time- series forecasting",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 4520,
+              "end": 4642
+            },
+            {
+              "page": 1,
+              "text": "All the development activities have been carried through Jupyter Notebook (python programming)",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 4643,
+              "end": 4737
+            },
+            {
+              "page": 1,
+              "text": "Deployment is carried on using AWS S3 and EC2.",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 4738,
+              "end": 4784
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_4",
+        "name": "Project: 3: Johnson Brothers Role: Senior Analyst in DS Duration: Oct-22 to Mar-23",
+        "client": "Johnson Brothers Role: Senior Analyst in DS Duration: Oct-22 to Mar-23",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Roles & Responsibilities",
+          "Built a Machine learning model to forecast sales on various products",
+          "Data collected from client Database",
+          "Performed various EDA checks such as missing/incomplete data, Datatype checks and corrections, ACF, PACF, correlation checks, Statistical feature creation: Log, Lag, FFT (as applicable)",
+          "Forecasting was done at different levels",
+          "Various forecasting models have been checked and finally decided to use Prophet model",
+          "Compared the results with existing model and exhibited 15% more accurate model",
+          "Used Azure Machine learning studio to carry the development activities"
+        ],
+        "raw_text": "Project: 3\nClient Name: Johnson Brothers Role: Senior Analyst in DS Duration: Oct-22 to Mar-23\nRoles & Responsibilities\nBuilt a Machine learning model to forecast sales on various products\nData collected from client Database\nPerformed various EDA checks such as missing/incomplete data, Datatype checks and corrections, ACF, PACF, correlation checks, Statistical feature creation: Log, Lag, FFT (as applicable)\nForecasting was done at different levels\nVarious forecasting models have been checked and finally decided to use Prophet model\nCompared the results with existing model and exhibited 15% mor",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project: 3",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 4785,
+              "end": 4795
+            },
+            {
+              "page": 1,
+              "text": "Client Name: Johnson Brothers Role: Senior Analyst in DS Duration: Oct-22 to Mar-23",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 4796,
+              "end": 4879
+            },
+            {
+              "page": 1,
+              "text": "Roles & Responsibilities",
+              "block_id": "b60",
+              "kind": "text",
+              "start": 4880,
+              "end": 4904
+            },
+            {
+              "page": 1,
+              "text": "Built a Machine learning model to forecast sales on various products",
+              "block_id": "b61",
+              "kind": "text",
+              "start": 4905,
+              "end": 4973
+            },
+            {
+              "page": 1,
+              "text": "Data collected from client Database",
+              "block_id": "b62",
+              "kind": "text",
+              "start": 4974,
+              "end": 5009
+            },
+            {
+              "page": 1,
+              "text": "Performed various EDA checks such as missing/incomplete data, Datatype checks and corrections, ACF, PACF, correlation checks, Statistical feature creation: Log, Lag, FFT (as applicable)",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 5010,
+              "end": 5195
+            },
+            {
+              "page": 1,
+              "text": "Forecasting was done at different levels",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 5196,
+              "end": 5236
+            },
+            {
+              "page": 1,
+              "text": "Various forecasting models have been checked and finally decided to use Prophet model",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 5237,
+              "end": 5322
+            },
+            {
+              "page": 1,
+              "text": "Compared the results with existing model and exhibited 15% more accurate model",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 5323,
+              "end": 5401
+            },
+            {
+              "page": 1,
+              "text": "Used Azure Machine learning studio to carry the development activities",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 5402,
+              "end": 5472
+            },
+            {
+              "page": 1,
+              "text": "Python programming language is used for all developmental activities",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 5473,
+              "end": 5541
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_5",
+        "name": "Project: 4: Signet Role: Senior Analyst in DS",
+        "client": "Signet Role: Senior Analyst in DS",
+        "role": "",
+        "duration": "Jun-22 to Sep-22 Roles & Responsibilities",
+        "details": [
+          "Involved in data collection of Engagement rings that are trending",
+          "Collected Data via scraping and manually from various social platforms such as Instagram, Twitter, and YouTube",
+          "Annotated the data using CVAT"
+        ],
+        "raw_text": "Project: 4\nClient Name: Signet Role: Senior Analyst in DS\nDuration: Jun-22 to Sep-22 Roles & Responsibilities\nInvolved in data collection of Engagement rings that are trending\nCollected Data via scraping and manually from various social platforms such as Instagram, Twitter, and YouTube\nAnnotated the data using CVAT",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project: 4",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 5542,
+              "end": 5552
+            },
+            {
+              "page": 1,
+              "text": "Client Name: Signet Role: Senior Analyst in DS",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 5553,
+              "end": 5599
+            },
+            {
+              "page": 1,
+              "text": "Duration: Jun-22 to Sep-22 Roles & Responsibilities",
+              "block_id": "b71",
+              "kind": "text",
+              "start": 5600,
+              "end": 5651
+            },
+            {
+              "page": 1,
+              "text": "Involved in data collection of Engagement rings that are trending",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 5652,
+              "end": 5717
+            },
+            {
+              "page": 1,
+              "text": "Collected Data via scraping and manually from various social platforms such as Instagram, Twitter, and YouTube",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 5718,
+              "end": 5828
+            },
+            {
+              "page": 1,
+              "text": "Annotated the data using CVAT",
+              "block_id": "b74",
+              "kind": "text",
+              "start": 5829,
+              "end": 5858
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_6",
+        "name": "Project: 5: PepsiCo Role: Software Engineer",
+        "client": "PepsiCo Role: Software Engineer",
+        "role": "",
+        "duration": "Apr-21 to May-22 Roles & Responsibilities",
+        "details": [
+          "Worked on generation of medium, low, and high-level alerts for different KPIs.",
+          "Alerts on below scenarios:",
+          "Scenario 1: Shipments currently delayed (past due); alerts will be graded based on\tno. of days past due Scenario 2: Shipments planned in the immediate future at risk of delay",
+          "Alert based on latest sales velocity (e.g., last 3-4 weeks) and demand gap",
+          "Alert based on significant difference between planned orders (Baseline) & optimizer recommended allocations",
+          "Forecasted sales velocity based on the past 3-year data using Time Series models",
+          "R programming is used for developmental activities",
+          "Azure Devops is used as Scrum platform"
+        ],
+        "raw_text": "Project: 5\nClient Name: PepsiCo Role: Software Engineer\nDuration: Apr-21 to May-22 Roles & Responsibilities\nWorked on generation of medium, low, and high-level alerts for different KPIs.\nAlerts on below scenarios:\nScenario 1: Shipments currently delayed (past due); alerts will be graded based on\tno. of days past due Scenario 2: Shipments planned in the immediate future at risk of delay\nAlert based on latest sales velocity (e.g., last 3-4 weeks) and demand gap\nAlert based on significant difference between planned orders (Baseline) & optimizer recommended allocations\nForecasted sales velocity ba",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project: 5",
+              "block_id": "b75",
+              "kind": "text",
+              "start": 5859,
+              "end": 5869
+            },
+            {
+              "page": 1,
+              "text": "Client Name: PepsiCo Role: Software Engineer",
+              "block_id": "b76",
+              "kind": "text",
+              "start": 5870,
+              "end": 5914
+            },
+            {
+              "page": 1,
+              "text": "Duration: Apr-21 to May-22 Roles & Responsibilities",
+              "block_id": "b77",
+              "kind": "text",
+              "start": 5915,
+              "end": 5966
+            },
+            {
+              "page": 1,
+              "text": "Worked on generation of medium, low, and high-level alerts for different KPIs.",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 5967,
+              "end": 6045
+            },
+            {
+              "page": 1,
+              "text": "Alerts on below scenarios:",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 6046,
+              "end": 6072
+            },
+            {
+              "page": 1,
+              "text": "Scenario 1: Shipments currently delayed (past due); alerts will be graded based on\tno. of days past due Scenario 2: Shipments planned in the immediate future at risk of delay",
+              "block_id": "b80",
+              "kind": "text",
+              "start": 6073,
+              "end": 6247
+            },
+            {
+              "page": 1,
+              "text": "Alert based on latest sales velocity (e.g., last 3-4 weeks) and demand gap",
+              "block_id": "b81",
+              "kind": "text",
+              "start": 6248,
+              "end": 6322
+            },
+            {
+              "page": 1,
+              "text": "Alert based on significant difference between planned orders (Baseline) & optimizer recommended allocations",
+              "block_id": "b82",
+              "kind": "text",
+              "start": 6323,
+              "end": 6430
+            },
+            {
+              "page": 1,
+              "text": "Forecasted sales velocity based on the past 3-year data using Time Series models",
+              "block_id": "b83",
+              "kind": "text",
+              "start": 6431,
+              "end": 6511
+            },
+            {
+              "page": 1,
+              "text": "R programming is used for developmental activities",
+              "block_id": "b84",
+              "kind": "text",
+              "start": 6512,
+              "end": 6562
+            },
+            {
+              "page": 1,
+              "text": "Azure Devops is used as Scrum platform",
+              "block_id": "b85",
+              "kind": "text",
+              "start": 6563,
+              "end": 6601
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_7",
+        "name": "Project: 6: TDC group Role: Software Engineer Duration: Mar-20 to Feb-21 Roles & Responsibilities",
+        "client": "TDC group Role: Software Engineer Duration: Mar-20 to Feb-21 Roles & Responsibilities",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Worked to maximize the no. of 5G connections in different places of Denmark and predict which area might take more connections in future.",
+          "Collected the existing data from the customer and divided clusters based on different attributes",
+          "Used different clustering algorithms such as K-Means, DBSCAN Clustering etc.",
+          "200 clusters were taken, and prediction algorithms were applied on them to predict which area might take more connections in future.",
+          "Used prediction algorithms such as Decision tree, Random Forest, Naive Bayes, Ensemble techniques etc.",
+          "Python programming is used for developmental activities"
+        ],
+        "raw_text": "Project: 6\nClient Name: TDC group Role: Software Engineer Duration: Mar-20 to Feb-21 Roles & Responsibilities\nWorked to maximize the no. of 5G connections in different places of Denmark and predict which area might take more connections in future.\nCollected the existing data from the customer and divided clusters based on different attributes\nUsed different clustering algorithms such as K-Means, DBSCAN Clustering etc.\n200 clusters were taken, and prediction algorithms were applied on them to predict which area might take more connections in future.\nUsed prediction algorithms such as Decision t",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project: 6",
+              "block_id": "b86",
+              "kind": "text",
+              "start": 6602,
+              "end": 6612
+            },
+            {
+              "page": 1,
+              "text": "Client Name: TDC group Role: Software Engineer Duration: Mar-20 to Feb-21 Roles & Responsibilities",
+              "block_id": "b87",
+              "kind": "text",
+              "start": 6613,
+              "end": 6711
+            },
+            {
+              "page": 1,
+              "text": "Worked to maximize the no. of 5G connections in different places of Denmark and predict which area might take more connections in future.",
+              "block_id": "b88",
+              "kind": "text",
+              "start": 6712,
+              "end": 6849
+            },
+            {
+              "page": 1,
+              "text": "Collected the existing data from the customer and divided clusters based on different attributes",
+              "block_id": "b89",
+              "kind": "text",
+              "start": 6850,
+              "end": 6946
+            },
+            {
+              "page": 1,
+              "text": "Used different clustering algorithms such as K-Means, DBSCAN Clustering etc.",
+              "block_id": "b90",
+              "kind": "text",
+              "start": 6947,
+              "end": 7023
+            },
+            {
+              "page": 1,
+              "text": "200 clusters were taken, and prediction algorithms were applied on them to predict which area might take more connections in future.",
+              "block_id": "b91",
+              "kind": "text",
+              "start": 7024,
+              "end": 7156
+            },
+            {
+              "page": 1,
+              "text": "Used prediction algorithms such as Decision tree, Random Forest, Naive Bayes, Ensemble techniques etc.",
+              "block_id": "b92",
+              "kind": "text",
+              "start": 7157,
+              "end": 7259
+            },
+            {
+              "page": 1,
+              "text": "Python programming is used for developmental activities",
+              "block_id": "b93",
+              "kind": "text",
+              "start": 7260,
+              "end": 7315
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_8",
+        "name": "Project: 7: PepsiCo",
+        "client": "PepsiCo",
+        "role": "Associate Software Engineer",
+        "duration": "Dec-18 to Jan-20 Roles & Responsibilities",
+        "details": [
+          "Gathering the requirements from the client and preparing required documents.",
+          "Extracted the data from database and generated reports by using Tableau Desktop",
+          "Extracted the data from non-database sources and generated reports by using Tableau Desktop",
+          "Developed different types of visualizations reports like bar charts and line charts.",
+          "Developed the reference lines in reports by using Parameters.",
+          "Publishing the reports to Tableau server.",
+          "Created data visualizations with different charts.",
+          "Deploying graphical visualizations in dashboards to create effective views of data such as: Line Charts, Bar Charts, Pie Charts, Tree Maps, Heat Maps, etc."
+        ],
+        "raw_text": "Project: 7\nClient Name: PepsiCo\nRole: Associate Software Engineer\nDuration: Dec-18 to Jan-20 Roles & Responsibilities\nGathering the requirements from the client and preparing required documents.\nExtracted the data from database and generated reports by using Tableau Desktop\nExtracted the data from non-database sources and generated reports by using Tableau Desktop\nDeveloped different types of visualizations reports like bar charts and line charts.\nDeveloped the reference lines in reports by using Parameters.\nPublishing the reports to Tableau server.\nCreated data visualizations with different c",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project: 7",
+              "block_id": "b94",
+              "kind": "text",
+              "start": 7316,
+              "end": 7326
+            },
+            {
+              "page": 1,
+              "text": "Client Name: PepsiCo",
+              "block_id": "b95",
+              "kind": "text",
+              "start": 7327,
+              "end": 7347
+            },
+            {
+              "page": 1,
+              "text": "Role: Associate Software Engineer",
+              "block_id": "b96",
+              "kind": "text",
+              "start": 7348,
+              "end": 7381
+            },
+            {
+              "page": 1,
+              "text": "Duration: Dec-18 to Jan-20 Roles & Responsibilities",
+              "block_id": "b97",
+              "kind": "text",
+              "start": 7382,
+              "end": 7433
+            },
+            {
+              "page": 1,
+              "text": "Gathering the requirements from the client and preparing required documents.",
+              "block_id": "b98",
+              "kind": "text",
+              "start": 7434,
+              "end": 7510
+            },
+            {
+              "page": 1,
+              "text": "Extracted the data from database and generated reports by using Tableau Desktop",
+              "block_id": "b99",
+              "kind": "text",
+              "start": 7511,
+              "end": 7590
+            },
+            {
+              "page": 1,
+              "text": "Extracted the data from non-database sources and generated reports by using Tableau Desktop",
+              "block_id": "b100",
+              "kind": "text",
+              "start": 7591,
+              "end": 7682
+            },
+            {
+              "page": 1,
+              "text": "Developed different types of visualizations reports like bar charts and line charts.",
+              "block_id": "b101",
+              "kind": "text",
+              "start": 7683,
+              "end": 7767
+            },
+            {
+              "page": 1,
+              "text": "Developed the reference lines in reports by using Parameters.",
+              "block_id": "b102",
+              "kind": "text",
+              "start": 7768,
+              "end": 7829
+            },
+            {
+              "page": 1,
+              "text": "Publishing the reports to Tableau server.",
+              "block_id": "b103",
+              "kind": "text",
+              "start": 7830,
+              "end": 7871
+            },
+            {
+              "page": 1,
+              "text": "Created data visualizations with different charts.",
+              "block_id": "b104",
+              "kind": "text",
+              "start": 7872,
+              "end": 7922
+            },
+            {
+              "page": 1,
+              "text": "Deploying graphical visualizations in dashboards to create effective views of data such as: Line Charts, Bar Charts, Pie Charts, Tree Maps, Heat Maps, etc.",
+              "block_id": "b105",
+              "kind": "text",
+              "start": 7923,
+              "end": 8078
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [],
+        "evidence": {
+          "note": "year-only dates need verification"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 11,
+      "total_events": 12,
+      "dated_share": 0.917,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.888,
+      "document_accuracy": 0.89
+    },
+    "total_represented_months": 159,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

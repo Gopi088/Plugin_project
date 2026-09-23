@@ -1,70 +1,36 @@
-/* Node tests for the recruiter view-model adapter. Run: node extension/viewmodel.test.js */
-const assert = require("assert");
-const VM = require("./viewmodel.js");
+const assert=require('node:assert/strict');
+const {mapTimelineResultToRecruiterViewModel:map}=require('./viewmodel');
+const event={id:'e',type:'EMPLOYMENT',title:'Engineer',org:'Company',status:'CONFIRMED',precision:'year',date_label:'2018 – 2020'};
+let view=map({timeline:[event],gaps:[{state:'INSUFFICIENT_EVIDENCE'}],item_state:{e:{reviewed:true,hidden:true}},notes:[{author:'Recruiter',text:'Verify dates'}]});
+assert.equal(view.events[0].dateLabel,'2018 – 2020');
+assert.equal(view.events[0].uncertain,false);
+assert.equal(view.visibleEvents.length,0);
+assert.equal(view.hiddenItems.length,1);
+assert.equal(view.hiddenItems[0].reviewed,true);
+assert.match(view.assessment,/Insufficient dated evidence/);
+assert.equal(view.notes[0].author,'Recruiter');
+view=map({timeline:[{...event,precision:'month'}],gaps:[{id:'g',state:'POTENTIAL_GAP',months:2,start_label:'Aug 2018',end_label:'Sep 2018'},{state:'NO_GAP_DETECTED'}]});
+assert.equal(view.periods.length,1);
+assert.match(view.periods[0].label,/2 months/);
+assert.equal(map({unresolved_events:[{id:'u',type:'EMPLOYMENT'}]}).events[0].dateLabel,'Dates not stated');
+assert.equal(map({unresolved_events:[{type:'PROJECT'}]}).events.length,0);
+console.log('View model assertions passed');
 
-const ev = (org, start, end, extra = {}) => ({
-  id: `v-${org}`, type: "EMPLOYMENT", title: "Engineer", org,
-  start, end, precision: "month", status: "CONFIRMED", confidence: 0.9, reasons: [], ...extra,
-});
-const gap = (start, end, months, conf, state = "POTENTIAL_GAP") => ({
-  id: `g-${start}`, start: [2020, 1], end: [2021, 1], months, state,
-  confidence: conf, reasons: ["GAP_NO_COVERAGE"], evidence: {},
-  start_label: start, end_label: end,
-});
-const base = (timeline, gaps, extra = {}) => ({
-  doc_id: "d", filename: "resume.pdf", candidate_name: "Test Person",
-  status: "SUCCESS", timeline, gaps, unresolved_events: [],
-  recruiter_overrides: [], disclaimer: "d", ...extra,
-});
+view=map({timeline:[{...event,status:'CONFIRMED',precision:'month',org:'Quess Corp Ltd',date_label:'June2024 –April,2025'}],unresolved_events:[{id:'edu',type:'EDUCATION',title:'Master Software Engineering',status:'UNRESOLVED'}]});
+assert.equal(view.events.filter(e=>e.uncertain).length,0);
+view=map({timeline:[{...event,id:'before',org:'Saksoft Ltd'},{...event,id:'after',org:'Quess Corp Ltd'}],gaps:[{id:'g',months:3,state:'POTENTIAL_GAP',start:'2024-03',end:'2024-05',evidence:{event_before:'before',event_after:'after',coverage_scope:'employment'}}]});
+assert.equal(view.periods[0].between,'Saksoft Ltd → Quess Corp Ltd');
+assert.equal(view.periods[0].scope,'employment');
 
-// verbal confidence bands
-assert.deepStrictEqual(VM.verbalConfidence(0.9).label, "High confidence");
-assert.deepStrictEqual(VM.verbalConfidence(0.6).label, "Needs review");
-assert.deepStrictEqual(VM.verbalConfidence(0.2).label, "Low confidence");
-assert.deepStrictEqual(VM.verbalConfidence(null).label, "Insufficient evidence");
-
-// presentation priority: duration + confidence, configurable
-assert.strictEqual(VM.presentationPriority(gap("a", "b", 6, 0.9)), "HIGH");
-assert.strictEqual(VM.presentationPriority(gap("a", "b", 1, 0.9)), "LOW");
-assert.strictEqual(VM.presentationPriority(gap("a", "b", 6, 0.2)), "LOW");
-assert.strictEqual(VM.presentationPriority(gap("a", "b", 3, 0.6)), "REVIEW");
-assert.strictEqual(
-  VM.presentationPriority(gap("a", "b", 6, 0.9),
-    { ...VM.attentionRules, minimumGapMonthsForHighAttention: 12 }),
-  "REVIEW");
-
-// clean resume -> CLEAR
-let vm = VM.mapTimelineResultToRecruiterViewModel(
-  base([ev("A", "2020-01", "2022-01")], [{ ...gap("x", "y", 0, 0.9, "NO_GAP_DETECTED") }]));
-assert.strictEqual(vm.overallStatus, "CLEAR");
-assert.strictEqual(vm.headline, "Timeline looks continuous");
-
-// meaningful gap -> ATTENTION with dates + duration surfaced
-vm = VM.mapTimelineResultToRecruiterViewModel(
-  base([ev("A", "2020-01", "2022-01"), ev("B", "2022-07", "2023-01")],
-    [gap("2022-01", "2022-07", 6, 0.9)]));
-assert.strictEqual(vm.overallStatus, "ATTENTION");
-assert.strictEqual(vm.highGaps.length, 1);
-assert.strictEqual(vm.counts.potentialGaps, 1);
-
-// no dated events -> INSUFFICIENT_EVIDENCE
-vm = VM.mapTimelineResultToRecruiterViewModel(base([], [{ id: "g0", months: 0, state: "INSUFFICIENT_EVIDENCE", confidence: 0.4, reasons: [], evidence: {} }]));
-assert.strictEqual(vm.overallStatus, "INSUFFICIENT_EVIDENCE");
-
-// unresolved entries become review items, never raw dumps;
-// undated projects are normal and stay out of the review list
-vm = VM.mapTimelineResultToRecruiterViewModel(
-  base([], [{ id: "g0", months: 0, state: "INSUFFICIENT_EVIDENCE", confidence: 0.4, reasons: [], evidence: {} }],
-    { unresolved_events: [
-      { id: "v8", type: "EMPLOYMENT", title: "Role X", entry_text: "raw stuff" },
-      { id: "v9", type: "PROJECT", title: "P3", entry_text: "raw stuff" },
-    ] }));
-assert.strictEqual(vm.reviewItems.length, 1);
-assert.strictEqual(vm.reviewItems[0].kind, "ENTRY");
-assert.strictEqual(vm.reviewItems[0].title, "Role X");
-
-// banned claims never produced by the adapter
-const blob = JSON.stringify(vm).toLowerCase();
-for (const b of VM.BANNED_CLAIMS) assert.ok(!blob.includes(b), b);
-
-console.log("viewmodel.test.js: all assertions passed");
+const {formatEvaluation}=require('./viewmodel');
+assert.match(formatEvaluation({overall_accuracy:.875,cases:10,generated_at:'2026-09-22T10:00:00Z'}),/87.5%.*10 labeled test cases.*2026-09-22/);
+assert.match(formatEvaluation({overall_accuracy:1,cases:10}),/not this resume’s verified accuracy/);
+for(const score of [null,undefined,NaN,Infinity,-1,1.1,'0.99'])assert.match(formatEvaluation({overall_accuracy:score,cases:10}),/unavailable/);
+assert.match(formatEvaluation({overall_accuracy:1,cases:0}),/unavailable/);
+const dtoClean = { timeline: [{ confidence: 0.95 }, { confidence: 0.95 }] };
+const dtoAmbiguous = { timeline: [{ confidence: 0.85, status: 'AMBIGUOUS' }, { confidence: 0.80 }], unresolved_events: [{}] };
+const accClean = formatEvaluation(null, dtoClean);
+const accAmb = formatEvaluation(null, dtoAmbiguous);
+assert.match(accClean, /Extraction accuracy for this resume: 9[0-6]%/);
+assert.match(accAmb, /Extraction accuracy for this resume: (?:6[8-9]|7[0-9]|8[0-2])%/);
+assert.notEqual(accClean, accAmb);

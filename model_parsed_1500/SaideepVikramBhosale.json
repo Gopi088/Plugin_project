@@ -1,0 +1,679 @@
+{
+  "file_name": "SaideepVikramBhosale.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 6,
+    "total_events": 7,
+    "dated_share": 0.857,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v6dd25920068c52bb",
+      "company": "Mahindra Hinoday",
+      "title": "Software Development Intern",
+      "start_date": "2011-01",
+      "end_date": "2011-11",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v78a5f4fd6ae7ca12",
+      "company": "Finolex Academy",
+      "title": "Assistant Professor / Academic Consultant",
+      "start_date": "2011-12",
+      "end_date": "2015-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v5a4ec4bafaba9bf3",
+      "company": "AurusTech Pvt. Ltd",
+      "title": "Technical Support Engineer",
+      "start_date": "2016-01",
+      "end_date": "2017-03",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v667b6c5cb6e23201",
+      "company": "AurusTech Pvt. Ltd",
+      "title": "",
+      "start_date": "2017-04",
+      "end_date": "2018-03",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v357061f462298afa",
+      "company": "AurusTech Pvt. Ltd",
+      "title": "",
+      "start_date": "2018-04",
+      "end_date": "2025-03",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vc7753340443beeac",
+      "company": "Payments & Banking Technology",
+      "title": "Delivery Manager",
+      "start_date": "2025-04",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "Payments",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": []
+    }
+  ],
+  "education": [
+    {
+      "id": "vdf1263fbdb589885",
+      "company": "Mumbai University",
+      "title": "Bachelor of Computer Science",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 6,
+  "total_projects": 1,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "SaideepVikramBhosale",
+    "filename": "SaideepVikramBhosale.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v6dd25920068c52bb",
+        "type": "INTERNSHIP",
+        "title": "Software Development Intern",
+        "org": "Mahindra Hinoday",
+        "start": "2011-01",
+        "end": "2011-11",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_INTERNSHIP_CUES"
+        ],
+        "quote": "Software Development Intern\n• Mahindra Hinoday, Pune | Jan 2011 – Nov 2011",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Software Development Intern",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 4005,
+              "end": 4032
+            },
+            {
+              "page": 1,
+              "text": "• Mahindra Hinoday, Pune | Jan 2011 – Nov 2011",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 4034,
+              "end": 4080
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jan 2011 – Nov 2011",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 4061,
+              "end": 4080
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Mahindra Hinoday",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 4036,
+              "end": 4052
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Software Development Intern",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 4005,
+              "end": 4032
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Jan 2011 – Nov 2011",
+          "is_present": false
+        },
+        "date_label": "Jan 2011 – Nov 2011",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v78a5f4fd6ae7ca12",
+        "type": "EMPLOYMENT",
+        "title": "Assistant Professor / Academic Consultant",
+        "org": "Finolex Academy",
+        "start": "2011-12",
+        "end": "2015-12",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Assistant Professor / Academic Consultant\n• Finolex Academy, Ratnagiri | Dec 2011 – Dec 2015",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Assistant Professor / Academic Consultant",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 3910,
+              "end": 3951
+            },
+            {
+              "page": 1,
+              "text": "• Finolex Academy, Ratnagiri | Dec 2011 – Dec 2015",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 3953,
+              "end": 4003
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Dec 2011 – Dec 2015",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 3984,
+              "end": 4003
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Finolex Academy",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 3955,
+              "end": 3970
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Assistant Professor / Academic Consultant",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 3910,
+              "end": 3951
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Dec 2011 – Dec 2015",
+          "is_present": false
+        },
+        "date_label": "Dec 2011 – Dec 2015",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v5a4ec4bafaba9bf3",
+        "type": "EMPLOYMENT",
+        "title": "Technical Support Engineer",
+        "org": "AurusTech Pvt. Ltd",
+        "start": "2016-01",
+        "end": "2017-03",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Technical Support Engineer – Payment Infrastructure\nAurusTech Pvt. Ltd., Pune | Jan 2016 – March 2017",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Technical Support Engineer – Payment Infrastructure",
+              "block_id": "b60",
+              "kind": "text",
+              "start": 3597,
+              "end": 3648
+            },
+            {
+              "page": 1,
+              "text": "AurusTech Pvt. Ltd., Pune | Jan 2016 – March 2017",
+              "block_id": "b61",
+              "kind": "text",
+              "start": 3650,
+              "end": 3699
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jan 2016 – March 2017",
+              "block_id": "b61",
+              "kind": "text",
+              "start": 3678,
+              "end": 3699
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "AurusTech Pvt. Ltd",
+              "block_id": "b61",
+              "kind": "text",
+              "start": 3650,
+              "end": 3668
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Technical Support Engineer",
+              "block_id": "b60",
+              "kind": "text",
+              "start": 3597,
+              "end": 3623
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Jan 2016 – March 2017",
+          "is_present": false
+        },
+        "date_label": "Jan 2016 – March 2017",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v667b6c5cb6e23201",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "AurusTech Pvt. Ltd",
+        "start": "2017-04",
+        "end": "2018-03",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "AurusTech Pvt. Ltd., Pune | April 2017 – March 2018",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "AurusTech Pvt. Ltd., Pune | April 2017 – March 2018",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 3266,
+              "end": 3317
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "April 2017 – March 2018",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 3294,
+              "end": 3317
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "AurusTech Pvt. Ltd",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 3266,
+              "end": 3284
+            }
+          ],
+          "title": [],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "April 2017 – March 2018",
+          "is_present": false
+        },
+        "date_label": "April 2017 – March 2018",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v357061f462298afa",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "AurusTech Pvt. Ltd",
+        "start": "2018-04",
+        "end": "2025-03",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "AurusTech Pvt. Ltd., Pune | April 2018 – March 2025",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "AurusTech Pvt. Ltd., Pune | April 2018 – March 2025",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 2588,
+              "end": 2639
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "April 2018 – March 2025",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 2616,
+              "end": 2639
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "AurusTech Pvt. Ltd",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 2588,
+              "end": 2606
+            }
+          ],
+          "title": [],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "April 2018 – March 2025",
+          "is_present": false
+        },
+        "date_label": "April 2018 – March 2025",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vc7753340443beeac",
+        "type": "EMPLOYMENT",
+        "title": "Delivery Manager",
+        "org": "Payments & Banking Technology",
+        "start": "2025-04",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Delivery Manager – Payments & Banking Technology\nAurusTech Pvt. Ltd., Pune | April 2025 – Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Delivery Manager – Payments & Banking Technology",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 1541,
+              "end": 1589
+            },
+            {
+              "page": 1,
+              "text": "AurusTech Pvt. Ltd., Pune | April 2025 – Present",
+              "block_id": "b27",
+              "kind": "text",
+              "start": 1591,
+              "end": 1639
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "April 2025 – Present",
+              "block_id": "b27",
+              "kind": "text",
+              "start": 1619,
+              "end": 1639
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Payments & Banking Technology",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 1560,
+              "end": 1589
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Delivery Manager",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 1541,
+              "end": 1557
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "April 2025 – Present",
+          "is_present": true
+        },
+        "date_label": "April 2025 – Present",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "vdf1263fbdb589885",
+        "type": "EDUCATION",
+        "title": "Bachelor of Computer Science",
+        "org": "Mumbai University",
+        "entry_text": "Masters in Computer Applications – Mumbai University – 2011 Bachelor of Computer Science – Mumbai University – 2007",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Masters in Computer Applications – Mumbai University – 2011",
+              "block_id": "b71",
+              "kind": "text",
+              "start": 4097,
+              "end": 4156
+            },
+            {
+              "page": 1,
+              "text": "Bachelor of Computer Science – Mumbai University – 2007",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 4158,
+              "end": 4213
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2011",
+              "block_id": "b71",
+              "kind": "text",
+              "start": 4152,
+              "end": 4156
+            },
+            {
+              "page": 1,
+              "text": "2007",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 4209,
+              "end": 4213
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Mumbai University",
+              "block_id": "b71",
+              "kind": "text",
+              "start": 4132,
+              "end": 4149
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Computer Science",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 4158,
+              "end": 4186
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2011 / 2007",
+          "is_present": false
+        },
+        "date_label": "2011 / 2007",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "Payments",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [],
+        "raw_text": "Project Manager – Payments",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project Manager – Payments",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 2560,
+              "end": 2586
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "NO_GAP_DETECTED",
+        "confidence": 0.9,
+        "reasons": [],
+        "evidence": {
+          "note": "no uncovered months between supported entries"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 6,
+      "total_events": 7,
+      "dated_share": 0.857,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 189,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

@@ -1,0 +1,663 @@
+{
+  "file_name": "Reena_Mane.pdf",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 6,
+    "total_events": 8,
+    "dated_share": 0.75,
+    "unresolved": 2,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.89
+  },
+  "work_experience": [
+    {
+      "id": "v513ba92955fd314f",
+      "company": "VYOM LABS PVT. LTD",
+      "title": "",
+      "start_date": "2005-05",
+      "end_date": "2005-07",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v50ab4b2120bb481b",
+      "company": "Business Excellence",
+      "title": "Assistant Manager",
+      "start_date": "2005-08",
+      "end_date": "2005-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v35d33e5cf85e0870",
+      "company": "WNS GLOBAL SERVICES LTD",
+      "title": "",
+      "start_date": "2006-01",
+      "end_date": "2017-05",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v15c0e0bc078a2c66",
+      "company": "Business Excellence",
+      "title": "Assistant Manager",
+      "start_date": "2017-05",
+      "end_date": "2018-10",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vce48ea4b5e0b8829",
+      "company": "Centre of Excellence",
+      "title": "Manager",
+      "start_date": "2018-10",
+      "end_date": "2024-05",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v771ca77e708920c3",
+      "company": "CAPGEMINI",
+      "title": "",
+      "start_date": "2024-06",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v6508fe63cb3920d4",
+      "company": "",
+      "title": "Counsellor / Administrator",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "vec21a8685434db77",
+      "company": "St. Mira’s College",
+      "title": "Master of Commerce (Business Administration)",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 7,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "Reena_Mane",
+    "filename": "Reena_Mane.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "v513ba92955fd314f",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "VYOM LABS PVT. LTD",
+        "start": "2005-05",
+        "end": "2005-07",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "SQTL, VYOM LABS PVT. LTD.  |  May 2005 – Jul 2005",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "SQTL, VYOM LABS PVT. LTD.  |  May 2005 – Jul 2005",
+              "block_id": "b95",
+              "kind": "text",
+              "start": 7372,
+              "end": 7421
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "May 2005 – Jul 2005",
+              "block_id": "b95",
+              "kind": "text",
+              "start": 7402,
+              "end": 7421
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "VYOM LABS PVT. LTD",
+              "block_id": "b95",
+              "kind": "text",
+              "start": 7378,
+              "end": 7396
+            }
+          ],
+          "title": [],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "May 2005 – Jul 2005",
+          "is_present": false
+        },
+        "date_label": "May 2005 – Jul 2005",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v50ab4b2120bb481b",
+        "type": "EMPLOYMENT",
+        "title": "Assistant Manager",
+        "org": "Business Excellence",
+        "start": "2005-08",
+        "end": "2005-12",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Assistant Manager – Business Excellence",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Assistant Manager – Business Excellence",
+              "block_id": "b81",
+              "kind": "text",
+              "start": 6453,
+              "end": 6492
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Aug 2005 – Dec 2005",
+              "block_id": "b92",
+              "kind": "text",
+              "start": 7271,
+              "end": 7290
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Business Excellence",
+              "block_id": "b81",
+              "kind": "text",
+              "start": 6473,
+              "end": 6492
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Assistant Manager",
+              "block_id": "b81",
+              "kind": "text",
+              "start": 6453,
+              "end": 6470
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Aug 2005 – Dec 2005",
+          "is_present": false
+        },
+        "date_label": "Aug 2005 – Dec 2005",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v35d33e5cf85e0870",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "WNS GLOBAL SERVICES LTD",
+        "start": "2006-01",
+        "end": "2017-05",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "WNS GLOBAL SERVICES LTD.  |  Jan 2006 – May 2017",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "WNS GLOBAL SERVICES LTD.  |  Jan 2006 – May 2017",
+              "block_id": "b80",
+              "kind": "text",
+              "start": 6403,
+              "end": 6451
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jan 2006 – May 2017",
+              "block_id": "b80",
+              "kind": "text",
+              "start": 6432,
+              "end": 6451
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "WNS GLOBAL SERVICES LTD",
+              "block_id": "b80",
+              "kind": "text",
+              "start": 6403,
+              "end": 6426
+            }
+          ],
+          "title": [],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Jan 2006 – May 2017",
+          "is_present": false
+        },
+        "date_label": "Jan 2006 – May 2017",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v15c0e0bc078a2c66",
+        "type": "EMPLOYMENT",
+        "title": "Assistant Manager",
+        "org": "Business Excellence",
+        "start": "2017-05",
+        "end": "2018-10",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Assistant Manager – Business Excellence",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Assistant Manager – Business Excellence",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 3764,
+              "end": 3803
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "May 2017 – Oct 2018",
+              "block_id": "b71",
+              "kind": "text",
+              "start": 5668,
+              "end": 5687
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Business Excellence",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 3784,
+              "end": 3803
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Assistant Manager",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 3764,
+              "end": 3781
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "May 2017 – Oct 2018",
+          "is_present": false
+        },
+        "date_label": "May 2017 – Oct 2018",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vce48ea4b5e0b8829",
+        "type": "EMPLOYMENT",
+        "title": "Manager",
+        "org": "Centre of Excellence",
+        "start": "2018-10",
+        "end": "2024-05",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Manager – Centre of Excellence",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Manager – Centre of Excellence",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 2522,
+              "end": 2552
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Oct 2018 – May 2024",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 3743,
+              "end": 3762
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Centre of Excellence",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 2532,
+              "end": 2552
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Manager",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 2522,
+              "end": 2529
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Oct 2018 – May 2024",
+          "is_present": false
+        },
+        "date_label": "Oct 2018 – May 2024",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v771ca77e708920c3",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "CAPGEMINI",
+        "start": "2024-06",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "CAPGEMINI  |  Jun 2024 – Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "CAPGEMINI  |  Jun 2024 – Present",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 2488,
+              "end": 2520
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jun 2024 – Present",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 2502,
+              "end": 2520
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "CAPGEMINI",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 2488,
+              "end": 2497
+            }
+          ],
+          "title": [],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Jun 2024 – Present",
+          "is_present": true
+        },
+        "date_label": "Jun 2024 – Present",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v6508fe63cb3920d4",
+        "type": "EMPLOYMENT",
+        "title": "Counsellor / Administrator",
+        "org": "",
+        "entry_text": "Counsellor / Administrator • Handled enquiry reports, daily cash collection, correspondence and telephonic/walk-in enquiries. SELECTED TRANSFORMATION & AUTOMATION PROJECTS • Process unification across regions to streamline operations, enhance collaboration and standardise service delivery. • One-sto",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Counsellor / Administrator",
+              "block_id": "b96",
+              "kind": "text",
+              "start": 7423,
+              "end": 7449
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Counsellor / Administrator",
+              "block_id": "b96",
+              "kind": "text",
+              "start": 7423,
+              "end": 7449
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "vec21a8685434db77",
+        "type": "EDUCATION",
+        "title": "Master of Commerce (Business Administration)",
+        "org": "St. Mira’s College",
+        "entry_text": "• M.Com – Master of Commerce (Business Administration), St. Mira’s College, University of Pune, 2008 • B.Com – Bachelor of Commerce, Ness Wadia College, University of Pune, 2005",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "• M.Com – Master of Commerce (Business Administration), St. Mira’s College, University of Pune, 2008",
+              "block_id": "b109",
+              "kind": "text",
+              "start": 8476,
+              "end": 8576
+            },
+            {
+              "page": 1,
+              "text": "• B.Com – Bachelor of Commerce, Ness Wadia College, University of Pune, 2005",
+              "block_id": "b110",
+              "kind": "text",
+              "start": 8579,
+              "end": 8655
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2008",
+              "block_id": "b109",
+              "kind": "text",
+              "start": 8572,
+              "end": 8576
+            },
+            {
+              "page": 1,
+              "text": "2005",
+              "block_id": "b110",
+              "kind": "text",
+              "start": 8651,
+              "end": 8655
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "St. Mira’s College",
+              "block_id": "b109",
+              "kind": "text",
+              "start": 8532,
+              "end": 8550
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Master of Commerce (Business Administration",
+              "block_id": "b109",
+              "kind": "text",
+              "start": 8486,
+              "end": 8529
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2008 / 2005",
+          "is_present": false
+        },
+        "date_label": "2008 / 2005",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "v6508fe63cb3920d4"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 6,
+      "total_events": 8,
+      "dated_share": 0.75,
+      "unresolved": 2,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.89
+    },
+    "total_represented_months": 257,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

@@ -1,0 +1,437 @@
+{
+  "file_name": "VamshinathVunnam.pdf",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 5,
+    "dated_share": 0.4,
+    "unresolved": 3,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.88
+  },
+  "work_experience": [
+    {
+      "id": "vb17b41d6c8b4d7f2",
+      "company": "",
+      "title": "Associate",
+      "start_date": "2017-10",
+      "end_date": "2021-11",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v6a22a2d0c6df3a9c",
+      "company": "",
+      "title": "Software Engineer II  (Promoted )",
+      "start_date": "2021-11",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v8913ad019251c0d1",
+      "company": "",
+      "title": "AI Automation & Developer Productivity",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "v463c89e01aaf59b0",
+      "company": "",
+      "title": "B.Tech",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    },
+    {
+      "id": "v1899b87d603fa9fc",
+      "company": "",
+      "title": "CGPA: 8.45 / 10",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 3,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "VamshinathVunnam",
+    "filename": "VamshinathVunnam.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "vb17b41d6c8b4d7f2",
+        "type": "EMPLOYMENT",
+        "title": "Associate",
+        "org": "",
+        "start": "2017-10",
+        "end": "2021-11",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Associate – Software Engineer   |   Oct 2017 – Nov 2021",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Associate – Software Engineer   |   Oct 2017 – Nov 2021",
+              "block_id": "b95",
+              "kind": "text",
+              "start": 4809,
+              "end": 4864
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Oct 2017 – Nov 2021",
+              "block_id": "b95",
+              "kind": "text",
+              "start": 4845,
+              "end": 4864
+            },
+            {
+              "page": 1,
+              "text": "July 2020",
+              "block_id": "b106",
+              "kind": "text",
+              "start": 5587,
+              "end": 5596
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Associate",
+              "block_id": "b95",
+              "kind": "text",
+              "start": 4809,
+              "end": 4818
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "Oct 2017 – Nov 2021",
+          "is_present": false
+        },
+        "date_label": "Oct 2017 – Nov 2021",
+        "section": "EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v6a22a2d0c6df3a9c",
+        "type": "EMPLOYMENT",
+        "title": "Software Engineer II  (Promoted )",
+        "org": "",
+        "start": "2021-11",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Software Engineer II  (Promoted Mar 2026)   |   Nov 2021 – Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Software Engineer II  (Promoted Mar 2026)   |   Nov 2021 – Present",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 1957,
+              "end": 2023
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Nov 2021 – Present",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 2005,
+              "end": 2023
+            },
+            {
+              "page": 1,
+              "text": "Mar 2026",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 1989,
+              "end": 1997
+            },
+            {
+              "page": 1,
+              "text": "Mar 2026",
+              "block_id": "b60",
+              "kind": "text",
+              "start": 2490,
+              "end": 2498
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Software Engineer II  (Promoted",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 1957,
+              "end": 1988
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "Nov 2021 – Present",
+          "is_present": true
+        },
+        "date_label": "Nov 2021 – Present",
+        "section": "EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v463c89e01aaf59b0",
+        "type": "EDUCATION",
+        "title": "B.Tech",
+        "org": "",
+        "entry_text": "B.Tech — Electronics & Communication Engineering VIT University, Vellore",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "B.Tech — Electronics &",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 1249,
+              "end": 1271
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "B.Tech",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 1249,
+              "end": 1255
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "EDUCATION",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v1899b87d603fa9fc",
+        "type": "EDUCATION",
+        "title": "CGPA: 8.45 / 10",
+        "org": "",
+        "entry_text": "2017  |  CGPA: 8.45 / 10",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "2017  |  CGPA: 8.45 / 10",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 1327,
+              "end": 1351
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2017",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 1327,
+              "end": 1331
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "CGPA: 8.45 / 10",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 1336,
+              "end": 1351
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2017",
+          "is_present": false
+        },
+        "date_label": "2017",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      },
+      {
+        "id": "v8913ad019251c0d1",
+        "type": "EMPLOYMENT",
+        "title": "AI Automation & Developer Productivity",
+        "org": "",
+        "entry_text": "AI Automation & Developer Productivity • Built 6 production-grade Claude Code agents: NuGet version orchestration across 13 repos with automated ADO pipeline chaining (37->229->216->59); QA test case generation from ADO work items via Playwright MCP + SQL MCP; production root-cause analysis via Data",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "AI Automation & Developer Productivity",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 2871,
+              "end": 2909
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2024",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 3736,
+              "end": 3740
+            },
+            {
+              "page": 1,
+              "text": "2025",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 3760,
+              "end": 3764
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "AI Automation & Developer Productivity",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 2871,
+              "end": 2909
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "EXPERIENCE",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "v8913ad019251c0d1"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 5,
+      "dated_share": 0.4,
+      "unresolved": 3,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.88
+    },
+    "total_represented_months": 108,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

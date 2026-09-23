@@ -1,0 +1,695 @@
+{
+  "file_name": "Vijaya resume 2025.docx",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 6,
+    "total_events": 7,
+    "dated_share": 0.857,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v01957e40bf071fbc",
+      "company": "Satyam computers (Tech Mahindra",
+      "title": "Software engineer -",
+      "start_date": "2007-02",
+      "end_date": "2011-07",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v4a934082222d16f6",
+      "company": "IBM India Pvt Ltd",
+      "title": "Techno Functional Consultant",
+      "start_date": "2011-07",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v9984007ae19e2aa9",
+      "company": "IBM India Pvt.Ltd",
+      "title": "",
+      "start_date": "2011-07",
+      "end_date": "2014-03",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vf452bf576e9973e1",
+      "company": "IBM India Pvt.Ltd",
+      "title": "",
+      "start_date": "2014-03",
+      "end_date": "2016-03",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vbe3d2bfb1b0ea2c5",
+      "company": "IBM India Pvt.Ltd",
+      "title": "",
+      "start_date": "2016-03",
+      "end_date": "2023-07",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vf9685447c9079d5b",
+      "company": "IBM India Pvt.Ltd",
+      "title": "",
+      "start_date": "2023-08",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "(Implementation)",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": []
+    },
+    {
+      "id": "proj_2",
+      "name": "(Implementation)",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": []
+    },
+    {
+      "id": "proj_3",
+      "name": "(Implementation)",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": []
+    },
+    {
+      "id": "proj_4",
+      "name": "(Implementation)",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": []
+    }
+  ],
+  "education": [
+    {
+      "id": "vc9a267b9476b00c9",
+      "company": "MCA from Sri Krishna Devaraya University",
+      "title": "",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 6,
+  "total_projects": 4,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "Vijaya resume 2025",
+    "filename": "Vijaya resume 2025.docx",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v01957e40bf071fbc",
+        "type": "EMPLOYMENT",
+        "title": "Software engineer -",
+        "org": "Satyam computers (Tech Mahindra",
+        "start": "2007-02",
+        "end": "2011-07",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Software engineer - Feb 2007 to July 2011 in Satyam computers (Tech Mahindra)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Software engineer - Feb 2007 to July 2011 in Satyam computers (Tech Mahindra)",
+              "block_id": "b18",
+              "kind": "text",
+              "start": 1217,
+              "end": 1294
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Feb 2007 to July 2011",
+              "block_id": "b18",
+              "kind": "text",
+              "start": 1237,
+              "end": 1258
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Satyam computers (Tech Mahindra",
+              "block_id": "b18",
+              "kind": "text",
+              "start": 1262,
+              "end": 1293
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Software engineer",
+              "block_id": "b18",
+              "kind": "text",
+              "start": 1217,
+              "end": 1234
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Feb 2007 to July 2011",
+          "is_present": false
+        },
+        "date_label": "Feb 2007 to July 2011",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v4a934082222d16f6",
+        "type": "EMPLOYMENT",
+        "title": "Techno Functional Consultant",
+        "org": "IBM India Pvt Ltd",
+        "start": "2011-07",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Techno Functional Consultant - July 2011 to till date (IBM India Pvt Ltd)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Techno Functional Consultant - July 2011 to till date (IBM India Pvt Ltd)",
+              "block_id": "b17",
+              "kind": "text",
+              "start": 1143,
+              "end": 1216
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "July 2011 to till date",
+              "block_id": "b17",
+              "kind": "text",
+              "start": 1174,
+              "end": 1196
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "IBM India Pvt Ltd",
+              "block_id": "b17",
+              "kind": "text",
+              "start": 1198,
+              "end": 1215
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Techno Functional Consultant",
+              "block_id": "b17",
+              "kind": "text",
+              "start": 1143,
+              "end": 1171
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "July 2011 to till date",
+          "is_present": true
+        },
+        "date_label": "July 2011 to till date",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": true
+      },
+      {
+        "id": "v9984007ae19e2aa9",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "IBM India Pvt.Ltd",
+        "start": "2011-07",
+        "end": "2014-03",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Organization: - IBM India Pvt.Ltd.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Organization: - IBM India Pvt.Ltd.",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 5044,
+              "end": 5078
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "July 2011 - March 2014",
+              "block_id": "b81",
+              "kind": "text",
+              "start": 5131,
+              "end": 5153
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "IBM India Pvt.Ltd",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 5060,
+              "end": 5077
+            }
+          ],
+          "title": [],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "July 2011 - March 2014",
+          "is_present": false
+        },
+        "date_label": "July 2011 - March 2014",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vf452bf576e9973e1",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "IBM India Pvt.Ltd",
+        "start": "2014-03",
+        "end": "2016-03",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Organization: - IBM India Pvt.Ltd.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Organization: - IBM India Pvt.Ltd.",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 4086,
+              "end": 4120
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "March 2014 – March 2016",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 4156,
+              "end": 4179
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "IBM India Pvt.Ltd",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 4102,
+              "end": 4119
+            }
+          ],
+          "title": [],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "March 2014 – March 2016",
+          "is_present": false
+        },
+        "date_label": "March 2014 – March 2016",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vbe3d2bfb1b0ea2c5",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "IBM India Pvt.Ltd",
+        "start": "2016-03",
+        "end": "2023-07",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Organization: - IBM India Pvt.Ltd.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Organization: - IBM India Pvt.Ltd.",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 2402,
+              "end": 2436
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "March 2016 to July 2023",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 2475,
+              "end": 2498
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "IBM India Pvt.Ltd",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 2418,
+              "end": 2435
+            }
+          ],
+          "title": [],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "March 2016 to July 2023",
+          "is_present": false
+        },
+        "date_label": "March 2016 to July 2023",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vf9685447c9079d5b",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "IBM India Pvt.Ltd",
+        "start": "2023-08",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Organization: - IBM India Pvt.Ltd",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Organization: - IBM India Pvt.Ltd",
+              "block_id": "b20",
+              "kind": "text",
+              "start": 1325,
+              "end": 1358
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Aug 2023 to Till Date",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 1391,
+              "end": 1412
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "IBM India Pvt.Ltd",
+              "block_id": "b20",
+              "kind": "text",
+              "start": 1341,
+              "end": 1358
+            }
+          ],
+          "title": [],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Aug 2023 to Till Date",
+          "is_present": true
+        },
+        "date_label": "Aug 2023 to Till Date",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "vc9a267b9476b00c9",
+        "type": "EDUCATION",
+        "title": "",
+        "org": "MCA from Sri Krishna Devaraya University",
+        "entry_text": "MCA from Sri Krishna Devaraya University, 2005.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "MCA from Sri Krishna Devaraya University, 2005.",
+              "block_id": "b98",
+              "kind": "text",
+              "start": 6300,
+              "end": 6347
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2005",
+              "block_id": "b98",
+              "kind": "text",
+              "start": 6342,
+              "end": 6346
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "MCA from Sri Krishna Devaraya University",
+              "block_id": "b98",
+              "kind": "text",
+              "start": 6300,
+              "end": 6340
+            }
+          ],
+          "title": [],
+          "section": "Education",
+          "date_label": "2005",
+          "is_present": false
+        },
+        "date_label": "2005",
+        "section": "Education",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "(Implementation)",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [],
+        "raw_text": "Project # 1: (Implementation)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project # 1: (Implementation)",
+              "block_id": "b19",
+              "kind": "text",
+              "start": 1295,
+              "end": 1324
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "(Implementation)",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [],
+        "raw_text": "Project # 2: (Implementation)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project # 2: (Implementation)",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 2372,
+              "end": 2401
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_3",
+        "name": "(Implementation)",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [],
+        "raw_text": "Project # 3: (Implementation)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project # 3: (Implementation)",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 4056,
+              "end": 4085
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_4",
+        "name": "(Implementation)",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [],
+        "raw_text": "Project # 4: (Implementation)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project # 4: (Implementation)",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 5014,
+              "end": 5043
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "NO_GAP_DETECTED",
+        "confidence": 0.9,
+        "reasons": [],
+        "evidence": {
+          "note": "no uncovered months between supported entries"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 6,
+      "total_events": 7,
+      "dated_share": 0.857,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 236,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

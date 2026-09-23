@@ -1,0 +1,598 @@
+{
+  "file_name": "Vaseem Khan.pdf",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 3,
+    "dated_share": 0.667,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.87
+  },
+  "work_experience": [
+    {
+      "id": "vf9dba509e9c3a62f",
+      "company": "",
+      "title": "- Network Engineet L2",
+      "start_date": "2021-07",
+      "end_date": "2023-03",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v6117ee77980680c4",
+      "company": "",
+      "title": "- Associate consultant",
+      "start_date": "2023-03",
+      "end_date": "2023-08",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v465404cf60c995df",
+      "company": "",
+      "title": "- Project Engineer Commissioning",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "Energy",
+      "client": "",
+      "role": "",
+      "duration": "- March-2023 to Aug-2023",
+      "details": [
+        "Roles and Responsibilities:-   Providing the support to network engineers for smooth network migration for UK ,US and gulf",
+        "countries sites.",
+        "  Creating and updating the HLD and LLD as per client requirements .",
+        "❖ Checking the Policy in ASDM for remote access vpn . BGP, OSPF and EIGRP configuration .",
+        "❖ Configuration of AAA ,SNMP in the firewall, router, switches and enabling the end user",
+        "command according to their requirement by giving the read only access.",
+        "  Configuration and implementation for onsite and offsite.",
+        "  Troubleshooting on delivered ISP links.",
+        "  configuration and transition of old network devices from one network to another network.",
+        "  SDWAN configuration on end point devices like cisco 8500, cisco 8300, ISR 4000 etc",
+        "  Providing the Root cause if there is flapping issues in the network devices and restoring the issues",
+        "within the timelines.",
+        "Company:- Cyfuture india pvt ltd"
+      ]
+    },
+    {
+      "id": "proj_2",
+      "name": "& DR setup of data center",
+      "client": "",
+      "role": "",
+      "duration": "- July 2021 to March 2023",
+      "details": [
+        "Roles and Responsibilities:-   Providing the DC & DR support in network data & security domain of Cyfuture infrastructure that",
+        "involves checking the routing and switching issues.",
+        "  Help customers to establish their own network infrastructure in data center .",
+        "  Creating and maintaining the customers SSL and IPSEC vpn.",
+        "  Troubleshooting the issues in Cisco ASA & fortigate 1500D firewall related to port opening in",
+        "different zones & checking the logs that will hit in the network domain",
+        "  Providing the Root cause analysis if there is latency observed on the server .",
+        "Company:- Sigma byte computers pvt ltd"
+      ]
+    }
+  ],
+  "education": [],
+  "gaps": [],
+  "total_work_experience": 3,
+  "total_projects": 2,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "Vaseem Khan",
+    "filename": "Vaseem Khan.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "vf9dba509e9c3a62f",
+        "type": "EMPLOYMENT",
+        "title": "- Network Engineet L2",
+        "org": "",
+        "start": "2021-07",
+        "end": "2023-03",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Designation:- Network Engineet L2",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Designation:- Network Engineet L2",
+              "block_id": "b77",
+              "kind": "text",
+              "start": 4685,
+              "end": 4718
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "July 2021 to March 2023",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 4771,
+              "end": 4794
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Network Engineet L2",
+              "block_id": "b77",
+              "kind": "text",
+              "start": 4699,
+              "end": 4718
+            }
+          ],
+          "section": "Company:- Sight Spectrum (Client HCL Tech)",
+          "date_label": "July 2021 to March 2023",
+          "is_present": false
+        },
+        "date_label": "July 2021 to March 2023",
+        "section": "Company:- Sight Spectrum (Client HCL Tech)",
+        "is_present": false
+      },
+      {
+        "id": "v6117ee77980680c4",
+        "type": "EMPLOYMENT",
+        "title": "- Associate consultant",
+        "org": "",
+        "start": "2023-03",
+        "end": "2023-08",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Designation:- Associate consultant",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Designation:- Associate consultant",
+              "block_id": "b61",
+              "kind": "text",
+              "start": 3671,
+              "end": 3705
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "March-2023 to Aug-2023",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 3744,
+              "end": 3766
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Associate consultant",
+              "block_id": "b61",
+              "kind": "text",
+              "start": 3685,
+              "end": 3705
+            }
+          ],
+          "section": "Company:- Sight Spectrum (Client HCL Tech)",
+          "date_label": "March-2023 to Aug-2023",
+          "is_present": false
+        },
+        "date_label": "March-2023 to Aug-2023",
+        "section": "Company:- Sight Spectrum (Client HCL Tech)",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v465404cf60c995df",
+        "type": "EMPLOYMENT",
+        "title": "- Project Engineer Commissioning",
+        "org": "",
+        "entry_text": "Designation:- Project Engineer Commissioning 3 | P a g e",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Designation:- Project Engineer Commissioning",
+              "block_id": "b88",
+              "kind": "text",
+              "start": 5419,
+              "end": 5463
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Project Engineer Commissioning",
+              "block_id": "b88",
+              "kind": "text",
+              "start": 5433,
+              "end": 5463
+            }
+          ],
+          "section": "Company:- Sight Spectrum (Client HCL Tech)",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Company:- Sight Spectrum (Client HCL Tech)",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "Energy",
+        "client": "",
+        "role": "",
+        "duration": "- March-2023 to Aug-2023",
+        "details": [
+          "Roles and Responsibilities:-   Providing the support to network engineers for smooth network migration for UK ,US and gulf",
+          "countries sites.",
+          "  Creating and updating the HLD and LLD as per client requirements .",
+          "❖ Checking the Policy in ASDM for remote access vpn . BGP, OSPF and EIGRP configuration .",
+          "❖ Configuration of AAA ,SNMP in the firewall, router, switches and enabling the end user",
+          "command according to their requirement by giving the read only access.",
+          "  Configuration and implementation for onsite and offsite.",
+          "  Troubleshooting on delivered ISP links.",
+          "  configuration and transition of old network devices from one network to another network.",
+          "  SDWAN configuration on end point devices like cisco 8500, cisco 8300, ISR 4000 etc",
+          "  Providing the Root cause if there is flapping issues in the network devices and restoring the issues",
+          "within the timelines.",
+          "Company:- Cyfuture india pvt ltd"
+        ],
+        "raw_text": "Project:- Hitachi Energy",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project:- Hitachi Energy",
+              "block_id": "b62",
+              "kind": "text",
+              "start": 3707,
+              "end": 3731
+            },
+            {
+              "page": 1,
+              "text": "Duration:- March-2023 to Aug-2023",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 3733,
+              "end": 3766
+            },
+            {
+              "page": 1,
+              "text": "Roles and Responsibilities:-",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 3768,
+              "end": 3796
+            },
+            {
+              "page": 1,
+              "text": "  Providing the support to network engineers for smooth network migration for UK ,US and gulf",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 3798,
+              "end": 3892
+            },
+            {
+              "page": 1,
+              "text": "countries sites.",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 3894,
+              "end": 3910
+            },
+            {
+              "page": 1,
+              "text": "  Creating and updating the HLD and LLD as per client requirements .",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 3912,
+              "end": 3981
+            },
+            {
+              "page": 1,
+              "text": "❖ Checking the Policy in ASDM for remote access vpn . BGP, OSPF and EIGRP configuration .",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 3983,
+              "end": 4072
+            },
+            {
+              "page": 1,
+              "text": "❖ Configuration of AAA ,SNMP in the firewall, router, switches and enabling the end user",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 4074,
+              "end": 4162
+            },
+            {
+              "page": 1,
+              "text": "command according to their requirement by giving the read only access.",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 4164,
+              "end": 4234
+            },
+            {
+              "page": 1,
+              "text": "  Configuration and implementation for onsite and offsite.",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 4236,
+              "end": 4295
+            },
+            {
+              "page": 1,
+              "text": "  Troubleshooting on delivered ISP links.",
+              "block_id": "b71",
+              "kind": "text",
+              "start": 4297,
+              "end": 4339
+            },
+            {
+              "page": 1,
+              "text": "  configuration and transition of old network devices from one network to another network.",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 4341,
+              "end": 4432
+            },
+            {
+              "page": 1,
+              "text": "  SDWAN configuration on end point devices like cisco 8500, cisco 8300, ISR 4000 etc",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 4434,
+              "end": 4519
+            },
+            {
+              "page": 1,
+              "text": "  Providing the Root cause if there is flapping issues in the network devices and restoring the issues",
+              "block_id": "b74",
+              "kind": "text",
+              "start": 4521,
+              "end": 4624
+            },
+            {
+              "page": 1,
+              "text": "within the timelines.",
+              "block_id": "b75",
+              "kind": "text",
+              "start": 4626,
+              "end": 4647
+            },
+            {
+              "page": 1,
+              "text": "Company:- Cyfuture india pvt ltd",
+              "block_id": "b76",
+              "kind": "text",
+              "start": 4651,
+              "end": 4683
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "& DR setup of data center",
+        "client": "",
+        "role": "",
+        "duration": "- July 2021 to March 2023",
+        "details": [
+          "Roles and Responsibilities:-   Providing the DC & DR support in network data & security domain of Cyfuture infrastructure that",
+          "involves checking the routing and switching issues.",
+          "  Help customers to establish their own network infrastructure in data center .",
+          "  Creating and maintaining the customers SSL and IPSEC vpn.",
+          "  Troubleshooting the issues in Cisco ASA & fortigate 1500D firewall related to port opening in",
+          "different zones & checking the logs that will hit in the network domain",
+          "  Providing the Root cause analysis if there is latency observed on the server .",
+          "Company:- Sigma byte computers pvt ltd"
+        ],
+        "raw_text": "Project:- DC & DR setup of data center",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project:- DC & DR setup of data center",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 4720,
+              "end": 4758
+            },
+            {
+              "page": 1,
+              "text": "Duration:- July 2021 to March 2023",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 4760,
+              "end": 4794
+            },
+            {
+              "page": 1,
+              "text": "Roles and Responsibilities:-",
+              "block_id": "b80",
+              "kind": "text",
+              "start": 4796,
+              "end": 4824
+            },
+            {
+              "page": 1,
+              "text": "  Providing the DC & DR support in network data & security domain of Cyfuture infrastructure that",
+              "block_id": "b80",
+              "kind": "text",
+              "start": 4826,
+              "end": 4924
+            },
+            {
+              "page": 1,
+              "text": "involves checking the routing and switching issues.",
+              "block_id": "b81",
+              "kind": "text",
+              "start": 4926,
+              "end": 4977
+            },
+            {
+              "page": 1,
+              "text": "  Help customers to establish their own network infrastructure in data center .",
+              "block_id": "b82",
+              "kind": "text",
+              "start": 4979,
+              "end": 5059
+            },
+            {
+              "page": 1,
+              "text": "  Creating and maintaining the customers SSL and IPSEC vpn.",
+              "block_id": "b83",
+              "kind": "text",
+              "start": 5061,
+              "end": 5121
+            },
+            {
+              "page": 1,
+              "text": "  Troubleshooting the issues in Cisco ASA & fortigate 1500D firewall related to port opening in",
+              "block_id": "b84",
+              "kind": "text",
+              "start": 5123,
+              "end": 5219
+            },
+            {
+              "page": 1,
+              "text": "different zones & checking the logs that will hit in the network domain",
+              "block_id": "b85",
+              "kind": "text",
+              "start": 5221,
+              "end": 5292
+            },
+            {
+              "page": 1,
+              "text": "  Providing the Root cause analysis if there is latency observed on the server .",
+              "block_id": "b86",
+              "kind": "text",
+              "start": 5294,
+              "end": 5375
+            },
+            {
+              "page": 1,
+              "text": "Company:- Sigma byte computers pvt ltd",
+              "block_id": "b87",
+              "kind": "text",
+              "start": 5379,
+              "end": 5417
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "v465404cf60c995df"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 3,
+      "dated_share": 0.667,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.87
+    },
+    "total_represented_months": 26,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

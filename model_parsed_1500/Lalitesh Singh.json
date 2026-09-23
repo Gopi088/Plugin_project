@@ -1,0 +1,255 @@
+{
+  "file_name": "Lalitesh Singh.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 2,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.765,
+    "document_accuracy": 0.77
+  },
+  "work_experience": [
+    {
+      "id": "v5bedef30436b1439",
+      "company": "",
+      "title": "Workday Integration Consultant",
+      "start_date": "2022-01",
+      "end_date": "2026-12",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "v43e6c749eab469c3",
+      "company": "Graphic Era University",
+      "title": "Bachelor of Technology",
+      "start_date": "2018-01",
+      "end_date": "2022-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 1,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "Lalitesh Singh",
+    "filename": "Lalitesh Singh.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v43e6c749eab469c3",
+        "type": "EDUCATION",
+        "title": "Bachelor of Technology",
+        "org": "Graphic Era University",
+        "start": "2018-01",
+        "end": "2022-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "Bachelor of Technology, Computer Science & Engineering2018 – 2022\nGraphic Era University",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor of Technology, Computer Science & Engineering2018 – 2022",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 1667,
+              "end": 1732
+            },
+            {
+              "page": 1,
+              "text": "Graphic Era University",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 1733,
+              "end": 1755
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2018 – 2022",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 1721,
+              "end": 1732
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Graphic Era University",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 1733,
+              "end": 1755
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Technology",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 1667,
+              "end": 1689
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2018 – 2022",
+          "is_present": false
+        },
+        "date_label": "2018 – 2022",
+        "section": "EDUCATION",
+        "is_present": false
+      },
+      {
+        "id": "v5bedef30436b1439",
+        "type": "EMPLOYMENT",
+        "title": "Workday Integration Consultant",
+        "org": "",
+        "start": "2022-01",
+        "end": "2026-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Workday Integration Consultant",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Workday Integration Consultant",
+              "block_id": "b16",
+              "kind": "text",
+              "start": 453,
+              "end": 483
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2022 - NOW",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 1476,
+              "end": 1486
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Workday Integration Consultant",
+              "block_id": "b16",
+              "kind": "text",
+              "start": 453,
+              "end": 483
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "2022 - NOW",
+          "is_present": true
+        },
+        "date_label": "2022 - NOW",
+        "section": "EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [],
+        "evidence": {
+          "note": "year-only dates need verification"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 2,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.765,
+      "document_accuracy": 0.77
+    },
+    "total_represented_months": 108,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

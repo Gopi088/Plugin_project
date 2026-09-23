@@ -1,0 +1,262 @@
+{
+  "file_name": "Yedukondalu_ CV.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 2,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v2453a2f7f5443e11",
+      "company": "Principal & Interest",
+      "title": "Process Analyst",
+      "start_date": "2019-10",
+      "end_date": "2022-02",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v55230d0d9d0f9185",
+      "company": "Private Equity Fund Accounting",
+      "title": "Senior Associate",
+      "start_date": "2022-03",
+      "end_date": "2026-04",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [],
+  "gaps": [],
+  "total_work_experience": 2,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "Yedukondalu_ CV",
+    "filename": "Yedukondalu_ CV.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v2453a2f7f5443e11",
+        "type": "EMPLOYMENT",
+        "title": "Process Analyst",
+        "org": "Principal & Interest",
+        "start": "2019-10",
+        "end": "2022-02",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Process Analyst – Principal & Interest Oct 2019 – Feb 2022",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Process Analyst – Principal & Interest Oct 2019 – Feb 2022",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 3899,
+              "end": 3957
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Oct 2019 – Feb 2022",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 3938,
+              "end": 3957
+            },
+            {
+              "page": 1,
+              "text": "2019",
+              "block_id": "b92",
+              "kind": "text",
+              "start": 5824,
+              "end": 5828
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Principal & Interest",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 3917,
+              "end": 3937
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Process Analyst",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 3899,
+              "end": 3914
+            }
+          ],
+          "section": "Systems & Tools:  Investran (SunGard) • Bloomberg • MS Excel (Advanced) • MS Office",
+          "date_label": "Oct 2019 – Feb 2022",
+          "is_present": false
+        },
+        "date_label": "Oct 2019 – Feb 2022",
+        "section": "Systems & Tools:  Investran (SunGard) • Bloomberg • MS Excel (Advanced) • MS Office",
+        "is_present": false
+      },
+      {
+        "id": "v55230d0d9d0f9185",
+        "type": "EMPLOYMENT",
+        "title": "Senior Associate",
+        "org": "Private Equity Fund Accounting",
+        "start": "2022-03",
+        "end": "2026-04",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Senior Associate – Private Equity Fund Accounting Mar 2022 – Apr 2026",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Associate – Private Equity Fund Accounting Mar 2022 – Apr 2026",
+              "block_id": "b31",
+              "kind": "text",
+              "start": 1407,
+              "end": 1476
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Mar 2022 – Apr 2026",
+              "block_id": "b31",
+              "kind": "text",
+              "start": 1457,
+              "end": 1476
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Private Equity Fund Accounting",
+              "block_id": "b31",
+              "kind": "text",
+              "start": 1426,
+              "end": 1456
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Associate",
+              "block_id": "b31",
+              "kind": "text",
+              "start": 1407,
+              "end": 1423
+            }
+          ],
+          "section": "Systems & Tools:  Investran (SunGard) • Bloomberg • MS Excel (Advanced) • MS Office",
+          "date_label": "Mar 2022 – Apr 2026",
+          "is_present": false
+        },
+        "date_label": "Mar 2022 – Apr 2026",
+        "section": "Systems & Tools:  Investran (SunGard) • Bloomberg • MS Excel (Advanced) • MS Office",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "NO_GAP_DETECTED",
+        "confidence": 0.9,
+        "reasons": [],
+        "evidence": {
+          "note": "no uncovered months between supported entries"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 2,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 79,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

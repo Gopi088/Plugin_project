@@ -1,0 +1,808 @@
+{
+  "file_name": "AnupGurnani[7y_0m].pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 6,
+    "total_events": 6,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.855,
+    "document_accuracy": 0.85
+  },
+  "work_experience": [
+    {
+      "id": "v895501798b102664",
+      "company": "Digital Marketing Executive",
+      "title": "",
+      "start_date": "2017-09",
+      "end_date": "2018-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vbe0abcc465d2ec83",
+      "company": "Zensar Technologies Ltd",
+      "title": "Senior System Engineer",
+      "start_date": "2019-06",
+      "end_date": "2024-05",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v8134eaf659aaf338",
+      "company": "",
+      "title": "Technical Analyst",
+      "start_date": "2024-05",
+      "end_date": "2024-08",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "veac307a94602a0c3",
+      "company": "",
+      "title": "Data Governance Specialist",
+      "start_date": "2024-11",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "v4c25d6995ff79f57",
+      "company": "Bharti Vidyapeeth University",
+      "title": "Bachelor of Computer Applications (BCA",
+      "start_date": "2014-01",
+      "end_date": "2017-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    },
+    {
+      "id": "vff1b7d603586b184",
+      "company": "Symbiosis Institute of Management",
+      "title": "Master of Business Administration (MBA",
+      "start_date": "2025-01",
+      "end_date": "2026-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    }
+  ],
+  "gaps": [
+    {
+      "id": "g364de0636bb3d2a4",
+      "start": "2019-01",
+      "end": "2019-05",
+      "months": 5,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    },
+    {
+      "id": "gc6d79b383a3479d3",
+      "start": "2024-09",
+      "end": "2024-10",
+      "months": 2,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    }
+  ],
+  "total_work_experience": 4,
+  "total_projects": 0,
+  "total_gaps": 2,
+  "raw_pipeline_dto": {
+    "doc_id": "AnupGurnani[7y_0m]",
+    "filename": "AnupGurnani[7y_0m].pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v4c25d6995ff79f57",
+        "type": "EDUCATION",
+        "title": "Bachelor of Computer Applications (BCA",
+        "org": "Bharti Vidyapeeth University",
+        "start": "2014-01",
+        "end": "2017-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "Bachelor of Computer Applications (BCA)\nBharti Vidyapeeth University, Pune\n2014 – 2017",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor of Computer Applications (BCA)",
+              "block_id": "b80",
+              "kind": "text",
+              "start": 7018,
+              "end": 7057
+            },
+            {
+              "page": 1,
+              "text": "Bharti Vidyapeeth University, Pune",
+              "block_id": "b81",
+              "kind": "text",
+              "start": 7059,
+              "end": 7093
+            },
+            {
+              "page": 1,
+              "text": "2014 – 2017",
+              "block_id": "b82",
+              "kind": "text",
+              "start": 7095,
+              "end": 7106
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2014 – 2017",
+              "block_id": "b82",
+              "kind": "text",
+              "start": 7095,
+              "end": 7106
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Bharti Vidyapeeth University",
+              "block_id": "b81",
+              "kind": "text",
+              "start": 7059,
+              "end": 7087
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Computer Applications (BCA",
+              "block_id": "b80",
+              "kind": "text",
+              "start": 7018,
+              "end": 7056
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2014 – 2017",
+          "is_present": false
+        },
+        "date_label": "2014 – 2017",
+        "section": "EDUCATION",
+        "is_present": false
+      },
+      {
+        "id": "v895501798b102664",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Digital Marketing Executive",
+        "start": "2017-09",
+        "end": "2018-12",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Digital Marketing Executive Sep 2017 – Dec 2018",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Digital Marketing Executive Sep 2017 – Dec 2018",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 6538,
+              "end": 6585
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Sep 2017 – Dec 2018",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 6566,
+              "end": 6585
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Digital Marketing Executive",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 6538,
+              "end": 6565
+            }
+          ],
+          "title": [],
+          "section": "WORK EXPERIENCE",
+          "date_label": "Sep 2017 – Dec 2018",
+          "is_present": false
+        },
+        "date_label": "Sep 2017 – Dec 2018",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vbe0abcc465d2ec83",
+        "type": "EMPLOYMENT",
+        "title": "Senior System Engineer",
+        "org": "Zensar Technologies Ltd",
+        "start": "2019-06",
+        "end": "2024-05",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Senior System Engineer – Data Governance Jun 2019 – May 2024\nZensar Technologies Ltd | Pune, India",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior System Engineer – Data Governance Jun 2019 – May 2024",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 4804,
+              "end": 4864
+            },
+            {
+              "page": 1,
+              "text": "Zensar Technologies Ltd | Pune, India",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 4866,
+              "end": 4903
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jun 2019 – May 2024",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 4845,
+              "end": 4864
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Zensar Technologies Ltd",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 4866,
+              "end": 4889
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior System Engineer",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 4804,
+              "end": 4826
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "Jun 2019 – May 2024",
+          "is_present": false
+        },
+        "date_label": "Jun 2019 – May 2024",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v8134eaf659aaf338",
+        "type": "EMPLOYMENT",
+        "title": "Technical Analyst",
+        "org": "",
+        "start": "2024-05",
+        "end": "2024-08",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Technical Analyst May 2024 – Aug 2024",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Technical Analyst May 2024 – Aug 2024",
+              "block_id": "b40",
+              "kind": "text",
+              "start": 3646,
+              "end": 3683
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "May 2024 – Aug 2024",
+              "block_id": "b40",
+              "kind": "text",
+              "start": 3664,
+              "end": 3683
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Technical Analyst",
+              "block_id": "b40",
+              "kind": "text",
+              "start": 3646,
+              "end": 3663
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "May 2024 – Aug 2024",
+          "is_present": false
+        },
+        "date_label": "May 2024 – Aug 2024",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "veac307a94602a0c3",
+        "type": "EMPLOYMENT",
+        "title": "Data Governance Specialist",
+        "org": "",
+        "start": "2024-11",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Data Governance Specialist Nov 2024 – Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Data Governance Specialist Nov 2024 – Present",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 2114,
+              "end": 2159
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Nov 2024 – Present",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 2141,
+              "end": 2159
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Data Governance Specialist",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 2114,
+              "end": 2140
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "Nov 2024 – Present",
+          "is_present": true
+        },
+        "date_label": "Nov 2024 – Present",
+        "section": "WORK EXPERIENCE",
+        "is_present": true
+      },
+      {
+        "id": "vff1b7d603586b184",
+        "type": "EDUCATION",
+        "title": "Master of Business Administration (MBA",
+        "org": "Symbiosis Institute of Management",
+        "start": "2025-01",
+        "end": "2026-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "Master of Business Administration (MBA)\nSymbiosis Institute of Management, Pune\n2025 – 2026",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Master of Business Administration (MBA)",
+              "block_id": "b77",
+              "kind": "text",
+              "start": 6923,
+              "end": 6962
+            },
+            {
+              "page": 1,
+              "text": "Symbiosis Institute of Management, Pune",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 6964,
+              "end": 7003
+            },
+            {
+              "page": 1,
+              "text": "2025 – 2026",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 7005,
+              "end": 7016
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2025 – 2026",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 7005,
+              "end": 7016
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Symbiosis Institute of Management",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 6964,
+              "end": 6997
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Master of Business Administration (MBA",
+              "block_id": "b77",
+              "kind": "text",
+              "start": 6923,
+              "end": 6961
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2025 – 2026",
+          "is_present": false
+        },
+        "date_label": "2025 – 2026",
+        "section": "EDUCATION",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g364de0636bb3d2a4",
+        "start": [
+          2019,
+          1
+        ],
+        "end": [
+          2019,
+          5
+        ],
+        "months": 5,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "v895501798b102664",
+          "event_after": "vbe0abcc465d2ec83",
+          "coverage_scope": "all_dated_activity"
+        },
+        "start_label": "2019-01",
+        "end_label": "2019-05",
+        "evidence_quotes": [
+          "Digital Marketing Executive Sep 2017 – Dec 2018",
+          "Senior System Engineer – Data Governance Jun 2019 – May 2024 Zensar Technologies Ltd | Pune, India"
+        ],
+        "evidence_details": [
+          {
+            "header": "Digital Marketing Executive",
+            "quote": "Digital Marketing Executive Sep 2017 – Dec 2018",
+            "event_id": "v895501798b102664",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Digital Marketing Executive Sep 2017 – Dec 2018",
+                  "block_id": "b70",
+                  "kind": "text",
+                  "start": 6538,
+                  "end": 6585
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Sep 2017 – Dec 2018",
+                  "block_id": "b70",
+                  "kind": "text",
+                  "start": 6566,
+                  "end": 6585
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Digital Marketing Executive",
+                  "block_id": "b70",
+                  "kind": "text",
+                  "start": 6538,
+                  "end": 6565
+                }
+              ],
+              "title": [],
+              "section": "WORK EXPERIENCE",
+              "date_label": "Sep 2017 – Dec 2018",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Senior System Engineer at Zensar Technologies Ltd",
+            "quote": "Senior System Engineer – Data Governance Jun 2019 – May 2024 Zensar Technologies Ltd | Pune, India",
+            "event_id": "vbe0abcc465d2ec83",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Senior System Engineer – Data Governance Jun 2019 – May 2024",
+                  "block_id": "b53",
+                  "kind": "text",
+                  "start": 4804,
+                  "end": 4864
+                },
+                {
+                  "page": 1,
+                  "text": "Zensar Technologies Ltd | Pune, India",
+                  "block_id": "b54",
+                  "kind": "text",
+                  "start": 4866,
+                  "end": 4903
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Jun 2019 – May 2024",
+                  "block_id": "b53",
+                  "kind": "text",
+                  "start": 4845,
+                  "end": 4864
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Zensar Technologies Ltd",
+                  "block_id": "b54",
+                  "kind": "text",
+                  "start": 4866,
+                  "end": 4889
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Senior System Engineer",
+                  "block_id": "b53",
+                  "kind": "text",
+                  "start": 4804,
+                  "end": 4826
+                }
+              ],
+              "section": "WORK EXPERIENCE",
+              "date_label": "Jun 2019 – May 2024",
+              "is_present": false
+            }
+          }
+        ]
+      },
+      {
+        "id": "gc6d79b383a3479d3",
+        "start": [
+          2024,
+          9
+        ],
+        "end": [
+          2024,
+          10
+        ],
+        "months": 2,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "v8134eaf659aaf338",
+          "event_after": "veac307a94602a0c3",
+          "coverage_scope": "all_dated_activity"
+        },
+        "start_label": "2024-09",
+        "end_label": "2024-10",
+        "evidence_quotes": [
+          "Technical Analyst May 2024 – Aug 2024",
+          "Data Governance Specialist Nov 2024 – Present"
+        ],
+        "evidence_details": [
+          {
+            "header": "Technical Analys",
+            "quote": "Technical Analyst May 2024 – Aug 2024",
+            "event_id": "v8134eaf659aaf338",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Technical Analyst May 2024 – Aug 2024",
+                  "block_id": "b40",
+                  "kind": "text",
+                  "start": 3646,
+                  "end": 3683
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "May 2024 – Aug 2024",
+                  "block_id": "b40",
+                  "kind": "text",
+                  "start": 3664,
+                  "end": 3683
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Technical Analyst",
+                  "block_id": "b40",
+                  "kind": "text",
+                  "start": 3646,
+                  "end": 3663
+                }
+              ],
+              "section": "WORK EXPERIENCE",
+              "date_label": "May 2024 – Aug 2024",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Data Governance Specialis",
+            "quote": "Data Governance Specialist Nov 2024 – Present",
+            "event_id": "veac307a94602a0c3",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Data Governance Specialist Nov 2024 – Present",
+                  "block_id": "b24",
+                  "kind": "text",
+                  "start": 2114,
+                  "end": 2159
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Nov 2024 – Present",
+                  "block_id": "b24",
+                  "kind": "text",
+                  "start": 2141,
+                  "end": 2159
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Data Governance Specialist",
+                  "block_id": "b24",
+                  "kind": "text",
+                  "start": 2114,
+                  "end": 2140
+                }
+              ],
+              "section": "WORK EXPERIENCE",
+              "date_label": "Nov 2024 – Present",
+              "is_present": true
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 6,
+      "total_events": 6,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.855,
+      "document_accuracy": 0.85
+    },
+    "total_represented_months": 149,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

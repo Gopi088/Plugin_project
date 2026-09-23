@@ -1,0 +1,596 @@
+{
+  "file_name": "Shalini Soni.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 4,
+    "total_events": 7,
+    "dated_share": 0.571,
+    "unresolved": 3,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.866,
+    "document_accuracy": 0.82
+  },
+  "work_experience": [
+    {
+      "id": "vdc928ee66e800d2e",
+      "company": "Indian Oil Corporation",
+      "title": "",
+      "start_date": "2011-01",
+      "end_date": "2012-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    },
+    {
+      "id": "v4d85ed60db0045f2",
+      "company": "Financial Reporting & FP&A India",
+      "title": "Senior Analyst",
+      "start_date": "2015-09",
+      "end_date": "2018-08",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v8243f14ca2f26a75",
+      "company": "Genpact",
+      "title": "",
+      "start_date": "2018-09",
+      "end_date": "2021-01",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v4a87eff9543ed898",
+      "company": "W ells F argo",
+      "title": "",
+      "start_date": "2024-04",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v399eabb6c619fe4d",
+      "company": "",
+      "title": "Senior Consultant",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    },
+    {
+      "id": "ve43920bff10052b4",
+      "company": "FP&A (US & UK Accounting) India",
+      "title": "Financial Analyst",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    },
+    {
+      "id": "v2a262dbaaf19848e",
+      "company": "",
+      "title": "HKMA) as sole reporting owner.",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "projects": [],
+  "education": [],
+  "gaps": [],
+  "total_work_experience": 7,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "Shalini Soni",
+    "filename": "Shalini Soni.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "vdc928ee66e800d2e",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Indian Oil Corporation",
+        "start": "2011-01",
+        "end": "2012-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Industrial T raining (1 Y ear) 2011 – 2012\nIndian Oil Corporation – Cost & Management Trainee India",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Industrial T raining (1 Y ear) 2011 – 2012",
+              "block_id": "b95",
+              "kind": "text",
+              "start": 7456,
+              "end": 7498
+            },
+            {
+              "page": 1,
+              "text": "Indian Oil Corporation – Cost & Management Trainee India",
+              "block_id": "b96",
+              "kind": "text",
+              "start": 7499,
+              "end": 7555
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2011 – 2012",
+              "block_id": "b95",
+              "kind": "text",
+              "start": 7487,
+              "end": 7498
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Indian Oil Corporation",
+              "block_id": "b96",
+              "kind": "text",
+              "start": 7499,
+              "end": 7521
+            }
+          ],
+          "title": [],
+          "section": "Professional Experience",
+          "date_label": "2011 – 2012",
+          "is_present": false
+        },
+        "date_label": "2011 – 2012",
+        "section": "Professional Experience",
+        "is_present": false
+      },
+      {
+        "id": "v4d85ed60db0045f2",
+        "type": "EMPLOYMENT",
+        "title": "Senior Analyst",
+        "org": "Financial Reporting & FP&A India",
+        "start": "2015-09",
+        "end": "2018-08",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Senior Analyst – Financial Reporting & FP&A India",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Analyst – Financial Reporting & FP&A India",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 5644,
+              "end": 5693
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "September 2015 – August 2018",
+              "block_id": "b77",
+              "kind": "text",
+              "start": 6367,
+              "end": 6395
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Financial Reporting & FP&A India",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 5661,
+              "end": 5693
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Analyst",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 5644,
+              "end": 5658
+            }
+          ],
+          "section": "Professional Experience",
+          "date_label": "September 2015 – August 2018",
+          "is_present": false
+        },
+        "date_label": "September 2015 – August 2018",
+        "section": "Professional Experience",
+        "is_present": false
+      },
+      {
+        "id": "v8243f14ca2f26a75",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Genpact",
+        "start": "2018-09",
+        "end": "2021-01",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Genpact September 2018 – January 2021",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Genpact September 2018 – January 2021",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 5606,
+              "end": 5643
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "September 2018 – January 2021",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 5614,
+              "end": 5643
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Genpact",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 5606,
+              "end": 5613
+            }
+          ],
+          "title": [],
+          "section": "Professional Experience",
+          "date_label": "September 2018 – January 2021",
+          "is_present": false
+        },
+        "date_label": "September 2018 – January 2021",
+        "section": "Professional Experience",
+        "is_present": false
+      },
+      {
+        "id": "v4a87eff9543ed898",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "W ells F argo",
+        "start": "2024-04",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "W ells F argo April 2024 – Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "W ells F argo April 2024 – Present",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 1585,
+              "end": 1619
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "April 2024 – Present",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 1599,
+              "end": 1619
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "W ells F argo",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 1585,
+              "end": 1598
+            }
+          ],
+          "title": [],
+          "section": "Professional Experience",
+          "date_label": "April 2024 – Present",
+          "is_present": true
+        },
+        "date_label": "April 2024 – Present",
+        "section": "Professional Experience",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v399eabb6c619fe4d",
+        "type": "EMPLOYMENT",
+        "title": "Senior Consultant",
+        "org": "",
+        "entry_text": "Senior Consultant – Regulatory Reporting, Compliance Risk & Remediation India (Offshore) • Prepare, review, and publish multi-jurisdictional regulatory liquidity reports including DA LCR, EBA LCR/AMM, NSFR, PRA, and HKMA, ensuring accuracy and on-time delivery each reporting cycle. • Monitor regulat",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Consultant – Regulatory Reporting, Compliance Risk & Remediation India (Offshore)",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 1620,
+              "end": 1708
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "January 2021",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 3809,
+              "end": 3821
+            },
+            {
+              "page": 1,
+              "text": "2024",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 3834,
+              "end": 3838
+            },
+            {
+              "page": 1,
+              "text": "2018/02",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 4597,
+              "end": 4604
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Consultant",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 1620,
+              "end": 1637
+            }
+          ],
+          "section": "Professional Experience",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Professional Experience",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "ve43920bff10052b4",
+        "type": "EMPLOYMENT",
+        "title": "Financial Analyst",
+        "org": "FP&A (US & UK Accounting) India",
+        "entry_text": "Financial Analyst – FP&A (US & UK Accounting) India • Performed month-end close activities including balance sheet and P&L reconciliations, fixed assets (capitalisation/disposal/transfer), prepayments, deferred income, accruals, and journal entries using SAP (FICO) and TrinTech Cadency. • Conducted ",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Financial Analyst – FP&A (US & UK Accounting) India",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 6396,
+              "end": 6447
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2012",
+              "block_id": "b89",
+              "kind": "text",
+              "start": 7222,
+              "end": 7226
+            },
+            {
+              "page": 1,
+              "text": "2010",
+              "block_id": "b92",
+              "kind": "text",
+              "start": 7402,
+              "end": 7406
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "FP&A (US & UK Accounting) India",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 6416,
+              "end": 6447
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Financial Analyst",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 6396,
+              "end": 6413
+            }
+          ],
+          "section": "Professional Experience",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Professional Experience",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v2a262dbaaf19848e",
+        "type": "EMPLOYMENT",
+        "title": "HKMA) as sole reporting owner.",
+        "org": "",
+        "entry_text": "HKMA) as sole reporting owner. Academic Excellence • 82nd All-India Rankin ICWAI Intermediate examinations; cleared in a single attempt (2010). • Qualified forCF A Institute W omen’s Scholarship, demonstrating commitment to continued professional development.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "HKMA) as sole reporting owner.",
+              "block_id": "b107",
+              "kind": "text",
+              "start": 8159,
+              "end": 8189
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2010",
+              "block_id": "b109",
+              "kind": "text",
+              "start": 8296,
+              "end": 8300
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "HKMA) as sole reporting owner",
+              "block_id": "b107",
+              "kind": "text",
+              "start": 8159,
+              "end": 8188
+            }
+          ],
+          "section": "Professional Experience",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Professional Experience",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "v399eabb6c619fe4d",
+            "ve43920bff10052b4",
+            "v2a262dbaaf19848e"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 4,
+      "total_events": 7,
+      "dated_share": 0.571,
+      "unresolved": 3,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.866,
+      "document_accuracy": 0.82
+    },
+    "total_represented_months": 119,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

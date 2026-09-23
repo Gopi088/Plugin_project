@@ -1,0 +1,580 @@
+{
+  "file_name": "PradeepKumarJS.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 5,
+    "total_events": 5,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.846,
+    "document_accuracy": 0.85
+  },
+  "work_experience": [
+    {
+      "id": "v2a1643fcbafc9fc4",
+      "company": "DEUTSCHE BANK OPERATIONS INTERNATIONAL (DBOI",
+      "title": "",
+      "start_date": "2008-01",
+      "end_date": "2016-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    },
+    {
+      "id": "v18f473d796ae57a8",
+      "company": "STATE STREET HCL SERVICES PVT LTD",
+      "title": "",
+      "start_date": "2018-01",
+      "end_date": "2022-09",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vab5801c7e86dfdf6",
+      "company": "JP MORGAN CHASE BANK",
+      "title": "",
+      "start_date": "2022-09",
+      "end_date": "2023-08",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vcb9a0a67313487b9",
+      "company": "",
+      "title": "Project/Product Manager",
+      "start_date": "2024-03",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "v80d0c79e2a61185d",
+      "company": "Master of Business Administration in Finance from RIIMS College Affiliated to Sri Venkateswara University",
+      "title": "",
+      "start_date": "2005-01",
+      "end_date": "2007-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    }
+  ],
+  "gaps": [
+    {
+      "id": "g706f1c301a072f12",
+      "start": "2023-09",
+      "end": "2024-02",
+      "months": 6,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    }
+  ],
+  "total_work_experience": 4,
+  "total_projects": 0,
+  "total_gaps": 1,
+  "raw_pipeline_dto": {
+    "doc_id": "PradeepKumarJS",
+    "filename": "PradeepKumarJS.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v80d0c79e2a61185d",
+        "type": "EDUCATION",
+        "title": "",
+        "org": "Master of Business Administration in Finance from RIIMS College Affiliated to Sri Venkateswara University",
+        "start": "2005-01",
+        "end": "2007-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "• Master of Business Administration in Finance from RIIMS College Affiliated to Sri Venkateswara University,\nTirupathi. (Pass out year 2005-2007).",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "• Master of Business Administration in Finance from RIIMS College Affiliated to Sri Venkateswara University,",
+              "block_id": "b167",
+              "kind": "text",
+              "start": 12575,
+              "end": 12683
+            },
+            {
+              "page": 1,
+              "text": "Tirupathi. (Pass out year 2005-2007).",
+              "block_id": "b168",
+              "kind": "text",
+              "start": 12685,
+              "end": 12722
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2005-2007",
+              "block_id": "b168",
+              "kind": "text",
+              "start": 12711,
+              "end": 12720
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Master of Business Administration in Finance from RIIMS College Affiliated to Sri Venkateswara University",
+              "block_id": "b167",
+              "kind": "text",
+              "start": 12577,
+              "end": 12682
+            }
+          ],
+          "title": [],
+          "section": "EDUCATIONAL QUALIFICATIONS:",
+          "date_label": "2005-2007",
+          "is_present": false
+        },
+        "date_label": "2005-2007",
+        "section": "EDUCATIONAL QUALIFICATIONS:",
+        "is_present": false
+      },
+      {
+        "id": "v2a1643fcbafc9fc4",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "DEUTSCHE BANK OPERATIONS INTERNATIONAL (DBOI",
+        "start": "2008-01",
+        "end": "2016-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "DEUTSCHE BANK OPERATIONS INTERNATIONAL (DBOI) – May 2008-2016",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "DEUTSCHE BANK OPERATIONS INTERNATIONAL (DBOI) – May 2008-2016",
+              "block_id": "b118",
+              "kind": "text",
+              "start": 8752,
+              "end": 8813
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "May 2008-2016",
+              "block_id": "b118",
+              "kind": "text",
+              "start": 8800,
+              "end": 8813
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "DEUTSCHE BANK OPERATIONS INTERNATIONAL (DBOI",
+              "block_id": "b118",
+              "kind": "text",
+              "start": 8752,
+              "end": 8796
+            }
+          ],
+          "title": [],
+          "section": "MAVERIC SYSTEMS LIMITED - March 2024 – October 2025",
+          "date_label": "May 2008-2016",
+          "is_present": false
+        },
+        "date_label": "May 2008-2016",
+        "section": "MAVERIC SYSTEMS LIMITED - March 2024 – October 2025",
+        "is_present": false
+      },
+      {
+        "id": "v18f473d796ae57a8",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "STATE STREET HCL SERVICES PVT LTD",
+        "start": "2018-01",
+        "end": "2022-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "STATE STREET HCL SERVICES PVT LTD – JAN 2018-SEP 2022",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "STATE STREET HCL SERVICES PVT LTD – JAN 2018-SEP 2022",
+              "block_id": "b95",
+              "kind": "text",
+              "start": 6988,
+              "end": 7041
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "JAN 2018-SEP 2022",
+              "block_id": "b95",
+              "kind": "text",
+              "start": 7024,
+              "end": 7041
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "STATE STREET HCL SERVICES PVT LTD",
+              "block_id": "b95",
+              "kind": "text",
+              "start": 6988,
+              "end": 7021
+            }
+          ],
+          "title": [],
+          "section": "MAVERIC SYSTEMS LIMITED - March 2024 – October 2025",
+          "date_label": "JAN 2018-SEP 2022",
+          "is_present": false
+        },
+        "date_label": "JAN 2018-SEP 2022",
+        "section": "MAVERIC SYSTEMS LIMITED - March 2024 – October 2025",
+        "is_present": false
+      },
+      {
+        "id": "vab5801c7e86dfdf6",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "JP MORGAN CHASE BANK",
+        "start": "2022-09",
+        "end": "2023-08",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "JP MORGAN CHASE BANK – SEP 2022-AUG 2023",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "JP MORGAN CHASE BANK – SEP 2022-AUG 2023",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 5661,
+              "end": 5701
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "SEP 2022-AUG 2023",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 5684,
+              "end": 5701
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "JP MORGAN CHASE BANK",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 5661,
+              "end": 5681
+            }
+          ],
+          "title": [],
+          "section": "MAVERIC SYSTEMS LIMITED - March 2024 – October 2025",
+          "date_label": "SEP 2022-AUG 2023",
+          "is_present": false
+        },
+        "date_label": "SEP 2022-AUG 2023",
+        "section": "MAVERIC SYSTEMS LIMITED - March 2024 – October 2025",
+        "is_present": false
+      },
+      {
+        "id": "vcb9a0a67313487b9",
+        "type": "EMPLOYMENT",
+        "title": "Project/Product Manager",
+        "org": "",
+        "start": "2024-03",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Designation: Project/Product Manager",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Designation: Project/Product Manager",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 996,
+              "end": 1032
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "April 2024-Sep 2024",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 1835,
+              "end": 1854
+            },
+            {
+              "page": 1,
+              "text": "October 2024-March 2025",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 3027,
+              "end": 3050
+            },
+            {
+              "page": 1,
+              "text": "March 2024- Present",
+              "block_id": "b62",
+              "kind": "text",
+              "start": 4416,
+              "end": 4435
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Project/Product Manager",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 1009,
+              "end": 1032
+            }
+          ],
+          "section": "MAVERIC SYSTEMS LIMITED - March 2024 – October 2025",
+          "date_label": "2024-03 to 2026-09",
+          "is_present": true
+        },
+        "date_label": "2024-03 to 2026-09",
+        "section": "MAVERIC SYSTEMS LIMITED - March 2024 – October 2025",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g706f1c301a072f12",
+        "start": [
+          2023,
+          9
+        ],
+        "end": [
+          2024,
+          2
+        ],
+        "months": 6,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "vab5801c7e86dfdf6",
+          "event_after": "vcb9a0a67313487b9",
+          "coverage_scope": "all_dated_activity"
+        },
+        "start_label": "2023-09",
+        "end_label": "2024-02",
+        "evidence_quotes": [
+          "JP MORGAN CHASE BANK – SEP 2022-AUG 2023",
+          "Designation: Project/Product Manager"
+        ],
+        "evidence_details": [
+          {
+            "header": "JP MORGAN CHASE BANK",
+            "quote": "JP MORGAN CHASE BANK – SEP 2022-AUG 2023",
+            "event_id": "vab5801c7e86dfdf6",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "JP MORGAN CHASE BANK – SEP 2022-AUG 2023",
+                  "block_id": "b79",
+                  "kind": "text",
+                  "start": 5661,
+                  "end": 5701
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "SEP 2022-AUG 2023",
+                  "block_id": "b79",
+                  "kind": "text",
+                  "start": 5684,
+                  "end": 5701
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "JP MORGAN CHASE BANK",
+                  "block_id": "b79",
+                  "kind": "text",
+                  "start": 5661,
+                  "end": 5681
+                }
+              ],
+              "title": [],
+              "section": "MAVERIC SYSTEMS LIMITED - March 2024 – October 2025",
+              "date_label": "SEP 2022-AUG 2023",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Project/Product Manager",
+            "quote": "Designation: Project/Product Manager",
+            "event_id": "vcb9a0a67313487b9",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Designation: Project/Product Manager",
+                  "block_id": "b21",
+                  "kind": "text",
+                  "start": 996,
+                  "end": 1032
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "April 2024-Sep 2024",
+                  "block_id": "b32",
+                  "kind": "text",
+                  "start": 1835,
+                  "end": 1854
+                },
+                {
+                  "page": 1,
+                  "text": "October 2024-March 2025",
+                  "block_id": "b46",
+                  "kind": "text",
+                  "start": 3027,
+                  "end": 3050
+                },
+                {
+                  "page": 1,
+                  "text": "March 2024- Present",
+                  "block_id": "b62",
+                  "kind": "text",
+                  "start": 4416,
+                  "end": 4435
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Project/Product Manager",
+                  "block_id": "b21",
+                  "kind": "text",
+                  "start": 1009,
+                  "end": 1032
+                }
+              ],
+              "section": "MAVERIC SYSTEMS LIMITED - March 2024 – October 2025",
+              "date_label": "2024-03 to 2026-09",
+              "is_present": true
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 5,
+      "total_events": 5,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.846,
+      "document_accuracy": 0.85
+    },
+    "total_represented_months": 243,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

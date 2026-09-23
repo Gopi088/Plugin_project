@@ -1,0 +1,515 @@
+{
+  "file_name": "AKHILESH KUMAR_1.docx",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 5,
+    "total_events": 5,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v9723480cdd4b4c00",
+      "company": "6 months",
+      "title": "",
+      "start_date": "2014-08",
+      "end_date": "2015-01",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vbb3972df20a1e6b1",
+      "company": "ADCC Infocad Ltd. (Now Ceinsys Tech Ltd",
+      "title": "Application Engineer",
+      "start_date": "2015-02",
+      "end_date": "2016-03",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v654d9f26862ca1b0",
+      "company": "DesignTech Systems Pvt. Ltd",
+      "title": "Assistant Manager",
+      "start_date": "2016-03",
+      "end_date": "2021-07",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v19a45e4abe42733b",
+      "company": "Tech Mahindra",
+      "title": "Sr. Software Engineer",
+      "start_date": "2021-07",
+      "end_date": "2023-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vfa8a9097abcd1607",
+      "company": "Applied Materials",
+      "title": "Data Scientist",
+      "start_date": "2023-12",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [],
+  "gaps": [],
+  "total_work_experience": 5,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "AKHILESH KUMAR_1",
+    "filename": "AKHILESH KUMAR_1.docx",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v9723480cdd4b4c00",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "6 months",
+        "start": "2014-08",
+        "end": "2015-01",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Aug 17, 2014 – Jan 25, 2015 (6 months)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Aug 17, 2014 – Jan 25, 2015 (6 months)",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 5116,
+              "end": 5154
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Aug 17, 2014 – Jan 25, 2015",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 5116,
+              "end": 5143
+            },
+            {
+              "page": 1,
+              "text": "2013",
+              "block_id": "b82",
+              "kind": "text",
+              "start": 9986,
+              "end": 9990
+            },
+            {
+              "page": 1,
+              "text": "2012",
+              "block_id": "b83",
+              "kind": "text",
+              "start": 10057,
+              "end": 10061
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "6 months",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 5145,
+              "end": 5153
+            }
+          ],
+          "title": [],
+          "section": "Work Experience",
+          "date_label": "Aug 17, 2014 – Jan 25, 2015",
+          "is_present": false
+        },
+        "date_label": "Aug 17, 2014 – Jan 25, 2015",
+        "section": "Work Experience",
+        "is_present": false
+      },
+      {
+        "id": "vbb3972df20a1e6b1",
+        "type": "EMPLOYMENT",
+        "title": "Application Engineer",
+        "org": "ADCC Infocad Ltd. (Now Ceinsys Tech Ltd",
+        "start": "2015-02",
+        "end": "2016-03",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Executive – Application Engineer, ADCC Infocad Ltd. (Now Ceinsys Tech Ltd.)\nFeb 09, 2015 – Mar 07, 2016 (1 year 1 month)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Executive – Application Engineer, ADCC Infocad Ltd. (Now Ceinsys Tech Ltd.)",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 4845,
+              "end": 4920
+            },
+            {
+              "page": 1,
+              "text": "Feb 09, 2015 – Mar 07, 2016 (1 year 1 month)",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 4921,
+              "end": 4965
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Feb 09, 2015 – Mar 07, 2016",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 4921,
+              "end": 4948
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "ADCC Infocad Ltd. (Now Ceinsys Tech Ltd",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 4879,
+              "end": 4918
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Application Engineer",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 4857,
+              "end": 4877
+            }
+          ],
+          "section": "Work Experience",
+          "date_label": "Feb 09, 2015 – Mar 07, 2016",
+          "is_present": false
+        },
+        "date_label": "Feb 09, 2015 – Mar 07, 2016",
+        "section": "Work Experience",
+        "is_present": false
+      },
+      {
+        "id": "v654d9f26862ca1b0",
+        "type": "EMPLOYMENT",
+        "title": "Assistant Manager",
+        "org": "DesignTech Systems Pvt. Ltd",
+        "start": "2016-03",
+        "end": "2021-07",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Assistant Manager – Application Engineer, DesignTech Systems Pvt. Ltd.\nMar 22, 2016 – Jul 24, 2021 (5 years 4 months)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Assistant Manager – Application Engineer, DesignTech Systems Pvt. Ltd.",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 4314,
+              "end": 4384
+            },
+            {
+              "page": 1,
+              "text": "Mar 22, 2016 – Jul 24, 2021 (5 years 4 months)",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 4385,
+              "end": 4431
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Mar 22, 2016 – Jul 24, 2021",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 4385,
+              "end": 4412
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "DesignTech Systems Pvt. Ltd",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 4356,
+              "end": 4383
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Assistant Manager",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 4314,
+              "end": 4331
+            }
+          ],
+          "section": "Work Experience",
+          "date_label": "Mar 22, 2016 – Jul 24, 2021",
+          "is_present": false
+        },
+        "date_label": "Mar 22, 2016 – Jul 24, 2021",
+        "section": "Work Experience",
+        "is_present": false
+      },
+      {
+        "id": "v19a45e4abe42733b",
+        "type": "EMPLOYMENT",
+        "title": "Sr. Software Engineer",
+        "org": "Tech Mahindra",
+        "start": "2021-07",
+        "end": "2023-12",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Sr. Software Engineer – Tech Mahindra\nJul 27, 2021 – Dec 04, 2023 (2 years 4 months)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Sr. Software Engineer – Tech Mahindra",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 3831,
+              "end": 3868
+            },
+            {
+              "page": 1,
+              "text": "Jul 27, 2021 – Dec 04, 2023 (2 years 4 months)",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 3869,
+              "end": 3915
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jul 27, 2021 – Dec 04, 2023",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 3869,
+              "end": 3896
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Tech Mahindra",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 3855,
+              "end": 3868
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Sr. Software Engineer",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 3831,
+              "end": 3852
+            }
+          ],
+          "section": "Work Experience",
+          "date_label": "Jul 27, 2021 – Dec 04, 2023",
+          "is_present": false
+        },
+        "date_label": "Jul 27, 2021 – Dec 04, 2023",
+        "section": "Work Experience",
+        "is_present": false
+      },
+      {
+        "id": "vfa8a9097abcd1607",
+        "type": "EMPLOYMENT",
+        "title": "Data Scientist",
+        "org": "Applied Materials",
+        "start": "2023-12",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Data Scientist – Applied Materials\nDec 11, 2023– Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Data Scientist – Applied Materials",
+              "block_id": "b28",
+              "kind": "text",
+              "start": 2710,
+              "end": 2744
+            },
+            {
+              "page": 1,
+              "text": "Dec 11, 2023– Present",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 2745,
+              "end": 2766
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Dec 11, 2023– Present",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 2745,
+              "end": 2766
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Applied Materials",
+              "block_id": "b28",
+              "kind": "text",
+              "start": 2727,
+              "end": 2744
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Data Scientist",
+              "block_id": "b28",
+              "kind": "text",
+              "start": 2710,
+              "end": 2724
+            }
+          ],
+          "section": "Work Experience",
+          "date_label": "Dec 11, 2023– Present",
+          "is_present": true
+        },
+        "date_label": "Dec 11, 2023– Present",
+        "section": "Work Experience",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "NO_GAP_DETECTED",
+        "confidence": 0.9,
+        "reasons": [],
+        "evidence": {
+          "note": "no uncovered months between supported entries"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 5,
+      "total_events": 5,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 146,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

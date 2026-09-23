@@ -1,0 +1,468 @@
+{
+  "file_name": "ANKITAKATHANE.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 3,
+    "dated_share": 0.667,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "vf41985eb51c9392f",
+      "company": "Security Pricing",
+      "title": "Associate",
+      "start_date": "2016-10",
+      "end_date": "2018-05",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vf8f63cfde4acb3d4",
+      "company": "",
+      "title": "Fund Accountant (Analyst",
+      "start_date": "2019-09",
+      "end_date": "2023-02",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "v936b18e0c634cd72",
+      "company": "M.A. Economics Jain University",
+      "title": "",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    }
+  ],
+  "gaps": [
+    {
+      "id": "g57d6560a9498122d",
+      "start": "2018-06",
+      "end": "2019-08",
+      "months": 15,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    }
+  ],
+  "total_work_experience": 2,
+  "total_projects": 0,
+  "total_gaps": 1,
+  "raw_pipeline_dto": {
+    "doc_id": "ANKITAKATHANE",
+    "filename": "ANKITAKATHANE.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "vf41985eb51c9392f",
+        "type": "EMPLOYMENT",
+        "title": "Associate",
+        "org": "Security Pricing",
+        "start": "2016-10",
+        "end": "2018-05",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Associate – Security Pricing\nOct 2016 – May 2018",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Associate – Security Pricing",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 2175,
+              "end": 2203
+            },
+            {
+              "page": 1,
+              "text": "Oct 2016 – May 2018",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 2205,
+              "end": 2224
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Oct 2016 – May 2018",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 2205,
+              "end": 2224
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Security Pricing",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 2187,
+              "end": 2203
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Associate",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 2175,
+              "end": 2184
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Oct 2016 – May 2018",
+          "is_present": false
+        },
+        "date_label": "Oct 2016 – May 2018",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vf8f63cfde4acb3d4",
+        "type": "EMPLOYMENT",
+        "title": "Fund Accountant (Analyst",
+        "org": "",
+        "start": "2019-09",
+        "end": "2023-02",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Fund Accountant (Analyst)\nSep 2019 – Feb 2023",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Fund Accountant (Analyst)",
+              "block_id": "b28",
+              "kind": "text",
+              "start": 1601,
+              "end": 1626
+            },
+            {
+              "page": 1,
+              "text": "Sep 2019 – Feb 2023",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 1628,
+              "end": 1647
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Sep 2019 – Feb 2023",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 1628,
+              "end": 1647
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Fund Accountant (Analyst",
+              "block_id": "b28",
+              "kind": "text",
+              "start": 1601,
+              "end": 1625
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Sep 2019 – Feb 2023",
+          "is_present": false
+        },
+        "date_label": "Sep 2019 – Feb 2023",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v936b18e0c634cd72",
+        "type": "EDUCATION",
+        "title": "",
+        "org": "M.A. Economics Jain University",
+        "entry_text": "M.A. Economics Jain University, Bengaluru 65.98% 2016 B.B.A Centre Point College, Nagpur 71% 2011",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "M.A. Economics Jain University, Bengaluru 65.98% 2016",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 2587,
+              "end": 2640
+            },
+            {
+              "page": 1,
+              "text": "B.B.A Centre Point College, Nagpur 71% 2011",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 2642,
+              "end": 2685
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2016",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 2636,
+              "end": 2640
+            },
+            {
+              "page": 1,
+              "text": "2011",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 2681,
+              "end": 2685
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "M.A. Economics Jain University",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 2587,
+              "end": 2617
+            }
+          ],
+          "title": [],
+          "section": "Education",
+          "date_label": "2016 / 2011",
+          "is_present": false
+        },
+        "date_label": "2016 / 2011",
+        "section": "Education",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g57d6560a9498122d",
+        "start": [
+          2018,
+          6
+        ],
+        "end": [
+          2019,
+          8
+        ],
+        "months": 15,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "vf41985eb51c9392f",
+          "event_after": "vf8f63cfde4acb3d4",
+          "coverage_scope": "employment"
+        },
+        "start_label": "2018-06",
+        "end_label": "2019-08",
+        "evidence_quotes": [
+          "Associate – Security Pricing Oct 2016 – May 2018",
+          "Fund Accountant (Analyst) Sep 2019 – Feb 2023"
+        ],
+        "evidence_details": [
+          {
+            "header": "Associate at Security Pricing",
+            "quote": "Associate – Security Pricing Oct 2016 – May 2018",
+            "event_id": "vf41985eb51c9392f",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Associate – Security Pricing",
+                  "block_id": "b38",
+                  "kind": "text",
+                  "start": 2175,
+                  "end": 2203
+                },
+                {
+                  "page": 1,
+                  "text": "Oct 2016 – May 2018",
+                  "block_id": "b39",
+                  "kind": "text",
+                  "start": 2205,
+                  "end": 2224
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Oct 2016 – May 2018",
+                  "block_id": "b39",
+                  "kind": "text",
+                  "start": 2205,
+                  "end": 2224
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Security Pricing",
+                  "block_id": "b38",
+                  "kind": "text",
+                  "start": 2187,
+                  "end": 2203
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Associate",
+                  "block_id": "b38",
+                  "kind": "text",
+                  "start": 2175,
+                  "end": 2184
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "Oct 2016 – May 2018",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Fund Accountant (Analys",
+            "quote": "Fund Accountant (Analyst) Sep 2019 – Feb 2023",
+            "event_id": "vf8f63cfde4acb3d4",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Fund Accountant (Analyst)",
+                  "block_id": "b28",
+                  "kind": "text",
+                  "start": 1601,
+                  "end": 1626
+                },
+                {
+                  "page": 1,
+                  "text": "Sep 2019 – Feb 2023",
+                  "block_id": "b29",
+                  "kind": "text",
+                  "start": 1628,
+                  "end": 1647
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Sep 2019 – Feb 2023",
+                  "block_id": "b29",
+                  "kind": "text",
+                  "start": 1628,
+                  "end": 1647
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Fund Accountant (Analyst",
+                  "block_id": "b28",
+                  "kind": "text",
+                  "start": 1601,
+                  "end": 1625
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "Sep 2019 – Feb 2023",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 3,
+      "dated_share": 0.667,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 62,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

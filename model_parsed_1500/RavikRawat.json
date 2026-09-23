@@ -1,0 +1,273 @@
+{
+  "file_name": "RavikRawat.pdf",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 0,
+    "total_events": 2,
+    "dated_share": 0.0,
+    "unresolved": 2,
+    "ambiguous": 0,
+    "mean_event_confidence": null,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [],
+  "projects": [],
+  "education": [
+    {
+      "id": "va52e80691f285134",
+      "company": "University of Mumbai",
+      "title": "Master of Commerce (M. Com)",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    },
+    {
+      "id": "v5aa87346ff783a46",
+      "company": "University of Mumbai",
+      "title": "Bachelor of Commerce (B. Com",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 0,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "RavikRawat",
+    "filename": "RavikRawat.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [],
+    "unresolved_events": [
+      {
+        "id": "va52e80691f285134",
+        "type": "EDUCATION",
+        "title": "Master of Commerce (M. Com)",
+        "org": "University of Mumbai",
+        "entry_text": "Master of Commerce (M. Com) – Finance University of Mumbai 2022",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Master of Commerce (M. Com) – Finance",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 4485,
+              "end": 4522
+            },
+            {
+              "page": 1,
+              "text": "University of Mumbai",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 4524,
+              "end": 4544
+            },
+            {
+              "page": 1,
+              "text": "2022",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 4546,
+              "end": 4550
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2022",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 4546,
+              "end": 4550
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "University of Mumbai",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 4524,
+              "end": 4544
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Master of Commerce (M. Com",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 4485,
+              "end": 4511
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2022",
+          "is_present": false
+        },
+        "date_label": "2022",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      },
+      {
+        "id": "v5aa87346ff783a46",
+        "type": "EDUCATION",
+        "title": "Bachelor of Commerce (B. Com",
+        "org": "University of Mumbai",
+        "entry_text": "Bachelor of Commerce (B. Com) University of Mumbai 2020",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor of Commerce (B. Com)",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 4552,
+              "end": 4581
+            },
+            {
+              "page": 1,
+              "text": "University of Mumbai",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 4583,
+              "end": 4603
+            },
+            {
+              "page": 1,
+              "text": "2020",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 4605,
+              "end": 4609
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2020",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 4605,
+              "end": 4609
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "University of Mumbai",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 4583,
+              "end": 4603
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Commerce (B. Com",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 4552,
+              "end": 4580
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2020",
+          "is_present": false
+        },
+        "date_label": "2020",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 0,
+      "total_events": 2,
+      "dated_share": 0.0,
+      "unresolved": 2,
+      "ambiguous": 0,
+      "mean_event_confidence": null,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 0,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "PARTIAL",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "PARTIAL",
+        "confidence": 0.3
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

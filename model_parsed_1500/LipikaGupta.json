@@ -1,0 +1,650 @@
+{
+  "file_name": "LipikaGupta.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 3,
+    "total_events": 3,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "vb31a889b682f4bc2",
+      "company": "British Telecom Pvt Ltd",
+      "title": "4. Associate",
+      "start_date": "2016-10",
+      "end_date": "2017-11",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "va8f3a3b2880aea93",
+      "company": "",
+      "title": "3. Procurement Specialist",
+      "start_date": "2018-02",
+      "end_date": "2023-07",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vdff9df9fd9cbac11",
+      "company": "",
+      "title": "1. Assistant Manager",
+      "start_date": "2025-04",
+      "end_date": "2025-10",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [],
+  "gaps": [
+    {
+      "id": "g330d21544423dedb",
+      "start": "2017-12",
+      "end": "2018-01",
+      "months": 2,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    },
+    {
+      "id": "g61af8c78df900e16",
+      "start": "2023-08",
+      "end": "2025-03",
+      "months": 20,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    }
+  ],
+  "total_work_experience": 3,
+  "total_projects": 0,
+  "total_gaps": 2,
+  "raw_pipeline_dto": {
+    "doc_id": "LipikaGupta",
+    "filename": "LipikaGupta.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "vb31a889b682f4bc2",
+        "type": "EMPLOYMENT",
+        "title": "4. Associate",
+        "org": "British Telecom Pvt Ltd",
+        "start": "2016-10",
+        "end": "2017-11",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "4. Associate – British Telecom Pvt Ltd, Kolkata\n(October 2016 - November 2017)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "4. Associate – British Telecom Pvt Ltd, Kolkata",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 4772,
+              "end": 4819
+            },
+            {
+              "page": 1,
+              "text": "(October 2016 - November 2017)",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 4821,
+              "end": 4851
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "October 2016 - November 2017",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 4822,
+              "end": 4850
+            },
+            {
+              "page": 1,
+              "text": "2015",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 5620,
+              "end": 5624
+            },
+            {
+              "page": 1,
+              "text": "2010",
+              "block_id": "b81",
+              "kind": "text",
+              "start": 5686,
+              "end": 5690
+            },
+            {
+              "page": 1,
+              "text": "2008",
+              "block_id": "b83",
+              "kind": "text",
+              "start": 5746,
+              "end": 5750
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "British Telecom Pvt Ltd",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 4787,
+              "end": 4810
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "4. Associate",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 4772,
+              "end": 4784
+            }
+          ],
+          "section": "Experience",
+          "date_label": "October 2016 - November 2017",
+          "is_present": false
+        },
+        "date_label": "October 2016 - November 2017",
+        "section": "Experience",
+        "is_present": false
+      },
+      {
+        "id": "va8f3a3b2880aea93",
+        "type": "EMPLOYMENT",
+        "title": "3. Procurement Specialist",
+        "org": "",
+        "start": "2018-02",
+        "end": "2023-07",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "3. Procurement Specialist - MetLife GOSC, Noida\n(February 2018 – July 2023)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "3. Procurement Specialist - MetLife GOSC, Noida",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 3546,
+              "end": 3593
+            },
+            {
+              "page": 1,
+              "text": "(February 2018 – July 2023)",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 3595,
+              "end": 3622
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "February 2018 – July 2023",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 3596,
+              "end": 3621
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "3. Procurement Specialist",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 3546,
+              "end": 3571
+            }
+          ],
+          "section": "Experience",
+          "date_label": "February 2018 – July 2023",
+          "is_present": false
+        },
+        "date_label": "February 2018 – July 2023",
+        "section": "Experience",
+        "is_present": false
+      },
+      {
+        "id": "vdff9df9fd9cbac11",
+        "type": "EMPLOYMENT",
+        "title": "1. Assistant Manager",
+        "org": "",
+        "start": "2025-04",
+        "end": "2025-10",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "1. Assistant Manager, BA4 – Barclays, Noida\n(April 2025 – October 2025)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "1. Assistant Manager, BA4 – Barclays, Noida",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 1853,
+              "end": 1896
+            },
+            {
+              "page": 1,
+              "text": "(April 2025 – October 2025)",
+              "block_id": "b25",
+              "kind": "text",
+              "start": 1898,
+              "end": 1925
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "April 2025 – October 2025",
+              "block_id": "b25",
+              "kind": "text",
+              "start": 1899,
+              "end": 1924
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "1. Assistant Manager",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 1853,
+              "end": 1873
+            }
+          ],
+          "section": "Experience",
+          "date_label": "April 2025 – October 2025",
+          "is_present": false
+        },
+        "date_label": "April 2025 – October 2025",
+        "section": "Experience",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g330d21544423dedb",
+        "start": [
+          2017,
+          12
+        ],
+        "end": [
+          2018,
+          1
+        ],
+        "months": 2,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "vb31a889b682f4bc2",
+          "event_after": "va8f3a3b2880aea93",
+          "coverage_scope": "all_dated_activity"
+        },
+        "start_label": "2017-12",
+        "end_label": "2018-01",
+        "evidence_quotes": [
+          "4. Associate – British Telecom Pvt Ltd, Kolkata (October 2016 - November 2017)",
+          "3. Procurement Specialist - MetLife GOSC, Noida (February 2018 – July 2023)"
+        ],
+        "evidence_details": [
+          {
+            "header": "4. Associate at British Telecom Pvt Ltd",
+            "quote": "4. Associate – British Telecom Pvt Ltd, Kolkata (October 2016 - November 2017)",
+            "event_id": "vb31a889b682f4bc2",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "4. Associate – British Telecom Pvt Ltd, Kolkata",
+                  "block_id": "b68",
+                  "kind": "text",
+                  "start": 4772,
+                  "end": 4819
+                },
+                {
+                  "page": 1,
+                  "text": "(October 2016 - November 2017)",
+                  "block_id": "b69",
+                  "kind": "text",
+                  "start": 4821,
+                  "end": 4851
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "October 2016 - November 2017",
+                  "block_id": "b69",
+                  "kind": "text",
+                  "start": 4822,
+                  "end": 4850
+                },
+                {
+                  "page": 1,
+                  "text": "2015",
+                  "block_id": "b79",
+                  "kind": "text",
+                  "start": 5620,
+                  "end": 5624
+                },
+                {
+                  "page": 1,
+                  "text": "2010",
+                  "block_id": "b81",
+                  "kind": "text",
+                  "start": 5686,
+                  "end": 5690
+                },
+                {
+                  "page": 1,
+                  "text": "2008",
+                  "block_id": "b83",
+                  "kind": "text",
+                  "start": 5746,
+                  "end": 5750
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "British Telecom Pvt Ltd",
+                  "block_id": "b68",
+                  "kind": "text",
+                  "start": 4787,
+                  "end": 4810
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "4. Associate",
+                  "block_id": "b68",
+                  "kind": "text",
+                  "start": 4772,
+                  "end": 4784
+                }
+              ],
+              "section": "Experience",
+              "date_label": "October 2016 - November 2017",
+              "is_present": false
+            }
+          },
+          {
+            "header": "3. Procurement Specialis",
+            "quote": "3. Procurement Specialist - MetLife GOSC, Noida (February 2018 – July 2023)",
+            "event_id": "va8f3a3b2880aea93",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "3. Procurement Specialist - MetLife GOSC, Noida",
+                  "block_id": "b50",
+                  "kind": "text",
+                  "start": 3546,
+                  "end": 3593
+                },
+                {
+                  "page": 1,
+                  "text": "(February 2018 – July 2023)",
+                  "block_id": "b51",
+                  "kind": "text",
+                  "start": 3595,
+                  "end": 3622
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "February 2018 – July 2023",
+                  "block_id": "b51",
+                  "kind": "text",
+                  "start": 3596,
+                  "end": 3621
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "3. Procurement Specialist",
+                  "block_id": "b50",
+                  "kind": "text",
+                  "start": 3546,
+                  "end": 3571
+                }
+              ],
+              "section": "Experience",
+              "date_label": "February 2018 – July 2023",
+              "is_present": false
+            }
+          }
+        ]
+      },
+      {
+        "id": "g61af8c78df900e16",
+        "start": [
+          2023,
+          8
+        ],
+        "end": [
+          2025,
+          3
+        ],
+        "months": 20,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "va8f3a3b2880aea93",
+          "event_after": "vdff9df9fd9cbac11",
+          "coverage_scope": "all_dated_activity"
+        },
+        "start_label": "2023-08",
+        "end_label": "2025-03",
+        "evidence_quotes": [
+          "3. Procurement Specialist - MetLife GOSC, Noida (February 2018 – July 2023)",
+          "1. Assistant Manager, BA4 – Barclays, Noida (April 2025 – October 2025)"
+        ],
+        "evidence_details": [
+          {
+            "header": "3. Procurement Specialis",
+            "quote": "3. Procurement Specialist - MetLife GOSC, Noida (February 2018 – July 2023)",
+            "event_id": "va8f3a3b2880aea93",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "3. Procurement Specialist - MetLife GOSC, Noida",
+                  "block_id": "b50",
+                  "kind": "text",
+                  "start": 3546,
+                  "end": 3593
+                },
+                {
+                  "page": 1,
+                  "text": "(February 2018 – July 2023)",
+                  "block_id": "b51",
+                  "kind": "text",
+                  "start": 3595,
+                  "end": 3622
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "February 2018 – July 2023",
+                  "block_id": "b51",
+                  "kind": "text",
+                  "start": 3596,
+                  "end": 3621
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "3. Procurement Specialist",
+                  "block_id": "b50",
+                  "kind": "text",
+                  "start": 3546,
+                  "end": 3571
+                }
+              ],
+              "section": "Experience",
+              "date_label": "February 2018 – July 2023",
+              "is_present": false
+            }
+          },
+          {
+            "header": "1. Assistant Manager",
+            "quote": "1. Assistant Manager, BA4 – Barclays, Noida (April 2025 – October 2025)",
+            "event_id": "vdff9df9fd9cbac11",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "1. Assistant Manager, BA4 – Barclays, Noida",
+                  "block_id": "b24",
+                  "kind": "text",
+                  "start": 1853,
+                  "end": 1896
+                },
+                {
+                  "page": 1,
+                  "text": "(April 2025 – October 2025)",
+                  "block_id": "b25",
+                  "kind": "text",
+                  "start": 1898,
+                  "end": 1925
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "April 2025 – October 2025",
+                  "block_id": "b25",
+                  "kind": "text",
+                  "start": 1899,
+                  "end": 1924
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "1. Assistant Manager",
+                  "block_id": "b24",
+                  "kind": "text",
+                  "start": 1853,
+                  "end": 1873
+                }
+              ],
+              "section": "Experience",
+              "date_label": "April 2025 – October 2025",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 3,
+      "total_events": 3,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 87,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

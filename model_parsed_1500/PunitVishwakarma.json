@@ -1,0 +1,841 @@
+{
+  "file_name": "PunitVishwakarma.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 8,
+    "total_events": 8,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v3f65b08445c3f373",
+      "company": "Desk Assistant",
+      "title": "",
+      "start_date": "2014-07",
+      "end_date": "2015-10",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v0fc01d551080046f",
+      "company": "",
+      "title": "Analyst",
+      "start_date": "2015-11",
+      "end_date": "2018-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v3962ece451a9e502",
+      "company": "Off-Duty Due To Medical Emergency In Family",
+      "title": "",
+      "start_date": "2019-01",
+      "end_date": "2019-10",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vbcb16f1e3cbb3784",
+      "company": "",
+      "title": "Senior Analyst",
+      "start_date": "2019-11",
+      "end_date": "2020-09",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v1842a16cd55bd178",
+      "company": "",
+      "title": "Associate Manager",
+      "start_date": "2020-10",
+      "end_date": "2024-06",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v9427df2d5b2af293",
+      "company": "COREP and FINREP - EMEA entities focused",
+      "title": "",
+      "start_date": "2023-06",
+      "end_date": "2023-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v95d950ed4c36c471",
+      "company": "Top-Tier Investment Bank headquartered Broadway",
+      "title": "Lead Consultant",
+      "start_date": "2024-07",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "v5c601cf5ddeb1da7",
+      "company": "University Of Mumbai Mumbai",
+      "title": "Bachelor's Degree in Commerce",
+      "start_date": "2011-06",
+      "end_date": "2014-05",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "gaps": [
+    {
+      "id": "g84dbc540e7f4b38a",
+      "start": "2014-06",
+      "end": "2014-06",
+      "months": 1,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    }
+  ],
+  "total_work_experience": 7,
+  "total_projects": 0,
+  "total_gaps": 1,
+  "raw_pipeline_dto": {
+    "doc_id": "PunitVishwakarma",
+    "filename": "PunitVishwakarma.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v5c601cf5ddeb1da7",
+        "type": "EDUCATION",
+        "title": "Bachelor's Degree in Commerce",
+        "org": "University Of Mumbai Mumbai",
+        "start": "2011-06",
+        "end": "2014-05",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "University Of Mumbai Mumbai, India\nBachelor's Degree in Commerce 06/2011 - 05/2014",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "University Of Mumbai Mumbai, India",
+              "block_id": "b105",
+              "kind": "text",
+              "start": 10611,
+              "end": 10645
+            },
+            {
+              "page": 1,
+              "text": "Bachelor's Degree in Commerce 06/2011 - 05/2014",
+              "block_id": "b106",
+              "kind": "text",
+              "start": 10647,
+              "end": 10694
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "06/2011 - 05/2014",
+              "block_id": "b106",
+              "kind": "text",
+              "start": 10677,
+              "end": 10694
+            },
+            {
+              "page": 1,
+              "text": "01/2026 - Present",
+              "block_id": "b109",
+              "kind": "text",
+              "start": 10875,
+              "end": 10892
+            },
+            {
+              "page": 1,
+              "text": "12/2025 - Present",
+              "block_id": "b112",
+              "kind": "text",
+              "start": 11073,
+              "end": 11090
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "University Of Mumbai Mumbai",
+              "block_id": "b105",
+              "kind": "text",
+              "start": 10611,
+              "end": 10638
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor's Degree in Commerce",
+              "block_id": "b106",
+              "kind": "text",
+              "start": 10647,
+              "end": 10676
+            }
+          ],
+          "section": "Education",
+          "date_label": "06/2011 - 05/2014",
+          "is_present": false
+        },
+        "date_label": "06/2011 - 05/2014",
+        "section": "Education",
+        "is_present": false
+      },
+      {
+        "id": "v3f65b08445c3f373",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Desk Assistant",
+        "start": "2014-07",
+        "end": "2015-10",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Desk Assistant 07/2014 - 10/2015",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Desk Assistant 07/2014 - 10/2015",
+              "block_id": "b76",
+              "kind": "text",
+              "start": 7797,
+              "end": 7829
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "07/2014 - 10/2015",
+              "block_id": "b76",
+              "kind": "text",
+              "start": 7812,
+              "end": 7829
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Desk Assistant",
+              "block_id": "b76",
+              "kind": "text",
+              "start": 7797,
+              "end": 7811
+            }
+          ],
+          "title": [],
+          "section": "WORK EXPERIENCE",
+          "date_label": "07/2014 - 10/2015",
+          "is_present": false
+        },
+        "date_label": "07/2014 - 10/2015",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v0fc01d551080046f",
+        "type": "EMPLOYMENT",
+        "title": "Analyst",
+        "org": "",
+        "start": "2015-11",
+        "end": "2018-12",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Analyst 11/2015 - 12/2018",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Analyst 11/2015 - 12/2018",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 6780,
+              "end": 6805
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "11/2015 - 12/2018",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 6788,
+              "end": 6805
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Analyst",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 6780,
+              "end": 6787
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "11/2015 - 12/2018",
+          "is_present": false
+        },
+        "date_label": "11/2015 - 12/2018",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v3962ece451a9e502",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Off-Duty Due To Medical Emergency In Family",
+        "start": "2019-01",
+        "end": "2019-10",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Off-Duty Due To Medical Emergency In Family 01/2019 - 10/2019",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Off-Duty Due To Medical Emergency In Family 01/2019 - 10/2019",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 6671,
+              "end": 6732
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "01/2019 - 10/2019",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 6715,
+              "end": 6732
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Off-Duty Due To Medical Emergency In Family",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 6671,
+              "end": 6714
+            }
+          ],
+          "title": [],
+          "section": "WORK EXPERIENCE",
+          "date_label": "01/2019 - 10/2019",
+          "is_present": false
+        },
+        "date_label": "01/2019 - 10/2019",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vbcb16f1e3cbb3784",
+        "type": "EMPLOYMENT",
+        "title": "Senior Analyst",
+        "org": "",
+        "start": "2019-11",
+        "end": "2020-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Senior Analyst 11/2019 - 09/2020",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Analyst 11/2019 - 09/2020",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 4997,
+              "end": 5029
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "11/2019 - 09/2020",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 5012,
+              "end": 5029
+            },
+            {
+              "page": 1,
+              "text": "2052",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 5934,
+              "end": 5938
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Analyst",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 4997,
+              "end": 5011
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "11/2019 - 09/2020",
+          "is_present": false
+        },
+        "date_label": "11/2019 - 09/2020",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v1842a16cd55bd178",
+        "type": "EMPLOYMENT",
+        "title": "Associate Manager",
+        "org": "",
+        "start": "2020-10",
+        "end": "2024-06",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Associate Manager 10/2020 - 06/2024",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Associate Manager 10/2020 - 06/2024",
+              "block_id": "b27",
+              "kind": "text",
+              "start": 2561,
+              "end": 2596
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "10/2020 - 06/2024",
+              "block_id": "b27",
+              "kind": "text",
+              "start": 2579,
+              "end": 2596
+            },
+            {
+              "page": 1,
+              "text": "2002",
+              "block_id": "b35",
+              "kind": "text",
+              "start": 3619,
+              "end": 3623
+            },
+            {
+              "page": 1,
+              "text": "2052",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 4134,
+              "end": 4138
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Associate Manager",
+              "block_id": "b27",
+              "kind": "text",
+              "start": 2561,
+              "end": 2578
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "10/2020 - 06/2024",
+          "is_present": false
+        },
+        "date_label": "10/2020 - 06/2024",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v9427df2d5b2af293",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "COREP and FINREP - EMEA entities focused",
+        "start": "2023-06",
+        "end": "2023-12",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "COREP and FINREP - EMEA entities focused 06/2023 - 12/2023",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "COREP and FINREP - EMEA entities focused 06/2023 - 12/2023",
+              "block_id": "b84",
+              "kind": "text",
+              "start": 8221,
+              "end": 8279
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "06/2023 - 12/2023",
+              "block_id": "b84",
+              "kind": "text",
+              "start": 8262,
+              "end": 8279
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "COREP and FINREP - EMEA entities focused",
+              "block_id": "b84",
+              "kind": "text",
+              "start": 8221,
+              "end": 8261
+            }
+          ],
+          "title": [],
+          "section": "WORK EXPERIENCE",
+          "date_label": "06/2023 - 12/2023",
+          "is_present": false
+        },
+        "date_label": "06/2023 - 12/2023",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v95d950ed4c36c471",
+        "type": "EMPLOYMENT",
+        "title": "Lead Consultant",
+        "org": "Top-Tier Investment Bank headquartered Broadway",
+        "start": "2024-07",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Lead Consultant, Top-Tier Investment Bank headquartered Broadway, NY, U.S. 07/2024 - Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Lead Consultant, Top-Tier Investment Bank headquartered Broadway, NY, U.S. 07/2024 - Present",
+              "block_id": "b13",
+              "kind": "text",
+              "start": 879,
+              "end": 971
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "07/2024 - Present",
+              "block_id": "b13",
+              "kind": "text",
+              "start": 954,
+              "end": 971
+            },
+            {
+              "page": 1,
+              "text": "2025",
+              "block_id": "b14",
+              "kind": "text",
+              "start": 1075,
+              "end": 1079
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Top-Tier Investment Bank headquartered Broadway",
+              "block_id": "b13",
+              "kind": "text",
+              "start": 896,
+              "end": 943
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Lead Consultant",
+              "block_id": "b13",
+              "kind": "text",
+              "start": 879,
+              "end": 894
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "07/2024 - Present",
+          "is_present": true
+        },
+        "date_label": "07/2024 - Present",
+        "section": "WORK EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g84dbc540e7f4b38a",
+        "start": [
+          2014,
+          6
+        ],
+        "end": [
+          2014,
+          6
+        ],
+        "months": 1,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "v5c601cf5ddeb1da7",
+          "event_after": "v3f65b08445c3f373",
+          "coverage_scope": "all_dated_activity"
+        },
+        "start_label": "2014-06",
+        "end_label": "2014-06",
+        "evidence_quotes": [
+          "University Of Mumbai Mumbai, India Bachelor's Degree in Commerce 06/2011 - 05/2014",
+          "Desk Assistant 07/2014 - 10/2015"
+        ],
+        "evidence_details": [
+          {
+            "header": "Bachelor's Degree in Commerce at University Of Mumbai Mumbai",
+            "quote": "University Of Mumbai Mumbai, India Bachelor's Degree in Commerce 06/2011 - 05/2014",
+            "event_id": "v5c601cf5ddeb1da7",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "University Of Mumbai Mumbai, India",
+                  "block_id": "b105",
+                  "kind": "text",
+                  "start": 10611,
+                  "end": 10645
+                },
+                {
+                  "page": 1,
+                  "text": "Bachelor's Degree in Commerce 06/2011 - 05/2014",
+                  "block_id": "b106",
+                  "kind": "text",
+                  "start": 10647,
+                  "end": 10694
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "06/2011 - 05/2014",
+                  "block_id": "b106",
+                  "kind": "text",
+                  "start": 10677,
+                  "end": 10694
+                },
+                {
+                  "page": 1,
+                  "text": "01/2026 - Present",
+                  "block_id": "b109",
+                  "kind": "text",
+                  "start": 10875,
+                  "end": 10892
+                },
+                {
+                  "page": 1,
+                  "text": "12/2025 - Present",
+                  "block_id": "b112",
+                  "kind": "text",
+                  "start": 11073,
+                  "end": 11090
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "University Of Mumbai Mumbai",
+                  "block_id": "b105",
+                  "kind": "text",
+                  "start": 10611,
+                  "end": 10638
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Bachelor's Degree in Commerce",
+                  "block_id": "b106",
+                  "kind": "text",
+                  "start": 10647,
+                  "end": 10676
+                }
+              ],
+              "section": "Education",
+              "date_label": "06/2011 - 05/2014",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Desk Assistan",
+            "quote": "Desk Assistant 07/2014 - 10/2015",
+            "event_id": "v3f65b08445c3f373",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Desk Assistant 07/2014 - 10/2015",
+                  "block_id": "b76",
+                  "kind": "text",
+                  "start": 7797,
+                  "end": 7829
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "07/2014 - 10/2015",
+                  "block_id": "b76",
+                  "kind": "text",
+                  "start": 7812,
+                  "end": 7829
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Desk Assistant",
+                  "block_id": "b76",
+                  "kind": "text",
+                  "start": 7797,
+                  "end": 7811
+                }
+              ],
+              "title": [],
+              "section": "WORK EXPERIENCE",
+              "date_label": "07/2014 - 10/2015",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 8,
+      "total_events": 8,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 183,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

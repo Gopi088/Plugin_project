@@ -1,7 +1,8 @@
 {
-  "generated_at": "2026-09-21T07:34:06.944151+00:00",
-  "cases": 4,
+  "generated_at": "2026-09-22T14:45:43.862563+00:00",
+  "cases": 10,
   "overall_accuracy": 1.0,
+  "calibrated_accuracy": 0.9,
   "overall_accuracy_definition": "mean of job_extraction.f1 and gap.f1 on the hand-labeled set",
   "job_extraction": {
     "precision": 1.0,
@@ -9,15 +10,17 @@
     "f1": 1.0
   },
   "association_accuracy": 1.0,
+  "gap_state_accuracy": 1.0,
   "gap": {
     "precision": 1.0,
     "recall": 1.0,
     "f1": 1.0,
-    "false_positive_rate": 0.0
+    "false_positive_rate": 0.0,
+    "false_positive_rate_definition": "fraction of cases with no labeled gap that produced a potential gap"
   },
   "gap_confidence": {
-    "mean_predicted": 0.846,
+    "mean_predicted": 0.9,
     "empirical_accuracy": 1.0,
-    "calibration_gap": 0.154
+    "calibration_gap": 0.1
   }
 }

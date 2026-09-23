@@ -1,0 +1,819 @@
+{
+  "file_name": "Ibrahim Khalilullah Khan A  _ CV.pdf",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 6,
+    "total_events": 8,
+    "dated_share": 0.75,
+    "unresolved": 2,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v71ba09b32d8f3ffb",
+      "company": "C. Cubed Solutions Pvt. Ltd",
+      "title": "",
+      "start_date": "2013-01",
+      "end_date": "2013-07",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v1cf016cc96c4dca7",
+      "company": "GE Capital Business Process Management Ltd",
+      "title": "Associate",
+      "start_date": "2013-09",
+      "end_date": "2014-08",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v33c611b06813e7aa",
+      "company": "Tata Consultancy Services (TCS",
+      "title": "Senior Process Associate",
+      "start_date": "2014-08",
+      "end_date": "2019-05",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v5ee57d1d36613ab5",
+      "company": "Hexaware Technologies ( Client",
+      "title": "Team Lead",
+      "start_date": "2019-05",
+      "end_date": "2022-09",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v1eceec19ca2989b9",
+      "company": "",
+      "title": "Implementation Lead Analyst",
+      "start_date": "2022-10",
+      "end_date": "2025-06",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v9191aebf6b1bc0e3",
+      "company": "Resulticks Edge Solutions Technologies Pvt. Ltd",
+      "title": "Implementation Lead/ Project Manager",
+      "start_date": "2025-06",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "v197cdeda29c37310",
+      "company": "SNS College of Engineering",
+      "title": "Bachelor of Engineering",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    },
+    {
+      "id": "v9be99f301858c63f",
+      "company": "",
+      "title": "Certified Scrum Master",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "gaps": [
+    {
+      "id": "gc8931a7e135556d5",
+      "start": "2013-08",
+      "end": "2013-08",
+      "months": 1,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    }
+  ],
+  "total_work_experience": 6,
+  "total_projects": 0,
+  "total_gaps": 1,
+  "raw_pipeline_dto": {
+    "doc_id": "Ibrahim Khalilullah Khan A  _ CV",
+    "filename": "Ibrahim Khalilullah Khan A  _ CV.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "v71ba09b32d8f3ffb",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "C. Cubed Solutions Pvt. Ltd",
+        "start": "2013-01",
+        "end": "2013-07",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Technical Support Executive 01/2013 – 07/2013\nC. Cubed Solutions Pvt. Ltd.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Technical Support Executive 01/2013 – 07/2013",
+              "block_id": "b103",
+              "kind": "text",
+              "start": 8438,
+              "end": 8483
+            },
+            {
+              "page": 1,
+              "text": "C. Cubed Solutions Pvt. Ltd.",
+              "block_id": "b104",
+              "kind": "text",
+              "start": 8485,
+              "end": 8513
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "01/2013 – 07/2013",
+              "block_id": "b103",
+              "kind": "text",
+              "start": 8466,
+              "end": 8483
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "C. Cubed Solutions Pvt. Ltd",
+              "block_id": "b104",
+              "kind": "text",
+              "start": 8485,
+              "end": 8512
+            }
+          ],
+          "title": [],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "01/2013 – 07/2013",
+          "is_present": false
+        },
+        "date_label": "01/2013 – 07/2013",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v1cf016cc96c4dca7",
+        "type": "EMPLOYMENT",
+        "title": "Associate",
+        "org": "GE Capital Business Process Management Ltd",
+        "start": "2013-09",
+        "end": "2014-08",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Associate – Banking Operations 09/2013 – 08/2014\nGE Capital Business Process Management Ltd.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Associate – Banking Operations 09/2013 – 08/2014",
+              "block_id": "b96",
+              "kind": "text",
+              "start": 7878,
+              "end": 7926
+            },
+            {
+              "page": 1,
+              "text": "GE Capital Business Process Management Ltd.",
+              "block_id": "b97",
+              "kind": "text",
+              "start": 7928,
+              "end": 7971
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "09/2013 – 08/2014",
+              "block_id": "b96",
+              "kind": "text",
+              "start": 7909,
+              "end": 7926
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "GE Capital Business Process Management Ltd",
+              "block_id": "b97",
+              "kind": "text",
+              "start": 7928,
+              "end": 7970
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Associate",
+              "block_id": "b96",
+              "kind": "text",
+              "start": 7878,
+              "end": 7887
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "09/2013 – 08/2014",
+          "is_present": false
+        },
+        "date_label": "09/2013 – 08/2014",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v33c611b06813e7aa",
+        "type": "EMPLOYMENT",
+        "title": "Senior Process Associate",
+        "org": "Tata Consultancy Services (TCS",
+        "start": "2014-08",
+        "end": "2019-05",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Senior Process Associate 08/2014 – 05/2019\nTata Consultancy Services (TCS)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Process Associate 08/2014 – 05/2019",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 5713,
+              "end": 5755
+            },
+            {
+              "page": 1,
+              "text": "Tata Consultancy Services (TCS)",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 5757,
+              "end": 5788
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "08/2014 – 05/2019",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 5738,
+              "end": 5755
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Tata Consultancy Services (TCS",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 5757,
+              "end": 5787
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Process Associate",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 5713,
+              "end": 5737
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "08/2014 – 05/2019",
+          "is_present": false
+        },
+        "date_label": "08/2014 – 05/2019",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v5ee57d1d36613ab5",
+        "type": "EMPLOYMENT",
+        "title": "Team Lead",
+        "org": "Hexaware Technologies ( Client",
+        "start": "2019-05",
+        "end": "2022-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Team Lead 05/2019 – 09/2022\nHexaware Technologies ( Client – Citi bank)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Team Lead 05/2019 – 09/2022",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 4350,
+              "end": 4377
+            },
+            {
+              "page": 1,
+              "text": "Hexaware Technologies ( Client – Citi bank)",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 4379,
+              "end": 4422
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "05/2019 – 09/2022",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 4360,
+              "end": 4377
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Hexaware Technologies ( Client",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 4379,
+              "end": 4409
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Team Lead",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 4350,
+              "end": 4359
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "05/2019 – 09/2022",
+          "is_present": false
+        },
+        "date_label": "05/2019 – 09/2022",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v1eceec19ca2989b9",
+        "type": "EMPLOYMENT",
+        "title": "Implementation Lead Analyst",
+        "org": "",
+        "start": "2022-10",
+        "end": "2025-06",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Implementation Lead Analyst 10/2022 – 06/2025",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Implementation Lead Analyst 10/2022 – 06/2025",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 3229,
+              "end": 3274
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "10/2022 – 06/2025",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 3257,
+              "end": 3274
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Implementation Lead Analyst",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 3229,
+              "end": 3256
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "10/2022 – 06/2025",
+          "is_present": false
+        },
+        "date_label": "10/2022 – 06/2025",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v9191aebf6b1bc0e3",
+        "type": "EMPLOYMENT",
+        "title": "Implementation Lead/ Project Manager",
+        "org": "Resulticks Edge Solutions Technologies Pvt. Ltd",
+        "start": "2025-06",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Implementation Lead/ Project Manager 06/2025 – Present\nResulticks Edge Solutions Technologies Pvt. Ltd.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Implementation Lead/ Project Manager 06/2025 – Present",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 2166,
+              "end": 2220
+            },
+            {
+              "page": 1,
+              "text": "Resulticks Edge Solutions Technologies Pvt. Ltd.",
+              "block_id": "b30",
+              "kind": "text",
+              "start": 2222,
+              "end": 2270
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "06/2025 – Present",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 2203,
+              "end": 2220
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Resulticks Edge Solutions Technologies Pvt. Ltd",
+              "block_id": "b30",
+              "kind": "text",
+              "start": 2222,
+              "end": 2269
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Implementation Lead/ Project Manager",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 2166,
+              "end": 2202
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "06/2025 – Present",
+          "is_present": true
+        },
+        "date_label": "06/2025 – Present",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v197cdeda29c37310",
+        "type": "EDUCATION",
+        "title": "Bachelor of Engineering",
+        "org": "SNS College of Engineering",
+        "entry_text": "Bachelor of Engineering – Electronics and Communication Engineering SNS College of Engineering, Coimbatore ADDITIONAL SKILLS AND KEYWORDS Implementation | Conversion | FIS | Banking | Payments | Fraud Management | Card Transaction Lifecycle | Payment Switches | Data Mapping | Interface Requirements ",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor of Engineering – Electronics and Communication Engineering",
+              "block_id": "b112",
+              "kind": "text",
+              "start": 8915,
+              "end": 8982
+            },
+            {
+              "page": 1,
+              "text": "SNS College of Engineering, Coimbatore",
+              "block_id": "b113",
+              "kind": "text",
+              "start": 8984,
+              "end": 9022
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "SNS College of Engineering",
+              "block_id": "b113",
+              "kind": "text",
+              "start": 8984,
+              "end": 9010
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Engineering",
+              "block_id": "b112",
+              "kind": "text",
+              "start": 8915,
+              "end": 8938
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "EDUCATION",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v9be99f301858c63f",
+        "type": "EDUCATION",
+        "title": "Certified Scrum Master",
+        "org": "",
+        "entry_text": "Escalation Management | Customer Success | Account Management | CSM | Certified Scrum Master",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Escalation Management | Customer Success | Account Management | CSM | Certified Scrum Master",
+              "block_id": "b119",
+              "kind": "text",
+              "start": 9546,
+              "end": 9638
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Certified Scrum Master",
+              "block_id": "b119",
+              "kind": "text",
+              "start": 9616,
+              "end": 9638
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "EDUCATION",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "gc8931a7e135556d5",
+        "start": [
+          2013,
+          8
+        ],
+        "end": [
+          2013,
+          8
+        ],
+        "months": 1,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "v71ba09b32d8f3ffb",
+          "event_after": "v1cf016cc96c4dca7",
+          "coverage_scope": "employment"
+        },
+        "start_label": "2013-08",
+        "end_label": "2013-08",
+        "evidence_quotes": [
+          "Technical Support Executive 01/2013 – 07/2013 C. Cubed Solutions Pvt. Ltd.",
+          "Associate – Banking Operations 09/2013 – 08/2014 GE Capital Business Process Management Ltd."
+        ],
+        "evidence_details": [
+          {
+            "header": "C. Cubed Solutions Pvt. Ltd",
+            "quote": "Technical Support Executive 01/2013 – 07/2013 C. Cubed Solutions Pvt. Ltd.",
+            "event_id": "v71ba09b32d8f3ffb",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Technical Support Executive 01/2013 – 07/2013",
+                  "block_id": "b103",
+                  "kind": "text",
+                  "start": 8438,
+                  "end": 8483
+                },
+                {
+                  "page": 1,
+                  "text": "C. Cubed Solutions Pvt. Ltd.",
+                  "block_id": "b104",
+                  "kind": "text",
+                  "start": 8485,
+                  "end": 8513
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "01/2013 – 07/2013",
+                  "block_id": "b103",
+                  "kind": "text",
+                  "start": 8466,
+                  "end": 8483
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "C. Cubed Solutions Pvt. Ltd",
+                  "block_id": "b104",
+                  "kind": "text",
+                  "start": 8485,
+                  "end": 8512
+                }
+              ],
+              "title": [],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "01/2013 – 07/2013",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Associate at GE Capital Business Process Management Ltd",
+            "quote": "Associate – Banking Operations 09/2013 – 08/2014 GE Capital Business Process Management Ltd.",
+            "event_id": "v1cf016cc96c4dca7",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Associate – Banking Operations 09/2013 – 08/2014",
+                  "block_id": "b96",
+                  "kind": "text",
+                  "start": 7878,
+                  "end": 7926
+                },
+                {
+                  "page": 1,
+                  "text": "GE Capital Business Process Management Ltd.",
+                  "block_id": "b97",
+                  "kind": "text",
+                  "start": 7928,
+                  "end": 7971
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "09/2013 – 08/2014",
+                  "block_id": "b96",
+                  "kind": "text",
+                  "start": 7909,
+                  "end": 7926
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "GE Capital Business Process Management Ltd",
+                  "block_id": "b97",
+                  "kind": "text",
+                  "start": 7928,
+                  "end": 7970
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Associate",
+                  "block_id": "b96",
+                  "kind": "text",
+                  "start": 7878,
+                  "end": 7887
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "09/2013 – 08/2014",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 6,
+      "total_events": 8,
+      "dated_share": 0.75,
+      "unresolved": 2,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 164,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

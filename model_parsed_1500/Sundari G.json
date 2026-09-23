@@ -1,0 +1,697 @@
+{
+  "file_name": "Sundari G.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 4,
+    "total_events": 5,
+    "dated_share": 0.8,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v9b7cbdcc94bf7ec3",
+      "company": "",
+      "title": "Analyst (Securities Valuation)",
+      "start_date": "2021-05",
+      "end_date": "2022-11",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v38725412fc181732",
+      "company": "Incedo technology Solutions Ltd",
+      "title": "Associate",
+      "start_date": "2023-02",
+      "end_date": "2023-07",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v6262f791df513f04",
+      "company": "BNP Paribas India Solution Pvt Ltd",
+      "title": "Associate Level 1 (Securities Services)",
+      "start_date": "2023-09",
+      "end_date": "2025-06",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vf770e0addc0fe464",
+      "company": "",
+      "title": "Operational Analyst",
+      "start_date": "2025-06",
+      "end_date": "2026-01",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "v8341c234a11398c4",
+      "company": "",
+      "title": "Bachelor of Commerce in Financial Services",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    }
+  ],
+  "gaps": [
+    {
+      "id": "g935b8affda6069fb",
+      "start": "2022-12",
+      "end": "2023-01",
+      "months": 2,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    },
+    {
+      "id": "g91baf89984cc11ae",
+      "start": "2023-08",
+      "end": "2023-08",
+      "months": 1,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    }
+  ],
+  "total_work_experience": 4,
+  "total_projects": 0,
+  "total_gaps": 2,
+  "raw_pipeline_dto": {
+    "doc_id": "Sundari G",
+    "filename": "Sundari G.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v9b7cbdcc94bf7ec3",
+        "type": "EMPLOYMENT",
+        "title": "Analyst (Securities Valuation)",
+        "org": "",
+        "start": "2021-05",
+        "end": "2022-11",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Analyst (Securities Valuation) | State Street HCL| May 2021 - Nov 2022",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Analyst (Securities Valuation) | State Street HCL| May 2021 - Nov 2022",
+              "block_id": "b76",
+              "kind": "text",
+              "start": 6882,
+              "end": 6952
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "May 2021 - Nov 2022",
+              "block_id": "b76",
+              "kind": "text",
+              "start": 6933,
+              "end": 6952
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Analyst (Securities Valuation",
+              "block_id": "b76",
+              "kind": "text",
+              "start": 6882,
+              "end": 6911
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "May 2021 - Nov 2022",
+          "is_present": false
+        },
+        "date_label": "May 2021 - Nov 2022",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v38725412fc181732",
+        "type": "EMPLOYMENT",
+        "title": "Associate",
+        "org": "Incedo technology Solutions Ltd",
+        "start": "2023-02",
+        "end": "2023-07",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Associate | Incedo technology Solutions Ltd| Feb 2023- July 2023",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Associate | Incedo technology Solutions Ltd| Feb 2023- July 2023",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 5524,
+              "end": 5588
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Feb 2023- July 2023",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 5569,
+              "end": 5588
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Incedo technology Solutions Ltd",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 5536,
+              "end": 5567
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Associate",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 5524,
+              "end": 5533
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "Feb 2023- July 2023",
+          "is_present": false
+        },
+        "date_label": "Feb 2023- July 2023",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v6262f791df513f04",
+        "type": "EMPLOYMENT",
+        "title": "Associate Level 1 (Securities Services)",
+        "org": "BNP Paribas India Solution Pvt Ltd",
+        "start": "2023-09",
+        "end": "2025-06",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Associate Level 1 (Securities Services) | BNP Paribas India Solution Pvt Ltd | Sep 2023- June 2025",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Associate Level 1 (Securities Services) | BNP Paribas India Solution Pvt Ltd | Sep 2023- June 2025",
+              "block_id": "b35",
+              "kind": "text",
+              "start": 2864,
+              "end": 2962
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Sep 2023- June 2025",
+              "block_id": "b35",
+              "kind": "text",
+              "start": 2943,
+              "end": 2962
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "BNP Paribas India Solution Pvt Ltd",
+              "block_id": "b35",
+              "kind": "text",
+              "start": 2906,
+              "end": 2940
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Associate Level 1 (Securities Services",
+              "block_id": "b35",
+              "kind": "text",
+              "start": 2864,
+              "end": 2902
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "Sep 2023- June 2025",
+          "is_present": false
+        },
+        "date_label": "Sep 2023- June 2025",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vf770e0addc0fe464",
+        "type": "EMPLOYMENT",
+        "title": "Operational Analyst",
+        "org": "",
+        "start": "2025-06",
+        "end": "2026-01",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Operational Analyst | Barclays Global Service Centre Private Limited | (June 2025- Jan 2026)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Operational Analyst | Barclays Global Service Centre Private Limited | (June 2025- Jan 2026)",
+              "block_id": "b17",
+              "kind": "text",
+              "start": 1351,
+              "end": 1443
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "June 2025- Jan 2026",
+              "block_id": "b17",
+              "kind": "text",
+              "start": 1423,
+              "end": 1442
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Operational Analyst",
+              "block_id": "b17",
+              "kind": "text",
+              "start": 1351,
+              "end": 1370
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "June 2025- Jan 2026",
+          "is_present": false
+        },
+        "date_label": "June 2025- Jan 2026",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v8341c234a11398c4",
+        "type": "EDUCATION",
+        "title": "Bachelor of Commerce in Financial Services",
+        "org": "",
+        "entry_text": "Bachelor of Commerce in Financial Services | 2020",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor of Commerce in Financial Services | 2020",
+              "block_id": "b93",
+              "kind": "text",
+              "start": 8291,
+              "end": 8340
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2020",
+              "block_id": "b93",
+              "kind": "text",
+              "start": 8336,
+              "end": 8340
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Commerce in Financial Services",
+              "block_id": "b93",
+              "kind": "text",
+              "start": 8291,
+              "end": 8333
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2020",
+          "is_present": false
+        },
+        "date_label": "2020",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g935b8affda6069fb",
+        "start": [
+          2022,
+          12
+        ],
+        "end": [
+          2023,
+          1
+        ],
+        "months": 2,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "v9b7cbdcc94bf7ec3",
+          "event_after": "v38725412fc181732",
+          "coverage_scope": "employment"
+        },
+        "start_label": "2022-12",
+        "end_label": "2023-01",
+        "evidence_quotes": [
+          "Analyst (Securities Valuation) | State Street HCL| May 2021 - Nov 2022",
+          "Associate | Incedo technology Solutions Ltd| Feb 2023- July 2023"
+        ],
+        "evidence_details": [
+          {
+            "header": "Analyst (Securities Valuation)",
+            "quote": "Analyst (Securities Valuation) | State Street HCL| May 2021 - Nov 2022",
+            "event_id": "v9b7cbdcc94bf7ec3",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Analyst (Securities Valuation) | State Street HCL| May 2021 - Nov 2022",
+                  "block_id": "b76",
+                  "kind": "text",
+                  "start": 6882,
+                  "end": 6952
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "May 2021 - Nov 2022",
+                  "block_id": "b76",
+                  "kind": "text",
+                  "start": 6933,
+                  "end": 6952
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Analyst (Securities Valuation",
+                  "block_id": "b76",
+                  "kind": "text",
+                  "start": 6882,
+                  "end": 6911
+                }
+              ],
+              "section": "WORK EXPERIENCE",
+              "date_label": "May 2021 - Nov 2022",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Associate at Incedo technology Solutions Ltd",
+            "quote": "Associate | Incedo technology Solutions Ltd| Feb 2023- July 2023",
+            "event_id": "v38725412fc181732",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Associate | Incedo technology Solutions Ltd| Feb 2023- July 2023",
+                  "block_id": "b63",
+                  "kind": "text",
+                  "start": 5524,
+                  "end": 5588
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Feb 2023- July 2023",
+                  "block_id": "b63",
+                  "kind": "text",
+                  "start": 5569,
+                  "end": 5588
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Incedo technology Solutions Ltd",
+                  "block_id": "b63",
+                  "kind": "text",
+                  "start": 5536,
+                  "end": 5567
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Associate",
+                  "block_id": "b63",
+                  "kind": "text",
+                  "start": 5524,
+                  "end": 5533
+                }
+              ],
+              "section": "WORK EXPERIENCE",
+              "date_label": "Feb 2023- July 2023",
+              "is_present": false
+            }
+          }
+        ]
+      },
+      {
+        "id": "g91baf89984cc11ae",
+        "start": [
+          2023,
+          8
+        ],
+        "end": [
+          2023,
+          8
+        ],
+        "months": 1,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "v38725412fc181732",
+          "event_after": "v6262f791df513f04",
+          "coverage_scope": "employment"
+        },
+        "start_label": "2023-08",
+        "end_label": "2023-08",
+        "evidence_quotes": [
+          "Associate | Incedo technology Solutions Ltd| Feb 2023- July 2023",
+          "Associate Level 1 (Securities Services) | BNP Paribas India Solution Pvt Ltd | Sep 2023- June 2025"
+        ],
+        "evidence_details": [
+          {
+            "header": "Associate at Incedo technology Solutions Ltd",
+            "quote": "Associate | Incedo technology Solutions Ltd| Feb 2023- July 2023",
+            "event_id": "v38725412fc181732",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Associate | Incedo technology Solutions Ltd| Feb 2023- July 2023",
+                  "block_id": "b63",
+                  "kind": "text",
+                  "start": 5524,
+                  "end": 5588
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Feb 2023- July 2023",
+                  "block_id": "b63",
+                  "kind": "text",
+                  "start": 5569,
+                  "end": 5588
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Incedo technology Solutions Ltd",
+                  "block_id": "b63",
+                  "kind": "text",
+                  "start": 5536,
+                  "end": 5567
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Associate",
+                  "block_id": "b63",
+                  "kind": "text",
+                  "start": 5524,
+                  "end": 5533
+                }
+              ],
+              "section": "WORK EXPERIENCE",
+              "date_label": "Feb 2023- July 2023",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Associate Level 1 (Securities Services) at BNP Paribas India Solution Pvt Ltd",
+            "quote": "Associate Level 1 (Securities Services) | BNP Paribas India Solution Pvt Ltd | Sep 2023- June 2025",
+            "event_id": "v6262f791df513f04",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Associate Level 1 (Securities Services) | BNP Paribas India Solution Pvt Ltd | Sep 2023- June 2025",
+                  "block_id": "b35",
+                  "kind": "text",
+                  "start": 2864,
+                  "end": 2962
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Sep 2023- June 2025",
+                  "block_id": "b35",
+                  "kind": "text",
+                  "start": 2943,
+                  "end": 2962
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "BNP Paribas India Solution Pvt Ltd",
+                  "block_id": "b35",
+                  "kind": "text",
+                  "start": 2906,
+                  "end": 2940
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Associate Level 1 (Securities Services",
+                  "block_id": "b35",
+                  "kind": "text",
+                  "start": 2864,
+                  "end": 2902
+                }
+              ],
+              "section": "WORK EXPERIENCE",
+              "date_label": "Sep 2023- June 2025",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 4,
+      "total_events": 5,
+      "dated_share": 0.8,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 54,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

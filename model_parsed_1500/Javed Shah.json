@@ -1,0 +1,756 @@
+{
+  "file_name": "Javed Shah.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 4,
+    "total_events": 7,
+    "dated_share": 0.571,
+    "unresolved": 3,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "vc138543c4e0aa4b6",
+      "company": "SABMiller India Ltd (A global brewing company",
+      "title": "Hardware & Network Engineer",
+      "start_date": "2014-07",
+      "end_date": "2015-08",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vf34872225b6def3a",
+      "company": "Bajaj Auto Ltd",
+      "title": "IT Specialist",
+      "start_date": "2015-06",
+      "end_date": "2017-05",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vd9bd459fb7fb03eb",
+      "company": "IBM India Pvt. Ltd",
+      "title": "Network Engineer",
+      "start_date": "2017-07",
+      "end_date": "2022-01",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vdcb58a6ded42e1ef",
+      "company": "",
+      "title": "Engineer",
+      "start_date": "2022-01",
+      "end_date": "2026-06",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "vc3a2657ef7cd24cc",
+      "company": "Dr. Babasaheb Ambedkar Marathwada University • Aurangabad",
+      "title": "BCA (Bachelor of Computer Applications",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    },
+    {
+      "id": "v81a0a770122890a8",
+      "company": "",
+      "title": "HSC",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    },
+    {
+      "id": "vbd05192da71e7a3c",
+      "company": "",
+      "title": "SSC",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "gaps": [
+    {
+      "id": "g07bae5e4f81548a8",
+      "start": "2017-06",
+      "end": "2017-06",
+      "months": 1,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    }
+  ],
+  "total_work_experience": 4,
+  "total_projects": 0,
+  "total_gaps": 1,
+  "raw_pipeline_dto": {
+    "doc_id": "Javed Shah",
+    "filename": "Javed Shah.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "vc138543c4e0aa4b6",
+        "type": "EMPLOYMENT",
+        "title": "Hardware & Network Engineer",
+        "org": "SABMiller India Ltd (A global brewing company",
+        "start": "2014-07",
+        "end": "2015-08",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Hardware & Network Engineer 07/2014 - 08/2015\nSABMiller India Ltd (A global brewing company)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Hardware & Network Engineer 07/2014 - 08/2015",
+              "block_id": "b60",
+              "kind": "text",
+              "start": 3112,
+              "end": 3157
+            },
+            {
+              "page": 1,
+              "text": "SABMiller India Ltd (A global brewing company)",
+              "block_id": "b61",
+              "kind": "text",
+              "start": 3159,
+              "end": 3205
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "07/2014 - 08/2015",
+              "block_id": "b60",
+              "kind": "text",
+              "start": 3140,
+              "end": 3157
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "SABMiller India Ltd (A global brewing company",
+              "block_id": "b61",
+              "kind": "text",
+              "start": 3159,
+              "end": 3204
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Hardware & Network Engineer",
+              "block_id": "b60",
+              "kind": "text",
+              "start": 3112,
+              "end": 3139
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "07/2014 - 08/2015",
+          "is_present": false
+        },
+        "date_label": "07/2014 - 08/2015",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vf34872225b6def3a",
+        "type": "EMPLOYMENT",
+        "title": "IT Specialist",
+        "org": "Bajaj Auto Ltd",
+        "start": "2015-06",
+        "end": "2017-05",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "IT Specialist 06/2015 - 05/2017\nBajaj Auto Ltd",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "IT Specialist 06/2015 - 05/2017",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 2550,
+              "end": 2581
+            },
+            {
+              "page": 1,
+              "text": "Bajaj Auto Ltd",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 2583,
+              "end": 2597
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "06/2015 - 05/2017",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 2564,
+              "end": 2581
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Bajaj Auto Ltd",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 2583,
+              "end": 2597
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "IT Specialist",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 2550,
+              "end": 2563
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "06/2015 - 05/2017",
+          "is_present": false
+        },
+        "date_label": "06/2015 - 05/2017",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vd9bd459fb7fb03eb",
+        "type": "EMPLOYMENT",
+        "title": "Network Engineer",
+        "org": "IBM India Pvt. Ltd",
+        "start": "2017-07",
+        "end": "2022-01",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Network Engineer 07/2017 - 01/2022\nIBM India Pvt. Ltd",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Network Engineer 07/2017 - 01/2022",
+              "block_id": "b36",
+              "kind": "text",
+              "start": 1761,
+              "end": 1795
+            },
+            {
+              "page": 1,
+              "text": "IBM India Pvt. Ltd",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 1797,
+              "end": 1815
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "07/2017 - 01/2022",
+              "block_id": "b36",
+              "kind": "text",
+              "start": 1778,
+              "end": 1795
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "IBM India Pvt. Ltd",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 1797,
+              "end": 1815
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Network Engineer",
+              "block_id": "b36",
+              "kind": "text",
+              "start": 1761,
+              "end": 1777
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "07/2017 - 01/2022",
+          "is_present": false
+        },
+        "date_label": "07/2017 - 01/2022",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vdcb58a6ded42e1ef",
+        "type": "EMPLOYMENT",
+        "title": "Engineer",
+        "org": "",
+        "start": "2022-01",
+        "end": "2026-06",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Engineer, Core Operations 01/2022 – 06/2026",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Engineer, Core Operations 01/2022 – 06/2026",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 924,
+              "end": 967
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "01/2022 – 06/2026",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 950,
+              "end": 967
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Engineer",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 924,
+              "end": 932
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "01/2022 – 06/2026",
+          "is_present": false
+        },
+        "date_label": "01/2022 – 06/2026",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "vc3a2657ef7cd24cc",
+        "type": "EDUCATION",
+        "title": "BCA (Bachelor of Computer Applications",
+        "org": "Dr. Babasaheb Ambedkar Marathwada University • Aurangabad",
+        "entry_text": "BCA (Bachelor of Computer Applications) Dr. Babasaheb Ambedkar Marathwada University • Aurangabad 2014",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "BCA (Bachelor of Computer Applications)",
+              "block_id": "b75",
+              "kind": "text",
+              "start": 3831,
+              "end": 3870
+            },
+            {
+              "page": 1,
+              "text": "Dr. Babasaheb Ambedkar Marathwada University • Aurangabad",
+              "block_id": "b76",
+              "kind": "text",
+              "start": 3872,
+              "end": 3929
+            },
+            {
+              "page": 1,
+              "text": "2014",
+              "block_id": "b77",
+              "kind": "text",
+              "start": 3931,
+              "end": 3935
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2014",
+              "block_id": "b77",
+              "kind": "text",
+              "start": 3931,
+              "end": 3935
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Dr. Babasaheb Ambedkar Marathwada University • Aurangabad",
+              "block_id": "b76",
+              "kind": "text",
+              "start": 3872,
+              "end": 3929
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "BCA (Bachelor of Computer Applications",
+              "block_id": "b75",
+              "kind": "text",
+              "start": 3831,
+              "end": 3869
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2014",
+          "is_present": false
+        },
+        "date_label": "2014",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      },
+      {
+        "id": "v81a0a770122890a8",
+        "type": "EDUCATION",
+        "title": "HSC",
+        "org": "",
+        "entry_text": "HSC Aurangabad Board • Aurangabad 2010",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "HSC",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 3937,
+              "end": 3940
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2010",
+              "block_id": "b80",
+              "kind": "text",
+              "start": 3973,
+              "end": 3977
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "HSC",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 3937,
+              "end": 3940
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "EDUCATION",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "vbd05192da71e7a3c",
+        "type": "EDUCATION",
+        "title": "SSC",
+        "org": "",
+        "entry_text": "SSC Aurangabad Board • Aurangabad 2008 v STRENGTHS • Eager Learner: Fast & adaptable. • Team Player: Works well under pressure. • Confidence: Driven & determined.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "SSC",
+              "block_id": "b81",
+              "kind": "text",
+              "start": 3979,
+              "end": 3982
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2008",
+              "block_id": "b83",
+              "kind": "text",
+              "start": 4015,
+              "end": 4019
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "SSC",
+              "block_id": "b81",
+              "kind": "text",
+              "start": 3979,
+              "end": 3982
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "EDUCATION",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g07bae5e4f81548a8",
+        "start": [
+          2017,
+          6
+        ],
+        "end": [
+          2017,
+          6
+        ],
+        "months": 1,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "vf34872225b6def3a",
+          "event_after": "vd9bd459fb7fb03eb",
+          "coverage_scope": "employment"
+        },
+        "start_label": "2017-06",
+        "end_label": "2017-06",
+        "evidence_quotes": [
+          "IT Specialist 06/2015 - 05/2017 Bajaj Auto Ltd",
+          "Network Engineer 07/2017 - 01/2022 IBM India Pvt. Ltd"
+        ],
+        "evidence_details": [
+          {
+            "header": "IT Specialist at Bajaj Auto Ltd",
+            "quote": "IT Specialist 06/2015 - 05/2017 Bajaj Auto Ltd",
+            "event_id": "vf34872225b6def3a",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "IT Specialist 06/2015 - 05/2017",
+                  "block_id": "b50",
+                  "kind": "text",
+                  "start": 2550,
+                  "end": 2581
+                },
+                {
+                  "page": 1,
+                  "text": "Bajaj Auto Ltd",
+                  "block_id": "b51",
+                  "kind": "text",
+                  "start": 2583,
+                  "end": 2597
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "06/2015 - 05/2017",
+                  "block_id": "b50",
+                  "kind": "text",
+                  "start": 2564,
+                  "end": 2581
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Bajaj Auto Ltd",
+                  "block_id": "b51",
+                  "kind": "text",
+                  "start": 2583,
+                  "end": 2597
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "IT Specialist",
+                  "block_id": "b50",
+                  "kind": "text",
+                  "start": 2550,
+                  "end": 2563
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "06/2015 - 05/2017",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Network Engineer at IBM India Pvt. Ltd",
+            "quote": "Network Engineer 07/2017 - 01/2022 IBM India Pvt. Ltd",
+            "event_id": "vd9bd459fb7fb03eb",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Network Engineer 07/2017 - 01/2022",
+                  "block_id": "b36",
+                  "kind": "text",
+                  "start": 1761,
+                  "end": 1795
+                },
+                {
+                  "page": 1,
+                  "text": "IBM India Pvt. Ltd",
+                  "block_id": "b37",
+                  "kind": "text",
+                  "start": 1797,
+                  "end": 1815
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "07/2017 - 01/2022",
+                  "block_id": "b36",
+                  "kind": "text",
+                  "start": 1778,
+                  "end": 1795
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "IBM India Pvt. Ltd",
+                  "block_id": "b37",
+                  "kind": "text",
+                  "start": 1797,
+                  "end": 1815
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Network Engineer",
+                  "block_id": "b36",
+                  "kind": "text",
+                  "start": 1761,
+                  "end": 1777
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "07/2017 - 01/2022",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 4,
+      "total_events": 7,
+      "dated_share": 0.571,
+      "unresolved": 3,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 143,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

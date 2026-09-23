@@ -1,0 +1,241 @@
+{
+  "file_name": "ShantanuBharati.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 2,
+    "dated_share": 0.5,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [],
+  "projects": [],
+  "education": [
+    {
+      "id": "v8593b3a4e2349d13",
+      "company": "",
+      "title": "Diploma in Automobile Engineering",
+      "start_date": "2020-11",
+      "end_date": "2022-09",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v3bb18918e6217fdf",
+      "company": "",
+      "title": "Bachelor of Engineering-M.E.",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 0,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "ShantanuBharati",
+    "filename": "ShantanuBharati.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v8593b3a4e2349d13",
+        "type": "EDUCATION",
+        "title": "Diploma in Automobile Engineering",
+        "org": "",
+        "start": "2020-11",
+        "end": "2022-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EDUCATION_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Diploma in Automobile Engineering",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Diploma in Automobile Engineering",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 2251,
+              "end": 2284
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2017",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 2332,
+              "end": 2336
+            },
+            {
+              "page": 1,
+              "text": "Nov 2020- Sep 2022",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 2378,
+              "end": 2396
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Diploma in Automobile Engineering",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 2251,
+              "end": 2284
+            }
+          ],
+          "section": "Educational Background",
+          "date_label": "Nov 2020- Sep 2022",
+          "is_present": false
+        },
+        "date_label": "Nov 2020- Sep 2022",
+        "section": "Educational Background",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v3bb18918e6217fdf",
+        "type": "EDUCATION",
+        "title": "Bachelor of Engineering-M.E.",
+        "org": "",
+        "entry_text": "Bachelor of Engineering-M.E. MIT-COE, Kothrud, Pune SPPU Pune | 2020",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor of Engineering-M.E.",
+              "block_id": "b62",
+              "kind": "text",
+              "start": 2181,
+              "end": 2209
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2020",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 2245,
+              "end": 2249
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Engineering-M.E",
+              "block_id": "b62",
+              "kind": "text",
+              "start": 2181,
+              "end": 2208
+            }
+          ],
+          "section": "Educational Background",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Educational Background",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 2,
+      "dated_share": 0.5,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 23,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

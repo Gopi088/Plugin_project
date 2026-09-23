@@ -1,0 +1,688 @@
+{
+  "file_name": "Dheeraj_Kumar.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 6,
+    "total_events": 6,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.855,
+    "document_accuracy": 0.85
+  },
+  "work_experience": [
+    {
+      "id": "v1157b3434b3bc838",
+      "company": "",
+      "title": "Associate Trainer • eAgeTutor",
+      "start_date": "2012-04",
+      "end_date": "2014-04",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vbb20d3753490e1fc",
+      "company": "",
+      "title": "Operations Associate • John Keells BPO",
+      "start_date": "2014-04",
+      "end_date": "2015-02",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v6e92c5b5c5e88fc1",
+      "company": "Secondment • Fareportal (Travel Domain",
+      "title": "Learning & Development Specialist",
+      "start_date": "2019-04",
+      "end_date": "2020-04",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vab0952dbda719c39",
+      "company": "",
+      "title": "Process Excellence Lead (Assistant Manager) • Webhelp-Concentrix",
+      "start_date": "2020-01",
+      "end_date": "2025-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    },
+    {
+      "id": "vf71a227b0696c447",
+      "company": "AI Transformation & Operations Excellence • Webhelp-Concentrix",
+      "title": "Service Delivery Manager",
+      "start_date": "2025-01",
+      "end_date": "2026-12",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "v1f7702031c4c9cbe",
+      "company": "Delhi University",
+      "title": "B. Com",
+      "start_date": "2008-04",
+      "end_date": "2012-04",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "gaps": [
+    {
+      "id": "g597735e93461e3bf",
+      "start": "2015-03",
+      "end": "2019-03",
+      "months": 49,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    }
+  ],
+  "total_work_experience": 5,
+  "total_projects": 0,
+  "total_gaps": 1,
+  "raw_pipeline_dto": {
+    "doc_id": "Dheeraj_Kumar",
+    "filename": "Dheeraj_Kumar.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v1f7702031c4c9cbe",
+        "type": "EDUCATION",
+        "title": "B. Com",
+        "org": "Delhi University",
+        "start": "2008-04",
+        "end": "2012-04",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "• B. Com — Commerce | Delhi University, Delhi | Apr 2008 – Apr 2012",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "• B. Com — Commerce | Delhi University, Delhi | Apr 2008 – Apr 2012",
+              "block_id": "b132",
+              "kind": "text",
+              "start": 10870,
+              "end": 10937
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Apr 2008 – Apr 2012",
+              "block_id": "b132",
+              "kind": "text",
+              "start": 10918,
+              "end": 10937
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Delhi University",
+              "block_id": "b132",
+              "kind": "text",
+              "start": 10892,
+              "end": 10908
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "B. Com",
+              "block_id": "b132",
+              "kind": "text",
+              "start": 10872,
+              "end": 10878
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "Apr 2008 – Apr 2012",
+          "is_present": false
+        },
+        "date_label": "Apr 2008 – Apr 2012",
+        "section": "EDUCATION",
+        "is_present": false
+      },
+      {
+        "id": "v1157b3434b3bc838",
+        "type": "EMPLOYMENT",
+        "title": "Associate Trainer • eAgeTutor",
+        "org": "",
+        "start": "2012-04",
+        "end": "2014-04",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Associate Trainer • eAgeTutor | Apr 2012 – Apr 2014 | Delhi",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Associate Trainer • eAgeTutor | Apr 2012 – Apr 2014 | Delhi",
+              "block_id": "b104",
+              "kind": "text",
+              "start": 8324,
+              "end": 8383
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Apr 2012 – Apr 2014",
+              "block_id": "b104",
+              "kind": "text",
+              "start": 8356,
+              "end": 8375
+            },
+            {
+              "page": 1,
+              "text": "2023",
+              "block_id": "b113",
+              "kind": "text",
+              "start": 9228,
+              "end": 9232
+            },
+            {
+              "page": 1,
+              "text": "Feb 2024",
+              "block_id": "b118",
+              "kind": "text",
+              "start": 9864,
+              "end": 9872
+            },
+            {
+              "page": 1,
+              "text": "2024",
+              "block_id": "b120",
+              "kind": "text",
+              "start": 10049,
+              "end": 10053
+            },
+            {
+              "page": 1,
+              "text": "Nov 2023",
+              "block_id": "b124",
+              "kind": "text",
+              "start": 10307,
+              "end": 10315
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Associate Trainer • eAgeTutor",
+              "block_id": "b104",
+              "kind": "text",
+              "start": 8324,
+              "end": 8353
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Apr 2012 – Apr 2014",
+          "is_present": false
+        },
+        "date_label": "Apr 2012 – Apr 2014",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vbb20d3753490e1fc",
+        "type": "EMPLOYMENT",
+        "title": "Operations Associate • John Keells BPO",
+        "org": "",
+        "start": "2014-04",
+        "end": "2015-02",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Operations Associate • John Keells BPO | Apr 2014 – Feb 2015 | Delhi",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Operations Associate • John Keells BPO | Apr 2014 – Feb 2015 | Delhi",
+              "block_id": "b102",
+              "kind": "text",
+              "start": 8151,
+              "end": 8219
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Apr 2014 – Feb 2015",
+              "block_id": "b102",
+              "kind": "text",
+              "start": 8192,
+              "end": 8211
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Operations Associate • John Keells BPO",
+              "block_id": "b102",
+              "kind": "text",
+              "start": 8151,
+              "end": 8189
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Apr 2014 – Feb 2015",
+          "is_present": false
+        },
+        "date_label": "Apr 2014 – Feb 2015",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v6e92c5b5c5e88fc1",
+        "type": "EMPLOYMENT",
+        "title": "Learning & Development Specialist",
+        "org": "Secondment • Fareportal (Travel Domain",
+        "start": "2019-04",
+        "end": "2020-04",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Learning & Development Specialist — Secondment • Fareportal (Travel Domain) | Apr 2019 – Apr 2020 |",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Learning & Development Specialist — Secondment • Fareportal (Travel Domain) | Apr 2019 – Apr 2020 |",
+              "block_id": "b89",
+              "kind": "text",
+              "start": 7072,
+              "end": 7171
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Apr 2019 – Apr 2020",
+              "block_id": "b89",
+              "kind": "text",
+              "start": 7150,
+              "end": 7169
+            },
+            {
+              "page": 1,
+              "text": "Mar 2015 – Apr 2019",
+              "block_id": "b98",
+              "kind": "text",
+              "start": 7890,
+              "end": 7909
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Secondment • Fareportal (Travel Domain",
+              "block_id": "b89",
+              "kind": "text",
+              "start": 7108,
+              "end": 7146
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Learning & Development Specialist",
+              "block_id": "b89",
+              "kind": "text",
+              "start": 7072,
+              "end": 7105
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Apr 2019 – Apr 2020",
+          "is_present": false
+        },
+        "date_label": "Apr 2019 – Apr 2020",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vab0952dbda719c39",
+        "type": "EMPLOYMENT",
+        "title": "Process Excellence Lead (Assistant Manager) • Webhelp-Concentrix",
+        "org": "",
+        "start": "2020-01",
+        "end": "2025-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Process Excellence Lead (Assistant Manager) • Webhelp-Concentrix | Oct 2020 – 2025 | Gurugram",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Process Excellence Lead (Assistant Manager) • Webhelp-Concentrix | Oct 2020 – 2025 | Gurugram",
+              "block_id": "b75",
+              "kind": "text",
+              "start": 5663,
+              "end": 5756
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Oct 2020 – 2025",
+              "block_id": "b75",
+              "kind": "text",
+              "start": 5730,
+              "end": 5745
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Process Excellence Lead (Assistant Manager) • Webhelp-Concentrix",
+              "block_id": "b75",
+              "kind": "text",
+              "start": 5663,
+              "end": 5727
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Oct 2020 – 2025",
+          "is_present": false
+        },
+        "date_label": "Oct 2020 – 2025",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vf71a227b0696c447",
+        "type": "EMPLOYMENT",
+        "title": "Service Delivery Manager",
+        "org": "AI Transformation & Operations Excellence • Webhelp-Concentrix",
+        "start": "2025-01",
+        "end": "2026-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Service Delivery Manager — AI Transformation & Operations Excellence • Webhelp-Concentrix | 2025 – Present |",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Service Delivery Manager — AI Transformation & Operations Excellence • Webhelp-Concentrix | 2025 – Present |",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 2923,
+              "end": 3031
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2025 – Present",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 3015,
+              "end": 3029
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "AI Transformation & Operations Excellence • Webhelp-Concentrix",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 2950,
+              "end": 3012
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Service Delivery Manager",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 2923,
+              "end": 2947
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "2025 – Present",
+          "is_present": true
+        },
+        "date_label": "2025 – Present",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g597735e93461e3bf",
+        "start": [
+          2015,
+          3
+        ],
+        "end": [
+          2019,
+          3
+        ],
+        "months": 49,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "vbb20d3753490e1fc",
+          "event_after": "v6e92c5b5c5e88fc1",
+          "coverage_scope": "all_dated_activity"
+        },
+        "start_label": "2015-03",
+        "end_label": "2019-03",
+        "evidence_quotes": [
+          "Operations Associate • John Keells BPO | Apr 2014 – Feb 2015 | Delhi",
+          "Learning & Development Specialist — Secondment • Fareportal (Travel Domain) | Apr 2019 – Apr 2020 |"
+        ],
+        "evidence_details": [
+          {
+            "header": "Operations Associate • John Keells BPO",
+            "quote": "Operations Associate • John Keells BPO | Apr 2014 – Feb 2015 | Delhi",
+            "event_id": "vbb20d3753490e1fc",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Operations Associate • John Keells BPO | Apr 2014 – Feb 2015 | Delhi",
+                  "block_id": "b102",
+                  "kind": "text",
+                  "start": 8151,
+                  "end": 8219
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Apr 2014 – Feb 2015",
+                  "block_id": "b102",
+                  "kind": "text",
+                  "start": 8192,
+                  "end": 8211
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Operations Associate • John Keells BPO",
+                  "block_id": "b102",
+                  "kind": "text",
+                  "start": 8151,
+                  "end": 8189
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "Apr 2014 – Feb 2015",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Learning & Development Specialist at Secondment • Fareportal (Travel Domain",
+            "quote": "Learning & Development Specialist — Secondment • Fareportal (Travel Domain) | Apr 2019 – Apr 2020 |",
+            "event_id": "v6e92c5b5c5e88fc1",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Learning & Development Specialist — Secondment • Fareportal (Travel Domain) | Apr 2019 – Apr 2020 |",
+                  "block_id": "b89",
+                  "kind": "text",
+                  "start": 7072,
+                  "end": 7171
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Apr 2019 – Apr 2020",
+                  "block_id": "b89",
+                  "kind": "text",
+                  "start": 7150,
+                  "end": 7169
+                },
+                {
+                  "page": 1,
+                  "text": "Mar 2015 – Apr 2019",
+                  "block_id": "b98",
+                  "kind": "text",
+                  "start": 7890,
+                  "end": 7909
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Secondment • Fareportal (Travel Domain",
+                  "block_id": "b89",
+                  "kind": "text",
+                  "start": 7108,
+                  "end": 7146
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Learning & Development Specialist",
+                  "block_id": "b89",
+                  "kind": "text",
+                  "start": 7072,
+                  "end": 7105
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "Apr 2019 – Apr 2020",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 6,
+      "total_events": 6,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.855,
+      "document_accuracy": 0.85
+    },
+    "total_represented_months": 176,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

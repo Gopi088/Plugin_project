@@ -1,0 +1,499 @@
+{
+  "file_name": "MahanteshJainapure.pdf",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 5,
+    "dated_share": 0.2,
+    "unresolved": 4,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.765,
+    "document_accuracy": 0.71
+  },
+  "work_experience": [
+    {
+      "id": "v6be114f1685ff7cf",
+      "company": "Nov'",
+      "title": "",
+      "start_date": "2025-01",
+      "end_date": "2026-12",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    },
+    {
+      "id": "vd491b0d1730b0816",
+      "company": "Tata Consultancy Services",
+      "title": "Team Leader",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    },
+    {
+      "id": "v06d5f93e6d49cebf",
+      "company": "State Street Corporation Ltd. Bangalore",
+      "title": "Fund Accounting Specialist",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    },
+    {
+      "id": "vea4d467132ac9b45",
+      "company": "State Street Syntel Services Pvt. Ltd",
+      "title": "Senior Associate",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "v5e36fe2cc5590234",
+      "company": ": Master of Business Administration from Gitam University",
+      "title": "",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 4,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "MahanteshJainapure",
+    "filename": "MahanteshJainapure.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "v6be114f1685ff7cf",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Nov'",
+        "start": "2025-01",
+        "end": "2026-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Nov'2025 to Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Nov'2025 to Present",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 2052,
+              "end": 2071
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2025 to Present",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 2056,
+              "end": 2071
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Nov",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 2052,
+              "end": 2055
+            }
+          ],
+          "title": [],
+          "section": "WORK  EXPERIENCE",
+          "date_label": "2025 to Present",
+          "is_present": true
+        },
+        "date_label": "2025 to Present",
+        "section": "WORK  EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "vd491b0d1730b0816",
+        "type": "EMPLOYMENT",
+        "title": "Team Leader",
+        "org": "Tata Consultancy Services",
+        "entry_text": "Team Leader at Tata Consultancy Services, Bangalore Jun'2015 to Jun'2022 Role: Deutsche Bank – Custody Operations & Loan Settlement Project • Managed loan trade settlements and reconciliations, including syndicated term loans across LMA and LSTA markets. • Executed end-to-end loan lifecycle activiti",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Team Leader at Tata Consultancy Services, Bangalore",
+              "block_id": "b124",
+              "kind": "text",
+              "start": 5740,
+              "end": 5791
+            },
+            {
+              "page": 1,
+              "text": "Jun'2015 to Jun'2022",
+              "block_id": "b125",
+              "kind": "text",
+              "start": 5793,
+              "end": 5813
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2015",
+              "block_id": "b125",
+              "kind": "text",
+              "start": 5797,
+              "end": 5801
+            },
+            {
+              "page": 1,
+              "text": "2022",
+              "block_id": "b125",
+              "kind": "text",
+              "start": 5809,
+              "end": 5813
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Tata Consultancy Services",
+              "block_id": "b124",
+              "kind": "text",
+              "start": 5755,
+              "end": 5780
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Team Leader",
+              "block_id": "b124",
+              "kind": "text",
+              "start": 5740,
+              "end": 5751
+            }
+          ],
+          "section": "WORK  EXPERIENCE",
+          "date_label": "2015 / 2022",
+          "is_present": false
+        },
+        "date_label": "2015 / 2022",
+        "section": "WORK  EXPERIENCE",
+        "status": "AMBIGUOUS"
+      },
+      {
+        "id": "v06d5f93e6d49cebf",
+        "type": "EMPLOYMENT",
+        "title": "Fund Accounting Specialist",
+        "org": "State Street Corporation Ltd. Bangalore",
+        "entry_text": "Fund Accounting Specialist, State Street Corporation Ltd. Bangalore Jun'2022 - Feb'2023 Data Handling: MS Excel (Advanced), Data Analysis Reporting: P&L Reporting, Balance Sheet Validation Systems & Tools: MS Office Suite, Outlook Process Tools: Jira (Tracking & Workflow Management) Audit & Complian",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Fund Accounting Specialist, State Street Corporation Ltd. Bangalore",
+              "block_id": "b147",
+              "kind": "text",
+              "start": 6894,
+              "end": 6961
+            },
+            {
+              "page": 1,
+              "text": "Jun'2022 - Feb'2023",
+              "block_id": "b148",
+              "kind": "text",
+              "start": 6963,
+              "end": 6982
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2022",
+              "block_id": "b148",
+              "kind": "text",
+              "start": 6967,
+              "end": 6971
+            },
+            {
+              "page": 1,
+              "text": "2023",
+              "block_id": "b148",
+              "kind": "text",
+              "start": 6978,
+              "end": 6982
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "State Street Corporation Ltd. Bangalore",
+              "block_id": "b147",
+              "kind": "text",
+              "start": 6922,
+              "end": 6961
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Fund Accounting Specialist",
+              "block_id": "b147",
+              "kind": "text",
+              "start": 6894,
+              "end": 6920
+            }
+          ],
+          "section": "WORK  EXPERIENCE",
+          "date_label": "2022 / 2023",
+          "is_present": false
+        },
+        "date_label": "2022 / 2023",
+        "section": "WORK  EXPERIENCE",
+        "status": "AMBIGUOUS"
+      },
+      {
+        "id": "vea4d467132ac9b45",
+        "type": "EMPLOYMENT",
+        "title": "Senior Associate",
+        "org": "State Street Syntel Services Pvt. Ltd",
+        "entry_text": "Senior Associate at State Street Syntel Services Pvt. Ltd., Pune Apr'2010 to Feb'2015 JPMorgan – EMEA Trade Operations & Fund Services Project • Managed end-to-end trade lifecycle including trade capture, validation, processing, and reconciliation across asset classes. • Led derivatives operations (",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Associate at State Street Syntel Services Pvt. Ltd., Pune Apr'2010 to Feb'2015",
+              "block_id": "b158",
+              "kind": "text",
+              "start": 7258,
+              "end": 7343
+            },
+            {
+              "page": 1,
+              "text": "JPMorgan – EMEA Trade Operations & Fund Services Project",
+              "block_id": "b159",
+              "kind": "text",
+              "start": 7353,
+              "end": 7409
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2010",
+              "block_id": "b158",
+              "kind": "text",
+              "start": 7327,
+              "end": 7331
+            },
+            {
+              "page": 1,
+              "text": "2015",
+              "block_id": "b158",
+              "kind": "text",
+              "start": 7339,
+              "end": 7343
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "State Street Syntel Services Pvt. Ltd",
+              "block_id": "b158",
+              "kind": "text",
+              "start": 7278,
+              "end": 7315
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Associate",
+              "block_id": "b158",
+              "kind": "text",
+              "start": 7258,
+              "end": 7274
+            }
+          ],
+          "section": "WORK  EXPERIENCE",
+          "date_label": "2010 / 2015",
+          "is_present": false
+        },
+        "date_label": "2010 / 2015",
+        "section": "WORK  EXPERIENCE",
+        "status": "AMBIGUOUS"
+      },
+      {
+        "id": "v5e36fe2cc5590234",
+        "type": "EDUCATION",
+        "title": "",
+        "org": ": Master of Business Administration from Gitam University",
+        "entry_text": "2019: Master of Business Administration from Gitam University 2009: Bachelor of Commerce from Karnataka University Dharwad",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "2019: Master of Business Administration from Gitam University",
+              "block_id": "b176",
+              "kind": "text",
+              "start": 9026,
+              "end": 9087
+            },
+            {
+              "page": 1,
+              "text": "2009: Bachelor of Commerce from Karnataka University Dharwad",
+              "block_id": "b177",
+              "kind": "text",
+              "start": 9089,
+              "end": 9149
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2019",
+              "block_id": "b176",
+              "kind": "text",
+              "start": 9026,
+              "end": 9030
+            },
+            {
+              "page": 1,
+              "text": "2009",
+              "block_id": "b177",
+              "kind": "text",
+              "start": 9089,
+              "end": 9093
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Master of Business Administration from Gitam University",
+              "block_id": "b176",
+              "kind": "text",
+              "start": 9032,
+              "end": 9087
+            }
+          ],
+          "title": [],
+          "section": "EDUCATION",
+          "date_label": "2019 / 2009",
+          "is_present": false
+        },
+        "date_label": "2019 / 2009",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "vd491b0d1730b0816",
+            "v06d5f93e6d49cebf",
+            "vea4d467132ac9b45"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 5,
+      "dated_share": 0.2,
+      "unresolved": 4,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.765,
+      "document_accuracy": 0.71
+    },
+    "total_represented_months": 24,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

@@ -26,6 +26,8 @@ var RT_API = (() => {
   }
 
   return {
+    addNote: (id, payload) => req(`/api/documents/${id}/notes`, {method:'POST',body:JSON.stringify(payload)}),
+    saveState: (id, payload) => req(`/api/documents/${id}/state`, {method:'POST',body:JSON.stringify(payload)}),
     health: () => req("/health"),
     submit: (payload) =>
       req("/api/documents", { method: "POST", body: JSON.stringify(payload) }),
@@ -33,6 +35,7 @@ var RT_API = (() => {
     timeline: (id) => req(`/api/documents/${id}/timeline`),
     evidence: (id, params) =>
       req(`/api/documents/${id}/evidence?${new URLSearchParams(params)}`),
+    sourcePage: (id, page) => req(`/api/documents/${encodeURIComponent(id)}/source-page?page=${encodeURIComponent(page)}`),
     stages: (id) => req(`/api/documents/${id}/stages`),
     feedback: (id, payload) =>
       req(`/api/documents/${id}/feedback`, { method: "POST", body: JSON.stringify(payload) }),

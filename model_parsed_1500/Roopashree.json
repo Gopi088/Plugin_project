@@ -1,0 +1,309 @@
+{
+  "file_name": "Roopashree.pdf",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 3,
+    "dated_share": 0.333,
+    "unresolved": 2,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.83
+  },
+  "work_experience": [
+    {
+      "id": "v86b6a23b5ffc2101",
+      "company": "Northern Trust Corporation",
+      "title": "",
+      "start_date": "2014-09",
+      "end_date": "2026-02",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v35c8e8a5fdd2ca08",
+      "company": "",
+      "title": "Consultant",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    },
+    {
+      "id": "vabe6570cc51a3322",
+      "company": "",
+      "title": "Technical Coordinator/Emerging Lead",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "Project",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "• Bachelor of Commerce, NMKRV College 2011 -  2014"
+      ]
+    }
+  ],
+  "education": [],
+  "gaps": [],
+  "total_work_experience": 3,
+  "total_projects": 1,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "Roopashree",
+    "filename": "Roopashree.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "v86b6a23b5ffc2101",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Northern Trust Corporation",
+        "start": "2014-09",
+        "end": "2026-02",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Northern Trust Corporation, Bengaluru  Sept 2014 – Feb 2026",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Northern Trust Corporation, Bengaluru  Sept 2014 – Feb 2026",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 704,
+              "end": 763
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Sept 2014 – Feb 2026",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 743,
+              "end": 763
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Northern Trust Corporation",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 704,
+              "end": 730
+            }
+          ],
+          "title": [],
+          "section": "Work Experience",
+          "date_label": "Sept 2014 – Feb 2026",
+          "is_present": false
+        },
+        "date_label": "Sept 2014 – Feb 2026",
+        "section": "Work Experience",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v35c8e8a5fdd2ca08",
+        "type": "EMPLOYMENT",
+        "title": "Consultant",
+        "org": "",
+        "entry_text": "Consultant, Officer Enterprise Risk Management - BU Control Testing • Conducted RCSA control testing and process design reviews to evaluate control effectiveness, identify gaps, and recommend improvements, leveraging deep expertise in Risk and Control Self-Assessment to strengthen risk mitigation an",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Consultant, Officer",
+              "block_id": "b11",
+              "kind": "text",
+              "start": 769,
+              "end": 788
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Consultant",
+              "block_id": "b11",
+              "kind": "text",
+              "start": 769,
+              "end": 779
+            }
+          ],
+          "section": "Work Experience",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Work Experience",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "vabe6570cc51a3322",
+        "type": "EMPLOYMENT",
+        "title": "Technical Coordinator/Emerging Lead",
+        "org": "",
+        "entry_text": "Technical Coordinator/Emerging Lead Global Reconciliation – Custody operations (Centre of Excellence) • Managed paydown asset investigations and provide resolution in accordance with CASS and REMS guidelines. • Handled complex issue escalations, manage migration efforts, and prepare monthly control ",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Technical Coordinator/Emerging Lead",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 3994,
+              "end": 4029
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Technical Coordinator/Emerging Lead",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 3994,
+              "end": 4029
+            }
+          ],
+          "section": "Work Experience",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Work Experience",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "Project",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "• Bachelor of Commerce, NMKRV College 2011 -  2014"
+        ],
+        "raw_text": "• Bachelor of Commerce, NMKRV College 2011 -  2014",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "• Bachelor of Commerce, NMKRV College 2011 -  2014",
+              "block_id": "b95",
+              "kind": "text",
+              "start": 5702,
+              "end": 5752
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "v35c8e8a5fdd2ca08",
+            "vabe6570cc51a3322"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 3,
+      "dated_share": 0.333,
+      "unresolved": 2,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.83
+    },
+    "total_represented_months": 138,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

@@ -1,0 +1,404 @@
+{
+  "file_name": "Khushal Narain Lulla.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 2,
+    "dated_share": 0.5,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v18c13bdc8e4a133f",
+      "company": "",
+      "title": "Financial Analyst (Full-time",
+      "start_date": "2024-09",
+      "end_date": "2026-07",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "Project",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Cpm and Pert in project management February 2023 - March 2023",
+        "Worked in a team to understand the network diagrams to map project activities.",
+        "Calculated expected project duration and identified critical paths to optimize scheduling.",
+        "Presented findings with recommendations to improve project planning and resource allocation.",
+        "Portfolio Management Services",
+        "Designed and managed a mock investment portfolio across equity instruments.",
+        "Performed fundamental and technical analysis to select securities based on risk-return objectives.",
+        "Monitored portfolio performance using key financial ratios and market benchmarks."
+      ]
+    },
+    {
+      "id": "proj_2",
+      "name": "Project",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "August 2022 - September 2022"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "v5036bbe61cdb643e",
+      "company": "HSNC University",
+      "title": "Bachelor of Commerce in Accounting and Finance",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 1,
+  "total_projects": 2,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "Khushal Narain Lulla",
+    "filename": "Khushal Narain Lulla.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v18c13bdc8e4a133f",
+        "type": "EMPLOYMENT",
+        "title": "Financial Analyst (Full-time",
+        "org": "",
+        "start": "2024-09",
+        "end": "2026-07",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Financial Analyst (Full-time)\nSeptember 2024 - July 2026",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Financial Analyst (Full-time)",
+              "block_id": "b17",
+              "kind": "text",
+              "start": 765,
+              "end": 794
+            },
+            {
+              "page": 1,
+              "text": "September 2024 - July 2026",
+              "block_id": "b18",
+              "kind": "text",
+              "start": 796,
+              "end": 822
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "September 2024 - July 2026",
+              "block_id": "b18",
+              "kind": "text",
+              "start": 796,
+              "end": 822
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Financial Analyst (Full-time",
+              "block_id": "b17",
+              "kind": "text",
+              "start": 765,
+              "end": 793
+            }
+          ],
+          "section": "RELEVANT EXPERIENCE",
+          "date_label": "September 2024 - July 2026",
+          "is_present": false
+        },
+        "date_label": "September 2024 - July 2026",
+        "section": "RELEVANT EXPERIENCE",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v5036bbe61cdb643e",
+        "type": "EDUCATION",
+        "title": "Bachelor of Commerce in Accounting and Finance",
+        "org": "HSNC University",
+        "entry_text": "HSNC University, H.R.College of commerce & Economics April 2024 Bachelor of Commerce in Accounting and Finance GPA: 9.50 HSNC University, H.R.College of commerce & Economics Xll: 88.10% . SUMMARY & CAREER OBJECTIVE March 2021 Finance professional with 1.10 years of experience in OTC Derivatives, spe",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "HSNC University, H.R.College of commerce & Economics April 2024",
+              "block_id": "b4",
+              "kind": "text",
+              "start": 116,
+              "end": 179
+            },
+            {
+              "page": 1,
+              "text": "Bachelor of Commerce in Accounting and Finance",
+              "block_id": "b5",
+              "kind": "text",
+              "start": 181,
+              "end": 227
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "April 2024",
+              "block_id": "b4",
+              "kind": "text",
+              "start": 169,
+              "end": 179
+            },
+            {
+              "page": 1,
+              "text": "March 2021",
+              "block_id": "b11",
+              "kind": "text",
+              "start": 340,
+              "end": 350
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "HSNC University",
+              "block_id": "b4",
+              "kind": "text",
+              "start": 116,
+              "end": 131
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Commerce in Accounting and Finance",
+              "block_id": "b5",
+              "kind": "text",
+              "start": 181,
+              "end": 227
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "April 2024",
+          "is_present": false
+        },
+        "date_label": "April 2024",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "Project",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Cpm and Pert in project management February 2023 - March 2023",
+          "Worked in a team to understand the network diagrams to map project activities.",
+          "Calculated expected project duration and identified critical paths to optimize scheduling.",
+          "Presented findings with recommendations to improve project planning and resource allocation.",
+          "Portfolio Management Services",
+          "Designed and managed a mock investment portfolio across equity instruments.",
+          "Performed fundamental and technical analysis to select securities based on risk-return objectives.",
+          "Monitored portfolio performance using key financial ratios and market benchmarks."
+        ],
+        "raw_text": "Cpm and Pert in project management February 2023 - March 2023\nWorked in a team to understand the network diagrams to map project activities.\nCalculated expected project duration and identified critical paths to optimize scheduling.\nPresented findings with recommendations to improve project planning and resource allocation.\nPortfolio Management Services\nDesigned and managed a mock investment portfolio across equity instruments.\nPerformed fundamental and technical analysis to select securities based on risk-return objectives.\nMonitored portfolio performance using key financial ratios and market ",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Cpm and Pert in project management February 2023 - March 2023",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 2383,
+              "end": 2444
+            },
+            {
+              "page": 1,
+              "text": "Worked in a team to understand the network diagrams to map project activities.",
+              "block_id": "b35",
+              "kind": "text",
+              "start": 2448,
+              "end": 2526
+            },
+            {
+              "page": 1,
+              "text": "Calculated expected project duration and identified critical paths to optimize scheduling.",
+              "block_id": "b36",
+              "kind": "text",
+              "start": 2528,
+              "end": 2618
+            },
+            {
+              "page": 1,
+              "text": "Presented findings with recommendations to improve project planning and resource allocation.",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 2620,
+              "end": 2712
+            },
+            {
+              "page": 1,
+              "text": "Portfolio Management Services",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 2714,
+              "end": 2743
+            },
+            {
+              "page": 1,
+              "text": "Designed and managed a mock investment portfolio across equity instruments.",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 2745,
+              "end": 2820
+            },
+            {
+              "page": 1,
+              "text": "Performed fundamental and technical analysis to select securities based on risk-return objectives.",
+              "block_id": "b40",
+              "kind": "text",
+              "start": 2822,
+              "end": 2920
+            },
+            {
+              "page": 1,
+              "text": "Monitored portfolio performance using key financial ratios and market benchmarks.",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 2922,
+              "end": 3003
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "Project",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "August 2022 - September 2022"
+        ],
+        "raw_text": "August 2022 - September 2022",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "August 2022 - September 2022",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 3013,
+              "end": 3041
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 2,
+      "dated_share": 0.5,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 23,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

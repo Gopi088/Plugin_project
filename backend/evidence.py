@@ -14,6 +14,8 @@ Confidence rule (documented, deterministic):
     touches the analysis boundary (open-ended).
 """
 
+from .source import locations
+
 AMBIGUITY_PENALTY = {"CONFIRMED": 1.0, "AMBIGUOUS": 0.7, "UNRESOLVED": 0.4}
 PRECISION_PENALTY = {"month": 1.0, "year": 0.85}
 
@@ -56,9 +58,11 @@ def lineage(gap, events_by_id, entries_by_id, assocs_by_id,
                          if b in blocks_by_id]
             link["text_blocks"] = [
                 {"block_id": b, "text": blocks_by_id[b].text,
-                 "page": blocks_by_id[b].page}
+                 "page": blocks_by_id[b].page,
+                 "source": locations(blocks_by_id[b])}
                 for b in ent.block_ids if b in blocks_by_id]
-            link["entry_quote"] = " ".join(blk_texts)[:500]
+            anchored = [loc["text"] for loc in getattr(ev, "source", {}).get("entry", [])]
+            link["entry_quote"] = " ".join(anchored or blk_texts)[:500]
         assocs = [assocs_by_id[a] for a in ev.assoc_ids if a in assocs_by_id]
         link["associations"] = [a.to_dict() for a in assocs]
         link["mentions"] = [mentions_by_id[a.mention_id].to_dict()

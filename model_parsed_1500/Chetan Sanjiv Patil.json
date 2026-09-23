@@ -1,0 +1,208 @@
+{
+  "file_name": "Chetan Sanjiv Patil.pdf",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 0,
+    "total_events": 2,
+    "dated_share": 0.0,
+    "unresolved": 2,
+    "ambiguous": 0,
+    "mean_event_confidence": null,
+    "document_accuracy": 0.8
+  },
+  "work_experience": [
+    {
+      "id": "vcf91fca66e34708e",
+      "company": "",
+      "title": "Juniper Certified Network Associate (JNCIA",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    },
+    {
+      "id": "v36667bfe179d6922",
+      "company": "",
+      "title": "Oracle Cloud Foundations Associate.",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "projects": [],
+  "education": [],
+  "gaps": [],
+  "total_work_experience": 2,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "Chetan Sanjiv Patil",
+    "filename": "Chetan Sanjiv Patil.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [],
+    "unresolved_events": [
+      {
+        "id": "vcf91fca66e34708e",
+        "type": "EMPLOYMENT",
+        "title": "Juniper Certified Network Associate (JNCIA",
+        "org": "",
+        "entry_text": "Juniper Certified Network Associate (JNCIA) Fortinet NSE-1 Fortinet NSE-2 Silver Peak SDWAN certification-SPSX",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Juniper Certified Network Associate (JNCIA)",
+              "block_id": "b45",
+              "kind": "text",
+              "start": 3364,
+              "end": 3407
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Juniper Certified Network Associate (JNCIA",
+              "block_id": "b45",
+              "kind": "text",
+              "start": 3364,
+              "end": 3406
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v36667bfe179d6922",
+        "type": "EMPLOYMENT",
+        "title": "Oracle Cloud Foundations Associate.",
+        "org": "",
+        "entry_text": "Oracle Cloud Foundations Associate.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Oracle Cloud Foundations Associate.",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 3476,
+              "end": 3511
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Oracle Cloud Foundations Associate",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 3476,
+              "end": 3510
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "vcf91fca66e34708e",
+            "v36667bfe179d6922"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 0,
+      "total_events": 2,
+      "dated_share": 0.0,
+      "unresolved": 2,
+      "ambiguous": 0,
+      "mean_event_confidence": null,
+      "document_accuracy": 0.8
+    },
+    "total_represented_months": 0,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "PARTIAL",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "PARTIAL",
+        "confidence": 0.3
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

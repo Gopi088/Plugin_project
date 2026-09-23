@@ -1,0 +1,650 @@
+{
+  "file_name": "Lakshmi Santosh Kadari.pdf",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 3,
+    "total_events": 5,
+    "dated_share": 0.6,
+    "unresolved": 2,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v8db27bb5ee53feb9",
+      "company": "CYIENT Ltd",
+      "title": "Junior GIS Engineer",
+      "start_date": "2012-12",
+      "end_date": "2015-05",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "va5294e8e75f37f82",
+      "company": "Tata Consultancy Services",
+      "title": "Senior Network Engineer L3",
+      "start_date": "2017-10",
+      "end_date": "2018-08",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vf0fe02f7a8ba85a6",
+      "company": "Oracle IN Pvt Ltd",
+      "title": "Senior Data Scientist",
+      "start_date": "2018-09",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "vc8cfc9b9eaaf9d16",
+      "company": "Liverpool John Moores University",
+      "title": "Pursuing Master's in Data Science",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    },
+    {
+      "id": "vc22372f19f5acd48",
+      "company": "Andhra University",
+      "title": "Bachelor science in Computers and Statistics",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "gaps": [
+    {
+      "id": "g27f5bca2ae15abe8",
+      "start": "2015-06",
+      "end": "2017-09",
+      "months": 28,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    }
+  ],
+  "total_work_experience": 3,
+  "total_projects": 0,
+  "total_gaps": 1,
+  "raw_pipeline_dto": {
+    "doc_id": "Lakshmi Santosh Kadari",
+    "filename": "Lakshmi Santosh Kadari.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "v8db27bb5ee53feb9",
+        "type": "EMPLOYMENT",
+        "title": "Junior GIS Engineer",
+        "org": "CYIENT Ltd",
+        "start": "2012-12",
+        "end": "2015-05",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Junior GIS Engineer\nCYIENT Ltd\nDec '12 - May '15",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Junior GIS Engineer",
+              "block_id": "b114",
+              "kind": "text",
+              "start": 8494,
+              "end": 8513
+            },
+            {
+              "page": 1,
+              "text": "CYIENT Ltd",
+              "block_id": "b115",
+              "kind": "text",
+              "start": 8515,
+              "end": 8525
+            },
+            {
+              "page": 1,
+              "text": "Dec '12 - May '15",
+              "block_id": "b116",
+              "kind": "text",
+              "start": 8527,
+              "end": 8544
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Dec '12 - May '15",
+              "block_id": "b116",
+              "kind": "text",
+              "start": 8527,
+              "end": 8544
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "CYIENT Ltd",
+              "block_id": "b115",
+              "kind": "text",
+              "start": 8515,
+              "end": 8525
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Junior GIS Engineer",
+              "block_id": "b114",
+              "kind": "text",
+              "start": 8494,
+              "end": 8513
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Dec '12 - May '15",
+          "is_present": false
+        },
+        "date_label": "Dec '12 - May '15",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "va5294e8e75f37f82",
+        "type": "EMPLOYMENT",
+        "title": "Senior Network Engineer L3",
+        "org": "Tata Consultancy Services",
+        "start": "2017-10",
+        "end": "2018-08",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Senior Network Engineer L3\nTata Consultancy Services",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Network Engineer L3",
+              "block_id": "b94",
+              "kind": "text",
+              "start": 7537,
+              "end": 7563
+            },
+            {
+              "page": 1,
+              "text": "Tata Consultancy Services",
+              "block_id": "b95",
+              "kind": "text",
+              "start": 7565,
+              "end": 7590
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Oct '17 - Aug '18",
+              "block_id": "b100",
+              "kind": "text",
+              "start": 7863,
+              "end": 7880
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Tata Consultancy Services",
+              "block_id": "b95",
+              "kind": "text",
+              "start": 7565,
+              "end": 7590
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Network Engineer L3",
+              "block_id": "b94",
+              "kind": "text",
+              "start": 7537,
+              "end": 7563
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Oct '17 - Aug '18",
+          "is_present": false
+        },
+        "date_label": "Oct '17 - Aug '18",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vf0fe02f7a8ba85a6",
+        "type": "EMPLOYMENT",
+        "title": "Senior Data Scientist",
+        "org": "Oracle IN Pvt Ltd",
+        "start": "2018-09",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Senior Data Scientist\nOracle IN Pvt Ltd\nSep '18 - Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Data Scientist",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 4318,
+              "end": 4339
+            },
+            {
+              "page": 1,
+              "text": "Oracle IN Pvt Ltd",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 4341,
+              "end": 4358
+            },
+            {
+              "page": 1,
+              "text": "Sep '18 - Present",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 4402,
+              "end": 4419
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Sep '18 - Present",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 4402,
+              "end": 4419
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Oracle IN Pvt Ltd",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 4341,
+              "end": 4358
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Data Scientist",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 4318,
+              "end": 4339
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Sep '18 - Present",
+          "is_present": true
+        },
+        "date_label": "Sep '18 - Present",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "vc8cfc9b9eaaf9d16",
+        "type": "EDUCATION",
+        "title": "Pursuing Master's in Data Science",
+        "org": "Liverpool John Moores University",
+        "entry_text": "Pursuing Master's in Data Science Liverpool John Moores University Post Graduation in Data Science IIIT Bangalore",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Pursuing Master's in Data Science",
+              "block_id": "b123",
+              "kind": "text",
+              "start": 9008,
+              "end": 9041
+            },
+            {
+              "page": 1,
+              "text": "Liverpool John Moores University",
+              "block_id": "b124",
+              "kind": "text",
+              "start": 9043,
+              "end": 9075
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "Liverpool John Moores University",
+              "block_id": "b124",
+              "kind": "text",
+              "start": 9043,
+              "end": 9075
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Pursuing Master's in Data Science",
+              "block_id": "b123",
+              "kind": "text",
+              "start": 9008,
+              "end": 9041
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "EDUCATION",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "vc22372f19f5acd48",
+        "type": "EDUCATION",
+        "title": "Bachelor science in Computers and Statistics",
+        "org": "Andhra University",
+        "entry_text": "Bachelor science in Computers and Statistics Andhra University",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor science in Computers and Statistics",
+              "block_id": "b127",
+              "kind": "text",
+              "start": 9126,
+              "end": 9170
+            },
+            {
+              "page": 1,
+              "text": "Andhra University",
+              "block_id": "b128",
+              "kind": "text",
+              "start": 9172,
+              "end": 9189
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "Andhra University",
+              "block_id": "b128",
+              "kind": "text",
+              "start": 9172,
+              "end": 9189
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor science in Computers and Statistics",
+              "block_id": "b127",
+              "kind": "text",
+              "start": 9126,
+              "end": 9170
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "EDUCATION",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g27f5bca2ae15abe8",
+        "start": [
+          2015,
+          6
+        ],
+        "end": [
+          2017,
+          9
+        ],
+        "months": 28,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "v8db27bb5ee53feb9",
+          "event_after": "va5294e8e75f37f82",
+          "coverage_scope": "employment"
+        },
+        "start_label": "2015-06",
+        "end_label": "2017-09",
+        "evidence_quotes": [
+          "Junior GIS Engineer CYIENT Ltd Dec '12 - May '15",
+          "Senior Network Engineer L3 Tata Consultancy Services"
+        ],
+        "evidence_details": [
+          {
+            "header": "Junior GIS Engineer at CYIENT Ltd",
+            "quote": "Junior GIS Engineer CYIENT Ltd Dec '12 - May '15",
+            "event_id": "v8db27bb5ee53feb9",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Junior GIS Engineer",
+                  "block_id": "b114",
+                  "kind": "text",
+                  "start": 8494,
+                  "end": 8513
+                },
+                {
+                  "page": 1,
+                  "text": "CYIENT Ltd",
+                  "block_id": "b115",
+                  "kind": "text",
+                  "start": 8515,
+                  "end": 8525
+                },
+                {
+                  "page": 1,
+                  "text": "Dec '12 - May '15",
+                  "block_id": "b116",
+                  "kind": "text",
+                  "start": 8527,
+                  "end": 8544
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Dec '12 - May '15",
+                  "block_id": "b116",
+                  "kind": "text",
+                  "start": 8527,
+                  "end": 8544
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "CYIENT Ltd",
+                  "block_id": "b115",
+                  "kind": "text",
+                  "start": 8515,
+                  "end": 8525
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Junior GIS Engineer",
+                  "block_id": "b114",
+                  "kind": "text",
+                  "start": 8494,
+                  "end": 8513
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "Dec '12 - May '15",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Senior Network Engineer L3 at Tata Consultancy Services",
+            "quote": "Senior Network Engineer L3 Tata Consultancy Services",
+            "event_id": "va5294e8e75f37f82",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Senior Network Engineer L3",
+                  "block_id": "b94",
+                  "kind": "text",
+                  "start": 7537,
+                  "end": 7563
+                },
+                {
+                  "page": 1,
+                  "text": "Tata Consultancy Services",
+                  "block_id": "b95",
+                  "kind": "text",
+                  "start": 7565,
+                  "end": 7590
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Oct '17 - Aug '18",
+                  "block_id": "b100",
+                  "kind": "text",
+                  "start": 7863,
+                  "end": 7880
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Tata Consultancy Services",
+                  "block_id": "b95",
+                  "kind": "text",
+                  "start": 7565,
+                  "end": 7590
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Senior Network Engineer L3",
+                  "block_id": "b94",
+                  "kind": "text",
+                  "start": 7537,
+                  "end": 7563
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "Oct '17 - Aug '18",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 3,
+      "total_events": 5,
+      "dated_share": 0.6,
+      "unresolved": 2,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 138,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

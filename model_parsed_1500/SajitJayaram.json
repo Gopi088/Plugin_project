@@ -1,0 +1,614 @@
+{
+  "file_name": "SajitJayaram.pdf",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 3,
+    "dated_share": 0.667,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.87
+  },
+  "work_experience": [
+    {
+      "id": "v7f5d7e5a656ad91d",
+      "company": "",
+      "title": "Business Analyst",
+      "start_date": "2009-02",
+      "end_date": "2016-08",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vd7a45d4e459d49ad",
+      "company": "Capco Technologies Pvt Ltd",
+      "title": "Senior Consultant",
+      "start_date": "2016-08",
+      "end_date": "2025-01",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v718611c27833cbcb",
+      "company": "",
+      "title": "GRC Consultant",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "Project Manager",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "•Delivered technology initiatives within regulated investment banking environments, ensuring",
+        "adherence to governance and risk management practices.",
+        "•Identified and tracked technology risks and issues through structured RAID logs; facilitated",
+        "mitigation planning and escalation where required.",
+        "•Collaborated with Information Security and Compliance stakeholders to incorporate security and",
+        "control considerations into project planning and execution.",
+        "•Supported internal and external audit engagements by coordinating documentation, facilitating",
+        "stakeholder walkthroughs, and tracking remediation items to closure.",
+        "•Prepared governance and risk reports for senior stakeholders, highlighting risk posture, control gaps,",
+        "and mitigation progress.",
+        "•Gathered and documented business and security-related requirements, including access controls",
+        "and compliance considerations.",
+        "•Coordinated UAT activities to validate system functionality and ensure appropriate access",
+        "provisioning before production deployment.",
+        "•Requirements Gathering & User Stories for Global Reconciliations.",
+        "•UAT Management"
+      ]
+    },
+    {
+      "id": "proj_2",
+      "name": "BRD, Defects Log, Test Cases, UAT Strategy and Coordination.",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "•Stakeholder Management",
+        "•Design Dashboards, Application pages with UI/UX team",
+        "•Process Workflows - Current & Future State"
+      ]
+    },
+    {
+      "id": "proj_3",
+      "name": "& Reporting",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": []
+    }
+  ],
+  "education": [],
+  "gaps": [],
+  "total_work_experience": 3,
+  "total_projects": 3,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "SajitJayaram",
+    "filename": "SajitJayaram.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "v7f5d7e5a656ad91d",
+        "type": "EMPLOYMENT",
+        "title": "Business Analyst",
+        "org": "",
+        "start": "2009-02",
+        "end": "2016-08",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Technical Coordinator - Business Analyst\nNorthern Trust (Northern Trust Operating Services Pvt Ltd)\nFebruary 2009 - August 2016",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Technical Coordinator - Business Analyst",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 3747,
+              "end": 3787
+            },
+            {
+              "page": 1,
+              "text": "Northern Trust (Northern Trust Operating Services Pvt Ltd)",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 3788,
+              "end": 3846
+            },
+            {
+              "page": 1,
+              "text": "February 2009 - August 2016",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 3875,
+              "end": 3902
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "February 2009 - August 2016",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 3875,
+              "end": 3902
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Business Analyst",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 3771,
+              "end": 3787
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "February 2009 - August 2016",
+          "is_present": false
+        },
+        "date_label": "February 2009 - August 2016",
+        "section": "EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vd7a45d4e459d49ad",
+        "type": "EMPLOYMENT",
+        "title": "Senior Consultant",
+        "org": "Capco Technologies Pvt Ltd",
+        "start": "2016-08",
+        "end": "2025-01",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Senior Consultant - Project Manager / GRC Consultant\nCapco Technologies Pvt Ltd\nAugust 2016 - January 2025",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Consultant - Project Manager / GRC Consultant",
+              "block_id": "b28",
+              "kind": "text",
+              "start": 1233,
+              "end": 1285
+            },
+            {
+              "page": 1,
+              "text": "Capco Technologies Pvt Ltd",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 1286,
+              "end": 1312
+            },
+            {
+              "page": 1,
+              "text": "August 2016 - January 2025",
+              "block_id": "b31",
+              "kind": "text",
+              "start": 1341,
+              "end": 1367
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "August 2016 - January 2025",
+              "block_id": "b31",
+              "kind": "text",
+              "start": 1341,
+              "end": 1367
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Capco Technologies Pvt Ltd",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 1286,
+              "end": 1312
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Consultant",
+              "block_id": "b28",
+              "kind": "text",
+              "start": 1233,
+              "end": 1250
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "August 2016 - January 2025",
+          "is_present": false
+        },
+        "date_label": "August 2016 - January 2025",
+        "section": "EXPERIENCE",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v718611c27833cbcb",
+        "type": "EMPLOYMENT",
+        "title": "GRC Consultant",
+        "org": "",
+        "entry_text": "GRC Consultant •TPRM - Executed Third-Party Risk Assessment (TPRM) for on-prem to cloud migration, including vendor classification, inherent and residual risk evaluation, control & due diligence. •SOC2 Audit Readiness - Supported SOC 2 Type II audit readiness for CC6.1 and CC8.1 TSC controls by coor",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "GRC Consultant",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 1474,
+              "end": 1488
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "GRC Consultant",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 1474,
+              "end": 1488
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "EXPERIENCE",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "Project Manager",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "•Delivered technology initiatives within regulated investment banking environments, ensuring",
+          "adherence to governance and risk management practices.",
+          "•Identified and tracked technology risks and issues through structured RAID logs; facilitated",
+          "mitigation planning and escalation where required.",
+          "•Collaborated with Information Security and Compliance stakeholders to incorporate security and",
+          "control considerations into project planning and execution.",
+          "•Supported internal and external audit engagements by coordinating documentation, facilitating",
+          "stakeholder walkthroughs, and tracking remediation items to closure.",
+          "•Prepared governance and risk reports for senior stakeholders, highlighting risk posture, control gaps,",
+          "and mitigation progress.",
+          "•Gathered and documented business and security-related requirements, including access controls",
+          "and compliance considerations.",
+          "•Coordinated UAT activities to validate system functionality and ensure appropriate access",
+          "provisioning before production deployment.",
+          "•Requirements Gathering & User Stories for Global Reconciliations.",
+          "•UAT Management"
+        ],
+        "raw_text": "Project Manager",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project Manager",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 2384,
+              "end": 2399
+            },
+            {
+              "page": 1,
+              "text": "•Delivered technology initiatives within regulated investment banking environments, ensuring",
+              "block_id": "b45",
+              "kind": "text",
+              "start": 2401,
+              "end": 2493
+            },
+            {
+              "page": 1,
+              "text": "adherence to governance and risk management practices.",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 2495,
+              "end": 2549
+            },
+            {
+              "page": 1,
+              "text": "•Identified and tracked technology risks and issues through structured RAID logs; facilitated",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 2551,
+              "end": 2644
+            },
+            {
+              "page": 1,
+              "text": "mitigation planning and escalation where required.",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 2646,
+              "end": 2696
+            },
+            {
+              "page": 1,
+              "text": "•Collaborated with Information Security and Compliance stakeholders to incorporate security and",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 2698,
+              "end": 2793
+            },
+            {
+              "page": 1,
+              "text": "control considerations into project planning and execution.",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 2795,
+              "end": 2854
+            },
+            {
+              "page": 1,
+              "text": "•Supported internal and external audit engagements by coordinating documentation, facilitating",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 2856,
+              "end": 2950
+            },
+            {
+              "page": 1,
+              "text": "stakeholder walkthroughs, and tracking remediation items to closure.",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 2952,
+              "end": 3020
+            },
+            {
+              "page": 1,
+              "text": "•Prepared governance and risk reports for senior stakeholders, highlighting risk posture, control gaps,",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 3022,
+              "end": 3125
+            },
+            {
+              "page": 1,
+              "text": "and mitigation progress.",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 3127,
+              "end": 3151
+            },
+            {
+              "page": 1,
+              "text": "•Gathered and documented business and security-related requirements, including access controls",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 3153,
+              "end": 3247
+            },
+            {
+              "page": 1,
+              "text": "and compliance considerations.",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 3249,
+              "end": 3279
+            },
+            {
+              "page": 1,
+              "text": "•Coordinated UAT activities to validate system functionality and ensure appropriate access",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 3281,
+              "end": 3371
+            },
+            {
+              "page": 1,
+              "text": "provisioning before production deployment.",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 3373,
+              "end": 3415
+            },
+            {
+              "page": 1,
+              "text": "•Requirements Gathering & User Stories for Global Reconciliations.",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 3417,
+              "end": 3483
+            },
+            {
+              "page": 1,
+              "text": "•UAT Management",
+              "block_id": "b60",
+              "kind": "text",
+              "start": 3485,
+              "end": 3500
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "BRD, Defects Log, Test Cases, UAT Strategy and Coordination.",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "•Stakeholder Management",
+          "•Design Dashboards, Application pages with UI/UX team",
+          "•Process Workflows - Current & Future State"
+        ],
+        "raw_text": "•Project Documentation - BRD, Defects Log, Test Cases, UAT Strategy and Coordination.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "•Project Documentation - BRD, Defects Log, Test Cases, UAT Strategy and Coordination.",
+              "block_id": "b61",
+              "kind": "text",
+              "start": 3502,
+              "end": 3587
+            },
+            {
+              "page": 1,
+              "text": "•Stakeholder Management",
+              "block_id": "b62",
+              "kind": "text",
+              "start": 3589,
+              "end": 3612
+            },
+            {
+              "page": 1,
+              "text": "•Design Dashboards, Application pages with UI/UX team",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 3614,
+              "end": 3667
+            },
+            {
+              "page": 1,
+              "text": "•Process Workflows - Current & Future State",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 3669,
+              "end": 3712
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_3",
+        "name": "& Reporting",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [],
+        "raw_text": "•Project Governance & Reporting",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "•Project Governance & Reporting",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 3714,
+              "end": 3745
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "v718611c27833cbcb"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 3,
+      "dated_share": 0.667,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.87
+    },
+    "total_represented_months": 192,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

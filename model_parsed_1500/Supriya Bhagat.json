@@ -1,0 +1,450 @@
+{
+  "file_name": "Supriya Bhagat.docx",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 4,
+    "total_events": 5,
+    "dated_share": 0.8,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.765,
+    "document_accuracy": 0.77
+  },
+  "work_experience": [
+    {
+      "id": "v56e33ed01ef79f38",
+      "company": "Institute of Chemical Technology",
+      "title": "",
+      "start_date": "2020-01",
+      "end_date": "2021-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    },
+    {
+      "id": "vde600f30b8781890",
+      "company": "",
+      "title": "Associate Data Scientist",
+      "start_date": "2021-01",
+      "end_date": "2023-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    },
+    {
+      "id": "v616381aad4013d0a",
+      "company": "",
+      "title": "Data Scientist",
+      "start_date": "2023-01",
+      "end_date": "2024-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    },
+    {
+      "id": "v16df95a51254cae4",
+      "company": "",
+      "title": "Senior Data Scientist",
+      "start_date": "2024-01",
+      "end_date": "2026-12",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "v959aee9a5277de01",
+      "company": "Institute of Chemical Technology",
+      "title": "M.Sc.",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 4,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "Supriya Bhagat",
+    "filename": "Supriya Bhagat.docx",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v56e33ed01ef79f38",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Institute of Chemical Technology",
+        "start": "2020-01",
+        "end": "2021-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Researcher | Institute of Chemical Technology, Mumbai\t2020 - 2021",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Researcher | Institute of Chemical Technology, Mumbai\t2020 - 2021",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 3742,
+              "end": 3807
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2020 - 2021",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 3796,
+              "end": 3807
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Institute of Chemical Technology",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 3755,
+              "end": 3787
+            }
+          ],
+          "title": [],
+          "section": "WORK EXPERIENCE",
+          "date_label": "2020 - 2021",
+          "is_present": false
+        },
+        "date_label": "2020 - 2021",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vde600f30b8781890",
+        "type": "EMPLOYMENT",
+        "title": "Associate Data Scientist",
+        "org": "",
+        "start": "2021-01",
+        "end": "2023-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Associate Data Scientist | ProjectPro\t2021 - 2023",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Associate Data Scientist | ProjectPro\t2021 - 2023",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 2908,
+              "end": 2957
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2021 - 2023",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 2946,
+              "end": 2957
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Associate Data Scientist",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 2908,
+              "end": 2932
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "2021 - 2023",
+          "is_present": false
+        },
+        "date_label": "2021 - 2023",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v616381aad4013d0a",
+        "type": "EMPLOYMENT",
+        "title": "Data Scientist",
+        "org": "",
+        "start": "2023-01",
+        "end": "2024-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Data Scientist | ProjectPro\t2023 - 2024",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Data Scientist | ProjectPro\t2023 - 2024",
+              "block_id": "b18",
+              "kind": "text",
+              "start": 2261,
+              "end": 2300
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2023 - 2024",
+              "block_id": "b18",
+              "kind": "text",
+              "start": 2289,
+              "end": 2300
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Data Scientist",
+              "block_id": "b18",
+              "kind": "text",
+              "start": 2261,
+              "end": 2275
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "2023 - 2024",
+          "is_present": false
+        },
+        "date_label": "2023 - 2024",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v16df95a51254cae4",
+        "type": "EMPLOYMENT",
+        "title": "Senior Data Scientist",
+        "org": "",
+        "start": "2024-01",
+        "end": "2026-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Senior Data Scientist | ProjectPro\t2024 - Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Data Scientist | ProjectPro\t2024 - Present",
+              "block_id": "b13",
+              "kind": "text",
+              "start": 1445,
+              "end": 1494
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2024 - Present",
+              "block_id": "b13",
+              "kind": "text",
+              "start": 1480,
+              "end": 1494
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Data Scientist",
+              "block_id": "b13",
+              "kind": "text",
+              "start": 1445,
+              "end": 1466
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "2024 - Present",
+          "is_present": true
+        },
+        "date_label": "2024 - Present",
+        "section": "WORK EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v959aee9a5277de01",
+        "type": "EDUCATION",
+        "title": "M.Sc.",
+        "org": "Institute of Chemical Technology",
+        "entry_text": "M.Sc., Engineering Mathematics | Institute of Chemical Technology, Mumbai\t2018 - 2020 B.Sc., Mathematics | University of Mumbai\t2015 - 2018",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "M.Sc., Engineering Mathematics | Institute of Chemical Technology, Mumbai\t2018 - 2020",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 4120,
+              "end": 4205
+            },
+            {
+              "page": 1,
+              "text": "B.Sc., Mathematics | University of Mumbai\t2015 - 2018",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 4206,
+              "end": 4259
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2018 - 2020",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 4194,
+              "end": 4205
+            },
+            {
+              "page": 1,
+              "text": "2015 - 2018",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 4248,
+              "end": 4259
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Institute of Chemical Technology",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 4153,
+              "end": 4185
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "M.Sc",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 4120,
+              "end": 4124
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2018 - 2020 / 2015 - 2018",
+          "is_present": false
+        },
+        "date_label": "2018 - 2020 / 2015 - 2018",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [],
+        "evidence": {
+          "note": "year-only dates need verification"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 4,
+      "total_events": 5,
+      "dated_share": 0.8,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.765,
+      "document_accuracy": 0.77
+    },
+    "total_represented_months": 84,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

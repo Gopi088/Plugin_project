@@ -1,0 +1,241 @@
+{
+  "file_name": "Shruti_Kumari.pdf",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 2,
+    "dated_share": 0.5,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "vf25046013757e24c",
+      "company": "Bengaluru",
+      "title": "",
+      "start_date": "2021-11",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "v67671b9cd15b2e29",
+      "company": "Bengal College of Engineering & Technology",
+      "title": "Bachelor of Technology (B.Tech)",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 1,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "Shruti_Kumari",
+    "filename": "Shruti_Kumari.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "vf25046013757e24c",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Bengaluru",
+        "start": "2021-11",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Nov 2021 – Present | Bengaluru",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Nov 2021 – Present | Bengaluru",
+              "block_id": "b31",
+              "kind": "text",
+              "start": 1653,
+              "end": 1683
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Nov 2021 – Present",
+              "block_id": "b31",
+              "kind": "text",
+              "start": 1653,
+              "end": 1671
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Bengaluru",
+              "block_id": "b31",
+              "kind": "text",
+              "start": 1674,
+              "end": 1683
+            }
+          ],
+          "title": [],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Nov 2021 – Present",
+          "is_present": true
+        },
+        "date_label": "Nov 2021 – Present",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v67671b9cd15b2e29",
+        "type": "EDUCATION",
+        "title": "Bachelor of Technology (B.Tech)",
+        "org": "Bengal College of Engineering & Technology",
+        "entry_text": "Bachelor of Technology (B.Tech) – Computer Science Engineering Bengal College of Engineering & Technology, Durgapur",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor of Technology (B.Tech) – Computer Science Engineering",
+              "block_id": "b75",
+              "kind": "text",
+              "start": 4021,
+              "end": 4083
+            },
+            {
+              "page": 1,
+              "text": "Bengal College of Engineering & Technology, Durgapur",
+              "block_id": "b76",
+              "kind": "text",
+              "start": 4085,
+              "end": 4137
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "Bengal College of Engineering & Technology",
+              "block_id": "b76",
+              "kind": "text",
+              "start": 4085,
+              "end": 4127
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Technology (B.Tech",
+              "block_id": "b75",
+              "kind": "text",
+              "start": 4021,
+              "end": 4051
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "EDUCATION",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 2,
+      "dated_share": 0.5,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 59,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

@@ -1,0 +1,491 @@
+{
+  "file_name": "Asif Hussain Shaik Kovvuru.pdf",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 3,
+    "dated_share": 0.333,
+    "unresolved": 2,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v30310888fe7478ef",
+      "company": "Hyderabad",
+      "title": "SERVICENOW DEVELOPER",
+      "start_date": "2022-09",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "Project Management",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "AppExchange",
+        "Visualforce",
+        "Salesforce DX (SFDX)",
+        "Data Loader",
+        "Change Sets",
+        "Record Types",
+        "Dynamic Forms",
+        "Custom Settings",
+        "Custom Metadata",
+        "Workflow Rules",
+        "Formula Fields",
+        "Permission Sets",
+        "Asynchronous Apex",
+        "Business Rules, Client",
+        "Scripts",
+        "CSA"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "v9ddcec0eab7d3da2",
+      "company": "",
+      "title": "BACHELOR OF TECHNOLOGY",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    },
+    {
+      "id": "v7b5e316121c0eb36",
+      "company": "",
+      "title": "B.TECH)",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 1,
+  "total_projects": 1,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "Asif Hussain Shaik Kovvuru",
+    "filename": "Asif Hussain Shaik Kovvuru.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "v30310888fe7478ef",
+        "type": "EMPLOYMENT",
+        "title": "SERVICENOW DEVELOPER",
+        "org": "Hyderabad",
+        "start": "2022-09",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "SERVICENOW DEVELOPER | HCLTech\nSep 2022 – Present | Hyderabad",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "SERVICENOW DEVELOPER | HCLTech",
+              "block_id": "b16",
+              "kind": "text",
+              "start": 959,
+              "end": 989
+            },
+            {
+              "page": 1,
+              "text": "Sep 2022 – Present | Hyderabad",
+              "block_id": "b17",
+              "kind": "text",
+              "start": 990,
+              "end": 1020
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Sep 2022 – Present",
+              "block_id": "b17",
+              "kind": "text",
+              "start": 990,
+              "end": 1008
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Hyderabad",
+              "block_id": "b17",
+              "kind": "text",
+              "start": 1011,
+              "end": 1020
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "SERVICENOW DEVELOPER",
+              "block_id": "b16",
+              "kind": "text",
+              "start": 959,
+              "end": 979
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "Sep 2022 – Present",
+          "is_present": true
+        },
+        "date_label": "Sep 2022 – Present",
+        "section": "WORK EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v9ddcec0eab7d3da2",
+        "type": "EDUCATION",
+        "title": "BACHELOR OF TECHNOLOGY",
+        "org": "",
+        "entry_text": "BACHELOR OF TECHNOLOGY",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "BACHELOR OF TECHNOLOGY",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 2585,
+              "end": 2607
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "BACHELOR OF TECHNOLOGY",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 2585,
+              "end": 2607
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "EDUCATION",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v7b5e316121c0eb36",
+        "type": "EDUCATION",
+        "title": "B.TECH)",
+        "org": "",
+        "entry_text": "(B.TECH) – COMPUTER SCIENCE & ENGINEERING KSRM College of Engineering, Kadapa 2022 SKILL ServiceNow Development Scripting & Customization Integrations Scripting: JavaScript Notifications & Reporting Tools & Technologies Service Catalog & Workflow Design Data Management & Importing Integration & Web ",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "(B.TECH) – COMPUTER SCIENCE &",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 2608,
+              "end": 2637
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2022",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 2686,
+              "end": 2690
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "B.TECH",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 2609,
+              "end": 2615
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "EDUCATION",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "Project Management",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "AppExchange",
+          "Visualforce",
+          "Salesforce DX (SFDX)",
+          "Data Loader",
+          "Change Sets",
+          "Record Types",
+          "Dynamic Forms",
+          "Custom Settings",
+          "Custom Metadata",
+          "Workflow Rules",
+          "Formula Fields",
+          "Permission Sets",
+          "Asynchronous Apex",
+          "Business Rules, Client",
+          "Scripts",
+          "CSA"
+        ],
+        "raw_text": "Project Management",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project Management",
+              "block_id": "b77",
+              "kind": "text",
+              "start": 3065,
+              "end": 3083
+            },
+            {
+              "page": 1,
+              "text": "AppExchange",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 3084,
+              "end": 3095
+            },
+            {
+              "page": 1,
+              "text": "Visualforce",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 3096,
+              "end": 3107
+            },
+            {
+              "page": 1,
+              "text": "Salesforce DX (SFDX)",
+              "block_id": "b80",
+              "kind": "text",
+              "start": 3108,
+              "end": 3128
+            },
+            {
+              "page": 1,
+              "text": "Data Loader",
+              "block_id": "b81",
+              "kind": "text",
+              "start": 3129,
+              "end": 3140
+            },
+            {
+              "page": 1,
+              "text": "Change Sets",
+              "block_id": "b82",
+              "kind": "text",
+              "start": 3141,
+              "end": 3152
+            },
+            {
+              "page": 1,
+              "text": "Record Types",
+              "block_id": "b83",
+              "kind": "text",
+              "start": 3153,
+              "end": 3165
+            },
+            {
+              "page": 1,
+              "text": "Dynamic Forms",
+              "block_id": "b84",
+              "kind": "text",
+              "start": 3166,
+              "end": 3179
+            },
+            {
+              "page": 1,
+              "text": "Custom Settings",
+              "block_id": "b85",
+              "kind": "text",
+              "start": 3180,
+              "end": 3195
+            },
+            {
+              "page": 1,
+              "text": "Custom Metadata",
+              "block_id": "b86",
+              "kind": "text",
+              "start": 3196,
+              "end": 3211
+            },
+            {
+              "page": 1,
+              "text": "Workflow Rules",
+              "block_id": "b87",
+              "kind": "text",
+              "start": 3212,
+              "end": 3226
+            },
+            {
+              "page": 1,
+              "text": "Formula Fields",
+              "block_id": "b88",
+              "kind": "text",
+              "start": 3227,
+              "end": 3241
+            },
+            {
+              "page": 1,
+              "text": "Permission Sets",
+              "block_id": "b89",
+              "kind": "text",
+              "start": 3242,
+              "end": 3257
+            },
+            {
+              "page": 1,
+              "text": "Asynchronous Apex",
+              "block_id": "b90",
+              "kind": "text",
+              "start": 3258,
+              "end": 3275
+            },
+            {
+              "page": 1,
+              "text": "Business Rules, Client",
+              "block_id": "b91",
+              "kind": "text",
+              "start": 3276,
+              "end": 3298
+            },
+            {
+              "page": 1,
+              "text": "Scripts",
+              "block_id": "b92",
+              "kind": "text",
+              "start": 3299,
+              "end": 3306
+            },
+            {
+              "page": 1,
+              "text": "CSA",
+              "block_id": "b93",
+              "kind": "text",
+              "start": 3307,
+              "end": 3310
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 3,
+      "dated_share": 0.333,
+      "unresolved": 2,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 49,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

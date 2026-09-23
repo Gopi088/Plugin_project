@@ -1,0 +1,822 @@
+{
+  "file_name": "A Suribhotla.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 4,
+    "total_events": 4,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v86ca1e7462d8c628",
+      "company": "",
+      "title": "Data Analyst",
+      "start_date": "2017-04",
+      "end_date": "2017-11",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vf78344c89d7c2a6e",
+      "company": "Keolis Hyderabad Mass Rapid Transit System Ltd",
+      "title": "Senior Data Analyst / BI Analyst",
+      "start_date": "2017-12",
+      "end_date": "2022-01",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v98a22afb5dc853b7",
+      "company": "Virtusa Consulting Services",
+      "title": "Senior Software Engineer / Senior Data Analyst",
+      "start_date": "2022-01",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "on the Cloud (FOTC) – Global finance data transformation initiative.",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Key Responsibilities:",
+        "• Supported large-scale financial data transformation programs across enterprise",
+        "finance systems.",
+        "• Worked within Agile, cross-functional teams to design and deliver governed,",
+        "high-quality data solutions.",
+        "• Led business, functional, and non-functional requirement elicitation with",
+        "finance stakeholders.",
+        "• Translated business requirements into conceptual, logical, and physical data",
+        "models aligned with governance standards.",
+        "• Designed reconciliation-ready data structures to support financial reporting and",
+        "controls.",
+        "• Performed metadata analysis, including entity definitions, attribute naming, data",
+        "types, lengths, and lineage.",
+        "• Produced and owned data modeling artifacts, mapping documents, and",
+        "analysis deliverables for development teams.",
+        "• Acted as a bridge between Business, Finance, and IT, ensuring requirement",
+        "clarity throughout the SDLC.",
+        "• Supported end-to-end data journey mapping, from source systems through transformation to consumption layers.",
+        "• Used SQL and BigQuery extensively for data analysis, validation, and",
+        "reconciliation checks.",
+        "• Ensured traceability and consistency of data and metadata across",
+        "environments."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "v94eb6675851ef265",
+      "company": "Raghu Engineering College",
+      "title": "Bachelor of Technology (Electronics & Communication Engineering",
+      "start_date": "2012-09",
+      "end_date": "2016-05",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "gaps": [
+    {
+      "id": "g48050c0a5701734c",
+      "start": "2016-06",
+      "end": "2017-03",
+      "months": 10,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    }
+  ],
+  "total_work_experience": 3,
+  "total_projects": 1,
+  "total_gaps": 1,
+  "raw_pipeline_dto": {
+    "doc_id": "A Suribhotla",
+    "filename": "A Suribhotla.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v94eb6675851ef265",
+        "type": "EDUCATION",
+        "title": "Bachelor of Technology (Electronics & Communication Engineering",
+        "org": "Raghu Engineering College",
+        "start": "2012-09",
+        "end": "2016-05",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "Bachelor of Technology (Electronics & Communication Engineering)\nRaghu Engineering College , Visakhapatnam\nSep 2012 – May 2016",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor of Technology (Electronics & Communication Engineering)",
+              "block_id": "b102",
+              "kind": "text",
+              "start": 4505,
+              "end": 4569
+            },
+            {
+              "page": 1,
+              "text": "Raghu Engineering College , Visakhapatnam",
+              "block_id": "b103",
+              "kind": "text",
+              "start": 4571,
+              "end": 4612
+            },
+            {
+              "page": 1,
+              "text": "Sep 2012 – May 2016",
+              "block_id": "b104",
+              "kind": "text",
+              "start": 4614,
+              "end": 4633
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Sep 2012 – May 2016",
+              "block_id": "b104",
+              "kind": "text",
+              "start": 4614,
+              "end": 4633
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Raghu Engineering College",
+              "block_id": "b103",
+              "kind": "text",
+              "start": 4571,
+              "end": 4596
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Technology (Electronics & Communication Engineering",
+              "block_id": "b102",
+              "kind": "text",
+              "start": 4505,
+              "end": 4568
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "Sep 2012 – May 2016",
+          "is_present": false
+        },
+        "date_label": "Sep 2012 – May 2016",
+        "section": "EDUCATION",
+        "is_present": false
+      },
+      {
+        "id": "v86ca1e7462d8c628",
+        "type": "EMPLOYMENT",
+        "title": "Data Analyst",
+        "org": "",
+        "start": "2017-04",
+        "end": "2017-11",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Data Analyst",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Data Analyst",
+              "block_id": "b89",
+              "kind": "text",
+              "start": 3985,
+              "end": 3997
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Apr 2017 – Nov 2017",
+              "block_id": "b92",
+              "kind": "text",
+              "start": 4055,
+              "end": 4074
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Data Analyst",
+              "block_id": "b89",
+              "kind": "text",
+              "start": 3985,
+              "end": 3997
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Apr 2017 – Nov 2017",
+          "is_present": false
+        },
+        "date_label": "Apr 2017 – Nov 2017",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vf78344c89d7c2a6e",
+        "type": "EMPLOYMENT",
+        "title": "Senior Data Analyst / BI Analyst",
+        "org": "Keolis Hyderabad Mass Rapid Transit System Ltd",
+        "start": "2017-12",
+        "end": "2022-01",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Senior Data Analyst / BI Analyst\nKeolis Hyderabad Mass Rapid Transit System Ltd – Hyderabad",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Data Analyst / BI Analyst",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 3083,
+              "end": 3115
+            },
+            {
+              "page": 1,
+              "text": "Keolis Hyderabad Mass Rapid Transit System Ltd – Hyderabad",
+              "block_id": "b71",
+              "kind": "text",
+              "start": 3117,
+              "end": 3175
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Dec 2017 – Jan 2022",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 3209,
+              "end": 3228
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Keolis Hyderabad Mass Rapid Transit System Ltd",
+              "block_id": "b71",
+              "kind": "text",
+              "start": 3117,
+              "end": 3163
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Data Analyst / BI Analyst",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 3083,
+              "end": 3115
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Dec 2017 – Jan 2022",
+          "is_present": false
+        },
+        "date_label": "Dec 2017 – Jan 2022",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v98a22afb5dc853b7",
+        "type": "EMPLOYMENT",
+        "title": "Senior Software Engineer / Senior Data Analyst",
+        "org": "Virtusa Consulting Services",
+        "start": "2022-01",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Senior Software Engineer / Senior Data Analyst\nVirtusa Consulting Services – Hyderabad",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Software Engineer / Senior Data Analyst",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 1670,
+              "end": 1716
+            },
+            {
+              "page": 1,
+              "text": "Virtusa Consulting Services – Hyderabad",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 1718,
+              "end": 1757
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jan 2022 – Present",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 1794,
+              "end": 1812
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Virtusa Consulting Services",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 1718,
+              "end": 1745
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Software Engineer / Senior Data Analyst",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 1670,
+              "end": 1716
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Jan 2022 – Present",
+          "is_present": true
+        },
+        "date_label": "Jan 2022 – Present",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "on the Cloud (FOTC) – Global finance data transformation initiative.",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Key Responsibilities:",
+          "• Supported large-scale financial data transformation programs across enterprise",
+          "finance systems.",
+          "• Worked within Agile, cross-functional teams to design and deliver governed,",
+          "high-quality data solutions.",
+          "• Led business, functional, and non-functional requirement elicitation with",
+          "finance stakeholders.",
+          "• Translated business requirements into conceptual, logical, and physical data",
+          "models aligned with governance standards.",
+          "• Designed reconciliation-ready data structures to support financial reporting and",
+          "controls.",
+          "• Performed metadata analysis, including entity definitions, attribute naming, data",
+          "types, lengths, and lineage.",
+          "• Produced and owned data modeling artifacts, mapping documents, and",
+          "analysis deliverables for development teams.",
+          "• Acted as a bridge between Business, Finance, and IT, ensuring requirement",
+          "clarity throughout the SDLC.",
+          "• Supported end-to-end data journey mapping, from source systems through transformation to consumption layers.",
+          "• Used SQL and BigQuery extensively for data analysis, validation, and",
+          "reconciliation checks.",
+          "• Ensured traceability and consistency of data and metadata across",
+          "environments."
+        ],
+        "raw_text": "Project: Finance on the Cloud (FOTC) – Global finance data transformation initiative.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project: Finance on the Cloud (FOTC) – Global finance data transformation initiative.",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 1814,
+              "end": 1899
+            },
+            {
+              "page": 1,
+              "text": "Key Responsibilities:",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 1901,
+              "end": 1922
+            },
+            {
+              "page": 1,
+              "text": "• Supported large-scale financial data transformation programs across enterprise",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 1924,
+              "end": 2004
+            },
+            {
+              "page": 1,
+              "text": "finance systems.",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 2006,
+              "end": 2022
+            },
+            {
+              "page": 1,
+              "text": "• Worked within Agile, cross-functional teams to design and deliver governed,",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 2024,
+              "end": 2101
+            },
+            {
+              "page": 1,
+              "text": "high-quality data solutions.",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 2103,
+              "end": 2131
+            },
+            {
+              "page": 1,
+              "text": "• Led business, functional, and non-functional requirement elicitation with",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 2133,
+              "end": 2208
+            },
+            {
+              "page": 1,
+              "text": "finance stakeholders.",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 2210,
+              "end": 2231
+            },
+            {
+              "page": 1,
+              "text": "• Translated business requirements into conceptual, logical, and physical data",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 2233,
+              "end": 2311
+            },
+            {
+              "page": 1,
+              "text": "models aligned with governance standards.",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 2313,
+              "end": 2354
+            },
+            {
+              "page": 1,
+              "text": "• Designed reconciliation-ready data structures to support financial reporting and",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 2356,
+              "end": 2438
+            },
+            {
+              "page": 1,
+              "text": "controls.",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 2440,
+              "end": 2449
+            },
+            {
+              "page": 1,
+              "text": "• Performed metadata analysis, including entity definitions, attribute naming, data",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 2451,
+              "end": 2534
+            },
+            {
+              "page": 1,
+              "text": "types, lengths, and lineage.",
+              "block_id": "b60",
+              "kind": "text",
+              "start": 2536,
+              "end": 2564
+            },
+            {
+              "page": 1,
+              "text": "• Produced and owned data modeling artifacts, mapping documents, and",
+              "block_id": "b61",
+              "kind": "text",
+              "start": 2566,
+              "end": 2634
+            },
+            {
+              "page": 1,
+              "text": "analysis deliverables for development teams.",
+              "block_id": "b62",
+              "kind": "text",
+              "start": 2636,
+              "end": 2680
+            },
+            {
+              "page": 1,
+              "text": "• Acted as a bridge between Business, Finance, and IT, ensuring requirement",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 2682,
+              "end": 2757
+            },
+            {
+              "page": 1,
+              "text": "clarity throughout the SDLC.",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 2759,
+              "end": 2787
+            },
+            {
+              "page": 1,
+              "text": "• Supported end-to-end data journey mapping, from source systems through",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 2789,
+              "end": 2861
+            },
+            {
+              "page": 1,
+              "text": "transformation to consumption layers.",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 2863,
+              "end": 2900
+            },
+            {
+              "page": 1,
+              "text": "• Used SQL and BigQuery extensively for data analysis, validation, and",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 2902,
+              "end": 2972
+            },
+            {
+              "page": 1,
+              "text": "reconciliation checks.",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 2974,
+              "end": 2996
+            },
+            {
+              "page": 1,
+              "text": "• Ensured traceability and consistency of data and metadata across",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 2998,
+              "end": 3064
+            },
+            {
+              "page": 1,
+              "text": "environments.",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 3066,
+              "end": 3079
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g48050c0a5701734c",
+        "start": [
+          2016,
+          6
+        ],
+        "end": [
+          2017,
+          3
+        ],
+        "months": 10,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "v94eb6675851ef265",
+          "event_after": "v86ca1e7462d8c628",
+          "coverage_scope": "all_dated_activity"
+        },
+        "start_label": "2016-06",
+        "end_label": "2017-03",
+        "evidence_quotes": [
+          "Bachelor of Technology (Electronics & Communication Engineering) Raghu Engineering College , Visakhapatnam Sep 2012 – May 2016",
+          "Data Analyst"
+        ],
+        "evidence_details": [
+          {
+            "header": "Bachelor of Technology (Electronics & Communication Engineering at Raghu Engineering College",
+            "quote": "Bachelor of Technology (Electronics & Communication Engineering) Raghu Engineering College , Visakhapatnam Sep 2012 – May 2016",
+            "event_id": "v94eb6675851ef265",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Bachelor of Technology (Electronics & Communication Engineering)",
+                  "block_id": "b102",
+                  "kind": "text",
+                  "start": 4505,
+                  "end": 4569
+                },
+                {
+                  "page": 1,
+                  "text": "Raghu Engineering College , Visakhapatnam",
+                  "block_id": "b103",
+                  "kind": "text",
+                  "start": 4571,
+                  "end": 4612
+                },
+                {
+                  "page": 1,
+                  "text": "Sep 2012 – May 2016",
+                  "block_id": "b104",
+                  "kind": "text",
+                  "start": 4614,
+                  "end": 4633
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Sep 2012 – May 2016",
+                  "block_id": "b104",
+                  "kind": "text",
+                  "start": 4614,
+                  "end": 4633
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Raghu Engineering College",
+                  "block_id": "b103",
+                  "kind": "text",
+                  "start": 4571,
+                  "end": 4596
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Bachelor of Technology (Electronics & Communication Engineering",
+                  "block_id": "b102",
+                  "kind": "text",
+                  "start": 4505,
+                  "end": 4568
+                }
+              ],
+              "section": "EDUCATION",
+              "date_label": "Sep 2012 – May 2016",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Data Analys",
+            "quote": "Data Analyst",
+            "event_id": "v86ca1e7462d8c628",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Data Analyst",
+                  "block_id": "b89",
+                  "kind": "text",
+                  "start": 3985,
+                  "end": 3997
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Apr 2017 – Nov 2017",
+                  "block_id": "b92",
+                  "kind": "text",
+                  "start": 4055,
+                  "end": 4074
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Data Analyst",
+                  "block_id": "b89",
+                  "kind": "text",
+                  "start": 3985,
+                  "end": 3997
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "Apr 2017 – Nov 2017",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 4,
+      "total_events": 4,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 159,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

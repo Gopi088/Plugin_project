@@ -1,0 +1,735 @@
+{
+  "file_name": "Jitendra Sagar.docx",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 5,
+    "total_events": 6,
+    "dated_share": 0.833,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v26d3839eea71d5c6",
+      "company": "IDC Technology",
+      "title": "Associate Business Analyst",
+      "start_date": "2018-07",
+      "end_date": "2019-05",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v3ccfe5b784c05727",
+      "company": "IDC Technology",
+      "title": "Business Analyst",
+      "start_date": "2019-07",
+      "end_date": "2020-07",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v2436e83519c79213",
+      "company": "IDC Technology",
+      "title": "Business Analyst",
+      "start_date": "2020-08",
+      "end_date": "2021-04",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v55f6206c8a495c71",
+      "company": "IDC Technology (Clients",
+      "title": "Senior Business Analyst",
+      "start_date": "2021-05",
+      "end_date": "2023-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vcb8e436f5a1ec159",
+      "company": "",
+      "title": "Senior Business Analyst / Product Owner",
+      "start_date": "2024-01",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "| IDC Technology\tApril 2017 – July 2018",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Coordinated schedules, milestones, deliverables, and resource allocation across development, QA, and operations for 5+ concurrent projects ensuring on-time delivery",
+        "Maintained project documentation, tracked risks/issues/dependencies, and produced weekly status reports and monthly dashboards for senior stakeholders"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "vf54bf0a32f2bafc8",
+      "company": "Bachelor of Commerce (B.Com)\tDelhi University",
+      "title": "",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "gaps": [
+    {
+      "id": "ge971d9aa6b6a9667",
+      "start": "2019-06",
+      "end": "2019-06",
+      "months": 1,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    }
+  ],
+  "total_work_experience": 5,
+  "total_projects": 1,
+  "total_gaps": 1,
+  "raw_pipeline_dto": {
+    "doc_id": "Jitendra Sagar",
+    "filename": "Jitendra Sagar.docx",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "v26d3839eea71d5c6",
+        "type": "EMPLOYMENT",
+        "title": "Associate Business Analyst",
+        "org": "IDC Technology",
+        "start": "2018-07",
+        "end": "2019-05",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Associate Business Analyst | IDC Technology\tJuly 2018 – May 2019",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Associate Business Analyst | IDC Technology\tJuly 2018 – May 2019",
+              "block_id": "b84",
+              "kind": "text",
+              "start": 12450,
+              "end": 12514
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "July 2018 – May 2019",
+              "block_id": "b84",
+              "kind": "text",
+              "start": 12494,
+              "end": 12514
+            },
+            {
+              "page": 1,
+              "text": "April 2017 – July 2018",
+              "block_id": "b88",
+              "kind": "text",
+              "start": 13035,
+              "end": 13057
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "IDC Technology",
+              "block_id": "b84",
+              "kind": "text",
+              "start": 12479,
+              "end": 12493
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Associate Business Analyst",
+              "block_id": "b84",
+              "kind": "text",
+              "start": 12450,
+              "end": 12476
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "July 2018 – May 2019",
+          "is_present": false
+        },
+        "date_label": "July 2018 – May 2019",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v3ccfe5b784c05727",
+        "type": "EMPLOYMENT",
+        "title": "Business Analyst",
+        "org": "IDC Technology",
+        "start": "2019-07",
+        "end": "2020-07",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Business Analyst | IDC Technology\tJuly 2019 – July 2020",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Business Analyst | IDC Technology\tJuly 2019 – July 2020",
+              "block_id": "b76",
+              "kind": "text",
+              "start": 11265,
+              "end": 11320
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "July 2019 – July 2020",
+              "block_id": "b76",
+              "kind": "text",
+              "start": 11299,
+              "end": 11320
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "IDC Technology",
+              "block_id": "b76",
+              "kind": "text",
+              "start": 11284,
+              "end": 11298
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Business Analyst",
+              "block_id": "b76",
+              "kind": "text",
+              "start": 11265,
+              "end": 11281
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "July 2019 – July 2020",
+          "is_present": false
+        },
+        "date_label": "July 2019 – July 2020",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v2436e83519c79213",
+        "type": "EMPLOYMENT",
+        "title": "Business Analyst",
+        "org": "IDC Technology",
+        "start": "2020-08",
+        "end": "2021-04",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Business Analyst | IDC Technology\tAugust 2020 – April 2021",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Business Analyst | IDC Technology\tAugust 2020 – April 2021",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 10340,
+              "end": 10398
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "August 2020 – April 2021",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 10374,
+              "end": 10398
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "IDC Technology",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 10359,
+              "end": 10373
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Business Analyst",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 10340,
+              "end": 10356
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "August 2020 – April 2021",
+          "is_present": false
+        },
+        "date_label": "August 2020 – April 2021",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v55f6206c8a495c71",
+        "type": "EMPLOYMENT",
+        "title": "Senior Business Analyst",
+        "org": "IDC Technology (Clients",
+        "start": "2021-05",
+        "end": "2023-12",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Senior Business Analyst | IDC Technology (Clients – Allstate, Global Alliance Corporation (GAL))\nMay 2021 – December 2023",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Business Analyst | IDC Technology (Clients – Allstate, Global Alliance Corporation (GAL))",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 7865,
+              "end": 7961
+            },
+            {
+              "page": 1,
+              "text": "May 2021 – December 2023",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 7962,
+              "end": 7986
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "May 2021 – December 2023",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 7962,
+              "end": 7986
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "IDC Technology (Clients",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 7891,
+              "end": 7914
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Business Analyst",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 7865,
+              "end": 7888
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "May 2021 – December 2023",
+          "is_present": false
+        },
+        "date_label": "May 2021 – December 2023",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vcb8e436f5a1ec159",
+        "type": "EMPLOYMENT",
+        "title": "Senior Business Analyst / Product Owner",
+        "org": "",
+        "start": "2024-01",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Senior Business Analyst / Product Owner\nEA Team (Client – Standard Chartered ( US ) \t\t\t\t\tJanuary 2024 – Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Business Analyst / Product Owner",
+              "block_id": "b12",
+              "kind": "text",
+              "start": 1441,
+              "end": 1480
+            },
+            {
+              "page": 1,
+              "text": "EA Team (Client – Standard Chartered ( US ) \t\t\t\t\tJanuary 2024 – Present",
+              "block_id": "b13",
+              "kind": "text",
+              "start": 1483,
+              "end": 1554
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "January 2024 – Present",
+              "block_id": "b13",
+              "kind": "text",
+              "start": 1532,
+              "end": 1554
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Business Analyst / Product Owner",
+              "block_id": "b12",
+              "kind": "text",
+              "start": 1441,
+              "end": 1480
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "January 2024 – Present",
+          "is_present": true
+        },
+        "date_label": "January 2024 – Present",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "vf54bf0a32f2bafc8",
+        "type": "EDUCATION",
+        "title": "",
+        "org": "Bachelor of Commerce (B.Com)\tDelhi University",
+        "entry_text": "Bachelor of Commerce (B.Com)\tDelhi University Shri Venkateswara College, Delhi University CERTIFICATIONS & PROFESSIONAL DEVELOPMENT SAFe Agilist (SA) – Scaled Agile Framework | In Progress CBAP – Certified Business Analysis Professional (IIBA) | Pursuing SWIFT Messaging Standards (MT/MX / ISO 20022)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor of Commerce (B.Com)\tDelhi University",
+              "block_id": "b92",
+              "kind": "text",
+              "start": 13384,
+              "end": 13429
+            },
+            {
+              "page": 1,
+              "text": "Shri Venkateswara College, Delhi University",
+              "block_id": "b93",
+              "kind": "text",
+              "start": 13430,
+              "end": 13473
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "Bachelor of Commerce (B.Com)\tDelhi University",
+              "block_id": "b92",
+              "kind": "text",
+              "start": 13384,
+              "end": 13429
+            }
+          ],
+          "title": [],
+          "section": "EDUCATION",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "EDUCATION",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "| IDC Technology\tApril 2017 – July 2018",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Coordinated schedules, milestones, deliverables, and resource allocation across development, QA, and operations for 5+ concurrent projects ensuring on-time delivery",
+          "Maintained project documentation, tracked risks/issues/dependencies, and produced weekly status reports and monthly dashboards for senior stakeholders"
+        ],
+        "raw_text": "Project Coordinator | IDC Technology\tApril 2017 – July 2018",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project Coordinator | IDC Technology\tApril 2017 – July 2018",
+              "block_id": "b88",
+              "kind": "text",
+              "start": 12998,
+              "end": 13057
+            },
+            {
+              "page": 1,
+              "text": "Coordinated schedules, milestones, deliverables, and resource allocation across development, QA, and operations for 5+ concurrent projects ensuring on-time delivery",
+              "block_id": "b89",
+              "kind": "text",
+              "start": 13058,
+              "end": 13222
+            },
+            {
+              "page": 1,
+              "text": "Maintained project documentation, tracked risks/issues/dependencies, and produced weekly status reports and monthly dashboards for senior stakeholders",
+              "block_id": "b90",
+              "kind": "text",
+              "start": 13223,
+              "end": 13373
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "ge971d9aa6b6a9667",
+        "start": [
+          2019,
+          6
+        ],
+        "end": [
+          2019,
+          6
+        ],
+        "months": 1,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "v26d3839eea71d5c6",
+          "event_after": "v3ccfe5b784c05727",
+          "coverage_scope": "employment"
+        },
+        "start_label": "2019-06",
+        "end_label": "2019-06",
+        "evidence_quotes": [
+          "Associate Business Analyst | IDC Technology\tJuly 2018 – May 2019",
+          "Business Analyst | IDC Technology\tJuly 2019 – July 2020"
+        ],
+        "evidence_details": [
+          {
+            "header": "Associate Business Analyst at IDC Technology",
+            "quote": "Associate Business Analyst | IDC Technology\tJuly 2018 – May 2019",
+            "event_id": "v26d3839eea71d5c6",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Associate Business Analyst | IDC Technology\tJuly 2018 – May 2019",
+                  "block_id": "b84",
+                  "kind": "text",
+                  "start": 12450,
+                  "end": 12514
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "July 2018 – May 2019",
+                  "block_id": "b84",
+                  "kind": "text",
+                  "start": 12494,
+                  "end": 12514
+                },
+                {
+                  "page": 1,
+                  "text": "April 2017 – July 2018",
+                  "block_id": "b88",
+                  "kind": "text",
+                  "start": 13035,
+                  "end": 13057
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "IDC Technology",
+                  "block_id": "b84",
+                  "kind": "text",
+                  "start": 12479,
+                  "end": 12493
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Associate Business Analyst",
+                  "block_id": "b84",
+                  "kind": "text",
+                  "start": 12450,
+                  "end": 12476
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "July 2018 – May 2019",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Business Analyst at IDC Technology",
+            "quote": "Business Analyst | IDC Technology\tJuly 2019 – July 2020",
+            "event_id": "v3ccfe5b784c05727",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Business Analyst | IDC Technology\tJuly 2019 – July 2020",
+                  "block_id": "b76",
+                  "kind": "text",
+                  "start": 11265,
+                  "end": 11320
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "July 2019 – July 2020",
+                  "block_id": "b76",
+                  "kind": "text",
+                  "start": 11299,
+                  "end": 11320
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "IDC Technology",
+                  "block_id": "b76",
+                  "kind": "text",
+                  "start": 11284,
+                  "end": 11298
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Business Analyst",
+                  "block_id": "b76",
+                  "kind": "text",
+                  "start": 11265,
+                  "end": 11281
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "July 2019 – July 2020",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 5,
+      "total_events": 6,
+      "dated_share": 0.833,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 98,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

@@ -1,0 +1,602 @@
+{
+  "file_name": "Vikas  Kumar Singh.pdf",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 4,
+    "total_events": 7,
+    "dated_share": 0.571,
+    "unresolved": 3,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.89
+  },
+  "work_experience": [
+    {
+      "id": "vef62bbf297dc023b",
+      "company": "",
+      "title": "Senior Software Engineer",
+      "start_date": "2011-06",
+      "end_date": "2015-10",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v7001ccb914d2760e",
+      "company": "",
+      "title": "Lead Analyst",
+      "start_date": "2015-10",
+      "end_date": "2017-10",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v61ce660509e26cb6",
+      "company": "",
+      "title": "Data Engineering Lead",
+      "start_date": "2017-10",
+      "end_date": "2019-06",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v43d800d4c2811a8c",
+      "company": "Services Pvt. Ltd",
+      "title": "Associate Manager",
+      "start_date": "2019-06",
+      "end_date": "2020-10",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v920b35867f2ea69e",
+      "company": "Accenture Service Pvt Ltd",
+      "title": "Production Support Engineer",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "vd163eb26f1d9ff44",
+      "company": "",
+      "title": "M Tech",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    },
+    {
+      "id": "v61921993f8ec867f",
+      "company": "Amrita University",
+      "title": "B TECH",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 5,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "Vikas  Kumar Singh",
+    "filename": "Vikas  Kumar Singh.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "vef62bbf297dc023b",
+        "type": "EMPLOYMENT",
+        "title": "Senior Software Engineer",
+        "org": "",
+        "start": "2011-06",
+        "end": "2015-10",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Senior Software Engineer| Wipro\nJune 2011 - October 2015",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Software Engineer| Wipro",
+              "block_id": "b110",
+              "kind": "text",
+              "start": 3766,
+              "end": 3797
+            },
+            {
+              "page": 1,
+              "text": "June 2011 - October 2015",
+              "block_id": "b111",
+              "kind": "text",
+              "start": 3798,
+              "end": 3822
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "June 2011 - October 2015",
+              "block_id": "b111",
+              "kind": "text",
+              "start": 3798,
+              "end": 3822
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Software Engineer",
+              "block_id": "b110",
+              "kind": "text",
+              "start": 3766,
+              "end": 3790
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "June 2011 - October 2015",
+          "is_present": false
+        },
+        "date_label": "June 2011 - October 2015",
+        "section": "EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v7001ccb914d2760e",
+        "type": "EMPLOYMENT",
+        "title": "Lead Analyst",
+        "org": "",
+        "start": "2015-10",
+        "end": "2017-10",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Lead Analyst | CGI",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Lead Analyst | CGI",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 1142,
+              "end": 1160
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "October 2015  - October 2017",
+              "block_id": "b109",
+              "kind": "text",
+              "start": 3737,
+              "end": 3765
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Lead Analyst",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 1142,
+              "end": 1154
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "October 2015  - October 2017",
+          "is_present": false
+        },
+        "date_label": "October 2015  - October 2017",
+        "section": "EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v61ce660509e26cb6",
+        "type": "EMPLOYMENT",
+        "title": "Data Engineering Lead",
+        "org": "",
+        "start": "2017-10",
+        "end": "2019-06",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Data Engineering Lead| AZURE Data Engineer| Accenture Service\nPvt. Ltd.\nOctober 2017  - June 2019",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Data Engineering Lead| AZURE Data Engineer| Accenture Service",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 1044,
+              "end": 1105
+            },
+            {
+              "page": 1,
+              "text": "Pvt. Ltd.",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 1106,
+              "end": 1115
+            },
+            {
+              "page": 1,
+              "text": "October 2017  - June 2019",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 1116,
+              "end": 1141
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "October 2017  - June 2019",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 1116,
+              "end": 1141
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Data Engineering Lead",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 1044,
+              "end": 1065
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "October 2017  - June 2019",
+          "is_present": false
+        },
+        "date_label": "October 2017  - June 2019",
+        "section": "EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v43d800d4c2811a8c",
+        "type": "EMPLOYMENT",
+        "title": "Associate Manager",
+        "org": "Services Pvt. Ltd",
+        "start": "2019-06",
+        "end": "2020-10",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Associate Manager| PySpark Lead |Cloud Migration| Accenture\nServices Pvt. Ltd.  | Bangalore\nJune 2019  - October 2020",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Associate Manager| PySpark Lead |Cloud Migration| Accenture",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 926,
+              "end": 985
+            },
+            {
+              "page": 1,
+              "text": "Services Pvt. Ltd.  | Bangalore",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 986,
+              "end": 1017
+            },
+            {
+              "page": 1,
+              "text": "June 2019  - October 2020",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 1018,
+              "end": 1043
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "June 2019  - October 2020",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 1018,
+              "end": 1043
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Services Pvt. Ltd",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 986,
+              "end": 1003
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Associate Manager",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 926,
+              "end": 943
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "June 2019  - October 2020",
+          "is_present": false
+        },
+        "date_label": "June 2019  - October 2020",
+        "section": "EXPERIENCE",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v920b35867f2ea69e",
+        "type": "EMPLOYMENT",
+        "title": "Production Support Engineer",
+        "org": "Accenture Service Pvt Ltd",
+        "entry_text": "Production Support Engineer| Accenture Service Pvt Ltd. Gathered and analyzed business and technical requirements to design the overall data ingestion and transformation solution. • Performed end-to-end data engineering activities, including ingestion, processing, transformation, and validation acro",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Production Support Engineer| Accenture Service Pvt Ltd.",
+              "block_id": "b112",
+              "kind": "text",
+              "start": 3823,
+              "end": 3878
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "Accenture Service Pvt Ltd",
+              "block_id": "b112",
+              "kind": "text",
+              "start": 3852,
+              "end": 3877
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Production Support Engineer",
+              "block_id": "b112",
+              "kind": "text",
+              "start": 3823,
+              "end": 3850
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "EXPERIENCE",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "vd163eb26f1d9ff44",
+        "type": "EDUCATION",
+        "title": "M Tech",
+        "org": "",
+        "entry_text": "M Tech | Data Science & Data Engineering BITS Pilani 2011",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "M Tech | Data Science & Data Engineering",
+              "block_id": "b145",
+              "kind": "text",
+              "start": 5025,
+              "end": 5065
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2011",
+              "block_id": "b147",
+              "kind": "text",
+              "start": 5078,
+              "end": 5082
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "M Tech",
+              "block_id": "b145",
+              "kind": "text",
+              "start": 5025,
+              "end": 5031
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "EDUCATION",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v61921993f8ec867f",
+        "type": "EDUCATION",
+        "title": "B TECH",
+        "org": "Amrita University",
+        "entry_text": "B TECH | Electrical & Electronics Engineering Amrita University , India WEBSITES, PORTFOLIOS AND PROFILES",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "B TECH | Electrical & Electronics Engineering",
+              "block_id": "b148",
+              "kind": "text",
+              "start": 5083,
+              "end": 5128
+            },
+            {
+              "page": 1,
+              "text": "Amrita University , India",
+              "block_id": "b149",
+              "kind": "text",
+              "start": 5129,
+              "end": 5154
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "Amrita University",
+              "block_id": "b149",
+              "kind": "text",
+              "start": 5129,
+              "end": 5146
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "B TECH",
+              "block_id": "b148",
+              "kind": "text",
+              "start": 5083,
+              "end": 5089
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "EDUCATION",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "v920b35867f2ea69e"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 4,
+      "total_events": 7,
+      "dated_share": 0.571,
+      "unresolved": 3,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.89
+    },
+    "total_represented_months": 113,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

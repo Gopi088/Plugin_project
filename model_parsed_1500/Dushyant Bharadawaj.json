@@ -1,0 +1,803 @@
+{
+  "file_name": "Dushyant Bharadawaj.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 5,
+    "total_events": 7,
+    "dated_share": 0.714,
+    "unresolved": 2,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v77214b0bb2b99007",
+      "company": "Geo Planet Solutions Pvt Limited",
+      "title": "CONSULTANT",
+      "start_date": "2013-10",
+      "end_date": "2015-03",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vb138a49bc54c020f",
+      "company": "A&A Solutions",
+      "title": "BUSINESS ANALYST",
+      "start_date": "2015-04",
+      "end_date": "2018-05",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "ve53151a466da923a",
+      "company": "",
+      "title": "JUNIOR ENGINEER(Data Analyst",
+      "start_date": "2018-07",
+      "end_date": "2021-09",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v33e9f8f5e0643aed",
+      "company": "",
+      "title": "SENIOR ASSOCIATE-DATA ANALYSIS",
+      "start_date": "2021-10",
+      "end_date": "2022-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v4078b455adb0c695",
+      "company": "",
+      "title": "SENIOR ANALYST",
+      "start_date": "2022-12",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "vbbcee490d964d3bc",
+      "company": "Liverpool John Moores University Liverpool",
+      "title": "Master of Science in Machine Learning & AI",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    },
+    {
+      "id": "vcd15b21e21ce45c1",
+      "company": "Rajasthan Technical University Kota",
+      "title": "BACHELOR OF TECHNOLOGY",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    }
+  ],
+  "gaps": [
+    {
+      "id": "g2d94e9113bdab8d4",
+      "start": "2018-06",
+      "end": "2018-06",
+      "months": 1,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    }
+  ],
+  "total_work_experience": 5,
+  "total_projects": 0,
+  "total_gaps": 1,
+  "raw_pipeline_dto": {
+    "doc_id": "Dushyant Bharadawaj",
+    "filename": "Dushyant Bharadawaj.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v77214b0bb2b99007",
+        "type": "EMPLOYMENT",
+        "title": "CONSULTANT",
+        "org": "Geo Planet Solutions Pvt Limited",
+        "start": "2013-10",
+        "end": "2015-03",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "CONSULTANT\nGeo Planet Solutions Pvt Limited October 2013 - March 2015",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "CONSULTANT",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 3369,
+              "end": 3379
+            },
+            {
+              "page": 1,
+              "text": "Geo Planet Solutions Pvt Limited October 2013 - March 2015",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 3381,
+              "end": 3439
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "October 2013 - March 2015",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 3414,
+              "end": 3439
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Geo Planet Solutions Pvt Limited",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 3381,
+              "end": 3413
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "CONSULTANT",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 3369,
+              "end": 3379
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "October 2013 - March 2015",
+          "is_present": false
+        },
+        "date_label": "October 2013 - March 2015",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vb138a49bc54c020f",
+        "type": "EMPLOYMENT",
+        "title": "BUSINESS ANALYST",
+        "org": "A&A Solutions",
+        "start": "2015-04",
+        "end": "2018-05",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "BUSINESS ANALYST\nA&A Solutions April 2015 - May 2018",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "BUSINESS ANALYST",
+              "block_id": "b36",
+              "kind": "text",
+              "start": 3020,
+              "end": 3036
+            },
+            {
+              "page": 1,
+              "text": "A&A Solutions April 2015 - May 2018",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 3038,
+              "end": 3073
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "April 2015 - May 2018",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 3052,
+              "end": 3073
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "A&A Solutions",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 3038,
+              "end": 3051
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "BUSINESS ANALYST",
+              "block_id": "b36",
+              "kind": "text",
+              "start": 3020,
+              "end": 3036
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "April 2015 - May 2018",
+          "is_present": false
+        },
+        "date_label": "April 2015 - May 2018",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "ve53151a466da923a",
+        "type": "EMPLOYMENT",
+        "title": "JUNIOR ENGINEER(Data Analyst",
+        "org": "",
+        "start": "2018-07",
+        "end": "2021-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "JUNIOR ENGINEER(Data Analyst)\nBharat Sanchar Nigam Limited (Govt. Of India) July 2018 - September 2021",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "JUNIOR ENGINEER(Data Analyst)",
+              "block_id": "b31",
+              "kind": "text",
+              "start": 2594,
+              "end": 2623
+            },
+            {
+              "page": 1,
+              "text": "Bharat Sanchar Nigam Limited (Govt. Of India) July 2018 - September 2021",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 2625,
+              "end": 2697
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "July 2018 - September 2021",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 2671,
+              "end": 2697
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "JUNIOR ENGINEER(Data Analyst",
+              "block_id": "b31",
+              "kind": "text",
+              "start": 2594,
+              "end": 2622
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "July 2018 - September 2021",
+          "is_present": false
+        },
+        "date_label": "July 2018 - September 2021",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v33e9f8f5e0643aed",
+        "type": "EMPLOYMENT",
+        "title": "SENIOR ASSOCIATE-DATA ANALYSIS",
+        "org": "",
+        "start": "2021-10",
+        "end": "2022-12",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "SENIOR ASSOCIATE-DATA ANALYSIS\nLarsen and Toubro Construction October 2021 - December 2022",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "SENIOR ASSOCIATE-DATA ANALYSIS",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 2129,
+              "end": 2159
+            },
+            {
+              "page": 1,
+              "text": "Larsen and Toubro Construction October 2021 - December 2022",
+              "block_id": "b27",
+              "kind": "text",
+              "start": 2161,
+              "end": 2220
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "October 2021 - December 2022",
+              "block_id": "b27",
+              "kind": "text",
+              "start": 2192,
+              "end": 2220
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "SENIOR ASSOCIATE-DATA ANALYSIS",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 2129,
+              "end": 2159
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "October 2021 - December 2022",
+          "is_present": false
+        },
+        "date_label": "October 2021 - December 2022",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v4078b455adb0c695",
+        "type": "EMPLOYMENT",
+        "title": "SENIOR ANALYST",
+        "org": "",
+        "start": "2022-12",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "SENIOR ANALYST\nAccenture December 2022 – Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "SENIOR ANALYST",
+              "block_id": "b16",
+              "kind": "text",
+              "start": 1225,
+              "end": 1239
+            },
+            {
+              "page": 1,
+              "text": "Accenture December 2022 – Present",
+              "block_id": "b17",
+              "kind": "text",
+              "start": 1241,
+              "end": 1274
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "December 2022 – Present",
+              "block_id": "b17",
+              "kind": "text",
+              "start": 1251,
+              "end": 1274
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "SENIOR ANALYST",
+              "block_id": "b16",
+              "kind": "text",
+              "start": 1225,
+              "end": 1239
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "December 2022 – Present",
+          "is_present": true
+        },
+        "date_label": "December 2022 – Present",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "vbbcee490d964d3bc",
+        "type": "EDUCATION",
+        "title": "Master of Science in Machine Learning & AI",
+        "org": "Liverpool John Moores University Liverpool",
+        "entry_text": "Master of Science in Machine Learning & AI Liverpool John Moores University Liverpool, England Expected Graduation:  March ’26",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Master of Science in Machine Learning & AI",
+              "block_id": "b80",
+              "kind": "text",
+              "start": 6257,
+              "end": 6299
+            },
+            {
+              "page": 1,
+              "text": "Liverpool John Moores University Liverpool, England",
+              "block_id": "b81",
+              "kind": "text",
+              "start": 6301,
+              "end": 6352
+            },
+            {
+              "page": 1,
+              "text": "Expected Graduation:  March ’26",
+              "block_id": "b82",
+              "kind": "text",
+              "start": 6355,
+              "end": 6386
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "March ’26",
+              "block_id": "b82",
+              "kind": "text",
+              "start": 6377,
+              "end": 6386
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Liverpool John Moores University Liverpool",
+              "block_id": "b81",
+              "kind": "text",
+              "start": 6301,
+              "end": 6343
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Master of Science in Machine Learning & AI",
+              "block_id": "b80",
+              "kind": "text",
+              "start": 6257,
+              "end": 6299
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "March ’26",
+          "is_present": false
+        },
+        "date_label": "March ’26",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      },
+      {
+        "id": "vcd15b21e21ce45c1",
+        "type": "EDUCATION",
+        "title": "BACHELOR OF TECHNOLOGY",
+        "org": "Rajasthan Technical University Kota",
+        "entry_text": "BACHELOR OF TECHNOLOGY Rajasthan Technical University Kota, Rajasthan Year : 2013 CERTIFICATIONS  & ACHIEVEMENTS • Google Data Analytics |Coursera | 2022 • Azure AI Fundamentals |2024",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "BACHELOR OF TECHNOLOGY",
+              "block_id": "b83",
+              "kind": "text",
+              "start": 6388,
+              "end": 6410
+            },
+            {
+              "page": 1,
+              "text": "Rajasthan Technical University Kota, Rajasthan",
+              "block_id": "b84",
+              "kind": "text",
+              "start": 6412,
+              "end": 6458
+            },
+            {
+              "page": 1,
+              "text": "Year : 2013",
+              "block_id": "b85",
+              "kind": "text",
+              "start": 6461,
+              "end": 6472
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2013",
+              "block_id": "b85",
+              "kind": "text",
+              "start": 6468,
+              "end": 6472
+            },
+            {
+              "page": 1,
+              "text": "2022",
+              "block_id": "b87",
+              "kind": "text",
+              "start": 6547,
+              "end": 6551
+            },
+            {
+              "page": 1,
+              "text": "2024",
+              "block_id": "b88",
+              "kind": "text",
+              "start": 6578,
+              "end": 6582
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Rajasthan Technical University Kota",
+              "block_id": "b84",
+              "kind": "text",
+              "start": 6412,
+              "end": 6447
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "BACHELOR OF TECHNOLOGY",
+              "block_id": "b83",
+              "kind": "text",
+              "start": 6388,
+              "end": 6410
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2013",
+          "is_present": false
+        },
+        "date_label": "2013",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g2d94e9113bdab8d4",
+        "start": [
+          2018,
+          6
+        ],
+        "end": [
+          2018,
+          6
+        ],
+        "months": 1,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "vb138a49bc54c020f",
+          "event_after": "ve53151a466da923a",
+          "coverage_scope": "employment"
+        },
+        "start_label": "2018-06",
+        "end_label": "2018-06",
+        "evidence_quotes": [
+          "BUSINESS ANALYST A&A Solutions April 2015 - May 2018",
+          "JUNIOR ENGINEER(Data Analyst) Bharat Sanchar Nigam Limited (Govt. Of India) July 2018 - September 2021"
+        ],
+        "evidence_details": [
+          {
+            "header": "BUSINESS ANALYST at A&A Solutions",
+            "quote": "BUSINESS ANALYST A&A Solutions April 2015 - May 2018",
+            "event_id": "vb138a49bc54c020f",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "BUSINESS ANALYST",
+                  "block_id": "b36",
+                  "kind": "text",
+                  "start": 3020,
+                  "end": 3036
+                },
+                {
+                  "page": 1,
+                  "text": "A&A Solutions April 2015 - May 2018",
+                  "block_id": "b37",
+                  "kind": "text",
+                  "start": 3038,
+                  "end": 3073
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "April 2015 - May 2018",
+                  "block_id": "b37",
+                  "kind": "text",
+                  "start": 3052,
+                  "end": 3073
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "A&A Solutions",
+                  "block_id": "b37",
+                  "kind": "text",
+                  "start": 3038,
+                  "end": 3051
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "BUSINESS ANALYST",
+                  "block_id": "b36",
+                  "kind": "text",
+                  "start": 3020,
+                  "end": 3036
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "April 2015 - May 2018",
+              "is_present": false
+            }
+          },
+          {
+            "header": "JUNIOR ENGINEER(Data Analys",
+            "quote": "JUNIOR ENGINEER(Data Analyst) Bharat Sanchar Nigam Limited (Govt. Of India) July 2018 - September 2021",
+            "event_id": "ve53151a466da923a",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "JUNIOR ENGINEER(Data Analyst)",
+                  "block_id": "b31",
+                  "kind": "text",
+                  "start": 2594,
+                  "end": 2623
+                },
+                {
+                  "page": 1,
+                  "text": "Bharat Sanchar Nigam Limited (Govt. Of India) July 2018 - September 2021",
+                  "block_id": "b32",
+                  "kind": "text",
+                  "start": 2625,
+                  "end": 2697
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "July 2018 - September 2021",
+                  "block_id": "b32",
+                  "kind": "text",
+                  "start": 2671,
+                  "end": 2697
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "JUNIOR ENGINEER(Data Analyst",
+                  "block_id": "b31",
+                  "kind": "text",
+                  "start": 2594,
+                  "end": 2622
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "July 2018 - September 2021",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 5,
+      "total_events": 7,
+      "dated_share": 0.714,
+      "unresolved": 2,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 155,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

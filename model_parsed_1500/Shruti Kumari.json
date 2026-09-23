@@ -1,0 +1,516 @@
+{
+  "file_name": "Shruti Kumari.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 3,
+    "total_events": 4,
+    "dated_share": 0.75,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v3b810c1a57dd987b",
+      "company": "Bengaluru",
+      "title": "",
+      "start_date": "2018-08",
+      "end_date": "2020-02",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v8a344e404f830880",
+      "company": "Bengaluru",
+      "title": "",
+      "start_date": "2021-06",
+      "end_date": "2021-11",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vf25046013757e24c",
+      "company": "Bengaluru",
+      "title": "",
+      "start_date": "2021-11",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "vd26249c566e05c41",
+      "company": "Bengal College of Engineering & Technology",
+      "title": "Bachelor of Technology (B.Tech)",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    }
+  ],
+  "gaps": [
+    {
+      "id": "gad6f90db009d8d6a",
+      "start": "2020-03",
+      "end": "2021-05",
+      "months": 15,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    }
+  ],
+  "total_work_experience": 3,
+  "total_projects": 0,
+  "total_gaps": 1,
+  "raw_pipeline_dto": {
+    "doc_id": "Shruti Kumari",
+    "filename": "Shruti Kumari.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v3b810c1a57dd987b",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Bengaluru",
+        "start": "2018-08",
+        "end": "2020-02",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Aug 2018 – Feb 2020 | Bengaluru",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Aug 2018 – Feb 2020 | Bengaluru",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 2606,
+              "end": 2637
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Aug 2018 – Feb 2020",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 2606,
+              "end": 2625
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Bengaluru",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 2628,
+              "end": 2637
+            }
+          ],
+          "title": [],
+          "section": "Professional Experience",
+          "date_label": "Aug 2018 – Feb 2020",
+          "is_present": false
+        },
+        "date_label": "Aug 2018 – Feb 2020",
+        "section": "Professional Experience",
+        "is_present": false
+      },
+      {
+        "id": "v8a344e404f830880",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Bengaluru",
+        "start": "2021-06",
+        "end": "2021-11",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Jun 2021 – Nov 2021 | Bengaluru",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Jun 2021 – Nov 2021 | Bengaluru",
+              "block_id": "b35",
+              "kind": "text",
+              "start": 2121,
+              "end": 2152
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jun 2021 – Nov 2021",
+              "block_id": "b35",
+              "kind": "text",
+              "start": 2121,
+              "end": 2140
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Bengaluru",
+              "block_id": "b35",
+              "kind": "text",
+              "start": 2143,
+              "end": 2152
+            }
+          ],
+          "title": [],
+          "section": "Professional Experience",
+          "date_label": "Jun 2021 – Nov 2021",
+          "is_present": false
+        },
+        "date_label": "Jun 2021 – Nov 2021",
+        "section": "Professional Experience",
+        "is_present": false
+      },
+      {
+        "id": "vf25046013757e24c",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Bengaluru",
+        "start": "2021-11",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Nov 2021 – Present | Bengaluru",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Nov 2021 – Present | Bengaluru",
+              "block_id": "b20",
+              "kind": "text",
+              "start": 1158,
+              "end": 1188
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Nov 2021 – Present",
+              "block_id": "b20",
+              "kind": "text",
+              "start": 1158,
+              "end": 1176
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Bengaluru",
+              "block_id": "b20",
+              "kind": "text",
+              "start": 1179,
+              "end": 1188
+            }
+          ],
+          "title": [],
+          "section": "Professional Experience",
+          "date_label": "Nov 2021 – Present",
+          "is_present": true
+        },
+        "date_label": "Nov 2021 – Present",
+        "section": "Professional Experience",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "vd26249c566e05c41",
+        "type": "EDUCATION",
+        "title": "Bachelor of Technology (B.Tech)",
+        "org": "Bengal College of Engineering & Technology",
+        "entry_text": "Bachelor of Technology (B.Tech) – Computer Science Engineering Bengal College of Engineering & Technology, Durgapur — DGPA: 7.64 (2015) 12th – M.P. High School, Sitamarhi (Bihar) — 63% (2010) 10th – Kamala Girls High School, Sitamarhi (Bihar) — 63% (2008) Key Highlights Recognized for maintaining hi",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor of Technology (B.Tech) – Computer Science Engineering",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 3120,
+              "end": 3182
+            },
+            {
+              "page": 1,
+              "text": "Bengal College of Engineering & Technology, Durgapur — DGPA: 7.64 (2015)",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 3184,
+              "end": 3256
+            },
+            {
+              "page": 1,
+              "text": "12th – M.P. High School, Sitamarhi (Bihar) — 63% (2010)",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 3258,
+              "end": 3313
+            },
+            {
+              "page": 1,
+              "text": "10th – Kamala Girls High School, Sitamarhi (Bihar) — 63% (2008)",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 3315,
+              "end": 3378
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2015",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 3251,
+              "end": 3255
+            },
+            {
+              "page": 1,
+              "text": "2010",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 3308,
+              "end": 3312
+            },
+            {
+              "page": 1,
+              "text": "2008",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 3373,
+              "end": 3377
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Bengal College of Engineering & Technology",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 3184,
+              "end": 3226
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Technology (B.Tech",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 3120,
+              "end": 3150
+            }
+          ],
+          "section": "Education",
+          "date_label": "2015 / 2010 / 2008",
+          "is_present": false
+        },
+        "date_label": "2015 / 2010 / 2008",
+        "section": "Education",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "gad6f90db009d8d6a",
+        "start": [
+          2020,
+          3
+        ],
+        "end": [
+          2021,
+          5
+        ],
+        "months": 15,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "v3b810c1a57dd987b",
+          "event_after": "v8a344e404f830880",
+          "coverage_scope": "employment"
+        },
+        "start_label": "2020-03",
+        "end_label": "2021-05",
+        "evidence_quotes": [
+          "Aug 2018 – Feb 2020 | Bengaluru",
+          "Jun 2021 – Nov 2021 | Bengaluru"
+        ],
+        "evidence_details": [
+          {
+            "header": "Bengaluru",
+            "quote": "Aug 2018 – Feb 2020 | Bengaluru",
+            "event_id": "v3b810c1a57dd987b",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Aug 2018 – Feb 2020 | Bengaluru",
+                  "block_id": "b43",
+                  "kind": "text",
+                  "start": 2606,
+                  "end": 2637
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Aug 2018 – Feb 2020",
+                  "block_id": "b43",
+                  "kind": "text",
+                  "start": 2606,
+                  "end": 2625
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Bengaluru",
+                  "block_id": "b43",
+                  "kind": "text",
+                  "start": 2628,
+                  "end": 2637
+                }
+              ],
+              "title": [],
+              "section": "Professional Experience",
+              "date_label": "Aug 2018 – Feb 2020",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Bengaluru",
+            "quote": "Jun 2021 – Nov 2021 | Bengaluru",
+            "event_id": "v8a344e404f830880",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Jun 2021 – Nov 2021 | Bengaluru",
+                  "block_id": "b35",
+                  "kind": "text",
+                  "start": 2121,
+                  "end": 2152
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Jun 2021 – Nov 2021",
+                  "block_id": "b35",
+                  "kind": "text",
+                  "start": 2121,
+                  "end": 2140
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Bengaluru",
+                  "block_id": "b35",
+                  "kind": "text",
+                  "start": 2143,
+                  "end": 2152
+                }
+              ],
+              "title": [],
+              "section": "Professional Experience",
+              "date_label": "Jun 2021 – Nov 2021",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 3,
+      "total_events": 4,
+      "dated_share": 0.75,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 83,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

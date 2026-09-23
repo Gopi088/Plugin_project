@@ -306,7 +306,7 @@ def extract_jobs(text, today=None):
 def extract_projects(text):
     text = _norm_text(text)
     # First: explicit PROJECT #N headers anywhere in the doc (most reliable).
-    numbered_pat = re.compile(r"^\s*PROJECT\s*#?\s*\d+\s*[:\-–.]?\s*(.+?)\s*$", re.IGNORECASE)
+    numbered_pat = re.compile(r"^\s*(?:PROJECT|POC)\s*[-#]?\s*\d+(?:\s*[:\-–.]?\s*(.*))?$", re.IGNORECASE)
     numbered = []
     cur = None
     for ln in (text or "").split("\n"):
@@ -315,13 +315,26 @@ def extract_projects(text):
         if m:
             if cur:
                 numbered.append(cur)
-            cur = {"name": m.group(1).strip(" #:.-"), "details": []}
+            name_val = (m.group(1) or "").strip(" #:.-")
+            cur = {"name": name_val or s, "duration": "", "client": "", "role": "", "details": []}
         elif cur is not None:
-            if s.startswith("•"):
+            m_dur = re.match(r"^(?:duration|period|tenure)\s*[:\-]\s*(.+)$", s, re.IGNORECASE)
+            m_client = re.match(r"^(?:client(?:\s*name)?)\s*[:\-]\s*(.+)$", s, re.IGNORECASE)
+            m_role = re.match(r"^(?:role|position|designation|project role)\s*[:\-]\s*(.+)$", s, re.IGNORECASE)
+            m_title = re.match(r"^(?:title|project title|project name)\s*[:\-]\s*(.+)$", s, re.IGNORECASE)
+            if m_dur and not cur.get("duration"):
+                cur["duration"] = m_dur.group(1).strip()
+            elif m_client and not cur.get("client"):
+                cur["client"] = m_client.group(1).strip()
+            elif m_role and not cur.get("role"):
+                cur["role"] = m_role.group(1).strip()
+            elif m_title and (not cur.get("name") or cur["name"].isdigit() or cur["name"].startswith("POC") or cur["name"].startswith("Project")):
+                cur["name"] = m_title.group(1).strip()
+            elif s.startswith("•"):
                 cur["details"].append(s.lstrip("• ").strip())
             elif re.match(r"^(EDUCATION|DECLARATION|CERTIFICATION|REFERENCES)\s*:?\s*$", s, re.IGNORECASE):
                 break
-            elif cur.get("details") and s:
+            elif cur.get("details") and s and not s.startswith(("Roles & Responsibilities", "Details:")):
                 cur["details"][-1] += " " + s
     if cur:
         numbered.append(cur)
@@ -394,54 +407,59 @@ def months_between(a, b):
     return (by * 12 + bm) - (ay * 12 + am)
 
 
-def analyze_resume_timeline(text, today=None):
-    text = _norm_text(text)
-    if today is None:
-        today = date.today()
-    edu = extract_education(text, today)
-    jobs = extract_jobs(text, today)
-    projects = extract_projects(text)
-
-    graduation = None
-    dated = [e for e in edu if e.get("end")]
-    if dated:
-        # latest education end = graduation
-        g = max(dated, key=lambda e: e["end"])
-        graduation = {"label": g["label"], "date": g["end"],
-                      "year": int(g["end"][:4]), "month": int(g["end"][5:7])}
-
+def analyze_resume_timeline(text, today=None, *, raw_bytes=b"", filename="resume.txt"):
+    """Compatibility output backed by the same twelve stages as the API."""
+    from backend.pipeline_context import PipelineContext
+    from backend.pipeline import runner
+    ctx = PipelineContext("cli", filename, raw_text=text, raw_bytes=raw_bytes)
+    if today is not None:
+        ctx.meta["today"] = today
+    runner.run(ctx)
+    dto = ctx.recruiter_output
+    jobs, education = [], []
+    for event in ctx.events:
+        row = {"title": event.title, "company": event.org,
+               "start": _month(event.start), "end": _month(event.end),
+               "raw": event.date_label, "precision": event.precision,
+               "status": event.status, "source": event.source}
+        if event.type in ("EMPLOYMENT", "INTERNSHIP"):
+            row["duration_months"] = (months_between(row["start"], row["end"]) + 1
+                if row["start"] and row["end"] and event.precision == "month" else None)
+            jobs.append(row)
+        elif event.type == "EDUCATION":
+            education.append({**row, "label": event.title})
+    # A course end is evidence of an education date, not proof of graduation.
     grad_gap = None
-    if graduation and jobs:
-        first = min(jobs, key=lambda j: j["start"])
-        grad_gap = months_between(graduation["date"], first["start"])
+    job_gaps = []
+    for gap in ctx.gaps:
+        if gap.state != "POTENTIAL_GAP":
+            continue
+        bounds = (dto.get("gaps") or [])
+        evidence = next((g.get("evidence_details", []) for g in bounds if g["id"] == gap.id), [])
+        row = {"gap_months": gap.months, "start": _month(gap.start),
+               "end": _month(gap.end), "evidence": evidence}
+        if ctx.events_by_id().get(gap.evidence.get("event_before")).type == "EDUCATION":
+            grad_gap = gap.months
+        else:
+            job_gaps.append(row)
+    return {"graduation": None, "education_entries": education, "jobs": jobs,
+            "graduation_to_first_job_months": grad_gap, "job_gaps": job_gaps,
+            "total_experience_months": (len({year * 12 + month for e in ctx.events
+                if e.type in ("EMPLOYMENT", "INTERNSHIP") and e.start and e.end
+                for year, month in _covered_months(e.start, e.end)})
+                if all(j["duration_months"] is not None for j in jobs) else None),
+            "total_gap_months": sum(g.months for g in ctx.gaps if g.state == "POTENTIAL_GAP"),
+            "projects": {"items": [e.to_dict() for e in ctx.events if e.type == "PROJECT"]},
+            "warnings": ["Insufficient evidence to assess unrepresented periods."]
+                if any(g.state == "INSUFFICIENT_EVIDENCE" for g in ctx.gaps) else [],
+            "timeline": dto}
 
-    gaps, warnings = [], []
-    ordered = sorted(jobs, key=lambda j: j["start"])
-    for prev, nxt in zip(ordered, ordered[1:]):
-        gap = months_between(prev["end"], nxt["start"])
-        gaps.append({"from": f"{prev['title']} @ {prev['company']}"[:80],
-                     "to": f"{nxt['title']} @ {nxt['company']}"[:80],
-                     "gap_months": gap})
-        if gap > 3:
-            warnings.append(f"GAP: {gap} months between '{prev['company']}' and '{nxt['company']}'")
-        elif gap < 0:
-            warnings.append(f"OVERLAP: {abs(gap)} months between '{prev['company']}' and '{nxt['company']}'")
-    if grad_gap is not None and grad_gap > 6:
-        warnings.append(f"GAP: {grad_gap} months between graduation ({graduation['date']}) and first job")
-    if projects["unexplained"] > 0:
-        warnings.append(f"UNEXPLAINED_PROJECTS: claimed {projects['claimed']}, described {projects['described']}")
 
-    total_exp = sum(j["duration_months"] for j in jobs)
-    total_gap = sum(g["gap_months"] for g in gaps if g["gap_months"] > 0) + (grad_gap if grad_gap and grad_gap > 0 else 0)
+def _month(value):
+    return f"{value[0]:04d}-{value[1]:02d}" if value else ""
 
-    return {
-        "graduation": graduation,
-        "education_entries": edu,
-        "jobs": jobs,
-        "graduation_to_first_job_months": grad_gap,
-        "job_gaps": gaps,
-        "total_experience_months": total_exp,
-        "total_gap_months": total_gap,
-        "projects": projects,
-        "warnings": warnings,
-    }
+
+def _covered_months(start, end):
+    for index in range(start[0]*12+start[1]-1, end[0]*12+end[1]):
+        year, zero_month = divmod(index, 12)
+        yield year, zero_month+1

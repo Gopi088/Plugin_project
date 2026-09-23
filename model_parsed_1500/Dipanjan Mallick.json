@@ -1,0 +1,539 @@
+{
+  "file_name": "Dipanjan Mallick.docx",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 5,
+    "total_events": 6,
+    "dated_share": 0.833,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v6b54f77ffaeff0f0",
+      "company": "",
+      "title": "Application Development Analyst (ETL Developer)",
+      "start_date": "2015-06",
+      "end_date": "2019-02",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v660223e4632e522c",
+      "company": "",
+      "title": "Consultant (Data Engineer)",
+      "start_date": "2019-03",
+      "end_date": "2021-04",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v104c1d8e6b4575b9",
+      "company": "",
+      "title": "Data Engineer III",
+      "start_date": "2021-05",
+      "end_date": "2022-09",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "ve6a66dfc4d49f1b6",
+      "company": "",
+      "title": "Manager II",
+      "start_date": "2022-09",
+      "end_date": "2025-03",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "va133f2e1561aeffc",
+      "company": "",
+      "title": "Data Engineering Manager",
+      "start_date": "2025-04",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "ve270faf25a636404",
+      "company": "KIIT University",
+      "title": "B.Tech in Electronics & Telecommunication Engineering CGPA: 7.94",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 5,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "Dipanjan Mallick",
+    "filename": "Dipanjan Mallick.docx",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v6b54f77ffaeff0f0",
+        "type": "EMPLOYMENT",
+        "title": "Application Development Analyst (ETL Developer)",
+        "org": "",
+        "start": "2015-06",
+        "end": "2019-02",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Application Development Analyst (ETL Developer) \t Jun 2015 – Feb 2019",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Application Development Analyst (ETL Developer) \t Jun 2015 – Feb 2019",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 7321,
+              "end": 7390
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jun 2015 – Feb 2019",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 7371,
+              "end": 7390
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Application Development Analyst (ETL Developer",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 7321,
+              "end": 7367
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "Jun 2015 – Feb 2019",
+          "is_present": false
+        },
+        "date_label": "Jun 2015 – Feb 2019",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v660223e4632e522c",
+        "type": "EMPLOYMENT",
+        "title": "Consultant (Data Engineer)",
+        "org": "",
+        "start": "2019-03",
+        "end": "2021-04",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Consultant (Data Engineer) \t Mar 2019 – Apr 2021",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Consultant (Data Engineer) \t Mar 2019 – Apr 2021",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 6439,
+              "end": 6487
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Mar 2019 – Apr 2021",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 6468,
+              "end": 6487
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Consultant (Data Engineer",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 6439,
+              "end": 6464
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "Mar 2019 – Apr 2021",
+          "is_present": false
+        },
+        "date_label": "Mar 2019 – Apr 2021",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v104c1d8e6b4575b9",
+        "type": "EMPLOYMENT",
+        "title": "Data Engineer III",
+        "org": "",
+        "start": "2021-05",
+        "end": "2022-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Data Engineer III \tMay 2021- Sep 2022",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Data Engineer III \tMay 2021- Sep 2022",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 5440,
+              "end": 5477
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "May 2021- Sep 2022",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 5459,
+              "end": 5477
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Data Engineer III",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 5440,
+              "end": 5457
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "May 2021- Sep 2022",
+          "is_present": false
+        },
+        "date_label": "May 2021- Sep 2022",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "ve6a66dfc4d49f1b6",
+        "type": "EMPLOYMENT",
+        "title": "Manager II",
+        "org": "",
+        "start": "2022-09",
+        "end": "2025-03",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Manager II\tSep 2022 – Mar 2025",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Manager II\tSep 2022 – Mar 2025",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 3576,
+              "end": 3606
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Sep 2022 – Mar 2025",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 3587,
+              "end": 3606
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Manager II",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 3576,
+              "end": 3586
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "Sep 2022 – Mar 2025",
+          "is_present": false
+        },
+        "date_label": "Sep 2022 – Mar 2025",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "va133f2e1561aeffc",
+        "type": "EMPLOYMENT",
+        "title": "Data Engineering Manager",
+        "org": "",
+        "start": "2025-04",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Data Engineering Manager\tApr 2025 – Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Data Engineering Manager\tApr 2025 – Present",
+              "block_id": "b12",
+              "kind": "text",
+              "start": 1504,
+              "end": 1547
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Apr 2025 – Present",
+              "block_id": "b12",
+              "kind": "text",
+              "start": 1529,
+              "end": 1547
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Data Engineering Manager",
+              "block_id": "b12",
+              "kind": "text",
+              "start": 1504,
+              "end": 1528
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "Apr 2025 – Present",
+          "is_present": true
+        },
+        "date_label": "Apr 2025 – Present",
+        "section": "WORK EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "ve270faf25a636404",
+        "type": "EDUCATION",
+        "title": "B.Tech in Electronics & Telecommunication Engineering CGPA: 7.94",
+        "org": "KIIT University",
+        "entry_text": "KIIT University, Bhubaneswar [2015] - B.Tech in Electronics & Telecommunication Engineering CGPA: 7.94 Delhi Public School, Dhanbad [2011] - 12th CBSE Grade: 80.5% [2009] - 10th CBSE Grade: 85.6% REWARDS AND RECOGNITION • \tExtra-Mile Award – FY24 Received for doing all the ground work necessary to h",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "KIIT University, Bhubaneswar",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 9542,
+              "end": 9570
+            },
+            {
+              "page": 1,
+              "text": "[2015] - B.Tech in Electronics & Telecommunication Engineering CGPA: 7.94",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 9572,
+              "end": 9645
+            },
+            {
+              "page": 1,
+              "text": "Delhi Public School, Dhanbad",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 9649,
+              "end": 9677
+            },
+            {
+              "page": 1,
+              "text": "[2011] - 12th CBSE Grade: 80.5%",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 9679,
+              "end": 9710
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2015",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 9573,
+              "end": 9577
+            },
+            {
+              "page": 1,
+              "text": "2011",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 9680,
+              "end": 9684
+            },
+            {
+              "page": 1,
+              "text": "2009",
+              "block_id": "b71",
+              "kind": "text",
+              "start": 9712,
+              "end": 9716
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "KIIT University",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 9542,
+              "end": 9557
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "B.Tech in Electronics & Telecommunication Engineering CGPA: 7.94",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 9581,
+              "end": 9645
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2015 / 2011",
+          "is_present": false
+        },
+        "date_label": "2015 / 2011",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "NO_GAP_DETECTED",
+        "confidence": 0.9,
+        "reasons": [],
+        "evidence": {
+          "note": "no uncovered months between supported entries"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 5,
+      "total_events": 6,
+      "dated_share": 0.833,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 136,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

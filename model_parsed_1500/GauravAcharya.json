@@ -1,0 +1,324 @@
+{
+  "file_name": "GauravAcharya.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 3,
+    "dated_share": 0.667,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.833,
+    "document_accuracy": 0.83
+  },
+  "work_experience": [
+    {
+      "id": "v8a4d2209be82f4d4",
+      "company": "Digital Wealth",
+      "title": "Senior Business Analyst",
+      "start_date": "2020-01",
+      "end_date": "2022-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    },
+    {
+      "id": "v335e01f6fcad503e",
+      "company": "Education &",
+      "title": "Senior Business Analyst",
+      "start_date": "2024-11",
+      "end_date": "2025-04",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "v0b7927cd205d0e7b",
+      "company": "Pune University",
+      "title": "Bachelor in Foreign Trade (BFT)",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 2,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "GauravAcharya",
+    "filename": "GauravAcharya.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v8a4d2209be82f4d4",
+        "type": "EMPLOYMENT",
+        "title": "Senior Business Analyst",
+        "org": "Digital Wealth",
+        "start": "2020-01",
+        "end": "2022-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Senior Business Analyst – Digital Wealth",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Business Analyst – Digital Wealth",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 5592,
+              "end": 5632
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Nov 2020 – 2022",
+              "block_id": "b81",
+              "kind": "text",
+              "start": 5664,
+              "end": 5679
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Digital Wealth",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 5618,
+              "end": 5632
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Business Analyst",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 5592,
+              "end": 5615
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Nov 2020 – 2022",
+          "is_present": false
+        },
+        "date_label": "Nov 2020 – 2022",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v335e01f6fcad503e",
+        "type": "EMPLOYMENT",
+        "title": "Senior Business Analyst",
+        "org": "Education &",
+        "start": "2024-11",
+        "end": "2025-04",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Senior Business Analyst – Education &",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Business Analyst – Education &",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 1500,
+              "end": 1537
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Nov 2024 – April 2025",
+              "block_id": "b25",
+              "kind": "text",
+              "start": 1569,
+              "end": 1590
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Education",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 1526,
+              "end": 1535
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Business Analyst",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 1500,
+              "end": 1523
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Nov 2024 – April 2025",
+          "is_present": false
+        },
+        "date_label": "Nov 2024 – April 2025",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v0b7927cd205d0e7b",
+        "type": "EDUCATION",
+        "title": "Bachelor in Foreign Trade (BFT)",
+        "org": "Pune University",
+        "entry_text": "Bachelor in Foreign Trade (BFT) – Pune University (2009)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor in Foreign Trade (BFT) – Pune University (2009)",
+              "block_id": "b112",
+              "kind": "text",
+              "start": 7919,
+              "end": 7975
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2009",
+              "block_id": "b112",
+              "kind": "text",
+              "start": 7970,
+              "end": 7974
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Pune University",
+              "block_id": "b112",
+              "kind": "text",
+              "start": 7953,
+              "end": 7968
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor in Foreign Trade (BFT",
+              "block_id": "b112",
+              "kind": "text",
+              "start": 7919,
+              "end": 7949
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2009",
+          "is_present": false
+        },
+        "date_label": "2009",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [],
+        "evidence": {
+          "note": "year-only dates need verification"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 3,
+      "dated_share": 0.667,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.833,
+      "document_accuracy": 0.83
+    },
+    "total_represented_months": 42,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

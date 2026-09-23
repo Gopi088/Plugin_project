@@ -1,0 +1,473 @@
+{
+  "file_name": "Sreedhar SAP Resume.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 4,
+    "total_events": 4,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "ve31f3c21bb7e8fef",
+      "company": "ISBR Business School - Bengaluru",
+      "title": "",
+      "start_date": "2015-06",
+      "end_date": "2017-10",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vb61316e28447d4bb",
+      "company": "Landmark Group",
+      "title": "",
+      "start_date": "2016-01",
+      "end_date": "2016-02",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vbed330b60a3cce8e",
+      "company": "Edelweiss Stock Broking Ltd",
+      "title": "",
+      "start_date": "2016-06",
+      "end_date": "2016-08",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v942e3dd2ca1968b9",
+      "company": "Madurai Kamaraj University - Bengaluru",
+      "title": "",
+      "start_date": "2018-06",
+      "end_date": "2020-01",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [],
+  "gaps": [
+    {
+      "id": "gc2c1e170b8c439cc",
+      "start": "2017-11",
+      "end": "2018-05",
+      "months": 7,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    }
+  ],
+  "total_work_experience": 4,
+  "total_projects": 0,
+  "total_gaps": 1,
+  "raw_pipeline_dto": {
+    "doc_id": "Sreedhar SAP Resume",
+    "filename": "Sreedhar SAP Resume.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "ve31f3c21bb7e8fef",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "ISBR Business School - Bengaluru",
+        "start": "2015-06",
+        "end": "2017-10",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "ISBR Business School - Bengaluru , 06/2015 to 10/2017",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "ISBR Business School - Bengaluru , 06/2015 to 10/2017",
+              "block_id": "b103",
+              "kind": "text",
+              "start": 6851,
+              "end": 6904
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "06/2015 to 10/2017",
+              "block_id": "b103",
+              "kind": "text",
+              "start": 6886,
+              "end": 6904
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "ISBR Business School - Bengaluru",
+              "block_id": "b103",
+              "kind": "text",
+              "start": 6851,
+              "end": 6883
+            }
+          ],
+          "title": [],
+          "section": "INTERNSHIPS",
+          "date_label": "06/2015 to 10/2017",
+          "is_present": false
+        },
+        "date_label": "06/2015 to 10/2017",
+        "section": "INTERNSHIPS",
+        "is_present": false
+      },
+      {
+        "id": "vb61316e28447d4bb",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Landmark Group",
+        "start": "2016-01",
+        "end": "2016-02",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Landmark Group 11th January 2016 to 10th February 2016",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Landmark Group 11th January 2016 to 10th February 2016",
+              "block_id": "b98",
+              "kind": "text",
+              "start": 6597,
+              "end": 6651
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "11th January 2016 to 10th February 2016",
+              "block_id": "b98",
+              "kind": "text",
+              "start": 6612,
+              "end": 6651
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Landmark Group",
+              "block_id": "b98",
+              "kind": "text",
+              "start": 6597,
+              "end": 6611
+            }
+          ],
+          "title": [],
+          "section": "INTERNSHIPS",
+          "date_label": "11th January 2016 to 10th February 2016",
+          "is_present": false
+        },
+        "date_label": "11th January 2016 to 10th February 2016",
+        "section": "INTERNSHIPS",
+        "is_present": false
+      },
+      {
+        "id": "vbed330b60a3cce8e",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Edelweiss Stock Broking Ltd",
+        "start": "2016-06",
+        "end": "2016-08",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Edelweiss Stock Broking Ltd  27th June 2016 to 26th August 2016",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Edelweiss Stock Broking Ltd  27th June 2016 to 26th August 2016",
+              "block_id": "b96",
+              "kind": "text",
+              "start": 6499,
+              "end": 6562
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "27th June 2016 to 26th August 2016",
+              "block_id": "b96",
+              "kind": "text",
+              "start": 6528,
+              "end": 6562
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Edelweiss Stock Broking Ltd",
+              "block_id": "b96",
+              "kind": "text",
+              "start": 6499,
+              "end": 6526
+            }
+          ],
+          "title": [],
+          "section": "INTERNSHIPS",
+          "date_label": "27th June 2016 to 26th August 2016",
+          "is_present": false
+        },
+        "date_label": "27th June 2016 to 26th August 2016",
+        "section": "INTERNSHIPS",
+        "is_present": false
+      },
+      {
+        "id": "v942e3dd2ca1968b9",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Madurai Kamaraj University - Bengaluru",
+        "start": "2018-06",
+        "end": "2020-01",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Madurai Kamaraj University - Bengaluru , 06/2018 to 01/2020",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Madurai Kamaraj University - Bengaluru , 06/2018 to 01/2020",
+              "block_id": "b101",
+              "kind": "text",
+              "start": 6717,
+              "end": 6776
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "06/2018 to 01/2020",
+              "block_id": "b101",
+              "kind": "text",
+              "start": 6758,
+              "end": 6776
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Madurai Kamaraj University - Bengaluru",
+              "block_id": "b101",
+              "kind": "text",
+              "start": 6717,
+              "end": 6755
+            }
+          ],
+          "title": [],
+          "section": "INTERNSHIPS",
+          "date_label": "06/2018 to 01/2020",
+          "is_present": false
+        },
+        "date_label": "06/2018 to 01/2020",
+        "section": "INTERNSHIPS",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "gc2c1e170b8c439cc",
+        "start": [
+          2017,
+          11
+        ],
+        "end": [
+          2018,
+          5
+        ],
+        "months": 7,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "ve31f3c21bb7e8fef",
+          "event_after": "v942e3dd2ca1968b9",
+          "coverage_scope": "all_dated_activity"
+        },
+        "start_label": "2017-11",
+        "end_label": "2018-05",
+        "evidence_quotes": [
+          "ISBR Business School - Bengaluru , 06/2015 to 10/2017",
+          "Madurai Kamaraj University - Bengaluru , 06/2018 to 01/2020"
+        ],
+        "evidence_details": [
+          {
+            "header": "ISBR Business School - Bengaluru",
+            "quote": "ISBR Business School - Bengaluru , 06/2015 to 10/2017",
+            "event_id": "ve31f3c21bb7e8fef",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "ISBR Business School - Bengaluru , 06/2015 to 10/2017",
+                  "block_id": "b103",
+                  "kind": "text",
+                  "start": 6851,
+                  "end": 6904
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "06/2015 to 10/2017",
+                  "block_id": "b103",
+                  "kind": "text",
+                  "start": 6886,
+                  "end": 6904
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "ISBR Business School - Bengaluru",
+                  "block_id": "b103",
+                  "kind": "text",
+                  "start": 6851,
+                  "end": 6883
+                }
+              ],
+              "title": [],
+              "section": "INTERNSHIPS",
+              "date_label": "06/2015 to 10/2017",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Madurai Kamaraj University - Bengaluru",
+            "quote": "Madurai Kamaraj University - Bengaluru , 06/2018 to 01/2020",
+            "event_id": "v942e3dd2ca1968b9",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Madurai Kamaraj University - Bengaluru , 06/2018 to 01/2020",
+                  "block_id": "b101",
+                  "kind": "text",
+                  "start": 6717,
+                  "end": 6776
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "06/2018 to 01/2020",
+                  "block_id": "b101",
+                  "kind": "text",
+                  "start": 6758,
+                  "end": 6776
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Madurai Kamaraj University - Bengaluru",
+                  "block_id": "b101",
+                  "kind": "text",
+                  "start": 6717,
+                  "end": 6755
+                }
+              ],
+              "title": [],
+              "section": "INTERNSHIPS",
+              "date_label": "06/2018 to 01/2020",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 4,
+      "total_events": 4,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 49,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

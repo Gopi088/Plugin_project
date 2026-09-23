@@ -1,0 +1,1047 @@
+{
+  "file_name": "Radhika_R.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 3,
+    "total_events": 4,
+    "dated_share": 0.75,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "va83bcc12dcf1ca58",
+      "company": "",
+      "title": "Sr. Business Analyst",
+      "start_date": "2019-11",
+      "end_date": "2025-10",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vb21ec634ead6d3c4",
+      "company": "ANSI Solutions",
+      "title": "Sr. Business Analyst",
+      "start_date": "2026-01",
+      "end_date": "2026-05",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "Project",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Sr. Analyst (Dec 2014- April 2019)",
+        "Northern Trust India Pvt Ltd., Bangalore",
+        "• Company Overview: Northern Trust Corporation is a",
+        "financial services company and headquartered in",
+        "Chicago, Illinois that caters to corporations,",
+        "institutional investors, and high net worth individuals",
+        "• Responsible for evaluating the funds in relationship",
+        "with fixed income securities, Equity, CFD's, Mutual"
+      ]
+    },
+    {
+      "id": "proj_2",
+      "name": "Project",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Jr. Service Analyst (Aug 2013-June 2014)",
+        "Coface India Credit Mgmt. Pvt Ltd., Bangalore",
+        "• Company Overview: Over 70 years of experience",
+        "and the most finely meshed international network",
+        "have made Coface a reference in credit",
+        "insurance, risk management and the global",
+        "economy",
+        "• Follow up and co-ordinate with the clients for"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "v98f0c8b8d6eef478",
+      "company": "VTU university",
+      "title": "MBA",
+      "start_date": "2008-01",
+      "end_date": "2011-01",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v921ee8eb14a9c033",
+      "company": "Bangalore university",
+      "title": "BCOM",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    }
+  ],
+  "gaps": [
+    {
+      "id": "gef84df42677ba565",
+      "start": "2025-11",
+      "end": "2025-12",
+      "months": 2,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    }
+  ],
+  "total_work_experience": 2,
+  "total_projects": 2,
+  "total_gaps": 1,
+  "raw_pipeline_dto": {
+    "doc_id": "Radhika_R",
+    "filename": "Radhika_R.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v98f0c8b8d6eef478",
+        "type": "EDUCATION",
+        "title": "MBA",
+        "org": "VTU university",
+        "start": "2008-01",
+        "end": "2011-01",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "MBA\nVTU university\n2008-01 -\n2011-01",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "MBA",
+              "block_id": "b130",
+              "kind": "text",
+              "start": 5021,
+              "end": 5024
+            },
+            {
+              "page": 1,
+              "text": "VTU university",
+              "block_id": "b131",
+              "kind": "text",
+              "start": 5026,
+              "end": 5040
+            },
+            {
+              "page": 1,
+              "text": "2008-01 -",
+              "block_id": "b132",
+              "kind": "text",
+              "start": 5047,
+              "end": 5056
+            },
+            {
+              "page": 1,
+              "text": "2011-01",
+              "block_id": "b132",
+              "kind": "text",
+              "start": 5058,
+              "end": 5065
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2008-01 -",
+              "block_id": "b132",
+              "kind": "text",
+              "start": 5047,
+              "end": 5056
+            },
+            {
+              "page": 1,
+              "text": "2011-01",
+              "block_id": "b132",
+              "kind": "text",
+              "start": 5058,
+              "end": 5065
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "VTU university",
+              "block_id": "b131",
+              "kind": "text",
+              "start": 5026,
+              "end": 5040
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "MBA",
+              "block_id": "b130",
+              "kind": "text",
+              "start": 5021,
+              "end": 5024
+            }
+          ],
+          "section": "Education",
+          "date_label": "2008-01 - 2011-01",
+          "is_present": false
+        },
+        "date_label": "2008-01 - 2011-01",
+        "section": "Education",
+        "is_present": false
+      },
+      {
+        "id": "va83bcc12dcf1ca58",
+        "type": "EMPLOYMENT",
+        "title": "Sr. Business Analyst",
+        "org": "",
+        "start": "2019-11",
+        "end": "2025-10",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Sr. Business Analyst (Nov 2019- Oct 2025)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Sr. Business Analyst (Nov 2019- Oct 2025)",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 1738,
+              "end": 1779
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Nov 2019- Oct 2025",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 1760,
+              "end": 1778
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Sr. Business Analyst",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 1738,
+              "end": 1758
+            }
+          ],
+          "section": "Work History",
+          "date_label": "Nov 2019- Oct 2025",
+          "is_present": false
+        },
+        "date_label": "Nov 2019- Oct 2025",
+        "section": "Work History",
+        "is_present": false
+      },
+      {
+        "id": "vb21ec634ead6d3c4",
+        "type": "EMPLOYMENT",
+        "title": "Sr. Business Analyst",
+        "org": "ANSI Solutions",
+        "start": "2026-01",
+        "end": "2026-05",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Sr. Business Analyst (Jan 2026-May 2026)\nANSI Solutions",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Sr. Business Analyst (Jan 2026-May 2026)",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 1226,
+              "end": 1266
+            },
+            {
+              "page": 1,
+              "text": "ANSI Solutions",
+              "block_id": "b40",
+              "kind": "text",
+              "start": 1268,
+              "end": 1282
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jan 2026-May 2026",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 1248,
+              "end": 1265
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "ANSI Solutions",
+              "block_id": "b40",
+              "kind": "text",
+              "start": 1268,
+              "end": 1282
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Sr. Business Analyst",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 1226,
+              "end": 1246
+            }
+          ],
+          "section": "Work History",
+          "date_label": "Jan 2026-May 2026",
+          "is_present": false
+        },
+        "date_label": "Jan 2026-May 2026",
+        "section": "Work History",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v921ee8eb14a9c033",
+        "type": "EDUCATION",
+        "title": "BCOM",
+        "org": "Bangalore university",
+        "entry_text": "BCOM Bangalore university 2008-01   PUC Karnataka state board 2006-01   SSLC Karnataka state board Awards And Recognition • Received a Spot award for achieving 100% quality on complex funds and control reports. Supporting process independently in absence of tenured partners, with excellent track rec",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "BCOM",
+              "block_id": "b133",
+              "kind": "text",
+              "start": 5069,
+              "end": 5073
+            },
+            {
+              "page": 1,
+              "text": "Bangalore university",
+              "block_id": "b134",
+              "kind": "text",
+              "start": 5075,
+              "end": 5095
+            },
+            {
+              "page": 1,
+              "text": "2008-01   PUC",
+              "block_id": "b135",
+              "kind": "text",
+              "start": 5102,
+              "end": 5115
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2008-01",
+              "block_id": "b135",
+              "kind": "text",
+              "start": 5102,
+              "end": 5109
+            },
+            {
+              "page": 1,
+              "text": "2006-01",
+              "block_id": "b137",
+              "kind": "text",
+              "start": 5145,
+              "end": 5152
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Bangalore university",
+              "block_id": "b134",
+              "kind": "text",
+              "start": 5075,
+              "end": 5095
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "BCOM",
+              "block_id": "b133",
+              "kind": "text",
+              "start": 5069,
+              "end": 5073
+            }
+          ],
+          "section": "Education",
+          "date_label": "2008-01",
+          "is_present": false
+        },
+        "date_label": "2008-01",
+        "section": "Education",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "Project",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Sr. Analyst (Dec 2014- April 2019)",
+          "Northern Trust India Pvt Ltd., Bangalore",
+          "• Company Overview: Northern Trust Corporation is a",
+          "financial services company and headquartered in",
+          "Chicago, Illinois that caters to corporations,",
+          "institutional investors, and high net worth individuals",
+          "• Responsible for evaluating the funds in relationship",
+          "with fixed income securities, Equity, CFD's, Mutual"
+        ],
+        "raw_text": "Sr. Analyst (Dec 2014- April 2019)\nNorthern Trust India Pvt Ltd., Bangalore\n• Company Overview: Northern Trust Corporation is a\nfinancial services company and headquartered in\nChicago, Illinois that caters to corporations,\ninstitutional investors, and high net worth individuals\n• Responsible for evaluating the funds in relationship\nwith fixed income securities, Equity, CFD's, Mutual\nfund, Warrants and P-Notes\n• Utilization of various applications for trading like\nBloomberg, Interactive Data, Reuters and other\napplications\n• Handling requests / queries from clients or Fund\naccountants with rega",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Sr. Analyst (Dec 2014- April 2019)",
+              "block_id": "b80",
+              "kind": "text",
+              "start": 2915,
+              "end": 2949
+            },
+            {
+              "page": 1,
+              "text": "Northern Trust India Pvt Ltd., Bangalore",
+              "block_id": "b81",
+              "kind": "text",
+              "start": 2951,
+              "end": 2991
+            },
+            {
+              "page": 1,
+              "text": "• Company Overview: Northern Trust Corporation is a",
+              "block_id": "b82",
+              "kind": "text",
+              "start": 2993,
+              "end": 3044
+            },
+            {
+              "page": 1,
+              "text": "financial services company and headquartered in",
+              "block_id": "b83",
+              "kind": "text",
+              "start": 3046,
+              "end": 3093
+            },
+            {
+              "page": 1,
+              "text": "Chicago, Illinois that caters to corporations,",
+              "block_id": "b84",
+              "kind": "text",
+              "start": 3095,
+              "end": 3141
+            },
+            {
+              "page": 1,
+              "text": "institutional investors, and high net worth individuals",
+              "block_id": "b85",
+              "kind": "text",
+              "start": 3143,
+              "end": 3198
+            },
+            {
+              "page": 1,
+              "text": "• Responsible for evaluating the funds in relationship",
+              "block_id": "b86",
+              "kind": "text",
+              "start": 3202,
+              "end": 3256
+            },
+            {
+              "page": 1,
+              "text": "with fixed income securities, Equity, CFD's, Mutual",
+              "block_id": "b87",
+              "kind": "text",
+              "start": 3258,
+              "end": 3309
+            },
+            {
+              "page": 1,
+              "text": "fund, Warrants and P-Notes",
+              "block_id": "b88",
+              "kind": "text",
+              "start": 3311,
+              "end": 3337
+            },
+            {
+              "page": 1,
+              "text": "• Utilization of various applications for trading like",
+              "block_id": "b89",
+              "kind": "text",
+              "start": 3339,
+              "end": 3393
+            },
+            {
+              "page": 1,
+              "text": "Bloomberg, Interactive Data, Reuters and other",
+              "block_id": "b90",
+              "kind": "text",
+              "start": 3395,
+              "end": 3441
+            },
+            {
+              "page": 1,
+              "text": "applications",
+              "block_id": "b91",
+              "kind": "text",
+              "start": 3443,
+              "end": 3455
+            },
+            {
+              "page": 1,
+              "text": "• Handling requests / queries from clients or Fund",
+              "block_id": "b92",
+              "kind": "text",
+              "start": 3457,
+              "end": 3507
+            },
+            {
+              "page": 1,
+              "text": "accountants with regard to the fixed income",
+              "block_id": "b93",
+              "kind": "text",
+              "start": 3509,
+              "end": 3552
+            },
+            {
+              "page": 1,
+              "text": "securities, equity, CFD's, Mutual fund & Corporate",
+              "block_id": "b94",
+              "kind": "text",
+              "start": 3554,
+              "end": 3604
+            },
+            {
+              "page": 1,
+              "text": "Actions",
+              "block_id": "b95",
+              "kind": "text",
+              "start": 3606,
+              "end": 3613
+            },
+            {
+              "page": 1,
+              "text": "• Coordinate with team members and ensure",
+              "block_id": "b96",
+              "kind": "text",
+              "start": 3615,
+              "end": 3656
+            },
+            {
+              "page": 1,
+              "text": "achievement of all team objectives and goals",
+              "block_id": "b97",
+              "kind": "text",
+              "start": 3658,
+              "end": 3702
+            },
+            {
+              "page": 1,
+              "text": "• Conflict Management and handling escalations",
+              "block_id": "b98",
+              "kind": "text",
+              "start": 3704,
+              "end": 3750
+            },
+            {
+              "page": 1,
+              "text": "• Analyze all issues of internal and external clients",
+              "block_id": "b99",
+              "kind": "text",
+              "start": 3752,
+              "end": 3805
+            },
+            {
+              "page": 1,
+              "text": "and provide effective resolutions for the same",
+              "block_id": "b100",
+              "kind": "text",
+              "start": 3807,
+              "end": 3853
+            },
+            {
+              "page": 1,
+              "text": "• Experience in transition of Fund Accounting Process",
+              "block_id": "b101",
+              "kind": "text",
+              "start": 3855,
+              "end": 3908
+            },
+            {
+              "page": 1,
+              "text": "of different Location",
+              "block_id": "b102",
+              "kind": "text",
+              "start": 3910,
+              "end": 3931
+            },
+            {
+              "page": 1,
+              "text": "• Knowledge & working Experience in Fund Board",
+              "block_id": "b103",
+              "kind": "text",
+              "start": 3933,
+              "end": 3979
+            },
+            {
+              "page": 1,
+              "text": "Reporting",
+              "block_id": "b104",
+              "kind": "text",
+              "start": 3981,
+              "end": 3990
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "Project",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Jr. Service Analyst (Aug 2013-June 2014)",
+          "Coface India Credit Mgmt. Pvt Ltd., Bangalore",
+          "• Company Overview: Over 70 years of experience",
+          "and the most finely meshed international network",
+          "have made Coface a reference in credit",
+          "insurance, risk management and the global",
+          "economy",
+          "• Follow up and co-ordinate with the clients for"
+        ],
+        "raw_text": "Jr. Service Analyst (Aug 2013-June 2014)\nCoface India Credit Mgmt. Pvt Ltd., Bangalore\n• Company Overview: Over 70 years of experience\nand the most finely meshed international network\nhave made Coface a reference in credit\ninsurance, risk management and the global\neconomy\n• Follow up and co-ordinate with the clients for\nproviding required information to carry out the\nscoring assignment\n• Analyzing various risks based on quantitative and\nqualitative information\n• Recommend a score to the firm which will be valid\nfor a firm\n• Based on a score assigned, the underwriter will take\nup a decision on ",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Jr. Service Analyst (Aug 2013-June 2014)",
+              "block_id": "b105",
+              "kind": "text",
+              "start": 4001,
+              "end": 4041
+            },
+            {
+              "page": 1,
+              "text": "Coface India Credit Mgmt. Pvt Ltd., Bangalore",
+              "block_id": "b106",
+              "kind": "text",
+              "start": 4043,
+              "end": 4088
+            },
+            {
+              "page": 1,
+              "text": "• Company Overview: Over 70 years of experience",
+              "block_id": "b107",
+              "kind": "text",
+              "start": 4090,
+              "end": 4137
+            },
+            {
+              "page": 1,
+              "text": "and the most finely meshed international network",
+              "block_id": "b108",
+              "kind": "text",
+              "start": 4139,
+              "end": 4187
+            },
+            {
+              "page": 1,
+              "text": "have made Coface a reference in credit",
+              "block_id": "b109",
+              "kind": "text",
+              "start": 4189,
+              "end": 4227
+            },
+            {
+              "page": 1,
+              "text": "insurance, risk management and the global",
+              "block_id": "b110",
+              "kind": "text",
+              "start": 4229,
+              "end": 4270
+            },
+            {
+              "page": 1,
+              "text": "economy",
+              "block_id": "b111",
+              "kind": "text",
+              "start": 4272,
+              "end": 4279
+            },
+            {
+              "page": 1,
+              "text": "• Follow up and co-ordinate with the clients for",
+              "block_id": "b112",
+              "kind": "text",
+              "start": 4281,
+              "end": 4329
+            },
+            {
+              "page": 1,
+              "text": "providing required information to carry out the",
+              "block_id": "b113",
+              "kind": "text",
+              "start": 4331,
+              "end": 4378
+            },
+            {
+              "page": 1,
+              "text": "scoring assignment",
+              "block_id": "b114",
+              "kind": "text",
+              "start": 4380,
+              "end": 4398
+            },
+            {
+              "page": 1,
+              "text": "• Analyzing various risks based on quantitative and",
+              "block_id": "b115",
+              "kind": "text",
+              "start": 4400,
+              "end": 4451
+            },
+            {
+              "page": 1,
+              "text": "qualitative information",
+              "block_id": "b116",
+              "kind": "text",
+              "start": 4453,
+              "end": 4476
+            },
+            {
+              "page": 1,
+              "text": "• Recommend a score to the firm which will be valid",
+              "block_id": "b117",
+              "kind": "text",
+              "start": 4478,
+              "end": 4529
+            },
+            {
+              "page": 1,
+              "text": "for a firm",
+              "block_id": "b118",
+              "kind": "text",
+              "start": 4531,
+              "end": 4541
+            },
+            {
+              "page": 1,
+              "text": "• Based on a score assigned, the underwriter will take",
+              "block_id": "b119",
+              "kind": "text",
+              "start": 4543,
+              "end": 4597
+            },
+            {
+              "page": 1,
+              "text": "up a decision on premium and limit for credit",
+              "block_id": "b120",
+              "kind": "text",
+              "start": 4599,
+              "end": 4644
+            },
+            {
+              "page": 1,
+              "text": "insurance",
+              "block_id": "b121",
+              "kind": "text",
+              "start": 4646,
+              "end": 4655
+            },
+            {
+              "page": 1,
+              "text": "• Ability to manage multiple tasks and deadlines –",
+              "block_id": "b122",
+              "kind": "text",
+              "start": 4657,
+              "end": 4707
+            },
+            {
+              "page": 1,
+              "text": "with clear direction and support from Manager",
+              "block_id": "b122",
+              "kind": "text",
+              "start": 4709,
+              "end": 4754
+            },
+            {
+              "page": 1,
+              "text": "• Contribute to the ongoing process improvements",
+              "block_id": "b123",
+              "kind": "text",
+              "start": 4756,
+              "end": 4804
+            },
+            {
+              "page": 1,
+              "text": "and transformation agenda across the business",
+              "block_id": "b124",
+              "kind": "text",
+              "start": 4806,
+              "end": 4851
+            },
+            {
+              "page": 1,
+              "text": "• Established reliable &growth-oriented process",
+              "block_id": "b125",
+              "kind": "text",
+              "start": 4853,
+              "end": 4900
+            },
+            {
+              "page": 1,
+              "text": "documentation by communications & knowledge",
+              "block_id": "b126",
+              "kind": "text",
+              "start": 4902,
+              "end": 4945
+            },
+            {
+              "page": 1,
+              "text": "transfers with Company employee",
+              "block_id": "b127",
+              "kind": "text",
+              "start": 4947,
+              "end": 4978
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "gef84df42677ba565",
+        "start": [
+          2025,
+          11
+        ],
+        "end": [
+          2025,
+          12
+        ],
+        "months": 2,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "va83bcc12dcf1ca58",
+          "event_after": "vb21ec634ead6d3c4",
+          "coverage_scope": "employment"
+        },
+        "start_label": "2025-11",
+        "end_label": "2025-12",
+        "evidence_quotes": [
+          "Sr. Business Analyst (Nov 2019- Oct 2025)",
+          "Sr. Business Analyst (Jan 2026-May 2026) ANSI Solutions"
+        ],
+        "evidence_details": [
+          {
+            "header": "Sr. Business Analys",
+            "quote": "Sr. Business Analyst (Nov 2019- Oct 2025)",
+            "event_id": "va83bcc12dcf1ca58",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Sr. Business Analyst (Nov 2019- Oct 2025)",
+                  "block_id": "b52",
+                  "kind": "text",
+                  "start": 1738,
+                  "end": 1779
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Nov 2019- Oct 2025",
+                  "block_id": "b52",
+                  "kind": "text",
+                  "start": 1760,
+                  "end": 1778
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Sr. Business Analyst",
+                  "block_id": "b52",
+                  "kind": "text",
+                  "start": 1738,
+                  "end": 1758
+                }
+              ],
+              "section": "Work History",
+              "date_label": "Nov 2019- Oct 2025",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Sr. Business Analyst at ANSI Solutions",
+            "quote": "Sr. Business Analyst (Jan 2026-May 2026) ANSI Solutions",
+            "event_id": "vb21ec634ead6d3c4",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Sr. Business Analyst (Jan 2026-May 2026)",
+                  "block_id": "b39",
+                  "kind": "text",
+                  "start": 1226,
+                  "end": 1266
+                },
+                {
+                  "page": 1,
+                  "text": "ANSI Solutions",
+                  "block_id": "b40",
+                  "kind": "text",
+                  "start": 1268,
+                  "end": 1282
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Jan 2026-May 2026",
+                  "block_id": "b39",
+                  "kind": "text",
+                  "start": 1248,
+                  "end": 1265
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "ANSI Solutions",
+                  "block_id": "b40",
+                  "kind": "text",
+                  "start": 1268,
+                  "end": 1282
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Sr. Business Analyst",
+                  "block_id": "b39",
+                  "kind": "text",
+                  "start": 1226,
+                  "end": 1246
+                }
+              ],
+              "section": "Work History",
+              "date_label": "Jan 2026-May 2026",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 3,
+      "total_events": 4,
+      "dated_share": 0.75,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 114,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

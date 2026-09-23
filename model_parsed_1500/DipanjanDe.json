@@ -1,0 +1,662 @@
+{
+  "file_name": "DipanjanDe.pdf",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 8,
+    "total_events": 8,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.849,
+    "document_accuracy": 0.85
+  },
+  "work_experience": [
+    {
+      "id": "v3221c5e909c492a1",
+      "company": "",
+      "title": "Software Engineering Intern",
+      "start_date": "2015-05",
+      "end_date": "2015-06",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v103edf0d49e717bd",
+      "company": "",
+      "title": "Senior Software Engineer",
+      "start_date": "2018-08",
+      "end_date": "2022-01",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v8f9518dcaa4fb220",
+      "company": "",
+      "title": "UI Architect",
+      "start_date": "2022-02",
+      "end_date": "2023-03",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v528759085262b7ef",
+      "company": "",
+      "title": "Technical Lead",
+      "start_date": "2023-04",
+      "end_date": "2025-06",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vf2b6538d01787b8d",
+      "company": "",
+      "title": "Founder & Platform Architect",
+      "start_date": "2024-01",
+      "end_date": "2026-12",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    },
+    {
+      "id": "ve004f98c250cae80",
+      "company": "Tricon Infotech",
+      "title": "Principal Engineer",
+      "start_date": "2025-06",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "v75ec0a07d7887f50",
+      "company": "SRM University",
+      "title": "B.Tech",
+      "start_date": "2013-01",
+      "end_date": "2017-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    },
+    {
+      "id": "v6c9f8cdddfa19159",
+      "company": "Vellore Institute of Technology (VIT)",
+      "title": "M.Tech",
+      "start_date": "2017-01",
+      "end_date": "2019-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 6,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "DipanjanDe",
+    "filename": "DipanjanDe.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "v75ec0a07d7887f50",
+        "type": "EDUCATION",
+        "title": "B.Tech",
+        "org": "SRM University",
+        "start": "2013-01",
+        "end": "2017-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "B.Tech, Computer Science & Engineering — SRM University, Kattankulathur 2013 – 2017",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "B.Tech, Computer Science & Engineering — SRM University, Kattankulathur 2013 – 2017",
+              "block_id": "b94",
+              "kind": "text",
+              "start": 7822,
+              "end": 7905
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2013 – 2017",
+              "block_id": "b94",
+              "kind": "text",
+              "start": 7894,
+              "end": 7905
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "SRM University",
+              "block_id": "b94",
+              "kind": "text",
+              "start": 7863,
+              "end": 7877
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "B.Tech",
+              "block_id": "b94",
+              "kind": "text",
+              "start": 7822,
+              "end": 7828
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2013 – 2017",
+          "is_present": false
+        },
+        "date_label": "2013 – 2017",
+        "section": "EDUCATION",
+        "is_present": false
+      },
+      {
+        "id": "v3221c5e909c492a1",
+        "type": "INTERNSHIP",
+        "title": "Software Engineering Intern",
+        "org": "",
+        "start": "2015-05",
+        "end": "2015-06",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_INTERNSHIP_CUES"
+        ],
+        "quote": "Software Engineering Intern  |  Vodafone May 2015 – Jun 2015",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Software Engineering Intern  |  Vodafone May 2015 – Jun 2015",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 6700,
+              "end": 6760
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "May 2015 – Jun 2015",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 6741,
+              "end": 6760
+            },
+            {
+              "page": 1,
+              "text": "2021–2025",
+              "block_id": "b85",
+              "kind": "text",
+              "start": 7255,
+              "end": 7264
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Software Engineering Intern",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 6700,
+              "end": 6727
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "May 2015 – Jun 2015",
+          "is_present": false
+        },
+        "date_label": "May 2015 – Jun 2015",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v6c9f8cdddfa19159",
+        "type": "EDUCATION",
+        "title": "M.Tech",
+        "org": "Vellore Institute of Technology (VIT)",
+        "start": "2017-01",
+        "end": "2019-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "M.Tech, Computer Science & Engineering — Vellore Institute of Technology (VIT), Vellore 2017 – 2019",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "M.Tech, Computer Science & Engineering — Vellore Institute of Technology (VIT), Vellore 2017 – 2019",
+              "block_id": "b93",
+              "kind": "text",
+              "start": 7722,
+              "end": 7821
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2017 – 2019",
+              "block_id": "b93",
+              "kind": "text",
+              "start": 7810,
+              "end": 7821
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Vellore Institute of Technology (VIT",
+              "block_id": "b93",
+              "kind": "text",
+              "start": 7763,
+              "end": 7799
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "M.Tech",
+              "block_id": "b93",
+              "kind": "text",
+              "start": 7722,
+              "end": 7728
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2017 – 2019",
+          "is_present": false
+        },
+        "date_label": "2017 – 2019",
+        "section": "EDUCATION",
+        "is_present": false
+      },
+      {
+        "id": "v103edf0d49e717bd",
+        "type": "EMPLOYMENT",
+        "title": "Senior Software Engineer",
+        "org": "",
+        "start": "2018-08",
+        "end": "2022-01",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Senior Software Engineer  |  Philips Aug 2018 – Jan 2022",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Software Engineer  |  Philips Aug 2018 – Jan 2022",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 6217,
+              "end": 6273
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Aug 2018 – Jan 2022",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 6254,
+              "end": 6273
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Software Engineer",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 6217,
+              "end": 6241
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Aug 2018 – Jan 2022",
+          "is_present": false
+        },
+        "date_label": "Aug 2018 – Jan 2022",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v8f9518dcaa4fb220",
+        "type": "EMPLOYMENT",
+        "title": "UI Architect",
+        "org": "",
+        "start": "2022-02",
+        "end": "2023-03",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "UI Architect  |  Karkinos Healthcare Feb 2022 – Mar 2023",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "UI Architect  |  Karkinos Healthcare Feb 2022 – Mar 2023",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 5554,
+              "end": 5610
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Feb 2022 – Mar 2023",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 5591,
+              "end": 5610
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "UI Architect",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 5554,
+              "end": 5566
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Feb 2022 – Mar 2023",
+          "is_present": false
+        },
+        "date_label": "Feb 2022 – Mar 2023",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v528759085262b7ef",
+        "type": "EMPLOYMENT",
+        "title": "Technical Lead",
+        "org": "",
+        "start": "2023-04",
+        "end": "2025-06",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Technical Lead  |  Vince AS Apr 2023 – Jun 2025",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Technical Lead  |  Vince AS Apr 2023 – Jun 2025",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 5119,
+              "end": 5166
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Apr 2023 – Jun 2025",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 5147,
+              "end": 5166
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Technical Lead",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 5119,
+              "end": 5133
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Apr 2023 – Jun 2025",
+          "is_present": false
+        },
+        "date_label": "Apr 2023 – Jun 2025",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vf2b6538d01787b8d",
+        "type": "EMPLOYMENT",
+        "title": "Founder & Platform Architect",
+        "org": "",
+        "start": "2024-01",
+        "end": "2026-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Founder & Platform Architect  |  Logiforma 2024 – Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Founder & Platform Architect  |  Logiforma 2024 – Present",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 4023,
+              "end": 4080
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2024 – Present",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 4066,
+              "end": 4080
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Founder & Platform Architect",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 4023,
+              "end": 4051
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "2024 – Present",
+          "is_present": true
+        },
+        "date_label": "2024 – Present",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": true
+      },
+      {
+        "id": "ve004f98c250cae80",
+        "type": "EMPLOYMENT",
+        "title": "Principal Engineer",
+        "org": "Tricon Infotech",
+        "start": "2025-06",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Principal Engineer  |  Tricon Infotech Jun 2025 – Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Principal Engineer  |  Tricon Infotech Jun 2025 – Present",
+              "block_id": "b36",
+              "kind": "text",
+              "start": 3142,
+              "end": 3199
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jun 2025 – Present",
+              "block_id": "b36",
+              "kind": "text",
+              "start": 3181,
+              "end": 3199
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Tricon Infotech",
+              "block_id": "b36",
+              "kind": "text",
+              "start": 3165,
+              "end": 3180
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Principal Engineer",
+              "block_id": "b36",
+              "kind": "text",
+              "start": 3142,
+              "end": 3160
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Jun 2025 – Present",
+          "is_present": true
+        },
+        "date_label": "Jun 2025 – Present",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [],
+        "evidence": {
+          "note": "year-only dates need verification"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 8,
+      "total_events": 8,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.849,
+      "document_accuracy": 0.85
+    },
+    "total_represented_months": 168,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

@@ -1,0 +1,570 @@
+{
+  "file_name": "VarunKumar.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 5,
+    "total_events": 6,
+    "dated_share": 0.833,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.88
+  },
+  "work_experience": [
+    {
+      "id": "v49ffdc504d02408f",
+      "company": "NeuranceAI Pvt. Ltd",
+      "title": "Machine Learning Engineer",
+      "start_date": "2022-11",
+      "end_date": "2023-01",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vcab960817d0ff637",
+      "company": "",
+      "title": "Data Scientist Intern                                                                                 Mercedes Benz Research and Development India",
+      "start_date": "2023-01",
+      "end_date": "2023-07",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vc1d0d07624c9c0cd",
+      "company": "",
+      "title": "Data Scientist                                                                                                Mercedes Benz Research and Development India",
+      "start_date": "2023-08",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v2eb7cae602bde706",
+      "company": "Voiceano Voice Solutions Pvt Ltd",
+      "title": "Machine Learning Engineer",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "vda39f15832a2f2a5",
+      "company": "",
+      "title": "Bachelor of Technology in Electronics and Communication",
+      "start_date": "2015-08",
+      "end_date": "2019-06",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "va596b0a9f1502c8f",
+      "company": "Indian Institute of Technology",
+      "title": "Master of Technology in Data Science",
+      "start_date": "2020-09",
+      "end_date": "2022-07",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 4,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "VarunKumar",
+    "filename": "VarunKumar.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "vda39f15832a2f2a5",
+        "type": "EDUCATION",
+        "title": "Bachelor of Technology in Electronics and Communication",
+        "org": "",
+        "start": "2015-08",
+        "end": "2019-06",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "Bachelor of Technology in Electronics and Communication     08/2015 – 06/2019",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor of Technology in Electronics and Communication     08/2015 – 06/2019",
+              "block_id": "b15",
+              "kind": "text",
+              "start": 1435,
+              "end": 1512
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "08/2015 – 06/2019",
+              "block_id": "b15",
+              "kind": "text",
+              "start": 1495,
+              "end": 1512
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Technology in Electronics and Communication",
+              "block_id": "b15",
+              "kind": "text",
+              "start": 1435,
+              "end": 1490
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "08/2015 – 06/2019",
+          "is_present": false
+        },
+        "date_label": "08/2015 – 06/2019",
+        "section": "EDUCATION",
+        "is_present": false
+      },
+      {
+        "id": "va596b0a9f1502c8f",
+        "type": "EDUCATION",
+        "title": "Master of Technology in Data Science",
+        "org": "Indian Institute of Technology",
+        "start": "2020-09",
+        "end": "2022-07",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "Indian Institute of Technology, Palakkad (IIT, PKD)                                                                                     Palakkad, India\nMaster of Technology in Data Science     09/2020 – 07/2022",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Indian Institute of Technology, Palakkad (IIT, PKD)                                                                                     Palakkad, India",
+              "block_id": "b12",
+              "kind": "text",
+              "start": 1158,
+              "end": 1309
+            },
+            {
+              "page": 1,
+              "text": "Master of Technology in Data Science     09/2020 – 07/2022",
+              "block_id": "b13",
+              "kind": "text",
+              "start": 1311,
+              "end": 1369
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "09/2020 – 07/2022",
+              "block_id": "b13",
+              "kind": "text",
+              "start": 1352,
+              "end": 1369
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Indian Institute of Technology",
+              "block_id": "b12",
+              "kind": "text",
+              "start": 1158,
+              "end": 1188
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Master of Technology in Data Science",
+              "block_id": "b13",
+              "kind": "text",
+              "start": 1311,
+              "end": 1347
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "09/2020 – 07/2022",
+          "is_present": false
+        },
+        "date_label": "09/2020 – 07/2022",
+        "section": "EDUCATION",
+        "is_present": false
+      },
+      {
+        "id": "v49ffdc504d02408f",
+        "type": "EMPLOYMENT",
+        "title": "Machine Learning Engineer",
+        "org": "NeuranceAI Pvt. Ltd",
+        "start": "2022-11",
+        "end": "2023-01",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Machine Learning Engineer                                                                                                                        NeuranceAI Pvt. Ltd\nFull Time                                                                                                                              ",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Machine Learning Engineer                                                                                                                        NeuranceAI Pvt. Ltd",
+              "block_id": "b36",
+              "kind": "text",
+              "start": 3521,
+              "end": 3685
+            },
+            {
+              "page": 1,
+              "text": "Full Time                                                                                                                                                                            11/2022 – 01/2023",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 3687,
+              "end": 3885
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "11/2022 – 01/2023",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 3868,
+              "end": 3885
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "NeuranceAI Pvt. Ltd",
+              "block_id": "b36",
+              "kind": "text",
+              "start": 3666,
+              "end": 3685
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Machine Learning Engineer",
+              "block_id": "b36",
+              "kind": "text",
+              "start": 3521,
+              "end": 3546
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "11/2022 – 01/2023",
+          "is_present": false
+        },
+        "date_label": "11/2022 – 01/2023",
+        "section": "EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vcab960817d0ff637",
+        "type": "INTERNSHIP",
+        "title": "Data Scientist Intern                                                                                 Mercedes Benz Research and Development India",
+        "org": "",
+        "start": "2023-01",
+        "end": "2023-07",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_INTERNSHIP_CUES"
+        ],
+        "quote": "Data Scientist Intern                                                                                 Mercedes Benz Research and Development India\nInternship                                                                                                                                               ",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Data Scientist Intern                                                                                 Mercedes Benz Research and Development India",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 3016,
+              "end": 3162
+            },
+            {
+              "page": 1,
+              "text": "Internship                                                                                                                                                                           01/2023 – 07/2023",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 3164,
+              "end": 3362
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "01/2023 – 07/2023",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 3345,
+              "end": 3362
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Data Scientist Intern                                                                                 Mercedes Benz Research and Development India",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 3016,
+              "end": 3162
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "01/2023 – 07/2023",
+          "is_present": false
+        },
+        "date_label": "01/2023 – 07/2023",
+        "section": "EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vc1d0d07624c9c0cd",
+        "type": "EMPLOYMENT",
+        "title": "Data Scientist                                                                                                Mercedes Benz Research and Development India",
+        "org": "",
+        "start": "2023-08",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Data Scientist                                                                                                Mercedes Benz Research and Development India\nFull Time                                                                                                                                        ",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Data Scientist                                                                                                Mercedes Benz Research and Development India",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 1874,
+              "end": 2028
+            },
+            {
+              "page": 1,
+              "text": "Full Time                                                                                                                                                                                    08/2023 – Present",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 2030,
+              "end": 2236
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "08/2023 – Present",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 2219,
+              "end": 2236
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Data Scientist                                                                                                Mercedes Benz Research and Development India",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 1874,
+              "end": 2028
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "08/2023 – Present",
+          "is_present": true
+        },
+        "date_label": "08/2023 – Present",
+        "section": "EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v2eb7cae602bde706",
+        "type": "EMPLOYMENT",
+        "title": "Machine Learning Engineer",
+        "org": "Voiceano Voice Solutions Pvt Ltd",
+        "entry_text": "Machine Learning Engineer                                                                                                Voiceano Voice Solutions Pvt Ltd Full Time                                                                                                                                         ",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Machine Learning Engineer                                                                                                Voiceano Voice Solutions Pvt Ltd",
+              "block_id": "b40",
+              "kind": "text",
+              "start": 4061,
+              "end": 4214
+            },
+            {
+              "page": 1,
+              "text": "Full Time                                                                                                                                                                           07/2019 – 08/ 2020",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 4216,
+              "end": 4414
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "07/2019",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 4396,
+              "end": 4403
+            },
+            {
+              "page": 1,
+              "text": "2020",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 4410,
+              "end": 4414
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Voiceano Voice Solutions Pvt Ltd",
+              "block_id": "b40",
+              "kind": "text",
+              "start": 4182,
+              "end": 4214
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Machine Learning Engineer",
+              "block_id": "b40",
+              "kind": "text",
+              "start": 4061,
+              "end": 4086
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "07/2019 / 2020",
+          "is_present": false
+        },
+        "date_label": "07/2019 / 2020",
+        "section": "EXPERIENCE",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "v2eb7cae602bde706"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 5,
+      "total_events": 6,
+      "dated_share": 0.833,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.88
+    },
+    "total_represented_months": 117,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

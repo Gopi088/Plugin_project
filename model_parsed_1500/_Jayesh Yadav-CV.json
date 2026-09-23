@@ -1,0 +1,557 @@
+{
+  "file_name": "_Jayesh Yadav-CV.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 6,
+    "total_events": 6,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.855,
+    "document_accuracy": 0.85
+  },
+  "work_experience": [
+    {
+      "id": "vb815eba2c7b2dbdb",
+      "company": "Intercontinental Exchange (ICE) / NYSE",
+      "title": "",
+      "start_date": "2021-11",
+      "end_date": "2022-11",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vbb91afe54003f531",
+      "company": "Data Researcher I – Non-NA Region",
+      "title": "",
+      "start_date": "2021-11",
+      "end_date": "2022-11",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vf81f12f6adce57ec",
+      "company": "Trade Accounting & Data Operations (FinOps",
+      "title": "Analyst",
+      "start_date": "2022-12",
+      "end_date": "2024-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v41677071f31c1832",
+      "company": "Hedge Fund Accounting & Data Operations (FinOps",
+      "title": "Senior Analyst",
+      "start_date": "2025-01",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "v880d7b4d7e3af870",
+      "company": "DAVV University",
+      "title": "B.Com (Commerce",
+      "start_date": "2017-01",
+      "end_date": "2020-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    },
+    {
+      "id": "v5bbd50a1392658ea",
+      "company": "Prestige Institute of Management & Research",
+      "title": "MBA",
+      "start_date": "2020-01",
+      "end_date": "2022-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 4,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "_Jayesh Yadav-CV",
+    "filename": "_Jayesh Yadav-CV.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v880d7b4d7e3af870",
+        "type": "EDUCATION",
+        "title": "B.Com (Commerce",
+        "org": "DAVV University",
+        "start": "2017-01",
+        "end": "2020-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "B.Com (Commerce)2017 – 2020\nDAVV University, Indore",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "B.Com (Commerce)2017 – 2020",
+              "block_id": "b98",
+              "kind": "text",
+              "start": 6954,
+              "end": 6981
+            },
+            {
+              "page": 1,
+              "text": "DAVV University, Indore",
+              "block_id": "b99",
+              "kind": "text",
+              "start": 6983,
+              "end": 7006
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2017 – 2020",
+              "block_id": "b98",
+              "kind": "text",
+              "start": 6970,
+              "end": 6981
+            },
+            {
+              "page": 1,
+              "text": "2025",
+              "block_id": "b101",
+              "kind": "text",
+              "start": 7051,
+              "end": 7055
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "DAVV University",
+              "block_id": "b99",
+              "kind": "text",
+              "start": 6983,
+              "end": 6998
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "B.Com (Commerce",
+              "block_id": "b98",
+              "kind": "text",
+              "start": 6954,
+              "end": 6969
+            }
+          ],
+          "section": "EEDUCATION",
+          "date_label": "2017 – 2020",
+          "is_present": false
+        },
+        "date_label": "2017 – 2020",
+        "section": "EEDUCATION",
+        "is_present": false
+      },
+      {
+        "id": "v5bbd50a1392658ea",
+        "type": "EDUCATION",
+        "title": "MBA",
+        "org": "Prestige Institute of Management & Research",
+        "start": "2020-01",
+        "end": "2022-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "MBA – Finance & Data Analytics2020 – 2022\nPrestige Institute of Management & Research, Indore | Relevant coursework: Derivatives, Portfolio Management,",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "MBA – Finance & Data Analytics2020 – 2022",
+              "block_id": "b95",
+              "kind": "text",
+              "start": 6763,
+              "end": 6804
+            },
+            {
+              "page": 1,
+              "text": "Prestige Institute of Management & Research, Indore | Relevant coursework: Derivatives, Portfolio Management,",
+              "block_id": "b96",
+              "kind": "text",
+              "start": 6806,
+              "end": 6915
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2020 – 2022",
+              "block_id": "b95",
+              "kind": "text",
+              "start": 6793,
+              "end": 6804
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Prestige Institute of Management & Research",
+              "block_id": "b96",
+              "kind": "text",
+              "start": 6806,
+              "end": 6849
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "MBA",
+              "block_id": "b95",
+              "kind": "text",
+              "start": 6763,
+              "end": 6766
+            }
+          ],
+          "section": "EEDUCATION",
+          "date_label": "2020 – 2022",
+          "is_present": false
+        },
+        "date_label": "2020 – 2022",
+        "section": "EEDUCATION",
+        "is_present": false
+      },
+      {
+        "id": "vb815eba2c7b2dbdb",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Intercontinental Exchange (ICE) / NYSE",
+        "start": "2021-11",
+        "end": "2022-11",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Intercontinental Exchange (ICE) / NYSE | Hyderabad | Nov 2021 – Nov 2022",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Intercontinental Exchange (ICE) / NYSE | Hyderabad | Nov 2021 – Nov 2022",
+              "block_id": "b85",
+              "kind": "text",
+              "start": 5964,
+              "end": 6036
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Nov 2021 – Nov 2022",
+              "block_id": "b85",
+              "kind": "text",
+              "start": 6017,
+              "end": 6036
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Intercontinental Exchange (ICE) / NYSE",
+              "block_id": "b85",
+              "kind": "text",
+              "start": 5964,
+              "end": 6002
+            }
+          ],
+          "title": [],
+          "section": "POFESSIONAL EXPERIENCE",
+          "date_label": "Nov 2021 – Nov 2022",
+          "is_present": false
+        },
+        "date_label": "Nov 2021 – Nov 2022",
+        "section": "POFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vbb91afe54003f531",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Data Researcher I – Non-NA Region",
+        "start": "2021-11",
+        "end": "2022-11",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Data Researcher I – Non-NA Region | Nov 2021 – Nov 2022",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Data Researcher I – Non-NA Region | Nov 2021 – Nov 2022",
+              "block_id": "b86",
+              "kind": "text",
+              "start": 6038,
+              "end": 6093
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Nov 2021 – Nov 2022",
+              "block_id": "b86",
+              "kind": "text",
+              "start": 6074,
+              "end": 6093
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Data Researcher I – Non-NA Region",
+              "block_id": "b86",
+              "kind": "text",
+              "start": 6038,
+              "end": 6071
+            }
+          ],
+          "title": [],
+          "section": "POFESSIONAL EXPERIENCE",
+          "date_label": "Nov 2021 – Nov 2022",
+          "is_present": false
+        },
+        "date_label": "Nov 2021 – Nov 2022",
+        "section": "POFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vf81f12f6adce57ec",
+        "type": "EMPLOYMENT",
+        "title": "Analyst",
+        "org": "Trade Accounting & Data Operations (FinOps",
+        "start": "2022-12",
+        "end": "2024-12",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Analyst – Trade Accounting & Data Operations (FinOps) | Dec 2022 – Dec 2024",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Analyst – Trade Accounting & Data Operations (FinOps) | Dec 2022 – Dec 2024",
+              "block_id": "b74",
+              "kind": "text",
+              "start": 5095,
+              "end": 5170
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Dec 2022 – Dec 2024",
+              "block_id": "b74",
+              "kind": "text",
+              "start": 5151,
+              "end": 5170
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Trade Accounting & Data Operations (FinOps",
+              "block_id": "b74",
+              "kind": "text",
+              "start": 5105,
+              "end": 5147
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Analyst",
+              "block_id": "b74",
+              "kind": "text",
+              "start": 5095,
+              "end": 5102
+            }
+          ],
+          "section": "POFESSIONAL EXPERIENCE",
+          "date_label": "Dec 2022 – Dec 2024",
+          "is_present": false
+        },
+        "date_label": "Dec 2022 – Dec 2024",
+        "section": "POFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v41677071f31c1832",
+        "type": "EMPLOYMENT",
+        "title": "Senior Analyst",
+        "org": "Hedge Fund Accounting & Data Operations (FinOps",
+        "start": "2025-01",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Senior Analyst – Hedge Fund Accounting & Data Operations (FinOps) | Jan 2025 – Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Analyst – Hedge Fund Accounting & Data Operations (FinOps) | Jan 2025 – Present",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 1826,
+              "end": 1912
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jan 2025 – Present",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 1894,
+              "end": 1912
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Hedge Fund Accounting & Data Operations (FinOps",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 1843,
+              "end": 1890
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Analyst",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 1826,
+              "end": 1840
+            }
+          ],
+          "section": "POFESSIONAL EXPERIENCE",
+          "date_label": "Jan 2025 – Present",
+          "is_present": true
+        },
+        "date_label": "Jan 2025 – Present",
+        "section": "POFESSIONAL EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [],
+        "evidence": {
+          "note": "year-only dates need verification"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 6,
+      "total_events": 6,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.855,
+      "document_accuracy": 0.85
+    },
+    "total_represented_months": 117,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

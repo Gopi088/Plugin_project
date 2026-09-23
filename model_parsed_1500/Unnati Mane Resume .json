@@ -1,0 +1,182 @@
+{
+  "file_name": "Unnati Mane Resume .pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 1,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v00fd26be6ec5b70a",
+      "company": "CHERRY HOLIDAYS",
+      "title": "",
+      "start_date": "2024-01",
+      "end_date": "2024-03",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [],
+  "gaps": [],
+  "total_work_experience": 1,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "Unnati Mane Resume ",
+    "filename": "Unnati Mane Resume .pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v00fd26be6ec5b70a",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "CHERRY HOLIDAYS",
+        "start": "2024-01",
+        "end": "2024-03",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "JAN 2024-MAR 2024 CHERRY HOLIDAYS",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "JAN 2024-MAR 2024 CHERRY HOLIDAYS",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 386,
+              "end": 419
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "JAN 2024-MAR 2024",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 386,
+              "end": 403
+            },
+            {
+              "page": 1,
+              "text": "2022",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 863,
+              "end": 867
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "CHERRY HOLIDAYS",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 404,
+              "end": 419
+            }
+          ],
+          "title": [],
+          "section": "P R O F I L E",
+          "date_label": "JAN 2024-MAR 2024",
+          "is_present": false
+        },
+        "date_label": "JAN 2024-MAR 2024",
+        "section": "P R O F I L E",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 1,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 3,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

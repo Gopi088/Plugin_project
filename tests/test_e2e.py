@@ -43,7 +43,8 @@ class TestE2EResumes(unittest.TestCase):
         starts = sorted(e["start"] for e in dto["timeline"])
         self.assertEqual(starts, ["2020-01", "2022-07", "2025-05"])
         gaps = sorted(g["months"] for g in dto["gaps"] if g["state"] == "POTENTIAL_GAP")
-        self.assertEqual(gaps, [1, 3])
+        self.assertEqual(gaps, [2])
+        self.assertEqual(dto["gaps"][0]["evidence"]["coverage_scope"], "employment")
 
     def test_pardha_insufficient(self):
         dto = self._run(path=PARDHA_FILE, text=PARDHA_TEXT)
@@ -98,7 +99,7 @@ class TestAPI(unittest.TestCase):
         return json.loads(urllib.request.urlopen(req, timeout=60).read())
 
     def test_submit_status_timeline_evidence_feedback(self):
-        with open(GOPAL, "rb") as fh:
+        with open(os.path.join(BASE, "dataset/resumes/Abhishek Kumar Singh.pdf"), "rb") as fh:
             raw = fh.read()
         sub = self._api("/api/documents", {"filename": "g.pdf",
                                            "content_b64": base64.b64encode(raw).decode()})
@@ -106,7 +107,7 @@ class TestAPI(unittest.TestCase):
         st = self._api(f"/api/documents/{doc}/status")
         self.assertEqual(len(st["stages"]), 12)
         tl = self._api(f"/api/documents/{doc}/timeline")
-        self.assertEqual(len(tl["timeline"]), 3)
+        self.assertEqual(len(tl["timeline"]), 4)
         gid = [g["id"] for g in tl["gaps"] if g["state"] == "POTENTIAL_GAP"][0]
         ev = self._api(f"/api/documents/{doc}/evidence?gap_id={gid}")
         self.assertTrue(ev["chain"]["links"])
@@ -118,6 +119,38 @@ class TestAPI(unittest.TestCase):
         tl2 = self._api(f"/api/documents/{doc}/timeline")
         by_id = {g["id"]: g["state"] for g in tl2["gaps"]}
         self.assertEqual(by_id[gid], "DISMISSED_GAP")
+
+    def test_abhishek_source_api(self):
+        with open(os.path.join(BASE, "dataset", "resumes", "Abhishek Kumar Singh.pdf"), "rb") as fh:
+            raw = fh.read()
+        sub = self._api("/api/documents", {"filename": "Abhishek.pdf",
+                                           "content_b64": base64.b64encode(raw).decode()})
+        doc = sub["doc_id"]
+        dto = self._api(f"/api/documents/{doc}/timeline")
+        self.assertEqual([(g["start"], g["end"], g["months"]) for g in dto["gaps"]],
+                         [("2018-08", "2018-09", 2)])
+        education = next(e for e in dto["timeline"] if e["type"] == "EDUCATION")
+        ev = self._api(f"/api/documents/{doc}/evidence?event_id={education['id']}")
+        self.assertEqual(ev["source"]["dates"][0]["page"], 2)
+        page = self._api(f"/api/documents/{doc}/source-page?page=2")
+        self.assertTrue(page["image"].startswith("data:image/png;base64,"))
+        with self.assertRaises(urllib.error.HTTPError) as err:
+            self._api(f"/api/documents/{doc}/source-page?page=0")
+        self.assertEqual(err.exception.code, 400)
+
+    def test_notes_and_visibility_survive_http_reanalysis(self):
+        payload = {"filename":"notes.txt", "text":"WORK EXPERIENCE\nEngineer, Alpha Ltd Jan 2020 – Dec 2021"}
+        doc = self._api("/api/documents", payload)["doc_id"]
+        dto = self._api(f"/api/documents/{doc}/timeline")
+        event = dto["timeline"][0]["id"]
+        notes = self._api(f"/api/documents/{doc}/notes", {"id":"http-note", "author":"Recruiter", "text":"Check dates"})
+        self._api(f"/api/documents/{doc}/state", {"target_id":event,"reviewed":True})
+        self._api(f"/api/documents/{doc}/state", {"target_id":event,"hidden":True})
+        payload["filename"] = "renamed.txt"
+        self.assertEqual(self._api("/api/documents", payload)["doc_id"], doc)
+        dto = self._api(f"/api/documents/{doc}/timeline")
+        self.assertEqual(dto["notes"], notes)
+        self.assertEqual(dto["item_state"][event], {"reviewed":True,"hidden":True})
 
     def test_quality_endpoint_and_doc_quality(self):
         import backend.server as S

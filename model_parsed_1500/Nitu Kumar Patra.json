@@ -1,0 +1,808 @@
+{
+  "file_name": "Nitu Kumar Patra.docx",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 6,
+    "total_events": 6,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.833,
+    "document_accuracy": 0.83
+  },
+  "work_experience": [
+    {
+      "id": "v4b96fe615a946a00",
+      "company": "Infogain Corporation",
+      "title": "Software Consultant",
+      "start_date": "2014-11",
+      "end_date": "2018-08",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "va500e3685ae79dd2",
+      "company": "Sirius Embedded Software Pvt Ltd",
+      "title": "Senior Software Engineer",
+      "start_date": "2018-10",
+      "end_date": "2021-08",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v4b0e2f6d21663656",
+      "company": "Customer Service Microservice (CRM Application",
+      "title": "",
+      "start_date": "2023-01",
+      "end_date": "2025-03",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v4389d97351e9f7e9",
+      "company": "Voice-Powered RAG Agent System",
+      "title": "",
+      "start_date": "2025-01",
+      "end_date": "2026-12",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    },
+    {
+      "id": "v8258190bd644ffa2",
+      "company": "Creative Writing Agents (LLM Orchestration",
+      "title": "",
+      "start_date": "2025-01",
+      "end_date": "2026-12",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    },
+    {
+      "id": "v3443e4fca0af46ab",
+      "company": "Multi-Agent Workflow Engine (AI Orchestration",
+      "title": "",
+      "start_date": "2025-01",
+      "end_date": "2026-12",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    }
+  ],
+  "projects": [],
+  "education": [],
+  "gaps": [
+    {
+      "id": "g8396f501124725f6",
+      "start": "2018-09",
+      "end": "2018-09",
+      "months": 1,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    },
+    {
+      "id": "gc9bde95a451b3450",
+      "start": "2021-09",
+      "end": "2022-12",
+      "months": 16,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    }
+  ],
+  "total_work_experience": 6,
+  "total_projects": 0,
+  "total_gaps": 2,
+  "raw_pipeline_dto": {
+    "doc_id": "Nitu Kumar Patra",
+    "filename": "Nitu Kumar Patra.docx",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v4b96fe615a946a00",
+        "type": "EMPLOYMENT",
+        "title": "Software Consultant",
+        "org": "Infogain Corporation",
+        "start": "2014-11",
+        "end": "2018-08",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Software Consultant\nInfogain Corporation, Bangalore | Nov 2014 – Aug 2018",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Software Consultant",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 2653,
+              "end": 2672
+            },
+            {
+              "page": 1,
+              "text": "Infogain Corporation, Bangalore | Nov 2014 – Aug 2018",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 2673,
+              "end": 2726
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Nov 2014 – Aug 2018",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 2707,
+              "end": 2726
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Infogain Corporation",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 2673,
+              "end": 2693
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Software Consultant",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 2653,
+              "end": 2672
+            }
+          ],
+          "section": "Oracle India Pvt Ltd, Bangalore | Aug 2021 – Mar 2025",
+          "date_label": "Nov 2014 – Aug 2018",
+          "is_present": false
+        },
+        "date_label": "Nov 2014 – Aug 2018",
+        "section": "Oracle India Pvt Ltd, Bangalore | Aug 2021 – Mar 2025",
+        "is_present": false
+      },
+      {
+        "id": "va500e3685ae79dd2",
+        "type": "EMPLOYMENT",
+        "title": "Senior Software Engineer",
+        "org": "Sirius Embedded Software Pvt Ltd",
+        "start": "2018-10",
+        "end": "2021-08",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Senior Software Engineer\nSirius Embedded Software Pvt Ltd, Bangalore | Oct 2018 – Aug 2021",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Software Engineer",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 1895,
+              "end": 1919
+            },
+            {
+              "page": 1,
+              "text": "Sirius Embedded Software Pvt Ltd, Bangalore | Oct 2018 – Aug 2021",
+              "block_id": "b25",
+              "kind": "text",
+              "start": 1920,
+              "end": 1985
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Oct 2018 – Aug 2021",
+              "block_id": "b25",
+              "kind": "text",
+              "start": 1966,
+              "end": 1985
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Sirius Embedded Software Pvt Ltd",
+              "block_id": "b25",
+              "kind": "text",
+              "start": 1920,
+              "end": 1952
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Software Engineer",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 1895,
+              "end": 1919
+            }
+          ],
+          "section": "Oracle India Pvt Ltd, Bangalore | Aug 2021 – Mar 2025",
+          "date_label": "Oct 2018 – Aug 2021",
+          "is_present": false
+        },
+        "date_label": "Oct 2018 – Aug 2021",
+        "section": "Oracle India Pvt Ltd, Bangalore | Aug 2021 – Mar 2025",
+        "is_present": false
+      },
+      {
+        "id": "v4b0e2f6d21663656",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Customer Service Microservice (CRM Application",
+        "start": "2023-01",
+        "end": "2025-03",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Customer Service Microservice (CRM Application) | Jan 2023 – Mar 2025",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Customer Service Microservice (CRM Application) | Jan 2023 – Mar 2025",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 3608,
+              "end": 3677
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jan 2023 – Mar 2025",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 3658,
+              "end": 3677
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Customer Service Microservice (CRM Application",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 3608,
+              "end": 3654
+            }
+          ],
+          "title": [],
+          "section": "Oracle India Pvt Ltd, Bangalore | Aug 2021 – Mar 2025",
+          "date_label": "Jan 2023 – Mar 2025",
+          "is_present": false
+        },
+        "date_label": "Jan 2023 – Mar 2025",
+        "section": "Oracle India Pvt Ltd, Bangalore | Aug 2021 – Mar 2025",
+        "is_present": false
+      },
+      {
+        "id": "v4389d97351e9f7e9",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Voice-Powered RAG Agent System",
+        "start": "2025-01",
+        "end": "2026-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Voice-Powered RAG Agent System | 2025 – Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Voice-Powered RAG Agent System | 2025 – Present",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 5264,
+              "end": 5311
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2025 – Present",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 5297,
+              "end": 5311
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Voice-Powered RAG Agent System",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 5264,
+              "end": 5294
+            }
+          ],
+          "title": [],
+          "section": "Oracle India Pvt Ltd, Bangalore | Aug 2021 – Mar 2025",
+          "date_label": "2025 – Present",
+          "is_present": true
+        },
+        "date_label": "2025 – Present",
+        "section": "Oracle India Pvt Ltd, Bangalore | Aug 2021 – Mar 2025",
+        "is_present": true
+      },
+      {
+        "id": "v8258190bd644ffa2",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Creative Writing Agents (LLM Orchestration",
+        "start": "2025-01",
+        "end": "2026-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Creative Writing Agents (LLM Orchestration) | 2025 – Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Creative Writing Agents (LLM Orchestration) | 2025 – Present",
+              "block_id": "b62",
+              "kind": "text",
+              "start": 6085,
+              "end": 6145
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2025 – Present",
+              "block_id": "b62",
+              "kind": "text",
+              "start": 6131,
+              "end": 6145
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Creative Writing Agents (LLM Orchestration",
+              "block_id": "b62",
+              "kind": "text",
+              "start": 6085,
+              "end": 6127
+            }
+          ],
+          "title": [],
+          "section": "Oracle India Pvt Ltd, Bangalore | Aug 2021 – Mar 2025",
+          "date_label": "2025 – Present",
+          "is_present": true
+        },
+        "date_label": "2025 – Present",
+        "section": "Oracle India Pvt Ltd, Bangalore | Aug 2021 – Mar 2025",
+        "is_present": true
+      },
+      {
+        "id": "v3443e4fca0af46ab",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Multi-Agent Workflow Engine (AI Orchestration",
+        "start": "2025-01",
+        "end": "2026-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Multi-Agent Workflow Engine (AI Orchestration) | 2025 – Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Multi-Agent Workflow Engine (AI Orchestration) | 2025 – Present",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 6714,
+              "end": 6777
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2025 – Present",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 6763,
+              "end": 6777
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Multi-Agent Workflow Engine (AI Orchestration",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 6714,
+              "end": 6759
+            }
+          ],
+          "title": [],
+          "section": "Oracle India Pvt Ltd, Bangalore | Aug 2021 – Mar 2025",
+          "date_label": "2025 – Present",
+          "is_present": true
+        },
+        "date_label": "2025 – Present",
+        "section": "Oracle India Pvt Ltd, Bangalore | Aug 2021 – Mar 2025",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g8396f501124725f6",
+        "start": [
+          2018,
+          9
+        ],
+        "end": [
+          2018,
+          9
+        ],
+        "months": 1,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "v4b96fe615a946a00",
+          "event_after": "va500e3685ae79dd2",
+          "coverage_scope": "all_dated_activity"
+        },
+        "start_label": "2018-09",
+        "end_label": "2018-09",
+        "evidence_quotes": [
+          "Software Consultant Infogain Corporation, Bangalore | Nov 2014 – Aug 2018",
+          "Senior Software Engineer Sirius Embedded Software Pvt Ltd, Bangalore | Oct 2018 – Aug 2021"
+        ],
+        "evidence_details": [
+          {
+            "header": "Software Consultant at Infogain Corporation",
+            "quote": "Software Consultant Infogain Corporation, Bangalore | Nov 2014 – Aug 2018",
+            "event_id": "v4b96fe615a946a00",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Software Consultant",
+                  "block_id": "b32",
+                  "kind": "text",
+                  "start": 2653,
+                  "end": 2672
+                },
+                {
+                  "page": 1,
+                  "text": "Infogain Corporation, Bangalore | Nov 2014 – Aug 2018",
+                  "block_id": "b33",
+                  "kind": "text",
+                  "start": 2673,
+                  "end": 2726
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Nov 2014 – Aug 2018",
+                  "block_id": "b33",
+                  "kind": "text",
+                  "start": 2707,
+                  "end": 2726
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Infogain Corporation",
+                  "block_id": "b33",
+                  "kind": "text",
+                  "start": 2673,
+                  "end": 2693
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Software Consultant",
+                  "block_id": "b32",
+                  "kind": "text",
+                  "start": 2653,
+                  "end": 2672
+                }
+              ],
+              "section": "Oracle India Pvt Ltd, Bangalore | Aug 2021 – Mar 2025",
+              "date_label": "Nov 2014 – Aug 2018",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Senior Software Engineer at Sirius Embedded Software Pvt Ltd",
+            "quote": "Senior Software Engineer Sirius Embedded Software Pvt Ltd, Bangalore | Oct 2018 – Aug 2021",
+            "event_id": "va500e3685ae79dd2",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Senior Software Engineer",
+                  "block_id": "b24",
+                  "kind": "text",
+                  "start": 1895,
+                  "end": 1919
+                },
+                {
+                  "page": 1,
+                  "text": "Sirius Embedded Software Pvt Ltd, Bangalore | Oct 2018 – Aug 2021",
+                  "block_id": "b25",
+                  "kind": "text",
+                  "start": 1920,
+                  "end": 1985
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Oct 2018 – Aug 2021",
+                  "block_id": "b25",
+                  "kind": "text",
+                  "start": 1966,
+                  "end": 1985
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Sirius Embedded Software Pvt Ltd",
+                  "block_id": "b25",
+                  "kind": "text",
+                  "start": 1920,
+                  "end": 1952
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Senior Software Engineer",
+                  "block_id": "b24",
+                  "kind": "text",
+                  "start": 1895,
+                  "end": 1919
+                }
+              ],
+              "section": "Oracle India Pvt Ltd, Bangalore | Aug 2021 – Mar 2025",
+              "date_label": "Oct 2018 – Aug 2021",
+              "is_present": false
+            }
+          }
+        ]
+      },
+      {
+        "id": "gc9bde95a451b3450",
+        "start": [
+          2021,
+          9
+        ],
+        "end": [
+          2022,
+          12
+        ],
+        "months": 16,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "va500e3685ae79dd2",
+          "event_after": "v4b0e2f6d21663656",
+          "coverage_scope": "all_dated_activity"
+        },
+        "start_label": "2021-09",
+        "end_label": "2022-12",
+        "evidence_quotes": [
+          "Senior Software Engineer Sirius Embedded Software Pvt Ltd, Bangalore | Oct 2018 – Aug 2021",
+          "Customer Service Microservice (CRM Application) | Jan 2023 – Mar 2025"
+        ],
+        "evidence_details": [
+          {
+            "header": "Senior Software Engineer at Sirius Embedded Software Pvt Ltd",
+            "quote": "Senior Software Engineer Sirius Embedded Software Pvt Ltd, Bangalore | Oct 2018 – Aug 2021",
+            "event_id": "va500e3685ae79dd2",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Senior Software Engineer",
+                  "block_id": "b24",
+                  "kind": "text",
+                  "start": 1895,
+                  "end": 1919
+                },
+                {
+                  "page": 1,
+                  "text": "Sirius Embedded Software Pvt Ltd, Bangalore | Oct 2018 – Aug 2021",
+                  "block_id": "b25",
+                  "kind": "text",
+                  "start": 1920,
+                  "end": 1985
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Oct 2018 – Aug 2021",
+                  "block_id": "b25",
+                  "kind": "text",
+                  "start": 1966,
+                  "end": 1985
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Sirius Embedded Software Pvt Ltd",
+                  "block_id": "b25",
+                  "kind": "text",
+                  "start": 1920,
+                  "end": 1952
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Senior Software Engineer",
+                  "block_id": "b24",
+                  "kind": "text",
+                  "start": 1895,
+                  "end": 1919
+                }
+              ],
+              "section": "Oracle India Pvt Ltd, Bangalore | Aug 2021 – Mar 2025",
+              "date_label": "Oct 2018 – Aug 2021",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Customer Service Microservice (CRM Application",
+            "quote": "Customer Service Microservice (CRM Application) | Jan 2023 – Mar 2025",
+            "event_id": "v4b0e2f6d21663656",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Customer Service Microservice (CRM Application) | Jan 2023 – Mar 2025",
+                  "block_id": "b44",
+                  "kind": "text",
+                  "start": 3608,
+                  "end": 3677
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Jan 2023 – Mar 2025",
+                  "block_id": "b44",
+                  "kind": "text",
+                  "start": 3658,
+                  "end": 3677
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Customer Service Microservice (CRM Application",
+                  "block_id": "b44",
+                  "kind": "text",
+                  "start": 3608,
+                  "end": 3654
+                }
+              ],
+              "title": [],
+              "section": "Oracle India Pvt Ltd, Bangalore | Aug 2021 – Mar 2025",
+              "date_label": "Jan 2023 – Mar 2025",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 6,
+      "total_events": 6,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.833,
+      "document_accuracy": 0.83
+    },
+    "total_represented_months": 129,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

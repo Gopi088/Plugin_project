@@ -1,34 +1,259 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <style>
-body { font: 14px/1.45 system-ui, sans-serif; width: 320px; padding: 12px; color: #111; }
-h3 { margin: 0 0 8px; }
-.row { margin: 8px 0; }
-input[type=text] { width: 100%; box-sizing: border-box; }
-button { cursor: pointer; }
-#health { font-weight: 700; }
-.ok { color: #15803d; } .bad { color: #b91c1c; }
-small { color: #555; }
+* { box-sizing: border-box; }
+body {
+  font: 13px/1.45 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  width: 400px;
+  max-height: 580px;
+  margin: 0;
+  padding: 14px;
+  color: #1e293b;
+  background: #f8fafc;
+  overflow-y: auto;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+h3 { margin: 0; font-size: 15px; font-weight: 700; color: #0f172a; }
+.header-actions { display: flex; gap: 6px; align-items: center; }
+.panel-btn {
+  background: #fff;
+  border: 1px solid #cbd5e1;
+  color: #334155;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+.panel-btn:hover { background: #f1f5f9; border-color: #94a3b8; }
+#status-banner {
+  font-size: 12px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  background: #e0f2fe;
+  color: #0369a1;
+  border: 1px solid #bae6fd;
+}
+#status-banner.error {
+  background: #fee2e2;
+  color: #991b1b;
+  border-color: #fecaca;
+}
+#status-banner.success {
+  background: #f0fdf4;
+  color: #166534;
+  border-color: #bbf7d0;
+}
+.candidate-header {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.candidate-title { font-weight: 700; font-size: 13px; color: #0f172a; margin: 0; }
+.candidate-sub { font-size: 11px; color: #64748b; }
+
+/* Top Reviewed status button */
+.btn-review-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 11px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 1.5px solid #cbd5e1;
+  background: #f8fafc;
+  color: #64748b;
+  flex-shrink: 0;
+}
+.btn-review-toggle:hover {
+  background: #f1f5f9;
+  border-color: #94a3b8;
+}
+.btn-review-toggle .tick-circle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1.5px solid #94a3b8;
+  font-size: 10px;
+  font-weight: 800;
+  color: #94a3b8;
+}
+.btn-review-toggle.is-reviewed {
+  background: #ecfdf5 !important;
+  border-color: #10b981 !important;
+  color: #047857 !important;
+  box-shadow: 0 1px 3px rgba(16, 185, 129, 0.2) !important;
+}
+.btn-review-toggle.is-reviewed:hover {
+  background: #d1fae5 !important;
+  border-color: #059669 !important;
+}
+.btn-review-toggle.is-reviewed .tick-circle {
+  background: #10b981 !important;
+  border-color: #10b981 !important;
+  color: #ffffff !important;
+}
+
+.section-title {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  margin: 14px 0 6px;
+  color: #475569;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.gap-card {
+  background: #fff;
+  border: 1px solid #fed7aa;
+  border-left: 4px solid #f97316;
+  border-radius: 6px;
+  padding: 10px 12px;
+  margin-bottom: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+}
+.gap-badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 4px;
+  background: #ffedd5;
+  color: #c2410c;
+}
+.gap-dates { font-size: 11px; color: #64748b; margin-left: 6px; }
+.gap-context { font-size: 12px; color: #1e293b; margin: 5px 0 6px; line-height: 1.4; }
+.verified-continuous {
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-left: 4px solid #16a34a;
+  border-radius: 6px;
+  padding: 10px 12px;
+  font-size: 12px;
+  color: #15803d;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.timeline-list { list-style: none; padding: 0; margin: 0; }
+.timeline-item {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  padding: 8px 12px;
+  margin-bottom: 6px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.02);
+}
+.timeline-item.edu { border-left: 3px solid #059669; }
+.timeline-item.work { border-left: 3px solid #2563eb; }
+.item-head { display: flex; align-items: baseline; justify-content: space-between; }
+.item-title { font-weight: 600; font-size: 12px; color: #0f172a; }
+.item-org { font-size: 11px; color: #475569; }
+.item-dates { font-size: 11px; color: #64748b; margin-top: 2px; }
+.duration-pill {
+  font-size: 10px;
+  font-weight: 700;
+  background: #e0f2fe;
+  color: #0369a1;
+  padding: 1px 5px;
+  border-radius: 4px;
+  margin-left: 4px;
+}
+.btn-verify {
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+  color: #0f172a;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 4px 9px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 4px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+.btn-verify:hover { background: #e2e8f0; border-color: #94a3b8; }
+details { margin-top: 14px; font-size: 12px; color: #64748b; border-top: 1px solid #e2e8f0; padding-top: 8px; }
+summary { cursor: pointer; font-weight: 600; color: #475569; }
+input[type=text], input[type=file] { width: 100%; padding: 6px 8px; border: 1px solid #cbd5e1; border-radius: 4px; font-size: 12px; }
+button.btn-secondary { background: #fff; border: 1px solid #cbd5e1; border-radius: 4px; padding: 5px 10px; font-size: 12px; cursor: pointer; margin-top: 4px; }
 </style>
 </head>
 <body>
-<h3>Resume Timeline</h3>
-<div class="row">Backend: <span id="health">checking…</span></div>
-<div class="row"><label>API base<br><input type="text" id="apiBase" value="http://127.0.0.1:8000"></label></div>
-<div class="row"><button id="save">Save</button></div>
-<hr>
-<div class="row"><label>Resume file<br><input type="file" id="file" accept=".pdf,.docx,.txt"></label></div>
-<div class="row"><button id="upload">Analyze file</button></div>
-<div class="row"><label>Resume URL<br><input type="text" id="url" placeholder="https://…/resume.pdf"></label></div>
-<div class="row"><button id="sendUrl">Analyze URL</button></div>
-<div class="row" id="out"><small>Results open in the page sidebar; the document id is kept below.</small></div>
-<div class="row" id="summary"></div>
-<div class="row"><button id="view" disabled>Open in page sidebar</button></div>
-<hr>
-<div class="row"><strong>Measured accuracy</strong> <small>(hand-labeled eval set)</small><div id="quality"><small>loading…</small></div></div>
+<header>
+  <div>
+    <h3>Resume Timeline <small id="extension-version"></small></h3>
+    <small style="color:#64748b;">Instant In-Extension Gap Detection</small>
+  </div>
+  <div class="header-actions">
+    <button id="btn-reanalyze" class="panel-btn" title="Re-analyze resume from open document">↺ Re-analyze</button>
+    <button id="btn-sidepanel" class="panel-btn" title="Open Chrome side panel alongside page">Side Panel ⧉</button>
+    <button id="btn-inpage" class="panel-btn" title="Toggle in-page sidebar overlay">Sidebar 📋</button>
+  </div>
+</header>
+
+<div id="status-banner" role="status">Detecting resume on current page…</div>
+
+<div id="results-view" hidden>
+  <div class="candidate-header">
+    <div>
+      <div id="candidate-name" class="candidate-title">Candidate</div>
+      <div id="candidate-sub" class="candidate-sub">Resume analyzed</div>
+    </div>
+    <button id="btn-doc-reviewed" class="btn-review-toggle unreviewed" type="button" title="Click to toggle reviewed status">
+      <span class="tick-circle">✓</span>
+      <span id="review-status-text">Mark Reviewed</span>
+    </button>
+  </div>
+
+  <div class="section-title"><span>⚠️ Detected Gaps</span> <span id="gap-count" style="font-weight:400; text-transform:none;"></span></div>
+  <div id="gaps-container"></div>
+
+  <div class="section-title"><span>Career Timeline</span> <span id="event-count" style="font-weight:400; text-transform:none;"></span></div>
+  <div id="timeline-container"></div>
+
+  <div class="section-title"><span>📂 Projects & POCs</span> <span id="project-count" style="font-weight:400; text-transform:none;"></span></div>
+  <div id="projects-container"></div>
+</div>
+
+<details>
+  <summary>Manual analyze / settings</summary>
+  <div style="margin:8px 0;"><label>File: <input type="file" id="file" accept=".pdf,.docx,.txt"></label><button id="upload" class="btn-secondary">Analyze file</button></div>
+  <div style="margin:8px 0;"><label>URL: <input type="text" id="url" placeholder="https://…/resume.pdf"></label><button id="sendUrl" class="btn-secondary">Analyze URL</button></div>
+  <div style="margin:8px 0;"><label>Backend: <input type="text" id="apiBase" value="http://127.0.0.1:8000"></label><button id="save" class="btn-secondary">Save</button></div>
+</details>
+
+<p id="evaluation-accuracy" style="font-size:12px;color:#596d85;padding:0 14px" aria-live="polite"></p>
+<script src="viewmodel.js"></script>
 <script src="api.js"></script>
+<script src="source-viewer.js"></script>
 <script src="popup.js"></script>
 </body>
 </html>

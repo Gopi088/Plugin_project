@@ -1,0 +1,379 @@
+{
+  "file_name": "MaritaNikitaDcruze.pdf",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 3,
+    "dated_share": 0.667,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.833,
+    "document_accuracy": 0.83
+  },
+  "work_experience": [
+    {
+      "id": "vdb508ac0493ca7b0",
+      "company": "Transition Programs",
+      "title": "End-to-End Transition Process Manager",
+      "start_date": "2024-01",
+      "end_date": "2025-04",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "v5d73c6bd8a5089e6",
+      "company": "University",
+      "title": "B.COM HONS)",
+      "start_date": "2014-01",
+      "end_date": "2017-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    },
+    {
+      "id": "vb495cabafa3d18a3",
+      "company": "",
+      "title": "Bachelor in Commerce",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 1,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "MaritaNikitaDcruze",
+    "filename": "MaritaNikitaDcruze.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "v5d73c6bd8a5089e6",
+        "type": "EDUCATION",
+        "title": "B.COM HONS)",
+        "org": "University",
+        "start": "2014-01",
+        "end": "2017-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "(B.COM HONS), Alliance\nUniversity, Bangalore. 2014-\n2017",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "(B.COM HONS), Alliance",
+              "block_id": "b35",
+              "kind": "text",
+              "start": 1375,
+              "end": 1397
+            },
+            {
+              "page": 1,
+              "text": "University, Bangalore. 2014-",
+              "block_id": "b36",
+              "kind": "text",
+              "start": 1399,
+              "end": 1427
+            },
+            {
+              "page": 1,
+              "text": "2017",
+              "block_id": "b36",
+              "kind": "text",
+              "start": 1429,
+              "end": 1433
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2014-",
+              "block_id": "b36",
+              "kind": "text",
+              "start": 1422,
+              "end": 1427
+            },
+            {
+              "page": 1,
+              "text": "2017",
+              "block_id": "b36",
+              "kind": "text",
+              "start": 1429,
+              "end": 1433
+            },
+            {
+              "page": 1,
+              "text": "2012-2014",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 1495,
+              "end": 1504
+            },
+            {
+              "page": 1,
+              "text": "JANUARY 2023 - NOVEMBER 2023",
+              "block_id": "b75",
+              "kind": "text",
+              "start": 3838,
+              "end": 3866
+            },
+            {
+              "page": 1,
+              "text": "JULY 2022 - DECEMBER 2022",
+              "block_id": "b94",
+              "kind": "text",
+              "start": 5497,
+              "end": 5522
+            },
+            {
+              "page": 1,
+              "text": "APRIL 2021 - MAY 2022",
+              "block_id": "b111",
+              "kind": "text",
+              "start": 6670,
+              "end": 6691
+            },
+            {
+              "page": 1,
+              "text": "FEB 2019- JULY 2019",
+              "block_id": "b126",
+              "kind": "text",
+              "start": 7752,
+              "end": 7771
+            },
+            {
+              "page": 1,
+              "text": "SEPTEMBER  2017- FEBRUARY 2019",
+              "block_id": "b139",
+              "kind": "text",
+              "start": 8705,
+              "end": 8735
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "University",
+              "block_id": "b36",
+              "kind": "text",
+              "start": 1399,
+              "end": 1409
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "B.COM HONS",
+              "block_id": "b35",
+              "kind": "text",
+              "start": 1376,
+              "end": 1386
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2014- 2017",
+          "is_present": false
+        },
+        "date_label": "2014- 2017",
+        "section": "EDUCATION",
+        "is_present": false
+      },
+      {
+        "id": "vdb508ac0493ca7b0",
+        "type": "EMPLOYMENT",
+        "title": "End-to-End Transition Process Manager",
+        "org": "Transition Programs",
+        "start": "2024-01",
+        "end": "2025-04",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "End-to-End Transition Process Manager – Transition Programs JANUARY 2024 - APRIL 2025",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "End-to-End Transition Process Manager – Transition Programs JANUARY 2024 - APRIL 2025",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 995,
+              "end": 1080
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "JANUARY 2024 - APRIL 2025",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 1055,
+              "end": 1080
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Transition Programs",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 1035,
+              "end": 1054
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "End-to-End Transition Process Manager",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 995,
+              "end": 1032
+            }
+          ],
+          "section": "WORK  EXPERIENCE",
+          "date_label": "JANUARY 2024 - APRIL 2025",
+          "is_present": false
+        },
+        "date_label": "JANUARY 2024 - APRIL 2025",
+        "section": "WORK  EXPERIENCE",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "vb495cabafa3d18a3",
+        "type": "EDUCATION",
+        "title": "Bachelor in Commerce",
+        "org": "",
+        "entry_text": "Bachelor in Commerce",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor in Commerce",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 1353,
+              "end": 1373
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor in Commerce",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 1353,
+              "end": 1373
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "EDUCATION",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 3,
+      "dated_share": 0.667,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.833,
+      "document_accuracy": 0.83
+    },
+    "total_represented_months": 64,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

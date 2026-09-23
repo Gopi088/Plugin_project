@@ -1,0 +1,199 @@
+{
+  "file_name": "Ankit Agarwal.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 1,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v91b2fa692f7f02ef",
+      "company": "Qihoo Finance India Pvt. Ltd",
+      "title": "Risk & Project Manager",
+      "start_date": "2019-09",
+      "end_date": "2020-08",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [],
+  "gaps": [],
+  "total_work_experience": 1,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "Ankit Agarwal",
+    "filename": "Ankit Agarwal.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v91b2fa692f7f02ef",
+        "type": "EMPLOYMENT",
+        "title": "Risk & Project Manager",
+        "org": "Qihoo Finance India Pvt. Ltd",
+        "start": "2019-09",
+        "end": "2020-08",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Risk & Project Manager | Qihoo Finance India Pvt. Ltd. Sep 2019 – Aug 2020 | Gurgaon, India",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Risk & Project Manager | Qihoo Finance India Pvt. Ltd. Sep 2019 – Aug 2020 | Gurgaon, India",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 5040,
+              "end": 5131
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Sep 2019 – Aug 2020",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 5095,
+              "end": 5114
+            },
+            {
+              "page": 1,
+              "text": "Jan 2013 – Jun 2019",
+              "block_id": "b62",
+              "kind": "text",
+              "start": 5690,
+              "end": 5709
+            },
+            {
+              "page": 1,
+              "text": "2019",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 5738,
+              "end": 5742
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Qihoo Finance India Pvt. Ltd",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 5065,
+              "end": 5093
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Risk & Project Manager",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 5040,
+              "end": 5062
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Sep 2019 – Aug 2020",
+          "is_present": false
+        },
+        "date_label": "Sep 2019 – Aug 2020",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 1,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 12,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

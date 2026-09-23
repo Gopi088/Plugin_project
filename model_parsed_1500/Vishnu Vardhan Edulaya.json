@@ -1,0 +1,320 @@
+{
+  "file_name": "Vishnu Vardhan Edulaya.docx",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 3,
+    "dated_share": 0.667,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v3b743595df7e5766",
+      "company": "Millennium IMS Pvt. Ltd",
+      "title": "Associate Software Developer",
+      "start_date": "2021-08",
+      "end_date": "2023-07",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "va3136f6bf6acc432",
+      "company": "Tarento Technologies Pvt. Ltd",
+      "title": "Power Platform Developer",
+      "start_date": "2023-08",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "v16b53401ad4472b2",
+      "company": "Bachelors of Science: Pragathi Degree College (Osmania University Hyderabad",
+      "title": "",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 2,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "Vishnu Vardhan Edulaya",
+    "filename": "Vishnu Vardhan Edulaya.docx",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "v3b743595df7e5766",
+        "type": "EMPLOYMENT",
+        "title": "Associate Software Developer",
+        "org": "Millennium IMS Pvt. Ltd",
+        "start": "2021-08",
+        "end": "2023-07",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Associate Software Developer | Millennium IMS Pvt. Ltd., Bangalore\nAug, 2021 – July, 2023",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Associate Software Developer | Millennium IMS Pvt. Ltd., Bangalore",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 2497,
+              "end": 2563
+            },
+            {
+              "page": 1,
+              "text": "Aug, 2021 – July, 2023",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 2564,
+              "end": 2586
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Aug, 2021 – July, 2023",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 2564,
+              "end": 2586
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Millennium IMS Pvt. Ltd",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 2528,
+              "end": 2551
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Associate Software Developer",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 2497,
+              "end": 2525
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE:",
+          "date_label": "Aug, 2021 – July, 2023",
+          "is_present": false
+        },
+        "date_label": "Aug, 2021 – July, 2023",
+        "section": "PROFESSIONAL EXPERIENCE:",
+        "is_present": false
+      },
+      {
+        "id": "va3136f6bf6acc432",
+        "type": "EMPLOYMENT",
+        "title": "Power Platform Developer",
+        "org": "Tarento Technologies Pvt. Ltd",
+        "start": "2023-08",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Power Platform Developer | Tarento Technologies Pvt. Ltd., Bangalore\nAug 2023 – Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Power Platform Developer | Tarento Technologies Pvt. Ltd., Bangalore",
+              "block_id": "b12",
+              "kind": "text",
+              "start": 1348,
+              "end": 1416
+            },
+            {
+              "page": 1,
+              "text": "Aug 2023 – Present",
+              "block_id": "b13",
+              "kind": "text",
+              "start": 1417,
+              "end": 1435
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Aug 2023 – Present",
+              "block_id": "b13",
+              "kind": "text",
+              "start": 1417,
+              "end": 1435
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Tarento Technologies Pvt. Ltd",
+              "block_id": "b12",
+              "kind": "text",
+              "start": 1375,
+              "end": 1404
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Power Platform Developer",
+              "block_id": "b12",
+              "kind": "text",
+              "start": 1348,
+              "end": 1372
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE:",
+          "date_label": "Aug 2023 – Present",
+          "is_present": true
+        },
+        "date_label": "Aug 2023 – Present",
+        "section": "PROFESSIONAL EXPERIENCE:",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v16b53401ad4472b2",
+        "type": "EDUCATION",
+        "title": "",
+        "org": "Bachelors of Science: Pragathi Degree College (Osmania University Hyderabad",
+        "entry_text": "Bachelors of Science: Pragathi Degree College (Osmania University Hyderabad)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelors of Science: Pragathi Degree College (Osmania University Hyderabad)",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 6481,
+              "end": 6557
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "Bachelors of Science: Pragathi Degree College (Osmania University Hyderabad",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 6481,
+              "end": 6556
+            }
+          ],
+          "title": [],
+          "section": "EDUCATION:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "EDUCATION:",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "NO_GAP_DETECTED",
+        "confidence": 0.9,
+        "reasons": [],
+        "evidence": {
+          "note": "no uncovered months between supported entries"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 3,
+      "dated_share": 0.667,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 62,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

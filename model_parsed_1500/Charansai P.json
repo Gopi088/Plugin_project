@@ -1,0 +1,318 @@
+{
+  "file_name": "Charansai P.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 3,
+    "total_events": 3,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.855,
+    "document_accuracy": 0.85
+  },
+  "work_experience": [
+    {
+      "id": "vd297c39bdc8f159c",
+      "company": "",
+      "title": "Senior WebLogic Administrator",
+      "start_date": "2009-06",
+      "end_date": "2014-10",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vd1c5bb903fa34a22",
+      "company": "Principal Technologist, Oracle – Bengaluru, India",
+      "title": "",
+      "start_date": "2014-10",
+      "end_date": "2017-04",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "v772d8b5515bca4ba",
+      "company": "",
+      "title": "Bachelor of Technology",
+      "start_date": "2005-01",
+      "end_date": "2009-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 2,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "Charansai P",
+    "filename": "Charansai P.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v772d8b5515bca4ba",
+        "type": "EDUCATION",
+        "title": "Bachelor of Technology",
+        "org": "",
+        "start": "2005-01",
+        "end": "2009-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "• Bachelor of Technology – Electronics and Instrumentation – JNTU, Anantapur (2005 – 2009)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "• Bachelor of Technology – Electronics and Instrumentation – JNTU, Anantapur (2005 – 2009)",
+              "block_id": "b98",
+              "kind": "text",
+              "start": 6494,
+              "end": 6584
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2005 – 2009",
+              "block_id": "b98",
+              "kind": "text",
+              "start": 6572,
+              "end": 6583
+            },
+            {
+              "page": 1,
+              "text": "2023",
+              "block_id": "b100",
+              "kind": "text",
+              "start": 6639,
+              "end": 6643
+            },
+            {
+              "page": 1,
+              "text": "2020",
+              "block_id": "b102",
+              "kind": "text",
+              "start": 6734,
+              "end": 6738
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Technology",
+              "block_id": "b98",
+              "kind": "text",
+              "start": 6496,
+              "end": 6518
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2005 – 2009",
+          "is_present": false
+        },
+        "date_label": "2005 – 2009",
+        "section": "EDUCATION",
+        "is_present": false
+      },
+      {
+        "id": "vd297c39bdc8f159c",
+        "type": "EMPLOYMENT",
+        "title": "Senior WebLogic Administrator",
+        "org": "",
+        "start": "2009-06",
+        "end": "2014-10",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "• Senior WebLogic Administrator, CGI – Bengaluru, India, 06/2009 to 10/2014",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "• Senior WebLogic Administrator, CGI – Bengaluru, India, 06/2009 to 10/2014",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 3838,
+              "end": 3913
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "06/2009 to 10/2014",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 3895,
+              "end": 3913
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior WebLogic Administrator",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 3840,
+              "end": 3869
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "06/2009 to 10/2014",
+          "is_present": false
+        },
+        "date_label": "06/2009 to 10/2014",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vd1c5bb903fa34a22",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Principal Technologist, Oracle – Bengaluru, India",
+        "start": "2014-10",
+        "end": "2017-04",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "• Principal Technologist, Oracle – Bengaluru, India, 10/2014 to 04/2017",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "• Principal Technologist, Oracle – Bengaluru, India, 10/2014 to 04/2017",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 3765,
+              "end": 3836
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "10/2014 to 04/2017",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 3818,
+              "end": 3836
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Principal Technologist, Oracle – Bengaluru, India",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 3767,
+              "end": 3816
+            }
+          ],
+          "title": [],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "10/2014 to 04/2017",
+          "is_present": false
+        },
+        "date_label": "10/2014 to 04/2017",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [],
+        "evidence": {
+          "note": "year-only dates need verification"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 3,
+      "total_events": 3,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.855,
+      "document_accuracy": 0.85
+    },
+    "total_represented_months": 148,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

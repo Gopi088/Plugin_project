@@ -1,0 +1,455 @@
+{
+  "file_name": "NiteshKumarSingh.pdf",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 3,
+    "total_events": 5,
+    "dated_share": 0.6,
+    "unresolved": 2,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.765,
+    "document_accuracy": 0.74
+  },
+  "work_experience": [
+    {
+      "id": "vc6d43e04ba1eb019",
+      "company": "",
+      "title": "Business Analyst",
+      "start_date": "2020-01",
+      "end_date": "2022-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    },
+    {
+      "id": "vdff8fab3e8e96ac7",
+      "company": "Rego Digital Solutions Private Limited",
+      "title": "",
+      "start_date": "2022-01",
+      "end_date": "2024-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    },
+    {
+      "id": "vee3a20ea095b618d",
+      "company": "Visionet Systems Private Limited",
+      "title": "",
+      "start_date": "2024-01",
+      "end_date": "2026-12",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    },
+    {
+      "id": "vfbc88d4a83f696d0",
+      "company": "",
+      "title": "Data and Operation Head",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "v87350463c863c406",
+      "company": "Manipal Institute of Technology",
+      "title": "B.Tech",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 4,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "NiteshKumarSingh",
+    "filename": "NiteshKumarSingh.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "vc6d43e04ba1eb019",
+        "type": "EMPLOYMENT",
+        "title": "Business Analyst",
+        "org": "",
+        "start": "2020-01",
+        "end": "2022-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Business Analyst",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Business Analyst",
+              "block_id": "b92",
+              "kind": "text",
+              "start": 11387,
+              "end": 11403
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2020 – 2022",
+              "block_id": "b111",
+              "kind": "text",
+              "start": 13441,
+              "end": 13452
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Business Analyst",
+              "block_id": "b92",
+              "kind": "text",
+              "start": 11387,
+              "end": 11403
+            }
+          ],
+          "section": "PROFESSIONAL  EXPERIENCE",
+          "date_label": "2020 – 2022",
+          "is_present": false
+        },
+        "date_label": "2020 – 2022",
+        "section": "PROFESSIONAL  EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vdff8fab3e8e96ac7",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Rego Digital Solutions Private Limited",
+        "start": "2022-01",
+        "end": "2024-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Rego Digital Solutions Private Limited 2022 – 2024",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Rego Digital Solutions Private Limited 2022 – 2024",
+              "block_id": "b91",
+              "kind": "text",
+              "start": 11335,
+              "end": 11385
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2022 – 2024",
+              "block_id": "b91",
+              "kind": "text",
+              "start": 11374,
+              "end": 11385
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Rego Digital Solutions Private Limited",
+              "block_id": "b91",
+              "kind": "text",
+              "start": 11335,
+              "end": 11373
+            }
+          ],
+          "title": [],
+          "section": "PROFESSIONAL  EXPERIENCE",
+          "date_label": "2022 – 2024",
+          "is_present": false
+        },
+        "date_label": "2022 – 2024",
+        "section": "PROFESSIONAL  EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vee3a20ea095b618d",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Visionet Systems Private Limited",
+        "start": "2024-01",
+        "end": "2026-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Visionet Systems Private Limited 2024 – Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Visionet Systems Private Limited 2024 – Present",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 2289,
+              "end": 2336
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2024 – Present",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 2322,
+              "end": 2336
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Visionet Systems Private Limited",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 2289,
+              "end": 2321
+            }
+          ],
+          "title": [],
+          "section": "PROFESSIONAL  EXPERIENCE",
+          "date_label": "2024 – Present",
+          "is_present": true
+        },
+        "date_label": "2024 – Present",
+        "section": "PROFESSIONAL  EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "vfbc88d4a83f696d0",
+        "type": "EMPLOYMENT",
+        "title": "Data and Operation Head",
+        "org": "",
+        "entry_text": "Data and Operation Head • Normalized weekly unstructured CSV data into 3NF using PostgreSQL and automated multi-source integration, improving database efficiency and consistency. • Designed complex SQL queries and batch scripts for process improvements, reducing error rates and supporting strategic ",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Data and Operation Head",
+              "block_id": "b112",
+              "kind": "text",
+              "start": 13454,
+              "end": 13477
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Data and Operation Head",
+              "block_id": "b112",
+              "kind": "text",
+              "start": 13454,
+              "end": 13477
+            }
+          ],
+          "section": "PROFESSIONAL  EXPERIENCE",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROFESSIONAL  EXPERIENCE",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v87350463c863c406",
+        "type": "EDUCATION",
+        "title": "B.Tech",
+        "org": "Manipal Institute of Technology",
+        "entry_text": "B.Tech – Mechanical Engineering 2014 – 2018 Manipal Institute of Technology, M.A.H.E Senior Secondary (12th) 2011 – 2013 Navy Children School, Goa",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "B.Tech – Mechanical Engineering 2014 – 2018",
+              "block_id": "b121",
+              "kind": "text",
+              "start": 14322,
+              "end": 14365
+            },
+            {
+              "page": 1,
+              "text": "Manipal Institute of Technology, M.A.H.E",
+              "block_id": "b122",
+              "kind": "text",
+              "start": 14367,
+              "end": 14407
+            },
+            {
+              "page": 1,
+              "text": "Senior Secondary (12th) 2011 – 2013",
+              "block_id": "b123",
+              "kind": "text",
+              "start": 14409,
+              "end": 14444
+            },
+            {
+              "page": 1,
+              "text": "Navy Children School, Goa",
+              "block_id": "b124",
+              "kind": "text",
+              "start": 14446,
+              "end": 14471
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2014 – 2018",
+              "block_id": "b121",
+              "kind": "text",
+              "start": 14354,
+              "end": 14365
+            },
+            {
+              "page": 1,
+              "text": "2011 – 2013",
+              "block_id": "b123",
+              "kind": "text",
+              "start": 14433,
+              "end": 14444
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Manipal Institute of Technology",
+              "block_id": "b122",
+              "kind": "text",
+              "start": 14367,
+              "end": 14398
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "B.Tech",
+              "block_id": "b121",
+              "kind": "text",
+              "start": 14322,
+              "end": 14328
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2014 – 2018 / 2011 – 2013",
+          "is_present": false
+        },
+        "date_label": "2014 – 2018 / 2011 – 2013",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "vfbc88d4a83f696d0"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 3,
+      "total_events": 5,
+      "dated_share": 0.6,
+      "unresolved": 2,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.765,
+      "document_accuracy": 0.74
+    },
+    "total_represented_months": 84,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

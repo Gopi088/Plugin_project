@@ -1,0 +1,304 @@
+{
+  "file_name": "Anwar.pdf",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 3,
+    "dated_share": 0.667,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "vcb719fd134a774f9",
+      "company": "Capgemini",
+      "title": "2. Quality Consultant",
+      "start_date": "2016-01",
+      "end_date": "2025-02",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v5678b8f80cc94e0d",
+      "company": "Wells Fargo",
+      "title": "1. Business Process Associate (Manager)",
+      "start_date": "2025-03",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "v3263e6e0e3c13aec",
+      "company": "Graduate from Bangalore University BTL FGC",
+      "title": "",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 2,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "Anwar",
+    "filename": "Anwar.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "vcb719fd134a774f9",
+        "type": "EMPLOYMENT",
+        "title": "2. Quality Consultant",
+        "org": "Capgemini",
+        "start": "2016-01",
+        "end": "2025-02",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "2. Quality Consultant – Capgemini - Jan 2016 to Feb 2025",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "2. Quality Consultant – Capgemini - Jan 2016 to Feb 2025",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 4510,
+              "end": 4566
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jan 2016 to Feb 2025",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 4546,
+              "end": 4566
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Capgemini",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 4534,
+              "end": 4543
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "2. Quality Consultant",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 4510,
+              "end": 4531
+            }
+          ],
+          "section": "Experience",
+          "date_label": "Jan 2016 to Feb 2025",
+          "is_present": false
+        },
+        "date_label": "Jan 2016 to Feb 2025",
+        "section": "Experience",
+        "is_present": false
+      },
+      {
+        "id": "v5678b8f80cc94e0d",
+        "type": "EMPLOYMENT",
+        "title": "1. Business Process Associate (Manager)",
+        "org": "Wells Fargo",
+        "start": "2025-03",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "1. Business Process Associate (Manager) – Wells Fargo - March 2025 to till date",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "1. Business Process Associate (Manager) – Wells Fargo - March 2025 to till date",
+              "block_id": "b45",
+              "kind": "text",
+              "start": 2357,
+              "end": 2436
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "March 2025 to till date",
+              "block_id": "b45",
+              "kind": "text",
+              "start": 2413,
+              "end": 2436
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Wells Fargo",
+              "block_id": "b45",
+              "kind": "text",
+              "start": 2399,
+              "end": 2410
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "1. Business Process Associate (Manager",
+              "block_id": "b45",
+              "kind": "text",
+              "start": 2357,
+              "end": 2395
+            }
+          ],
+          "section": "Experience",
+          "date_label": "March 2025 to till date",
+          "is_present": true
+        },
+        "date_label": "March 2025 to till date",
+        "section": "Experience",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v3263e6e0e3c13aec",
+        "type": "EDUCATION",
+        "title": "",
+        "org": "Graduate from Bangalore University BTL FGC",
+        "entry_text": "• Graduate from Bangalore University BTL FGC",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "• Graduate from Bangalore University BTL FGC",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 2162,
+              "end": 2206
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "Graduate from Bangalore University BTL FGC",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 2164,
+              "end": 2206
+            }
+          ],
+          "title": [],
+          "section": "Education",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Education",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "NO_GAP_DETECTED",
+        "confidence": 0.9,
+        "reasons": [],
+        "evidence": {
+          "note": "no uncovered months between supported entries"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 3,
+      "dated_share": 0.667,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 129,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

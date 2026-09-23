@@ -1,0 +1,1057 @@
+{
+  "file_name": "abhaykumartiwari.docx",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 5,
+    "total_events": 6,
+    "dated_share": 0.833,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "vdb5eb523a6f8f42a",
+      "company": "Earlier Roles",
+      "title": "",
+      "start_date": "2013-04",
+      "end_date": "2016-06",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "ve147af26707dd195",
+      "company": "Spectrum Data System Services Pvt. Ltd",
+      "title": "Senior Software Developer",
+      "start_date": "2016-06",
+      "end_date": "2020-09",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vb1c7fcb93d3d5e41",
+      "company": "Jellyfish Technologies Pvt. Ltd",
+      "title": "Software Developer",
+      "start_date": "2020-09",
+      "end_date": "2021-05",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v149471beefc43af4",
+      "company": "HCL Technologies Ltd",
+      "title": "Senior Technical Lead",
+      "start_date": "2021-06",
+      "end_date": "2023-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vb8a893a9504958a5",
+      "company": "Infogain India Pvt. Ltd",
+      "title": "Technology Lead",
+      "start_date": "2024-12",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "Project",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Costco Wholesale – Performance Engineering & Cloud Migration (2024–2025)",
+        "Led cloud cost optimization, reducing expenses by 20%.",
+        "Migrated enterprise workloads from Azure to GCP ensuring stability & scalability.",
+        "Partnered with performance teams to fine-tune high-volume workloads."
+      ]
+    },
+    {
+      "id": "proj_2",
+      "name": "Project",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Mastercard Credit Card Approval System – Mastercard R&D, Pune (2022–2023)",
+        "Architected microservices-based system handling 1M+ transactions/day.",
+        "Implemented Kafka messaging for asynchronous processing.",
+        "Secured financial APIs with Spring Security & OAuth2."
+      ]
+    },
+    {
+      "id": "proj_3",
+      "name": "Project",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Manchester United Digital Portal – Manchester, UK (2021–2022)",
+        "Designed and developed CMS architecture with Spring Boot & Angular.",
+        "Integrated Elasticsearch for optimized content retrieval.",
+        "Deployed on AWS Cloud for scalability and availability."
+      ]
+    },
+    {
+      "id": "proj_4",
+      "name": "Project",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Trackimo IoT GPS Tracking – Tel Aviv, Israel (2020–2021)",
+        "Developed real-time GPS tracking system with Spring Boot & PostgreSQL.",
+        "Leveraged Kafka for real-time data streaming.",
+        "Secured system with JWT authentication & RBAC."
+      ]
+    },
+    {
+      "id": "proj_5",
+      "name": "Project",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Airtel Broadband – FireTV Data Quota Solution (2019–2020)",
+        "Designed a quota-based broadband plan system for FireTV users.",
+        "Built APIs for real-time quota management and plan approvals.",
+        "Improved customer satisfaction with scalable usage monitoring system."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "v5ec26e87062a092e",
+      "company": "Raj English School",
+      "title": "BTech -- AKTU",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    }
+  ],
+  "gaps": [
+    {
+      "id": "g26c6322a777fc930",
+      "start": "2024-01",
+      "end": "2024-11",
+      "months": 11,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    }
+  ],
+  "total_work_experience": 5,
+  "total_projects": 5,
+  "total_gaps": 1,
+  "raw_pipeline_dto": {
+    "doc_id": "abhaykumartiwari",
+    "filename": "abhaykumartiwari.docx",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "vdb5eb523a6f8f42a",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Earlier Roles",
+        "start": "2013-04",
+        "end": "2016-06",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Earlier Roles                                                                                                                        April 2013 – Jun 2016",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Earlier Roles                                                                                                                        April 2013 – Jun 2016",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 3232,
+              "end": 3386
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "April 2013 – Jun 2016",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 3365,
+              "end": 3386
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Earlier Roles",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 3232,
+              "end": 3245
+            }
+          ],
+          "title": [],
+          "section": "Professional Experience",
+          "date_label": "April 2013 – Jun 2016",
+          "is_present": false
+        },
+        "date_label": "April 2013 – Jun 2016",
+        "section": "Professional Experience",
+        "is_present": false
+      },
+      {
+        "id": "ve147af26707dd195",
+        "type": "EMPLOYMENT",
+        "title": "Senior Software Developer",
+        "org": "Spectrum Data System Services Pvt. Ltd",
+        "start": "2016-06",
+        "end": "2020-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Senior Software Developer\nSpectrum Data System Services Pvt. Ltd. – Noida, UP                                                         Jun 2016 – Sept 2020",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Software Developer",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 2864,
+              "end": 2889
+            },
+            {
+              "page": 1,
+              "text": "Spectrum Data System Services Pvt. Ltd. – Noida, UP                                                         Jun 2016 – Sept 2020",
+              "block_id": "b35",
+              "kind": "text",
+              "start": 2890,
+              "end": 3018
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jun 2016 – Sept 2020",
+              "block_id": "b35",
+              "kind": "text",
+              "start": 2998,
+              "end": 3018
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Spectrum Data System Services Pvt. Ltd",
+              "block_id": "b35",
+              "kind": "text",
+              "start": 2890,
+              "end": 2928
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Software Developer",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 2864,
+              "end": 2889
+            }
+          ],
+          "section": "Professional Experience",
+          "date_label": "Jun 2016 – Sept 2020",
+          "is_present": false
+        },
+        "date_label": "Jun 2016 – Sept 2020",
+        "section": "Professional Experience",
+        "is_present": false
+      },
+      {
+        "id": "vb1c7fcb93d3d5e41",
+        "type": "EMPLOYMENT",
+        "title": "Software Developer",
+        "org": "Jellyfish Technologies Pvt. Ltd",
+        "start": "2020-09",
+        "end": "2021-05",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Software Developer\nJellyfish Technologies Pvt. Ltd. – Noida, UP                                                                     Sept 2020 – May 2021",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Software Developer",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 2526,
+              "end": 2544
+            },
+            {
+              "page": 1,
+              "text": "Jellyfish Technologies Pvt. Ltd. – Noida, UP                                                                     Sept 2020 – May 2021",
+              "block_id": "b30",
+              "kind": "text",
+              "start": 2545,
+              "end": 2678
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Sept 2020 – May 2021",
+              "block_id": "b30",
+              "kind": "text",
+              "start": 2658,
+              "end": 2678
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Jellyfish Technologies Pvt. Ltd",
+              "block_id": "b30",
+              "kind": "text",
+              "start": 2545,
+              "end": 2576
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Software Developer",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 2526,
+              "end": 2544
+            }
+          ],
+          "section": "Professional Experience",
+          "date_label": "Sept 2020 – May 2021",
+          "is_present": false
+        },
+        "date_label": "Sept 2020 – May 2021",
+        "section": "Professional Experience",
+        "is_present": false
+      },
+      {
+        "id": "v149471beefc43af4",
+        "type": "EMPLOYMENT",
+        "title": "Senior Technical Lead",
+        "org": "HCL Technologies Ltd",
+        "start": "2021-06",
+        "end": "2023-12",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Senior Technical Lead\nHCL Technologies Ltd.  –  Noida, UP                                                                                    Jun 2021– Dec 2023",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Technical Lead",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 2009,
+              "end": 2030
+            },
+            {
+              "page": 1,
+              "text": "HCL Technologies Ltd.  –  Noida, UP                                                                                    Jun 2021– Dec 2023",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 2031,
+              "end": 2168
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jun 2021– Dec 2023",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 2150,
+              "end": 2168
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "HCL Technologies Ltd",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 2031,
+              "end": 2051
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Technical Lead",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 2009,
+              "end": 2030
+            }
+          ],
+          "section": "Professional Experience",
+          "date_label": "Jun 2021– Dec 2023",
+          "is_present": false
+        },
+        "date_label": "Jun 2021– Dec 2023",
+        "section": "Professional Experience",
+        "is_present": false
+      },
+      {
+        "id": "vb8a893a9504958a5",
+        "type": "EMPLOYMENT",
+        "title": "Technology Lead",
+        "org": "Infogain India Pvt. Ltd",
+        "start": "2024-12",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Technology Lead\nInfogain India Pvt. Ltd.  –  Noida, UP                                                                                        Dec 2024 – Now",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Technology Lead",
+              "block_id": "b17",
+              "kind": "text",
+              "start": 1500,
+              "end": 1515
+            },
+            {
+              "page": 1,
+              "text": "Infogain India Pvt. Ltd.  –  Noida, UP                                                                                        Dec 2024 – Now",
+              "block_id": "b18",
+              "kind": "text",
+              "start": 1517,
+              "end": 1657
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Dec 2024 – Now",
+              "block_id": "b18",
+              "kind": "text",
+              "start": 1643,
+              "end": 1657
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Infogain India Pvt. Ltd",
+              "block_id": "b18",
+              "kind": "text",
+              "start": 1517,
+              "end": 1540
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Technology Lead",
+              "block_id": "b17",
+              "kind": "text",
+              "start": 1500,
+              "end": 1515
+            }
+          ],
+          "section": "Professional Experience",
+          "date_label": "Dec 2024 – Now",
+          "is_present": true
+        },
+        "date_label": "Dec 2024 – Now",
+        "section": "Professional Experience",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v5ec26e87062a092e",
+        "type": "EDUCATION",
+        "title": "BTech -- AKTU",
+        "org": "Raj English School",
+        "entry_text": "BTech -- AKTU – [2013, 60.3%], RKGIT, Ghaziabad, UP XII – CBSE – [2007, 63%], Kendriya Vidyalaya, 39 GTC, Varanasi, UP X – CBSE – [2004, 72%], Raj English School, Varanasi, UP",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "BTech -- AKTU – [2013, 60.3%], RKGIT, Ghaziabad, UP",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 3588,
+              "end": 3639
+            },
+            {
+              "page": 1,
+              "text": "XII – CBSE – [2007, 63%], Kendriya Vidyalaya, 39 GTC, Varanasi, UP",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 3640,
+              "end": 3706
+            },
+            {
+              "page": 1,
+              "text": "X – CBSE – [2004, 72%], Raj English School, Varanasi, UP",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 3707,
+              "end": 3763
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2013",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 3605,
+              "end": 3609
+            },
+            {
+              "page": 1,
+              "text": "2007",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 3654,
+              "end": 3658
+            },
+            {
+              "page": 1,
+              "text": "2004",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 3719,
+              "end": 3723
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Raj English School",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 3731,
+              "end": 3749
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "BTech -- AKTU",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 3588,
+              "end": 3601
+            }
+          ],
+          "section": "Education",
+          "date_label": "2013 / 2007 / 2004",
+          "is_present": false
+        },
+        "date_label": "2013 / 2007 / 2004",
+        "section": "Education",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "Project",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Costco Wholesale – Performance Engineering & Cloud Migration (2024–2025)",
+          "Led cloud cost optimization, reducing expenses by 20%.",
+          "Migrated enterprise workloads from Azure to GCP ensuring stability & scalability.",
+          "Partnered with performance teams to fine-tune high-volume workloads."
+        ],
+        "raw_text": "Costco Wholesale – Performance Engineering & Cloud Migration (2024–2025)\nLed cloud cost optimization, reducing expenses by 20%.\nMigrated enterprise workloads from Azure to GCP ensuring stability & scalability.\nPartnered with performance teams to fine-tune high-volume workloads.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Costco Wholesale – Performance Engineering & Cloud Migration (2024–2025)",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 3778,
+              "end": 3850
+            },
+            {
+              "page": 1,
+              "text": "Led cloud cost optimization, reducing expenses by 20%.",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 3851,
+              "end": 3905
+            },
+            {
+              "page": 1,
+              "text": "Migrated enterprise workloads from Azure to GCP ensuring stability & scalability.",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 3906,
+              "end": 3987
+            },
+            {
+              "page": 1,
+              "text": "Partnered with performance teams to fine-tune high-volume workloads.",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 3988,
+              "end": 4056
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "Project",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Mastercard Credit Card Approval System – Mastercard R&D, Pune (2022–2023)",
+          "Architected microservices-based system handling 1M+ transactions/day.",
+          "Implemented Kafka messaging for asynchronous processing.",
+          "Secured financial APIs with Spring Security & OAuth2."
+        ],
+        "raw_text": "Mastercard Credit Card Approval System – Mastercard R&D, Pune (2022–2023)\nArchitected microservices-based system handling 1M+ transactions/day.\nImplemented Kafka messaging for asynchronous processing.\nSecured financial APIs with Spring Security & OAuth2.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Mastercard Credit Card Approval System – Mastercard R&D, Pune (2022–2023)",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 4057,
+              "end": 4130
+            },
+            {
+              "page": 1,
+              "text": "Architected microservices-based system handling 1M+ transactions/day.",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 4131,
+              "end": 4200
+            },
+            {
+              "page": 1,
+              "text": "Implemented Kafka messaging for asynchronous processing.",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 4201,
+              "end": 4257
+            },
+            {
+              "page": 1,
+              "text": "Secured financial APIs with Spring Security & OAuth2.",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 4258,
+              "end": 4311
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_3",
+        "name": "Project",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Manchester United Digital Portal – Manchester, UK (2021–2022)",
+          "Designed and developed CMS architecture with Spring Boot & Angular.",
+          "Integrated Elasticsearch for optimized content retrieval.",
+          "Deployed on AWS Cloud for scalability and availability."
+        ],
+        "raw_text": "Manchester United Digital Portal – Manchester, UK (2021–2022)\nDesigned and developed CMS architecture with Spring Boot & Angular.\nIntegrated Elasticsearch for optimized content retrieval.\nDeployed on AWS Cloud for scalability and availability.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Manchester United Digital Portal – Manchester, UK (2021–2022)",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 4312,
+              "end": 4373
+            },
+            {
+              "page": 1,
+              "text": "Designed and developed CMS architecture with Spring Boot & Angular.",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 4374,
+              "end": 4441
+            },
+            {
+              "page": 1,
+              "text": "Integrated Elasticsearch for optimized content retrieval.",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 4442,
+              "end": 4499
+            },
+            {
+              "page": 1,
+              "text": "Deployed on AWS Cloud for scalability and availability.",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 4500,
+              "end": 4555
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_4",
+        "name": "Project",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Trackimo IoT GPS Tracking – Tel Aviv, Israel (2020–2021)",
+          "Developed real-time GPS tracking system with Spring Boot & PostgreSQL.",
+          "Leveraged Kafka for real-time data streaming.",
+          "Secured system with JWT authentication & RBAC."
+        ],
+        "raw_text": "Trackimo IoT GPS Tracking – Tel Aviv, Israel (2020–2021)\nDeveloped real-time GPS tracking system with Spring Boot & PostgreSQL.\nLeveraged Kafka for real-time data streaming.\nSecured system with JWT authentication & RBAC.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Trackimo IoT GPS Tracking – Tel Aviv, Israel (2020–2021)",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 4556,
+              "end": 4612
+            },
+            {
+              "page": 1,
+              "text": "Developed real-time GPS tracking system with Spring Boot & PostgreSQL.",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 4613,
+              "end": 4683
+            },
+            {
+              "page": 1,
+              "text": "Leveraged Kafka for real-time data streaming.",
+              "block_id": "b60",
+              "kind": "text",
+              "start": 4684,
+              "end": 4729
+            },
+            {
+              "page": 1,
+              "text": "Secured system with JWT authentication & RBAC.",
+              "block_id": "b61",
+              "kind": "text",
+              "start": 4730,
+              "end": 4776
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_5",
+        "name": "Project",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Airtel Broadband – FireTV Data Quota Solution (2019–2020)",
+          "Designed a quota-based broadband plan system for FireTV users.",
+          "Built APIs for real-time quota management and plan approvals.",
+          "Improved customer satisfaction with scalable usage monitoring system."
+        ],
+        "raw_text": "Airtel Broadband – FireTV Data Quota Solution (2019–2020)\nDesigned a quota-based broadband plan system for FireTV users.\nBuilt APIs for real-time quota management and plan approvals.\nImproved customer satisfaction with scalable usage monitoring system.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Airtel Broadband – FireTV Data Quota Solution (2019–2020)",
+              "block_id": "b62",
+              "kind": "text",
+              "start": 4777,
+              "end": 4834
+            },
+            {
+              "page": 1,
+              "text": "Designed a quota-based broadband plan system for FireTV users.",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 4835,
+              "end": 4897
+            },
+            {
+              "page": 1,
+              "text": "Built APIs for real-time quota management and plan approvals.",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 4898,
+              "end": 4959
+            },
+            {
+              "page": 1,
+              "text": "Improved customer satisfaction with scalable usage monitoring system.",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 4960,
+              "end": 5029
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g26c6322a777fc930",
+        "start": [
+          2024,
+          1
+        ],
+        "end": [
+          2024,
+          11
+        ],
+        "months": 11,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "v149471beefc43af4",
+          "event_after": "vb8a893a9504958a5",
+          "coverage_scope": "employment"
+        },
+        "start_label": "2024-01",
+        "end_label": "2024-11",
+        "evidence_quotes": [
+          "Senior Technical Lead HCL Technologies Ltd.  –  Noida, UP                                                                                    Jun 2021– Dec 2023",
+          "Technology Lead Infogain India Pvt. Ltd.  –  Noida, UP                                                                                        Dec 2024 – Now"
+        ],
+        "evidence_details": [
+          {
+            "header": "Senior Technical Lead at HCL Technologies Ltd",
+            "quote": "Senior Technical Lead HCL Technologies Ltd.  –  Noida, UP                                                                                    Jun 2021– Dec 2023",
+            "event_id": "v149471beefc43af4",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Senior Technical Lead",
+                  "block_id": "b23",
+                  "kind": "text",
+                  "start": 2009,
+                  "end": 2030
+                },
+                {
+                  "page": 1,
+                  "text": "HCL Technologies Ltd.  –  Noida, UP                                                                                    Jun 2021– Dec 2023",
+                  "block_id": "b24",
+                  "kind": "text",
+                  "start": 2031,
+                  "end": 2168
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Jun 2021– Dec 2023",
+                  "block_id": "b24",
+                  "kind": "text",
+                  "start": 2150,
+                  "end": 2168
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "HCL Technologies Ltd",
+                  "block_id": "b24",
+                  "kind": "text",
+                  "start": 2031,
+                  "end": 2051
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Senior Technical Lead",
+                  "block_id": "b23",
+                  "kind": "text",
+                  "start": 2009,
+                  "end": 2030
+                }
+              ],
+              "section": "Professional Experience",
+              "date_label": "Jun 2021– Dec 2023",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Technology Lead at Infogain India Pvt. Ltd",
+            "quote": "Technology Lead Infogain India Pvt. Ltd.  –  Noida, UP                                                                                        Dec 2024 – Now",
+            "event_id": "vb8a893a9504958a5",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Technology Lead",
+                  "block_id": "b17",
+                  "kind": "text",
+                  "start": 1500,
+                  "end": 1515
+                },
+                {
+                  "page": 1,
+                  "text": "Infogain India Pvt. Ltd.  –  Noida, UP                                                                                        Dec 2024 – Now",
+                  "block_id": "b18",
+                  "kind": "text",
+                  "start": 1517,
+                  "end": 1657
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Dec 2024 – Now",
+                  "block_id": "b18",
+                  "kind": "text",
+                  "start": 1643,
+                  "end": 1657
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Infogain India Pvt. Ltd",
+                  "block_id": "b18",
+                  "kind": "text",
+                  "start": 1517,
+                  "end": 1540
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Technology Lead",
+                  "block_id": "b17",
+                  "kind": "text",
+                  "start": 1500,
+                  "end": 1515
+                }
+              ],
+              "section": "Professional Experience",
+              "date_label": "Dec 2024 – Now",
+              "is_present": true
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 5,
+      "total_events": 6,
+      "dated_share": 0.833,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 151,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

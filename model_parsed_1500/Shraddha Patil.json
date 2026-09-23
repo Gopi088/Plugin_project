@@ -1,0 +1,544 @@
+{
+  "file_name": "Shraddha Patil.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 2,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v8125ba41c58c644e",
+      "company": "",
+      "title": "Associate Software Engineer",
+      "start_date": "2022-11",
+      "end_date": "2024-07",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v819a54221d5fd89e",
+      "company": "",
+      "title": "Software Engineer",
+      "start_date": "2024-08",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "CSU-ENT-PowerAppsAutomation",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Microsoft PowerPlatform Fundamentals",
+        "PL-900",
+        "Design and develop custom solutions using Microsoft Power",
+        "Platform tools, including Power Apps & Power Automate, to address diverse business requirements and challenges.",
+        "Developed custom business apps including Canvas Apps,",
+        "SharePoint Form Apps to meet specific organizational",
+        "requirements.",
+        "Created custom connectors and solutions to extend and customize",
+        "Microsoft applications and services.",
+        "Collaborated with stakeholders and project team members to design and implement enterprise Microsoft Dynamics solutions,",
+        "ensuring high quality and reliability.",
+        "NorthMaharashtra University Jalgaon."
+      ]
+    },
+    {
+      "id": "proj_2",
+      "name": "HR & Admin Applications",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": []
+    },
+    {
+      "id": "proj_3",
+      "name": "Onboarding Automation",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Developed a fully automated onboarding solution where new employee",
+        "data entry in Power Apps triggered approval workflows in Power",
+        "Automate, automatically creating user accounts, assigning assets, and",
+        "updating HR databases.",
+        "Integrated Power BI for onboarding status tracking and SLA reporting.",
+        "Reduced onboarding completion time from 5 days to 2 days and",
+        "eliminated manual follow-ups."
+      ]
+    }
+  ],
+  "education": [],
+  "gaps": [],
+  "total_work_experience": 2,
+  "total_projects": 3,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "Shraddha Patil",
+    "filename": "Shraddha Patil.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v8125ba41c58c644e",
+        "type": "EMPLOYMENT",
+        "title": "Associate Software Engineer",
+        "org": "",
+        "start": "2022-11",
+        "end": "2024-07",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Associate Software Engineer\nNetlink Software November 2022-July 2024",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Associate Software Engineer",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 1719,
+              "end": 1746
+            },
+            {
+              "page": 1,
+              "text": "Netlink Software November 2022-July 2024",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 1749,
+              "end": 1789
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "November 2022-July 2024",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 1766,
+              "end": 1789
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Associate Software Engineer",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 1719,
+              "end": 1746
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "November 2022-July 2024",
+          "is_present": false
+        },
+        "date_label": "November 2022-July 2024",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v819a54221d5fd89e",
+        "type": "EMPLOYMENT",
+        "title": "Software Engineer",
+        "org": "",
+        "start": "2024-08",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Software Engineer",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Software Engineer",
+              "block_id": "b16",
+              "kind": "text",
+              "start": 651,
+              "end": 668
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "August 2024 -Present",
+              "block_id": "b19",
+              "kind": "text",
+              "start": 711,
+              "end": 731
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Software Engineer",
+              "block_id": "b16",
+              "kind": "text",
+              "start": 651,
+              "end": 668
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "August 2024 -Present",
+          "is_present": true
+        },
+        "date_label": "August 2024 -Present",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "CSU-ENT-PowerAppsAutomation",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Microsoft PowerPlatform Fundamentals",
+          "PL-900",
+          "Design and develop custom solutions using Microsoft Power",
+          "Platform tools, including Power Apps & Power Automate, to address diverse business requirements and challenges.",
+          "Developed custom business apps including Canvas Apps,",
+          "SharePoint Form Apps to meet specific organizational",
+          "requirements.",
+          "Created custom connectors and solutions to extend and customize",
+          "Microsoft applications and services.",
+          "Collaborated with stakeholders and project team members to design and implement enterprise Microsoft Dynamics solutions,",
+          "ensuring high quality and reliability.",
+          "NorthMaharashtra University Jalgaon."
+        ],
+        "raw_text": "Project Name CSU-ENT-PowerAppsAutomation",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project Name CSU-ENT-PowerAppsAutomation",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 991,
+              "end": 1031
+            },
+            {
+              "page": 1,
+              "text": "Microsoft PowerPlatform Fundamentals",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 1032,
+              "end": 1068
+            },
+            {
+              "page": 1,
+              "text": "PL-900",
+              "block_id": "b35",
+              "kind": "text",
+              "start": 1069,
+              "end": 1075
+            },
+            {
+              "page": 1,
+              "text": "Design and develop custom solutions using Microsoft Power",
+              "block_id": "b36",
+              "kind": "text",
+              "start": 1076,
+              "end": 1133
+            },
+            {
+              "page": 1,
+              "text": "Platform tools, including Power Apps & Power Automate, to",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 1134,
+              "end": 1191
+            },
+            {
+              "page": 1,
+              "text": "address diverse business requirements and challenges.",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 1192,
+              "end": 1245
+            },
+            {
+              "page": 1,
+              "text": "Developed custom business apps including Canvas Apps,",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 1247,
+              "end": 1300
+            },
+            {
+              "page": 1,
+              "text": "SharePoint Form Apps to meet specific organizational",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 1301,
+              "end": 1353
+            },
+            {
+              "page": 1,
+              "text": "requirements.",
+              "block_id": "b40",
+              "kind": "text",
+              "start": 1354,
+              "end": 1367
+            },
+            {
+              "page": 1,
+              "text": "Created custom connectors and solutions to extend and customize",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 1369,
+              "end": 1432
+            },
+            {
+              "page": 1,
+              "text": "Microsoft applications and services.",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 1433,
+              "end": 1469
+            },
+            {
+              "page": 1,
+              "text": "Collaborated with stakeholders and project team members to",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 1471,
+              "end": 1529
+            },
+            {
+              "page": 1,
+              "text": "design and implement enterprise Microsoft Dynamics solutions,",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 1530,
+              "end": 1591
+            },
+            {
+              "page": 1,
+              "text": "ensuring high quality and reliability.",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 1592,
+              "end": 1630
+            },
+            {
+              "page": 1,
+              "text": "NorthMaharashtra University Jalgaon.",
+              "block_id": "b45",
+              "kind": "text",
+              "start": 1633,
+              "end": 1669
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "HR & Admin Applications",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [],
+        "raw_text": "Project Name : HR & Admin Applications",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project Name : HR & Admin Applications",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 1680,
+              "end": 1718
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_3",
+        "name": "Onboarding Automation",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Developed a fully automated onboarding solution where new employee",
+          "data entry in Power Apps triggered approval workflows in Power",
+          "Automate, automatically creating user accounts, assigning assets, and",
+          "updating HR databases.",
+          "Integrated Power BI for onboarding status tracking and SLA reporting.",
+          "Reduced onboarding completion time from 5 days to 2 days and",
+          "eliminated manual follow-ups."
+        ],
+        "raw_text": "Project: Employee Onboarding Automation",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project: Employee Onboarding Automation",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 2567,
+              "end": 2606
+            },
+            {
+              "page": 1,
+              "text": "Developed a fully automated onboarding solution where new employee",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 2607,
+              "end": 2673
+            },
+            {
+              "page": 1,
+              "text": "data entry in Power Apps triggered approval workflows in Power",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 2674,
+              "end": 2736
+            },
+            {
+              "page": 1,
+              "text": "Automate, automatically creating user accounts, assigning assets, and",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 2737,
+              "end": 2806
+            },
+            {
+              "page": 1,
+              "text": "updating HR databases.",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 2807,
+              "end": 2829
+            },
+            {
+              "page": 1,
+              "text": "Integrated Power BI for onboarding status tracking and SLA reporting.",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 2830,
+              "end": 2899
+            },
+            {
+              "page": 1,
+              "text": "Reduced onboarding completion time from 5 days to 2 days and",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 2900,
+              "end": 2960
+            },
+            {
+              "page": 1,
+              "text": "eliminated manual follow-ups.",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 2961,
+              "end": 2990
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "NO_GAP_DETECTED",
+        "confidence": 0.9,
+        "reasons": [],
+        "evidence": {
+          "note": "no uncovered months between supported entries"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 2,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 47,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

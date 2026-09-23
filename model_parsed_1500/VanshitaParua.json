@@ -1,0 +1,706 @@
+{
+  "file_name": "VanshitaParua.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 6,
+    "total_events": 6,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "vb0527714b972b16b",
+      "company": "Stock Holding Corporation of India Limited",
+      "title": "Finance Intern",
+      "start_date": "2017-05",
+      "end_date": "2017-07",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vcaffeaf12be054d3",
+      "company": "Real Team Systems Pvt. Ltd",
+      "title": "Financial Analyst",
+      "start_date": "2018-08",
+      "end_date": "2021-11",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vb382568d2b02f081",
+      "company": "",
+      "title": "Senior Analyst",
+      "start_date": "2021-12",
+      "end_date": "2022-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vd31589ca9c7892b0",
+      "company": "",
+      "title": "Senior Business Analyst",
+      "start_date": "2023-01",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "v6b4046090010e7f8",
+      "company": "S.B.E.S. College Of Science - Aurangabad",
+      "title": "B.Sc: Mathematics",
+      "start_date": "2013-01",
+      "end_date": "2016-01",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v31c29d2437b4916a",
+      "company": "Sinhgad Institute of Business Administration & Computer Application (SIBACA) - Pune",
+      "title": "MBA: Finance",
+      "start_date": "2016-01",
+      "end_date": "2018-01",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "gaps": [
+    {
+      "id": "gc3928977e7ec0232",
+      "start": "2018-02",
+      "end": "2018-07",
+      "months": 6,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    }
+  ],
+  "total_work_experience": 4,
+  "total_projects": 0,
+  "total_gaps": 1,
+  "raw_pipeline_dto": {
+    "doc_id": "VanshitaParua",
+    "filename": "VanshitaParua.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v6b4046090010e7f8",
+        "type": "EDUCATION",
+        "title": "B.Sc: Mathematics",
+        "org": "S.B.E.S. College Of Science - Aurangabad",
+        "start": "2013-01",
+        "end": "2016-01",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "B.Sc: Mathematics, Computer Science, Electronics  01/2013 - 01/2016\nS.B.E.S. College Of Science - Aurangabad",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "B.Sc: Mathematics, Computer Science, Electronics  01/2013 - 01/2016",
+              "block_id": "b97",
+              "kind": "text",
+              "start": 6368,
+              "end": 6435
+            },
+            {
+              "page": 1,
+              "text": "S.B.E.S. College Of Science - Aurangabad",
+              "block_id": "b98",
+              "kind": "text",
+              "start": 6438,
+              "end": 6478
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "01/2013 - 01/2016",
+              "block_id": "b97",
+              "kind": "text",
+              "start": 6418,
+              "end": 6435
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "S.B.E.S. College Of Science - Aurangabad",
+              "block_id": "b98",
+              "kind": "text",
+              "start": 6438,
+              "end": 6478
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "B.Sc: Mathematics",
+              "block_id": "b97",
+              "kind": "text",
+              "start": 6368,
+              "end": 6385
+            }
+          ],
+          "section": "Education",
+          "date_label": "01/2013 - 01/2016",
+          "is_present": false
+        },
+        "date_label": "01/2013 - 01/2016",
+        "section": "Education",
+        "is_present": false
+      },
+      {
+        "id": "v31c29d2437b4916a",
+        "type": "EDUCATION",
+        "title": "MBA: Finance",
+        "org": "Sinhgad Institute of Business Administration & Computer Application (SIBACA) - Pune",
+        "start": "2016-01",
+        "end": "2018-01",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "MBA: Finance  01/2016 - 01/2018\nSinhgad Institute of Business Administration & Computer Application (SIBACA) - Pune",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "MBA: Finance  01/2016 - 01/2018",
+              "block_id": "b95",
+              "kind": "text",
+              "start": 6249,
+              "end": 6280
+            },
+            {
+              "page": 1,
+              "text": "Sinhgad Institute of Business Administration & Computer Application (SIBACA) - Pune",
+              "block_id": "b96",
+              "kind": "text",
+              "start": 6283,
+              "end": 6366
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "01/2016 - 01/2018",
+              "block_id": "b95",
+              "kind": "text",
+              "start": 6263,
+              "end": 6280
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Sinhgad Institute of Business Administration & Computer Application (SIBACA) - Pune",
+              "block_id": "b96",
+              "kind": "text",
+              "start": 6283,
+              "end": 6366
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "MBA: Finance",
+              "block_id": "b95",
+              "kind": "text",
+              "start": 6249,
+              "end": 6261
+            }
+          ],
+          "section": "Education",
+          "date_label": "01/2016 - 01/2018",
+          "is_present": false
+        },
+        "date_label": "01/2016 - 01/2018",
+        "section": "Education",
+        "is_present": false
+      },
+      {
+        "id": "vb0527714b972b16b",
+        "type": "INTERNSHIP",
+        "title": "Finance Intern",
+        "org": "Stock Holding Corporation of India Limited",
+        "start": "2017-05",
+        "end": "2017-07",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_INTERNSHIP_CUES"
+        ],
+        "quote": "Finance Intern   05/2017 - 07/2017\nStock Holding Corporation of India Limited – Aurangabad, India",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Finance Intern   05/2017 - 07/2017",
+              "block_id": "b85",
+              "kind": "text",
+              "start": 5558,
+              "end": 5592
+            },
+            {
+              "page": 1,
+              "text": "Stock Holding Corporation of India Limited – Aurangabad, India",
+              "block_id": "b86",
+              "kind": "text",
+              "start": 5595,
+              "end": 5657
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "05/2017 - 07/2017",
+              "block_id": "b85",
+              "kind": "text",
+              "start": 5575,
+              "end": 5592
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Stock Holding Corporation of India Limited",
+              "block_id": "b86",
+              "kind": "text",
+              "start": 5595,
+              "end": 5637
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Finance Intern",
+              "block_id": "b85",
+              "kind": "text",
+              "start": 5558,
+              "end": 5572
+            }
+          ],
+          "section": "Professional Experience",
+          "date_label": "05/2017 - 07/2017",
+          "is_present": false
+        },
+        "date_label": "05/2017 - 07/2017",
+        "section": "Professional Experience",
+        "is_present": false
+      },
+      {
+        "id": "vcaffeaf12be054d3",
+        "type": "EMPLOYMENT",
+        "title": "Financial Analyst",
+        "org": "Real Team Systems Pvt. Ltd",
+        "start": "2018-08",
+        "end": "2021-11",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Financial Analyst   08/2018 - 11/2021\nReal Team Systems Pvt. Ltd – Aurangabad, India",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Financial Analyst   08/2018 - 11/2021",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 4788,
+              "end": 4825
+            },
+            {
+              "page": 1,
+              "text": "Real Team Systems Pvt. Ltd – Aurangabad, India",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 4828,
+              "end": 4874
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "08/2018 - 11/2021",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 4808,
+              "end": 4825
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Real Team Systems Pvt. Ltd",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 4828,
+              "end": 4854
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Financial Analyst",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 4788,
+              "end": 4805
+            }
+          ],
+          "section": "Professional Experience",
+          "date_label": "08/2018 - 11/2021",
+          "is_present": false
+        },
+        "date_label": "08/2018 - 11/2021",
+        "section": "Professional Experience",
+        "is_present": false
+      },
+      {
+        "id": "vb382568d2b02f081",
+        "type": "EMPLOYMENT",
+        "title": "Senior Analyst",
+        "org": "",
+        "start": "2021-12",
+        "end": "2022-12",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Senior Analyst   12/2021 - 12/2022",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Analyst   12/2021 - 12/2022",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 3738,
+              "end": 3772
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "12/2021 - 12/2022",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 3755,
+              "end": 3772
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Analyst",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 3738,
+              "end": 3752
+            }
+          ],
+          "section": "Professional Experience",
+          "date_label": "12/2021 - 12/2022",
+          "is_present": false
+        },
+        "date_label": "12/2021 - 12/2022",
+        "section": "Professional Experience",
+        "is_present": false
+      },
+      {
+        "id": "vd31589ca9c7892b0",
+        "type": "EMPLOYMENT",
+        "title": "Senior Business Analyst",
+        "org": "",
+        "start": "2023-01",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Senior Business Analyst   01/2023 - Current",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Business Analyst   01/2023 - Current",
+              "block_id": "b28",
+              "kind": "text",
+              "start": 1590,
+              "end": 1633
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "01/2023 - Current",
+              "block_id": "b28",
+              "kind": "text",
+              "start": 1616,
+              "end": 1633
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Business Analyst",
+              "block_id": "b28",
+              "kind": "text",
+              "start": 1590,
+              "end": 1613
+            }
+          ],
+          "section": "Professional Experience",
+          "date_label": "01/2023 - Current",
+          "is_present": true
+        },
+        "date_label": "01/2023 - Current",
+        "section": "Professional Experience",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "gc3928977e7ec0232",
+        "start": [
+          2018,
+          2
+        ],
+        "end": [
+          2018,
+          7
+        ],
+        "months": 6,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "v31c29d2437b4916a",
+          "event_after": "vcaffeaf12be054d3",
+          "coverage_scope": "all_dated_activity"
+        },
+        "start_label": "2018-02",
+        "end_label": "2018-07",
+        "evidence_quotes": [
+          "MBA: Finance  01/2016 - 01/2018 Sinhgad Institute of Business Administration & Computer Application (SIBACA) - Pune",
+          "Financial Analyst   08/2018 - 11/2021 Real Team Systems Pvt. Ltd – Aurangabad, India"
+        ],
+        "evidence_details": [
+          {
+            "header": "MBA: Finance at Sinhgad Institute of Business Administration & Computer Application (SIBACA) - Pune",
+            "quote": "MBA: Finance  01/2016 - 01/2018 Sinhgad Institute of Business Administration & Computer Application (SIBACA) - Pune",
+            "event_id": "v31c29d2437b4916a",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "MBA: Finance  01/2016 - 01/2018",
+                  "block_id": "b95",
+                  "kind": "text",
+                  "start": 6249,
+                  "end": 6280
+                },
+                {
+                  "page": 1,
+                  "text": "Sinhgad Institute of Business Administration & Computer Application (SIBACA) - Pune",
+                  "block_id": "b96",
+                  "kind": "text",
+                  "start": 6283,
+                  "end": 6366
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "01/2016 - 01/2018",
+                  "block_id": "b95",
+                  "kind": "text",
+                  "start": 6263,
+                  "end": 6280
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Sinhgad Institute of Business Administration & Computer Application (SIBACA) - Pune",
+                  "block_id": "b96",
+                  "kind": "text",
+                  "start": 6283,
+                  "end": 6366
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "MBA: Finance",
+                  "block_id": "b95",
+                  "kind": "text",
+                  "start": 6249,
+                  "end": 6261
+                }
+              ],
+              "section": "Education",
+              "date_label": "01/2016 - 01/2018",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Financial Analyst at Real Team Systems Pvt. Ltd",
+            "quote": "Financial Analyst   08/2018 - 11/2021 Real Team Systems Pvt. Ltd – Aurangabad, India",
+            "event_id": "vcaffeaf12be054d3",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Financial Analyst   08/2018 - 11/2021",
+                  "block_id": "b72",
+                  "kind": "text",
+                  "start": 4788,
+                  "end": 4825
+                },
+                {
+                  "page": 1,
+                  "text": "Real Team Systems Pvt. Ltd – Aurangabad, India",
+                  "block_id": "b73",
+                  "kind": "text",
+                  "start": 4828,
+                  "end": 4874
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "08/2018 - 11/2021",
+                  "block_id": "b72",
+                  "kind": "text",
+                  "start": 4808,
+                  "end": 4825
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Real Team Systems Pvt. Ltd",
+                  "block_id": "b73",
+                  "kind": "text",
+                  "start": 4828,
+                  "end": 4854
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Financial Analyst",
+                  "block_id": "b72",
+                  "kind": "text",
+                  "start": 4788,
+                  "end": 4805
+                }
+              ],
+              "section": "Professional Experience",
+              "date_label": "08/2018 - 11/2021",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 6,
+      "total_events": 6,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 159,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

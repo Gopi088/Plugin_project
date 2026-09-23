@@ -1,0 +1,547 @@
+{
+  "file_name": "Madhubala Medapati.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 2,
+    "dated_share": 0.5,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v788992131fd4f398",
+      "company": "",
+      "title": "Senior Analyst",
+      "start_date": "2021-10",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "Project",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Senior ServiceNow Developer | Baker Hughes (Jan 2022– Present)",
+        "•Served as ServiceNow Developer and Administrator, leadingITSM and ITAMinitiatives to deliver enterprise-grade so- lutions across a large-scale energy sector client.",
+        "•LedITSM modulerequirements and issue resolution, ensuring timely delivery and effective client support across Inci- dent, Change, and Request processes.",
+        "•ImplementedIncident Management, Problem Management, and Service Request Managementprocesses, streamlin- ing workflows and reducing resolution times.",
+        "•DevelopedUI Policies, UI Actions, and Script Includesto enhance system functionality and user experience.",
+        "•Builtworkflows, business rules, client scripts, ACLs, and REST/SOAP integrationsto automate processes and improve",
+        "operational efficiency.",
+        "1"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "v634d3a71209bb286",
+      "company": "Vishnu Institute of Technology",
+      "title": "Bachelor of Technology (B.Tech)",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 1,
+  "total_projects": 1,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "Madhubala Medapati",
+    "filename": "Madhubala Medapati.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v788992131fd4f398",
+        "type": "EMPLOYMENT",
+        "title": "Senior Analyst",
+        "org": "",
+        "start": "2021-10",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Senior Analyst | Capgemini (Oct 2021–Present)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Analyst | Capgemini (Oct 2021–Present)",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 1582,
+              "end": 1627
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Oct 2021–Present",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 1610,
+              "end": 1626
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Analyst",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 1582,
+              "end": 1596
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Oct 2021–Present",
+          "is_present": true
+        },
+        "date_label": "Oct 2021–Present",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v634d3a71209bb286",
+        "type": "EDUCATION",
+        "title": "Bachelor of Technology (B.Tech)",
+        "org": "Vishnu Institute of Technology",
+        "entry_text": "Bachelor of Technology (B.Tech), Vishnu Institute of Technology, Bhimavaram, 2021",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor of Technology (B.Tech), Vishnu Institute of Technology, Bhimavaram, 2021",
+              "block_id": "b75",
+              "kind": "text",
+              "start": 5571,
+              "end": 5652
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2021",
+              "block_id": "b75",
+              "kind": "text",
+              "start": 5648,
+              "end": 5652
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Vishnu Institute of Technology",
+              "block_id": "b75",
+              "kind": "text",
+              "start": 5604,
+              "end": 5634
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Technology (B.Tech",
+              "block_id": "b75",
+              "kind": "text",
+              "start": 5571,
+              "end": 5601
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2021",
+          "is_present": false
+        },
+        "date_label": "2021",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "Project",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Senior ServiceNow Developer | Baker Hughes (Jan 2022– Present)",
+          "•Served as ServiceNow Developer and Administrator, leadingITSM and ITAMinitiatives to deliver enterprise-grade so- lutions across a large-scale energy sector client.",
+          "•LedITSM modulerequirements and issue resolution, ensuring timely delivery and effective client support across Inci- dent, Change, and Request processes.",
+          "•ImplementedIncident Management, Problem Management, and Service Request Managementprocesses, streamlin- ing workflows and reducing resolution times.",
+          "•DevelopedUI Policies, UI Actions, and Script Includesto enhance system functionality and user experience.",
+          "•Builtworkflows, business rules, client scripts, ACLs, and REST/SOAP integrationsto automate processes and improve",
+          "operational efficiency.",
+          "1"
+        ],
+        "raw_text": "Senior ServiceNow Developer | Baker Hughes (Jan 2022– Present)\n•Served as ServiceNow Developer and Administrator, leadingITSM and ITAMinitiatives to deliver enterprise-grade so- lutions across a large-scale energy sector client.\n•LedITSM modulerequirements and issue resolution, ensuring timely delivery and effective client support across Inci- dent, Change, and Request processes.\n•ImplementedIncident Management, Problem Management, and Service Request Managementprocesses, streamlin- ing workflows and reducing resolution times.\n•DevelopedUI Policies, UI Actions, and Script Includesto enhance sy",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior ServiceNow Developer | Baker Hughes (Jan 2022– Present)",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 2920,
+              "end": 2982
+            },
+            {
+              "page": 1,
+              "text": "•Served as ServiceNow Developer and Administrator, leadingITSM and ITAMinitiatives to deliver enterprise-grade so-",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 2983,
+              "end": 3097
+            },
+            {
+              "page": 1,
+              "text": "lutions across a large-scale energy sector client.",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 3098,
+              "end": 3148
+            },
+            {
+              "page": 1,
+              "text": "•LedITSM modulerequirements and issue resolution, ensuring timely delivery and effective client support across Inci-",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 3149,
+              "end": 3265
+            },
+            {
+              "page": 1,
+              "text": "dent, Change, and Request processes.",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 3266,
+              "end": 3302
+            },
+            {
+              "page": 1,
+              "text": "•ImplementedIncident Management, Problem Management, and Service Request Managementprocesses, streamlin-",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 3303,
+              "end": 3407
+            },
+            {
+              "page": 1,
+              "text": "ing workflows and reducing resolution times.",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 3408,
+              "end": 3452
+            },
+            {
+              "page": 1,
+              "text": "•DevelopedUI Policies, UI Actions, and Script Includesto enhance system functionality and user experience.",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 3453,
+              "end": 3559
+            },
+            {
+              "page": 1,
+              "text": "•Builtworkflows, business rules, client scripts, ACLs, and REST/SOAP integrationsto automate processes and improve",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 3560,
+              "end": 3674
+            },
+            {
+              "page": 1,
+              "text": "operational efficiency.",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 3675,
+              "end": 3698
+            },
+            {
+              "page": 1,
+              "text": "1",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 3699,
+              "end": 3700
+            },
+            {
+              "page": 1,
+              "text": "•UtilizedGlideRecord and GlideSystem APIsfor complex server-side scripting, improving data retrieval performance and",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 3701,
+              "end": 3817
+            },
+            {
+              "page": 1,
+              "text": "application reliability.",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 3818,
+              "end": 3842
+            },
+            {
+              "page": 1,
+              "text": "•MaintainedCMDBaccuracy through regular audits and data reconciliation using Discovery and Import Sets.",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 3843,
+              "end": 3946
+            },
+            {
+              "page": 1,
+              "text": "•Configured and maintained MID Server to facilitate secure communication between the ServiceNow instance and en-",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 3947,
+              "end": 4059
+            },
+            {
+              "page": 1,
+              "text": "terprise network, supporting integrations and data collection activities.",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 4060,
+              "end": 4133
+            },
+            {
+              "page": 1,
+              "text": "•Migrated legacy homepages intoPerformance Analytics dashboards, improving usability and reporting accuracy for",
+              "block_id": "b60",
+              "kind": "text",
+              "start": 4134,
+              "end": 4245
+            },
+            {
+              "page": 1,
+              "text": "stakeholders.",
+              "block_id": "b61",
+              "kind": "text",
+              "start": 4246,
+              "end": 4259
+            },
+            {
+              "page": 1,
+              "text": "•Managed end-to-endUpdate Setcreation, testing, and production deployments, ensuring smooth rollouts with minimal",
+              "block_id": "b62",
+              "kind": "text",
+              "start": 4260,
+              "end": 4373
+            },
+            {
+              "page": 1,
+              "text": "disruption to services.",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 4374,
+              "end": 4397
+            },
+            {
+              "page": 1,
+              "text": "•Delivered integrations and data migrations, reducing manual effort and improving data accuracy across enterprise sys-",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 4398,
+              "end": 4516
+            },
+            {
+              "page": 1,
+              "text": "tems.",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 4517,
+              "end": 4522
+            },
+            {
+              "page": 1,
+              "text": "•BuiltService Catalogitems and automated flows withFlow Designer and Workflows, aligning with client requirements.",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 4523,
+              "end": 4637
+            },
+            {
+              "page": 1,
+              "text": "•Automated reporting throughExport Sets, improving visibility and reducing manual reporting tasks by significant margin.",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 4638,
+              "end": 4758
+            },
+            {
+              "page": 1,
+              "text": "•Developed and optimized server-side and client-side scripts to meet evolving business needs usingGlideRecord, Busi-",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 4759,
+              "end": 4875
+            },
+            {
+              "page": 1,
+              "text": "ness Rules, and Fix Scripts.",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 4876,
+              "end": 4904
+            },
+            {
+              "page": 1,
+              "text": "•Managed ServiceNow Administrationtasks including account creation, roles, groups, and access control.",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 4905,
+              "end": 5007
+            },
+            {
+              "page": 1,
+              "text": "•Imported data from Excel into ServiceNow usingData Sources and Transform Mapswith high accuracy.",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 5008,
+              "end": 5105
+            },
+            {
+              "page": 1,
+              "text": "•FollowedAgile/Scrummethodology, participating in sprint planning, daily standups, and retrospectives with client stake-",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 5106,
+              "end": 5226
+            },
+            {
+              "page": 1,
+              "text": "holders.",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 5227,
+              "end": 5235
+            },
+            {
+              "page": 1,
+              "text": "•Automated daily data uploads viaworkflows and business rules, eliminating manual intervention.",
+              "block_id": "b71",
+              "kind": "text",
+              "start": 5236,
+              "end": 5331
+            },
+            {
+              "page": 1,
+              "text": "•DevelopedFix Scripts and Script Includesto handle complex backend logic and support evolving business requirements.",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 5332,
+              "end": 5448
+            },
+            {
+              "page": 1,
+              "text": "•Configuredemail notifications, templates, and inbound actionsto improve communication efficiency across teams.",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 5449,
+              "end": 5560
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 2,
+      "dated_share": 0.5,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 60,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

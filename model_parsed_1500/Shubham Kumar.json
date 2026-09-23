@@ -1,0 +1,481 @@
+{
+  "file_name": "Shubham Kumar.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 4,
+    "total_events": 5,
+    "dated_share": 0.8,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.88
+  },
+  "work_experience": [
+    {
+      "id": "vdcefd151c991ef8e",
+      "company": "",
+      "title": "Senior Software Engineer Noida",
+      "start_date": "2018-10",
+      "end_date": "2021-08",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v5b9121c6c7768f94",
+      "company": "",
+      "title": "Software Development Engineer Noida",
+      "start_date": "2021-08",
+      "end_date": "2023-08",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v0ec453856b0b4b12",
+      "company": "Genpact",
+      "title": "",
+      "start_date": "2023-08",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vef40fe5979a6fb17",
+      "company": "",
+      "title": "Associate Professional Product Developer Indore",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "v733c0ab9513f12d9",
+      "company": "Nitte Meenakshi institute of technology",
+      "title": "Bachelor of Engineering ( 73.3%) Bengaluru",
+      "start_date": "2014-08",
+      "end_date": "2018-05",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 4,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "Shubham Kumar",
+    "filename": "Shubham Kumar.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v733c0ab9513f12d9",
+        "type": "EDUCATION",
+        "title": "Bachelor of Engineering ( 73.3%) Bengaluru",
+        "org": "Nitte Meenakshi institute of technology",
+        "start": "2014-08",
+        "end": "2018-05",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "Nitte Meenakshi institute of technology Aug 2014 – May 2018\nBachelor of Engineering ( 73.3%) Bengaluru, India\nKendriya Vidyalaya 2014",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Nitte Meenakshi institute of technology Aug 2014 – May 2018",
+              "block_id": "b9",
+              "kind": "text",
+              "start": 500,
+              "end": 559
+            },
+            {
+              "page": 1,
+              "text": "Bachelor of Engineering ( 73.3%) Bengaluru, India",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 561,
+              "end": 610
+            },
+            {
+              "page": 1,
+              "text": "Kendriya Vidyalaya 2014",
+              "block_id": "b11",
+              "kind": "text",
+              "start": 612,
+              "end": 635
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Aug 2014 – May 2018",
+              "block_id": "b9",
+              "kind": "text",
+              "start": 540,
+              "end": 559
+            },
+            {
+              "page": 1,
+              "text": "2014",
+              "block_id": "b11",
+              "kind": "text",
+              "start": 631,
+              "end": 635
+            },
+            {
+              "page": 1,
+              "text": "2012",
+              "block_id": "b13",
+              "kind": "text",
+              "start": 690,
+              "end": 694
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Nitte Meenakshi institute of technology",
+              "block_id": "b9",
+              "kind": "text",
+              "start": 500,
+              "end": 539
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Engineering ( 73.3%) Bengaluru",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 561,
+              "end": 603
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "Aug 2014 – May 2018",
+          "is_present": false
+        },
+        "date_label": "Aug 2014 – May 2018",
+        "section": "EDUCATION",
+        "is_present": false
+      },
+      {
+        "id": "vdcefd151c991ef8e",
+        "type": "EMPLOYMENT",
+        "title": "Senior Software Engineer Noida",
+        "org": "",
+        "start": "2018-10",
+        "end": "2021-08",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Senior Software Engineer Noida, India",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Software Engineer Noida, India",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 1677,
+              "end": 1714
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "October 2018 - August 2021",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 2436,
+              "end": 2462
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Software Engineer Noida",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 1677,
+              "end": 1707
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "October 2018 - August 2021",
+          "is_present": false
+        },
+        "date_label": "October 2018 - August 2021",
+        "section": "EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v5b9121c6c7768f94",
+        "type": "EMPLOYMENT",
+        "title": "Software Development Engineer Noida",
+        "org": "",
+        "start": "2021-08",
+        "end": "2023-08",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Software Development Engineer Noida, India",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Software Development Engineer Noida, India",
+              "block_id": "b17",
+              "kind": "text",
+              "start": 772,
+              "end": 814
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "August 2021 - August 2023",
+              "block_id": "b28",
+              "kind": "text",
+              "start": 1650,
+              "end": 1675
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Software Development Engineer Noida",
+              "block_id": "b17",
+              "kind": "text",
+              "start": 772,
+              "end": 807
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "August 2021 - August 2023",
+          "is_present": false
+        },
+        "date_label": "August 2021 - August 2023",
+        "section": "EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v0ec453856b0b4b12",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Genpact",
+        "start": "2023-08",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Genpact Aug 2023 - Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Genpact Aug 2023 - Present",
+              "block_id": "b16",
+              "kind": "text",
+              "start": 744,
+              "end": 770
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Aug 2023 - Present",
+              "block_id": "b16",
+              "kind": "text",
+              "start": 752,
+              "end": 770
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Genpact",
+              "block_id": "b16",
+              "kind": "text",
+              "start": 744,
+              "end": 751
+            }
+          ],
+          "title": [],
+          "section": "EXPERIENCE",
+          "date_label": "Aug 2023 - Present",
+          "is_present": true
+        },
+        "date_label": "Aug 2023 - Present",
+        "section": "EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "vef40fe5979a6fb17",
+        "type": "EMPLOYMENT",
+        "title": "Associate Professional Product Developer Indore",
+        "org": "",
+        "entry_text": "Associate Professional Product Developer Indore, India • Managed end-to-end project execution, ensuring compliance with cost, resource, time, and quality metrics; delivered 100% on-time project milestones. • Communicated regularly with clients and stakeholders, providing progress updates and resolvi",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Associate Professional Product Developer Indore, India",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 2464,
+              "end": 2518
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2020",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 3488,
+              "end": 3492
+            },
+            {
+              "page": 1,
+              "text": "2021",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 3495,
+              "end": 3499
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Associate Professional Product Developer Indore",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 2464,
+              "end": 2511
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "EXPERIENCE",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "vef40fe5979a6fb17"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 4,
+      "total_events": 5,
+      "dated_share": 0.8,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.88
+    },
+    "total_represented_months": 142,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

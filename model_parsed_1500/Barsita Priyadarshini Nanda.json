@@ -1,0 +1,410 @@
+{
+  "file_name": "Barsita Priyadarshini Nanda.pdf",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 3,
+    "total_events": 4,
+    "dated_share": 0.75,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v4020c922efd759b2",
+      "company": "Carelon Global Solutions",
+      "title": "Junior Workday Consultant",
+      "start_date": "2021-11",
+      "end_date": "2024-03",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v8aefb7c2548dbcfb",
+      "company": "",
+      "title": "Specialist",
+      "start_date": "2024-03",
+      "end_date": "2025-01",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v66b628c048c28b4c",
+      "company": "",
+      "title": "Workday Consultant",
+      "start_date": "2025-01",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "v7c1c14c49ff3793d",
+      "company": "Biju Patnaik University of Technology",
+      "title": "Bachelor Of Technology (B.Tech/B.E) Computer Science",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null
+    }
+  ],
+  "gaps": [],
+  "total_work_experience": 3,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "Barsita Priyadarshini Nanda",
+    "filename": "Barsita Priyadarshini Nanda.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "v4020c922efd759b2",
+        "type": "EMPLOYMENT",
+        "title": "Junior Workday Consultant",
+        "org": "Carelon Global Solutions",
+        "start": "2021-11",
+        "end": "2024-03",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Junior Workday Consultant | Carelon Global Solutions                                                                                                              Nov 2021- Mar 2024",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Junior Workday Consultant | Carelon Global Solutions                                                                                                              Nov 2021- Mar 2024",
+              "block_id": "b15",
+              "kind": "text",
+              "start": 1398,
+              "end": 1578
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Nov 2021- Mar 2024",
+              "block_id": "b15",
+              "kind": "text",
+              "start": 1560,
+              "end": 1578
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Carelon Global Solutions",
+              "block_id": "b15",
+              "kind": "text",
+              "start": 1426,
+              "end": 1450
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Junior Workday Consultant",
+              "block_id": "b15",
+              "kind": "text",
+              "start": 1398,
+              "end": 1423
+            }
+          ],
+          "section": "Experience",
+          "date_label": "Nov 2021- Mar 2024",
+          "is_present": false
+        },
+        "date_label": "Nov 2021- Mar 2024",
+        "section": "Experience",
+        "is_present": false
+      },
+      {
+        "id": "v8aefb7c2548dbcfb",
+        "type": "EMPLOYMENT",
+        "title": "Specialist",
+        "org": "",
+        "start": "2024-03",
+        "end": "2025-01",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Specialist - Workday Integration and monitoring | SGB Brandsafway                                                                                     Mar 2024- Jan 2025",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Specialist - Workday Integration and monitoring | SGB Brandsafway                                                                                     Mar 2024- Jan 2025",
+              "block_id": "b25",
+              "kind": "text",
+              "start": 2460,
+              "end": 2628
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Mar 2024- Jan 2025",
+              "block_id": "b25",
+              "kind": "text",
+              "start": 2610,
+              "end": 2628
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Specialist",
+              "block_id": "b25",
+              "kind": "text",
+              "start": 2460,
+              "end": 2470
+            }
+          ],
+          "section": "Experience",
+          "date_label": "Mar 2024- Jan 2025",
+          "is_present": false
+        },
+        "date_label": "Mar 2024- Jan 2025",
+        "section": "Experience",
+        "is_present": false
+      },
+      {
+        "id": "v66b628c048c28b4c",
+        "type": "EMPLOYMENT",
+        "title": "Workday Consultant",
+        "org": "",
+        "start": "2025-01",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Workday Consultant | Deloitte                                                                                                                                                            Jan 2025 - Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Workday Consultant | Deloitte                                                                                                                                                            Jan 2025 - Present",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 3181,
+              "end": 3384
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jan 2025 - Present",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 3366,
+              "end": 3384
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Workday Consultant",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 3181,
+              "end": 3199
+            }
+          ],
+          "section": "Experience",
+          "date_label": "Jan 2025 - Present",
+          "is_present": true
+        },
+        "date_label": "Jan 2025 - Present",
+        "section": "Experience",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v7c1c14c49ff3793d",
+        "type": "EDUCATION",
+        "title": "Bachelor Of Technology (B.Tech/B.E) Computer Science",
+        "org": "Biju Patnaik University of Technology",
+        "entry_text": "Biju Patnaik University of Technology, Odisha                                                                                                                                                                                        2021 Bachelor Of Technology (B.Tech/B.E) Computer Science Council of Hi",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Biju Patnaik University of Technology, Odisha                                                                                                                                                                                        2021",
+              "block_id": "b8",
+              "kind": "text",
+              "start": 551,
+              "end": 784
+            },
+            {
+              "page": 1,
+              "text": "Bachelor Of Technology (B.Tech/B.E) Computer Science",
+              "block_id": "b9",
+              "kind": "text",
+              "start": 786,
+              "end": 838
+            },
+            {
+              "page": 1,
+              "text": "Council of Higher Secondary Education                                                                                                                                                                                                     2017",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 840,
+              "end": 1078
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2021",
+              "block_id": "b8",
+              "kind": "text",
+              "start": 780,
+              "end": 784
+            },
+            {
+              "page": 1,
+              "text": "2017",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 1074,
+              "end": 1078
+            },
+            {
+              "page": 1,
+              "text": "2015",
+              "block_id": "b12",
+              "kind": "text",
+              "start": 1347,
+              "end": 1351
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Biju Patnaik University of Technology",
+              "block_id": "b8",
+              "kind": "text",
+              "start": 551,
+              "end": 588
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor Of Technology (B.Tech/B.E) Computer Science",
+              "block_id": "b9",
+              "kind": "text",
+              "start": 786,
+              "end": 838
+            }
+          ],
+          "section": "Education",
+          "date_label": "2021 / 2017",
+          "is_present": false
+        },
+        "date_label": "2021 / 2017",
+        "section": "Education",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "NO_GAP_DETECTED",
+        "confidence": 0.9,
+        "reasons": [],
+        "evidence": {
+          "note": "no uncovered months between supported entries"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 3,
+      "total_events": 4,
+      "dated_share": 0.75,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 59,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

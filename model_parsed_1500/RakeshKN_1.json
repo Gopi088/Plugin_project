@@ -1,0 +1,337 @@
+{
+  "file_name": "RakeshKN_1.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 1,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.765,
+    "document_accuracy": 0.77
+  },
+  "work_experience": [
+    {
+      "id": "va8beb84225b8218f",
+      "company": "",
+      "title": "Project Management and Coordination",
+      "start_date": "2018-01",
+      "end_date": "2022-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "Project Management and Coordination",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Problem Solving, Time Management Skills",
+        "Collaboration / Teamwork Skills",
+        "Accountability, Leadership, Work ethic",
+        "• Bachelor of Engineering (BE) - Computer",
+        "Science and Engineering | C.Byregowda institute",
+        "of technology, Kolar, Karnadaka | 2018 - 2022",
+        "Date of Birth: 16th July 2000",
+        "Languages Known: English, Kannada, Hindi &"
+      ]
+    },
+    {
+      "id": "proj_2",
+      "name": "Project",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Dec 2022 - Present"
+      ]
+    }
+  ],
+  "education": [],
+  "gaps": [],
+  "total_work_experience": 1,
+  "total_projects": 2,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "RakeshKN_1",
+    "filename": "RakeshKN_1.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "va8beb84225b8218f",
+        "type": "PROJECT",
+        "title": "Project Management and Coordination",
+        "org": "",
+        "start": "2018-01",
+        "end": "2022-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_PROJECT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Project Management and Coordination",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project Management and Coordination",
+              "block_id": "b81",
+              "kind": "text",
+              "start": 4060,
+              "end": 4095
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2018 - 2022",
+              "block_id": "b87",
+              "kind": "text",
+              "start": 4333,
+              "end": 4344
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Project Management and Coordination",
+              "block_id": "b81",
+              "kind": "text",
+              "start": 4060,
+              "end": 4095
+            }
+          ],
+          "section": "Projects",
+          "date_label": "2018 - 2022",
+          "is_present": false
+        },
+        "date_label": "2018 - 2022",
+        "section": "Projects",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "Project Management and Coordination",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Problem Solving, Time Management Skills",
+          "Collaboration / Teamwork Skills",
+          "Accountability, Leadership, Work ethic",
+          "• Bachelor of Engineering (BE) - Computer",
+          "Science and Engineering | C.Byregowda institute",
+          "of technology, Kolar, Karnadaka | 2018 - 2022",
+          "Date of Birth: 16th July 2000",
+          "Languages Known: English, Kannada, Hindi &"
+        ],
+        "raw_text": "Project Management and Coordination\nProblem Solving, Time Management Skills\nCollaboration / Teamwork Skills\nAccountability, Leadership, Work ethic\n• Bachelor of Engineering (BE) - Computer\nScience and Engineering | C.Byregowda institute\nof technology, Kolar, Karnadaka | 2018 - 2022\nDate of Birth: 16th July 2000\nLanguages Known: English, Kannada, Hindi &\nTelugu.\nAddress: Bangalore- 560087, Karnataka, India",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project Management and Coordination",
+              "block_id": "b81",
+              "kind": "text",
+              "start": 4060,
+              "end": 4095
+            },
+            {
+              "page": 1,
+              "text": "Problem Solving, Time Management Skills",
+              "block_id": "b82",
+              "kind": "text",
+              "start": 4098,
+              "end": 4137
+            },
+            {
+              "page": 1,
+              "text": "Collaboration / Teamwork Skills",
+              "block_id": "b83",
+              "kind": "text",
+              "start": 4138,
+              "end": 4169
+            },
+            {
+              "page": 1,
+              "text": "Accountability, Leadership, Work ethic",
+              "block_id": "b84",
+              "kind": "text",
+              "start": 4170,
+              "end": 4208
+            },
+            {
+              "page": 1,
+              "text": "• Bachelor of Engineering (BE) - Computer",
+              "block_id": "b85",
+              "kind": "text",
+              "start": 4209,
+              "end": 4250
+            },
+            {
+              "page": 1,
+              "text": "Science and Engineering | C.Byregowda institute",
+              "block_id": "b86",
+              "kind": "text",
+              "start": 4251,
+              "end": 4298
+            },
+            {
+              "page": 1,
+              "text": "of technology, Kolar, Karnadaka | 2018 - 2022",
+              "block_id": "b87",
+              "kind": "text",
+              "start": 4299,
+              "end": 4344
+            },
+            {
+              "page": 1,
+              "text": "Date of Birth: 16th July 2000",
+              "block_id": "b88",
+              "kind": "text",
+              "start": 4345,
+              "end": 4374
+            },
+            {
+              "page": 1,
+              "text": "Languages Known: English, Kannada, Hindi &",
+              "block_id": "b89",
+              "kind": "text",
+              "start": 4375,
+              "end": 4417
+            },
+            {
+              "page": 1,
+              "text": "Telugu.",
+              "block_id": "b90",
+              "kind": "text",
+              "start": 4418,
+              "end": 4425
+            },
+            {
+              "page": 1,
+              "text": "Address: Bangalore- 560087, Karnataka, India",
+              "block_id": "b91",
+              "kind": "text",
+              "start": 4426,
+              "end": 4470
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "Project",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Dec 2022 - Present"
+        ],
+        "raw_text": "Dec 2022 - Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Dec 2022 - Present",
+              "block_id": "b92",
+              "kind": "text",
+              "start": 4471,
+              "end": 4489
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 1,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.765,
+      "document_accuracy": 0.77
+    },
+    "total_represented_months": 60,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

@@ -1,0 +1,943 @@
+{
+  "file_name": "ShyamKumarDonka.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 6,
+    "total_events": 6,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.878,
+    "document_accuracy": 0.88
+  },
+  "work_experience": [
+    {
+      "id": "ve00c2b5f49e9c184",
+      "company": "Canada Mortgage Operations Re-Migration Program",
+      "title": "",
+      "start_date": "2013-10",
+      "end_date": "2014-10",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vb843cf5e24ff52d1",
+      "company": "Canada Mortgage French Process Re-Migration Program",
+      "title": "",
+      "start_date": "2020-02",
+      "end_date": "2020-08",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v5793ba0ead4ccfe5",
+      "company": "Mortgage & Loan Booking/Funding (Drawdowns) Automation Program",
+      "title": "",
+      "start_date": "2020-09",
+      "end_date": "2021-02",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v97309f43437632f6",
+      "company": "Mortgage DocPac Follow-Up Process Automation Program",
+      "title": "",
+      "start_date": "2021-11",
+      "end_date": "2022-04",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v526d666d5f49ff27",
+      "company": "Business Transformation",
+      "title": "Independent Consultant",
+      "start_date": "2024-06",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "vd03c355e4379e589",
+      "company": "Sri Vasavi Engineering College",
+      "title": "B.Tech",
+      "start_date": "2005-01",
+      "end_date": "2009-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    }
+  ],
+  "gaps": [
+    {
+      "id": "g08d0e59a69a0fe35",
+      "start": "2014-11",
+      "end": "2020-01",
+      "months": 63,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    },
+    {
+      "id": "gb14ceadd024155da",
+      "start": "2021-03",
+      "end": "2021-10",
+      "months": 8,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    },
+    {
+      "id": "g37ad76ecc6fada83",
+      "start": "2022-05",
+      "end": "2024-05",
+      "months": 25,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    }
+  ],
+  "total_work_experience": 5,
+  "total_projects": 0,
+  "total_gaps": 3,
+  "raw_pipeline_dto": {
+    "doc_id": "ShyamKumarDonka",
+    "filename": "ShyamKumarDonka.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "vd03c355e4379e589",
+        "type": "EDUCATION",
+        "title": "B.Tech",
+        "org": "Sri Vasavi Engineering College",
+        "start": "2005-01",
+        "end": "2009-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "• B.Tech — Electronics & Communication Engineering, Sri Vasavi Engineering College, JNTU (2005–2009)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "• B.Tech — Electronics & Communication Engineering, Sri Vasavi Engineering College, JNTU (2005–2009)",
+              "block_id": "b80",
+              "kind": "text",
+              "start": 7409,
+              "end": 7509
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2005–2009",
+              "block_id": "b80",
+              "kind": "text",
+              "start": 7499,
+              "end": 7508
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Sri Vasavi Engineering College",
+              "block_id": "b80",
+              "kind": "text",
+              "start": 7461,
+              "end": 7491
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "B.Tech",
+              "block_id": "b80",
+              "kind": "text",
+              "start": 7411,
+              "end": 7417
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2005–2009",
+          "is_present": false
+        },
+        "date_label": "2005–2009",
+        "section": "EDUCATION",
+        "is_present": false
+      },
+      {
+        "id": "ve00c2b5f49e9c184",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Canada Mortgage Operations Re-Migration Program",
+        "start": "2013-10",
+        "end": "2014-10",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Canada Mortgage Operations Re-Migration Program Oct 2013 – Oct 2014",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Canada Mortgage Operations Re-Migration Program Oct 2013 – Oct 2014",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 5584,
+              "end": 5651
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Oct 2013 – Oct 2014",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 5632,
+              "end": 5651
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Canada Mortgage Operations Re-Migration Program",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 5584,
+              "end": 5631
+            }
+          ],
+          "title": [],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Oct 2013 – Oct 2014",
+          "is_present": false
+        },
+        "date_label": "Oct 2013 – Oct 2014",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vb843cf5e24ff52d1",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Canada Mortgage French Process Re-Migration Program",
+        "start": "2020-02",
+        "end": "2020-08",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Canada Mortgage French Process Re-Migration Program Feb 2020 – Aug 2020",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Canada Mortgage French Process Re-Migration Program Feb 2020 – Aug 2020",
+              "block_id": "b60",
+              "kind": "text",
+              "start": 5862,
+              "end": 5933
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Feb 2020 – Aug 2020",
+              "block_id": "b60",
+              "kind": "text",
+              "start": 5914,
+              "end": 5933
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Canada Mortgage French Process Re-Migration Program",
+              "block_id": "b60",
+              "kind": "text",
+              "start": 5862,
+              "end": 5913
+            }
+          ],
+          "title": [],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Feb 2020 – Aug 2020",
+          "is_present": false
+        },
+        "date_label": "Feb 2020 – Aug 2020",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v5793ba0ead4ccfe5",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Mortgage & Loan Booking/Funding (Drawdowns) Automation Program",
+        "start": "2020-09",
+        "end": "2021-02",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Mortgage & Loan Booking/Funding (Drawdowns) Automation Program Sep 2020 – Feb 2021",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Mortgage & Loan Booking/Funding (Drawdowns) Automation Program Sep 2020 – Feb 2021",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 6126,
+              "end": 6208
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Sep 2020 – Feb 2021",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 6189,
+              "end": 6208
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Mortgage & Loan Booking/Funding (Drawdowns) Automation Program",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 6126,
+              "end": 6188
+            }
+          ],
+          "title": [],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Sep 2020 – Feb 2021",
+          "is_present": false
+        },
+        "date_label": "Sep 2020 – Feb 2021",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v97309f43437632f6",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Mortgage DocPac Follow-Up Process Automation Program",
+        "start": "2021-11",
+        "end": "2022-04",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Mortgage DocPac Follow-Up Process Automation Program Nov 2021 – Apr 2022",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Mortgage DocPac Follow-Up Process Automation Program Nov 2021 – Apr 2022",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 6368,
+              "end": 6440
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Nov 2021 – Apr 2022",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 6421,
+              "end": 6440
+            },
+            {
+              "page": 1,
+              "text": "2019",
+              "block_id": "b71",
+              "kind": "text",
+              "start": 6840,
+              "end": 6844
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Mortgage DocPac Follow-Up Process Automation Program",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 6368,
+              "end": 6420
+            }
+          ],
+          "title": [],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Nov 2021 – Apr 2022",
+          "is_present": false
+        },
+        "date_label": "Nov 2021 – Apr 2022",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v526d666d5f49ff27",
+        "type": "EMPLOYMENT",
+        "title": "Independent Consultant",
+        "org": "Business Transformation",
+        "start": "2024-06",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Independent Consultant — Business Transformation Jun 2024 – Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Independent Consultant — Business Transformation Jun 2024 – Present",
+              "block_id": "b25",
+              "kind": "text",
+              "start": 2227,
+              "end": 2294
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jun 2024 – Present",
+              "block_id": "b25",
+              "kind": "text",
+              "start": 2276,
+              "end": 2294
+            },
+            {
+              "page": 1,
+              "text": "2026",
+              "block_id": "b27",
+              "kind": "text",
+              "start": 2579,
+              "end": 2583
+            },
+            {
+              "page": 1,
+              "text": "Dec 2024",
+              "block_id": "b30",
+              "kind": "text",
+              "start": 2867,
+              "end": 2875
+            },
+            {
+              "page": 1,
+              "text": "Sep 2013 – May 2024",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 3380,
+              "end": 3399
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Business Transformation",
+              "block_id": "b25",
+              "kind": "text",
+              "start": 2252,
+              "end": 2275
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Independent Consultant",
+              "block_id": "b25",
+              "kind": "text",
+              "start": 2227,
+              "end": 2249
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Jun 2024 – Present",
+          "is_present": true
+        },
+        "date_label": "Jun 2024 – Present",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g08d0e59a69a0fe35",
+        "start": [
+          2014,
+          11
+        ],
+        "end": [
+          2020,
+          1
+        ],
+        "months": 63,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "ve00c2b5f49e9c184",
+          "event_after": "vb843cf5e24ff52d1",
+          "coverage_scope": "all_dated_activity"
+        },
+        "start_label": "2014-11",
+        "end_label": "2020-01",
+        "evidence_quotes": [
+          "Canada Mortgage Operations Re-Migration Program Oct 2013 – Oct 2014",
+          "Canada Mortgage French Process Re-Migration Program Feb 2020 – Aug 2020"
+        ],
+        "evidence_details": [
+          {
+            "header": "Canada Mortgage Operations Re-Migration Program",
+            "quote": "Canada Mortgage Operations Re-Migration Program Oct 2013 – Oct 2014",
+            "event_id": "ve00c2b5f49e9c184",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Canada Mortgage Operations Re-Migration Program Oct 2013 – Oct 2014",
+                  "block_id": "b57",
+                  "kind": "text",
+                  "start": 5584,
+                  "end": 5651
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Oct 2013 – Oct 2014",
+                  "block_id": "b57",
+                  "kind": "text",
+                  "start": 5632,
+                  "end": 5651
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Canada Mortgage Operations Re-Migration Program",
+                  "block_id": "b57",
+                  "kind": "text",
+                  "start": 5584,
+                  "end": 5631
+                }
+              ],
+              "title": [],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "Oct 2013 – Oct 2014",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Canada Mortgage French Process Re-Migration Program",
+            "quote": "Canada Mortgage French Process Re-Migration Program Feb 2020 – Aug 2020",
+            "event_id": "vb843cf5e24ff52d1",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Canada Mortgage French Process Re-Migration Program Feb 2020 – Aug 2020",
+                  "block_id": "b60",
+                  "kind": "text",
+                  "start": 5862,
+                  "end": 5933
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Feb 2020 – Aug 2020",
+                  "block_id": "b60",
+                  "kind": "text",
+                  "start": 5914,
+                  "end": 5933
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Canada Mortgage French Process Re-Migration Program",
+                  "block_id": "b60",
+                  "kind": "text",
+                  "start": 5862,
+                  "end": 5913
+                }
+              ],
+              "title": [],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "Feb 2020 – Aug 2020",
+              "is_present": false
+            }
+          }
+        ]
+      },
+      {
+        "id": "gb14ceadd024155da",
+        "start": [
+          2021,
+          3
+        ],
+        "end": [
+          2021,
+          10
+        ],
+        "months": 8,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "v5793ba0ead4ccfe5",
+          "event_after": "v97309f43437632f6",
+          "coverage_scope": "all_dated_activity"
+        },
+        "start_label": "2021-03",
+        "end_label": "2021-10",
+        "evidence_quotes": [
+          "Mortgage & Loan Booking/Funding (Drawdowns) Automation Program Sep 2020 – Feb 2021",
+          "Mortgage DocPac Follow-Up Process Automation Program Nov 2021 – Apr 2022"
+        ],
+        "evidence_details": [
+          {
+            "header": "Mortgage & Loan Booking/Funding (Drawdowns) Automation Program",
+            "quote": "Mortgage & Loan Booking/Funding (Drawdowns) Automation Program Sep 2020 – Feb 2021",
+            "event_id": "v5793ba0ead4ccfe5",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Mortgage & Loan Booking/Funding (Drawdowns) Automation Program Sep 2020 – Feb 2021",
+                  "block_id": "b63",
+                  "kind": "text",
+                  "start": 6126,
+                  "end": 6208
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Sep 2020 – Feb 2021",
+                  "block_id": "b63",
+                  "kind": "text",
+                  "start": 6189,
+                  "end": 6208
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Mortgage & Loan Booking/Funding (Drawdowns) Automation Program",
+                  "block_id": "b63",
+                  "kind": "text",
+                  "start": 6126,
+                  "end": 6188
+                }
+              ],
+              "title": [],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "Sep 2020 – Feb 2021",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Mortgage DocPac Follow-Up Process Automation Program",
+            "quote": "Mortgage DocPac Follow-Up Process Automation Program Nov 2021 – Apr 2022",
+            "event_id": "v97309f43437632f6",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Mortgage DocPac Follow-Up Process Automation Program Nov 2021 – Apr 2022",
+                  "block_id": "b66",
+                  "kind": "text",
+                  "start": 6368,
+                  "end": 6440
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Nov 2021 – Apr 2022",
+                  "block_id": "b66",
+                  "kind": "text",
+                  "start": 6421,
+                  "end": 6440
+                },
+                {
+                  "page": 1,
+                  "text": "2019",
+                  "block_id": "b71",
+                  "kind": "text",
+                  "start": 6840,
+                  "end": 6844
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Mortgage DocPac Follow-Up Process Automation Program",
+                  "block_id": "b66",
+                  "kind": "text",
+                  "start": 6368,
+                  "end": 6420
+                }
+              ],
+              "title": [],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "Nov 2021 – Apr 2022",
+              "is_present": false
+            }
+          }
+        ]
+      },
+      {
+        "id": "g37ad76ecc6fada83",
+        "start": [
+          2022,
+          5
+        ],
+        "end": [
+          2024,
+          5
+        ],
+        "months": 25,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "v97309f43437632f6",
+          "event_after": "v526d666d5f49ff27",
+          "coverage_scope": "all_dated_activity"
+        },
+        "start_label": "2022-05",
+        "end_label": "2024-05",
+        "evidence_quotes": [
+          "Mortgage DocPac Follow-Up Process Automation Program Nov 2021 – Apr 2022",
+          "Independent Consultant — Business Transformation Jun 2024 – Present"
+        ],
+        "evidence_details": [
+          {
+            "header": "Mortgage DocPac Follow-Up Process Automation Program",
+            "quote": "Mortgage DocPac Follow-Up Process Automation Program Nov 2021 – Apr 2022",
+            "event_id": "v97309f43437632f6",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Mortgage DocPac Follow-Up Process Automation Program Nov 2021 – Apr 2022",
+                  "block_id": "b66",
+                  "kind": "text",
+                  "start": 6368,
+                  "end": 6440
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Nov 2021 – Apr 2022",
+                  "block_id": "b66",
+                  "kind": "text",
+                  "start": 6421,
+                  "end": 6440
+                },
+                {
+                  "page": 1,
+                  "text": "2019",
+                  "block_id": "b71",
+                  "kind": "text",
+                  "start": 6840,
+                  "end": 6844
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Mortgage DocPac Follow-Up Process Automation Program",
+                  "block_id": "b66",
+                  "kind": "text",
+                  "start": 6368,
+                  "end": 6420
+                }
+              ],
+              "title": [],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "Nov 2021 – Apr 2022",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Independent Consultant at Business Transformation",
+            "quote": "Independent Consultant — Business Transformation Jun 2024 – Present",
+            "event_id": "v526d666d5f49ff27",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Independent Consultant — Business Transformation Jun 2024 – Present",
+                  "block_id": "b25",
+                  "kind": "text",
+                  "start": 2227,
+                  "end": 2294
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Jun 2024 – Present",
+                  "block_id": "b25",
+                  "kind": "text",
+                  "start": 2276,
+                  "end": 2294
+                },
+                {
+                  "page": 1,
+                  "text": "2026",
+                  "block_id": "b27",
+                  "kind": "text",
+                  "start": 2579,
+                  "end": 2583
+                },
+                {
+                  "page": 1,
+                  "text": "Dec 2024",
+                  "block_id": "b30",
+                  "kind": "text",
+                  "start": 2867,
+                  "end": 2875
+                },
+                {
+                  "page": 1,
+                  "text": "Sep 2013 – May 2024",
+                  "block_id": "b34",
+                  "kind": "text",
+                  "start": 3380,
+                  "end": 3399
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Business Transformation",
+                  "block_id": "b25",
+                  "kind": "text",
+                  "start": 2252,
+                  "end": 2275
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Independent Consultant",
+                  "block_id": "b25",
+                  "kind": "text",
+                  "start": 2227,
+                  "end": 2249
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "Jun 2024 – Present",
+              "is_present": true
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 6,
+      "total_events": 6,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.878,
+      "document_accuracy": 0.88
+    },
+    "total_represented_months": 120,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

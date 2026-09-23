@@ -1,0 +1,208 @@
+{
+  "file_name": "Priyotosh Kumar Singh.pdf",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 0,
+    "total_events": 2,
+    "dated_share": 0.0,
+    "unresolved": 2,
+    "ambiguous": 0,
+    "mean_event_confidence": null,
+    "document_accuracy": 0.8
+  },
+  "work_experience": [
+    {
+      "id": "ve365f72307bb1651",
+      "company": "",
+      "title": "Senior Analyst (Fund accounting",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    },
+    {
+      "id": "v022d137850b35c2b",
+      "company": "",
+      "title": "Senior Analyst",
+      "start_date": "",
+      "end_date": "",
+      "duration": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null
+    }
+  ],
+  "projects": [],
+  "education": [],
+  "gaps": [],
+  "total_work_experience": 2,
+  "total_projects": 0,
+  "total_gaps": 0,
+  "raw_pipeline_dto": {
+    "doc_id": "Priyotosh Kumar Singh",
+    "filename": "Priyotosh Kumar Singh.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [],
+    "unresolved_events": [
+      {
+        "id": "ve365f72307bb1651",
+        "type": "EMPLOYMENT",
+        "title": "Senior Analyst (Fund accounting",
+        "org": "",
+        "entry_text": "Senior Analyst (Fund accounting) MBA/PGDM JK Business School, Gurgaon B.Com Calcutta University XIIth English Xth English",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Analyst (Fund accounting)",
+              "block_id": "b40",
+              "kind": "text",
+              "start": 690,
+              "end": 722
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Analyst (Fund accounting",
+              "block_id": "b40",
+              "kind": "text",
+              "start": 690,
+              "end": 721
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "WORK EXPERIENCE",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v022d137850b35c2b",
+        "type": "EMPLOYMENT",
+        "title": "Senior Analyst",
+        "org": "",
+        "entry_text": "Senior Analyst Enfusion Softech India - Provide comprehensive service to hedge fund clients, including trade booking and reconciliation of administrative data against client records - Verify Profit & Loss (P&L) statements and efficiently resolve client queries related to their books of accounts - Co",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Analyst",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 812,
+              "end": 826
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Analyst",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 812,
+              "end": 826
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "WORK EXPERIENCE",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "ve365f72307bb1651",
+            "v022d137850b35c2b"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 0,
+      "total_events": 2,
+      "dated_share": 0.0,
+      "unresolved": 2,
+      "ambiguous": 0,
+      "mean_event_confidence": null,
+      "document_accuracy": 0.8
+    },
+    "total_represented_months": 0,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "PARTIAL",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "PARTIAL",
+        "confidence": 0.3
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

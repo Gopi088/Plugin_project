@@ -1,0 +1,708 @@
+{
+  "file_name": "VIKRAM SINGH SIYAWAT-CV.pdf",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 6,
+    "total_events": 6,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.878,
+    "document_accuracy": 0.88
+  },
+  "work_experience": [
+    {
+      "id": "v922de82cc48c817f",
+      "company": "Dell International",
+      "title": "Business Analyst  •",
+      "start_date": "2011-10",
+      "end_date": "2015-08",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "va2a5265872c8b6b7",
+      "company": "Mastercard",
+      "title": "Scrum Master & Senior Technical Business Analyst  •",
+      "start_date": "2015-08",
+      "end_date": "2021-09",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v58b9bde7b0a82b22",
+      "company": "Capgemini Technologies",
+      "title": "Engagement Manager / Technical Delivery Lead  •",
+      "start_date": "2021-09",
+      "end_date": "2023-07",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "v2684e174158c5590",
+      "company": "Tetra Pak",
+      "title": "Senior Scrum Master / Service Delivery Manager  •",
+      "start_date": "2023-07",
+      "end_date": "2025-04",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    },
+    {
+      "id": "vce13f4b37f5be60a",
+      "company": "Endava",
+      "title": "Technology Project Manager / Technical BA  •",
+      "start_date": "2025-07",
+      "end_date": "2026-09",
+      "duration": "",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "id": "v60fa780b940445fd",
+      "company": "University of Rajasthan",
+      "title": "Education: Bachelor of Engineering (B.E.) in Computer Science / Engineering",
+      "start_date": "2004-01",
+      "end_date": "2008-12",
+      "duration": "",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765
+    }
+  ],
+  "gaps": [
+    {
+      "id": "g1ba2bf8068f8eccd",
+      "start": "2025-05",
+      "end": "2025-06",
+      "months": 2,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9
+    }
+  ],
+  "total_work_experience": 5,
+  "total_projects": 0,
+  "total_gaps": 1,
+  "raw_pipeline_dto": {
+    "doc_id": "VIKRAM SINGH SIYAWAT-CV",
+    "filename": "VIKRAM SINGH SIYAWAT-CV.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v60fa780b940445fd",
+        "type": "EDUCATION",
+        "title": "Education: Bachelor of Engineering (B.E.) in Computer Science / Engineering",
+        "org": "University of Rajasthan",
+        "start": "2004-01",
+        "end": "2008-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "• Education: Bachelor of Engineering (B.E.) in Computer Science / Engineering — University of Rajasthan (2004 –\n2008)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "• Education: Bachelor of Engineering (B.E.) in Computer Science / Engineering — University of Rajasthan (2004 –",
+              "block_id": "b75",
+              "kind": "text",
+              "start": 6771,
+              "end": 6882
+            },
+            {
+              "page": 1,
+              "text": "2008)",
+              "block_id": "b75",
+              "kind": "text",
+              "start": 6884,
+              "end": 6889
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2004 –",
+              "block_id": "b75",
+              "kind": "text",
+              "start": 6876,
+              "end": 6882
+            },
+            {
+              "page": 1,
+              "text": "2008",
+              "block_id": "b75",
+              "kind": "text",
+              "start": 6884,
+              "end": 6888
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "University of Rajasthan",
+              "block_id": "b75",
+              "kind": "text",
+              "start": 6851,
+              "end": 6874
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Education: Bachelor of Engineering (B.E.) in Computer Science / Engineering",
+              "block_id": "b75",
+              "kind": "text",
+              "start": 6773,
+              "end": 6848
+            }
+          ],
+          "section": "EDUCATION & CERTIFICATIONS",
+          "date_label": "2004 – 2008",
+          "is_present": false
+        },
+        "date_label": "2004 – 2008",
+        "section": "EDUCATION & CERTIFICATIONS",
+        "is_present": false
+      },
+      {
+        "id": "v922de82cc48c817f",
+        "type": "EMPLOYMENT",
+        "title": "Business Analyst  •",
+        "org": "Dell International",
+        "start": "2011-10",
+        "end": "2015-08",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Dell International — India  |  Business Analyst  •  Oct 2011 – Aug 2015",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Dell International — India  |  Business Analyst  •  Oct 2011 – Aug 2015",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 6251,
+              "end": 6322
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Oct 2011 – Aug 2015",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 6303,
+              "end": 6322
+            },
+            {
+              "page": 1,
+              "text": "July 2009",
+              "block_id": "b71",
+              "kind": "text",
+              "start": 6626,
+              "end": 6635
+            },
+            {
+              "page": 1,
+              "text": "2010",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 6643,
+              "end": 6647
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Dell International",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 6251,
+              "end": 6269
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Business Analyst",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 6282,
+              "end": 6298
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Oct 2011 – Aug 2015",
+          "is_present": false
+        },
+        "date_label": "Oct 2011 – Aug 2015",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "va2a5265872c8b6b7",
+        "type": "EMPLOYMENT",
+        "title": "Scrum Master & Senior Technical Business Analyst  •",
+        "org": "Mastercard",
+        "start": "2015-08",
+        "end": "2021-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Mastercard — India  |  Scrum Master & Senior Technical Business Analyst  •  Aug 2015 – Sept 2021",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Mastercard — India  |  Scrum Master & Senior Technical Business Analyst  •  Aug 2015 – Sept 2021",
+              "block_id": "b60",
+              "kind": "text",
+              "start": 5543,
+              "end": 5639
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Aug 2015 – Sept 2021",
+              "block_id": "b60",
+              "kind": "text",
+              "start": 5619,
+              "end": 5639
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Mastercard",
+              "block_id": "b60",
+              "kind": "text",
+              "start": 5543,
+              "end": 5553
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Scrum Master & Senior Technical Business Analyst",
+              "block_id": "b60",
+              "kind": "text",
+              "start": 5566,
+              "end": 5614
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Aug 2015 – Sept 2021",
+          "is_present": false
+        },
+        "date_label": "Aug 2015 – Sept 2021",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v58b9bde7b0a82b22",
+        "type": "EMPLOYMENT",
+        "title": "Engagement Manager / Technical Delivery Lead  •",
+        "org": "Capgemini Technologies",
+        "start": "2021-09",
+        "end": "2023-07",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Capgemini Technologies — India  |  Engagement Manager / Technical Delivery Lead  •  Sept 2021 – July 2023",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Capgemini Technologies — India  |  Engagement Manager / Technical Delivery Lead  •  Sept 2021 – July 2023",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 4363,
+              "end": 4468
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Sept 2021 – July 2023",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 4447,
+              "end": 4468
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Capgemini Technologies",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 4363,
+              "end": 4385
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Engagement Manager / Technical Delivery Lead",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 4398,
+              "end": 4442
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Sept 2021 – July 2023",
+          "is_present": false
+        },
+        "date_label": "Sept 2021 – July 2023",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v2684e174158c5590",
+        "type": "EMPLOYMENT",
+        "title": "Senior Scrum Master / Service Delivery Manager  •",
+        "org": "Tetra Pak",
+        "start": "2023-07",
+        "end": "2025-04",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Tetra Pak — India  |  Senior Scrum Master / Service Delivery Manager  •  July 2023 – April 2025",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Tetra Pak — India  |  Senior Scrum Master / Service Delivery Manager  •  July 2023 – April 2025",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 3803,
+              "end": 3898
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "July 2023 – April 2025",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 3876,
+              "end": 3898
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Tetra Pak",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 3803,
+              "end": 3812
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Scrum Master / Service Delivery Manager",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 3825,
+              "end": 3871
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "July 2023 – April 2025",
+          "is_present": false
+        },
+        "date_label": "July 2023 – April 2025",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vce13f4b37f5be60a",
+        "type": "EMPLOYMENT",
+        "title": "Technology Project Manager / Technical BA  •",
+        "org": "Endava",
+        "start": "2025-07",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Endava — India  |  Technology Project Manager / Technical BA  •  July 2025 – Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Endava — India  |  Technology Project Manager / Technical BA  •  July 2025 – Present",
+              "block_id": "b31",
+              "kind": "text",
+              "start": 2812,
+              "end": 2896
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "July 2025 – Present",
+              "block_id": "b31",
+              "kind": "text",
+              "start": 2877,
+              "end": 2896
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Endava",
+              "block_id": "b31",
+              "kind": "text",
+              "start": 2812,
+              "end": 2818
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Technology Project Manager / Technical BA",
+              "block_id": "b31",
+              "kind": "text",
+              "start": 2831,
+              "end": 2872
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "July 2025 – Present",
+          "is_present": true
+        },
+        "date_label": "July 2025 – Present",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g1ba2bf8068f8eccd",
+        "start": [
+          2025,
+          5
+        ],
+        "end": [
+          2025,
+          6
+        ],
+        "months": 2,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "v2684e174158c5590",
+          "event_after": "vce13f4b37f5be60a",
+          "coverage_scope": "all_dated_activity"
+        },
+        "start_label": "2025-05",
+        "end_label": "2025-06",
+        "evidence_quotes": [
+          "Tetra Pak — India  |  Senior Scrum Master / Service Delivery Manager  •  July 2023 – April 2025",
+          "Endava — India  |  Technology Project Manager / Technical BA  •  July 2025 – Present"
+        ],
+        "evidence_details": [
+          {
+            "header": "Senior Scrum Master / Service Delivery Manager  • at Tetra Pak",
+            "quote": "Tetra Pak — India  |  Senior Scrum Master / Service Delivery Manager  •  July 2023 – April 2025",
+            "event_id": "v2684e174158c5590",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Tetra Pak — India  |  Senior Scrum Master / Service Delivery Manager  •  July 2023 – April 2025",
+                  "block_id": "b42",
+                  "kind": "text",
+                  "start": 3803,
+                  "end": 3898
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "July 2023 – April 2025",
+                  "block_id": "b42",
+                  "kind": "text",
+                  "start": 3876,
+                  "end": 3898
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Tetra Pak",
+                  "block_id": "b42",
+                  "kind": "text",
+                  "start": 3803,
+                  "end": 3812
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Senior Scrum Master / Service Delivery Manager",
+                  "block_id": "b42",
+                  "kind": "text",
+                  "start": 3825,
+                  "end": 3871
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "July 2023 – April 2025",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Technology Project Manager / Technical BA  • at Endav",
+            "quote": "Endava — India  |  Technology Project Manager / Technical BA  •  July 2025 – Present",
+            "event_id": "vce13f4b37f5be60a",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Endava — India  |  Technology Project Manager / Technical BA  •  July 2025 – Present",
+                  "block_id": "b31",
+                  "kind": "text",
+                  "start": 2812,
+                  "end": 2896
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "July 2025 – Present",
+                  "block_id": "b31",
+                  "kind": "text",
+                  "start": 2877,
+                  "end": 2896
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Endava",
+                  "block_id": "b31",
+                  "kind": "text",
+                  "start": 2812,
+                  "end": 2818
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Technology Project Manager / Technical BA",
+                  "block_id": "b31",
+                  "kind": "text",
+                  "start": 2831,
+                  "end": 2872
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "July 2025 – Present",
+              "is_present": true
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 6,
+      "total_events": 6,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.878,
+      "document_accuracy": 0.88
+    },
+    "total_represented_months": 238,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}
