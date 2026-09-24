@@ -1,0 +1,469 @@
+{
+  "file_name": "Ashish Kumar_1.pdf",
+  "input_mode": "original_document",
+  "input_sha256": "4fff6f2d11c2d81da921422f9c14af5ba2dbd1cdb6b878c6947dd0b23f37cfe8",
+  "doc_id": "4fff6f2d11c2d81da921422f",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 2,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v0f838e74f19e0b9d",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Business Analyst",
+      "start_date": "2021-07",
+      "end_date": "2026-09",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Business Analyst (Client: ING Bank) | July 2021 – Present",
+            "block_id": "b24",
+            "kind": "pdf",
+            "page_width": 612,
+            "page_height": 792,
+            "bbox": [
+              90.05,
+              511.67,
+              347.684,
+              522.6700000000001
+            ],
+            "fragment_text": "Business Analyst (Client: ING Bank) | July 2021 – Present"
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "July 2021 – Present",
+            "block_id": "b24",
+            "kind": "pdf",
+            "page_width": 612,
+            "page_height": 792,
+            "bbox": [
+              259.8239999999999,
+              511.67,
+              347.684,
+              522.6700000000001
+            ],
+            "fragment_text": "July 2021 – Present"
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Business Analyst",
+            "block_id": "b24",
+            "kind": "pdf",
+            "page_width": 612,
+            "page_height": 792,
+            "bbox": [
+              90.05,
+              511.67,
+              166.236,
+              522.6700000000001
+            ]
+          }
+        ],
+        "section": "Professional Experience",
+        "date_label": "July 2021 – Present",
+        "is_present": true
+      }
+    }
+  ],
+  "education": [
+    {
+      "id": "v3bcd5aa469d39f23",
+      "type": "EDUCATION",
+      "company": "Silicon Institute of Technology",
+      "title": "Bachelor of Technology (Computer Science Engineering)",
+      "start_date": "2017-07",
+      "end_date": "2021-06",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 2,
+            "text": "Bachelor of Technology (Computer Science Engineering), Silicon Institute of Technology,",
+            "block_id": "b54",
+            "kind": "pdf",
+            "page_width": 612,
+            "page_height": 792,
+            "bbox": [
+              90.05,
+              397.812,
+              502.38300000000004,
+              408.812
+            ],
+            "fragment_text": "Bachelor of Technology (Computer Science Engineering), Silicon Institute of Technology,"
+          },
+          {
+            "page": 2,
+            "text": "Bhubaneswar (July 2017– June 2021) | CGPA: 8.55",
+            "block_id": "b55",
+            "kind": "pdf",
+            "page_width": 612,
+            "page_height": 792,
+            "bbox": [
+              90.05,
+              412.812,
+              326.286,
+              423.812
+            ],
+            "fragment_text": "Bhubaneswar (July 2017– June 2021) | CGPA: 8.55"
+          }
+        ],
+        "dates": [
+          {
+            "page": 2,
+            "text": "July 2017– June 2021",
+            "block_id": "b55",
+            "kind": "pdf",
+            "page_width": 612,
+            "page_height": 792,
+            "bbox": [
+              161.71499999999997,
+              412.812,
+              261.88100000000003,
+              423.812
+            ],
+            "fragment_text": "July 2017– June 2021"
+          }
+        ],
+        "company": [
+          {
+            "page": 2,
+            "text": "Silicon Institute of Technology",
+            "block_id": "b54",
+            "kind": "pdf",
+            "page_width": 612,
+            "page_height": 792,
+            "bbox": [
+              358.65,
+              397.812,
+              500.172,
+              408.812
+            ],
+            "fragment_text": "Silicon Institute of Technology"
+          }
+        ],
+        "title": [
+          {
+            "page": 2,
+            "text": "Bachelor of Technology (Computer Science Engineering",
+            "block_id": "b54",
+            "kind": "pdf",
+            "page_width": 612,
+            "page_height": 792,
+            "bbox": [
+              90.05,
+              397.812,
+              349.761,
+              408.812
+            ],
+            "fragment_text": "Bachelor of Technology (Computer Science Engineering"
+          }
+        ],
+        "section": "Education",
+        "date_label": "July 2017– June 2021",
+        "is_present": false
+      }
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 1,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "raw_pipeline_dto": {
+    "doc_id": "4fff6f2d11c2d81da921422f",
+    "filename": "Ashish Kumar_1.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v3bcd5aa469d39f23",
+        "type": "EDUCATION",
+        "title": "Bachelor of Technology (Computer Science Engineering)",
+        "org": "Silicon Institute of Technology",
+        "start": "2017-07",
+        "end": "2021-06",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "Bachelor of Technology (Computer Science Engineering), Silicon Institute of Technology,\nBhubaneswar (July 2017– June 2021) | CGPA: 8.55",
+        "source": {
+          "entry": [
+            {
+              "page": 2,
+              "text": "Bachelor of Technology (Computer Science Engineering), Silicon Institute of Technology,",
+              "block_id": "b54",
+              "kind": "pdf",
+              "page_width": 612,
+              "page_height": 792,
+              "bbox": [
+                90.05,
+                397.812,
+                502.38300000000004,
+                408.812
+              ],
+              "fragment_text": "Bachelor of Technology (Computer Science Engineering), Silicon Institute of Technology,"
+            },
+            {
+              "page": 2,
+              "text": "Bhubaneswar (July 2017– June 2021) | CGPA: 8.55",
+              "block_id": "b55",
+              "kind": "pdf",
+              "page_width": 612,
+              "page_height": 792,
+              "bbox": [
+                90.05,
+                412.812,
+                326.286,
+                423.812
+              ],
+              "fragment_text": "Bhubaneswar (July 2017– June 2021) | CGPA: 8.55"
+            }
+          ],
+          "dates": [
+            {
+              "page": 2,
+              "text": "July 2017– June 2021",
+              "block_id": "b55",
+              "kind": "pdf",
+              "page_width": 612,
+              "page_height": 792,
+              "bbox": [
+                161.71499999999997,
+                412.812,
+                261.88100000000003,
+                423.812
+              ],
+              "fragment_text": "July 2017– June 2021"
+            }
+          ],
+          "company": [
+            {
+              "page": 2,
+              "text": "Silicon Institute of Technology",
+              "block_id": "b54",
+              "kind": "pdf",
+              "page_width": 612,
+              "page_height": 792,
+              "bbox": [
+                358.65,
+                397.812,
+                500.172,
+                408.812
+              ],
+              "fragment_text": "Silicon Institute of Technology"
+            }
+          ],
+          "title": [
+            {
+              "page": 2,
+              "text": "Bachelor of Technology (Computer Science Engineering",
+              "block_id": "b54",
+              "kind": "pdf",
+              "page_width": 612,
+              "page_height": 792,
+              "bbox": [
+                90.05,
+                397.812,
+                349.761,
+                408.812
+              ],
+              "fragment_text": "Bachelor of Technology (Computer Science Engineering"
+            }
+          ],
+          "section": "Education",
+          "date_label": "July 2017– June 2021",
+          "is_present": false
+        },
+        "date_label": "July 2017– June 2021",
+        "section": "Education",
+        "is_present": false
+      },
+      {
+        "id": "v0f838e74f19e0b9d",
+        "type": "EMPLOYMENT",
+        "title": "Business Analyst",
+        "org": "",
+        "start": "2021-07",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Business Analyst (Client: ING Bank) | July 2021 – Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Business Analyst (Client: ING Bank) | July 2021 – Present",
+              "block_id": "b24",
+              "kind": "pdf",
+              "page_width": 612,
+              "page_height": 792,
+              "bbox": [
+                90.05,
+                511.67,
+                347.684,
+                522.6700000000001
+              ],
+              "fragment_text": "Business Analyst (Client: ING Bank) | July 2021 – Present"
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "July 2021 – Present",
+              "block_id": "b24",
+              "kind": "pdf",
+              "page_width": 612,
+              "page_height": 792,
+              "bbox": [
+                259.8239999999999,
+                511.67,
+                347.684,
+                522.6700000000001
+              ],
+              "fragment_text": "July 2021 – Present"
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Business Analyst",
+              "block_id": "b24",
+              "kind": "pdf",
+              "page_width": 612,
+              "page_height": 792,
+              "bbox": [
+                90.05,
+                511.67,
+                166.236,
+                522.6700000000001
+              ]
+            }
+          ],
+          "section": "Professional Experience",
+          "date_label": "July 2021 – Present",
+          "is_present": true
+        },
+        "date_label": "July 2021 – Present",
+        "section": "Professional Experience",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "NO_GAP_DETECTED",
+        "confidence": 0.9,
+        "reasons": [],
+        "evidence": {
+          "note": "no uncovered months between supported entries"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 2,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9
+    },
+    "total_represented_months": 111,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

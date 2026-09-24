@@ -1,0 +1,3538 @@
+{
+  "file_name": "HarinathReddy.pdf",
+  "input_mode": "original_document",
+  "input_sha256": "8785fd636a3d562c0b463035b1a9f2d0289eeebd8de490d9c02e8e15bda4cc37",
+  "doc_id": "8785fd636a3d562c0b463035",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 5,
+    "total_events": 5,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v63dd3d0bad79f79b",
+      "type": "EMPLOYMENT",
+      "company": "at Tata Consultancy Services",
+      "title": "Worked as Software Engineer",
+      "start_date": "2018-01",
+      "end_date": "2022-05",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 2,
+            "text": "• Worked as Software Engineer at Tata Consultancy Services, Bengaluru from Jan 2018 to May 2022",
+            "block_id": "b47",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              53.544,
+              102.24464,
+              515.7628,
+              113.65999999999997
+            ],
+            "fragment_text": " Worked as Software Engineer at Tata Consultancy Services, Bengaluru from Jan 2018 to May 2022"
+          }
+        ],
+        "dates": [
+          {
+            "page": 2,
+            "text": "Jan 2018 to May 2022",
+            "block_id": "b47",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              416.57,
+              102.62,
+              515.7628,
+              113.65999999999997
+            ]
+          }
+        ],
+        "company": [
+          {
+            "page": 2,
+            "text": "at Tata Consultancy Services",
+            "block_id": "b47",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              208.39,
+              102.62,
+              337.47472000000005,
+              113.65999999999997
+            ],
+            "fragment_text": "at Tata Consultancy Services"
+          }
+        ],
+        "title": [
+          {
+            "page": 2,
+            "text": "Worked as Software Engineer",
+            "block_id": "b47",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              71.544,
+              102.62,
+              205.94312000000002,
+              113.65999999999997
+            ],
+            "fragment_text": "Worked as Software Engineer"
+          }
+        ],
+        "section": "Professional Experience:",
+        "date_label": "Jan 2018 to May 2022",
+        "is_present": false
+      }
+    },
+    {
+      "id": "ve34bcda560ac99b2",
+      "type": "EMPLOYMENT",
+      "company": "at Dell Technologies",
+      "title": "Working as Gen AI Engineer",
+      "start_date": "2023-11",
+      "end_date": "2026-09",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 2,
+            "text": "• Working as Gen AI Engineer at Dell Technologies, Bengaluru from Nov 2023 to Till Date.",
+            "block_id": "b45",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              53.544,
+              74.16463999999996,
+              467.83208,
+              85.57999999999993
+            ],
+            "fragment_text": " Working as Gen AI Engineer at Dell Technologies, Bengaluru from Nov 2023 to Till Date."
+          }
+        ],
+        "dates": [
+          {
+            "page": 2,
+            "text": "Nov 2023 to Till Date",
+            "block_id": "b45",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              369.98,
+              74.53999999999996,
+              465.03848,
+              85.57999999999993
+            ]
+          }
+        ],
+        "company": [
+          {
+            "page": 2,
+            "text": "at Dell Technologies",
+            "block_id": "b45",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              199.51,
+              74.53999999999996,
+              291.1612,
+              85.57999999999993
+            ],
+            "fragment_text": "at Dell Technologies"
+          }
+        ],
+        "title": [
+          {
+            "page": 2,
+            "text": "Working as Gen AI Engineer",
+            "block_id": "b45",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              71.544,
+              74.53999999999996,
+              197.13832,
+              85.57999999999993
+            ],
+            "fragment_text": "Working as Gen AI Engineer"
+          }
+        ],
+        "section": "Professional Experience:",
+        "date_label": "Nov 2023 to Till Date",
+        "is_present": true
+      }
+    }
+  ],
+  "education": [],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "Project 3:: Dell",
+      "client": "Dell",
+      "role": "",
+      "duration": "Nov 2023 to Till Date.",
+      "details": [
+        "Roles and Responsibilities:",
+        "• Designed and developed enterprise-grade Generative AI solutions using OpenAI GPT-4 and Azure",
+        "OpenAI to enhance healthcare operations, clinical support, member engagement, provider services, and",
+        "enterprise knowledge management across Humana Inc.",
+        "• Built advanced Retrieval-Augmented Generation (RAG) applications using LangChain, LangGraph,",
+        "CrewAI, and Model Context Protocol (MCP) to enable intelligent retrieval of clinical guidelines,",
+        "healthcare policies, provider documentation, member resources, care management information, and",
+        "enterprise knowledge repositories."
+      ],
+      "raw_text": "Project 3:\nClient: Dell\nDuration: Nov 2023 to Till Date.\nRoles and Responsibilities:\n• Designed and developed enterprise-grade Generative AI solutions using OpenAI GPT-4 and Azure\nOpenAI to enhance healthcare operations, clinical support, member engagement, provider services, and\nenterprise knowledge management across Humana Inc.\n• Built advanced Retrieval-Augmented Generation (RAG) applications using LangChain, LangGraph,\nCrewAI, and Model Context Protocol (MCP) to enable intelligent retrieval of clinical guidelines,\nhealthcare policies, provider documentation, member resources, care manageme",
+      "source": {
+        "entry": [
+          {
+            "page": 2,
+            "text": "Project 3:",
+            "block_id": "b49",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              35.544,
+              159.28999999999996,
+              82.97999999999999,
+              171.28999999999996
+            ],
+            "fragment_text": "Project 3:"
+          },
+          {
+            "page": 2,
+            "text": "Client: Dell",
+            "block_id": "b50",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              35.544,
+              173.92999999999995,
+              89.832,
+              185.92999999999995
+            ],
+            "fragment_text": "Client: Dell"
+          },
+          {
+            "page": 2,
+            "text": "Duration: Nov 2023 to Till Date.",
+            "block_id": "b51",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              35.544,
+              188.56999999999994,
+              193.046,
+              200.56999999999994
+            ],
+            "fragment_text": "Duration: Nov 2023 to Till Date."
+          },
+          {
+            "page": 2,
+            "text": "Roles and Responsibilities:",
+            "block_id": "b52",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              35.544,
+              217.87,
+              167.64000000000004,
+              229.87
+            ]
+          },
+          {
+            "page": 2,
+            "text": "• Designed and developed enterprise-grade Generative AI solutions using OpenAI GPT-4 and Azure",
+            "block_id": "b53",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              31.704,
+              247.702,
+              522.11,
+              260.11
+            ],
+            "fragment_text": " Designed and developed enterprise-grade Generative AI solutions using OpenAI GPT-4 and Azure"
+          },
+          {
+            "page": 2,
+            "text": "OpenAI to enhance healthcare operations, clinical support, member engagement, provider services, and",
+            "block_id": "b54",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              49.704,
+              264.66999999999996,
+              557.0639999999999,
+              276.66999999999996
+            ],
+            "fragment_text": "OpenAI to enhance healthcare operations, clinical support, member engagement, provider services, and"
+          },
+          {
+            "page": 2,
+            "text": "enterprise knowledge management across Humana Inc.",
+            "block_id": "b55",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              49.704,
+              281.2299999999999,
+              320.904,
+              293.2299999999999
+            ],
+            "fragment_text": "enterprise knowledge management across Humana Inc."
+          },
+          {
+            "page": 2,
+            "text": "• Built advanced Retrieval-Augmented Generation (RAG) applications using LangChain, LangGraph,",
+            "block_id": "b56",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              31.704,
+              298.61199999999997,
+              521.2539999999999,
+              311.02
+            ],
+            "fragment_text": " Built advanced Retrieval-Augmented Generation (RAG) applications using LangChain, LangGraph,"
+          },
+          {
+            "page": 2,
+            "text": "CrewAI, and Model Context Protocol (MCP) to enable intelligent retrieval of clinical guidelines,",
+            "block_id": "b57",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              49.704,
+              315.5799999999999,
+              509.18,
+              327.5799999999999
+            ],
+            "fragment_text": "CrewAI, and Model Context Protocol (MCP) to enable intelligent retrieval of clinical guidelines,"
+          },
+          {
+            "page": 2,
+            "text": "healthcare policies, provider documentation, member resources, care management information, and",
+            "block_id": "b58",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              49.704,
+              332.14,
+              542.172,
+              344.14
+            ],
+            "fragment_text": "healthcare policies, provider documentation, member resources, care management information, and"
+          },
+          {
+            "page": 2,
+            "text": "enterprise knowledge repositories.",
+            "block_id": "b59",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              49.704,
+              348.93999999999994,
+              219.672,
+              360.93999999999994
+            ],
+            "fragment_text": "enterprise knowledge repositories."
+          },
+          {
+            "page": 2,
+            "text": "• Developed semantic search solutions using ChromaDB and embedding-based retrieval techniques to",
+            "block_id": "b60",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              31.704,
+              366.05199999999996,
+              538.9159999999999,
+              378.46
+            ],
+            "fragment_text": " Developed semantic search solutions using ChromaDB and embedding-based retrieval techniques to"
+          },
+          {
+            "page": 2,
+            "text": "deliver accurate, context-aware search capabilities across clinical documents, provider resources,",
+            "block_id": "b60",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              49.704,
+              383.03999999999996,
+              523.162,
+              395.03999999999996
+            ],
+            "fragment_text": "deliver accurate, context-aware search capabilities across clinical documents, provider resources,"
+          },
+          {
+            "page": 2,
+            "text": "member information, healthcare policies, and operational knowledge bases.",
+            "block_id": "b61",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              49.704,
+              399.84,
+              421.36799999999994,
+              411.84
+            ],
+            "fragment_text": "member information, healthcare policies, and operational knowledge bases."
+          },
+          {
+            "page": 2,
+            "text": "• Engineered scalable data ingestion and transformation pipelines using PySpark, Azure Data Factory",
+            "block_id": "b62",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              31.704,
+              416.95199999999994,
+              530.9440000000001,
+              429.35999999999996
+            ],
+            "fragment_text": " Engineered scalable data ingestion and transformation pipelines using PySpark, Azure Data Factory"
+          },
+          {
+            "page": 2,
+            "text": "(ADF), Databricks Delta Lake, and SSIS to process large-scale healthcare, member, provider, clinical,",
+            "block_id": "b63",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              49.704,
+              433.91999999999996,
+              532.6439999999999,
+              445.91999999999996
+            ],
+            "fragment_text": "(ADF), Databricks Delta Lake, and SSIS to process large-scale healthcare, member, provider, clinical,"
+          },
+          {
+            "page": 2,
+            "text": "operational, and analytics datasets.",
+            "block_id": "b64",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              49.704,
+              450.71999999999997,
+              222.27600000000004,
+              462.71999999999997
+            ],
+            "fragment_text": "operational, and analytics datasets."
+          },
+          {
+            "page": 2,
+            "text": "• Applied advanced prompt engineering, context management, embeddings, and LLM optimization",
+            "block_id": "b65",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              31.704,
+              467.8519999999999,
+              523.5319999999999,
+              480.25999999999993
+            ],
+            "fragment_text": " Applied advanced prompt engineering, context management, embeddings, and LLM optimization"
+          },
+          {
+            "page": 2,
+            "text": "techniques to improve AI response accuracy, clinical insights, retrieval performance, and adherence to",
+            "block_id": "b66",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              49.704,
+              484.81999999999994,
+              547.6919999999998,
+              496.81999999999994
+            ],
+            "fragment_text": "techniques to improve AI response accuracy, clinical insights, retrieval performance, and adherence to"
+          },
+          {
+            "page": 2,
+            "text": "healthcare compliance standards.",
+            "block_id": "b66",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              49.704,
+              501.61999999999995,
+              213.91200000000003,
+              513.6199999999999
+            ],
+            "fragment_text": "healthcare compliance standards."
+          },
+          {
+            "page": 2,
+            "text": "• Implemented multi-agent AI workflows using CrewAI, LangGraph, and MCP to automate member",
+            "block_id": "b67",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              31.704,
+              518.732,
+              523.018,
+              531.14
+            ],
+            "fragment_text": " Implemented multi-agent AI workflows using CrewAI, LangGraph, and MCP to automate member"
+          },
+          {
+            "page": 2,
+            "text": "assistance, provider support, care coordination, clinical documentation assistance, healthcare inquiries,",
+            "block_id": "b68",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              49.704,
+              535.73,
+              553.4399999999999,
+              547.73
+            ],
+            "fragment_text": "assistance, provider support, care coordination, clinical documentation assistance, healthcare inquiries,"
+          },
+          {
+            "page": 2,
+            "text": "and internal operational workflows.",
+            "block_id": "b69",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              49.704,
+              552.53,
+              223.96800000000002,
+              564.53
+            ],
+            "fragment_text": "and internal operational workflows."
+          },
+          {
+            "page": 2,
+            "text": "• Developed secure RESTful APIs and AI-powered healthcare applications using Python and FastAPI,",
+            "block_id": "b70",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              31.704,
+              569.6419999999999,
+              525.5920000000001,
+              582.05
+            ],
+            "fragment_text": " Developed secure RESTful APIs and AI-powered healthcare applications using Python and FastAPI,"
+          },
+          {
+            "page": 2,
+            "text": "integrating Generative AI capabilities with healthcare platforms, member applications, provider portals,",
+            "block_id": "b71",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              49.704,
+              586.6099999999999,
+              554.2579999999998,
+              598.6099999999999
+            ],
+            "fragment_text": "integrating Generative AI capabilities with healthcare platforms, member applications, provider portals,"
+          },
+          {
+            "page": 2,
+            "text": "care management systems, and enterprise applications.",
+            "block_id": "b72",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              49.704,
+              603.41,
+              321.348,
+              615.41
+            ],
+            "fragment_text": "care management systems, and enterprise applications."
+          },
+          {
+            "page": 2,
+            "text": "• Evaluated and optimized AI application performance using RAGAS, Cross-Encoder Re-ranking, Maximum",
+            "block_id": "b73",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              31.704,
+              620.5419999999999,
+              556.418,
+              632.9499999999999
+            ],
+            "fragment_text": " Evaluated and optimized AI application performance using RAGAS, Cross-Encoder Re-ranking, Maximum"
+          },
+          {
+            "page": 2,
+            "text": "Marginal Relevance (MMR), Semantic Caching, and embedding optimization to improve retrieval",
+            "block_id": "b74",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              49.704,
+              637.51,
+              519.9979999999998,
+              649.51
+            ],
+            "fragment_text": "Marginal Relevance (MMR), Semantic Caching, and embedding optimization to improve retrieval"
+          },
+          {
+            "page": 2,
+            "text": "accuracy, response relevance, scalability, and operational efficiency.",
+            "block_id": "b75",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              49.704,
+              654.31,
+              381.552,
+              666.31
+            ],
+            "fragment_text": "accuracy, response relevance, scalability, and operational efficiency."
+          },
+          {
+            "page": 2,
+            "text": "• Managed healthcare data stored in SQL Server, Oracle, AWS Athena, and Azure Data Lake Storage Gen2",
+            "block_id": "b76",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              31.704,
+              671.422,
+              554.2079999999996,
+              683.8299999999999
+            ],
+            "fragment_text": " Managed healthcare data stored in SQL Server, Oracle, AWS Athena, and Azure Data Lake Storage Gen2"
+          },
+          {
+            "page": 2,
+            "text": "(ADLS Gen2) while maintaining data quality, governance, security, privacy, and compliance with HIPAA",
+            "block_id": "b77",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              49.704,
+              688.39,
+              548.1139999999999,
+              700.39
+            ],
+            "fragment_text": "(ADLS Gen2) while maintaining data quality, governance, security, privacy, and compliance with HIPAA"
+          },
+          {
+            "page": 2,
+            "text": "and healthcare industry standards.",
+            "block_id": "b78",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              49.704,
+              705.22,
+              218.92800000000003,
+              717.2199999999999
+            ],
+            "fragment_text": "and healthcare industry standards."
+          },
+          {
+            "page": 2,
+            "text": "• Built and maintained CI/CD pipelines using GitHub Actions, GitLab CI/CD, Docker, and Git to automate",
+            "block_id": "b79",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              31.704,
+              722.332,
+              544.8719999999998,
+              734.74
+            ],
+            "fragment_text": " Built and maintained CI/CD pipelines using GitHub Actions, GitLab CI/CD, Docker, and Git to automate"
+          },
+          {
+            "page": 2,
+            "text": "deployment, testing, monitoring, and version control of AI applications and healthcare data engineering",
+            "block_id": "b80",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              49.704,
+              739.2959999999999,
+              555.0819999999999,
+              751.2959999999999
+            ],
+            "fragment_text": "deployment, testing, monitoring, and version control of AI applications and healthcare data engineering"
+          },
+          {
+            "page": 2,
+            "text": "solutions.",
+            "block_id": "b81",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              49.704,
+              756.096,
+              96.84,
+              768.096
+            ]
+          },
+          {
+            "page": 2,
+            "text": "• Developed interactive dashboards and reporting solutions using Power BI and Azure Analysis Services",
+            "block_id": "b82",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              31.704,
+              773.208,
+              543.3719999999998,
+              785.616
+            ],
+            "fragment_text": " Developed interactive dashboards and reporting solutions using Power BI and Azure Analysis Services"
+          },
+          {
+            "page": 2,
+            "text": "(AAS) to provide insights into member engagement, healthcare analytics, operational performance, care",
+            "block_id": "b83",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              49.704,
+              790.1999999999999,
+              557.312,
+              802.1999999999999
+            ],
+            "fragment_text": "(AAS) to provide insights into member engagement, healthcare analytics, operational performance, care"
+          },
+          {
+            "page": 3,
+            "text": "management metrics, and AI solution effectiveness.",
+            "block_id": "b84",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              49.704,
+              45.01999999999998,
+              302.40000000000003,
+              57.01999999999998
+            ],
+            "fragment_text": "management metrics, and AI solution effectiveness."
+          },
+          {
+            "page": 3,
+            "text": "• Collaborated with healthcare analysts, clinicians, care management teams, provider networks, data",
+            "block_id": "b85",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              31.704,
+              62.37199999999996,
+              533.1479999999998,
+              74.77999999999997
+            ],
+            "fragment_text": " Collaborated with healthcare analysts, clinicians, care management teams, provider networks, data"
+          },
+          {
+            "page": 3,
+            "text": "scientists, enterprise architects, DevOps engineers, and business stakeholders to deliver secure, scalable",
+            "block_id": "b86",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              49.704,
+              79.33999999999992,
+              557.558,
+              91.33999999999992
+            ],
+            "fragment_text": "scientists, enterprise architects, DevOps engineers, and business stakeholders to deliver secure, scalable"
+          },
+          {
+            "page": 3,
+            "text": "AI solutions aligned with Humana Inc.'s digital healthcare transformation, member-centered care, and",
+            "block_id": "b87",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              49.704,
+              95.89999999999998,
+              546.9019999999999,
+              107.89999999999998
+            ],
+            "fragment_text": "AI solutions aligned with Humana Inc.'s digital healthcare transformation, member-centered care, and"
+          },
+          {
+            "page": 3,
+            "text": "operational excellence initiatives.",
+            "block_id": "b88",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              49.704,
+              112.69999999999993,
+              212.68800000000002,
+              124.69999999999993
+            ],
+            "fragment_text": "operational excellence initiatives."
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_2",
+      "name": "Project 2:: Goldman Sachs",
+      "client": "Goldman Sachs",
+      "role": "",
+      "duration": "Aug 2022 to Oct 2023.",
+      "details": [
+        "Roles and Responsibilities:",
+        "• Extensive experience in migrating on-premises data sources to Azure Blob Storage staging areas,",
+        "enabling efficient data processing and analysis in the cloud.",
+        "• Proficient in Azure BI migrations, leveraging Azure Data Factory (ADF) to extract data from various on- premises systems, including SAP, SQL Server, CSV files, and Blob Storage.",
+        "• Skilled in creating ADF pipelines with advanced activities such as Lookup, Copy Data, Set Variable, and",
+        "Azure Function, ensuring reliable and scalable data movement.",
+        "• Hands-on experience in executing ADF data migration projects, seamlessly transferring data from on- premises to Azure cloud services, including Azure SQL Database and Azure Data Lake Storage.",
+        "• Expertise in configuring and utilizing Azure cloud services, including Azure Blob Storage, Azure SQL"
+      ],
+      "raw_text": "Project 2:\nClient: Goldman Sachs\nDuration: Aug 2022 to Oct 2023.\nRoles and Responsibilities:\n• Extensive experience in migrating on-premises data sources to Azure Blob Storage staging areas,\nenabling efficient data processing and analysis in the cloud.\n• Proficient in Azure BI migrations, leveraging Azure Data Factory (ADF) to extract data from various on- premises systems, including SAP, SQL Server, CSV files, and Blob Storage.\n• Skilled in creating ADF pipelines with advanced activities such as Lookup, Copy Data, Set Variable, and\nAzure Function, ensuring reliable and scalable data movement.",
+      "source": {
+        "entry": [
+          {
+            "page": 3,
+            "text": "Project 2:",
+            "block_id": "b89",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              35.544,
+              143.92999999999995,
+              82.97999999999999,
+              155.92999999999995
+            ],
+            "fragment_text": "Project 2:"
+          },
+          {
+            "page": 3,
+            "text": "Client: Goldman Sachs",
+            "block_id": "b90",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              35.544,
+              173.20999999999992,
+              146.53200000000004,
+              185.20999999999992
+            ],
+            "fragment_text": "Client: Goldman Sachs"
+          },
+          {
+            "page": 3,
+            "text": "Duration: Aug 2022 to Oct 2023.",
+            "block_id": "b91",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              35.544,
+              187.8499999999999,
+              195.75400000000002,
+              199.8499999999999
+            ],
+            "fragment_text": "Duration: Aug 2022 to Oct 2023."
+          },
+          {
+            "page": 3,
+            "text": "Roles and Responsibilities:",
+            "block_id": "b92",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              35.544,
+              217.14999999999998,
+              167.72600000000003,
+              229.14999999999998
+            ]
+          },
+          {
+            "page": 3,
+            "text": "• Extensive experience in migrating on-premises data sources to Azure Blob Storage staging areas,",
+            "block_id": "b93",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              35.544,
+              246.98199999999997,
+              523.1919999999999,
+              259.39
+            ],
+            "fragment_text": " Extensive experience in migrating on-premises data sources to Azure Blob Storage staging areas,"
+          },
+          {
+            "page": 3,
+            "text": "enabling efficient data processing and analysis in the cloud.",
+            "block_id": "b94",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              53.544,
+              264.18999999999994,
+              342.216,
+              276.18999999999994
+            ],
+            "fragment_text": "enabling efficient data processing and analysis in the cloud."
+          },
+          {
+            "page": 3,
+            "text": "• Proficient in Azure BI migrations, leveraging Azure Data Factory (ADF) to extract data from various on-",
+            "block_id": "b95",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              35.544,
+              281.3019999999999,
+              550.1320000000001,
+              293.7099999999999
+            ]
+          },
+          {
+            "page": 3,
+            "text": "premises systems, including SAP, SQL Server, CSV files, and Blob Storage.",
+            "block_id": "b95",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              53.544,
+              298.29999999999995,
+              407.39999999999986,
+              310.29999999999995
+            ],
+            "fragment_text": "premises systems, including SAP, SQL Server, CSV files, and Blob Storage."
+          },
+          {
+            "page": 3,
+            "text": "• Skilled in creating ADF pipelines with advanced activities such as Lookup, Copy Data, Set Variable, and",
+            "block_id": "b96",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              35.544,
+              315.65199999999993,
+              548.3279999999999,
+              328.05999999999995
+            ],
+            "fragment_text": " Skilled in creating ADF pipelines with advanced activities such as Lookup, Copy Data, Set Variable, and"
+          },
+          {
+            "page": 3,
+            "text": "Azure Function, ensuring reliable and scalable data movement.",
+            "block_id": "b97",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              53.544,
+              332.61999999999995,
+              360.21599999999995,
+              344.61999999999995
+            ],
+            "fragment_text": "Azure Function, ensuring reliable and scalable data movement."
+          },
+          {
+            "page": 3,
+            "text": "• Hands-on experience in executing ADF data migration projects, seamlessly transferring data from on-",
+            "block_id": "b98",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              35.544,
+              349.73199999999997,
+              546.292,
+              362.14
+            ]
+          },
+          {
+            "page": 3,
+            "text": "premises to Azure cloud services, including Azure SQL Database and Azure Data Lake Storage.",
+            "block_id": "b98",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              53.544,
+              366.69999999999993,
+              508.1639999999997,
+              378.69999999999993
+            ],
+            "fragment_text": "premises to Azure cloud services, including Azure SQL Database and Azure Data Lake Storage."
+          },
+          {
+            "page": 3,
+            "text": "• Expertise in configuring and utilizing Azure cloud services, including Azure Blob Storage, Azure SQL",
+            "block_id": "b99",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              35.544,
+              384.07199999999995,
+              531.8599999999999,
+              396.47999999999996
+            ],
+            "fragment_text": " Expertise in configuring and utilizing Azure cloud services, including Azure Blob Storage, Azure SQL"
+          },
+          {
+            "page": 3,
+            "text": "Database, and Azure Data Lake Storage, to build robust data platforms.",
+            "block_id": "b100",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              53.544,
+              401.03999999999996,
+              399.5279999999999,
+              413.03999999999996
+            ],
+            "fragment_text": "Database, and Azure Data Lake Storage, to build robust data platforms."
+          },
+          {
+            "page": 3,
+            "text": "• Proficient in implementing data warehouse solutions and writing complex SQL queries using joins, keys,",
+            "block_id": "b101",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              35.544,
+              418.15199999999993,
+              557.748,
+              430.55999999999995
+            ],
+            "fragment_text": " Proficient in implementing data warehouse solutions and writing complex SQL queries using joins, keys,"
+          },
+          {
+            "page": 3,
+            "text": "and subqueries to transform and load data into final destinations.",
+            "block_id": "b102",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              53.544,
+              435.11999999999995,
+              373.62,
+              447.11999999999995
+            ],
+            "fragment_text": "and subqueries to transform and load data into final destinations."
+          },
+          {
+            "page": 3,
+            "text": "• Knowledgeable in using Logic Apps for email configurations within ADF pipelines, enabling effective",
+            "block_id": "b103",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              35.544,
+              452.49199999999996,
+              536.9879999999998,
+              464.9
+            ],
+            "fragment_text": " Knowledgeable in using Logic Apps for email configurations within ADF pipelines, enabling effective"
+          },
+          {
+            "page": 3,
+            "text": "monitoring and alerting of data migration processes.",
+            "block_id": "b104",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              53.544,
+              469.46,
+              309.816,
+              481.46
+            ],
+            "fragment_text": "monitoring and alerting of data migration processes."
+          },
+          {
+            "page": 3,
+            "text": "• Experienced in working with Agile methodologies, actively participating in daily scrum meetings, sprint",
+            "block_id": "b105",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              35.544,
+              486.57199999999995,
+              552.734,
+              498.97999999999996
+            ],
+            "fragment_text": " Experienced in working with Agile methodologies, actively participating in daily scrum meetings, sprint"
+          },
+          {
+            "page": 3,
+            "text": "planning, and demo sessions to ensure successful project delivery.",
+            "block_id": "b106",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              53.544,
+              503.53999999999996,
+              376.248,
+              515.54
+            ],
+            "fragment_text": "planning, and demo sessions to ensure successful project delivery."
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_3",
+      "name": "Project 1:: HSBC",
+      "client": "HSBC",
+      "role": "",
+      "duration": "Jan 2018 to May 2022.",
+      "details": [
+        "Roles and Responsibilities:",
+        "• Designed and optimized complex SQL queries, stored procedures, views, functions, and triggers for",
+        "efficient data manipulation and reporting.",
+        "• Developed and maintained ETL workflows using SQL Server Integration Services (SSIS) to load data from",
+        "multiple sources into the data warehouse.",
+        "• Performed data validation, cleansing, and transformation using T-SQL and applied indexing techniques",
+        "to improve query performance.",
+        "• Creating Report using SSRS Report."
+      ],
+      "raw_text": "Project 1:\nClient: HSBC\nDuration: Jan 2018 to May 2022.\nRoles and Responsibilities:\n• Designed and optimized complex SQL queries, stored procedures, views, functions, and triggers for\nefficient data manipulation and reporting.\n• Developed and maintained ETL workflows using SQL Server Integration Services (SSIS) to load data from\nmultiple sources into the data warehouse.\n• Performed data validation, cleansing, and transformation using T-SQL and applied indexing techniques\nto improve query performance.\n• Creating Report using SSRS Report.\n• Involved in Data Migration and integration tasks.\n• Mai",
+      "source": {
+        "entry": [
+          {
+            "page": 3,
+            "text": "Project 1:",
+            "block_id": "b107",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              35.544,
+              537.17,
+              82.97999999999999,
+              549.17
+            ],
+            "fragment_text": "Project 1:"
+          },
+          {
+            "page": 3,
+            "text": "Client: HSBC",
+            "block_id": "b108",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              35.544,
+              566.4499999999999,
+              96.60000000000001,
+              578.4499999999999
+            ],
+            "fragment_text": "Client: HSBC"
+          },
+          {
+            "page": 3,
+            "text": "Duration: Jan 2018 to May 2022.",
+            "block_id": "b109",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              35.544,
+              581.0899999999999,
+              197.42200000000003,
+              593.0899999999999
+            ],
+            "fragment_text": "Duration: Jan 2018 to May 2022."
+          },
+          {
+            "page": 3,
+            "text": "Roles and Responsibilities:",
+            "block_id": "b110",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              35.544,
+              610.6099999999999,
+              167.64000000000004,
+              622.6099999999999
+            ]
+          },
+          {
+            "page": 3,
+            "text": "• Designed and optimized complex SQL queries, stored procedures, views, functions, and triggers for",
+            "block_id": "b111",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              35.544,
+              640.462,
+              559.802,
+              652.8699999999999
+            ],
+            "fragment_text": " Designed and optimized complex SQL queries, stored procedures, views, functions, and triggers for"
+          },
+          {
+            "page": 3,
+            "text": "efficient data manipulation and reporting.",
+            "block_id": "b112",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              53.544,
+              657.43,
+              258.048,
+              669.43
+            ],
+            "fragment_text": "efficient data manipulation and reporting."
+          },
+          {
+            "page": 3,
+            "text": "• Developed and maintained ETL workflows using SQL Server Integration Services (SSIS) to load data from",
+            "block_id": "b113",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              35.544,
+              674.5419999999999,
+              559.2719999999998,
+              686.9499999999999
+            ],
+            "fragment_text": " Developed and maintained ETL workflows using SQL Server Integration Services (SSIS) to load data from"
+          },
+          {
+            "page": 3,
+            "text": "multiple sources into the data warehouse.",
+            "block_id": "b114",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              53.544,
+              691.51,
+              259.2,
+              703.51
+            ],
+            "fragment_text": "multiple sources into the data warehouse."
+          },
+          {
+            "page": 3,
+            "text": "• Performed data validation, cleansing, and transformation using T-SQL and applied indexing techniques",
+            "block_id": "b115",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              35.544,
+              708.8919999999999,
+              552.3679999999999,
+              721.3
+            ],
+            "fragment_text": " Performed data validation, cleansing, and transformation using T-SQL and applied indexing techniques"
+          },
+          {
+            "page": 3,
+            "text": "to improve query performance.",
+            "block_id": "b116",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              53.544,
+              725.8599999999999,
+              206.712,
+              737.8599999999999
+            ],
+            "fragment_text": "to improve query performance."
+          },
+          {
+            "page": 3,
+            "text": "• Creating Report using SSRS Report.",
+            "block_id": "b117",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              35.544,
+              742.968,
+              223.488,
+              755.376
+            ],
+            "fragment_text": " Creating Report using SSRS Report."
+          },
+          {
+            "page": 3,
+            "text": "• Involved in Data Migration and integration tasks.",
+            "block_id": "b118",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              35.544,
+              760.4879999999999,
+              291.072,
+              772.896
+            ],
+            "fragment_text": " Involved in Data Migration and integration tasks."
+          },
+          {
+            "page": 3,
+            "text": "• Maintenance of all process steps in generating MIS reports through SQL server reporting services.",
+            "block_id": "b119",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              35.544,
+              778.2479999999999,
+              528.962,
+              790.656
+            ],
+            "fragment_text": " Maintenance of all process steps in generating MIS reports through SQL server reporting services."
+          },
+          {
+            "page": 3,
+            "text": "• Involved in creation and maintenance of various scheduled jobs and batch processes.",
+            "block_id": "b120",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              35.544,
+              795.7919999999999,
+              468.36000000000007,
+              808.1999999999999
+            ],
+            "fragment_text": " Involved in creation and maintenance of various scheduled jobs and batch processes."
+          },
+          {
+            "page": 4,
+            "text": "• import and export from NAV to variety of other applications and databases; maintain and develop SQL",
+            "block_id": "b121",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              35.544,
+              45.331999999999994,
+              552.1679999999999,
+              57.74000000000001
+            ],
+            "fragment_text": " import and export from NAV to variety of other applications and databases; maintain and develop SQL"
+          },
+          {
+            "page": 4,
+            "text": "Server Integration Services (SSIS) packages to automate data flow across another database",
+            "block_id": "b122",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              53.544,
+              62.299999999999955,
+              495.10800000000006,
+              74.29999999999995
+            ],
+            "fragment_text": "Server Integration Services (SSIS) packages to automate data flow across another database"
+          },
+          {
+            "page": 4,
+            "text": "• Designed, Programmed, Implemented and Analyzed new/existing functions and procedures within",
+            "block_id": "b123",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              35.544,
+              79.65199999999993,
+              533.292,
+              92.05999999999995
+            ],
+            "fragment_text": " Designed, Programmed, Implemented and Analyzed new/existing functions and procedures within"
+          },
+          {
+            "page": 4,
+            "text": "Navision ERP system.",
+            "block_id": "b124",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              53.544,
+              96.62,
+              156.76800000000003,
+              108.62
+            ],
+            "fragment_text": "Navision ERP system."
+          }
+        ]
+      }
+    }
+  ],
+  "gaps": [
+    {
+      "id": "g48d7d0e681289ac4",
+      "start": [
+        2022,
+        6
+      ],
+      "end": [
+        2022,
+        7
+      ],
+      "months": 2,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9,
+      "reasons": [
+        "GAP_NO_COVERAGE"
+      ],
+      "evidence": {
+        "event_before": "v63dd3d0bad79f79b",
+        "event_after": "vabf34b664b991700",
+        "coverage_scope": "all_dated_activity"
+      },
+      "start_label": "2022-06",
+      "end_label": "2022-07",
+      "evidence_quotes": [
+        "• Worked as Software Engineer at Tata Consultancy Services, Bengaluru from Jan 2018 to May 2022",
+        "Project 2:"
+      ],
+      "evidence_details": [
+        {
+          "header": "Worked as Software Engineer at at Tata Consultancy Services",
+          "quote": "• Worked as Software Engineer at Tata Consultancy Services, Bengaluru from Jan 2018 to May 2022",
+          "event_id": "v63dd3d0bad79f79b",
+          "source": {
+            "entry": [
+              {
+                "page": 2,
+                "text": "• Worked as Software Engineer at Tata Consultancy Services, Bengaluru from Jan 2018 to May 2022",
+                "block_id": "b47",
+                "kind": "pdf",
+                "page_width": 595.2,
+                "page_height": 841.92,
+                "bbox": [
+                  53.544,
+                  102.24464,
+                  515.7628,
+                  113.65999999999997
+                ],
+                "fragment_text": " Worked as Software Engineer at Tata Consultancy Services, Bengaluru from Jan 2018 to May 2022"
+              }
+            ],
+            "dates": [
+              {
+                "page": 2,
+                "text": "Jan 2018 to May 2022",
+                "block_id": "b47",
+                "kind": "pdf",
+                "page_width": 595.2,
+                "page_height": 841.92,
+                "bbox": [
+                  416.57,
+                  102.62,
+                  515.7628,
+                  113.65999999999997
+                ]
+              }
+            ],
+            "company": [
+              {
+                "page": 2,
+                "text": "at Tata Consultancy Services",
+                "block_id": "b47",
+                "kind": "pdf",
+                "page_width": 595.2,
+                "page_height": 841.92,
+                "bbox": [
+                  208.39,
+                  102.62,
+                  337.47472000000005,
+                  113.65999999999997
+                ],
+                "fragment_text": "at Tata Consultancy Services"
+              }
+            ],
+            "title": [
+              {
+                "page": 2,
+                "text": "Worked as Software Engineer",
+                "block_id": "b47",
+                "kind": "pdf",
+                "page_width": 595.2,
+                "page_height": 841.92,
+                "bbox": [
+                  71.544,
+                  102.62,
+                  205.94312000000002,
+                  113.65999999999997
+                ],
+                "fragment_text": "Worked as Software Engineer"
+              }
+            ],
+            "section": "Professional Experience:",
+            "date_label": "Jan 2018 to May 2022",
+            "is_present": false
+          }
+        },
+        {
+          "header": "Project 2:",
+          "quote": "Project 2:",
+          "event_id": "vabf34b664b991700",
+          "source": {
+            "entry": [
+              {
+                "page": 3,
+                "text": "Project 2:",
+                "block_id": "b89",
+                "kind": "pdf",
+                "page_width": 595.2,
+                "page_height": 841.92,
+                "bbox": [
+                  35.544,
+                  143.92999999999995,
+                  82.97999999999999,
+                  155.92999999999995
+                ],
+                "fragment_text": "Project 2:"
+              }
+            ],
+            "dates": [
+              {
+                "page": 3,
+                "text": "Aug 2022 to Oct 2023",
+                "block_id": "b91",
+                "kind": "pdf",
+                "page_width": 595.2,
+                "page_height": 841.92,
+                "bbox": [
+                  85.944,
+                  187.8499999999999,
+                  192.394,
+                  199.8499999999999
+                ]
+              }
+            ],
+            "company": [],
+            "title": [
+              {
+                "page": 3,
+                "text": "Project 2",
+                "block_id": "b89",
+                "kind": "pdf",
+                "page_width": 595.2,
+                "page_height": 841.92,
+                "bbox": [
+                  35.544,
+                  143.92999999999995,
+                  79.752,
+                  155.92999999999995
+                ],
+                "fragment_text": "Project 2"
+              }
+            ],
+            "section": "Project Experience:",
+            "date_label": "Aug 2022 to Oct 2023",
+            "is_present": false
+          }
+        }
+      ]
+    }
+  ],
+  "total_work_experience_entries": 2,
+  "total_projects_entries": 3,
+  "total_gaps_detected": 1,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "raw_pipeline_dto": {
+    "doc_id": "8785fd636a3d562c0b463035",
+    "filename": "HarinathReddy.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v63dd3d0bad79f79b",
+        "type": "EMPLOYMENT",
+        "title": "Worked as Software Engineer",
+        "org": "at Tata Consultancy Services",
+        "start": "2018-01",
+        "end": "2022-05",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "• Worked as Software Engineer at Tata Consultancy Services, Bengaluru from Jan 2018 to May 2022",
+        "source": {
+          "entry": [
+            {
+              "page": 2,
+              "text": "• Worked as Software Engineer at Tata Consultancy Services, Bengaluru from Jan 2018 to May 2022",
+              "block_id": "b47",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                53.544,
+                102.24464,
+                515.7628,
+                113.65999999999997
+              ],
+              "fragment_text": " Worked as Software Engineer at Tata Consultancy Services, Bengaluru from Jan 2018 to May 2022"
+            }
+          ],
+          "dates": [
+            {
+              "page": 2,
+              "text": "Jan 2018 to May 2022",
+              "block_id": "b47",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                416.57,
+                102.62,
+                515.7628,
+                113.65999999999997
+              ]
+            }
+          ],
+          "company": [
+            {
+              "page": 2,
+              "text": "at Tata Consultancy Services",
+              "block_id": "b47",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                208.39,
+                102.62,
+                337.47472000000005,
+                113.65999999999997
+              ],
+              "fragment_text": "at Tata Consultancy Services"
+            }
+          ],
+          "title": [
+            {
+              "page": 2,
+              "text": "Worked as Software Engineer",
+              "block_id": "b47",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                71.544,
+                102.62,
+                205.94312000000002,
+                113.65999999999997
+              ],
+              "fragment_text": "Worked as Software Engineer"
+            }
+          ],
+          "section": "Professional Experience:",
+          "date_label": "Jan 2018 to May 2022",
+          "is_present": false
+        },
+        "date_label": "Jan 2018 to May 2022",
+        "section": "Professional Experience:",
+        "is_present": false
+      },
+      {
+        "id": "v28a65660bf478199",
+        "type": "PROJECT",
+        "title": "Project 1:",
+        "org": "",
+        "start": "2018-01",
+        "end": "2022-05",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_PROJECT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Project 1:",
+        "source": {
+          "entry": [
+            {
+              "page": 3,
+              "text": "Project 1:",
+              "block_id": "b107",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                35.544,
+                537.17,
+                82.97999999999999,
+                549.17
+              ],
+              "fragment_text": "Project 1:"
+            }
+          ],
+          "dates": [
+            {
+              "page": 3,
+              "text": "Jan 2018 to May 2022",
+              "block_id": "b109",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                85.944,
+                581.0899999999999,
+                194.074,
+                593.0899999999999
+              ]
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 3,
+              "text": "Project 1",
+              "block_id": "b107",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                35.544,
+                537.17,
+                79.752,
+                549.17
+              ],
+              "fragment_text": "Project 1"
+            }
+          ],
+          "section": "Project Experience:",
+          "date_label": "Jan 2018 to May 2022",
+          "is_present": false
+        },
+        "date_label": "Jan 2018 to May 2022",
+        "section": "Project Experience:",
+        "is_present": false
+      },
+      {
+        "id": "vabf34b664b991700",
+        "type": "PROJECT",
+        "title": "Project 2:",
+        "org": "",
+        "start": "2022-08",
+        "end": "2023-10",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_PROJECT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Project 2:",
+        "source": {
+          "entry": [
+            {
+              "page": 3,
+              "text": "Project 2:",
+              "block_id": "b89",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                35.544,
+                143.92999999999995,
+                82.97999999999999,
+                155.92999999999995
+              ],
+              "fragment_text": "Project 2:"
+            }
+          ],
+          "dates": [
+            {
+              "page": 3,
+              "text": "Aug 2022 to Oct 2023",
+              "block_id": "b91",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                85.944,
+                187.8499999999999,
+                192.394,
+                199.8499999999999
+              ]
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 3,
+              "text": "Project 2",
+              "block_id": "b89",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                35.544,
+                143.92999999999995,
+                79.752,
+                155.92999999999995
+              ],
+              "fragment_text": "Project 2"
+            }
+          ],
+          "section": "Project Experience:",
+          "date_label": "Aug 2022 to Oct 2023",
+          "is_present": false
+        },
+        "date_label": "Aug 2022 to Oct 2023",
+        "section": "Project Experience:",
+        "is_present": false
+      },
+      {
+        "id": "ve34bcda560ac99b2",
+        "type": "EMPLOYMENT",
+        "title": "Working as Gen AI Engineer",
+        "org": "at Dell Technologies",
+        "start": "2023-11",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "• Working as Gen AI Engineer at Dell Technologies, Bengaluru from Nov 2023 to Till Date.",
+        "source": {
+          "entry": [
+            {
+              "page": 2,
+              "text": "• Working as Gen AI Engineer at Dell Technologies, Bengaluru from Nov 2023 to Till Date.",
+              "block_id": "b45",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                53.544,
+                74.16463999999996,
+                467.83208,
+                85.57999999999993
+              ],
+              "fragment_text": " Working as Gen AI Engineer at Dell Technologies, Bengaluru from Nov 2023 to Till Date."
+            }
+          ],
+          "dates": [
+            {
+              "page": 2,
+              "text": "Nov 2023 to Till Date",
+              "block_id": "b45",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                369.98,
+                74.53999999999996,
+                465.03848,
+                85.57999999999993
+              ]
+            }
+          ],
+          "company": [
+            {
+              "page": 2,
+              "text": "at Dell Technologies",
+              "block_id": "b45",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                199.51,
+                74.53999999999996,
+                291.1612,
+                85.57999999999993
+              ],
+              "fragment_text": "at Dell Technologies"
+            }
+          ],
+          "title": [
+            {
+              "page": 2,
+              "text": "Working as Gen AI Engineer",
+              "block_id": "b45",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                71.544,
+                74.53999999999996,
+                197.13832,
+                85.57999999999993
+              ],
+              "fragment_text": "Working as Gen AI Engineer"
+            }
+          ],
+          "section": "Professional Experience:",
+          "date_label": "Nov 2023 to Till Date",
+          "is_present": true
+        },
+        "date_label": "Nov 2023 to Till Date",
+        "section": "Professional Experience:",
+        "is_present": true
+      },
+      {
+        "id": "v98a7311729db75d3",
+        "type": "PROJECT",
+        "title": "Project 3:",
+        "org": "",
+        "start": "2023-11",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_PROJECT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Project 3:",
+        "source": {
+          "entry": [
+            {
+              "page": 2,
+              "text": "Project 3:",
+              "block_id": "b49",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                35.544,
+                159.28999999999996,
+                82.97999999999999,
+                171.28999999999996
+              ],
+              "fragment_text": "Project 3:"
+            }
+          ],
+          "dates": [
+            {
+              "page": 2,
+              "text": "Nov 2023 to Till Date",
+              "block_id": "b51",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                85.944,
+                188.56999999999994,
+                189.878,
+                200.56999999999994
+              ]
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 2,
+              "text": "Project 3",
+              "block_id": "b49",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                35.544,
+                159.28999999999996,
+                79.752,
+                171.28999999999996
+              ],
+              "fragment_text": "Project 3"
+            }
+          ],
+          "section": "Project Experience:",
+          "date_label": "Nov 2023 to Till Date",
+          "is_present": true
+        },
+        "date_label": "Nov 2023 to Till Date",
+        "section": "Project Experience:",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "Project 3:: Dell",
+        "client": "Dell",
+        "role": "",
+        "duration": "Nov 2023 to Till Date.",
+        "details": [
+          "Roles and Responsibilities:",
+          "• Designed and developed enterprise-grade Generative AI solutions using OpenAI GPT-4 and Azure",
+          "OpenAI to enhance healthcare operations, clinical support, member engagement, provider services, and",
+          "enterprise knowledge management across Humana Inc.",
+          "• Built advanced Retrieval-Augmented Generation (RAG) applications using LangChain, LangGraph,",
+          "CrewAI, and Model Context Protocol (MCP) to enable intelligent retrieval of clinical guidelines,",
+          "healthcare policies, provider documentation, member resources, care management information, and",
+          "enterprise knowledge repositories."
+        ],
+        "raw_text": "Project 3:\nClient: Dell\nDuration: Nov 2023 to Till Date.\nRoles and Responsibilities:\n• Designed and developed enterprise-grade Generative AI solutions using OpenAI GPT-4 and Azure\nOpenAI to enhance healthcare operations, clinical support, member engagement, provider services, and\nenterprise knowledge management across Humana Inc.\n• Built advanced Retrieval-Augmented Generation (RAG) applications using LangChain, LangGraph,\nCrewAI, and Model Context Protocol (MCP) to enable intelligent retrieval of clinical guidelines,\nhealthcare policies, provider documentation, member resources, care manageme",
+        "source": {
+          "entry": [
+            {
+              "page": 2,
+              "text": "Project 3:",
+              "block_id": "b49",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                35.544,
+                159.28999999999996,
+                82.97999999999999,
+                171.28999999999996
+              ],
+              "fragment_text": "Project 3:"
+            },
+            {
+              "page": 2,
+              "text": "Client: Dell",
+              "block_id": "b50",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                35.544,
+                173.92999999999995,
+                89.832,
+                185.92999999999995
+              ],
+              "fragment_text": "Client: Dell"
+            },
+            {
+              "page": 2,
+              "text": "Duration: Nov 2023 to Till Date.",
+              "block_id": "b51",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                35.544,
+                188.56999999999994,
+                193.046,
+                200.56999999999994
+              ],
+              "fragment_text": "Duration: Nov 2023 to Till Date."
+            },
+            {
+              "page": 2,
+              "text": "Roles and Responsibilities:",
+              "block_id": "b52",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                35.544,
+                217.87,
+                167.64000000000004,
+                229.87
+              ]
+            },
+            {
+              "page": 2,
+              "text": "• Designed and developed enterprise-grade Generative AI solutions using OpenAI GPT-4 and Azure",
+              "block_id": "b53",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                31.704,
+                247.702,
+                522.11,
+                260.11
+              ],
+              "fragment_text": " Designed and developed enterprise-grade Generative AI solutions using OpenAI GPT-4 and Azure"
+            },
+            {
+              "page": 2,
+              "text": "OpenAI to enhance healthcare operations, clinical support, member engagement, provider services, and",
+              "block_id": "b54",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                49.704,
+                264.66999999999996,
+                557.0639999999999,
+                276.66999999999996
+              ],
+              "fragment_text": "OpenAI to enhance healthcare operations, clinical support, member engagement, provider services, and"
+            },
+            {
+              "page": 2,
+              "text": "enterprise knowledge management across Humana Inc.",
+              "block_id": "b55",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                49.704,
+                281.2299999999999,
+                320.904,
+                293.2299999999999
+              ],
+              "fragment_text": "enterprise knowledge management across Humana Inc."
+            },
+            {
+              "page": 2,
+              "text": "• Built advanced Retrieval-Augmented Generation (RAG) applications using LangChain, LangGraph,",
+              "block_id": "b56",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                31.704,
+                298.61199999999997,
+                521.2539999999999,
+                311.02
+              ],
+              "fragment_text": " Built advanced Retrieval-Augmented Generation (RAG) applications using LangChain, LangGraph,"
+            },
+            {
+              "page": 2,
+              "text": "CrewAI, and Model Context Protocol (MCP) to enable intelligent retrieval of clinical guidelines,",
+              "block_id": "b57",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                49.704,
+                315.5799999999999,
+                509.18,
+                327.5799999999999
+              ],
+              "fragment_text": "CrewAI, and Model Context Protocol (MCP) to enable intelligent retrieval of clinical guidelines,"
+            },
+            {
+              "page": 2,
+              "text": "healthcare policies, provider documentation, member resources, care management information, and",
+              "block_id": "b58",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                49.704,
+                332.14,
+                542.172,
+                344.14
+              ],
+              "fragment_text": "healthcare policies, provider documentation, member resources, care management information, and"
+            },
+            {
+              "page": 2,
+              "text": "enterprise knowledge repositories.",
+              "block_id": "b59",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                49.704,
+                348.93999999999994,
+                219.672,
+                360.93999999999994
+              ],
+              "fragment_text": "enterprise knowledge repositories."
+            },
+            {
+              "page": 2,
+              "text": "• Developed semantic search solutions using ChromaDB and embedding-based retrieval techniques to",
+              "block_id": "b60",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                31.704,
+                366.05199999999996,
+                538.9159999999999,
+                378.46
+              ],
+              "fragment_text": " Developed semantic search solutions using ChromaDB and embedding-based retrieval techniques to"
+            },
+            {
+              "page": 2,
+              "text": "deliver accurate, context-aware search capabilities across clinical documents, provider resources,",
+              "block_id": "b60",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                49.704,
+                383.03999999999996,
+                523.162,
+                395.03999999999996
+              ],
+              "fragment_text": "deliver accurate, context-aware search capabilities across clinical documents, provider resources,"
+            },
+            {
+              "page": 2,
+              "text": "member information, healthcare policies, and operational knowledge bases.",
+              "block_id": "b61",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                49.704,
+                399.84,
+                421.36799999999994,
+                411.84
+              ],
+              "fragment_text": "member information, healthcare policies, and operational knowledge bases."
+            },
+            {
+              "page": 2,
+              "text": "• Engineered scalable data ingestion and transformation pipelines using PySpark, Azure Data Factory",
+              "block_id": "b62",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                31.704,
+                416.95199999999994,
+                530.9440000000001,
+                429.35999999999996
+              ],
+              "fragment_text": " Engineered scalable data ingestion and transformation pipelines using PySpark, Azure Data Factory"
+            },
+            {
+              "page": 2,
+              "text": "(ADF), Databricks Delta Lake, and SSIS to process large-scale healthcare, member, provider, clinical,",
+              "block_id": "b63",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                49.704,
+                433.91999999999996,
+                532.6439999999999,
+                445.91999999999996
+              ],
+              "fragment_text": "(ADF), Databricks Delta Lake, and SSIS to process large-scale healthcare, member, provider, clinical,"
+            },
+            {
+              "page": 2,
+              "text": "operational, and analytics datasets.",
+              "block_id": "b64",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                49.704,
+                450.71999999999997,
+                222.27600000000004,
+                462.71999999999997
+              ],
+              "fragment_text": "operational, and analytics datasets."
+            },
+            {
+              "page": 2,
+              "text": "• Applied advanced prompt engineering, context management, embeddings, and LLM optimization",
+              "block_id": "b65",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                31.704,
+                467.8519999999999,
+                523.5319999999999,
+                480.25999999999993
+              ],
+              "fragment_text": " Applied advanced prompt engineering, context management, embeddings, and LLM optimization"
+            },
+            {
+              "page": 2,
+              "text": "techniques to improve AI response accuracy, clinical insights, retrieval performance, and adherence to",
+              "block_id": "b66",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                49.704,
+                484.81999999999994,
+                547.6919999999998,
+                496.81999999999994
+              ],
+              "fragment_text": "techniques to improve AI response accuracy, clinical insights, retrieval performance, and adherence to"
+            },
+            {
+              "page": 2,
+              "text": "healthcare compliance standards.",
+              "block_id": "b66",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                49.704,
+                501.61999999999995,
+                213.91200000000003,
+                513.6199999999999
+              ],
+              "fragment_text": "healthcare compliance standards."
+            },
+            {
+              "page": 2,
+              "text": "• Implemented multi-agent AI workflows using CrewAI, LangGraph, and MCP to automate member",
+              "block_id": "b67",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                31.704,
+                518.732,
+                523.018,
+                531.14
+              ],
+              "fragment_text": " Implemented multi-agent AI workflows using CrewAI, LangGraph, and MCP to automate member"
+            },
+            {
+              "page": 2,
+              "text": "assistance, provider support, care coordination, clinical documentation assistance, healthcare inquiries,",
+              "block_id": "b68",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                49.704,
+                535.73,
+                553.4399999999999,
+                547.73
+              ],
+              "fragment_text": "assistance, provider support, care coordination, clinical documentation assistance, healthcare inquiries,"
+            },
+            {
+              "page": 2,
+              "text": "and internal operational workflows.",
+              "block_id": "b69",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                49.704,
+                552.53,
+                223.96800000000002,
+                564.53
+              ],
+              "fragment_text": "and internal operational workflows."
+            },
+            {
+              "page": 2,
+              "text": "• Developed secure RESTful APIs and AI-powered healthcare applications using Python and FastAPI,",
+              "block_id": "b70",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                31.704,
+                569.6419999999999,
+                525.5920000000001,
+                582.05
+              ],
+              "fragment_text": " Developed secure RESTful APIs and AI-powered healthcare applications using Python and FastAPI,"
+            },
+            {
+              "page": 2,
+              "text": "integrating Generative AI capabilities with healthcare platforms, member applications, provider portals,",
+              "block_id": "b71",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                49.704,
+                586.6099999999999,
+                554.2579999999998,
+                598.6099999999999
+              ],
+              "fragment_text": "integrating Generative AI capabilities with healthcare platforms, member applications, provider portals,"
+            },
+            {
+              "page": 2,
+              "text": "care management systems, and enterprise applications.",
+              "block_id": "b72",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                49.704,
+                603.41,
+                321.348,
+                615.41
+              ],
+              "fragment_text": "care management systems, and enterprise applications."
+            },
+            {
+              "page": 2,
+              "text": "• Evaluated and optimized AI application performance using RAGAS, Cross-Encoder Re-ranking, Maximum",
+              "block_id": "b73",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                31.704,
+                620.5419999999999,
+                556.418,
+                632.9499999999999
+              ],
+              "fragment_text": " Evaluated and optimized AI application performance using RAGAS, Cross-Encoder Re-ranking, Maximum"
+            },
+            {
+              "page": 2,
+              "text": "Marginal Relevance (MMR), Semantic Caching, and embedding optimization to improve retrieval",
+              "block_id": "b74",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                49.704,
+                637.51,
+                519.9979999999998,
+                649.51
+              ],
+              "fragment_text": "Marginal Relevance (MMR), Semantic Caching, and embedding optimization to improve retrieval"
+            },
+            {
+              "page": 2,
+              "text": "accuracy, response relevance, scalability, and operational efficiency.",
+              "block_id": "b75",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                49.704,
+                654.31,
+                381.552,
+                666.31
+              ],
+              "fragment_text": "accuracy, response relevance, scalability, and operational efficiency."
+            },
+            {
+              "page": 2,
+              "text": "• Managed healthcare data stored in SQL Server, Oracle, AWS Athena, and Azure Data Lake Storage Gen2",
+              "block_id": "b76",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                31.704,
+                671.422,
+                554.2079999999996,
+                683.8299999999999
+              ],
+              "fragment_text": " Managed healthcare data stored in SQL Server, Oracle, AWS Athena, and Azure Data Lake Storage Gen2"
+            },
+            {
+              "page": 2,
+              "text": "(ADLS Gen2) while maintaining data quality, governance, security, privacy, and compliance with HIPAA",
+              "block_id": "b77",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                49.704,
+                688.39,
+                548.1139999999999,
+                700.39
+              ],
+              "fragment_text": "(ADLS Gen2) while maintaining data quality, governance, security, privacy, and compliance with HIPAA"
+            },
+            {
+              "page": 2,
+              "text": "and healthcare industry standards.",
+              "block_id": "b78",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                49.704,
+                705.22,
+                218.92800000000003,
+                717.2199999999999
+              ],
+              "fragment_text": "and healthcare industry standards."
+            },
+            {
+              "page": 2,
+              "text": "• Built and maintained CI/CD pipelines using GitHub Actions, GitLab CI/CD, Docker, and Git to automate",
+              "block_id": "b79",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                31.704,
+                722.332,
+                544.8719999999998,
+                734.74
+              ],
+              "fragment_text": " Built and maintained CI/CD pipelines using GitHub Actions, GitLab CI/CD, Docker, and Git to automate"
+            },
+            {
+              "page": 2,
+              "text": "deployment, testing, monitoring, and version control of AI applications and healthcare data engineering",
+              "block_id": "b80",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                49.704,
+                739.2959999999999,
+                555.0819999999999,
+                751.2959999999999
+              ],
+              "fragment_text": "deployment, testing, monitoring, and version control of AI applications and healthcare data engineering"
+            },
+            {
+              "page": 2,
+              "text": "solutions.",
+              "block_id": "b81",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                49.704,
+                756.096,
+                96.84,
+                768.096
+              ]
+            },
+            {
+              "page": 2,
+              "text": "• Developed interactive dashboards and reporting solutions using Power BI and Azure Analysis Services",
+              "block_id": "b82",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                31.704,
+                773.208,
+                543.3719999999998,
+                785.616
+              ],
+              "fragment_text": " Developed interactive dashboards and reporting solutions using Power BI and Azure Analysis Services"
+            },
+            {
+              "page": 2,
+              "text": "(AAS) to provide insights into member engagement, healthcare analytics, operational performance, care",
+              "block_id": "b83",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                49.704,
+                790.1999999999999,
+                557.312,
+                802.1999999999999
+              ],
+              "fragment_text": "(AAS) to provide insights into member engagement, healthcare analytics, operational performance, care"
+            },
+            {
+              "page": 3,
+              "text": "management metrics, and AI solution effectiveness.",
+              "block_id": "b84",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                49.704,
+                45.01999999999998,
+                302.40000000000003,
+                57.01999999999998
+              ],
+              "fragment_text": "management metrics, and AI solution effectiveness."
+            },
+            {
+              "page": 3,
+              "text": "• Collaborated with healthcare analysts, clinicians, care management teams, provider networks, data",
+              "block_id": "b85",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                31.704,
+                62.37199999999996,
+                533.1479999999998,
+                74.77999999999997
+              ],
+              "fragment_text": " Collaborated with healthcare analysts, clinicians, care management teams, provider networks, data"
+            },
+            {
+              "page": 3,
+              "text": "scientists, enterprise architects, DevOps engineers, and business stakeholders to deliver secure, scalable",
+              "block_id": "b86",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                49.704,
+                79.33999999999992,
+                557.558,
+                91.33999999999992
+              ],
+              "fragment_text": "scientists, enterprise architects, DevOps engineers, and business stakeholders to deliver secure, scalable"
+            },
+            {
+              "page": 3,
+              "text": "AI solutions aligned with Humana Inc.'s digital healthcare transformation, member-centered care, and",
+              "block_id": "b87",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                49.704,
+                95.89999999999998,
+                546.9019999999999,
+                107.89999999999998
+              ],
+              "fragment_text": "AI solutions aligned with Humana Inc.'s digital healthcare transformation, member-centered care, and"
+            },
+            {
+              "page": 3,
+              "text": "operational excellence initiatives.",
+              "block_id": "b88",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                49.704,
+                112.69999999999993,
+                212.68800000000002,
+                124.69999999999993
+              ],
+              "fragment_text": "operational excellence initiatives."
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "Project 2:: Goldman Sachs",
+        "client": "Goldman Sachs",
+        "role": "",
+        "duration": "Aug 2022 to Oct 2023.",
+        "details": [
+          "Roles and Responsibilities:",
+          "• Extensive experience in migrating on-premises data sources to Azure Blob Storage staging areas,",
+          "enabling efficient data processing and analysis in the cloud.",
+          "• Proficient in Azure BI migrations, leveraging Azure Data Factory (ADF) to extract data from various on- premises systems, including SAP, SQL Server, CSV files, and Blob Storage.",
+          "• Skilled in creating ADF pipelines with advanced activities such as Lookup, Copy Data, Set Variable, and",
+          "Azure Function, ensuring reliable and scalable data movement.",
+          "• Hands-on experience in executing ADF data migration projects, seamlessly transferring data from on- premises to Azure cloud services, including Azure SQL Database and Azure Data Lake Storage.",
+          "• Expertise in configuring and utilizing Azure cloud services, including Azure Blob Storage, Azure SQL"
+        ],
+        "raw_text": "Project 2:\nClient: Goldman Sachs\nDuration: Aug 2022 to Oct 2023.\nRoles and Responsibilities:\n• Extensive experience in migrating on-premises data sources to Azure Blob Storage staging areas,\nenabling efficient data processing and analysis in the cloud.\n• Proficient in Azure BI migrations, leveraging Azure Data Factory (ADF) to extract data from various on- premises systems, including SAP, SQL Server, CSV files, and Blob Storage.\n• Skilled in creating ADF pipelines with advanced activities such as Lookup, Copy Data, Set Variable, and\nAzure Function, ensuring reliable and scalable data movement.",
+        "source": {
+          "entry": [
+            {
+              "page": 3,
+              "text": "Project 2:",
+              "block_id": "b89",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                35.544,
+                143.92999999999995,
+                82.97999999999999,
+                155.92999999999995
+              ],
+              "fragment_text": "Project 2:"
+            },
+            {
+              "page": 3,
+              "text": "Client: Goldman Sachs",
+              "block_id": "b90",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                35.544,
+                173.20999999999992,
+                146.53200000000004,
+                185.20999999999992
+              ],
+              "fragment_text": "Client: Goldman Sachs"
+            },
+            {
+              "page": 3,
+              "text": "Duration: Aug 2022 to Oct 2023.",
+              "block_id": "b91",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                35.544,
+                187.8499999999999,
+                195.75400000000002,
+                199.8499999999999
+              ],
+              "fragment_text": "Duration: Aug 2022 to Oct 2023."
+            },
+            {
+              "page": 3,
+              "text": "Roles and Responsibilities:",
+              "block_id": "b92",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                35.544,
+                217.14999999999998,
+                167.72600000000003,
+                229.14999999999998
+              ]
+            },
+            {
+              "page": 3,
+              "text": "• Extensive experience in migrating on-premises data sources to Azure Blob Storage staging areas,",
+              "block_id": "b93",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                35.544,
+                246.98199999999997,
+                523.1919999999999,
+                259.39
+              ],
+              "fragment_text": " Extensive experience in migrating on-premises data sources to Azure Blob Storage staging areas,"
+            },
+            {
+              "page": 3,
+              "text": "enabling efficient data processing and analysis in the cloud.",
+              "block_id": "b94",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                53.544,
+                264.18999999999994,
+                342.216,
+                276.18999999999994
+              ],
+              "fragment_text": "enabling efficient data processing and analysis in the cloud."
+            },
+            {
+              "page": 3,
+              "text": "• Proficient in Azure BI migrations, leveraging Azure Data Factory (ADF) to extract data from various on-",
+              "block_id": "b95",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                35.544,
+                281.3019999999999,
+                550.1320000000001,
+                293.7099999999999
+              ]
+            },
+            {
+              "page": 3,
+              "text": "premises systems, including SAP, SQL Server, CSV files, and Blob Storage.",
+              "block_id": "b95",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                53.544,
+                298.29999999999995,
+                407.39999999999986,
+                310.29999999999995
+              ],
+              "fragment_text": "premises systems, including SAP, SQL Server, CSV files, and Blob Storage."
+            },
+            {
+              "page": 3,
+              "text": "• Skilled in creating ADF pipelines with advanced activities such as Lookup, Copy Data, Set Variable, and",
+              "block_id": "b96",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                35.544,
+                315.65199999999993,
+                548.3279999999999,
+                328.05999999999995
+              ],
+              "fragment_text": " Skilled in creating ADF pipelines with advanced activities such as Lookup, Copy Data, Set Variable, and"
+            },
+            {
+              "page": 3,
+              "text": "Azure Function, ensuring reliable and scalable data movement.",
+              "block_id": "b97",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                53.544,
+                332.61999999999995,
+                360.21599999999995,
+                344.61999999999995
+              ],
+              "fragment_text": "Azure Function, ensuring reliable and scalable data movement."
+            },
+            {
+              "page": 3,
+              "text": "• Hands-on experience in executing ADF data migration projects, seamlessly transferring data from on-",
+              "block_id": "b98",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                35.544,
+                349.73199999999997,
+                546.292,
+                362.14
+              ]
+            },
+            {
+              "page": 3,
+              "text": "premises to Azure cloud services, including Azure SQL Database and Azure Data Lake Storage.",
+              "block_id": "b98",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                53.544,
+                366.69999999999993,
+                508.1639999999997,
+                378.69999999999993
+              ],
+              "fragment_text": "premises to Azure cloud services, including Azure SQL Database and Azure Data Lake Storage."
+            },
+            {
+              "page": 3,
+              "text": "• Expertise in configuring and utilizing Azure cloud services, including Azure Blob Storage, Azure SQL",
+              "block_id": "b99",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                35.544,
+                384.07199999999995,
+                531.8599999999999,
+                396.47999999999996
+              ],
+              "fragment_text": " Expertise in configuring and utilizing Azure cloud services, including Azure Blob Storage, Azure SQL"
+            },
+            {
+              "page": 3,
+              "text": "Database, and Azure Data Lake Storage, to build robust data platforms.",
+              "block_id": "b100",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                53.544,
+                401.03999999999996,
+                399.5279999999999,
+                413.03999999999996
+              ],
+              "fragment_text": "Database, and Azure Data Lake Storage, to build robust data platforms."
+            },
+            {
+              "page": 3,
+              "text": "• Proficient in implementing data warehouse solutions and writing complex SQL queries using joins, keys,",
+              "block_id": "b101",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                35.544,
+                418.15199999999993,
+                557.748,
+                430.55999999999995
+              ],
+              "fragment_text": " Proficient in implementing data warehouse solutions and writing complex SQL queries using joins, keys,"
+            },
+            {
+              "page": 3,
+              "text": "and subqueries to transform and load data into final destinations.",
+              "block_id": "b102",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                53.544,
+                435.11999999999995,
+                373.62,
+                447.11999999999995
+              ],
+              "fragment_text": "and subqueries to transform and load data into final destinations."
+            },
+            {
+              "page": 3,
+              "text": "• Knowledgeable in using Logic Apps for email configurations within ADF pipelines, enabling effective",
+              "block_id": "b103",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                35.544,
+                452.49199999999996,
+                536.9879999999998,
+                464.9
+              ],
+              "fragment_text": " Knowledgeable in using Logic Apps for email configurations within ADF pipelines, enabling effective"
+            },
+            {
+              "page": 3,
+              "text": "monitoring and alerting of data migration processes.",
+              "block_id": "b104",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                53.544,
+                469.46,
+                309.816,
+                481.46
+              ],
+              "fragment_text": "monitoring and alerting of data migration processes."
+            },
+            {
+              "page": 3,
+              "text": "• Experienced in working with Agile methodologies, actively participating in daily scrum meetings, sprint",
+              "block_id": "b105",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                35.544,
+                486.57199999999995,
+                552.734,
+                498.97999999999996
+              ],
+              "fragment_text": " Experienced in working with Agile methodologies, actively participating in daily scrum meetings, sprint"
+            },
+            {
+              "page": 3,
+              "text": "planning, and demo sessions to ensure successful project delivery.",
+              "block_id": "b106",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                53.544,
+                503.53999999999996,
+                376.248,
+                515.54
+              ],
+              "fragment_text": "planning, and demo sessions to ensure successful project delivery."
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_3",
+        "name": "Project 1:: HSBC",
+        "client": "HSBC",
+        "role": "",
+        "duration": "Jan 2018 to May 2022.",
+        "details": [
+          "Roles and Responsibilities:",
+          "• Designed and optimized complex SQL queries, stored procedures, views, functions, and triggers for",
+          "efficient data manipulation and reporting.",
+          "• Developed and maintained ETL workflows using SQL Server Integration Services (SSIS) to load data from",
+          "multiple sources into the data warehouse.",
+          "• Performed data validation, cleansing, and transformation using T-SQL and applied indexing techniques",
+          "to improve query performance.",
+          "• Creating Report using SSRS Report."
+        ],
+        "raw_text": "Project 1:\nClient: HSBC\nDuration: Jan 2018 to May 2022.\nRoles and Responsibilities:\n• Designed and optimized complex SQL queries, stored procedures, views, functions, and triggers for\nefficient data manipulation and reporting.\n• Developed and maintained ETL workflows using SQL Server Integration Services (SSIS) to load data from\nmultiple sources into the data warehouse.\n• Performed data validation, cleansing, and transformation using T-SQL and applied indexing techniques\nto improve query performance.\n• Creating Report using SSRS Report.\n• Involved in Data Migration and integration tasks.\n• Mai",
+        "source": {
+          "entry": [
+            {
+              "page": 3,
+              "text": "Project 1:",
+              "block_id": "b107",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                35.544,
+                537.17,
+                82.97999999999999,
+                549.17
+              ],
+              "fragment_text": "Project 1:"
+            },
+            {
+              "page": 3,
+              "text": "Client: HSBC",
+              "block_id": "b108",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                35.544,
+                566.4499999999999,
+                96.60000000000001,
+                578.4499999999999
+              ],
+              "fragment_text": "Client: HSBC"
+            },
+            {
+              "page": 3,
+              "text": "Duration: Jan 2018 to May 2022.",
+              "block_id": "b109",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                35.544,
+                581.0899999999999,
+                197.42200000000003,
+                593.0899999999999
+              ],
+              "fragment_text": "Duration: Jan 2018 to May 2022."
+            },
+            {
+              "page": 3,
+              "text": "Roles and Responsibilities:",
+              "block_id": "b110",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                35.544,
+                610.6099999999999,
+                167.64000000000004,
+                622.6099999999999
+              ]
+            },
+            {
+              "page": 3,
+              "text": "• Designed and optimized complex SQL queries, stored procedures, views, functions, and triggers for",
+              "block_id": "b111",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                35.544,
+                640.462,
+                559.802,
+                652.8699999999999
+              ],
+              "fragment_text": " Designed and optimized complex SQL queries, stored procedures, views, functions, and triggers for"
+            },
+            {
+              "page": 3,
+              "text": "efficient data manipulation and reporting.",
+              "block_id": "b112",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                53.544,
+                657.43,
+                258.048,
+                669.43
+              ],
+              "fragment_text": "efficient data manipulation and reporting."
+            },
+            {
+              "page": 3,
+              "text": "• Developed and maintained ETL workflows using SQL Server Integration Services (SSIS) to load data from",
+              "block_id": "b113",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                35.544,
+                674.5419999999999,
+                559.2719999999998,
+                686.9499999999999
+              ],
+              "fragment_text": " Developed and maintained ETL workflows using SQL Server Integration Services (SSIS) to load data from"
+            },
+            {
+              "page": 3,
+              "text": "multiple sources into the data warehouse.",
+              "block_id": "b114",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                53.544,
+                691.51,
+                259.2,
+                703.51
+              ],
+              "fragment_text": "multiple sources into the data warehouse."
+            },
+            {
+              "page": 3,
+              "text": "• Performed data validation, cleansing, and transformation using T-SQL and applied indexing techniques",
+              "block_id": "b115",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                35.544,
+                708.8919999999999,
+                552.3679999999999,
+                721.3
+              ],
+              "fragment_text": " Performed data validation, cleansing, and transformation using T-SQL and applied indexing techniques"
+            },
+            {
+              "page": 3,
+              "text": "to improve query performance.",
+              "block_id": "b116",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                53.544,
+                725.8599999999999,
+                206.712,
+                737.8599999999999
+              ],
+              "fragment_text": "to improve query performance."
+            },
+            {
+              "page": 3,
+              "text": "• Creating Report using SSRS Report.",
+              "block_id": "b117",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                35.544,
+                742.968,
+                223.488,
+                755.376
+              ],
+              "fragment_text": " Creating Report using SSRS Report."
+            },
+            {
+              "page": 3,
+              "text": "• Involved in Data Migration and integration tasks.",
+              "block_id": "b118",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                35.544,
+                760.4879999999999,
+                291.072,
+                772.896
+              ],
+              "fragment_text": " Involved in Data Migration and integration tasks."
+            },
+            {
+              "page": 3,
+              "text": "• Maintenance of all process steps in generating MIS reports through SQL server reporting services.",
+              "block_id": "b119",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                35.544,
+                778.2479999999999,
+                528.962,
+                790.656
+              ],
+              "fragment_text": " Maintenance of all process steps in generating MIS reports through SQL server reporting services."
+            },
+            {
+              "page": 3,
+              "text": "• Involved in creation and maintenance of various scheduled jobs and batch processes.",
+              "block_id": "b120",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                35.544,
+                795.7919999999999,
+                468.36000000000007,
+                808.1999999999999
+              ],
+              "fragment_text": " Involved in creation and maintenance of various scheduled jobs and batch processes."
+            },
+            {
+              "page": 4,
+              "text": "• import and export from NAV to variety of other applications and databases; maintain and develop SQL",
+              "block_id": "b121",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                35.544,
+                45.331999999999994,
+                552.1679999999999,
+                57.74000000000001
+              ],
+              "fragment_text": " import and export from NAV to variety of other applications and databases; maintain and develop SQL"
+            },
+            {
+              "page": 4,
+              "text": "Server Integration Services (SSIS) packages to automate data flow across another database",
+              "block_id": "b122",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                53.544,
+                62.299999999999955,
+                495.10800000000006,
+                74.29999999999995
+              ],
+              "fragment_text": "Server Integration Services (SSIS) packages to automate data flow across another database"
+            },
+            {
+              "page": 4,
+              "text": "• Designed, Programmed, Implemented and Analyzed new/existing functions and procedures within",
+              "block_id": "b123",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                35.544,
+                79.65199999999993,
+                533.292,
+                92.05999999999995
+              ],
+              "fragment_text": " Designed, Programmed, Implemented and Analyzed new/existing functions and procedures within"
+            },
+            {
+              "page": 4,
+              "text": "Navision ERP system.",
+              "block_id": "b124",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                53.544,
+                96.62,
+                156.76800000000003,
+                108.62
+              ],
+              "fragment_text": "Navision ERP system."
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g48d7d0e681289ac4",
+        "start": [
+          2022,
+          6
+        ],
+        "end": [
+          2022,
+          7
+        ],
+        "months": 2,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "v63dd3d0bad79f79b",
+          "event_after": "vabf34b664b991700",
+          "coverage_scope": "all_dated_activity"
+        },
+        "start_label": "2022-06",
+        "end_label": "2022-07",
+        "evidence_quotes": [
+          "• Worked as Software Engineer at Tata Consultancy Services, Bengaluru from Jan 2018 to May 2022",
+          "Project 2:"
+        ],
+        "evidence_details": [
+          {
+            "header": "Worked as Software Engineer at at Tata Consultancy Services",
+            "quote": "• Worked as Software Engineer at Tata Consultancy Services, Bengaluru from Jan 2018 to May 2022",
+            "event_id": "v63dd3d0bad79f79b",
+            "source": {
+              "entry": [
+                {
+                  "page": 2,
+                  "text": "• Worked as Software Engineer at Tata Consultancy Services, Bengaluru from Jan 2018 to May 2022",
+                  "block_id": "b47",
+                  "kind": "pdf",
+                  "page_width": 595.2,
+                  "page_height": 841.92,
+                  "bbox": [
+                    53.544,
+                    102.24464,
+                    515.7628,
+                    113.65999999999997
+                  ],
+                  "fragment_text": " Worked as Software Engineer at Tata Consultancy Services, Bengaluru from Jan 2018 to May 2022"
+                }
+              ],
+              "dates": [
+                {
+                  "page": 2,
+                  "text": "Jan 2018 to May 2022",
+                  "block_id": "b47",
+                  "kind": "pdf",
+                  "page_width": 595.2,
+                  "page_height": 841.92,
+                  "bbox": [
+                    416.57,
+                    102.62,
+                    515.7628,
+                    113.65999999999997
+                  ]
+                }
+              ],
+              "company": [
+                {
+                  "page": 2,
+                  "text": "at Tata Consultancy Services",
+                  "block_id": "b47",
+                  "kind": "pdf",
+                  "page_width": 595.2,
+                  "page_height": 841.92,
+                  "bbox": [
+                    208.39,
+                    102.62,
+                    337.47472000000005,
+                    113.65999999999997
+                  ],
+                  "fragment_text": "at Tata Consultancy Services"
+                }
+              ],
+              "title": [
+                {
+                  "page": 2,
+                  "text": "Worked as Software Engineer",
+                  "block_id": "b47",
+                  "kind": "pdf",
+                  "page_width": 595.2,
+                  "page_height": 841.92,
+                  "bbox": [
+                    71.544,
+                    102.62,
+                    205.94312000000002,
+                    113.65999999999997
+                  ],
+                  "fragment_text": "Worked as Software Engineer"
+                }
+              ],
+              "section": "Professional Experience:",
+              "date_label": "Jan 2018 to May 2022",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Project 2:",
+            "quote": "Project 2:",
+            "event_id": "vabf34b664b991700",
+            "source": {
+              "entry": [
+                {
+                  "page": 3,
+                  "text": "Project 2:",
+                  "block_id": "b89",
+                  "kind": "pdf",
+                  "page_width": 595.2,
+                  "page_height": 841.92,
+                  "bbox": [
+                    35.544,
+                    143.92999999999995,
+                    82.97999999999999,
+                    155.92999999999995
+                  ],
+                  "fragment_text": "Project 2:"
+                }
+              ],
+              "dates": [
+                {
+                  "page": 3,
+                  "text": "Aug 2022 to Oct 2023",
+                  "block_id": "b91",
+                  "kind": "pdf",
+                  "page_width": 595.2,
+                  "page_height": 841.92,
+                  "bbox": [
+                    85.944,
+                    187.8499999999999,
+                    192.394,
+                    199.8499999999999
+                  ]
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 3,
+                  "text": "Project 2",
+                  "block_id": "b89",
+                  "kind": "pdf",
+                  "page_width": 595.2,
+                  "page_height": 841.92,
+                  "bbox": [
+                    35.544,
+                    143.92999999999995,
+                    79.752,
+                    155.92999999999995
+                  ],
+                  "fragment_text": "Project 2"
+                }
+              ],
+              "section": "Project Experience:",
+              "date_label": "Aug 2022 to Oct 2023",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 5,
+      "total_events": 5,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9
+    },
+    "total_represented_months": 103,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

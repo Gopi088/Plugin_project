@@ -1,0 +1,240 @@
+{
+  "file_name": "heenaSiddiqui.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "7cd0e88a5829427d819fc98b9b0155c0275647e4930ea57ed3f7ea2d3b19cdca",
+  "doc_id": "7cd0e88a5829427d819fc98b",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 0,
+    "total_events": 1,
+    "dated_share": 0.0,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": null,
+    "ocr_pages": []
+  },
+  "work_experience": [],
+  "education": [
+    {
+      "id": "vd2d165c6baf51037",
+      "type": "EDUCATION",
+      "company": "M.Sc. in Computer Science [Kurukshetra University",
+      "title": "Certified Scrum Master (CSM",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "M.Sc. in Computer Science [Kurukshetra University]",
+            "block_id": "b118",
+            "kind": "text",
+            "start": 6300,
+            "end": 6350
+          },
+          {
+            "page": 1,
+            "text": "• Certified Scrum Master (CSM)",
+            "block_id": "b120",
+            "kind": "text",
+            "start": 6381,
+            "end": 6411
+          }
+        ],
+        "dates": [],
+        "company": [
+          {
+            "page": 1,
+            "text": "M.Sc. in Computer Science [Kurukshetra University",
+            "block_id": "b118",
+            "kind": "text",
+            "start": 6300,
+            "end": 6349
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Certified Scrum Master (CSM",
+            "block_id": "b120",
+            "kind": "text",
+            "start": 6383,
+            "end": 6410
+          }
+        ],
+        "section": "EDUCATION",
+        "date_label": "",
+        "is_present": false
+      }
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 0,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "PARTIAL",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "PARTIAL",
+    "coverage_analysis": "PARTIAL",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "no dated events to order",
+    "no intervals to cover"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "7cd0e88a5829427d819fc98b",
+    "filename": "heenaSiddiqui.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [],
+    "unresolved_events": [
+      {
+        "id": "vd2d165c6baf51037",
+        "type": "EDUCATION",
+        "title": "Certified Scrum Master (CSM",
+        "org": "M.Sc. in Computer Science [Kurukshetra University",
+        "entry_text": "M.Sc. in Computer Science [Kurukshetra University] • Certified Scrum Master (CSM) • HL7 / FHIR Certification • SAFe (Scaled Agile Framework) KEY ACHIEVEMENTS • Delivered  FHIR-based CMS-compliant APIs • Improved claims processing efficiency by 25% • Reduced HL7 integration  errors by 20% • Strengthe",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "M.Sc. in Computer Science [Kurukshetra University]",
+              "block_id": "b118",
+              "kind": "text",
+              "start": 6300,
+              "end": 6350
+            },
+            {
+              "page": 1,
+              "text": "• Certified Scrum Master (CSM)",
+              "block_id": "b120",
+              "kind": "text",
+              "start": 6381,
+              "end": 6411
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "M.Sc. in Computer Science [Kurukshetra University",
+              "block_id": "b118",
+              "kind": "text",
+              "start": 6300,
+              "end": 6349
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Certified Scrum Master (CSM",
+              "block_id": "b120",
+              "kind": "text",
+              "start": 6383,
+              "end": 6410
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "EDUCATION",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 0,
+      "total_events": 1,
+      "dated_share": 0.0,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": null,
+      "ocr_pages": []
+    },
+    "total_represented_months": 0,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "PARTIAL",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "PARTIAL",
+        "confidence": 0.3
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

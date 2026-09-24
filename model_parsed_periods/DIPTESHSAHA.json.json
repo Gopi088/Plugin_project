@@ -1,0 +1,1274 @@
+{
+  "file_name": "DIPTESHSAHA.docx",
+  "input_mode": "text_snapshot",
+  "input_sha256": "5028422513208d015750171de2c54bb489696343ae426b0045120970636a848b",
+  "doc_id": "5028422513208d015750171d",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 3,
+    "total_events": 5,
+    "dated_share": 0.6,
+    "unresolved": 2,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "ve7c5272a0d4b372d",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Technical Consulting Engineer",
+      "start_date": "2022-10",
+      "end_date": "2023-11",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Technical Consulting Engineer\tOct 2022 - Nov 2023",
+            "block_id": "b12",
+            "kind": "text",
+            "start": 1422,
+            "end": 1471
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Oct 2022 - Nov 2023",
+            "block_id": "b12",
+            "kind": "text",
+            "start": 1452,
+            "end": 1471
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Technical Consulting Engineer",
+            "block_id": "b12",
+            "kind": "text",
+            "start": 1422,
+            "end": 1451
+          }
+        ],
+        "section": "Experience",
+        "date_label": "Oct 2022 - Nov 2023",
+        "is_present": false
+      },
+      "precision": "month",
+      "date_label": "Oct 2022 - Nov 2023"
+    },
+    {
+      "id": "v0a2d103d94f8a618",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Consulting Engineer",
+      "start_date": "2023-11",
+      "end_date": "2026-09",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Consulting Engineer\tNov 2023 - Present",
+            "block_id": "b6",
+            "kind": "text",
+            "start": 388,
+            "end": 426
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Nov 2023 - Present",
+            "block_id": "b6",
+            "kind": "text",
+            "start": 408,
+            "end": 426
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Consulting Engineer",
+            "block_id": "b6",
+            "kind": "text",
+            "start": 388,
+            "end": 407
+          }
+        ],
+        "section": "Experience",
+        "date_label": "Nov 2023 - Present",
+        "is_present": true
+      },
+      "precision": "month",
+      "date_label": "Nov 2023 - Present"
+    }
+  ],
+  "education": [
+    {
+      "id": "vb9282ad1b1304c1d",
+      "type": "EDUCATION",
+      "company": "HKBK College of Engineering",
+      "title": "BE in Electronics and Communication",
+      "start_date": "2018-08",
+      "end_date": "2022-07",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "HKBK College of Engineering\tAug 2018 – Jul 2022",
+            "block_id": "b26",
+            "kind": "text",
+            "start": 3359,
+            "end": 3406
+          },
+          {
+            "page": 1,
+            "text": "BE in Electronics and Communication, Karnataka, India\tCGPA: 9.14",
+            "block_id": "b27",
+            "kind": "text",
+            "start": 3407,
+            "end": 3471
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Aug 2018 – Jul 2022",
+            "block_id": "b26",
+            "kind": "text",
+            "start": 3387,
+            "end": 3406
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "HKBK College of Engineering",
+            "block_id": "b26",
+            "kind": "text",
+            "start": 3359,
+            "end": 3386
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "BE in Electronics and Communication",
+            "block_id": "b27",
+            "kind": "text",
+            "start": 3407,
+            "end": 3442
+          }
+        ],
+        "section": "Education",
+        "date_label": "Aug 2018 – Jul 2022",
+        "is_present": false
+      },
+      "precision": "month",
+      "date_label": "Aug 2018 – Jul 2022"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "Network Automation Framework\tMay 2024",
+      "client": "",
+      "role": "",
+      "duration": "May 2024",
+      "details": [
+        "Network Automation Framework\tMay 2024",
+        "Developed Python and Netmiko automation workflows for inventory collection, compliance validation, and audit reporting.",
+        "Integrated REST APIs to automate network health checks and asset management processes."
+      ],
+      "raw_text": "Network Automation Framework\tMay 2024\nDeveloped Python and Netmiko automation workflows for inventory collection, compliance validation, and audit reporting.\nIntegrated REST APIs to automate network health checks and asset management processes.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Network Automation Framework\tMay 2024",
+            "block_id": "b21",
+            "kind": "text",
+            "start": 3030,
+            "end": 3067
+          },
+          {
+            "page": 1,
+            "text": "Developed Python and Netmiko automation workflows for inventory collection, compliance validation, and audit reporting.",
+            "block_id": "b22",
+            "kind": "text",
+            "start": 3068,
+            "end": 3187
+          },
+          {
+            "page": 1,
+            "text": "Integrated REST APIs to automate network health checks and asset management processes.",
+            "block_id": "b23",
+            "kind": "text",
+            "start": 3188,
+            "end": 3274
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_2",
+      "name": "Reduced manual operational effort by 40% and improved reporting accuracy.",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Reduced manual operational effort by 40% and improved reporting accuracy."
+      ],
+      "raw_text": "Reduced manual operational effort by 40% and improved reporting accuracy.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Reduced manual operational effort by 40% and improved reporting accuracy.",
+            "block_id": "b24",
+            "kind": "text",
+            "start": 3275,
+            "end": 3348
+          }
+        ]
+      }
+    }
+  ],
+  "gaps": [],
+  "total_work_experience_entries": 2,
+  "total_projects_entries": 2,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "e2: dates cannot be assigned unambiguously",
+    "overlap preserved: 'Technical Consulting Engineer' overlaps 'Consulting Engineer'",
+    "conflicting/ambiguous date kept for 'Network Automation Framework\t'"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "5028422513208d015750171d",
+    "filename": "DIPTESHSAHA.docx",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "vb9282ad1b1304c1d",
+        "type": "EDUCATION",
+        "title": "BE in Electronics and Communication",
+        "org": "HKBK College of Engineering",
+        "start": "2018-08",
+        "end": "2022-07",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "HKBK College of Engineering\tAug 2018 – Jul 2022\nBE in Electronics and Communication, Karnataka, India\tCGPA: 9.14",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "HKBK College of Engineering\tAug 2018 – Jul 2022",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 3359,
+              "end": 3406
+            },
+            {
+              "page": 1,
+              "text": "BE in Electronics and Communication, Karnataka, India\tCGPA: 9.14",
+              "block_id": "b27",
+              "kind": "text",
+              "start": 3407,
+              "end": 3471
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Aug 2018 – Jul 2022",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 3387,
+              "end": 3406
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "HKBK College of Engineering",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 3359,
+              "end": 3386
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "BE in Electronics and Communication",
+              "block_id": "b27",
+              "kind": "text",
+              "start": 3407,
+              "end": 3442
+            }
+          ],
+          "section": "Education",
+          "date_label": "Aug 2018 – Jul 2022",
+          "is_present": false
+        },
+        "date_label": "Aug 2018 – Jul 2022",
+        "section": "Education",
+        "is_present": false
+      },
+      {
+        "id": "ve7c5272a0d4b372d",
+        "type": "EMPLOYMENT",
+        "title": "Technical Consulting Engineer",
+        "org": "",
+        "start": "2022-10",
+        "end": "2023-11",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Technical Consulting Engineer\tOct 2022 - Nov 2023",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Technical Consulting Engineer\tOct 2022 - Nov 2023",
+              "block_id": "b12",
+              "kind": "text",
+              "start": 1422,
+              "end": 1471
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Oct 2022 - Nov 2023",
+              "block_id": "b12",
+              "kind": "text",
+              "start": 1452,
+              "end": 1471
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Technical Consulting Engineer",
+              "block_id": "b12",
+              "kind": "text",
+              "start": 1422,
+              "end": 1451
+            }
+          ],
+          "section": "Experience",
+          "date_label": "Oct 2022 - Nov 2023",
+          "is_present": false
+        },
+        "date_label": "Oct 2022 - Nov 2023",
+        "section": "Experience",
+        "is_present": false
+      },
+      {
+        "id": "v0a2d103d94f8a618",
+        "type": "EMPLOYMENT",
+        "title": "Consulting Engineer",
+        "org": "",
+        "start": "2023-11",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Consulting Engineer\tNov 2023 - Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Consulting Engineer\tNov 2023 - Present",
+              "block_id": "b6",
+              "kind": "text",
+              "start": 388,
+              "end": 426
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Nov 2023 - Present",
+              "block_id": "b6",
+              "kind": "text",
+              "start": 408,
+              "end": 426
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Consulting Engineer",
+              "block_id": "b6",
+              "kind": "text",
+              "start": 388,
+              "end": 407
+            }
+          ],
+          "section": "Experience",
+          "date_label": "Nov 2023 - Present",
+          "is_present": true
+        },
+        "date_label": "Nov 2023 - Present",
+        "section": "Experience",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "vfc7471b345b28efa",
+        "type": "PROJECT",
+        "title": "Network Automation Framework\t",
+        "org": "",
+        "entry_text": "Network Automation Framework\tMay 2024 Developed Python and Netmiko automation workflows for inventory collection, compliance validation, and audit reporting. Integrated REST APIs to automate network health checks and asset management processes.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Network Automation Framework\tMay 2024",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 3030,
+              "end": 3067
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "May 2024",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 3059,
+              "end": 3067
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Network Automation Framework",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 3030,
+              "end": 3058
+            }
+          ],
+          "section": "Projects",
+          "date_label": "May 2024",
+          "is_present": false
+        },
+        "date_label": "May 2024",
+        "section": "Projects",
+        "status": "AMBIGUOUS"
+      },
+      {
+        "id": "v08136931be75410c",
+        "type": "PROJECT",
+        "title": "Reduced manual operational effort by 40% and improved reporting accuracy.",
+        "org": "",
+        "entry_text": "Reduced manual operational effort by 40% and improved reporting accuracy.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Reduced manual operational effort by 40% and improved reporting accuracy.",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 3275,
+              "end": 3348
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Reduced manual operational effort by 40% and improved reporting accuracy",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 3275,
+              "end": 3347
+            }
+          ],
+          "section": "Projects",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Projects",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "Network Automation Framework\tMay 2024",
+        "client": "",
+        "role": "",
+        "duration": "May 2024",
+        "details": [
+          "Network Automation Framework\tMay 2024",
+          "Developed Python and Netmiko automation workflows for inventory collection, compliance validation, and audit reporting.",
+          "Integrated REST APIs to automate network health checks and asset management processes."
+        ],
+        "raw_text": "Network Automation Framework\tMay 2024\nDeveloped Python and Netmiko automation workflows for inventory collection, compliance validation, and audit reporting.\nIntegrated REST APIs to automate network health checks and asset management processes.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Network Automation Framework\tMay 2024",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 3030,
+              "end": 3067
+            },
+            {
+              "page": 1,
+              "text": "Developed Python and Netmiko automation workflows for inventory collection, compliance validation, and audit reporting.",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 3068,
+              "end": 3187
+            },
+            {
+              "page": 1,
+              "text": "Integrated REST APIs to automate network health checks and asset management processes.",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 3188,
+              "end": 3274
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "Reduced manual operational effort by 40% and improved reporting accuracy.",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Reduced manual operational effort by 40% and improved reporting accuracy."
+        ],
+        "raw_text": "Reduced manual operational effort by 40% and improved reporting accuracy.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Reduced manual operational effort by 40% and improved reporting accuracy.",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 3275,
+              "end": 3348
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "vfc7471b345b28efa"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 3,
+      "total_events": 5,
+      "dated_share": 0.6,
+      "unresolved": 2,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 96,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": true,
+          "unrepresented_periods_in_category": [],
+          "entries": 2,
+          "dated_periods": 2,
+          "represented_months": 48,
+          "overlap_months": 1,
+          "states": {
+            "month_range": 2,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "ve7c5272a0d4b372d",
+              "label": "Technical Consulting Engineer",
+              "state": "month_range",
+              "start": [
+                2022,
+                10
+              ],
+              "end": [
+                2023,
+                11
+              ],
+              "months": 14,
+              "raw": "Oct 2022 - Nov 2023",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Technical Consulting Engineer\tOct 2022 - Nov 2023",
+                    "block_id": "b12",
+                    "kind": "text",
+                    "start": 1422,
+                    "end": 1471
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "Oct 2022 - Nov 2023",
+                    "block_id": "b12",
+                    "kind": "text",
+                    "start": 1452,
+                    "end": 1471
+                  }
+                ],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Technical Consulting Engineer",
+                    "block_id": "b12",
+                    "kind": "text",
+                    "start": 1422,
+                    "end": 1451
+                  }
+                ],
+                "section": "Experience",
+                "date_label": "Oct 2022 - Nov 2023",
+                "is_present": false
+              }
+            },
+            {
+              "id": "v0a2d103d94f8a618",
+              "label": "Consulting Engineer",
+              "state": "month_range",
+              "start": [
+                2023,
+                11
+              ],
+              "end": [
+                2026,
+                9
+              ],
+              "months": 35,
+              "raw": "Nov 2023 - Present",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Consulting Engineer\tNov 2023 - Present",
+                    "block_id": "b6",
+                    "kind": "text",
+                    "start": 388,
+                    "end": 426
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "Nov 2023 - Present",
+                    "block_id": "b6",
+                    "kind": "text",
+                    "start": 408,
+                    "end": 426
+                  }
+                ],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Consulting Engineer",
+                    "block_id": "b6",
+                    "kind": "text",
+                    "start": 388,
+                    "end": 407
+                  }
+                ],
+                "section": "Experience",
+                "date_label": "Nov 2023 - Present",
+                "is_present": true
+              }
+            }
+          ]
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 2,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 1,
+            "duration_only": 0,
+            "undated": 1,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "proj_1",
+              "label": "Network Automation Framework\tMay 2024",
+              "state": "single_date",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "May 2024",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Network Automation Framework\tMay 2024",
+                    "block_id": "b21",
+                    "kind": "text",
+                    "start": 3030,
+                    "end": 3067
+                  },
+                  {
+                    "page": 1,
+                    "text": "Developed Python and Netmiko automation workflows for inventory collection, compliance validation, and audit reporting.",
+                    "block_id": "b22",
+                    "kind": "text",
+                    "start": 3068,
+                    "end": 3187
+                  },
+                  {
+                    "page": 1,
+                    "text": "Integrated REST APIs to automate network health checks and asset management processes.",
+                    "block_id": "b23",
+                    "kind": "text",
+                    "start": 3188,
+                    "end": 3274
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_2",
+              "label": "Reduced manual operational effort by 40% and improved reporting accuracy.",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Reduced manual operational effort by 40% and improved reporting accuracy.",
+                    "block_id": "b24",
+                    "kind": "text",
+                    "start": 3275,
+                    "end": 3348
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "education": {
+          "all_entries_month_precise": true,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 1,
+          "represented_months": 48,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 1,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "vb9282ad1b1304c1d",
+              "label": "BE in Electronics and Communication",
+              "state": "month_range",
+              "start": [
+                2018,
+                8
+              ],
+              "end": [
+                2022,
+                7
+              ],
+              "months": 48,
+              "raw": "Aug 2018 – Jul 2022",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "HKBK College of Engineering\tAug 2018 – Jul 2022",
+                    "block_id": "b26",
+                    "kind": "text",
+                    "start": 3359,
+                    "end": 3406
+                  },
+                  {
+                    "page": 1,
+                    "text": "BE in Electronics and Communication, Karnataka, India\tCGPA: 9.14",
+                    "block_id": "b27",
+                    "kind": "text",
+                    "start": 3407,
+                    "end": 3471
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "Aug 2018 – Jul 2022",
+                    "block_id": "b26",
+                    "kind": "text",
+                    "start": 3387,
+                    "end": 3406
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "HKBK College of Engineering",
+                    "block_id": "b26",
+                    "kind": "text",
+                    "start": 3359,
+                    "end": 3386
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "BE in Electronics and Communication",
+                    "block_id": "b27",
+                    "kind": "text",
+                    "start": 3407,
+                    "end": 3442
+                  }
+                ],
+                "section": "Education",
+                "date_label": "Aug 2018 – Jul 2022",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 96,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": true,
+        "unrepresented_periods_in_category": [],
+        "entries": 2,
+        "dated_periods": 2,
+        "represented_months": 48,
+        "overlap_months": 1,
+        "states": {
+          "month_range": 2,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "ve7c5272a0d4b372d",
+            "label": "Technical Consulting Engineer",
+            "state": "month_range",
+            "start": [
+              2022,
+              10
+            ],
+            "end": [
+              2023,
+              11
+            ],
+            "months": 14,
+            "raw": "Oct 2022 - Nov 2023",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Technical Consulting Engineer\tOct 2022 - Nov 2023",
+                  "block_id": "b12",
+                  "kind": "text",
+                  "start": 1422,
+                  "end": 1471
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Oct 2022 - Nov 2023",
+                  "block_id": "b12",
+                  "kind": "text",
+                  "start": 1452,
+                  "end": 1471
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Technical Consulting Engineer",
+                  "block_id": "b12",
+                  "kind": "text",
+                  "start": 1422,
+                  "end": 1451
+                }
+              ],
+              "section": "Experience",
+              "date_label": "Oct 2022 - Nov 2023",
+              "is_present": false
+            }
+          },
+          {
+            "id": "v0a2d103d94f8a618",
+            "label": "Consulting Engineer",
+            "state": "month_range",
+            "start": [
+              2023,
+              11
+            ],
+            "end": [
+              2026,
+              9
+            ],
+            "months": 35,
+            "raw": "Nov 2023 - Present",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Consulting Engineer\tNov 2023 - Present",
+                  "block_id": "b6",
+                  "kind": "text",
+                  "start": 388,
+                  "end": 426
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Nov 2023 - Present",
+                  "block_id": "b6",
+                  "kind": "text",
+                  "start": 408,
+                  "end": 426
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Consulting Engineer",
+                  "block_id": "b6",
+                  "kind": "text",
+                  "start": 388,
+                  "end": 407
+                }
+              ],
+              "section": "Experience",
+              "date_label": "Nov 2023 - Present",
+              "is_present": true
+            }
+          }
+        ]
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 2,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 1,
+          "duration_only": 0,
+          "undated": 1,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "proj_1",
+            "label": "Network Automation Framework\tMay 2024",
+            "state": "single_date",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "May 2024",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Network Automation Framework\tMay 2024",
+                  "block_id": "b21",
+                  "kind": "text",
+                  "start": 3030,
+                  "end": 3067
+                },
+                {
+                  "page": 1,
+                  "text": "Developed Python and Netmiko automation workflows for inventory collection, compliance validation, and audit reporting.",
+                  "block_id": "b22",
+                  "kind": "text",
+                  "start": 3068,
+                  "end": 3187
+                },
+                {
+                  "page": 1,
+                  "text": "Integrated REST APIs to automate network health checks and asset management processes.",
+                  "block_id": "b23",
+                  "kind": "text",
+                  "start": 3188,
+                  "end": 3274
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_2",
+            "label": "Reduced manual operational effort by 40% and improved reporting accuracy.",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Reduced manual operational effort by 40% and improved reporting accuracy.",
+                  "block_id": "b24",
+                  "kind": "text",
+                  "start": 3275,
+                  "end": 3348
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "education": {
+        "all_entries_month_precise": true,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 1,
+        "represented_months": 48,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 1,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "vb9282ad1b1304c1d",
+            "label": "BE in Electronics and Communication",
+            "state": "month_range",
+            "start": [
+              2018,
+              8
+            ],
+            "end": [
+              2022,
+              7
+            ],
+            "months": 48,
+            "raw": "Aug 2018 – Jul 2022",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "HKBK College of Engineering\tAug 2018 – Jul 2022",
+                  "block_id": "b26",
+                  "kind": "text",
+                  "start": 3359,
+                  "end": 3406
+                },
+                {
+                  "page": 1,
+                  "text": "BE in Electronics and Communication, Karnataka, India\tCGPA: 9.14",
+                  "block_id": "b27",
+                  "kind": "text",
+                  "start": 3407,
+                  "end": 3471
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Aug 2018 – Jul 2022",
+                  "block_id": "b26",
+                  "kind": "text",
+                  "start": 3387,
+                  "end": 3406
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "HKBK College of Engineering",
+                  "block_id": "b26",
+                  "kind": "text",
+                  "start": 3359,
+                  "end": 3386
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "BE in Electronics and Communication",
+                  "block_id": "b27",
+                  "kind": "text",
+                  "start": 3407,
+                  "end": 3442
+                }
+              ],
+              "section": "Education",
+              "date_label": "Aug 2018 – Jul 2022",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 96,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

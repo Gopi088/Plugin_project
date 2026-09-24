@@ -1,0 +1,967 @@
+{
+  "file_name": "YashBhargava.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "96d76cb431133f2b2d1260a72c9420352b74cee63ddc42a61cbd4a3a5b16e4e8",
+  "doc_id": "96d76cb431133f2b2d1260a7",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 3,
+    "total_events": 3,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.81,
+    "document_accuracy": 0.81
+  },
+  "work_experience": [
+    {
+      "id": "v2b172c8d79962a83",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Product & Operations Manager",
+      "start_date": "2018-01",
+      "end_date": "2024-12",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Product & Operations Manager   |   Raaj Medisafe India Limited   •   Indore 2018 - March 2024",
+            "block_id": "b64",
+            "kind": "text",
+            "start": 4693,
+            "end": 4786
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2018 - March 2024",
+            "block_id": "b64",
+            "kind": "text",
+            "start": 4769,
+            "end": 4786
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Product & Operations Manager",
+            "block_id": "b64",
+            "kind": "text",
+            "start": 4693,
+            "end": 4721
+          }
+        ],
+        "section": "PROFESSIONAL EXPERIENCE",
+        "date_label": "2018 - March 2024",
+        "is_present": false
+      },
+      "precision": "year",
+      "date_label": "2018 - March 2024"
+    },
+    {
+      "id": "v64b79169d04fd8e5",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Associate Project Manager",
+      "start_date": "2024-04",
+      "end_date": "2026-09",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Associate Project Manager  (Acting Product Manager)   |   Provana India Private Limited   •   Noida",
+            "block_id": "b31",
+            "kind": "text",
+            "start": 1580,
+            "end": 1679
+          },
+          {
+            "page": 1,
+            "text": "April 2024 - Present",
+            "block_id": "b32",
+            "kind": "text",
+            "start": 1680,
+            "end": 1700
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "April 2024 - Present",
+            "block_id": "b32",
+            "kind": "text",
+            "start": 1680,
+            "end": 1700
+          },
+          {
+            "page": 1,
+            "text": "November 2026",
+            "block_id": "b63",
+            "kind": "text",
+            "start": 4678,
+            "end": 4691
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Associate Project Manager",
+            "block_id": "b31",
+            "kind": "text",
+            "start": 1580,
+            "end": 1605
+          }
+        ],
+        "section": "PROFESSIONAL EXPERIENCE",
+        "date_label": "April 2024 - Present",
+        "is_present": true
+      },
+      "precision": "month",
+      "date_label": "April 2024 - Present"
+    }
+  ],
+  "education": [
+    {
+      "id": "ve2cf147c6eadaca1",
+      "type": "EDUCATION",
+      "company": "Jaypee Institute of Information Technology",
+      "title": "B.Tech - Computer Science",
+      "start_date": "2013-01",
+      "end_date": "2017-12",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "B.Tech - Computer Science  |  Jaypee Institute of Information Technology, Noida   2013 - 2017",
+            "block_id": "b74",
+            "kind": "text",
+            "start": 5464,
+            "end": 5557
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2013 - 2017",
+            "block_id": "b74",
+            "kind": "text",
+            "start": 5546,
+            "end": 5557
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Jaypee Institute of Information Technology",
+            "block_id": "b74",
+            "kind": "text",
+            "start": 5494,
+            "end": 5536
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "B.Tech - Computer Science",
+            "block_id": "b74",
+            "kind": "text",
+            "start": 5464,
+            "end": 5489
+          }
+        ],
+        "section": "EDUCATION",
+        "date_label": "2013 - 2017",
+        "is_present": false
+      },
+      "precision": "year",
+      "date_label": "2013 - 2017"
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 2,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "overlap preserved: 'Product & Operations Manager' overlaps 'Associate Project Manager'"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "96d76cb431133f2b2d1260a7",
+    "filename": "YashBhargava.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "ve2cf147c6eadaca1",
+        "type": "EDUCATION",
+        "title": "B.Tech - Computer Science",
+        "org": "Jaypee Institute of Information Technology",
+        "start": "2013-01",
+        "end": "2017-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "B.Tech - Computer Science  |  Jaypee Institute of Information Technology, Noida   2013 - 2017",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "B.Tech - Computer Science  |  Jaypee Institute of Information Technology, Noida   2013 - 2017",
+              "block_id": "b74",
+              "kind": "text",
+              "start": 5464,
+              "end": 5557
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2013 - 2017",
+              "block_id": "b74",
+              "kind": "text",
+              "start": 5546,
+              "end": 5557
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Jaypee Institute of Information Technology",
+              "block_id": "b74",
+              "kind": "text",
+              "start": 5494,
+              "end": 5536
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "B.Tech - Computer Science",
+              "block_id": "b74",
+              "kind": "text",
+              "start": 5464,
+              "end": 5489
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2013 - 2017",
+          "is_present": false
+        },
+        "date_label": "2013 - 2017",
+        "section": "EDUCATION",
+        "is_present": false
+      },
+      {
+        "id": "v2b172c8d79962a83",
+        "type": "EMPLOYMENT",
+        "title": "Product & Operations Manager",
+        "org": "",
+        "start": "2018-01",
+        "end": "2024-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Product & Operations Manager   |   Raaj Medisafe India Limited   •   Indore 2018 - March 2024",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Product & Operations Manager   |   Raaj Medisafe India Limited   •   Indore 2018 - March 2024",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 4693,
+              "end": 4786
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2018 - March 2024",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 4769,
+              "end": 4786
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Product & Operations Manager",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 4693,
+              "end": 4721
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "2018 - March 2024",
+          "is_present": false
+        },
+        "date_label": "2018 - March 2024",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v64b79169d04fd8e5",
+        "type": "EMPLOYMENT",
+        "title": "Associate Project Manager",
+        "org": "",
+        "start": "2024-04",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Associate Project Manager  (Acting Product Manager)   |   Provana India Private Limited   •   Noida\nApril 2024 - Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Associate Project Manager  (Acting Product Manager)   |   Provana India Private Limited   •   Noida",
+              "block_id": "b31",
+              "kind": "text",
+              "start": 1580,
+              "end": 1679
+            },
+            {
+              "page": 1,
+              "text": "April 2024 - Present",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 1680,
+              "end": 1700
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "April 2024 - Present",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 1680,
+              "end": 1700
+            },
+            {
+              "page": 1,
+              "text": "November 2026",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 4678,
+              "end": 4691
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Associate Project Manager",
+              "block_id": "b31",
+              "kind": "text",
+              "start": 1580,
+              "end": 1605
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "April 2024 - Present",
+          "is_present": true
+        },
+        "date_label": "April 2024 - Present",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [],
+        "evidence": {
+          "note": "year-only dates need verification"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 3,
+      "total_events": 3,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.81,
+      "document_accuracy": 0.81
+    },
+    "total_represented_months": 165,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 2,
+          "dated_periods": 2,
+          "represented_months": 30,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 1,
+            "year_range": 1,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v2b172c8d79962a83",
+              "label": "Product & Operations Manager",
+              "state": "year_range",
+              "start": [
+                2018,
+                1
+              ],
+              "end": [
+                2024,
+                12
+              ],
+              "months": null,
+              "raw": "2018 - March 2024",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Product & Operations Manager   |   Raaj Medisafe India Limited   •   Indore 2018 - March 2024",
+                    "block_id": "b64",
+                    "kind": "text",
+                    "start": 4693,
+                    "end": 4786
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "2018 - March 2024",
+                    "block_id": "b64",
+                    "kind": "text",
+                    "start": 4769,
+                    "end": 4786
+                  }
+                ],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Product & Operations Manager",
+                    "block_id": "b64",
+                    "kind": "text",
+                    "start": 4693,
+                    "end": 4721
+                  }
+                ],
+                "section": "PROFESSIONAL EXPERIENCE",
+                "date_label": "2018 - March 2024",
+                "is_present": false
+              }
+            },
+            {
+              "id": "v64b79169d04fd8e5",
+              "label": "Associate Project Manager",
+              "state": "month_range",
+              "start": [
+                2024,
+                4
+              ],
+              "end": [
+                2026,
+                9
+              ],
+              "months": 30,
+              "raw": "April 2024 - Present",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Associate Project Manager  (Acting Product Manager)   |   Provana India Private Limited   •   Noida",
+                    "block_id": "b31",
+                    "kind": "text",
+                    "start": 1580,
+                    "end": 1679
+                  },
+                  {
+                    "page": 1,
+                    "text": "April 2024 - Present",
+                    "block_id": "b32",
+                    "kind": "text",
+                    "start": 1680,
+                    "end": 1700
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "April 2024 - Present",
+                    "block_id": "b32",
+                    "kind": "text",
+                    "start": 1680,
+                    "end": 1700
+                  },
+                  {
+                    "page": 1,
+                    "text": "November 2026",
+                    "block_id": "b63",
+                    "kind": "text",
+                    "start": 4678,
+                    "end": 4691
+                  }
+                ],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Associate Project Manager",
+                    "block_id": "b31",
+                    "kind": "text",
+                    "start": 1580,
+                    "end": 1605
+                  }
+                ],
+                "section": "PROFESSIONAL EXPERIENCE",
+                "date_label": "April 2024 - Present",
+                "is_present": true
+              }
+            }
+          ]
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 1,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 1,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "ve2cf147c6eadaca1",
+              "label": "B.Tech - Computer Science",
+              "state": "year_range",
+              "start": [
+                2013,
+                1
+              ],
+              "end": [
+                2017,
+                12
+              ],
+              "months": null,
+              "raw": "2013 - 2017",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "B.Tech - Computer Science  |  Jaypee Institute of Information Technology, Noida   2013 - 2017",
+                    "block_id": "b74",
+                    "kind": "text",
+                    "start": 5464,
+                    "end": 5557
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "2013 - 2017",
+                    "block_id": "b74",
+                    "kind": "text",
+                    "start": 5546,
+                    "end": 5557
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Jaypee Institute of Information Technology",
+                    "block_id": "b74",
+                    "kind": "text",
+                    "start": 5494,
+                    "end": 5536
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "B.Tech - Computer Science",
+                    "block_id": "b74",
+                    "kind": "text",
+                    "start": 5464,
+                    "end": 5489
+                  }
+                ],
+                "section": "EDUCATION",
+                "date_label": "2013 - 2017",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 30,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 2,
+        "dated_periods": 2,
+        "represented_months": 30,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 1,
+          "year_range": 1,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v2b172c8d79962a83",
+            "label": "Product & Operations Manager",
+            "state": "year_range",
+            "start": [
+              2018,
+              1
+            ],
+            "end": [
+              2024,
+              12
+            ],
+            "months": null,
+            "raw": "2018 - March 2024",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Product & Operations Manager   |   Raaj Medisafe India Limited   •   Indore 2018 - March 2024",
+                  "block_id": "b64",
+                  "kind": "text",
+                  "start": 4693,
+                  "end": 4786
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "2018 - March 2024",
+                  "block_id": "b64",
+                  "kind": "text",
+                  "start": 4769,
+                  "end": 4786
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Product & Operations Manager",
+                  "block_id": "b64",
+                  "kind": "text",
+                  "start": 4693,
+                  "end": 4721
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "2018 - March 2024",
+              "is_present": false
+            }
+          },
+          {
+            "id": "v64b79169d04fd8e5",
+            "label": "Associate Project Manager",
+            "state": "month_range",
+            "start": [
+              2024,
+              4
+            ],
+            "end": [
+              2026,
+              9
+            ],
+            "months": 30,
+            "raw": "April 2024 - Present",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Associate Project Manager  (Acting Product Manager)   |   Provana India Private Limited   •   Noida",
+                  "block_id": "b31",
+                  "kind": "text",
+                  "start": 1580,
+                  "end": 1679
+                },
+                {
+                  "page": 1,
+                  "text": "April 2024 - Present",
+                  "block_id": "b32",
+                  "kind": "text",
+                  "start": 1680,
+                  "end": 1700
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "April 2024 - Present",
+                  "block_id": "b32",
+                  "kind": "text",
+                  "start": 1680,
+                  "end": 1700
+                },
+                {
+                  "page": 1,
+                  "text": "November 2026",
+                  "block_id": "b63",
+                  "kind": "text",
+                  "start": 4678,
+                  "end": 4691
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Associate Project Manager",
+                  "block_id": "b31",
+                  "kind": "text",
+                  "start": 1580,
+                  "end": 1605
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "April 2024 - Present",
+              "is_present": true
+            }
+          }
+        ]
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 1,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 1,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "ve2cf147c6eadaca1",
+            "label": "B.Tech - Computer Science",
+            "state": "year_range",
+            "start": [
+              2013,
+              1
+            ],
+            "end": [
+              2017,
+              12
+            ],
+            "months": null,
+            "raw": "2013 - 2017",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "B.Tech - Computer Science  |  Jaypee Institute of Information Technology, Noida   2013 - 2017",
+                  "block_id": "b74",
+                  "kind": "text",
+                  "start": 5464,
+                  "end": 5557
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "2013 - 2017",
+                  "block_id": "b74",
+                  "kind": "text",
+                  "start": 5546,
+                  "end": 5557
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Jaypee Institute of Information Technology",
+                  "block_id": "b74",
+                  "kind": "text",
+                  "start": 5494,
+                  "end": 5536
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "B.Tech - Computer Science",
+                  "block_id": "b74",
+                  "kind": "text",
+                  "start": 5464,
+                  "end": 5489
+                }
+              ],
+              "section": "EDUCATION",
+              "date_label": "2013 - 2017",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 30,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

@@ -1,0 +1,733 @@
+{
+  "file_name": "Hitesh_Chhabria.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "9a9af42493d2395f8f880f60616d69b1fc8f4e47491557f25620bbdee3e94f7a",
+  "doc_id": "9a9af42493d2395f8f880f60",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 0,
+    "total_events": 1,
+    "dated_share": 0.0,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": null,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [],
+  "education": [
+    {
+      "id": "vd331feaf02b5cdcc",
+      "type": "EDUCATION",
+      "company": "Institute: Smt.Chandibai Himathmal Mansukhani College Ulhasnagar Dist- Thane",
+      "title": "Bachelor of Commerce",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Bachelor of Commerce (2019 – 2022)",
+            "block_id": "b10",
+            "kind": "text",
+            "start": 427,
+            "end": 461
+          },
+          {
+            "page": 1,
+            "text": "Institute: Smt.Chandibai Himathmal Mansukhani College Ulhasnagar Dist-",
+            "block_id": "b11",
+            "kind": "text",
+            "start": 463,
+            "end": 533
+          },
+          {
+            "page": 1,
+            "text": "Thane(Mumbai University)",
+            "block_id": "b11",
+            "kind": "text",
+            "start": 534,
+            "end": 558
+          },
+          {
+            "page": 1,
+            "text": "Higher Secondary Certificate (H.S.C) (2018 – 2019)",
+            "block_id": "b12",
+            "kind": "text",
+            "start": 560,
+            "end": 610
+          },
+          {
+            "page": 1,
+            "text": "Institute: Rk Talreja college Ulhasnagar Dist-Thane (Maharashtra Board)",
+            "block_id": "b13",
+            "kind": "text",
+            "start": 612,
+            "end": 683
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2019 – 2022",
+            "block_id": "b10",
+            "kind": "text",
+            "start": 449,
+            "end": 460
+          },
+          {
+            "page": 1,
+            "text": "2018 – 2019",
+            "block_id": "b12",
+            "kind": "text",
+            "start": 598,
+            "end": 609
+          },
+          {
+            "page": 1,
+            "text": "2016 – 2017",
+            "block_id": "b14",
+            "kind": "text",
+            "start": 723,
+            "end": 734
+          },
+          {
+            "page": 1,
+            "text": "1st Dec 2022 to till Date",
+            "block_id": "b20",
+            "kind": "text",
+            "start": 953,
+            "end": 978
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Institute: Smt.Chandibai Himathmal Mansukhani College Ulhasnagar Dist-",
+            "block_id": "b11",
+            "kind": "text",
+            "start": 463,
+            "end": 533
+          },
+          {
+            "page": 1,
+            "text": "Thane",
+            "block_id": "b11",
+            "kind": "text",
+            "start": 534,
+            "end": 539
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Bachelor of Commerce",
+            "block_id": "b10",
+            "kind": "text",
+            "start": 427,
+            "end": 447
+          }
+        ],
+        "section": "Bachelor of Commerce (2019 – 2022)",
+        "date_label": "2019 – 2022 / 2018 – 2019",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": "2019 – 2022 / 2018 – 2019"
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 0,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "PARTIAL",
+    "coverage_analysis": "PARTIAL",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "entry e0: 4 ranges; first kept, rest preserved in evidence",
+    "e0: dates cannot be assigned unambiguously",
+    "conflicting/ambiguous date kept for 'Bachelor of Commerce'",
+    "no dated events to order",
+    "no intervals to cover"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "9a9af42493d2395f8f880f60",
+    "filename": "Hitesh_Chhabria.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [],
+    "unresolved_events": [
+      {
+        "id": "vd331feaf02b5cdcc",
+        "type": "EDUCATION",
+        "title": "Bachelor of Commerce",
+        "org": "Institute: Smt.Chandibai Himathmal Mansukhani College Ulhasnagar Dist- Thane",
+        "entry_text": "Bachelor of Commerce (2019 – 2022) Institute: Smt.Chandibai Himathmal Mansukhani College Ulhasnagar Dist- Thane(Mumbai University) Higher Secondary Certificate (H.S.C) (2018 – 2019) Institute: Rk Talreja college Ulhasnagar Dist-Thane (Maharashtra Board) Secondary School Certificate (S.S.C) (2016 – 2",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor of Commerce (2019 – 2022)",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 427,
+              "end": 461
+            },
+            {
+              "page": 1,
+              "text": "Institute: Smt.Chandibai Himathmal Mansukhani College Ulhasnagar Dist-",
+              "block_id": "b11",
+              "kind": "text",
+              "start": 463,
+              "end": 533
+            },
+            {
+              "page": 1,
+              "text": "Thane(Mumbai University)",
+              "block_id": "b11",
+              "kind": "text",
+              "start": 534,
+              "end": 558
+            },
+            {
+              "page": 1,
+              "text": "Higher Secondary Certificate (H.S.C) (2018 – 2019)",
+              "block_id": "b12",
+              "kind": "text",
+              "start": 560,
+              "end": 610
+            },
+            {
+              "page": 1,
+              "text": "Institute: Rk Talreja college Ulhasnagar Dist-Thane (Maharashtra Board)",
+              "block_id": "b13",
+              "kind": "text",
+              "start": 612,
+              "end": 683
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2019 – 2022",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 449,
+              "end": 460
+            },
+            {
+              "page": 1,
+              "text": "2018 – 2019",
+              "block_id": "b12",
+              "kind": "text",
+              "start": 598,
+              "end": 609
+            },
+            {
+              "page": 1,
+              "text": "2016 – 2017",
+              "block_id": "b14",
+              "kind": "text",
+              "start": 723,
+              "end": 734
+            },
+            {
+              "page": 1,
+              "text": "1st Dec 2022 to till Date",
+              "block_id": "b20",
+              "kind": "text",
+              "start": 953,
+              "end": 978
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Institute: Smt.Chandibai Himathmal Mansukhani College Ulhasnagar Dist-",
+              "block_id": "b11",
+              "kind": "text",
+              "start": 463,
+              "end": 533
+            },
+            {
+              "page": 1,
+              "text": "Thane",
+              "block_id": "b11",
+              "kind": "text",
+              "start": 534,
+              "end": 539
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Commerce",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 427,
+              "end": 447
+            }
+          ],
+          "section": "Bachelor of Commerce (2019 – 2022)",
+          "date_label": "2019 – 2022 / 2018 – 2019",
+          "is_present": false
+        },
+        "date_label": "2019 – 2022 / 2018 – 2019",
+        "section": "Bachelor of Commerce (2019 – 2022)",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 0,
+      "total_events": 1,
+      "dated_share": 0.0,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": null,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 0,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "PARTIAL",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "PARTIAL",
+        "confidence": 0.3
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 1,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "vd331feaf02b5cdcc",
+              "label": "Bachelor of Commerce",
+              "state": "ambiguous",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "2019 – 2022 / 2018 – 2019",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Bachelor of Commerce (2019 – 2022)",
+                    "block_id": "b10",
+                    "kind": "text",
+                    "start": 427,
+                    "end": 461
+                  },
+                  {
+                    "page": 1,
+                    "text": "Institute: Smt.Chandibai Himathmal Mansukhani College Ulhasnagar Dist-",
+                    "block_id": "b11",
+                    "kind": "text",
+                    "start": 463,
+                    "end": 533
+                  },
+                  {
+                    "page": 1,
+                    "text": "Thane(Mumbai University)",
+                    "block_id": "b11",
+                    "kind": "text",
+                    "start": 534,
+                    "end": 558
+                  },
+                  {
+                    "page": 1,
+                    "text": "Higher Secondary Certificate (H.S.C) (2018 – 2019)",
+                    "block_id": "b12",
+                    "kind": "text",
+                    "start": 560,
+                    "end": 610
+                  },
+                  {
+                    "page": 1,
+                    "text": "Institute: Rk Talreja college Ulhasnagar Dist-Thane (Maharashtra Board)",
+                    "block_id": "b13",
+                    "kind": "text",
+                    "start": 612,
+                    "end": 683
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "2019 – 2022",
+                    "block_id": "b10",
+                    "kind": "text",
+                    "start": 449,
+                    "end": 460
+                  },
+                  {
+                    "page": 1,
+                    "text": "2018 – 2019",
+                    "block_id": "b12",
+                    "kind": "text",
+                    "start": 598,
+                    "end": 609
+                  },
+                  {
+                    "page": 1,
+                    "text": "2016 – 2017",
+                    "block_id": "b14",
+                    "kind": "text",
+                    "start": 723,
+                    "end": 734
+                  },
+                  {
+                    "page": 1,
+                    "text": "1st Dec 2022 to till Date",
+                    "block_id": "b20",
+                    "kind": "text",
+                    "start": 953,
+                    "end": 978
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Institute: Smt.Chandibai Himathmal Mansukhani College Ulhasnagar Dist-",
+                    "block_id": "b11",
+                    "kind": "text",
+                    "start": 463,
+                    "end": 533
+                  },
+                  {
+                    "page": 1,
+                    "text": "Thane",
+                    "block_id": "b11",
+                    "kind": "text",
+                    "start": 534,
+                    "end": 539
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Bachelor of Commerce",
+                    "block_id": "b10",
+                    "kind": "text",
+                    "start": 427,
+                    "end": 447
+                  }
+                ],
+                "section": "Bachelor of Commerce (2019 – 2022)",
+                "date_label": "2019 – 2022 / 2018 – 2019",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 0,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 1,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "vd331feaf02b5cdcc",
+            "label": "Bachelor of Commerce",
+            "state": "ambiguous",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "2019 – 2022 / 2018 – 2019",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Bachelor of Commerce (2019 – 2022)",
+                  "block_id": "b10",
+                  "kind": "text",
+                  "start": 427,
+                  "end": 461
+                },
+                {
+                  "page": 1,
+                  "text": "Institute: Smt.Chandibai Himathmal Mansukhani College Ulhasnagar Dist-",
+                  "block_id": "b11",
+                  "kind": "text",
+                  "start": 463,
+                  "end": 533
+                },
+                {
+                  "page": 1,
+                  "text": "Thane(Mumbai University)",
+                  "block_id": "b11",
+                  "kind": "text",
+                  "start": 534,
+                  "end": 558
+                },
+                {
+                  "page": 1,
+                  "text": "Higher Secondary Certificate (H.S.C) (2018 – 2019)",
+                  "block_id": "b12",
+                  "kind": "text",
+                  "start": 560,
+                  "end": 610
+                },
+                {
+                  "page": 1,
+                  "text": "Institute: Rk Talreja college Ulhasnagar Dist-Thane (Maharashtra Board)",
+                  "block_id": "b13",
+                  "kind": "text",
+                  "start": 612,
+                  "end": 683
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "2019 – 2022",
+                  "block_id": "b10",
+                  "kind": "text",
+                  "start": 449,
+                  "end": 460
+                },
+                {
+                  "page": 1,
+                  "text": "2018 – 2019",
+                  "block_id": "b12",
+                  "kind": "text",
+                  "start": 598,
+                  "end": 609
+                },
+                {
+                  "page": 1,
+                  "text": "2016 – 2017",
+                  "block_id": "b14",
+                  "kind": "text",
+                  "start": 723,
+                  "end": 734
+                },
+                {
+                  "page": 1,
+                  "text": "1st Dec 2022 to till Date",
+                  "block_id": "b20",
+                  "kind": "text",
+                  "start": 953,
+                  "end": 978
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Institute: Smt.Chandibai Himathmal Mansukhani College Ulhasnagar Dist-",
+                  "block_id": "b11",
+                  "kind": "text",
+                  "start": 463,
+                  "end": 533
+                },
+                {
+                  "page": 1,
+                  "text": "Thane",
+                  "block_id": "b11",
+                  "kind": "text",
+                  "start": 534,
+                  "end": 539
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Bachelor of Commerce",
+                  "block_id": "b10",
+                  "kind": "text",
+                  "start": 427,
+                  "end": 447
+                }
+              ],
+              "section": "Bachelor of Commerce (2019 – 2022)",
+              "date_label": "2019 – 2022 / 2018 – 2019",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 0,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

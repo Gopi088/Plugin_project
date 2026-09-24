@@ -1,0 +1,298 @@
+{
+  "file_name": "Diksha Agrawal.pdf",
+  "input_mode": "original_document",
+  "input_sha256": "cfdb7d85bdcfd05efd891f4c86d656758f34c787b36a41168fed1a8e4684f5dc",
+  "doc_id": "cfdb7d85bdcfd05efd891f4c",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 1,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9
+  },
+  "work_experience": [],
+  "education": [
+    {
+      "id": "v2e081f282d010a98",
+      "type": "EDUCATION",
+      "company": "",
+      "title": "B.Tech",
+      "start_date": "2017-07",
+      "end_date": "2019-06",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 3,
+            "text": "B.Tech, Electronics And Telecommunications",
+            "block_id": "b110",
+            "kind": "pdf",
+            "page_width": 596,
+            "page_height": 843,
+            "bbox": [
+              239.6,
+              315.12700000000007,
+              499.177,
+              326.12700000000007
+            ],
+            "fragment_text": "B.Tech, Electronics And Telecommunications"
+          },
+          {
+            "page": 3,
+            "text": "Jul 2017 — Jun 2019",
+            "block_id": "b112",
+            "kind": "pdf",
+            "page_width": 596,
+            "page_height": 843,
+            "bbox": [
+              239.6,
+              394.397,
+              350.126,
+              405.397
+            ],
+            "fragment_text": "Jul 2017 — Jun 2019"
+          }
+        ],
+        "dates": [
+          {
+            "page": 3,
+            "text": "Jul 2017 — Jun 2019",
+            "block_id": "b112",
+            "kind": "pdf",
+            "page_width": 596,
+            "page_height": 843,
+            "bbox": [
+              239.6,
+              394.397,
+              350.126,
+              405.397
+            ],
+            "fragment_text": "Jul 2017 — Jun 2019"
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 3,
+            "text": "B.Tech",
+            "block_id": "b110",
+            "kind": "pdf",
+            "page_width": 596,
+            "page_height": 843,
+            "bbox": [
+              239.6,
+              315.12700000000007,
+              278.914,
+              326.12700000000007
+            ],
+            "fragment_text": "B.Tech,"
+          }
+        ],
+        "section": "EDUCATION",
+        "date_label": "Jul 2017 — Jun 2019",
+        "is_present": false
+      }
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 0,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "PARTIAL",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "raw_pipeline_dto": {
+    "doc_id": "cfdb7d85bdcfd05efd891f4c",
+    "filename": "Diksha Agrawal.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "v2e081f282d010a98",
+        "type": "EDUCATION",
+        "title": "B.Tech",
+        "org": "",
+        "start": "2017-07",
+        "end": "2019-06",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "B.Tech, Electronics And Telecommunications\nJul 2017 — Jun 2019",
+        "source": {
+          "entry": [
+            {
+              "page": 3,
+              "text": "B.Tech, Electronics And Telecommunications",
+              "block_id": "b110",
+              "kind": "pdf",
+              "page_width": 596,
+              "page_height": 843,
+              "bbox": [
+                239.6,
+                315.12700000000007,
+                499.177,
+                326.12700000000007
+              ],
+              "fragment_text": "B.Tech, Electronics And Telecommunications"
+            },
+            {
+              "page": 3,
+              "text": "Jul 2017 — Jun 2019",
+              "block_id": "b112",
+              "kind": "pdf",
+              "page_width": 596,
+              "page_height": 843,
+              "bbox": [
+                239.6,
+                394.397,
+                350.126,
+                405.397
+              ],
+              "fragment_text": "Jul 2017 — Jun 2019"
+            }
+          ],
+          "dates": [
+            {
+              "page": 3,
+              "text": "Jul 2017 — Jun 2019",
+              "block_id": "b112",
+              "kind": "pdf",
+              "page_width": 596,
+              "page_height": 843,
+              "bbox": [
+                239.6,
+                394.397,
+                350.126,
+                405.397
+              ],
+              "fragment_text": "Jul 2017 — Jun 2019"
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 3,
+              "text": "B.Tech",
+              "block_id": "b110",
+              "kind": "pdf",
+              "page_width": 596,
+              "page_height": 843,
+              "bbox": [
+                239.6,
+                315.12700000000007,
+                278.914,
+                326.12700000000007
+              ],
+              "fragment_text": "B.Tech,"
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "Jul 2017 — Jun 2019",
+          "is_present": false
+        },
+        "date_label": "Jul 2017 — Jun 2019",
+        "section": "EDUCATION",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 1,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9
+    },
+    "total_represented_months": 24,
+    "stages": {
+      "document_processing": {
+        "status": "PARTIAL",
+        "confidence": 0.3
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

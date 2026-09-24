@@ -1,0 +1,2606 @@
+{
+  "file_name": "Sameer Kumar Panda.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "9310bf0e95282f92c6988adf4b55b3f3202ff4b689d8f00cd8e83238d39c686e",
+  "doc_id": "9310bf0e95282f92c6988adf",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 0,
+    "total_events": 12,
+    "dated_share": 0.0,
+    "unresolved": 12,
+    "ambiguous": 0,
+    "mean_event_confidence": null,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [],
+  "education": [
+    {
+      "id": "v0619f8f2547f6276",
+      "type": "EDUCATION",
+      "company": "",
+      "title": "B. Tech in Information Technology",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "B. Tech in Information Technology August 2023",
+            "block_id": "b63",
+            "kind": "text",
+            "start": 2730,
+            "end": 2775
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "August 2023",
+            "block_id": "b63",
+            "kind": "text",
+            "start": 2764,
+            "end": 2775
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "B. Tech in Information Technology",
+            "block_id": "b63",
+            "kind": "text",
+            "start": 2730,
+            "end": 2763
+          }
+        ],
+        "section": "Education",
+        "date_label": "August 2023",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": "August 2023"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "JOB.ai – Automated Job Aggregation & Recommendation PlatformAI_JOB_ASSITANT",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "JOB.ai – Automated Job Aggregation & Recommendation PlatformAI_JOB_ASSITANT"
+      ],
+      "raw_text": "JOB.ai – Automated Job Aggregation & Recommendation PlatformAI_JOB_ASSITANT",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "JOB.ai – Automated Job Aggregation & Recommendation PlatformAI_JOB_ASSITANT",
+            "block_id": "b66",
+            "kind": "text",
+            "start": 2800,
+            "end": 2875
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_2",
+      "name": "Tech Stack: Python, FastAPI, FAISS, MongoDB, Docker, Telegram Bot API, REST APIs, Parallel Processing,",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Tech Stack: Python, FastAPI, FAISS, MongoDB, Docker, Telegram Bot API, REST APIs, Parallel Processing,"
+      ],
+      "raw_text": "Tech Stack: Python, FastAPI, FAISS, MongoDB, Docker, Telegram Bot API, REST APIs, Parallel Processing,",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Tech Stack: Python, FastAPI, FAISS, MongoDB, Docker, Telegram Bot API, REST APIs, Parallel Processing,",
+            "block_id": "b67",
+            "kind": "text",
+            "start": 2876,
+            "end": 2978
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_3",
+      "name": "Data Cleaning Pipelines",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Data Cleaning Pipelines"
+      ],
+      "raw_text": "Data Cleaning Pipelines",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Data Cleaning Pipelines",
+            "block_id": "b68",
+            "kind": "text",
+            "start": 2979,
+            "end": 3002
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_4",
+      "name": "Accomplishments",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Accomplishments",
+        "validation to minimize hallucinations, aligned with secure and compliant deployment practices.",
+        "Developed RESTful microservices for AI assistants (healthcare tracking) using FastAPI, Redis,"
+      ],
+      "raw_text": "Accomplishments\nvalidation to minimize hallucinations, aligned with secure and compliant deployment practices.\nDeveloped RESTful microservices for AI assistants (healthcare tracking) using FastAPI, Redis,",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Accomplishments",
+            "block_id": "b69",
+            "kind": "text",
+            "start": 3003,
+            "end": 3018
+          },
+          {
+            "page": 1,
+            "text": "validation to minimize hallucinations, aligned with secure and compliant deployment practices.",
+            "block_id": "b70",
+            "kind": "text",
+            "start": 3019,
+            "end": 3113
+          },
+          {
+            "page": 1,
+            "text": "Developed RESTful microservices for AI assistants (healthcare tracking) using FastAPI, Redis,",
+            "block_id": "b71",
+            "kind": "text",
+            "start": 3114,
+            "end": 3207
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_5",
+      "name": "V ectorDBs—leveraging recommendation systems and NLP (classification, sentiment analysis)",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "V ectorDBs—leveraging recommendation systems and NLP (classification, sentiment analysis)",
+        "—structured for modularity, performance, and maintainability.",
+        "Automated CI/CD processes using GitHub Actions, Docker, and Azure ML, integrating model",
+        "validation metrics (accuracy, precision, recall, F1), load testing, and performance dashboards to support robust development cycles and platform stability.",
+        "• Designed and deployed a distributed real-time audio-to-text pipeline using A WS Textract, FastAPI,",
+        "and Docker—reducing end-to-end latency by 90% while ensuring high throughput and fault",
+        "tolerance for time-critical workloads.",
+        "• Optimized an entity extraction microservice (TensorFlow, Python, Redis) through algorithm"
+      ],
+      "raw_text": "V ectorDBs—leveraging recommendation systems and NLP (classification, sentiment analysis)\n—structured for modularity, performance, and maintainability.\nAutomated CI/CD processes using GitHub Actions, Docker, and Azure ML, integrating model\nvalidation metrics (accuracy, precision, recall, F1), load testing, and performance dashboards to support robust development cycles and platform stability.\n• Designed and deployed a distributed real-time audio-to-text pipeline using A WS Textract, FastAPI,\nand Docker—reducing end-to-end latency by 90% while ensuring high throughput and fault\ntolerance for ti",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "V ectorDBs—leveraging recommendation systems and NLP (classification, sentiment analysis)",
+            "block_id": "b72",
+            "kind": "text",
+            "start": 3208,
+            "end": 3297
+          },
+          {
+            "page": 1,
+            "text": "—structured for modularity, performance, and maintainability.",
+            "block_id": "b73",
+            "kind": "text",
+            "start": 3298,
+            "end": 3359
+          },
+          {
+            "page": 1,
+            "text": "Automated CI/CD processes using GitHub Actions, Docker, and Azure ML, integrating model",
+            "block_id": "b74",
+            "kind": "text",
+            "start": 3360,
+            "end": 3447
+          },
+          {
+            "page": 1,
+            "text": "validation metrics (accuracy, precision, recall, F1), load testing, and performance dashboards to",
+            "block_id": "b75",
+            "kind": "text",
+            "start": 3448,
+            "end": 3545
+          },
+          {
+            "page": 1,
+            "text": "support robust development cycles and platform stability.",
+            "block_id": "b75",
+            "kind": "text",
+            "start": 3546,
+            "end": 3603
+          },
+          {
+            "page": 1,
+            "text": "• Designed and deployed a distributed real-time audio-to-text pipeline using A WS Textract, FastAPI,",
+            "block_id": "b76",
+            "kind": "text",
+            "start": 3604,
+            "end": 3704
+          },
+          {
+            "page": 1,
+            "text": "and Docker—reducing end-to-end latency by 90% while ensuring high throughput and fault",
+            "block_id": "b77",
+            "kind": "text",
+            "start": 3705,
+            "end": 3791
+          },
+          {
+            "page": 1,
+            "text": "tolerance for time-critical workloads.",
+            "block_id": "b78",
+            "kind": "text",
+            "start": 3792,
+            "end": 3830
+          },
+          {
+            "page": 1,
+            "text": "• Optimized an entity extraction microservice (TensorFlow, Python, Redis) through algorithm",
+            "block_id": "b79",
+            "kind": "text",
+            "start": 3831,
+            "end": 3922
+          },
+          {
+            "page": 1,
+            "text": "refactoring and data-access optimizations, improving processing speed by 92% and enabling",
+            "block_id": "b80",
+            "kind": "text",
+            "start": 3923,
+            "end": 4012
+          },
+          {
+            "page": 1,
+            "text": "near-real-time document parsing at scale.",
+            "block_id": "b81",
+            "kind": "text",
+            "start": 4013,
+            "end": 4054
+          },
+          {
+            "page": 1,
+            "text": "• Built a recommendation engine for automated invoice/POS data processing (MongoDB, Django,",
+            "block_id": "b82",
+            "kind": "text",
+            "start": 4055,
+            "end": 4146
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_6",
+      "name": "REST APIs), reducing manual workforce requirements by 82% and improving operational efficiency",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "REST APIs), reducing manual workforce requirements by 82% and improving operational efficiency",
+        "across multiple business units.",
+        "• Enhanced an AI bot for automated property description generation, improving NLP model",
+        "efficiency by 82% through caching strategies, batch inference optimization, and modular service",
+        "design.",
+        "Designed and deployed a distributed, fully automated job aggregation platform scraping from"
+      ],
+      "raw_text": "REST APIs), reducing manual workforce requirements by 82% and improving operational efficiency\nacross multiple business units.\n• Enhanced an AI bot for automated property description generation, improving NLP model\nefficiency by 82% through caching strategies, batch inference optimization, and modular service\ndesign.\nDesigned and deployed a distributed, fully automated job aggregation platform scraping from",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "REST APIs), reducing manual workforce requirements by 82% and improving operational efficiency",
+            "block_id": "b83",
+            "kind": "text",
+            "start": 4147,
+            "end": 4241
+          },
+          {
+            "page": 1,
+            "text": "across multiple business units.",
+            "block_id": "b84",
+            "kind": "text",
+            "start": 4242,
+            "end": 4273
+          },
+          {
+            "page": 1,
+            "text": "• Enhanced an AI bot for automated property description generation, improving NLP model",
+            "block_id": "b85",
+            "kind": "text",
+            "start": 4274,
+            "end": 4361
+          },
+          {
+            "page": 1,
+            "text": "efficiency by 82% through caching strategies, batch inference optimization, and modular service",
+            "block_id": "b86",
+            "kind": "text",
+            "start": 4362,
+            "end": 4457
+          },
+          {
+            "page": 1,
+            "text": "design.",
+            "block_id": "b87",
+            "kind": "text",
+            "start": 4458,
+            "end": 4465
+          },
+          {
+            "page": 1,
+            "text": "Designed and deployed a distributed, fully automated job aggregation platform scraping from",
+            "block_id": "b88",
+            "kind": "text",
+            "start": 4466,
+            "end": 4557
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_7",
+      "name": "MongoDB for persistent storage of user profiles, CV s, and interaction history.",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "MongoDB for persistent storage of user profiles, CV s, and interaction history.",
+        "Automated application support workflows to generate tailored referral emails, cover letters, and cold",
+        "outreach templates, improving candidate application efficiency by ~80%."
+      ],
+      "raw_text": "MongoDB for persistent storage of user profiles, CV s, and interaction history.\nAutomated application support workflows to generate tailored referral emails, cover letters, and cold\noutreach templates, improving candidate application efficiency by ~80%.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "MongoDB for persistent storage of user profiles, CV s, and interaction history.",
+            "block_id": "b95",
+            "kind": "text",
+            "start": 5064,
+            "end": 5143
+          },
+          {
+            "page": 1,
+            "text": "Automated application support workflows to generate tailored referral emails, cover letters, and cold",
+            "block_id": "b96",
+            "kind": "text",
+            "start": 5144,
+            "end": 5245
+          },
+          {
+            "page": 1,
+            "text": "outreach templates, improving candidate application efficiency by ~80%.",
+            "block_id": "b97",
+            "kind": "text",
+            "start": 5246,
+            "end": 5317
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_8",
+      "name": "Containerized and orchestrated the entire system using Docker for reproducible deployments and",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Containerized and orchestrated the entire system using Docker for reproducible deployments and",
+        "high availability in production.",
+        "2nd Place – Tiger Analytics Agentic AI Hackathon – Built and deployed an advanced Agentic AI",
+        "workflow integrating LLMs, RAG, and automation pipelines for real-world business use cases."
+      ],
+      "raw_text": "Containerized and orchestrated the entire system using Docker for reproducible deployments and\nhigh availability in production.\n2nd Place – Tiger Analytics Agentic AI Hackathon – Built and deployed an advanced Agentic AI\nworkflow integrating LLMs, RAG, and automation pipelines for real-world business use cases.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Containerized and orchestrated the entire system using Docker for reproducible deployments and",
+            "block_id": "b98",
+            "kind": "text",
+            "start": 5318,
+            "end": 5412
+          },
+          {
+            "page": 1,
+            "text": "high availability in production.",
+            "block_id": "b99",
+            "kind": "text",
+            "start": 5413,
+            "end": 5445
+          },
+          {
+            "page": 1,
+            "text": "2nd Place – Tiger Analytics Agentic AI Hackathon – Built and deployed an advanced Agentic AI",
+            "block_id": "b100",
+            "kind": "text",
+            "start": 5446,
+            "end": 5538
+          },
+          {
+            "page": 1,
+            "text": "workflow integrating LLMs, RAG, and automation pipelines for real-world business use cases.",
+            "block_id": "b101",
+            "kind": "text",
+            "start": 5539,
+            "end": 5630
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_9",
+      "name": "5•••• – Cleared all milestones in the Tiger Analytics MLE Program.",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "5•••• – Cleared all milestones in the Tiger Analytics MLE Program."
+      ],
+      "raw_text": "5•••• – Cleared all milestones in the Tiger Analytics MLE Program.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "5•••• – Cleared all milestones in the Tiger Analytics MLE Program.",
+            "block_id": "b102",
+            "kind": "text",
+            "start": 5631,
+            "end": 5697
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_10",
+      "name": "1585 / 34K – Facebook Hacker Cup (Round 2).",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "1585 / 34K – Facebook Hacker Cup (Round 2)."
+      ],
+      "raw_text": "1585 / 34K – Facebook Hacker Cup (Round 2).",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "1585 / 34K – Facebook Hacker Cup (Round 2).",
+            "block_id": "b103",
+            "kind": "text",
+            "start": 5698,
+            "end": 5741
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_11",
+      "name": "1996th & 2448th – Google Kickstart (Round F & B).",
+      "client": "",
+      "role": "",
+      "duration": "1996",
+      "details": [
+        "1996th & 2448th – Google Kickstart (Round F & B)."
+      ],
+      "raw_text": "1996th & 2448th – Google Kickstart (Round F & B).",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "1996th & 2448th – Google Kickstart (Round F & B).",
+            "block_id": "b104",
+            "kind": "text",
+            "start": 5742,
+            "end": 5791
+          }
+        ]
+      }
+    }
+  ],
+  "gaps": [],
+  "total_work_experience_entries": 0,
+  "total_projects_entries": 11,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "PARTIAL",
+    "coverage_analysis": "PARTIAL",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "e0: dates cannot be assigned unambiguously",
+    "e11: dates cannot be assigned unambiguously",
+    "conflicting/ambiguous date kept for 'B. Tech in Information Technology'",
+    "conflicting/ambiguous date kept for 'th & 2448th – Google Kickstart .'",
+    "no dated events to order",
+    "no intervals to cover"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "9310bf0e95282f92c6988adf",
+    "filename": "Sameer Kumar Panda.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [],
+    "unresolved_events": [
+      {
+        "id": "v0619f8f2547f6276",
+        "type": "EDUCATION",
+        "title": "B. Tech in Information Technology",
+        "org": "",
+        "entry_text": "B. Tech in Information Technology August 2023 GPA: 7.82 / 10",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "B. Tech in Information Technology August 2023",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 2730,
+              "end": 2775
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "August 2023",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 2764,
+              "end": 2775
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "B. Tech in Information Technology",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 2730,
+              "end": 2763
+            }
+          ],
+          "section": "Education",
+          "date_label": "August 2023",
+          "is_present": false
+        },
+        "date_label": "August 2023",
+        "section": "Education",
+        "status": "AMBIGUOUS"
+      },
+      {
+        "id": "vc5725e2624e30383",
+        "type": "PROJECT",
+        "title": "JOB.ai – Automated Job Aggregation & Recommendation PlatformAI_JOB_ASSITANT",
+        "org": "",
+        "entry_text": "JOB.ai – Automated Job Aggregation & Recommendation PlatformAI_JOB_ASSITANT",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "JOB.ai – Automated Job Aggregation & Recommendation PlatformAI_JOB_ASSITANT",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 2800,
+              "end": 2875
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "JOB.ai – Automated Job Aggregation & Recommendation PlatformAI_JOB_ASSITANT",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 2800,
+              "end": 2875
+            }
+          ],
+          "section": "Projects",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Projects",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "ve9203c782faf4731",
+        "type": "PROJECT",
+        "title": "Tech Stack: Python, FastAPI, FAISS, MongoDB, Docker, Telegram Bot API, REST APIs, Parallel Processing",
+        "org": "",
+        "entry_text": "Tech Stack: Python, FastAPI, FAISS, MongoDB, Docker, Telegram Bot API, REST APIs, Parallel Processing,",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Tech Stack: Python, FastAPI, FAISS, MongoDB, Docker, Telegram Bot API, REST APIs, Parallel Processing,",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 2876,
+              "end": 2978
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Tech Stack: Python, FastAPI, FAISS, MongoDB, Docker, Telegram Bot API, REST APIs, Parallel Processing",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 2876,
+              "end": 2977
+            }
+          ],
+          "section": "Projects",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Projects",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v31c1b924a9efa553",
+        "type": "PROJECT",
+        "title": "Data Cleaning Pipelines",
+        "org": "",
+        "entry_text": "Data Cleaning Pipelines",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Data Cleaning Pipelines",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 2979,
+              "end": 3002
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Data Cleaning Pipelines",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 2979,
+              "end": 3002
+            }
+          ],
+          "section": "Projects",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Projects",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "vf1cedc6ebd821a35",
+        "type": "PROJECT",
+        "title": "Accomplishments",
+        "org": "",
+        "entry_text": "Accomplishments validation to minimize hallucinations, aligned with secure and compliant deployment practices. Developed RESTful microservices for AI assistants (healthcare tracking) using FastAPI, Redis,",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Accomplishments",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 3003,
+              "end": 3018
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Accomplishments",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 3003,
+              "end": 3018
+            }
+          ],
+          "section": "Projects",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Projects",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "vf0367fd440deaee4",
+        "type": "PROJECT",
+        "title": "V ectorDBs—leveraging recommendation systems and NLP",
+        "org": "",
+        "entry_text": "V ectorDBs—leveraging recommendation systems and NLP (classification, sentiment analysis) —structured for modularity, performance, and maintainability. Automated CI/CD processes using GitHub Actions, Docker, and Azure ML, integrating model validation metrics (accuracy, precision, recall, F1), load t",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "V ectorDBs—leveraging recommendation systems and NLP (classification, sentiment analysis)",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 3208,
+              "end": 3297
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "V ectorDBs—leveraging recommendation systems and NLP",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 3208,
+              "end": 3260
+            }
+          ],
+          "section": "Projects",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Projects",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v768047282eb768d2",
+        "type": "PROJECT",
+        "title": "REST APIs), reducing manual workforce requirements by 82% and improving operational efficiency",
+        "org": "",
+        "entry_text": "REST APIs), reducing manual workforce requirements by 82% and improving operational efficiency across multiple business units. • Enhanced an AI bot for automated property description generation, improving NLP model efficiency by 82% through caching strategies, batch inference optimization, and modul",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "REST APIs), reducing manual workforce requirements by 82% and improving operational efficiency",
+              "block_id": "b83",
+              "kind": "text",
+              "start": 4147,
+              "end": 4241
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "REST APIs), reducing manual workforce requirements by 82% and improving operational efficiency",
+              "block_id": "b83",
+              "kind": "text",
+              "start": 4147,
+              "end": 4241
+            }
+          ],
+          "section": "Projects",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Projects",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v10a33d615ffb4a78",
+        "type": "PROJECT",
+        "title": "MongoDB for persistent storage of user profiles, CV s, and interaction history.",
+        "org": "",
+        "entry_text": "MongoDB for persistent storage of user profiles, CV s, and interaction history. Automated application support workflows to generate tailored referral emails, cover letters, and cold outreach templates, improving candidate application efficiency by ~80%.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "MongoDB for persistent storage of user profiles, CV s, and interaction history.",
+              "block_id": "b95",
+              "kind": "text",
+              "start": 5064,
+              "end": 5143
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "MongoDB for persistent storage of user profiles, CV s, and interaction history",
+              "block_id": "b95",
+              "kind": "text",
+              "start": 5064,
+              "end": 5142
+            }
+          ],
+          "section": "Projects",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Projects",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v7b967407b2042ae7",
+        "type": "PROJECT",
+        "title": "Containerized and orchestrated the entire system using Docker for reproducible deployments",
+        "org": "",
+        "entry_text": "Containerized and orchestrated the entire system using Docker for reproducible deployments and high availability in production. 2nd Place – Tiger Analytics Agentic AI Hackathon – Built and deployed an advanced Agentic AI workflow integrating LLMs, RAG, and automation pipelines for real-world busines",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Containerized and orchestrated the entire system using Docker for reproducible deployments and",
+              "block_id": "b98",
+              "kind": "text",
+              "start": 5318,
+              "end": 5412
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Containerized and orchestrated the entire system using Docker for reproducible deployments",
+              "block_id": "b98",
+              "kind": "text",
+              "start": 5318,
+              "end": 5408
+            }
+          ],
+          "section": "Projects",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Projects",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "vdf9ed1df89156a13",
+        "type": "PROJECT",
+        "title": "5•••• – Cleared all milestones in the Tiger Analytics MLE Program.",
+        "org": "",
+        "entry_text": "5•••• – Cleared all milestones in the Tiger Analytics MLE Program.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "5•••• – Cleared all milestones in the Tiger Analytics MLE Program.",
+              "block_id": "b102",
+              "kind": "text",
+              "start": 5631,
+              "end": 5697
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "5•••• – Cleared all milestones in the Tiger Analytics MLE Program",
+              "block_id": "b102",
+              "kind": "text",
+              "start": 5631,
+              "end": 5696
+            }
+          ],
+          "section": "Projects",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Projects",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v82d43ae87d909a43",
+        "type": "PROJECT",
+        "title": "1585 / 34K – Facebook Hacker Cup .",
+        "org": "",
+        "entry_text": "1585 / 34K – Facebook Hacker Cup (Round 2).",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "1585 / 34K – Facebook Hacker Cup (Round 2).",
+              "block_id": "b103",
+              "kind": "text",
+              "start": 5698,
+              "end": 5741
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "1585 / 34K – Facebook Hacker Cup",
+              "block_id": "b103",
+              "kind": "text",
+              "start": 5698,
+              "end": 5730
+            }
+          ],
+          "section": "Projects",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Projects",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v260a81d51d7d5000",
+        "type": "PROJECT",
+        "title": "th & 2448th – Google Kickstart .",
+        "org": "",
+        "entry_text": "1996th & 2448th – Google Kickstart (Round F & B).",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "1996th & 2448th – Google Kickstart (Round F & B).",
+              "block_id": "b104",
+              "kind": "text",
+              "start": 5742,
+              "end": 5791
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "1996",
+              "block_id": "b104",
+              "kind": "text",
+              "start": 5742,
+              "end": 5746
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "th & 2448th – Google Kickstart",
+              "block_id": "b104",
+              "kind": "text",
+              "start": 5746,
+              "end": 5776
+            }
+          ],
+          "section": "Projects",
+          "date_label": "1996",
+          "is_present": false
+        },
+        "date_label": "1996",
+        "section": "Projects",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "JOB.ai – Automated Job Aggregation & Recommendation PlatformAI_JOB_ASSITANT",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "JOB.ai – Automated Job Aggregation & Recommendation PlatformAI_JOB_ASSITANT"
+        ],
+        "raw_text": "JOB.ai – Automated Job Aggregation & Recommendation PlatformAI_JOB_ASSITANT",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "JOB.ai – Automated Job Aggregation & Recommendation PlatformAI_JOB_ASSITANT",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 2800,
+              "end": 2875
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "Tech Stack: Python, FastAPI, FAISS, MongoDB, Docker, Telegram Bot API, REST APIs, Parallel Processing,",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Tech Stack: Python, FastAPI, FAISS, MongoDB, Docker, Telegram Bot API, REST APIs, Parallel Processing,"
+        ],
+        "raw_text": "Tech Stack: Python, FastAPI, FAISS, MongoDB, Docker, Telegram Bot API, REST APIs, Parallel Processing,",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Tech Stack: Python, FastAPI, FAISS, MongoDB, Docker, Telegram Bot API, REST APIs, Parallel Processing,",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 2876,
+              "end": 2978
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_3",
+        "name": "Data Cleaning Pipelines",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Data Cleaning Pipelines"
+        ],
+        "raw_text": "Data Cleaning Pipelines",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Data Cleaning Pipelines",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 2979,
+              "end": 3002
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_4",
+        "name": "Accomplishments",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Accomplishments",
+          "validation to minimize hallucinations, aligned with secure and compliant deployment practices.",
+          "Developed RESTful microservices for AI assistants (healthcare tracking) using FastAPI, Redis,"
+        ],
+        "raw_text": "Accomplishments\nvalidation to minimize hallucinations, aligned with secure and compliant deployment practices.\nDeveloped RESTful microservices for AI assistants (healthcare tracking) using FastAPI, Redis,",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Accomplishments",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 3003,
+              "end": 3018
+            },
+            {
+              "page": 1,
+              "text": "validation to minimize hallucinations, aligned with secure and compliant deployment practices.",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 3019,
+              "end": 3113
+            },
+            {
+              "page": 1,
+              "text": "Developed RESTful microservices for AI assistants (healthcare tracking) using FastAPI, Redis,",
+              "block_id": "b71",
+              "kind": "text",
+              "start": 3114,
+              "end": 3207
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_5",
+        "name": "V ectorDBs—leveraging recommendation systems and NLP (classification, sentiment analysis)",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "V ectorDBs—leveraging recommendation systems and NLP (classification, sentiment analysis)",
+          "—structured for modularity, performance, and maintainability.",
+          "Automated CI/CD processes using GitHub Actions, Docker, and Azure ML, integrating model",
+          "validation metrics (accuracy, precision, recall, F1), load testing, and performance dashboards to support robust development cycles and platform stability.",
+          "• Designed and deployed a distributed real-time audio-to-text pipeline using A WS Textract, FastAPI,",
+          "and Docker—reducing end-to-end latency by 90% while ensuring high throughput and fault",
+          "tolerance for time-critical workloads.",
+          "• Optimized an entity extraction microservice (TensorFlow, Python, Redis) through algorithm"
+        ],
+        "raw_text": "V ectorDBs—leveraging recommendation systems and NLP (classification, sentiment analysis)\n—structured for modularity, performance, and maintainability.\nAutomated CI/CD processes using GitHub Actions, Docker, and Azure ML, integrating model\nvalidation metrics (accuracy, precision, recall, F1), load testing, and performance dashboards to support robust development cycles and platform stability.\n• Designed and deployed a distributed real-time audio-to-text pipeline using A WS Textract, FastAPI,\nand Docker—reducing end-to-end latency by 90% while ensuring high throughput and fault\ntolerance for ti",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "V ectorDBs—leveraging recommendation systems and NLP (classification, sentiment analysis)",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 3208,
+              "end": 3297
+            },
+            {
+              "page": 1,
+              "text": "—structured for modularity, performance, and maintainability.",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 3298,
+              "end": 3359
+            },
+            {
+              "page": 1,
+              "text": "Automated CI/CD processes using GitHub Actions, Docker, and Azure ML, integrating model",
+              "block_id": "b74",
+              "kind": "text",
+              "start": 3360,
+              "end": 3447
+            },
+            {
+              "page": 1,
+              "text": "validation metrics (accuracy, precision, recall, F1), load testing, and performance dashboards to",
+              "block_id": "b75",
+              "kind": "text",
+              "start": 3448,
+              "end": 3545
+            },
+            {
+              "page": 1,
+              "text": "support robust development cycles and platform stability.",
+              "block_id": "b75",
+              "kind": "text",
+              "start": 3546,
+              "end": 3603
+            },
+            {
+              "page": 1,
+              "text": "• Designed and deployed a distributed real-time audio-to-text pipeline using A WS Textract, FastAPI,",
+              "block_id": "b76",
+              "kind": "text",
+              "start": 3604,
+              "end": 3704
+            },
+            {
+              "page": 1,
+              "text": "and Docker—reducing end-to-end latency by 90% while ensuring high throughput and fault",
+              "block_id": "b77",
+              "kind": "text",
+              "start": 3705,
+              "end": 3791
+            },
+            {
+              "page": 1,
+              "text": "tolerance for time-critical workloads.",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 3792,
+              "end": 3830
+            },
+            {
+              "page": 1,
+              "text": "• Optimized an entity extraction microservice (TensorFlow, Python, Redis) through algorithm",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 3831,
+              "end": 3922
+            },
+            {
+              "page": 1,
+              "text": "refactoring and data-access optimizations, improving processing speed by 92% and enabling",
+              "block_id": "b80",
+              "kind": "text",
+              "start": 3923,
+              "end": 4012
+            },
+            {
+              "page": 1,
+              "text": "near-real-time document parsing at scale.",
+              "block_id": "b81",
+              "kind": "text",
+              "start": 4013,
+              "end": 4054
+            },
+            {
+              "page": 1,
+              "text": "• Built a recommendation engine for automated invoice/POS data processing (MongoDB, Django,",
+              "block_id": "b82",
+              "kind": "text",
+              "start": 4055,
+              "end": 4146
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_6",
+        "name": "REST APIs), reducing manual workforce requirements by 82% and improving operational efficiency",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "REST APIs), reducing manual workforce requirements by 82% and improving operational efficiency",
+          "across multiple business units.",
+          "• Enhanced an AI bot for automated property description generation, improving NLP model",
+          "efficiency by 82% through caching strategies, batch inference optimization, and modular service",
+          "design.",
+          "Designed and deployed a distributed, fully automated job aggregation platform scraping from"
+        ],
+        "raw_text": "REST APIs), reducing manual workforce requirements by 82% and improving operational efficiency\nacross multiple business units.\n• Enhanced an AI bot for automated property description generation, improving NLP model\nefficiency by 82% through caching strategies, batch inference optimization, and modular service\ndesign.\nDesigned and deployed a distributed, fully automated job aggregation platform scraping from",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "REST APIs), reducing manual workforce requirements by 82% and improving operational efficiency",
+              "block_id": "b83",
+              "kind": "text",
+              "start": 4147,
+              "end": 4241
+            },
+            {
+              "page": 1,
+              "text": "across multiple business units.",
+              "block_id": "b84",
+              "kind": "text",
+              "start": 4242,
+              "end": 4273
+            },
+            {
+              "page": 1,
+              "text": "• Enhanced an AI bot for automated property description generation, improving NLP model",
+              "block_id": "b85",
+              "kind": "text",
+              "start": 4274,
+              "end": 4361
+            },
+            {
+              "page": 1,
+              "text": "efficiency by 82% through caching strategies, batch inference optimization, and modular service",
+              "block_id": "b86",
+              "kind": "text",
+              "start": 4362,
+              "end": 4457
+            },
+            {
+              "page": 1,
+              "text": "design.",
+              "block_id": "b87",
+              "kind": "text",
+              "start": 4458,
+              "end": 4465
+            },
+            {
+              "page": 1,
+              "text": "Designed and deployed a distributed, fully automated job aggregation platform scraping from",
+              "block_id": "b88",
+              "kind": "text",
+              "start": 4466,
+              "end": 4557
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_7",
+        "name": "MongoDB for persistent storage of user profiles, CV s, and interaction history.",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "MongoDB for persistent storage of user profiles, CV s, and interaction history.",
+          "Automated application support workflows to generate tailored referral emails, cover letters, and cold",
+          "outreach templates, improving candidate application efficiency by ~80%."
+        ],
+        "raw_text": "MongoDB for persistent storage of user profiles, CV s, and interaction history.\nAutomated application support workflows to generate tailored referral emails, cover letters, and cold\noutreach templates, improving candidate application efficiency by ~80%.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "MongoDB for persistent storage of user profiles, CV s, and interaction history.",
+              "block_id": "b95",
+              "kind": "text",
+              "start": 5064,
+              "end": 5143
+            },
+            {
+              "page": 1,
+              "text": "Automated application support workflows to generate tailored referral emails, cover letters, and cold",
+              "block_id": "b96",
+              "kind": "text",
+              "start": 5144,
+              "end": 5245
+            },
+            {
+              "page": 1,
+              "text": "outreach templates, improving candidate application efficiency by ~80%.",
+              "block_id": "b97",
+              "kind": "text",
+              "start": 5246,
+              "end": 5317
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_8",
+        "name": "Containerized and orchestrated the entire system using Docker for reproducible deployments and",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Containerized and orchestrated the entire system using Docker for reproducible deployments and",
+          "high availability in production.",
+          "2nd Place – Tiger Analytics Agentic AI Hackathon – Built and deployed an advanced Agentic AI",
+          "workflow integrating LLMs, RAG, and automation pipelines for real-world business use cases."
+        ],
+        "raw_text": "Containerized and orchestrated the entire system using Docker for reproducible deployments and\nhigh availability in production.\n2nd Place – Tiger Analytics Agentic AI Hackathon – Built and deployed an advanced Agentic AI\nworkflow integrating LLMs, RAG, and automation pipelines for real-world business use cases.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Containerized and orchestrated the entire system using Docker for reproducible deployments and",
+              "block_id": "b98",
+              "kind": "text",
+              "start": 5318,
+              "end": 5412
+            },
+            {
+              "page": 1,
+              "text": "high availability in production.",
+              "block_id": "b99",
+              "kind": "text",
+              "start": 5413,
+              "end": 5445
+            },
+            {
+              "page": 1,
+              "text": "2nd Place – Tiger Analytics Agentic AI Hackathon – Built and deployed an advanced Agentic AI",
+              "block_id": "b100",
+              "kind": "text",
+              "start": 5446,
+              "end": 5538
+            },
+            {
+              "page": 1,
+              "text": "workflow integrating LLMs, RAG, and automation pipelines for real-world business use cases.",
+              "block_id": "b101",
+              "kind": "text",
+              "start": 5539,
+              "end": 5630
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_9",
+        "name": "5•••• – Cleared all milestones in the Tiger Analytics MLE Program.",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "5•••• – Cleared all milestones in the Tiger Analytics MLE Program."
+        ],
+        "raw_text": "5•••• – Cleared all milestones in the Tiger Analytics MLE Program.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "5•••• – Cleared all milestones in the Tiger Analytics MLE Program.",
+              "block_id": "b102",
+              "kind": "text",
+              "start": 5631,
+              "end": 5697
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_10",
+        "name": "1585 / 34K – Facebook Hacker Cup (Round 2).",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "1585 / 34K – Facebook Hacker Cup (Round 2)."
+        ],
+        "raw_text": "1585 / 34K – Facebook Hacker Cup (Round 2).",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "1585 / 34K – Facebook Hacker Cup (Round 2).",
+              "block_id": "b103",
+              "kind": "text",
+              "start": 5698,
+              "end": 5741
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_11",
+        "name": "1996th & 2448th – Google Kickstart (Round F & B).",
+        "client": "",
+        "role": "",
+        "duration": "1996",
+        "details": [
+          "1996th & 2448th – Google Kickstart (Round F & B)."
+        ],
+        "raw_text": "1996th & 2448th – Google Kickstart (Round F & B).",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "1996th & 2448th – Google Kickstart (Round F & B).",
+              "block_id": "b104",
+              "kind": "text",
+              "start": 5742,
+              "end": 5791
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "v260a81d51d7d5000"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 0,
+      "total_events": 12,
+      "dated_share": 0.0,
+      "unresolved": 12,
+      "ambiguous": 0,
+      "mean_event_confidence": null,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 0,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "PARTIAL",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "PARTIAL",
+        "confidence": 0.3
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 11,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 1,
+            "duration_only": 0,
+            "undated": 10,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "proj_1",
+              "label": "JOB.ai – Automated Job Aggregation & Recommendation PlatformAI_JOB_ASSITANT",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "JOB.ai – Automated Job Aggregation & Recommendation PlatformAI_JOB_ASSITANT",
+                    "block_id": "b66",
+                    "kind": "text",
+                    "start": 2800,
+                    "end": 2875
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_2",
+              "label": "Tech Stack: Python, FastAPI, FAISS, MongoDB, Docker, Telegram Bot API, REST APIs, Parallel Processing,",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Tech Stack: Python, FastAPI, FAISS, MongoDB, Docker, Telegram Bot API, REST APIs, Parallel Processing,",
+                    "block_id": "b67",
+                    "kind": "text",
+                    "start": 2876,
+                    "end": 2978
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_3",
+              "label": "Data Cleaning Pipelines",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Data Cleaning Pipelines",
+                    "block_id": "b68",
+                    "kind": "text",
+                    "start": 2979,
+                    "end": 3002
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_4",
+              "label": "Accomplishments",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Accomplishments",
+                    "block_id": "b69",
+                    "kind": "text",
+                    "start": 3003,
+                    "end": 3018
+                  },
+                  {
+                    "page": 1,
+                    "text": "validation to minimize hallucinations, aligned with secure and compliant deployment practices.",
+                    "block_id": "b70",
+                    "kind": "text",
+                    "start": 3019,
+                    "end": 3113
+                  },
+                  {
+                    "page": 1,
+                    "text": "Developed RESTful microservices for AI assistants (healthcare tracking) using FastAPI, Redis,",
+                    "block_id": "b71",
+                    "kind": "text",
+                    "start": 3114,
+                    "end": 3207
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_5",
+              "label": "V ectorDBs—leveraging recommendation systems and NLP (classification, sentiment analysis)",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "V ectorDBs—leveraging recommendation systems and NLP (classification, sentiment analysis)",
+                    "block_id": "b72",
+                    "kind": "text",
+                    "start": 3208,
+                    "end": 3297
+                  },
+                  {
+                    "page": 1,
+                    "text": "—structured for modularity, performance, and maintainability.",
+                    "block_id": "b73",
+                    "kind": "text",
+                    "start": 3298,
+                    "end": 3359
+                  },
+                  {
+                    "page": 1,
+                    "text": "Automated CI/CD processes using GitHub Actions, Docker, and Azure ML, integrating model",
+                    "block_id": "b74",
+                    "kind": "text",
+                    "start": 3360,
+                    "end": 3447
+                  },
+                  {
+                    "page": 1,
+                    "text": "validation metrics (accuracy, precision, recall, F1), load testing, and performance dashboards to",
+                    "block_id": "b75",
+                    "kind": "text",
+                    "start": 3448,
+                    "end": 3545
+                  },
+                  {
+                    "page": 1,
+                    "text": "support robust development cycles and platform stability.",
+                    "block_id": "b75",
+                    "kind": "text",
+                    "start": 3546,
+                    "end": 3603
+                  },
+                  {
+                    "page": 1,
+                    "text": "• Designed and deployed a distributed real-time audio-to-text pipeline using A WS Textract, FastAPI,",
+                    "block_id": "b76",
+                    "kind": "text",
+                    "start": 3604,
+                    "end": 3704
+                  },
+                  {
+                    "page": 1,
+                    "text": "and Docker—reducing end-to-end latency by 90% while ensuring high throughput and fault",
+                    "block_id": "b77",
+                    "kind": "text",
+                    "start": 3705,
+                    "end": 3791
+                  },
+                  {
+                    "page": 1,
+                    "text": "tolerance for time-critical workloads.",
+                    "block_id": "b78",
+                    "kind": "text",
+                    "start": 3792,
+                    "end": 3830
+                  },
+                  {
+                    "page": 1,
+                    "text": "• Optimized an entity extraction microservice (TensorFlow, Python, Redis) through algorithm",
+                    "block_id": "b79",
+                    "kind": "text",
+                    "start": 3831,
+                    "end": 3922
+                  },
+                  {
+                    "page": 1,
+                    "text": "refactoring and data-access optimizations, improving processing speed by 92% and enabling",
+                    "block_id": "b80",
+                    "kind": "text",
+                    "start": 3923,
+                    "end": 4012
+                  },
+                  {
+                    "page": 1,
+                    "text": "near-real-time document parsing at scale.",
+                    "block_id": "b81",
+                    "kind": "text",
+                    "start": 4013,
+                    "end": 4054
+                  },
+                  {
+                    "page": 1,
+                    "text": "• Built a recommendation engine for automated invoice/POS data processing (MongoDB, Django,",
+                    "block_id": "b82",
+                    "kind": "text",
+                    "start": 4055,
+                    "end": 4146
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_6",
+              "label": "REST APIs), reducing manual workforce requirements by 82% and improving operational efficiency",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "REST APIs), reducing manual workforce requirements by 82% and improving operational efficiency",
+                    "block_id": "b83",
+                    "kind": "text",
+                    "start": 4147,
+                    "end": 4241
+                  },
+                  {
+                    "page": 1,
+                    "text": "across multiple business units.",
+                    "block_id": "b84",
+                    "kind": "text",
+                    "start": 4242,
+                    "end": 4273
+                  },
+                  {
+                    "page": 1,
+                    "text": "• Enhanced an AI bot for automated property description generation, improving NLP model",
+                    "block_id": "b85",
+                    "kind": "text",
+                    "start": 4274,
+                    "end": 4361
+                  },
+                  {
+                    "page": 1,
+                    "text": "efficiency by 82% through caching strategies, batch inference optimization, and modular service",
+                    "block_id": "b86",
+                    "kind": "text",
+                    "start": 4362,
+                    "end": 4457
+                  },
+                  {
+                    "page": 1,
+                    "text": "design.",
+                    "block_id": "b87",
+                    "kind": "text",
+                    "start": 4458,
+                    "end": 4465
+                  },
+                  {
+                    "page": 1,
+                    "text": "Designed and deployed a distributed, fully automated job aggregation platform scraping from",
+                    "block_id": "b88",
+                    "kind": "text",
+                    "start": 4466,
+                    "end": 4557
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_7",
+              "label": "MongoDB for persistent storage of user profiles, CV s, and interaction history.",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "MongoDB for persistent storage of user profiles, CV s, and interaction history.",
+                    "block_id": "b95",
+                    "kind": "text",
+                    "start": 5064,
+                    "end": 5143
+                  },
+                  {
+                    "page": 1,
+                    "text": "Automated application support workflows to generate tailored referral emails, cover letters, and cold",
+                    "block_id": "b96",
+                    "kind": "text",
+                    "start": 5144,
+                    "end": 5245
+                  },
+                  {
+                    "page": 1,
+                    "text": "outreach templates, improving candidate application efficiency by ~80%.",
+                    "block_id": "b97",
+                    "kind": "text",
+                    "start": 5246,
+                    "end": 5317
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_8",
+              "label": "Containerized and orchestrated the entire system using Docker for reproducible deployments and",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Containerized and orchestrated the entire system using Docker for reproducible deployments and",
+                    "block_id": "b98",
+                    "kind": "text",
+                    "start": 5318,
+                    "end": 5412
+                  },
+                  {
+                    "page": 1,
+                    "text": "high availability in production.",
+                    "block_id": "b99",
+                    "kind": "text",
+                    "start": 5413,
+                    "end": 5445
+                  },
+                  {
+                    "page": 1,
+                    "text": "2nd Place – Tiger Analytics Agentic AI Hackathon – Built and deployed an advanced Agentic AI",
+                    "block_id": "b100",
+                    "kind": "text",
+                    "start": 5446,
+                    "end": 5538
+                  },
+                  {
+                    "page": 1,
+                    "text": "workflow integrating LLMs, RAG, and automation pipelines for real-world business use cases.",
+                    "block_id": "b101",
+                    "kind": "text",
+                    "start": 5539,
+                    "end": 5630
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_9",
+              "label": "5•••• – Cleared all milestones in the Tiger Analytics MLE Program.",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "5•••• – Cleared all milestones in the Tiger Analytics MLE Program.",
+                    "block_id": "b102",
+                    "kind": "text",
+                    "start": 5631,
+                    "end": 5697
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_10",
+              "label": "1585 / 34K – Facebook Hacker Cup (Round 2).",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "1585 / 34K – Facebook Hacker Cup (Round 2).",
+                    "block_id": "b103",
+                    "kind": "text",
+                    "start": 5698,
+                    "end": 5741
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_11",
+              "label": "1996th & 2448th – Google Kickstart (Round F & B).",
+              "state": "single_date",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "1996",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "1996th & 2448th – Google Kickstart (Round F & B).",
+                    "block_id": "b104",
+                    "kind": "text",
+                    "start": 5742,
+                    "end": 5791
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 1,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v0619f8f2547f6276",
+              "label": "B. Tech in Information Technology",
+              "state": "single_date",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "August 2023",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "B. Tech in Information Technology August 2023",
+                    "block_id": "b63",
+                    "kind": "text",
+                    "start": 2730,
+                    "end": 2775
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "August 2023",
+                    "block_id": "b63",
+                    "kind": "text",
+                    "start": 2764,
+                    "end": 2775
+                  }
+                ],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "B. Tech in Information Technology",
+                    "block_id": "b63",
+                    "kind": "text",
+                    "start": 2730,
+                    "end": 2763
+                  }
+                ],
+                "section": "Education",
+                "date_label": "August 2023",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 0,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 11,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 1,
+          "duration_only": 0,
+          "undated": 10,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "proj_1",
+            "label": "JOB.ai – Automated Job Aggregation & Recommendation PlatformAI_JOB_ASSITANT",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "JOB.ai – Automated Job Aggregation & Recommendation PlatformAI_JOB_ASSITANT",
+                  "block_id": "b66",
+                  "kind": "text",
+                  "start": 2800,
+                  "end": 2875
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_2",
+            "label": "Tech Stack: Python, FastAPI, FAISS, MongoDB, Docker, Telegram Bot API, REST APIs, Parallel Processing,",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Tech Stack: Python, FastAPI, FAISS, MongoDB, Docker, Telegram Bot API, REST APIs, Parallel Processing,",
+                  "block_id": "b67",
+                  "kind": "text",
+                  "start": 2876,
+                  "end": 2978
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_3",
+            "label": "Data Cleaning Pipelines",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Data Cleaning Pipelines",
+                  "block_id": "b68",
+                  "kind": "text",
+                  "start": 2979,
+                  "end": 3002
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_4",
+            "label": "Accomplishments",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Accomplishments",
+                  "block_id": "b69",
+                  "kind": "text",
+                  "start": 3003,
+                  "end": 3018
+                },
+                {
+                  "page": 1,
+                  "text": "validation to minimize hallucinations, aligned with secure and compliant deployment practices.",
+                  "block_id": "b70",
+                  "kind": "text",
+                  "start": 3019,
+                  "end": 3113
+                },
+                {
+                  "page": 1,
+                  "text": "Developed RESTful microservices for AI assistants (healthcare tracking) using FastAPI, Redis,",
+                  "block_id": "b71",
+                  "kind": "text",
+                  "start": 3114,
+                  "end": 3207
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_5",
+            "label": "V ectorDBs—leveraging recommendation systems and NLP (classification, sentiment analysis)",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "V ectorDBs—leveraging recommendation systems and NLP (classification, sentiment analysis)",
+                  "block_id": "b72",
+                  "kind": "text",
+                  "start": 3208,
+                  "end": 3297
+                },
+                {
+                  "page": 1,
+                  "text": "—structured for modularity, performance, and maintainability.",
+                  "block_id": "b73",
+                  "kind": "text",
+                  "start": 3298,
+                  "end": 3359
+                },
+                {
+                  "page": 1,
+                  "text": "Automated CI/CD processes using GitHub Actions, Docker, and Azure ML, integrating model",
+                  "block_id": "b74",
+                  "kind": "text",
+                  "start": 3360,
+                  "end": 3447
+                },
+                {
+                  "page": 1,
+                  "text": "validation metrics (accuracy, precision, recall, F1), load testing, and performance dashboards to",
+                  "block_id": "b75",
+                  "kind": "text",
+                  "start": 3448,
+                  "end": 3545
+                },
+                {
+                  "page": 1,
+                  "text": "support robust development cycles and platform stability.",
+                  "block_id": "b75",
+                  "kind": "text",
+                  "start": 3546,
+                  "end": 3603
+                },
+                {
+                  "page": 1,
+                  "text": "• Designed and deployed a distributed real-time audio-to-text pipeline using A WS Textract, FastAPI,",
+                  "block_id": "b76",
+                  "kind": "text",
+                  "start": 3604,
+                  "end": 3704
+                },
+                {
+                  "page": 1,
+                  "text": "and Docker—reducing end-to-end latency by 90% while ensuring high throughput and fault",
+                  "block_id": "b77",
+                  "kind": "text",
+                  "start": 3705,
+                  "end": 3791
+                },
+                {
+                  "page": 1,
+                  "text": "tolerance for time-critical workloads.",
+                  "block_id": "b78",
+                  "kind": "text",
+                  "start": 3792,
+                  "end": 3830
+                },
+                {
+                  "page": 1,
+                  "text": "• Optimized an entity extraction microservice (TensorFlow, Python, Redis) through algorithm",
+                  "block_id": "b79",
+                  "kind": "text",
+                  "start": 3831,
+                  "end": 3922
+                },
+                {
+                  "page": 1,
+                  "text": "refactoring and data-access optimizations, improving processing speed by 92% and enabling",
+                  "block_id": "b80",
+                  "kind": "text",
+                  "start": 3923,
+                  "end": 4012
+                },
+                {
+                  "page": 1,
+                  "text": "near-real-time document parsing at scale.",
+                  "block_id": "b81",
+                  "kind": "text",
+                  "start": 4013,
+                  "end": 4054
+                },
+                {
+                  "page": 1,
+                  "text": "• Built a recommendation engine for automated invoice/POS data processing (MongoDB, Django,",
+                  "block_id": "b82",
+                  "kind": "text",
+                  "start": 4055,
+                  "end": 4146
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_6",
+            "label": "REST APIs), reducing manual workforce requirements by 82% and improving operational efficiency",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "REST APIs), reducing manual workforce requirements by 82% and improving operational efficiency",
+                  "block_id": "b83",
+                  "kind": "text",
+                  "start": 4147,
+                  "end": 4241
+                },
+                {
+                  "page": 1,
+                  "text": "across multiple business units.",
+                  "block_id": "b84",
+                  "kind": "text",
+                  "start": 4242,
+                  "end": 4273
+                },
+                {
+                  "page": 1,
+                  "text": "• Enhanced an AI bot for automated property description generation, improving NLP model",
+                  "block_id": "b85",
+                  "kind": "text",
+                  "start": 4274,
+                  "end": 4361
+                },
+                {
+                  "page": 1,
+                  "text": "efficiency by 82% through caching strategies, batch inference optimization, and modular service",
+                  "block_id": "b86",
+                  "kind": "text",
+                  "start": 4362,
+                  "end": 4457
+                },
+                {
+                  "page": 1,
+                  "text": "design.",
+                  "block_id": "b87",
+                  "kind": "text",
+                  "start": 4458,
+                  "end": 4465
+                },
+                {
+                  "page": 1,
+                  "text": "Designed and deployed a distributed, fully automated job aggregation platform scraping from",
+                  "block_id": "b88",
+                  "kind": "text",
+                  "start": 4466,
+                  "end": 4557
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_7",
+            "label": "MongoDB for persistent storage of user profiles, CV s, and interaction history.",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "MongoDB for persistent storage of user profiles, CV s, and interaction history.",
+                  "block_id": "b95",
+                  "kind": "text",
+                  "start": 5064,
+                  "end": 5143
+                },
+                {
+                  "page": 1,
+                  "text": "Automated application support workflows to generate tailored referral emails, cover letters, and cold",
+                  "block_id": "b96",
+                  "kind": "text",
+                  "start": 5144,
+                  "end": 5245
+                },
+                {
+                  "page": 1,
+                  "text": "outreach templates, improving candidate application efficiency by ~80%.",
+                  "block_id": "b97",
+                  "kind": "text",
+                  "start": 5246,
+                  "end": 5317
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_8",
+            "label": "Containerized and orchestrated the entire system using Docker for reproducible deployments and",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Containerized and orchestrated the entire system using Docker for reproducible deployments and",
+                  "block_id": "b98",
+                  "kind": "text",
+                  "start": 5318,
+                  "end": 5412
+                },
+                {
+                  "page": 1,
+                  "text": "high availability in production.",
+                  "block_id": "b99",
+                  "kind": "text",
+                  "start": 5413,
+                  "end": 5445
+                },
+                {
+                  "page": 1,
+                  "text": "2nd Place – Tiger Analytics Agentic AI Hackathon – Built and deployed an advanced Agentic AI",
+                  "block_id": "b100",
+                  "kind": "text",
+                  "start": 5446,
+                  "end": 5538
+                },
+                {
+                  "page": 1,
+                  "text": "workflow integrating LLMs, RAG, and automation pipelines for real-world business use cases.",
+                  "block_id": "b101",
+                  "kind": "text",
+                  "start": 5539,
+                  "end": 5630
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_9",
+            "label": "5•••• – Cleared all milestones in the Tiger Analytics MLE Program.",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "5•••• – Cleared all milestones in the Tiger Analytics MLE Program.",
+                  "block_id": "b102",
+                  "kind": "text",
+                  "start": 5631,
+                  "end": 5697
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_10",
+            "label": "1585 / 34K – Facebook Hacker Cup (Round 2).",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "1585 / 34K – Facebook Hacker Cup (Round 2).",
+                  "block_id": "b103",
+                  "kind": "text",
+                  "start": 5698,
+                  "end": 5741
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_11",
+            "label": "1996th & 2448th – Google Kickstart (Round F & B).",
+            "state": "single_date",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "1996",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "1996th & 2448th – Google Kickstart (Round F & B).",
+                  "block_id": "b104",
+                  "kind": "text",
+                  "start": 5742,
+                  "end": 5791
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 1,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v0619f8f2547f6276",
+            "label": "B. Tech in Information Technology",
+            "state": "single_date",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "August 2023",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "B. Tech in Information Technology August 2023",
+                  "block_id": "b63",
+                  "kind": "text",
+                  "start": 2730,
+                  "end": 2775
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "August 2023",
+                  "block_id": "b63",
+                  "kind": "text",
+                  "start": 2764,
+                  "end": 2775
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "B. Tech in Information Technology",
+                  "block_id": "b63",
+                  "kind": "text",
+                  "start": 2730,
+                  "end": 2763
+                }
+              ],
+              "section": "Education",
+              "date_label": "August 2023",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 0,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

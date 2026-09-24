@@ -1,0 +1,1223 @@
+{
+  "file_name": "FaizSayed.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "988c802d966aab52625b5e8534eb538e691235b5449ea41a729b2943e9d6939d",
+  "doc_id": "988c802d966aab52625b5e85",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 4,
+    "dated_share": 0.5,
+    "unresolved": 2,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.833,
+    "document_accuracy": 0.83
+  },
+  "work_experience": [
+    {
+      "id": "ve690f3f44e30d31f",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Associate",
+      "start_date": "2023-02",
+      "end_date": "2026-07",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Associate – Wealth Management Operations — BNP Paribas, Mumbai Feb 2023 – Jul 2026",
+            "block_id": "b12",
+            "kind": "text",
+            "start": 1005,
+            "end": 1087
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Feb 2023 – Jul 2026",
+            "block_id": "b12",
+            "kind": "text",
+            "start": 1068,
+            "end": 1087
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Associate",
+            "block_id": "b12",
+            "kind": "text",
+            "start": 1005,
+            "end": 1014
+          }
+        ],
+        "section": "WORK EXPERIENCE",
+        "date_label": "Feb 2023 – Jul 2026",
+        "is_present": false
+      },
+      "precision": "month",
+      "date_label": "Feb 2023 – Jul 2026"
+    }
+  ],
+  "education": [
+    {
+      "id": "vec21f6465910dc2f",
+      "type": "EDUCATION",
+      "company": "University of Mumbai",
+      "title": "Bachelor of Accounting and Finance",
+      "start_date": "2019-01",
+      "end_date": "2022-12",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Bachelor of Accounting and Finance — University of Mumbai 2019 – 2022",
+            "block_id": "b71",
+            "kind": "text",
+            "start": 5265,
+            "end": 5334
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2019 – 2022",
+            "block_id": "b71",
+            "kind": "text",
+            "start": 5323,
+            "end": 5334
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "University of Mumbai",
+            "block_id": "b71",
+            "kind": "text",
+            "start": 5302,
+            "end": 5322
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Bachelor of Accounting and Finance",
+            "block_id": "b71",
+            "kind": "text",
+            "start": 5265,
+            "end": 5299
+          }
+        ],
+        "section": "EDUCATION",
+        "date_label": "2019 – 2022",
+        "is_present": false
+      },
+      "precision": "year",
+      "date_label": "2019 – 2022"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "DPM Client Category Module | BNP Paribas",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "DPM Client Category Module | BNP Paribas",
+        "• Led end-to-end UAT for client segmentation module; served as final sign-off authority for QA and successfully transitioned the",
+        "module from testing to production with zero post-launch defects.",
+        "• Collaborated with cross-functional teams to align category definitions with business requirements, improving accuracy of client",
+        "data classification."
+      ],
+      "raw_text": "DPM Client Category Module | BNP Paribas\n• Led end-to-end UAT for client segmentation module; served as final sign-off authority for QA and successfully transitioned the\nmodule from testing to production with zero post-launch defects.\n• Collaborated with cross-functional teams to align category definitions with business requirements, improving accuracy of client\ndata classification.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "DPM Client Category Module | BNP Paribas",
+            "block_id": "b38",
+            "kind": "text",
+            "start": 2982,
+            "end": 3022
+          },
+          {
+            "page": 1,
+            "text": "• Led end-to-end UAT for client segmentation module; served as final sign-off authority for QA and successfully transitioned the",
+            "block_id": "b39",
+            "kind": "text",
+            "start": 3024,
+            "end": 3152
+          },
+          {
+            "page": 1,
+            "text": "module from testing to production with zero post-launch defects.",
+            "block_id": "b40",
+            "kind": "text",
+            "start": 3154,
+            "end": 3218
+          },
+          {
+            "page": 1,
+            "text": "• Collaborated with cross-functional teams to align category definitions with business requirements, improving accuracy of client",
+            "block_id": "b41",
+            "kind": "text",
+            "start": 3220,
+            "end": 3349
+          },
+          {
+            "page": 1,
+            "text": "data classification.",
+            "block_id": "b42",
+            "kind": "text",
+            "start": 3351,
+            "end": 3371
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_2",
+      "name": "Trade Auto-Execution Enhancement | BNP Paribas",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Trade Auto-Execution Enhancement | BNP Paribas",
+        "• Analyzed existing auto-execution workflows and identified optimization opportunities, contributing to improved STP rates and",
+        "reduced manual intervention in the settlement process.",
+        "• Partnered with technology and operations teams to implement solutions, deepening understanding of automated trade processing",
+        "and settlement controls."
+      ],
+      "raw_text": "Trade Auto-Execution Enhancement | BNP Paribas\n• Analyzed existing auto-execution workflows and identified optimization opportunities, contributing to improved STP rates and\nreduced manual intervention in the settlement process.\n• Partnered with technology and operations teams to implement solutions, deepening understanding of automated trade processing\nand settlement controls.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Trade Auto-Execution Enhancement | BNP Paribas",
+            "block_id": "b43",
+            "kind": "text",
+            "start": 3373,
+            "end": 3419
+          },
+          {
+            "page": 1,
+            "text": "• Analyzed existing auto-execution workflows and identified optimization opportunities, contributing to improved STP rates and",
+            "block_id": "b44",
+            "kind": "text",
+            "start": 3421,
+            "end": 3547
+          },
+          {
+            "page": 1,
+            "text": "reduced manual intervention in the settlement process.",
+            "block_id": "b45",
+            "kind": "text",
+            "start": 3549,
+            "end": 3603
+          },
+          {
+            "page": 1,
+            "text": "• Partnered with technology and operations teams to implement solutions, deepening understanding of automated trade processing",
+            "block_id": "b46",
+            "kind": "text",
+            "start": 3605,
+            "end": 3731
+          },
+          {
+            "page": 1,
+            "text": "and settlement controls.",
+            "block_id": "b47",
+            "kind": "text",
+            "start": 3733,
+            "end": 3757
+          }
+        ]
+      }
+    }
+  ],
+  "gaps": [],
+  "total_work_experience_entries": 1,
+  "total_projects_entries": 2,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [],
+  "raw_pipeline_dto": {
+    "doc_id": "988c802d966aab52625b5e85",
+    "filename": "FaizSayed.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "vec21f6465910dc2f",
+        "type": "EDUCATION",
+        "title": "Bachelor of Accounting and Finance",
+        "org": "University of Mumbai",
+        "start": "2019-01",
+        "end": "2022-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "Bachelor of Accounting and Finance — University of Mumbai 2019 – 2022",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor of Accounting and Finance — University of Mumbai 2019 – 2022",
+              "block_id": "b71",
+              "kind": "text",
+              "start": 5265,
+              "end": 5334
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2019 – 2022",
+              "block_id": "b71",
+              "kind": "text",
+              "start": 5323,
+              "end": 5334
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "University of Mumbai",
+              "block_id": "b71",
+              "kind": "text",
+              "start": 5302,
+              "end": 5322
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Accounting and Finance",
+              "block_id": "b71",
+              "kind": "text",
+              "start": 5265,
+              "end": 5299
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2019 – 2022",
+          "is_present": false
+        },
+        "date_label": "2019 – 2022",
+        "section": "EDUCATION",
+        "is_present": false
+      },
+      {
+        "id": "ve690f3f44e30d31f",
+        "type": "EMPLOYMENT",
+        "title": "Associate",
+        "org": "",
+        "start": "2023-02",
+        "end": "2026-07",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Associate – Wealth Management Operations — BNP Paribas, Mumbai Feb 2023 – Jul 2026",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Associate – Wealth Management Operations — BNP Paribas, Mumbai Feb 2023 – Jul 2026",
+              "block_id": "b12",
+              "kind": "text",
+              "start": 1005,
+              "end": 1087
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Feb 2023 – Jul 2026",
+              "block_id": "b12",
+              "kind": "text",
+              "start": 1068,
+              "end": 1087
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Associate",
+              "block_id": "b12",
+              "kind": "text",
+              "start": 1005,
+              "end": 1014
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "Feb 2023 – Jul 2026",
+          "is_present": false
+        },
+        "date_label": "Feb 2023 – Jul 2026",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v1a99c76e0b264700",
+        "type": "PROJECT",
+        "title": "DPM Client Category Module | BNP Paribas",
+        "org": "",
+        "entry_text": "DPM Client Category Module | BNP Paribas • Led end-to-end UAT for client segmentation module; served as final sign-off authority for QA and successfully transitioned the module from testing to production with zero post-launch defects. • Collaborated with cross-functional teams to align category defi",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "DPM Client Category Module | BNP Paribas",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 2982,
+              "end": 3022
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "DPM Client Category Module | BNP Paribas",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 2982,
+              "end": 3022
+            }
+          ],
+          "section": "PROJECTS",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROJECTS",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v7cd96bd305f21d6b",
+        "type": "PROJECT",
+        "title": "Trade Auto-Execution Enhancement | BNP Paribas",
+        "org": "",
+        "entry_text": "Trade Auto-Execution Enhancement | BNP Paribas • Analyzed existing auto-execution workflows and identified optimization opportunities, contributing to improved STP rates and reduced manual intervention in the settlement process. • Partnered with technology and operations teams to implement solutions",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Trade Auto-Execution Enhancement | BNP Paribas",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 3373,
+              "end": 3419
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Trade Auto-Execution Enhancement | BNP Paribas",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 3373,
+              "end": 3419
+            }
+          ],
+          "section": "PROJECTS",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROJECTS",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "DPM Client Category Module | BNP Paribas",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "DPM Client Category Module | BNP Paribas",
+          "• Led end-to-end UAT for client segmentation module; served as final sign-off authority for QA and successfully transitioned the",
+          "module from testing to production with zero post-launch defects.",
+          "• Collaborated with cross-functional teams to align category definitions with business requirements, improving accuracy of client",
+          "data classification."
+        ],
+        "raw_text": "DPM Client Category Module | BNP Paribas\n• Led end-to-end UAT for client segmentation module; served as final sign-off authority for QA and successfully transitioned the\nmodule from testing to production with zero post-launch defects.\n• Collaborated with cross-functional teams to align category definitions with business requirements, improving accuracy of client\ndata classification.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "DPM Client Category Module | BNP Paribas",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 2982,
+              "end": 3022
+            },
+            {
+              "page": 1,
+              "text": "• Led end-to-end UAT for client segmentation module; served as final sign-off authority for QA and successfully transitioned the",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 3024,
+              "end": 3152
+            },
+            {
+              "page": 1,
+              "text": "module from testing to production with zero post-launch defects.",
+              "block_id": "b40",
+              "kind": "text",
+              "start": 3154,
+              "end": 3218
+            },
+            {
+              "page": 1,
+              "text": "• Collaborated with cross-functional teams to align category definitions with business requirements, improving accuracy of client",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 3220,
+              "end": 3349
+            },
+            {
+              "page": 1,
+              "text": "data classification.",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 3351,
+              "end": 3371
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "Trade Auto-Execution Enhancement | BNP Paribas",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Trade Auto-Execution Enhancement | BNP Paribas",
+          "• Analyzed existing auto-execution workflows and identified optimization opportunities, contributing to improved STP rates and",
+          "reduced manual intervention in the settlement process.",
+          "• Partnered with technology and operations teams to implement solutions, deepening understanding of automated trade processing",
+          "and settlement controls."
+        ],
+        "raw_text": "Trade Auto-Execution Enhancement | BNP Paribas\n• Analyzed existing auto-execution workflows and identified optimization opportunities, contributing to improved STP rates and\nreduced manual intervention in the settlement process.\n• Partnered with technology and operations teams to implement solutions, deepening understanding of automated trade processing\nand settlement controls.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Trade Auto-Execution Enhancement | BNP Paribas",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 3373,
+              "end": 3419
+            },
+            {
+              "page": 1,
+              "text": "• Analyzed existing auto-execution workflows and identified optimization opportunities, contributing to improved STP rates and",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 3421,
+              "end": 3547
+            },
+            {
+              "page": 1,
+              "text": "reduced manual intervention in the settlement process.",
+              "block_id": "b45",
+              "kind": "text",
+              "start": 3549,
+              "end": 3603
+            },
+            {
+              "page": 1,
+              "text": "• Partnered with technology and operations teams to implement solutions, deepening understanding of automated trade processing",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 3605,
+              "end": 3731
+            },
+            {
+              "page": 1,
+              "text": "and settlement controls.",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 3733,
+              "end": 3757
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [],
+        "evidence": {
+          "note": "year-only dates need verification"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 4,
+      "dated_share": 0.5,
+      "unresolved": 2,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.833,
+      "document_accuracy": 0.83
+    },
+    "total_represented_months": 90,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": true,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 1,
+          "represented_months": 42,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 1,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "ve690f3f44e30d31f",
+              "label": "Associate",
+              "state": "month_range",
+              "start": [
+                2023,
+                2
+              ],
+              "end": [
+                2026,
+                7
+              ],
+              "months": 42,
+              "raw": "Feb 2023 – Jul 2026",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Associate – Wealth Management Operations — BNP Paribas, Mumbai Feb 2023 – Jul 2026",
+                    "block_id": "b12",
+                    "kind": "text",
+                    "start": 1005,
+                    "end": 1087
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "Feb 2023 – Jul 2026",
+                    "block_id": "b12",
+                    "kind": "text",
+                    "start": 1068,
+                    "end": 1087
+                  }
+                ],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Associate",
+                    "block_id": "b12",
+                    "kind": "text",
+                    "start": 1005,
+                    "end": 1014
+                  }
+                ],
+                "section": "WORK EXPERIENCE",
+                "date_label": "Feb 2023 – Jul 2026",
+                "is_present": false
+              }
+            }
+          ]
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 2,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 2,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "proj_1",
+              "label": "DPM Client Category Module | BNP Paribas",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "DPM Client Category Module | BNP Paribas",
+                    "block_id": "b38",
+                    "kind": "text",
+                    "start": 2982,
+                    "end": 3022
+                  },
+                  {
+                    "page": 1,
+                    "text": "• Led end-to-end UAT for client segmentation module; served as final sign-off authority for QA and successfully transitioned the",
+                    "block_id": "b39",
+                    "kind": "text",
+                    "start": 3024,
+                    "end": 3152
+                  },
+                  {
+                    "page": 1,
+                    "text": "module from testing to production with zero post-launch defects.",
+                    "block_id": "b40",
+                    "kind": "text",
+                    "start": 3154,
+                    "end": 3218
+                  },
+                  {
+                    "page": 1,
+                    "text": "• Collaborated with cross-functional teams to align category definitions with business requirements, improving accuracy of client",
+                    "block_id": "b41",
+                    "kind": "text",
+                    "start": 3220,
+                    "end": 3349
+                  },
+                  {
+                    "page": 1,
+                    "text": "data classification.",
+                    "block_id": "b42",
+                    "kind": "text",
+                    "start": 3351,
+                    "end": 3371
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_2",
+              "label": "Trade Auto-Execution Enhancement | BNP Paribas",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Trade Auto-Execution Enhancement | BNP Paribas",
+                    "block_id": "b43",
+                    "kind": "text",
+                    "start": 3373,
+                    "end": 3419
+                  },
+                  {
+                    "page": 1,
+                    "text": "• Analyzed existing auto-execution workflows and identified optimization opportunities, contributing to improved STP rates and",
+                    "block_id": "b44",
+                    "kind": "text",
+                    "start": 3421,
+                    "end": 3547
+                  },
+                  {
+                    "page": 1,
+                    "text": "reduced manual intervention in the settlement process.",
+                    "block_id": "b45",
+                    "kind": "text",
+                    "start": 3549,
+                    "end": 3603
+                  },
+                  {
+                    "page": 1,
+                    "text": "• Partnered with technology and operations teams to implement solutions, deepening understanding of automated trade processing",
+                    "block_id": "b46",
+                    "kind": "text",
+                    "start": 3605,
+                    "end": 3731
+                  },
+                  {
+                    "page": 1,
+                    "text": "and settlement controls.",
+                    "block_id": "b47",
+                    "kind": "text",
+                    "start": 3733,
+                    "end": 3757
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 1,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 1,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "vec21f6465910dc2f",
+              "label": "Bachelor of Accounting and Finance",
+              "state": "year_range",
+              "start": [
+                2019,
+                1
+              ],
+              "end": [
+                2022,
+                12
+              ],
+              "months": null,
+              "raw": "2019 – 2022",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Bachelor of Accounting and Finance — University of Mumbai 2019 – 2022",
+                    "block_id": "b71",
+                    "kind": "text",
+                    "start": 5265,
+                    "end": 5334
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "2019 – 2022",
+                    "block_id": "b71",
+                    "kind": "text",
+                    "start": 5323,
+                    "end": 5334
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "University of Mumbai",
+                    "block_id": "b71",
+                    "kind": "text",
+                    "start": 5302,
+                    "end": 5322
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Bachelor of Accounting and Finance",
+                    "block_id": "b71",
+                    "kind": "text",
+                    "start": 5265,
+                    "end": 5299
+                  }
+                ],
+                "section": "EDUCATION",
+                "date_label": "2019 – 2022",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 42,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": true,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 1,
+        "represented_months": 42,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 1,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "ve690f3f44e30d31f",
+            "label": "Associate",
+            "state": "month_range",
+            "start": [
+              2023,
+              2
+            ],
+            "end": [
+              2026,
+              7
+            ],
+            "months": 42,
+            "raw": "Feb 2023 – Jul 2026",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Associate – Wealth Management Operations — BNP Paribas, Mumbai Feb 2023 – Jul 2026",
+                  "block_id": "b12",
+                  "kind": "text",
+                  "start": 1005,
+                  "end": 1087
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Feb 2023 – Jul 2026",
+                  "block_id": "b12",
+                  "kind": "text",
+                  "start": 1068,
+                  "end": 1087
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Associate",
+                  "block_id": "b12",
+                  "kind": "text",
+                  "start": 1005,
+                  "end": 1014
+                }
+              ],
+              "section": "WORK EXPERIENCE",
+              "date_label": "Feb 2023 – Jul 2026",
+              "is_present": false
+            }
+          }
+        ]
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 2,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 2,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "proj_1",
+            "label": "DPM Client Category Module | BNP Paribas",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "DPM Client Category Module | BNP Paribas",
+                  "block_id": "b38",
+                  "kind": "text",
+                  "start": 2982,
+                  "end": 3022
+                },
+                {
+                  "page": 1,
+                  "text": "• Led end-to-end UAT for client segmentation module; served as final sign-off authority for QA and successfully transitioned the",
+                  "block_id": "b39",
+                  "kind": "text",
+                  "start": 3024,
+                  "end": 3152
+                },
+                {
+                  "page": 1,
+                  "text": "module from testing to production with zero post-launch defects.",
+                  "block_id": "b40",
+                  "kind": "text",
+                  "start": 3154,
+                  "end": 3218
+                },
+                {
+                  "page": 1,
+                  "text": "• Collaborated with cross-functional teams to align category definitions with business requirements, improving accuracy of client",
+                  "block_id": "b41",
+                  "kind": "text",
+                  "start": 3220,
+                  "end": 3349
+                },
+                {
+                  "page": 1,
+                  "text": "data classification.",
+                  "block_id": "b42",
+                  "kind": "text",
+                  "start": 3351,
+                  "end": 3371
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_2",
+            "label": "Trade Auto-Execution Enhancement | BNP Paribas",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Trade Auto-Execution Enhancement | BNP Paribas",
+                  "block_id": "b43",
+                  "kind": "text",
+                  "start": 3373,
+                  "end": 3419
+                },
+                {
+                  "page": 1,
+                  "text": "• Analyzed existing auto-execution workflows and identified optimization opportunities, contributing to improved STP rates and",
+                  "block_id": "b44",
+                  "kind": "text",
+                  "start": 3421,
+                  "end": 3547
+                },
+                {
+                  "page": 1,
+                  "text": "reduced manual intervention in the settlement process.",
+                  "block_id": "b45",
+                  "kind": "text",
+                  "start": 3549,
+                  "end": 3603
+                },
+                {
+                  "page": 1,
+                  "text": "• Partnered with technology and operations teams to implement solutions, deepening understanding of automated trade processing",
+                  "block_id": "b46",
+                  "kind": "text",
+                  "start": 3605,
+                  "end": 3731
+                },
+                {
+                  "page": 1,
+                  "text": "and settlement controls.",
+                  "block_id": "b47",
+                  "kind": "text",
+                  "start": 3733,
+                  "end": 3757
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 1,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 1,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "vec21f6465910dc2f",
+            "label": "Bachelor of Accounting and Finance",
+            "state": "year_range",
+            "start": [
+              2019,
+              1
+            ],
+            "end": [
+              2022,
+              12
+            ],
+            "months": null,
+            "raw": "2019 – 2022",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Bachelor of Accounting and Finance — University of Mumbai 2019 – 2022",
+                  "block_id": "b71",
+                  "kind": "text",
+                  "start": 5265,
+                  "end": 5334
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "2019 – 2022",
+                  "block_id": "b71",
+                  "kind": "text",
+                  "start": 5323,
+                  "end": 5334
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "University of Mumbai",
+                  "block_id": "b71",
+                  "kind": "text",
+                  "start": 5302,
+                  "end": 5322
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Bachelor of Accounting and Finance",
+                  "block_id": "b71",
+                  "kind": "text",
+                  "start": 5265,
+                  "end": 5299
+                }
+              ],
+              "section": "EDUCATION",
+              "date_label": "2019 – 2022",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 42,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

@@ -1,0 +1,1769 @@
+{
+  "file_name": "VikasKumar.docx",
+  "input_mode": "text_snapshot",
+  "input_sha256": "b61c7353099c2871a1fa33eecc4a51aa149d8a7d8803865dca7aa6f54d53446b",
+  "doc_id": "b61c7353099c2871a1fa33ee",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 7,
+    "dated_share": 0.143,
+    "unresolved": 6,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v1243be69c96624b2",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Sensible Mobiles Pvt Ltd\tAssociate Software Engineer",
+      "start_date": "2013-11",
+      "end_date": "2015-07",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Sensible Mobiles Pvt Ltd\tAssociate Software Engineer",
+            "block_id": "b58",
+            "kind": "text",
+            "start": 5066,
+            "end": 5118
+          },
+          {
+            "page": 1,
+            "text": "Nov 2013 – Jul 2015",
+            "block_id": "b59",
+            "kind": "text",
+            "start": 5119,
+            "end": 5138
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Nov 2013 – Jul 2015",
+            "block_id": "b59",
+            "kind": "text",
+            "start": 5119,
+            "end": 5138
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Sensible Mobiles Pvt Ltd\tAssociate Software Engineer",
+            "block_id": "b58",
+            "kind": "text",
+            "start": 5066,
+            "end": 5118
+          }
+        ],
+        "section": "Professional Experience",
+        "date_label": "Nov 2013 – Jul 2015",
+        "is_present": false
+      },
+      "precision": "month",
+      "date_label": "Nov 2013 – Jul 2015"
+    }
+  ],
+  "education": [
+    {
+      "id": "v63a560271b6b7beb",
+      "type": "EDUCATION",
+      "company": "Harcourt Butler Technological Institute",
+      "title": "MCA",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "MCA, Harcourt Butler Technological Institute (H.B.T.I.), Kanpur – 70.25",
+            "block_id": "b78",
+            "kind": "text",
+            "start": 6655,
+            "end": 6726
+          },
+          {
+            "page": 1,
+            "text": "BCA, Chaudhary Charan Singh University, Meerut – 63.03",
+            "block_id": "b79",
+            "kind": "text",
+            "start": 6727,
+            "end": 6781
+          }
+        ],
+        "dates": [],
+        "company": [
+          {
+            "page": 1,
+            "text": "Harcourt Butler Technological Institute",
+            "block_id": "b78",
+            "kind": "text",
+            "start": 6660,
+            "end": 6699
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "MCA",
+            "block_id": "b78",
+            "kind": "text",
+            "start": 6655,
+            "end": 6658
+          }
+        ],
+        "section": "Education",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "MAPI GURU – Deutsche Telekom Digital Labs",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "MAPI GURU – Deutsche Telekom Digital Labs"
+      ],
+      "raw_text": "MAPI GURU – Deutsche Telekom Digital Labs",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "MAPI GURU – Deutsche Telekom Digital Labs",
+            "block_id": "b63",
+            "kind": "text",
+            "start": 5315,
+            "end": 5356
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_2",
+      "name": "Domain: Intelligent Search Platform",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Domain: Intelligent Search Platform",
+        "Technologies: Ollama, LangChain, MCP, Streamlit, OpenAI Models, RAG, Re-ranking, Weav- iate DB",
+        "Description: Built an AI-powered document search platform with RAG and re-ranking, en- abling secure, role-based, and highly accurate query resolution across enterprise services. ONEAPP – Deutsche Telekom Digital Labs"
+      ],
+      "raw_text": "Domain: Intelligent Search Platform\nTechnologies: Ollama, LangChain, MCP, Streamlit, OpenAI Models, RAG, Re-ranking, Weav- iate DB\nDescription: Built an AI-powered document search platform with RAG and re-ranking, en- abling secure, role-based, and highly accurate query resolution across enterprise services. ONEAPP – Deutsche Telekom Digital Labs",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Domain: Intelligent Search Platform",
+            "block_id": "b64",
+            "kind": "text",
+            "start": 5357,
+            "end": 5392
+          },
+          {
+            "page": 1,
+            "text": "Technologies: Ollama, LangChain, MCP, Streamlit, OpenAI Models, RAG, Re-ranking, Weav- iate DB",
+            "block_id": "b65",
+            "kind": "text",
+            "start": 5393,
+            "end": 5487
+          },
+          {
+            "page": 1,
+            "text": "Description: Built an AI-powered document search platform with RAG and re-ranking, en- abling secure, role-based, and highly accurate query resolution across enterprise services. ONEAPP – Deutsche Telekom Digital Labs",
+            "block_id": "b66",
+            "kind": "text",
+            "start": 5488,
+            "end": 5705
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_3",
+      "name": "Domain: OSS/BSS",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Domain: OSS/BSS",
+        "Technologies: Spring Boot, Microservices, AWS, Redis, Kafka, Kubernetes, ELK Description: Developed a scalable microservices-based OSS/BSS platform enabling efficient telecom service management, real-time monitoring, and seamless integration with third-party applications."
+      ],
+      "raw_text": "Domain: OSS/BSS\nTechnologies: Spring Boot, Microservices, AWS, Redis, Kafka, Kubernetes, ELK Description: Developed a scalable microservices-based OSS/BSS platform enabling efficient telecom service management, real-time monitoring, and seamless integration with third-party applications.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Domain: OSS/BSS",
+            "block_id": "b67",
+            "kind": "text",
+            "start": 5706,
+            "end": 5721
+          },
+          {
+            "page": 1,
+            "text": "Technologies: Spring Boot, Microservices, AWS, Redis, Kafka, Kubernetes, ELK Description: Developed a scalable microservices-based OSS/BSS platform enabling efficient telecom service management, real-time monitoring, and seamless integration with third-party applications.",
+            "block_id": "b68",
+            "kind": "text",
+            "start": 5722,
+            "end": 5994
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_4",
+      "name": "CATS EA (Event Aggregator) – In2IT Technologies",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "CATS EA (Event Aggregator) – In2IT Technologies"
+      ],
+      "raw_text": "CATS EA (Event Aggregator) – In2IT Technologies",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "CATS EA (Event Aggregator) – In2IT Technologies",
+            "block_id": "b69",
+            "kind": "text",
+            "start": 5995,
+            "end": 6042
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_5",
+      "name": "Domain: Telecom Networking",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Domain: Telecom Networking",
+        "Technologies: Apache NiFi, Spring Boot, TimescaleDB, Kafka, ServiceNow",
+        "Description: Built an event aggregation and processing system for telecom networks, inte- grating various monitoring tools and ITSM platforms to enhance incident management and resolution."
+      ],
+      "raw_text": "Domain: Telecom Networking\nTechnologies: Apache NiFi, Spring Boot, TimescaleDB, Kafka, ServiceNow\nDescription: Built an event aggregation and processing system for telecom networks, inte- grating various monitoring tools and ITSM platforms to enhance incident management and resolution.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Domain: Telecom Networking",
+            "block_id": "b70",
+            "kind": "text",
+            "start": 6043,
+            "end": 6069
+          },
+          {
+            "page": 1,
+            "text": "Technologies: Apache NiFi, Spring Boot, TimescaleDB, Kafka, ServiceNow",
+            "block_id": "b71",
+            "kind": "text",
+            "start": 6070,
+            "end": 6140
+          },
+          {
+            "page": 1,
+            "text": "Description: Built an event aggregation and processing system for telecom networks, inte- grating various monitoring tools and ITSM platforms to enhance incident management and resolution.",
+            "block_id": "b72",
+            "kind": "text",
+            "start": 6141,
+            "end": 6329
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_6",
+      "name": "CATS Dashboard – In2IT Technologies",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "CATS Dashboard – In2IT Technologies"
+      ],
+      "raw_text": "CATS Dashboard – In2IT Technologies",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "CATS Dashboard – In2IT Technologies",
+            "block_id": "b73",
+            "kind": "text",
+            "start": 6330,
+            "end": 6365
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_7",
+      "name": "Domain: Telecom Networking",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Domain: Telecom Networking",
+        "Technologies: PostgreSQL, TimescaleDB, Microservices, Kafka, Elasticsearch",
+        "Description: Designed and implemented a real-time data visualization platform that aggre- gates and displays network health and performance metrics for telecom infrastructure."
+      ],
+      "raw_text": "Domain: Telecom Networking\nTechnologies: PostgreSQL, TimescaleDB, Microservices, Kafka, Elasticsearch\nDescription: Designed and implemented a real-time data visualization platform that aggre- gates and displays network health and performance metrics for telecom infrastructure.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Domain: Telecom Networking",
+            "block_id": "b74",
+            "kind": "text",
+            "start": 6366,
+            "end": 6392
+          },
+          {
+            "page": 1,
+            "text": "Technologies: PostgreSQL, TimescaleDB, Microservices, Kafka, Elasticsearch",
+            "block_id": "b75",
+            "kind": "text",
+            "start": 6393,
+            "end": 6467
+          },
+          {
+            "page": 1,
+            "text": "Description: Designed and implemented a real-time data visualization platform that aggre- gates and displays network health and performance metrics for telecom infrastructure.",
+            "block_id": "b76",
+            "kind": "text",
+            "start": 6468,
+            "end": 6643
+          }
+        ]
+      }
+    }
+  ],
+  "gaps": [],
+  "total_work_experience_entries": 1,
+  "total_projects_entries": 7,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "section EDUCATION: entry without dated header preserved as-is"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "b61c7353099c2871a1fa33ee",
+    "filename": "VikasKumar.docx",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v1243be69c96624b2",
+        "type": "EMPLOYMENT",
+        "title": "Sensible Mobiles Pvt Ltd\tAssociate Software Engineer",
+        "org": "",
+        "start": "2013-11",
+        "end": "2015-07",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Sensible Mobiles Pvt Ltd\tAssociate Software Engineer\nNov 2013 – Jul 2015",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Sensible Mobiles Pvt Ltd\tAssociate Software Engineer",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 5066,
+              "end": 5118
+            },
+            {
+              "page": 1,
+              "text": "Nov 2013 – Jul 2015",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 5119,
+              "end": 5138
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Nov 2013 – Jul 2015",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 5119,
+              "end": 5138
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Sensible Mobiles Pvt Ltd\tAssociate Software Engineer",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 5066,
+              "end": 5118
+            }
+          ],
+          "section": "Professional Experience",
+          "date_label": "Nov 2013 – Jul 2015",
+          "is_present": false
+        },
+        "date_label": "Nov 2013 – Jul 2015",
+        "section": "Professional Experience",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v485da0dec20b21f7",
+        "type": "PROJECT",
+        "title": "MAPI GURU – Deutsche Telekom Digital Labs",
+        "org": "",
+        "entry_text": "MAPI GURU – Deutsche Telekom Digital Labs",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "MAPI GURU – Deutsche Telekom Digital Labs",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 5315,
+              "end": 5356
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "MAPI GURU – Deutsche Telekom Digital Labs",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 5315,
+              "end": 5356
+            }
+          ],
+          "section": "Projects",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Projects",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v30be4b19017b3aac",
+        "type": "PROJECT",
+        "title": "Domain: Intelligent Search Platform",
+        "org": "",
+        "entry_text": "Domain: Intelligent Search Platform Technologies: Ollama, LangChain, MCP, Streamlit, OpenAI Models, RAG, Re-ranking, Weav- iate DB Description: Built an AI-powered document search platform with RAG and re-ranking, en- abling secure, role-based, and highly accurate query resolution across enterprise ",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Domain: Intelligent Search Platform",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 5357,
+              "end": 5392
+            },
+            {
+              "page": 1,
+              "text": "Technologies: Ollama, LangChain, MCP, Streamlit, OpenAI Models, RAG, Re-ranking, Weav- iate DB",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 5393,
+              "end": 5487
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Domain: Intelligent Search Platform",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 5357,
+              "end": 5392
+            }
+          ],
+          "section": "Projects",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Projects",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v828c69f6de7f962b",
+        "type": "PROJECT",
+        "title": "Domain: OSS/BSS",
+        "org": "",
+        "entry_text": "Domain: OSS/BSS Technologies: Spring Boot, Microservices, AWS, Redis, Kafka, Kubernetes, ELK Description: Developed a scalable microservices-based OSS/BSS platform enabling efficient telecom service management, real-time monitoring, and seamless integration with third-party applications.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Domain: OSS/BSS",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 5706,
+              "end": 5721
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Domain: OSS/BSS",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 5706,
+              "end": 5721
+            }
+          ],
+          "section": "Projects",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Projects",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "ve4f685b0e4cf292a",
+        "type": "PROJECT",
+        "title": "Domain: Telecom Networking",
+        "org": "",
+        "entry_text": "Domain: Telecom Networking Technologies: Apache NiFi, Spring Boot, TimescaleDB, Kafka, ServiceNow Description: Built an event aggregation and processing system for telecom networks, inte- grating various monitoring tools and ITSM platforms to enhance incident management and resolution.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Domain: Telecom Networking",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 6043,
+              "end": 6069
+            },
+            {
+              "page": 1,
+              "text": "Technologies: Apache NiFi, Spring Boot, TimescaleDB, Kafka, ServiceNow",
+              "block_id": "b71",
+              "kind": "text",
+              "start": 6070,
+              "end": 6140
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Domain: Telecom Networking",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 6043,
+              "end": 6069
+            }
+          ],
+          "section": "Projects",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Projects",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "va9b15eec859c6438",
+        "type": "PROJECT",
+        "title": "CATS Dashboard – In2IT Technologies",
+        "org": "",
+        "entry_text": "CATS Dashboard – In2IT Technologies",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "CATS Dashboard – In2IT Technologies",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 6330,
+              "end": 6365
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "CATS Dashboard – In2IT Technologies",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 6330,
+              "end": 6365
+            }
+          ],
+          "section": "Projects",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Projects",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v63a560271b6b7beb",
+        "type": "EDUCATION",
+        "title": "MCA",
+        "org": "Harcourt Butler Technological Institute",
+        "entry_text": "MCA, Harcourt Butler Technological Institute (H.B.T.I.), Kanpur – 70.25 BCA, Chaudhary Charan Singh University, Meerut – 63.03",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "MCA, Harcourt Butler Technological Institute (H.B.T.I.), Kanpur – 70.25",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 6655,
+              "end": 6726
+            },
+            {
+              "page": 1,
+              "text": "BCA, Chaudhary Charan Singh University, Meerut – 63.03",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 6727,
+              "end": 6781
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "Harcourt Butler Technological Institute",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 6660,
+              "end": 6699
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "MCA",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 6655,
+              "end": 6658
+            }
+          ],
+          "section": "Education",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Education",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "MAPI GURU – Deutsche Telekom Digital Labs",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "MAPI GURU – Deutsche Telekom Digital Labs"
+        ],
+        "raw_text": "MAPI GURU – Deutsche Telekom Digital Labs",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "MAPI GURU – Deutsche Telekom Digital Labs",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 5315,
+              "end": 5356
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "Domain: Intelligent Search Platform",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Domain: Intelligent Search Platform",
+          "Technologies: Ollama, LangChain, MCP, Streamlit, OpenAI Models, RAG, Re-ranking, Weav- iate DB",
+          "Description: Built an AI-powered document search platform with RAG and re-ranking, en- abling secure, role-based, and highly accurate query resolution across enterprise services. ONEAPP – Deutsche Telekom Digital Labs"
+        ],
+        "raw_text": "Domain: Intelligent Search Platform\nTechnologies: Ollama, LangChain, MCP, Streamlit, OpenAI Models, RAG, Re-ranking, Weav- iate DB\nDescription: Built an AI-powered document search platform with RAG and re-ranking, en- abling secure, role-based, and highly accurate query resolution across enterprise services. ONEAPP – Deutsche Telekom Digital Labs",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Domain: Intelligent Search Platform",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 5357,
+              "end": 5392
+            },
+            {
+              "page": 1,
+              "text": "Technologies: Ollama, LangChain, MCP, Streamlit, OpenAI Models, RAG, Re-ranking, Weav- iate DB",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 5393,
+              "end": 5487
+            },
+            {
+              "page": 1,
+              "text": "Description: Built an AI-powered document search platform with RAG and re-ranking, en- abling secure, role-based, and highly accurate query resolution across enterprise services. ONEAPP – Deutsche Telekom Digital Labs",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 5488,
+              "end": 5705
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_3",
+        "name": "Domain: OSS/BSS",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Domain: OSS/BSS",
+          "Technologies: Spring Boot, Microservices, AWS, Redis, Kafka, Kubernetes, ELK Description: Developed a scalable microservices-based OSS/BSS platform enabling efficient telecom service management, real-time monitoring, and seamless integration with third-party applications."
+        ],
+        "raw_text": "Domain: OSS/BSS\nTechnologies: Spring Boot, Microservices, AWS, Redis, Kafka, Kubernetes, ELK Description: Developed a scalable microservices-based OSS/BSS platform enabling efficient telecom service management, real-time monitoring, and seamless integration with third-party applications.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Domain: OSS/BSS",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 5706,
+              "end": 5721
+            },
+            {
+              "page": 1,
+              "text": "Technologies: Spring Boot, Microservices, AWS, Redis, Kafka, Kubernetes, ELK Description: Developed a scalable microservices-based OSS/BSS platform enabling efficient telecom service management, real-time monitoring, and seamless integration with third-party applications.",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 5722,
+              "end": 5994
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_4",
+        "name": "CATS EA (Event Aggregator) – In2IT Technologies",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "CATS EA (Event Aggregator) – In2IT Technologies"
+        ],
+        "raw_text": "CATS EA (Event Aggregator) – In2IT Technologies",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "CATS EA (Event Aggregator) – In2IT Technologies",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 5995,
+              "end": 6042
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_5",
+        "name": "Domain: Telecom Networking",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Domain: Telecom Networking",
+          "Technologies: Apache NiFi, Spring Boot, TimescaleDB, Kafka, ServiceNow",
+          "Description: Built an event aggregation and processing system for telecom networks, inte- grating various monitoring tools and ITSM platforms to enhance incident management and resolution."
+        ],
+        "raw_text": "Domain: Telecom Networking\nTechnologies: Apache NiFi, Spring Boot, TimescaleDB, Kafka, ServiceNow\nDescription: Built an event aggregation and processing system for telecom networks, inte- grating various monitoring tools and ITSM platforms to enhance incident management and resolution.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Domain: Telecom Networking",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 6043,
+              "end": 6069
+            },
+            {
+              "page": 1,
+              "text": "Technologies: Apache NiFi, Spring Boot, TimescaleDB, Kafka, ServiceNow",
+              "block_id": "b71",
+              "kind": "text",
+              "start": 6070,
+              "end": 6140
+            },
+            {
+              "page": 1,
+              "text": "Description: Built an event aggregation and processing system for telecom networks, inte- grating various monitoring tools and ITSM platforms to enhance incident management and resolution.",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 6141,
+              "end": 6329
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_6",
+        "name": "CATS Dashboard – In2IT Technologies",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "CATS Dashboard – In2IT Technologies"
+        ],
+        "raw_text": "CATS Dashboard – In2IT Technologies",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "CATS Dashboard – In2IT Technologies",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 6330,
+              "end": 6365
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_7",
+        "name": "Domain: Telecom Networking",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Domain: Telecom Networking",
+          "Technologies: PostgreSQL, TimescaleDB, Microservices, Kafka, Elasticsearch",
+          "Description: Designed and implemented a real-time data visualization platform that aggre- gates and displays network health and performance metrics for telecom infrastructure."
+        ],
+        "raw_text": "Domain: Telecom Networking\nTechnologies: PostgreSQL, TimescaleDB, Microservices, Kafka, Elasticsearch\nDescription: Designed and implemented a real-time data visualization platform that aggre- gates and displays network health and performance metrics for telecom infrastructure.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Domain: Telecom Networking",
+              "block_id": "b74",
+              "kind": "text",
+              "start": 6366,
+              "end": 6392
+            },
+            {
+              "page": 1,
+              "text": "Technologies: PostgreSQL, TimescaleDB, Microservices, Kafka, Elasticsearch",
+              "block_id": "b75",
+              "kind": "text",
+              "start": 6393,
+              "end": 6467
+            },
+            {
+              "page": 1,
+              "text": "Description: Designed and implemented a real-time data visualization platform that aggre- gates and displays network health and performance metrics for telecom infrastructure.",
+              "block_id": "b76",
+              "kind": "text",
+              "start": 6468,
+              "end": 6643
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 7,
+      "dated_share": 0.143,
+      "unresolved": 6,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 21,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": true,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 1,
+          "represented_months": 21,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 1,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v1243be69c96624b2",
+              "label": "Sensible Mobiles Pvt Ltd\tAssociate Software Engineer",
+              "state": "month_range",
+              "start": [
+                2013,
+                11
+              ],
+              "end": [
+                2015,
+                7
+              ],
+              "months": 21,
+              "raw": "Nov 2013 – Jul 2015",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Sensible Mobiles Pvt Ltd\tAssociate Software Engineer",
+                    "block_id": "b58",
+                    "kind": "text",
+                    "start": 5066,
+                    "end": 5118
+                  },
+                  {
+                    "page": 1,
+                    "text": "Nov 2013 – Jul 2015",
+                    "block_id": "b59",
+                    "kind": "text",
+                    "start": 5119,
+                    "end": 5138
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "Nov 2013 – Jul 2015",
+                    "block_id": "b59",
+                    "kind": "text",
+                    "start": 5119,
+                    "end": 5138
+                  }
+                ],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Sensible Mobiles Pvt Ltd\tAssociate Software Engineer",
+                    "block_id": "b58",
+                    "kind": "text",
+                    "start": 5066,
+                    "end": 5118
+                  }
+                ],
+                "section": "Professional Experience",
+                "date_label": "Nov 2013 – Jul 2015",
+                "is_present": false
+              }
+            }
+          ]
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 7,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 7,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "proj_1",
+              "label": "MAPI GURU – Deutsche Telekom Digital Labs",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "MAPI GURU – Deutsche Telekom Digital Labs",
+                    "block_id": "b63",
+                    "kind": "text",
+                    "start": 5315,
+                    "end": 5356
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_2",
+              "label": "Domain: Intelligent Search Platform",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Domain: Intelligent Search Platform",
+                    "block_id": "b64",
+                    "kind": "text",
+                    "start": 5357,
+                    "end": 5392
+                  },
+                  {
+                    "page": 1,
+                    "text": "Technologies: Ollama, LangChain, MCP, Streamlit, OpenAI Models, RAG, Re-ranking, Weav- iate DB",
+                    "block_id": "b65",
+                    "kind": "text",
+                    "start": 5393,
+                    "end": 5487
+                  },
+                  {
+                    "page": 1,
+                    "text": "Description: Built an AI-powered document search platform with RAG and re-ranking, en- abling secure, role-based, and highly accurate query resolution across enterprise services. ONEAPP – Deutsche Telekom Digital Labs",
+                    "block_id": "b66",
+                    "kind": "text",
+                    "start": 5488,
+                    "end": 5705
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_3",
+              "label": "Domain: OSS/BSS",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Domain: OSS/BSS",
+                    "block_id": "b67",
+                    "kind": "text",
+                    "start": 5706,
+                    "end": 5721
+                  },
+                  {
+                    "page": 1,
+                    "text": "Technologies: Spring Boot, Microservices, AWS, Redis, Kafka, Kubernetes, ELK Description: Developed a scalable microservices-based OSS/BSS platform enabling efficient telecom service management, real-time monitoring, and seamless integration with third-party applications.",
+                    "block_id": "b68",
+                    "kind": "text",
+                    "start": 5722,
+                    "end": 5994
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_4",
+              "label": "CATS EA (Event Aggregator) – In2IT Technologies",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "CATS EA (Event Aggregator) – In2IT Technologies",
+                    "block_id": "b69",
+                    "kind": "text",
+                    "start": 5995,
+                    "end": 6042
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_5",
+              "label": "Domain: Telecom Networking",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Domain: Telecom Networking",
+                    "block_id": "b70",
+                    "kind": "text",
+                    "start": 6043,
+                    "end": 6069
+                  },
+                  {
+                    "page": 1,
+                    "text": "Technologies: Apache NiFi, Spring Boot, TimescaleDB, Kafka, ServiceNow",
+                    "block_id": "b71",
+                    "kind": "text",
+                    "start": 6070,
+                    "end": 6140
+                  },
+                  {
+                    "page": 1,
+                    "text": "Description: Built an event aggregation and processing system for telecom networks, inte- grating various monitoring tools and ITSM platforms to enhance incident management and resolution.",
+                    "block_id": "b72",
+                    "kind": "text",
+                    "start": 6141,
+                    "end": 6329
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_6",
+              "label": "CATS Dashboard – In2IT Technologies",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "CATS Dashboard – In2IT Technologies",
+                    "block_id": "b73",
+                    "kind": "text",
+                    "start": 6330,
+                    "end": 6365
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_7",
+              "label": "Domain: Telecom Networking",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Domain: Telecom Networking",
+                    "block_id": "b74",
+                    "kind": "text",
+                    "start": 6366,
+                    "end": 6392
+                  },
+                  {
+                    "page": 1,
+                    "text": "Technologies: PostgreSQL, TimescaleDB, Microservices, Kafka, Elasticsearch",
+                    "block_id": "b75",
+                    "kind": "text",
+                    "start": 6393,
+                    "end": 6467
+                  },
+                  {
+                    "page": 1,
+                    "text": "Description: Designed and implemented a real-time data visualization platform that aggre- gates and displays network health and performance metrics for telecom infrastructure.",
+                    "block_id": "b76",
+                    "kind": "text",
+                    "start": 6468,
+                    "end": 6643
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 1,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v63a560271b6b7beb",
+              "label": "MCA",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "MCA, Harcourt Butler Technological Institute (H.B.T.I.), Kanpur – 70.25",
+                    "block_id": "b78",
+                    "kind": "text",
+                    "start": 6655,
+                    "end": 6726
+                  },
+                  {
+                    "page": 1,
+                    "text": "BCA, Chaudhary Charan Singh University, Meerut – 63.03",
+                    "block_id": "b79",
+                    "kind": "text",
+                    "start": 6727,
+                    "end": 6781
+                  }
+                ],
+                "dates": [],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Harcourt Butler Technological Institute",
+                    "block_id": "b78",
+                    "kind": "text",
+                    "start": 6660,
+                    "end": 6699
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "MCA",
+                    "block_id": "b78",
+                    "kind": "text",
+                    "start": 6655,
+                    "end": 6658
+                  }
+                ],
+                "section": "Education",
+                "date_label": "",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 21,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": true,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 1,
+        "represented_months": 21,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 1,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v1243be69c96624b2",
+            "label": "Sensible Mobiles Pvt Ltd\tAssociate Software Engineer",
+            "state": "month_range",
+            "start": [
+              2013,
+              11
+            ],
+            "end": [
+              2015,
+              7
+            ],
+            "months": 21,
+            "raw": "Nov 2013 – Jul 2015",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Sensible Mobiles Pvt Ltd\tAssociate Software Engineer",
+                  "block_id": "b58",
+                  "kind": "text",
+                  "start": 5066,
+                  "end": 5118
+                },
+                {
+                  "page": 1,
+                  "text": "Nov 2013 – Jul 2015",
+                  "block_id": "b59",
+                  "kind": "text",
+                  "start": 5119,
+                  "end": 5138
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Nov 2013 – Jul 2015",
+                  "block_id": "b59",
+                  "kind": "text",
+                  "start": 5119,
+                  "end": 5138
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Sensible Mobiles Pvt Ltd\tAssociate Software Engineer",
+                  "block_id": "b58",
+                  "kind": "text",
+                  "start": 5066,
+                  "end": 5118
+                }
+              ],
+              "section": "Professional Experience",
+              "date_label": "Nov 2013 – Jul 2015",
+              "is_present": false
+            }
+          }
+        ]
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 7,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 7,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "proj_1",
+            "label": "MAPI GURU – Deutsche Telekom Digital Labs",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "MAPI GURU – Deutsche Telekom Digital Labs",
+                  "block_id": "b63",
+                  "kind": "text",
+                  "start": 5315,
+                  "end": 5356
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_2",
+            "label": "Domain: Intelligent Search Platform",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Domain: Intelligent Search Platform",
+                  "block_id": "b64",
+                  "kind": "text",
+                  "start": 5357,
+                  "end": 5392
+                },
+                {
+                  "page": 1,
+                  "text": "Technologies: Ollama, LangChain, MCP, Streamlit, OpenAI Models, RAG, Re-ranking, Weav- iate DB",
+                  "block_id": "b65",
+                  "kind": "text",
+                  "start": 5393,
+                  "end": 5487
+                },
+                {
+                  "page": 1,
+                  "text": "Description: Built an AI-powered document search platform with RAG and re-ranking, en- abling secure, role-based, and highly accurate query resolution across enterprise services. ONEAPP – Deutsche Telekom Digital Labs",
+                  "block_id": "b66",
+                  "kind": "text",
+                  "start": 5488,
+                  "end": 5705
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_3",
+            "label": "Domain: OSS/BSS",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Domain: OSS/BSS",
+                  "block_id": "b67",
+                  "kind": "text",
+                  "start": 5706,
+                  "end": 5721
+                },
+                {
+                  "page": 1,
+                  "text": "Technologies: Spring Boot, Microservices, AWS, Redis, Kafka, Kubernetes, ELK Description: Developed a scalable microservices-based OSS/BSS platform enabling efficient telecom service management, real-time monitoring, and seamless integration with third-party applications.",
+                  "block_id": "b68",
+                  "kind": "text",
+                  "start": 5722,
+                  "end": 5994
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_4",
+            "label": "CATS EA (Event Aggregator) – In2IT Technologies",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "CATS EA (Event Aggregator) – In2IT Technologies",
+                  "block_id": "b69",
+                  "kind": "text",
+                  "start": 5995,
+                  "end": 6042
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_5",
+            "label": "Domain: Telecom Networking",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Domain: Telecom Networking",
+                  "block_id": "b70",
+                  "kind": "text",
+                  "start": 6043,
+                  "end": 6069
+                },
+                {
+                  "page": 1,
+                  "text": "Technologies: Apache NiFi, Spring Boot, TimescaleDB, Kafka, ServiceNow",
+                  "block_id": "b71",
+                  "kind": "text",
+                  "start": 6070,
+                  "end": 6140
+                },
+                {
+                  "page": 1,
+                  "text": "Description: Built an event aggregation and processing system for telecom networks, inte- grating various monitoring tools and ITSM platforms to enhance incident management and resolution.",
+                  "block_id": "b72",
+                  "kind": "text",
+                  "start": 6141,
+                  "end": 6329
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_6",
+            "label": "CATS Dashboard – In2IT Technologies",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "CATS Dashboard – In2IT Technologies",
+                  "block_id": "b73",
+                  "kind": "text",
+                  "start": 6330,
+                  "end": 6365
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_7",
+            "label": "Domain: Telecom Networking",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Domain: Telecom Networking",
+                  "block_id": "b74",
+                  "kind": "text",
+                  "start": 6366,
+                  "end": 6392
+                },
+                {
+                  "page": 1,
+                  "text": "Technologies: PostgreSQL, TimescaleDB, Microservices, Kafka, Elasticsearch",
+                  "block_id": "b75",
+                  "kind": "text",
+                  "start": 6393,
+                  "end": 6467
+                },
+                {
+                  "page": 1,
+                  "text": "Description: Designed and implemented a real-time data visualization platform that aggre- gates and displays network health and performance metrics for telecom infrastructure.",
+                  "block_id": "b76",
+                  "kind": "text",
+                  "start": 6468,
+                  "end": 6643
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 1,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v63a560271b6b7beb",
+            "label": "MCA",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "MCA, Harcourt Butler Technological Institute (H.B.T.I.), Kanpur – 70.25",
+                  "block_id": "b78",
+                  "kind": "text",
+                  "start": 6655,
+                  "end": 6726
+                },
+                {
+                  "page": 1,
+                  "text": "BCA, Chaudhary Charan Singh University, Meerut – 63.03",
+                  "block_id": "b79",
+                  "kind": "text",
+                  "start": 6727,
+                  "end": 6781
+                }
+              ],
+              "dates": [],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Harcourt Butler Technological Institute",
+                  "block_id": "b78",
+                  "kind": "text",
+                  "start": 6660,
+                  "end": 6699
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "MCA",
+                  "block_id": "b78",
+                  "kind": "text",
+                  "start": 6655,
+                  "end": 6658
+                }
+              ],
+              "section": "Education",
+              "date_label": "",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 21,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

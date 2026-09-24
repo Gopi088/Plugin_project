@@ -1,0 +1,590 @@
+{
+  "file_name": "DeebanR.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "89561c7b6fd3a7e90d867eab834b3c7349b249ca99da28df19caf9d3431ba995",
+  "doc_id": "89561c7b6fd3a7e90d867eab",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 0,
+    "total_events": 2,
+    "dated_share": 0.0,
+    "unresolved": 2,
+    "ambiguous": 0,
+    "mean_event_confidence": null,
+    "document_accuracy": 0.8
+  },
+  "work_experience": [
+    {
+      "id": "vca5c084fba6c5bf8",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Operation Lead",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Operation Lead",
+            "block_id": "b10",
+            "kind": "text",
+            "start": 437,
+            "end": 451
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "07/2016 - 02/2022",
+            "block_id": "b23",
+            "kind": "text",
+            "start": 1096,
+            "end": 1113
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Operation Lead",
+            "block_id": "b10",
+            "kind": "text",
+            "start": 437,
+            "end": 451
+          }
+        ],
+        "section": "Experience",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    },
+    {
+      "id": "v322ee5a8e9be700c",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Senior officer / Analyst",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Senior officer / Analyst",
+            "block_id": "b25",
+            "kind": "text",
+            "start": 1159,
+            "end": 1183
+          }
+        ],
+        "dates": [],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Senior officer / Analyst",
+            "block_id": "b25",
+            "kind": "text",
+            "start": 1159,
+            "end": 1183
+          }
+        ],
+        "section": "Experience",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    }
+  ],
+  "education": [],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 2,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "PARTIAL",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "PARTIAL",
+    "coverage_analysis": "PARTIAL",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "no dated events to order",
+    "no intervals to cover"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "89561c7b6fd3a7e90d867eab",
+    "filename": "DeebanR.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [],
+    "unresolved_events": [
+      {
+        "id": "vca5c084fba6c5bf8",
+        "type": "EMPLOYMENT",
+        "title": "Operation Lead",
+        "org": "",
+        "entry_text": "Operation Lead Leading the team in reducing MTPs by 40%, resulting in a 25% decrease in account opening time and enhanced customer experience. Conducted regular process audits and identified areas for improvement, leading to a 20% reduction in errors and rework. Collaborated with the compliance depa",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Operation Lead",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 437,
+              "end": 451
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "07/2016 - 02/2022",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 1096,
+              "end": 1113
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Operation Lead",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 437,
+              "end": 451
+            }
+          ],
+          "section": "Experience",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Experience",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v322ee5a8e9be700c",
+        "type": "EMPLOYMENT",
+        "title": "Senior officer / Analyst",
+        "org": "",
+        "entry_text": "Senior officer / Analyst Managed the end -to-end onboarding process for new clients, including conducting due diligence, collecting necessary documentation, and coordinating with internal teams to ensure a smooth transition. Prepared and presented MIS reports and Dashboards to senior management, sum",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior officer / Analyst",
+              "block_id": "b25",
+              "kind": "text",
+              "start": 1159,
+              "end": 1183
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior officer / Analyst",
+              "block_id": "b25",
+              "kind": "text",
+              "start": 1159,
+              "end": 1183
+            }
+          ],
+          "section": "Experience",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Experience",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "vca5c084fba6c5bf8",
+            "v322ee5a8e9be700c"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 0,
+      "total_events": 2,
+      "dated_share": 0.0,
+      "unresolved": 2,
+      "ambiguous": 0,
+      "mean_event_confidence": null,
+      "document_accuracy": 0.8
+    },
+    "total_represented_months": 0,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "PARTIAL",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "PARTIAL",
+        "confidence": 0.3
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 2,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 2,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "vca5c084fba6c5bf8",
+              "label": "Operation Lead",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Operation Lead",
+                    "block_id": "b10",
+                    "kind": "text",
+                    "start": 437,
+                    "end": 451
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "07/2016 - 02/2022",
+                    "block_id": "b23",
+                    "kind": "text",
+                    "start": 1096,
+                    "end": 1113
+                  }
+                ],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Operation Lead",
+                    "block_id": "b10",
+                    "kind": "text",
+                    "start": 437,
+                    "end": 451
+                  }
+                ],
+                "section": "Experience",
+                "date_label": "",
+                "is_present": false
+              }
+            },
+            {
+              "id": "v322ee5a8e9be700c",
+              "label": "Senior officer / Analyst",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Senior officer / Analyst",
+                    "block_id": "b25",
+                    "kind": "text",
+                    "start": 1159,
+                    "end": 1183
+                  }
+                ],
+                "dates": [],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Senior officer / Analyst",
+                    "block_id": "b25",
+                    "kind": "text",
+                    "start": 1159,
+                    "end": 1183
+                  }
+                ],
+                "section": "Experience",
+                "date_label": "",
+                "is_present": false
+              }
+            }
+          ]
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        }
+      },
+      "represented_months": 0,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 2,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 2,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "vca5c084fba6c5bf8",
+            "label": "Operation Lead",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Operation Lead",
+                  "block_id": "b10",
+                  "kind": "text",
+                  "start": 437,
+                  "end": 451
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "07/2016 - 02/2022",
+                  "block_id": "b23",
+                  "kind": "text",
+                  "start": 1096,
+                  "end": 1113
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Operation Lead",
+                  "block_id": "b10",
+                  "kind": "text",
+                  "start": 437,
+                  "end": 451
+                }
+              ],
+              "section": "Experience",
+              "date_label": "",
+              "is_present": false
+            }
+          },
+          {
+            "id": "v322ee5a8e9be700c",
+            "label": "Senior officer / Analyst",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Senior officer / Analyst",
+                  "block_id": "b25",
+                  "kind": "text",
+                  "start": 1159,
+                  "end": 1183
+                }
+              ],
+              "dates": [],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Senior officer / Analyst",
+                  "block_id": "b25",
+                  "kind": "text",
+                  "start": 1159,
+                  "end": 1183
+                }
+              ],
+              "section": "Experience",
+              "date_label": "",
+              "is_present": false
+            }
+          }
+        ]
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      }
+    },
+    "represented_months": 0,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

@@ -1,0 +1,539 @@
+{
+  "file_name": "KiranResume.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "0d36947e18eb59314222182aead9790660b8c1bda1f0ec1fe82f12824eb00547",
+  "doc_id": "0d36947e18eb59314222182a",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 0,
+    "total_events": 1,
+    "dated_share": 0.0,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": null,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [],
+  "education": [
+    {
+      "id": "veebf97c75ef18592",
+      "type": "EDUCATION",
+      "company": "Acharya institute of technology",
+      "title": "Bachelor of Engineering in",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Acharya institute of technology,",
+            "block_id": "b8",
+            "kind": "text",
+            "start": 181,
+            "end": 213
+          },
+          {
+            "page": 1,
+            "text": "Bachelor of Engineering in",
+            "block_id": "b10",
+            "kind": "text",
+            "start": 226,
+            "end": 252
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2022 - PRESENT",
+            "block_id": "b41",
+            "kind": "text",
+            "start": 1611,
+            "end": 1625
+          },
+          {
+            "page": 1,
+            "text": "2020 - 2022",
+            "block_id": "b57",
+            "kind": "text",
+            "start": 2187,
+            "end": 2198
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Acharya institute of technology",
+            "block_id": "b8",
+            "kind": "text",
+            "start": 181,
+            "end": 212
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Bachelor of Engineering in",
+            "block_id": "b10",
+            "kind": "text",
+            "start": 226,
+            "end": 252
+          }
+        ],
+        "section": "EDUCATION",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 0,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "PARTIAL",
+    "coverage_analysis": "PARTIAL",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "entry e0: 2 ranges; first kept, rest preserved in evidence",
+    "no dated events to order",
+    "no intervals to cover"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "0d36947e18eb59314222182a",
+    "filename": "KiranResume.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [],
+    "unresolved_events": [
+      {
+        "id": "veebf97c75ef18592",
+        "type": "EDUCATION",
+        "title": "Bachelor of Engineering in",
+        "org": "Acharya institute of technology",
+        "entry_text": "Acharya institute of technology, Bachelor of Engineering in Mechanical CORE  COMPETENCIES KIRAN G AI/ML Specialist | Machine Learning | NLP | Generative AI PROFILE  SUMMARY • Data scientist with over 10 years of total experience and with 6 years of experience in delivering valuable insights through ",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Acharya institute of technology,",
+              "block_id": "b8",
+              "kind": "text",
+              "start": 181,
+              "end": 213
+            },
+            {
+              "page": 1,
+              "text": "Bachelor of Engineering in",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 226,
+              "end": 252
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2022 - PRESENT",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 1611,
+              "end": 1625
+            },
+            {
+              "page": 1,
+              "text": "2020 - 2022",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 2187,
+              "end": 2198
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Acharya institute of technology",
+              "block_id": "b8",
+              "kind": "text",
+              "start": 181,
+              "end": 212
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Engineering in",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 226,
+              "end": 252
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "EDUCATION",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 0,
+      "total_events": 1,
+      "dated_share": 0.0,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": null,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 0,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "PARTIAL",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "PARTIAL",
+        "confidence": 0.3
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 1,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "veebf97c75ef18592",
+              "label": "Bachelor of Engineering in",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Acharya institute of technology,",
+                    "block_id": "b8",
+                    "kind": "text",
+                    "start": 181,
+                    "end": 213
+                  },
+                  {
+                    "page": 1,
+                    "text": "Bachelor of Engineering in",
+                    "block_id": "b10",
+                    "kind": "text",
+                    "start": 226,
+                    "end": 252
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "2022 - PRESENT",
+                    "block_id": "b41",
+                    "kind": "text",
+                    "start": 1611,
+                    "end": 1625
+                  },
+                  {
+                    "page": 1,
+                    "text": "2020 - 2022",
+                    "block_id": "b57",
+                    "kind": "text",
+                    "start": 2187,
+                    "end": 2198
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Acharya institute of technology",
+                    "block_id": "b8",
+                    "kind": "text",
+                    "start": 181,
+                    "end": 212
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Bachelor of Engineering in",
+                    "block_id": "b10",
+                    "kind": "text",
+                    "start": 226,
+                    "end": 252
+                  }
+                ],
+                "section": "EDUCATION",
+                "date_label": "",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 0,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 1,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "veebf97c75ef18592",
+            "label": "Bachelor of Engineering in",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Acharya institute of technology,",
+                  "block_id": "b8",
+                  "kind": "text",
+                  "start": 181,
+                  "end": 213
+                },
+                {
+                  "page": 1,
+                  "text": "Bachelor of Engineering in",
+                  "block_id": "b10",
+                  "kind": "text",
+                  "start": 226,
+                  "end": 252
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "2022 - PRESENT",
+                  "block_id": "b41",
+                  "kind": "text",
+                  "start": 1611,
+                  "end": 1625
+                },
+                {
+                  "page": 1,
+                  "text": "2020 - 2022",
+                  "block_id": "b57",
+                  "kind": "text",
+                  "start": 2187,
+                  "end": 2198
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Acharya institute of technology",
+                  "block_id": "b8",
+                  "kind": "text",
+                  "start": 181,
+                  "end": 212
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Bachelor of Engineering in",
+                  "block_id": "b10",
+                  "kind": "text",
+                  "start": 226,
+                  "end": 252
+                }
+              ],
+              "section": "EDUCATION",
+              "date_label": "",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 0,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

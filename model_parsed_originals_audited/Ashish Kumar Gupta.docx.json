@@ -1,0 +1,1010 @@
+{
+  "file_name": "Ashish Kumar Gupta.docx",
+  "input_mode": "original_document",
+  "input_sha256": "b4d628f83139768945ef435ee77854638c844718d1f867c41a9b3aa012742220",
+  "doc_id": "b4d628f83139768945ef435e",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 1,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v82495b7ddb1b63fc",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Associate",
+      "start_date": "2015-10",
+      "end_date": "2016-10",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "10/2015 to 10/2016 | Associate",
+            "block_id": "b107",
+            "kind": "text",
+            "start": 8019,
+            "end": 8049
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "10/2015 to 10/2016",
+            "block_id": "b107",
+            "kind": "text",
+            "start": 8019,
+            "end": 8037
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Associate",
+            "block_id": "b107",
+            "kind": "text",
+            "start": 8040,
+            "end": 8049
+          }
+        ],
+        "section": "Experience",
+        "date_label": "10/2015 to 10/2016",
+        "is_present": false
+      }
+    }
+  ],
+  "education": [],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "Ensure successful delivery of technical milestones and projects within defined timelines, while maintaining high standards of quality.",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Key Responsibilities:",
+        "Lead and drive the APAC team of Site Reliability Engineers (SRE) at Visa to provide Infrastructure support and optimization of Web, App, Middleware, and Integration technologies in Linux.",
+        "Designing the Architecture and Setting up the secure, highly available and high performing application infrastructure in on-prem as well as on public cloud like Azure. Implemented the Hybrid design as well with Data within the VISA Network and application on Azure cloud.",
+        "Setting up the application infrastructure for third-party applications like Denodo 6.0/7.0/8.0, Oracle Hyperion(11.1.2.4/11.2.8/11.2.15), confluent Kafka streaming services, Automation Anywhere 360 etc and  also for custom application with microservice architecture like Visa University, Visa Insite3.0 etc.",
+        "Leveraging the Kubernetes(v1.30.1.1) infrastructure with varied objects like deployments, services, replica sets, ingress, roles and cluster Bindings etc for managing the third-party application like Collibra platform for Data governance.",
+        "Build Automations and CI/CD pipelines with Jenkins, AzureDevOps Server, Ansible to achieve Operational Excellence across different applications both third-party and custom build in-house applications.",
+        "Automation using Shell/BASH and Python Scripting example: self-healing solution for applications and underlying infra, proactive monitoring with reactive design.",
+        "Developing YAML playbooks in Ansible v2.10, v2.14 with Jinja2 usage, roles, azure collections, modules, vaults, plugins for automating the configuration and maintenance activities like DB backups, Package installations, patching/upgrade, configuration changes etc.",
+        "Drive and Manage the Monitoring solutions with observability tool usage like splunk, ELK, Opera, Graphana for action oriented metric monitoring, Dashboards for critical KPIs , Proactive monitoring with Actions defined for Active-Active architecture.",
+        "Architect solutions for highly reliable systems for public facing applications like setting up the DR environment with Active-Active design, Securing the traffic from end to end that involves the traffic from internet via Cloudflare CDN, VISA Public DNS to resources in perimeter zone like external F5 Load balancer routing traffic to nginx reverse proxy and to nginx app load-balancer and finally to IIS server in business zone.",
+        "Designing the Active-Active, Active-Passive application infrastructure for Tier0, Tier1 and Tier2 applications with RTO within ~4 hours. Making sure SLA and SLO are met with precision.",
+        "Work with multiple teams to deliver a certain project or complex tasks in a time constraint environment.",
+        "Azure Cloud Platform for Managed identities and Governance, Implement and manage storage, deploy and manage compute resource, configure and manage virtual network, monitor and backup azure resource. Cloud resource provisioning via Ansible playbooks using the azcollections and plugins.",
+        "Select appropriate Azure Infra services to design and deploy an application based on given requirements.",
+        "Containerize applications using Docker and Kubernetes",
+        "Provide an escalation point for my team for technical, personal and workload issues.",
+        "Create strategies for the team and align them with SMART goals for each team member and evaluate performance, Quarterly and Annually.",
+        "Explore GenAI capabilities in making the knowledge sharing from KB articles easy for peers. Worked on AskWiki production and contributed during the GenAI hackathon.",
+        "Additional Responsibilities:",
+        "Migration Projects: Led successful migration projects, optimizing infrastructure costs, and improving scalability.",
+        "Example:",
+        "Denodo upgrades for 6.0/7.0/8.0 with improved architectures. Setting up the design-studio, scheduler, solution manager for deployment, data-catalog.",
+        "Oracle Hyperion for 11.1.2.4/11.2.8/11.215 with Essbase 21c",
+        "Automation Anywhere v11 and v360",
+        "Confluent Kafka",
+        "Supported the RHEL 7 to RHEL 8 upgrades for these applications.",
+        "Migrating the Visa University infrastrucuture from edge.visa.com to extranet.visa.com domain.",
+        "Incident Management: Implemented robust incident management processes, reducing mean time to repair (MTTR) and improving service availability.",
+        "Example:",
+        "Using ServiceNow for Incident and change management. Ensuring golden rule of changes are followed for every production change.",
+        "Developed the dashboard for team to keep an eye on the assigned tickets ensure zero SLA breach.",
+        "Performance Optimization: Conducted performance optimization efforts, identifying and resolving bottlenecks to enhance system responsiveness and efficiency.",
+        "Security Best Practices: Ensured adherence to security best practices, implementing measures to protect sensitive data and mitigate risks. Example:",
+        "End to End SSL involving configuration changes for web server like nginx/apache and application servers like weblogic, IIS etc.",
+        "Using strong ciphers",
+        "LDAP authentication over SSL.",
+        "Integrating Denodo and Automation Anywhere with VCS to ensure proper governance and versioning in bitbucket.",
+        "Security finding remediation reported via Qualys scan, Pen-Test, security assessment by cybersecurity.",
+        "Implementing SSO using Kerberos and ForgeRock as IDP",
+        "Proactive certificate monitoring and renewals",
+        "Vaulting the credentials using ansible vault, azure keyvault, ERPM etc."
+      ],
+      "raw_text": "Project Delivery: Ensure successful delivery of technical milestones and projects within defined timelines, while maintaining high standards of quality.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project Delivery: Ensure successful delivery of technical milestones and projects within defined timelines, while maintaining high standards of quality.",
+            "block_id": "b65",
+            "kind": "text",
+            "start": 2579,
+            "end": 2731
+          },
+          {
+            "page": 1,
+            "text": "Key Responsibilities:",
+            "block_id": "b66",
+            "kind": "text",
+            "start": 2733,
+            "end": 2754
+          },
+          {
+            "page": 1,
+            "text": "Lead and drive the APAC team of Site Reliability Engineers (SRE) at Visa to provide Infrastructure support and optimization of Web, App, Middleware, and Integration technologies in Linux.",
+            "block_id": "b67",
+            "kind": "text",
+            "start": 2755,
+            "end": 2942
+          },
+          {
+            "page": 1,
+            "text": "Designing the Architecture and Setting up the secure, highly available and high performing application infrastructure in on-prem as well as on public cloud like Azure. Implemented the Hybrid design as well with Data within the VISA Network and application on Azure cloud.",
+            "block_id": "b68",
+            "kind": "text",
+            "start": 2943,
+            "end": 3214
+          },
+          {
+            "page": 1,
+            "text": "Setting up the application infrastructure for third-party applications like Denodo 6.0/7.0/8.0, Oracle Hyperion(11.1.2.4/11.2.8/11.2.15), confluent Kafka streaming services, Automation Anywhere 360 etc and  also for custom application with microservice architecture like Visa University, Visa Insite3.0 etc.",
+            "block_id": "b69",
+            "kind": "text",
+            "start": 3216,
+            "end": 3523
+          },
+          {
+            "page": 1,
+            "text": "Leveraging the Kubernetes(v1.30.1.1) infrastructure with varied objects like deployments, services, replica sets, ingress, roles and cluster Bindings etc for managing the third-party application like Collibra platform for Data governance.",
+            "block_id": "b70",
+            "kind": "text",
+            "start": 3525,
+            "end": 3763
+          },
+          {
+            "page": 1,
+            "text": "Build Automations and CI/CD pipelines with Jenkins, AzureDevOps Server, Ansible to achieve Operational Excellence across different applications both third-party and custom build in-house applications.",
+            "block_id": "b71",
+            "kind": "text",
+            "start": 3765,
+            "end": 3965
+          },
+          {
+            "page": 1,
+            "text": "Automation using Shell/BASH and Python Scripting example: self-healing solution for applications and underlying infra, proactive monitoring with reactive design.",
+            "block_id": "b72",
+            "kind": "text",
+            "start": 3966,
+            "end": 4127
+          },
+          {
+            "page": 1,
+            "text": "Developing YAML playbooks in Ansible v2.10, v2.14 with Jinja2 usage, roles, azure collections, modules, vaults, plugins for automating the configuration and maintenance activities like DB backups, Package installations, patching/upgrade, configuration changes etc.",
+            "block_id": "b73",
+            "kind": "text",
+            "start": 4129,
+            "end": 4393
+          },
+          {
+            "page": 1,
+            "text": "Drive and Manage the Monitoring solutions with observability tool usage like splunk, ELK, Opera, Graphana for action oriented metric monitoring, Dashboards for critical KPIs , Proactive monitoring with Actions defined for Active-Active architecture.",
+            "block_id": "b74",
+            "kind": "text",
+            "start": 4395,
+            "end": 4644
+          },
+          {
+            "page": 1,
+            "text": "Architect solutions for highly reliable systems for public facing applications like setting up the DR environment with Active-Active design, Securing the traffic from end to end that involves the traffic from internet via Cloudflare CDN, VISA Public DNS to resources in perimeter zone like external F5 Load balancer routing traffic to nginx reverse proxy and to nginx app load-balancer and finally to IIS server in business zone.",
+            "block_id": "b75",
+            "kind": "text",
+            "start": 4645,
+            "end": 5074
+          },
+          {
+            "page": 1,
+            "text": "Designing the Active-Active, Active-Passive application infrastructure for Tier0, Tier1 and Tier2 applications with RTO within ~4 hours. Making sure SLA and SLO are met with precision.",
+            "block_id": "b76",
+            "kind": "text",
+            "start": 5076,
+            "end": 5260
+          },
+          {
+            "page": 1,
+            "text": "Work with multiple teams to deliver a certain project or complex tasks in a time constraint environment.",
+            "block_id": "b77",
+            "kind": "text",
+            "start": 5262,
+            "end": 5366
+          },
+          {
+            "page": 1,
+            "text": "Azure Cloud Platform for Managed identities and Governance, Implement and manage storage, deploy and manage compute resource, configure and manage virtual network, monitor and backup azure resource. Cloud resource provisioning via Ansible playbooks using the azcollections and plugins.",
+            "block_id": "b78",
+            "kind": "text",
+            "start": 5367,
+            "end": 5652
+          },
+          {
+            "page": 1,
+            "text": "Select appropriate Azure Infra services to design and deploy an application based on given requirements.",
+            "block_id": "b79",
+            "kind": "text",
+            "start": 5653,
+            "end": 5757
+          },
+          {
+            "page": 1,
+            "text": "Containerize applications using Docker and Kubernetes",
+            "block_id": "b80",
+            "kind": "text",
+            "start": 5758,
+            "end": 5811
+          },
+          {
+            "page": 1,
+            "text": "Provide an escalation point for my team for technical, personal and workload issues.",
+            "block_id": "b81",
+            "kind": "text",
+            "start": 5813,
+            "end": 5897
+          },
+          {
+            "page": 1,
+            "text": "Create strategies for the team and align them with SMART goals for each team member and evaluate performance, Quarterly and Annually.",
+            "block_id": "b82",
+            "kind": "text",
+            "start": 5898,
+            "end": 6031
+          },
+          {
+            "page": 1,
+            "text": "Explore GenAI capabilities in making the knowledge sharing from KB articles easy for peers. Worked on AskWiki production and contributed during the GenAI hackathon.",
+            "block_id": "b83",
+            "kind": "text",
+            "start": 6032,
+            "end": 6196
+          },
+          {
+            "page": 1,
+            "text": "Additional Responsibilities:",
+            "block_id": "b84",
+            "kind": "text",
+            "start": 6199,
+            "end": 6227
+          },
+          {
+            "page": 1,
+            "text": "Migration Projects: Led successful migration projects, optimizing infrastructure costs, and improving scalability.",
+            "block_id": "b85",
+            "kind": "text",
+            "start": 6228,
+            "end": 6342
+          },
+          {
+            "page": 1,
+            "text": "Example:",
+            "block_id": "b86",
+            "kind": "text",
+            "start": 6343,
+            "end": 6351
+          },
+          {
+            "page": 1,
+            "text": "Denodo upgrades for 6.0/7.0/8.0 with improved architectures. Setting up the design-studio, scheduler, solution manager for deployment, data-catalog.",
+            "block_id": "b87",
+            "kind": "text",
+            "start": 6353,
+            "end": 6501
+          },
+          {
+            "page": 1,
+            "text": "Oracle Hyperion for 11.1.2.4/11.2.8/11.215 with Essbase 21c",
+            "block_id": "b88",
+            "kind": "text",
+            "start": 6503,
+            "end": 6562
+          },
+          {
+            "page": 1,
+            "text": "Automation Anywhere v11 and v360",
+            "block_id": "b89",
+            "kind": "text",
+            "start": 6563,
+            "end": 6595
+          },
+          {
+            "page": 1,
+            "text": "Confluent Kafka",
+            "block_id": "b90",
+            "kind": "text",
+            "start": 6596,
+            "end": 6611
+          },
+          {
+            "page": 1,
+            "text": "Supported the RHEL 7 to RHEL 8 upgrades for these applications.",
+            "block_id": "b91",
+            "kind": "text",
+            "start": 6612,
+            "end": 6675
+          },
+          {
+            "page": 1,
+            "text": "Migrating the Visa University infrastrucuture from edge.visa.com to extranet.visa.com domain.",
+            "block_id": "b92",
+            "kind": "text",
+            "start": 6676,
+            "end": 6769
+          },
+          {
+            "page": 1,
+            "text": "Incident Management: Implemented robust incident management processes, reducing mean time to repair (MTTR) and improving service availability.",
+            "block_id": "b93",
+            "kind": "text",
+            "start": 6771,
+            "end": 6913
+          },
+          {
+            "page": 1,
+            "text": "Example:",
+            "block_id": "b94",
+            "kind": "text",
+            "start": 6914,
+            "end": 6922
+          },
+          {
+            "page": 1,
+            "text": "Using ServiceNow for Incident and change management. Ensuring golden rule of changes are followed for every production change.",
+            "block_id": "b95",
+            "kind": "text",
+            "start": 6923,
+            "end": 7049
+          },
+          {
+            "page": 1,
+            "text": "Developed the dashboard for team to keep an eye on the assigned tickets ensure zero SLA breach.",
+            "block_id": "b96",
+            "kind": "text",
+            "start": 7051,
+            "end": 7146
+          },
+          {
+            "page": 1,
+            "text": "Performance Optimization: Conducted performance optimization efforts, identifying and resolving bottlenecks to enhance system responsiveness and efficiency.",
+            "block_id": "b97",
+            "kind": "text",
+            "start": 7148,
+            "end": 7304
+          },
+          {
+            "page": 1,
+            "text": "Security Best Practices: Ensured adherence to security best practices, implementing measures to protect sensitive data and mitigate risks. Example:",
+            "block_id": "b98",
+            "kind": "text",
+            "start": 7305,
+            "end": 7452
+          },
+          {
+            "page": 1,
+            "text": "End to End SSL involving configuration changes for web server like nginx/apache and application servers like weblogic, IIS etc.",
+            "block_id": "b99",
+            "kind": "text",
+            "start": 7454,
+            "end": 7581
+          },
+          {
+            "page": 1,
+            "text": "Using strong ciphers",
+            "block_id": "b100",
+            "kind": "text",
+            "start": 7582,
+            "end": 7602
+          },
+          {
+            "page": 1,
+            "text": "LDAP authentication over SSL.",
+            "block_id": "b101",
+            "kind": "text",
+            "start": 7604,
+            "end": 7633
+          },
+          {
+            "page": 1,
+            "text": "Integrating Denodo and Automation Anywhere with VCS to ensure proper governance and versioning in bitbucket.",
+            "block_id": "b102",
+            "kind": "text",
+            "start": 7635,
+            "end": 7743
+          },
+          {
+            "page": 1,
+            "text": "Security finding remediation reported via Qualys scan, Pen-Test, security assessment by cybersecurity.",
+            "block_id": "b103",
+            "kind": "text",
+            "start": 7744,
+            "end": 7846
+          },
+          {
+            "page": 1,
+            "text": "Implementing SSO using Kerberos and ForgeRock as IDP",
+            "block_id": "b104",
+            "kind": "text",
+            "start": 7847,
+            "end": 7899
+          },
+          {
+            "page": 1,
+            "text": "Proactive certificate monitoring and renewals",
+            "block_id": "b105",
+            "kind": "text",
+            "start": 7900,
+            "end": 7945
+          },
+          {
+            "page": 1,
+            "text": "Vaulting the credentials using ansible vault, azure keyvault, ERPM etc.",
+            "block_id": "b106",
+            "kind": "text",
+            "start": 7947,
+            "end": 8018
+          }
+        ]
+      }
+    }
+  ],
+  "gaps": [],
+  "total_work_experience_entries": 1,
+  "total_projects_entries": 1,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "PARTIAL",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "raw_pipeline_dto": {
+    "doc_id": "b4d628f83139768945ef435e",
+    "filename": "Ashish Kumar Gupta.docx",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "v82495b7ddb1b63fc",
+        "type": "EMPLOYMENT",
+        "title": "Associate",
+        "org": "",
+        "start": "2015-10",
+        "end": "2016-10",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "10/2015 to 10/2016 | Associate",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "10/2015 to 10/2016 | Associate",
+              "block_id": "b107",
+              "kind": "text",
+              "start": 8019,
+              "end": 8049
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "10/2015 to 10/2016",
+              "block_id": "b107",
+              "kind": "text",
+              "start": 8019,
+              "end": 8037
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Associate",
+              "block_id": "b107",
+              "kind": "text",
+              "start": 8040,
+              "end": 8049
+            }
+          ],
+          "section": "Experience",
+          "date_label": "10/2015 to 10/2016",
+          "is_present": false
+        },
+        "date_label": "10/2015 to 10/2016",
+        "section": "Experience",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "Ensure successful delivery of technical milestones and projects within defined timelines, while maintaining high standards of quality.",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Key Responsibilities:",
+          "Lead and drive the APAC team of Site Reliability Engineers (SRE) at Visa to provide Infrastructure support and optimization of Web, App, Middleware, and Integration technologies in Linux.",
+          "Designing the Architecture and Setting up the secure, highly available and high performing application infrastructure in on-prem as well as on public cloud like Azure. Implemented the Hybrid design as well with Data within the VISA Network and application on Azure cloud.",
+          "Setting up the application infrastructure for third-party applications like Denodo 6.0/7.0/8.0, Oracle Hyperion(11.1.2.4/11.2.8/11.2.15), confluent Kafka streaming services, Automation Anywhere 360 etc and  also for custom application with microservice architecture like Visa University, Visa Insite3.0 etc.",
+          "Leveraging the Kubernetes(v1.30.1.1) infrastructure with varied objects like deployments, services, replica sets, ingress, roles and cluster Bindings etc for managing the third-party application like Collibra platform for Data governance.",
+          "Build Automations and CI/CD pipelines with Jenkins, AzureDevOps Server, Ansible to achieve Operational Excellence across different applications both third-party and custom build in-house applications.",
+          "Automation using Shell/BASH and Python Scripting example: self-healing solution for applications and underlying infra, proactive monitoring with reactive design.",
+          "Developing YAML playbooks in Ansible v2.10, v2.14 with Jinja2 usage, roles, azure collections, modules, vaults, plugins for automating the configuration and maintenance activities like DB backups, Package installations, patching/upgrade, configuration changes etc.",
+          "Drive and Manage the Monitoring solutions with observability tool usage like splunk, ELK, Opera, Graphana for action oriented metric monitoring, Dashboards for critical KPIs , Proactive monitoring with Actions defined for Active-Active architecture.",
+          "Architect solutions for highly reliable systems for public facing applications like setting up the DR environment with Active-Active design, Securing the traffic from end to end that involves the traffic from internet via Cloudflare CDN, VISA Public DNS to resources in perimeter zone like external F5 Load balancer routing traffic to nginx reverse proxy and to nginx app load-balancer and finally to IIS server in business zone.",
+          "Designing the Active-Active, Active-Passive application infrastructure for Tier0, Tier1 and Tier2 applications with RTO within ~4 hours. Making sure SLA and SLO are met with precision.",
+          "Work with multiple teams to deliver a certain project or complex tasks in a time constraint environment.",
+          "Azure Cloud Platform for Managed identities and Governance, Implement and manage storage, deploy and manage compute resource, configure and manage virtual network, monitor and backup azure resource. Cloud resource provisioning via Ansible playbooks using the azcollections and plugins.",
+          "Select appropriate Azure Infra services to design and deploy an application based on given requirements.",
+          "Containerize applications using Docker and Kubernetes",
+          "Provide an escalation point for my team for technical, personal and workload issues.",
+          "Create strategies for the team and align them with SMART goals for each team member and evaluate performance, Quarterly and Annually.",
+          "Explore GenAI capabilities in making the knowledge sharing from KB articles easy for peers. Worked on AskWiki production and contributed during the GenAI hackathon.",
+          "Additional Responsibilities:",
+          "Migration Projects: Led successful migration projects, optimizing infrastructure costs, and improving scalability.",
+          "Example:",
+          "Denodo upgrades for 6.0/7.0/8.0 with improved architectures. Setting up the design-studio, scheduler, solution manager for deployment, data-catalog.",
+          "Oracle Hyperion for 11.1.2.4/11.2.8/11.215 with Essbase 21c",
+          "Automation Anywhere v11 and v360",
+          "Confluent Kafka",
+          "Supported the RHEL 7 to RHEL 8 upgrades for these applications.",
+          "Migrating the Visa University infrastrucuture from edge.visa.com to extranet.visa.com domain.",
+          "Incident Management: Implemented robust incident management processes, reducing mean time to repair (MTTR) and improving service availability.",
+          "Example:",
+          "Using ServiceNow for Incident and change management. Ensuring golden rule of changes are followed for every production change.",
+          "Developed the dashboard for team to keep an eye on the assigned tickets ensure zero SLA breach.",
+          "Performance Optimization: Conducted performance optimization efforts, identifying and resolving bottlenecks to enhance system responsiveness and efficiency.",
+          "Security Best Practices: Ensured adherence to security best practices, implementing measures to protect sensitive data and mitigate risks. Example:",
+          "End to End SSL involving configuration changes for web server like nginx/apache and application servers like weblogic, IIS etc.",
+          "Using strong ciphers",
+          "LDAP authentication over SSL.",
+          "Integrating Denodo and Automation Anywhere with VCS to ensure proper governance and versioning in bitbucket.",
+          "Security finding remediation reported via Qualys scan, Pen-Test, security assessment by cybersecurity.",
+          "Implementing SSO using Kerberos and ForgeRock as IDP",
+          "Proactive certificate monitoring and renewals",
+          "Vaulting the credentials using ansible vault, azure keyvault, ERPM etc."
+        ],
+        "raw_text": "Project Delivery: Ensure successful delivery of technical milestones and projects within defined timelines, while maintaining high standards of quality.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project Delivery: Ensure successful delivery of technical milestones and projects within defined timelines, while maintaining high standards of quality.",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 2579,
+              "end": 2731
+            },
+            {
+              "page": 1,
+              "text": "Key Responsibilities:",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 2733,
+              "end": 2754
+            },
+            {
+              "page": 1,
+              "text": "Lead and drive the APAC team of Site Reliability Engineers (SRE) at Visa to provide Infrastructure support and optimization of Web, App, Middleware, and Integration technologies in Linux.",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 2755,
+              "end": 2942
+            },
+            {
+              "page": 1,
+              "text": "Designing the Architecture and Setting up the secure, highly available and high performing application infrastructure in on-prem as well as on public cloud like Azure. Implemented the Hybrid design as well with Data within the VISA Network and application on Azure cloud.",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 2943,
+              "end": 3214
+            },
+            {
+              "page": 1,
+              "text": "Setting up the application infrastructure for third-party applications like Denodo 6.0/7.0/8.0, Oracle Hyperion(11.1.2.4/11.2.8/11.2.15), confluent Kafka streaming services, Automation Anywhere 360 etc and  also for custom application with microservice architecture like Visa University, Visa Insite3.0 etc.",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 3216,
+              "end": 3523
+            },
+            {
+              "page": 1,
+              "text": "Leveraging the Kubernetes(v1.30.1.1) infrastructure with varied objects like deployments, services, replica sets, ingress, roles and cluster Bindings etc for managing the third-party application like Collibra platform for Data governance.",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 3525,
+              "end": 3763
+            },
+            {
+              "page": 1,
+              "text": "Build Automations and CI/CD pipelines with Jenkins, AzureDevOps Server, Ansible to achieve Operational Excellence across different applications both third-party and custom build in-house applications.",
+              "block_id": "b71",
+              "kind": "text",
+              "start": 3765,
+              "end": 3965
+            },
+            {
+              "page": 1,
+              "text": "Automation using Shell/BASH and Python Scripting example: self-healing solution for applications and underlying infra, proactive monitoring with reactive design.",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 3966,
+              "end": 4127
+            },
+            {
+              "page": 1,
+              "text": "Developing YAML playbooks in Ansible v2.10, v2.14 with Jinja2 usage, roles, azure collections, modules, vaults, plugins for automating the configuration and maintenance activities like DB backups, Package installations, patching/upgrade, configuration changes etc.",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 4129,
+              "end": 4393
+            },
+            {
+              "page": 1,
+              "text": "Drive and Manage the Monitoring solutions with observability tool usage like splunk, ELK, Opera, Graphana for action oriented metric monitoring, Dashboards for critical KPIs , Proactive monitoring with Actions defined for Active-Active architecture.",
+              "block_id": "b74",
+              "kind": "text",
+              "start": 4395,
+              "end": 4644
+            },
+            {
+              "page": 1,
+              "text": "Architect solutions for highly reliable systems for public facing applications like setting up the DR environment with Active-Active design, Securing the traffic from end to end that involves the traffic from internet via Cloudflare CDN, VISA Public DNS to resources in perimeter zone like external F5 Load balancer routing traffic to nginx reverse proxy and to nginx app load-balancer and finally to IIS server in business zone.",
+              "block_id": "b75",
+              "kind": "text",
+              "start": 4645,
+              "end": 5074
+            },
+            {
+              "page": 1,
+              "text": "Designing the Active-Active, Active-Passive application infrastructure for Tier0, Tier1 and Tier2 applications with RTO within ~4 hours. Making sure SLA and SLO are met with precision.",
+              "block_id": "b76",
+              "kind": "text",
+              "start": 5076,
+              "end": 5260
+            },
+            {
+              "page": 1,
+              "text": "Work with multiple teams to deliver a certain project or complex tasks in a time constraint environment.",
+              "block_id": "b77",
+              "kind": "text",
+              "start": 5262,
+              "end": 5366
+            },
+            {
+              "page": 1,
+              "text": "Azure Cloud Platform for Managed identities and Governance, Implement and manage storage, deploy and manage compute resource, configure and manage virtual network, monitor and backup azure resource. Cloud resource provisioning via Ansible playbooks using the azcollections and plugins.",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 5367,
+              "end": 5652
+            },
+            {
+              "page": 1,
+              "text": "Select appropriate Azure Infra services to design and deploy an application based on given requirements.",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 5653,
+              "end": 5757
+            },
+            {
+              "page": 1,
+              "text": "Containerize applications using Docker and Kubernetes",
+              "block_id": "b80",
+              "kind": "text",
+              "start": 5758,
+              "end": 5811
+            },
+            {
+              "page": 1,
+              "text": "Provide an escalation point for my team for technical, personal and workload issues.",
+              "block_id": "b81",
+              "kind": "text",
+              "start": 5813,
+              "end": 5897
+            },
+            {
+              "page": 1,
+              "text": "Create strategies for the team and align them with SMART goals for each team member and evaluate performance, Quarterly and Annually.",
+              "block_id": "b82",
+              "kind": "text",
+              "start": 5898,
+              "end": 6031
+            },
+            {
+              "page": 1,
+              "text": "Explore GenAI capabilities in making the knowledge sharing from KB articles easy for peers. Worked on AskWiki production and contributed during the GenAI hackathon.",
+              "block_id": "b83",
+              "kind": "text",
+              "start": 6032,
+              "end": 6196
+            },
+            {
+              "page": 1,
+              "text": "Additional Responsibilities:",
+              "block_id": "b84",
+              "kind": "text",
+              "start": 6199,
+              "end": 6227
+            },
+            {
+              "page": 1,
+              "text": "Migration Projects: Led successful migration projects, optimizing infrastructure costs, and improving scalability.",
+              "block_id": "b85",
+              "kind": "text",
+              "start": 6228,
+              "end": 6342
+            },
+            {
+              "page": 1,
+              "text": "Example:",
+              "block_id": "b86",
+              "kind": "text",
+              "start": 6343,
+              "end": 6351
+            },
+            {
+              "page": 1,
+              "text": "Denodo upgrades for 6.0/7.0/8.0 with improved architectures. Setting up the design-studio, scheduler, solution manager for deployment, data-catalog.",
+              "block_id": "b87",
+              "kind": "text",
+              "start": 6353,
+              "end": 6501
+            },
+            {
+              "page": 1,
+              "text": "Oracle Hyperion for 11.1.2.4/11.2.8/11.215 with Essbase 21c",
+              "block_id": "b88",
+              "kind": "text",
+              "start": 6503,
+              "end": 6562
+            },
+            {
+              "page": 1,
+              "text": "Automation Anywhere v11 and v360",
+              "block_id": "b89",
+              "kind": "text",
+              "start": 6563,
+              "end": 6595
+            },
+            {
+              "page": 1,
+              "text": "Confluent Kafka",
+              "block_id": "b90",
+              "kind": "text",
+              "start": 6596,
+              "end": 6611
+            },
+            {
+              "page": 1,
+              "text": "Supported the RHEL 7 to RHEL 8 upgrades for these applications.",
+              "block_id": "b91",
+              "kind": "text",
+              "start": 6612,
+              "end": 6675
+            },
+            {
+              "page": 1,
+              "text": "Migrating the Visa University infrastrucuture from edge.visa.com to extranet.visa.com domain.",
+              "block_id": "b92",
+              "kind": "text",
+              "start": 6676,
+              "end": 6769
+            },
+            {
+              "page": 1,
+              "text": "Incident Management: Implemented robust incident management processes, reducing mean time to repair (MTTR) and improving service availability.",
+              "block_id": "b93",
+              "kind": "text",
+              "start": 6771,
+              "end": 6913
+            },
+            {
+              "page": 1,
+              "text": "Example:",
+              "block_id": "b94",
+              "kind": "text",
+              "start": 6914,
+              "end": 6922
+            },
+            {
+              "page": 1,
+              "text": "Using ServiceNow for Incident and change management. Ensuring golden rule of changes are followed for every production change.",
+              "block_id": "b95",
+              "kind": "text",
+              "start": 6923,
+              "end": 7049
+            },
+            {
+              "page": 1,
+              "text": "Developed the dashboard for team to keep an eye on the assigned tickets ensure zero SLA breach.",
+              "block_id": "b96",
+              "kind": "text",
+              "start": 7051,
+              "end": 7146
+            },
+            {
+              "page": 1,
+              "text": "Performance Optimization: Conducted performance optimization efforts, identifying and resolving bottlenecks to enhance system responsiveness and efficiency.",
+              "block_id": "b97",
+              "kind": "text",
+              "start": 7148,
+              "end": 7304
+            },
+            {
+              "page": 1,
+              "text": "Security Best Practices: Ensured adherence to security best practices, implementing measures to protect sensitive data and mitigate risks. Example:",
+              "block_id": "b98",
+              "kind": "text",
+              "start": 7305,
+              "end": 7452
+            },
+            {
+              "page": 1,
+              "text": "End to End SSL involving configuration changes for web server like nginx/apache and application servers like weblogic, IIS etc.",
+              "block_id": "b99",
+              "kind": "text",
+              "start": 7454,
+              "end": 7581
+            },
+            {
+              "page": 1,
+              "text": "Using strong ciphers",
+              "block_id": "b100",
+              "kind": "text",
+              "start": 7582,
+              "end": 7602
+            },
+            {
+              "page": 1,
+              "text": "LDAP authentication over SSL.",
+              "block_id": "b101",
+              "kind": "text",
+              "start": 7604,
+              "end": 7633
+            },
+            {
+              "page": 1,
+              "text": "Integrating Denodo and Automation Anywhere with VCS to ensure proper governance and versioning in bitbucket.",
+              "block_id": "b102",
+              "kind": "text",
+              "start": 7635,
+              "end": 7743
+            },
+            {
+              "page": 1,
+              "text": "Security finding remediation reported via Qualys scan, Pen-Test, security assessment by cybersecurity.",
+              "block_id": "b103",
+              "kind": "text",
+              "start": 7744,
+              "end": 7846
+            },
+            {
+              "page": 1,
+              "text": "Implementing SSO using Kerberos and ForgeRock as IDP",
+              "block_id": "b104",
+              "kind": "text",
+              "start": 7847,
+              "end": 7899
+            },
+            {
+              "page": 1,
+              "text": "Proactive certificate monitoring and renewals",
+              "block_id": "b105",
+              "kind": "text",
+              "start": 7900,
+              "end": 7945
+            },
+            {
+              "page": 1,
+              "text": "Vaulting the credentials using ansible vault, azure keyvault, ERPM etc.",
+              "block_id": "b106",
+              "kind": "text",
+              "start": 7947,
+              "end": 8018
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 1,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9
+    },
+    "total_represented_months": 13,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

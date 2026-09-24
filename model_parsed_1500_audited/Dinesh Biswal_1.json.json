@@ -1,0 +1,361 @@
+{
+  "file_name": "Dinesh Biswal_1.docx",
+  "input_mode": "text_snapshot",
+  "input_sha256": "ecdf8a862e0451571626d76c41456915843c0622ac1a89da1aa7f739c29edbca",
+  "doc_id": "ecdf8a862e0451571626d76c",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 2,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "ocr_pages": []
+  },
+  "work_experience": [
+    {
+      "id": "ve2241e6be8907b9f",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Software Engineer",
+      "start_date": "2014-04",
+      "end_date": "2015-03",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Software Engineer\t04/2014 - 03/2015",
+            "block_id": "b34",
+            "kind": "text",
+            "start": 2304,
+            "end": 2339
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "04/2014 - 03/2015",
+            "block_id": "b34",
+            "kind": "text",
+            "start": 2322,
+            "end": 2339
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Software Engineer",
+            "block_id": "b34",
+            "kind": "text",
+            "start": 2304,
+            "end": 2321
+          }
+        ],
+        "section": "EXPERIENCE",
+        "date_label": "04/2014 - 03/2015",
+        "is_present": false
+      }
+    },
+    {
+      "id": "v5198750020d42139",
+      "type": "EMPLOYMENT",
+      "company": "Sonata Software Ltd. Bengaluru",
+      "title": "Data Scientist",
+      "start_date": "2015-04",
+      "end_date": "2021-02",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Data Scientist\t04/2015 - 02/2021",
+            "block_id": "b23",
+            "kind": "text",
+            "start": 1732,
+            "end": 1764
+          },
+          {
+            "page": 1,
+            "text": "Sonata Software Ltd.\tBengaluru, India",
+            "block_id": "b24",
+            "kind": "text",
+            "start": 1765,
+            "end": 1802
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "04/2015 - 02/2021",
+            "block_id": "b23",
+            "kind": "text",
+            "start": 1747,
+            "end": 1764
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Sonata Software Ltd.\tBengaluru",
+            "block_id": "b24",
+            "kind": "text",
+            "start": 1765,
+            "end": 1795
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Data Scientist",
+            "block_id": "b23",
+            "kind": "text",
+            "start": 1732,
+            "end": 1746
+          }
+        ],
+        "section": "EXPERIENCE",
+        "date_label": "04/2015 - 02/2021",
+        "is_present": false
+      }
+    }
+  ],
+  "education": [],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 2,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [],
+  "raw_pipeline_dto": {
+    "doc_id": "ecdf8a862e0451571626d76c",
+    "filename": "Dinesh Biswal_1.docx",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "ve2241e6be8907b9f",
+        "type": "EMPLOYMENT",
+        "title": "Software Engineer",
+        "org": "",
+        "start": "2014-04",
+        "end": "2015-03",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Software Engineer\t04/2014 - 03/2015",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Software Engineer\t04/2014 - 03/2015",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 2304,
+              "end": 2339
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "04/2014 - 03/2015",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 2322,
+              "end": 2339
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Software Engineer",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 2304,
+              "end": 2321
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "04/2014 - 03/2015",
+          "is_present": false
+        },
+        "date_label": "04/2014 - 03/2015",
+        "section": "EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v5198750020d42139",
+        "type": "EMPLOYMENT",
+        "title": "Data Scientist",
+        "org": "Sonata Software Ltd. Bengaluru",
+        "start": "2015-04",
+        "end": "2021-02",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Data Scientist\t04/2015 - 02/2021\nSonata Software Ltd.\tBengaluru, India",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Data Scientist\t04/2015 - 02/2021",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 1732,
+              "end": 1764
+            },
+            {
+              "page": 1,
+              "text": "Sonata Software Ltd.\tBengaluru, India",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 1765,
+              "end": 1802
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "04/2015 - 02/2021",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 1747,
+              "end": 1764
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Sonata Software Ltd.\tBengaluru",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 1765,
+              "end": 1795
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Data Scientist",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 1732,
+              "end": 1746
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "04/2015 - 02/2021",
+          "is_present": false
+        },
+        "date_label": "04/2015 - 02/2021",
+        "section": "EXPERIENCE",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "NO_GAP_DETECTED",
+        "confidence": 0.9,
+        "reasons": [],
+        "evidence": {
+          "note": "no uncovered months between supported entries"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 2,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "ocr_pages": []
+    },
+    "total_represented_months": 83,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

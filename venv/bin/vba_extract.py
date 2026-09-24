@@ -1,4 +1,4 @@
-#!/home/gopal/resume-parser/venv/bin/python3
+#!/home/gopal/resume_parser-app/venv/bin/python3
 
 ##############################################################################
 #

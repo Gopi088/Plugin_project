@@ -1,0 +1,886 @@
+{
+  "file_name": "Nishant Tikale.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "27d515c9cfab80f4cdef99656ec12547482d73a51265d28dd376f477c39d8053",
+  "doc_id": "27d515c9cfab80f4cdef9965",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 0,
+    "total_events": 2,
+    "dated_share": 0.0,
+    "unresolved": 2,
+    "ambiguous": 0,
+    "mean_event_confidence": null,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [],
+  "education": [
+    {
+      "id": "vf46dec227b348b26",
+      "type": "EDUCATION",
+      "company": "Vivekanand Education Society’s Business School Mumbai",
+      "title": "Master of Business Administration",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Vivekanand Education Society’s Business School Mumbai, Maharashtra",
+            "block_id": "b8",
+            "kind": "text",
+            "start": 416,
+            "end": 482
+          },
+          {
+            "page": 1,
+            "text": "Master of Business Administration – Finance July 2025",
+            "block_id": "b9",
+            "kind": "text",
+            "start": 484,
+            "end": 537
+          },
+          {
+            "page": 1,
+            "text": "Sharad Institute of Technology College of Engineering Ichalkaranji, Maharashtra",
+            "block_id": "b10",
+            "kind": "text",
+            "start": 539,
+            "end": 618
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "July 2025",
+            "block_id": "b9",
+            "kind": "text",
+            "start": 528,
+            "end": 537
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Vivekanand Education Society’s Business School Mumbai",
+            "block_id": "b8",
+            "kind": "text",
+            "start": 416,
+            "end": 469
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Master of Business Administration",
+            "block_id": "b9",
+            "kind": "text",
+            "start": 484,
+            "end": 517
+          }
+        ],
+        "section": "EDUCATION",
+        "date_label": "July 2025",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": "July 2025"
+    },
+    {
+      "id": "v6a89a4b552be73b1",
+      "type": "EDUCATION",
+      "company": "",
+      "title": "B. Tech",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "B. Tech – Electrical Engineering July 2022",
+            "block_id": "b11",
+            "kind": "text",
+            "start": 620,
+            "end": 662
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "July 2022",
+            "block_id": "b11",
+            "kind": "text",
+            "start": 653,
+            "end": 662
+          },
+          {
+            "page": 1,
+            "text": "Aug 2025 – Current",
+            "block_id": "b14",
+            "kind": "text",
+            "start": 747,
+            "end": 765
+          },
+          {
+            "page": 1,
+            "text": "June 2025",
+            "block_id": "b34",
+            "kind": "text",
+            "start": 2483,
+            "end": 2492
+          },
+          {
+            "page": 1,
+            "text": "2025",
+            "block_id": "b38",
+            "kind": "text",
+            "start": 2839,
+            "end": 2843
+          },
+          {
+            "page": 1,
+            "text": "2025",
+            "block_id": "b39",
+            "kind": "text",
+            "start": 2853,
+            "end": 2857
+          },
+          {
+            "page": 1,
+            "text": "Mar 2024 – Apr 2024",
+            "block_id": "b43",
+            "kind": "text",
+            "start": 3169,
+            "end": 3188
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "B. Tech",
+            "block_id": "b11",
+            "kind": "text",
+            "start": 620,
+            "end": 627
+          }
+        ],
+        "section": "EDUCATION",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 0,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "PARTIAL",
+    "coverage_analysis": "PARTIAL",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "entry e1: 2 ranges; first kept, rest preserved in evidence",
+    "e0: dates cannot be assigned unambiguously",
+    "conflicting/ambiguous date kept for 'Master of Business Administration'",
+    "no dated events to order",
+    "no intervals to cover"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "27d515c9cfab80f4cdef9965",
+    "filename": "Nishant Tikale.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [],
+    "unresolved_events": [
+      {
+        "id": "vf46dec227b348b26",
+        "type": "EDUCATION",
+        "title": "Master of Business Administration",
+        "org": "Vivekanand Education Society’s Business School Mumbai",
+        "entry_text": "Vivekanand Education Society’s Business School Mumbai, Maharashtra Master of Business Administration – Finance July 2025 Sharad Institute of Technology College of Engineering Ichalkaranji, Maharashtra",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Vivekanand Education Society’s Business School Mumbai, Maharashtra",
+              "block_id": "b8",
+              "kind": "text",
+              "start": 416,
+              "end": 482
+            },
+            {
+              "page": 1,
+              "text": "Master of Business Administration – Finance July 2025",
+              "block_id": "b9",
+              "kind": "text",
+              "start": 484,
+              "end": 537
+            },
+            {
+              "page": 1,
+              "text": "Sharad Institute of Technology College of Engineering Ichalkaranji, Maharashtra",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 539,
+              "end": 618
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "July 2025",
+              "block_id": "b9",
+              "kind": "text",
+              "start": 528,
+              "end": 537
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Vivekanand Education Society’s Business School Mumbai",
+              "block_id": "b8",
+              "kind": "text",
+              "start": 416,
+              "end": 469
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Master of Business Administration",
+              "block_id": "b9",
+              "kind": "text",
+              "start": 484,
+              "end": 517
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "July 2025",
+          "is_present": false
+        },
+        "date_label": "July 2025",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      },
+      {
+        "id": "v6a89a4b552be73b1",
+        "type": "EDUCATION",
+        "title": "B. Tech",
+        "org": "",
+        "entry_text": "B. Tech – Electrical Engineering July 2022 WORK EXPRIENCE Coforge Operations Analyst – Capital Markets & Client Reporting Aug 2025 – Current • Managed settlement processes across Euroclear, FEDWIRE, and DTCC, ensuring seamless pre -matching, settlements, and reconciliations for equities and bonds wh",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "B. Tech – Electrical Engineering July 2022",
+              "block_id": "b11",
+              "kind": "text",
+              "start": 620,
+              "end": 662
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "July 2022",
+              "block_id": "b11",
+              "kind": "text",
+              "start": 653,
+              "end": 662
+            },
+            {
+              "page": 1,
+              "text": "Aug 2025 – Current",
+              "block_id": "b14",
+              "kind": "text",
+              "start": 747,
+              "end": 765
+            },
+            {
+              "page": 1,
+              "text": "June 2025",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 2483,
+              "end": 2492
+            },
+            {
+              "page": 1,
+              "text": "2025",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 2839,
+              "end": 2843
+            },
+            {
+              "page": 1,
+              "text": "2025",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 2853,
+              "end": 2857
+            },
+            {
+              "page": 1,
+              "text": "Mar 2024 – Apr 2024",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 3169,
+              "end": 3188
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "B. Tech",
+              "block_id": "b11",
+              "kind": "text",
+              "start": 620,
+              "end": 627
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "EDUCATION",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 0,
+      "total_events": 2,
+      "dated_share": 0.0,
+      "unresolved": 2,
+      "ambiguous": 0,
+      "mean_event_confidence": null,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 0,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "PARTIAL",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "PARTIAL",
+        "confidence": 0.3
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 2,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 1,
+            "duration_only": 0,
+            "undated": 1,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "vf46dec227b348b26",
+              "label": "Master of Business Administration",
+              "state": "single_date",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "July 2025",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Vivekanand Education Society’s Business School Mumbai, Maharashtra",
+                    "block_id": "b8",
+                    "kind": "text",
+                    "start": 416,
+                    "end": 482
+                  },
+                  {
+                    "page": 1,
+                    "text": "Master of Business Administration – Finance July 2025",
+                    "block_id": "b9",
+                    "kind": "text",
+                    "start": 484,
+                    "end": 537
+                  },
+                  {
+                    "page": 1,
+                    "text": "Sharad Institute of Technology College of Engineering Ichalkaranji, Maharashtra",
+                    "block_id": "b10",
+                    "kind": "text",
+                    "start": 539,
+                    "end": 618
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "July 2025",
+                    "block_id": "b9",
+                    "kind": "text",
+                    "start": 528,
+                    "end": 537
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Vivekanand Education Society’s Business School Mumbai",
+                    "block_id": "b8",
+                    "kind": "text",
+                    "start": 416,
+                    "end": 469
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Master of Business Administration",
+                    "block_id": "b9",
+                    "kind": "text",
+                    "start": 484,
+                    "end": 517
+                  }
+                ],
+                "section": "EDUCATION",
+                "date_label": "July 2025",
+                "is_present": false
+              }
+            },
+            {
+              "id": "v6a89a4b552be73b1",
+              "label": "B. Tech",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "B. Tech – Electrical Engineering July 2022",
+                    "block_id": "b11",
+                    "kind": "text",
+                    "start": 620,
+                    "end": 662
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "July 2022",
+                    "block_id": "b11",
+                    "kind": "text",
+                    "start": 653,
+                    "end": 662
+                  },
+                  {
+                    "page": 1,
+                    "text": "Aug 2025 – Current",
+                    "block_id": "b14",
+                    "kind": "text",
+                    "start": 747,
+                    "end": 765
+                  },
+                  {
+                    "page": 1,
+                    "text": "June 2025",
+                    "block_id": "b34",
+                    "kind": "text",
+                    "start": 2483,
+                    "end": 2492
+                  },
+                  {
+                    "page": 1,
+                    "text": "2025",
+                    "block_id": "b38",
+                    "kind": "text",
+                    "start": 2839,
+                    "end": 2843
+                  },
+                  {
+                    "page": 1,
+                    "text": "2025",
+                    "block_id": "b39",
+                    "kind": "text",
+                    "start": 2853,
+                    "end": 2857
+                  },
+                  {
+                    "page": 1,
+                    "text": "Mar 2024 – Apr 2024",
+                    "block_id": "b43",
+                    "kind": "text",
+                    "start": 3169,
+                    "end": 3188
+                  }
+                ],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "B. Tech",
+                    "block_id": "b11",
+                    "kind": "text",
+                    "start": 620,
+                    "end": 627
+                  }
+                ],
+                "section": "EDUCATION",
+                "date_label": "",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 0,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 2,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 1,
+          "duration_only": 0,
+          "undated": 1,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "vf46dec227b348b26",
+            "label": "Master of Business Administration",
+            "state": "single_date",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "July 2025",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Vivekanand Education Society’s Business School Mumbai, Maharashtra",
+                  "block_id": "b8",
+                  "kind": "text",
+                  "start": 416,
+                  "end": 482
+                },
+                {
+                  "page": 1,
+                  "text": "Master of Business Administration – Finance July 2025",
+                  "block_id": "b9",
+                  "kind": "text",
+                  "start": 484,
+                  "end": 537
+                },
+                {
+                  "page": 1,
+                  "text": "Sharad Institute of Technology College of Engineering Ichalkaranji, Maharashtra",
+                  "block_id": "b10",
+                  "kind": "text",
+                  "start": 539,
+                  "end": 618
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "July 2025",
+                  "block_id": "b9",
+                  "kind": "text",
+                  "start": 528,
+                  "end": 537
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Vivekanand Education Society’s Business School Mumbai",
+                  "block_id": "b8",
+                  "kind": "text",
+                  "start": 416,
+                  "end": 469
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Master of Business Administration",
+                  "block_id": "b9",
+                  "kind": "text",
+                  "start": 484,
+                  "end": 517
+                }
+              ],
+              "section": "EDUCATION",
+              "date_label": "July 2025",
+              "is_present": false
+            }
+          },
+          {
+            "id": "v6a89a4b552be73b1",
+            "label": "B. Tech",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "B. Tech – Electrical Engineering July 2022",
+                  "block_id": "b11",
+                  "kind": "text",
+                  "start": 620,
+                  "end": 662
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "July 2022",
+                  "block_id": "b11",
+                  "kind": "text",
+                  "start": 653,
+                  "end": 662
+                },
+                {
+                  "page": 1,
+                  "text": "Aug 2025 – Current",
+                  "block_id": "b14",
+                  "kind": "text",
+                  "start": 747,
+                  "end": 765
+                },
+                {
+                  "page": 1,
+                  "text": "June 2025",
+                  "block_id": "b34",
+                  "kind": "text",
+                  "start": 2483,
+                  "end": 2492
+                },
+                {
+                  "page": 1,
+                  "text": "2025",
+                  "block_id": "b38",
+                  "kind": "text",
+                  "start": 2839,
+                  "end": 2843
+                },
+                {
+                  "page": 1,
+                  "text": "2025",
+                  "block_id": "b39",
+                  "kind": "text",
+                  "start": 2853,
+                  "end": 2857
+                },
+                {
+                  "page": 1,
+                  "text": "Mar 2024 – Apr 2024",
+                  "block_id": "b43",
+                  "kind": "text",
+                  "start": 3169,
+                  "end": 3188
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "B. Tech",
+                  "block_id": "b11",
+                  "kind": "text",
+                  "start": 620,
+                  "end": 627
+                }
+              ],
+              "section": "EDUCATION",
+              "date_label": "",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 0,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

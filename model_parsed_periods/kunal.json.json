@@ -1,0 +1,1962 @@
+{
+  "file_name": "kunal.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "92b17d11e33cf60b2a0cd9149f5ade8dbb97806c1d9b9bf17059340671e8bf35",
+  "doc_id": "92b17d11e33cf60b2a0cd914",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 9,
+    "dated_share": 0.111,
+    "unresolved": 8,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.89
+  },
+  "work_experience": [
+    {
+      "id": "v4234ba2b276a9327",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Business Analyst/Product Owner",
+      "start_date": "2023-08",
+      "end_date": "2026-06",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Business Analyst/Product Owner, Asset Management Aug 2023 – June 2026",
+            "block_id": "b10",
+            "kind": "text",
+            "start": 529,
+            "end": 598
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Aug 2023 – June 2026",
+            "block_id": "b10",
+            "kind": "text",
+            "start": 578,
+            "end": 598
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Business Analyst/Product Owner",
+            "block_id": "b10",
+            "kind": "text",
+            "start": 529,
+            "end": 559
+          }
+        ],
+        "section": "Work Experience",
+        "date_label": "Aug 2023 – June 2026",
+        "is_present": false
+      },
+      "precision": "month",
+      "date_label": "Aug 2023 – June 2026"
+    },
+    {
+      "id": "vfc75c4679c9a38f4",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Investment Banking Analyst",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Investment Banking Analyst, Asset Management Sep 2021 – Jan 23",
+            "block_id": "b30",
+            "kind": "text",
+            "start": 2493,
+            "end": 2555
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Sep 2021",
+            "block_id": "b30",
+            "kind": "text",
+            "start": 2538,
+            "end": 2546
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Investment Banking Analyst",
+            "block_id": "b30",
+            "kind": "text",
+            "start": 2493,
+            "end": 2519
+          }
+        ],
+        "section": "Work Experience",
+        "date_label": "Sep 2021",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": "Sep 2021"
+    }
+  ],
+  "education": [
+    {
+      "id": "vd601eb8dae7954fe",
+      "type": "EDUCATION",
+      "company": "Qualification Institute CGPA/ % Year",
+      "title": "",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Qualification Institute CGPA/ % Year",
+            "block_id": "b5",
+            "kind": "text",
+            "start": 345,
+            "end": 381
+          },
+          {
+            "page": 1,
+            "text": "BBE Shivaji College, University of Delhi 7.80/10 2021",
+            "block_id": "b6",
+            "kind": "text",
+            "start": 383,
+            "end": 436
+          },
+          {
+            "page": 1,
+            "text": "XII, CBSE St. Martins Diocesan School, Delhi 85.00 2018",
+            "block_id": "b7",
+            "kind": "text",
+            "start": 438,
+            "end": 493
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2021",
+            "block_id": "b6",
+            "kind": "text",
+            "start": 432,
+            "end": 436
+          },
+          {
+            "page": 1,
+            "text": "2018",
+            "block_id": "b7",
+            "kind": "text",
+            "start": 489,
+            "end": 493
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Qualification Institute CGPA/ % Year",
+            "block_id": "b5",
+            "kind": "text",
+            "start": 345,
+            "end": 381
+          }
+        ],
+        "title": [],
+        "section": "Educational Qualification",
+        "date_label": "2021 / 2018",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": "2021 / 2018"
+    },
+    {
+      "id": "v94bc1b994e95e160",
+      "type": "EDUCATION",
+      "company": "University of Delhi",
+      "title": "",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "University of Delhi (Founding Member & Research Head)",
+            "block_id": "b41",
+            "kind": "text",
+            "start": 3412,
+            "end": 3465
+          }
+        ],
+        "dates": [],
+        "company": [
+          {
+            "page": 1,
+            "text": "University of Delhi",
+            "block_id": "b41",
+            "kind": "text",
+            "start": 3412,
+            "end": 3431
+          }
+        ],
+        "title": [],
+        "section": "University of Delhi (Founding Member & Research Head)",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    },
+    {
+      "id": "v69dfc233484ab5c4",
+      "type": "EDUCATION",
+      "company": "Financial Markets by Yale University",
+      "title": "",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Financial Markets by Yale University (Coursera), Corporate, Finance & Valuation (NYU Prof Aswath Damodaran), Reading",
+            "block_id": "b75",
+            "kind": "text",
+            "start": 5336,
+            "end": 5452
+          }
+        ],
+        "dates": [],
+        "company": [
+          {
+            "page": 1,
+            "text": "Financial Markets by Yale University",
+            "block_id": "b75",
+            "kind": "text",
+            "start": 5336,
+            "end": 5372
+          }
+        ],
+        "title": [],
+        "section": "Financial Markets by Yale University (Coursera), Corporate, Finance & Valuation (NYU Prof Aswath Damodaran), Reading",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "Financial Model of",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Financial Model of"
+      ],
+      "raw_text": "Financial Model of",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Financial Model of",
+            "block_id": "b65",
+            "kind": "text",
+            "start": 4795,
+            "end": 4813
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_2",
+      "name": "Mahindra & Mahindra",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Mahindra & Mahindra",
+        "• Performed valuation of Mahindra & Mahindra using DCF and Multiples method for stock recommendation.",
+        "• Forecasted the financial line items based on assumptions from annual report and quarterly conference calls.",
+        "• Financial modelling involved collecting data from SIAM, TMA and industry reports by research agencies.",
+        "• Incorporated different scenarios based on expected industry growth rate for different product lines."
+      ],
+      "raw_text": "Mahindra & Mahindra\n• Performed valuation of Mahindra & Mahindra using DCF and Multiples method for stock recommendation.\n• Forecasted the financial line items based on assumptions from annual report and quarterly conference calls.\n• Financial modelling involved collecting data from SIAM, TMA and industry reports by research agencies.\n• Incorporated different scenarios based on expected industry growth rate for different product lines.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Mahindra & Mahindra",
+            "block_id": "b66",
+            "kind": "text",
+            "start": 4815,
+            "end": 4834
+          },
+          {
+            "page": 1,
+            "text": "• Performed valuation of Mahindra & Mahindra using DCF and Multiples method for stock recommendation.",
+            "block_id": "b67",
+            "kind": "text",
+            "start": 4836,
+            "end": 4937
+          },
+          {
+            "page": 1,
+            "text": "• Forecasted the financial line items based on assumptions from annual report and quarterly conference calls.",
+            "block_id": "b68",
+            "kind": "text",
+            "start": 4939,
+            "end": 5048
+          },
+          {
+            "page": 1,
+            "text": "• Financial modelling involved collecting data from SIAM, TMA and industry reports by research agencies.",
+            "block_id": "b69",
+            "kind": "text",
+            "start": 5050,
+            "end": 5154
+          },
+          {
+            "page": 1,
+            "text": "• Incorporated different scenarios based on expected industry growth rate for different product lines.",
+            "block_id": "b70",
+            "kind": "text",
+            "start": 5156,
+            "end": 5258
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_3",
+      "name": "2023",
+      "client": "",
+      "role": "",
+      "duration": "2023",
+      "details": [
+        "2023"
+      ],
+      "raw_text": "2023",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "2023",
+            "block_id": "b71",
+            "kind": "text",
+            "start": 5262,
+            "end": 5266
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_4",
+      "name": "Professional Certifications & Skills",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Professional Certifications & Skills"
+      ],
+      "raw_text": "Professional Certifications & Skills",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Professional Certifications & Skills",
+            "block_id": "b72",
+            "kind": "text",
+            "start": 5270,
+            "end": 5306
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_5",
+      "name": "Certifications &",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Certifications &"
+      ],
+      "raw_text": "Certifications &",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Certifications &",
+            "block_id": "b73",
+            "kind": "text",
+            "start": 5308,
+            "end": 5324
+          }
+        ]
+      }
+    }
+  ],
+  "gaps": [],
+  "total_work_experience_entries": 2,
+  "total_projects_entries": 5,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "section EDUCATION: entry without dated header preserved as-is",
+    "section EDUCATION: entry without dated header preserved as-is",
+    "section EDUCATION: entry without dated header preserved as-is",
+    "entry e0: dates found without an explicit range",
+    "e0: dates cannot be assigned unambiguously",
+    "e2: dates cannot be assigned unambiguously",
+    "conflicting/ambiguous date kept for ''",
+    "conflicting/ambiguous date kept for 'Investment Banking Analyst'"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "92b17d11e33cf60b2a0cd914",
+    "filename": "kunal.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v4234ba2b276a9327",
+        "type": "EMPLOYMENT",
+        "title": "Business Analyst/Product Owner",
+        "org": "",
+        "start": "2023-08",
+        "end": "2026-06",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Business Analyst/Product Owner, Asset Management Aug 2023 – June 2026",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Business Analyst/Product Owner, Asset Management Aug 2023 – June 2026",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 529,
+              "end": 598
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Aug 2023 – June 2026",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 578,
+              "end": 598
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Business Analyst/Product Owner",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 529,
+              "end": 559
+            }
+          ],
+          "section": "Work Experience",
+          "date_label": "Aug 2023 – June 2026",
+          "is_present": false
+        },
+        "date_label": "Aug 2023 – June 2026",
+        "section": "Work Experience",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "vd601eb8dae7954fe",
+        "type": "EDUCATION",
+        "title": "",
+        "org": "Qualification Institute CGPA/ % Year",
+        "entry_text": "Qualification Institute CGPA/ % Year BBE Shivaji College, University of Delhi 7.80/10 2021 XII, CBSE St. Martins Diocesan School, Delhi 85.00 2018",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Qualification Institute CGPA/ % Year",
+              "block_id": "b5",
+              "kind": "text",
+              "start": 345,
+              "end": 381
+            },
+            {
+              "page": 1,
+              "text": "BBE Shivaji College, University of Delhi 7.80/10 2021",
+              "block_id": "b6",
+              "kind": "text",
+              "start": 383,
+              "end": 436
+            },
+            {
+              "page": 1,
+              "text": "XII, CBSE St. Martins Diocesan School, Delhi 85.00 2018",
+              "block_id": "b7",
+              "kind": "text",
+              "start": 438,
+              "end": 493
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2021",
+              "block_id": "b6",
+              "kind": "text",
+              "start": 432,
+              "end": 436
+            },
+            {
+              "page": 1,
+              "text": "2018",
+              "block_id": "b7",
+              "kind": "text",
+              "start": 489,
+              "end": 493
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Qualification Institute CGPA/ % Year",
+              "block_id": "b5",
+              "kind": "text",
+              "start": 345,
+              "end": 381
+            }
+          ],
+          "title": [],
+          "section": "Educational Qualification",
+          "date_label": "2021 / 2018",
+          "is_present": false
+        },
+        "date_label": "2021 / 2018",
+        "section": "Educational Qualification",
+        "status": "AMBIGUOUS"
+      },
+      {
+        "id": "vfc75c4679c9a38f4",
+        "type": "EMPLOYMENT",
+        "title": "Investment Banking Analyst",
+        "org": "",
+        "entry_text": "Investment Banking Analyst, Asset Management Sep 2021 – Jan 23 Roles and Responsibilities • Monitored trade execution and settlement projections to generate liquidity forecasts, ensuring funding optimization. • Partnered with brokers and custodians to resolve multi-million-dollar OTC derivative trad",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Investment Banking Analyst, Asset Management Sep 2021 – Jan 23",
+              "block_id": "b30",
+              "kind": "text",
+              "start": 2493,
+              "end": 2555
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Sep 2021",
+              "block_id": "b30",
+              "kind": "text",
+              "start": 2538,
+              "end": 2546
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Investment Banking Analyst",
+              "block_id": "b30",
+              "kind": "text",
+              "start": 2493,
+              "end": 2519
+            }
+          ],
+          "section": "Work Experience",
+          "date_label": "Sep 2021",
+          "is_present": false
+        },
+        "date_label": "Sep 2021",
+        "section": "Work Experience",
+        "status": "AMBIGUOUS"
+      },
+      {
+        "id": "v94bc1b994e95e160",
+        "type": "EDUCATION",
+        "title": "",
+        "org": "University of Delhi",
+        "entry_text": "University of Delhi (Founding Member & Research Head)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "University of Delhi (Founding Member & Research Head)",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 3412,
+              "end": 3465
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "University of Delhi",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 3412,
+              "end": 3431
+            }
+          ],
+          "title": [],
+          "section": "University of Delhi (Founding Member & Research Head)",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "University of Delhi (Founding Member & Research Head)",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v1ab661fb0af3609f",
+        "type": "PROJECT",
+        "title": "Financial Model of",
+        "org": "",
+        "entry_text": "Financial Model of",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Financial Model of",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 4795,
+              "end": 4813
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Financial Model of",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 4795,
+              "end": 4813
+            }
+          ],
+          "section": "Academic Projects",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Academic Projects",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v9537478c59ae0fa2",
+        "type": "PROJECT",
+        "title": "Mahindra & Mahindra",
+        "org": "",
+        "entry_text": "Mahindra & Mahindra • Performed valuation of Mahindra & Mahindra using DCF and Multiples method for stock recommendation. • Forecasted the financial line items based on assumptions from annual report and quarterly conference calls. • Financial modelling involved collecting data from SIAM, TMA and in",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Mahindra & Mahindra",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 4815,
+              "end": 4834
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Mahindra & Mahindra",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 4815,
+              "end": 4834
+            }
+          ],
+          "section": "Academic Projects",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Academic Projects",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v19c37c39ffaa5afc",
+        "type": "PROJECT",
+        "title": "Professional Certifications & Skills",
+        "org": "",
+        "entry_text": "Professional Certifications & Skills",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Professional Certifications & Skills",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 5270,
+              "end": 5306
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Professional Certifications & Skills",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 5270,
+              "end": 5306
+            }
+          ],
+          "section": "Academic Projects",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Academic Projects",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v6e3ba21e8a59f838",
+        "type": "PROJECT",
+        "title": "Certifications &",
+        "org": "",
+        "entry_text": "Certifications &",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Certifications &",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 5308,
+              "end": 5324
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Certifications",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 5308,
+              "end": 5322
+            }
+          ],
+          "section": "Academic Projects",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Academic Projects",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v69dfc233484ab5c4",
+        "type": "EDUCATION",
+        "title": "",
+        "org": "Financial Markets by Yale University",
+        "entry_text": "Financial Markets by Yale University (Coursera), Corporate, Finance & Valuation (NYU Prof Aswath Damodaran), Reading",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Financial Markets by Yale University (Coursera), Corporate, Finance & Valuation (NYU Prof Aswath Damodaran), Reading",
+              "block_id": "b75",
+              "kind": "text",
+              "start": 5336,
+              "end": 5452
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "Financial Markets by Yale University",
+              "block_id": "b75",
+              "kind": "text",
+              "start": 5336,
+              "end": 5372
+            }
+          ],
+          "title": [],
+          "section": "Financial Markets by Yale University (Coursera), Corporate, Finance & Valuation (NYU Prof Aswath Damodaran), Reading",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Financial Markets by Yale University (Coursera), Corporate, Finance & Valuation (NYU Prof Aswath Damodaran), Reading",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "Financial Model of",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Financial Model of"
+        ],
+        "raw_text": "Financial Model of",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Financial Model of",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 4795,
+              "end": 4813
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "Mahindra & Mahindra",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Mahindra & Mahindra",
+          "• Performed valuation of Mahindra & Mahindra using DCF and Multiples method for stock recommendation.",
+          "• Forecasted the financial line items based on assumptions from annual report and quarterly conference calls.",
+          "• Financial modelling involved collecting data from SIAM, TMA and industry reports by research agencies.",
+          "• Incorporated different scenarios based on expected industry growth rate for different product lines."
+        ],
+        "raw_text": "Mahindra & Mahindra\n• Performed valuation of Mahindra & Mahindra using DCF and Multiples method for stock recommendation.\n• Forecasted the financial line items based on assumptions from annual report and quarterly conference calls.\n• Financial modelling involved collecting data from SIAM, TMA and industry reports by research agencies.\n• Incorporated different scenarios based on expected industry growth rate for different product lines.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Mahindra & Mahindra",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 4815,
+              "end": 4834
+            },
+            {
+              "page": 1,
+              "text": "• Performed valuation of Mahindra & Mahindra using DCF and Multiples method for stock recommendation.",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 4836,
+              "end": 4937
+            },
+            {
+              "page": 1,
+              "text": "• Forecasted the financial line items based on assumptions from annual report and quarterly conference calls.",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 4939,
+              "end": 5048
+            },
+            {
+              "page": 1,
+              "text": "• Financial modelling involved collecting data from SIAM, TMA and industry reports by research agencies.",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 5050,
+              "end": 5154
+            },
+            {
+              "page": 1,
+              "text": "• Incorporated different scenarios based on expected industry growth rate for different product lines.",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 5156,
+              "end": 5258
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_3",
+        "name": "2023",
+        "client": "",
+        "role": "",
+        "duration": "2023",
+        "details": [
+          "2023"
+        ],
+        "raw_text": "2023",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "2023",
+              "block_id": "b71",
+              "kind": "text",
+              "start": 5262,
+              "end": 5266
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_4",
+        "name": "Professional Certifications & Skills",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Professional Certifications & Skills"
+        ],
+        "raw_text": "Professional Certifications & Skills",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Professional Certifications & Skills",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 5270,
+              "end": 5306
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_5",
+        "name": "Certifications &",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Certifications &"
+        ],
+        "raw_text": "Certifications &",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Certifications &",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 5308,
+              "end": 5324
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "vfc75c4679c9a38f4"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 9,
+      "dated_share": 0.111,
+      "unresolved": 8,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.89
+    },
+    "total_represented_months": 35,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 2,
+          "dated_periods": 1,
+          "represented_months": 35,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 1,
+            "year_range": 0,
+            "single_date": 1,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v4234ba2b276a9327",
+              "label": "Business Analyst/Product Owner",
+              "state": "month_range",
+              "start": [
+                2023,
+                8
+              ],
+              "end": [
+                2026,
+                6
+              ],
+              "months": 35,
+              "raw": "Aug 2023 – June 2026",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Business Analyst/Product Owner, Asset Management Aug 2023 – June 2026",
+                    "block_id": "b10",
+                    "kind": "text",
+                    "start": 529,
+                    "end": 598
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "Aug 2023 – June 2026",
+                    "block_id": "b10",
+                    "kind": "text",
+                    "start": 578,
+                    "end": 598
+                  }
+                ],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Business Analyst/Product Owner",
+                    "block_id": "b10",
+                    "kind": "text",
+                    "start": 529,
+                    "end": 559
+                  }
+                ],
+                "section": "Work Experience",
+                "date_label": "Aug 2023 – June 2026",
+                "is_present": false
+              }
+            },
+            {
+              "id": "vfc75c4679c9a38f4",
+              "label": "Investment Banking Analyst",
+              "state": "single_date",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "Sep 2021",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Investment Banking Analyst, Asset Management Sep 2021 – Jan 23",
+                    "block_id": "b30",
+                    "kind": "text",
+                    "start": 2493,
+                    "end": 2555
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "Sep 2021",
+                    "block_id": "b30",
+                    "kind": "text",
+                    "start": 2538,
+                    "end": 2546
+                  }
+                ],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Investment Banking Analyst",
+                    "block_id": "b30",
+                    "kind": "text",
+                    "start": 2493,
+                    "end": 2519
+                  }
+                ],
+                "section": "Work Experience",
+                "date_label": "Sep 2021",
+                "is_present": false
+              }
+            }
+          ]
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 5,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 1,
+            "duration_only": 0,
+            "undated": 4,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "proj_1",
+              "label": "Financial Model of",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Financial Model of",
+                    "block_id": "b65",
+                    "kind": "text",
+                    "start": 4795,
+                    "end": 4813
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_2",
+              "label": "Mahindra & Mahindra",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Mahindra & Mahindra",
+                    "block_id": "b66",
+                    "kind": "text",
+                    "start": 4815,
+                    "end": 4834
+                  },
+                  {
+                    "page": 1,
+                    "text": "• Performed valuation of Mahindra & Mahindra using DCF and Multiples method for stock recommendation.",
+                    "block_id": "b67",
+                    "kind": "text",
+                    "start": 4836,
+                    "end": 4937
+                  },
+                  {
+                    "page": 1,
+                    "text": "• Forecasted the financial line items based on assumptions from annual report and quarterly conference calls.",
+                    "block_id": "b68",
+                    "kind": "text",
+                    "start": 4939,
+                    "end": 5048
+                  },
+                  {
+                    "page": 1,
+                    "text": "• Financial modelling involved collecting data from SIAM, TMA and industry reports by research agencies.",
+                    "block_id": "b69",
+                    "kind": "text",
+                    "start": 5050,
+                    "end": 5154
+                  },
+                  {
+                    "page": 1,
+                    "text": "• Incorporated different scenarios based on expected industry growth rate for different product lines.",
+                    "block_id": "b70",
+                    "kind": "text",
+                    "start": 5156,
+                    "end": 5258
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_3",
+              "label": "2023",
+              "state": "single_date",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "2023",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "2023",
+                    "block_id": "b71",
+                    "kind": "text",
+                    "start": 5262,
+                    "end": 5266
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_4",
+              "label": "Professional Certifications & Skills",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Professional Certifications & Skills",
+                    "block_id": "b72",
+                    "kind": "text",
+                    "start": 5270,
+                    "end": 5306
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_5",
+              "label": "Certifications &",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Certifications &",
+                    "block_id": "b73",
+                    "kind": "text",
+                    "start": 5308,
+                    "end": 5324
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 3,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 2,
+            "ambiguous": 1,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "vd601eb8dae7954fe",
+              "label": "Qualification Institute CGPA/ % Year",
+              "state": "ambiguous",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "2021 / 2018",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Qualification Institute CGPA/ % Year",
+                    "block_id": "b5",
+                    "kind": "text",
+                    "start": 345,
+                    "end": 381
+                  },
+                  {
+                    "page": 1,
+                    "text": "BBE Shivaji College, University of Delhi 7.80/10 2021",
+                    "block_id": "b6",
+                    "kind": "text",
+                    "start": 383,
+                    "end": 436
+                  },
+                  {
+                    "page": 1,
+                    "text": "XII, CBSE St. Martins Diocesan School, Delhi 85.00 2018",
+                    "block_id": "b7",
+                    "kind": "text",
+                    "start": 438,
+                    "end": 493
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "2021",
+                    "block_id": "b6",
+                    "kind": "text",
+                    "start": 432,
+                    "end": 436
+                  },
+                  {
+                    "page": 1,
+                    "text": "2018",
+                    "block_id": "b7",
+                    "kind": "text",
+                    "start": 489,
+                    "end": 493
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Qualification Institute CGPA/ % Year",
+                    "block_id": "b5",
+                    "kind": "text",
+                    "start": 345,
+                    "end": 381
+                  }
+                ],
+                "title": [],
+                "section": "Educational Qualification",
+                "date_label": "2021 / 2018",
+                "is_present": false
+              }
+            },
+            {
+              "id": "v94bc1b994e95e160",
+              "label": "University of Delhi",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "University of Delhi (Founding Member & Research Head)",
+                    "block_id": "b41",
+                    "kind": "text",
+                    "start": 3412,
+                    "end": 3465
+                  }
+                ],
+                "dates": [],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "University of Delhi",
+                    "block_id": "b41",
+                    "kind": "text",
+                    "start": 3412,
+                    "end": 3431
+                  }
+                ],
+                "title": [],
+                "section": "University of Delhi (Founding Member & Research Head)",
+                "date_label": "",
+                "is_present": false
+              }
+            },
+            {
+              "id": "v69dfc233484ab5c4",
+              "label": "Financial Markets by Yale University",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Financial Markets by Yale University (Coursera), Corporate, Finance & Valuation (NYU Prof Aswath Damodaran), Reading",
+                    "block_id": "b75",
+                    "kind": "text",
+                    "start": 5336,
+                    "end": 5452
+                  }
+                ],
+                "dates": [],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Financial Markets by Yale University",
+                    "block_id": "b75",
+                    "kind": "text",
+                    "start": 5336,
+                    "end": 5372
+                  }
+                ],
+                "title": [],
+                "section": "Financial Markets by Yale University (Coursera), Corporate, Finance & Valuation (NYU Prof Aswath Damodaran), Reading",
+                "date_label": "",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 35,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 2,
+        "dated_periods": 1,
+        "represented_months": 35,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 1,
+          "year_range": 0,
+          "single_date": 1,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v4234ba2b276a9327",
+            "label": "Business Analyst/Product Owner",
+            "state": "month_range",
+            "start": [
+              2023,
+              8
+            ],
+            "end": [
+              2026,
+              6
+            ],
+            "months": 35,
+            "raw": "Aug 2023 – June 2026",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Business Analyst/Product Owner, Asset Management Aug 2023 – June 2026",
+                  "block_id": "b10",
+                  "kind": "text",
+                  "start": 529,
+                  "end": 598
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Aug 2023 – June 2026",
+                  "block_id": "b10",
+                  "kind": "text",
+                  "start": 578,
+                  "end": 598
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Business Analyst/Product Owner",
+                  "block_id": "b10",
+                  "kind": "text",
+                  "start": 529,
+                  "end": 559
+                }
+              ],
+              "section": "Work Experience",
+              "date_label": "Aug 2023 – June 2026",
+              "is_present": false
+            }
+          },
+          {
+            "id": "vfc75c4679c9a38f4",
+            "label": "Investment Banking Analyst",
+            "state": "single_date",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "Sep 2021",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Investment Banking Analyst, Asset Management Sep 2021 – Jan 23",
+                  "block_id": "b30",
+                  "kind": "text",
+                  "start": 2493,
+                  "end": 2555
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Sep 2021",
+                  "block_id": "b30",
+                  "kind": "text",
+                  "start": 2538,
+                  "end": 2546
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Investment Banking Analyst",
+                  "block_id": "b30",
+                  "kind": "text",
+                  "start": 2493,
+                  "end": 2519
+                }
+              ],
+              "section": "Work Experience",
+              "date_label": "Sep 2021",
+              "is_present": false
+            }
+          }
+        ]
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 5,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 1,
+          "duration_only": 0,
+          "undated": 4,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "proj_1",
+            "label": "Financial Model of",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Financial Model of",
+                  "block_id": "b65",
+                  "kind": "text",
+                  "start": 4795,
+                  "end": 4813
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_2",
+            "label": "Mahindra & Mahindra",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Mahindra & Mahindra",
+                  "block_id": "b66",
+                  "kind": "text",
+                  "start": 4815,
+                  "end": 4834
+                },
+                {
+                  "page": 1,
+                  "text": "• Performed valuation of Mahindra & Mahindra using DCF and Multiples method for stock recommendation.",
+                  "block_id": "b67",
+                  "kind": "text",
+                  "start": 4836,
+                  "end": 4937
+                },
+                {
+                  "page": 1,
+                  "text": "• Forecasted the financial line items based on assumptions from annual report and quarterly conference calls.",
+                  "block_id": "b68",
+                  "kind": "text",
+                  "start": 4939,
+                  "end": 5048
+                },
+                {
+                  "page": 1,
+                  "text": "• Financial modelling involved collecting data from SIAM, TMA and industry reports by research agencies.",
+                  "block_id": "b69",
+                  "kind": "text",
+                  "start": 5050,
+                  "end": 5154
+                },
+                {
+                  "page": 1,
+                  "text": "• Incorporated different scenarios based on expected industry growth rate for different product lines.",
+                  "block_id": "b70",
+                  "kind": "text",
+                  "start": 5156,
+                  "end": 5258
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_3",
+            "label": "2023",
+            "state": "single_date",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "2023",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "2023",
+                  "block_id": "b71",
+                  "kind": "text",
+                  "start": 5262,
+                  "end": 5266
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_4",
+            "label": "Professional Certifications & Skills",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Professional Certifications & Skills",
+                  "block_id": "b72",
+                  "kind": "text",
+                  "start": 5270,
+                  "end": 5306
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_5",
+            "label": "Certifications &",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Certifications &",
+                  "block_id": "b73",
+                  "kind": "text",
+                  "start": 5308,
+                  "end": 5324
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 3,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 2,
+          "ambiguous": 1,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "vd601eb8dae7954fe",
+            "label": "Qualification Institute CGPA/ % Year",
+            "state": "ambiguous",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "2021 / 2018",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Qualification Institute CGPA/ % Year",
+                  "block_id": "b5",
+                  "kind": "text",
+                  "start": 345,
+                  "end": 381
+                },
+                {
+                  "page": 1,
+                  "text": "BBE Shivaji College, University of Delhi 7.80/10 2021",
+                  "block_id": "b6",
+                  "kind": "text",
+                  "start": 383,
+                  "end": 436
+                },
+                {
+                  "page": 1,
+                  "text": "XII, CBSE St. Martins Diocesan School, Delhi 85.00 2018",
+                  "block_id": "b7",
+                  "kind": "text",
+                  "start": 438,
+                  "end": 493
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "2021",
+                  "block_id": "b6",
+                  "kind": "text",
+                  "start": 432,
+                  "end": 436
+                },
+                {
+                  "page": 1,
+                  "text": "2018",
+                  "block_id": "b7",
+                  "kind": "text",
+                  "start": 489,
+                  "end": 493
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Qualification Institute CGPA/ % Year",
+                  "block_id": "b5",
+                  "kind": "text",
+                  "start": 345,
+                  "end": 381
+                }
+              ],
+              "title": [],
+              "section": "Educational Qualification",
+              "date_label": "2021 / 2018",
+              "is_present": false
+            }
+          },
+          {
+            "id": "v94bc1b994e95e160",
+            "label": "University of Delhi",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "University of Delhi (Founding Member & Research Head)",
+                  "block_id": "b41",
+                  "kind": "text",
+                  "start": 3412,
+                  "end": 3465
+                }
+              ],
+              "dates": [],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "University of Delhi",
+                  "block_id": "b41",
+                  "kind": "text",
+                  "start": 3412,
+                  "end": 3431
+                }
+              ],
+              "title": [],
+              "section": "University of Delhi (Founding Member & Research Head)",
+              "date_label": "",
+              "is_present": false
+            }
+          },
+          {
+            "id": "v69dfc233484ab5c4",
+            "label": "Financial Markets by Yale University",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Financial Markets by Yale University (Coursera), Corporate, Finance & Valuation (NYU Prof Aswath Damodaran), Reading",
+                  "block_id": "b75",
+                  "kind": "text",
+                  "start": 5336,
+                  "end": 5452
+                }
+              ],
+              "dates": [],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Financial Markets by Yale University",
+                  "block_id": "b75",
+                  "kind": "text",
+                  "start": 5336,
+                  "end": 5372
+                }
+              ],
+              "title": [],
+              "section": "Financial Markets by Yale University (Coursera), Corporate, Finance & Valuation (NYU Prof Aswath Damodaran), Reading",
+              "date_label": "",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 35,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

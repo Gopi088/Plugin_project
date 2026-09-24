@@ -1,0 +1,778 @@
+{
+  "file_name": "Ankit Agarwal_1.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "878b922077b63c18f510fd3bb98dab54fee80367cf6900921804034256ea5527",
+  "doc_id": "878b922077b63c18f510fd3b",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 2,
+    "dated_share": 0.5,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v91b2fa692f7f02ef",
+      "type": "EMPLOYMENT",
+      "company": "Qihoo Finance India Pvt. Ltd",
+      "title": "Risk & Project Manager",
+      "start_date": "2019-09",
+      "end_date": "2020-08",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Risk & Project Manager | Qihoo Finance India Pvt. Ltd. Sep 2019 – Aug 2020 | Gurgaon, India",
+            "block_id": "b55",
+            "kind": "text",
+            "start": 5040,
+            "end": 5131
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Sep 2019 – Aug 2020",
+            "block_id": "b55",
+            "kind": "text",
+            "start": 5095,
+            "end": 5114
+          },
+          {
+            "page": 1,
+            "text": "Jan 2013 – Jun 2019",
+            "block_id": "b62",
+            "kind": "text",
+            "start": 5690,
+            "end": 5709
+          },
+          {
+            "page": 1,
+            "text": "2019",
+            "block_id": "b63",
+            "kind": "text",
+            "start": 5738,
+            "end": 5742
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Qihoo Finance India Pvt. Ltd",
+            "block_id": "b55",
+            "kind": "text",
+            "start": 5065,
+            "end": 5093
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Risk & Project Manager",
+            "block_id": "b55",
+            "kind": "text",
+            "start": 5040,
+            "end": 5062
+          }
+        ],
+        "section": "PROFESSIONAL EXPERIENCE",
+        "date_label": "Sep 2019 – Aug 2020",
+        "is_present": false
+      },
+      "precision": "month",
+      "date_label": "Sep 2019 – Aug 2020"
+    }
+  ],
+  "education": [
+    {
+      "id": "v5ee7068fad6bad1f",
+      "type": "EDUCATION",
+      "company": "RGPV University",
+      "title": "Certifications  & Badges:  Certified  Scrum Master",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "RGPV University, Bhopal | GPA: 7.8/10.0",
+            "block_id": "b82",
+            "kind": "text",
+            "start": 7376,
+            "end": 7415
+          },
+          {
+            "page": 1,
+            "text": "Certifications  & Badges:  Certified  Scrum Master (CSM),  Product",
+            "block_id": "b83",
+            "kind": "text",
+            "start": 7417,
+            "end": 7483
+          }
+        ],
+        "dates": [],
+        "company": [
+          {
+            "page": 1,
+            "text": "RGPV University",
+            "block_id": "b82",
+            "kind": "text",
+            "start": 7376,
+            "end": 7391
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Certifications  & Badges:  Certified  Scrum Master",
+            "block_id": "b83",
+            "kind": "text",
+            "start": 7417,
+            "end": 7467
+          }
+        ],
+        "section": "RGPV University, Bhopal | GPA: 7.8/10.0",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 1,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "entry e0: 2 ranges; first kept, rest preserved in evidence"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "878b922077b63c18f510fd3b",
+    "filename": "Ankit Agarwal_1.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v91b2fa692f7f02ef",
+        "type": "EMPLOYMENT",
+        "title": "Risk & Project Manager",
+        "org": "Qihoo Finance India Pvt. Ltd",
+        "start": "2019-09",
+        "end": "2020-08",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Risk & Project Manager | Qihoo Finance India Pvt. Ltd. Sep 2019 – Aug 2020 | Gurgaon, India",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Risk & Project Manager | Qihoo Finance India Pvt. Ltd. Sep 2019 – Aug 2020 | Gurgaon, India",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 5040,
+              "end": 5131
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Sep 2019 – Aug 2020",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 5095,
+              "end": 5114
+            },
+            {
+              "page": 1,
+              "text": "Jan 2013 – Jun 2019",
+              "block_id": "b62",
+              "kind": "text",
+              "start": 5690,
+              "end": 5709
+            },
+            {
+              "page": 1,
+              "text": "2019",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 5738,
+              "end": 5742
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Qihoo Finance India Pvt. Ltd",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 5065,
+              "end": 5093
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Risk & Project Manager",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 5040,
+              "end": 5062
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Sep 2019 – Aug 2020",
+          "is_present": false
+        },
+        "date_label": "Sep 2019 – Aug 2020",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v5ee7068fad6bad1f",
+        "type": "EDUCATION",
+        "title": "Certifications  & Badges:  Certified  Scrum Master",
+        "org": "RGPV University",
+        "entry_text": "RGPV University, Bhopal | GPA: 7.8/10.0 Certifications  & Badges:  Certified  Scrum Master (CSM),  Product Management, Project Management, Power BI Data Analyst, Jira Administration, Procurement & Vendor Management.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "RGPV University, Bhopal | GPA: 7.8/10.0",
+              "block_id": "b82",
+              "kind": "text",
+              "start": 7376,
+              "end": 7415
+            },
+            {
+              "page": 1,
+              "text": "Certifications  & Badges:  Certified  Scrum Master (CSM),  Product",
+              "block_id": "b83",
+              "kind": "text",
+              "start": 7417,
+              "end": 7483
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "RGPV University",
+              "block_id": "b82",
+              "kind": "text",
+              "start": 7376,
+              "end": 7391
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Certifications  & Badges:  Certified  Scrum Master",
+              "block_id": "b83",
+              "kind": "text",
+              "start": 7417,
+              "end": 7467
+            }
+          ],
+          "section": "RGPV University, Bhopal | GPA: 7.8/10.0",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "RGPV University, Bhopal | GPA: 7.8/10.0",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 2,
+      "dated_share": 0.5,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 12,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": true,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 1,
+          "represented_months": 12,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 1,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v91b2fa692f7f02ef",
+              "label": "Risk & Project Manager",
+              "state": "month_range",
+              "start": [
+                2019,
+                9
+              ],
+              "end": [
+                2020,
+                8
+              ],
+              "months": 12,
+              "raw": "Sep 2019 – Aug 2020",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Risk & Project Manager | Qihoo Finance India Pvt. Ltd. Sep 2019 – Aug 2020 | Gurgaon, India",
+                    "block_id": "b55",
+                    "kind": "text",
+                    "start": 5040,
+                    "end": 5131
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "Sep 2019 – Aug 2020",
+                    "block_id": "b55",
+                    "kind": "text",
+                    "start": 5095,
+                    "end": 5114
+                  },
+                  {
+                    "page": 1,
+                    "text": "Jan 2013 – Jun 2019",
+                    "block_id": "b62",
+                    "kind": "text",
+                    "start": 5690,
+                    "end": 5709
+                  },
+                  {
+                    "page": 1,
+                    "text": "2019",
+                    "block_id": "b63",
+                    "kind": "text",
+                    "start": 5738,
+                    "end": 5742
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Qihoo Finance India Pvt. Ltd",
+                    "block_id": "b55",
+                    "kind": "text",
+                    "start": 5065,
+                    "end": 5093
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Risk & Project Manager",
+                    "block_id": "b55",
+                    "kind": "text",
+                    "start": 5040,
+                    "end": 5062
+                  }
+                ],
+                "section": "PROFESSIONAL EXPERIENCE",
+                "date_label": "Sep 2019 – Aug 2020",
+                "is_present": false
+              }
+            }
+          ]
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 1,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v5ee7068fad6bad1f",
+              "label": "Certifications  & Badges:  Certified  Scrum Master",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "RGPV University, Bhopal | GPA: 7.8/10.0",
+                    "block_id": "b82",
+                    "kind": "text",
+                    "start": 7376,
+                    "end": 7415
+                  },
+                  {
+                    "page": 1,
+                    "text": "Certifications  & Badges:  Certified  Scrum Master (CSM),  Product",
+                    "block_id": "b83",
+                    "kind": "text",
+                    "start": 7417,
+                    "end": 7483
+                  }
+                ],
+                "dates": [],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "RGPV University",
+                    "block_id": "b82",
+                    "kind": "text",
+                    "start": 7376,
+                    "end": 7391
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Certifications  & Badges:  Certified  Scrum Master",
+                    "block_id": "b83",
+                    "kind": "text",
+                    "start": 7417,
+                    "end": 7467
+                  }
+                ],
+                "section": "RGPV University, Bhopal | GPA: 7.8/10.0",
+                "date_label": "",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 12,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": true,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 1,
+        "represented_months": 12,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 1,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v91b2fa692f7f02ef",
+            "label": "Risk & Project Manager",
+            "state": "month_range",
+            "start": [
+              2019,
+              9
+            ],
+            "end": [
+              2020,
+              8
+            ],
+            "months": 12,
+            "raw": "Sep 2019 – Aug 2020",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Risk & Project Manager | Qihoo Finance India Pvt. Ltd. Sep 2019 – Aug 2020 | Gurgaon, India",
+                  "block_id": "b55",
+                  "kind": "text",
+                  "start": 5040,
+                  "end": 5131
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Sep 2019 – Aug 2020",
+                  "block_id": "b55",
+                  "kind": "text",
+                  "start": 5095,
+                  "end": 5114
+                },
+                {
+                  "page": 1,
+                  "text": "Jan 2013 – Jun 2019",
+                  "block_id": "b62",
+                  "kind": "text",
+                  "start": 5690,
+                  "end": 5709
+                },
+                {
+                  "page": 1,
+                  "text": "2019",
+                  "block_id": "b63",
+                  "kind": "text",
+                  "start": 5738,
+                  "end": 5742
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Qihoo Finance India Pvt. Ltd",
+                  "block_id": "b55",
+                  "kind": "text",
+                  "start": 5065,
+                  "end": 5093
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Risk & Project Manager",
+                  "block_id": "b55",
+                  "kind": "text",
+                  "start": 5040,
+                  "end": 5062
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "Sep 2019 – Aug 2020",
+              "is_present": false
+            }
+          }
+        ]
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 1,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v5ee7068fad6bad1f",
+            "label": "Certifications  & Badges:  Certified  Scrum Master",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "RGPV University, Bhopal | GPA: 7.8/10.0",
+                  "block_id": "b82",
+                  "kind": "text",
+                  "start": 7376,
+                  "end": 7415
+                },
+                {
+                  "page": 1,
+                  "text": "Certifications  & Badges:  Certified  Scrum Master (CSM),  Product",
+                  "block_id": "b83",
+                  "kind": "text",
+                  "start": 7417,
+                  "end": 7483
+                }
+              ],
+              "dates": [],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "RGPV University",
+                  "block_id": "b82",
+                  "kind": "text",
+                  "start": 7376,
+                  "end": 7391
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Certifications  & Badges:  Certified  Scrum Master",
+                  "block_id": "b83",
+                  "kind": "text",
+                  "start": 7417,
+                  "end": 7467
+                }
+              ],
+              "section": "RGPV University, Bhopal | GPA: 7.8/10.0",
+              "date_label": "",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 12,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

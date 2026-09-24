@@ -1,0 +1,576 @@
+{
+  "file_name": "Sapan Khetan.docx",
+  "input_mode": "text_snapshot",
+  "input_sha256": "1113af24c3d89c904a8bd8e503aa11056955af32488dc4d7650199a67ecff8e9",
+  "doc_id": "1113af24c3d89c904a8bd8e5",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 2,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "ocr_pages": []
+  },
+  "work_experience": [
+    {
+      "id": "v52606499337cb3ae",
+      "type": "EMPLOYMENT",
+      "company": "Tata Communications Transformation Services",
+      "title": "Network Engineer",
+      "start_date": "2011-08",
+      "end_date": "2017-07",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Tata Communications Transformation Services — Network Engineer, Quality Analyst, Team Member (Aug 2011 – Jul 2017)",
+            "block_id": "b42",
+            "kind": "text",
+            "start": 3904,
+            "end": 4018
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Aug 2011 – Jul 2017",
+            "block_id": "b42",
+            "kind": "text",
+            "start": 3998,
+            "end": 4017
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Tata Communications Transformation Services",
+            "block_id": "b42",
+            "kind": "text",
+            "start": 3904,
+            "end": 3947
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Network Engineer",
+            "block_id": "b42",
+            "kind": "text",
+            "start": 3950,
+            "end": 3966
+          }
+        ],
+        "section": "PROFESSIONAL EXPERIENCE",
+        "date_label": "Aug 2011 – Jul 2017",
+        "is_present": false
+      }
+    },
+    {
+      "id": "v8f4e38ad46b4f313",
+      "type": "EMPLOYMENT",
+      "company": "Mumbai, India",
+      "title": "",
+      "start_date": "2023-02",
+      "end_date": "2026-09",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Feb 2023 – Present | Mumbai, India",
+            "block_id": "b17",
+            "kind": "text",
+            "start": 1526,
+            "end": 1560
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Feb 2023 – Present",
+            "block_id": "b17",
+            "kind": "text",
+            "start": 1526,
+            "end": 1544
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Mumbai, India",
+            "block_id": "b17",
+            "kind": "text",
+            "start": 1547,
+            "end": 1560
+          }
+        ],
+        "title": [],
+        "section": "PROFESSIONAL EXPERIENCE",
+        "date_label": "Feb 2023 – Present",
+        "is_present": true
+      }
+    }
+  ],
+  "education": [],
+  "projects": [],
+  "gaps": [
+    {
+      "id": "g52a40dc62b8c8195",
+      "start": [
+        2017,
+        8
+      ],
+      "end": [
+        2023,
+        1
+      ],
+      "months": 66,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9,
+      "reasons": [
+        "GAP_NO_COVERAGE"
+      ],
+      "evidence": {
+        "event_before": "v52606499337cb3ae",
+        "event_after": "v8f4e38ad46b4f313",
+        "coverage_scope": "all_dated_activity"
+      },
+      "start_label": "2017-08",
+      "end_label": "2023-01",
+      "evidence_quotes": [
+        "Tata Communications Transformation Services — Network Engineer, Quality Analyst, Team Member (Aug 2011 – Jul 2017)",
+        "Feb 2023 – Present | Mumbai, India"
+      ],
+      "evidence_details": [
+        {
+          "header": "Network Engineer at Tata Communications Transformation Services",
+          "quote": "Tata Communications Transformation Services — Network Engineer, Quality Analyst, Team Member (Aug 2011 – Jul 2017)",
+          "event_id": "v52606499337cb3ae",
+          "source": {
+            "entry": [
+              {
+                "page": 1,
+                "text": "Tata Communications Transformation Services — Network Engineer, Quality Analyst, Team Member (Aug 2011 – Jul 2017)",
+                "block_id": "b42",
+                "kind": "text",
+                "start": 3904,
+                "end": 4018
+              }
+            ],
+            "dates": [
+              {
+                "page": 1,
+                "text": "Aug 2011 – Jul 2017",
+                "block_id": "b42",
+                "kind": "text",
+                "start": 3998,
+                "end": 4017
+              }
+            ],
+            "company": [
+              {
+                "page": 1,
+                "text": "Tata Communications Transformation Services",
+                "block_id": "b42",
+                "kind": "text",
+                "start": 3904,
+                "end": 3947
+              }
+            ],
+            "title": [
+              {
+                "page": 1,
+                "text": "Network Engineer",
+                "block_id": "b42",
+                "kind": "text",
+                "start": 3950,
+                "end": 3966
+              }
+            ],
+            "section": "PROFESSIONAL EXPERIENCE",
+            "date_label": "Aug 2011 – Jul 2017",
+            "is_present": false
+          }
+        },
+        {
+          "header": "Mumbai, Indi",
+          "quote": "Feb 2023 – Present | Mumbai, India",
+          "event_id": "v8f4e38ad46b4f313",
+          "source": {
+            "entry": [
+              {
+                "page": 1,
+                "text": "Feb 2023 – Present | Mumbai, India",
+                "block_id": "b17",
+                "kind": "text",
+                "start": 1526,
+                "end": 1560
+              }
+            ],
+            "dates": [
+              {
+                "page": 1,
+                "text": "Feb 2023 – Present",
+                "block_id": "b17",
+                "kind": "text",
+                "start": 1526,
+                "end": 1544
+              }
+            ],
+            "company": [
+              {
+                "page": 1,
+                "text": "Mumbai, India",
+                "block_id": "b17",
+                "kind": "text",
+                "start": 1547,
+                "end": 1560
+              }
+            ],
+            "title": [],
+            "section": "PROFESSIONAL EXPERIENCE",
+            "date_label": "Feb 2023 – Present",
+            "is_present": true
+          }
+        }
+      ]
+    }
+  ],
+  "total_work_experience_entries": 2,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 1,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "entry e4: 2 ranges; first kept, rest preserved in evidence"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "1113af24c3d89c904a8bd8e5",
+    "filename": "Sapan Khetan.docx",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v52606499337cb3ae",
+        "type": "EMPLOYMENT",
+        "title": "Network Engineer",
+        "org": "Tata Communications Transformation Services",
+        "start": "2011-08",
+        "end": "2017-07",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Tata Communications Transformation Services — Network Engineer, Quality Analyst, Team Member (Aug 2011 – Jul 2017)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Tata Communications Transformation Services — Network Engineer, Quality Analyst, Team Member (Aug 2011 – Jul 2017)",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 3904,
+              "end": 4018
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Aug 2011 – Jul 2017",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 3998,
+              "end": 4017
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Tata Communications Transformation Services",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 3904,
+              "end": 3947
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Network Engineer",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 3950,
+              "end": 3966
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Aug 2011 – Jul 2017",
+          "is_present": false
+        },
+        "date_label": "Aug 2011 – Jul 2017",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v8f4e38ad46b4f313",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Mumbai, India",
+        "start": "2023-02",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Feb 2023 – Present | Mumbai, India",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Feb 2023 – Present | Mumbai, India",
+              "block_id": "b17",
+              "kind": "text",
+              "start": 1526,
+              "end": 1560
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Feb 2023 – Present",
+              "block_id": "b17",
+              "kind": "text",
+              "start": 1526,
+              "end": 1544
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Mumbai, India",
+              "block_id": "b17",
+              "kind": "text",
+              "start": 1547,
+              "end": 1560
+            }
+          ],
+          "title": [],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Feb 2023 – Present",
+          "is_present": true
+        },
+        "date_label": "Feb 2023 – Present",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g52a40dc62b8c8195",
+        "start": [
+          2017,
+          8
+        ],
+        "end": [
+          2023,
+          1
+        ],
+        "months": 66,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "v52606499337cb3ae",
+          "event_after": "v8f4e38ad46b4f313",
+          "coverage_scope": "all_dated_activity"
+        },
+        "start_label": "2017-08",
+        "end_label": "2023-01",
+        "evidence_quotes": [
+          "Tata Communications Transformation Services — Network Engineer, Quality Analyst, Team Member (Aug 2011 – Jul 2017)",
+          "Feb 2023 – Present | Mumbai, India"
+        ],
+        "evidence_details": [
+          {
+            "header": "Network Engineer at Tata Communications Transformation Services",
+            "quote": "Tata Communications Transformation Services — Network Engineer, Quality Analyst, Team Member (Aug 2011 – Jul 2017)",
+            "event_id": "v52606499337cb3ae",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Tata Communications Transformation Services — Network Engineer, Quality Analyst, Team Member (Aug 2011 – Jul 2017)",
+                  "block_id": "b42",
+                  "kind": "text",
+                  "start": 3904,
+                  "end": 4018
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Aug 2011 – Jul 2017",
+                  "block_id": "b42",
+                  "kind": "text",
+                  "start": 3998,
+                  "end": 4017
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Tata Communications Transformation Services",
+                  "block_id": "b42",
+                  "kind": "text",
+                  "start": 3904,
+                  "end": 3947
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Network Engineer",
+                  "block_id": "b42",
+                  "kind": "text",
+                  "start": 3950,
+                  "end": 3966
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "Aug 2011 – Jul 2017",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Mumbai, Indi",
+            "quote": "Feb 2023 – Present | Mumbai, India",
+            "event_id": "v8f4e38ad46b4f313",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Feb 2023 – Present | Mumbai, India",
+                  "block_id": "b17",
+                  "kind": "text",
+                  "start": 1526,
+                  "end": 1560
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Feb 2023 – Present",
+                  "block_id": "b17",
+                  "kind": "text",
+                  "start": 1526,
+                  "end": 1544
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Mumbai, India",
+                  "block_id": "b17",
+                  "kind": "text",
+                  "start": 1547,
+                  "end": 1560
+                }
+              ],
+              "title": [],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "Feb 2023 – Present",
+              "is_present": true
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 2,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "ocr_pages": []
+    },
+    "total_represented_months": 116,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

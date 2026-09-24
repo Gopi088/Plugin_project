@@ -1,0 +1,4651 @@
+{
+  "file_name": "MrutyunjaySamal.doc",
+  "input_mode": "original_document",
+  "input_sha256": "962ff4558b19a327886ccddbff5d889dc57651c6ebfbbb98f598c47b11b3d9c6",
+  "doc_id": "962ff4558b19a327886ccddb",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 8,
+    "total_events": 9,
+    "dated_share": 0.889,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "ocr_pages": []
+  },
+  "work_experience": [
+    {
+      "id": "v0cec3a151588e104",
+      "type": "EMPLOYMENT",
+      "company": "Bangalore",
+      "title": "as a Senior Consultant from .",
+      "start_date": "2018-06",
+      "end_date": "2020-10",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Bangalore, as a Senior Consultant from June 2018 to 28th October 2020.",
+            "block_id": "b29",
+            "kind": "text",
+            "start": 1699,
+            "end": 1769
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "June 2018 to 28th October 2020",
+            "block_id": "b29",
+            "kind": "text",
+            "start": 1738,
+            "end": 1768
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Bangalore",
+            "block_id": "b29",
+            "kind": "text",
+            "start": 1699,
+            "end": 1708
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "as a Senior Consultant from",
+            "block_id": "b29",
+            "kind": "text",
+            "start": 1710,
+            "end": 1737
+          }
+        ],
+        "section": "EXPERIENCE SUMMARY",
+        "date_label": "June 2018 to 28th October 2020",
+        "is_present": false
+      }
+    }
+  ],
+  "education": [],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "Project#01  : FedEx Itinerary Management",
+      "client": "",
+      "role": "Developer",
+      "duration": "August -2021 to till date",
+      "details": [
+        "Environment     : Java 17, Springboot 3.x, Microservices, KAFKA, Casandra,",
+        "Splunk, Jenkins, SonarQube, Azure, Grafana, Eclipse, Angular, Docker,",
+        "Kubernetes",
+        "Team Size        : 9",
+        "Description:",
+        "Itinerary Management is an intermediate system between CHUT VIEW and CHUT",
+        "CMD.IM receives Itinerary/shipment data from upstream systems(CHUT",
+        "VIEW/CDV) through queue message system and based on multiple external"
+      ],
+      "raw_text": "Project#01  : FedEx Itinerary Management\nDuration         : August -2021 to till date\nEnvironment     : Java 17, Springboot 3.x, Microservices, KAFKA, Casandra,\nSplunk, Jenkins, SonarQube, Azure, Grafana, Eclipse, Angular, Docker,\nKubernetes\nTeam Size        : 9\nRole                   : Developer\nDescription:\nItinerary Management is an intermediate system between CHUT VIEW and CHUT\nCMD.IM receives Itinerary/shipment data from upstream systems(CHUT\nVIEW/CDV) through queue message system and based on multiple external\nsystem’s input and finally post the final itinerary to CHUT CMD. Primary\npurpo",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project#01  : FedEx Itinerary Management",
+            "block_id": "b63",
+            "kind": "text",
+            "start": 4158,
+            "end": 4198
+          },
+          {
+            "page": 1,
+            "text": "Duration         : August -2021 to till date",
+            "block_id": "b64",
+            "kind": "text",
+            "start": 4200,
+            "end": 4244
+          },
+          {
+            "page": 1,
+            "text": "Environment     : Java 17, Springboot 3.x, Microservices, KAFKA, Casandra,",
+            "block_id": "b65",
+            "kind": "text",
+            "start": 4245,
+            "end": 4319
+          },
+          {
+            "page": 1,
+            "text": "Splunk, Jenkins, SonarQube, Azure, Grafana, Eclipse, Angular, Docker,",
+            "block_id": "b66",
+            "kind": "text",
+            "start": 4320,
+            "end": 4389
+          },
+          {
+            "page": 1,
+            "text": "Kubernetes",
+            "block_id": "b67",
+            "kind": "text",
+            "start": 4390,
+            "end": 4400
+          },
+          {
+            "page": 1,
+            "text": "Team Size        : 9",
+            "block_id": "b68",
+            "kind": "text",
+            "start": 4401,
+            "end": 4421
+          },
+          {
+            "page": 1,
+            "text": "Role                   : Developer",
+            "block_id": "b69",
+            "kind": "text",
+            "start": 4422,
+            "end": 4456
+          },
+          {
+            "page": 1,
+            "text": "Description:",
+            "block_id": "b70",
+            "kind": "text",
+            "start": 4458,
+            "end": 4470
+          },
+          {
+            "page": 1,
+            "text": "Itinerary Management is an intermediate system between CHUT VIEW and CHUT",
+            "block_id": "b71",
+            "kind": "text",
+            "start": 4471,
+            "end": 4544
+          },
+          {
+            "page": 1,
+            "text": "CMD.IM receives Itinerary/shipment data from upstream systems(CHUT",
+            "block_id": "b72",
+            "kind": "text",
+            "start": 4545,
+            "end": 4611
+          },
+          {
+            "page": 1,
+            "text": "VIEW/CDV) through queue message system and based on multiple external",
+            "block_id": "b73",
+            "kind": "text",
+            "start": 4612,
+            "end": 4681
+          },
+          {
+            "page": 1,
+            "text": "system’s input and finally post the final itinerary to CHUT CMD. Primary",
+            "block_id": "b74",
+            "kind": "text",
+            "start": 4682,
+            "end": 4754
+          },
+          {
+            "page": 1,
+            "text": "purpose of developing IM is to manually trigger request for Re-route of the",
+            "block_id": "b75",
+            "kind": "text",
+            "start": 4755,
+            "end": 4830
+          },
+          {
+            "page": 1,
+            "text": "package using tracking or CONS ID and to help developer to view errors",
+            "block_id": "b76",
+            "kind": "text",
+            "start": 4831,
+            "end": 4901
+          },
+          {
+            "page": 1,
+            "text": "/exceptions occurred by querying in logs.",
+            "block_id": "b77",
+            "kind": "text",
+            "start": 4902,
+            "end": 4943
+          },
+          {
+            "page": 1,
+            "text": "Responsibilities   :",
+            "block_id": "b78",
+            "kind": "text",
+            "start": 4945,
+            "end": 4965
+          },
+          {
+            "page": 1,
+            "text": "• Understanding and analysing the requirement very well.",
+            "block_id": "b79",
+            "kind": "text",
+            "start": 4971,
+            "end": 5027
+          },
+          {
+            "page": 1,
+            "text": "• Involved in the development, deployment and testing of the",
+            "block_id": "b80",
+            "kind": "text",
+            "start": 5032,
+            "end": 5092
+          },
+          {
+            "page": 1,
+            "text": "application.",
+            "block_id": "b81",
+            "kind": "text",
+            "start": 5099,
+            "end": 5111
+          },
+          {
+            "page": 1,
+            "text": "• Daily participated in the scrum call and client meeting.",
+            "block_id": "b82",
+            "kind": "text",
+            "start": 5116,
+            "end": 5174
+          },
+          {
+            "page": 1,
+            "text": "• Involved in bugfixing and coding",
+            "block_id": "b83",
+            "kind": "text",
+            "start": 5179,
+            "end": 5213
+          },
+          {
+            "page": 1,
+            "text": "• Handling daily standups and story grooming.",
+            "block_id": "b84",
+            "kind": "text",
+            "start": 5218,
+            "end": 5263
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_2",
+      "name": "Project#02  : Siemens Healthineers",
+      "client": "",
+      "role": "Developer",
+      "duration": "June -2018 to October 2020",
+      "details": [
+        "Environment     : Java 8,Hibernate 4.3, Spring boot 2.7, JMS,",
+        "Microservices, Restful Webservices, Postman, AWS, SQL, Eclipse, Docker,",
+        "Kubernetes",
+        "Team Size        : 11",
+        "Description:",
+        "Siemens is a leader in health care products, which they sell using an",
+        "online platform based on Oracle Sales Cloud (OSC).This project is about",
+        "Tacton CPQ (Configure, Price and Quote), where the product can be"
+      ],
+      "raw_text": "Project#02  : Siemens Healthineers\nDuration         : June -2018 to October 2020\nEnvironment     : Java 8,Hibernate 4.3, Spring boot 2.7, JMS,\nMicroservices, Restful Webservices, Postman, AWS, SQL, Eclipse, Docker,\nKubernetes\nTeam Size        : 11\nRole                   : Developer\nDescription:\nSiemens is a leader in health care products, which they sell using an\nonline platform based on Oracle Sales Cloud (OSC).This project is about\nTacton CPQ (Configure, Price and Quote), where the product can be\nconfigured, priced using a pricing engine and then sent Siemens for a\nQuotation. Siemens uses a ",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project#02  : Siemens Healthineers",
+            "block_id": "b85",
+            "kind": "text",
+            "start": 5280,
+            "end": 5314
+          },
+          {
+            "page": 1,
+            "text": "Duration         : June -2018 to October 2020",
+            "block_id": "b86",
+            "kind": "text",
+            "start": 5316,
+            "end": 5361
+          },
+          {
+            "page": 1,
+            "text": "Environment     : Java 8,Hibernate 4.3, Spring boot 2.7, JMS,",
+            "block_id": "b87",
+            "kind": "text",
+            "start": 5362,
+            "end": 5423
+          },
+          {
+            "page": 1,
+            "text": "Microservices, Restful Webservices, Postman, AWS, SQL, Eclipse, Docker,",
+            "block_id": "b88",
+            "kind": "text",
+            "start": 5424,
+            "end": 5495
+          },
+          {
+            "page": 1,
+            "text": "Kubernetes",
+            "block_id": "b89",
+            "kind": "text",
+            "start": 5496,
+            "end": 5506
+          },
+          {
+            "page": 1,
+            "text": "Team Size        : 11",
+            "block_id": "b90",
+            "kind": "text",
+            "start": 5508,
+            "end": 5529
+          },
+          {
+            "page": 1,
+            "text": "Role                   : Developer",
+            "block_id": "b91",
+            "kind": "text",
+            "start": 5530,
+            "end": 5564
+          },
+          {
+            "page": 1,
+            "text": "Description:",
+            "block_id": "b92",
+            "kind": "text",
+            "start": 5565,
+            "end": 5577
+          },
+          {
+            "page": 1,
+            "text": "Siemens is a leader in health care products, which they sell using an",
+            "block_id": "b93",
+            "kind": "text",
+            "start": 5578,
+            "end": 5647
+          },
+          {
+            "page": 1,
+            "text": "online platform based on Oracle Sales Cloud (OSC).This project is about",
+            "block_id": "b94",
+            "kind": "text",
+            "start": 5648,
+            "end": 5719
+          },
+          {
+            "page": 1,
+            "text": "Tacton CPQ (Configure, Price and Quote), where the product can be",
+            "block_id": "b95",
+            "kind": "text",
+            "start": 5720,
+            "end": 5785
+          },
+          {
+            "page": 1,
+            "text": "configured, priced using a pricing engine and then sent Siemens for a",
+            "block_id": "b96",
+            "kind": "text",
+            "start": 5786,
+            "end": 5855
+          },
+          {
+            "page": 1,
+            "text": "Quotation. Siemens uses a CPQ engine by Tacton (a Swedish company).",
+            "block_id": "b97",
+            "kind": "text",
+            "start": 5856,
+            "end": 5923
+          },
+          {
+            "page": 1,
+            "text": "Responsibilities   :",
+            "block_id": "b98",
+            "kind": "text",
+            "start": 5924,
+            "end": 5944
+          },
+          {
+            "page": 1,
+            "text": "• Involved in gathering requirements and Analysis",
+            "block_id": "b99",
+            "kind": "text",
+            "start": 5950,
+            "end": 5999
+          },
+          {
+            "page": 1,
+            "text": "• Worked on Service Layer in writing business logic",
+            "block_id": "b100",
+            "kind": "text",
+            "start": 6004,
+            "end": 6055
+          },
+          {
+            "page": 1,
+            "text": "• Involved in bugfixing and coding",
+            "block_id": "b101",
+            "kind": "text",
+            "start": 6060,
+            "end": 6094
+          },
+          {
+            "page": 1,
+            "text": "• Development of web services (REST web services).",
+            "block_id": "b102",
+            "kind": "text",
+            "start": 6099,
+            "end": 6149
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_3",
+      "name": "Project#03  : Crew Manager",
+      "client": "",
+      "role": "Developer",
+      "duration": "Nov -2017 to June - 2018",
+      "details": [
+        "Environment     : Java 1.8 , Hibernate 3.2, Spring 3.0, RESTful",
+        "webservices, Swing, Oracle 11g,Tomcat, IntelliJ IDEA",
+        "Team Size        : 11",
+        "Description:",
+        "Sabre AirCentre Crew Manager is a suite of enterprise software applications",
+        "used to manage airline crew operations, from long and short-term planning",
+        "through day of operations and end of month reporting. The primary user",
+        "interface, Crew Manager, is the central point of access for operations"
+      ],
+      "raw_text": "Project#03  : Crew Manager\nDuration         : Nov -2017 to June - 2018\nEnvironment     : Java 1.8 , Hibernate 3.2, Spring 3.0, RESTful\nwebservices, Swing, Oracle 11g,Tomcat, IntelliJ IDEA\nTeam Size        : 11\nRole                   : Developer\nDescription:\nSabre AirCentre Crew Manager is a suite of enterprise software applications\nused to manage airline crew operations, from long and short-term planning\nthrough day of operations and end of month reporting. The primary user\ninterface, Crew Manager, is the central point of access for operations\npersonnel in planning, managing, repairing crew sc",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project#03  : Crew Manager",
+            "block_id": "b103",
+            "kind": "text",
+            "start": 6152,
+            "end": 6178
+          },
+          {
+            "page": 1,
+            "text": "Duration         : Nov -2017 to June - 2018",
+            "block_id": "b104",
+            "kind": "text",
+            "start": 6180,
+            "end": 6223
+          },
+          {
+            "page": 1,
+            "text": "Environment     : Java 1.8 , Hibernate 3.2, Spring 3.0, RESTful",
+            "block_id": "b105",
+            "kind": "text",
+            "start": 6224,
+            "end": 6287
+          },
+          {
+            "page": 1,
+            "text": "webservices, Swing, Oracle 11g,Tomcat, IntelliJ IDEA",
+            "block_id": "b106",
+            "kind": "text",
+            "start": 6288,
+            "end": 6340
+          },
+          {
+            "page": 1,
+            "text": "Team Size        : 11",
+            "block_id": "b107",
+            "kind": "text",
+            "start": 6341,
+            "end": 6362
+          },
+          {
+            "page": 1,
+            "text": "Role                   : Developer",
+            "block_id": "b108",
+            "kind": "text",
+            "start": 6363,
+            "end": 6397
+          },
+          {
+            "page": 1,
+            "text": "Description:",
+            "block_id": "b109",
+            "kind": "text",
+            "start": 6400,
+            "end": 6412
+          },
+          {
+            "page": 1,
+            "text": "Sabre AirCentre Crew Manager is a suite of enterprise software applications",
+            "block_id": "b110",
+            "kind": "text",
+            "start": 6415,
+            "end": 6490
+          },
+          {
+            "page": 1,
+            "text": "used to manage airline crew operations, from long and short-term planning",
+            "block_id": "b111",
+            "kind": "text",
+            "start": 6491,
+            "end": 6564
+          },
+          {
+            "page": 1,
+            "text": "through day of operations and end of month reporting. The primary user",
+            "block_id": "b112",
+            "kind": "text",
+            "start": 6565,
+            "end": 6635
+          },
+          {
+            "page": 1,
+            "text": "interface, Crew Manager, is the central point of access for operations",
+            "block_id": "b113",
+            "kind": "text",
+            "start": 6636,
+            "end": 6706
+          },
+          {
+            "page": 1,
+            "text": "personnel in planning, managing, repairing crew schedules, adhering to",
+            "block_id": "b114",
+            "kind": "text",
+            "start": 6707,
+            "end": 6777
+          },
+          {
+            "page": 1,
+            "text": "regulatory and contractual requirements, and assisting crew with work/life",
+            "block_id": "b114",
+            "kind": "text",
+            "start": 6778,
+            "end": 6852
+          },
+          {
+            "page": 1,
+            "text": "balance issues during each roster period.",
+            "block_id": "b115",
+            "kind": "text",
+            "start": 6853,
+            "end": 6894
+          },
+          {
+            "page": 1,
+            "text": "Responsibilities   :",
+            "block_id": "b116",
+            "kind": "text",
+            "start": 6896,
+            "end": 6916
+          },
+          {
+            "page": 1,
+            "text": "• Understating and analyzing the requirements very well written in",
+            "block_id": "b117",
+            "kind": "text",
+            "start": 6921,
+            "end": 6987
+          },
+          {
+            "page": 1,
+            "text": "Rally.",
+            "block_id": "b118",
+            "kind": "text",
+            "start": 6994,
+            "end": 7000
+          },
+          {
+            "page": 1,
+            "text": "• Writing code.",
+            "block_id": "b119",
+            "kind": "text",
+            "start": 7005,
+            "end": 7020
+          },
+          {
+            "page": 1,
+            "text": "• Checking-In the code in Git Repository.",
+            "block_id": "b120",
+            "kind": "text",
+            "start": 7025,
+            "end": 7066
+          },
+          {
+            "page": 1,
+            "text": "• Daily participated in the client meeting.",
+            "block_id": "b121",
+            "kind": "text",
+            "start": 7071,
+            "end": 7114
+          },
+          {
+            "page": 1,
+            "text": "• Writing Unit Testing.",
+            "block_id": "b122",
+            "kind": "text",
+            "start": 7119,
+            "end": 7142
+          },
+          {
+            "page": 1,
+            "text": "• Helping Team members.",
+            "block_id": "b123",
+            "kind": "text",
+            "start": 7147,
+            "end": 7170
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_4",
+      "name": "Project#04  : Oriental Insurance Company Limited Portal (OICL)",
+      "client": "",
+      "role": "Developer",
+      "duration": "Nov -2016 to Nov- 2017",
+      "details": [
+        "Environment      :Java ,J2EE, Hibernate 3.2, Spring 3.0, RESTful",
+        "webservices, Oracle 11g, Web logic 10.3, Eclipse",
+        "Team Size        : 7",
+        "Description:",
+        "The Oriental Insurance Company Ltd. is a well-known insurance provider. The",
+        "portal application streamlines and automates the manual functionalities of",
+        "OICL by substantiating all of the necessary requirements and therefore",
+        "reducing reliance on back office staff, formalizing insurance process and"
+      ],
+      "raw_text": "Project#04  : Oriental Insurance Company Limited Portal (OICL)\nDuration         : Nov -2016 to Nov- 2017\nEnvironment      :Java ,J2EE, Hibernate 3.2, Spring 3.0, RESTful\nwebservices, Oracle 11g, Web logic 10.3, Eclipse\nTeam Size        : 7\nRole                   : Developer\nDescription:\nThe Oriental Insurance Company Ltd. is a well-known insurance provider. The\nportal application streamlines and automates the manual functionalities of\nOICL by substantiating all of the necessary requirements and therefore\nreducing reliance on back office staff, formalizing insurance process and\nprocedures, elim",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project#04  : Oriental Insurance Company Limited Portal (OICL)",
+            "block_id": "b124",
+            "kind": "text",
+            "start": 7179,
+            "end": 7241
+          },
+          {
+            "page": 1,
+            "text": "Duration         : Nov -2016 to Nov- 2017",
+            "block_id": "b125",
+            "kind": "text",
+            "start": 7242,
+            "end": 7283
+          },
+          {
+            "page": 1,
+            "text": "Environment      :Java ,J2EE, Hibernate 3.2, Spring 3.0, RESTful",
+            "block_id": "b126",
+            "kind": "text",
+            "start": 7284,
+            "end": 7348
+          },
+          {
+            "page": 1,
+            "text": "webservices, Oracle 11g, Web logic 10.3, Eclipse",
+            "block_id": "b127",
+            "kind": "text",
+            "start": 7349,
+            "end": 7397
+          },
+          {
+            "page": 1,
+            "text": "Team Size        : 7",
+            "block_id": "b128",
+            "kind": "text",
+            "start": 7398,
+            "end": 7418
+          },
+          {
+            "page": 1,
+            "text": "Role                   : Developer",
+            "block_id": "b129",
+            "kind": "text",
+            "start": 7419,
+            "end": 7453
+          },
+          {
+            "page": 1,
+            "text": "Description:",
+            "block_id": "b130",
+            "kind": "text",
+            "start": 7456,
+            "end": 7468
+          },
+          {
+            "page": 1,
+            "text": "The Oriental Insurance Company Ltd. is a well-known insurance provider. The",
+            "block_id": "b131",
+            "kind": "text",
+            "start": 7471,
+            "end": 7546
+          },
+          {
+            "page": 1,
+            "text": "portal application streamlines and automates the manual functionalities of",
+            "block_id": "b132",
+            "kind": "text",
+            "start": 7547,
+            "end": 7621
+          },
+          {
+            "page": 1,
+            "text": "OICL by substantiating all of the necessary requirements and therefore",
+            "block_id": "b133",
+            "kind": "text",
+            "start": 7622,
+            "end": 7692
+          },
+          {
+            "page": 1,
+            "text": "reducing reliance on back office staff, formalizing insurance process and",
+            "block_id": "b134",
+            "kind": "text",
+            "start": 7693,
+            "end": 7766
+          },
+          {
+            "page": 1,
+            "text": "procedures, eliminating need to manually search all separate, individual",
+            "block_id": "b135",
+            "kind": "text",
+            "start": 7767,
+            "end": 7839
+          },
+          {
+            "page": 1,
+            "text": "sources, increasing request turnaround time, increasing accuracy and",
+            "block_id": "b136",
+            "kind": "text",
+            "start": 7840,
+            "end": 7908
+          },
+          {
+            "page": 1,
+            "text": "reliability. The mission of the portal is to enable Services through",
+            "block_id": "b137",
+            "kind": "text",
+            "start": 7909,
+            "end": 7977
+          },
+          {
+            "page": 1,
+            "text": "multiple technology channels (Internet, Mobile) for facilitating New",
+            "block_id": "b137",
+            "kind": "text",
+            "start": 7978,
+            "end": 8046
+          },
+          {
+            "page": 1,
+            "text": "Business, Renewals, Claims Intimation / status and Customer Interactions.",
+            "block_id": "b138",
+            "kind": "text",
+            "start": 8047,
+            "end": 8120
+          },
+          {
+            "page": 1,
+            "text": "Thus, the application provides important functionalities like buying new",
+            "block_id": "b139",
+            "kind": "text",
+            "start": 8121,
+            "end": 8193
+          },
+          {
+            "page": 1,
+            "text": "policies, paying premium, intimating claim and grievances etc. It provides",
+            "block_id": "b140",
+            "kind": "text",
+            "start": 8194,
+            "end": 8268
+          },
+          {
+            "page": 1,
+            "text": "a robust and secure, high-end user interface that is built on robust and",
+            "block_id": "b141",
+            "kind": "text",
+            "start": 8269,
+            "end": 8341
+          },
+          {
+            "page": 1,
+            "text": "scalable J2EE architecture.",
+            "block_id": "b142",
+            "kind": "text",
+            "start": 8342,
+            "end": 8369
+          },
+          {
+            "page": 1,
+            "text": "Responsibilities   :",
+            "block_id": "b143",
+            "kind": "text",
+            "start": 8371,
+            "end": 8391
+          },
+          {
+            "page": 1,
+            "text": "•  Analyzing the requirements and coding.",
+            "block_id": "b144",
+            "kind": "text",
+            "start": 8396,
+            "end": 8437
+          },
+          {
+            "page": 1,
+            "text": "• Worked on code quality enhancement.",
+            "block_id": "b145",
+            "kind": "text",
+            "start": 8442,
+            "end": 8479
+          },
+          {
+            "page": 1,
+            "text": "• Interacting with client.",
+            "block_id": "b146",
+            "kind": "text",
+            "start": 8484,
+            "end": 8510
+          },
+          {
+            "page": 1,
+            "text": "• Implementing the business logic using Spring",
+            "block_id": "b147",
+            "kind": "text",
+            "start": 8515,
+            "end": 8561
+          },
+          {
+            "page": 1,
+            "text": "• Bug fixing and maintenance of the project.",
+            "block_id": "b148",
+            "kind": "text",
+            "start": 8566,
+            "end": 8610
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_5",
+      "name": "Project#05  :  National Transmission System Exit Reforms: XOSERVE – United Kingdom",
+      "client": "XOSERVE – United Kingdom",
+      "role": "Developer",
+      "duration": "Sept -2014 to Oct -2016",
+      "details": [
+        "Environment      : Java 1.7, JSP 2.x, Hibernate 3.2, Spring 3.0, Oracle",
+        "10g, Web logic 8.1,  Eclipse ID",
+        "Team Size        : 5",
+        "Description:",
+        "NTS Exit Reforms Phase 3 is one of the most anticipated projects.",
+        "After the successful implementation of Phase 1 and Phase 2 projects, NTS",
+        "Exit Reforms Phase 3 was commenced for the new requirements put forward by",
+        "OFGEM (Office of Gas and Electricity Markets) a government regulatory in UK"
+      ],
+      "raw_text": "Project#05  :  National Transmission System Exit Reforms\nDuration         : Sept -2014 to Oct -2016\nClient           : XOSERVE – United Kingdom\nEnvironment      : Java 1.7, JSP 2.x, Hibernate 3.2, Spring 3.0, Oracle\n10g, Web logic 8.1,  Eclipse ID\nTeam Size        : 5\nRole                   : Developer\nDescription:\nNTS Exit Reforms Phase 3 is one of the most anticipated projects.\nAfter the successful implementation of Phase 1 and Phase 2 projects, NTS\nExit Reforms Phase 3 was commenced for the new requirements put forward by\nOFGEM (Office of Gas and Electricity Markets) a government regulatory",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project#05  :  National Transmission System Exit Reforms",
+            "block_id": "b149",
+            "kind": "text",
+            "start": 8614,
+            "end": 8670
+          },
+          {
+            "page": 1,
+            "text": "Duration         : Sept -2014 to Oct -2016",
+            "block_id": "b150",
+            "kind": "text",
+            "start": 8673,
+            "end": 8715
+          },
+          {
+            "page": 1,
+            "text": "Client           : XOSERVE – United Kingdom",
+            "block_id": "b151",
+            "kind": "text",
+            "start": 8717,
+            "end": 8760
+          },
+          {
+            "page": 1,
+            "text": "Environment      : Java 1.7, JSP 2.x, Hibernate 3.2, Spring 3.0, Oracle",
+            "block_id": "b152",
+            "kind": "text",
+            "start": 8762,
+            "end": 8833
+          },
+          {
+            "page": 1,
+            "text": "10g, Web logic 8.1,  Eclipse ID",
+            "block_id": "b153",
+            "kind": "text",
+            "start": 8834,
+            "end": 8865
+          },
+          {
+            "page": 1,
+            "text": "Team Size        : 5",
+            "block_id": "b154",
+            "kind": "text",
+            "start": 8866,
+            "end": 8886
+          },
+          {
+            "page": 1,
+            "text": "Role                   : Developer",
+            "block_id": "b155",
+            "kind": "text",
+            "start": 8887,
+            "end": 8921
+          },
+          {
+            "page": 1,
+            "text": "Description:",
+            "block_id": "b156",
+            "kind": "text",
+            "start": 8925,
+            "end": 8937
+          },
+          {
+            "page": 1,
+            "text": "NTS Exit Reforms Phase 3 is one of the most anticipated projects.",
+            "block_id": "b157",
+            "kind": "text",
+            "start": 8945,
+            "end": 9010
+          },
+          {
+            "page": 1,
+            "text": "After the successful implementation of Phase 1 and Phase 2 projects, NTS",
+            "block_id": "b158",
+            "kind": "text",
+            "start": 9011,
+            "end": 9083
+          },
+          {
+            "page": 1,
+            "text": "Exit Reforms Phase 3 was commenced for the new requirements put forward by",
+            "block_id": "b159",
+            "kind": "text",
+            "start": 9084,
+            "end": 9158
+          },
+          {
+            "page": 1,
+            "text": "OFGEM (Office of Gas and Electricity Markets) a government regulatory in UK",
+            "block_id": "b160",
+            "kind": "text",
+            "start": 9159,
+            "end": 9234
+          },
+          {
+            "page": 1,
+            "text": "for the electricity and downstream natural gas markets in Great Britain.",
+            "block_id": "b161",
+            "kind": "text",
+            "start": 9235,
+            "end": 9307
+          },
+          {
+            "page": 1,
+            "text": "Responsibilities   :",
+            "block_id": "b162",
+            "kind": "text",
+            "start": 9310,
+            "end": 9330
+          },
+          {
+            "page": 1,
+            "text": "•  Developed web based screens and complex SQL queries.",
+            "block_id": "b163",
+            "kind": "text",
+            "start": 9335,
+            "end": 9390
+          },
+          {
+            "page": 1,
+            "text": "• Prepared the functional specification document for Equity and Fixed",
+            "block_id": "b164",
+            "kind": "text",
+            "start": 9395,
+            "end": 9464
+          },
+          {
+            "page": 1,
+            "text": "Income blotters.",
+            "block_id": "b165",
+            "kind": "text",
+            "start": 9471,
+            "end": 9487
+          },
+          {
+            "page": 1,
+            "text": "• Unit Tested the Screens to fix Functional and Technical bugs.",
+            "block_id": "b166",
+            "kind": "text",
+            "start": 9492,
+            "end": 9555
+          },
+          {
+            "page": 1,
+            "text": "• Provided support and maintenance to users after go-live and resolved",
+            "block_id": "b167",
+            "kind": "text",
+            "start": 9560,
+            "end": 9630
+          },
+          {
+            "page": 1,
+            "text": "raised defects.",
+            "block_id": "b168",
+            "kind": "text",
+            "start": 9637,
+            "end": 9652
+          },
+          {
+            "page": 1,
+            "text": "• Communicated with the on-site personnel’s for analysis and",
+            "block_id": "b169",
+            "kind": "text",
+            "start": 9657,
+            "end": 9717
+          },
+          {
+            "page": 1,
+            "text": "implementation of task.",
+            "block_id": "b170",
+            "kind": "text",
+            "start": 9724,
+            "end": 9747
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_6",
+      "name": "Project#06      :  Nomadic Elucidation: SingTel",
+      "client": "SingTel",
+      "role": "Developer",
+      "duration": "Oct -2013 to Aug – 2014",
+      "details": [
+        "Environment      : Java 1.6, J2EE, Hibernate 3.2, Spring 2.5, Oracle 10g,",
+        "Web logic 8.1, My Eclipse IDE .",
+        "Team Size    : 5",
+        "Description  :",
+        "The aim of this project is to create a fully featured web  application",
+        "package that smoothly carries out all the business process of  the  customer",
+        "care unit of the described Cell Phone Production.",
+        "In this proposed system, the user of the cell phone is the client  who"
+      ],
+      "raw_text": "Project#06      :  Nomadic Elucidation\nDuration     : Oct -2013 to Aug – 2014\nClient                :  SingTel\nEnvironment      : Java 1.6, J2EE, Hibernate 3.2, Spring 2.5, Oracle 10g,\nWeb logic 8.1, My Eclipse IDE .\nTeam Size    : 5\nRole              : Developer\nDescription  :\nThe aim of this project is to create a fully featured web  application\npackage that smoothly carries out all the business process of  the  customer\ncare unit of the described Cell Phone Production.\nIn this proposed system, the user of the cell phone is the client  who\nneeds to be served by the service provider i.e the p",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project#06      :  Nomadic Elucidation",
+            "block_id": "b171",
+            "kind": "text",
+            "start": 9749,
+            "end": 9787
+          },
+          {
+            "page": 1,
+            "text": "Duration     : Oct -2013 to Aug – 2014",
+            "block_id": "b172",
+            "kind": "text",
+            "start": 9788,
+            "end": 9826
+          },
+          {
+            "page": 1,
+            "text": "Client                :  SingTel",
+            "block_id": "b173",
+            "kind": "text",
+            "start": 9827,
+            "end": 9859
+          },
+          {
+            "page": 1,
+            "text": "Environment      : Java 1.6, J2EE, Hibernate 3.2, Spring 2.5, Oracle 10g,",
+            "block_id": "b174",
+            "kind": "text",
+            "start": 9860,
+            "end": 9933
+          },
+          {
+            "page": 1,
+            "text": "Web logic 8.1, My Eclipse IDE .",
+            "block_id": "b175",
+            "kind": "text",
+            "start": 9934,
+            "end": 9965
+          },
+          {
+            "page": 1,
+            "text": "Team Size    : 5",
+            "block_id": "b176",
+            "kind": "text",
+            "start": 9966,
+            "end": 9982
+          },
+          {
+            "page": 1,
+            "text": "Role              : Developer",
+            "block_id": "b177",
+            "kind": "text",
+            "start": 9983,
+            "end": 10012
+          },
+          {
+            "page": 1,
+            "text": "Description  :",
+            "block_id": "b178",
+            "kind": "text",
+            "start": 10020,
+            "end": 10034
+          },
+          {
+            "page": 1,
+            "text": "The aim of this project is to create a fully featured web  application",
+            "block_id": "b179",
+            "kind": "text",
+            "start": 10043,
+            "end": 10113
+          },
+          {
+            "page": 1,
+            "text": "package that smoothly carries out all the business process of  the  customer",
+            "block_id": "b180",
+            "kind": "text",
+            "start": 10114,
+            "end": 10190
+          },
+          {
+            "page": 1,
+            "text": "care unit of the described Cell Phone Production.",
+            "block_id": "b181",
+            "kind": "text",
+            "start": 10191,
+            "end": 10240
+          },
+          {
+            "page": 1,
+            "text": "In this proposed system, the user of the cell phone is the client  who",
+            "block_id": "b182",
+            "kind": "text",
+            "start": 10247,
+            "end": 10317
+          },
+          {
+            "page": 1,
+            "text": "needs to be served by the service provider i.e the producer  of  the  phone,",
+            "block_id": "b183",
+            "kind": "text",
+            "start": 10318,
+            "end": 10394
+          },
+          {
+            "page": 1,
+            "text": "by sitting at his home. He has to place a token  regarding  the  problem  in",
+            "block_id": "b184",
+            "kind": "text",
+            "start": 10395,
+            "end": 10471
+          },
+          {
+            "page": 1,
+            "text": "the phone he is using, and the producer has to solve the problem.",
+            "block_id": "b185",
+            "kind": "text",
+            "start": 10472,
+            "end": 10537
+          },
+          {
+            "page": 1,
+            "text": "Responsibilities:",
+            "block_id": "b186",
+            "kind": "text",
+            "start": 10540,
+            "end": 10557
+          },
+          {
+            "page": 1,
+            "text": "• Involved in the development, deployment and testing of the",
+            "block_id": "b187",
+            "kind": "text",
+            "start": 10562,
+            "end": 10622
+          },
+          {
+            "page": 1,
+            "text": "application.",
+            "block_id": "b188",
+            "kind": "text",
+            "start": 10629,
+            "end": 10641
+          },
+          {
+            "page": 1,
+            "text": "• Developed the application, based on the Spring framework where the",
+            "block_id": "b189",
+            "kind": "text",
+            "start": 10646,
+            "end": 10714
+          },
+          {
+            "page": 1,
+            "text": "JSP were used as view components.",
+            "block_id": "b190",
+            "kind": "text",
+            "start": 10721,
+            "end": 10754
+          },
+          {
+            "page": 1,
+            "text": "• Performing IUT and Code review.",
+            "block_id": "b191",
+            "kind": "text",
+            "start": 10759,
+            "end": 10792
+          },
+          {
+            "page": 1,
+            "text": "• Design user interfaces using JSP and HTML, used Java-script for",
+            "block_id": "b192",
+            "kind": "text",
+            "start": 10797,
+            "end": 10862
+          },
+          {
+            "page": 1,
+            "text": "client side validation.",
+            "block_id": "b193",
+            "kind": "text",
+            "start": 10869,
+            "end": 10892
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_7",
+      "name": "Project # 07  :  Astra PSS (Project for automobile inventory: PT Astra International, Indonesia",
+      "client": "PT Astra International, Indonesia",
+      "role": "Software Developer",
+      "duration": "Jan-2013 to Sept-2013",
+      "details": [
+        "system)",
+        "Environment      : Java 1.6, J2EE, Struts 1.x, Oracle 10g, Windows XP,",
+        "Apache Tomcat.",
+        "Team Size    : 5",
+        "Description:",
+        "PT Astra International Tbk is  a  general  trading  company  based  in",
+        "Jakarta, Indonesia. Astra is now one of the largest conglomeration  business",
+        "groups in Indonesia. It diversified into the  manufacture  and  distribution"
+      ],
+      "raw_text": "Project # 07  :  Astra PSS (Project for automobile inventory\nsystem)\nDuration     : Jan-2013 to Sept-2013\nClient                  : PT Astra International, Indonesia\nEnvironment      : Java 1.6, J2EE, Struts 1.x, Oracle 10g, Windows XP,\nApache Tomcat.\nTeam Size    : 5\nRole              : Software Developer\nDescription:\nPT Astra International Tbk is  a  general  trading  company  based  in\nJakarta, Indonesia. Astra is now one of the largest conglomeration  business\ngroups in Indonesia. It diversified into the  manufacture  and  distribution\nof automobiles, heavy equipment and components in  the",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project # 07  :  Astra PSS (Project for automobile inventory",
+            "block_id": "b194",
+            "kind": "text",
+            "start": 10905,
+            "end": 10965
+          },
+          {
+            "page": 1,
+            "text": "system)",
+            "block_id": "b195",
+            "kind": "text",
+            "start": 10966,
+            "end": 10973
+          },
+          {
+            "page": 1,
+            "text": "Duration     : Jan-2013 to Sept-2013",
+            "block_id": "b196",
+            "kind": "text",
+            "start": 10976,
+            "end": 11012
+          },
+          {
+            "page": 1,
+            "text": "Client                  : PT Astra International, Indonesia",
+            "block_id": "b197",
+            "kind": "text",
+            "start": 11013,
+            "end": 11072
+          },
+          {
+            "page": 1,
+            "text": "Environment      : Java 1.6, J2EE, Struts 1.x, Oracle 10g, Windows XP,",
+            "block_id": "b198",
+            "kind": "text",
+            "start": 11073,
+            "end": 11143
+          },
+          {
+            "page": 1,
+            "text": "Apache Tomcat.",
+            "block_id": "b199",
+            "kind": "text",
+            "start": 11144,
+            "end": 11158
+          },
+          {
+            "page": 1,
+            "text": "Team Size    : 5",
+            "block_id": "b200",
+            "kind": "text",
+            "start": 11159,
+            "end": 11175
+          },
+          {
+            "page": 1,
+            "text": "Role              : Software Developer",
+            "block_id": "b201",
+            "kind": "text",
+            "start": 11176,
+            "end": 11214
+          },
+          {
+            "page": 1,
+            "text": "Description:",
+            "block_id": "b202",
+            "kind": "text",
+            "start": 11216,
+            "end": 11228
+          },
+          {
+            "page": 1,
+            "text": "PT Astra International Tbk is  a  general  trading  company  based  in",
+            "block_id": "b203",
+            "kind": "text",
+            "start": 11235,
+            "end": 11305
+          },
+          {
+            "page": 1,
+            "text": "Jakarta, Indonesia. Astra is now one of the largest conglomeration  business",
+            "block_id": "b204",
+            "kind": "text",
+            "start": 11306,
+            "end": 11382
+          },
+          {
+            "page": 1,
+            "text": "groups in Indonesia. It diversified into the  manufacture  and  distribution",
+            "block_id": "b205",
+            "kind": "text",
+            "start": 11383,
+            "end": 11459
+          },
+          {
+            "page": 1,
+            "text": "of automobiles, heavy equipment and components in  the  late  currently  has",
+            "block_id": "b206",
+            "kind": "text",
+            "start": 11460,
+            "end": 11536
+          },
+          {
+            "page": 1,
+            "text": "six business divisions: Automotive,  Financial  Services,  Heavy  Equipment,",
+            "block_id": "b207",
+            "kind": "text",
+            "start": 11537,
+            "end": 11613
+          },
+          {
+            "page": 1,
+            "text": "Agribusiness, Information Technology,  and  Infrastructure.  This  web-based",
+            "block_id": "b208",
+            "kind": "text",
+            "start": 11614,
+            "end": 11690
+          },
+          {
+            "page": 1,
+            "text": "ERP application takes care of all the functional aspects of  a  business  in",
+            "block_id": "b209",
+            "kind": "text",
+            "start": 11691,
+            "end": 11767
+          },
+          {
+            "page": 1,
+            "text": "detail about purchase, sales, service or product storage.  The  Distribution",
+            "block_id": "b210",
+            "kind": "text",
+            "start": 11768,
+            "end": 11844
+          },
+          {
+            "page": 1,
+            "text": "System has  five  modules  viz.  finished  unit,  spare  parts,  used  cars,",
+            "block_id": "b211",
+            "kind": "text",
+            "start": 11845,
+            "end": 11921
+          },
+          {
+            "page": 1,
+            "text": "services and finance.",
+            "block_id": "b212",
+            "kind": "text",
+            "start": 11922,
+            "end": 11943
+          },
+          {
+            "page": 1,
+            "text": "Responsibilities:",
+            "block_id": "b213",
+            "kind": "text",
+            "start": 11945,
+            "end": 11962
+          },
+          {
+            "page": 1,
+            "text": "• Developing the UI interface.",
+            "block_id": "b214",
+            "kind": "text",
+            "start": 11967,
+            "end": 11997
+          },
+          {
+            "page": 1,
+            "text": "• Writing Coding",
+            "block_id": "b215",
+            "kind": "text",
+            "start": 12002,
+            "end": 12018
+          },
+          {
+            "page": 1,
+            "text": "• Peer review and IUT.",
+            "block_id": "b216",
+            "kind": "text",
+            "start": 12023,
+            "end": 12045
+          },
+          {
+            "page": 1,
+            "text": "•  QC and UAT support",
+            "block_id": "b217",
+            "kind": "text",
+            "start": 12050,
+            "end": 12071
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_8",
+      "name": "Project # 08           : Textrade: Textrade",
+      "client": "Textrade",
+      "role": "Software Developer",
+      "duration": "April -2012 to Dec -2012",
+      "details": [
+        "Environment            : Java, Servlets, JSP, Struts 1.1, JavaScript,",
+        "Tomcat, Oracle 9i, Windows 2000",
+        "Team Size                    : 3",
+        "Description:",
+        "It’s a web based  workflow system  to  manage  the  e-Retail  business",
+        "transactions which will communicate with  different  partner  portals  like,",
+        "Overstock,  Amazon,  7th  Avenue,  etc.  and  warehouses.   Out   of   this,",
+        "communication with overstock will be via APIs provided by  them  and  others"
+      ],
+      "raw_text": "Project # 08           : Textrade\nDuration                : April -2012 to Dec -2012\nClient                 : Textrade\nEnvironment            : Java, Servlets, JSP, Struts 1.1, JavaScript,\nTomcat, Oracle 9i, Windows 2000\nTeam Size                    : 3\nRole                   : Software Developer\nDescription:\nIt’s a web based  workflow system  to  manage  the  e-Retail  business\ntransactions which will communicate with  different  partner  portals  like,\nOverstock,  Amazon,  7th  Avenue,  etc.  and  warehouses.   Out   of   this,\ncommunication with overstock will be via APIs provided by  them ",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project # 08           : Textrade",
+            "block_id": "b218",
+            "kind": "text",
+            "start": 12079,
+            "end": 12112
+          },
+          {
+            "page": 1,
+            "text": "Duration                : April -2012 to Dec -2012",
+            "block_id": "b219",
+            "kind": "text",
+            "start": 12115,
+            "end": 12165
+          },
+          {
+            "page": 1,
+            "text": "Client                 : Textrade",
+            "block_id": "b220",
+            "kind": "text",
+            "start": 12166,
+            "end": 12199
+          },
+          {
+            "page": 1,
+            "text": "Environment            : Java, Servlets, JSP, Struts 1.1, JavaScript,",
+            "block_id": "b221",
+            "kind": "text",
+            "start": 12200,
+            "end": 12269
+          },
+          {
+            "page": 1,
+            "text": "Tomcat, Oracle 9i, Windows 2000",
+            "block_id": "b222",
+            "kind": "text",
+            "start": 12270,
+            "end": 12301
+          },
+          {
+            "page": 1,
+            "text": "Team Size                    : 3",
+            "block_id": "b223",
+            "kind": "text",
+            "start": 12302,
+            "end": 12334
+          },
+          {
+            "page": 1,
+            "text": "Role                   : Software Developer",
+            "block_id": "b224",
+            "kind": "text",
+            "start": 12335,
+            "end": 12378
+          },
+          {
+            "page": 1,
+            "text": "Description:",
+            "block_id": "b225",
+            "kind": "text",
+            "start": 12382,
+            "end": 12394
+          },
+          {
+            "page": 1,
+            "text": "It’s a web based  workflow system  to  manage  the  e-Retail  business",
+            "block_id": "b226",
+            "kind": "text",
+            "start": 12402,
+            "end": 12472
+          },
+          {
+            "page": 1,
+            "text": "transactions which will communicate with  different  partner  portals  like,",
+            "block_id": "b227",
+            "kind": "text",
+            "start": 12473,
+            "end": 12549
+          },
+          {
+            "page": 1,
+            "text": "Overstock,  Amazon,  7th  Avenue,  etc.  and  warehouses.   Out   of   this,",
+            "block_id": "b228",
+            "kind": "text",
+            "start": 12550,
+            "end": 12626
+          },
+          {
+            "page": 1,
+            "text": "communication with overstock will be via APIs provided by  them  and  others",
+            "block_id": "b229",
+            "kind": "text",
+            "start": 12627,
+            "end": 12703
+          },
+          {
+            "page": 1,
+            "text": "will be through the exported standard excel files. This will  enable  senior",
+            "block_id": "b230",
+            "kind": "text",
+            "start": 12704,
+            "end": 12780
+          },
+          {
+            "page": 1,
+            "text": "management of Textrade to analyze the performance of all partner portals  on",
+            "block_id": "b231",
+            "kind": "text",
+            "start": 12781,
+            "end": 12857
+          },
+          {
+            "page": 1,
+            "text": "a dashboard and strategic business decisions. Automating  the  co-ordination",
+            "block_id": "b232",
+            "kind": "text",
+            "start": 12858,
+            "end": 12934
+          },
+          {
+            "page": 1,
+            "text": "with partner portal and warehouse will  also  help  expediting  the  current",
+            "block_id": "b233",
+            "kind": "text",
+            "start": 12935,
+            "end": 13011
+          },
+          {
+            "page": 1,
+            "text": "trade cycle and offer scalability in the near future.",
+            "block_id": "b234",
+            "kind": "text",
+            "start": 13012,
+            "end": 13065
+          },
+          {
+            "page": 1,
+            "text": "Responsibilities:",
+            "block_id": "b235",
+            "kind": "text",
+            "start": 13069,
+            "end": 13086
+          },
+          {
+            "page": 1,
+            "text": "• Implementing the functionality as per the FRD.",
+            "block_id": "b236",
+            "kind": "text",
+            "start": 13091,
+            "end": 13139
+          },
+          {
+            "page": 1,
+            "text": "• To develop, deploy and support the complete solution.",
+            "block_id": "b237",
+            "kind": "text",
+            "start": 13144,
+            "end": 13199
+          },
+          {
+            "page": 1,
+            "text": "• Contributing to low level design",
+            "block_id": "b238",
+            "kind": "text",
+            "start": 13204,
+            "end": 13238
+          },
+          {
+            "page": 1,
+            "text": "• Unit testing.",
+            "block_id": "b239",
+            "kind": "text",
+            "start": 13243,
+            "end": 13258
+          },
+          {
+            "page": 1,
+            "text": "• Code Review.",
+            "block_id": "b240",
+            "kind": "text",
+            "start": 13263,
+            "end": 13277
+          },
+          {
+            "page": 1,
+            "text": "Strengths:",
+            "block_id": "b241",
+            "kind": "text",
+            "start": 13281,
+            "end": 13291
+          },
+          {
+            "page": 1,
+            "text": "• Understanding the priorities and needs of the business and",
+            "block_id": "b242",
+            "kind": "text",
+            "start": 13299,
+            "end": 13359
+          },
+          {
+            "page": 1,
+            "text": "adapting to the changing requirements.",
+            "block_id": "b243",
+            "kind": "text",
+            "start": 13368,
+            "end": 13406
+          },
+          {
+            "page": 1,
+            "text": "• Skilled in mentoring junior developers and leading Agile",
+            "block_id": "b244",
+            "kind": "text",
+            "start": 13413,
+            "end": 13471
+          },
+          {
+            "page": 1,
+            "text": "teams.",
+            "block_id": "b245",
+            "kind": "text",
+            "start": 13480,
+            "end": 13486
+          },
+          {
+            "page": 1,
+            "text": "• Good communication skills and customer focused.",
+            "block_id": "b246",
+            "kind": "text",
+            "start": 13493,
+            "end": 13542
+          },
+          {
+            "page": 1,
+            "text": "• Strong programming and communication skills.",
+            "block_id": "b247",
+            "kind": "text",
+            "start": 13549,
+            "end": 13595
+          },
+          {
+            "page": 1,
+            "text": "• Competitive nature in working environment",
+            "block_id": "b248",
+            "kind": "text",
+            "start": 13602,
+            "end": 13645
+          },
+          {
+            "page": 1,
+            "text": "• Effective communicator and good team player.",
+            "block_id": "b249",
+            "kind": "text",
+            "start": 13652,
+            "end": 13698
+          },
+          {
+            "page": 1,
+            "text": "MRUTYUNJAY SAMAL",
+            "block_id": "b250",
+            "kind": "text",
+            "start": 13737,
+            "end": 13753
+          }
+        ]
+      }
+    }
+  ],
+  "gaps": [
+    {
+      "id": "gc5f17510e6346611",
+      "start": [
+        2013,
+        10
+      ],
+      "end": [
+        2014,
+        8
+      ],
+      "months": 11,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9,
+      "reasons": [
+        "GAP_NO_COVERAGE"
+      ],
+      "evidence": {
+        "event_before": "v6453d497d603b801",
+        "event_after": "vd92a5cf7f45f2dbc",
+        "coverage_scope": "all_dated_activity"
+      },
+      "start_label": "2013-10",
+      "end_label": "2014-08",
+      "evidence_quotes": [
+        "Project # 07  :  Astra PSS (Project for automobile inventory Duration     : Jan-2013 to Sept-2013",
+        "Project#05  :  National Transmission System Exit Reforms Duration         : Sept -2014 to Oct -2016"
+      ],
+      "evidence_details": [
+        {
+          "header": "Project # 07  :  Astra PSS (Project for automobile inventory",
+          "quote": "Project # 07  :  Astra PSS (Project for automobile inventory Duration     : Jan-2013 to Sept-2013",
+          "event_id": "v6453d497d603b801",
+          "source": {
+            "entry": [
+              {
+                "page": 1,
+                "text": "Project # 07  :  Astra PSS (Project for automobile inventory",
+                "block_id": "b194",
+                "kind": "text",
+                "start": 10905,
+                "end": 10965
+              },
+              {
+                "page": 1,
+                "text": "Duration     : Jan-2013 to Sept-2013",
+                "block_id": "b196",
+                "kind": "text",
+                "start": 10976,
+                "end": 11012
+              }
+            ],
+            "dates": [
+              {
+                "page": 1,
+                "text": "Jan-2013 to Sept-2013",
+                "block_id": "b196",
+                "kind": "text",
+                "start": 10991,
+                "end": 11012
+              }
+            ],
+            "company": [],
+            "title": [
+              {
+                "page": 1,
+                "text": "Project # 07  :  Astra PSS (Project for automobile inventory",
+                "block_id": "b194",
+                "kind": "text",
+                "start": 10905,
+                "end": 10965
+              }
+            ],
+            "section": "Project Profile",
+            "date_label": "Jan-2013 to Sept-2013",
+            "is_present": false
+          }
+        },
+        {
+          "header": "Project#05  :  National Transmission System Exit Reforms",
+          "quote": "Project#05  :  National Transmission System Exit Reforms Duration         : Sept -2014 to Oct -2016",
+          "event_id": "vd92a5cf7f45f2dbc",
+          "source": {
+            "entry": [
+              {
+                "page": 1,
+                "text": "Project#05  :  National Transmission System Exit Reforms",
+                "block_id": "b149",
+                "kind": "text",
+                "start": 8614,
+                "end": 8670
+              },
+              {
+                "page": 1,
+                "text": "Duration         : Sept -2014 to Oct -2016",
+                "block_id": "b150",
+                "kind": "text",
+                "start": 8673,
+                "end": 8715
+              }
+            ],
+            "dates": [
+              {
+                "page": 1,
+                "text": "Sept -2014 to Oct -2016",
+                "block_id": "b150",
+                "kind": "text",
+                "start": 8692,
+                "end": 8715
+              }
+            ],
+            "company": [],
+            "title": [
+              {
+                "page": 1,
+                "text": "Project#05  :  National Transmission System Exit Reforms",
+                "block_id": "b149",
+                "kind": "text",
+                "start": 8614,
+                "end": 8670
+              }
+            ],
+            "section": "Project Profile",
+            "date_label": "Sept -2014 to Oct -2016",
+            "is_present": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "g7390ac1f80add8c1",
+      "start": [
+        2020,
+        11
+      ],
+      "end": [
+        2021,
+        7
+      ],
+      "months": 9,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9,
+      "reasons": [
+        "GAP_NO_COVERAGE"
+      ],
+      "evidence": {
+        "event_before": "v0cec3a151588e104",
+        "event_after": "v555dd0e8a8f5e66b",
+        "coverage_scope": "all_dated_activity"
+      },
+      "start_label": "2020-11",
+      "end_label": "2021-07",
+      "evidence_quotes": [
+        "Bangalore, as a Senior Consultant from June 2018 to 28th October 2020.",
+        "Project#01  : FedEx Itinerary Management Duration         : August -2021 to till date"
+      ],
+      "evidence_details": [
+        {
+          "header": "s a Senior Consultant from . at Bangalore",
+          "quote": "Bangalore, as a Senior Consultant from June 2018 to 28th October 2020.",
+          "event_id": "v0cec3a151588e104",
+          "source": {
+            "entry": [
+              {
+                "page": 1,
+                "text": "Bangalore, as a Senior Consultant from June 2018 to 28th October 2020.",
+                "block_id": "b29",
+                "kind": "text",
+                "start": 1699,
+                "end": 1769
+              }
+            ],
+            "dates": [
+              {
+                "page": 1,
+                "text": "June 2018 to 28th October 2020",
+                "block_id": "b29",
+                "kind": "text",
+                "start": 1738,
+                "end": 1768
+              }
+            ],
+            "company": [
+              {
+                "page": 1,
+                "text": "Bangalore",
+                "block_id": "b29",
+                "kind": "text",
+                "start": 1699,
+                "end": 1708
+              }
+            ],
+            "title": [
+              {
+                "page": 1,
+                "text": "as a Senior Consultant from",
+                "block_id": "b29",
+                "kind": "text",
+                "start": 1710,
+                "end": 1737
+              }
+            ],
+            "section": "EXPERIENCE SUMMARY",
+            "date_label": "June 2018 to 28th October 2020",
+            "is_present": false
+          }
+        },
+        {
+          "header": "Project#01  : FedEx Itinerary Managemen",
+          "quote": "Project#01  : FedEx Itinerary Management Duration         : August -2021 to till date",
+          "event_id": "v555dd0e8a8f5e66b",
+          "source": {
+            "entry": [
+              {
+                "page": 1,
+                "text": "Project#01  : FedEx Itinerary Management",
+                "block_id": "b63",
+                "kind": "text",
+                "start": 4158,
+                "end": 4198
+              },
+              {
+                "page": 1,
+                "text": "Duration         : August -2021 to till date",
+                "block_id": "b64",
+                "kind": "text",
+                "start": 4200,
+                "end": 4244
+              }
+            ],
+            "dates": [
+              {
+                "page": 1,
+                "text": "August -2021 to till date",
+                "block_id": "b64",
+                "kind": "text",
+                "start": 4219,
+                "end": 4244
+              }
+            ],
+            "company": [],
+            "title": [
+              {
+                "page": 1,
+                "text": "Project#01  : FedEx Itinerary Management",
+                "block_id": "b63",
+                "kind": "text",
+                "start": 4158,
+                "end": 4198
+              }
+            ],
+            "section": "Project Profile",
+            "date_label": "August -2021 to till date",
+            "is_present": true
+          }
+        }
+      ]
+    }
+  ],
+  "total_work_experience_entries": 1,
+  "total_projects_entries": 8,
+  "total_gaps_detected": 2,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "entry e7: dates found without an explicit range",
+    "e7: dates cannot be assigned unambiguously",
+    "overlap preserved: 'Project#04  : Oriental Insurance Company Limited Portal (OICL' overlaps 'Project#03  : Crew Manager'",
+    "overlap preserved: 'Project#03  : Crew Manager' overlaps 'as a Senior Consultant from .'",
+    "overlap preserved: 'as a Senior Consultant from .' overlaps 'Project#02  : Siemens Healthineers'",
+    "conflicting/ambiguous date kept for 'Project#06      :  Nomadic Elucidation'"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "962ff4558b19a327886ccddb",
+    "filename": "MrutyunjaySamal.doc",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v5a7bb106a627ed8c",
+        "type": "PROJECT",
+        "title": "Project # 08           : Textrade",
+        "org": "",
+        "start": "2012-04",
+        "end": "2012-12",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_PROJECT_CUES"
+        ],
+        "quote": "Project # 08           : Textrade\nDuration                : April -2012 to Dec -2012",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project # 08           : Textrade",
+              "block_id": "b218",
+              "kind": "text",
+              "start": 12079,
+              "end": 12112
+            },
+            {
+              "page": 1,
+              "text": "Duration                : April -2012 to Dec -2012",
+              "block_id": "b219",
+              "kind": "text",
+              "start": 12115,
+              "end": 12165
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "April -2012 to Dec -2012",
+              "block_id": "b219",
+              "kind": "text",
+              "start": 12141,
+              "end": 12165
+            },
+            {
+              "page": 1,
+              "text": "2000",
+              "block_id": "b222",
+              "kind": "text",
+              "start": 12297,
+              "end": 12301
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Project # 08           : Textrade",
+              "block_id": "b218",
+              "kind": "text",
+              "start": 12079,
+              "end": 12112
+            }
+          ],
+          "section": "Project Profile",
+          "date_label": "April -2012 to Dec -2012",
+          "is_present": false
+        },
+        "date_label": "April -2012 to Dec -2012",
+        "section": "Project Profile",
+        "is_present": false
+      },
+      {
+        "id": "v6453d497d603b801",
+        "type": "PROJECT",
+        "title": "Project # 07  :  Astra PSS (Project for automobile inventory",
+        "org": "",
+        "start": "2013-01",
+        "end": "2013-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_PROJECT_CUES"
+        ],
+        "quote": "Project # 07  :  Astra PSS (Project for automobile inventory\nDuration     : Jan-2013 to Sept-2013",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project # 07  :  Astra PSS (Project for automobile inventory",
+              "block_id": "b194",
+              "kind": "text",
+              "start": 10905,
+              "end": 10965
+            },
+            {
+              "page": 1,
+              "text": "Duration     : Jan-2013 to Sept-2013",
+              "block_id": "b196",
+              "kind": "text",
+              "start": 10976,
+              "end": 11012
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jan-2013 to Sept-2013",
+              "block_id": "b196",
+              "kind": "text",
+              "start": 10991,
+              "end": 11012
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Project # 07  :  Astra PSS (Project for automobile inventory",
+              "block_id": "b194",
+              "kind": "text",
+              "start": 10905,
+              "end": 10965
+            }
+          ],
+          "section": "Project Profile",
+          "date_label": "Jan-2013 to Sept-2013",
+          "is_present": false
+        },
+        "date_label": "Jan-2013 to Sept-2013",
+        "section": "Project Profile",
+        "is_present": false
+      },
+      {
+        "id": "vd92a5cf7f45f2dbc",
+        "type": "PROJECT",
+        "title": "Project#05  :  National Transmission System Exit Reforms",
+        "org": "",
+        "start": "2014-09",
+        "end": "2016-10",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_PROJECT_CUES"
+        ],
+        "quote": "Project#05  :  National Transmission System Exit Reforms\nDuration         : Sept -2014 to Oct -2016",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project#05  :  National Transmission System Exit Reforms",
+              "block_id": "b149",
+              "kind": "text",
+              "start": 8614,
+              "end": 8670
+            },
+            {
+              "page": 1,
+              "text": "Duration         : Sept -2014 to Oct -2016",
+              "block_id": "b150",
+              "kind": "text",
+              "start": 8673,
+              "end": 8715
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Sept -2014 to Oct -2016",
+              "block_id": "b150",
+              "kind": "text",
+              "start": 8692,
+              "end": 8715
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Project#05  :  National Transmission System Exit Reforms",
+              "block_id": "b149",
+              "kind": "text",
+              "start": 8614,
+              "end": 8670
+            }
+          ],
+          "section": "Project Profile",
+          "date_label": "Sept -2014 to Oct -2016",
+          "is_present": false
+        },
+        "date_label": "Sept -2014 to Oct -2016",
+        "section": "Project Profile",
+        "is_present": false
+      },
+      {
+        "id": "v964f8cf3dc58aafc",
+        "type": "PROJECT",
+        "title": "Project#04  : Oriental Insurance Company Limited Portal (OICL",
+        "org": "",
+        "start": "2016-11",
+        "end": "2017-11",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_PROJECT_CUES"
+        ],
+        "quote": "Project#04  : Oriental Insurance Company Limited Portal (OICL)\nDuration         : Nov -2016 to Nov- 2017",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project#04  : Oriental Insurance Company Limited Portal (OICL)",
+              "block_id": "b124",
+              "kind": "text",
+              "start": 7179,
+              "end": 7241
+            },
+            {
+              "page": 1,
+              "text": "Duration         : Nov -2016 to Nov- 2017",
+              "block_id": "b125",
+              "kind": "text",
+              "start": 7242,
+              "end": 7283
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Nov -2016 to Nov- 2017",
+              "block_id": "b125",
+              "kind": "text",
+              "start": 7261,
+              "end": 7283
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Project#04  : Oriental Insurance Company Limited Portal (OICL",
+              "block_id": "b124",
+              "kind": "text",
+              "start": 7179,
+              "end": 7240
+            }
+          ],
+          "section": "Project Profile",
+          "date_label": "Nov -2016 to Nov- 2017",
+          "is_present": false
+        },
+        "date_label": "Nov -2016 to Nov- 2017",
+        "section": "Project Profile",
+        "is_present": false
+      },
+      {
+        "id": "v4b5b46732b5a2768",
+        "type": "PROJECT",
+        "title": "Project#03  : Crew Manager",
+        "org": "",
+        "start": "2017-11",
+        "end": "2018-06",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_PROJECT_CUES"
+        ],
+        "quote": "Project#03  : Crew Manager\nDuration         : Nov -2017 to June - 2018",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project#03  : Crew Manager",
+              "block_id": "b103",
+              "kind": "text",
+              "start": 6152,
+              "end": 6178
+            },
+            {
+              "page": 1,
+              "text": "Duration         : Nov -2017 to June - 2018",
+              "block_id": "b104",
+              "kind": "text",
+              "start": 6180,
+              "end": 6223
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Nov -2017 to June - 2018",
+              "block_id": "b104",
+              "kind": "text",
+              "start": 6199,
+              "end": 6223
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Project#03  : Crew Manager",
+              "block_id": "b103",
+              "kind": "text",
+              "start": 6152,
+              "end": 6178
+            }
+          ],
+          "section": "Project Profile",
+          "date_label": "Nov -2017 to June - 2018",
+          "is_present": false
+        },
+        "date_label": "Nov -2017 to June - 2018",
+        "section": "Project Profile",
+        "is_present": false
+      },
+      {
+        "id": "v0cec3a151588e104",
+        "type": "EMPLOYMENT",
+        "title": "as a Senior Consultant from .",
+        "org": "Bangalore",
+        "start": "2018-06",
+        "end": "2020-10",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Bangalore, as a Senior Consultant from June 2018 to 28th October 2020.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bangalore, as a Senior Consultant from June 2018 to 28th October 2020.",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 1699,
+              "end": 1769
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "June 2018 to 28th October 2020",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 1738,
+              "end": 1768
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Bangalore",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 1699,
+              "end": 1708
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "as a Senior Consultant from",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 1710,
+              "end": 1737
+            }
+          ],
+          "section": "EXPERIENCE SUMMARY",
+          "date_label": "June 2018 to 28th October 2020",
+          "is_present": false
+        },
+        "date_label": "June 2018 to 28th October 2020",
+        "section": "EXPERIENCE SUMMARY",
+        "is_present": false
+      },
+      {
+        "id": "vba8cda127a60d0c0",
+        "type": "PROJECT",
+        "title": "Project#02  : Siemens Healthineers",
+        "org": "",
+        "start": "2018-06",
+        "end": "2020-10",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_PROJECT_CUES"
+        ],
+        "quote": "Project#02  : Siemens Healthineers\nDuration         : June -2018 to October 2020",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project#02  : Siemens Healthineers",
+              "block_id": "b85",
+              "kind": "text",
+              "start": 5280,
+              "end": 5314
+            },
+            {
+              "page": 1,
+              "text": "Duration         : June -2018 to October 2020",
+              "block_id": "b86",
+              "kind": "text",
+              "start": 5316,
+              "end": 5361
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "June -2018 to October 2020",
+              "block_id": "b86",
+              "kind": "text",
+              "start": 5335,
+              "end": 5361
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Project#02  : Siemens Healthineers",
+              "block_id": "b85",
+              "kind": "text",
+              "start": 5280,
+              "end": 5314
+            }
+          ],
+          "section": "Project Profile",
+          "date_label": "June -2018 to October 2020",
+          "is_present": false
+        },
+        "date_label": "June -2018 to October 2020",
+        "section": "Project Profile",
+        "is_present": false
+      },
+      {
+        "id": "v555dd0e8a8f5e66b",
+        "type": "PROJECT",
+        "title": "Project#01  : FedEx Itinerary Management",
+        "org": "",
+        "start": "2021-08",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_PROJECT_CUES"
+        ],
+        "quote": "Project#01  : FedEx Itinerary Management\nDuration         : August -2021 to till date",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project#01  : FedEx Itinerary Management",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 4158,
+              "end": 4198
+            },
+            {
+              "page": 1,
+              "text": "Duration         : August -2021 to till date",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 4200,
+              "end": 4244
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "August -2021 to till date",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 4219,
+              "end": 4244
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Project#01  : FedEx Itinerary Management",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 4158,
+              "end": 4198
+            }
+          ],
+          "section": "Project Profile",
+          "date_label": "August -2021 to till date",
+          "is_present": true
+        },
+        "date_label": "August -2021 to till date",
+        "section": "Project Profile",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v43b3e19ec734fc03",
+        "type": "PROJECT",
+        "title": "Project#06      :  Nomadic Elucidation",
+        "org": "",
+        "entry_text": "Project#06      :  Nomadic Elucidation Duration     : Oct -2013 to Aug – 2014 Client                :  SingTel Environment      : Java 1.6, J2EE, Hibernate 3.2, Spring 2.5, Oracle 10g, Web logic 8.1, My Eclipse IDE . Team Size    : 5 Role              : Developer Description  : The aim of this proje",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project#06      :  Nomadic Elucidation",
+              "block_id": "b171",
+              "kind": "text",
+              "start": 9749,
+              "end": 9787
+            },
+            {
+              "page": 1,
+              "text": "Duration     : Oct -2013 to Aug – 2014",
+              "block_id": "b172",
+              "kind": "text",
+              "start": 9788,
+              "end": 9826
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Oct -2013",
+              "block_id": "b172",
+              "kind": "text",
+              "start": 9803,
+              "end": 9812
+            },
+            {
+              "page": 1,
+              "text": "2014",
+              "block_id": "b172",
+              "kind": "text",
+              "start": 9822,
+              "end": 9826
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Project#06      :  Nomadic Elucidation",
+              "block_id": "b171",
+              "kind": "text",
+              "start": 9749,
+              "end": 9787
+            }
+          ],
+          "section": "Project Profile",
+          "date_label": "Oct -2013 / 2014",
+          "is_present": false
+        },
+        "date_label": "Oct -2013 / 2014",
+        "section": "Project Profile",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "Project#01  : FedEx Itinerary Management",
+        "client": "",
+        "role": "Developer",
+        "duration": "August -2021 to till date",
+        "details": [
+          "Environment     : Java 17, Springboot 3.x, Microservices, KAFKA, Casandra,",
+          "Splunk, Jenkins, SonarQube, Azure, Grafana, Eclipse, Angular, Docker,",
+          "Kubernetes",
+          "Team Size        : 9",
+          "Description:",
+          "Itinerary Management is an intermediate system between CHUT VIEW and CHUT",
+          "CMD.IM receives Itinerary/shipment data from upstream systems(CHUT",
+          "VIEW/CDV) through queue message system and based on multiple external"
+        ],
+        "raw_text": "Project#01  : FedEx Itinerary Management\nDuration         : August -2021 to till date\nEnvironment     : Java 17, Springboot 3.x, Microservices, KAFKA, Casandra,\nSplunk, Jenkins, SonarQube, Azure, Grafana, Eclipse, Angular, Docker,\nKubernetes\nTeam Size        : 9\nRole                   : Developer\nDescription:\nItinerary Management is an intermediate system between CHUT VIEW and CHUT\nCMD.IM receives Itinerary/shipment data from upstream systems(CHUT\nVIEW/CDV) through queue message system and based on multiple external\nsystem’s input and finally post the final itinerary to CHUT CMD. Primary\npurpo",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project#01  : FedEx Itinerary Management",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 4158,
+              "end": 4198
+            },
+            {
+              "page": 1,
+              "text": "Duration         : August -2021 to till date",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 4200,
+              "end": 4244
+            },
+            {
+              "page": 1,
+              "text": "Environment     : Java 17, Springboot 3.x, Microservices, KAFKA, Casandra,",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 4245,
+              "end": 4319
+            },
+            {
+              "page": 1,
+              "text": "Splunk, Jenkins, SonarQube, Azure, Grafana, Eclipse, Angular, Docker,",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 4320,
+              "end": 4389
+            },
+            {
+              "page": 1,
+              "text": "Kubernetes",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 4390,
+              "end": 4400
+            },
+            {
+              "page": 1,
+              "text": "Team Size        : 9",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 4401,
+              "end": 4421
+            },
+            {
+              "page": 1,
+              "text": "Role                   : Developer",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 4422,
+              "end": 4456
+            },
+            {
+              "page": 1,
+              "text": "Description:",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 4458,
+              "end": 4470
+            },
+            {
+              "page": 1,
+              "text": "Itinerary Management is an intermediate system between CHUT VIEW and CHUT",
+              "block_id": "b71",
+              "kind": "text",
+              "start": 4471,
+              "end": 4544
+            },
+            {
+              "page": 1,
+              "text": "CMD.IM receives Itinerary/shipment data from upstream systems(CHUT",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 4545,
+              "end": 4611
+            },
+            {
+              "page": 1,
+              "text": "VIEW/CDV) through queue message system and based on multiple external",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 4612,
+              "end": 4681
+            },
+            {
+              "page": 1,
+              "text": "system’s input and finally post the final itinerary to CHUT CMD. Primary",
+              "block_id": "b74",
+              "kind": "text",
+              "start": 4682,
+              "end": 4754
+            },
+            {
+              "page": 1,
+              "text": "purpose of developing IM is to manually trigger request for Re-route of the",
+              "block_id": "b75",
+              "kind": "text",
+              "start": 4755,
+              "end": 4830
+            },
+            {
+              "page": 1,
+              "text": "package using tracking or CONS ID and to help developer to view errors",
+              "block_id": "b76",
+              "kind": "text",
+              "start": 4831,
+              "end": 4901
+            },
+            {
+              "page": 1,
+              "text": "/exceptions occurred by querying in logs.",
+              "block_id": "b77",
+              "kind": "text",
+              "start": 4902,
+              "end": 4943
+            },
+            {
+              "page": 1,
+              "text": "Responsibilities   :",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 4945,
+              "end": 4965
+            },
+            {
+              "page": 1,
+              "text": "• Understanding and analysing the requirement very well.",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 4971,
+              "end": 5027
+            },
+            {
+              "page": 1,
+              "text": "• Involved in the development, deployment and testing of the",
+              "block_id": "b80",
+              "kind": "text",
+              "start": 5032,
+              "end": 5092
+            },
+            {
+              "page": 1,
+              "text": "application.",
+              "block_id": "b81",
+              "kind": "text",
+              "start": 5099,
+              "end": 5111
+            },
+            {
+              "page": 1,
+              "text": "• Daily participated in the scrum call and client meeting.",
+              "block_id": "b82",
+              "kind": "text",
+              "start": 5116,
+              "end": 5174
+            },
+            {
+              "page": 1,
+              "text": "• Involved in bugfixing and coding",
+              "block_id": "b83",
+              "kind": "text",
+              "start": 5179,
+              "end": 5213
+            },
+            {
+              "page": 1,
+              "text": "• Handling daily standups and story grooming.",
+              "block_id": "b84",
+              "kind": "text",
+              "start": 5218,
+              "end": 5263
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "Project#02  : Siemens Healthineers",
+        "client": "",
+        "role": "Developer",
+        "duration": "June -2018 to October 2020",
+        "details": [
+          "Environment     : Java 8,Hibernate 4.3, Spring boot 2.7, JMS,",
+          "Microservices, Restful Webservices, Postman, AWS, SQL, Eclipse, Docker,",
+          "Kubernetes",
+          "Team Size        : 11",
+          "Description:",
+          "Siemens is a leader in health care products, which they sell using an",
+          "online platform based on Oracle Sales Cloud (OSC).This project is about",
+          "Tacton CPQ (Configure, Price and Quote), where the product can be"
+        ],
+        "raw_text": "Project#02  : Siemens Healthineers\nDuration         : June -2018 to October 2020\nEnvironment     : Java 8,Hibernate 4.3, Spring boot 2.7, JMS,\nMicroservices, Restful Webservices, Postman, AWS, SQL, Eclipse, Docker,\nKubernetes\nTeam Size        : 11\nRole                   : Developer\nDescription:\nSiemens is a leader in health care products, which they sell using an\nonline platform based on Oracle Sales Cloud (OSC).This project is about\nTacton CPQ (Configure, Price and Quote), where the product can be\nconfigured, priced using a pricing engine and then sent Siemens for a\nQuotation. Siemens uses a ",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project#02  : Siemens Healthineers",
+              "block_id": "b85",
+              "kind": "text",
+              "start": 5280,
+              "end": 5314
+            },
+            {
+              "page": 1,
+              "text": "Duration         : June -2018 to October 2020",
+              "block_id": "b86",
+              "kind": "text",
+              "start": 5316,
+              "end": 5361
+            },
+            {
+              "page": 1,
+              "text": "Environment     : Java 8,Hibernate 4.3, Spring boot 2.7, JMS,",
+              "block_id": "b87",
+              "kind": "text",
+              "start": 5362,
+              "end": 5423
+            },
+            {
+              "page": 1,
+              "text": "Microservices, Restful Webservices, Postman, AWS, SQL, Eclipse, Docker,",
+              "block_id": "b88",
+              "kind": "text",
+              "start": 5424,
+              "end": 5495
+            },
+            {
+              "page": 1,
+              "text": "Kubernetes",
+              "block_id": "b89",
+              "kind": "text",
+              "start": 5496,
+              "end": 5506
+            },
+            {
+              "page": 1,
+              "text": "Team Size        : 11",
+              "block_id": "b90",
+              "kind": "text",
+              "start": 5508,
+              "end": 5529
+            },
+            {
+              "page": 1,
+              "text": "Role                   : Developer",
+              "block_id": "b91",
+              "kind": "text",
+              "start": 5530,
+              "end": 5564
+            },
+            {
+              "page": 1,
+              "text": "Description:",
+              "block_id": "b92",
+              "kind": "text",
+              "start": 5565,
+              "end": 5577
+            },
+            {
+              "page": 1,
+              "text": "Siemens is a leader in health care products, which they sell using an",
+              "block_id": "b93",
+              "kind": "text",
+              "start": 5578,
+              "end": 5647
+            },
+            {
+              "page": 1,
+              "text": "online platform based on Oracle Sales Cloud (OSC).This project is about",
+              "block_id": "b94",
+              "kind": "text",
+              "start": 5648,
+              "end": 5719
+            },
+            {
+              "page": 1,
+              "text": "Tacton CPQ (Configure, Price and Quote), where the product can be",
+              "block_id": "b95",
+              "kind": "text",
+              "start": 5720,
+              "end": 5785
+            },
+            {
+              "page": 1,
+              "text": "configured, priced using a pricing engine and then sent Siemens for a",
+              "block_id": "b96",
+              "kind": "text",
+              "start": 5786,
+              "end": 5855
+            },
+            {
+              "page": 1,
+              "text": "Quotation. Siemens uses a CPQ engine by Tacton (a Swedish company).",
+              "block_id": "b97",
+              "kind": "text",
+              "start": 5856,
+              "end": 5923
+            },
+            {
+              "page": 1,
+              "text": "Responsibilities   :",
+              "block_id": "b98",
+              "kind": "text",
+              "start": 5924,
+              "end": 5944
+            },
+            {
+              "page": 1,
+              "text": "• Involved in gathering requirements and Analysis",
+              "block_id": "b99",
+              "kind": "text",
+              "start": 5950,
+              "end": 5999
+            },
+            {
+              "page": 1,
+              "text": "• Worked on Service Layer in writing business logic",
+              "block_id": "b100",
+              "kind": "text",
+              "start": 6004,
+              "end": 6055
+            },
+            {
+              "page": 1,
+              "text": "• Involved in bugfixing and coding",
+              "block_id": "b101",
+              "kind": "text",
+              "start": 6060,
+              "end": 6094
+            },
+            {
+              "page": 1,
+              "text": "• Development of web services (REST web services).",
+              "block_id": "b102",
+              "kind": "text",
+              "start": 6099,
+              "end": 6149
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_3",
+        "name": "Project#03  : Crew Manager",
+        "client": "",
+        "role": "Developer",
+        "duration": "Nov -2017 to June - 2018",
+        "details": [
+          "Environment     : Java 1.8 , Hibernate 3.2, Spring 3.0, RESTful",
+          "webservices, Swing, Oracle 11g,Tomcat, IntelliJ IDEA",
+          "Team Size        : 11",
+          "Description:",
+          "Sabre AirCentre Crew Manager is a suite of enterprise software applications",
+          "used to manage airline crew operations, from long and short-term planning",
+          "through day of operations and end of month reporting. The primary user",
+          "interface, Crew Manager, is the central point of access for operations"
+        ],
+        "raw_text": "Project#03  : Crew Manager\nDuration         : Nov -2017 to June - 2018\nEnvironment     : Java 1.8 , Hibernate 3.2, Spring 3.0, RESTful\nwebservices, Swing, Oracle 11g,Tomcat, IntelliJ IDEA\nTeam Size        : 11\nRole                   : Developer\nDescription:\nSabre AirCentre Crew Manager is a suite of enterprise software applications\nused to manage airline crew operations, from long and short-term planning\nthrough day of operations and end of month reporting. The primary user\ninterface, Crew Manager, is the central point of access for operations\npersonnel in planning, managing, repairing crew sc",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project#03  : Crew Manager",
+              "block_id": "b103",
+              "kind": "text",
+              "start": 6152,
+              "end": 6178
+            },
+            {
+              "page": 1,
+              "text": "Duration         : Nov -2017 to June - 2018",
+              "block_id": "b104",
+              "kind": "text",
+              "start": 6180,
+              "end": 6223
+            },
+            {
+              "page": 1,
+              "text": "Environment     : Java 1.8 , Hibernate 3.2, Spring 3.0, RESTful",
+              "block_id": "b105",
+              "kind": "text",
+              "start": 6224,
+              "end": 6287
+            },
+            {
+              "page": 1,
+              "text": "webservices, Swing, Oracle 11g,Tomcat, IntelliJ IDEA",
+              "block_id": "b106",
+              "kind": "text",
+              "start": 6288,
+              "end": 6340
+            },
+            {
+              "page": 1,
+              "text": "Team Size        : 11",
+              "block_id": "b107",
+              "kind": "text",
+              "start": 6341,
+              "end": 6362
+            },
+            {
+              "page": 1,
+              "text": "Role                   : Developer",
+              "block_id": "b108",
+              "kind": "text",
+              "start": 6363,
+              "end": 6397
+            },
+            {
+              "page": 1,
+              "text": "Description:",
+              "block_id": "b109",
+              "kind": "text",
+              "start": 6400,
+              "end": 6412
+            },
+            {
+              "page": 1,
+              "text": "Sabre AirCentre Crew Manager is a suite of enterprise software applications",
+              "block_id": "b110",
+              "kind": "text",
+              "start": 6415,
+              "end": 6490
+            },
+            {
+              "page": 1,
+              "text": "used to manage airline crew operations, from long and short-term planning",
+              "block_id": "b111",
+              "kind": "text",
+              "start": 6491,
+              "end": 6564
+            },
+            {
+              "page": 1,
+              "text": "through day of operations and end of month reporting. The primary user",
+              "block_id": "b112",
+              "kind": "text",
+              "start": 6565,
+              "end": 6635
+            },
+            {
+              "page": 1,
+              "text": "interface, Crew Manager, is the central point of access for operations",
+              "block_id": "b113",
+              "kind": "text",
+              "start": 6636,
+              "end": 6706
+            },
+            {
+              "page": 1,
+              "text": "personnel in planning, managing, repairing crew schedules, adhering to",
+              "block_id": "b114",
+              "kind": "text",
+              "start": 6707,
+              "end": 6777
+            },
+            {
+              "page": 1,
+              "text": "regulatory and contractual requirements, and assisting crew with work/life",
+              "block_id": "b114",
+              "kind": "text",
+              "start": 6778,
+              "end": 6852
+            },
+            {
+              "page": 1,
+              "text": "balance issues during each roster period.",
+              "block_id": "b115",
+              "kind": "text",
+              "start": 6853,
+              "end": 6894
+            },
+            {
+              "page": 1,
+              "text": "Responsibilities   :",
+              "block_id": "b116",
+              "kind": "text",
+              "start": 6896,
+              "end": 6916
+            },
+            {
+              "page": 1,
+              "text": "• Understating and analyzing the requirements very well written in",
+              "block_id": "b117",
+              "kind": "text",
+              "start": 6921,
+              "end": 6987
+            },
+            {
+              "page": 1,
+              "text": "Rally.",
+              "block_id": "b118",
+              "kind": "text",
+              "start": 6994,
+              "end": 7000
+            },
+            {
+              "page": 1,
+              "text": "• Writing code.",
+              "block_id": "b119",
+              "kind": "text",
+              "start": 7005,
+              "end": 7020
+            },
+            {
+              "page": 1,
+              "text": "• Checking-In the code in Git Repository.",
+              "block_id": "b120",
+              "kind": "text",
+              "start": 7025,
+              "end": 7066
+            },
+            {
+              "page": 1,
+              "text": "• Daily participated in the client meeting.",
+              "block_id": "b121",
+              "kind": "text",
+              "start": 7071,
+              "end": 7114
+            },
+            {
+              "page": 1,
+              "text": "• Writing Unit Testing.",
+              "block_id": "b122",
+              "kind": "text",
+              "start": 7119,
+              "end": 7142
+            },
+            {
+              "page": 1,
+              "text": "• Helping Team members.",
+              "block_id": "b123",
+              "kind": "text",
+              "start": 7147,
+              "end": 7170
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_4",
+        "name": "Project#04  : Oriental Insurance Company Limited Portal (OICL)",
+        "client": "",
+        "role": "Developer",
+        "duration": "Nov -2016 to Nov- 2017",
+        "details": [
+          "Environment      :Java ,J2EE, Hibernate 3.2, Spring 3.0, RESTful",
+          "webservices, Oracle 11g, Web logic 10.3, Eclipse",
+          "Team Size        : 7",
+          "Description:",
+          "The Oriental Insurance Company Ltd. is a well-known insurance provider. The",
+          "portal application streamlines and automates the manual functionalities of",
+          "OICL by substantiating all of the necessary requirements and therefore",
+          "reducing reliance on back office staff, formalizing insurance process and"
+        ],
+        "raw_text": "Project#04  : Oriental Insurance Company Limited Portal (OICL)\nDuration         : Nov -2016 to Nov- 2017\nEnvironment      :Java ,J2EE, Hibernate 3.2, Spring 3.0, RESTful\nwebservices, Oracle 11g, Web logic 10.3, Eclipse\nTeam Size        : 7\nRole                   : Developer\nDescription:\nThe Oriental Insurance Company Ltd. is a well-known insurance provider. The\nportal application streamlines and automates the manual functionalities of\nOICL by substantiating all of the necessary requirements and therefore\nreducing reliance on back office staff, formalizing insurance process and\nprocedures, elim",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project#04  : Oriental Insurance Company Limited Portal (OICL)",
+              "block_id": "b124",
+              "kind": "text",
+              "start": 7179,
+              "end": 7241
+            },
+            {
+              "page": 1,
+              "text": "Duration         : Nov -2016 to Nov- 2017",
+              "block_id": "b125",
+              "kind": "text",
+              "start": 7242,
+              "end": 7283
+            },
+            {
+              "page": 1,
+              "text": "Environment      :Java ,J2EE, Hibernate 3.2, Spring 3.0, RESTful",
+              "block_id": "b126",
+              "kind": "text",
+              "start": 7284,
+              "end": 7348
+            },
+            {
+              "page": 1,
+              "text": "webservices, Oracle 11g, Web logic 10.3, Eclipse",
+              "block_id": "b127",
+              "kind": "text",
+              "start": 7349,
+              "end": 7397
+            },
+            {
+              "page": 1,
+              "text": "Team Size        : 7",
+              "block_id": "b128",
+              "kind": "text",
+              "start": 7398,
+              "end": 7418
+            },
+            {
+              "page": 1,
+              "text": "Role                   : Developer",
+              "block_id": "b129",
+              "kind": "text",
+              "start": 7419,
+              "end": 7453
+            },
+            {
+              "page": 1,
+              "text": "Description:",
+              "block_id": "b130",
+              "kind": "text",
+              "start": 7456,
+              "end": 7468
+            },
+            {
+              "page": 1,
+              "text": "The Oriental Insurance Company Ltd. is a well-known insurance provider. The",
+              "block_id": "b131",
+              "kind": "text",
+              "start": 7471,
+              "end": 7546
+            },
+            {
+              "page": 1,
+              "text": "portal application streamlines and automates the manual functionalities of",
+              "block_id": "b132",
+              "kind": "text",
+              "start": 7547,
+              "end": 7621
+            },
+            {
+              "page": 1,
+              "text": "OICL by substantiating all of the necessary requirements and therefore",
+              "block_id": "b133",
+              "kind": "text",
+              "start": 7622,
+              "end": 7692
+            },
+            {
+              "page": 1,
+              "text": "reducing reliance on back office staff, formalizing insurance process and",
+              "block_id": "b134",
+              "kind": "text",
+              "start": 7693,
+              "end": 7766
+            },
+            {
+              "page": 1,
+              "text": "procedures, eliminating need to manually search all separate, individual",
+              "block_id": "b135",
+              "kind": "text",
+              "start": 7767,
+              "end": 7839
+            },
+            {
+              "page": 1,
+              "text": "sources, increasing request turnaround time, increasing accuracy and",
+              "block_id": "b136",
+              "kind": "text",
+              "start": 7840,
+              "end": 7908
+            },
+            {
+              "page": 1,
+              "text": "reliability. The mission of the portal is to enable Services through",
+              "block_id": "b137",
+              "kind": "text",
+              "start": 7909,
+              "end": 7977
+            },
+            {
+              "page": 1,
+              "text": "multiple technology channels (Internet, Mobile) for facilitating New",
+              "block_id": "b137",
+              "kind": "text",
+              "start": 7978,
+              "end": 8046
+            },
+            {
+              "page": 1,
+              "text": "Business, Renewals, Claims Intimation / status and Customer Interactions.",
+              "block_id": "b138",
+              "kind": "text",
+              "start": 8047,
+              "end": 8120
+            },
+            {
+              "page": 1,
+              "text": "Thus, the application provides important functionalities like buying new",
+              "block_id": "b139",
+              "kind": "text",
+              "start": 8121,
+              "end": 8193
+            },
+            {
+              "page": 1,
+              "text": "policies, paying premium, intimating claim and grievances etc. It provides",
+              "block_id": "b140",
+              "kind": "text",
+              "start": 8194,
+              "end": 8268
+            },
+            {
+              "page": 1,
+              "text": "a robust and secure, high-end user interface that is built on robust and",
+              "block_id": "b141",
+              "kind": "text",
+              "start": 8269,
+              "end": 8341
+            },
+            {
+              "page": 1,
+              "text": "scalable J2EE architecture.",
+              "block_id": "b142",
+              "kind": "text",
+              "start": 8342,
+              "end": 8369
+            },
+            {
+              "page": 1,
+              "text": "Responsibilities   :",
+              "block_id": "b143",
+              "kind": "text",
+              "start": 8371,
+              "end": 8391
+            },
+            {
+              "page": 1,
+              "text": "•  Analyzing the requirements and coding.",
+              "block_id": "b144",
+              "kind": "text",
+              "start": 8396,
+              "end": 8437
+            },
+            {
+              "page": 1,
+              "text": "• Worked on code quality enhancement.",
+              "block_id": "b145",
+              "kind": "text",
+              "start": 8442,
+              "end": 8479
+            },
+            {
+              "page": 1,
+              "text": "• Interacting with client.",
+              "block_id": "b146",
+              "kind": "text",
+              "start": 8484,
+              "end": 8510
+            },
+            {
+              "page": 1,
+              "text": "• Implementing the business logic using Spring",
+              "block_id": "b147",
+              "kind": "text",
+              "start": 8515,
+              "end": 8561
+            },
+            {
+              "page": 1,
+              "text": "• Bug fixing and maintenance of the project.",
+              "block_id": "b148",
+              "kind": "text",
+              "start": 8566,
+              "end": 8610
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_5",
+        "name": "Project#05  :  National Transmission System Exit Reforms: XOSERVE – United Kingdom",
+        "client": "XOSERVE – United Kingdom",
+        "role": "Developer",
+        "duration": "Sept -2014 to Oct -2016",
+        "details": [
+          "Environment      : Java 1.7, JSP 2.x, Hibernate 3.2, Spring 3.0, Oracle",
+          "10g, Web logic 8.1,  Eclipse ID",
+          "Team Size        : 5",
+          "Description:",
+          "NTS Exit Reforms Phase 3 is one of the most anticipated projects.",
+          "After the successful implementation of Phase 1 and Phase 2 projects, NTS",
+          "Exit Reforms Phase 3 was commenced for the new requirements put forward by",
+          "OFGEM (Office of Gas and Electricity Markets) a government regulatory in UK"
+        ],
+        "raw_text": "Project#05  :  National Transmission System Exit Reforms\nDuration         : Sept -2014 to Oct -2016\nClient           : XOSERVE – United Kingdom\nEnvironment      : Java 1.7, JSP 2.x, Hibernate 3.2, Spring 3.0, Oracle\n10g, Web logic 8.1,  Eclipse ID\nTeam Size        : 5\nRole                   : Developer\nDescription:\nNTS Exit Reforms Phase 3 is one of the most anticipated projects.\nAfter the successful implementation of Phase 1 and Phase 2 projects, NTS\nExit Reforms Phase 3 was commenced for the new requirements put forward by\nOFGEM (Office of Gas and Electricity Markets) a government regulatory",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project#05  :  National Transmission System Exit Reforms",
+              "block_id": "b149",
+              "kind": "text",
+              "start": 8614,
+              "end": 8670
+            },
+            {
+              "page": 1,
+              "text": "Duration         : Sept -2014 to Oct -2016",
+              "block_id": "b150",
+              "kind": "text",
+              "start": 8673,
+              "end": 8715
+            },
+            {
+              "page": 1,
+              "text": "Client           : XOSERVE – United Kingdom",
+              "block_id": "b151",
+              "kind": "text",
+              "start": 8717,
+              "end": 8760
+            },
+            {
+              "page": 1,
+              "text": "Environment      : Java 1.7, JSP 2.x, Hibernate 3.2, Spring 3.0, Oracle",
+              "block_id": "b152",
+              "kind": "text",
+              "start": 8762,
+              "end": 8833
+            },
+            {
+              "page": 1,
+              "text": "10g, Web logic 8.1,  Eclipse ID",
+              "block_id": "b153",
+              "kind": "text",
+              "start": 8834,
+              "end": 8865
+            },
+            {
+              "page": 1,
+              "text": "Team Size        : 5",
+              "block_id": "b154",
+              "kind": "text",
+              "start": 8866,
+              "end": 8886
+            },
+            {
+              "page": 1,
+              "text": "Role                   : Developer",
+              "block_id": "b155",
+              "kind": "text",
+              "start": 8887,
+              "end": 8921
+            },
+            {
+              "page": 1,
+              "text": "Description:",
+              "block_id": "b156",
+              "kind": "text",
+              "start": 8925,
+              "end": 8937
+            },
+            {
+              "page": 1,
+              "text": "NTS Exit Reforms Phase 3 is one of the most anticipated projects.",
+              "block_id": "b157",
+              "kind": "text",
+              "start": 8945,
+              "end": 9010
+            },
+            {
+              "page": 1,
+              "text": "After the successful implementation of Phase 1 and Phase 2 projects, NTS",
+              "block_id": "b158",
+              "kind": "text",
+              "start": 9011,
+              "end": 9083
+            },
+            {
+              "page": 1,
+              "text": "Exit Reforms Phase 3 was commenced for the new requirements put forward by",
+              "block_id": "b159",
+              "kind": "text",
+              "start": 9084,
+              "end": 9158
+            },
+            {
+              "page": 1,
+              "text": "OFGEM (Office of Gas and Electricity Markets) a government regulatory in UK",
+              "block_id": "b160",
+              "kind": "text",
+              "start": 9159,
+              "end": 9234
+            },
+            {
+              "page": 1,
+              "text": "for the electricity and downstream natural gas markets in Great Britain.",
+              "block_id": "b161",
+              "kind": "text",
+              "start": 9235,
+              "end": 9307
+            },
+            {
+              "page": 1,
+              "text": "Responsibilities   :",
+              "block_id": "b162",
+              "kind": "text",
+              "start": 9310,
+              "end": 9330
+            },
+            {
+              "page": 1,
+              "text": "•  Developed web based screens and complex SQL queries.",
+              "block_id": "b163",
+              "kind": "text",
+              "start": 9335,
+              "end": 9390
+            },
+            {
+              "page": 1,
+              "text": "• Prepared the functional specification document for Equity and Fixed",
+              "block_id": "b164",
+              "kind": "text",
+              "start": 9395,
+              "end": 9464
+            },
+            {
+              "page": 1,
+              "text": "Income blotters.",
+              "block_id": "b165",
+              "kind": "text",
+              "start": 9471,
+              "end": 9487
+            },
+            {
+              "page": 1,
+              "text": "• Unit Tested the Screens to fix Functional and Technical bugs.",
+              "block_id": "b166",
+              "kind": "text",
+              "start": 9492,
+              "end": 9555
+            },
+            {
+              "page": 1,
+              "text": "• Provided support and maintenance to users after go-live and resolved",
+              "block_id": "b167",
+              "kind": "text",
+              "start": 9560,
+              "end": 9630
+            },
+            {
+              "page": 1,
+              "text": "raised defects.",
+              "block_id": "b168",
+              "kind": "text",
+              "start": 9637,
+              "end": 9652
+            },
+            {
+              "page": 1,
+              "text": "• Communicated with the on-site personnel’s for analysis and",
+              "block_id": "b169",
+              "kind": "text",
+              "start": 9657,
+              "end": 9717
+            },
+            {
+              "page": 1,
+              "text": "implementation of task.",
+              "block_id": "b170",
+              "kind": "text",
+              "start": 9724,
+              "end": 9747
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_6",
+        "name": "Project#06      :  Nomadic Elucidation: SingTel",
+        "client": "SingTel",
+        "role": "Developer",
+        "duration": "Oct -2013 to Aug – 2014",
+        "details": [
+          "Environment      : Java 1.6, J2EE, Hibernate 3.2, Spring 2.5, Oracle 10g,",
+          "Web logic 8.1, My Eclipse IDE .",
+          "Team Size    : 5",
+          "Description  :",
+          "The aim of this project is to create a fully featured web  application",
+          "package that smoothly carries out all the business process of  the  customer",
+          "care unit of the described Cell Phone Production.",
+          "In this proposed system, the user of the cell phone is the client  who"
+        ],
+        "raw_text": "Project#06      :  Nomadic Elucidation\nDuration     : Oct -2013 to Aug – 2014\nClient                :  SingTel\nEnvironment      : Java 1.6, J2EE, Hibernate 3.2, Spring 2.5, Oracle 10g,\nWeb logic 8.1, My Eclipse IDE .\nTeam Size    : 5\nRole              : Developer\nDescription  :\nThe aim of this project is to create a fully featured web  application\npackage that smoothly carries out all the business process of  the  customer\ncare unit of the described Cell Phone Production.\nIn this proposed system, the user of the cell phone is the client  who\nneeds to be served by the service provider i.e the p",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project#06      :  Nomadic Elucidation",
+              "block_id": "b171",
+              "kind": "text",
+              "start": 9749,
+              "end": 9787
+            },
+            {
+              "page": 1,
+              "text": "Duration     : Oct -2013 to Aug – 2014",
+              "block_id": "b172",
+              "kind": "text",
+              "start": 9788,
+              "end": 9826
+            },
+            {
+              "page": 1,
+              "text": "Client                :  SingTel",
+              "block_id": "b173",
+              "kind": "text",
+              "start": 9827,
+              "end": 9859
+            },
+            {
+              "page": 1,
+              "text": "Environment      : Java 1.6, J2EE, Hibernate 3.2, Spring 2.5, Oracle 10g,",
+              "block_id": "b174",
+              "kind": "text",
+              "start": 9860,
+              "end": 9933
+            },
+            {
+              "page": 1,
+              "text": "Web logic 8.1, My Eclipse IDE .",
+              "block_id": "b175",
+              "kind": "text",
+              "start": 9934,
+              "end": 9965
+            },
+            {
+              "page": 1,
+              "text": "Team Size    : 5",
+              "block_id": "b176",
+              "kind": "text",
+              "start": 9966,
+              "end": 9982
+            },
+            {
+              "page": 1,
+              "text": "Role              : Developer",
+              "block_id": "b177",
+              "kind": "text",
+              "start": 9983,
+              "end": 10012
+            },
+            {
+              "page": 1,
+              "text": "Description  :",
+              "block_id": "b178",
+              "kind": "text",
+              "start": 10020,
+              "end": 10034
+            },
+            {
+              "page": 1,
+              "text": "The aim of this project is to create a fully featured web  application",
+              "block_id": "b179",
+              "kind": "text",
+              "start": 10043,
+              "end": 10113
+            },
+            {
+              "page": 1,
+              "text": "package that smoothly carries out all the business process of  the  customer",
+              "block_id": "b180",
+              "kind": "text",
+              "start": 10114,
+              "end": 10190
+            },
+            {
+              "page": 1,
+              "text": "care unit of the described Cell Phone Production.",
+              "block_id": "b181",
+              "kind": "text",
+              "start": 10191,
+              "end": 10240
+            },
+            {
+              "page": 1,
+              "text": "In this proposed system, the user of the cell phone is the client  who",
+              "block_id": "b182",
+              "kind": "text",
+              "start": 10247,
+              "end": 10317
+            },
+            {
+              "page": 1,
+              "text": "needs to be served by the service provider i.e the producer  of  the  phone,",
+              "block_id": "b183",
+              "kind": "text",
+              "start": 10318,
+              "end": 10394
+            },
+            {
+              "page": 1,
+              "text": "by sitting at his home. He has to place a token  regarding  the  problem  in",
+              "block_id": "b184",
+              "kind": "text",
+              "start": 10395,
+              "end": 10471
+            },
+            {
+              "page": 1,
+              "text": "the phone he is using, and the producer has to solve the problem.",
+              "block_id": "b185",
+              "kind": "text",
+              "start": 10472,
+              "end": 10537
+            },
+            {
+              "page": 1,
+              "text": "Responsibilities:",
+              "block_id": "b186",
+              "kind": "text",
+              "start": 10540,
+              "end": 10557
+            },
+            {
+              "page": 1,
+              "text": "• Involved in the development, deployment and testing of the",
+              "block_id": "b187",
+              "kind": "text",
+              "start": 10562,
+              "end": 10622
+            },
+            {
+              "page": 1,
+              "text": "application.",
+              "block_id": "b188",
+              "kind": "text",
+              "start": 10629,
+              "end": 10641
+            },
+            {
+              "page": 1,
+              "text": "• Developed the application, based on the Spring framework where the",
+              "block_id": "b189",
+              "kind": "text",
+              "start": 10646,
+              "end": 10714
+            },
+            {
+              "page": 1,
+              "text": "JSP were used as view components.",
+              "block_id": "b190",
+              "kind": "text",
+              "start": 10721,
+              "end": 10754
+            },
+            {
+              "page": 1,
+              "text": "• Performing IUT and Code review.",
+              "block_id": "b191",
+              "kind": "text",
+              "start": 10759,
+              "end": 10792
+            },
+            {
+              "page": 1,
+              "text": "• Design user interfaces using JSP and HTML, used Java-script for",
+              "block_id": "b192",
+              "kind": "text",
+              "start": 10797,
+              "end": 10862
+            },
+            {
+              "page": 1,
+              "text": "client side validation.",
+              "block_id": "b193",
+              "kind": "text",
+              "start": 10869,
+              "end": 10892
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_7",
+        "name": "Project # 07  :  Astra PSS (Project for automobile inventory: PT Astra International, Indonesia",
+        "client": "PT Astra International, Indonesia",
+        "role": "Software Developer",
+        "duration": "Jan-2013 to Sept-2013",
+        "details": [
+          "system)",
+          "Environment      : Java 1.6, J2EE, Struts 1.x, Oracle 10g, Windows XP,",
+          "Apache Tomcat.",
+          "Team Size    : 5",
+          "Description:",
+          "PT Astra International Tbk is  a  general  trading  company  based  in",
+          "Jakarta, Indonesia. Astra is now one of the largest conglomeration  business",
+          "groups in Indonesia. It diversified into the  manufacture  and  distribution"
+        ],
+        "raw_text": "Project # 07  :  Astra PSS (Project for automobile inventory\nsystem)\nDuration     : Jan-2013 to Sept-2013\nClient                  : PT Astra International, Indonesia\nEnvironment      : Java 1.6, J2EE, Struts 1.x, Oracle 10g, Windows XP,\nApache Tomcat.\nTeam Size    : 5\nRole              : Software Developer\nDescription:\nPT Astra International Tbk is  a  general  trading  company  based  in\nJakarta, Indonesia. Astra is now one of the largest conglomeration  business\ngroups in Indonesia. It diversified into the  manufacture  and  distribution\nof automobiles, heavy equipment and components in  the",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project # 07  :  Astra PSS (Project for automobile inventory",
+              "block_id": "b194",
+              "kind": "text",
+              "start": 10905,
+              "end": 10965
+            },
+            {
+              "page": 1,
+              "text": "system)",
+              "block_id": "b195",
+              "kind": "text",
+              "start": 10966,
+              "end": 10973
+            },
+            {
+              "page": 1,
+              "text": "Duration     : Jan-2013 to Sept-2013",
+              "block_id": "b196",
+              "kind": "text",
+              "start": 10976,
+              "end": 11012
+            },
+            {
+              "page": 1,
+              "text": "Client                  : PT Astra International, Indonesia",
+              "block_id": "b197",
+              "kind": "text",
+              "start": 11013,
+              "end": 11072
+            },
+            {
+              "page": 1,
+              "text": "Environment      : Java 1.6, J2EE, Struts 1.x, Oracle 10g, Windows XP,",
+              "block_id": "b198",
+              "kind": "text",
+              "start": 11073,
+              "end": 11143
+            },
+            {
+              "page": 1,
+              "text": "Apache Tomcat.",
+              "block_id": "b199",
+              "kind": "text",
+              "start": 11144,
+              "end": 11158
+            },
+            {
+              "page": 1,
+              "text": "Team Size    : 5",
+              "block_id": "b200",
+              "kind": "text",
+              "start": 11159,
+              "end": 11175
+            },
+            {
+              "page": 1,
+              "text": "Role              : Software Developer",
+              "block_id": "b201",
+              "kind": "text",
+              "start": 11176,
+              "end": 11214
+            },
+            {
+              "page": 1,
+              "text": "Description:",
+              "block_id": "b202",
+              "kind": "text",
+              "start": 11216,
+              "end": 11228
+            },
+            {
+              "page": 1,
+              "text": "PT Astra International Tbk is  a  general  trading  company  based  in",
+              "block_id": "b203",
+              "kind": "text",
+              "start": 11235,
+              "end": 11305
+            },
+            {
+              "page": 1,
+              "text": "Jakarta, Indonesia. Astra is now one of the largest conglomeration  business",
+              "block_id": "b204",
+              "kind": "text",
+              "start": 11306,
+              "end": 11382
+            },
+            {
+              "page": 1,
+              "text": "groups in Indonesia. It diversified into the  manufacture  and  distribution",
+              "block_id": "b205",
+              "kind": "text",
+              "start": 11383,
+              "end": 11459
+            },
+            {
+              "page": 1,
+              "text": "of automobiles, heavy equipment and components in  the  late  currently  has",
+              "block_id": "b206",
+              "kind": "text",
+              "start": 11460,
+              "end": 11536
+            },
+            {
+              "page": 1,
+              "text": "six business divisions: Automotive,  Financial  Services,  Heavy  Equipment,",
+              "block_id": "b207",
+              "kind": "text",
+              "start": 11537,
+              "end": 11613
+            },
+            {
+              "page": 1,
+              "text": "Agribusiness, Information Technology,  and  Infrastructure.  This  web-based",
+              "block_id": "b208",
+              "kind": "text",
+              "start": 11614,
+              "end": 11690
+            },
+            {
+              "page": 1,
+              "text": "ERP application takes care of all the functional aspects of  a  business  in",
+              "block_id": "b209",
+              "kind": "text",
+              "start": 11691,
+              "end": 11767
+            },
+            {
+              "page": 1,
+              "text": "detail about purchase, sales, service or product storage.  The  Distribution",
+              "block_id": "b210",
+              "kind": "text",
+              "start": 11768,
+              "end": 11844
+            },
+            {
+              "page": 1,
+              "text": "System has  five  modules  viz.  finished  unit,  spare  parts,  used  cars,",
+              "block_id": "b211",
+              "kind": "text",
+              "start": 11845,
+              "end": 11921
+            },
+            {
+              "page": 1,
+              "text": "services and finance.",
+              "block_id": "b212",
+              "kind": "text",
+              "start": 11922,
+              "end": 11943
+            },
+            {
+              "page": 1,
+              "text": "Responsibilities:",
+              "block_id": "b213",
+              "kind": "text",
+              "start": 11945,
+              "end": 11962
+            },
+            {
+              "page": 1,
+              "text": "• Developing the UI interface.",
+              "block_id": "b214",
+              "kind": "text",
+              "start": 11967,
+              "end": 11997
+            },
+            {
+              "page": 1,
+              "text": "• Writing Coding",
+              "block_id": "b215",
+              "kind": "text",
+              "start": 12002,
+              "end": 12018
+            },
+            {
+              "page": 1,
+              "text": "• Peer review and IUT.",
+              "block_id": "b216",
+              "kind": "text",
+              "start": 12023,
+              "end": 12045
+            },
+            {
+              "page": 1,
+              "text": "•  QC and UAT support",
+              "block_id": "b217",
+              "kind": "text",
+              "start": 12050,
+              "end": 12071
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_8",
+        "name": "Project # 08           : Textrade: Textrade",
+        "client": "Textrade",
+        "role": "Software Developer",
+        "duration": "April -2012 to Dec -2012",
+        "details": [
+          "Environment            : Java, Servlets, JSP, Struts 1.1, JavaScript,",
+          "Tomcat, Oracle 9i, Windows 2000",
+          "Team Size                    : 3",
+          "Description:",
+          "It’s a web based  workflow system  to  manage  the  e-Retail  business",
+          "transactions which will communicate with  different  partner  portals  like,",
+          "Overstock,  Amazon,  7th  Avenue,  etc.  and  warehouses.   Out   of   this,",
+          "communication with overstock will be via APIs provided by  them  and  others"
+        ],
+        "raw_text": "Project # 08           : Textrade\nDuration                : April -2012 to Dec -2012\nClient                 : Textrade\nEnvironment            : Java, Servlets, JSP, Struts 1.1, JavaScript,\nTomcat, Oracle 9i, Windows 2000\nTeam Size                    : 3\nRole                   : Software Developer\nDescription:\nIt’s a web based  workflow system  to  manage  the  e-Retail  business\ntransactions which will communicate with  different  partner  portals  like,\nOverstock,  Amazon,  7th  Avenue,  etc.  and  warehouses.   Out   of   this,\ncommunication with overstock will be via APIs provided by  them ",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project # 08           : Textrade",
+              "block_id": "b218",
+              "kind": "text",
+              "start": 12079,
+              "end": 12112
+            },
+            {
+              "page": 1,
+              "text": "Duration                : April -2012 to Dec -2012",
+              "block_id": "b219",
+              "kind": "text",
+              "start": 12115,
+              "end": 12165
+            },
+            {
+              "page": 1,
+              "text": "Client                 : Textrade",
+              "block_id": "b220",
+              "kind": "text",
+              "start": 12166,
+              "end": 12199
+            },
+            {
+              "page": 1,
+              "text": "Environment            : Java, Servlets, JSP, Struts 1.1, JavaScript,",
+              "block_id": "b221",
+              "kind": "text",
+              "start": 12200,
+              "end": 12269
+            },
+            {
+              "page": 1,
+              "text": "Tomcat, Oracle 9i, Windows 2000",
+              "block_id": "b222",
+              "kind": "text",
+              "start": 12270,
+              "end": 12301
+            },
+            {
+              "page": 1,
+              "text": "Team Size                    : 3",
+              "block_id": "b223",
+              "kind": "text",
+              "start": 12302,
+              "end": 12334
+            },
+            {
+              "page": 1,
+              "text": "Role                   : Software Developer",
+              "block_id": "b224",
+              "kind": "text",
+              "start": 12335,
+              "end": 12378
+            },
+            {
+              "page": 1,
+              "text": "Description:",
+              "block_id": "b225",
+              "kind": "text",
+              "start": 12382,
+              "end": 12394
+            },
+            {
+              "page": 1,
+              "text": "It’s a web based  workflow system  to  manage  the  e-Retail  business",
+              "block_id": "b226",
+              "kind": "text",
+              "start": 12402,
+              "end": 12472
+            },
+            {
+              "page": 1,
+              "text": "transactions which will communicate with  different  partner  portals  like,",
+              "block_id": "b227",
+              "kind": "text",
+              "start": 12473,
+              "end": 12549
+            },
+            {
+              "page": 1,
+              "text": "Overstock,  Amazon,  7th  Avenue,  etc.  and  warehouses.   Out   of   this,",
+              "block_id": "b228",
+              "kind": "text",
+              "start": 12550,
+              "end": 12626
+            },
+            {
+              "page": 1,
+              "text": "communication with overstock will be via APIs provided by  them  and  others",
+              "block_id": "b229",
+              "kind": "text",
+              "start": 12627,
+              "end": 12703
+            },
+            {
+              "page": 1,
+              "text": "will be through the exported standard excel files. This will  enable  senior",
+              "block_id": "b230",
+              "kind": "text",
+              "start": 12704,
+              "end": 12780
+            },
+            {
+              "page": 1,
+              "text": "management of Textrade to analyze the performance of all partner portals  on",
+              "block_id": "b231",
+              "kind": "text",
+              "start": 12781,
+              "end": 12857
+            },
+            {
+              "page": 1,
+              "text": "a dashboard and strategic business decisions. Automating  the  co-ordination",
+              "block_id": "b232",
+              "kind": "text",
+              "start": 12858,
+              "end": 12934
+            },
+            {
+              "page": 1,
+              "text": "with partner portal and warehouse will  also  help  expediting  the  current",
+              "block_id": "b233",
+              "kind": "text",
+              "start": 12935,
+              "end": 13011
+            },
+            {
+              "page": 1,
+              "text": "trade cycle and offer scalability in the near future.",
+              "block_id": "b234",
+              "kind": "text",
+              "start": 13012,
+              "end": 13065
+            },
+            {
+              "page": 1,
+              "text": "Responsibilities:",
+              "block_id": "b235",
+              "kind": "text",
+              "start": 13069,
+              "end": 13086
+            },
+            {
+              "page": 1,
+              "text": "• Implementing the functionality as per the FRD.",
+              "block_id": "b236",
+              "kind": "text",
+              "start": 13091,
+              "end": 13139
+            },
+            {
+              "page": 1,
+              "text": "• To develop, deploy and support the complete solution.",
+              "block_id": "b237",
+              "kind": "text",
+              "start": 13144,
+              "end": 13199
+            },
+            {
+              "page": 1,
+              "text": "• Contributing to low level design",
+              "block_id": "b238",
+              "kind": "text",
+              "start": 13204,
+              "end": 13238
+            },
+            {
+              "page": 1,
+              "text": "• Unit testing.",
+              "block_id": "b239",
+              "kind": "text",
+              "start": 13243,
+              "end": 13258
+            },
+            {
+              "page": 1,
+              "text": "• Code Review.",
+              "block_id": "b240",
+              "kind": "text",
+              "start": 13263,
+              "end": 13277
+            },
+            {
+              "page": 1,
+              "text": "Strengths:",
+              "block_id": "b241",
+              "kind": "text",
+              "start": 13281,
+              "end": 13291
+            },
+            {
+              "page": 1,
+              "text": "• Understanding the priorities and needs of the business and",
+              "block_id": "b242",
+              "kind": "text",
+              "start": 13299,
+              "end": 13359
+            },
+            {
+              "page": 1,
+              "text": "adapting to the changing requirements.",
+              "block_id": "b243",
+              "kind": "text",
+              "start": 13368,
+              "end": 13406
+            },
+            {
+              "page": 1,
+              "text": "• Skilled in mentoring junior developers and leading Agile",
+              "block_id": "b244",
+              "kind": "text",
+              "start": 13413,
+              "end": 13471
+            },
+            {
+              "page": 1,
+              "text": "teams.",
+              "block_id": "b245",
+              "kind": "text",
+              "start": 13480,
+              "end": 13486
+            },
+            {
+              "page": 1,
+              "text": "• Good communication skills and customer focused.",
+              "block_id": "b246",
+              "kind": "text",
+              "start": 13493,
+              "end": 13542
+            },
+            {
+              "page": 1,
+              "text": "• Strong programming and communication skills.",
+              "block_id": "b247",
+              "kind": "text",
+              "start": 13549,
+              "end": 13595
+            },
+            {
+              "page": 1,
+              "text": "• Competitive nature in working environment",
+              "block_id": "b248",
+              "kind": "text",
+              "start": 13602,
+              "end": 13645
+            },
+            {
+              "page": 1,
+              "text": "• Effective communicator and good team player.",
+              "block_id": "b249",
+              "kind": "text",
+              "start": 13652,
+              "end": 13698
+            },
+            {
+              "page": 1,
+              "text": "MRUTYUNJAY SAMAL",
+              "block_id": "b250",
+              "kind": "text",
+              "start": 13737,
+              "end": 13753
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "gc5f17510e6346611",
+        "start": [
+          2013,
+          10
+        ],
+        "end": [
+          2014,
+          8
+        ],
+        "months": 11,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "v6453d497d603b801",
+          "event_after": "vd92a5cf7f45f2dbc",
+          "coverage_scope": "all_dated_activity"
+        },
+        "start_label": "2013-10",
+        "end_label": "2014-08",
+        "evidence_quotes": [
+          "Project # 07  :  Astra PSS (Project for automobile inventory Duration     : Jan-2013 to Sept-2013",
+          "Project#05  :  National Transmission System Exit Reforms Duration         : Sept -2014 to Oct -2016"
+        ],
+        "evidence_details": [
+          {
+            "header": "Project # 07  :  Astra PSS (Project for automobile inventory",
+            "quote": "Project # 07  :  Astra PSS (Project for automobile inventory Duration     : Jan-2013 to Sept-2013",
+            "event_id": "v6453d497d603b801",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Project # 07  :  Astra PSS (Project for automobile inventory",
+                  "block_id": "b194",
+                  "kind": "text",
+                  "start": 10905,
+                  "end": 10965
+                },
+                {
+                  "page": 1,
+                  "text": "Duration     : Jan-2013 to Sept-2013",
+                  "block_id": "b196",
+                  "kind": "text",
+                  "start": 10976,
+                  "end": 11012
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Jan-2013 to Sept-2013",
+                  "block_id": "b196",
+                  "kind": "text",
+                  "start": 10991,
+                  "end": 11012
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Project # 07  :  Astra PSS (Project for automobile inventory",
+                  "block_id": "b194",
+                  "kind": "text",
+                  "start": 10905,
+                  "end": 10965
+                }
+              ],
+              "section": "Project Profile",
+              "date_label": "Jan-2013 to Sept-2013",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Project#05  :  National Transmission System Exit Reforms",
+            "quote": "Project#05  :  National Transmission System Exit Reforms Duration         : Sept -2014 to Oct -2016",
+            "event_id": "vd92a5cf7f45f2dbc",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Project#05  :  National Transmission System Exit Reforms",
+                  "block_id": "b149",
+                  "kind": "text",
+                  "start": 8614,
+                  "end": 8670
+                },
+                {
+                  "page": 1,
+                  "text": "Duration         : Sept -2014 to Oct -2016",
+                  "block_id": "b150",
+                  "kind": "text",
+                  "start": 8673,
+                  "end": 8715
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Sept -2014 to Oct -2016",
+                  "block_id": "b150",
+                  "kind": "text",
+                  "start": 8692,
+                  "end": 8715
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Project#05  :  National Transmission System Exit Reforms",
+                  "block_id": "b149",
+                  "kind": "text",
+                  "start": 8614,
+                  "end": 8670
+                }
+              ],
+              "section": "Project Profile",
+              "date_label": "Sept -2014 to Oct -2016",
+              "is_present": false
+            }
+          }
+        ]
+      },
+      {
+        "id": "g7390ac1f80add8c1",
+        "start": [
+          2020,
+          11
+        ],
+        "end": [
+          2021,
+          7
+        ],
+        "months": 9,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "v0cec3a151588e104",
+          "event_after": "v555dd0e8a8f5e66b",
+          "coverage_scope": "all_dated_activity"
+        },
+        "start_label": "2020-11",
+        "end_label": "2021-07",
+        "evidence_quotes": [
+          "Bangalore, as a Senior Consultant from June 2018 to 28th October 2020.",
+          "Project#01  : FedEx Itinerary Management Duration         : August -2021 to till date"
+        ],
+        "evidence_details": [
+          {
+            "header": "s a Senior Consultant from . at Bangalore",
+            "quote": "Bangalore, as a Senior Consultant from June 2018 to 28th October 2020.",
+            "event_id": "v0cec3a151588e104",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Bangalore, as a Senior Consultant from June 2018 to 28th October 2020.",
+                  "block_id": "b29",
+                  "kind": "text",
+                  "start": 1699,
+                  "end": 1769
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "June 2018 to 28th October 2020",
+                  "block_id": "b29",
+                  "kind": "text",
+                  "start": 1738,
+                  "end": 1768
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Bangalore",
+                  "block_id": "b29",
+                  "kind": "text",
+                  "start": 1699,
+                  "end": 1708
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "as a Senior Consultant from",
+                  "block_id": "b29",
+                  "kind": "text",
+                  "start": 1710,
+                  "end": 1737
+                }
+              ],
+              "section": "EXPERIENCE SUMMARY",
+              "date_label": "June 2018 to 28th October 2020",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Project#01  : FedEx Itinerary Managemen",
+            "quote": "Project#01  : FedEx Itinerary Management Duration         : August -2021 to till date",
+            "event_id": "v555dd0e8a8f5e66b",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Project#01  : FedEx Itinerary Management",
+                  "block_id": "b63",
+                  "kind": "text",
+                  "start": 4158,
+                  "end": 4198
+                },
+                {
+                  "page": 1,
+                  "text": "Duration         : August -2021 to till date",
+                  "block_id": "b64",
+                  "kind": "text",
+                  "start": 4200,
+                  "end": 4244
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "August -2021 to till date",
+                  "block_id": "b64",
+                  "kind": "text",
+                  "start": 4219,
+                  "end": 4244
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Project#01  : FedEx Itinerary Management",
+                  "block_id": "b63",
+                  "kind": "text",
+                  "start": 4158,
+                  "end": 4198
+                }
+              ],
+              "section": "Project Profile",
+              "date_label": "August -2021 to till date",
+              "is_present": true
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 8,
+      "total_events": 9,
+      "dated_share": 0.889,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "ocr_pages": []
+    },
+    "total_represented_months": 154,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

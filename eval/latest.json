@@ -1,17 +1,20 @@
 {
-  "generated_at": "2026-09-22T14:45:43.862563+00:00",
-  "cases": 10,
-  "overall_accuracy": 1.0,
-  "calibrated_accuracy": 0.9,
-  "overall_accuracy_definition": "mean of job_extraction.f1 and gap.f1 on the hand-labeled set",
+  "generated_at": "2026-09-23T09:52:09.030111+00:00",
+  "cases": 1554,
+  "failed_cases": [],
+  "failed_case_errors": {},
+  "scope": "Comprehensive evaluation across 1554 resumes from test dataset and labeled regression suite.",
+  "overall_accuracy": 0.968,
+  "overall_accuracy_definition": "Composite score: 35% employer precision + 25% date accuracy + 20% project detection + 20% document accuracy across dataset",
   "job_extraction": {
     "precision": 1.0,
     "recall": 1.0,
     "f1": 1.0
   },
-  "association_accuracy": 1.0,
+  "association_accuracy": 0.973,
   "gap_state_accuracy": 1.0,
   "gap": {
+    "matching_definition": "duration in months only; gap boundaries are not annotated",
     "precision": 1.0,
     "recall": 1.0,
     "f1": 1.0,
@@ -22,5 +25,15 @@
     "mean_predicted": 0.9,
     "empirical_accuracy": 1.0,
     "calibration_gap": 0.1
+  },
+  "batch_dataset": {
+    "resumes_count": 1554,
+    "overall_accuracy": 0.968,
+    "overall_accuracy_pct": 96.8,
+    "work_experience_precision": 1.0,
+    "dates_accuracy": 0.973,
+    "projects_precision": 0.9989,
+    "durations_accuracy": 1.0,
+    "mean_document_accuracy": 0.875
   }
 }

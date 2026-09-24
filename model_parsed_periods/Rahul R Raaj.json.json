@@ -1,0 +1,1637 @@
+{
+  "file_name": "Rahul R Raaj.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "07b9d62ad5a73f16e62004a27b808b62b0813f1f62fd8b9b0ea243c88d75bf65",
+  "doc_id": "07b9d62ad5a73f16e62004a2",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 4,
+    "dated_share": 0.25,
+    "unresolved": 3,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v1797fad50607e5b2",
+      "type": "EMPLOYMENT",
+      "company": "Market risk",
+      "title": "Business Analyst  Barclays",
+      "start_date": "2023-06",
+      "end_date": "2025-05",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Market risk - Business Analyst  Barclays, Chennai – – (June,2023  –",
+            "block_id": "b72",
+            "kind": "text",
+            "start": 2808,
+            "end": 2875
+          },
+          {
+            "page": 1,
+            "text": "May,2025  )",
+            "block_id": "b72",
+            "kind": "text",
+            "start": 2876,
+            "end": 2887
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "June,2023  –",
+            "block_id": "b72",
+            "kind": "text",
+            "start": 2863,
+            "end": 2875
+          },
+          {
+            "page": 1,
+            "text": "May,2025",
+            "block_id": "b72",
+            "kind": "text",
+            "start": 2876,
+            "end": 2884
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Market risk",
+            "block_id": "b72",
+            "kind": "text",
+            "start": 2808,
+            "end": 2819
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Business Analyst  Barclays",
+            "block_id": "b72",
+            "kind": "text",
+            "start": 2822,
+            "end": 2848
+          }
+        ],
+        "section": "WORK HISTORY",
+        "date_label": "June,2023  – May,2025",
+        "is_present": false
+      },
+      "precision": "month",
+      "date_label": "June,2023  – May,2025"
+    }
+  ],
+  "education": [
+    {
+      "id": "v70126fe038c6e3bc",
+      "type": "EDUCATION",
+      "company": "Pondicherry University",
+      "title": "MBA Finance",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "MBA Finance (2013 2015) –",
+            "block_id": "b87",
+            "kind": "text",
+            "start": 3795,
+            "end": 3820
+          },
+          {
+            "page": 1,
+            "text": "Pondicherry University, India",
+            "block_id": "b87",
+            "kind": "text",
+            "start": 3821,
+            "end": 3850
+          },
+          {
+            "page": 1,
+            "text": "B.com (2010 2013) –",
+            "block_id": "b88",
+            "kind": "text",
+            "start": 3852,
+            "end": 3871
+          },
+          {
+            "page": 1,
+            "text": "Saradha Gangadharan College, India",
+            "block_id": "b88",
+            "kind": "text",
+            "start": 3872,
+            "end": 3906
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2013",
+            "block_id": "b87",
+            "kind": "text",
+            "start": 3808,
+            "end": 3812
+          },
+          {
+            "page": 1,
+            "text": "2015",
+            "block_id": "b87",
+            "kind": "text",
+            "start": 3813,
+            "end": 3817
+          },
+          {
+            "page": 1,
+            "text": "2010",
+            "block_id": "b88",
+            "kind": "text",
+            "start": 3859,
+            "end": 3863
+          },
+          {
+            "page": 1,
+            "text": "2013",
+            "block_id": "b88",
+            "kind": "text",
+            "start": 3864,
+            "end": 3868
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Pondicherry University",
+            "block_id": "b87",
+            "kind": "text",
+            "start": 3821,
+            "end": 3843
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "MBA Finance",
+            "block_id": "b87",
+            "kind": "text",
+            "start": 3795,
+            "end": 3806
+          }
+        ],
+        "section": "EDUCATION",
+        "date_label": "2013 / 2015 / 2010",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": "2013 / 2015 / 2010"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "As Assistant Manager - Equity Derivatives Middle Otice - Barclays",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "As Assistant Manager - Equity Derivatives Middle Otice - Barclays",
+        "• Created new dividend reconciliation between client reporting system and",
+        "settlement system for synthetics desk in Barclays to achieve 400 hours",
+        "savings.",
+        "• Forecasted the impact of LIBOR to RFR migration in money market/equity",
+        "swap reconciliations. Developed project plan, provided requirements to IT,",
+        "veritied test cases and ensured smooth transition of rates in production",
+        "• Involved in migrating the middle otiice reconciliations from excel to Delphi"
+      ],
+      "raw_text": "As Assistant Manager - Equity Derivatives Middle Otice - Barclays\n• Created new dividend reconciliation between client reporting system and\nsettlement system for synthetics desk in Barclays to achieve 400 hours\nsavings.\n• Forecasted the impact of LIBOR to RFR migration in money market/equity\nswap reconciliations. Developed project plan, provided requirements to IT,\nveritied test cases and ensured smooth transition of rates in production\n• Involved in migrating the middle otiice reconciliations from excel to Delphi\n(Web application)",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "As Assistant Manager - Equity Derivatives Middle Otice - Barclays",
+            "block_id": "b122",
+            "kind": "text",
+            "start": 5865,
+            "end": 5929
+          },
+          {
+            "page": 1,
+            "text": "• Created new dividend reconciliation between client reporting system and",
+            "block_id": "b123",
+            "kind": "text",
+            "start": 5931,
+            "end": 6004
+          },
+          {
+            "page": 1,
+            "text": "settlement system for synthetics desk in Barclays to achieve 400 hours",
+            "block_id": "b124",
+            "kind": "text",
+            "start": 6006,
+            "end": 6076
+          },
+          {
+            "page": 1,
+            "text": "savings.",
+            "block_id": "b125",
+            "kind": "text",
+            "start": 6078,
+            "end": 6086
+          },
+          {
+            "page": 1,
+            "text": "• Forecasted the impact of LIBOR to RFR migration in money market/equity",
+            "block_id": "b126",
+            "kind": "text",
+            "start": 6088,
+            "end": 6160
+          },
+          {
+            "page": 1,
+            "text": "swap reconciliations. Developed project plan, provided requirements to IT,",
+            "block_id": "b127",
+            "kind": "text",
+            "start": 6162,
+            "end": 6236
+          },
+          {
+            "page": 1,
+            "text": "veritied test cases and ensured smooth transition of rates in production",
+            "block_id": "b128",
+            "kind": "text",
+            "start": 6238,
+            "end": 6309
+          },
+          {
+            "page": 1,
+            "text": "• Involved in migrating the middle otiice reconciliations from excel to Delphi",
+            "block_id": "b129",
+            "kind": "text",
+            "start": 6311,
+            "end": 6388
+          },
+          {
+            "page": 1,
+            "text": "(Web application)",
+            "block_id": "b130",
+            "kind": "text",
+            "start": 6390,
+            "end": 6407
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_2",
+      "name": "As Senior Associate  Local Custodian - BNP Paribas –",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "As Senior Associate  Local Custodian - BNP Paribas –",
+        "• Scaled down 600 hours (30% of Budget) by automating corporate action",
+        "events and auto acceptance of client instruction in SG market and was",
+        "awarded champion of the month",
+        "."
+      ],
+      "raw_text": "As Senior Associate  Local Custodian - BNP Paribas –\n• Scaled down 600 hours (30% of Budget) by automating corporate action\nevents and auto acceptance of client instruction in SG market and was\nawarded champion of the month\n.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "As Senior Associate  Local Custodian - BNP Paribas –",
+            "block_id": "b131",
+            "kind": "text",
+            "start": 6409,
+            "end": 6461
+          },
+          {
+            "page": 1,
+            "text": "• Scaled down 600 hours (30% of Budget) by automating corporate action",
+            "block_id": "b132",
+            "kind": "text",
+            "start": 6464,
+            "end": 6534
+          },
+          {
+            "page": 1,
+            "text": "events and auto acceptance of client instruction in SG market and was",
+            "block_id": "b133",
+            "kind": "text",
+            "start": 6535,
+            "end": 6604
+          },
+          {
+            "page": 1,
+            "text": "awarded champion of the month",
+            "block_id": "b134",
+            "kind": "text",
+            "start": 6605,
+            "end": 6634
+          },
+          {
+            "page": 1,
+            "text": ".",
+            "block_id": "b135",
+            "kind": "text",
+            "start": 6638,
+            "end": 6639
+          }
+        ]
+      }
+    }
+  ],
+  "gaps": [],
+  "total_work_experience_entries": 1,
+  "total_projects_entries": 2,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "section EDUCATION: entry without dated header preserved as-is",
+    "entry e1: dates found without an explicit range",
+    "e1: dates cannot be assigned unambiguously",
+    "conflicting/ambiguous date kept for 'MBA Finance'"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "07b9d62ad5a73f16e62004a2",
+    "filename": "Rahul R Raaj.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v1797fad50607e5b2",
+        "type": "EMPLOYMENT",
+        "title": "Business Analyst  Barclays",
+        "org": "Market risk",
+        "start": "2023-06",
+        "end": "2025-05",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Market risk - Business Analyst  Barclays, Chennai – – (June,2023  –\nMay,2025  )",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Market risk - Business Analyst  Barclays, Chennai – – (June,2023  –",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 2808,
+              "end": 2875
+            },
+            {
+              "page": 1,
+              "text": "May,2025  )",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 2876,
+              "end": 2887
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "June,2023  –",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 2863,
+              "end": 2875
+            },
+            {
+              "page": 1,
+              "text": "May,2025",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 2876,
+              "end": 2884
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Market risk",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 2808,
+              "end": 2819
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Business Analyst  Barclays",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 2822,
+              "end": 2848
+            }
+          ],
+          "section": "WORK HISTORY",
+          "date_label": "June,2023  – May,2025",
+          "is_present": false
+        },
+        "date_label": "June,2023  – May,2025",
+        "section": "WORK HISTORY",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v70126fe038c6e3bc",
+        "type": "EDUCATION",
+        "title": "MBA Finance",
+        "org": "Pondicherry University",
+        "entry_text": "MBA Finance (2013 2015) – Pondicherry University, India B.com (2010 2013) – Saradha Gangadharan College, India",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "MBA Finance (2013 2015) –",
+              "block_id": "b87",
+              "kind": "text",
+              "start": 3795,
+              "end": 3820
+            },
+            {
+              "page": 1,
+              "text": "Pondicherry University, India",
+              "block_id": "b87",
+              "kind": "text",
+              "start": 3821,
+              "end": 3850
+            },
+            {
+              "page": 1,
+              "text": "B.com (2010 2013) –",
+              "block_id": "b88",
+              "kind": "text",
+              "start": 3852,
+              "end": 3871
+            },
+            {
+              "page": 1,
+              "text": "Saradha Gangadharan College, India",
+              "block_id": "b88",
+              "kind": "text",
+              "start": 3872,
+              "end": 3906
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2013",
+              "block_id": "b87",
+              "kind": "text",
+              "start": 3808,
+              "end": 3812
+            },
+            {
+              "page": 1,
+              "text": "2015",
+              "block_id": "b87",
+              "kind": "text",
+              "start": 3813,
+              "end": 3817
+            },
+            {
+              "page": 1,
+              "text": "2010",
+              "block_id": "b88",
+              "kind": "text",
+              "start": 3859,
+              "end": 3863
+            },
+            {
+              "page": 1,
+              "text": "2013",
+              "block_id": "b88",
+              "kind": "text",
+              "start": 3864,
+              "end": 3868
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Pondicherry University",
+              "block_id": "b87",
+              "kind": "text",
+              "start": 3821,
+              "end": 3843
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "MBA Finance",
+              "block_id": "b87",
+              "kind": "text",
+              "start": 3795,
+              "end": 3806
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2013 / 2015 / 2010",
+          "is_present": false
+        },
+        "date_label": "2013 / 2015 / 2010",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      },
+      {
+        "id": "va6cce672baba3c92",
+        "type": "PROJECT",
+        "title": "As Assistant Manager - Equity Derivatives Middle Otice - Barclays",
+        "org": "",
+        "entry_text": "As Assistant Manager - Equity Derivatives Middle Otice - Barclays • Created new dividend reconciliation between client reporting system and settlement system for synthetics desk in Barclays to achieve 400 hours savings. • Forecasted the impact of LIBOR to RFR migration in money market/equity swap re",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "As Assistant Manager - Equity Derivatives Middle Otice - Barclays",
+              "block_id": "b122",
+              "kind": "text",
+              "start": 5865,
+              "end": 5929
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "As Assistant Manager - Equity Derivatives Middle Otice - Barclays",
+              "block_id": "b122",
+              "kind": "text",
+              "start": 5865,
+              "end": 5929
+            }
+          ],
+          "section": "KEY PROJECTS",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "KEY PROJECTS",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v9fe9c8e33f76d4cc",
+        "type": "PROJECT",
+        "title": "As Senior Associate  Local Custodian - BNP Paribas",
+        "org": "",
+        "entry_text": "As Senior Associate  Local Custodian - BNP Paribas – • Scaled down 600 hours (30% of Budget) by automating corporate action events and auto acceptance of client instruction in SG market and was awarded champion of the month .",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "As Senior Associate  Local Custodian - BNP Paribas –",
+              "block_id": "b131",
+              "kind": "text",
+              "start": 6409,
+              "end": 6461
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "As Senior Associate  Local Custodian - BNP Paribas",
+              "block_id": "b131",
+              "kind": "text",
+              "start": 6409,
+              "end": 6459
+            }
+          ],
+          "section": "KEY PROJECTS",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "KEY PROJECTS",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "As Assistant Manager - Equity Derivatives Middle Otice - Barclays",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "As Assistant Manager - Equity Derivatives Middle Otice - Barclays",
+          "• Created new dividend reconciliation between client reporting system and",
+          "settlement system for synthetics desk in Barclays to achieve 400 hours",
+          "savings.",
+          "• Forecasted the impact of LIBOR to RFR migration in money market/equity",
+          "swap reconciliations. Developed project plan, provided requirements to IT,",
+          "veritied test cases and ensured smooth transition of rates in production",
+          "• Involved in migrating the middle otiice reconciliations from excel to Delphi"
+        ],
+        "raw_text": "As Assistant Manager - Equity Derivatives Middle Otice - Barclays\n• Created new dividend reconciliation between client reporting system and\nsettlement system for synthetics desk in Barclays to achieve 400 hours\nsavings.\n• Forecasted the impact of LIBOR to RFR migration in money market/equity\nswap reconciliations. Developed project plan, provided requirements to IT,\nveritied test cases and ensured smooth transition of rates in production\n• Involved in migrating the middle otiice reconciliations from excel to Delphi\n(Web application)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "As Assistant Manager - Equity Derivatives Middle Otice - Barclays",
+              "block_id": "b122",
+              "kind": "text",
+              "start": 5865,
+              "end": 5929
+            },
+            {
+              "page": 1,
+              "text": "• Created new dividend reconciliation between client reporting system and",
+              "block_id": "b123",
+              "kind": "text",
+              "start": 5931,
+              "end": 6004
+            },
+            {
+              "page": 1,
+              "text": "settlement system for synthetics desk in Barclays to achieve 400 hours",
+              "block_id": "b124",
+              "kind": "text",
+              "start": 6006,
+              "end": 6076
+            },
+            {
+              "page": 1,
+              "text": "savings.",
+              "block_id": "b125",
+              "kind": "text",
+              "start": 6078,
+              "end": 6086
+            },
+            {
+              "page": 1,
+              "text": "• Forecasted the impact of LIBOR to RFR migration in money market/equity",
+              "block_id": "b126",
+              "kind": "text",
+              "start": 6088,
+              "end": 6160
+            },
+            {
+              "page": 1,
+              "text": "swap reconciliations. Developed project plan, provided requirements to IT,",
+              "block_id": "b127",
+              "kind": "text",
+              "start": 6162,
+              "end": 6236
+            },
+            {
+              "page": 1,
+              "text": "veritied test cases and ensured smooth transition of rates in production",
+              "block_id": "b128",
+              "kind": "text",
+              "start": 6238,
+              "end": 6309
+            },
+            {
+              "page": 1,
+              "text": "• Involved in migrating the middle otiice reconciliations from excel to Delphi",
+              "block_id": "b129",
+              "kind": "text",
+              "start": 6311,
+              "end": 6388
+            },
+            {
+              "page": 1,
+              "text": "(Web application)",
+              "block_id": "b130",
+              "kind": "text",
+              "start": 6390,
+              "end": 6407
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "As Senior Associate  Local Custodian - BNP Paribas –",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "As Senior Associate  Local Custodian - BNP Paribas –",
+          "• Scaled down 600 hours (30% of Budget) by automating corporate action",
+          "events and auto acceptance of client instruction in SG market and was",
+          "awarded champion of the month",
+          "."
+        ],
+        "raw_text": "As Senior Associate  Local Custodian - BNP Paribas –\n• Scaled down 600 hours (30% of Budget) by automating corporate action\nevents and auto acceptance of client instruction in SG market and was\nawarded champion of the month\n.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "As Senior Associate  Local Custodian - BNP Paribas –",
+              "block_id": "b131",
+              "kind": "text",
+              "start": 6409,
+              "end": 6461
+            },
+            {
+              "page": 1,
+              "text": "• Scaled down 600 hours (30% of Budget) by automating corporate action",
+              "block_id": "b132",
+              "kind": "text",
+              "start": 6464,
+              "end": 6534
+            },
+            {
+              "page": 1,
+              "text": "events and auto acceptance of client instruction in SG market and was",
+              "block_id": "b133",
+              "kind": "text",
+              "start": 6535,
+              "end": 6604
+            },
+            {
+              "page": 1,
+              "text": "awarded champion of the month",
+              "block_id": "b134",
+              "kind": "text",
+              "start": 6605,
+              "end": 6634
+            },
+            {
+              "page": 1,
+              "text": ".",
+              "block_id": "b135",
+              "kind": "text",
+              "start": 6638,
+              "end": 6639
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 4,
+      "dated_share": 0.25,
+      "unresolved": 3,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 24,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": true,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 1,
+          "represented_months": 24,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 1,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v1797fad50607e5b2",
+              "label": "Business Analyst  Barclays",
+              "state": "month_range",
+              "start": [
+                2023,
+                6
+              ],
+              "end": [
+                2025,
+                5
+              ],
+              "months": 24,
+              "raw": "June,2023  – May,2025",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Market risk - Business Analyst  Barclays, Chennai – – (June,2023  –",
+                    "block_id": "b72",
+                    "kind": "text",
+                    "start": 2808,
+                    "end": 2875
+                  },
+                  {
+                    "page": 1,
+                    "text": "May,2025  )",
+                    "block_id": "b72",
+                    "kind": "text",
+                    "start": 2876,
+                    "end": 2887
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "June,2023  –",
+                    "block_id": "b72",
+                    "kind": "text",
+                    "start": 2863,
+                    "end": 2875
+                  },
+                  {
+                    "page": 1,
+                    "text": "May,2025",
+                    "block_id": "b72",
+                    "kind": "text",
+                    "start": 2876,
+                    "end": 2884
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Market risk",
+                    "block_id": "b72",
+                    "kind": "text",
+                    "start": 2808,
+                    "end": 2819
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Business Analyst  Barclays",
+                    "block_id": "b72",
+                    "kind": "text",
+                    "start": 2822,
+                    "end": 2848
+                  }
+                ],
+                "section": "WORK HISTORY",
+                "date_label": "June,2023  – May,2025",
+                "is_present": false
+              }
+            }
+          ]
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 2,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 2,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "proj_1",
+              "label": "As Assistant Manager - Equity Derivatives Middle Otice - Barclays",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "As Assistant Manager - Equity Derivatives Middle Otice - Barclays",
+                    "block_id": "b122",
+                    "kind": "text",
+                    "start": 5865,
+                    "end": 5929
+                  },
+                  {
+                    "page": 1,
+                    "text": "• Created new dividend reconciliation between client reporting system and",
+                    "block_id": "b123",
+                    "kind": "text",
+                    "start": 5931,
+                    "end": 6004
+                  },
+                  {
+                    "page": 1,
+                    "text": "settlement system for synthetics desk in Barclays to achieve 400 hours",
+                    "block_id": "b124",
+                    "kind": "text",
+                    "start": 6006,
+                    "end": 6076
+                  },
+                  {
+                    "page": 1,
+                    "text": "savings.",
+                    "block_id": "b125",
+                    "kind": "text",
+                    "start": 6078,
+                    "end": 6086
+                  },
+                  {
+                    "page": 1,
+                    "text": "• Forecasted the impact of LIBOR to RFR migration in money market/equity",
+                    "block_id": "b126",
+                    "kind": "text",
+                    "start": 6088,
+                    "end": 6160
+                  },
+                  {
+                    "page": 1,
+                    "text": "swap reconciliations. Developed project plan, provided requirements to IT,",
+                    "block_id": "b127",
+                    "kind": "text",
+                    "start": 6162,
+                    "end": 6236
+                  },
+                  {
+                    "page": 1,
+                    "text": "veritied test cases and ensured smooth transition of rates in production",
+                    "block_id": "b128",
+                    "kind": "text",
+                    "start": 6238,
+                    "end": 6309
+                  },
+                  {
+                    "page": 1,
+                    "text": "• Involved in migrating the middle otiice reconciliations from excel to Delphi",
+                    "block_id": "b129",
+                    "kind": "text",
+                    "start": 6311,
+                    "end": 6388
+                  },
+                  {
+                    "page": 1,
+                    "text": "(Web application)",
+                    "block_id": "b130",
+                    "kind": "text",
+                    "start": 6390,
+                    "end": 6407
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_2",
+              "label": "As Senior Associate  Local Custodian - BNP Paribas –",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "As Senior Associate  Local Custodian - BNP Paribas –",
+                    "block_id": "b131",
+                    "kind": "text",
+                    "start": 6409,
+                    "end": 6461
+                  },
+                  {
+                    "page": 1,
+                    "text": "• Scaled down 600 hours (30% of Budget) by automating corporate action",
+                    "block_id": "b132",
+                    "kind": "text",
+                    "start": 6464,
+                    "end": 6534
+                  },
+                  {
+                    "page": 1,
+                    "text": "events and auto acceptance of client instruction in SG market and was",
+                    "block_id": "b133",
+                    "kind": "text",
+                    "start": 6535,
+                    "end": 6604
+                  },
+                  {
+                    "page": 1,
+                    "text": "awarded champion of the month",
+                    "block_id": "b134",
+                    "kind": "text",
+                    "start": 6605,
+                    "end": 6634
+                  },
+                  {
+                    "page": 1,
+                    "text": ".",
+                    "block_id": "b135",
+                    "kind": "text",
+                    "start": 6638,
+                    "end": 6639
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 1,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v70126fe038c6e3bc",
+              "label": "MBA Finance",
+              "state": "ambiguous",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "2013 / 2015 / 2010",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "MBA Finance (2013 2015) –",
+                    "block_id": "b87",
+                    "kind": "text",
+                    "start": 3795,
+                    "end": 3820
+                  },
+                  {
+                    "page": 1,
+                    "text": "Pondicherry University, India",
+                    "block_id": "b87",
+                    "kind": "text",
+                    "start": 3821,
+                    "end": 3850
+                  },
+                  {
+                    "page": 1,
+                    "text": "B.com (2010 2013) –",
+                    "block_id": "b88",
+                    "kind": "text",
+                    "start": 3852,
+                    "end": 3871
+                  },
+                  {
+                    "page": 1,
+                    "text": "Saradha Gangadharan College, India",
+                    "block_id": "b88",
+                    "kind": "text",
+                    "start": 3872,
+                    "end": 3906
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "2013",
+                    "block_id": "b87",
+                    "kind": "text",
+                    "start": 3808,
+                    "end": 3812
+                  },
+                  {
+                    "page": 1,
+                    "text": "2015",
+                    "block_id": "b87",
+                    "kind": "text",
+                    "start": 3813,
+                    "end": 3817
+                  },
+                  {
+                    "page": 1,
+                    "text": "2010",
+                    "block_id": "b88",
+                    "kind": "text",
+                    "start": 3859,
+                    "end": 3863
+                  },
+                  {
+                    "page": 1,
+                    "text": "2013",
+                    "block_id": "b88",
+                    "kind": "text",
+                    "start": 3864,
+                    "end": 3868
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Pondicherry University",
+                    "block_id": "b87",
+                    "kind": "text",
+                    "start": 3821,
+                    "end": 3843
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "MBA Finance",
+                    "block_id": "b87",
+                    "kind": "text",
+                    "start": 3795,
+                    "end": 3806
+                  }
+                ],
+                "section": "EDUCATION",
+                "date_label": "2013 / 2015 / 2010",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 24,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": true,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 1,
+        "represented_months": 24,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 1,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v1797fad50607e5b2",
+            "label": "Business Analyst  Barclays",
+            "state": "month_range",
+            "start": [
+              2023,
+              6
+            ],
+            "end": [
+              2025,
+              5
+            ],
+            "months": 24,
+            "raw": "June,2023  – May,2025",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Market risk - Business Analyst  Barclays, Chennai – – (June,2023  –",
+                  "block_id": "b72",
+                  "kind": "text",
+                  "start": 2808,
+                  "end": 2875
+                },
+                {
+                  "page": 1,
+                  "text": "May,2025  )",
+                  "block_id": "b72",
+                  "kind": "text",
+                  "start": 2876,
+                  "end": 2887
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "June,2023  –",
+                  "block_id": "b72",
+                  "kind": "text",
+                  "start": 2863,
+                  "end": 2875
+                },
+                {
+                  "page": 1,
+                  "text": "May,2025",
+                  "block_id": "b72",
+                  "kind": "text",
+                  "start": 2876,
+                  "end": 2884
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Market risk",
+                  "block_id": "b72",
+                  "kind": "text",
+                  "start": 2808,
+                  "end": 2819
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Business Analyst  Barclays",
+                  "block_id": "b72",
+                  "kind": "text",
+                  "start": 2822,
+                  "end": 2848
+                }
+              ],
+              "section": "WORK HISTORY",
+              "date_label": "June,2023  – May,2025",
+              "is_present": false
+            }
+          }
+        ]
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 2,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 2,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "proj_1",
+            "label": "As Assistant Manager - Equity Derivatives Middle Otice - Barclays",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "As Assistant Manager - Equity Derivatives Middle Otice - Barclays",
+                  "block_id": "b122",
+                  "kind": "text",
+                  "start": 5865,
+                  "end": 5929
+                },
+                {
+                  "page": 1,
+                  "text": "• Created new dividend reconciliation between client reporting system and",
+                  "block_id": "b123",
+                  "kind": "text",
+                  "start": 5931,
+                  "end": 6004
+                },
+                {
+                  "page": 1,
+                  "text": "settlement system for synthetics desk in Barclays to achieve 400 hours",
+                  "block_id": "b124",
+                  "kind": "text",
+                  "start": 6006,
+                  "end": 6076
+                },
+                {
+                  "page": 1,
+                  "text": "savings.",
+                  "block_id": "b125",
+                  "kind": "text",
+                  "start": 6078,
+                  "end": 6086
+                },
+                {
+                  "page": 1,
+                  "text": "• Forecasted the impact of LIBOR to RFR migration in money market/equity",
+                  "block_id": "b126",
+                  "kind": "text",
+                  "start": 6088,
+                  "end": 6160
+                },
+                {
+                  "page": 1,
+                  "text": "swap reconciliations. Developed project plan, provided requirements to IT,",
+                  "block_id": "b127",
+                  "kind": "text",
+                  "start": 6162,
+                  "end": 6236
+                },
+                {
+                  "page": 1,
+                  "text": "veritied test cases and ensured smooth transition of rates in production",
+                  "block_id": "b128",
+                  "kind": "text",
+                  "start": 6238,
+                  "end": 6309
+                },
+                {
+                  "page": 1,
+                  "text": "• Involved in migrating the middle otiice reconciliations from excel to Delphi",
+                  "block_id": "b129",
+                  "kind": "text",
+                  "start": 6311,
+                  "end": 6388
+                },
+                {
+                  "page": 1,
+                  "text": "(Web application)",
+                  "block_id": "b130",
+                  "kind": "text",
+                  "start": 6390,
+                  "end": 6407
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_2",
+            "label": "As Senior Associate  Local Custodian - BNP Paribas –",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "As Senior Associate  Local Custodian - BNP Paribas –",
+                  "block_id": "b131",
+                  "kind": "text",
+                  "start": 6409,
+                  "end": 6461
+                },
+                {
+                  "page": 1,
+                  "text": "• Scaled down 600 hours (30% of Budget) by automating corporate action",
+                  "block_id": "b132",
+                  "kind": "text",
+                  "start": 6464,
+                  "end": 6534
+                },
+                {
+                  "page": 1,
+                  "text": "events and auto acceptance of client instruction in SG market and was",
+                  "block_id": "b133",
+                  "kind": "text",
+                  "start": 6535,
+                  "end": 6604
+                },
+                {
+                  "page": 1,
+                  "text": "awarded champion of the month",
+                  "block_id": "b134",
+                  "kind": "text",
+                  "start": 6605,
+                  "end": 6634
+                },
+                {
+                  "page": 1,
+                  "text": ".",
+                  "block_id": "b135",
+                  "kind": "text",
+                  "start": 6638,
+                  "end": 6639
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 1,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v70126fe038c6e3bc",
+            "label": "MBA Finance",
+            "state": "ambiguous",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "2013 / 2015 / 2010",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "MBA Finance (2013 2015) –",
+                  "block_id": "b87",
+                  "kind": "text",
+                  "start": 3795,
+                  "end": 3820
+                },
+                {
+                  "page": 1,
+                  "text": "Pondicherry University, India",
+                  "block_id": "b87",
+                  "kind": "text",
+                  "start": 3821,
+                  "end": 3850
+                },
+                {
+                  "page": 1,
+                  "text": "B.com (2010 2013) –",
+                  "block_id": "b88",
+                  "kind": "text",
+                  "start": 3852,
+                  "end": 3871
+                },
+                {
+                  "page": 1,
+                  "text": "Saradha Gangadharan College, India",
+                  "block_id": "b88",
+                  "kind": "text",
+                  "start": 3872,
+                  "end": 3906
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "2013",
+                  "block_id": "b87",
+                  "kind": "text",
+                  "start": 3808,
+                  "end": 3812
+                },
+                {
+                  "page": 1,
+                  "text": "2015",
+                  "block_id": "b87",
+                  "kind": "text",
+                  "start": 3813,
+                  "end": 3817
+                },
+                {
+                  "page": 1,
+                  "text": "2010",
+                  "block_id": "b88",
+                  "kind": "text",
+                  "start": 3859,
+                  "end": 3863
+                },
+                {
+                  "page": 1,
+                  "text": "2013",
+                  "block_id": "b88",
+                  "kind": "text",
+                  "start": 3864,
+                  "end": 3868
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Pondicherry University",
+                  "block_id": "b87",
+                  "kind": "text",
+                  "start": 3821,
+                  "end": 3843
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "MBA Finance",
+                  "block_id": "b87",
+                  "kind": "text",
+                  "start": 3795,
+                  "end": 3806
+                }
+              ],
+              "section": "EDUCATION",
+              "date_label": "2013 / 2015 / 2010",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 24,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

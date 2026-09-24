@@ -1,0 +1,655 @@
+{
+  "file_name": "ShantanuBharati.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "8384fe2f4d0063b7c5b1c79437bbc6de20ce2286eeeeefb74ca73980a297dcf2",
+  "doc_id": "8384fe2f4d0063b7c5b1c794",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 0,
+    "total_events": 2,
+    "dated_share": 0.0,
+    "unresolved": 2,
+    "ambiguous": 0,
+    "mean_event_confidence": null,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [],
+  "education": [
+    {
+      "id": "v3bb18918e6217fdf",
+      "type": "EDUCATION",
+      "company": "",
+      "title": "Bachelor of Engineering-M.E.",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Bachelor of Engineering-M.E.",
+            "block_id": "b62",
+            "kind": "text",
+            "start": 2181,
+            "end": 2209
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2020",
+            "block_id": "b64",
+            "kind": "text",
+            "start": 2245,
+            "end": 2249
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Bachelor of Engineering-M.E",
+            "block_id": "b62",
+            "kind": "text",
+            "start": 2181,
+            "end": 2208
+          }
+        ],
+        "section": "Educational Background",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    },
+    {
+      "id": "vb05c8729b9ac1a1e",
+      "type": "EDUCATION",
+      "company": "",
+      "title": "Diploma in Automobile Engineering",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Diploma in Automobile Engineering",
+            "block_id": "b65",
+            "kind": "text",
+            "start": 2251,
+            "end": 2284
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2017",
+            "block_id": "b67",
+            "kind": "text",
+            "start": 2332,
+            "end": 2336
+          },
+          {
+            "page": 1,
+            "text": "Nov 2020- Sep 2022",
+            "block_id": "b68",
+            "kind": "text",
+            "start": 2378,
+            "end": 2396
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Diploma in Automobile Engineering",
+            "block_id": "b65",
+            "kind": "text",
+            "start": 2251,
+            "end": 2284
+          }
+        ],
+        "section": "Educational Background",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 0,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "PARTIAL",
+    "coverage_analysis": "PARTIAL",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "no dated events to order",
+    "no intervals to cover"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "8384fe2f4d0063b7c5b1c794",
+    "filename": "ShantanuBharati.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [],
+    "unresolved_events": [
+      {
+        "id": "v3bb18918e6217fdf",
+        "type": "EDUCATION",
+        "title": "Bachelor of Engineering-M.E.",
+        "org": "",
+        "entry_text": "Bachelor of Engineering-M.E. MIT-COE, Kothrud, Pune SPPU Pune | 2020",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor of Engineering-M.E.",
+              "block_id": "b62",
+              "kind": "text",
+              "start": 2181,
+              "end": 2209
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2020",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 2245,
+              "end": 2249
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Engineering-M.E",
+              "block_id": "b62",
+              "kind": "text",
+              "start": 2181,
+              "end": 2208
+            }
+          ],
+          "section": "Educational Background",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Educational Background",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "vb05c8729b9ac1a1e",
+        "type": "EDUCATION",
+        "title": "Diploma in Automobile Engineering",
+        "org": "",
+        "entry_text": "Diploma in Automobile Engineering Government Polytechnic Nagpur RTMNU Nagpur | 2017 | 88% Cognizant Technology Solutions  |  Nov 2020- Sep 2022 Intelligent Document Processing & Automation Platform - Delivered an enterprise-scale IDP solution for Credit Suisse using EyeShare for document ingestion a",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Diploma in Automobile Engineering",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 2251,
+              "end": 2284
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2017",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 2332,
+              "end": 2336
+            },
+            {
+              "page": 1,
+              "text": "Nov 2020- Sep 2022",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 2378,
+              "end": 2396
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Diploma in Automobile Engineering",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 2251,
+              "end": 2284
+            }
+          ],
+          "section": "Educational Background",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Educational Background",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 0,
+      "total_events": 2,
+      "dated_share": 0.0,
+      "unresolved": 2,
+      "ambiguous": 0,
+      "mean_event_confidence": null,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 0,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "PARTIAL",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "PARTIAL",
+        "confidence": 0.3
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 2,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 2,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v3bb18918e6217fdf",
+              "label": "Bachelor of Engineering-M.E.",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Bachelor of Engineering-M.E.",
+                    "block_id": "b62",
+                    "kind": "text",
+                    "start": 2181,
+                    "end": 2209
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "2020",
+                    "block_id": "b64",
+                    "kind": "text",
+                    "start": 2245,
+                    "end": 2249
+                  }
+                ],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Bachelor of Engineering-M.E",
+                    "block_id": "b62",
+                    "kind": "text",
+                    "start": 2181,
+                    "end": 2208
+                  }
+                ],
+                "section": "Educational Background",
+                "date_label": "",
+                "is_present": false
+              }
+            },
+            {
+              "id": "vb05c8729b9ac1a1e",
+              "label": "Diploma in Automobile Engineering",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Diploma in Automobile Engineering",
+                    "block_id": "b65",
+                    "kind": "text",
+                    "start": 2251,
+                    "end": 2284
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "2017",
+                    "block_id": "b67",
+                    "kind": "text",
+                    "start": 2332,
+                    "end": 2336
+                  },
+                  {
+                    "page": 1,
+                    "text": "Nov 2020- Sep 2022",
+                    "block_id": "b68",
+                    "kind": "text",
+                    "start": 2378,
+                    "end": 2396
+                  }
+                ],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Diploma in Automobile Engineering",
+                    "block_id": "b65",
+                    "kind": "text",
+                    "start": 2251,
+                    "end": 2284
+                  }
+                ],
+                "section": "Educational Background",
+                "date_label": "",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 0,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 2,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 2,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v3bb18918e6217fdf",
+            "label": "Bachelor of Engineering-M.E.",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Bachelor of Engineering-M.E.",
+                  "block_id": "b62",
+                  "kind": "text",
+                  "start": 2181,
+                  "end": 2209
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "2020",
+                  "block_id": "b64",
+                  "kind": "text",
+                  "start": 2245,
+                  "end": 2249
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Bachelor of Engineering-M.E",
+                  "block_id": "b62",
+                  "kind": "text",
+                  "start": 2181,
+                  "end": 2208
+                }
+              ],
+              "section": "Educational Background",
+              "date_label": "",
+              "is_present": false
+            }
+          },
+          {
+            "id": "vb05c8729b9ac1a1e",
+            "label": "Diploma in Automobile Engineering",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Diploma in Automobile Engineering",
+                  "block_id": "b65",
+                  "kind": "text",
+                  "start": 2251,
+                  "end": 2284
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "2017",
+                  "block_id": "b67",
+                  "kind": "text",
+                  "start": 2332,
+                  "end": 2336
+                },
+                {
+                  "page": 1,
+                  "text": "Nov 2020- Sep 2022",
+                  "block_id": "b68",
+                  "kind": "text",
+                  "start": 2378,
+                  "end": 2396
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Diploma in Automobile Engineering",
+                  "block_id": "b65",
+                  "kind": "text",
+                  "start": 2251,
+                  "end": 2284
+                }
+              ],
+              "section": "Educational Background",
+              "date_label": "",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 0,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

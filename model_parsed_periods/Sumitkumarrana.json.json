@@ -1,0 +1,1680 @@
+{
+  "file_name": "Sumitkumarrana.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "ddbfbcd860a352c86f71dcc1e718fd17900b21867bf2b2a7a3af3097ee6cb1f9",
+  "doc_id": "ddbfbcd860a352c86f71dcc1",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 6,
+    "dated_share": 0.167,
+    "unresolved": 5,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v32b6e2bf47285a3b",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Software Engineer",
+      "start_date": "2022-08",
+      "end_date": "2026-09",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Software Engineer",
+            "block_id": "b44",
+            "kind": "text",
+            "start": 1242,
+            "end": 1259
+          },
+          {
+            "page": 1,
+            "text": "📅 01 August 2022 - Present Bangalore, India",
+            "block_id": "b46",
+            "kind": "text",
+            "start": 1305,
+            "end": 1348
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "01 August 2022 - Present",
+            "block_id": "b46",
+            "kind": "text",
+            "start": 1307,
+            "end": 1331
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Software Engineer",
+            "block_id": "b44",
+            "kind": "text",
+            "start": 1242,
+            "end": 1259
+          }
+        ],
+        "section": "EXPERIENCE",
+        "date_label": "01 August 2022 - Present",
+        "is_present": true
+      },
+      "precision": "month",
+      "date_label": "01 August 2022 - Present"
+    }
+  ],
+  "education": [
+    {
+      "id": "v3890ebf312e8216f",
+      "type": "EDUCATION",
+      "company": "Sri SatyaNarayan Engineering College",
+      "title": "",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Sri SatyaNarayan Engineering College",
+            "block_id": "b26",
+            "kind": "text",
+            "start": 754,
+            "end": 790
+          },
+          {
+            "page": 1,
+            "text": "Purnia College Purnia Bihar",
+            "block_id": "b30",
+            "kind": "text",
+            "start": 851,
+            "end": 878
+          },
+          {
+            "page": 1,
+            "text": "Millia Convent English Med. School Purnia",
+            "block_id": "b33",
+            "kind": "text",
+            "start": 903,
+            "end": 944
+          }
+        ],
+        "dates": [],
+        "company": [
+          {
+            "page": 1,
+            "text": "Sri SatyaNarayan Engineering College",
+            "block_id": "b26",
+            "kind": "text",
+            "start": 754,
+            "end": 790
+          }
+        ],
+        "title": [],
+        "section": "EDUCATION",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "T echVaulte",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "T echVaulte",
+        "• A Spring boot microservices backend application that fetches",
+        "all the mobile and TV devices that a customer owns by call- ing the mobileservice application internally and returns the",
+        "response in TMF Json Format .",
+        "• T echnology Used - Spring-Boot | | Spring Jpa"
+      ],
+      "raw_text": "T echVaulte\n• A Spring boot microservices backend application that fetches\nall the mobile and TV devices that a customer owns by call- ing the mobileservice application internally and returns the\nresponse in TMF Json Format .\n• T echnology Used - Spring-Boot | | Spring Jpa",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "T echVaulte",
+            "block_id": "b68",
+            "kind": "text",
+            "start": 2898,
+            "end": 2909
+          },
+          {
+            "page": 1,
+            "text": "• A Spring boot microservices backend application that fetches",
+            "block_id": "b69",
+            "kind": "text",
+            "start": 2910,
+            "end": 2972
+          },
+          {
+            "page": 1,
+            "text": "all the mobile and TV devices that a customer owns by call-",
+            "block_id": "b70",
+            "kind": "text",
+            "start": 2973,
+            "end": 3032
+          },
+          {
+            "page": 1,
+            "text": "ing the mobileservice application internally and returns the",
+            "block_id": "b70",
+            "kind": "text",
+            "start": 3033,
+            "end": 3093
+          },
+          {
+            "page": 1,
+            "text": "response in TMF Json Format .",
+            "block_id": "b71",
+            "kind": "text",
+            "start": 3094,
+            "end": 3123
+          },
+          {
+            "page": 1,
+            "text": "• T echnology Used - Spring-Boot | | Spring Jpa",
+            "block_id": "b72",
+            "kind": "text",
+            "start": 3124,
+            "end": 3171
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_2",
+      "name": "CRUDZilla",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "CRUDZilla",
+        "• A Spring MVC and Jsp based full stack application that allows",
+        "us to perform CRUD operations on Product object.",
+        "• T echnology Used - SpringBoot | | MySql | | JSP | | Hibernate | |"
+      ],
+      "raw_text": "CRUDZilla\n• A Spring MVC and Jsp based full stack application that allows\nus to perform CRUD operations on Product object.\n• T echnology Used - SpringBoot | | MySql | | JSP | | Hibernate | |",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "CRUDZilla",
+            "block_id": "b73",
+            "kind": "text",
+            "start": 3172,
+            "end": 3181
+          },
+          {
+            "page": 1,
+            "text": "• A Spring MVC and Jsp based full stack application that allows",
+            "block_id": "b74",
+            "kind": "text",
+            "start": 3182,
+            "end": 3245
+          },
+          {
+            "page": 1,
+            "text": "us to perform CRUD operations on Product object.",
+            "block_id": "b75",
+            "kind": "text",
+            "start": 3246,
+            "end": 3294
+          },
+          {
+            "page": 1,
+            "text": "• T echnology Used - SpringBoot | | MySql | | JSP | | Hibernate | |",
+            "block_id": "b76",
+            "kind": "text",
+            "start": 3295,
+            "end": 3362
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_3",
+      "name": "Bootstrap | | Html",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Bootstrap | | Html"
+      ],
+      "raw_text": "Bootstrap | | Html",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Bootstrap | | Html",
+            "block_id": "b77",
+            "kind": "text",
+            "start": 3363,
+            "end": 3381
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_4",
+      "name": "FlipZone",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "FlipZone",
+        "• Worked on PrimeNg and SpreadJs Library to built the e-Commerce",
+        "develpoed the ExcelSheet where endUser will take less time",
+        "for his calculation.",
+        "• T echnology Used -Angular16 | | PrimeNg | | BootStrap || Type- Script || Html ||SpreadJs"
+      ],
+      "raw_text": "FlipZone\n• Worked on PrimeNg and SpreadJs Library to built the e-Commerce\nproject. where i developed responsiveness and reactive form.I\ndevelpoed the ExcelSheet where endUser will take less time\nfor his calculation.\n• T echnology Used -Angular16 | | PrimeNg | | BootStrap || Type- Script || Html ||SpreadJs",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "FlipZone",
+            "block_id": "b78",
+            "kind": "text",
+            "start": 3382,
+            "end": 3390
+          },
+          {
+            "page": 1,
+            "text": "• Worked on PrimeNg and SpreadJs Library to built the e-Commerce",
+            "block_id": "b79",
+            "kind": "text",
+            "start": 3391,
+            "end": 3455
+          },
+          {
+            "page": 1,
+            "text": "project. where i developed responsiveness and reactive form.I",
+            "block_id": "b80",
+            "kind": "text",
+            "start": 3456,
+            "end": 3517
+          },
+          {
+            "page": 1,
+            "text": "develpoed the ExcelSheet where endUser will take less time",
+            "block_id": "b81",
+            "kind": "text",
+            "start": 3518,
+            "end": 3576
+          },
+          {
+            "page": 1,
+            "text": "for his calculation.",
+            "block_id": "b82",
+            "kind": "text",
+            "start": 3577,
+            "end": 3597
+          },
+          {
+            "page": 1,
+            "text": "• T echnology Used -Angular16 | | PrimeNg | | BootStrap || Type-",
+            "block_id": "b83",
+            "kind": "text",
+            "start": 3598,
+            "end": 3662
+          },
+          {
+            "page": 1,
+            "text": "Script || Html ||SpreadJs",
+            "block_id": "b83",
+            "kind": "text",
+            "start": 3663,
+            "end": 3688
+          }
+        ]
+      }
+    }
+  ],
+  "gaps": [],
+  "total_work_experience_entries": 1,
+  "total_projects_entries": 4,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "section EDUCATION: entry without dated header preserved as-is"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "ddbfbcd860a352c86f71dcc1",
+    "filename": "Sumitkumarrana.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v32b6e2bf47285a3b",
+        "type": "EMPLOYMENT",
+        "title": "Software Engineer",
+        "org": "",
+        "start": "2022-08",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Software Engineer\n📅 01 August 2022 - Present Bangalore, India",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Software Engineer",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 1242,
+              "end": 1259
+            },
+            {
+              "page": 1,
+              "text": "📅 01 August 2022 - Present Bangalore, India",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 1305,
+              "end": 1348
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "01 August 2022 - Present",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 1307,
+              "end": 1331
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Software Engineer",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 1242,
+              "end": 1259
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "01 August 2022 - Present",
+          "is_present": true
+        },
+        "date_label": "01 August 2022 - Present",
+        "section": "EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v3890ebf312e8216f",
+        "type": "EDUCATION",
+        "title": "",
+        "org": "Sri SatyaNarayan Engineering College",
+        "entry_text": "Sri SatyaNarayan Engineering College Purnia College Purnia Bihar Millia Convent English Med. School Purnia",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Sri SatyaNarayan Engineering College",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 754,
+              "end": 790
+            },
+            {
+              "page": 1,
+              "text": "Purnia College Purnia Bihar",
+              "block_id": "b30",
+              "kind": "text",
+              "start": 851,
+              "end": 878
+            },
+            {
+              "page": 1,
+              "text": "Millia Convent English Med. School Purnia",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 903,
+              "end": 944
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "Sri SatyaNarayan Engineering College",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 754,
+              "end": 790
+            }
+          ],
+          "title": [],
+          "section": "EDUCATION",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "EDUCATION",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v5d63726883ebe577",
+        "type": "PROJECT",
+        "title": "T echVaulte",
+        "org": "",
+        "entry_text": "T echVaulte • A Spring boot microservices backend application that fetches all the mobile and TV devices that a customer owns by call- ing the mobileservice application internally and returns the response in TMF Json Format . • T echnology Used - Spring-Boot | | Spring Jpa",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "T echVaulte",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 2898,
+              "end": 2909
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "T echVaulte",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 2898,
+              "end": 2909
+            }
+          ],
+          "section": "PROJECTS",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROJECTS",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v9147419b6c061d82",
+        "type": "PROJECT",
+        "title": "CRUDZilla",
+        "org": "",
+        "entry_text": "CRUDZilla • A Spring MVC and Jsp based full stack application that allows us to perform CRUD operations on Product object. • T echnology Used - SpringBoot | | MySql | | JSP | | Hibernate | |",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "CRUDZilla",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 3172,
+              "end": 3181
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "CRUDZilla",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 3172,
+              "end": 3181
+            }
+          ],
+          "section": "PROJECTS",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROJECTS",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v930c3fbb051ecd1a",
+        "type": "PROJECT",
+        "title": "Bootstrap | | Html",
+        "org": "",
+        "entry_text": "Bootstrap | | Html",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bootstrap | | Html",
+              "block_id": "b77",
+              "kind": "text",
+              "start": 3363,
+              "end": 3381
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bootstrap | | Html",
+              "block_id": "b77",
+              "kind": "text",
+              "start": 3363,
+              "end": 3381
+            }
+          ],
+          "section": "PROJECTS",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROJECTS",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "ve5ea1dfe8554293f",
+        "type": "PROJECT",
+        "title": "FlipZone",
+        "org": "",
+        "entry_text": "FlipZone • Worked on PrimeNg and SpreadJs Library to built the e-Commerce project. where i developed responsiveness and reactive form.I develpoed the ExcelSheet where endUser will take less time for his calculation. • T echnology Used -Angular16 | | PrimeNg | | BootStrap || Type- Script || Html ||Sp",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "FlipZone",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 3382,
+              "end": 3390
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "FlipZone",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 3382,
+              "end": 3390
+            }
+          ],
+          "section": "PROJECTS",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROJECTS",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "T echVaulte",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "T echVaulte",
+          "• A Spring boot microservices backend application that fetches",
+          "all the mobile and TV devices that a customer owns by call- ing the mobileservice application internally and returns the",
+          "response in TMF Json Format .",
+          "• T echnology Used - Spring-Boot | | Spring Jpa"
+        ],
+        "raw_text": "T echVaulte\n• A Spring boot microservices backend application that fetches\nall the mobile and TV devices that a customer owns by call- ing the mobileservice application internally and returns the\nresponse in TMF Json Format .\n• T echnology Used - Spring-Boot | | Spring Jpa",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "T echVaulte",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 2898,
+              "end": 2909
+            },
+            {
+              "page": 1,
+              "text": "• A Spring boot microservices backend application that fetches",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 2910,
+              "end": 2972
+            },
+            {
+              "page": 1,
+              "text": "all the mobile and TV devices that a customer owns by call-",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 2973,
+              "end": 3032
+            },
+            {
+              "page": 1,
+              "text": "ing the mobileservice application internally and returns the",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 3033,
+              "end": 3093
+            },
+            {
+              "page": 1,
+              "text": "response in TMF Json Format .",
+              "block_id": "b71",
+              "kind": "text",
+              "start": 3094,
+              "end": 3123
+            },
+            {
+              "page": 1,
+              "text": "• T echnology Used - Spring-Boot | | Spring Jpa",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 3124,
+              "end": 3171
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "CRUDZilla",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "CRUDZilla",
+          "• A Spring MVC and Jsp based full stack application that allows",
+          "us to perform CRUD operations on Product object.",
+          "• T echnology Used - SpringBoot | | MySql | | JSP | | Hibernate | |"
+        ],
+        "raw_text": "CRUDZilla\n• A Spring MVC and Jsp based full stack application that allows\nus to perform CRUD operations on Product object.\n• T echnology Used - SpringBoot | | MySql | | JSP | | Hibernate | |",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "CRUDZilla",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 3172,
+              "end": 3181
+            },
+            {
+              "page": 1,
+              "text": "• A Spring MVC and Jsp based full stack application that allows",
+              "block_id": "b74",
+              "kind": "text",
+              "start": 3182,
+              "end": 3245
+            },
+            {
+              "page": 1,
+              "text": "us to perform CRUD operations on Product object.",
+              "block_id": "b75",
+              "kind": "text",
+              "start": 3246,
+              "end": 3294
+            },
+            {
+              "page": 1,
+              "text": "• T echnology Used - SpringBoot | | MySql | | JSP | | Hibernate | |",
+              "block_id": "b76",
+              "kind": "text",
+              "start": 3295,
+              "end": 3362
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_3",
+        "name": "Bootstrap | | Html",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Bootstrap | | Html"
+        ],
+        "raw_text": "Bootstrap | | Html",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bootstrap | | Html",
+              "block_id": "b77",
+              "kind": "text",
+              "start": 3363,
+              "end": 3381
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_4",
+        "name": "FlipZone",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "FlipZone",
+          "• Worked on PrimeNg and SpreadJs Library to built the e-Commerce",
+          "develpoed the ExcelSheet where endUser will take less time",
+          "for his calculation.",
+          "• T echnology Used -Angular16 | | PrimeNg | | BootStrap || Type- Script || Html ||SpreadJs"
+        ],
+        "raw_text": "FlipZone\n• Worked on PrimeNg and SpreadJs Library to built the e-Commerce\nproject. where i developed responsiveness and reactive form.I\ndevelpoed the ExcelSheet where endUser will take less time\nfor his calculation.\n• T echnology Used -Angular16 | | PrimeNg | | BootStrap || Type- Script || Html ||SpreadJs",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "FlipZone",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 3382,
+              "end": 3390
+            },
+            {
+              "page": 1,
+              "text": "• Worked on PrimeNg and SpreadJs Library to built the e-Commerce",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 3391,
+              "end": 3455
+            },
+            {
+              "page": 1,
+              "text": "project. where i developed responsiveness and reactive form.I",
+              "block_id": "b80",
+              "kind": "text",
+              "start": 3456,
+              "end": 3517
+            },
+            {
+              "page": 1,
+              "text": "develpoed the ExcelSheet where endUser will take less time",
+              "block_id": "b81",
+              "kind": "text",
+              "start": 3518,
+              "end": 3576
+            },
+            {
+              "page": 1,
+              "text": "for his calculation.",
+              "block_id": "b82",
+              "kind": "text",
+              "start": 3577,
+              "end": 3597
+            },
+            {
+              "page": 1,
+              "text": "• T echnology Used -Angular16 | | PrimeNg | | BootStrap || Type-",
+              "block_id": "b83",
+              "kind": "text",
+              "start": 3598,
+              "end": 3662
+            },
+            {
+              "page": 1,
+              "text": "Script || Html ||SpreadJs",
+              "block_id": "b83",
+              "kind": "text",
+              "start": 3663,
+              "end": 3688
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 6,
+      "dated_share": 0.167,
+      "unresolved": 5,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 50,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": true,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 1,
+          "represented_months": 50,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 1,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v32b6e2bf47285a3b",
+              "label": "Software Engineer",
+              "state": "month_range",
+              "start": [
+                2022,
+                8
+              ],
+              "end": [
+                2026,
+                9
+              ],
+              "months": 50,
+              "raw": "01 August 2022 - Present",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Software Engineer",
+                    "block_id": "b44",
+                    "kind": "text",
+                    "start": 1242,
+                    "end": 1259
+                  },
+                  {
+                    "page": 1,
+                    "text": "📅 01 August 2022 - Present Bangalore, India",
+                    "block_id": "b46",
+                    "kind": "text",
+                    "start": 1305,
+                    "end": 1348
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "01 August 2022 - Present",
+                    "block_id": "b46",
+                    "kind": "text",
+                    "start": 1307,
+                    "end": 1331
+                  }
+                ],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Software Engineer",
+                    "block_id": "b44",
+                    "kind": "text",
+                    "start": 1242,
+                    "end": 1259
+                  }
+                ],
+                "section": "EXPERIENCE",
+                "date_label": "01 August 2022 - Present",
+                "is_present": true
+              }
+            }
+          ]
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 4,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 4,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "proj_1",
+              "label": "T echVaulte",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "T echVaulte",
+                    "block_id": "b68",
+                    "kind": "text",
+                    "start": 2898,
+                    "end": 2909
+                  },
+                  {
+                    "page": 1,
+                    "text": "• A Spring boot microservices backend application that fetches",
+                    "block_id": "b69",
+                    "kind": "text",
+                    "start": 2910,
+                    "end": 2972
+                  },
+                  {
+                    "page": 1,
+                    "text": "all the mobile and TV devices that a customer owns by call-",
+                    "block_id": "b70",
+                    "kind": "text",
+                    "start": 2973,
+                    "end": 3032
+                  },
+                  {
+                    "page": 1,
+                    "text": "ing the mobileservice application internally and returns the",
+                    "block_id": "b70",
+                    "kind": "text",
+                    "start": 3033,
+                    "end": 3093
+                  },
+                  {
+                    "page": 1,
+                    "text": "response in TMF Json Format .",
+                    "block_id": "b71",
+                    "kind": "text",
+                    "start": 3094,
+                    "end": 3123
+                  },
+                  {
+                    "page": 1,
+                    "text": "• T echnology Used - Spring-Boot | | Spring Jpa",
+                    "block_id": "b72",
+                    "kind": "text",
+                    "start": 3124,
+                    "end": 3171
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_2",
+              "label": "CRUDZilla",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "CRUDZilla",
+                    "block_id": "b73",
+                    "kind": "text",
+                    "start": 3172,
+                    "end": 3181
+                  },
+                  {
+                    "page": 1,
+                    "text": "• A Spring MVC and Jsp based full stack application that allows",
+                    "block_id": "b74",
+                    "kind": "text",
+                    "start": 3182,
+                    "end": 3245
+                  },
+                  {
+                    "page": 1,
+                    "text": "us to perform CRUD operations on Product object.",
+                    "block_id": "b75",
+                    "kind": "text",
+                    "start": 3246,
+                    "end": 3294
+                  },
+                  {
+                    "page": 1,
+                    "text": "• T echnology Used - SpringBoot | | MySql | | JSP | | Hibernate | |",
+                    "block_id": "b76",
+                    "kind": "text",
+                    "start": 3295,
+                    "end": 3362
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_3",
+              "label": "Bootstrap | | Html",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Bootstrap | | Html",
+                    "block_id": "b77",
+                    "kind": "text",
+                    "start": 3363,
+                    "end": 3381
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_4",
+              "label": "FlipZone",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "FlipZone",
+                    "block_id": "b78",
+                    "kind": "text",
+                    "start": 3382,
+                    "end": 3390
+                  },
+                  {
+                    "page": 1,
+                    "text": "• Worked on PrimeNg and SpreadJs Library to built the e-Commerce",
+                    "block_id": "b79",
+                    "kind": "text",
+                    "start": 3391,
+                    "end": 3455
+                  },
+                  {
+                    "page": 1,
+                    "text": "project. where i developed responsiveness and reactive form.I",
+                    "block_id": "b80",
+                    "kind": "text",
+                    "start": 3456,
+                    "end": 3517
+                  },
+                  {
+                    "page": 1,
+                    "text": "develpoed the ExcelSheet where endUser will take less time",
+                    "block_id": "b81",
+                    "kind": "text",
+                    "start": 3518,
+                    "end": 3576
+                  },
+                  {
+                    "page": 1,
+                    "text": "for his calculation.",
+                    "block_id": "b82",
+                    "kind": "text",
+                    "start": 3577,
+                    "end": 3597
+                  },
+                  {
+                    "page": 1,
+                    "text": "• T echnology Used -Angular16 | | PrimeNg | | BootStrap || Type-",
+                    "block_id": "b83",
+                    "kind": "text",
+                    "start": 3598,
+                    "end": 3662
+                  },
+                  {
+                    "page": 1,
+                    "text": "Script || Html ||SpreadJs",
+                    "block_id": "b83",
+                    "kind": "text",
+                    "start": 3663,
+                    "end": 3688
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 1,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v3890ebf312e8216f",
+              "label": "Sri SatyaNarayan Engineering College",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Sri SatyaNarayan Engineering College",
+                    "block_id": "b26",
+                    "kind": "text",
+                    "start": 754,
+                    "end": 790
+                  },
+                  {
+                    "page": 1,
+                    "text": "Purnia College Purnia Bihar",
+                    "block_id": "b30",
+                    "kind": "text",
+                    "start": 851,
+                    "end": 878
+                  },
+                  {
+                    "page": 1,
+                    "text": "Millia Convent English Med. School Purnia",
+                    "block_id": "b33",
+                    "kind": "text",
+                    "start": 903,
+                    "end": 944
+                  }
+                ],
+                "dates": [],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Sri SatyaNarayan Engineering College",
+                    "block_id": "b26",
+                    "kind": "text",
+                    "start": 754,
+                    "end": 790
+                  }
+                ],
+                "title": [],
+                "section": "EDUCATION",
+                "date_label": "",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 50,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": true,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 1,
+        "represented_months": 50,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 1,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v32b6e2bf47285a3b",
+            "label": "Software Engineer",
+            "state": "month_range",
+            "start": [
+              2022,
+              8
+            ],
+            "end": [
+              2026,
+              9
+            ],
+            "months": 50,
+            "raw": "01 August 2022 - Present",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Software Engineer",
+                  "block_id": "b44",
+                  "kind": "text",
+                  "start": 1242,
+                  "end": 1259
+                },
+                {
+                  "page": 1,
+                  "text": "📅 01 August 2022 - Present Bangalore, India",
+                  "block_id": "b46",
+                  "kind": "text",
+                  "start": 1305,
+                  "end": 1348
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "01 August 2022 - Present",
+                  "block_id": "b46",
+                  "kind": "text",
+                  "start": 1307,
+                  "end": 1331
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Software Engineer",
+                  "block_id": "b44",
+                  "kind": "text",
+                  "start": 1242,
+                  "end": 1259
+                }
+              ],
+              "section": "EXPERIENCE",
+              "date_label": "01 August 2022 - Present",
+              "is_present": true
+            }
+          }
+        ]
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 4,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 4,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "proj_1",
+            "label": "T echVaulte",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "T echVaulte",
+                  "block_id": "b68",
+                  "kind": "text",
+                  "start": 2898,
+                  "end": 2909
+                },
+                {
+                  "page": 1,
+                  "text": "• A Spring boot microservices backend application that fetches",
+                  "block_id": "b69",
+                  "kind": "text",
+                  "start": 2910,
+                  "end": 2972
+                },
+                {
+                  "page": 1,
+                  "text": "all the mobile and TV devices that a customer owns by call-",
+                  "block_id": "b70",
+                  "kind": "text",
+                  "start": 2973,
+                  "end": 3032
+                },
+                {
+                  "page": 1,
+                  "text": "ing the mobileservice application internally and returns the",
+                  "block_id": "b70",
+                  "kind": "text",
+                  "start": 3033,
+                  "end": 3093
+                },
+                {
+                  "page": 1,
+                  "text": "response in TMF Json Format .",
+                  "block_id": "b71",
+                  "kind": "text",
+                  "start": 3094,
+                  "end": 3123
+                },
+                {
+                  "page": 1,
+                  "text": "• T echnology Used - Spring-Boot | | Spring Jpa",
+                  "block_id": "b72",
+                  "kind": "text",
+                  "start": 3124,
+                  "end": 3171
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_2",
+            "label": "CRUDZilla",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "CRUDZilla",
+                  "block_id": "b73",
+                  "kind": "text",
+                  "start": 3172,
+                  "end": 3181
+                },
+                {
+                  "page": 1,
+                  "text": "• A Spring MVC and Jsp based full stack application that allows",
+                  "block_id": "b74",
+                  "kind": "text",
+                  "start": 3182,
+                  "end": 3245
+                },
+                {
+                  "page": 1,
+                  "text": "us to perform CRUD operations on Product object.",
+                  "block_id": "b75",
+                  "kind": "text",
+                  "start": 3246,
+                  "end": 3294
+                },
+                {
+                  "page": 1,
+                  "text": "• T echnology Used - SpringBoot | | MySql | | JSP | | Hibernate | |",
+                  "block_id": "b76",
+                  "kind": "text",
+                  "start": 3295,
+                  "end": 3362
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_3",
+            "label": "Bootstrap | | Html",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Bootstrap | | Html",
+                  "block_id": "b77",
+                  "kind": "text",
+                  "start": 3363,
+                  "end": 3381
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_4",
+            "label": "FlipZone",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "FlipZone",
+                  "block_id": "b78",
+                  "kind": "text",
+                  "start": 3382,
+                  "end": 3390
+                },
+                {
+                  "page": 1,
+                  "text": "• Worked on PrimeNg and SpreadJs Library to built the e-Commerce",
+                  "block_id": "b79",
+                  "kind": "text",
+                  "start": 3391,
+                  "end": 3455
+                },
+                {
+                  "page": 1,
+                  "text": "project. where i developed responsiveness and reactive form.I",
+                  "block_id": "b80",
+                  "kind": "text",
+                  "start": 3456,
+                  "end": 3517
+                },
+                {
+                  "page": 1,
+                  "text": "develpoed the ExcelSheet where endUser will take less time",
+                  "block_id": "b81",
+                  "kind": "text",
+                  "start": 3518,
+                  "end": 3576
+                },
+                {
+                  "page": 1,
+                  "text": "for his calculation.",
+                  "block_id": "b82",
+                  "kind": "text",
+                  "start": 3577,
+                  "end": 3597
+                },
+                {
+                  "page": 1,
+                  "text": "• T echnology Used -Angular16 | | PrimeNg | | BootStrap || Type-",
+                  "block_id": "b83",
+                  "kind": "text",
+                  "start": 3598,
+                  "end": 3662
+                },
+                {
+                  "page": 1,
+                  "text": "Script || Html ||SpreadJs",
+                  "block_id": "b83",
+                  "kind": "text",
+                  "start": 3663,
+                  "end": 3688
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 1,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v3890ebf312e8216f",
+            "label": "Sri SatyaNarayan Engineering College",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Sri SatyaNarayan Engineering College",
+                  "block_id": "b26",
+                  "kind": "text",
+                  "start": 754,
+                  "end": 790
+                },
+                {
+                  "page": 1,
+                  "text": "Purnia College Purnia Bihar",
+                  "block_id": "b30",
+                  "kind": "text",
+                  "start": 851,
+                  "end": 878
+                },
+                {
+                  "page": 1,
+                  "text": "Millia Convent English Med. School Purnia",
+                  "block_id": "b33",
+                  "kind": "text",
+                  "start": 903,
+                  "end": 944
+                }
+              ],
+              "dates": [],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Sri SatyaNarayan Engineering College",
+                  "block_id": "b26",
+                  "kind": "text",
+                  "start": 754,
+                  "end": 790
+                }
+              ],
+              "title": [],
+              "section": "EDUCATION",
+              "date_label": "",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 50,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

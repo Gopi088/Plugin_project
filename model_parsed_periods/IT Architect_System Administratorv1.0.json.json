@@ -1,0 +1,861 @@
+{
+  "file_name": "IT Architect_System Administratorv1.0.docx",
+  "input_mode": "recovered_original_document",
+  "input_sha256": "8f0c60b5894463389bdd2786b03841c7dddd2b90b04a228d9e07ae75f06e6c00",
+  "doc_id": "8f0c60b5894463389bdd2786",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 3,
+    "dated_share": 0.333,
+    "unresolved": 2,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.85,
+    "document_accuracy": 0.78
+  },
+  "work_experience": [
+    {
+      "id": "v546a01f6412c07e5",
+      "type": "EMPLOYMENT",
+      "company": "Start Date of the Position/Requirement *",
+      "title": "",
+      "start_date": "2025-04",
+      "end_date": "2026-03",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.85,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Start Date of the Position/Requirement * | 01-04-2025 (April’25 – Mar’26)",
+            "block_id": "b10",
+            "kind": "text",
+            "start": 392,
+            "end": 465
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "April’25 – Mar’26",
+            "block_id": "b10",
+            "kind": "text",
+            "start": 447,
+            "end": 464
+          },
+          {
+            "page": 1,
+            "text": "04-2025",
+            "block_id": "b10",
+            "kind": "text",
+            "start": 438,
+            "end": 445
+          },
+          {
+            "page": 1,
+            "text": "April’25 – Mar’26",
+            "block_id": "b12",
+            "kind": "text",
+            "start": 599,
+            "end": 616
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Start Date of the Position/Requirement",
+            "block_id": "b10",
+            "kind": "text",
+            "start": 392,
+            "end": 430
+          }
+        ],
+        "title": [],
+        "section": "Start Date of the Position/Requirement * | 01-04-2025 (April’25 – Mar’26)",
+        "date_label": "April’25 – Mar’26",
+        "is_present": false
+      },
+      "precision": "month",
+      "date_label": "April’25 – Mar’26"
+    },
+    {
+      "id": "v2997f0adeb2ac47b",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Job Description: IT Architect_System Administrator",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Job Description: IT Architect_System Administrator",
+            "block_id": "b22",
+            "kind": "text",
+            "start": 1108,
+            "end": 1158
+          }
+        ],
+        "dates": [],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Job Description: IT Architect_System Administrator",
+            "block_id": "b22",
+            "kind": "text",
+            "start": 1108,
+            "end": 1158
+          }
+        ],
+        "section": "Start Date of the Position/Requirement * | 01-04-2025 (April’25 – Mar’26)",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    },
+    {
+      "id": "vb7876d635acd9644",
+      "type": "EMPLOYMENT",
+      "company": "Certification",
+      "title": "Solution Architect or System administration",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Certification as Solution Architect or System administration",
+            "block_id": "b88",
+            "kind": "text",
+            "start": 6518,
+            "end": 6578
+          }
+        ],
+        "dates": [],
+        "company": [
+          {
+            "page": 1,
+            "text": "Certification",
+            "block_id": "b88",
+            "kind": "text",
+            "start": 6518,
+            "end": 6531
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Solution Architect or System administration",
+            "block_id": "b88",
+            "kind": "text",
+            "start": 6535,
+            "end": 6578
+          }
+        ],
+        "section": "Experience:",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    }
+  ],
+  "education": [],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 3,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "PARTIAL",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "entry e0: 2 ranges; first kept, rest preserved in evidence"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "8f0c60b5894463389bdd2786",
+    "filename": "IT Architect_System Administratorv1.0.docx",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "v546a01f6412c07e5",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Start Date of the Position/Requirement *",
+        "start": "2025-04",
+        "end": "2026-03",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.85,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Start Date of the Position/Requirement * | 01-04-2025 (April’25 – Mar’26)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Start Date of the Position/Requirement * | 01-04-2025 (April’25 – Mar’26)",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 392,
+              "end": 465
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "April’25 – Mar’26",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 447,
+              "end": 464
+            },
+            {
+              "page": 1,
+              "text": "04-2025",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 438,
+              "end": 445
+            },
+            {
+              "page": 1,
+              "text": "April’25 – Mar’26",
+              "block_id": "b12",
+              "kind": "text",
+              "start": 599,
+              "end": 616
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Start Date of the Position/Requirement",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 392,
+              "end": 430
+            }
+          ],
+          "title": [],
+          "section": "Start Date of the Position/Requirement * | 01-04-2025 (April’25 – Mar’26)",
+          "date_label": "April’25 – Mar’26",
+          "is_present": false
+        },
+        "date_label": "April’25 – Mar’26",
+        "section": "Start Date of the Position/Requirement * | 01-04-2025 (April’25 – Mar’26)",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v2997f0adeb2ac47b",
+        "type": "EMPLOYMENT",
+        "title": "Job Description: IT Architect_System Administrator",
+        "org": "",
+        "entry_text": "Job Description: IT Architect_System Administrator Position Overview: We are seeking a skilled IT Infra architect and System Administrator who will be responsible for for implementing and managing comprehensive IT infrastructure and Integrated Solutions for applications for managed services delivery",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Job Description: IT Architect_System Administrator",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 1108,
+              "end": 1158
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Job Description: IT Architect_System Administrator",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 1108,
+              "end": 1158
+            }
+          ],
+          "section": "Start Date of the Position/Requirement * | 01-04-2025 (April’25 – Mar’26)",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Start Date of the Position/Requirement * | 01-04-2025 (April’25 – Mar’26)",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "vb7876d635acd9644",
+        "type": "EMPLOYMENT",
+        "title": "Solution Architect or System administration",
+        "org": "Certification",
+        "entry_text": "Certification as Solution Architect or System administration Certification on Linux would be an advantange. | Job Description: IT Architect_System Administrator Position Overview: We are seeking a skilled IT Infra architect and System Administrator who will be responsible for for implementing and ma",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Certification as Solution Architect or System administration",
+              "block_id": "b88",
+              "kind": "text",
+              "start": 6518,
+              "end": 6578
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "Certification",
+              "block_id": "b88",
+              "kind": "text",
+              "start": 6518,
+              "end": 6531
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Solution Architect or System administration",
+              "block_id": "b88",
+              "kind": "text",
+              "start": 6535,
+              "end": 6578
+            }
+          ],
+          "section": "Experience:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Experience:",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "v2997f0adeb2ac47b",
+            "vb7876d635acd9644"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 3,
+      "dated_share": 0.333,
+      "unresolved": 2,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.85,
+      "document_accuracy": 0.78
+    },
+    "total_represented_months": 12,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 3,
+          "dated_periods": 1,
+          "represented_months": 12,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 1,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 2,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v546a01f6412c07e5",
+              "label": "Start Date of the Position/Requirement *",
+              "state": "month_range",
+              "start": [
+                2025,
+                4
+              ],
+              "end": [
+                2026,
+                3
+              ],
+              "months": 12,
+              "raw": "April’25 – Mar’26",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Start Date of the Position/Requirement * | 01-04-2025 (April’25 – Mar’26)",
+                    "block_id": "b10",
+                    "kind": "text",
+                    "start": 392,
+                    "end": 465
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "April’25 – Mar’26",
+                    "block_id": "b10",
+                    "kind": "text",
+                    "start": 447,
+                    "end": 464
+                  },
+                  {
+                    "page": 1,
+                    "text": "04-2025",
+                    "block_id": "b10",
+                    "kind": "text",
+                    "start": 438,
+                    "end": 445
+                  },
+                  {
+                    "page": 1,
+                    "text": "April’25 – Mar’26",
+                    "block_id": "b12",
+                    "kind": "text",
+                    "start": 599,
+                    "end": 616
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Start Date of the Position/Requirement",
+                    "block_id": "b10",
+                    "kind": "text",
+                    "start": 392,
+                    "end": 430
+                  }
+                ],
+                "title": [],
+                "section": "Start Date of the Position/Requirement * | 01-04-2025 (April’25 – Mar’26)",
+                "date_label": "April’25 – Mar’26",
+                "is_present": false
+              }
+            },
+            {
+              "id": "v2997f0adeb2ac47b",
+              "label": "Job Description: IT Architect_System Administrator",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Job Description: IT Architect_System Administrator",
+                    "block_id": "b22",
+                    "kind": "text",
+                    "start": 1108,
+                    "end": 1158
+                  }
+                ],
+                "dates": [],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Job Description: IT Architect_System Administrator",
+                    "block_id": "b22",
+                    "kind": "text",
+                    "start": 1108,
+                    "end": 1158
+                  }
+                ],
+                "section": "Start Date of the Position/Requirement * | 01-04-2025 (April’25 – Mar’26)",
+                "date_label": "",
+                "is_present": false
+              }
+            },
+            {
+              "id": "vb7876d635acd9644",
+              "label": "Solution Architect or System administration",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Certification as Solution Architect or System administration",
+                    "block_id": "b88",
+                    "kind": "text",
+                    "start": 6518,
+                    "end": 6578
+                  }
+                ],
+                "dates": [],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Certification",
+                    "block_id": "b88",
+                    "kind": "text",
+                    "start": 6518,
+                    "end": 6531
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Solution Architect or System administration",
+                    "block_id": "b88",
+                    "kind": "text",
+                    "start": 6535,
+                    "end": 6578
+                  }
+                ],
+                "section": "Experience:",
+                "date_label": "",
+                "is_present": false
+              }
+            }
+          ]
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        }
+      },
+      "represented_months": 12,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "recovered_from": "/mnt/c/Users/Gopi Gedar/Eragina Digital Solutions Private Limited/Eragina Digital - Documents/RESUMES/resume/RESUMES_FLAT/IT Architect_System Administratorv1.0.docx",
+  "original_sha256": "6c80b8f66559d88cc592c4f1765b8d2273770dba2966cae2511942e53b1b7706",
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 3,
+        "dated_periods": 1,
+        "represented_months": 12,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 1,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 2,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v546a01f6412c07e5",
+            "label": "Start Date of the Position/Requirement *",
+            "state": "month_range",
+            "start": [
+              2025,
+              4
+            ],
+            "end": [
+              2026,
+              3
+            ],
+            "months": 12,
+            "raw": "April’25 – Mar’26",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Start Date of the Position/Requirement * | 01-04-2025 (April’25 – Mar’26)",
+                  "block_id": "b10",
+                  "kind": "text",
+                  "start": 392,
+                  "end": 465
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "April’25 – Mar’26",
+                  "block_id": "b10",
+                  "kind": "text",
+                  "start": 447,
+                  "end": 464
+                },
+                {
+                  "page": 1,
+                  "text": "04-2025",
+                  "block_id": "b10",
+                  "kind": "text",
+                  "start": 438,
+                  "end": 445
+                },
+                {
+                  "page": 1,
+                  "text": "April’25 – Mar’26",
+                  "block_id": "b12",
+                  "kind": "text",
+                  "start": 599,
+                  "end": 616
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Start Date of the Position/Requirement",
+                  "block_id": "b10",
+                  "kind": "text",
+                  "start": 392,
+                  "end": 430
+                }
+              ],
+              "title": [],
+              "section": "Start Date of the Position/Requirement * | 01-04-2025 (April’25 – Mar’26)",
+              "date_label": "April’25 – Mar’26",
+              "is_present": false
+            }
+          },
+          {
+            "id": "v2997f0adeb2ac47b",
+            "label": "Job Description: IT Architect_System Administrator",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Job Description: IT Architect_System Administrator",
+                  "block_id": "b22",
+                  "kind": "text",
+                  "start": 1108,
+                  "end": 1158
+                }
+              ],
+              "dates": [],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Job Description: IT Architect_System Administrator",
+                  "block_id": "b22",
+                  "kind": "text",
+                  "start": 1108,
+                  "end": 1158
+                }
+              ],
+              "section": "Start Date of the Position/Requirement * | 01-04-2025 (April’25 – Mar’26)",
+              "date_label": "",
+              "is_present": false
+            }
+          },
+          {
+            "id": "vb7876d635acd9644",
+            "label": "Solution Architect or System administration",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Certification as Solution Architect or System administration",
+                  "block_id": "b88",
+                  "kind": "text",
+                  "start": 6518,
+                  "end": 6578
+                }
+              ],
+              "dates": [],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Certification",
+                  "block_id": "b88",
+                  "kind": "text",
+                  "start": 6518,
+                  "end": 6531
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Solution Architect or System administration",
+                  "block_id": "b88",
+                  "kind": "text",
+                  "start": 6535,
+                  "end": 6578
+                }
+              ],
+              "section": "Experience:",
+              "date_label": "",
+              "is_present": false
+            }
+          }
+        ]
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      }
+    },
+    "represented_months": 12,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

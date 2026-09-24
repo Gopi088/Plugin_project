@@ -1,0 +1,444 @@
+{
+  "file_name": "PBhanuPrakash.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "1d7e60eedba5d7cefb1d5f474eeed4978cee13440fd3fefba34c1147e72d24bc",
+  "doc_id": "1d7e60eedba5d7cefb1d5f47",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 3,
+    "dated_share": 0.667,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "ocr_pages": []
+  },
+  "work_experience": [
+    {
+      "id": "vbe6c2a1307310188",
+      "type": "EMPLOYMENT",
+      "company": "Tata Consultancy Services (TCS",
+      "title": "ServiceNow  Developer",
+      "start_date": "2022-03",
+      "end_date": "2025-08",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "ServiceNow  Developer  |  Tata  Consultancy  Services  (TCS)  |  Mar  2022  –  Aug  2025",
+            "block_id": "b234",
+            "kind": "text",
+            "start": 2673,
+            "end": 2761
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Mar  2022  –  Aug  2025",
+            "block_id": "b234",
+            "kind": "text",
+            "start": 2738,
+            "end": 2761
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Tata  Consultancy  Services  (TCS",
+            "block_id": "b234",
+            "kind": "text",
+            "start": 2699,
+            "end": 2732
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "ServiceNow  Developer",
+            "block_id": "b234",
+            "kind": "text",
+            "start": 2673,
+            "end": 2694
+          }
+        ],
+        "section": "PROFESSIONAL  EXPERIENCE",
+        "date_label": "Mar  2022  –  Aug  2025",
+        "is_present": false
+      }
+    },
+    {
+      "id": "v1db527148c398633",
+      "type": "EMPLOYMENT",
+      "company": "Consultiquo (Endow Consultants Pvt. Ltd",
+      "title": "ServiceNow  Developer",
+      "start_date": "2025-09",
+      "end_date": "2026-09",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "ServiceNow  Developer  |  Consultiquo  (Endow  Consultants  Pvt.  Ltd.)  |  Sep  2025  –  Present  Client:  PepsiCo  |  On-site",
+            "block_id": "b88",
+            "kind": "text",
+            "start": 1139,
+            "end": 1266
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Sep  2025  –  Present",
+            "block_id": "b88",
+            "kind": "text",
+            "start": 1215,
+            "end": 1236
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Consultiquo  (Endow  Consultants  Pvt.  Ltd",
+            "block_id": "b88",
+            "kind": "text",
+            "start": 1165,
+            "end": 1208
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "ServiceNow  Developer",
+            "block_id": "b88",
+            "kind": "text",
+            "start": 1139,
+            "end": 1160
+          }
+        ],
+        "section": "PROFESSIONAL  EXPERIENCE",
+        "date_label": "Sep  2025  –  Present",
+        "is_present": true
+      }
+    },
+    {
+      "id": "va7a37a06bb8e7608",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Designer",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Designer",
+            "block_id": "b237",
+            "kind": "text",
+            "start": 2775,
+            "end": 2783
+          }
+        ],
+        "dates": [],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Designer",
+            "block_id": "b237",
+            "kind": "text",
+            "start": 2775,
+            "end": 2783
+          }
+        ],
+        "section": "PROFESSIONAL  EXPERIENCE",
+        "date_label": "",
+        "is_present": false
+      }
+    }
+  ],
+  "education": [],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 3,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "PARTIAL",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [],
+  "raw_pipeline_dto": {
+    "doc_id": "1d7e60eedba5d7cefb1d5f47",
+    "filename": "PBhanuPrakash.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "vbe6c2a1307310188",
+        "type": "EMPLOYMENT",
+        "title": "ServiceNow  Developer",
+        "org": "Tata Consultancy Services (TCS",
+        "start": "2022-03",
+        "end": "2025-08",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "ServiceNow  Developer  |  Tata  Consultancy  Services  (TCS)  |  Mar  2022  –  Aug  2025",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "ServiceNow  Developer  |  Tata  Consultancy  Services  (TCS)  |  Mar  2022  –  Aug  2025",
+              "block_id": "b234",
+              "kind": "text",
+              "start": 2673,
+              "end": 2761
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Mar  2022  –  Aug  2025",
+              "block_id": "b234",
+              "kind": "text",
+              "start": 2738,
+              "end": 2761
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Tata  Consultancy  Services  (TCS",
+              "block_id": "b234",
+              "kind": "text",
+              "start": 2699,
+              "end": 2732
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "ServiceNow  Developer",
+              "block_id": "b234",
+              "kind": "text",
+              "start": 2673,
+              "end": 2694
+            }
+          ],
+          "section": "PROFESSIONAL  EXPERIENCE",
+          "date_label": "Mar  2022  –  Aug  2025",
+          "is_present": false
+        },
+        "date_label": "Mar  2022  –  Aug  2025",
+        "section": "PROFESSIONAL  EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v1db527148c398633",
+        "type": "EMPLOYMENT",
+        "title": "ServiceNow  Developer",
+        "org": "Consultiquo (Endow Consultants Pvt. Ltd",
+        "start": "2025-09",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "ServiceNow  Developer  |  Consultiquo  (Endow  Consultants  Pvt.  Ltd.)  |  Sep  2025  –  Present  Client:  PepsiCo  |  On-site",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "ServiceNow  Developer  |  Consultiquo  (Endow  Consultants  Pvt.  Ltd.)  |  Sep  2025  –  Present  Client:  PepsiCo  |  On-site",
+              "block_id": "b88",
+              "kind": "text",
+              "start": 1139,
+              "end": 1266
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Sep  2025  –  Present",
+              "block_id": "b88",
+              "kind": "text",
+              "start": 1215,
+              "end": 1236
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Consultiquo  (Endow  Consultants  Pvt.  Ltd",
+              "block_id": "b88",
+              "kind": "text",
+              "start": 1165,
+              "end": 1208
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "ServiceNow  Developer",
+              "block_id": "b88",
+              "kind": "text",
+              "start": 1139,
+              "end": 1160
+            }
+          ],
+          "section": "PROFESSIONAL  EXPERIENCE",
+          "date_label": "Sep  2025  –  Present",
+          "is_present": true
+        },
+        "date_label": "Sep  2025  –  Present",
+        "section": "PROFESSIONAL  EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "va7a37a06bb8e7608",
+        "type": "EMPLOYMENT",
+        "title": "Designer",
+        "org": "",
+        "entry_text": "Designer & Inbound Actions: Designed inbound email actions via Flow",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Designer",
+              "block_id": "b237",
+              "kind": "text",
+              "start": 2775,
+              "end": 2783
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Designer",
+              "block_id": "b237",
+              "kind": "text",
+              "start": 2775,
+              "end": 2783
+            }
+          ],
+          "section": "PROFESSIONAL  EXPERIENCE",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROFESSIONAL  EXPERIENCE",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "va7a37a06bb8e7608"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 3,
+      "dated_share": 0.667,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "ocr_pages": []
+    },
+    "total_represented_months": 55,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

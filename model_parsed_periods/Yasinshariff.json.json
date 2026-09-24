@@ -1,0 +1,835 @@
+{
+  "file_name": "Yasinshariff.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "e1112b62f41156d111ce72cbba42b72237b207879342a7d1da2c27f10d255c06",
+  "doc_id": "e1112b62f41156d111ce72cb",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 2,
+    "dated_share": 0.5,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [],
+  "education": [
+    {
+      "id": "vf649f8a4bb876a4d",
+      "type": "EDUCATION",
+      "company": "University of Madras",
+      "title": "Bachelor of Commerce",
+      "start_date": "2018-06",
+      "end_date": "2021-06",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "M.B.A. in Financial Management |University of Madras ( Correspondence)",
+            "block_id": "b16",
+            "kind": "text",
+            "start": 956,
+            "end": 1026
+          },
+          {
+            "page": 1,
+            "text": "Bachelor of Commerce |The Quaide Milleth College for Men, University of Madras",
+            "block_id": "b18",
+            "kind": "text",
+            "start": 1055,
+            "end": 1133
+          },
+          {
+            "page": 1,
+            "text": "06/2018 - 06/2021 Medavakkam, Chennai.",
+            "block_id": "b19",
+            "kind": "text",
+            "start": 1135,
+            "end": 1173
+          },
+          {
+            "page": 1,
+            "text": "Current Experience:",
+            "block_id": "b19",
+            "kind": "text",
+            "start": 1175,
+            "end": 1194
+          },
+          {
+            "page": 1,
+            "text": "Role: Senior Associate TCS Product: Corporate Actions and Reconciliations",
+            "block_id": "b20",
+            "kind": "text",
+            "start": 1196,
+            "end": 1269
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "06/2018 - 06/2021",
+            "block_id": "b19",
+            "kind": "text",
+            "start": 1135,
+            "end": 1152
+          },
+          {
+            "page": 1,
+            "text": "08-2024",
+            "block_id": "b21",
+            "kind": "text",
+            "start": 1280,
+            "end": 1287
+          },
+          {
+            "page": 1,
+            "text": "2026",
+            "block_id": "b21",
+            "kind": "text",
+            "start": 1297,
+            "end": 1301
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "University of Madras",
+            "block_id": "b16",
+            "kind": "text",
+            "start": 988,
+            "end": 1008
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Bachelor of Commerce",
+            "block_id": "b18",
+            "kind": "text",
+            "start": 1055,
+            "end": 1075
+          }
+        ],
+        "section": "Education:",
+        "date_label": "06/2018 - 06/2021",
+        "is_present": false
+      },
+      "precision": "month",
+      "date_label": "06/2018 - 06/2021"
+    },
+    {
+      "id": "v972bed0e13fbf054",
+      "type": "EDUCATION",
+      "company": "Yale University.",
+      "title": "",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "• Financial Markets from Yale University.",
+            "block_id": "b68",
+            "kind": "text",
+            "start": 4179,
+            "end": 4220
+          }
+        ],
+        "dates": [],
+        "company": [
+          {
+            "page": 1,
+            "text": "Yale University",
+            "block_id": "b68",
+            "kind": "text",
+            "start": 4204,
+            "end": 4219
+          }
+        ],
+        "title": [],
+        "section": "• Financial Markets from Yale University.",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 0,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "section EDUCATION: entry without dated header preserved as-is"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "e1112b62f41156d111ce72cb",
+    "filename": "Yasinshariff.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "vf649f8a4bb876a4d",
+        "type": "EDUCATION",
+        "title": "Bachelor of Commerce",
+        "org": "University of Madras",
+        "start": "2018-06",
+        "end": "2021-06",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "M.B.A. in Financial Management |University of Madras ( Correspondence)\nBachelor of Commerce |The Quaide Milleth College for Men, University of Madras\n06/2018 - 06/2021 Medavakkam, Chennai.\nCurrent Experience:\nRole: Senior Associate TCS Product: Corporate Actions and Reconciliations",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "M.B.A. in Financial Management |University of Madras ( Correspondence)",
+              "block_id": "b16",
+              "kind": "text",
+              "start": 956,
+              "end": 1026
+            },
+            {
+              "page": 1,
+              "text": "Bachelor of Commerce |The Quaide Milleth College for Men, University of Madras",
+              "block_id": "b18",
+              "kind": "text",
+              "start": 1055,
+              "end": 1133
+            },
+            {
+              "page": 1,
+              "text": "06/2018 - 06/2021 Medavakkam, Chennai.",
+              "block_id": "b19",
+              "kind": "text",
+              "start": 1135,
+              "end": 1173
+            },
+            {
+              "page": 1,
+              "text": "Current Experience:",
+              "block_id": "b19",
+              "kind": "text",
+              "start": 1175,
+              "end": 1194
+            },
+            {
+              "page": 1,
+              "text": "Role: Senior Associate TCS Product: Corporate Actions and Reconciliations",
+              "block_id": "b20",
+              "kind": "text",
+              "start": 1196,
+              "end": 1269
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "06/2018 - 06/2021",
+              "block_id": "b19",
+              "kind": "text",
+              "start": 1135,
+              "end": 1152
+            },
+            {
+              "page": 1,
+              "text": "08-2024",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 1280,
+              "end": 1287
+            },
+            {
+              "page": 1,
+              "text": "2026",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 1297,
+              "end": 1301
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "University of Madras",
+              "block_id": "b16",
+              "kind": "text",
+              "start": 988,
+              "end": 1008
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Commerce",
+              "block_id": "b18",
+              "kind": "text",
+              "start": 1055,
+              "end": 1075
+            }
+          ],
+          "section": "Education:",
+          "date_label": "06/2018 - 06/2021",
+          "is_present": false
+        },
+        "date_label": "06/2018 - 06/2021",
+        "section": "Education:",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v972bed0e13fbf054",
+        "type": "EDUCATION",
+        "title": "",
+        "org": "Yale University.",
+        "entry_text": "• Financial Markets from Yale University.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "• Financial Markets from Yale University.",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 4179,
+              "end": 4220
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "Yale University",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 4204,
+              "end": 4219
+            }
+          ],
+          "title": [],
+          "section": "• Financial Markets from Yale University.",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "• Financial Markets from Yale University.",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 2,
+      "dated_share": 0.5,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 37,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 2,
+          "dated_periods": 1,
+          "represented_months": 37,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 1,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 1,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "vf649f8a4bb876a4d",
+              "label": "Bachelor of Commerce",
+              "state": "month_range",
+              "start": [
+                2018,
+                6
+              ],
+              "end": [
+                2021,
+                6
+              ],
+              "months": 37,
+              "raw": "06/2018 - 06/2021",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "M.B.A. in Financial Management |University of Madras ( Correspondence)",
+                    "block_id": "b16",
+                    "kind": "text",
+                    "start": 956,
+                    "end": 1026
+                  },
+                  {
+                    "page": 1,
+                    "text": "Bachelor of Commerce |The Quaide Milleth College for Men, University of Madras",
+                    "block_id": "b18",
+                    "kind": "text",
+                    "start": 1055,
+                    "end": 1133
+                  },
+                  {
+                    "page": 1,
+                    "text": "06/2018 - 06/2021 Medavakkam, Chennai.",
+                    "block_id": "b19",
+                    "kind": "text",
+                    "start": 1135,
+                    "end": 1173
+                  },
+                  {
+                    "page": 1,
+                    "text": "Current Experience:",
+                    "block_id": "b19",
+                    "kind": "text",
+                    "start": 1175,
+                    "end": 1194
+                  },
+                  {
+                    "page": 1,
+                    "text": "Role: Senior Associate TCS Product: Corporate Actions and Reconciliations",
+                    "block_id": "b20",
+                    "kind": "text",
+                    "start": 1196,
+                    "end": 1269
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "06/2018 - 06/2021",
+                    "block_id": "b19",
+                    "kind": "text",
+                    "start": 1135,
+                    "end": 1152
+                  },
+                  {
+                    "page": 1,
+                    "text": "08-2024",
+                    "block_id": "b21",
+                    "kind": "text",
+                    "start": 1280,
+                    "end": 1287
+                  },
+                  {
+                    "page": 1,
+                    "text": "2026",
+                    "block_id": "b21",
+                    "kind": "text",
+                    "start": 1297,
+                    "end": 1301
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "University of Madras",
+                    "block_id": "b16",
+                    "kind": "text",
+                    "start": 988,
+                    "end": 1008
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Bachelor of Commerce",
+                    "block_id": "b18",
+                    "kind": "text",
+                    "start": 1055,
+                    "end": 1075
+                  }
+                ],
+                "section": "Education:",
+                "date_label": "06/2018 - 06/2021",
+                "is_present": false
+              }
+            },
+            {
+              "id": "v972bed0e13fbf054",
+              "label": "Yale University.",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "• Financial Markets from Yale University.",
+                    "block_id": "b68",
+                    "kind": "text",
+                    "start": 4179,
+                    "end": 4220
+                  }
+                ],
+                "dates": [],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Yale University",
+                    "block_id": "b68",
+                    "kind": "text",
+                    "start": 4204,
+                    "end": 4219
+                  }
+                ],
+                "title": [],
+                "section": "• Financial Markets from Yale University.",
+                "date_label": "",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 37,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 2,
+        "dated_periods": 1,
+        "represented_months": 37,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 1,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 1,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "vf649f8a4bb876a4d",
+            "label": "Bachelor of Commerce",
+            "state": "month_range",
+            "start": [
+              2018,
+              6
+            ],
+            "end": [
+              2021,
+              6
+            ],
+            "months": 37,
+            "raw": "06/2018 - 06/2021",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "M.B.A. in Financial Management |University of Madras ( Correspondence)",
+                  "block_id": "b16",
+                  "kind": "text",
+                  "start": 956,
+                  "end": 1026
+                },
+                {
+                  "page": 1,
+                  "text": "Bachelor of Commerce |The Quaide Milleth College for Men, University of Madras",
+                  "block_id": "b18",
+                  "kind": "text",
+                  "start": 1055,
+                  "end": 1133
+                },
+                {
+                  "page": 1,
+                  "text": "06/2018 - 06/2021 Medavakkam, Chennai.",
+                  "block_id": "b19",
+                  "kind": "text",
+                  "start": 1135,
+                  "end": 1173
+                },
+                {
+                  "page": 1,
+                  "text": "Current Experience:",
+                  "block_id": "b19",
+                  "kind": "text",
+                  "start": 1175,
+                  "end": 1194
+                },
+                {
+                  "page": 1,
+                  "text": "Role: Senior Associate TCS Product: Corporate Actions and Reconciliations",
+                  "block_id": "b20",
+                  "kind": "text",
+                  "start": 1196,
+                  "end": 1269
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "06/2018 - 06/2021",
+                  "block_id": "b19",
+                  "kind": "text",
+                  "start": 1135,
+                  "end": 1152
+                },
+                {
+                  "page": 1,
+                  "text": "08-2024",
+                  "block_id": "b21",
+                  "kind": "text",
+                  "start": 1280,
+                  "end": 1287
+                },
+                {
+                  "page": 1,
+                  "text": "2026",
+                  "block_id": "b21",
+                  "kind": "text",
+                  "start": 1297,
+                  "end": 1301
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "University of Madras",
+                  "block_id": "b16",
+                  "kind": "text",
+                  "start": 988,
+                  "end": 1008
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Bachelor of Commerce",
+                  "block_id": "b18",
+                  "kind": "text",
+                  "start": 1055,
+                  "end": 1075
+                }
+              ],
+              "section": "Education:",
+              "date_label": "06/2018 - 06/2021",
+              "is_present": false
+            }
+          },
+          {
+            "id": "v972bed0e13fbf054",
+            "label": "Yale University.",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "• Financial Markets from Yale University.",
+                  "block_id": "b68",
+                  "kind": "text",
+                  "start": 4179,
+                  "end": 4220
+                }
+              ],
+              "dates": [],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Yale University",
+                  "block_id": "b68",
+                  "kind": "text",
+                  "start": 4204,
+                  "end": 4219
+                }
+              ],
+              "title": [],
+              "section": "• Financial Markets from Yale University.",
+              "date_label": "",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 37,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

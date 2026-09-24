@@ -52,39 +52,11 @@ var RT_VM = (() => {
       visibleEvents: events.filter(e => !e.hidden), hiddenItems: [...events, ...periods].filter(e => e.hidden) };
   }
   function formatEvaluation(report, dto) {
-    let bench = '';
-    if (report) {
-      let score = report?.calibrated_accuracy ?? report?.overall_accuracy;
-      if (typeof score === 'number' && Number.isFinite(score) && score >= 0 && score <= 1) {
-        if (score >= 1.0) score = report?.gap_confidence?.mean_predicted ?? 0.90;
-        bench = `Benchmark: ${(score * 100).toFixed(1).replace(/\.0$/, '')}%`;
-      }
-    }
-    if (dto) {
-      let docAcc = dto?.quality?.document_accuracy;
-      if (typeof docAcc !== 'number') {
-        const events = dto?.timeline || [];
-        const unresolved = dto?.unresolved_events || [];
-        const total = events.length + unresolved.length;
-        if (total > 0) {
-          const confs = events.map(e => typeof e.confidence === 'number' ? e.confidence : 0.88);
-          const avg = confs.reduce((a, b) => a + b, 0) / (confs.length || 1);
-          const amb = events.filter(e => e.status === 'AMBIGUOUS').length;
-          docAcc = Math.max(0.68, Math.min(0.96, avg - (amb / total) * 0.08 - (unresolved.length / total) * 0.14));
-        } else {
-          docAcc = 0.85;
-        }
-      }
-      const pct = Math.round(docAcc * 100);
-      const count = (dto?.timeline || []).length;
-      return `Extraction accuracy for this resume: ${pct}% · ${count} verified timeline entr${count === 1 ? 'y' : 'ies'}${bench ? ' · ' + bench : ''}`;
-    }
-    let score=report?.calibrated_accuracy ?? report?.overall_accuracy,cases=report?.cases;
+    const score=report?.overall_accuracy,cases=report?.cases;
     if(typeof score!=='number' || !Number.isFinite(score) || score<0 || score>1 || !Number.isInteger(cases) || cases<1)
       return 'Evaluation accuracy: unavailable. This resume’s accuracy has not been independently measured.';
-    if(score >= 1.0) score = report?.gap_confidence?.mean_predicted ?? 0.90;
     const date=typeof report.generated_at==='string' && /^\d{4}-\d{2}-\d{2}T/.test(report.generated_at)?' · '+report.generated_at.slice(0,10):'';
-    return `Evaluation accuracy: ${(score*100).toFixed(1).replace(/\.0$/,'')}% · ${cases} labeled test cases${date}. Calibrated benchmark score, not this resume’s verified accuracy.`;
+    return `Evaluation accuracy: ${(score*100).toFixed(1).replace(/\.0$/,'')}% · ${cases} labeled test cases${date}. Benchmark F1 score, not this resume’s verified accuracy.`;
   }
   return { mapTimelineResultToRecruiterViewModel, BANNED_CLAIMS, formatEvaluation };
 })();

@@ -1,455 +1,238 @@
-"""Accuracy Comparison and Benchmark Tool for 1,500+ Resumes.
-
-Compares parser model JSON outputs against ground-truth / test-case JSONs
-and computes field-by-field accuracy, Precision, Recall, and F1 scores.
-
-Usage:
-  # Compare two directories of JSON files:
-  ./venv/bin/python scripts/compare_accuracy.py \
-      --pred-dir path/to/model_output_json \
-      --gt-dir path/to/ground_truth_json \
-      --report accuracy_report.md
-
-  # Compare two combined JSON files:
-  ./venv/bin/python scripts/compare_accuracy.py \
-      --pred-file model_all.json \
-      --gt-file ground_truth_all.json
-"""
-
+"""Auditable label evaluation or source-text diagnostics (never invented accuracy)."""
 import argparse
-import difflib
 import json
-import os
 import re
-import sys
+from collections import Counter
+from datetime import datetime, timezone
 from pathlib import Path
 
-
-def clean_text(s):
-    if not s:
-        return ""
-    s = re.sub(r"[^\w\s]", " ", str(s).lower())
-    return " ".join(s.split())
-
-
-def normalize_date(d):
-    """Normalize date strings like 'Jan 2020', '2020-01', '01/2020', 'Present'."""
-    if not d:
-        return ""
-    s = str(d).strip().lower()
-    if s in ("present", "current", "till now", "till date", "now"):
-        return "present"
-    m = re.search(r"(\d{4})[-/.](\d{1,2})", s)
-    if m:
-        return f"{int(m.group(1)):04d}-{int(m.group(2)):02d}"
-    m_yr = re.search(r"\b(19\d\d|20\d\d)\b", s)
-    if m_yr:
-        return m_yr.group(1)
-    return s
+GROUPS = {'work_experience': ('work_experience','experience','employment','jobs'),
+          'projects': ('projects','personalProjects','project_entries'),
+          'education': ('education',), 'gaps': ('gaps',)}
+MONTHS={m:i+1 for i,m in enumerate(('january','february','march','april','may','june','july','august','september','october','november','december'))}
+MONTHS.update({m[:3]:n for m,n in list(MONTHS.items())})
+MONTHS['sept']=9
 
 
-def fuzzy_match(a, b, threshold=0.7):
-    """Fuzzy matching for company names, project titles, and durations."""
-    ca, cb = clean_text(a), clean_text(b)
-    if not ca or not cb:
-        return False
-    if ca == cb or ca in cb or cb in ca:
-        return True
-    stop = {"project", "poc", "the", "and", "for", "of", "in", "ltd", "inc", "pvt", "llc", "to"}
-    words_a = set(ca.split()) - stop
-    words_b = set(cb.split()) - stop
-    if words_a and words_b:
-        common = words_a & words_b
-        if common and (len(common) / min(len(words_a), len(words_b))) >= 0.5:
-            return True
-    ratio = difflib.SequenceMatcher(None, ca, cb).ratio()
-    return ratio >= threshold
+def clean_text(value):
+    return ' '.join(re.sub(r'[^\w\s]', ' ', str(value or '').casefold()).split())
 
 
-def extract_items(obj, keys):
-    """Extract list of items trying alternative field names."""
-    if isinstance(obj, list):
-        return obj
-    if isinstance(obj, dict):
-        for k in keys:
-            if k in obj and isinstance(obj[k], list):
-                return obj[k]
-    return []
+def normalize_date(value):
+    if isinstance(value,(list,tuple)) and len(value)==2:
+        year,month=value
+        if type(year) is int and type(month) is int and 1900<=year<=2099 and 1<=month<=12:
+            return f'{year:04d}-{month:02d}'
+        return 'invalid:'+str(value)
+    s=str(value or '').strip().lower()
+    if s in {'present','current','now','till now','till date','ongoing'}:return 'present'
+    if re.fullmatch(r'(19|20)\d{2}',s):return s
+    m=re.fullmatch(r'((?:19|20)\d{2})[-/.](\d{1,2})',s)
+    if m and 1<=int(m[2])<=12:return f'{m[1]}-{int(m[2]):02}'
+    m=re.fullmatch(r'(\d{1,2})[-/.]((?:19|20)\d{2})',s)
+    if m and 1<=int(m[1])<=12:return f'{m[2]}-{int(m[1]):02}'
+    m=re.fullmatch(r'([a-z]+)[\s,./-]*((?:19|20)\d{2})',s)
+    if m and m[1] in MONTHS:return f'{m[2]}-{MONTHS[m[1]]:02}'
+    return 'invalid:'+s if s else ''
 
 
-def get_field(item, candidates, default=""):
-    """Get field from item trying alternative key names."""
-    if not isinstance(item, dict):
-        return str(item)
-    for c in candidates:
-        if c in item and item[c] is not None:
-            return str(item[c]).strip()
-    return default
+def field(item,*names):
+    for name in names:
+        if item.get(name) is not None:return str(item[name]).strip()
+    return ''
 
 
-def compare_single_resume(pred_data, gt_data):
-    """Compare a single parsed resume JSON with ground truth JSON (either structured or raw text)."""
-    result = {
-        "exp_tp": 0, "exp_fp": 0, "exp_fn": 0,
-        "date_matches": 0, "date_total": 0,
-        "proj_tp": 0, "proj_fp": 0, "proj_fn": 0,
-        "proj_duration_matches": 0, "proj_duration_total": 0,
-        "mismatches": [],
-        "doc_accuracy": 0.88,
-        "is_raw_text": False
-    }
+def dates(item):
+    start=next((item[k] for k in ('start_date','start','from') if item.get(k) is not None),'')
+    end=next((item[k] for k in ('end_date','end','to') if item.get(k) is not None),'')
+    return normalize_date(start), 'present' if item.get('is_current') is True else normalize_date(end)
 
-    # Check if gt_data is a raw text file from resume-timeline-test
-    is_text_gt = "text" in gt_data and not any(k in gt_data for k in ["work_experience", "experience", "employment", "jobs"])
-    if is_text_gt:
-        result["is_raw_text"] = True
-        raw_text = str(gt_data.get("text", "")).lower()
-        pred_exp = extract_items(pred_data, ["work_experience", "experience", "employment", "jobs"])
-        for p in pred_exp:
-            p_comp = get_field(p, ["company", "company_name", "employer", "org"])
-            p_role = get_field(p, ["title", "role", "designation", "position"])
-            p_start = normalize_date(get_field(p, ["start_date", "start", "from"]))
-            p_end = normalize_date(get_field(p, ["end_date", "end", "to"]))
 
-            if not p_comp and not p_role:
-                continue
+def items(record,group):
+    for key in GROUPS[group]:
+        if key in record:
+            value=record[key]
+            if not isinstance(value,list) or any(not isinstance(x,dict) for x in value):
+                raise ValueError(f'{key} must be a list of objects')
+            return value
+    return None
 
-            target_str = f"{p_comp} {p_role}".lower()
-            words = [w for w in re.split(r"\W+", target_str) if len(w) > 2 and w not in ("ltd", "pvt", "inc", "the", "and", "llc", "corp", "org")]
-            if words and any(w in raw_text for w in words):
-                result["exp_tp"] += 1
-            else:
-                result["exp_fp"] += 1
 
-            if p_start:
-                result["date_total"] += 1
-                p_yr = p_start.split("-")[0]
-                if p_yr in raw_text:
-                    result["date_matches"] += 1
+def identity(item,group):
+    if group=='work_experience':return clean_text(field(item,'company','company_name','employer','org'))
+    if group=='projects':return clean_text(field(item,'name','projectName','title','project_title'))
+    if group=='education':return (clean_text(field(item,'institution','company','org')),clean_text(field(item,'degree','title')))
+    return (*dates(item),str(item.get('months','')))
 
-        pred_proj = extract_items(pred_data, ["projects", "personalProjects", "project_entries"])
-        for p in pred_proj:
-            p_name = get_field(p, ["name", "projectName", "title", "project_title"])
-            p_client = get_field(p, ["client", "client_name"])
-            words = [w for w in re.split(r"\W+", f"{p_name} {p_client}".lower()) if len(w) > 2 and w not in ("project", "client", "role", "the", "and", "details")]
-            if words and any(w in raw_text for w in words):
-                result["proj_tp"] += 1
-            else:
-                result["proj_fp"] += 1
 
-            p_dur = get_field(p, ["duration", "project_duration", "period"])
-            if p_dur:
-                result["proj_duration_total"] += 1
-                dur_words = [w for w in re.split(r"\W+", p_dur.lower()) if len(w) > 2]
-                if dur_words and any(w in raw_text for w in dur_words):
-                    result["proj_duration_matches"] += 1
+def compute_metrics(tp,fp,fn):
+    precision=tp/(tp+fp) if tp+fp else None
+    recall=tp/(tp+fn) if tp+fn else None
+    f1=2*tp/(2*tp+fp+fn) if 2*tp+fp+fn else None
+    return tuple(round(x,4) if x is not None else None for x in (precision,recall,f1))
 
-        doc_acc = pred_data.get("quality", {}).get("document_accuracy")
-        result["doc_accuracy"] = doc_acc if doc_acc is not None else 0.88
-        return result
 
-    # Standard Structured Ground-Truth Comparison
-    pred_exp = extract_items(pred_data, ["work_experience", "experience", "employment", "jobs"])
-    gt_exp = extract_items(gt_data, ["work_experience", "experience", "employment", "jobs"])
+def structured_compare(pred,truth):
+    result={};mismatches=[]
+    for group in GROUPS:
+        gold=items(truth,group)
+        if gold is None:continue  # Unannotated is not the same as labeled empty.
+        guessed=items(pred,group) or []
+        edges=[]
+        for pi,p in enumerate(guessed):
+            for gi,g in enumerate(gold):
+                key=identity(g,group)
+                if key and key!=('','') and identity(p,group)==key:
+                    score=sum(a==b for a,b in zip(dates(p),dates(g)))
+                    score+=int(clean_text(field(p,'title','role'))==clean_text(field(g,'title','role')))
+                    edges.append((-score,pi,gi))
+        used_p=set();used_g=set();matched=[]
+        for _,pi,gi in sorted(edges):
+            if pi not in used_p and gi not in used_g:
+                used_p.add(pi);used_g.add(gi);matched.append((guessed[pi],gold[gi]))
+        counts={'tp':len(matched),'fp':len(guessed)-len(matched),'fn':len(gold)-len(matched),
+                'date_matches':0,'date_total':0,'duration_matches':0,'duration_total':0,'documents':1}
+        for p,g in matched:
+            if group in {'work_experience','education'}:
+                for index,aliases in enumerate((('start_date','start','from'),('end_date','end','to'))):
+                    if any(k in g for k in aliases) or (index==1 and 'is_current' in g):
+                        counts['date_total']+=1
+                        correct=dates(p)[index]==dates(g)[index] and not dates(g)[index].startswith('invalid:')
+                        counts['date_matches']+=int(correct)
+                        if not correct:mismatches.append({'type':'date_mismatch','group':group,'field':aliases[0],'predicted':dates(p)[index],'expected':dates(g)[index]})
+            if group=='projects' and any(k in g for k in ('duration','project_duration','period')):
+                counts['duration_total']+=1
+                correct=clean_text(field(p,'duration','project_duration','period'))==clean_text(field(g,'duration','project_duration','period'))
+                counts['duration_matches']+=int(correct)
+                if not correct:mismatches.append({'type':'duration_mismatch','group':group})
+        for pi,p in enumerate(guessed):
+            if pi not in used_p:mismatches.append({'type':'extra_item','group':group,'identity':identity(p,group)})
+        for gi,g in enumerate(gold):
+            if gi not in used_g:
+                mismatches.append({'type':'missed_item','group':group,'identity':identity(g,group)})
+                if group in {'work_experience','education'}:
+                    counts['date_total']+=sum(any(k in g for k in aliases) for aliases in (('start_date','start','from'),('end_date','end','to','is_current')))
+                if group=='projects':counts['duration_total']+=int(any(k in g for k in ('duration','project_duration','period')))
+        result[group]=counts
+    if not result:raise ValueError('Reference has neither source text nor recognized labeled fields')
+    return result,mismatches
 
-    matched_gt_exp = set()
-    for p in pred_exp:
-        p_comp = get_field(p, ["company", "company_name", "employer", "org"])
-        p_role = get_field(p, ["title", "role", "designation", "position"])
-        p_start = normalize_date(get_field(p, ["start_date", "start", "from"]))
-        p_end = normalize_date(get_field(p, ["end_date", "end", "to"]))
 
-        match_idx = None
-        for i, g in enumerate(gt_exp):
-            if i in matched_gt_exp:
-                continue
-            g_comp = get_field(g, ["company", "company_name", "employer", "org"])
-            if fuzzy_match(p_comp, g_comp):
-                match_idx = i
-                break
+def source_compare(pred,reference):
+    """Literal phrase occurrence only: not identity, dates association, recall or F1."""
+    if not isinstance(reference.get('text'), str):
+        raise ValueError('Source text must be a string')
+    text=' '+clean_text(reference['text'])+' '
+    counts=Counter();issues=[]
+    counts['empty_source_documents']=int(not text.strip())
+    if not text.strip():
+        return counts,[{'type':'empty_source_text','note':'Cannot verify predictions against an empty reference; excluded from phrase occurrence denominator.'}]
+    for group in ('work_experience','projects','education'):
+        for item in items(pred,group) or []:
+            key=identity(item,group)
+            phrases=[x for x in key if x] if isinstance(key,tuple) else [key] if key else []
+            for phrase in phrases:
+                counts['checked_phrases']+=1
+                found=' '+phrase+' ' in text
+                counts['phrases_found']+=int(found)
+                if not found:issues.append({'type':'phrase_not_found','group':group,'phrase':phrase})
+    counts['empty_source_documents']=int(not text.strip())
+    if not text.strip():issues.append({'type':'empty_source_text'})
+    return counts,issues
 
-        if match_idx is not None:
-            matched_gt_exp.add(match_idx)
-            result["exp_tp"] += 1
-            g = gt_exp[match_idx]
-            g_start = normalize_date(get_field(g, ["start_date", "start", "from"]))
-            g_end = normalize_date(get_field(g, ["end_date", "end", "to"]))
 
-            result["date_total"] += 1
-            if (p_start and g_start and (p_start in g_start or g_start in p_start)) or (not p_start and not g_start):
-                result["date_matches"] += 1
-            else:
-                result["mismatches"].append({
-                    "type": "date_mismatch",
-                    "company": p_comp,
-                    "pred_start": p_start, "gt_start": g_start,
-                    "pred_end": p_end, "gt_end": g_end
-                })
+def record_key(record,fallback=None):
+    name=record.get('file_name') or record.get('filename') or record.get('resume_id') or fallback
+    if not name:raise ValueError('Each list record needs filename/file_name/resume_id; positional pairing is forbidden')
+    return str(name).replace('\\','/').casefold()
+
+
+def load_records(directory=None,filename=None):
+    records={};ignored=[]
+    def add(record,fallback=None):
+        if not isinstance(record,dict):raise ValueError('Resume records must be objects')
+        key=record_key(record,fallback)
+        if key in records:raise ValueError(f'Duplicate resume identity: {key}')
+        records[key]=record
+    def consume(data,fallback=None):
+        if isinstance(data,list):
+            for value in data:add(value)
+        elif isinstance(data,dict) and any(k in data for k in ('file_name','filename','resume_id','text',*GROUPS)):
+            add(data,fallback)
+        elif isinstance(data,dict):
+            for key,value in data.items():add(value,key)
+        else:raise ValueError('Input must contain resume records')
+    if directory:
+        for path in sorted(Path(directory).glob('*.json')):
+            data=json.loads(path.read_text(encoding='utf-8'))
+            if path.name in {'batch_accuracy_summary.json','batch_summary.json','accuracy_summary.json'}:
+                ignored.append(path.name);continue
+            consume(data,path.name.removesuffix('.json'))
+    else:consume(json.loads(Path(filename).read_text(encoding='utf-8')))
+    return records,ignored
+
+
+def run_evaluation(pred_dir=None,gt_dir=None,pred_file=None,gt_file=None):
+    predictions,pignored=load_records(pred_dir,pred_file);references,gignored=load_records(gt_dir,gt_file)
+    if not references:raise ValueError('No reference records')
+    raw={k for k,r in references.items() if 'text' in r and not any(key in r for keys in GROUPS.values() for key in keys)}
+    if raw and len(raw)!=len(references):raise ValueError('Mixed raw text and structured labels: evaluate separately')
+    common=predictions.keys() & references.keys()
+    if not common:raise ValueError('No records share the same filename identity')
+    source_totals=Counter();totals={};issues={}
+    for key in sorted(references):
+        pred=predictions.get(key,{})
+        if key not in predictions:issues[key]=[{'type':'missing_prediction'}]
+        if pred.get('status') in {'FAILED','ERROR'}:issues.setdefault(key,[]).append({'type':'failed_prediction'})
+        if raw:
+            counts,problems=source_compare(pred,references[key]);source_totals.update(counts)
         else:
-            result["exp_fp"] += 1
-            result["mismatches"].append({"type": "extra_experience_detected", "company": p_comp, "role": p_role})
-
-    result["exp_fn"] = len(gt_exp) - len(matched_gt_exp)
-    for i, g in enumerate(gt_exp):
-        if i not in matched_gt_exp:
-            g_comp = get_field(g, ["company", "company_name", "employer", "org"])
-            result["mismatches"].append({"type": "missed_experience", "company": g_comp})
-
-    # Extract Projects
-    pred_proj = extract_items(pred_data, ["projects", "personalProjects", "project_entries"])
-    gt_proj = extract_items(gt_data, ["projects", "personalProjects", "project_entries"])
-
-    matched_gt_proj = set()
-    for p in pred_proj:
-        p_name = get_field(p, ["name", "projectName", "title", "project_title"])
-        p_dur = get_field(p, ["duration", "project_duration", "period"])
-
-        match_idx = None
-        for i, g in enumerate(gt_proj):
-            if i in matched_gt_proj:
-                continue
-            g_name = get_field(g, ["name", "projectName", "title", "project_title"])
-            if fuzzy_match(p_name, g_name):
-                match_idx = i
-                break
-
-        if match_idx is not None:
-            matched_gt_proj.add(match_idx)
-            result["proj_tp"] += 1
-            g = gt_proj[match_idx]
-            g_dur = get_field(g, ["duration", "project_duration", "period"])
-            if g_dur:
-                result["proj_duration_total"] += 1
-                if fuzzy_match(p_dur, g_dur, threshold=0.7):
-                    result["proj_duration_matches"] += 1
-                else:
-                    result["mismatches"].append({
-                        "type": "project_duration_mismatch",
-                        "project": p_name,
-                        "pred_duration": p_dur,
-                        "gt_duration": g_dur
-                    })
-        else:
-            result["proj_fp"] += 1
-
-    result["proj_fn"] = len(gt_proj) - len(matched_gt_proj)
-
-    return result
+            categories,problems=structured_compare(pred,references[key])
+            for category,counts in categories.items():totals.setdefault(category,Counter()).update(counts)
+        if problems:issues.setdefault(key,[]).extend(problems)
+    metrics={}
+    for category,c in totals.items():
+        p,r,f=compute_metrics(c['tp'],c['fp'],c['fn'])
+        metrics[category]={**c,'precision':p,'recall':r,'f1':f,
+            'date_endpoint_accuracy_pct':round(100*c['date_matches']/c['date_total'],2) if c['date_total'] else None,
+            'duration_accuracy_pct':round(100*c['duration_matches']/c['duration_total'],2) if c['duration_total'] else None}
+    summary={'generated_at':datetime.now(timezone.utc).isoformat(),
+        'evaluation_mode':'SOURCE_TEXT_DIAGNOSTICS' if raw else 'STRUCTURED_LABEL_EVALUATION',
+        'overall_accuracy_pct':None,
+        'accuracy_explanation':'Raw extraction is not labeled ground truth; accuracy, recall, F1 and gap correctness cannot be measured.' if raw else 'Use separately reported labeled-category metrics; no arbitrary weighted overall accuracy.',
+        'reference_records':len(references),'prediction_records':len(predictions),'resumes_evaluated':len(common),
+        'missing_predictions':sorted(references.keys()-predictions.keys()),'predictions_without_reference':sorted(predictions.keys()-references.keys()),
+        'ignored_metadata_files':pignored+gignored,
+        'failed_predictions':sum(r.get('status') in {'FAILED','ERROR'} for r in predictions.values()),
+        'prediction_status_counts':dict(Counter(r.get('status','UNSPECIFIED') for r in predictions.values())),
+        'resumes_with_diagnostic_issues':len(issues),'metrics':metrics}
+    if raw:
+        summary['source_text_diagnostics']={**source_totals,'literal_phrase_occurrence_pct':round(100*source_totals['phrases_found']/source_totals['checked_phrases'],2) if source_totals['checked_phrases'] else None,
+            'definition':'Whole normalized phrase occurs somewhere in extraction. Does NOT establish employment, correct dates/association, completeness, or accuracy.'}
+    return summary,issues
 
 
-def compute_metrics(tp, fp, fn):
-    prec = tp / max(1, tp + fp) if (tp + fp) > 0 else 1.0
-    rec = tp / max(1, tp + fn) if (tp + fn) > 0 else 1.0
-    f1 = 2 * prec * rec / max(1e-9, prec + rec) if (prec + rec) > 0 else 0.0
-    return round(prec, 4), round(rec, 4), round(f1, 4)
-
-
-def normalize_key(name):
-    """Normalize file stem or resume key for matching across projects."""
-    s = str(name).lower().strip()
-    s = re.sub(r"\.(pdf|docx|txt|doc|rtf|json)$", "", s, flags=re.I)
-    s = re.sub(r"\.(pdf|docx|txt|doc|rtf)$", "", s, flags=re.I)
-    s = re.sub(r"[_\-\s\(\)\[\]]+", "_", s).strip("_")
-    return s
-
-
-def run_evaluation(pred_dir=None, gt_dir=None, pred_file=None, gt_file=None):
-    pairs = []
-    if pred_dir and gt_dir:
-        p_dir = Path(pred_dir)
-        g_dir = Path(gt_dir)
-        p_files = {normalize_key(p.name): p for p in p_dir.glob("*.json")}
-        g_files = {normalize_key(g.name): g for g in g_dir.glob("*.json")}
-        common = set(p_files.keys()) & set(g_files.keys())
-        for k in sorted(common):
-            pairs.append((k, json.loads(p_files[k].read_text()), json.loads(g_files[k].read_text())))
-        print(f"Matched {len(pairs)} JSON file pairs across directories.")
-    elif pred_file and gt_file:
-        p_data = json.loads(Path(pred_file).read_text())
-        g_data = json.loads(Path(gt_file).read_text())
-        if isinstance(p_data, list) and isinstance(g_data, list):
-            for i in range(min(len(p_data), len(g_data))):
-                pairs.append((f"resume_{i+1}", p_data[i], g_data[i]))
-        elif isinstance(p_data, dict) and isinstance(g_data, dict):
-            p_norm = {normalize_key(k): v for k, v in p_data.items()}
-            g_norm = {normalize_key(k): v for k, v in g_data.items()}
-            common = set(p_norm.keys()) & set(g_norm.keys())
-            for k in sorted(common):
-                pairs.append((k, p_norm[k], g_norm[k]))
-        print(f"Matched {len(pairs)} resumes from input files.")
-
-    if not pairs:
-        print("Error: No matching resumes found between predictions and ground truth.")
-        sys.exit(1)
-
-    total_exp_tp = 0
-    total_exp_fp = 0
-    total_exp_fn = 0
-    total_date_match = 0
-    total_date_count = 0
-    total_proj_tp = 0
-    total_proj_fp = 0
-    total_proj_fn = 0
-    total_proj_dur_match = 0
-    total_proj_dur_count = 0
-    mismatches_all = {}
-
-    doc_accs = []
-    is_raw_mode = False
-
-    for name, p, g in pairs:
-        res = compare_single_resume(p, g)
-        if res.get("is_raw_text"):
-            is_raw_mode = True
-        if "doc_accuracy" in res:
-            doc_accs.append(res["doc_accuracy"])
-        total_exp_tp += res["exp_tp"]
-        total_exp_fp += res["exp_fp"]
-        total_exp_fn += res["exp_fn"]
-        total_date_match += res["date_matches"]
-        total_date_count += res["date_total"]
-        total_proj_tp += res["proj_tp"]
-        total_proj_fp += res["proj_fp"]
-        total_proj_fn += res["proj_fn"]
-        total_proj_dur_match += res["proj_duration_matches"]
-        total_proj_dur_count += res["proj_duration_total"]
-        if res["mismatches"]:
-            mismatches_all[name] = res["mismatches"]
-
-    if is_raw_mode:
-        exp_prec = round((total_exp_tp / max(1, total_exp_tp + total_exp_fp)) * 100, 2)
-        date_acc_pct = round((total_date_match / max(1, total_date_count)) * 100, 2) if total_date_count else 100.0
-        proj_prec = round((total_proj_tp / max(1, total_proj_tp + total_proj_fp)) * 100, 2)
-        mean_doc_acc = round((sum(doc_accs) / max(1, len(doc_accs))) * 100, 2) if doc_accs else 90.0
-
-        # Weighted verification accuracy against source resumes
-        overall_acc = round((exp_prec * 0.35) + (date_acc_pct * 0.25) + (proj_prec * 0.20) + (mean_doc_acc * 0.20), 2)
-
-        summary = {
-            "evaluation_mode": "SOURCE_TEXT_VERIFICATION",
-            "resumes_evaluated": len(pairs),
-            "overall_accuracy_pct": overall_acc,
-            "work_experience": {
-                "precision": round(exp_prec / 100, 4), "recall": 1.0, "f1_score": round(exp_prec / 100, 4),
-                "true_positives": total_exp_tp, "false_positives": total_exp_fp, "false_negatives": 0,
-                "accuracy_pct": exp_prec
-            },
-            "dates_accuracy": {
-                "matches": total_date_match, "total": total_date_count,
-                "accuracy_pct": date_acc_pct
-            },
-            "projects_detection": {
-                "precision": round(proj_prec / 100, 4), "recall": 1.0, "f1_score": round(proj_prec / 100, 4),
-                "true_positives": total_proj_tp, "false_positives": total_proj_fp, "false_negatives": 0,
-                "accuracy_pct": proj_prec
-            },
-            "project_duration_accuracy": {
-                "matches": total_proj_dur_match, "total": total_proj_dur_count,
-                "accuracy_pct": round((total_proj_dur_match / max(1, total_proj_dur_count)) * 100, 2) if total_proj_dur_count else 100.0
-            },
-            "document_accuracy_mean": mean_doc_acc,
-            "resumes_with_mismatches": len(mismatches_all)
-        }
-        return summary, mismatches_all
-
-    exp_p, exp_r, exp_f1 = compute_metrics(total_exp_tp, total_exp_fp, total_exp_fn)
-    proj_p, proj_r, proj_f1 = compute_metrics(total_proj_tp, total_proj_fp, total_proj_fn)
-    date_acc = (total_date_match / max(1, total_date_count)) if total_date_count else 1.0
-    proj_dur_acc = (total_proj_dur_match / max(1, total_proj_dur_count)) if total_proj_dur_count else 1.0
-
-    # Composite overall accuracy
-    overall_acc = round((exp_f1 * 0.40) + (date_acc * 0.20) + (proj_f1 * 0.25) + (proj_dur_acc * 0.15), 4)
-
-    summary = {
-        "evaluation_mode": "STRUCTURED_GROUND_TRUTH",
-        "resumes_evaluated": len(pairs),
-        "overall_accuracy_pct": round(overall_acc * 100, 2),
-        "work_experience": {
-            "precision": exp_p, "recall": exp_r, "f1_score": exp_f1,
-            "true_positives": total_exp_tp, "false_positives": total_exp_fp, "false_negatives": total_exp_fn,
-            "accuracy_pct": round(exp_f1 * 100, 2)
-        },
-        "dates_accuracy": {
-            "matches": total_date_match, "total": total_date_count,
-            "accuracy_pct": round(date_acc * 100, 2)
-        },
-        "projects_detection": {
-            "precision": proj_p, "recall": proj_r, "f1_score": proj_f1,
-            "true_positives": total_proj_tp, "false_positives": total_proj_fp, "false_negatives": total_proj_fn,
-            "accuracy_pct": round(proj_f1 * 100, 2)
-        },
-        "project_duration_accuracy": {
-            "matches": total_proj_dur_match, "total": total_proj_dur_count,
-            "accuracy_pct": round(proj_dur_acc * 100, 2)
-        },
-        "resumes_with_mismatches": len(mismatches_all)
-    }
-
-    return summary, mismatches_all
-
-
-def generate_markdown_report(summary, mismatches, out_path="accuracy_report.md"):
-    md = f"""# Resume Parser Model Accuracy Evaluation Report
-
-## Executive Summary
-- **Total Resumes Evaluated**: `{summary['resumes_evaluated']}`
-- **Overall Model Accuracy**: **`{summary['overall_accuracy_pct']}%`**
-- **Clean / Fully Matched Resumes**: `{summary['resumes_evaluated'] - summary['resumes_with_mismatches']}` ({((summary['resumes_evaluated'] - summary['resumes_with_mismatches']) * 100 // summary['resumes_evaluated'])}%)
-
----
-
-## Detailed Performance by Category
-
-| Category | Precision | Recall | F1 Score | Accuracy % |
-| :--- | :---: | :---: | :---: | :---: |
-| **Work Experience (Employers)** | `{summary['work_experience']['precision']}` | `{summary['work_experience']['recall']}` | `{summary['work_experience']['f1_score']}` | **`{summary['work_experience']['accuracy_pct']}%`** |
-| **Experience Date Ranges** | - | - | - | **`{summary['dates_accuracy']['accuracy_pct']}%`** ({summary['dates_accuracy']['matches']}/{summary['dates_accuracy']['total']}) |
-| **Projects Detection** | `{summary['projects_detection']['precision']}` | `{summary['projects_detection']['recall']}` | `{summary['projects_detection']['f1_score']}` | **`{summary['projects_detection']['accuracy_pct']}%`** |
-| **Project Durations** | - | - | - | **`{summary['project_duration_accuracy']['accuracy_pct']}%`** ({summary['project_duration_accuracy']['matches']}/{summary['project_duration_accuracy']['total']}) |
-
----
-
-## Sample Mismatches (Top 10 Resumes)
-"""
-    count = 0
-    for name, items in mismatches.items():
-        if count >= 10:
-            break
-        count += 1
-        md += f"\n### `{name}`\n"
-        for item in items:
-            t = item.get("type", "mismatch")
-            md += f"- **{t}**: `{json.dumps(item)}`\n"
-
-    Path(out_path).write_text(md)
-    print(f"Report written to: {out_path}")
+def generate_markdown_report(summary,mismatches,out_path='accuracy_report.md'):
+    lines=['# Resume evaluation audit','', '**Overall accuracy: not established.**',summary['accuracy_explanation'],'',
+           f"Reference records: {summary['reference_records']}; predictions: {summary['prediction_records']}; matched: {summary['resumes_evaluated']}.",
+           f"Missing predictions: {len(summary['missing_predictions'])}; predictions without reference: {len(summary['predictions_without_reference'])}.",
+           '', '## Measured results','', '```json',json.dumps(summary,indent=2),'```','', '## Diagnostic examples','']
+    for name,entries in list(mismatches.items())[:10]:lines.extend([f'### {name}','', '```json',json.dumps(entries[:10],indent=2),'```',''])
+    Path(out_path).write_text('\n'.join(lines),encoding='utf-8')
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Compare Model Output JSON vs Ground Truth JSON")
-    parser.add_argument("--pred-dir", help="Directory of model-generated JSON files")
-    parser.add_argument("--gt-dir", help="Directory of ground truth JSON files")
-    parser.add_argument("--pred-file", help="Single file with all model JSON predictions")
-    parser.add_argument("--gt-file", help="Single file with all ground truth JSONs")
-    parser.add_argument("--report", default="accuracy_report.md", help="Path to write Markdown evaluation report")
-    parser.add_argument("--summary-json", default="accuracy_summary.json", help="Path to write JSON summary")
-    args = parser.parse_args()
+    parser=argparse.ArgumentParser(description=__doc__)
+    p=parser.add_mutually_exclusive_group(required=True);p.add_argument('--pred-dir');p.add_argument('--pred-file')
+    g=parser.add_mutually_exclusive_group(required=True);g.add_argument('--gt-dir');g.add_argument('--gt-file')
+    parser.add_argument('--report',default='accuracy_report.md');parser.add_argument('--summary-json',default='accuracy_summary.json')
+    parser.add_argument('--issues-json',default='accuracy_issues.json')
+    args=parser.parse_args()
+    try:summary,issues=run_evaluation(args.pred_dir,args.gt_dir,args.pred_file,args.gt_file)
+    except (ValueError,OSError) as exc:parser.error(str(exc))
+    Path(args.summary_json).write_text(json.dumps(summary,indent=2),encoding='utf-8')
+    Path(args.issues_json).write_text(json.dumps(issues,indent=2),encoding='utf-8')
+    generate_markdown_report(summary,issues,args.report)
+    print(json.dumps(summary,indent=2))
 
-    summary, mismatches = run_evaluation(args.pred_dir, args.gt_dir, args.pred_file, args.gt_file)
-
-    print("\n" + "=" * 60)
-    print(f"  EVALUATION SUMMARY ({summary['resumes_evaluated']} Resumes)")
-    print("=" * 60)
-    print(f"  🎯 Overall Accuracy:            {summary['overall_accuracy_pct']}%")
-    print(f"  💼 Work Experience F1:          {summary['work_experience']['f1_score']} ({summary['work_experience']['accuracy_pct']}%)")
-    print(f"  📅 Dates Accuracy:              {summary['dates_accuracy']['accuracy_pct']}%")
-    print(f"  📂 Projects Detection F1:       {summary['projects_detection']['f1_score']} ({summary['projects_detection']['accuracy_pct']}%)")
-    print(f"  ⏳ Project Duration Accuracy:   {summary['project_duration_accuracy']['accuracy_pct']}%")
-    print("=" * 60 + "\n")
-
-    Path(args.summary_json).write_text(json.dumps(summary, indent=2))
-    generate_markdown_report(summary, mismatches, args.report)
-
-
-if __name__ == "__main__":
-    main()
+if __name__=='__main__':main()

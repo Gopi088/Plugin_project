@@ -1,0 +1,1605 @@
+{
+  "file_name": "AkshataJadhav.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "bd8c7bacc1cf1398494bd069966ae09a7d950b9fb3162e559f08706b164e6e0c",
+  "doc_id": "bd8c7bacc1cf1398494bd069",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 4,
+    "total_events": 4,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v6bfe7e6d262c0c5a",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Financial Associate 2",
+      "start_date": "2023-07",
+      "end_date": "2025-05",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Financial Associate 2 07/2023 - 05/2025",
+            "block_id": "b16",
+            "kind": "text",
+            "start": 1033,
+            "end": 1072
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "07/2023 - 05/2025",
+            "block_id": "b16",
+            "kind": "text",
+            "start": 1055,
+            "end": 1072
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Financial Associate 2",
+            "block_id": "b16",
+            "kind": "text",
+            "start": 1033,
+            "end": 1054
+          }
+        ],
+        "section": "PROFESSIONAL EXPERIENCE",
+        "date_label": "07/2023 - 05/2025",
+        "is_present": false
+      },
+      "precision": "month",
+      "date_label": "07/2023 - 05/2025"
+    },
+    {
+      "id": "v891a90a09c152d6f",
+      "type": "EMPLOYMENT",
+      "company": "BCT Consulting",
+      "title": "Consultant",
+      "start_date": "2026-01",
+      "end_date": "2026-07",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Consultant",
+            "block_id": "b30",
+            "kind": "text",
+            "start": 2008,
+            "end": 2018
+          },
+          {
+            "page": 1,
+            "text": "BCT Consulting (On Contract) 01/2026 – 07/2026",
+            "block_id": "b31",
+            "kind": "text",
+            "start": 2020,
+            "end": 2066
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "01/2026 – 07/2026",
+            "block_id": "b31",
+            "kind": "text",
+            "start": 2049,
+            "end": 2066
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "BCT Consulting",
+            "block_id": "b31",
+            "kind": "text",
+            "start": 2020,
+            "end": 2034
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Consultant",
+            "block_id": "b30",
+            "kind": "text",
+            "start": 2008,
+            "end": 2018
+          }
+        ],
+        "section": "PROFESSIONAL EXPERIENCE",
+        "date_label": "01/2026 – 07/2026",
+        "is_present": false
+      },
+      "precision": "month",
+      "date_label": "01/2026 – 07/2026"
+    }
+  ],
+  "education": [
+    {
+      "id": "vd1dd933bfaba7dab",
+      "type": "EDUCATION",
+      "company": "Dr. N G Bedekar College of Commerce",
+      "title": "Bachelor of Commerce",
+      "start_date": "2018-06",
+      "end_date": "2021-05",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Bachelor of Commerce [Accounting] 06/2018 – 05/2021",
+            "block_id": "b55",
+            "kind": "text",
+            "start": 3584,
+            "end": 3635
+          },
+          {
+            "page": 1,
+            "text": "Dr. N G Bedekar College of Commerce, Mumbai University",
+            "block_id": "b56",
+            "kind": "text",
+            "start": 3637,
+            "end": 3691
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "06/2018 – 05/2021",
+            "block_id": "b55",
+            "kind": "text",
+            "start": 3618,
+            "end": 3635
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Dr. N G Bedekar College of Commerce",
+            "block_id": "b56",
+            "kind": "text",
+            "start": 3637,
+            "end": 3672
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Bachelor of Commerce",
+            "block_id": "b55",
+            "kind": "text",
+            "start": 3584,
+            "end": 3604
+          }
+        ],
+        "section": "EDUCATION",
+        "date_label": "06/2018 – 05/2021",
+        "is_present": false
+      },
+      "precision": "month",
+      "date_label": "06/2018 – 05/2021"
+    },
+    {
+      "id": "v3ced6cbb4f9eabe0",
+      "type": "EDUCATION",
+      "company": "Dr. V N Bedeker Institute of Management Studies",
+      "title": "Master’s in Business Administration",
+      "start_date": "2022-01",
+      "end_date": "2025-12",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Master’s in Business Administration [Finance] 01/2022 – 12/2025",
+            "block_id": "b53",
+            "kind": "text",
+            "start": 3449,
+            "end": 3512
+          },
+          {
+            "page": 1,
+            "text": "Dr. V N Bedeker Institute of Management Studies, Mumbai University",
+            "block_id": "b54",
+            "kind": "text",
+            "start": 3514,
+            "end": 3580
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "01/2022 – 12/2025",
+            "block_id": "b53",
+            "kind": "text",
+            "start": 3495,
+            "end": 3512
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Dr. V N Bedeker Institute of Management Studies",
+            "block_id": "b54",
+            "kind": "text",
+            "start": 3514,
+            "end": 3561
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Master’s in Business Administration",
+            "block_id": "b53",
+            "kind": "text",
+            "start": 3449,
+            "end": 3484
+          }
+        ],
+        "section": "EDUCATION",
+        "date_label": "01/2022 – 12/2025",
+        "is_present": false
+      },
+      "precision": "month",
+      "date_label": "01/2022 – 12/2025"
+    }
+  ],
+  "projects": [],
+  "gaps": [
+    {
+      "id": "g1d79b6647d858f9d",
+      "start": [
+        2021,
+        6
+      ],
+      "end": [
+        2021,
+        12
+      ],
+      "months": 7,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9,
+      "reasons": [
+        "GAP_NO_COVERAGE"
+      ],
+      "evidence": {
+        "event_before": "vd1dd933bfaba7dab",
+        "event_after": "v3ced6cbb4f9eabe0",
+        "coverage_scope": "all_dated_activity",
+        "unplaced_activity_ids": []
+      },
+      "start_label": "2021-06",
+      "end_label": "2021-12",
+      "evidence_quotes": [
+        "Bachelor of Commerce [Accounting] 06/2018 – 05/2021 Dr. N G Bedekar College of Commerce, Mumbai University",
+        "Master’s in Business Administration [Finance] 01/2022 – 12/2025 Dr. V N Bedeker Institute of Management Studies, Mumbai University"
+      ],
+      "evidence_details": [
+        {
+          "header": "Bachelor of Commerce at Dr. N G Bedekar College of Commerce",
+          "quote": "Bachelor of Commerce [Accounting] 06/2018 – 05/2021 Dr. N G Bedekar College of Commerce, Mumbai University",
+          "event_id": "vd1dd933bfaba7dab",
+          "source": {
+            "entry": [
+              {
+                "page": 1,
+                "text": "Bachelor of Commerce [Accounting] 06/2018 – 05/2021",
+                "block_id": "b55",
+                "kind": "text",
+                "start": 3584,
+                "end": 3635
+              },
+              {
+                "page": 1,
+                "text": "Dr. N G Bedekar College of Commerce, Mumbai University",
+                "block_id": "b56",
+                "kind": "text",
+                "start": 3637,
+                "end": 3691
+              }
+            ],
+            "dates": [
+              {
+                "page": 1,
+                "text": "06/2018 – 05/2021",
+                "block_id": "b55",
+                "kind": "text",
+                "start": 3618,
+                "end": 3635
+              }
+            ],
+            "company": [
+              {
+                "page": 1,
+                "text": "Dr. N G Bedekar College of Commerce",
+                "block_id": "b56",
+                "kind": "text",
+                "start": 3637,
+                "end": 3672
+              }
+            ],
+            "title": [
+              {
+                "page": 1,
+                "text": "Bachelor of Commerce",
+                "block_id": "b55",
+                "kind": "text",
+                "start": 3584,
+                "end": 3604
+              }
+            ],
+            "section": "EDUCATION",
+            "date_label": "06/2018 – 05/2021",
+            "is_present": false
+          }
+        },
+        {
+          "header": "Master’s in Business Administration at Dr. V N Bedeker Institute of Management Studies",
+          "quote": "Master’s in Business Administration [Finance] 01/2022 – 12/2025 Dr. V N Bedeker Institute of Management Studies, Mumbai University",
+          "event_id": "v3ced6cbb4f9eabe0",
+          "source": {
+            "entry": [
+              {
+                "page": 1,
+                "text": "Master’s in Business Administration [Finance] 01/2022 – 12/2025",
+                "block_id": "b53",
+                "kind": "text",
+                "start": 3449,
+                "end": 3512
+              },
+              {
+                "page": 1,
+                "text": "Dr. V N Bedeker Institute of Management Studies, Mumbai University",
+                "block_id": "b54",
+                "kind": "text",
+                "start": 3514,
+                "end": 3580
+              }
+            ],
+            "dates": [
+              {
+                "page": 1,
+                "text": "01/2022 – 12/2025",
+                "block_id": "b53",
+                "kind": "text",
+                "start": 3495,
+                "end": 3512
+              }
+            ],
+            "company": [
+              {
+                "page": 1,
+                "text": "Dr. V N Bedeker Institute of Management Studies",
+                "block_id": "b54",
+                "kind": "text",
+                "start": 3514,
+                "end": 3561
+              }
+            ],
+            "title": [
+              {
+                "page": 1,
+                "text": "Master’s in Business Administration",
+                "block_id": "b53",
+                "kind": "text",
+                "start": 3449,
+                "end": 3484
+              }
+            ],
+            "section": "EDUCATION",
+            "date_label": "01/2022 – 12/2025",
+            "is_present": false
+          }
+        }
+      ]
+    }
+  ],
+  "total_work_experience_entries": 2,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 1,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "overlap preserved: 'Master’s in Business Administration' overlaps 'Financial Associate 2'"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "bd8c7bacc1cf1398494bd069",
+    "filename": "AkshataJadhav.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "vd1dd933bfaba7dab",
+        "type": "EDUCATION",
+        "title": "Bachelor of Commerce",
+        "org": "Dr. N G Bedekar College of Commerce",
+        "start": "2018-06",
+        "end": "2021-05",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "Bachelor of Commerce [Accounting] 06/2018 – 05/2021\nDr. N G Bedekar College of Commerce, Mumbai University",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor of Commerce [Accounting] 06/2018 – 05/2021",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 3584,
+              "end": 3635
+            },
+            {
+              "page": 1,
+              "text": "Dr. N G Bedekar College of Commerce, Mumbai University",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 3637,
+              "end": 3691
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "06/2018 – 05/2021",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 3618,
+              "end": 3635
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Dr. N G Bedekar College of Commerce",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 3637,
+              "end": 3672
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Commerce",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 3584,
+              "end": 3604
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "06/2018 – 05/2021",
+          "is_present": false
+        },
+        "date_label": "06/2018 – 05/2021",
+        "section": "EDUCATION",
+        "is_present": false
+      },
+      {
+        "id": "v3ced6cbb4f9eabe0",
+        "type": "EDUCATION",
+        "title": "Master’s in Business Administration",
+        "org": "Dr. V N Bedeker Institute of Management Studies",
+        "start": "2022-01",
+        "end": "2025-12",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "Master’s in Business Administration [Finance] 01/2022 – 12/2025\nDr. V N Bedeker Institute of Management Studies, Mumbai University",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Master’s in Business Administration [Finance] 01/2022 – 12/2025",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 3449,
+              "end": 3512
+            },
+            {
+              "page": 1,
+              "text": "Dr. V N Bedeker Institute of Management Studies, Mumbai University",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 3514,
+              "end": 3580
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "01/2022 – 12/2025",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 3495,
+              "end": 3512
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Dr. V N Bedeker Institute of Management Studies",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 3514,
+              "end": 3561
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Master’s in Business Administration",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 3449,
+              "end": 3484
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "01/2022 – 12/2025",
+          "is_present": false
+        },
+        "date_label": "01/2022 – 12/2025",
+        "section": "EDUCATION",
+        "is_present": false
+      },
+      {
+        "id": "v6bfe7e6d262c0c5a",
+        "type": "EMPLOYMENT",
+        "title": "Financial Associate 2",
+        "org": "",
+        "start": "2023-07",
+        "end": "2025-05",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Financial Associate 2 07/2023 - 05/2025",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Financial Associate 2 07/2023 - 05/2025",
+              "block_id": "b16",
+              "kind": "text",
+              "start": 1033,
+              "end": 1072
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "07/2023 - 05/2025",
+              "block_id": "b16",
+              "kind": "text",
+              "start": 1055,
+              "end": 1072
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Financial Associate 2",
+              "block_id": "b16",
+              "kind": "text",
+              "start": 1033,
+              "end": 1054
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "07/2023 - 05/2025",
+          "is_present": false
+        },
+        "date_label": "07/2023 - 05/2025",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v891a90a09c152d6f",
+        "type": "EMPLOYMENT",
+        "title": "Consultant",
+        "org": "BCT Consulting",
+        "start": "2026-01",
+        "end": "2026-07",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Consultant\nBCT Consulting (On Contract) 01/2026 – 07/2026",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Consultant",
+              "block_id": "b30",
+              "kind": "text",
+              "start": 2008,
+              "end": 2018
+            },
+            {
+              "page": 1,
+              "text": "BCT Consulting (On Contract) 01/2026 – 07/2026",
+              "block_id": "b31",
+              "kind": "text",
+              "start": 2020,
+              "end": 2066
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "01/2026 – 07/2026",
+              "block_id": "b31",
+              "kind": "text",
+              "start": 2049,
+              "end": 2066
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "BCT Consulting",
+              "block_id": "b31",
+              "kind": "text",
+              "start": 2020,
+              "end": 2034
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Consultant",
+              "block_id": "b30",
+              "kind": "text",
+              "start": 2008,
+              "end": 2018
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "01/2026 – 07/2026",
+          "is_present": false
+        },
+        "date_label": "01/2026 – 07/2026",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g1d79b6647d858f9d",
+        "start": [
+          2021,
+          6
+        ],
+        "end": [
+          2021,
+          12
+        ],
+        "months": 7,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "vd1dd933bfaba7dab",
+          "event_after": "v3ced6cbb4f9eabe0",
+          "coverage_scope": "all_dated_activity",
+          "unplaced_activity_ids": []
+        },
+        "start_label": "2021-06",
+        "end_label": "2021-12",
+        "evidence_quotes": [
+          "Bachelor of Commerce [Accounting] 06/2018 – 05/2021 Dr. N G Bedekar College of Commerce, Mumbai University",
+          "Master’s in Business Administration [Finance] 01/2022 – 12/2025 Dr. V N Bedeker Institute of Management Studies, Mumbai University"
+        ],
+        "evidence_details": [
+          {
+            "header": "Bachelor of Commerce at Dr. N G Bedekar College of Commerce",
+            "quote": "Bachelor of Commerce [Accounting] 06/2018 – 05/2021 Dr. N G Bedekar College of Commerce, Mumbai University",
+            "event_id": "vd1dd933bfaba7dab",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Bachelor of Commerce [Accounting] 06/2018 – 05/2021",
+                  "block_id": "b55",
+                  "kind": "text",
+                  "start": 3584,
+                  "end": 3635
+                },
+                {
+                  "page": 1,
+                  "text": "Dr. N G Bedekar College of Commerce, Mumbai University",
+                  "block_id": "b56",
+                  "kind": "text",
+                  "start": 3637,
+                  "end": 3691
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "06/2018 – 05/2021",
+                  "block_id": "b55",
+                  "kind": "text",
+                  "start": 3618,
+                  "end": 3635
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Dr. N G Bedekar College of Commerce",
+                  "block_id": "b56",
+                  "kind": "text",
+                  "start": 3637,
+                  "end": 3672
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Bachelor of Commerce",
+                  "block_id": "b55",
+                  "kind": "text",
+                  "start": 3584,
+                  "end": 3604
+                }
+              ],
+              "section": "EDUCATION",
+              "date_label": "06/2018 – 05/2021",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Master’s in Business Administration at Dr. V N Bedeker Institute of Management Studies",
+            "quote": "Master’s in Business Administration [Finance] 01/2022 – 12/2025 Dr. V N Bedeker Institute of Management Studies, Mumbai University",
+            "event_id": "v3ced6cbb4f9eabe0",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Master’s in Business Administration [Finance] 01/2022 – 12/2025",
+                  "block_id": "b53",
+                  "kind": "text",
+                  "start": 3449,
+                  "end": 3512
+                },
+                {
+                  "page": 1,
+                  "text": "Dr. V N Bedeker Institute of Management Studies, Mumbai University",
+                  "block_id": "b54",
+                  "kind": "text",
+                  "start": 3514,
+                  "end": 3580
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "01/2022 – 12/2025",
+                  "block_id": "b53",
+                  "kind": "text",
+                  "start": 3495,
+                  "end": 3512
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Dr. V N Bedeker Institute of Management Studies",
+                  "block_id": "b54",
+                  "kind": "text",
+                  "start": 3514,
+                  "end": 3561
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Master’s in Business Administration",
+                  "block_id": "b53",
+                  "kind": "text",
+                  "start": 3449,
+                  "end": 3484
+                }
+              ],
+              "section": "EDUCATION",
+              "date_label": "01/2022 – 12/2025",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 4,
+      "total_events": 4,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 91,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": true,
+          "unrepresented_periods_in_category": [
+            {
+              "start": [
+                2025,
+                6
+              ],
+              "end": [
+                2025,
+                12
+              ],
+              "months": 7
+            }
+          ],
+          "entries": 2,
+          "dated_periods": 2,
+          "represented_months": 30,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 2,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v6bfe7e6d262c0c5a",
+              "label": "Financial Associate 2",
+              "state": "month_range",
+              "start": [
+                2023,
+                7
+              ],
+              "end": [
+                2025,
+                5
+              ],
+              "months": 23,
+              "raw": "07/2023 - 05/2025",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Financial Associate 2 07/2023 - 05/2025",
+                    "block_id": "b16",
+                    "kind": "text",
+                    "start": 1033,
+                    "end": 1072
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "07/2023 - 05/2025",
+                    "block_id": "b16",
+                    "kind": "text",
+                    "start": 1055,
+                    "end": 1072
+                  }
+                ],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Financial Associate 2",
+                    "block_id": "b16",
+                    "kind": "text",
+                    "start": 1033,
+                    "end": 1054
+                  }
+                ],
+                "section": "PROFESSIONAL EXPERIENCE",
+                "date_label": "07/2023 - 05/2025",
+                "is_present": false
+              }
+            },
+            {
+              "id": "v891a90a09c152d6f",
+              "label": "Consultant",
+              "state": "month_range",
+              "start": [
+                2026,
+                1
+              ],
+              "end": [
+                2026,
+                7
+              ],
+              "months": 7,
+              "raw": "01/2026 – 07/2026",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Consultant",
+                    "block_id": "b30",
+                    "kind": "text",
+                    "start": 2008,
+                    "end": 2018
+                  },
+                  {
+                    "page": 1,
+                    "text": "BCT Consulting (On Contract) 01/2026 – 07/2026",
+                    "block_id": "b31",
+                    "kind": "text",
+                    "start": 2020,
+                    "end": 2066
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "01/2026 – 07/2026",
+                    "block_id": "b31",
+                    "kind": "text",
+                    "start": 2049,
+                    "end": 2066
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "BCT Consulting",
+                    "block_id": "b31",
+                    "kind": "text",
+                    "start": 2020,
+                    "end": 2034
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Consultant",
+                    "block_id": "b30",
+                    "kind": "text",
+                    "start": 2008,
+                    "end": 2018
+                  }
+                ],
+                "section": "PROFESSIONAL EXPERIENCE",
+                "date_label": "01/2026 – 07/2026",
+                "is_present": false
+              }
+            }
+          ]
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        },
+        "education": {
+          "all_entries_month_precise": true,
+          "unrepresented_periods_in_category": [
+            {
+              "start": [
+                2021,
+                6
+              ],
+              "end": [
+                2021,
+                12
+              ],
+              "months": 7
+            }
+          ],
+          "entries": 2,
+          "dated_periods": 2,
+          "represented_months": 84,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 2,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "vd1dd933bfaba7dab",
+              "label": "Bachelor of Commerce",
+              "state": "month_range",
+              "start": [
+                2018,
+                6
+              ],
+              "end": [
+                2021,
+                5
+              ],
+              "months": 36,
+              "raw": "06/2018 – 05/2021",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Bachelor of Commerce [Accounting] 06/2018 – 05/2021",
+                    "block_id": "b55",
+                    "kind": "text",
+                    "start": 3584,
+                    "end": 3635
+                  },
+                  {
+                    "page": 1,
+                    "text": "Dr. N G Bedekar College of Commerce, Mumbai University",
+                    "block_id": "b56",
+                    "kind": "text",
+                    "start": 3637,
+                    "end": 3691
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "06/2018 – 05/2021",
+                    "block_id": "b55",
+                    "kind": "text",
+                    "start": 3618,
+                    "end": 3635
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Dr. N G Bedekar College of Commerce",
+                    "block_id": "b56",
+                    "kind": "text",
+                    "start": 3637,
+                    "end": 3672
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Bachelor of Commerce",
+                    "block_id": "b55",
+                    "kind": "text",
+                    "start": 3584,
+                    "end": 3604
+                  }
+                ],
+                "section": "EDUCATION",
+                "date_label": "06/2018 – 05/2021",
+                "is_present": false
+              }
+            },
+            {
+              "id": "v3ced6cbb4f9eabe0",
+              "label": "Master’s in Business Administration",
+              "state": "month_range",
+              "start": [
+                2022,
+                1
+              ],
+              "end": [
+                2025,
+                12
+              ],
+              "months": 48,
+              "raw": "01/2022 – 12/2025",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Master’s in Business Administration [Finance] 01/2022 – 12/2025",
+                    "block_id": "b53",
+                    "kind": "text",
+                    "start": 3449,
+                    "end": 3512
+                  },
+                  {
+                    "page": 1,
+                    "text": "Dr. V N Bedeker Institute of Management Studies, Mumbai University",
+                    "block_id": "b54",
+                    "kind": "text",
+                    "start": 3514,
+                    "end": 3580
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "01/2022 – 12/2025",
+                    "block_id": "b53",
+                    "kind": "text",
+                    "start": 3495,
+                    "end": 3512
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Dr. V N Bedeker Institute of Management Studies",
+                    "block_id": "b54",
+                    "kind": "text",
+                    "start": 3514,
+                    "end": 3561
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Master’s in Business Administration",
+                    "block_id": "b53",
+                    "kind": "text",
+                    "start": 3449,
+                    "end": 3484
+                  }
+                ],
+                "section": "EDUCATION",
+                "date_label": "01/2022 – 12/2025",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 91,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": true,
+        "unrepresented_periods_in_category": [
+          {
+            "start": [
+              2025,
+              6
+            ],
+            "end": [
+              2025,
+              12
+            ],
+            "months": 7
+          }
+        ],
+        "entries": 2,
+        "dated_periods": 2,
+        "represented_months": 30,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 2,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v6bfe7e6d262c0c5a",
+            "label": "Financial Associate 2",
+            "state": "month_range",
+            "start": [
+              2023,
+              7
+            ],
+            "end": [
+              2025,
+              5
+            ],
+            "months": 23,
+            "raw": "07/2023 - 05/2025",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Financial Associate 2 07/2023 - 05/2025",
+                  "block_id": "b16",
+                  "kind": "text",
+                  "start": 1033,
+                  "end": 1072
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "07/2023 - 05/2025",
+                  "block_id": "b16",
+                  "kind": "text",
+                  "start": 1055,
+                  "end": 1072
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Financial Associate 2",
+                  "block_id": "b16",
+                  "kind": "text",
+                  "start": 1033,
+                  "end": 1054
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "07/2023 - 05/2025",
+              "is_present": false
+            }
+          },
+          {
+            "id": "v891a90a09c152d6f",
+            "label": "Consultant",
+            "state": "month_range",
+            "start": [
+              2026,
+              1
+            ],
+            "end": [
+              2026,
+              7
+            ],
+            "months": 7,
+            "raw": "01/2026 – 07/2026",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Consultant",
+                  "block_id": "b30",
+                  "kind": "text",
+                  "start": 2008,
+                  "end": 2018
+                },
+                {
+                  "page": 1,
+                  "text": "BCT Consulting (On Contract) 01/2026 – 07/2026",
+                  "block_id": "b31",
+                  "kind": "text",
+                  "start": 2020,
+                  "end": 2066
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "01/2026 – 07/2026",
+                  "block_id": "b31",
+                  "kind": "text",
+                  "start": 2049,
+                  "end": 2066
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "BCT Consulting",
+                  "block_id": "b31",
+                  "kind": "text",
+                  "start": 2020,
+                  "end": 2034
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Consultant",
+                  "block_id": "b30",
+                  "kind": "text",
+                  "start": 2008,
+                  "end": 2018
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "01/2026 – 07/2026",
+              "is_present": false
+            }
+          }
+        ]
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      },
+      "education": {
+        "all_entries_month_precise": true,
+        "unrepresented_periods_in_category": [
+          {
+            "start": [
+              2021,
+              6
+            ],
+            "end": [
+              2021,
+              12
+            ],
+            "months": 7
+          }
+        ],
+        "entries": 2,
+        "dated_periods": 2,
+        "represented_months": 84,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 2,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "vd1dd933bfaba7dab",
+            "label": "Bachelor of Commerce",
+            "state": "month_range",
+            "start": [
+              2018,
+              6
+            ],
+            "end": [
+              2021,
+              5
+            ],
+            "months": 36,
+            "raw": "06/2018 – 05/2021",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Bachelor of Commerce [Accounting] 06/2018 – 05/2021",
+                  "block_id": "b55",
+                  "kind": "text",
+                  "start": 3584,
+                  "end": 3635
+                },
+                {
+                  "page": 1,
+                  "text": "Dr. N G Bedekar College of Commerce, Mumbai University",
+                  "block_id": "b56",
+                  "kind": "text",
+                  "start": 3637,
+                  "end": 3691
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "06/2018 – 05/2021",
+                  "block_id": "b55",
+                  "kind": "text",
+                  "start": 3618,
+                  "end": 3635
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Dr. N G Bedekar College of Commerce",
+                  "block_id": "b56",
+                  "kind": "text",
+                  "start": 3637,
+                  "end": 3672
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Bachelor of Commerce",
+                  "block_id": "b55",
+                  "kind": "text",
+                  "start": 3584,
+                  "end": 3604
+                }
+              ],
+              "section": "EDUCATION",
+              "date_label": "06/2018 – 05/2021",
+              "is_present": false
+            }
+          },
+          {
+            "id": "v3ced6cbb4f9eabe0",
+            "label": "Master’s in Business Administration",
+            "state": "month_range",
+            "start": [
+              2022,
+              1
+            ],
+            "end": [
+              2025,
+              12
+            ],
+            "months": 48,
+            "raw": "01/2022 – 12/2025",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Master’s in Business Administration [Finance] 01/2022 – 12/2025",
+                  "block_id": "b53",
+                  "kind": "text",
+                  "start": 3449,
+                  "end": 3512
+                },
+                {
+                  "page": 1,
+                  "text": "Dr. V N Bedeker Institute of Management Studies, Mumbai University",
+                  "block_id": "b54",
+                  "kind": "text",
+                  "start": 3514,
+                  "end": 3580
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "01/2022 – 12/2025",
+                  "block_id": "b53",
+                  "kind": "text",
+                  "start": 3495,
+                  "end": 3512
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Dr. V N Bedeker Institute of Management Studies",
+                  "block_id": "b54",
+                  "kind": "text",
+                  "start": 3514,
+                  "end": 3561
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Master’s in Business Administration",
+                  "block_id": "b53",
+                  "kind": "text",
+                  "start": 3449,
+                  "end": 3484
+                }
+              ],
+              "section": "EDUCATION",
+              "date_label": "01/2022 – 12/2025",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 91,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

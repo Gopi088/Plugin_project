@@ -1,0 +1,484 @@
+{
+  "file_name": "Ashfaq Rahman.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "72208ce711d6a9748f1b4b67cda7e2e44b731972db22329177d8b5c799c6de3b",
+  "doc_id": "72208ce711d6a9748f1b4b67",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 3,
+    "total_events": 3,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.765,
+    "ocr_pages": []
+  },
+  "work_experience": [
+    {
+      "id": "v72673009c2e735d4",
+      "type": "EMPLOYMENT",
+      "company": "ConnectWise",
+      "title": "Backend / Platform Engineer",
+      "start_date": "2018-01",
+      "end_date": "2019-12",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Backend / Platform Engineer – ConnectWise2018–2019",
+            "block_id": "b41",
+            "kind": "text",
+            "start": 3301,
+            "end": 3351
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2018–2019",
+            "block_id": "b41",
+            "kind": "text",
+            "start": 3342,
+            "end": 3351
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "ConnectWise",
+            "block_id": "b41",
+            "kind": "text",
+            "start": 3331,
+            "end": 3342
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Backend / Platform Engineer",
+            "block_id": "b41",
+            "kind": "text",
+            "start": 3301,
+            "end": 3328
+          }
+        ],
+        "section": "Experience",
+        "date_label": "2018–2019",
+        "is_present": false
+      }
+    },
+    {
+      "id": "v733544247d8ac14e",
+      "type": "EMPLOYMENT",
+      "company": "SaaS & Platform Products",
+      "title": "Full-Stack Engineer",
+      "start_date": "2020-01",
+      "end_date": "2023-12",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Full-Stack Engineer – SaaS & Platform Products2020–2023",
+            "block_id": "b29",
+            "kind": "text",
+            "start": 2213,
+            "end": 2268
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2020–2023",
+            "block_id": "b29",
+            "kind": "text",
+            "start": 2259,
+            "end": 2268
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "SaaS & Platform Products",
+            "block_id": "b29",
+            "kind": "text",
+            "start": 2235,
+            "end": 2259
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Full-Stack Engineer",
+            "block_id": "b29",
+            "kind": "text",
+            "start": 2213,
+            "end": 2232
+          }
+        ],
+        "section": "Experience",
+        "date_label": "2020–2023",
+        "is_present": false
+      }
+    },
+    {
+      "id": "vd6ee7a7d29f88aff",
+      "type": "EMPLOYMENT",
+      "company": "Sapiens (DigitalSuite R&D",
+      "title": "Senior Full-Stack Engineer",
+      "start_date": "2023-01",
+      "end_date": "2026-12",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.765,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Senior Full-Stack Engineer – Sapiens (DigitalSuite R&D)2023–Present",
+            "block_id": "b13",
+            "kind": "text",
+            "start": 756,
+            "end": 823
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2023–Present",
+            "block_id": "b13",
+            "kind": "text",
+            "start": 811,
+            "end": 823
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Sapiens (DigitalSuite R&D",
+            "block_id": "b13",
+            "kind": "text",
+            "start": 785,
+            "end": 810
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Senior Full-Stack Engineer",
+            "block_id": "b13",
+            "kind": "text",
+            "start": 756,
+            "end": 782
+          }
+        ],
+        "section": "Experience",
+        "date_label": "2023–Present",
+        "is_present": true
+      }
+    }
+  ],
+  "education": [],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 3,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "overlap preserved: 'Full-Stack Engineer' overlaps 'Senior Full-Stack Engineer'"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "72208ce711d6a9748f1b4b67",
+    "filename": "Ashfaq Rahman.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v72673009c2e735d4",
+        "type": "EMPLOYMENT",
+        "title": "Backend / Platform Engineer",
+        "org": "ConnectWise",
+        "start": "2018-01",
+        "end": "2019-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Backend / Platform Engineer – ConnectWise2018–2019",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Backend / Platform Engineer – ConnectWise2018–2019",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 3301,
+              "end": 3351
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2018–2019",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 3342,
+              "end": 3351
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "ConnectWise",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 3331,
+              "end": 3342
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Backend / Platform Engineer",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 3301,
+              "end": 3328
+            }
+          ],
+          "section": "Experience",
+          "date_label": "2018–2019",
+          "is_present": false
+        },
+        "date_label": "2018–2019",
+        "section": "Experience",
+        "is_present": false
+      },
+      {
+        "id": "v733544247d8ac14e",
+        "type": "EMPLOYMENT",
+        "title": "Full-Stack Engineer",
+        "org": "SaaS & Platform Products",
+        "start": "2020-01",
+        "end": "2023-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Full-Stack Engineer – SaaS & Platform Products2020–2023",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Full-Stack Engineer – SaaS & Platform Products2020–2023",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 2213,
+              "end": 2268
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2020–2023",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 2259,
+              "end": 2268
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "SaaS & Platform Products",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 2235,
+              "end": 2259
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Full-Stack Engineer",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 2213,
+              "end": 2232
+            }
+          ],
+          "section": "Experience",
+          "date_label": "2020–2023",
+          "is_present": false
+        },
+        "date_label": "2020–2023",
+        "section": "Experience",
+        "is_present": false
+      },
+      {
+        "id": "vd6ee7a7d29f88aff",
+        "type": "EMPLOYMENT",
+        "title": "Senior Full-Stack Engineer",
+        "org": "Sapiens (DigitalSuite R&D",
+        "start": "2023-01",
+        "end": "2026-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Senior Full-Stack Engineer – Sapiens (DigitalSuite R&D)2023–Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Full-Stack Engineer – Sapiens (DigitalSuite R&D)2023–Present",
+              "block_id": "b13",
+              "kind": "text",
+              "start": 756,
+              "end": 823
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2023–Present",
+              "block_id": "b13",
+              "kind": "text",
+              "start": 811,
+              "end": 823
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Sapiens (DigitalSuite R&D",
+              "block_id": "b13",
+              "kind": "text",
+              "start": 785,
+              "end": 810
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Full-Stack Engineer",
+              "block_id": "b13",
+              "kind": "text",
+              "start": 756,
+              "end": 782
+            }
+          ],
+          "section": "Experience",
+          "date_label": "2023–Present",
+          "is_present": true
+        },
+        "date_label": "2023–Present",
+        "section": "Experience",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [],
+        "evidence": {
+          "note": "year-only dates need verification"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 3,
+      "total_events": 3,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.765,
+      "ocr_pages": []
+    },
+    "total_represented_months": 108,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

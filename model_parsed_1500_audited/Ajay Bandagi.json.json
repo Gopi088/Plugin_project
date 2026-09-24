@@ -1,0 +1,480 @@
+{
+  "file_name": "Ajay Bandagi.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "26b1c39c4a3c48a4f1a383647861fc3cb14ce782b67ae690257e25e2e6f79e21",
+  "doc_id": "26b1c39c4a3c48a4f1a38364",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 3,
+    "dated_share": 0.667,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "ocr_pages": []
+  },
+  "work_experience": [
+    {
+      "id": "ve927afd32c412ab2",
+      "type": "EMPLOYMENT",
+      "company": "Accounts Executive",
+      "title": "",
+      "start_date": "2023-02",
+      "end_date": "2023-12",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Accounts Executive Feb 2023 - Dec 2023",
+            "block_id": "b31",
+            "kind": "text",
+            "start": 2135,
+            "end": 2173
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Feb 2023 - Dec 2023",
+            "block_id": "b31",
+            "kind": "text",
+            "start": 2154,
+            "end": 2173
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Accounts Executive",
+            "block_id": "b31",
+            "kind": "text",
+            "start": 2135,
+            "end": 2153
+          }
+        ],
+        "title": [],
+        "section": "WORK EXPERIENCE",
+        "date_label": "Feb 2023 - Dec 2023",
+        "is_present": false
+      }
+    }
+  ],
+  "education": [
+    {
+      "id": "v9f5d9684af0b0487",
+      "type": "EDUCATION",
+      "company": "",
+      "title": "Bachelor of Commerce (B.Com)",
+      "start_date": "2021-07",
+      "end_date": "2024-06",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Bachelor of Commerce (B.Com) – Finance & Accounts July 2021 - June 2024",
+            "block_id": "b50",
+            "kind": "text",
+            "start": 3495,
+            "end": 3566
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "July 2021 - June 2024",
+            "block_id": "b50",
+            "kind": "text",
+            "start": 3545,
+            "end": 3566
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Bachelor of Commerce (B.Com",
+            "block_id": "b50",
+            "kind": "text",
+            "start": 3495,
+            "end": 3522
+          }
+        ],
+        "section": "EDUCATION",
+        "date_label": "July 2021 - June 2024",
+        "is_present": false
+      }
+    },
+    {
+      "id": "v149447336c7515f4",
+      "type": "EDUCATION",
+      "company": "Yashwantrao Chavan Maharashtra Open University",
+      "title": "Master of Business Administration (MBA)",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Yashwantrao Chavan Maharashtra Open University",
+            "block_id": "b47",
+            "kind": "text",
+            "start": 3342,
+            "end": 3388
+          },
+          {
+            "page": 1,
+            "text": "Master of Business Administration (MBA) – Finance July 2024 - Pursuing | Expected Completion: June 2026",
+            "block_id": "b48",
+            "kind": "text",
+            "start": 3389,
+            "end": 3492
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "July 2024",
+            "block_id": "b48",
+            "kind": "text",
+            "start": 3439,
+            "end": 3448
+          },
+          {
+            "page": 1,
+            "text": "June 2026",
+            "block_id": "b48",
+            "kind": "text",
+            "start": 3483,
+            "end": 3492
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Yashwantrao Chavan Maharashtra Open University",
+            "block_id": "b47",
+            "kind": "text",
+            "start": 3342,
+            "end": 3388
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Master of Business Administration (MBA",
+            "block_id": "b48",
+            "kind": "text",
+            "start": 3389,
+            "end": 3427
+          }
+        ],
+        "section": "EDUCATION",
+        "date_label": "July 2024 / June 2026",
+        "is_present": false
+      }
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 1,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "entry e2: dates found without an explicit range",
+    "e2: dates cannot be assigned unambiguously",
+    "overlap preserved: 'Bachelor of Commerce (B.Com)' overlaps ''",
+    "conflicting/ambiguous date kept for 'Master of Business Administration (MBA)'"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "26b1c39c4a3c48a4f1a38364",
+    "filename": "Ajay Bandagi.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v9f5d9684af0b0487",
+        "type": "EDUCATION",
+        "title": "Bachelor of Commerce (B.Com)",
+        "org": "",
+        "start": "2021-07",
+        "end": "2024-06",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "Bachelor of Commerce (B.Com) – Finance & Accounts July 2021 - June 2024",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor of Commerce (B.Com) – Finance & Accounts July 2021 - June 2024",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 3495,
+              "end": 3566
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "July 2021 - June 2024",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 3545,
+              "end": 3566
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Commerce (B.Com",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 3495,
+              "end": 3522
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "July 2021 - June 2024",
+          "is_present": false
+        },
+        "date_label": "July 2021 - June 2024",
+        "section": "EDUCATION",
+        "is_present": false
+      },
+      {
+        "id": "ve927afd32c412ab2",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Accounts Executive",
+        "start": "2023-02",
+        "end": "2023-12",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Accounts Executive Feb 2023 - Dec 2023",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Accounts Executive Feb 2023 - Dec 2023",
+              "block_id": "b31",
+              "kind": "text",
+              "start": 2135,
+              "end": 2173
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Feb 2023 - Dec 2023",
+              "block_id": "b31",
+              "kind": "text",
+              "start": 2154,
+              "end": 2173
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Accounts Executive",
+              "block_id": "b31",
+              "kind": "text",
+              "start": 2135,
+              "end": 2153
+            }
+          ],
+          "title": [],
+          "section": "WORK EXPERIENCE",
+          "date_label": "Feb 2023 - Dec 2023",
+          "is_present": false
+        },
+        "date_label": "Feb 2023 - Dec 2023",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v149447336c7515f4",
+        "type": "EDUCATION",
+        "title": "Master of Business Administration (MBA)",
+        "org": "Yashwantrao Chavan Maharashtra Open University",
+        "entry_text": "Yashwantrao Chavan Maharashtra Open University Master of Business Administration (MBA) – Finance July 2024 - Pursuing | Expected Completion: June 2026 .",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Yashwantrao Chavan Maharashtra Open University",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 3342,
+              "end": 3388
+            },
+            {
+              "page": 1,
+              "text": "Master of Business Administration (MBA) – Finance July 2024 - Pursuing | Expected Completion: June 2026",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 3389,
+              "end": 3492
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "July 2024",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 3439,
+              "end": 3448
+            },
+            {
+              "page": 1,
+              "text": "June 2026",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 3483,
+              "end": 3492
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Yashwantrao Chavan Maharashtra Open University",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 3342,
+              "end": 3388
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Master of Business Administration (MBA",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 3389,
+              "end": 3427
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "July 2024 / June 2026",
+          "is_present": false
+        },
+        "date_label": "July 2024 / June 2026",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 3,
+      "dated_share": 0.667,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "ocr_pages": []
+    },
+    "total_represented_months": 36,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

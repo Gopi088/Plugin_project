@@ -1,0 +1,310 @@
+{
+  "file_name": "Sarath S.doc",
+  "input_mode": "original_document",
+  "input_sha256": "b00d07ba1eeea0e847d6dd6bdf72cda2033a860af91d39d1368bcb78d0307506",
+  "doc_id": "b00d07ba1eeea0e847d6dd6b",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 2,
+    "dated_share": 0.5,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "ocr_pages": []
+  },
+  "work_experience": [
+    {
+      "id": "v9e168480a92c9286",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Activities Performed as Tech Lead:",
+      "start_date": "2012-08",
+      "end_date": "2016-09",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Activities Performed as Tech Lead:",
+            "block_id": "b55",
+            "kind": "text",
+            "start": 2986,
+            "end": 3020
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "August 2012 to September 2016",
+            "block_id": "b70",
+            "kind": "text",
+            "start": 3774,
+            "end": 3803
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Activities Performed as Tech Lead",
+            "block_id": "b55",
+            "kind": "text",
+            "start": 2986,
+            "end": 3019
+          }
+        ],
+        "section": "1. Organization: FIS Global Business Solutions India Private Limited.",
+        "date_label": "August 2012 to September 2016",
+        "is_present": false
+      }
+    },
+    {
+      "id": "v55ff7700c9593b4f",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Lead Engineer DevOps",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Designation: Lead Engineer DevOps",
+            "block_id": "b24",
+            "kind": "text",
+            "start": 1210,
+            "end": 1243
+          }
+        ],
+        "dates": [],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Lead Engineer DevOps",
+            "block_id": "b24",
+            "kind": "text",
+            "start": 1223,
+            "end": 1243
+          }
+        ],
+        "section": "1. Organization: FIS Global Business Solutions India Private Limited.",
+        "date_label": "",
+        "is_present": false
+      }
+    }
+  ],
+  "education": [],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 2,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "PARTIAL",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "entry e2: dates found without an explicit range"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "b00d07ba1eeea0e847d6dd6b",
+    "filename": "Sarath S.doc",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "v9e168480a92c9286",
+        "type": "EMPLOYMENT",
+        "title": "Activities Performed as Tech Lead:",
+        "org": "",
+        "start": "2012-08",
+        "end": "2016-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Activities Performed as Tech Lead:",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Activities Performed as Tech Lead:",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 2986,
+              "end": 3020
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "August 2012 to September 2016",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 3774,
+              "end": 3803
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Activities Performed as Tech Lead",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 2986,
+              "end": 3019
+            }
+          ],
+          "section": "1. Organization: FIS Global Business Solutions India Private Limited.",
+          "date_label": "August 2012 to September 2016",
+          "is_present": false
+        },
+        "date_label": "August 2012 to September 2016",
+        "section": "1. Organization: FIS Global Business Solutions India Private Limited.",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v55ff7700c9593b4f",
+        "type": "EMPLOYMENT",
+        "title": "Lead Engineer DevOps",
+        "org": "",
+        "entry_text": "Designation: Lead Engineer DevOps • Spearheaded infrastructure provisioning and configuration using Terraform and Ansible Tower, reducing manual setup time. • Configured Azure Pipelines for automated build, test, and deployment processes across multiple environments. • Automated installation and con",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Designation: Lead Engineer DevOps",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 1210,
+              "end": 1243
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Lead Engineer DevOps",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 1223,
+              "end": 1243
+            }
+          ],
+          "section": "1. Organization: FIS Global Business Solutions India Private Limited.",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "1. Organization: FIS Global Business Solutions India Private Limited.",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "v55ff7700c9593b4f"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 2,
+      "dated_share": 0.5,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "ocr_pages": []
+    },
+    "total_represented_months": 50,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

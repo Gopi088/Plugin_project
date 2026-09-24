@@ -1,0 +1,585 @@
+{
+  "file_name": "Selvina___.pdf",
+  "input_mode": "recovered_original_document",
+  "input_sha256": "844c6885549b4d3c2142d88b5385a843ee04ac299e6fbc01ff431763f6ba0016",
+  "doc_id": "844c6885549b4d3c2142d88b",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 0,
+    "total_events": 1,
+    "dated_share": 0.0,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": null,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [],
+  "education": [
+    {
+      "id": "v8e34929846c47ef5",
+      "type": "EDUCATION",
+      "company": "St. Aloysius College",
+      "title": "",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "St. Aloysius College, Mangalore",
+            "block_id": "b13",
+            "method": "ocr",
+            "kind": "pdf",
+            "page_width": 592.8358154296875,
+            "page_height": 838.567138671875,
+            "bbox": [
+              33.0,
+              372.3333333333333,
+              172.66666666666669,
+              381.3333333333333
+            ]
+          },
+          {
+            "page": 1,
+            "text": "Pre-University Course",
+            "block_id": "b15",
+            "method": "ocr",
+            "kind": "pdf",
+            "page_width": 592.8358154296875,
+            "page_height": 838.567138671875,
+            "bbox": [
+              33.666666666666664,
+              419.0,
+              157.0,
+              430.0
+            ]
+          },
+          {
+            "page": 1,
+            "text": "St. Aloysius P.U. College, Mangalore",
+            "block_id": "b16",
+            "method": "ocr",
+            "kind": "pdf",
+            "page_width": 592.8358154296875,
+            "page_height": 838.567138671875,
+            "bbox": [
+              33.0,
+              433.0,
+              187.66666666666666,
+              442.3333333333333
+            ]
+          }
+        ],
+        "dates": [],
+        "company": [
+          {
+            "page": 1,
+            "text": "St. Aloysius College",
+            "block_id": "b13",
+            "method": "ocr",
+            "kind": "pdf",
+            "page_width": 592.8358154296875,
+            "page_height": 838.567138671875,
+            "bbox": [
+              33.0,
+              372.3333333333333,
+              122.33333333333334,
+              381.3333333333333
+            ]
+          }
+        ],
+        "title": [],
+        "section": "St. Aloysius College, Mangalore",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 0,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "PARTIAL",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "PARTIAL",
+    "coverage_analysis": "PARTIAL",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "page 1: OCR-derived text needs verification",
+    "page 2: OCR-derived text needs verification",
+    "very little extractable text; scanned image PDF may need OCR",
+    "section EDUCATION: entry without dated header preserved as-is",
+    "conflicting/ambiguous date kept for ''",
+    "no dated events to order",
+    "no intervals to cover"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "844c6885549b4d3c2142d88b",
+    "filename": "Selvina___.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [],
+    "unresolved_events": [
+      {
+        "id": "v8e34929846c47ef5",
+        "type": "EDUCATION",
+        "title": "",
+        "org": "St. Aloysius College",
+        "entry_text": "St. Aloysius College, Mangalore Pre-University Course St. Aloysius P.U. College, Mangalore",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "St. Aloysius College, Mangalore",
+              "block_id": "b13",
+              "method": "ocr",
+              "kind": "pdf",
+              "page_width": 592.8358154296875,
+              "page_height": 838.567138671875,
+              "bbox": [
+                33.0,
+                372.3333333333333,
+                172.66666666666669,
+                381.3333333333333
+              ]
+            },
+            {
+              "page": 1,
+              "text": "Pre-University Course",
+              "block_id": "b15",
+              "method": "ocr",
+              "kind": "pdf",
+              "page_width": 592.8358154296875,
+              "page_height": 838.567138671875,
+              "bbox": [
+                33.666666666666664,
+                419.0,
+                157.0,
+                430.0
+              ]
+            },
+            {
+              "page": 1,
+              "text": "St. Aloysius P.U. College, Mangalore",
+              "block_id": "b16",
+              "method": "ocr",
+              "kind": "pdf",
+              "page_width": 592.8358154296875,
+              "page_height": 838.567138671875,
+              "bbox": [
+                33.0,
+                433.0,
+                187.66666666666666,
+                442.3333333333333
+              ]
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "St. Aloysius College",
+              "block_id": "b13",
+              "method": "ocr",
+              "kind": "pdf",
+              "page_width": 592.8358154296875,
+              "page_height": 838.567138671875,
+              "bbox": [
+                33.0,
+                372.3333333333333,
+                122.33333333333334,
+                381.3333333333333
+              ]
+            }
+          ],
+          "title": [],
+          "section": "St. Aloysius College, Mangalore",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "St. Aloysius College, Mangalore",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 0,
+      "total_events": 1,
+      "dated_share": 0.0,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": null,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 0,
+    "stages": {
+      "document_processing": {
+        "status": "PARTIAL",
+        "confidence": 0.3
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "PARTIAL",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "PARTIAL",
+        "confidence": 0.3
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 1,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v8e34929846c47ef5",
+              "label": "St. Aloysius College",
+              "state": "ambiguous",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "St. Aloysius College, Mangalore",
+                    "block_id": "b13",
+                    "method": "ocr",
+                    "kind": "pdf",
+                    "page_width": 592.8358154296875,
+                    "page_height": 838.567138671875,
+                    "bbox": [
+                      33.0,
+                      372.3333333333333,
+                      172.66666666666669,
+                      381.3333333333333
+                    ]
+                  },
+                  {
+                    "page": 1,
+                    "text": "Pre-University Course",
+                    "block_id": "b15",
+                    "method": "ocr",
+                    "kind": "pdf",
+                    "page_width": 592.8358154296875,
+                    "page_height": 838.567138671875,
+                    "bbox": [
+                      33.666666666666664,
+                      419.0,
+                      157.0,
+                      430.0
+                    ]
+                  },
+                  {
+                    "page": 1,
+                    "text": "St. Aloysius P.U. College, Mangalore",
+                    "block_id": "b16",
+                    "method": "ocr",
+                    "kind": "pdf",
+                    "page_width": 592.8358154296875,
+                    "page_height": 838.567138671875,
+                    "bbox": [
+                      33.0,
+                      433.0,
+                      187.66666666666666,
+                      442.3333333333333
+                    ]
+                  }
+                ],
+                "dates": [],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "St. Aloysius College",
+                    "block_id": "b13",
+                    "method": "ocr",
+                    "kind": "pdf",
+                    "page_width": 592.8358154296875,
+                    "page_height": 838.567138671875,
+                    "bbox": [
+                      33.0,
+                      372.3333333333333,
+                      122.33333333333334,
+                      381.3333333333333
+                    ]
+                  }
+                ],
+                "title": [],
+                "section": "St. Aloysius College, Mangalore",
+                "date_label": "",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 0,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "recovered_from": "/mnt/c/Users/Gopi Gedar/Eragina Digital Solutions Private Limited/Eragina Digital - Documents/RESUMES/resume/RESUMES_FLAT/Selvina___.pdf",
+  "original_sha256": "fb8d1cc02d837347345ff925d85034fe0061b4cf96941fcc83ae395393bf58e1",
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 1,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v8e34929846c47ef5",
+            "label": "St. Aloysius College",
+            "state": "ambiguous",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "St. Aloysius College, Mangalore",
+                  "block_id": "b13",
+                  "method": "ocr",
+                  "kind": "pdf",
+                  "page_width": 592.8358154296875,
+                  "page_height": 838.567138671875,
+                  "bbox": [
+                    33.0,
+                    372.3333333333333,
+                    172.66666666666669,
+                    381.3333333333333
+                  ]
+                },
+                {
+                  "page": 1,
+                  "text": "Pre-University Course",
+                  "block_id": "b15",
+                  "method": "ocr",
+                  "kind": "pdf",
+                  "page_width": 592.8358154296875,
+                  "page_height": 838.567138671875,
+                  "bbox": [
+                    33.666666666666664,
+                    419.0,
+                    157.0,
+                    430.0
+                  ]
+                },
+                {
+                  "page": 1,
+                  "text": "St. Aloysius P.U. College, Mangalore",
+                  "block_id": "b16",
+                  "method": "ocr",
+                  "kind": "pdf",
+                  "page_width": 592.8358154296875,
+                  "page_height": 838.567138671875,
+                  "bbox": [
+                    33.0,
+                    433.0,
+                    187.66666666666666,
+                    442.3333333333333
+                  ]
+                }
+              ],
+              "dates": [],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "St. Aloysius College",
+                  "block_id": "b13",
+                  "method": "ocr",
+                  "kind": "pdf",
+                  "page_width": 592.8358154296875,
+                  "page_height": 838.567138671875,
+                  "bbox": [
+                    33.0,
+                    372.3333333333333,
+                    122.33333333333334,
+                    381.3333333333333
+                  ]
+                }
+              ],
+              "title": [],
+              "section": "St. Aloysius College, Mangalore",
+              "date_label": "",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 0,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

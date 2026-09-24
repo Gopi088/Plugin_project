@@ -1,0 +1,2944 @@
+{
+  "file_name": "MaharanaSunil.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "e0002a12ae6a8e58b3d5bfed5a50db73d40ceb77acf425787f67ec712c5046d6",
+  "doc_id": "e0002a12ae6a8e58b3d5bfed",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 12,
+    "dated_share": 0.167,
+    "unresolved": 10,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.833,
+    "document_accuracy": 0.83
+  },
+  "work_experience": [
+    {
+      "id": "vecb0b4856cc229ee",
+      "type": "EMPLOYMENT",
+      "company": "Sugna Metals Ltd",
+      "title": "",
+      "start_date": "2017-11",
+      "end_date": "2026-09",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Sugna Metals Ltd., Hyderabad Nov 2017 – Present AI Engineer (Supply Chain)",
+            "block_id": "b22",
+            "kind": "text",
+            "start": 1387,
+            "end": 1461
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Nov 2017 – Present",
+            "block_id": "b22",
+            "kind": "text",
+            "start": 1416,
+            "end": 1434
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Sugna Metals Ltd",
+            "block_id": "b22",
+            "kind": "text",
+            "start": 1387,
+            "end": 1403
+          }
+        ],
+        "title": [],
+        "section": "Work Experience",
+        "date_label": "Nov 2017 – Present",
+        "is_present": true
+      },
+      "precision": "month",
+      "date_label": "Nov 2017 – Present"
+    }
+  ],
+  "education": [
+    {
+      "id": "v6b03da6391ac3bd7",
+      "type": "EDUCATION",
+      "company": "Osmania University",
+      "title": "B.Tech in Computer Science",
+      "start_date": "2018-01",
+      "end_date": "2022-12",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Osmania University, Hyderabad 2018 – 2022",
+            "block_id": "b68",
+            "kind": "text",
+            "start": 5534,
+            "end": 5575
+          },
+          {
+            "page": 1,
+            "text": "B.Tech in Computer Science",
+            "block_id": "b69",
+            "kind": "text",
+            "start": 5577,
+            "end": 5603
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2018 – 2022",
+            "block_id": "b68",
+            "kind": "text",
+            "start": 5564,
+            "end": 5575
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Osmania University",
+            "block_id": "b68",
+            "kind": "text",
+            "start": 5534,
+            "end": 5552
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "B.Tech in Computer Science",
+            "block_id": "b69",
+            "kind": "text",
+            "start": 5577,
+            "end": 5603
+          }
+        ],
+        "section": "Education",
+        "date_label": "2018 – 2022",
+        "is_present": false
+      },
+      "precision": "year",
+      "date_label": "2018 – 2022"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "RAG-Based Industrial Query Bot Langchain, LlamaIndex, OpenAI API, Pinecone, FastAPI, Docker, AWS ECS, Prometheus,",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "RAG-Based Industrial Query Bot Langchain, LlamaIndex, OpenAI API, Pinecone, FastAPI, Docker, AWS ECS, Prometheus,"
+      ],
+      "raw_text": "RAG-Based Industrial Query Bot Langchain, LlamaIndex, OpenAI API, Pinecone, FastAPI, Docker, AWS ECS, Prometheus,",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "RAG-Based Industrial Query Bot Langchain, LlamaIndex, OpenAI API, Pinecone, FastAPI, Docker, AWS ECS, Prometheus,",
+            "block_id": "b30",
+            "kind": "text",
+            "start": 1979,
+            "end": 2092
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_2",
+      "name": "Grafana",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Grafana",
+        "Architected a RAG -based QA system for internal SOPs, enabling plant engineers to retrieve actionable instructions via natural",
+        "language queries. Deployed backend on AWS ECS with FastAPI, token-based access, and monitoring. Reduced information retrieval",
+        "time by 80% in demo environments.",
+        "Agentic Procurement Negotiator OpenAI GPT-4 API, LangGraph, Streamlit, AWS Lambda, Qdrant, Google Sheets API Built an agentic AI app",
+        "simulating multi-step procurement negotiations using LLMs and real -time data. Modular agents for offer analysis, risk, and contract",
+        "drafting; deployed Streamlit frontend and Lambda backend. Achieved 30% faster negotiation cycles in demo scenarios."
+      ],
+      "raw_text": "Grafana\nArchitected a RAG -based QA system for internal SOPs, enabling plant engineers to retrieve actionable instructions via natural\nlanguage queries. Deployed backend on AWS ECS with FastAPI, token-based access, and monitoring. Reduced information retrieval\ntime by 80% in demo environments.\nAgentic Procurement Negotiator OpenAI GPT-4 API, LangGraph, Streamlit, AWS Lambda, Qdrant, Google Sheets API Built an agentic AI app\nsimulating multi-step procurement negotiations using LLMs and real -time data. Modular agents for offer analysis, risk, and contract\ndrafting; deployed Streamlit frontend a",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Grafana",
+            "block_id": "b31",
+            "kind": "text",
+            "start": 2094,
+            "end": 2101
+          },
+          {
+            "page": 1,
+            "text": "Architected a RAG -based QA system for internal SOPs, enabling plant engineers to retrieve actionable instructions via natural",
+            "block_id": "b32",
+            "kind": "text",
+            "start": 2103,
+            "end": 2229
+          },
+          {
+            "page": 1,
+            "text": "language queries. Deployed backend on AWS ECS with FastAPI, token-based access, and monitoring. Reduced information retrieval",
+            "block_id": "b33",
+            "kind": "text",
+            "start": 2231,
+            "end": 2356
+          },
+          {
+            "page": 1,
+            "text": "time by 80% in demo environments.",
+            "block_id": "b34",
+            "kind": "text",
+            "start": 2358,
+            "end": 2391
+          },
+          {
+            "page": 1,
+            "text": "Agentic Procurement Negotiator OpenAI GPT-4 API, LangGraph, Streamlit, AWS Lambda, Qdrant, Google Sheets API Built an agentic AI app",
+            "block_id": "b35",
+            "kind": "text",
+            "start": 2393,
+            "end": 2525
+          },
+          {
+            "page": 1,
+            "text": "simulating multi-step procurement negotiations using LLMs and real -time data. Modular agents for offer analysis, risk, and contract",
+            "block_id": "b36",
+            "kind": "text",
+            "start": 2527,
+            "end": 2659
+          },
+          {
+            "page": 1,
+            "text": "drafting; deployed Streamlit frontend and Lambda backend. Achieved 30% faster negotiation cycles in demo scenarios.",
+            "block_id": "b37",
+            "kind": "text",
+            "start": 2661,
+            "end": 2776
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_3",
+      "name": "GenAI-Powered Vendor Performance Analyzer Hugging Face Transformers, Streamlit, Plotly, AWS S3, MLflow, Docker Automated extraction,",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "GenAI-Powered Vendor Performance Analyzer Hugging Face Transformers, Streamlit, Plotly, AWS S3, MLflow, Docker Automated extraction,",
+        "summarization, and visualization of vendor performance from unstructured reports using transformer models via API. Integrated"
+      ],
+      "raw_text": "GenAI-Powered Vendor Performance Analyzer Hugging Face Transformers, Streamlit, Plotly, AWS S3, MLflow, Docker Automated extraction,\nsummarization, and visualization of vendor performance from unstructured reports using transformer models via API. Integrated",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "GenAI-Powered Vendor Performance Analyzer Hugging Face Transformers, Streamlit, Plotly, AWS S3, MLflow, Docker Automated extraction,",
+            "block_id": "b38",
+            "kind": "text",
+            "start": 2778,
+            "end": 2910
+          },
+          {
+            "page": 1,
+            "text": "summarization, and visualization of vendor performance from unstructured reports using transformer models via API. Integrated",
+            "block_id": "b39",
+            "kind": "text",
+            "start": 2912,
+            "end": 3037
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_4",
+      "name": "Streamlit dashboard and MLflow tracking; reduced manual analysis time by 60%.",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Streamlit dashboard and MLflow tracking; reduced manual analysis time by 60%.",
+        "Autonomous SOP Compliance Checker OpenAI GPT-3.5 API, Langchain, FastAPI, MongoDB, Prometheus, Docker AI system parsing logs and",
+        "checking compliance against SOPs, deployed as FastAPI microservice on AWS ECS. Automated compliance audit, reducing manual",
+        "effort by 70%."
+      ],
+      "raw_text": "Streamlit dashboard and MLflow tracking; reduced manual analysis time by 60%.\nAutonomous SOP Compliance Checker OpenAI GPT-3.5 API, Langchain, FastAPI, MongoDB, Prometheus, Docker AI system parsing logs and\nchecking compliance against SOPs, deployed as FastAPI microservice on AWS ECS. Automated compliance audit, reducing manual\neffort by 70%.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Streamlit dashboard and MLflow tracking; reduced manual analysis time by 60%.",
+            "block_id": "b40",
+            "kind": "text",
+            "start": 3040,
+            "end": 3117
+          },
+          {
+            "page": 1,
+            "text": "Autonomous SOP Compliance Checker OpenAI GPT-3.5 API, Langchain, FastAPI, MongoDB, Prometheus, Docker AI system parsing logs and",
+            "block_id": "b41",
+            "kind": "text",
+            "start": 3120,
+            "end": 3248
+          },
+          {
+            "page": 1,
+            "text": "checking compliance against SOPs, deployed as FastAPI microservice on AWS ECS. Automated compliance audit, reducing manual",
+            "block_id": "b42",
+            "kind": "text",
+            "start": 3250,
+            "end": 3372
+          },
+          {
+            "page": 1,
+            "text": "effort by 70%.",
+            "block_id": "b43",
+            "kind": "text",
+            "start": 3374,
+            "end": 3388
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_5",
+      "name": "Production Delay Reasoning Agent BERT, Langchain, Grafana, AWS Lambda, Docker LLM-powered chatbot classifying and explaining",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Production Delay Reasoning Agent BERT, Langchain, Grafana, AWS Lambda, Docker LLM-powered chatbot classifying and explaining",
+        "production delays from operator logs. Integrated with Grafana for realtime visualization; improved root cause identification by 50%.",
+        "GenAI-Driven Inventory Insights Bot Llama 2 API, Langchain, Streamlit, AWS S3, Pinecone, Docker Conversational agent for inventory",
+        "optimization, integrating ERP data and Pinecone vector search; reduced review time by 40%.",
+        "Resume Parser AI Project spaCy, scikit-learn, OpenAI API, FastAPI, AWS Lambda, S3, MongoDB Developed an NLP -driven resume parser to extract and structure candidate information from unstructured resumes. Used spaCy for NER, OpenAI API for skill extraction, a nd",
+        "scikit-learn for clustering. Deployed as a FastAPI microservice on AWS Lambda, storing results in MongoDB and S3.",
+        "GenAI Tabular & Time Series Data Analysis Agent Langchain, OpenAI API, sktime, tsfresh, Pandas, Streamlit, AWS S3,"
+      ],
+      "raw_text": "Production Delay Reasoning Agent BERT, Langchain, Grafana, AWS Lambda, Docker LLM-powered chatbot classifying and explaining\nproduction delays from operator logs. Integrated with Grafana for realtime visualization; improved root cause identification by 50%.\nGenAI-Driven Inventory Insights Bot Llama 2 API, Langchain, Streamlit, AWS S3, Pinecone, Docker Conversational agent for inventory\noptimization, integrating ERP data and Pinecone vector search; reduced review time by 40%.\nResume Parser AI Project spaCy, scikit-learn, OpenAI API, FastAPI, AWS Lambda, S3, MongoDB Developed an NLP -driven resu",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Production Delay Reasoning Agent BERT, Langchain, Grafana, AWS Lambda, Docker LLM-powered chatbot classifying and explaining",
+            "block_id": "b44",
+            "kind": "text",
+            "start": 3390,
+            "end": 3514
+          },
+          {
+            "page": 1,
+            "text": "production delays from operator logs. Integrated with Grafana for realtime visualization; improved root cause identification by 50%.",
+            "block_id": "b45",
+            "kind": "text",
+            "start": 3516,
+            "end": 3648
+          },
+          {
+            "page": 1,
+            "text": "GenAI-Driven Inventory Insights Bot Llama 2 API, Langchain, Streamlit, AWS S3, Pinecone, Docker Conversational agent for inventory",
+            "block_id": "b46",
+            "kind": "text",
+            "start": 3650,
+            "end": 3780
+          },
+          {
+            "page": 1,
+            "text": "optimization, integrating ERP data and Pinecone vector search; reduced review time by 40%.",
+            "block_id": "b47",
+            "kind": "text",
+            "start": 3782,
+            "end": 3872
+          },
+          {
+            "page": 1,
+            "text": "Resume Parser AI Project spaCy, scikit-learn, OpenAI API, FastAPI, AWS Lambda, S3, MongoDB Developed an NLP -driven resume parser to",
+            "block_id": "b48",
+            "kind": "text",
+            "start": 3874,
+            "end": 4006
+          },
+          {
+            "page": 1,
+            "text": "extract and structure candidate information from unstructured resumes. Used spaCy for NER, OpenAI API for skill extraction, a nd",
+            "block_id": "b48",
+            "kind": "text",
+            "start": 4008,
+            "end": 4136
+          },
+          {
+            "page": 1,
+            "text": "scikit-learn for clustering. Deployed as a FastAPI microservice on AWS Lambda, storing results in MongoDB and S3.",
+            "block_id": "b49",
+            "kind": "text",
+            "start": 4138,
+            "end": 4251
+          },
+          {
+            "page": 1,
+            "text": "GenAI Tabular & Time Series Data Analysis Agent Langchain, OpenAI API, sktime, tsfresh, Pandas, Streamlit, AWS S3,",
+            "block_id": "b50",
+            "kind": "text",
+            "start": 4253,
+            "end": 4367
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_6",
+      "name": "FastAPI",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "FastAPI",
+        "Built an LLM-powered agent that analyzes, summarizes, and generates insights from tabular and time series datasets. Used tsfresh",
+        "and sktime for feature extraction, Langchain for NLQ, and deployed as a Streamlit app and FastAPI microservice.",
+        "Foundational ML Projects (2020–2022)"
+      ],
+      "raw_text": "FastAPI\nBuilt an LLM-powered agent that analyzes, summarizes, and generates insights from tabular and time series datasets. Used tsfresh\nand sktime for feature extraction, Langchain for NLQ, and deployed as a Streamlit app and FastAPI microservice.\nFoundational ML Projects (2020–2022)",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "FastAPI",
+            "block_id": "b51",
+            "kind": "text",
+            "start": 4369,
+            "end": 4376
+          },
+          {
+            "page": 1,
+            "text": "Built an LLM-powered agent that analyzes, summarizes, and generates insights from tabular and time series datasets. Used tsfresh",
+            "block_id": "b52",
+            "kind": "text",
+            "start": 4378,
+            "end": 4506
+          },
+          {
+            "page": 1,
+            "text": "and sktime for feature extraction, Langchain for NLQ, and deployed as a Streamlit app and FastAPI microservice.",
+            "block_id": "b53",
+            "kind": "text",
+            "start": 4508,
+            "end": 4619
+          },
+          {
+            "page": 1,
+            "text": "Foundational ML Projects (2020–2022)",
+            "block_id": "b54",
+            "kind": "text",
+            "start": 4622,
+            "end": 4658
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_7",
+      "name": "Fraud Detection with XGBoost",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Fraud Detection with XGBoost",
+        "Built and tuned pipeline achieving 98% precision."
+      ],
+      "raw_text": "Fraud Detection with XGBoost\nBuilt and tuned pipeline achieving 98% precision.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Fraud Detection with XGBoost",
+            "block_id": "b55",
+            "kind": "text",
+            "start": 4660,
+            "end": 4688
+          },
+          {
+            "page": 1,
+            "text": "Built and tuned pipeline achieving 98% precision.",
+            "block_id": "b56",
+            "kind": "text",
+            "start": 4690,
+            "end": 4739
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_8",
+      "name": "Mini Food Classifier",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Mini Food Classifier"
+      ],
+      "raw_text": "Mini Food Classifier",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Mini Food Classifier",
+            "block_id": "b57",
+            "kind": "text",
+            "start": 4741,
+            "end": 4761
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_9",
+      "name": "Fine-tuned EfficientNetB2, deployed interactive demo on Hugging Face Spaces.",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Fine-tuned EfficientNetB2, deployed interactive demo on Hugging Face Spaces."
+      ],
+      "raw_text": "Fine-tuned EfficientNetB2, deployed interactive demo on Hugging Face Spaces.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Fine-tuned EfficientNetB2, deployed interactive demo on Hugging Face Spaces.",
+            "block_id": "b58",
+            "kind": "text",
+            "start": 4763,
+            "end": 4839
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_10",
+      "name": "MLOps & Deployment Experience",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "MLOps & Deployment Experience",
+        "• Data Versioning: DVC with S3 for datasets and model artifacts.",
+        "• Experiment Tracking: MLflow and SageMaker Experiments for hyperparameter and model tracking.",
+        "• Model Registry & Deployment: SageMaker Model Registry, Lambda triggers, ECR for containerized models, serverless endpoints",
+        "for cost efficiency.",
+        "• Monitoring & Retraining: Model Monitor, Prometheus, CloudWatch, event-driven retraining using Lambda and S3 triggers.",
+        "• CI/CD: GitHub Actions for automated build, test, and deployment pipelines; integrated with AWS CLI/SDK.",
+        "• Security & Networking: IAM roles, VPC, security groups, private subnets for secure and scalable deployments."
+      ],
+      "raw_text": "MLOps & Deployment Experience\n• Data Versioning: DVC with S3 for datasets and model artifacts.\n• Experiment Tracking: MLflow and SageMaker Experiments for hyperparameter and model tracking.\n• Model Registry & Deployment: SageMaker Model Registry, Lambda triggers, ECR for containerized models, serverless endpoints\nfor cost efficiency.\n• Monitoring & Retraining: Model Monitor, Prometheus, CloudWatch, event-driven retraining using Lambda and S3 triggers.\n• CI/CD: GitHub Actions for automated build, test, and deployment pipelines; integrated with AWS CLI/SDK.\n• Security & Networking: IAM roles, VP",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "MLOps & Deployment Experience",
+            "block_id": "b59",
+            "kind": "text",
+            "start": 4841,
+            "end": 4870
+          },
+          {
+            "page": 1,
+            "text": "• Data Versioning: DVC with S3 for datasets and model artifacts.",
+            "block_id": "b60",
+            "kind": "text",
+            "start": 4872,
+            "end": 4936
+          },
+          {
+            "page": 1,
+            "text": "• Experiment Tracking: MLflow and SageMaker Experiments for hyperparameter and model tracking.",
+            "block_id": "b61",
+            "kind": "text",
+            "start": 4938,
+            "end": 5032
+          },
+          {
+            "page": 1,
+            "text": "• Model Registry & Deployment: SageMaker Model Registry, Lambda triggers, ECR for containerized models, serverless endpoints",
+            "block_id": "b62",
+            "kind": "text",
+            "start": 5034,
+            "end": 5158
+          },
+          {
+            "page": 1,
+            "text": "for cost efficiency.",
+            "block_id": "b63",
+            "kind": "text",
+            "start": 5160,
+            "end": 5180
+          },
+          {
+            "page": 1,
+            "text": "• Monitoring & Retraining: Model Monitor, Prometheus, CloudWatch, event-driven retraining using Lambda and S3 triggers.",
+            "block_id": "b64",
+            "kind": "text",
+            "start": 5182,
+            "end": 5301
+          },
+          {
+            "page": 1,
+            "text": "• CI/CD: GitHub Actions for automated build, test, and deployment pipelines; integrated with AWS CLI/SDK.",
+            "block_id": "b65",
+            "kind": "text",
+            "start": 5303,
+            "end": 5408
+          },
+          {
+            "page": 1,
+            "text": "• Security & Networking: IAM roles, VPC, security groups, private subnets for secure and scalable deployments.",
+            "block_id": "b66",
+            "kind": "text",
+            "start": 5410,
+            "end": 5520
+          }
+        ]
+      }
+    }
+  ],
+  "gaps": [],
+  "total_work_experience_entries": 1,
+  "total_projects_entries": 10,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "overlap preserved: '' overlaps 'B.Tech in Computer Science'"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "e0002a12ae6a8e58b3d5bfed",
+    "filename": "MaharanaSunil.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "vecb0b4856cc229ee",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Sugna Metals Ltd",
+        "start": "2017-11",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Sugna Metals Ltd., Hyderabad Nov 2017 – Present AI Engineer (Supply Chain)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Sugna Metals Ltd., Hyderabad Nov 2017 – Present AI Engineer (Supply Chain)",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 1387,
+              "end": 1461
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Nov 2017 – Present",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 1416,
+              "end": 1434
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Sugna Metals Ltd",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 1387,
+              "end": 1403
+            }
+          ],
+          "title": [],
+          "section": "Work Experience",
+          "date_label": "Nov 2017 – Present",
+          "is_present": true
+        },
+        "date_label": "Nov 2017 – Present",
+        "section": "Work Experience",
+        "is_present": true
+      },
+      {
+        "id": "v6b03da6391ac3bd7",
+        "type": "EDUCATION",
+        "title": "B.Tech in Computer Science",
+        "org": "Osmania University",
+        "start": "2018-01",
+        "end": "2022-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "Osmania University, Hyderabad 2018 – 2022\nB.Tech in Computer Science",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Osmania University, Hyderabad 2018 – 2022",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 5534,
+              "end": 5575
+            },
+            {
+              "page": 1,
+              "text": "B.Tech in Computer Science",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 5577,
+              "end": 5603
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2018 – 2022",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 5564,
+              "end": 5575
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Osmania University",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 5534,
+              "end": 5552
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "B.Tech in Computer Science",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 5577,
+              "end": 5603
+            }
+          ],
+          "section": "Education",
+          "date_label": "2018 – 2022",
+          "is_present": false
+        },
+        "date_label": "2018 – 2022",
+        "section": "Education",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v4d0fe868c1f17348",
+        "type": "PROJECT",
+        "title": "RAG-Based Industrial Query Bot Langchain, LlamaIndex, OpenAI API, Pinecone, FastAPI, Docker, AWS ECS, Prometheus",
+        "org": "",
+        "entry_text": "RAG-Based Industrial Query Bot Langchain, LlamaIndex, OpenAI API, Pinecone, FastAPI, Docker, AWS ECS, Prometheus,",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "RAG-Based Industrial Query Bot Langchain, LlamaIndex, OpenAI API, Pinecone, FastAPI, Docker, AWS ECS, Prometheus,",
+              "block_id": "b30",
+              "kind": "text",
+              "start": 1979,
+              "end": 2092
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "RAG-Based Industrial Query Bot Langchain, LlamaIndex, OpenAI API, Pinecone, FastAPI, Docker, AWS ECS, Prometheus",
+              "block_id": "b30",
+              "kind": "text",
+              "start": 1979,
+              "end": 2091
+            }
+          ],
+          "section": "Projects",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Projects",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "vcebe40407d784a2c",
+        "type": "PROJECT",
+        "title": "Grafana",
+        "org": "",
+        "entry_text": "Grafana Architected a RAG -based QA system for internal SOPs, enabling plant engineers to retrieve actionable instructions via natural language queries. Deployed backend on AWS ECS with FastAPI, token-based access, and monitoring. Reduced information retrieval time by 80% in demo environments. Agent",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Grafana",
+              "block_id": "b31",
+              "kind": "text",
+              "start": 2094,
+              "end": 2101
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Grafana",
+              "block_id": "b31",
+              "kind": "text",
+              "start": 2094,
+              "end": 2101
+            }
+          ],
+          "section": "Projects",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Projects",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v68697fc45d34ed6c",
+        "type": "PROJECT",
+        "title": "GenAI-Powered Vendor Performance Analyzer Hugging Face Transformers, Streamlit, Plotly, AWS S3, MLflow, Docker Automated extraction",
+        "org": "",
+        "entry_text": "GenAI-Powered Vendor Performance Analyzer Hugging Face Transformers, Streamlit, Plotly, AWS S3, MLflow, Docker Automated extraction, summarization, and visualization of vendor performance from unstructured reports using transformer models via API. Integrated",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "GenAI-Powered Vendor Performance Analyzer Hugging Face Transformers, Streamlit, Plotly, AWS S3, MLflow, Docker Automated extraction,",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 2778,
+              "end": 2910
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "GenAI-Powered Vendor Performance Analyzer Hugging Face Transformers, Streamlit, Plotly, AWS S3, MLflow, Docker Automated extraction",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 2778,
+              "end": 2909
+            }
+          ],
+          "section": "Projects",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Projects",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v569a3c495cdabee6",
+        "type": "PROJECT",
+        "title": "Streamlit dashboard and MLflow tracking; reduced manual analysis time by 60%.",
+        "org": "",
+        "entry_text": "Streamlit dashboard and MLflow tracking; reduced manual analysis time by 60%. Autonomous SOP Compliance Checker OpenAI GPT-3.5 API, Langchain, FastAPI, MongoDB, Prometheus, Docker AI system parsing logs and checking compliance against SOPs, deployed as FastAPI microservice on AWS ECS. Automated comp",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Streamlit dashboard and MLflow tracking; reduced manual analysis time by 60%.",
+              "block_id": "b40",
+              "kind": "text",
+              "start": 3040,
+              "end": 3117
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Streamlit dashboard and MLflow tracking; reduced manual analysis time by 60",
+              "block_id": "b40",
+              "kind": "text",
+              "start": 3040,
+              "end": 3115
+            }
+          ],
+          "section": "Projects",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Projects",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v2d807aabf95b5520",
+        "type": "PROJECT",
+        "title": "Production Delay Reasoning Agent BERT, Langchain, Grafana, AWS Lambda, Docker LLM-powered chatbot classifying and explaining",
+        "org": "",
+        "entry_text": "Production Delay Reasoning Agent BERT, Langchain, Grafana, AWS Lambda, Docker LLM-powered chatbot classifying and explaining production delays from operator logs. Integrated with Grafana for realtime visualization; improved root cause identification by 50%. GenAI-Driven Inventory Insights Bot Llama ",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Production Delay Reasoning Agent BERT, Langchain, Grafana, AWS Lambda, Docker LLM-powered chatbot classifying and explaining",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 3390,
+              "end": 3514
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Production Delay Reasoning Agent BERT, Langchain, Grafana, AWS Lambda, Docker LLM-powered chatbot classifying and explaining",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 3390,
+              "end": 3514
+            }
+          ],
+          "section": "Projects",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Projects",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v5f58b03759ae7bd8",
+        "type": "PROJECT",
+        "title": "FastAPI",
+        "org": "",
+        "entry_text": "FastAPI Built an LLM-powered agent that analyzes, summarizes, and generates insights from tabular and time series datasets. Used tsfresh and sktime for feature extraction, Langchain for NLQ, and deployed as a Streamlit app and FastAPI microservice. Foundational ML Projects (2020–2022)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "FastAPI",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 4369,
+              "end": 4376
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2020–2022",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 4648,
+              "end": 4657
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "FastAPI",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 4369,
+              "end": 4376
+            }
+          ],
+          "section": "Projects",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Projects",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "vc54159b79984526a",
+        "type": "PROJECT",
+        "title": "Fraud Detection with XGBoost",
+        "org": "",
+        "entry_text": "Fraud Detection with XGBoost Built and tuned pipeline achieving 98% precision.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Fraud Detection with XGBoost",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 4660,
+              "end": 4688
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Fraud Detection with XGBoost",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 4660,
+              "end": 4688
+            }
+          ],
+          "section": "Projects",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Projects",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v0edf6770962aba42",
+        "type": "PROJECT",
+        "title": "Mini Food Classifier",
+        "org": "",
+        "entry_text": "Mini Food Classifier",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Mini Food Classifier",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 4741,
+              "end": 4761
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Mini Food Classifier",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 4741,
+              "end": 4761
+            }
+          ],
+          "section": "Projects",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Projects",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v4d32e2b98693307d",
+        "type": "PROJECT",
+        "title": "Fine-tuned EfficientNetB2, deployed interactive demo on Hugging Face Spaces.",
+        "org": "",
+        "entry_text": "Fine-tuned EfficientNetB2, deployed interactive demo on Hugging Face Spaces.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Fine-tuned EfficientNetB2, deployed interactive demo on Hugging Face Spaces.",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 4763,
+              "end": 4839
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Fine-tuned EfficientNetB2, deployed interactive demo on Hugging Face Spaces",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 4763,
+              "end": 4838
+            }
+          ],
+          "section": "Projects",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Projects",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v9fe9d7b64c82b42a",
+        "type": "PROJECT",
+        "title": "MLOps & Deployment Experience",
+        "org": "",
+        "entry_text": "MLOps & Deployment Experience • Data Versioning: DVC with S3 for datasets and model artifacts. • Experiment Tracking: MLflow and SageMaker Experiments for hyperparameter and model tracking. • Model Registry & Deployment: SageMaker Model Registry, Lambda triggers, ECR for containerized models, server",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "MLOps & Deployment Experience",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 4841,
+              "end": 4870
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "MLOps & Deployment Experience",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 4841,
+              "end": 4870
+            }
+          ],
+          "section": "Projects",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Projects",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "RAG-Based Industrial Query Bot Langchain, LlamaIndex, OpenAI API, Pinecone, FastAPI, Docker, AWS ECS, Prometheus,",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "RAG-Based Industrial Query Bot Langchain, LlamaIndex, OpenAI API, Pinecone, FastAPI, Docker, AWS ECS, Prometheus,"
+        ],
+        "raw_text": "RAG-Based Industrial Query Bot Langchain, LlamaIndex, OpenAI API, Pinecone, FastAPI, Docker, AWS ECS, Prometheus,",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "RAG-Based Industrial Query Bot Langchain, LlamaIndex, OpenAI API, Pinecone, FastAPI, Docker, AWS ECS, Prometheus,",
+              "block_id": "b30",
+              "kind": "text",
+              "start": 1979,
+              "end": 2092
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "Grafana",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Grafana",
+          "Architected a RAG -based QA system for internal SOPs, enabling plant engineers to retrieve actionable instructions via natural",
+          "language queries. Deployed backend on AWS ECS with FastAPI, token-based access, and monitoring. Reduced information retrieval",
+          "time by 80% in demo environments.",
+          "Agentic Procurement Negotiator OpenAI GPT-4 API, LangGraph, Streamlit, AWS Lambda, Qdrant, Google Sheets API Built an agentic AI app",
+          "simulating multi-step procurement negotiations using LLMs and real -time data. Modular agents for offer analysis, risk, and contract",
+          "drafting; deployed Streamlit frontend and Lambda backend. Achieved 30% faster negotiation cycles in demo scenarios."
+        ],
+        "raw_text": "Grafana\nArchitected a RAG -based QA system for internal SOPs, enabling plant engineers to retrieve actionable instructions via natural\nlanguage queries. Deployed backend on AWS ECS with FastAPI, token-based access, and monitoring. Reduced information retrieval\ntime by 80% in demo environments.\nAgentic Procurement Negotiator OpenAI GPT-4 API, LangGraph, Streamlit, AWS Lambda, Qdrant, Google Sheets API Built an agentic AI app\nsimulating multi-step procurement negotiations using LLMs and real -time data. Modular agents for offer analysis, risk, and contract\ndrafting; deployed Streamlit frontend a",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Grafana",
+              "block_id": "b31",
+              "kind": "text",
+              "start": 2094,
+              "end": 2101
+            },
+            {
+              "page": 1,
+              "text": "Architected a RAG -based QA system for internal SOPs, enabling plant engineers to retrieve actionable instructions via natural",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 2103,
+              "end": 2229
+            },
+            {
+              "page": 1,
+              "text": "language queries. Deployed backend on AWS ECS with FastAPI, token-based access, and monitoring. Reduced information retrieval",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 2231,
+              "end": 2356
+            },
+            {
+              "page": 1,
+              "text": "time by 80% in demo environments.",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 2358,
+              "end": 2391
+            },
+            {
+              "page": 1,
+              "text": "Agentic Procurement Negotiator OpenAI GPT-4 API, LangGraph, Streamlit, AWS Lambda, Qdrant, Google Sheets API Built an agentic AI app",
+              "block_id": "b35",
+              "kind": "text",
+              "start": 2393,
+              "end": 2525
+            },
+            {
+              "page": 1,
+              "text": "simulating multi-step procurement negotiations using LLMs and real -time data. Modular agents for offer analysis, risk, and contract",
+              "block_id": "b36",
+              "kind": "text",
+              "start": 2527,
+              "end": 2659
+            },
+            {
+              "page": 1,
+              "text": "drafting; deployed Streamlit frontend and Lambda backend. Achieved 30% faster negotiation cycles in demo scenarios.",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 2661,
+              "end": 2776
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_3",
+        "name": "GenAI-Powered Vendor Performance Analyzer Hugging Face Transformers, Streamlit, Plotly, AWS S3, MLflow, Docker Automated extraction,",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "GenAI-Powered Vendor Performance Analyzer Hugging Face Transformers, Streamlit, Plotly, AWS S3, MLflow, Docker Automated extraction,",
+          "summarization, and visualization of vendor performance from unstructured reports using transformer models via API. Integrated"
+        ],
+        "raw_text": "GenAI-Powered Vendor Performance Analyzer Hugging Face Transformers, Streamlit, Plotly, AWS S3, MLflow, Docker Automated extraction,\nsummarization, and visualization of vendor performance from unstructured reports using transformer models via API. Integrated",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "GenAI-Powered Vendor Performance Analyzer Hugging Face Transformers, Streamlit, Plotly, AWS S3, MLflow, Docker Automated extraction,",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 2778,
+              "end": 2910
+            },
+            {
+              "page": 1,
+              "text": "summarization, and visualization of vendor performance from unstructured reports using transformer models via API. Integrated",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 2912,
+              "end": 3037
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_4",
+        "name": "Streamlit dashboard and MLflow tracking; reduced manual analysis time by 60%.",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Streamlit dashboard and MLflow tracking; reduced manual analysis time by 60%.",
+          "Autonomous SOP Compliance Checker OpenAI GPT-3.5 API, Langchain, FastAPI, MongoDB, Prometheus, Docker AI system parsing logs and",
+          "checking compliance against SOPs, deployed as FastAPI microservice on AWS ECS. Automated compliance audit, reducing manual",
+          "effort by 70%."
+        ],
+        "raw_text": "Streamlit dashboard and MLflow tracking; reduced manual analysis time by 60%.\nAutonomous SOP Compliance Checker OpenAI GPT-3.5 API, Langchain, FastAPI, MongoDB, Prometheus, Docker AI system parsing logs and\nchecking compliance against SOPs, deployed as FastAPI microservice on AWS ECS. Automated compliance audit, reducing manual\neffort by 70%.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Streamlit dashboard and MLflow tracking; reduced manual analysis time by 60%.",
+              "block_id": "b40",
+              "kind": "text",
+              "start": 3040,
+              "end": 3117
+            },
+            {
+              "page": 1,
+              "text": "Autonomous SOP Compliance Checker OpenAI GPT-3.5 API, Langchain, FastAPI, MongoDB, Prometheus, Docker AI system parsing logs and",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 3120,
+              "end": 3248
+            },
+            {
+              "page": 1,
+              "text": "checking compliance against SOPs, deployed as FastAPI microservice on AWS ECS. Automated compliance audit, reducing manual",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 3250,
+              "end": 3372
+            },
+            {
+              "page": 1,
+              "text": "effort by 70%.",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 3374,
+              "end": 3388
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_5",
+        "name": "Production Delay Reasoning Agent BERT, Langchain, Grafana, AWS Lambda, Docker LLM-powered chatbot classifying and explaining",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Production Delay Reasoning Agent BERT, Langchain, Grafana, AWS Lambda, Docker LLM-powered chatbot classifying and explaining",
+          "production delays from operator logs. Integrated with Grafana for realtime visualization; improved root cause identification by 50%.",
+          "GenAI-Driven Inventory Insights Bot Llama 2 API, Langchain, Streamlit, AWS S3, Pinecone, Docker Conversational agent for inventory",
+          "optimization, integrating ERP data and Pinecone vector search; reduced review time by 40%.",
+          "Resume Parser AI Project spaCy, scikit-learn, OpenAI API, FastAPI, AWS Lambda, S3, MongoDB Developed an NLP -driven resume parser to extract and structure candidate information from unstructured resumes. Used spaCy for NER, OpenAI API for skill extraction, a nd",
+          "scikit-learn for clustering. Deployed as a FastAPI microservice on AWS Lambda, storing results in MongoDB and S3.",
+          "GenAI Tabular & Time Series Data Analysis Agent Langchain, OpenAI API, sktime, tsfresh, Pandas, Streamlit, AWS S3,"
+        ],
+        "raw_text": "Production Delay Reasoning Agent BERT, Langchain, Grafana, AWS Lambda, Docker LLM-powered chatbot classifying and explaining\nproduction delays from operator logs. Integrated with Grafana for realtime visualization; improved root cause identification by 50%.\nGenAI-Driven Inventory Insights Bot Llama 2 API, Langchain, Streamlit, AWS S3, Pinecone, Docker Conversational agent for inventory\noptimization, integrating ERP data and Pinecone vector search; reduced review time by 40%.\nResume Parser AI Project spaCy, scikit-learn, OpenAI API, FastAPI, AWS Lambda, S3, MongoDB Developed an NLP -driven resu",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Production Delay Reasoning Agent BERT, Langchain, Grafana, AWS Lambda, Docker LLM-powered chatbot classifying and explaining",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 3390,
+              "end": 3514
+            },
+            {
+              "page": 1,
+              "text": "production delays from operator logs. Integrated with Grafana for realtime visualization; improved root cause identification by 50%.",
+              "block_id": "b45",
+              "kind": "text",
+              "start": 3516,
+              "end": 3648
+            },
+            {
+              "page": 1,
+              "text": "GenAI-Driven Inventory Insights Bot Llama 2 API, Langchain, Streamlit, AWS S3, Pinecone, Docker Conversational agent for inventory",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 3650,
+              "end": 3780
+            },
+            {
+              "page": 1,
+              "text": "optimization, integrating ERP data and Pinecone vector search; reduced review time by 40%.",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 3782,
+              "end": 3872
+            },
+            {
+              "page": 1,
+              "text": "Resume Parser AI Project spaCy, scikit-learn, OpenAI API, FastAPI, AWS Lambda, S3, MongoDB Developed an NLP -driven resume parser to",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 3874,
+              "end": 4006
+            },
+            {
+              "page": 1,
+              "text": "extract and structure candidate information from unstructured resumes. Used spaCy for NER, OpenAI API for skill extraction, a nd",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 4008,
+              "end": 4136
+            },
+            {
+              "page": 1,
+              "text": "scikit-learn for clustering. Deployed as a FastAPI microservice on AWS Lambda, storing results in MongoDB and S3.",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 4138,
+              "end": 4251
+            },
+            {
+              "page": 1,
+              "text": "GenAI Tabular & Time Series Data Analysis Agent Langchain, OpenAI API, sktime, tsfresh, Pandas, Streamlit, AWS S3,",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 4253,
+              "end": 4367
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_6",
+        "name": "FastAPI",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "FastAPI",
+          "Built an LLM-powered agent that analyzes, summarizes, and generates insights from tabular and time series datasets. Used tsfresh",
+          "and sktime for feature extraction, Langchain for NLQ, and deployed as a Streamlit app and FastAPI microservice.",
+          "Foundational ML Projects (2020–2022)"
+        ],
+        "raw_text": "FastAPI\nBuilt an LLM-powered agent that analyzes, summarizes, and generates insights from tabular and time series datasets. Used tsfresh\nand sktime for feature extraction, Langchain for NLQ, and deployed as a Streamlit app and FastAPI microservice.\nFoundational ML Projects (2020–2022)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "FastAPI",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 4369,
+              "end": 4376
+            },
+            {
+              "page": 1,
+              "text": "Built an LLM-powered agent that analyzes, summarizes, and generates insights from tabular and time series datasets. Used tsfresh",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 4378,
+              "end": 4506
+            },
+            {
+              "page": 1,
+              "text": "and sktime for feature extraction, Langchain for NLQ, and deployed as a Streamlit app and FastAPI microservice.",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 4508,
+              "end": 4619
+            },
+            {
+              "page": 1,
+              "text": "Foundational ML Projects (2020–2022)",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 4622,
+              "end": 4658
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_7",
+        "name": "Fraud Detection with XGBoost",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Fraud Detection with XGBoost",
+          "Built and tuned pipeline achieving 98% precision."
+        ],
+        "raw_text": "Fraud Detection with XGBoost\nBuilt and tuned pipeline achieving 98% precision.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Fraud Detection with XGBoost",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 4660,
+              "end": 4688
+            },
+            {
+              "page": 1,
+              "text": "Built and tuned pipeline achieving 98% precision.",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 4690,
+              "end": 4739
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_8",
+        "name": "Mini Food Classifier",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Mini Food Classifier"
+        ],
+        "raw_text": "Mini Food Classifier",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Mini Food Classifier",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 4741,
+              "end": 4761
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_9",
+        "name": "Fine-tuned EfficientNetB2, deployed interactive demo on Hugging Face Spaces.",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Fine-tuned EfficientNetB2, deployed interactive demo on Hugging Face Spaces."
+        ],
+        "raw_text": "Fine-tuned EfficientNetB2, deployed interactive demo on Hugging Face Spaces.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Fine-tuned EfficientNetB2, deployed interactive demo on Hugging Face Spaces.",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 4763,
+              "end": 4839
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_10",
+        "name": "MLOps & Deployment Experience",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "MLOps & Deployment Experience",
+          "• Data Versioning: DVC with S3 for datasets and model artifacts.",
+          "• Experiment Tracking: MLflow and SageMaker Experiments for hyperparameter and model tracking.",
+          "• Model Registry & Deployment: SageMaker Model Registry, Lambda triggers, ECR for containerized models, serverless endpoints",
+          "for cost efficiency.",
+          "• Monitoring & Retraining: Model Monitor, Prometheus, CloudWatch, event-driven retraining using Lambda and S3 triggers.",
+          "• CI/CD: GitHub Actions for automated build, test, and deployment pipelines; integrated with AWS CLI/SDK.",
+          "• Security & Networking: IAM roles, VPC, security groups, private subnets for secure and scalable deployments."
+        ],
+        "raw_text": "MLOps & Deployment Experience\n• Data Versioning: DVC with S3 for datasets and model artifacts.\n• Experiment Tracking: MLflow and SageMaker Experiments for hyperparameter and model tracking.\n• Model Registry & Deployment: SageMaker Model Registry, Lambda triggers, ECR for containerized models, serverless endpoints\nfor cost efficiency.\n• Monitoring & Retraining: Model Monitor, Prometheus, CloudWatch, event-driven retraining using Lambda and S3 triggers.\n• CI/CD: GitHub Actions for automated build, test, and deployment pipelines; integrated with AWS CLI/SDK.\n• Security & Networking: IAM roles, VP",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "MLOps & Deployment Experience",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 4841,
+              "end": 4870
+            },
+            {
+              "page": 1,
+              "text": "• Data Versioning: DVC with S3 for datasets and model artifacts.",
+              "block_id": "b60",
+              "kind": "text",
+              "start": 4872,
+              "end": 4936
+            },
+            {
+              "page": 1,
+              "text": "• Experiment Tracking: MLflow and SageMaker Experiments for hyperparameter and model tracking.",
+              "block_id": "b61",
+              "kind": "text",
+              "start": 4938,
+              "end": 5032
+            },
+            {
+              "page": 1,
+              "text": "• Model Registry & Deployment: SageMaker Model Registry, Lambda triggers, ECR for containerized models, serverless endpoints",
+              "block_id": "b62",
+              "kind": "text",
+              "start": 5034,
+              "end": 5158
+            },
+            {
+              "page": 1,
+              "text": "for cost efficiency.",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 5160,
+              "end": 5180
+            },
+            {
+              "page": 1,
+              "text": "• Monitoring & Retraining: Model Monitor, Prometheus, CloudWatch, event-driven retraining using Lambda and S3 triggers.",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 5182,
+              "end": 5301
+            },
+            {
+              "page": 1,
+              "text": "• CI/CD: GitHub Actions for automated build, test, and deployment pipelines; integrated with AWS CLI/SDK.",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 5303,
+              "end": 5408
+            },
+            {
+              "page": 1,
+              "text": "• Security & Networking: IAM roles, VPC, security groups, private subnets for secure and scalable deployments.",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 5410,
+              "end": 5520
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [],
+        "evidence": {
+          "note": "year-only dates need verification"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 12,
+      "dated_share": 0.167,
+      "unresolved": 10,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.833,
+      "document_accuracy": 0.83
+    },
+    "total_represented_months": 107,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": true,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 1,
+          "represented_months": 107,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 1,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "vecb0b4856cc229ee",
+              "label": "Sugna Metals Ltd",
+              "state": "month_range",
+              "start": [
+                2017,
+                11
+              ],
+              "end": [
+                2026,
+                9
+              ],
+              "months": 107,
+              "raw": "Nov 2017 – Present",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Sugna Metals Ltd., Hyderabad Nov 2017 – Present AI Engineer (Supply Chain)",
+                    "block_id": "b22",
+                    "kind": "text",
+                    "start": 1387,
+                    "end": 1461
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "Nov 2017 – Present",
+                    "block_id": "b22",
+                    "kind": "text",
+                    "start": 1416,
+                    "end": 1434
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Sugna Metals Ltd",
+                    "block_id": "b22",
+                    "kind": "text",
+                    "start": 1387,
+                    "end": 1403
+                  }
+                ],
+                "title": [],
+                "section": "Work Experience",
+                "date_label": "Nov 2017 – Present",
+                "is_present": true
+              }
+            }
+          ]
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 10,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 10,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "proj_1",
+              "label": "RAG-Based Industrial Query Bot Langchain, LlamaIndex, OpenAI API, Pinecone, FastAPI, Docker, AWS ECS, Prometheus,",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "RAG-Based Industrial Query Bot Langchain, LlamaIndex, OpenAI API, Pinecone, FastAPI, Docker, AWS ECS, Prometheus,",
+                    "block_id": "b30",
+                    "kind": "text",
+                    "start": 1979,
+                    "end": 2092
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_2",
+              "label": "Grafana",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Grafana",
+                    "block_id": "b31",
+                    "kind": "text",
+                    "start": 2094,
+                    "end": 2101
+                  },
+                  {
+                    "page": 1,
+                    "text": "Architected a RAG -based QA system for internal SOPs, enabling plant engineers to retrieve actionable instructions via natural",
+                    "block_id": "b32",
+                    "kind": "text",
+                    "start": 2103,
+                    "end": 2229
+                  },
+                  {
+                    "page": 1,
+                    "text": "language queries. Deployed backend on AWS ECS with FastAPI, token-based access, and monitoring. Reduced information retrieval",
+                    "block_id": "b33",
+                    "kind": "text",
+                    "start": 2231,
+                    "end": 2356
+                  },
+                  {
+                    "page": 1,
+                    "text": "time by 80% in demo environments.",
+                    "block_id": "b34",
+                    "kind": "text",
+                    "start": 2358,
+                    "end": 2391
+                  },
+                  {
+                    "page": 1,
+                    "text": "Agentic Procurement Negotiator OpenAI GPT-4 API, LangGraph, Streamlit, AWS Lambda, Qdrant, Google Sheets API Built an agentic AI app",
+                    "block_id": "b35",
+                    "kind": "text",
+                    "start": 2393,
+                    "end": 2525
+                  },
+                  {
+                    "page": 1,
+                    "text": "simulating multi-step procurement negotiations using LLMs and real -time data. Modular agents for offer analysis, risk, and contract",
+                    "block_id": "b36",
+                    "kind": "text",
+                    "start": 2527,
+                    "end": 2659
+                  },
+                  {
+                    "page": 1,
+                    "text": "drafting; deployed Streamlit frontend and Lambda backend. Achieved 30% faster negotiation cycles in demo scenarios.",
+                    "block_id": "b37",
+                    "kind": "text",
+                    "start": 2661,
+                    "end": 2776
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_3",
+              "label": "GenAI-Powered Vendor Performance Analyzer Hugging Face Transformers, Streamlit, Plotly, AWS S3, MLflow, Docker Automated extraction,",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "GenAI-Powered Vendor Performance Analyzer Hugging Face Transformers, Streamlit, Plotly, AWS S3, MLflow, Docker Automated extraction,",
+                    "block_id": "b38",
+                    "kind": "text",
+                    "start": 2778,
+                    "end": 2910
+                  },
+                  {
+                    "page": 1,
+                    "text": "summarization, and visualization of vendor performance from unstructured reports using transformer models via API. Integrated",
+                    "block_id": "b39",
+                    "kind": "text",
+                    "start": 2912,
+                    "end": 3037
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_4",
+              "label": "Streamlit dashboard and MLflow tracking; reduced manual analysis time by 60%.",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Streamlit dashboard and MLflow tracking; reduced manual analysis time by 60%.",
+                    "block_id": "b40",
+                    "kind": "text",
+                    "start": 3040,
+                    "end": 3117
+                  },
+                  {
+                    "page": 1,
+                    "text": "Autonomous SOP Compliance Checker OpenAI GPT-3.5 API, Langchain, FastAPI, MongoDB, Prometheus, Docker AI system parsing logs and",
+                    "block_id": "b41",
+                    "kind": "text",
+                    "start": 3120,
+                    "end": 3248
+                  },
+                  {
+                    "page": 1,
+                    "text": "checking compliance against SOPs, deployed as FastAPI microservice on AWS ECS. Automated compliance audit, reducing manual",
+                    "block_id": "b42",
+                    "kind": "text",
+                    "start": 3250,
+                    "end": 3372
+                  },
+                  {
+                    "page": 1,
+                    "text": "effort by 70%.",
+                    "block_id": "b43",
+                    "kind": "text",
+                    "start": 3374,
+                    "end": 3388
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_5",
+              "label": "Production Delay Reasoning Agent BERT, Langchain, Grafana, AWS Lambda, Docker LLM-powered chatbot classifying and explaining",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Production Delay Reasoning Agent BERT, Langchain, Grafana, AWS Lambda, Docker LLM-powered chatbot classifying and explaining",
+                    "block_id": "b44",
+                    "kind": "text",
+                    "start": 3390,
+                    "end": 3514
+                  },
+                  {
+                    "page": 1,
+                    "text": "production delays from operator logs. Integrated with Grafana for realtime visualization; improved root cause identification by 50%.",
+                    "block_id": "b45",
+                    "kind": "text",
+                    "start": 3516,
+                    "end": 3648
+                  },
+                  {
+                    "page": 1,
+                    "text": "GenAI-Driven Inventory Insights Bot Llama 2 API, Langchain, Streamlit, AWS S3, Pinecone, Docker Conversational agent for inventory",
+                    "block_id": "b46",
+                    "kind": "text",
+                    "start": 3650,
+                    "end": 3780
+                  },
+                  {
+                    "page": 1,
+                    "text": "optimization, integrating ERP data and Pinecone vector search; reduced review time by 40%.",
+                    "block_id": "b47",
+                    "kind": "text",
+                    "start": 3782,
+                    "end": 3872
+                  },
+                  {
+                    "page": 1,
+                    "text": "Resume Parser AI Project spaCy, scikit-learn, OpenAI API, FastAPI, AWS Lambda, S3, MongoDB Developed an NLP -driven resume parser to",
+                    "block_id": "b48",
+                    "kind": "text",
+                    "start": 3874,
+                    "end": 4006
+                  },
+                  {
+                    "page": 1,
+                    "text": "extract and structure candidate information from unstructured resumes. Used spaCy for NER, OpenAI API for skill extraction, a nd",
+                    "block_id": "b48",
+                    "kind": "text",
+                    "start": 4008,
+                    "end": 4136
+                  },
+                  {
+                    "page": 1,
+                    "text": "scikit-learn for clustering. Deployed as a FastAPI microservice on AWS Lambda, storing results in MongoDB and S3.",
+                    "block_id": "b49",
+                    "kind": "text",
+                    "start": 4138,
+                    "end": 4251
+                  },
+                  {
+                    "page": 1,
+                    "text": "GenAI Tabular & Time Series Data Analysis Agent Langchain, OpenAI API, sktime, tsfresh, Pandas, Streamlit, AWS S3,",
+                    "block_id": "b50",
+                    "kind": "text",
+                    "start": 4253,
+                    "end": 4367
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_6",
+              "label": "FastAPI",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "FastAPI",
+                    "block_id": "b51",
+                    "kind": "text",
+                    "start": 4369,
+                    "end": 4376
+                  },
+                  {
+                    "page": 1,
+                    "text": "Built an LLM-powered agent that analyzes, summarizes, and generates insights from tabular and time series datasets. Used tsfresh",
+                    "block_id": "b52",
+                    "kind": "text",
+                    "start": 4378,
+                    "end": 4506
+                  },
+                  {
+                    "page": 1,
+                    "text": "and sktime for feature extraction, Langchain for NLQ, and deployed as a Streamlit app and FastAPI microservice.",
+                    "block_id": "b53",
+                    "kind": "text",
+                    "start": 4508,
+                    "end": 4619
+                  },
+                  {
+                    "page": 1,
+                    "text": "Foundational ML Projects (2020–2022)",
+                    "block_id": "b54",
+                    "kind": "text",
+                    "start": 4622,
+                    "end": 4658
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_7",
+              "label": "Fraud Detection with XGBoost",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Fraud Detection with XGBoost",
+                    "block_id": "b55",
+                    "kind": "text",
+                    "start": 4660,
+                    "end": 4688
+                  },
+                  {
+                    "page": 1,
+                    "text": "Built and tuned pipeline achieving 98% precision.",
+                    "block_id": "b56",
+                    "kind": "text",
+                    "start": 4690,
+                    "end": 4739
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_8",
+              "label": "Mini Food Classifier",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Mini Food Classifier",
+                    "block_id": "b57",
+                    "kind": "text",
+                    "start": 4741,
+                    "end": 4761
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_9",
+              "label": "Fine-tuned EfficientNetB2, deployed interactive demo on Hugging Face Spaces.",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Fine-tuned EfficientNetB2, deployed interactive demo on Hugging Face Spaces.",
+                    "block_id": "b58",
+                    "kind": "text",
+                    "start": 4763,
+                    "end": 4839
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_10",
+              "label": "MLOps & Deployment Experience",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "MLOps & Deployment Experience",
+                    "block_id": "b59",
+                    "kind": "text",
+                    "start": 4841,
+                    "end": 4870
+                  },
+                  {
+                    "page": 1,
+                    "text": "• Data Versioning: DVC with S3 for datasets and model artifacts.",
+                    "block_id": "b60",
+                    "kind": "text",
+                    "start": 4872,
+                    "end": 4936
+                  },
+                  {
+                    "page": 1,
+                    "text": "• Experiment Tracking: MLflow and SageMaker Experiments for hyperparameter and model tracking.",
+                    "block_id": "b61",
+                    "kind": "text",
+                    "start": 4938,
+                    "end": 5032
+                  },
+                  {
+                    "page": 1,
+                    "text": "• Model Registry & Deployment: SageMaker Model Registry, Lambda triggers, ECR for containerized models, serverless endpoints",
+                    "block_id": "b62",
+                    "kind": "text",
+                    "start": 5034,
+                    "end": 5158
+                  },
+                  {
+                    "page": 1,
+                    "text": "for cost efficiency.",
+                    "block_id": "b63",
+                    "kind": "text",
+                    "start": 5160,
+                    "end": 5180
+                  },
+                  {
+                    "page": 1,
+                    "text": "• Monitoring & Retraining: Model Monitor, Prometheus, CloudWatch, event-driven retraining using Lambda and S3 triggers.",
+                    "block_id": "b64",
+                    "kind": "text",
+                    "start": 5182,
+                    "end": 5301
+                  },
+                  {
+                    "page": 1,
+                    "text": "• CI/CD: GitHub Actions for automated build, test, and deployment pipelines; integrated with AWS CLI/SDK.",
+                    "block_id": "b65",
+                    "kind": "text",
+                    "start": 5303,
+                    "end": 5408
+                  },
+                  {
+                    "page": 1,
+                    "text": "• Security & Networking: IAM roles, VPC, security groups, private subnets for secure and scalable deployments.",
+                    "block_id": "b66",
+                    "kind": "text",
+                    "start": 5410,
+                    "end": 5520
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 1,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 1,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v6b03da6391ac3bd7",
+              "label": "B.Tech in Computer Science",
+              "state": "year_range",
+              "start": [
+                2018,
+                1
+              ],
+              "end": [
+                2022,
+                12
+              ],
+              "months": null,
+              "raw": "2018 – 2022",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Osmania University, Hyderabad 2018 – 2022",
+                    "block_id": "b68",
+                    "kind": "text",
+                    "start": 5534,
+                    "end": 5575
+                  },
+                  {
+                    "page": 1,
+                    "text": "B.Tech in Computer Science",
+                    "block_id": "b69",
+                    "kind": "text",
+                    "start": 5577,
+                    "end": 5603
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "2018 – 2022",
+                    "block_id": "b68",
+                    "kind": "text",
+                    "start": 5564,
+                    "end": 5575
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Osmania University",
+                    "block_id": "b68",
+                    "kind": "text",
+                    "start": 5534,
+                    "end": 5552
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "B.Tech in Computer Science",
+                    "block_id": "b69",
+                    "kind": "text",
+                    "start": 5577,
+                    "end": 5603
+                  }
+                ],
+                "section": "Education",
+                "date_label": "2018 – 2022",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 107,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": true,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 1,
+        "represented_months": 107,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 1,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "vecb0b4856cc229ee",
+            "label": "Sugna Metals Ltd",
+            "state": "month_range",
+            "start": [
+              2017,
+              11
+            ],
+            "end": [
+              2026,
+              9
+            ],
+            "months": 107,
+            "raw": "Nov 2017 – Present",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Sugna Metals Ltd., Hyderabad Nov 2017 – Present AI Engineer (Supply Chain)",
+                  "block_id": "b22",
+                  "kind": "text",
+                  "start": 1387,
+                  "end": 1461
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Nov 2017 – Present",
+                  "block_id": "b22",
+                  "kind": "text",
+                  "start": 1416,
+                  "end": 1434
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Sugna Metals Ltd",
+                  "block_id": "b22",
+                  "kind": "text",
+                  "start": 1387,
+                  "end": 1403
+                }
+              ],
+              "title": [],
+              "section": "Work Experience",
+              "date_label": "Nov 2017 – Present",
+              "is_present": true
+            }
+          }
+        ]
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 10,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 10,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "proj_1",
+            "label": "RAG-Based Industrial Query Bot Langchain, LlamaIndex, OpenAI API, Pinecone, FastAPI, Docker, AWS ECS, Prometheus,",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "RAG-Based Industrial Query Bot Langchain, LlamaIndex, OpenAI API, Pinecone, FastAPI, Docker, AWS ECS, Prometheus,",
+                  "block_id": "b30",
+                  "kind": "text",
+                  "start": 1979,
+                  "end": 2092
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_2",
+            "label": "Grafana",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Grafana",
+                  "block_id": "b31",
+                  "kind": "text",
+                  "start": 2094,
+                  "end": 2101
+                },
+                {
+                  "page": 1,
+                  "text": "Architected a RAG -based QA system for internal SOPs, enabling plant engineers to retrieve actionable instructions via natural",
+                  "block_id": "b32",
+                  "kind": "text",
+                  "start": 2103,
+                  "end": 2229
+                },
+                {
+                  "page": 1,
+                  "text": "language queries. Deployed backend on AWS ECS with FastAPI, token-based access, and monitoring. Reduced information retrieval",
+                  "block_id": "b33",
+                  "kind": "text",
+                  "start": 2231,
+                  "end": 2356
+                },
+                {
+                  "page": 1,
+                  "text": "time by 80% in demo environments.",
+                  "block_id": "b34",
+                  "kind": "text",
+                  "start": 2358,
+                  "end": 2391
+                },
+                {
+                  "page": 1,
+                  "text": "Agentic Procurement Negotiator OpenAI GPT-4 API, LangGraph, Streamlit, AWS Lambda, Qdrant, Google Sheets API Built an agentic AI app",
+                  "block_id": "b35",
+                  "kind": "text",
+                  "start": 2393,
+                  "end": 2525
+                },
+                {
+                  "page": 1,
+                  "text": "simulating multi-step procurement negotiations using LLMs and real -time data. Modular agents for offer analysis, risk, and contract",
+                  "block_id": "b36",
+                  "kind": "text",
+                  "start": 2527,
+                  "end": 2659
+                },
+                {
+                  "page": 1,
+                  "text": "drafting; deployed Streamlit frontend and Lambda backend. Achieved 30% faster negotiation cycles in demo scenarios.",
+                  "block_id": "b37",
+                  "kind": "text",
+                  "start": 2661,
+                  "end": 2776
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_3",
+            "label": "GenAI-Powered Vendor Performance Analyzer Hugging Face Transformers, Streamlit, Plotly, AWS S3, MLflow, Docker Automated extraction,",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "GenAI-Powered Vendor Performance Analyzer Hugging Face Transformers, Streamlit, Plotly, AWS S3, MLflow, Docker Automated extraction,",
+                  "block_id": "b38",
+                  "kind": "text",
+                  "start": 2778,
+                  "end": 2910
+                },
+                {
+                  "page": 1,
+                  "text": "summarization, and visualization of vendor performance from unstructured reports using transformer models via API. Integrated",
+                  "block_id": "b39",
+                  "kind": "text",
+                  "start": 2912,
+                  "end": 3037
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_4",
+            "label": "Streamlit dashboard and MLflow tracking; reduced manual analysis time by 60%.",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Streamlit dashboard and MLflow tracking; reduced manual analysis time by 60%.",
+                  "block_id": "b40",
+                  "kind": "text",
+                  "start": 3040,
+                  "end": 3117
+                },
+                {
+                  "page": 1,
+                  "text": "Autonomous SOP Compliance Checker OpenAI GPT-3.5 API, Langchain, FastAPI, MongoDB, Prometheus, Docker AI system parsing logs and",
+                  "block_id": "b41",
+                  "kind": "text",
+                  "start": 3120,
+                  "end": 3248
+                },
+                {
+                  "page": 1,
+                  "text": "checking compliance against SOPs, deployed as FastAPI microservice on AWS ECS. Automated compliance audit, reducing manual",
+                  "block_id": "b42",
+                  "kind": "text",
+                  "start": 3250,
+                  "end": 3372
+                },
+                {
+                  "page": 1,
+                  "text": "effort by 70%.",
+                  "block_id": "b43",
+                  "kind": "text",
+                  "start": 3374,
+                  "end": 3388
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_5",
+            "label": "Production Delay Reasoning Agent BERT, Langchain, Grafana, AWS Lambda, Docker LLM-powered chatbot classifying and explaining",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Production Delay Reasoning Agent BERT, Langchain, Grafana, AWS Lambda, Docker LLM-powered chatbot classifying and explaining",
+                  "block_id": "b44",
+                  "kind": "text",
+                  "start": 3390,
+                  "end": 3514
+                },
+                {
+                  "page": 1,
+                  "text": "production delays from operator logs. Integrated with Grafana for realtime visualization; improved root cause identification by 50%.",
+                  "block_id": "b45",
+                  "kind": "text",
+                  "start": 3516,
+                  "end": 3648
+                },
+                {
+                  "page": 1,
+                  "text": "GenAI-Driven Inventory Insights Bot Llama 2 API, Langchain, Streamlit, AWS S3, Pinecone, Docker Conversational agent for inventory",
+                  "block_id": "b46",
+                  "kind": "text",
+                  "start": 3650,
+                  "end": 3780
+                },
+                {
+                  "page": 1,
+                  "text": "optimization, integrating ERP data and Pinecone vector search; reduced review time by 40%.",
+                  "block_id": "b47",
+                  "kind": "text",
+                  "start": 3782,
+                  "end": 3872
+                },
+                {
+                  "page": 1,
+                  "text": "Resume Parser AI Project spaCy, scikit-learn, OpenAI API, FastAPI, AWS Lambda, S3, MongoDB Developed an NLP -driven resume parser to",
+                  "block_id": "b48",
+                  "kind": "text",
+                  "start": 3874,
+                  "end": 4006
+                },
+                {
+                  "page": 1,
+                  "text": "extract and structure candidate information from unstructured resumes. Used spaCy for NER, OpenAI API for skill extraction, a nd",
+                  "block_id": "b48",
+                  "kind": "text",
+                  "start": 4008,
+                  "end": 4136
+                },
+                {
+                  "page": 1,
+                  "text": "scikit-learn for clustering. Deployed as a FastAPI microservice on AWS Lambda, storing results in MongoDB and S3.",
+                  "block_id": "b49",
+                  "kind": "text",
+                  "start": 4138,
+                  "end": 4251
+                },
+                {
+                  "page": 1,
+                  "text": "GenAI Tabular & Time Series Data Analysis Agent Langchain, OpenAI API, sktime, tsfresh, Pandas, Streamlit, AWS S3,",
+                  "block_id": "b50",
+                  "kind": "text",
+                  "start": 4253,
+                  "end": 4367
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_6",
+            "label": "FastAPI",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "FastAPI",
+                  "block_id": "b51",
+                  "kind": "text",
+                  "start": 4369,
+                  "end": 4376
+                },
+                {
+                  "page": 1,
+                  "text": "Built an LLM-powered agent that analyzes, summarizes, and generates insights from tabular and time series datasets. Used tsfresh",
+                  "block_id": "b52",
+                  "kind": "text",
+                  "start": 4378,
+                  "end": 4506
+                },
+                {
+                  "page": 1,
+                  "text": "and sktime for feature extraction, Langchain for NLQ, and deployed as a Streamlit app and FastAPI microservice.",
+                  "block_id": "b53",
+                  "kind": "text",
+                  "start": 4508,
+                  "end": 4619
+                },
+                {
+                  "page": 1,
+                  "text": "Foundational ML Projects (2020–2022)",
+                  "block_id": "b54",
+                  "kind": "text",
+                  "start": 4622,
+                  "end": 4658
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_7",
+            "label": "Fraud Detection with XGBoost",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Fraud Detection with XGBoost",
+                  "block_id": "b55",
+                  "kind": "text",
+                  "start": 4660,
+                  "end": 4688
+                },
+                {
+                  "page": 1,
+                  "text": "Built and tuned pipeline achieving 98% precision.",
+                  "block_id": "b56",
+                  "kind": "text",
+                  "start": 4690,
+                  "end": 4739
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_8",
+            "label": "Mini Food Classifier",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Mini Food Classifier",
+                  "block_id": "b57",
+                  "kind": "text",
+                  "start": 4741,
+                  "end": 4761
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_9",
+            "label": "Fine-tuned EfficientNetB2, deployed interactive demo on Hugging Face Spaces.",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Fine-tuned EfficientNetB2, deployed interactive demo on Hugging Face Spaces.",
+                  "block_id": "b58",
+                  "kind": "text",
+                  "start": 4763,
+                  "end": 4839
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_10",
+            "label": "MLOps & Deployment Experience",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "MLOps & Deployment Experience",
+                  "block_id": "b59",
+                  "kind": "text",
+                  "start": 4841,
+                  "end": 4870
+                },
+                {
+                  "page": 1,
+                  "text": "• Data Versioning: DVC with S3 for datasets and model artifacts.",
+                  "block_id": "b60",
+                  "kind": "text",
+                  "start": 4872,
+                  "end": 4936
+                },
+                {
+                  "page": 1,
+                  "text": "• Experiment Tracking: MLflow and SageMaker Experiments for hyperparameter and model tracking.",
+                  "block_id": "b61",
+                  "kind": "text",
+                  "start": 4938,
+                  "end": 5032
+                },
+                {
+                  "page": 1,
+                  "text": "• Model Registry & Deployment: SageMaker Model Registry, Lambda triggers, ECR for containerized models, serverless endpoints",
+                  "block_id": "b62",
+                  "kind": "text",
+                  "start": 5034,
+                  "end": 5158
+                },
+                {
+                  "page": 1,
+                  "text": "for cost efficiency.",
+                  "block_id": "b63",
+                  "kind": "text",
+                  "start": 5160,
+                  "end": 5180
+                },
+                {
+                  "page": 1,
+                  "text": "• Monitoring & Retraining: Model Monitor, Prometheus, CloudWatch, event-driven retraining using Lambda and S3 triggers.",
+                  "block_id": "b64",
+                  "kind": "text",
+                  "start": 5182,
+                  "end": 5301
+                },
+                {
+                  "page": 1,
+                  "text": "• CI/CD: GitHub Actions for automated build, test, and deployment pipelines; integrated with AWS CLI/SDK.",
+                  "block_id": "b65",
+                  "kind": "text",
+                  "start": 5303,
+                  "end": 5408
+                },
+                {
+                  "page": 1,
+                  "text": "• Security & Networking: IAM roles, VPC, security groups, private subnets for secure and scalable deployments.",
+                  "block_id": "b66",
+                  "kind": "text",
+                  "start": 5410,
+                  "end": 5520
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 1,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 1,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v6b03da6391ac3bd7",
+            "label": "B.Tech in Computer Science",
+            "state": "year_range",
+            "start": [
+              2018,
+              1
+            ],
+            "end": [
+              2022,
+              12
+            ],
+            "months": null,
+            "raw": "2018 – 2022",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Osmania University, Hyderabad 2018 – 2022",
+                  "block_id": "b68",
+                  "kind": "text",
+                  "start": 5534,
+                  "end": 5575
+                },
+                {
+                  "page": 1,
+                  "text": "B.Tech in Computer Science",
+                  "block_id": "b69",
+                  "kind": "text",
+                  "start": 5577,
+                  "end": 5603
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "2018 – 2022",
+                  "block_id": "b68",
+                  "kind": "text",
+                  "start": 5564,
+                  "end": 5575
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Osmania University",
+                  "block_id": "b68",
+                  "kind": "text",
+                  "start": 5534,
+                  "end": 5552
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "B.Tech in Computer Science",
+                  "block_id": "b69",
+                  "kind": "text",
+                  "start": 5577,
+                  "end": 5603
+                }
+              ],
+              "section": "Education",
+              "date_label": "2018 – 2022",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 107,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

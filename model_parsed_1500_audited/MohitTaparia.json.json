@@ -1,0 +1,471 @@
+{
+  "file_name": "MohitTaparia.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "59627e8eeabafc42d8721f1a239908e0e86d55cfe6479d27c7a7fb4934bcca4c",
+  "doc_id": "59627e8eeabafc42d8721f1a",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 3,
+    "dated_share": 0.333,
+    "unresolved": 2,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.765,
+    "ocr_pages": []
+  },
+  "work_experience": [
+    {
+      "id": "v3346bd53c08471df",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Senior Business Analyst",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Senior Business Analyst with extensive experience delivering digital lending and mortgage platform transformations across retail banking ecosystems.",
+            "block_id": "b5",
+            "kind": "text",
+            "start": 155,
+            "end": 303
+          }
+        ],
+        "dates": [],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Senior Business Analyst",
+            "block_id": "b5",
+            "kind": "text",
+            "start": 155,
+            "end": 178
+          }
+        ],
+        "section": "Career Summary",
+        "date_label": "",
+        "is_present": false
+      }
+    }
+  ],
+  "education": [
+    {
+      "id": "v1f1886ec40ec817f",
+      "type": "EDUCATION",
+      "company": "B. Tech. (Electronics and Communications) Maharaja Agrasen Institute of Technology",
+      "title": "",
+      "start_date": "2004-01",
+      "end_date": "2008-12",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "B. Tech. (Electronics and Communications) Maharaja Agrasen Institute of Technology, Delhi 2004 - 2008",
+            "block_id": "b217",
+            "kind": "text",
+            "start": 21542,
+            "end": 21643
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2004 - 2008",
+            "block_id": "b217",
+            "kind": "text",
+            "start": 21632,
+            "end": 21643
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "B. Tech. (Electronics and Communications) Maharaja Agrasen Institute of Technology",
+            "block_id": "b217",
+            "kind": "text",
+            "start": 21542,
+            "end": 21624
+          }
+        ],
+        "title": [],
+        "section": "Education",
+        "date_label": "2004 - 2008",
+        "is_present": false
+      }
+    },
+    {
+      "id": "vf88849ae71702ae9",
+      "type": "EDUCATION",
+      "company": "Course Institute Year",
+      "title": "MBA",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Course Institute Year",
+            "block_id": "b214",
+            "kind": "text",
+            "start": 21365,
+            "end": 21386
+          },
+          {
+            "page": 1,
+            "text": "MBA, PGPM SPJIMR, Mumbai 2018 - 2019",
+            "block_id": "b215",
+            "kind": "text",
+            "start": 21388,
+            "end": 21424
+          },
+          {
+            "page": 1,
+            "text": "Advanced Program in Information Management McCombs School of Business, University of Texas, Austin, US 2018 - 2019",
+            "block_id": "b216",
+            "kind": "text",
+            "start": 21426,
+            "end": 21540
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2018 - 2019",
+            "block_id": "b215",
+            "kind": "text",
+            "start": 21413,
+            "end": 21424
+          },
+          {
+            "page": 1,
+            "text": "2018 - 2019",
+            "block_id": "b216",
+            "kind": "text",
+            "start": 21529,
+            "end": 21540
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Course Institute Year",
+            "block_id": "b214",
+            "kind": "text",
+            "start": 21365,
+            "end": 21386
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "MBA",
+            "block_id": "b215",
+            "kind": "text",
+            "start": 21388,
+            "end": 21391
+          }
+        ],
+        "section": "Education",
+        "date_label": "2018 - 2019",
+        "is_present": false
+      }
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 1,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "PARTIAL",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "entry e1: 2 ranges; first kept, rest preserved in evidence",
+    "e1: dates cannot be assigned unambiguously",
+    "conflicting/ambiguous date kept for 'MBA'"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "59627e8eeabafc42d8721f1a",
+    "filename": "MohitTaparia.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "v1f1886ec40ec817f",
+        "type": "EDUCATION",
+        "title": "",
+        "org": "B. Tech. (Electronics and Communications) Maharaja Agrasen Institute of Technology",
+        "start": "2004-01",
+        "end": "2008-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "B. Tech. (Electronics and Communications) Maharaja Agrasen Institute of Technology, Delhi 2004 - 2008",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "B. Tech. (Electronics and Communications) Maharaja Agrasen Institute of Technology, Delhi 2004 - 2008",
+              "block_id": "b217",
+              "kind": "text",
+              "start": 21542,
+              "end": 21643
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2004 - 2008",
+              "block_id": "b217",
+              "kind": "text",
+              "start": 21632,
+              "end": 21643
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "B. Tech. (Electronics and Communications) Maharaja Agrasen Institute of Technology",
+              "block_id": "b217",
+              "kind": "text",
+              "start": 21542,
+              "end": 21624
+            }
+          ],
+          "title": [],
+          "section": "Education",
+          "date_label": "2004 - 2008",
+          "is_present": false
+        },
+        "date_label": "2004 - 2008",
+        "section": "Education",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v3346bd53c08471df",
+        "type": "EMPLOYMENT",
+        "title": "Senior Business Analyst",
+        "org": "",
+        "entry_text": "Senior Business Analyst with extensive experience delivering digital lending and mortgage platform transformations across retail banking ecosystems. Proven expertise analyzing and improving end-to-end lending journeys including application capture, credit assessment, underwriting, decisioning, loan ",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Business Analyst with extensive experience delivering digital lending and mortgage platform transformations across retail banking ecosystems.",
+              "block_id": "b5",
+              "kind": "text",
+              "start": 155,
+              "end": 303
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Business Analyst",
+              "block_id": "b5",
+              "kind": "text",
+              "start": 155,
+              "end": 178
+            }
+          ],
+          "section": "Career Summary",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Career Summary",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "vf88849ae71702ae9",
+        "type": "EDUCATION",
+        "title": "MBA",
+        "org": "Course Institute Year",
+        "entry_text": "Course Institute Year MBA, PGPM SPJIMR, Mumbai 2018 - 2019 Advanced Program in Information Management McCombs School of Business, University of Texas, Austin, US 2018 - 2019",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Course Institute Year",
+              "block_id": "b214",
+              "kind": "text",
+              "start": 21365,
+              "end": 21386
+            },
+            {
+              "page": 1,
+              "text": "MBA, PGPM SPJIMR, Mumbai 2018 - 2019",
+              "block_id": "b215",
+              "kind": "text",
+              "start": 21388,
+              "end": 21424
+            },
+            {
+              "page": 1,
+              "text": "Advanced Program in Information Management McCombs School of Business, University of Texas, Austin, US 2018 - 2019",
+              "block_id": "b216",
+              "kind": "text",
+              "start": 21426,
+              "end": 21540
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2018 - 2019",
+              "block_id": "b215",
+              "kind": "text",
+              "start": 21413,
+              "end": 21424
+            },
+            {
+              "page": 1,
+              "text": "2018 - 2019",
+              "block_id": "b216",
+              "kind": "text",
+              "start": 21529,
+              "end": 21540
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Course Institute Year",
+              "block_id": "b214",
+              "kind": "text",
+              "start": 21365,
+              "end": 21386
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "MBA",
+              "block_id": "b215",
+              "kind": "text",
+              "start": 21388,
+              "end": 21391
+            }
+          ],
+          "section": "Education",
+          "date_label": "2018 - 2019",
+          "is_present": false
+        },
+        "date_label": "2018 - 2019",
+        "section": "Education",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "v3346bd53c08471df"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 3,
+      "dated_share": 0.333,
+      "unresolved": 2,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.765,
+      "ocr_pages": []
+    },
+    "total_represented_months": 60,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

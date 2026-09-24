@@ -1,0 +1,945 @@
+{
+  "file_name": "Deepak BR.docx",
+  "input_mode": "original_document",
+  "input_sha256": "70a2f3cd29b53b4f33b3fd4c7fc04c836b0da4a9d7b044e16d199191d6ca8131",
+  "doc_id": "70a2f3cd29b53b4f33b3fd4c",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 2,
+    "dated_share": 0.5,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "va06aefa216a696d5",
+      "type": "EMPLOYMENT",
+      "company": "Standard Chartered Bank",
+      "title": "Developer",
+      "start_date": "2019-05",
+      "end_date": "2022-11",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Standard Chartered Bank — Developer",
+            "block_id": "b34",
+            "kind": "text",
+            "start": 1735,
+            "end": 1770
+          },
+          {
+            "page": 1,
+            "text": "📅 May 2019 – Nov 2022",
+            "block_id": "b35",
+            "kind": "text",
+            "start": 1771,
+            "end": 1792
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "May 2019 – Nov 2022",
+            "block_id": "b35",
+            "kind": "text",
+            "start": 1773,
+            "end": 1792
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Standard Chartered Bank",
+            "block_id": "b34",
+            "kind": "text",
+            "start": 1735,
+            "end": 1758
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Developer",
+            "block_id": "b34",
+            "kind": "text",
+            "start": 1761,
+            "end": 1770
+          }
+        ],
+        "section": "Professional Experience",
+        "date_label": "May 2019 – Nov 2022",
+        "is_present": false
+      }
+    }
+  ],
+  "education": [
+    {
+      "id": "v8b83627b05203fba",
+      "type": "EDUCATION",
+      "company": "East Point College of Engineering & Technology (VTU)",
+      "title": "B.E. in Information Science",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "B.E. in Information Science, East Point College of Engineering & Technology (VTU) — First Class",
+            "block_id": "b57",
+            "kind": "text",
+            "start": 2767,
+            "end": 2862
+          },
+          {
+            "page": 1,
+            "text": "PUC, Seshadripuram PU College — First Class",
+            "block_id": "b58",
+            "kind": "text",
+            "start": 2863,
+            "end": 2906
+          }
+        ],
+        "dates": [],
+        "company": [
+          {
+            "page": 1,
+            "text": "East Point College of Engineering & Technology (VTU",
+            "block_id": "b57",
+            "kind": "text",
+            "start": 2796,
+            "end": 2847
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "B.E. in Information Science",
+            "block_id": "b57",
+            "kind": "text",
+            "start": 2767,
+            "end": 2794
+          }
+        ],
+        "section": "Education",
+        "date_label": "",
+        "is_present": false
+      }
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "Banking Payments (OBPM)",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Developed microservices using Spring Boot and Java for OBPM.",
+        "Worked on migration from monolithic to microservices architecture.",
+        "Involved in Jenkins build and WebLogic deployment process.",
+        "Database interactions using Oracle SQL Developer.",
+        "Contributed to payment services: India, SEPA, Cross-border.",
+        "Guided team members and helped resolve technical challenges.",
+        "Performed automation testing using Selenium Framework."
+      ],
+      "raw_text": "Project: Oracle Banking Payments (OBPM)",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project: Oracle Banking Payments (OBPM)",
+            "block_id": "b26",
+            "kind": "text",
+            "start": 1282,
+            "end": 1321
+          },
+          {
+            "page": 1,
+            "text": "Developed microservices using Spring Boot and Java for OBPM.",
+            "block_id": "b27",
+            "kind": "text",
+            "start": 1322,
+            "end": 1382
+          },
+          {
+            "page": 1,
+            "text": "Worked on migration from monolithic to microservices architecture.",
+            "block_id": "b28",
+            "kind": "text",
+            "start": 1383,
+            "end": 1449
+          },
+          {
+            "page": 1,
+            "text": "Involved in Jenkins build and WebLogic deployment process.",
+            "block_id": "b29",
+            "kind": "text",
+            "start": 1450,
+            "end": 1508
+          },
+          {
+            "page": 1,
+            "text": "Database interactions using Oracle SQL Developer.",
+            "block_id": "b30",
+            "kind": "text",
+            "start": 1509,
+            "end": 1558
+          },
+          {
+            "page": 1,
+            "text": "Contributed to payment services: India, SEPA, Cross-border.",
+            "block_id": "b31",
+            "kind": "text",
+            "start": 1559,
+            "end": 1618
+          },
+          {
+            "page": 1,
+            "text": "Guided team members and helped resolve technical challenges.",
+            "block_id": "b32",
+            "kind": "text",
+            "start": 1619,
+            "end": 1679
+          },
+          {
+            "page": 1,
+            "text": "Performed automation testing using Selenium Framework.",
+            "block_id": "b33",
+            "kind": "text",
+            "start": 1680,
+            "end": 1734
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_2",
+      "name": "Project Creditmate",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Developed services using Spring Boot, Microservices, Spring Security.",
+        "Integrated backend with large XML, JSON, PDF data payloads.",
+        "Used Openshift and Jenkins for CI/CD deployments.",
+        "Performed JUnit and integration testing.",
+        "Hands-on with Selenium automation testing.",
+        "L&T Technology Services — Senior Engineer"
+      ],
+      "raw_text": "Project: Creditmate",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project: Creditmate",
+            "block_id": "b36",
+            "kind": "text",
+            "start": 1793,
+            "end": 1812
+          },
+          {
+            "page": 1,
+            "text": "Developed services using Spring Boot, Microservices, Spring Security.",
+            "block_id": "b37",
+            "kind": "text",
+            "start": 1813,
+            "end": 1882
+          },
+          {
+            "page": 1,
+            "text": "Integrated backend with large XML, JSON, PDF data payloads.",
+            "block_id": "b38",
+            "kind": "text",
+            "start": 1883,
+            "end": 1942
+          },
+          {
+            "page": 1,
+            "text": "Used Openshift and Jenkins for CI/CD deployments.",
+            "block_id": "b39",
+            "kind": "text",
+            "start": 1943,
+            "end": 1992
+          },
+          {
+            "page": 1,
+            "text": "Performed JUnit and integration testing.",
+            "block_id": "b40",
+            "kind": "text",
+            "start": 1993,
+            "end": 2033
+          },
+          {
+            "page": 1,
+            "text": "Hands-on with Selenium automation testing.",
+            "block_id": "b41",
+            "kind": "text",
+            "start": 2034,
+            "end": 2076
+          },
+          {
+            "page": 1,
+            "text": "L&T Technology Services — Senior Engineer",
+            "block_id": "b42",
+            "kind": "text",
+            "start": 2077,
+            "end": 2118
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_3",
+      "name": "Control Station (DRDO)",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Developed backend with Java, Spring Boot, and Cassandra.",
+        "Created frontend using AngularJS, HTML, CSS, JavaScript.",
+        "Implemented socket communication, multithreading, and collections.",
+        "Authored SRS, DDD, and worked directly with DRDO scientists.",
+        "Worked on system integration and REST API testing.",
+        "Concur Technologies (SAP) — Technical Consultant"
+      ],
+      "raw_text": "Project: Master Control Station (DRDO)",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project: Master Control Station (DRDO)",
+            "block_id": "b44",
+            "kind": "text",
+            "start": 2141,
+            "end": 2179
+          },
+          {
+            "page": 1,
+            "text": "Developed backend with Java, Spring Boot, and Cassandra.",
+            "block_id": "b45",
+            "kind": "text",
+            "start": 2180,
+            "end": 2236
+          },
+          {
+            "page": 1,
+            "text": "Created frontend using AngularJS, HTML, CSS, JavaScript.",
+            "block_id": "b46",
+            "kind": "text",
+            "start": 2237,
+            "end": 2293
+          },
+          {
+            "page": 1,
+            "text": "Implemented socket communication, multithreading, and collections.",
+            "block_id": "b47",
+            "kind": "text",
+            "start": 2294,
+            "end": 2360
+          },
+          {
+            "page": 1,
+            "text": "Authored SRS, DDD, and worked directly with DRDO scientists.",
+            "block_id": "b48",
+            "kind": "text",
+            "start": 2361,
+            "end": 2421
+          },
+          {
+            "page": 1,
+            "text": "Worked on system integration and REST API testing.",
+            "block_id": "b49",
+            "kind": "text",
+            "start": 2422,
+            "end": 2472
+          },
+          {
+            "page": 1,
+            "text": "Concur Technologies (SAP) — Technical Consultant",
+            "block_id": "b50",
+            "kind": "text",
+            "start": 2473,
+            "end": 2521
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_4",
+      "name": "Express Global Business Travel",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Worked on Concur travel tools related to PNR and ticketing.",
+        "Backend development using Core Java and Spring Boot.",
+        "Used Oracle SQL Developer for database operations."
+      ],
+      "raw_text": "Project: American Express Global Business Travel",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project: American Express Global Business Travel",
+            "block_id": "b52",
+            "kind": "text",
+            "start": 2544,
+            "end": 2592
+          },
+          {
+            "page": 1,
+            "text": "Worked on Concur travel tools related to PNR and ticketing.",
+            "block_id": "b53",
+            "kind": "text",
+            "start": 2593,
+            "end": 2652
+          },
+          {
+            "page": 1,
+            "text": "Backend development using Core Java and Spring Boot.",
+            "block_id": "b54",
+            "kind": "text",
+            "start": 2653,
+            "end": 2705
+          },
+          {
+            "page": 1,
+            "text": "Used Oracle SQL Developer for database operations.",
+            "block_id": "b55",
+            "kind": "text",
+            "start": 2706,
+            "end": 2756
+          }
+        ]
+      }
+    }
+  ],
+  "gaps": [],
+  "total_work_experience_entries": 1,
+  "total_projects_entries": 4,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "PARTIAL",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "raw_pipeline_dto": {
+    "doc_id": "70a2f3cd29b53b4f33b3fd4c",
+    "filename": "Deepak BR.docx",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "va06aefa216a696d5",
+        "type": "EMPLOYMENT",
+        "title": "Developer",
+        "org": "Standard Chartered Bank",
+        "start": "2019-05",
+        "end": "2022-11",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Standard Chartered Bank — Developer\n📅 May 2019 – Nov 2022",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Standard Chartered Bank — Developer",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 1735,
+              "end": 1770
+            },
+            {
+              "page": 1,
+              "text": "📅 May 2019 – Nov 2022",
+              "block_id": "b35",
+              "kind": "text",
+              "start": 1771,
+              "end": 1792
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "May 2019 – Nov 2022",
+              "block_id": "b35",
+              "kind": "text",
+              "start": 1773,
+              "end": 1792
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Standard Chartered Bank",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 1735,
+              "end": 1758
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Developer",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 1761,
+              "end": 1770
+            }
+          ],
+          "section": "Professional Experience",
+          "date_label": "May 2019 – Nov 2022",
+          "is_present": false
+        },
+        "date_label": "May 2019 – Nov 2022",
+        "section": "Professional Experience",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v8b83627b05203fba",
+        "type": "EDUCATION",
+        "title": "B.E. in Information Science",
+        "org": "East Point College of Engineering & Technology (VTU)",
+        "entry_text": "B.E. in Information Science, East Point College of Engineering & Technology (VTU) — First Class PUC, Seshadripuram PU College — First Class SSLC, Maruthi Vidya Kendra — First Class",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "B.E. in Information Science, East Point College of Engineering & Technology (VTU) — First Class",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 2767,
+              "end": 2862
+            },
+            {
+              "page": 1,
+              "text": "PUC, Seshadripuram PU College — First Class",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 2863,
+              "end": 2906
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "East Point College of Engineering & Technology (VTU",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 2796,
+              "end": 2847
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "B.E. in Information Science",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 2767,
+              "end": 2794
+            }
+          ],
+          "section": "Education",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Education",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "Banking Payments (OBPM)",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Developed microservices using Spring Boot and Java for OBPM.",
+          "Worked on migration from monolithic to microservices architecture.",
+          "Involved in Jenkins build and WebLogic deployment process.",
+          "Database interactions using Oracle SQL Developer.",
+          "Contributed to payment services: India, SEPA, Cross-border.",
+          "Guided team members and helped resolve technical challenges.",
+          "Performed automation testing using Selenium Framework."
+        ],
+        "raw_text": "Project: Oracle Banking Payments (OBPM)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project: Oracle Banking Payments (OBPM)",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 1282,
+              "end": 1321
+            },
+            {
+              "page": 1,
+              "text": "Developed microservices using Spring Boot and Java for OBPM.",
+              "block_id": "b27",
+              "kind": "text",
+              "start": 1322,
+              "end": 1382
+            },
+            {
+              "page": 1,
+              "text": "Worked on migration from monolithic to microservices architecture.",
+              "block_id": "b28",
+              "kind": "text",
+              "start": 1383,
+              "end": 1449
+            },
+            {
+              "page": 1,
+              "text": "Involved in Jenkins build and WebLogic deployment process.",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 1450,
+              "end": 1508
+            },
+            {
+              "page": 1,
+              "text": "Database interactions using Oracle SQL Developer.",
+              "block_id": "b30",
+              "kind": "text",
+              "start": 1509,
+              "end": 1558
+            },
+            {
+              "page": 1,
+              "text": "Contributed to payment services: India, SEPA, Cross-border.",
+              "block_id": "b31",
+              "kind": "text",
+              "start": 1559,
+              "end": 1618
+            },
+            {
+              "page": 1,
+              "text": "Guided team members and helped resolve technical challenges.",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 1619,
+              "end": 1679
+            },
+            {
+              "page": 1,
+              "text": "Performed automation testing using Selenium Framework.",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 1680,
+              "end": 1734
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "Project Creditmate",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Developed services using Spring Boot, Microservices, Spring Security.",
+          "Integrated backend with large XML, JSON, PDF data payloads.",
+          "Used Openshift and Jenkins for CI/CD deployments.",
+          "Performed JUnit and integration testing.",
+          "Hands-on with Selenium automation testing.",
+          "L&T Technology Services — Senior Engineer"
+        ],
+        "raw_text": "Project: Creditmate",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project: Creditmate",
+              "block_id": "b36",
+              "kind": "text",
+              "start": 1793,
+              "end": 1812
+            },
+            {
+              "page": 1,
+              "text": "Developed services using Spring Boot, Microservices, Spring Security.",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 1813,
+              "end": 1882
+            },
+            {
+              "page": 1,
+              "text": "Integrated backend with large XML, JSON, PDF data payloads.",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 1883,
+              "end": 1942
+            },
+            {
+              "page": 1,
+              "text": "Used Openshift and Jenkins for CI/CD deployments.",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 1943,
+              "end": 1992
+            },
+            {
+              "page": 1,
+              "text": "Performed JUnit and integration testing.",
+              "block_id": "b40",
+              "kind": "text",
+              "start": 1993,
+              "end": 2033
+            },
+            {
+              "page": 1,
+              "text": "Hands-on with Selenium automation testing.",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 2034,
+              "end": 2076
+            },
+            {
+              "page": 1,
+              "text": "L&T Technology Services — Senior Engineer",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 2077,
+              "end": 2118
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_3",
+        "name": "Control Station (DRDO)",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Developed backend with Java, Spring Boot, and Cassandra.",
+          "Created frontend using AngularJS, HTML, CSS, JavaScript.",
+          "Implemented socket communication, multithreading, and collections.",
+          "Authored SRS, DDD, and worked directly with DRDO scientists.",
+          "Worked on system integration and REST API testing.",
+          "Concur Technologies (SAP) — Technical Consultant"
+        ],
+        "raw_text": "Project: Master Control Station (DRDO)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project: Master Control Station (DRDO)",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 2141,
+              "end": 2179
+            },
+            {
+              "page": 1,
+              "text": "Developed backend with Java, Spring Boot, and Cassandra.",
+              "block_id": "b45",
+              "kind": "text",
+              "start": 2180,
+              "end": 2236
+            },
+            {
+              "page": 1,
+              "text": "Created frontend using AngularJS, HTML, CSS, JavaScript.",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 2237,
+              "end": 2293
+            },
+            {
+              "page": 1,
+              "text": "Implemented socket communication, multithreading, and collections.",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 2294,
+              "end": 2360
+            },
+            {
+              "page": 1,
+              "text": "Authored SRS, DDD, and worked directly with DRDO scientists.",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 2361,
+              "end": 2421
+            },
+            {
+              "page": 1,
+              "text": "Worked on system integration and REST API testing.",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 2422,
+              "end": 2472
+            },
+            {
+              "page": 1,
+              "text": "Concur Technologies (SAP) — Technical Consultant",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 2473,
+              "end": 2521
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_4",
+        "name": "Express Global Business Travel",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Worked on Concur travel tools related to PNR and ticketing.",
+          "Backend development using Core Java and Spring Boot.",
+          "Used Oracle SQL Developer for database operations."
+        ],
+        "raw_text": "Project: American Express Global Business Travel",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project: American Express Global Business Travel",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 2544,
+              "end": 2592
+            },
+            {
+              "page": 1,
+              "text": "Worked on Concur travel tools related to PNR and ticketing.",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 2593,
+              "end": 2652
+            },
+            {
+              "page": 1,
+              "text": "Backend development using Core Java and Spring Boot.",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 2653,
+              "end": 2705
+            },
+            {
+              "page": 1,
+              "text": "Used Oracle SQL Developer for database operations.",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 2706,
+              "end": 2756
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 2,
+      "dated_share": 0.5,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9
+    },
+    "total_represented_months": 43,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

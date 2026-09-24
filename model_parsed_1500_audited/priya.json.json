@@ -1,0 +1,263 @@
+{
+  "file_name": "priya.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "3d3fb7ecdb4250800131d7bb75960b35ee3c9cc5fd34444e36b47d688d2dcb5f",
+  "doc_id": "3d3fb7ecdb4250800131d7bb",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 0,
+    "total_events": 1,
+    "dated_share": 0.0,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": null,
+    "ocr_pages": []
+  },
+  "work_experience": [
+    {
+      "id": "ved0cacc5bb63b2b6",
+      "type": "EMPLOYMENT",
+      "company": "AJUBA SOLUTIONS",
+      "title": "BUSINESS ANALYST",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "BUSINESS ANALYST – AJUBA SOLUTIONS – 05/03/2012 – 07/13/2015",
+            "block_id": "b58",
+            "kind": "text",
+            "start": 4478,
+            "end": 4538
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "03/2012",
+            "block_id": "b58",
+            "kind": "text",
+            "start": 4518,
+            "end": 4525
+          },
+          {
+            "page": 1,
+            "text": "2015",
+            "block_id": "b58",
+            "kind": "text",
+            "start": 4534,
+            "end": 4538
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "AJUBA SOLUTIONS",
+            "block_id": "b58",
+            "kind": "text",
+            "start": 4497,
+            "end": 4512
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "BUSINESS ANALYST",
+            "block_id": "b58",
+            "kind": "text",
+            "start": 4478,
+            "end": 4494
+          }
+        ],
+        "section": "WORK EXPERIENCE",
+        "date_label": "03/2012 / 2015",
+        "is_present": false
+      }
+    }
+  ],
+  "education": [],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 1,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "PARTIAL",
+    "coverage_analysis": "PARTIAL",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "entry e0: dates found without an explicit range",
+    "e0: dates cannot be assigned unambiguously",
+    "conflicting/ambiguous date kept for 'BUSINESS ANALYST'",
+    "no dated events to order",
+    "no intervals to cover"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "3d3fb7ecdb4250800131d7bb",
+    "filename": "priya.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [],
+    "unresolved_events": [
+      {
+        "id": "ved0cacc5bb63b2b6",
+        "type": "EMPLOYMENT",
+        "title": "BUSINESS ANALYST",
+        "org": "AJUBA SOLUTIONS",
+        "entry_text": "BUSINESS ANALYST – AJUBA SOLUTIONS – 05/03/2012 – 07/13/2015 Banking and Healthcare Operations • Gathered and documented business requirements, process workﬂows, functional speciﬁcations, and testing scenarios for enterprise healthcare applications. • Supported UAT, defect management, production val",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "BUSINESS ANALYST – AJUBA SOLUTIONS – 05/03/2012 – 07/13/2015",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 4478,
+              "end": 4538
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "03/2012",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 4518,
+              "end": 4525
+            },
+            {
+              "page": 1,
+              "text": "2015",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 4534,
+              "end": 4538
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "AJUBA SOLUTIONS",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 4497,
+              "end": 4512
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "BUSINESS ANALYST",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 4478,
+              "end": 4494
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "03/2012 / 2015",
+          "is_present": false
+        },
+        "date_label": "03/2012 / 2015",
+        "section": "WORK EXPERIENCE",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "ved0cacc5bb63b2b6"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 0,
+      "total_events": 1,
+      "dated_share": 0.0,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": null,
+      "ocr_pages": []
+    },
+    "total_represented_months": 0,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "PARTIAL",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "PARTIAL",
+        "confidence": 0.3
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

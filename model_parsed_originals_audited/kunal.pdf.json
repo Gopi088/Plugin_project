@@ -1,0 +1,462 @@
+{
+  "file_name": "kunal.pdf",
+  "input_mode": "original_document",
+  "input_sha256": "77c4ac7901fbc085d5803df2f4b915a1180e60603f054023322175956e8eeef6",
+  "doc_id": "77c4ac7901fbc085d5803df2",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 2,
+    "dated_share": 0.5,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v4234ba2b276a9327",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Business Analyst/Product Owner",
+      "start_date": "2023-08",
+      "end_date": "2026-06",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Business Analyst/Product Owner, Asset Management Aug 2023 – June 2026",
+            "block_id": "b11",
+            "kind": "pdf",
+            "page_width": 595.5,
+            "page_height": 842,
+            "bbox": [
+              33.775,
+              145.20999999999992,
+              561.72,
+              155.20999999999992
+            ],
+            "fragment_text": "Business Analyst/Product Owner, Asset Management Aug 2023 – June 2026"
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Aug 2023 – June 2026",
+            "block_id": "b11",
+            "kind": "pdf",
+            "page_width": 595.5,
+            "page_height": 842,
+            "bbox": [
+              475.7,
+              145.20999999999992,
+              561.72,
+              155.20999999999992
+            ],
+            "fragment_text": "Aug 2023 – June 2026"
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Business Analyst/Product Owner",
+            "block_id": "b11",
+            "kind": "pdf",
+            "page_width": 595.5,
+            "page_height": 842,
+            "bbox": [
+              33.775,
+              145.20999999999992,
+              163.36,
+              155.20999999999992
+            ],
+            "fragment_text": "Business Analyst/Product Owner"
+          }
+        ],
+        "section": "Work Experience",
+        "date_label": "Aug 2023 – June 2026",
+        "is_present": false
+      }
+    },
+    {
+      "id": "vfc75c4679c9a38f4",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Investment Banking Analyst",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Investment Banking Analyst, Asset Management Sep 2021 – Jan 23",
+            "block_id": "b30",
+            "kind": "pdf",
+            "page_width": 595.5,
+            "page_height": 842,
+            "bbox": [
+              33.775,
+              364.01000000000005,
+              561.72,
+              374.01000000000005
+            ],
+            "fragment_text": "Investment Banking Analyst, Asset Management Sep 2021 – Jan 23"
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Sep 2021",
+            "block_id": "b30",
+            "kind": "pdf",
+            "page_width": 595.5,
+            "page_height": 842,
+            "bbox": [
+              492.45,
+              364.01000000000005,
+              528.23,
+              374.01000000000005
+            ],
+            "fragment_text": "Sep 2021"
+          },
+          {
+            "page": 1,
+            "text": "2023",
+            "block_id": "b50",
+            "kind": "pdf",
+            "page_width": 595.5,
+            "page_height": 842,
+            "bbox": [
+              541.47,
+              570.59,
+              560.72,
+              580.59
+            ]
+          },
+          {
+            "page": 1,
+            "text": "2021",
+            "block_id": "b55",
+            "kind": "pdf",
+            "page_width": 595.5,
+            "page_height": 842,
+            "bbox": [
+              541.47,
+              627.09,
+              560.72,
+              637.09
+            ]
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Investment Banking Analyst",
+            "block_id": "b30",
+            "kind": "pdf",
+            "page_width": 595.5,
+            "page_height": 842,
+            "bbox": [
+              33.775,
+              364.01000000000005,
+              142.57,
+              374.01000000000005
+            ],
+            "fragment_text": "Investment Banking Analyst"
+          }
+        ],
+        "section": "Work Experience",
+        "date_label": "Sep 2021",
+        "is_present": false
+      }
+    }
+  ],
+  "education": [],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 2,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "raw_pipeline_dto": {
+    "doc_id": "77c4ac7901fbc085d5803df2",
+    "filename": "kunal.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v4234ba2b276a9327",
+        "type": "EMPLOYMENT",
+        "title": "Business Analyst/Product Owner",
+        "org": "",
+        "start": "2023-08",
+        "end": "2026-06",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Business Analyst/Product Owner, Asset Management Aug 2023 – June 2026",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Business Analyst/Product Owner, Asset Management Aug 2023 – June 2026",
+              "block_id": "b11",
+              "kind": "pdf",
+              "page_width": 595.5,
+              "page_height": 842,
+              "bbox": [
+                33.775,
+                145.20999999999992,
+                561.72,
+                155.20999999999992
+              ],
+              "fragment_text": "Business Analyst/Product Owner, Asset Management Aug 2023 – June 2026"
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Aug 2023 – June 2026",
+              "block_id": "b11",
+              "kind": "pdf",
+              "page_width": 595.5,
+              "page_height": 842,
+              "bbox": [
+                475.7,
+                145.20999999999992,
+                561.72,
+                155.20999999999992
+              ],
+              "fragment_text": "Aug 2023 – June 2026"
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Business Analyst/Product Owner",
+              "block_id": "b11",
+              "kind": "pdf",
+              "page_width": 595.5,
+              "page_height": 842,
+              "bbox": [
+                33.775,
+                145.20999999999992,
+                163.36,
+                155.20999999999992
+              ],
+              "fragment_text": "Business Analyst/Product Owner"
+            }
+          ],
+          "section": "Work Experience",
+          "date_label": "Aug 2023 – June 2026",
+          "is_present": false
+        },
+        "date_label": "Aug 2023 – June 2026",
+        "section": "Work Experience",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "vfc75c4679c9a38f4",
+        "type": "EMPLOYMENT",
+        "title": "Investment Banking Analyst",
+        "org": "",
+        "entry_text": "Investment Banking Analyst, Asset Management Sep 2021 – Jan 23 • Monitored trade execution and settlement projections to generate liquidity forecasts, ensuring funding optimization. • Partnered with brokers and custodians to resolve multi-million-dollar OTC derivative trade breaks, minimizing risks.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Investment Banking Analyst, Asset Management Sep 2021 – Jan 23",
+              "block_id": "b30",
+              "kind": "pdf",
+              "page_width": 595.5,
+              "page_height": 842,
+              "bbox": [
+                33.775,
+                364.01000000000005,
+                561.72,
+                374.01000000000005
+              ],
+              "fragment_text": "Investment Banking Analyst, Asset Management Sep 2021 – Jan 23"
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Sep 2021",
+              "block_id": "b30",
+              "kind": "pdf",
+              "page_width": 595.5,
+              "page_height": 842,
+              "bbox": [
+                492.45,
+                364.01000000000005,
+                528.23,
+                374.01000000000005
+              ],
+              "fragment_text": "Sep 2021"
+            },
+            {
+              "page": 1,
+              "text": "2023",
+              "block_id": "b50",
+              "kind": "pdf",
+              "page_width": 595.5,
+              "page_height": 842,
+              "bbox": [
+                541.47,
+                570.59,
+                560.72,
+                580.59
+              ]
+            },
+            {
+              "page": 1,
+              "text": "2021",
+              "block_id": "b55",
+              "kind": "pdf",
+              "page_width": 595.5,
+              "page_height": 842,
+              "bbox": [
+                541.47,
+                627.09,
+                560.72,
+                637.09
+              ]
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Investment Banking Analyst",
+              "block_id": "b30",
+              "kind": "pdf",
+              "page_width": 595.5,
+              "page_height": 842,
+              "bbox": [
+                33.775,
+                364.01000000000005,
+                142.57,
+                374.01000000000005
+              ],
+              "fragment_text": "Investment Banking Analyst"
+            }
+          ],
+          "section": "Work Experience",
+          "date_label": "Sep 2021",
+          "is_present": false
+        },
+        "date_label": "Sep 2021",
+        "section": "Work Experience",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "vfc75c4679c9a38f4"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 2,
+      "dated_share": 0.5,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9
+    },
+    "total_represented_months": 35,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

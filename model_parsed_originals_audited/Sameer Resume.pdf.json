@@ -1,0 +1,464 @@
+{
+  "file_name": "Sameer Resume.pdf",
+  "input_mode": "original_document",
+  "input_sha256": "de16ee0335a9b71ff08e5e02778b4503825f28a5febe61368d1b52e07719b181",
+  "doc_id": "de16ee0335a9b71ff08e5e02",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 2,
+    "dated_share": 0.5,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v0c9e27f09b79a7e6",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "SAP EWM CONSULTANT INFOSYS",
+      "start_date": "2021-09",
+      "end_date": "2026-09",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "SAP EWM CONSULTANT INFOSYS Sept 2021 - Till date",
+            "block_id": "b9",
+            "kind": "pdf",
+            "page_width": 595.5,
+            "page_height": 842.2500200000001,
+            "bbox": [
+              44.22071999999999,
+              142.5790775,
+              551.781362224128,
+              155.6067422528
+            ]
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Sept 2021 - Till date",
+            "block_id": "b9",
+            "kind": "pdf",
+            "page_width": 595.5,
+            "page_height": 842.2500200000001,
+            "bbox": [
+              462.1824,
+              145.11593735201606,
+              551.781362224128,
+              152.497612120016
+            ],
+            "fragment_text": "Sept 2021 - Till date"
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "SAP EWM CONSULTANT INFOSYS",
+            "block_id": "b9",
+            "kind": "pdf",
+            "page_width": 595.5,
+            "page_height": 842.2500200000001,
+            "bbox": [
+              44.22071999999999,
+              142.5790775,
+              297.1688061901439,
+              155.6067422528
+            ]
+          }
+        ],
+        "section": "WORK EXPERIENCE",
+        "date_label": "Sept 2021 - Till date",
+        "is_present": true
+      }
+    },
+    {
+      "id": "v961fc60d478154b6",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Senior Associate Consultant",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "DESIGNATION - Senior Associate Consultant",
+            "block_id": "b10",
+            "kind": "pdf",
+            "page_width": 595.5,
+            "page_height": 842.2500200000001,
+            "bbox": [
+              268.2288,
+              161.0727932300001,
+              522.474024696,
+              171.13572500000006
+            ],
+            "fragment_text": "DESIGNATION - Senior Associate Consultant"
+          }
+        ],
+        "dates": [],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Senior Associate Consultant",
+            "block_id": "b10",
+            "kind": "pdf",
+            "page_width": 595.5,
+            "page_height": 842.2500200000001,
+            "bbox": [
+              380.148,
+              161.0727932300001,
+              522.474024696,
+              170.53842623
+            ],
+            "fragment_text": "Senior Associate Consultant"
+          }
+        ],
+        "section": "WORK EXPERIENCE",
+        "date_label": "",
+        "is_present": false
+      }
+    }
+  ],
+  "education": [],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "Project",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Moglix(05 Aug 2021 to 18 sept 2021)",
+        "Worked in supply chain unit"
+      ],
+      "raw_text": "Moglix(05 Aug 2021 to 18 sept 2021)\nWorked in supply chain unit",
+      "source": {
+        "entry": [
+          {
+            "page": 2,
+            "text": "Moglix(05 Aug 2021 to 18 sept 2021)",
+            "block_id": "b79",
+            "kind": "pdf",
+            "page_width": 595.5,
+            "page_height": 842.2500200000001,
+            "bbox": [
+              266.2392,
+              121.33762999999996,
+              473.67668999999995,
+              132.33262999999997
+            ],
+            "fragment_text": "Moglix(05 Aug 2021 to 18 sept 2021)"
+          },
+          {
+            "page": 2,
+            "text": "Worked in supply chain unit",
+            "block_id": "b80",
+            "kind": "pdf",
+            "page_width": 595.5,
+            "page_height": 842.2500200000001,
+            "bbox": [
+              291.468225,
+              140.50302499999995,
+              433.05802500000004,
+              150.500525
+            ],
+            "fragment_text": "Worked in supply chain unit"
+          }
+        ]
+      }
+    }
+  ],
+  "gaps": [],
+  "total_work_experience_entries": 2,
+  "total_projects_entries": 1,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "PARTIAL",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "raw_pipeline_dto": {
+    "doc_id": "de16ee0335a9b71ff08e5e02",
+    "filename": "Sameer Resume.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "v0c9e27f09b79a7e6",
+        "type": "EMPLOYMENT",
+        "title": "SAP EWM CONSULTANT INFOSYS",
+        "org": "",
+        "start": "2021-09",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "SAP EWM CONSULTANT INFOSYS Sept 2021 - Till date",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "SAP EWM CONSULTANT INFOSYS Sept 2021 - Till date",
+              "block_id": "b9",
+              "kind": "pdf",
+              "page_width": 595.5,
+              "page_height": 842.2500200000001,
+              "bbox": [
+                44.22071999999999,
+                142.5790775,
+                551.781362224128,
+                155.6067422528
+              ]
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Sept 2021 - Till date",
+              "block_id": "b9",
+              "kind": "pdf",
+              "page_width": 595.5,
+              "page_height": 842.2500200000001,
+              "bbox": [
+                462.1824,
+                145.11593735201606,
+                551.781362224128,
+                152.497612120016
+              ],
+              "fragment_text": "Sept 2021 - Till date"
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "SAP EWM CONSULTANT INFOSYS",
+              "block_id": "b9",
+              "kind": "pdf",
+              "page_width": 595.5,
+              "page_height": 842.2500200000001,
+              "bbox": [
+                44.22071999999999,
+                142.5790775,
+                297.1688061901439,
+                155.6067422528
+              ]
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "Sept 2021 - Till date",
+          "is_present": true
+        },
+        "date_label": "Sept 2021 - Till date",
+        "section": "WORK EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v961fc60d478154b6",
+        "type": "EMPLOYMENT",
+        "title": "Senior Associate Consultant",
+        "org": "",
+        "entry_text": "DESIGNATION - Senior Associate Consultant (+91) 9880778519 ROLES AND RESPONSIBLITIES mahammedsameer997@gmai..com To pursuea challenging career as an SAP EWM",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "DESIGNATION - Senior Associate Consultant",
+              "block_id": "b10",
+              "kind": "pdf",
+              "page_width": 595.5,
+              "page_height": 842.2500200000001,
+              "bbox": [
+                268.2288,
+                161.0727932300001,
+                522.474024696,
+                171.13572500000006
+              ],
+              "fragment_text": "DESIGNATION - Senior Associate Consultant"
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Associate Consultant",
+              "block_id": "b10",
+              "kind": "pdf",
+              "page_width": 595.5,
+              "page_height": 842.2500200000001,
+              "bbox": [
+                380.148,
+                161.0727932300001,
+                522.474024696,
+                170.53842623
+              ],
+              "fragment_text": "Senior Associate Consultant"
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "WORK EXPERIENCE",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "Project",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Moglix(05 Aug 2021 to 18 sept 2021)",
+          "Worked in supply chain unit"
+        ],
+        "raw_text": "Moglix(05 Aug 2021 to 18 sept 2021)\nWorked in supply chain unit",
+        "source": {
+          "entry": [
+            {
+              "page": 2,
+              "text": "Moglix(05 Aug 2021 to 18 sept 2021)",
+              "block_id": "b79",
+              "kind": "pdf",
+              "page_width": 595.5,
+              "page_height": 842.2500200000001,
+              "bbox": [
+                266.2392,
+                121.33762999999996,
+                473.67668999999995,
+                132.33262999999997
+              ],
+              "fragment_text": "Moglix(05 Aug 2021 to 18 sept 2021)"
+            },
+            {
+              "page": 2,
+              "text": "Worked in supply chain unit",
+              "block_id": "b80",
+              "kind": "pdf",
+              "page_width": 595.5,
+              "page_height": 842.2500200000001,
+              "bbox": [
+                291.468225,
+                140.50302499999995,
+                433.05802500000004,
+                150.500525
+              ],
+              "fragment_text": "Worked in supply chain unit"
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "v961fc60d478154b6"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 2,
+      "dated_share": 0.5,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9
+    },
+    "total_represented_months": 61,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

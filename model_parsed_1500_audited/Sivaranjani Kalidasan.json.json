@@ -1,0 +1,437 @@
+{
+  "file_name": "Sivaranjani Kalidasan.docx",
+  "input_mode": "text_snapshot",
+  "input_sha256": "daad4984a92c3792b1e1c6999f973b19c4a2fc5c6e330725e0459c2057d088d0",
+  "doc_id": "daad4984a92c3792b1e1c699",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 3,
+    "dated_share": 0.333,
+    "unresolved": 2,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "ocr_pages": []
+  },
+  "work_experience": [
+    {
+      "id": "v1c3432676b4eb7d4",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Trainee Decision Scientist IV",
+      "start_date": "2022-06",
+      "end_date": "2026-09",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Trainee Decision Scientist IV\tJun 2022 – Present",
+            "block_id": "b14",
+            "kind": "text",
+            "start": 1718,
+            "end": 1766
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Jun 2022 – Present",
+            "block_id": "b14",
+            "kind": "text",
+            "start": 1748,
+            "end": 1766
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Trainee Decision Scientist IV",
+            "block_id": "b14",
+            "kind": "text",
+            "start": 1718,
+            "end": 1747
+          }
+        ],
+        "section": "Experience",
+        "date_label": "Jun 2022 – Present",
+        "is_present": true
+      }
+    },
+    {
+      "id": "v0ee5ca3361652455",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Business Analyst (BFSI Sector",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Data Governance - Business Analyst (BFSI Sector)",
+            "block_id": "b15",
+            "kind": "text",
+            "start": 1767,
+            "end": 1815
+          }
+        ],
+        "dates": [],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Business Analyst (BFSI Sector",
+            "block_id": "b15",
+            "kind": "text",
+            "start": 1785,
+            "end": 1814
+          }
+        ],
+        "section": "Experience",
+        "date_label": "",
+        "is_present": false
+      }
+    }
+  ],
+  "education": [
+    {
+      "id": "v16046eb7665eacb8",
+      "type": "EDUCATION",
+      "company": "PSG College of Technology - Coimbatore",
+      "title": "Bachelor of Production Engineering - 8.25 CGPA",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "PSG College of Technology - Coimbatore",
+            "block_id": "b30",
+            "kind": "text",
+            "start": 3946,
+            "end": 3984
+          },
+          {
+            "page": 1,
+            "text": "Bachelor of Production Engineering - 8.25 CGPA",
+            "block_id": "b31",
+            "kind": "text",
+            "start": 3985,
+            "end": 4031
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2024",
+            "block_id": "b35",
+            "kind": "text",
+            "start": 4160,
+            "end": 4164
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "PSG College of Technology - Coimbatore",
+            "block_id": "b30",
+            "kind": "text",
+            "start": 3946,
+            "end": 3984
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Bachelor of Production Engineering - 8.25 CGPA",
+            "block_id": "b31",
+            "kind": "text",
+            "start": 3985,
+            "end": 4031
+          }
+        ],
+        "section": "Education",
+        "date_label": "",
+        "is_present": false
+      }
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 2,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "PARTIAL",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "entry e2: dates found without an explicit range"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "daad4984a92c3792b1e1c699",
+    "filename": "Sivaranjani Kalidasan.docx",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "v1c3432676b4eb7d4",
+        "type": "EMPLOYMENT",
+        "title": "Trainee Decision Scientist IV",
+        "org": "",
+        "start": "2022-06",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Trainee Decision Scientist IV\tJun 2022 – Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Trainee Decision Scientist IV\tJun 2022 – Present",
+              "block_id": "b14",
+              "kind": "text",
+              "start": 1718,
+              "end": 1766
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jun 2022 – Present",
+              "block_id": "b14",
+              "kind": "text",
+              "start": 1748,
+              "end": 1766
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Trainee Decision Scientist IV",
+              "block_id": "b14",
+              "kind": "text",
+              "start": 1718,
+              "end": 1747
+            }
+          ],
+          "section": "Experience",
+          "date_label": "Jun 2022 – Present",
+          "is_present": true
+        },
+        "date_label": "Jun 2022 – Present",
+        "section": "Experience",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v0ee5ca3361652455",
+        "type": "EMPLOYMENT",
+        "title": "Business Analyst (BFSI Sector",
+        "org": "",
+        "entry_text": "Data Governance - Business Analyst (BFSI Sector) Documented Critical Data Elements (CDEs), metadata, business definitions, ownership details, and governance requirements to support enterprise data governance initiatives and regulatory readiness. Collaborated with Product Owners, Risk, Finance, Compl",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Data Governance - Business Analyst (BFSI Sector)",
+              "block_id": "b15",
+              "kind": "text",
+              "start": 1767,
+              "end": 1815
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Business Analyst (BFSI Sector",
+              "block_id": "b15",
+              "kind": "text",
+              "start": 1785,
+              "end": 1814
+            }
+          ],
+          "section": "Experience",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Experience",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v16046eb7665eacb8",
+        "type": "EDUCATION",
+        "title": "Bachelor of Production Engineering - 8.25 CGPA",
+        "org": "PSG College of Technology - Coimbatore",
+        "entry_text": "PSG College of Technology - Coimbatore Bachelor of Production Engineering - 8.25 CGPA Certifications & Recognition Introduction to SQL - Kaggle Business Analysis Basics - Simplilearn Spot Award – Mu Sigma (Q1 & Q3 2024) for high-quality project delivery. Client Appreciation – Recognized by the Senio",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "PSG College of Technology - Coimbatore",
+              "block_id": "b30",
+              "kind": "text",
+              "start": 3946,
+              "end": 3984
+            },
+            {
+              "page": 1,
+              "text": "Bachelor of Production Engineering - 8.25 CGPA",
+              "block_id": "b31",
+              "kind": "text",
+              "start": 3985,
+              "end": 4031
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2024",
+              "block_id": "b35",
+              "kind": "text",
+              "start": 4160,
+              "end": 4164
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "PSG College of Technology - Coimbatore",
+              "block_id": "b30",
+              "kind": "text",
+              "start": 3946,
+              "end": 3984
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Production Engineering - 8.25 CGPA",
+              "block_id": "b31",
+              "kind": "text",
+              "start": 3985,
+              "end": 4031
+            }
+          ],
+          "section": "Education",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Education",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "v0ee5ca3361652455"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 3,
+      "dated_share": 0.333,
+      "unresolved": 2,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "ocr_pages": []
+    },
+    "total_represented_months": 52,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

@@ -1,0 +1,459 @@
+{
+  "file_name": "swasthikresume25_1747199592.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "d87fdafa40ab3b0fcd84199ce37fa6db89bdecd94530508ffdb99c535eff2364",
+  "doc_id": "d87fdafa40ab3b0fcd84199c",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 2,
+    "dated_share": 0.5,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.765,
+    "ocr_pages": []
+  },
+  "work_experience": [],
+  "education": [
+    {
+      "id": "v0fda1b409d4876b9",
+      "type": "EDUCATION",
+      "company": "At RNS Institute of Technology",
+      "title": "Currently pursuing Master of Business Administration",
+      "start_date": "2023-01",
+      "end_date": "2025-12",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Currently pursuing Master of Business Administration – 2023-2025, (I Year-76.75%)",
+            "block_id": "b6",
+            "kind": "text",
+            "start": 274,
+            "end": 355
+          },
+          {
+            "page": 1,
+            "text": "At RNS Institute of Technology, Bengaluru",
+            "block_id": "b7",
+            "kind": "text",
+            "start": 357,
+            "end": 398
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2023-2025",
+            "block_id": "b6",
+            "kind": "text",
+            "start": 329,
+            "end": 338
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "At RNS Institute of Technology",
+            "block_id": "b7",
+            "kind": "text",
+            "start": 357,
+            "end": 387
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Currently pursuing Master of Business Administration",
+            "block_id": "b6",
+            "kind": "text",
+            "start": 274,
+            "end": 326
+          }
+        ],
+        "section": "EDUCATION",
+        "date_label": "2023-2025",
+        "is_present": false
+      }
+    },
+    {
+      "id": "vba304c94f79f8045",
+      "type": "EDUCATION",
+      "company": "At Field Marshal K.M Cariappa College",
+      "title": "Bachelor of Science (Physics",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Bachelor of Science (Physics, Chemistry, Mathematics ) –2021,    (Secured 64.10%)",
+            "block_id": "b8",
+            "kind": "text",
+            "start": 400,
+            "end": 481
+          },
+          {
+            "page": 1,
+            "text": "At Field Marshal K.M Cariappa College, Madikeri, Kodagu",
+            "block_id": "b9",
+            "kind": "text",
+            "start": 483,
+            "end": 538
+          },
+          {
+            "page": 1,
+            "text": "Pre-University College (PUC) – 2018, (Secured 86.5%)",
+            "block_id": "b10",
+            "kind": "text",
+            "start": 541,
+            "end": 593
+          },
+          {
+            "page": 1,
+            "text": "At St. Anne’s P U College, Virajpet, Kodagu",
+            "block_id": "b11",
+            "kind": "text",
+            "start": 596,
+            "end": 639
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2021",
+            "block_id": "b8",
+            "kind": "text",
+            "start": 456,
+            "end": 460
+          },
+          {
+            "page": 1,
+            "text": "2018",
+            "block_id": "b10",
+            "kind": "text",
+            "start": 572,
+            "end": 576
+          },
+          {
+            "page": 1,
+            "text": "2016",
+            "block_id": "b12",
+            "kind": "text",
+            "start": 685,
+            "end": 689
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "At Field Marshal K.M Cariappa College",
+            "block_id": "b9",
+            "kind": "text",
+            "start": 483,
+            "end": 520
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Bachelor of Science (Physics",
+            "block_id": "b8",
+            "kind": "text",
+            "start": 400,
+            "end": 428
+          }
+        ],
+        "section": "EDUCATION",
+        "date_label": "2021 / 2018",
+        "is_present": false
+      }
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 0,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "entry e1: dates found without an explicit range",
+    "e1: dates cannot be assigned unambiguously",
+    "conflicting/ambiguous date kept for 'Bachelor of Science (Physics'"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "d87fdafa40ab3b0fcd84199c",
+    "filename": "swasthikresume25_1747199592.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v0fda1b409d4876b9",
+        "type": "EDUCATION",
+        "title": "Currently pursuing Master of Business Administration",
+        "org": "At RNS Institute of Technology",
+        "start": "2023-01",
+        "end": "2025-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "Currently pursuing Master of Business Administration – 2023-2025, (I Year-76.75%)\nAt RNS Institute of Technology, Bengaluru",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Currently pursuing Master of Business Administration – 2023-2025, (I Year-76.75%)",
+              "block_id": "b6",
+              "kind": "text",
+              "start": 274,
+              "end": 355
+            },
+            {
+              "page": 1,
+              "text": "At RNS Institute of Technology, Bengaluru",
+              "block_id": "b7",
+              "kind": "text",
+              "start": 357,
+              "end": 398
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2023-2025",
+              "block_id": "b6",
+              "kind": "text",
+              "start": 329,
+              "end": 338
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "At RNS Institute of Technology",
+              "block_id": "b7",
+              "kind": "text",
+              "start": 357,
+              "end": 387
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Currently pursuing Master of Business Administration",
+              "block_id": "b6",
+              "kind": "text",
+              "start": 274,
+              "end": 326
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2023-2025",
+          "is_present": false
+        },
+        "date_label": "2023-2025",
+        "section": "EDUCATION",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "vba304c94f79f8045",
+        "type": "EDUCATION",
+        "title": "Bachelor of Science (Physics",
+        "org": "At Field Marshal K.M Cariappa College",
+        "entry_text": "Bachelor of Science (Physics, Chemistry, Mathematics ) –2021,    (Secured 64.10%) At Field Marshal K.M Cariappa College, Madikeri, Kodagu Pre-University College (PUC) – 2018, (Secured 86.5%) At St. Anne’s P U College, Virajpet, Kodagu Secondary Level School Certificate (SSLC) – 2016, (Secured 85.32%",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor of Science (Physics, Chemistry, Mathematics ) –2021,    (Secured 64.10%)",
+              "block_id": "b8",
+              "kind": "text",
+              "start": 400,
+              "end": 481
+            },
+            {
+              "page": 1,
+              "text": "At Field Marshal K.M Cariappa College, Madikeri, Kodagu",
+              "block_id": "b9",
+              "kind": "text",
+              "start": 483,
+              "end": 538
+            },
+            {
+              "page": 1,
+              "text": "Pre-University College (PUC) – 2018, (Secured 86.5%)",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 541,
+              "end": 593
+            },
+            {
+              "page": 1,
+              "text": "At St. Anne’s P U College, Virajpet, Kodagu",
+              "block_id": "b11",
+              "kind": "text",
+              "start": 596,
+              "end": 639
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2021",
+              "block_id": "b8",
+              "kind": "text",
+              "start": 456,
+              "end": 460
+            },
+            {
+              "page": 1,
+              "text": "2018",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 572,
+              "end": 576
+            },
+            {
+              "page": 1,
+              "text": "2016",
+              "block_id": "b12",
+              "kind": "text",
+              "start": 685,
+              "end": 689
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "At Field Marshal K.M Cariappa College",
+              "block_id": "b9",
+              "kind": "text",
+              "start": 483,
+              "end": 520
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Science (Physics",
+              "block_id": "b8",
+              "kind": "text",
+              "start": 400,
+              "end": 428
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2021 / 2018",
+          "is_present": false
+        },
+        "date_label": "2021 / 2018",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 2,
+      "dated_share": 0.5,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.765,
+      "ocr_pages": []
+    },
+    "total_represented_months": 36,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

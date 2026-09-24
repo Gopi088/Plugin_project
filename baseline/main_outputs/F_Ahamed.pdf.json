@@ -1,0 +1,406 @@
+{
+  "file_name": "F_Ahamed.pdf",
+  "input_mode": "original_document",
+  "input_sha256": "c0c5b1e0aba0bc201e2599d2b808031fda07718635f23fda94e497fb0b6f6172",
+  "doc_id": "c0c5b1e0aba0bc201e2599d2",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 2,
+    "dated_share": 0.5,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "ocr_pages": []
+  },
+  "work_experience": [
+    {
+      "id": "vef93c7da887261db",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Consultant",
+      "start_date": "2022-07",
+      "end_date": "2025-08",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Consultant)",
+            "block_id": "b27",
+            "kind": "pdf",
+            "page_width": 595.2756,
+            "page_height": 841.8898,
+            "bbox": [
+              78.0,
+              595.484,
+              144.66,
+              607.484
+            ],
+            "fragment_text": "Consultant)"
+          },
+          {
+            "page": 1,
+            "text": "July 2022 – August 2025",
+            "block_id": "b28",
+            "kind": "pdf",
+            "page_width": 595.2756,
+            "page_height": 841.8898,
+            "bbox": [
+              78.0,
+              615.07,
+              188.07000000000005,
+              625.07
+            ],
+            "fragment_text": "July 2022 – August 2025"
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "July 2022 – August 2025",
+            "block_id": "b28",
+            "kind": "pdf",
+            "page_width": 595.2756,
+            "page_height": 841.8898,
+            "bbox": [
+              78.0,
+              615.07,
+              188.07000000000005,
+              625.07
+            ],
+            "fragment_text": "July 2022 – August 2025"
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Consultant",
+            "block_id": "b27",
+            "kind": "pdf",
+            "page_width": 595.2756,
+            "page_height": 841.8898,
+            "bbox": [
+              78.0,
+              595.484,
+              140.66400000000002,
+              607.484
+            ],
+            "fragment_text": "Consultant)"
+          }
+        ],
+        "section": "PROFESSIONAL EXPERIENCE",
+        "date_label": "July 2022 – August 2025",
+        "is_present": false
+      }
+    }
+  ],
+  "education": [
+    {
+      "id": "v3b160e3b129a970b",
+      "type": "EDUCATION",
+      "company": "",
+      "title": "MBA",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 2,
+            "text": "MBA – Finance",
+            "block_id": "b52",
+            "kind": "pdf",
+            "page_width": 595.2756,
+            "page_height": 841.8898,
+            "bbox": [
+              78.0,
+              304.07000000000005,
+              146.36,
+              314.07000000000005
+            ],
+            "fragment_text": "MBA – Finance"
+          }
+        ],
+        "dates": [],
+        "company": [],
+        "title": [
+          {
+            "page": 2,
+            "text": "MBA",
+            "block_id": "b52",
+            "kind": "pdf",
+            "page_width": 595.2756,
+            "page_height": 841.8898,
+            "bbox": [
+              78.0,
+              304.07000000000005,
+              99.67,
+              314.07000000000005
+            ],
+            "fragment_text": "MBA"
+          }
+        ],
+        "section": "EDUCATION",
+        "date_label": "",
+        "is_present": false
+      }
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 1,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "PARTIAL",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [],
+  "raw_pipeline_dto": {
+    "doc_id": "c0c5b1e0aba0bc201e2599d2",
+    "filename": "F_Ahamed.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "vef93c7da887261db",
+        "type": "EMPLOYMENT",
+        "title": "Consultant",
+        "org": "",
+        "start": "2022-07",
+        "end": "2025-08",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Consultant)\nJuly 2022 – August 2025",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Consultant)",
+              "block_id": "b27",
+              "kind": "pdf",
+              "page_width": 595.2756,
+              "page_height": 841.8898,
+              "bbox": [
+                78.0,
+                595.484,
+                144.66,
+                607.484
+              ],
+              "fragment_text": "Consultant)"
+            },
+            {
+              "page": 1,
+              "text": "July 2022 – August 2025",
+              "block_id": "b28",
+              "kind": "pdf",
+              "page_width": 595.2756,
+              "page_height": 841.8898,
+              "bbox": [
+                78.0,
+                615.07,
+                188.07000000000005,
+                625.07
+              ],
+              "fragment_text": "July 2022 – August 2025"
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "July 2022 – August 2025",
+              "block_id": "b28",
+              "kind": "pdf",
+              "page_width": 595.2756,
+              "page_height": 841.8898,
+              "bbox": [
+                78.0,
+                615.07,
+                188.07000000000005,
+                625.07
+              ],
+              "fragment_text": "July 2022 – August 2025"
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Consultant",
+              "block_id": "b27",
+              "kind": "pdf",
+              "page_width": 595.2756,
+              "page_height": 841.8898,
+              "bbox": [
+                78.0,
+                595.484,
+                140.66400000000002,
+                607.484
+              ],
+              "fragment_text": "Consultant)"
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "July 2022 – August 2025",
+          "is_present": false
+        },
+        "date_label": "July 2022 – August 2025",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v3b160e3b129a970b",
+        "type": "EDUCATION",
+        "title": "MBA",
+        "org": "",
+        "entry_text": "MBA – Finance",
+        "source": {
+          "entry": [
+            {
+              "page": 2,
+              "text": "MBA – Finance",
+              "block_id": "b52",
+              "kind": "pdf",
+              "page_width": 595.2756,
+              "page_height": 841.8898,
+              "bbox": [
+                78.0,
+                304.07000000000005,
+                146.36,
+                314.07000000000005
+              ],
+              "fragment_text": "MBA – Finance"
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 2,
+              "text": "MBA",
+              "block_id": "b52",
+              "kind": "pdf",
+              "page_width": 595.2756,
+              "page_height": 841.8898,
+              "bbox": [
+                78.0,
+                304.07000000000005,
+                99.67,
+                314.07000000000005
+              ],
+              "fragment_text": "MBA"
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "EDUCATION",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 2,
+      "dated_share": 0.5,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "ocr_pages": []
+    },
+    "total_represented_months": 38,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

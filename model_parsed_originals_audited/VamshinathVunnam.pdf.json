@@ -1,0 +1,296 @@
+{
+  "file_name": "VamshinathVunnam.pdf",
+  "input_mode": "original_document",
+  "input_sha256": "fa0e9914a69ab0d6df0c4a1bce4096c81cdbeab8bf7d03c3f3a82a6e1354d44f",
+  "doc_id": "fa0e9914a69ab0d6df0c4a1b",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 1,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "vb17b41d6c8b4d7f2",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Associate",
+      "start_date": "2017-10",
+      "end_date": "2021-11",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 2,
+            "text": "Associate – Software Engineer | Oct 2017 – Nov 2021",
+            "block_id": "b75",
+            "kind": "pdf",
+            "page_width": 612,
+            "page_height": 792,
+            "bbox": [
+              192.05,
+              75.33080000000007,
+              433.43800000000005,
+              84.81080000000009
+            ],
+            "fragment_text": "Associate – Software Engineer | Oct 2017 – Nov 2021"
+          }
+        ],
+        "dates": [
+          {
+            "page": 2,
+            "text": "Oct 2017 – Nov 2021",
+            "block_id": "b75",
+            "kind": "pdf",
+            "page_width": 612,
+            "page_height": 792,
+            "bbox": [
+              348.28000000000003,
+              75.71000000000004,
+              433.43800000000005,
+              84.71000000000004
+            ],
+            "fragment_text": "Oct 2017 – Nov 2021"
+          },
+          {
+            "page": 2,
+            "text": "July 2020",
+            "block_id": "b86",
+            "kind": "pdf",
+            "page_width": 612,
+            "page_height": 792,
+            "bbox": [
+              441.10300000000007,
+              207.59000000000003,
+              479.6590000000001,
+              216.59000000000003
+            ],
+            "fragment_text": "July 2020"
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 2,
+            "text": "Associate",
+            "block_id": "b75",
+            "kind": "pdf",
+            "page_width": 612,
+            "page_height": 792,
+            "bbox": [
+              192.05,
+              75.33080000000007,
+              236.80508,
+              84.81080000000009
+            ]
+          }
+        ],
+        "section": "Cognizant Technology Solutions",
+        "date_label": "Oct 2017 – Nov 2021",
+        "is_present": false
+      }
+    }
+  ],
+  "education": [],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 1,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "raw_pipeline_dto": {
+    "doc_id": "fa0e9914a69ab0d6df0c4a1b",
+    "filename": "VamshinathVunnam.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "vb17b41d6c8b4d7f2",
+        "type": "EMPLOYMENT",
+        "title": "Associate",
+        "org": "",
+        "start": "2017-10",
+        "end": "2021-11",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Associate – Software Engineer | Oct 2017 – Nov 2021",
+        "source": {
+          "entry": [
+            {
+              "page": 2,
+              "text": "Associate – Software Engineer | Oct 2017 – Nov 2021",
+              "block_id": "b75",
+              "kind": "pdf",
+              "page_width": 612,
+              "page_height": 792,
+              "bbox": [
+                192.05,
+                75.33080000000007,
+                433.43800000000005,
+                84.81080000000009
+              ],
+              "fragment_text": "Associate – Software Engineer | Oct 2017 – Nov 2021"
+            }
+          ],
+          "dates": [
+            {
+              "page": 2,
+              "text": "Oct 2017 – Nov 2021",
+              "block_id": "b75",
+              "kind": "pdf",
+              "page_width": 612,
+              "page_height": 792,
+              "bbox": [
+                348.28000000000003,
+                75.71000000000004,
+                433.43800000000005,
+                84.71000000000004
+              ],
+              "fragment_text": "Oct 2017 – Nov 2021"
+            },
+            {
+              "page": 2,
+              "text": "July 2020",
+              "block_id": "b86",
+              "kind": "pdf",
+              "page_width": 612,
+              "page_height": 792,
+              "bbox": [
+                441.10300000000007,
+                207.59000000000003,
+                479.6590000000001,
+                216.59000000000003
+              ],
+              "fragment_text": "July 2020"
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 2,
+              "text": "Associate",
+              "block_id": "b75",
+              "kind": "pdf",
+              "page_width": 612,
+              "page_height": 792,
+              "bbox": [
+                192.05,
+                75.33080000000007,
+                236.80508,
+                84.81080000000009
+              ]
+            }
+          ],
+          "section": "Cognizant Technology Solutions",
+          "date_label": "Oct 2017 – Nov 2021",
+          "is_present": false
+        },
+        "date_label": "Oct 2017 – Nov 2021",
+        "section": "Cognizant Technology Solutions",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 1,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9
+    },
+    "total_represented_months": 50,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

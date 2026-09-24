@@ -1,0 +1,499 @@
+{
+  "file_name": "NaveenKumarMavoori.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "a62734553189b1b8ae5e375f801f795c9b7c95118338c864048183c602dcdaa0",
+  "doc_id": "a62734553189b1b8ae5e375f",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 0,
+    "total_events": 1,
+    "dated_share": 0.0,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": null,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [],
+  "education": [
+    {
+      "id": "v80b71b549974b3e2",
+      "type": "EDUCATION",
+      "company": "Post-Graduation  :  PGDM - Institute for Technology and Management",
+      "title": "",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Post-Graduation  :  PGDM - Institute for Technology and Management, Navi Mumbai – 68%",
+            "block_id": "b117",
+            "kind": "text",
+            "start": 9255,
+            "end": 9340
+          },
+          {
+            "page": 1,
+            "text": "Graduation  :  B.Tech - Nalla Malla Reddy Engineering College, Hyderabad – 62.45%",
+            "block_id": "b118",
+            "kind": "text",
+            "start": 9342,
+            "end": 9423
+          },
+          {
+            "page": 1,
+            "text": "HSC : Narayana Jr. College, Hyderabad – 91.4%",
+            "block_id": "b119",
+            "kind": "text",
+            "start": 9425,
+            "end": 9470
+          },
+          {
+            "page": 1,
+            "text": "ICSE : St. Augustine’s Day School, Kolkata – 74.6%",
+            "block_id": "b120",
+            "kind": "text",
+            "start": 9472,
+            "end": 9522
+          }
+        ],
+        "dates": [],
+        "company": [
+          {
+            "page": 1,
+            "text": "Post-Graduation  :  PGDM - Institute for Technology and Management",
+            "block_id": "b117",
+            "kind": "text",
+            "start": 9255,
+            "end": 9321
+          }
+        ],
+        "title": [],
+        "section": "Post-Graduation  :  PGDM - Institute for Technology and Management, Navi Mumbai – 68%",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 0,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "PARTIAL",
+    "coverage_analysis": "PARTIAL",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "section EDUCATION: entry without dated header preserved as-is",
+    "no dated events to order",
+    "no intervals to cover"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "a62734553189b1b8ae5e375f",
+    "filename": "NaveenKumarMavoori.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [],
+    "unresolved_events": [
+      {
+        "id": "v80b71b549974b3e2",
+        "type": "EDUCATION",
+        "title": "",
+        "org": "Post-Graduation  :  PGDM - Institute for Technology and Management",
+        "entry_text": "Post-Graduation  :  PGDM - Institute for Technology and Management, Navi Mumbai – 68% Graduation  :  B.Tech - Nalla Malla Reddy Engineering College, Hyderabad – 62.45% HSC : Narayana Jr. College, Hyderabad – 91.4% ICSE : St. Augustine’s Day School, Kolkata – 74.6%",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Post-Graduation  :  PGDM - Institute for Technology and Management, Navi Mumbai – 68%",
+              "block_id": "b117",
+              "kind": "text",
+              "start": 9255,
+              "end": 9340
+            },
+            {
+              "page": 1,
+              "text": "Graduation  :  B.Tech - Nalla Malla Reddy Engineering College, Hyderabad – 62.45%",
+              "block_id": "b118",
+              "kind": "text",
+              "start": 9342,
+              "end": 9423
+            },
+            {
+              "page": 1,
+              "text": "HSC : Narayana Jr. College, Hyderabad – 91.4%",
+              "block_id": "b119",
+              "kind": "text",
+              "start": 9425,
+              "end": 9470
+            },
+            {
+              "page": 1,
+              "text": "ICSE : St. Augustine’s Day School, Kolkata – 74.6%",
+              "block_id": "b120",
+              "kind": "text",
+              "start": 9472,
+              "end": 9522
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "Post-Graduation  :  PGDM - Institute for Technology and Management",
+              "block_id": "b117",
+              "kind": "text",
+              "start": 9255,
+              "end": 9321
+            }
+          ],
+          "title": [],
+          "section": "Post-Graduation  :  PGDM - Institute for Technology and Management, Navi Mumbai – 68%",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Post-Graduation  :  PGDM - Institute for Technology and Management, Navi Mumbai – 68%",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 0,
+      "total_events": 1,
+      "dated_share": 0.0,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": null,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 0,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "PARTIAL",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "PARTIAL",
+        "confidence": 0.3
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 1,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v80b71b549974b3e2",
+              "label": "Post-Graduation  :  PGDM - Institute for Technology and Management",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Post-Graduation  :  PGDM - Institute for Technology and Management, Navi Mumbai – 68%",
+                    "block_id": "b117",
+                    "kind": "text",
+                    "start": 9255,
+                    "end": 9340
+                  },
+                  {
+                    "page": 1,
+                    "text": "Graduation  :  B.Tech - Nalla Malla Reddy Engineering College, Hyderabad – 62.45%",
+                    "block_id": "b118",
+                    "kind": "text",
+                    "start": 9342,
+                    "end": 9423
+                  },
+                  {
+                    "page": 1,
+                    "text": "HSC : Narayana Jr. College, Hyderabad – 91.4%",
+                    "block_id": "b119",
+                    "kind": "text",
+                    "start": 9425,
+                    "end": 9470
+                  },
+                  {
+                    "page": 1,
+                    "text": "ICSE : St. Augustine’s Day School, Kolkata – 74.6%",
+                    "block_id": "b120",
+                    "kind": "text",
+                    "start": 9472,
+                    "end": 9522
+                  }
+                ],
+                "dates": [],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Post-Graduation  :  PGDM - Institute for Technology and Management",
+                    "block_id": "b117",
+                    "kind": "text",
+                    "start": 9255,
+                    "end": 9321
+                  }
+                ],
+                "title": [],
+                "section": "Post-Graduation  :  PGDM - Institute for Technology and Management, Navi Mumbai – 68%",
+                "date_label": "",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 0,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 1,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v80b71b549974b3e2",
+            "label": "Post-Graduation  :  PGDM - Institute for Technology and Management",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Post-Graduation  :  PGDM - Institute for Technology and Management, Navi Mumbai – 68%",
+                  "block_id": "b117",
+                  "kind": "text",
+                  "start": 9255,
+                  "end": 9340
+                },
+                {
+                  "page": 1,
+                  "text": "Graduation  :  B.Tech - Nalla Malla Reddy Engineering College, Hyderabad – 62.45%",
+                  "block_id": "b118",
+                  "kind": "text",
+                  "start": 9342,
+                  "end": 9423
+                },
+                {
+                  "page": 1,
+                  "text": "HSC : Narayana Jr. College, Hyderabad – 91.4%",
+                  "block_id": "b119",
+                  "kind": "text",
+                  "start": 9425,
+                  "end": 9470
+                },
+                {
+                  "page": 1,
+                  "text": "ICSE : St. Augustine’s Day School, Kolkata – 74.6%",
+                  "block_id": "b120",
+                  "kind": "text",
+                  "start": 9472,
+                  "end": 9522
+                }
+              ],
+              "dates": [],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Post-Graduation  :  PGDM - Institute for Technology and Management",
+                  "block_id": "b117",
+                  "kind": "text",
+                  "start": 9255,
+                  "end": 9321
+                }
+              ],
+              "title": [],
+              "section": "Post-Graduation  :  PGDM - Institute for Technology and Management, Navi Mumbai – 68%",
+              "date_label": "",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 0,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

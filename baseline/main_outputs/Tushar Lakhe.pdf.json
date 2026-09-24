@@ -1,0 +1,441 @@
+{
+  "file_name": "Tushar Lakhe.pdf",
+  "input_mode": "original_document",
+  "input_sha256": "e2a62fe590fc90249bcfeb49808075cc8f5bfd92da1b61d9f13b6a28bbabbaa9",
+  "doc_id": "e2a62fe590fc90249bcfeb49",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 2,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "ocr_pages": []
+  },
+  "work_experience": [
+    {
+      "id": "v6068a6ca54fc592d",
+      "type": "EMPLOYMENT",
+      "company": "BI Tools MicroStrategy, Tableau",
+      "title": "",
+      "start_date": "2011-11",
+      "end_date": "2014-10",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Nov 2011 - Oct 2014 BI Tools MicroStrategy, Tableau",
+            "block_id": "b40",
+            "kind": "pdf",
+            "page_width": 612,
+            "page_height": 792,
+            "bbox": [
+              22.32,
+              487.84,
+              427.40152,
+              499.24
+            ]
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Nov 2011 - Oct 2014",
+            "block_id": "b40",
+            "kind": "pdf",
+            "page_width": 612,
+            "page_height": 792,
+            "bbox": [
+              22.32,
+              487.84,
+              105.00708,
+              497.8
+            ],
+            "fragment_text": "Nov 2011 - Oct 2014"
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "BI Tools MicroStrategy, Tableau",
+            "block_id": "b40",
+            "kind": "pdf",
+            "page_width": 612,
+            "page_height": 792,
+            "bbox": [
+              188.9,
+              489.28,
+              427.40152,
+              499.24
+            ],
+            "fragment_text": "BI Tools MicroStrategy, Tableau"
+          }
+        ],
+        "title": [],
+        "section": "Work History",
+        "date_label": "Nov 2011 - Oct 2014",
+        "is_present": false
+      }
+    },
+    {
+      "id": "v630c6cefddd83904",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Primary Skills ETL Engineer",
+      "start_date": "2014-10",
+      "end_date": "2015-04",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Primary Skills ETL Engineer, Data Engineer, Python Automation.",
+            "block_id": "b32",
+            "kind": "pdf",
+            "page_width": 612,
+            "page_height": 792,
+            "bbox": [
+              188.9,
+              418.84,
+              534.08992,
+              428.8
+            ],
+            "fragment_text": "Primary Skills ETL Engineer, Data Engineer, Python Automation."
+          },
+          {
+            "page": 1,
+            "text": "Oct 2014 - Apr 2015",
+            "block_id": "b34",
+            "kind": "pdf",
+            "page_width": 612,
+            "page_height": 792,
+            "bbox": [
+              22.32,
+              439.0,
+              103.32563999999999,
+              448.96000000000004
+            ],
+            "fragment_text": "Oct 2014 - Apr 2015"
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Oct 2014 - Apr 2015",
+            "block_id": "b34",
+            "kind": "pdf",
+            "page_width": 612,
+            "page_height": 792,
+            "bbox": [
+              22.32,
+              439.0,
+              103.32563999999999,
+              448.96000000000004
+            ],
+            "fragment_text": "Oct 2014 - Apr 2015"
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Primary Skills ETL Engineer",
+            "block_id": "b32",
+            "kind": "pdf",
+            "page_width": 612,
+            "page_height": 792,
+            "bbox": [
+              188.9,
+              418.84,
+              384.87148,
+              428.8
+            ],
+            "fragment_text": "Primary Skills ETL Engineer"
+          }
+        ],
+        "section": "Work History",
+        "date_label": "Oct 2014 - Apr 2015",
+        "is_present": false
+      }
+    }
+  ],
+  "education": [],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 2,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "overlap preserved: '' overlaps 'Primary Skills ETL Engineer'"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "e2a62fe590fc90249bcfeb49",
+    "filename": "Tushar Lakhe.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v6068a6ca54fc592d",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "BI Tools MicroStrategy, Tableau",
+        "start": "2011-11",
+        "end": "2014-10",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Nov 2011 - Oct 2014 BI Tools MicroStrategy, Tableau",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Nov 2011 - Oct 2014 BI Tools MicroStrategy, Tableau",
+              "block_id": "b40",
+              "kind": "pdf",
+              "page_width": 612,
+              "page_height": 792,
+              "bbox": [
+                22.32,
+                487.84,
+                427.40152,
+                499.24
+              ]
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Nov 2011 - Oct 2014",
+              "block_id": "b40",
+              "kind": "pdf",
+              "page_width": 612,
+              "page_height": 792,
+              "bbox": [
+                22.32,
+                487.84,
+                105.00708,
+                497.8
+              ],
+              "fragment_text": "Nov 2011 - Oct 2014"
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "BI Tools MicroStrategy, Tableau",
+              "block_id": "b40",
+              "kind": "pdf",
+              "page_width": 612,
+              "page_height": 792,
+              "bbox": [
+                188.9,
+                489.28,
+                427.40152,
+                499.24
+              ],
+              "fragment_text": "BI Tools MicroStrategy, Tableau"
+            }
+          ],
+          "title": [],
+          "section": "Work History",
+          "date_label": "Nov 2011 - Oct 2014",
+          "is_present": false
+        },
+        "date_label": "Nov 2011 - Oct 2014",
+        "section": "Work History",
+        "is_present": false
+      },
+      {
+        "id": "v630c6cefddd83904",
+        "type": "EMPLOYMENT",
+        "title": "Primary Skills ETL Engineer",
+        "org": "",
+        "start": "2014-10",
+        "end": "2015-04",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Primary Skills ETL Engineer, Data Engineer, Python Automation.\nOct 2014 - Apr 2015",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Primary Skills ETL Engineer, Data Engineer, Python Automation.",
+              "block_id": "b32",
+              "kind": "pdf",
+              "page_width": 612,
+              "page_height": 792,
+              "bbox": [
+                188.9,
+                418.84,
+                534.08992,
+                428.8
+              ],
+              "fragment_text": "Primary Skills ETL Engineer, Data Engineer, Python Automation."
+            },
+            {
+              "page": 1,
+              "text": "Oct 2014 - Apr 2015",
+              "block_id": "b34",
+              "kind": "pdf",
+              "page_width": 612,
+              "page_height": 792,
+              "bbox": [
+                22.32,
+                439.0,
+                103.32563999999999,
+                448.96000000000004
+              ],
+              "fragment_text": "Oct 2014 - Apr 2015"
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Oct 2014 - Apr 2015",
+              "block_id": "b34",
+              "kind": "pdf",
+              "page_width": 612,
+              "page_height": 792,
+              "bbox": [
+                22.32,
+                439.0,
+                103.32563999999999,
+                448.96000000000004
+              ],
+              "fragment_text": "Oct 2014 - Apr 2015"
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Primary Skills ETL Engineer",
+              "block_id": "b32",
+              "kind": "pdf",
+              "page_width": 612,
+              "page_height": 792,
+              "bbox": [
+                188.9,
+                418.84,
+                384.87148,
+                428.8
+              ],
+              "fragment_text": "Primary Skills ETL Engineer"
+            }
+          ],
+          "section": "Work History",
+          "date_label": "Oct 2014 - Apr 2015",
+          "is_present": false
+        },
+        "date_label": "Oct 2014 - Apr 2015",
+        "section": "Work History",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "NO_GAP_DETECTED",
+        "confidence": 0.9,
+        "reasons": [],
+        "evidence": {
+          "note": "no uncovered months between supported entries"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 2,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "ocr_pages": []
+    },
+    "total_represented_months": 42,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

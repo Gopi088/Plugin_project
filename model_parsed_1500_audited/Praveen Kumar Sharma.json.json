@@ -1,0 +1,377 @@
+{
+  "file_name": "Praveen Kumar Sharma.docx",
+  "input_mode": "text_snapshot",
+  "input_sha256": "15c1d436b6dfcde26ddb4186c4f8fb4eda68ba27cc5d5db5188992b7a63a56c5",
+  "doc_id": "15c1d436b6dfcde26ddb4186",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 2,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "ocr_pages": []
+  },
+  "work_experience": [
+    {
+      "id": "vcc957b23e0f29e5b",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Senior Lead/Associate Architect",
+      "start_date": "2023-03",
+      "end_date": "2025-06",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Senior Lead/Associate Architect",
+            "block_id": "b27",
+            "kind": "text",
+            "start": 1179,
+            "end": 1210
+          },
+          {
+            "page": 1,
+            "text": "March 2023 - June 2025",
+            "block_id": "b28",
+            "kind": "text",
+            "start": 1211,
+            "end": 1233
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "March 2023 - June 2025",
+            "block_id": "b28",
+            "kind": "text",
+            "start": 1211,
+            "end": 1233
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Senior Lead/Associate Architect",
+            "block_id": "b27",
+            "kind": "text",
+            "start": 1179,
+            "end": 1210
+          }
+        ],
+        "section": "WORK EXPERIENCE",
+        "date_label": "March 2023 - June 2025",
+        "is_present": false
+      }
+    },
+    {
+      "id": "v9222e4b8f03f44c6",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Specialist",
+      "start_date": "2025-06",
+      "end_date": "2025-09",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Specialist",
+            "block_id": "b14",
+            "kind": "text",
+            "start": 577,
+            "end": 587
+          },
+          {
+            "page": 1,
+            "text": "June 2025 - Sep 2025",
+            "block_id": "b15",
+            "kind": "text",
+            "start": 588,
+            "end": 608
+          },
+          {
+            "page": 1,
+            "text": "ACHARYA INSTITUTE OF TECHNOLOGY ( UNIVERSITY- VTU BELGAUM )",
+            "block_id": "b16",
+            "kind": "text",
+            "start": 609,
+            "end": 668
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "June 2025 - Sep 2025",
+            "block_id": "b15",
+            "kind": "text",
+            "start": 588,
+            "end": 608
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Specialist",
+            "block_id": "b14",
+            "kind": "text",
+            "start": 577,
+            "end": 587
+          }
+        ],
+        "section": "WORK EXPERIENCE",
+        "date_label": "June 2025 - Sep 2025",
+        "is_present": false
+      }
+    }
+  ],
+  "education": [],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 2,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "overlap preserved: 'Senior Lead/Associate Architect' overlaps 'Specialist'"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "15c1d436b6dfcde26ddb4186",
+    "filename": "Praveen Kumar Sharma.docx",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "vcc957b23e0f29e5b",
+        "type": "EMPLOYMENT",
+        "title": "Senior Lead/Associate Architect",
+        "org": "",
+        "start": "2023-03",
+        "end": "2025-06",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Senior Lead/Associate Architect\nMarch 2023 - June 2025",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Lead/Associate Architect",
+              "block_id": "b27",
+              "kind": "text",
+              "start": 1179,
+              "end": 1210
+            },
+            {
+              "page": 1,
+              "text": "March 2023 - June 2025",
+              "block_id": "b28",
+              "kind": "text",
+              "start": 1211,
+              "end": 1233
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "March 2023 - June 2025",
+              "block_id": "b28",
+              "kind": "text",
+              "start": 1211,
+              "end": 1233
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Lead/Associate Architect",
+              "block_id": "b27",
+              "kind": "text",
+              "start": 1179,
+              "end": 1210
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "March 2023 - June 2025",
+          "is_present": false
+        },
+        "date_label": "March 2023 - June 2025",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v9222e4b8f03f44c6",
+        "type": "EMPLOYMENT",
+        "title": "Specialist",
+        "org": "",
+        "start": "2025-06",
+        "end": "2025-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Specialist\nJune 2025 - Sep 2025\nACHARYA INSTITUTE OF TECHNOLOGY ( UNIVERSITY- VTU BELGAUM )",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Specialist",
+              "block_id": "b14",
+              "kind": "text",
+              "start": 577,
+              "end": 587
+            },
+            {
+              "page": 1,
+              "text": "June 2025 - Sep 2025",
+              "block_id": "b15",
+              "kind": "text",
+              "start": 588,
+              "end": 608
+            },
+            {
+              "page": 1,
+              "text": "ACHARYA INSTITUTE OF TECHNOLOGY ( UNIVERSITY- VTU BELGAUM )",
+              "block_id": "b16",
+              "kind": "text",
+              "start": 609,
+              "end": 668
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "June 2025 - Sep 2025",
+              "block_id": "b15",
+              "kind": "text",
+              "start": 588,
+              "end": 608
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Specialist",
+              "block_id": "b14",
+              "kind": "text",
+              "start": 577,
+              "end": 587
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "June 2025 - Sep 2025",
+          "is_present": false
+        },
+        "date_label": "June 2025 - Sep 2025",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "NO_GAP_DETECTED",
+        "confidence": 0.9,
+        "reasons": [],
+        "evidence": {
+          "note": "no uncovered months between supported entries"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 2,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "ocr_pages": []
+    },
+    "total_represented_months": 31,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

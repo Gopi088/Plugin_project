@@ -1,0 +1,395 @@
+{
+  "file_name": "SanjayParab (1).pdf",
+  "input_mode": "original_document",
+  "input_sha256": "5d76a84e0ec183a6feba07dd985c628fde3110cddcba3dbee8e2f9a970f2923c",
+  "doc_id": "5d76a84e0ec183a6feba07dd",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 0,
+    "total_events": 2,
+    "dated_share": 0.0,
+    "unresolved": 2,
+    "ambiguous": 0,
+    "mean_event_confidence": null
+  },
+  "work_experience": [],
+  "education": [
+    {
+      "id": "veb73699ec0d2ef81",
+      "type": "EDUCATION",
+      "company": "Mumbai University",
+      "title": "Bachelor of Commerce (with Finance and Accounting",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 2,
+            "text": "Bachelor of Commerce (with Finance and Accounting)",
+            "block_id": "b98",
+            "kind": "pdf",
+            "page_width": 596.04,
+            "page_height": 843,
+            "bbox": [
+              27.84,
+              484.35999999999996,
+              252.4256,
+              494.32
+            ],
+            "fragment_text": "Bachelor of Commerce (with Finance and Accounting)"
+          },
+          {
+            "page": 2,
+            "text": "Mumbai University, Mumbai, India",
+            "block_id": "b99",
+            "kind": "pdf",
+            "page_width": 596.04,
+            "page_height": 843,
+            "bbox": [
+              27.84,
+              494.95000000000005,
+              159.2620266432,
+              505.99
+            ]
+          }
+        ],
+        "dates": [],
+        "company": [
+          {
+            "page": 2,
+            "text": "Mumbai University",
+            "block_id": "b99",
+            "kind": "pdf",
+            "page_width": 596.04,
+            "page_height": 843,
+            "bbox": [
+              27.84,
+              494.95000000000005,
+              100.1665081056,
+              505.99
+            ]
+          }
+        ],
+        "title": [
+          {
+            "page": 2,
+            "text": "Bachelor of Commerce (with Finance and Accounting",
+            "block_id": "b98",
+            "kind": "pdf",
+            "page_width": 596.04,
+            "page_height": 843,
+            "bbox": [
+              27.84,
+              484.35999999999996,
+              249.33800000000002,
+              494.32
+            ],
+            "fragment_text": "Bachelor of Commerce (with Finance and Accounting)"
+          }
+        ],
+        "section": "Education",
+        "date_label": "",
+        "is_present": false
+      }
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "Project Management Tool: JIRA; Confluence MS Visio",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [],
+      "raw_text": "Project Management Tool: JIRA; Confluence MS Visio",
+      "source": {
+        "entry": [
+          {
+            "page": 3,
+            "text": "Project Management Tool: JIRA; Confluence MS Visio",
+            "block_id": "b164",
+            "kind": "pdf",
+            "page_width": 596.04,
+            "page_height": 843,
+            "bbox": [
+              27.84,
+              626.26,
+              242.6133853952,
+              637.3
+            ],
+            "fragment_text": "Project Management Tool: JIRA; Confluence MS Visio"
+          }
+        ]
+      }
+    }
+  ],
+  "gaps": [],
+  "total_work_experience_entries": 0,
+  "total_projects_entries": 1,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "PARTIAL",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "PARTIAL",
+    "coverage_analysis": "PARTIAL",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "raw_pipeline_dto": {
+    "doc_id": "5d76a84e0ec183a6feba07dd",
+    "filename": "SanjayParab (1).pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [],
+    "unresolved_events": [
+      {
+        "id": "veb73699ec0d2ef81",
+        "type": "EDUCATION",
+        "title": "Bachelor of Commerce (with Finance and Accounting",
+        "org": "Mumbai University",
+        "entry_text": "Bachelor of Commerce (with Finance and Accounting) Mumbai University, Mumbai, India (Apr 1 997)",
+        "source": {
+          "entry": [
+            {
+              "page": 2,
+              "text": "Bachelor of Commerce (with Finance and Accounting)",
+              "block_id": "b98",
+              "kind": "pdf",
+              "page_width": 596.04,
+              "page_height": 843,
+              "bbox": [
+                27.84,
+                484.35999999999996,
+                252.4256,
+                494.32
+              ],
+              "fragment_text": "Bachelor of Commerce (with Finance and Accounting)"
+            },
+            {
+              "page": 2,
+              "text": "Mumbai University, Mumbai, India",
+              "block_id": "b99",
+              "kind": "pdf",
+              "page_width": 596.04,
+              "page_height": 843,
+              "bbox": [
+                27.84,
+                494.95000000000005,
+                159.2620266432,
+                505.99
+              ]
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 2,
+              "text": "Mumbai University",
+              "block_id": "b99",
+              "kind": "pdf",
+              "page_width": 596.04,
+              "page_height": 843,
+              "bbox": [
+                27.84,
+                494.95000000000005,
+                100.1665081056,
+                505.99
+              ]
+            }
+          ],
+          "title": [
+            {
+              "page": 2,
+              "text": "Bachelor of Commerce (with Finance and Accounting",
+              "block_id": "b98",
+              "kind": "pdf",
+              "page_width": 596.04,
+              "page_height": 843,
+              "bbox": [
+                27.84,
+                484.35999999999996,
+                249.33800000000002,
+                494.32
+              ],
+              "fragment_text": "Bachelor of Commerce (with Finance and Accounting)"
+            }
+          ],
+          "section": "Education",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Education",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "vc6f2b2ccec036285",
+        "type": "PROJECT",
+        "title": "Project Management Tool: JIRA; Confluence MS Visio",
+        "org": "",
+        "entry_text": "Project Management Tool: JIRA; Confluence MS Visio",
+        "source": {
+          "entry": [
+            {
+              "page": 3,
+              "text": "Project Management Tool: JIRA; Confluence MS Visio",
+              "block_id": "b164",
+              "kind": "pdf",
+              "page_width": 596.04,
+              "page_height": 843,
+              "bbox": [
+                27.84,
+                626.26,
+                242.6133853952,
+                637.3
+              ],
+              "fragment_text": "Project Management Tool: JIRA; Confluence MS Visio"
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 3,
+              "text": "Project Management Tool: JIRA; Confluence MS Visio",
+              "block_id": "b164",
+              "kind": "pdf",
+              "page_width": 596.04,
+              "page_height": 843,
+              "bbox": [
+                27.84,
+                626.26,
+                242.6133853952,
+                637.3
+              ],
+              "fragment_text": "Project Management Tool: JIRA; Confluence MS Visio"
+            }
+          ],
+          "section": "Projects",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Projects",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "Project Management Tool: JIRA; Confluence MS Visio",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [],
+        "raw_text": "Project Management Tool: JIRA; Confluence MS Visio",
+        "source": {
+          "entry": [
+            {
+              "page": 3,
+              "text": "Project Management Tool: JIRA; Confluence MS Visio",
+              "block_id": "b164",
+              "kind": "pdf",
+              "page_width": 596.04,
+              "page_height": 843,
+              "bbox": [
+                27.84,
+                626.26,
+                242.6133853952,
+                637.3
+              ],
+              "fragment_text": "Project Management Tool: JIRA; Confluence MS Visio"
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 0,
+      "total_events": 2,
+      "dated_share": 0.0,
+      "unresolved": 2,
+      "ambiguous": 0,
+      "mean_event_confidence": null
+    },
+    "total_represented_months": 0,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "PARTIAL",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "PARTIAL",
+        "confidence": 0.3
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

@@ -1,0 +1,885 @@
+{
+  "file_name": "venkataswamy.docx",
+  "input_mode": "text_snapshot",
+  "input_sha256": "87e89f68305c089dc18140ef1e49bf23ba3237a72be78faa20fd4438f3fca23b",
+  "doc_id": "87e89f68305c089dc18140ef",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 3,
+    "dated_share": 0.667,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "vbd81c224a70e3b7b",
+      "type": "EMPLOYMENT",
+      "company": "Cognizant Technology Solutions",
+      "title": "Associate",
+      "start_date": "2013-06",
+      "end_date": "2016-03",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Associate at Cognizant Technology Solutions (June 2013 – March 2016)",
+            "block_id": "b24",
+            "kind": "text",
+            "start": 2482,
+            "end": 2550
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "June 2013 – March 2016",
+            "block_id": "b24",
+            "kind": "text",
+            "start": 2527,
+            "end": 2549
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Cognizant Technology Solutions",
+            "block_id": "b24",
+            "kind": "text",
+            "start": 2495,
+            "end": 2525
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Associate",
+            "block_id": "b24",
+            "kind": "text",
+            "start": 2482,
+            "end": 2491
+          }
+        ],
+        "section": "Work Experience:",
+        "date_label": "June 2013 – March 2016",
+        "is_present": false
+      },
+      "precision": "month",
+      "date_label": "June 2013 – March 2016"
+    },
+    {
+      "id": "vb34ef369c122b440",
+      "type": "EMPLOYMENT",
+      "company": "at RealPage India PVT LTD",
+      "title": "Senior Developer",
+      "start_date": "2016-03",
+      "end_date": "2026-09",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Senior Developer at RealPage India PVT LTD (March 2016 – Present)",
+            "block_id": "b23",
+            "kind": "text",
+            "start": 2416,
+            "end": 2481
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "March 2016 – Present",
+            "block_id": "b23",
+            "kind": "text",
+            "start": 2460,
+            "end": 2480
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "at RealPage India PVT LTD",
+            "block_id": "b23",
+            "kind": "text",
+            "start": 2433,
+            "end": 2458
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Senior Developer",
+            "block_id": "b23",
+            "kind": "text",
+            "start": 2416,
+            "end": 2432
+          }
+        ],
+        "section": "Work Experience:",
+        "date_label": "March 2016 – Present",
+        "is_present": true
+      },
+      "precision": "month",
+      "date_label": "March 2016 – Present"
+    }
+  ],
+  "education": [
+    {
+      "id": "v9a1b2521adf8cbc3",
+      "type": "EDUCATION",
+      "company": "Osmania University",
+      "title": "",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "M.C.A from Osmania University, Hyderabad",
+            "block_id": "b26",
+            "kind": "text",
+            "start": 2562,
+            "end": 2602
+          }
+        ],
+        "dates": [],
+        "company": [
+          {
+            "page": 1,
+            "text": "Osmania University",
+            "block_id": "b26",
+            "kind": "text",
+            "start": 2573,
+            "end": 2591
+          }
+        ],
+        "title": [],
+        "section": "Education:",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 2,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "section EDUCATION: entry without dated header preserved as-is",
+    "overlap preserved: 'Associate' overlaps 'Senior Developer'"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "87e89f68305c089dc18140ef",
+    "filename": "venkataswamy.docx",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "vbd81c224a70e3b7b",
+        "type": "EMPLOYMENT",
+        "title": "Associate",
+        "org": "Cognizant Technology Solutions",
+        "start": "2013-06",
+        "end": "2016-03",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Associate at Cognizant Technology Solutions (June 2013 – March 2016)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Associate at Cognizant Technology Solutions (June 2013 – March 2016)",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 2482,
+              "end": 2550
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "June 2013 – March 2016",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 2527,
+              "end": 2549
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Cognizant Technology Solutions",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 2495,
+              "end": 2525
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Associate",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 2482,
+              "end": 2491
+            }
+          ],
+          "section": "Work Experience:",
+          "date_label": "June 2013 – March 2016",
+          "is_present": false
+        },
+        "date_label": "June 2013 – March 2016",
+        "section": "Work Experience:",
+        "is_present": false
+      },
+      {
+        "id": "vb34ef369c122b440",
+        "type": "EMPLOYMENT",
+        "title": "Senior Developer",
+        "org": "at RealPage India PVT LTD",
+        "start": "2016-03",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Senior Developer at RealPage India PVT LTD (March 2016 – Present)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Developer at RealPage India PVT LTD (March 2016 – Present)",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 2416,
+              "end": 2481
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "March 2016 – Present",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 2460,
+              "end": 2480
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "at RealPage India PVT LTD",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 2433,
+              "end": 2458
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Developer",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 2416,
+              "end": 2432
+            }
+          ],
+          "section": "Work Experience:",
+          "date_label": "March 2016 – Present",
+          "is_present": true
+        },
+        "date_label": "March 2016 – Present",
+        "section": "Work Experience:",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v9a1b2521adf8cbc3",
+        "type": "EDUCATION",
+        "title": "",
+        "org": "Osmania University",
+        "entry_text": "M.C.A from Osmania University, Hyderabad",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "M.C.A from Osmania University, Hyderabad",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 2562,
+              "end": 2602
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "Osmania University",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 2573,
+              "end": 2591
+            }
+          ],
+          "title": [],
+          "section": "Education:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Education:",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "NO_GAP_DETECTED",
+        "confidence": 0.9,
+        "reasons": [],
+        "evidence": {
+          "note": "no uncovered months between supported entries"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 3,
+      "dated_share": 0.667,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 160,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": true,
+          "unrepresented_periods_in_category": [],
+          "entries": 2,
+          "dated_periods": 2,
+          "represented_months": 160,
+          "overlap_months": 1,
+          "states": {
+            "month_range": 2,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "vbd81c224a70e3b7b",
+              "label": "Associate",
+              "state": "month_range",
+              "start": [
+                2013,
+                6
+              ],
+              "end": [
+                2016,
+                3
+              ],
+              "months": 34,
+              "raw": "June 2013 – March 2016",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Associate at Cognizant Technology Solutions (June 2013 – March 2016)",
+                    "block_id": "b24",
+                    "kind": "text",
+                    "start": 2482,
+                    "end": 2550
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "June 2013 – March 2016",
+                    "block_id": "b24",
+                    "kind": "text",
+                    "start": 2527,
+                    "end": 2549
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Cognizant Technology Solutions",
+                    "block_id": "b24",
+                    "kind": "text",
+                    "start": 2495,
+                    "end": 2525
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Associate",
+                    "block_id": "b24",
+                    "kind": "text",
+                    "start": 2482,
+                    "end": 2491
+                  }
+                ],
+                "section": "Work Experience:",
+                "date_label": "June 2013 – March 2016",
+                "is_present": false
+              }
+            },
+            {
+              "id": "vb34ef369c122b440",
+              "label": "Senior Developer",
+              "state": "month_range",
+              "start": [
+                2016,
+                3
+              ],
+              "end": [
+                2026,
+                9
+              ],
+              "months": 127,
+              "raw": "March 2016 – Present",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Senior Developer at RealPage India PVT LTD (March 2016 – Present)",
+                    "block_id": "b23",
+                    "kind": "text",
+                    "start": 2416,
+                    "end": 2481
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "March 2016 – Present",
+                    "block_id": "b23",
+                    "kind": "text",
+                    "start": 2460,
+                    "end": 2480
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "at RealPage India PVT LTD",
+                    "block_id": "b23",
+                    "kind": "text",
+                    "start": 2433,
+                    "end": 2458
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Senior Developer",
+                    "block_id": "b23",
+                    "kind": "text",
+                    "start": 2416,
+                    "end": 2432
+                  }
+                ],
+                "section": "Work Experience:",
+                "date_label": "March 2016 – Present",
+                "is_present": true
+              }
+            }
+          ]
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 1,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v9a1b2521adf8cbc3",
+              "label": "Osmania University",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "M.C.A from Osmania University, Hyderabad",
+                    "block_id": "b26",
+                    "kind": "text",
+                    "start": 2562,
+                    "end": 2602
+                  }
+                ],
+                "dates": [],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Osmania University",
+                    "block_id": "b26",
+                    "kind": "text",
+                    "start": 2573,
+                    "end": 2591
+                  }
+                ],
+                "title": [],
+                "section": "Education:",
+                "date_label": "",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 160,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": true,
+        "unrepresented_periods_in_category": [],
+        "entries": 2,
+        "dated_periods": 2,
+        "represented_months": 160,
+        "overlap_months": 1,
+        "states": {
+          "month_range": 2,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "vbd81c224a70e3b7b",
+            "label": "Associate",
+            "state": "month_range",
+            "start": [
+              2013,
+              6
+            ],
+            "end": [
+              2016,
+              3
+            ],
+            "months": 34,
+            "raw": "June 2013 – March 2016",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Associate at Cognizant Technology Solutions (June 2013 – March 2016)",
+                  "block_id": "b24",
+                  "kind": "text",
+                  "start": 2482,
+                  "end": 2550
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "June 2013 – March 2016",
+                  "block_id": "b24",
+                  "kind": "text",
+                  "start": 2527,
+                  "end": 2549
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Cognizant Technology Solutions",
+                  "block_id": "b24",
+                  "kind": "text",
+                  "start": 2495,
+                  "end": 2525
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Associate",
+                  "block_id": "b24",
+                  "kind": "text",
+                  "start": 2482,
+                  "end": 2491
+                }
+              ],
+              "section": "Work Experience:",
+              "date_label": "June 2013 – March 2016",
+              "is_present": false
+            }
+          },
+          {
+            "id": "vb34ef369c122b440",
+            "label": "Senior Developer",
+            "state": "month_range",
+            "start": [
+              2016,
+              3
+            ],
+            "end": [
+              2026,
+              9
+            ],
+            "months": 127,
+            "raw": "March 2016 – Present",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Senior Developer at RealPage India PVT LTD (March 2016 – Present)",
+                  "block_id": "b23",
+                  "kind": "text",
+                  "start": 2416,
+                  "end": 2481
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "March 2016 – Present",
+                  "block_id": "b23",
+                  "kind": "text",
+                  "start": 2460,
+                  "end": 2480
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "at RealPage India PVT LTD",
+                  "block_id": "b23",
+                  "kind": "text",
+                  "start": 2433,
+                  "end": 2458
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Senior Developer",
+                  "block_id": "b23",
+                  "kind": "text",
+                  "start": 2416,
+                  "end": 2432
+                }
+              ],
+              "section": "Work Experience:",
+              "date_label": "March 2016 – Present",
+              "is_present": true
+            }
+          }
+        ]
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 1,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v9a1b2521adf8cbc3",
+            "label": "Osmania University",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "M.C.A from Osmania University, Hyderabad",
+                  "block_id": "b26",
+                  "kind": "text",
+                  "start": 2562,
+                  "end": 2602
+                }
+              ],
+              "dates": [],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Osmania University",
+                  "block_id": "b26",
+                  "kind": "text",
+                  "start": 2573,
+                  "end": 2591
+                }
+              ],
+              "title": [],
+              "section": "Education:",
+              "date_label": "",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 160,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

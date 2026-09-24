@@ -1,0 +1,2649 @@
+{
+  "file_name": "AMIT_RANA.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "c00c9a61d6bc12d4d9825f92a9ba9d8d7a7a1ebd521cf315e5fd8cc37b14e16c",
+  "doc_id": "c00c9a61d6bc12d4d9825f92",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 4,
+    "dated_share": 0.5,
+    "unresolved": 2,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.875,
+    "document_accuracy": 0.88
+  },
+  "work_experience": [
+    {
+      "id": "v1eac23e379f19dba",
+      "type": "EMPLOYMENT",
+      "company": "TMO",
+      "title": "Technical Project Manager",
+      "start_date": "2022-03",
+      "end_date": "2026-09",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "TMO| Redmond, WA  – Technical Project Manager | March 2022 – Sep 2026",
+            "block_id": "b61",
+            "kind": "text",
+            "start": 5013,
+            "end": 5082
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "March 2022 – Sep 2026",
+            "block_id": "b61",
+            "kind": "text",
+            "start": 5061,
+            "end": 5082
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "TMO",
+            "block_id": "b61",
+            "kind": "text",
+            "start": 5013,
+            "end": 5016
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Technical Project Manager",
+            "block_id": "b61",
+            "kind": "text",
+            "start": 5033,
+            "end": 5058
+          }
+        ],
+        "section": "WORK EXPERIENCE",
+        "date_label": "March 2022 – Sep 2026",
+        "is_present": false
+      },
+      "precision": "month",
+      "date_label": "March 2022 – Sep 2026"
+    }
+  ],
+  "education": [
+    {
+      "id": "vec3d152d929c7771",
+      "type": "EDUCATION",
+      "company": "",
+      "title": "Scrum Master",
+      "start_date": "2019-05",
+      "end_date": "2022-02",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.85,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "AT&T| Redmond, WA  – Scrum Master | May 2019 – February 2022",
+            "block_id": "b89",
+            "kind": "text",
+            "start": 7866,
+            "end": 7926
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "May 2019 – February 2022",
+            "block_id": "b89",
+            "kind": "text",
+            "start": 7902,
+            "end": 7926
+          },
+          {
+            "page": 1,
+            "text": "January 2016 – April 2019",
+            "block_id": "b100",
+            "kind": "text",
+            "start": 8860,
+            "end": 8885
+          },
+          {
+            "page": 1,
+            "text": "December 2014 – December 2015",
+            "block_id": "b115",
+            "kind": "text",
+            "start": 10174,
+            "end": 10203
+          },
+          {
+            "page": 1,
+            "text": "August 2008 – November 2014",
+            "block_id": "b128",
+            "kind": "text",
+            "start": 11234,
+            "end": 11261
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Scrum Master",
+            "block_id": "b89",
+            "kind": "text",
+            "start": 7887,
+            "end": 7899
+          }
+        ],
+        "section": "AT&T| Redmond, WA  – Scrum Master | May 2019 – February 2022",
+        "date_label": "May 2019 – February 2022",
+        "is_present": false
+      },
+      "precision": "month",
+      "date_label": "May 2019 – February 2022"
+    },
+    {
+      "id": "vfd7aa0f79daa3061",
+      "type": "EDUCATION",
+      "company": "College of Engineering",
+      "title": "Bachelor’s Degree",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Bachelor’s Degree (Mechanical Engineering) – Bhagalpur",
+            "block_id": "b40",
+            "kind": "text",
+            "start": 3358,
+            "end": 3412
+          },
+          {
+            "page": 1,
+            "text": "College of Engineering – Completed in 2001",
+            "block_id": "b41",
+            "kind": "text",
+            "start": 3414,
+            "end": 3456
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2001",
+            "block_id": "b41",
+            "kind": "text",
+            "start": 3452,
+            "end": 3456
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "College of Engineering",
+            "block_id": "b41",
+            "kind": "text",
+            "start": 3414,
+            "end": 3436
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Bachelor’s Degree",
+            "block_id": "b40",
+            "kind": "text",
+            "start": 3358,
+            "end": 3375
+          }
+        ],
+        "section": "EDUCATION",
+        "date_label": "2001",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": "2001"
+    },
+    {
+      "id": "v3ac89ba97e1dbc65",
+      "type": "EDUCATION",
+      "company": "Management Institute",
+      "title": "❖ Certified Scrum Master",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Management Institute (PMI)",
+            "block_id": "b44",
+            "kind": "text",
+            "start": 3548,
+            "end": 3574
+          },
+          {
+            "page": 1,
+            "text": "❖ Certified Scrum Master (CSM) – Scrum Alliance",
+            "block_id": "b45",
+            "kind": "text",
+            "start": 3576,
+            "end": 3623
+          }
+        ],
+        "dates": [],
+        "company": [
+          {
+            "page": 1,
+            "text": "Management Institute",
+            "block_id": "b44",
+            "kind": "text",
+            "start": 3548,
+            "end": 3568
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Certified Scrum Master",
+            "block_id": "b45",
+            "kind": "text",
+            "start": 3578,
+            "end": 3600
+          }
+        ],
+        "section": "Management Institute (PMI)",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": ".",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "❖ Collaborated with engineering and API teams to ensure seamless integration and orchestration of payment transactions across e nterprise",
+        "systems and gateways.",
+        "❖ Resolved complex payment failures including duplicates, timeouts, and formatting errors, improving system reliability and tra nsaction",
+        "success rates.",
+        "❖ Strong exposure to API -level integrations, including REST API coordination, Swagger/API documentation review, request -response",
+        "validation, integration testing support, defect triaging, and end-to-end system integration management.",
+        "❖ Experience collaborating with Development, QA, Product Owners, HR teams, and business stakeholders to drive project execution, resource",
+        "planning, defect management, and delivery governance.",
+        "Telefonica – Defect Manager / Test Architect | December 2014 – December 2015",
+        "❖ Led end-to-end defect lifecycle management across mobile (2G–5G) and enterprise systems ensuring structured tracking, prioritization, and",
+        "timely resolution of critical issues.",
+        "❖ Supported product enhancements across claims, payments, authorization workflows, and benefits systems ensuring smooth deliver y of",
+        "customer-facing features.",
+        "❖ Managed Agile backlog, roadmap, and release planning using Jira and Confluence to ensure transparency, governance, and delive ry",
+        "alignment.",
+        "❖ Collaborated with UX, QA, engineering, and business teams to ensure requirement clarity, design validation, and synchronized execution of",
+        "releases.",
+        "❖ Identified risks and delivery bottlenecks proactively and implemented mitigation strategies to ensure on -time and quality-driven delivery",
+        "outcomes.",
+        "❖ Quick learner with the ability to adapt to new domains, understand complex business workflows, stakeholder expectations, comp liance",
+        "requirements, and drive successful project outcomes in Agile environments.",
+        "Datamatics – Test Lead | August 2008 – November 2014",
+        "❖ Defined comprehensive test strategies covering functional, regression, integration, and system testing ensuring high -quality delivery",
+        "aligned with business requirements.",
+        "❖ Led end -to-end testing activities for healthcare insurance applications, including policy administration, member enrollment, claims",
+        "processing, provider management, and customer portals.",
+        "❖ Managed a team of 8–12 QA engineers across onsite and offshore locations, ensuring timely delivery of testing milestones.",
+        "❖ Developed test strategies, test plans, test scenarios, and test cases based on business requirements and functional specifications.",
+        "❖ Coordinated Functional, System Integration (SIT), Regression, User Acceptance (UAT), and End-to-End testing across multiple releases.",
+        "❖ Collaborated with business analysts, developers, product owners, and stakeholders to clarify requirements and resolve production issues.",
+        "❖ Managed defect lifecycle using Jira/ALM, conducted defect triage meetings, and ensured timely resolution of critical issues.",
+        "❖ Implemented risk-based testing approaches to improve test coverage while reducing execution time.",
+        "❖ Automated regression test suites using Selenium WebDriver and integrated automated execution into CI/CD pipelines where applicable.",
+        "❖ Validated REST/SOAP APIs using Postman and SOAP UI and performed backend database validation using SQL.",
+        "❖ Generated daily status reports, quality metrics, test execution dashboards, and release readiness reports for senior management.",
+        "❖ Mentored QA team members on testing best practices, Agile processes, and quality standards.",
+        "❖ Improved release quality by reducing production defects through proactive risk identification, root cause analysis, and continuous process",
+        "improvements"
+      ],
+      "raw_text": "project resources.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "project resources.",
+            "block_id": "b106",
+            "kind": "text",
+            "start": 9358,
+            "end": 9376
+          },
+          {
+            "page": 1,
+            "text": "❖ Collaborated with engineering and API teams to ensure seamless integration and orchestration of payment transactions across e nterprise",
+            "block_id": "b107",
+            "kind": "text",
+            "start": 9378,
+            "end": 9515
+          },
+          {
+            "page": 1,
+            "text": "systems and gateways.",
+            "block_id": "b108",
+            "kind": "text",
+            "start": 9517,
+            "end": 9538
+          },
+          {
+            "page": 1,
+            "text": "❖ Resolved complex payment failures including duplicates, timeouts, and formatting errors, improving system reliability and tra nsaction",
+            "block_id": "b109",
+            "kind": "text",
+            "start": 9540,
+            "end": 9676
+          },
+          {
+            "page": 1,
+            "text": "success rates.",
+            "block_id": "b110",
+            "kind": "text",
+            "start": 9678,
+            "end": 9692
+          },
+          {
+            "page": 1,
+            "text": "❖ Strong exposure to API -level integrations, including REST API coordination, Swagger/API documentation review, request -response",
+            "block_id": "b111",
+            "kind": "text",
+            "start": 9694,
+            "end": 9824
+          },
+          {
+            "page": 1,
+            "text": "validation, integration testing support, defect triaging, and end-to-end system integration management.",
+            "block_id": "b112",
+            "kind": "text",
+            "start": 9826,
+            "end": 9929
+          },
+          {
+            "page": 1,
+            "text": "❖ Experience collaborating with Development, QA, Product Owners, HR teams, and business stakeholders to drive project execution, resource",
+            "block_id": "b113",
+            "kind": "text",
+            "start": 9931,
+            "end": 10068
+          },
+          {
+            "page": 1,
+            "text": "planning, defect management, and delivery governance.",
+            "block_id": "b114",
+            "kind": "text",
+            "start": 10070,
+            "end": 10123
+          },
+          {
+            "page": 1,
+            "text": "Telefonica – Defect Manager / Test Architect | December 2014 – December 2015",
+            "block_id": "b115",
+            "kind": "text",
+            "start": 10127,
+            "end": 10203
+          },
+          {
+            "page": 1,
+            "text": "❖ Led end-to-end defect lifecycle management across mobile (2G–5G) and enterprise systems ensuring structured tracking, prioritization, and",
+            "block_id": "b116",
+            "kind": "text",
+            "start": 10205,
+            "end": 10344
+          },
+          {
+            "page": 1,
+            "text": "timely resolution of critical issues.",
+            "block_id": "b117",
+            "kind": "text",
+            "start": 10346,
+            "end": 10383
+          },
+          {
+            "page": 1,
+            "text": "❖ Supported product enhancements across claims, payments, authorization workflows, and benefits systems ensuring smooth deliver y of",
+            "block_id": "b118",
+            "kind": "text",
+            "start": 10385,
+            "end": 10517
+          },
+          {
+            "page": 1,
+            "text": "customer-facing features.",
+            "block_id": "b119",
+            "kind": "text",
+            "start": 10519,
+            "end": 10544
+          },
+          {
+            "page": 1,
+            "text": "❖ Managed Agile backlog, roadmap, and release planning using Jira and Confluence to ensure transparency, governance, and delive ry",
+            "block_id": "b120",
+            "kind": "text",
+            "start": 10546,
+            "end": 10676
+          },
+          {
+            "page": 1,
+            "text": "alignment.",
+            "block_id": "b121",
+            "kind": "text",
+            "start": 10678,
+            "end": 10688
+          },
+          {
+            "page": 1,
+            "text": "❖ Collaborated with UX, QA, engineering, and business teams to ensure requirement clarity, design validation, and synchronized execution of",
+            "block_id": "b122",
+            "kind": "text",
+            "start": 10690,
+            "end": 10829
+          },
+          {
+            "page": 1,
+            "text": "releases.",
+            "block_id": "b123",
+            "kind": "text",
+            "start": 10831,
+            "end": 10840
+          },
+          {
+            "page": 1,
+            "text": "❖ Identified risks and delivery bottlenecks proactively and implemented mitigation strategies to ensure on -time and quality-driven delivery",
+            "block_id": "b124",
+            "kind": "text",
+            "start": 10842,
+            "end": 10982
+          },
+          {
+            "page": 1,
+            "text": "outcomes.",
+            "block_id": "b125",
+            "kind": "text",
+            "start": 10984,
+            "end": 10993
+          },
+          {
+            "page": 1,
+            "text": "❖ Quick learner with the ability to adapt to new domains, understand complex business workflows, stakeholder expectations, comp liance",
+            "block_id": "b126",
+            "kind": "text",
+            "start": 10995,
+            "end": 11129
+          },
+          {
+            "page": 1,
+            "text": "requirements, and drive successful project outcomes in Agile environments.",
+            "block_id": "b127",
+            "kind": "text",
+            "start": 11131,
+            "end": 11205
+          },
+          {
+            "page": 1,
+            "text": "Datamatics – Test Lead | August 2008 – November 2014",
+            "block_id": "b128",
+            "kind": "text",
+            "start": 11209,
+            "end": 11261
+          },
+          {
+            "page": 1,
+            "text": "❖ Defined comprehensive test strategies covering functional, regression, integration, and system testing ensuring high -quality delivery",
+            "block_id": "b129",
+            "kind": "text",
+            "start": 11263,
+            "end": 11399
+          },
+          {
+            "page": 1,
+            "text": "aligned with business requirements.",
+            "block_id": "b130",
+            "kind": "text",
+            "start": 11401,
+            "end": 11436
+          },
+          {
+            "page": 1,
+            "text": "❖ Led end -to-end testing activities for healthcare insurance applications, including policy administration, member enrollment, claims",
+            "block_id": "b131",
+            "kind": "text",
+            "start": 11438,
+            "end": 11572
+          },
+          {
+            "page": 1,
+            "text": "processing, provider management, and customer portals.",
+            "block_id": "b132",
+            "kind": "text",
+            "start": 11574,
+            "end": 11628
+          },
+          {
+            "page": 1,
+            "text": "❖ Managed a team of 8–12 QA engineers across onsite and offshore locations, ensuring timely delivery of testing milestones.",
+            "block_id": "b133",
+            "kind": "text",
+            "start": 11631,
+            "end": 11754
+          },
+          {
+            "page": 1,
+            "text": "❖ Developed test strategies, test plans, test scenarios, and test cases based on business requirements and functional specifications.",
+            "block_id": "b134",
+            "kind": "text",
+            "start": 11757,
+            "end": 11890
+          },
+          {
+            "page": 1,
+            "text": "❖ Coordinated Functional, System Integration (SIT), Regression, User Acceptance (UAT), and End-to-End testing across multiple releases.",
+            "block_id": "b135",
+            "kind": "text",
+            "start": 11893,
+            "end": 12028
+          },
+          {
+            "page": 1,
+            "text": "❖ Collaborated with business analysts, developers, product owners, and stakeholders to clarify requirements and resolve production issues.",
+            "block_id": "b136",
+            "kind": "text",
+            "start": 12031,
+            "end": 12169
+          },
+          {
+            "page": 1,
+            "text": "❖ Managed defect lifecycle using Jira/ALM, conducted defect triage meetings, and ensured timely resolution of critical issues.",
+            "block_id": "b137",
+            "kind": "text",
+            "start": 12172,
+            "end": 12298
+          },
+          {
+            "page": 1,
+            "text": "❖ Implemented risk-based testing approaches to improve test coverage while reducing execution time.",
+            "block_id": "b138",
+            "kind": "text",
+            "start": 12301,
+            "end": 12400
+          },
+          {
+            "page": 1,
+            "text": "❖ Automated regression test suites using Selenium WebDriver and integrated automated execution into CI/CD pipelines where applicable.",
+            "block_id": "b139",
+            "kind": "text",
+            "start": 12403,
+            "end": 12536
+          },
+          {
+            "page": 1,
+            "text": "❖ Validated REST/SOAP APIs using Postman and SOAP UI and performed backend database validation using SQL.",
+            "block_id": "b140",
+            "kind": "text",
+            "start": 12539,
+            "end": 12644
+          },
+          {
+            "page": 1,
+            "text": "❖ Generated daily status reports, quality metrics, test execution dashboards, and release readiness reports for senior management.",
+            "block_id": "b141",
+            "kind": "text",
+            "start": 12647,
+            "end": 12777
+          },
+          {
+            "page": 1,
+            "text": "❖ Mentored QA team members on testing best practices, Agile processes, and quality standards.",
+            "block_id": "b142",
+            "kind": "text",
+            "start": 12780,
+            "end": 12873
+          },
+          {
+            "page": 1,
+            "text": "❖ Improved release quality by reducing production defects through proactive risk identification, root cause analysis, and continuous process",
+            "block_id": "b143",
+            "kind": "text",
+            "start": 12876,
+            "end": 13016
+          },
+          {
+            "page": 1,
+            "text": "improvements",
+            "block_id": "b144",
+            "kind": "text",
+            "start": 13018,
+            "end": 13030
+          }
+        ]
+      }
+    }
+  ],
+  "gaps": [],
+  "total_work_experience_entries": 1,
+  "total_projects_entries": 1,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "entry e3: 4 ranges; first kept, rest preserved in evidence",
+    "e0: dates cannot be assigned unambiguously",
+    "conflicting/ambiguous date kept for 'Bachelor’s Degree'"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "c00c9a61d6bc12d4d9825f92",
+    "filename": "AMIT_RANA.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "vec3d152d929c7771",
+        "type": "EDUCATION",
+        "title": "Scrum Master",
+        "org": "",
+        "start": "2019-05",
+        "end": "2022-02",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.85,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "AT&T| Redmond, WA  – Scrum Master | May 2019 – February 2022",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "AT&T| Redmond, WA  – Scrum Master | May 2019 – February 2022",
+              "block_id": "b89",
+              "kind": "text",
+              "start": 7866,
+              "end": 7926
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "May 2019 – February 2022",
+              "block_id": "b89",
+              "kind": "text",
+              "start": 7902,
+              "end": 7926
+            },
+            {
+              "page": 1,
+              "text": "January 2016 – April 2019",
+              "block_id": "b100",
+              "kind": "text",
+              "start": 8860,
+              "end": 8885
+            },
+            {
+              "page": 1,
+              "text": "December 2014 – December 2015",
+              "block_id": "b115",
+              "kind": "text",
+              "start": 10174,
+              "end": 10203
+            },
+            {
+              "page": 1,
+              "text": "August 2008 – November 2014",
+              "block_id": "b128",
+              "kind": "text",
+              "start": 11234,
+              "end": 11261
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Scrum Master",
+              "block_id": "b89",
+              "kind": "text",
+              "start": 7887,
+              "end": 7899
+            }
+          ],
+          "section": "AT&T| Redmond, WA  – Scrum Master | May 2019 – February 2022",
+          "date_label": "May 2019 – February 2022",
+          "is_present": false
+        },
+        "date_label": "May 2019 – February 2022",
+        "section": "AT&T| Redmond, WA  – Scrum Master | May 2019 – February 2022",
+        "is_present": false
+      },
+      {
+        "id": "v1eac23e379f19dba",
+        "type": "EMPLOYMENT",
+        "title": "Technical Project Manager",
+        "org": "TMO",
+        "start": "2022-03",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "TMO| Redmond, WA  – Technical Project Manager | March 2022 – Sep 2026",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "TMO| Redmond, WA  – Technical Project Manager | March 2022 – Sep 2026",
+              "block_id": "b61",
+              "kind": "text",
+              "start": 5013,
+              "end": 5082
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "March 2022 – Sep 2026",
+              "block_id": "b61",
+              "kind": "text",
+              "start": 5061,
+              "end": 5082
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "TMO",
+              "block_id": "b61",
+              "kind": "text",
+              "start": 5013,
+              "end": 5016
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Technical Project Manager",
+              "block_id": "b61",
+              "kind": "text",
+              "start": 5033,
+              "end": 5058
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "March 2022 – Sep 2026",
+          "is_present": false
+        },
+        "date_label": "March 2022 – Sep 2026",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "vfd7aa0f79daa3061",
+        "type": "EDUCATION",
+        "title": "Bachelor’s Degree",
+        "org": "College of Engineering",
+        "entry_text": "Bachelor’s Degree (Mechanical Engineering) – Bhagalpur College of Engineering – Completed in 2001",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor’s Degree (Mechanical Engineering) – Bhagalpur",
+              "block_id": "b40",
+              "kind": "text",
+              "start": 3358,
+              "end": 3412
+            },
+            {
+              "page": 1,
+              "text": "College of Engineering – Completed in 2001",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 3414,
+              "end": 3456
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2001",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 3452,
+              "end": 3456
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "College of Engineering",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 3414,
+              "end": 3436
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor’s Degree",
+              "block_id": "b40",
+              "kind": "text",
+              "start": 3358,
+              "end": 3375
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2001",
+          "is_present": false
+        },
+        "date_label": "2001",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      },
+      {
+        "id": "v3ac89ba97e1dbc65",
+        "type": "EDUCATION",
+        "title": "❖ Certified Scrum Master",
+        "org": "Management Institute",
+        "entry_text": "Management Institute (PMI) ❖ Certified Scrum Master (CSM) – Scrum Alliance ❖ HCIA 5G Certification – Huawei ❖ ISTQB Certified Tester – International Software Testing Qualifications Board",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Management Institute (PMI)",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 3548,
+              "end": 3574
+            },
+            {
+              "page": 1,
+              "text": "❖ Certified Scrum Master (CSM) – Scrum Alliance",
+              "block_id": "b45",
+              "kind": "text",
+              "start": 3576,
+              "end": 3623
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "Management Institute",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 3548,
+              "end": 3568
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Certified Scrum Master",
+              "block_id": "b45",
+              "kind": "text",
+              "start": 3578,
+              "end": 3600
+            }
+          ],
+          "section": "Management Institute (PMI)",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Management Institute (PMI)",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": ".",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "❖ Collaborated with engineering and API teams to ensure seamless integration and orchestration of payment transactions across e nterprise",
+          "systems and gateways.",
+          "❖ Resolved complex payment failures including duplicates, timeouts, and formatting errors, improving system reliability and tra nsaction",
+          "success rates.",
+          "❖ Strong exposure to API -level integrations, including REST API coordination, Swagger/API documentation review, request -response",
+          "validation, integration testing support, defect triaging, and end-to-end system integration management.",
+          "❖ Experience collaborating with Development, QA, Product Owners, HR teams, and business stakeholders to drive project execution, resource",
+          "planning, defect management, and delivery governance.",
+          "Telefonica – Defect Manager / Test Architect | December 2014 – December 2015",
+          "❖ Led end-to-end defect lifecycle management across mobile (2G–5G) and enterprise systems ensuring structured tracking, prioritization, and",
+          "timely resolution of critical issues.",
+          "❖ Supported product enhancements across claims, payments, authorization workflows, and benefits systems ensuring smooth deliver y of",
+          "customer-facing features.",
+          "❖ Managed Agile backlog, roadmap, and release planning using Jira and Confluence to ensure transparency, governance, and delive ry",
+          "alignment.",
+          "❖ Collaborated with UX, QA, engineering, and business teams to ensure requirement clarity, design validation, and synchronized execution of",
+          "releases.",
+          "❖ Identified risks and delivery bottlenecks proactively and implemented mitigation strategies to ensure on -time and quality-driven delivery",
+          "outcomes.",
+          "❖ Quick learner with the ability to adapt to new domains, understand complex business workflows, stakeholder expectations, comp liance",
+          "requirements, and drive successful project outcomes in Agile environments.",
+          "Datamatics – Test Lead | August 2008 – November 2014",
+          "❖ Defined comprehensive test strategies covering functional, regression, integration, and system testing ensuring high -quality delivery",
+          "aligned with business requirements.",
+          "❖ Led end -to-end testing activities for healthcare insurance applications, including policy administration, member enrollment, claims",
+          "processing, provider management, and customer portals.",
+          "❖ Managed a team of 8–12 QA engineers across onsite and offshore locations, ensuring timely delivery of testing milestones.",
+          "❖ Developed test strategies, test plans, test scenarios, and test cases based on business requirements and functional specifications.",
+          "❖ Coordinated Functional, System Integration (SIT), Regression, User Acceptance (UAT), and End-to-End testing across multiple releases.",
+          "❖ Collaborated with business analysts, developers, product owners, and stakeholders to clarify requirements and resolve production issues.",
+          "❖ Managed defect lifecycle using Jira/ALM, conducted defect triage meetings, and ensured timely resolution of critical issues.",
+          "❖ Implemented risk-based testing approaches to improve test coverage while reducing execution time.",
+          "❖ Automated regression test suites using Selenium WebDriver and integrated automated execution into CI/CD pipelines where applicable.",
+          "❖ Validated REST/SOAP APIs using Postman and SOAP UI and performed backend database validation using SQL.",
+          "❖ Generated daily status reports, quality metrics, test execution dashboards, and release readiness reports for senior management.",
+          "❖ Mentored QA team members on testing best practices, Agile processes, and quality standards.",
+          "❖ Improved release quality by reducing production defects through proactive risk identification, root cause analysis, and continuous process",
+          "improvements"
+        ],
+        "raw_text": "project resources.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "project resources.",
+              "block_id": "b106",
+              "kind": "text",
+              "start": 9358,
+              "end": 9376
+            },
+            {
+              "page": 1,
+              "text": "❖ Collaborated with engineering and API teams to ensure seamless integration and orchestration of payment transactions across e nterprise",
+              "block_id": "b107",
+              "kind": "text",
+              "start": 9378,
+              "end": 9515
+            },
+            {
+              "page": 1,
+              "text": "systems and gateways.",
+              "block_id": "b108",
+              "kind": "text",
+              "start": 9517,
+              "end": 9538
+            },
+            {
+              "page": 1,
+              "text": "❖ Resolved complex payment failures including duplicates, timeouts, and formatting errors, improving system reliability and tra nsaction",
+              "block_id": "b109",
+              "kind": "text",
+              "start": 9540,
+              "end": 9676
+            },
+            {
+              "page": 1,
+              "text": "success rates.",
+              "block_id": "b110",
+              "kind": "text",
+              "start": 9678,
+              "end": 9692
+            },
+            {
+              "page": 1,
+              "text": "❖ Strong exposure to API -level integrations, including REST API coordination, Swagger/API documentation review, request -response",
+              "block_id": "b111",
+              "kind": "text",
+              "start": 9694,
+              "end": 9824
+            },
+            {
+              "page": 1,
+              "text": "validation, integration testing support, defect triaging, and end-to-end system integration management.",
+              "block_id": "b112",
+              "kind": "text",
+              "start": 9826,
+              "end": 9929
+            },
+            {
+              "page": 1,
+              "text": "❖ Experience collaborating with Development, QA, Product Owners, HR teams, and business stakeholders to drive project execution, resource",
+              "block_id": "b113",
+              "kind": "text",
+              "start": 9931,
+              "end": 10068
+            },
+            {
+              "page": 1,
+              "text": "planning, defect management, and delivery governance.",
+              "block_id": "b114",
+              "kind": "text",
+              "start": 10070,
+              "end": 10123
+            },
+            {
+              "page": 1,
+              "text": "Telefonica – Defect Manager / Test Architect | December 2014 – December 2015",
+              "block_id": "b115",
+              "kind": "text",
+              "start": 10127,
+              "end": 10203
+            },
+            {
+              "page": 1,
+              "text": "❖ Led end-to-end defect lifecycle management across mobile (2G–5G) and enterprise systems ensuring structured tracking, prioritization, and",
+              "block_id": "b116",
+              "kind": "text",
+              "start": 10205,
+              "end": 10344
+            },
+            {
+              "page": 1,
+              "text": "timely resolution of critical issues.",
+              "block_id": "b117",
+              "kind": "text",
+              "start": 10346,
+              "end": 10383
+            },
+            {
+              "page": 1,
+              "text": "❖ Supported product enhancements across claims, payments, authorization workflows, and benefits systems ensuring smooth deliver y of",
+              "block_id": "b118",
+              "kind": "text",
+              "start": 10385,
+              "end": 10517
+            },
+            {
+              "page": 1,
+              "text": "customer-facing features.",
+              "block_id": "b119",
+              "kind": "text",
+              "start": 10519,
+              "end": 10544
+            },
+            {
+              "page": 1,
+              "text": "❖ Managed Agile backlog, roadmap, and release planning using Jira and Confluence to ensure transparency, governance, and delive ry",
+              "block_id": "b120",
+              "kind": "text",
+              "start": 10546,
+              "end": 10676
+            },
+            {
+              "page": 1,
+              "text": "alignment.",
+              "block_id": "b121",
+              "kind": "text",
+              "start": 10678,
+              "end": 10688
+            },
+            {
+              "page": 1,
+              "text": "❖ Collaborated with UX, QA, engineering, and business teams to ensure requirement clarity, design validation, and synchronized execution of",
+              "block_id": "b122",
+              "kind": "text",
+              "start": 10690,
+              "end": 10829
+            },
+            {
+              "page": 1,
+              "text": "releases.",
+              "block_id": "b123",
+              "kind": "text",
+              "start": 10831,
+              "end": 10840
+            },
+            {
+              "page": 1,
+              "text": "❖ Identified risks and delivery bottlenecks proactively and implemented mitigation strategies to ensure on -time and quality-driven delivery",
+              "block_id": "b124",
+              "kind": "text",
+              "start": 10842,
+              "end": 10982
+            },
+            {
+              "page": 1,
+              "text": "outcomes.",
+              "block_id": "b125",
+              "kind": "text",
+              "start": 10984,
+              "end": 10993
+            },
+            {
+              "page": 1,
+              "text": "❖ Quick learner with the ability to adapt to new domains, understand complex business workflows, stakeholder expectations, comp liance",
+              "block_id": "b126",
+              "kind": "text",
+              "start": 10995,
+              "end": 11129
+            },
+            {
+              "page": 1,
+              "text": "requirements, and drive successful project outcomes in Agile environments.",
+              "block_id": "b127",
+              "kind": "text",
+              "start": 11131,
+              "end": 11205
+            },
+            {
+              "page": 1,
+              "text": "Datamatics – Test Lead | August 2008 – November 2014",
+              "block_id": "b128",
+              "kind": "text",
+              "start": 11209,
+              "end": 11261
+            },
+            {
+              "page": 1,
+              "text": "❖ Defined comprehensive test strategies covering functional, regression, integration, and system testing ensuring high -quality delivery",
+              "block_id": "b129",
+              "kind": "text",
+              "start": 11263,
+              "end": 11399
+            },
+            {
+              "page": 1,
+              "text": "aligned with business requirements.",
+              "block_id": "b130",
+              "kind": "text",
+              "start": 11401,
+              "end": 11436
+            },
+            {
+              "page": 1,
+              "text": "❖ Led end -to-end testing activities for healthcare insurance applications, including policy administration, member enrollment, claims",
+              "block_id": "b131",
+              "kind": "text",
+              "start": 11438,
+              "end": 11572
+            },
+            {
+              "page": 1,
+              "text": "processing, provider management, and customer portals.",
+              "block_id": "b132",
+              "kind": "text",
+              "start": 11574,
+              "end": 11628
+            },
+            {
+              "page": 1,
+              "text": "❖ Managed a team of 8–12 QA engineers across onsite and offshore locations, ensuring timely delivery of testing milestones.",
+              "block_id": "b133",
+              "kind": "text",
+              "start": 11631,
+              "end": 11754
+            },
+            {
+              "page": 1,
+              "text": "❖ Developed test strategies, test plans, test scenarios, and test cases based on business requirements and functional specifications.",
+              "block_id": "b134",
+              "kind": "text",
+              "start": 11757,
+              "end": 11890
+            },
+            {
+              "page": 1,
+              "text": "❖ Coordinated Functional, System Integration (SIT), Regression, User Acceptance (UAT), and End-to-End testing across multiple releases.",
+              "block_id": "b135",
+              "kind": "text",
+              "start": 11893,
+              "end": 12028
+            },
+            {
+              "page": 1,
+              "text": "❖ Collaborated with business analysts, developers, product owners, and stakeholders to clarify requirements and resolve production issues.",
+              "block_id": "b136",
+              "kind": "text",
+              "start": 12031,
+              "end": 12169
+            },
+            {
+              "page": 1,
+              "text": "❖ Managed defect lifecycle using Jira/ALM, conducted defect triage meetings, and ensured timely resolution of critical issues.",
+              "block_id": "b137",
+              "kind": "text",
+              "start": 12172,
+              "end": 12298
+            },
+            {
+              "page": 1,
+              "text": "❖ Implemented risk-based testing approaches to improve test coverage while reducing execution time.",
+              "block_id": "b138",
+              "kind": "text",
+              "start": 12301,
+              "end": 12400
+            },
+            {
+              "page": 1,
+              "text": "❖ Automated regression test suites using Selenium WebDriver and integrated automated execution into CI/CD pipelines where applicable.",
+              "block_id": "b139",
+              "kind": "text",
+              "start": 12403,
+              "end": 12536
+            },
+            {
+              "page": 1,
+              "text": "❖ Validated REST/SOAP APIs using Postman and SOAP UI and performed backend database validation using SQL.",
+              "block_id": "b140",
+              "kind": "text",
+              "start": 12539,
+              "end": 12644
+            },
+            {
+              "page": 1,
+              "text": "❖ Generated daily status reports, quality metrics, test execution dashboards, and release readiness reports for senior management.",
+              "block_id": "b141",
+              "kind": "text",
+              "start": 12647,
+              "end": 12777
+            },
+            {
+              "page": 1,
+              "text": "❖ Mentored QA team members on testing best practices, Agile processes, and quality standards.",
+              "block_id": "b142",
+              "kind": "text",
+              "start": 12780,
+              "end": 12873
+            },
+            {
+              "page": 1,
+              "text": "❖ Improved release quality by reducing production defects through proactive risk identification, root cause analysis, and continuous process",
+              "block_id": "b143",
+              "kind": "text",
+              "start": 12876,
+              "end": 13016
+            },
+            {
+              "page": 1,
+              "text": "improvements",
+              "block_id": "b144",
+              "kind": "text",
+              "start": 13018,
+              "end": 13030
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "NO_GAP_DETECTED",
+        "confidence": 0.9,
+        "reasons": [],
+        "evidence": {
+          "note": "no uncovered months between supported entries"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 4,
+      "dated_share": 0.5,
+      "unresolved": 2,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.875,
+      "document_accuracy": 0.88
+    },
+    "total_represented_months": 89,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": true,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 1,
+          "represented_months": 55,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 1,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v1eac23e379f19dba",
+              "label": "Technical Project Manager",
+              "state": "month_range",
+              "start": [
+                2022,
+                3
+              ],
+              "end": [
+                2026,
+                9
+              ],
+              "months": 55,
+              "raw": "March 2022 – Sep 2026",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "TMO| Redmond, WA  – Technical Project Manager | March 2022 – Sep 2026",
+                    "block_id": "b61",
+                    "kind": "text",
+                    "start": 5013,
+                    "end": 5082
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "March 2022 – Sep 2026",
+                    "block_id": "b61",
+                    "kind": "text",
+                    "start": 5061,
+                    "end": 5082
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "TMO",
+                    "block_id": "b61",
+                    "kind": "text",
+                    "start": 5013,
+                    "end": 5016
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Technical Project Manager",
+                    "block_id": "b61",
+                    "kind": "text",
+                    "start": 5033,
+                    "end": 5058
+                  }
+                ],
+                "section": "WORK EXPERIENCE",
+                "date_label": "March 2022 – Sep 2026",
+                "is_present": false
+              }
+            }
+          ]
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 1,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "proj_1",
+              "label": ".",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "project resources.",
+                    "block_id": "b106",
+                    "kind": "text",
+                    "start": 9358,
+                    "end": 9376
+                  },
+                  {
+                    "page": 1,
+                    "text": "❖ Collaborated with engineering and API teams to ensure seamless integration and orchestration of payment transactions across e nterprise",
+                    "block_id": "b107",
+                    "kind": "text",
+                    "start": 9378,
+                    "end": 9515
+                  },
+                  {
+                    "page": 1,
+                    "text": "systems and gateways.",
+                    "block_id": "b108",
+                    "kind": "text",
+                    "start": 9517,
+                    "end": 9538
+                  },
+                  {
+                    "page": 1,
+                    "text": "❖ Resolved complex payment failures including duplicates, timeouts, and formatting errors, improving system reliability and tra nsaction",
+                    "block_id": "b109",
+                    "kind": "text",
+                    "start": 9540,
+                    "end": 9676
+                  },
+                  {
+                    "page": 1,
+                    "text": "success rates.",
+                    "block_id": "b110",
+                    "kind": "text",
+                    "start": 9678,
+                    "end": 9692
+                  },
+                  {
+                    "page": 1,
+                    "text": "❖ Strong exposure to API -level integrations, including REST API coordination, Swagger/API documentation review, request -response",
+                    "block_id": "b111",
+                    "kind": "text",
+                    "start": 9694,
+                    "end": 9824
+                  },
+                  {
+                    "page": 1,
+                    "text": "validation, integration testing support, defect triaging, and end-to-end system integration management.",
+                    "block_id": "b112",
+                    "kind": "text",
+                    "start": 9826,
+                    "end": 9929
+                  },
+                  {
+                    "page": 1,
+                    "text": "❖ Experience collaborating with Development, QA, Product Owners, HR teams, and business stakeholders to drive project execution, resource",
+                    "block_id": "b113",
+                    "kind": "text",
+                    "start": 9931,
+                    "end": 10068
+                  },
+                  {
+                    "page": 1,
+                    "text": "planning, defect management, and delivery governance.",
+                    "block_id": "b114",
+                    "kind": "text",
+                    "start": 10070,
+                    "end": 10123
+                  },
+                  {
+                    "page": 1,
+                    "text": "Telefonica – Defect Manager / Test Architect | December 2014 – December 2015",
+                    "block_id": "b115",
+                    "kind": "text",
+                    "start": 10127,
+                    "end": 10203
+                  },
+                  {
+                    "page": 1,
+                    "text": "❖ Led end-to-end defect lifecycle management across mobile (2G–5G) and enterprise systems ensuring structured tracking, prioritization, and",
+                    "block_id": "b116",
+                    "kind": "text",
+                    "start": 10205,
+                    "end": 10344
+                  },
+                  {
+                    "page": 1,
+                    "text": "timely resolution of critical issues.",
+                    "block_id": "b117",
+                    "kind": "text",
+                    "start": 10346,
+                    "end": 10383
+                  },
+                  {
+                    "page": 1,
+                    "text": "❖ Supported product enhancements across claims, payments, authorization workflows, and benefits systems ensuring smooth deliver y of",
+                    "block_id": "b118",
+                    "kind": "text",
+                    "start": 10385,
+                    "end": 10517
+                  },
+                  {
+                    "page": 1,
+                    "text": "customer-facing features.",
+                    "block_id": "b119",
+                    "kind": "text",
+                    "start": 10519,
+                    "end": 10544
+                  },
+                  {
+                    "page": 1,
+                    "text": "❖ Managed Agile backlog, roadmap, and release planning using Jira and Confluence to ensure transparency, governance, and delive ry",
+                    "block_id": "b120",
+                    "kind": "text",
+                    "start": 10546,
+                    "end": 10676
+                  },
+                  {
+                    "page": 1,
+                    "text": "alignment.",
+                    "block_id": "b121",
+                    "kind": "text",
+                    "start": 10678,
+                    "end": 10688
+                  },
+                  {
+                    "page": 1,
+                    "text": "❖ Collaborated with UX, QA, engineering, and business teams to ensure requirement clarity, design validation, and synchronized execution of",
+                    "block_id": "b122",
+                    "kind": "text",
+                    "start": 10690,
+                    "end": 10829
+                  },
+                  {
+                    "page": 1,
+                    "text": "releases.",
+                    "block_id": "b123",
+                    "kind": "text",
+                    "start": 10831,
+                    "end": 10840
+                  },
+                  {
+                    "page": 1,
+                    "text": "❖ Identified risks and delivery bottlenecks proactively and implemented mitigation strategies to ensure on -time and quality-driven delivery",
+                    "block_id": "b124",
+                    "kind": "text",
+                    "start": 10842,
+                    "end": 10982
+                  },
+                  {
+                    "page": 1,
+                    "text": "outcomes.",
+                    "block_id": "b125",
+                    "kind": "text",
+                    "start": 10984,
+                    "end": 10993
+                  },
+                  {
+                    "page": 1,
+                    "text": "❖ Quick learner with the ability to adapt to new domains, understand complex business workflows, stakeholder expectations, comp liance",
+                    "block_id": "b126",
+                    "kind": "text",
+                    "start": 10995,
+                    "end": 11129
+                  },
+                  {
+                    "page": 1,
+                    "text": "requirements, and drive successful project outcomes in Agile environments.",
+                    "block_id": "b127",
+                    "kind": "text",
+                    "start": 11131,
+                    "end": 11205
+                  },
+                  {
+                    "page": 1,
+                    "text": "Datamatics – Test Lead | August 2008 – November 2014",
+                    "block_id": "b128",
+                    "kind": "text",
+                    "start": 11209,
+                    "end": 11261
+                  },
+                  {
+                    "page": 1,
+                    "text": "❖ Defined comprehensive test strategies covering functional, regression, integration, and system testing ensuring high -quality delivery",
+                    "block_id": "b129",
+                    "kind": "text",
+                    "start": 11263,
+                    "end": 11399
+                  },
+                  {
+                    "page": 1,
+                    "text": "aligned with business requirements.",
+                    "block_id": "b130",
+                    "kind": "text",
+                    "start": 11401,
+                    "end": 11436
+                  },
+                  {
+                    "page": 1,
+                    "text": "❖ Led end -to-end testing activities for healthcare insurance applications, including policy administration, member enrollment, claims",
+                    "block_id": "b131",
+                    "kind": "text",
+                    "start": 11438,
+                    "end": 11572
+                  },
+                  {
+                    "page": 1,
+                    "text": "processing, provider management, and customer portals.",
+                    "block_id": "b132",
+                    "kind": "text",
+                    "start": 11574,
+                    "end": 11628
+                  },
+                  {
+                    "page": 1,
+                    "text": "❖ Managed a team of 8–12 QA engineers across onsite and offshore locations, ensuring timely delivery of testing milestones.",
+                    "block_id": "b133",
+                    "kind": "text",
+                    "start": 11631,
+                    "end": 11754
+                  },
+                  {
+                    "page": 1,
+                    "text": "❖ Developed test strategies, test plans, test scenarios, and test cases based on business requirements and functional specifications.",
+                    "block_id": "b134",
+                    "kind": "text",
+                    "start": 11757,
+                    "end": 11890
+                  },
+                  {
+                    "page": 1,
+                    "text": "❖ Coordinated Functional, System Integration (SIT), Regression, User Acceptance (UAT), and End-to-End testing across multiple releases.",
+                    "block_id": "b135",
+                    "kind": "text",
+                    "start": 11893,
+                    "end": 12028
+                  },
+                  {
+                    "page": 1,
+                    "text": "❖ Collaborated with business analysts, developers, product owners, and stakeholders to clarify requirements and resolve production issues.",
+                    "block_id": "b136",
+                    "kind": "text",
+                    "start": 12031,
+                    "end": 12169
+                  },
+                  {
+                    "page": 1,
+                    "text": "❖ Managed defect lifecycle using Jira/ALM, conducted defect triage meetings, and ensured timely resolution of critical issues.",
+                    "block_id": "b137",
+                    "kind": "text",
+                    "start": 12172,
+                    "end": 12298
+                  },
+                  {
+                    "page": 1,
+                    "text": "❖ Implemented risk-based testing approaches to improve test coverage while reducing execution time.",
+                    "block_id": "b138",
+                    "kind": "text",
+                    "start": 12301,
+                    "end": 12400
+                  },
+                  {
+                    "page": 1,
+                    "text": "❖ Automated regression test suites using Selenium WebDriver and integrated automated execution into CI/CD pipelines where applicable.",
+                    "block_id": "b139",
+                    "kind": "text",
+                    "start": 12403,
+                    "end": 12536
+                  },
+                  {
+                    "page": 1,
+                    "text": "❖ Validated REST/SOAP APIs using Postman and SOAP UI and performed backend database validation using SQL.",
+                    "block_id": "b140",
+                    "kind": "text",
+                    "start": 12539,
+                    "end": 12644
+                  },
+                  {
+                    "page": 1,
+                    "text": "❖ Generated daily status reports, quality metrics, test execution dashboards, and release readiness reports for senior management.",
+                    "block_id": "b141",
+                    "kind": "text",
+                    "start": 12647,
+                    "end": 12777
+                  },
+                  {
+                    "page": 1,
+                    "text": "❖ Mentored QA team members on testing best practices, Agile processes, and quality standards.",
+                    "block_id": "b142",
+                    "kind": "text",
+                    "start": 12780,
+                    "end": 12873
+                  },
+                  {
+                    "page": 1,
+                    "text": "❖ Improved release quality by reducing production defects through proactive risk identification, root cause analysis, and continuous process",
+                    "block_id": "b143",
+                    "kind": "text",
+                    "start": 12876,
+                    "end": 13016
+                  },
+                  {
+                    "page": 1,
+                    "text": "improvements",
+                    "block_id": "b144",
+                    "kind": "text",
+                    "start": 13018,
+                    "end": 13030
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 3,
+          "dated_periods": 1,
+          "represented_months": 34,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 1,
+            "year_range": 0,
+            "single_date": 1,
+            "duration_only": 0,
+            "undated": 1,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "vec3d152d929c7771",
+              "label": "Scrum Master",
+              "state": "month_range",
+              "start": [
+                2019,
+                5
+              ],
+              "end": [
+                2022,
+                2
+              ],
+              "months": 34,
+              "raw": "May 2019 – February 2022",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "AT&T| Redmond, WA  – Scrum Master | May 2019 – February 2022",
+                    "block_id": "b89",
+                    "kind": "text",
+                    "start": 7866,
+                    "end": 7926
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "May 2019 – February 2022",
+                    "block_id": "b89",
+                    "kind": "text",
+                    "start": 7902,
+                    "end": 7926
+                  },
+                  {
+                    "page": 1,
+                    "text": "January 2016 – April 2019",
+                    "block_id": "b100",
+                    "kind": "text",
+                    "start": 8860,
+                    "end": 8885
+                  },
+                  {
+                    "page": 1,
+                    "text": "December 2014 – December 2015",
+                    "block_id": "b115",
+                    "kind": "text",
+                    "start": 10174,
+                    "end": 10203
+                  },
+                  {
+                    "page": 1,
+                    "text": "August 2008 – November 2014",
+                    "block_id": "b128",
+                    "kind": "text",
+                    "start": 11234,
+                    "end": 11261
+                  }
+                ],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Scrum Master",
+                    "block_id": "b89",
+                    "kind": "text",
+                    "start": 7887,
+                    "end": 7899
+                  }
+                ],
+                "section": "AT&T| Redmond, WA  – Scrum Master | May 2019 – February 2022",
+                "date_label": "May 2019 – February 2022",
+                "is_present": false
+              }
+            },
+            {
+              "id": "vfd7aa0f79daa3061",
+              "label": "Bachelor’s Degree",
+              "state": "single_date",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "2001",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Bachelor’s Degree (Mechanical Engineering) – Bhagalpur",
+                    "block_id": "b40",
+                    "kind": "text",
+                    "start": 3358,
+                    "end": 3412
+                  },
+                  {
+                    "page": 1,
+                    "text": "College of Engineering – Completed in 2001",
+                    "block_id": "b41",
+                    "kind": "text",
+                    "start": 3414,
+                    "end": 3456
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "2001",
+                    "block_id": "b41",
+                    "kind": "text",
+                    "start": 3452,
+                    "end": 3456
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "College of Engineering",
+                    "block_id": "b41",
+                    "kind": "text",
+                    "start": 3414,
+                    "end": 3436
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Bachelor’s Degree",
+                    "block_id": "b40",
+                    "kind": "text",
+                    "start": 3358,
+                    "end": 3375
+                  }
+                ],
+                "section": "EDUCATION",
+                "date_label": "2001",
+                "is_present": false
+              }
+            },
+            {
+              "id": "v3ac89ba97e1dbc65",
+              "label": "❖ Certified Scrum Master",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Management Institute (PMI)",
+                    "block_id": "b44",
+                    "kind": "text",
+                    "start": 3548,
+                    "end": 3574
+                  },
+                  {
+                    "page": 1,
+                    "text": "❖ Certified Scrum Master (CSM) – Scrum Alliance",
+                    "block_id": "b45",
+                    "kind": "text",
+                    "start": 3576,
+                    "end": 3623
+                  }
+                ],
+                "dates": [],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Management Institute",
+                    "block_id": "b44",
+                    "kind": "text",
+                    "start": 3548,
+                    "end": 3568
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Certified Scrum Master",
+                    "block_id": "b45",
+                    "kind": "text",
+                    "start": 3578,
+                    "end": 3600
+                  }
+                ],
+                "section": "Management Institute (PMI)",
+                "date_label": "",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 89,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": true,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 1,
+        "represented_months": 55,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 1,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v1eac23e379f19dba",
+            "label": "Technical Project Manager",
+            "state": "month_range",
+            "start": [
+              2022,
+              3
+            ],
+            "end": [
+              2026,
+              9
+            ],
+            "months": 55,
+            "raw": "March 2022 – Sep 2026",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "TMO| Redmond, WA  – Technical Project Manager | March 2022 – Sep 2026",
+                  "block_id": "b61",
+                  "kind": "text",
+                  "start": 5013,
+                  "end": 5082
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "March 2022 – Sep 2026",
+                  "block_id": "b61",
+                  "kind": "text",
+                  "start": 5061,
+                  "end": 5082
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "TMO",
+                  "block_id": "b61",
+                  "kind": "text",
+                  "start": 5013,
+                  "end": 5016
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Technical Project Manager",
+                  "block_id": "b61",
+                  "kind": "text",
+                  "start": 5033,
+                  "end": 5058
+                }
+              ],
+              "section": "WORK EXPERIENCE",
+              "date_label": "March 2022 – Sep 2026",
+              "is_present": false
+            }
+          }
+        ]
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 1,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "proj_1",
+            "label": ".",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "project resources.",
+                  "block_id": "b106",
+                  "kind": "text",
+                  "start": 9358,
+                  "end": 9376
+                },
+                {
+                  "page": 1,
+                  "text": "❖ Collaborated with engineering and API teams to ensure seamless integration and orchestration of payment transactions across e nterprise",
+                  "block_id": "b107",
+                  "kind": "text",
+                  "start": 9378,
+                  "end": 9515
+                },
+                {
+                  "page": 1,
+                  "text": "systems and gateways.",
+                  "block_id": "b108",
+                  "kind": "text",
+                  "start": 9517,
+                  "end": 9538
+                },
+                {
+                  "page": 1,
+                  "text": "❖ Resolved complex payment failures including duplicates, timeouts, and formatting errors, improving system reliability and tra nsaction",
+                  "block_id": "b109",
+                  "kind": "text",
+                  "start": 9540,
+                  "end": 9676
+                },
+                {
+                  "page": 1,
+                  "text": "success rates.",
+                  "block_id": "b110",
+                  "kind": "text",
+                  "start": 9678,
+                  "end": 9692
+                },
+                {
+                  "page": 1,
+                  "text": "❖ Strong exposure to API -level integrations, including REST API coordination, Swagger/API documentation review, request -response",
+                  "block_id": "b111",
+                  "kind": "text",
+                  "start": 9694,
+                  "end": 9824
+                },
+                {
+                  "page": 1,
+                  "text": "validation, integration testing support, defect triaging, and end-to-end system integration management.",
+                  "block_id": "b112",
+                  "kind": "text",
+                  "start": 9826,
+                  "end": 9929
+                },
+                {
+                  "page": 1,
+                  "text": "❖ Experience collaborating with Development, QA, Product Owners, HR teams, and business stakeholders to drive project execution, resource",
+                  "block_id": "b113",
+                  "kind": "text",
+                  "start": 9931,
+                  "end": 10068
+                },
+                {
+                  "page": 1,
+                  "text": "planning, defect management, and delivery governance.",
+                  "block_id": "b114",
+                  "kind": "text",
+                  "start": 10070,
+                  "end": 10123
+                },
+                {
+                  "page": 1,
+                  "text": "Telefonica – Defect Manager / Test Architect | December 2014 – December 2015",
+                  "block_id": "b115",
+                  "kind": "text",
+                  "start": 10127,
+                  "end": 10203
+                },
+                {
+                  "page": 1,
+                  "text": "❖ Led end-to-end defect lifecycle management across mobile (2G–5G) and enterprise systems ensuring structured tracking, prioritization, and",
+                  "block_id": "b116",
+                  "kind": "text",
+                  "start": 10205,
+                  "end": 10344
+                },
+                {
+                  "page": 1,
+                  "text": "timely resolution of critical issues.",
+                  "block_id": "b117",
+                  "kind": "text",
+                  "start": 10346,
+                  "end": 10383
+                },
+                {
+                  "page": 1,
+                  "text": "❖ Supported product enhancements across claims, payments, authorization workflows, and benefits systems ensuring smooth deliver y of",
+                  "block_id": "b118",
+                  "kind": "text",
+                  "start": 10385,
+                  "end": 10517
+                },
+                {
+                  "page": 1,
+                  "text": "customer-facing features.",
+                  "block_id": "b119",
+                  "kind": "text",
+                  "start": 10519,
+                  "end": 10544
+                },
+                {
+                  "page": 1,
+                  "text": "❖ Managed Agile backlog, roadmap, and release planning using Jira and Confluence to ensure transparency, governance, and delive ry",
+                  "block_id": "b120",
+                  "kind": "text",
+                  "start": 10546,
+                  "end": 10676
+                },
+                {
+                  "page": 1,
+                  "text": "alignment.",
+                  "block_id": "b121",
+                  "kind": "text",
+                  "start": 10678,
+                  "end": 10688
+                },
+                {
+                  "page": 1,
+                  "text": "❖ Collaborated with UX, QA, engineering, and business teams to ensure requirement clarity, design validation, and synchronized execution of",
+                  "block_id": "b122",
+                  "kind": "text",
+                  "start": 10690,
+                  "end": 10829
+                },
+                {
+                  "page": 1,
+                  "text": "releases.",
+                  "block_id": "b123",
+                  "kind": "text",
+                  "start": 10831,
+                  "end": 10840
+                },
+                {
+                  "page": 1,
+                  "text": "❖ Identified risks and delivery bottlenecks proactively and implemented mitigation strategies to ensure on -time and quality-driven delivery",
+                  "block_id": "b124",
+                  "kind": "text",
+                  "start": 10842,
+                  "end": 10982
+                },
+                {
+                  "page": 1,
+                  "text": "outcomes.",
+                  "block_id": "b125",
+                  "kind": "text",
+                  "start": 10984,
+                  "end": 10993
+                },
+                {
+                  "page": 1,
+                  "text": "❖ Quick learner with the ability to adapt to new domains, understand complex business workflows, stakeholder expectations, comp liance",
+                  "block_id": "b126",
+                  "kind": "text",
+                  "start": 10995,
+                  "end": 11129
+                },
+                {
+                  "page": 1,
+                  "text": "requirements, and drive successful project outcomes in Agile environments.",
+                  "block_id": "b127",
+                  "kind": "text",
+                  "start": 11131,
+                  "end": 11205
+                },
+                {
+                  "page": 1,
+                  "text": "Datamatics – Test Lead | August 2008 – November 2014",
+                  "block_id": "b128",
+                  "kind": "text",
+                  "start": 11209,
+                  "end": 11261
+                },
+                {
+                  "page": 1,
+                  "text": "❖ Defined comprehensive test strategies covering functional, regression, integration, and system testing ensuring high -quality delivery",
+                  "block_id": "b129",
+                  "kind": "text",
+                  "start": 11263,
+                  "end": 11399
+                },
+                {
+                  "page": 1,
+                  "text": "aligned with business requirements.",
+                  "block_id": "b130",
+                  "kind": "text",
+                  "start": 11401,
+                  "end": 11436
+                },
+                {
+                  "page": 1,
+                  "text": "❖ Led end -to-end testing activities for healthcare insurance applications, including policy administration, member enrollment, claims",
+                  "block_id": "b131",
+                  "kind": "text",
+                  "start": 11438,
+                  "end": 11572
+                },
+                {
+                  "page": 1,
+                  "text": "processing, provider management, and customer portals.",
+                  "block_id": "b132",
+                  "kind": "text",
+                  "start": 11574,
+                  "end": 11628
+                },
+                {
+                  "page": 1,
+                  "text": "❖ Managed a team of 8–12 QA engineers across onsite and offshore locations, ensuring timely delivery of testing milestones.",
+                  "block_id": "b133",
+                  "kind": "text",
+                  "start": 11631,
+                  "end": 11754
+                },
+                {
+                  "page": 1,
+                  "text": "❖ Developed test strategies, test plans, test scenarios, and test cases based on business requirements and functional specifications.",
+                  "block_id": "b134",
+                  "kind": "text",
+                  "start": 11757,
+                  "end": 11890
+                },
+                {
+                  "page": 1,
+                  "text": "❖ Coordinated Functional, System Integration (SIT), Regression, User Acceptance (UAT), and End-to-End testing across multiple releases.",
+                  "block_id": "b135",
+                  "kind": "text",
+                  "start": 11893,
+                  "end": 12028
+                },
+                {
+                  "page": 1,
+                  "text": "❖ Collaborated with business analysts, developers, product owners, and stakeholders to clarify requirements and resolve production issues.",
+                  "block_id": "b136",
+                  "kind": "text",
+                  "start": 12031,
+                  "end": 12169
+                },
+                {
+                  "page": 1,
+                  "text": "❖ Managed defect lifecycle using Jira/ALM, conducted defect triage meetings, and ensured timely resolution of critical issues.",
+                  "block_id": "b137",
+                  "kind": "text",
+                  "start": 12172,
+                  "end": 12298
+                },
+                {
+                  "page": 1,
+                  "text": "❖ Implemented risk-based testing approaches to improve test coverage while reducing execution time.",
+                  "block_id": "b138",
+                  "kind": "text",
+                  "start": 12301,
+                  "end": 12400
+                },
+                {
+                  "page": 1,
+                  "text": "❖ Automated regression test suites using Selenium WebDriver and integrated automated execution into CI/CD pipelines where applicable.",
+                  "block_id": "b139",
+                  "kind": "text",
+                  "start": 12403,
+                  "end": 12536
+                },
+                {
+                  "page": 1,
+                  "text": "❖ Validated REST/SOAP APIs using Postman and SOAP UI and performed backend database validation using SQL.",
+                  "block_id": "b140",
+                  "kind": "text",
+                  "start": 12539,
+                  "end": 12644
+                },
+                {
+                  "page": 1,
+                  "text": "❖ Generated daily status reports, quality metrics, test execution dashboards, and release readiness reports for senior management.",
+                  "block_id": "b141",
+                  "kind": "text",
+                  "start": 12647,
+                  "end": 12777
+                },
+                {
+                  "page": 1,
+                  "text": "❖ Mentored QA team members on testing best practices, Agile processes, and quality standards.",
+                  "block_id": "b142",
+                  "kind": "text",
+                  "start": 12780,
+                  "end": 12873
+                },
+                {
+                  "page": 1,
+                  "text": "❖ Improved release quality by reducing production defects through proactive risk identification, root cause analysis, and continuous process",
+                  "block_id": "b143",
+                  "kind": "text",
+                  "start": 12876,
+                  "end": 13016
+                },
+                {
+                  "page": 1,
+                  "text": "improvements",
+                  "block_id": "b144",
+                  "kind": "text",
+                  "start": 13018,
+                  "end": 13030
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 3,
+        "dated_periods": 1,
+        "represented_months": 34,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 1,
+          "year_range": 0,
+          "single_date": 1,
+          "duration_only": 0,
+          "undated": 1,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "vec3d152d929c7771",
+            "label": "Scrum Master",
+            "state": "month_range",
+            "start": [
+              2019,
+              5
+            ],
+            "end": [
+              2022,
+              2
+            ],
+            "months": 34,
+            "raw": "May 2019 – February 2022",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "AT&T| Redmond, WA  – Scrum Master | May 2019 – February 2022",
+                  "block_id": "b89",
+                  "kind": "text",
+                  "start": 7866,
+                  "end": 7926
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "May 2019 – February 2022",
+                  "block_id": "b89",
+                  "kind": "text",
+                  "start": 7902,
+                  "end": 7926
+                },
+                {
+                  "page": 1,
+                  "text": "January 2016 – April 2019",
+                  "block_id": "b100",
+                  "kind": "text",
+                  "start": 8860,
+                  "end": 8885
+                },
+                {
+                  "page": 1,
+                  "text": "December 2014 – December 2015",
+                  "block_id": "b115",
+                  "kind": "text",
+                  "start": 10174,
+                  "end": 10203
+                },
+                {
+                  "page": 1,
+                  "text": "August 2008 – November 2014",
+                  "block_id": "b128",
+                  "kind": "text",
+                  "start": 11234,
+                  "end": 11261
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Scrum Master",
+                  "block_id": "b89",
+                  "kind": "text",
+                  "start": 7887,
+                  "end": 7899
+                }
+              ],
+              "section": "AT&T| Redmond, WA  – Scrum Master | May 2019 – February 2022",
+              "date_label": "May 2019 – February 2022",
+              "is_present": false
+            }
+          },
+          {
+            "id": "vfd7aa0f79daa3061",
+            "label": "Bachelor’s Degree",
+            "state": "single_date",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "2001",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Bachelor’s Degree (Mechanical Engineering) – Bhagalpur",
+                  "block_id": "b40",
+                  "kind": "text",
+                  "start": 3358,
+                  "end": 3412
+                },
+                {
+                  "page": 1,
+                  "text": "College of Engineering – Completed in 2001",
+                  "block_id": "b41",
+                  "kind": "text",
+                  "start": 3414,
+                  "end": 3456
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "2001",
+                  "block_id": "b41",
+                  "kind": "text",
+                  "start": 3452,
+                  "end": 3456
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "College of Engineering",
+                  "block_id": "b41",
+                  "kind": "text",
+                  "start": 3414,
+                  "end": 3436
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Bachelor’s Degree",
+                  "block_id": "b40",
+                  "kind": "text",
+                  "start": 3358,
+                  "end": 3375
+                }
+              ],
+              "section": "EDUCATION",
+              "date_label": "2001",
+              "is_present": false
+            }
+          },
+          {
+            "id": "v3ac89ba97e1dbc65",
+            "label": "❖ Certified Scrum Master",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Management Institute (PMI)",
+                  "block_id": "b44",
+                  "kind": "text",
+                  "start": 3548,
+                  "end": 3574
+                },
+                {
+                  "page": 1,
+                  "text": "❖ Certified Scrum Master (CSM) – Scrum Alliance",
+                  "block_id": "b45",
+                  "kind": "text",
+                  "start": 3576,
+                  "end": 3623
+                }
+              ],
+              "dates": [],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Management Institute",
+                  "block_id": "b44",
+                  "kind": "text",
+                  "start": 3548,
+                  "end": 3568
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Certified Scrum Master",
+                  "block_id": "b45",
+                  "kind": "text",
+                  "start": 3578,
+                  "end": 3600
+                }
+              ],
+              "section": "Management Institute (PMI)",
+              "date_label": "",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 89,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "file_name": "SanketBabasahebLavate.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "05e43d373aaec88929b563b6dcbc1639621bfde5862ec525d659fbba8e8189b2",
+  "doc_id": "05e43d373aaec88929b563b6",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 0,
+    "total_events": 1,
+    "dated_share": 0.0,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": null,
+    "ocr_pages": []
+  },
+  "work_experience": [],
+  "education": [
+    {
+      "id": "v3a5ce59631a57ab1",
+      "type": "EDUCATION",
+      "company": "MBA(Marketing) from Indira Institute of Management (AICTE)",
+      "title": "",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "MBA(Marketing) from Indira Institute of Management (AICTE), Pune 2014.",
+            "block_id": "b103",
+            "kind": "text",
+            "start": 4987,
+            "end": 5057
+          },
+          {
+            "page": 1,
+            "text": "B. Pharmacy from ABCP Sangli, KOLHAPUR University in 2012",
+            "block_id": "b104",
+            "kind": "text",
+            "start": 5060,
+            "end": 5117
+          },
+          {
+            "page": 1,
+            "text": "HSC (Science)-Ganpatrao Arwade College of Arts & Science",
+            "block_id": "b105",
+            "kind": "text",
+            "start": 5120,
+            "end": 5176
+          },
+          {
+            "page": 1,
+            "text": "SSC-City High School, Sangli",
+            "block_id": "b106",
+            "kind": "text",
+            "start": 5179,
+            "end": 5207
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2014",
+            "block_id": "b103",
+            "kind": "text",
+            "start": 5052,
+            "end": 5056
+          },
+          {
+            "page": 1,
+            "text": "2012",
+            "block_id": "b104",
+            "kind": "text",
+            "start": 5113,
+            "end": 5117
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "MBA(Marketing) from Indira Institute of Management (AICTE",
+            "block_id": "b103",
+            "kind": "text",
+            "start": 4987,
+            "end": 5044
+          }
+        ],
+        "title": [],
+        "section": "EDUCATION",
+        "date_label": "2014 / 2012",
+        "is_present": false
+      }
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 0,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "PARTIAL",
+    "coverage_analysis": "PARTIAL",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "section EDUCATION: entry without dated header preserved as-is",
+    "entry e0: dates found without an explicit range",
+    "e0: dates cannot be assigned unambiguously",
+    "conflicting/ambiguous date kept for ''",
+    "no dated events to order",
+    "no intervals to cover"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "05e43d373aaec88929b563b6",
+    "filename": "SanketBabasahebLavate.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [],
+    "unresolved_events": [
+      {
+        "id": "v3a5ce59631a57ab1",
+        "type": "EDUCATION",
+        "title": "",
+        "org": "MBA(Marketing) from Indira Institute of Management (AICTE)",
+        "entry_text": "MBA(Marketing) from Indira Institute of Management (AICTE), Pune 2014. B. Pharmacy from ABCP Sangli, KOLHAPUR University in 2012 HSC (Science)-Ganpatrao Arwade College of Arts & Science SSC-City High School, Sangli",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "MBA(Marketing) from Indira Institute of Management (AICTE), Pune 2014.",
+              "block_id": "b103",
+              "kind": "text",
+              "start": 4987,
+              "end": 5057
+            },
+            {
+              "page": 1,
+              "text": "B. Pharmacy from ABCP Sangli, KOLHAPUR University in 2012",
+              "block_id": "b104",
+              "kind": "text",
+              "start": 5060,
+              "end": 5117
+            },
+            {
+              "page": 1,
+              "text": "HSC (Science)-Ganpatrao Arwade College of Arts & Science",
+              "block_id": "b105",
+              "kind": "text",
+              "start": 5120,
+              "end": 5176
+            },
+            {
+              "page": 1,
+              "text": "SSC-City High School, Sangli",
+              "block_id": "b106",
+              "kind": "text",
+              "start": 5179,
+              "end": 5207
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2014",
+              "block_id": "b103",
+              "kind": "text",
+              "start": 5052,
+              "end": 5056
+            },
+            {
+              "page": 1,
+              "text": "2012",
+              "block_id": "b104",
+              "kind": "text",
+              "start": 5113,
+              "end": 5117
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "MBA(Marketing) from Indira Institute of Management (AICTE",
+              "block_id": "b103",
+              "kind": "text",
+              "start": 4987,
+              "end": 5044
+            }
+          ],
+          "title": [],
+          "section": "EDUCATION",
+          "date_label": "2014 / 2012",
+          "is_present": false
+        },
+        "date_label": "2014 / 2012",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 0,
+      "total_events": 1,
+      "dated_share": 0.0,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": null,
+      "ocr_pages": []
+    },
+    "total_represented_months": 0,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "PARTIAL",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "PARTIAL",
+        "confidence": 0.3
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

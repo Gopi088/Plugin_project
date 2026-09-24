@@ -290,7 +290,6 @@ def get_timeline(cx, doc_id):
         "unresolved": len(unresolved),
         "ambiguous": sum(1 for e in timeline if e.get("status") == "AMBIGUOUS"),
         "mean_event_confidence": round(sum(confs) / len(confs), 3) if confs else None,
-        "document_accuracy": round(max(0.65, min(0.96, (sum(confs)/len(confs) if confs else 0.88) - ((sum(1 for e in timeline if e.get("status") == "AMBIGUOUS")/total_ev)*0.10 if total_ev else 0) - ((len(unresolved)/total_ev)*0.15 if total_ev else 0))), 2) if total_ev else 0.85,
     }
     is_reviewed = False
     for o in overrides:
@@ -309,7 +308,9 @@ def get_timeline(cx, doc_id):
             })
     except Exception:
         projects = []
-    return {"doc_id": doc_id, "filename": doc[0], "status": doc[1],
+    from .periods import analyze_timeline
+    return {"period_analysis": analyze_timeline(timeline, unresolved, projects),
+            "doc_id": doc_id, "filename": doc[0], "status": doc[1],
             "candidate_name": doc[2] or "",
             "is_reviewed": is_reviewed,
             "original_text": get_source_text(cx, doc_id),

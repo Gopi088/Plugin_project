@@ -73,14 +73,23 @@ def _is_header_line(s):
     t = s.strip().strip(":").strip()
     if not t or len(t.split()) > 8:
         return None
+    if re.match(r"(?i)^(?:key\s+result\s+areas?|responsibilities|key\s+responsibilities|roles?\s*(?:and|&)\s*responsibilities|duties|tools|technologies|environment)\b", t):
+        return None
     low = t.lower()
     for kind, names in SECTION_KINDS:
         if low in [n.lower() for n in names]:
             if re.search(r"\d", t) and kind == "EXPERIENCE" and "professional" not in low and "work" not in low:
                 continue  # e.g. "Exp Total Years Experience: 5.7" is not a header
             return kind
-    if re.match(r"(?i)^(?:key\s+|notable\s+|major\s+|client\s+|academic\s+|personal\s+)?projects?(?:\s*(?:and|&|\/)\s*pocs?)?(?:\s*(?:profile|details|handled|experience|undertaken|summary))?\s*:?\s*$", t):
+    if re.match(r"(?i)^(?:key\s+|notable\s+|major\s+|client\s+|academic\s+|personal\s+)?projects?(?:\s*(?:and|&|\/)\s*(?:pocs?|research))?(?:\s*(?:profile|details|handled|experience|undertaken|summary))?\s*:?\s*$", t):
         return "PROJECTS"
+    if re.match(r"(?i)^(?:projects?\s*(?:&|and)\s*research|research\s*(?:&|and)\s*projects?)\s*:?$", t):
+        return "PROJECTS"
+    if not re.search(r"\d", t) and not DESCRIPTION.match(t):
+        if re.match(r"(?i)^(?:professional|work|career|employment|corporate|industry|relevant|chronological)?\s*(?:history|background|timeline|chronology|record|engagements|profile|path|journey|positions(?:\s+held)?)\s*:?$", t) and len(t.split()) <= 6:
+            return "EXPERIENCE"
+        if re.match(r"(?i)^(?:academic|educational|education)?\s*(?:qualifications?|background|history|details|credentials|education)\s*:?$", t) and len(t.split()) <= 6:
+            return "EDUCATION"
     return None
 
 
@@ -88,6 +97,7 @@ def _is_header_line(s):
 
 def s01_document_processing(ctx):
     """Input: raw bytes/text + filename. Output: clean text, pages, doc facts."""
+    import subprocess
     text, pages, warnings, errors = "", 1, [], []
     name = (ctx.filename or "").split("?", 1)[0].split("#", 1)[0].lower()
     try:
@@ -99,26 +109,68 @@ def s01_document_processing(ctx):
                 pages = len(pdf.pages)
                 for p in pdf.pages:
                     page_text = p.extract_text() or ""
+                    lines = SRC.pdf_lines(p, _norm)
                     if not page_text.strip():
                         ctx.meta["reading_incomplete"] = True
+                        try:
+                            from ..ocr import extract_page
+                            lines = extract_page(ctx.raw_bytes, p.page_number, _norm)
+                            page_text = "\n".join(line['text'] for line in lines)
+                            if page_text.strip():
+                                ctx.meta.setdefault("ocr_pages", []).append(p.page_number)
+                                warnings.append(f"page {p.page_number}: OCR-derived text needs verification")
+                        except (RuntimeError, OSError, subprocess.TimeoutExpired) as exc:
+                            warnings.append(f"page {p.page_number}: {exc}")
                     pages_list.append(page_text)
-                    ctx.meta.setdefault("source_lines", []).extend(SRC.pdf_lines(p, _norm))
+                    ctx.meta.setdefault("source_lines", []).extend(lines)
             text = "\n".join(pages_list)
         elif ctx.raw_bytes and (name.endswith(".docx") or ctx.raw_bytes.startswith(b"PK\x03\x04")):
             from docx import Document
             import io
-            doc = Document(io.BytesIO(ctx.raw_bytes))
-            parts = [p.text for p in doc.paragraphs]
-            for table in doc.tables:
-                for row in table.rows:
-                    parts.append(" | ".join(c.text.strip() for c in row.cells))
-            text = "\n".join(t for t in parts if t.strip())
+            try:
+                doc = Document(io.BytesIO(ctx.raw_bytes))
+            except KeyError:
+                from ..documents import recover_docx_body
+                text = recover_docx_body(ctx.raw_bytes)
+                ctx.meta["reading_incomplete"] = True
+                warnings.append("DOCX has broken package relationships; original body text recovered, verify against original")
+            else:
+                parts = []
+                for block in doc.iter_inner_content():
+                    if hasattr(block, "text"):
+                        parts.append(block.text)
+                    else:
+                        for row in block.rows:
+                            parts.append(" | ".join(c.text.strip() for c in row.cells))
+                text = "\n".join(t for t in parts if t.strip())
+        elif ctx.raw_bytes and name.endswith(".doc"):
+            import shutil
+            executable = shutil.which('antiword')
+            if not executable:
+                raise RuntimeError('Legacy DOC requires antiword')
+            result = subprocess.run([executable, '-'], input=ctx.raw_bytes, capture_output=True, timeout=60)
+            if result.returncode:
+                raise RuntimeError('antiword could not read this legacy DOC document')
+            text = result.stdout.decode('utf-8')
         elif ctx.raw_bytes and name.endswith(".txt"):
             text = ctx.raw_bytes.decode("utf-8-sig")
+        elif ctx.raw_bytes and (name.endswith(".txt") or name.endswith(".json")):
+            try:
+                decoded = ctx.raw_bytes.decode("utf-8-sig")
+                if name.endswith(".json"):
+                    jdata = json.loads(decoded)
+                    text = jdata["text"] if isinstance(jdata, dict) and "text" in jdata else decoded
+                else:
+                    text = decoded
+            except Exception:
+                text = ctx.raw_bytes.decode("utf-8-sig", errors="ignore")
         elif ctx.raw_text:
             text = ctx.raw_text
         else:
             errors.append("no content provided")
+    except ModuleNotFoundError as exc:
+        import sys
+        errors.append(f"missing Python dependency {exc.name!r}; interpreter: {sys.executable}. Install requirements.txt with the project venv/bin/python.")
     except Exception as exc:  # malformed documents must not crash the pipeline
         errors.append(f"extraction failed: {type(exc).__name__}")
     ctx.meta["original_text"] = text or ""
@@ -215,36 +267,105 @@ def s02_text_representation(ctx):
 
 # ---------------------------------------------------------------- stage 3
 
+def _looks_like_job_start(blocks, i):
+    b = blocks[i]
+    text = b.text.strip()
+    if not text or len(text.split()) > 25:
+        return False
+    if text.startswith(BULLET_PREFIXES) and not any(m['is_range'] for m in D.find_mentions(text)):
+        return False
+    clean = text.lstrip("•●■▪·○◆◇➢✔►▸✓★-*–— ")
+    if DESCRIPTION.match(clean) or DOB_OR_PERSONAL_RE.search(text):
+        return False
+    if DEGREE_CUE.search(text) or re.search(r'\b(?:bachelor|master|b\.?\s*tech|m\.?\s*tech|diploma|ph\.?d|degree|university|college|school|cgpa)\b', text, re.I):
+        return False
+    if PROJECT_HEAD.match(clean) or re.match(r"(?i)^\s*(?:project|poc)\b", clean):
+        return False
+    if re.match(r"(?i)^\s*(?:key\s+result\s+areas?|responsibilities|key\s+responsibilities|roles?\s*(?:and|&)\s*responsibilities|duties|tools|technologies|environment|client(?:\s*name)?|project\s+role|role|duration|period|tenure|timeline)\b", clean):
+        return False
+    if re.match(r"(?i)^\s*(?:microsoft mvp|certified|hackathon|published author|ieee|patent|paper|conference)\b", clean):
+        return False
+
+    has_date_range = any(m['is_range'] for m in D.find_mentions(text))
+    adj_has_date = False
+    if not has_date_range and i + 1 < len(blocks):
+        next_t = blocks[i + 1].text.strip()
+        adj_has_date = any(m['is_range'] for m in D.find_mentions(next_t)) and not DEGREE_CUE.search(next_t)
+
+    has_title = bool(TITLE_CUE.search(text))
+    has_comp = bool(COMPANY_HINT.search(text))
+    has_emp_syntax = bool(re.search(r"(?i)\b(?:as\s+(?:an?\s+)?\w+|at\s+[A-Z]|\bworked\b|\bworking\b|\bemployed\b|intern\b)", text))
+    has_label = bool(re.match(r"(?i)^\s*(?:company|employer|organization|position|designation|job title)\s*:", text))
+
+    if has_date_range:
+        return has_title or has_comp or has_emp_syntax or has_label or (text[0].isupper() and len(text.split()) <= 15)
+    elif adj_has_date:
+        return has_title or has_comp or has_label
+    return False
+
+
+def _looks_like_edu_start(blocks, i):
+    b = blocks[i]
+    text = b.text.strip()
+    if not text or len(text.split()) > 30:
+        return False
+    clean = text.lstrip("•●■▪·○◆◇➢✔►▸✓★-*–— ")
+    if DESCRIPTION.match(clean) or DOB_OR_PERSONAL_RE.search(text):
+        return False
+    has_degree = bool(DEGREE_CUE.search(text) or re.search(r'\b(?:bachelor|master|b\.?\s*tech|m\.?\s*tech|diploma|ph\.?d|bca|mca|b\.?sc|m\.?sc|b\.?e\.?)\b', text, re.I))
+    if not has_degree:
+        return False
+    has_date = bool(D.find_mentions(text))
+    has_inst = bool(re.search(r'(?i)\b(?:university|college|institute|school|board|academy)\b', text))
+    return has_date or has_inst
+
+
 def s03_section_detection(ctx):
     """Input: blocks. Output: sections with confidence + reason."""
     if not ctx.blocks:
         return _sr("section_detection", status="SKIPPED", confidence=0.0,
                    errors=["no blocks"])
-    bounds = []  # (index, kind, header_text)
+    bounds = []  # (index, kind, header_text, is_implicit)
     for i, b in enumerate(ctx.blocks):
         kind = _is_header_line(b.text)
         if kind:
-            bounds.append((i, kind, b.text.strip()))
-    if not any(k == "EXPERIENCE" for _, k, _ in bounds):
-        for i, b in enumerate(ctx.blocks):
-            if any(idx == i for idx, _, _ in bounds):
-                continue
-            has_comp = bool(COMPANY_HINT.search(b.text)) or (b.text.isupper() and 2 <= len(b.text.split()) <= 7)
-            if has_comp:
-                has_date = False
-                for j in range(i, min(i + 4, len(ctx.blocks))):
-                    if any(m.get("is_range") for m in D.find_mentions(ctx.blocks[j].text)):
-                        has_date = True
-                        break
-                if has_date:
-                    bounds.append((i, "EXPERIENCE", b.text.strip()))
-                    bounds.sort(key=lambda x: x[0])
-                    break
+            bounds.append((i, kind, b.text.strip(), False))
+
+    # Discover implicit EXPERIENCE sections: any block starting a job entry outside EXPERIENCE
+    job_starts = [i for i in range(len(ctx.blocks)) if _looks_like_job_start(ctx.blocks, i)]
+    for j_idx in job_starts:
+        sec_kind = None
+        for n, (b_idx, k, h, is_imp) in enumerate(bounds):
+            nxt = bounds[n + 1][0] if n + 1 < len(bounds) else len(ctx.blocks)
+            if b_idx <= j_idx < nxt:
+                sec_kind = k
+                break
+        if sec_kind is None:
+            bounds.append((j_idx, "EXPERIENCE", ctx.blocks[j_idx].text.strip(), True))
+            bounds.sort(key=lambda x: x[0])
+
+    # Discover implicit EDUCATION sections if not already inside EDUCATION
+    edu_starts = [i for i in range(len(ctx.blocks)) if _looks_like_edu_start(ctx.blocks, i)]
+    for e_idx in edu_starts:
+        sec_kind = None
+        for n, (b_idx, k, h, is_imp) in enumerate(bounds):
+            nxt = bounds[n + 1][0] if n + 1 < len(bounds) else len(ctx.blocks)
+            if b_idx <= e_idx < nxt:
+                sec_kind = k
+                break
+        if sec_kind not in ("EDUCATION", "PROJECTS"):
+            bounds.append((e_idx, "EDUCATION", ctx.blocks[e_idx].text.strip(), True))
+            bounds.sort(key=lambda x: x[0])
+
     sections = []
-    for n, (idx, kind, header) in enumerate(bounds):
+    for n, (idx, kind, header, is_implicit) in enumerate(bounds):
         nxt = bounds[n + 1][0] if n + 1 < len(bounds) else len(ctx.blocks)
-        bids = [b.id for b in ctx.blocks[idx + 1:nxt]]
-        sections.append(M.Section(f"s{n}", kind, header, bids, 0.9, "SECTION_HEADER_MATCH"))
+        start_idx = idx if is_implicit else idx + 1
+        bids = [b.id for b in ctx.blocks[start_idx:nxt]]
+        sec = M.Section(f"s{n}", kind, header, bids, 0.9 if not is_implicit else 0.85,
+                        "SECTION_HEADER_MATCH" if not is_implicit else "IMPLICIT_SECTION_DETECTED")
+        sec.is_implicit = is_implicit
+        sections.append(sec)
     ctx.sections = sections
     ctx.meta["ml_version"] = ml_assist.version()
     if not sections:
@@ -283,12 +404,13 @@ def _header_candidate(line, kind):
     s = raw.lstrip("•●■▪·○◆◇➢✔►▸✓★-*–— ")
     if not s or _is_header_line(s) or DESCRIPTION.match(s):
         return False
-    if re.match(r"(?i)^\s*(client|responsibilities|tools|technologies|environment|role|project role|period|duration|timeline|tenure)\b", s):
+    if re.match(r"(?i)^\s*(client|responsibilities|tools|technologies|environment|role|project role|period|duration|timeline|tenure|title|project title|project name)\b", s):
         return False
     if kind == "EDUCATION":
         return bool(DEGREE_CUE.search(s))
     if kind == "PROJECTS":
-        return bool(PROJECT_HEAD.match(s) or re.match(r"(?i)^\s*(?:project|poc)(?:[-#]?\s*\d+|[\s:]|$)", s))
+        return bool(PROJECT_HEAD.match(s) or re.match(r"(?i)^\s*(?:project|poc)(?:[-#]?\s*\d+|[\s:]|$)", s)
+                    or (len(s.split()) <= 15 and not s.startswith(BULLET_PREFIXES) and not DESCRIPTION.match(s) and (s[0].isupper() or any(c.isdigit() for c in s[:4]))))
     if re.match(r"(?i)^(?:company|organization|organisation|employer)\s*:", s):
         return True
     if re.match(r"(?i)^(?:position|designation|job title)\s*:", s):
@@ -324,7 +446,7 @@ def _looks_like_entry_start(line, sec_kind="EXPERIENCE"):
     return _header_candidate(line, sec_kind)
 
 
-def _segment_section(sec_id, sec_kind, header_text, bids, by_id, entries, warnings):
+def _segment_section(sec_id, sec_kind, header_text, bids, by_id, entries, warnings, is_implicit_experience=False):
     """Segment one section's blocks into entries preserving all child content."""
     cur_lines, cur_bids, pending, pending_ids = [], [], [], []
 
@@ -339,7 +461,8 @@ def _segment_section(sec_id, sec_kind, header_text, bids, by_id, entries, warnin
         if b is None:
             continue
         line = b.text.strip()
-        if not line or line.strip(":").upper() == header_text.strip(":").upper():
+        # For implicit experience sections, don't skip the header block (it's the first job)
+        if not line or (not is_implicit_experience and line.strip(":").upper() == header_text.strip(":").upper()):
             continue
         if NAV_PAT.search(line):
             if cur_lines:
@@ -409,8 +532,17 @@ def s04_entry_segmentation(ctx):
     for sec in ctx.sections:
         if sec.kind not in ("EXPERIENCE", "EDUCATION", "PROJECTS"):
             continue
+        # Check if this is an implicit experience section (header is a job entry)
+        is_implicit_experience = (sec.kind == "EXPERIENCE" and 
+                                   sec.header_text in [b.text.strip() for b in ctx.blocks if b.id in sec.block_ids])
+        # Check if this is an implicit section (header is a job/education entry)
+        is_implicit = getattr(sec, "is_implicit", False) or (
+            sec.kind in ("EXPERIENCE", "EDUCATION") and 
+            sec.header_text in [b.text.strip() for b in ctx.blocks if b.id in sec.block_ids]
+        )
         _segment_section(sec.id, sec.kind, sec.header_text,
-                         sec.block_ids, by_id, entries, warnings)
+                         sec.block_ids, by_id, entries, warnings,
+                         is_implicit_experience=is_implicit)
     ctx.entries = entries
     if not entries:
         return _sr("entry_segmentation", status="PARTIAL", confidence=0.3,
@@ -490,7 +622,13 @@ def s06_date_association(ctx):
             for r_ in ranges[1:]:
                 assocs.append(M.DateAssoc(f"a{len(assocs)}", e.id, r_.id, "AMBIGUOUS", 0.5, "ASSOC_AMBIGUOUS_MULTI"))
         else:
-            if ms:
+            if len(ms) == 1:
+                r = ("ASSOC_SAME_LINE" if any(ms[0].block_id == b for b in e.block_ids) else "ASSOC_PROXIMITY")
+                assocs.append(M.DateAssoc(f"a{len(assocs)}", e.id, ms[0].id, "CONFIRMED", 0.85, r))
+            elif len(ms) == 2 and ms[0].start and ms[1].end and ms[0].start <= ms[1].end:
+                assocs.append(M.DateAssoc(f"a{len(assocs)}", e.id, ms[0].id, "CONFIRMED", 0.85, "ASSOC_DATE_PAIR"))
+                assocs.append(M.DateAssoc(f"a{len(assocs)}", e.id, ms[1].id, "CONFIRMED", 0.85, "ASSOC_DATE_PAIR"))
+            elif ms:
                 for mention in ms:
                     assocs.append(M.DateAssoc(f"a{len(assocs)}", e.id, mention.id,
                                               "AMBIGUOUS", 0.3, "ASSOC_UNRESOLVED_NO_DATE"))
@@ -499,6 +637,8 @@ def s06_date_association(ctx):
                 assocs.append(M.DateAssoc(f"a{len(assocs)}", e.id, None, "UNRESOLVED", 0.3, "ASSOC_UNRESOLVED_NO_DATE"))
     ctx.assocs = assocs
     n_unres = sum(1 for a in assocs if a.status == "UNRESOLVED")
+    sec_of_entry = {e.id: next((s.kind for s in ctx.sections if s.id == e.section_id), "") for e in ctx.entries}
+    n_unres = sum(1 for a in assocs if a.status == "UNRESOLVED" and sec_of_entry.get(a.entry_id) == "EXPERIENCE")
     status = "PARTIAL" if n_unres else "SUCCESS"
     return _sr("date_association", status=status,
                confidence=0.8 if not n_unres else 0.6,
@@ -510,6 +650,7 @@ def s06_date_association(ctx):
 
 def _clean_org(org):
     org = re.sub(r"^[\[\(\-–—\s|•*▪·]+", "", (org or "").strip())
+    org = re.sub(r"^[:\[\(\-–—\s|•*▪·]+", "", (org or "").strip())
     org = re.split(r"\s+[—|]\s+|\s+\|\s+", org, maxsplit=1)[0]
     org = re.sub(r"[\]\)\s|.,;:-]+$", "", org.strip())
     org = re.sub(r"\s+", " ", org).strip()
@@ -597,10 +738,16 @@ def _header_labels(lines, kind):
         t = line.lstrip("•▪·-* ")
         for mention in reversed(D.find_mentions(t)):
             t = t[:mention['char_start']] + t[mention['char_end']:]
+        # Remove parentheses and their content (often left after date removal)
+        t = re.sub(r'\([^)]*\)', '', t)
+        t = re.sub(r'\[[^\]]*\]', '', t)
         t = re.sub(r"(?i)\b(?:from|to|till|until|and)\s*$", "", t).strip(" –—-|,()[]/")
+        t = re.sub(r"(?i)\b(?:from|to|till|until|and)\s*$", "", t).strip(" –—-|,()[]/:")
+        t = re.sub(r"^[:\s–—\-]+", "", t)
         clean.append(t)
     if kind == 'EDUCATION':
         parts = [p.strip() for t in clean for p in re.split(r"[,|]|\s+[–—]\s+", t) if p.strip()]
+        parts = [p.strip() for t in clean for p in re.split(r"[,|]|\s+[–—]\s+|\s+from\s+", t) if p.strip()]
         degree = next((p for p in parts if DEGREE_CUE.search(p) and not re.search(r'(?i)university|college|institute|school', p)), '')
         institution = next((p for p in parts if re.search(r'(?i)\b(?:university|college|institute|school|bits|iit|nit|iim|iiit)\b', p)), '')
         return degree, institution
@@ -610,12 +757,26 @@ def _header_labels(lines, kind):
         title = next((re.sub(r'(?i)^(?:title|project title|project name)\s*:\s*', '', t).strip() for t in clean if re.match(r'(?i)^(?:title|project title|project name)\s*:', t)), '')
         name = next((t for t in clean if PROJECT_HEAD.match(t) or re.match(r'(?i)^\s*(?:project|poc)(?:[-#]?\s*\d+|[\s:]|$)', t)), '')
         final_title = role or title or name
+        final_title = role or title or name or (clean[0] if clean else '')
         final_org = client or (name if final_title != name else '')
         return final_title, _clean_org(final_org)
     for t in clean:
         match = re.match(r'(?i)^(?:worked|working|employed)\s+at\s+(.+?)(?:\s+as\s+(?:an?\s+)?(.+))?$', t)
         if match:
             return (match.group(2) or ''), match.group(1).strip()
+            return (match.group(2) or ''), _clean_org(match.group(1))
+    for t in clean:
+        m_as = re.match(r'(?i)^(.+?)\s+as\s+(?:an?\s+)?(.+)$', t)
+        if m_as:
+            left, right = m_as.group(1).strip(), m_as.group(2).strip()
+            if TITLE_CUE.search(right) or COMPANY_HINT.search(left) or not TITLE_CUE.search(left):
+                org = left.split(',')[0].strip()
+                title = right
+                return _strip_leading_caps(title).strip(" -–—[]|(),"), _clean_org(org)
+            elif TITLE_CUE.search(left):
+                title = left
+                org = right.split(',')[0].strip()
+                return _strip_leading_caps(title).strip(" -–—[]|(),"), _clean_org(org)
     title, org, explicit_employer = '', '', ''
     for t in clean:
         m_comp = re.match(r'(?i)^(?:company|organization|organisation|employer)\s*:\s*(.+)$', t)
@@ -713,7 +874,13 @@ def s07_event_classification(ctx):
         if etype == 'EMPLOYMENT' and any(INTERNSHIP_RE.search(t) for t in lines):
             etype = 'INTERNSHIP'
         header_mentions = [m for m in ms if m.block_id in header_ids]
-        explicit = [m for m in header_mentions if m.is_range]
+        # Deduplicate explicit mentions by mention_id to handle duplicate associations
+        seen_mention_ids = set()
+        explicit = []
+        for m in header_mentions:
+            if m.is_range and m.id not in seen_mention_ids:
+                explicit.append(m)
+                seen_mention_ids.add(m.id)
         status, span, precision = 'UNRESOLVED', None, 'month'
         if len(explicit) == 1:
             m = explicit[0]
@@ -721,20 +888,8 @@ def s07_event_classification(ctx):
         elif len(explicit) > 1:
             status = 'AMBIGUOUS'
             warnings.append(f'{entry.id}: dates cannot be assigned unambiguously')
-        elif not explicit and any(m.is_range for m in ms):
-            # When experience entry has no date in header, inherit from nested project / body date ranges
-            body_ranges = [m for m in ms if m.is_range]
-            all_starts = [m.start for m in body_ranges if m.start]
-            all_ends = [m.end for m in body_ranges if m.end]
-            if all_starts and all_ends:
-                earliest_start = min(all_starts, key=lambda ym: D.month_index(ym))
-                latest_end = max(all_ends, key=lambda ym: D.month_index(ym))
-                span = (earliest_start, latest_end)
-                precision = 'month' if any(m.precision == 'month' for m in body_ranges) else 'year'
-                status = 'CONFIRMED'
-                header_mentions = body_ranges
-                explicit = body_ranges
         elif header_mentions:
+            # Separate date points or completion dates do not establish a tenure.
             status = 'AMBIGUOUS'
             warnings.append(f'{entry.id}: dates cannot be assigned unambiguously')
         reason = 'EVENT_' + ('EMPLOYMENT' if etype == 'EMPLOYMENT' else etype) + '_CUES'
@@ -752,6 +907,10 @@ def s07_event_classification(ctx):
             event.date_label = ' / '.join(dict.fromkeys(m.raw for m in header_mentions))
         event.is_present = any(m.is_present for m in explicit)
         event.source = SRC.event_source(ctx, event)
+        if any(loc.get('method') == 'ocr' for loc in event.source.get('entry', [])):
+            event.status = 'AMBIGUOUS'
+            event.confidence = min(event.confidence, 0.5)
+            event.reasons.append('OCR_REQUIRES_REVIEW')
         # A field without a source span is not a supported field.
         if title and not event.source.get('title'):
             event.title = ''
@@ -767,12 +926,51 @@ def s07_event_classification(ctx):
         if not span:
             ctx.unresolved.append(entry.id)
         events.append(event)
+    _include_project_periods(ctx, events)
     ctx.events = events
     return _sr('event_classification', confidence=0.8, warnings=warnings,
                output={'events': len(events), 'unresolved': len(ctx.unresolved)})
 
 
 # ---------------------------------------------------------------- stage 8
+
+def _include_project_periods(ctx, events):
+    """Bring explicitly dated project blocks into coverage before reconciliation."""
+    for project in extract_project_blocks(ctx):
+        locs = project.get('source', {}).get('entry', [])
+        bids = {loc.get('block_id') for loc in locs}
+        # Dedicated project sections already classified by stage 7 retain their IDs.
+        if any(e.type == 'PROJECT' and bids.intersection(getattr(e, 'header_block_ids', [])) for e in events):
+            continue
+        ranges = [m for m in D.find_mentions(project.get('duration', '')) if m['is_range']]
+        if len(ranges) != 1:
+            continue  # "6 months" alone cannot be placed on a calendar.
+        m = ranges[0]
+        entry = next((e for e in ctx.entries if bids.intersection(e.block_ids)), None)
+        if not entry or not locs:
+            continue
+        status = 'AMBIGUOUS' if any(loc.get('method') == 'ocr' for loc in locs) else 'CONFIRMED'
+        mentions = [mention for mention in ctx.mentions if mention.block_id in bids and mention.raw == m['raw']]
+        date_locs = [loc for mention in mentions for loc in SRC.locations(ctx.blocks_by_id()[mention.block_id], mention.char_start, mention.char_end)]
+        if not date_locs:
+            continue
+        event = M.Event('project_' + project['id'], entry.id,
+                        [a.id for a in ctx.assocs if a.mention_id in {mention.id for mention in mentions}],
+                        'PROJECT', project['name'], project.get('client', ''), m['start'], m['end'],
+                        m['precision'], status, 0.5 if status == 'AMBIGUOUS' else 0.85, ['EVENT_PROJECT_CUES'])
+        event.date_label, event.section, event.is_present = m['raw'], 'PROJECTS', m['is_present']
+        event.header_block_ids = list(bids)
+        company_locs = []
+        for bid in bids:
+            block = ctx.blocks_by_id().get(bid)
+            span = SRC.entity_span(block.text, project.get('client', '')) if block else None
+            if span:
+                company_locs.extend(SRC.locations(block, *span))
+        event.project_source = {**project['source'], 'dates': date_locs, 'title': locs,
+                                'company': company_locs, 'section': 'PROJECTS', 'date_label': m['raw'], 'is_present': m['is_present']}
+        event.source = event.project_source
+        events.append(event)
+
 
 def s08_timeline_reconciliation(ctx):
     """Input: events. Output: chronological timeline; overlaps kept, never errors."""
@@ -825,12 +1023,16 @@ def s10_gap_detection(ctx):
     A gap means ONLY 'no activity clearly represented here' — the system
     never claims unemployment (enforced: the token never appears).
     """
-    core = [e for e in ctx.events if e.type in ('EMPLOYMENT', 'INTERNSHIP', 'EDUCATION')]
-    uncertain = [e for e in core if e.status != 'CONFIRMED' and e.type != 'EDUCATION']
-    employment_only = any(e.type == 'EDUCATION' and e.status != 'CONFIRMED' for e in core)
+    core = [e for e in ctx.events if e.type in ('EMPLOYMENT', 'INTERNSHIP', 'EDUCATION', 'PROJECT')]
+    uncertain = [e for e in core if (e.status != 'CONFIRMED' and e.type in ('EMPLOYMENT', 'INTERNSHIP'))
+                 or (e.type == 'PROJECT' and e.status == 'AMBIGUOUS')]
     coarse = any(e.precision != 'month' for e in core)
-    dated = [e for e in ctx.events if e.start and e.end and e.status == 'CONFIRMED'
-             and (not employment_only or e.type in ('EMPLOYMENT', 'INTERNSHIP'))]
+    dated = [e for e in core if e.start and e.end and e.status == 'CONFIRMED']
+    work_intervals = [(e.start, e.end) for e in dated if e.type in ('EMPLOYMENT', 'INTERNSHIP')]
+    # Projects fully inside an employment tenure are considered, but do not
+    # change its coverage. A project/education interval filling a hole does.
+    employment_only = bool(work_intervals) and I.union(work_intervals) == I.union([(e.start, e.end) for e in dated])
+    unplaced = [e.id for e in core if not (e.start and e.end) or e.status != 'CONFIRMED']
     dated.sort(key=lambda e: D.month_index(e.start))
     gaps = []
     if len(dated) < 2 or uncertain or ctx.meta.get("reading_incomplete"):
@@ -850,7 +1052,8 @@ def s10_gap_detection(ctx):
                 g = M.Gap("g" + hashlib.sha256(f"{last_event.id}:{b.id}:{gap_start}:{gap_end}".encode()).hexdigest()[:16], list(gap_start), list(gap_end), gm, "POTENTIAL_GAP",
                           0.0, ["GAP_NO_COVERAGE"],  # confidence filled in stage 11
                           {"event_before": last_event.id, "event_after": b.id,
-                           "coverage_scope": "employment" if employment_only else "all_dated_activity"})
+                           "coverage_scope": "employment" if employment_only else "all_dated_activity",
+                           "unplaced_activity_ids": unplaced})
                 gaps.append(g)
             if D.month_index(b.end) > D.month_index(max_end):
                 max_end = b.end
@@ -938,10 +1141,16 @@ def extract_project_blocks(ctx):
                 client = next((re.sub(r'(?i)^client(?:\s*name)?\s*:\s*', '', t).strip() for t in lines if re.match(r'(?i)^client(?:\s*name)?\s*:', t)), '')
                 role = next((re.sub(r'(?i)^(?:role|position|designation|project role)\s*:\s*', '', t).strip() for t in lines if re.match(r'(?i)^(?:role|position|designation|project role)\s*:', t)), '')
                 dur = next((re.sub(r'(?i)^(?:duration|period|tenure)\s*[:\-]\s*', '', t).strip() for t in lines if re.match(r'(?i)^(?:duration|period|tenure)\s*[:\-]', t)), '')
+                if not dur:
+                    for t in lines[:3]:
+                        p_ms = D.find_mentions(t)
+                        if p_ms:
+                            dur = ' - '.join(m['raw'] for m in p_ms)
+                            break
                 title = next((re.sub(r'(?i)^(?:title|project title|project name)\s*[:\-]\s*', '', t).strip() for t in lines if re.match(r'(?i)^(?:title|project title|project name)\s*:', t)), '')
                 head = next((t for t in lines if re.match(r'(?i)^\s*(?:project|poc)(?:[-#]?\s*\d+|[\s:]|$)', t)), '')
 
-                name = title or (f'{head}: {client}' if head and client else (head or client or 'Project'))
+                name = title or (f'{head}: {client}' if head and client else (head or client or (lines[0].lstrip("•●■▪·○◆◇➢✔►▸✓★-*–— ") if lines else 'Project')))
                 details = [line.strip() for line in lines if line.strip() and not re.match(r'(?i)^(?:client|role|duration|period|tenure|title|project|poc)\b', line.strip())]
 
                 locs = []
@@ -1101,6 +1310,8 @@ def s12_recruiter_output(ctx):
                        "activity in the resume. They are not evidence of unemployment. "
                        "The recruiter makes the final decision."),
     }
+    from ..periods import analyze_timeline
+    dto["period_analysis"] = analyze_timeline(dto_events, dto_unresolved, projects)
     ctx.recruiter_output = dto
     return _sr("recruiter_output", status="SUCCESS", confidence=0.95,
                output={"events": len(dto_events), "gaps": len(dto_gaps), "projects": len(projects)})

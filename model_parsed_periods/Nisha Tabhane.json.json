@@ -1,0 +1,1490 @@
+{
+  "file_name": "Nisha Tabhane.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "22d9d10c178638d4d37f937816e7ee9085a1df243aeeea3d006a70578dd87269",
+  "doc_id": "22d9d10c178638d4d37f9378",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 6,
+    "dated_share": 0.167,
+    "unresolved": 5,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.85
+  },
+  "work_experience": [
+    {
+      "id": "v1a1c7ddb31067113",
+      "type": "EMPLOYMENT",
+      "company": "Coforge Limited - Pune, India",
+      "title": "",
+      "start_date": "2026-05",
+      "end_date": "2026-09",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Coforge Limited - Pune, India                                                                       May 2026 - Present",
+            "block_id": "b10",
+            "kind": "text",
+            "start": 628,
+            "end": 746
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "May 2026 - Present",
+            "block_id": "b10",
+            "kind": "text",
+            "start": 728,
+            "end": 746
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Coforge Limited - Pune, India",
+            "block_id": "b10",
+            "kind": "text",
+            "start": 628,
+            "end": 657
+          }
+        ],
+        "title": [],
+        "section": "WORK EXPERIENCE",
+        "date_label": "May 2026 - Present",
+        "is_present": true
+      },
+      "precision": "month",
+      "date_label": "May 2026 - Present"
+    },
+    {
+      "id": "vf44cae2cc2ae6e95",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Team Lead",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Team Lead",
+            "block_id": "b11",
+            "kind": "text",
+            "start": 749,
+            "end": 758
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "April 2024 - May 2026",
+            "block_id": "b18",
+            "kind": "text",
+            "start": 1195,
+            "end": 1216
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Team Lead",
+            "block_id": "b11",
+            "kind": "text",
+            "start": 749,
+            "end": 758
+          }
+        ],
+        "section": "WORK EXPERIENCE",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    },
+    {
+      "id": "v4453472ccd38ac5e",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Associate",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Associate",
+            "block_id": "b20",
+            "kind": "text",
+            "start": 1235,
+            "end": 1244
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "December 2021 - March 2024",
+            "block_id": "b35",
+            "kind": "text",
+            "start": 2184,
+            "end": 2210
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Associate",
+            "block_id": "b20",
+            "kind": "text",
+            "start": 1235,
+            "end": 1244
+          }
+        ],
+        "section": "WORK EXPERIENCE",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    },
+    {
+      "id": "v5d96238ee7b7af6f",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Senior  Financial  Analyst",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Senior  Financial  Analyst",
+            "block_id": "b37",
+            "kind": "text",
+            "start": 2236,
+            "end": 2262
+          }
+        ],
+        "dates": [],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Senior  Financial  Analyst",
+            "block_id": "b37",
+            "kind": "text",
+            "start": 2236,
+            "end": 2262
+          }
+        ],
+        "section": "WORK EXPERIENCE",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    }
+  ],
+  "education": [
+    {
+      "id": "vcfd3574c5334505a",
+      "type": "EDUCATION",
+      "company": "SANT GADGE BABA AMRAVATI UNIVERSITY",
+      "title": "Master Of Commerce",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "SANT GADGE BABA AMRAVATI UNIVERSITY                                                                     October 2021",
+            "block_id": "b69",
+            "kind": "text",
+            "start": 4999,
+            "end": 5115
+          },
+          {
+            "page": 1,
+            "text": "Master Of Commerce                                                                                                                 August 2019",
+            "block_id": "b70",
+            "kind": "text",
+            "start": 5119,
+            "end": 5261
+          },
+          {
+            "page": 1,
+            "text": "SANT GADGE BABA AMRAVATI UNIVERSITY",
+            "block_id": "b71",
+            "kind": "text",
+            "start": 5263,
+            "end": 5298
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "October 2021",
+            "block_id": "b69",
+            "kind": "text",
+            "start": 5103,
+            "end": 5115
+          },
+          {
+            "page": 1,
+            "text": "August 2019",
+            "block_id": "b70",
+            "kind": "text",
+            "start": 5250,
+            "end": 5261
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "SANT GADGE BABA AMRAVATI UNIVERSITY",
+            "block_id": "b69",
+            "kind": "text",
+            "start": 4999,
+            "end": 5034
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Master Of Commerce",
+            "block_id": "b70",
+            "kind": "text",
+            "start": 5119,
+            "end": 5137
+          }
+        ],
+        "section": "SANT GADGE BABA AMRAVATI UNIVERSITY                                                                     October 2021",
+        "date_label": "October 2021 / August 2019",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": "October 2021 / August 2019"
+    },
+    {
+      "id": "v00f98887a855e865",
+      "type": "EDUCATION",
+      "company": "",
+      "title": "Bachelor Of Commerce MAHARASHTRA STATE BOARD HSC SSC",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Bachelor Of Commerce MAHARASHTRA STATE BOARD HSC SSC                                        May 2016",
+            "block_id": "b72",
+            "kind": "text",
+            "start": 5300,
+            "end": 5400
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "May 2016",
+            "block_id": "b72",
+            "kind": "text",
+            "start": 5392,
+            "end": 5400
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Bachelor Of Commerce MAHARASHTRA STATE BOARD HSC SSC",
+            "block_id": "b72",
+            "kind": "text",
+            "start": 5300,
+            "end": 5352
+          }
+        ],
+        "section": "SANT GADGE BABA AMRAVATI UNIVERSITY                                                                     October 2021",
+        "date_label": "May 2016",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": "May 2016"
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 4,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "PARTIAL",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "entry e4: dates found without an explicit range",
+    "e4: dates cannot be assigned unambiguously",
+    "e5: dates cannot be assigned unambiguously",
+    "conflicting/ambiguous date kept for 'Master Of Commerce'",
+    "conflicting/ambiguous date kept for 'Bachelor Of Commerce MAHARASHTRA STATE BOARD HSC SSC'"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "22d9d10c178638d4d37f9378",
+    "filename": "Nisha Tabhane.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "v1a1c7ddb31067113",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Coforge Limited - Pune, India",
+        "start": "2026-05",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Coforge Limited - Pune, India                                                                       May 2026 - Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Coforge Limited - Pune, India                                                                       May 2026 - Present",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 628,
+              "end": 746
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "May 2026 - Present",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 728,
+              "end": 746
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Coforge Limited - Pune, India",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 628,
+              "end": 657
+            }
+          ],
+          "title": [],
+          "section": "WORK EXPERIENCE",
+          "date_label": "May 2026 - Present",
+          "is_present": true
+        },
+        "date_label": "May 2026 - Present",
+        "section": "WORK EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "vf44cae2cc2ae6e95",
+        "type": "EMPLOYMENT",
+        "title": "Team Lead",
+        "org": "",
+        "entry_text": "Team Lead • Fund Accounting Supporting fund accounting operations and ensuring timely completion of assigned deliverables. • Coordinating with internal stakeholders to address operational queries and process requirements. • Assisting in monitoring fund accounting activities while maintaining service",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Team Lead",
+              "block_id": "b11",
+              "kind": "text",
+              "start": 749,
+              "end": 758
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "April 2024 - May 2026",
+              "block_id": "b18",
+              "kind": "text",
+              "start": 1195,
+              "end": 1216
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Team Lead",
+              "block_id": "b11",
+              "kind": "text",
+              "start": 749,
+              "end": 758
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "WORK EXPERIENCE",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v4453472ccd38ac5e",
+        "type": "EMPLOYMENT",
+        "title": "Associate",
+        "org": "",
+        "entry_text": "Associate • Reconciliation of the Alternatives investments funds processing capital call notices, distribution notices and capital account statements. • Calculated monthly NAVs for private equity and alternative investment funds, ensuring accuracy of portfolio valuation, income accruals, and expense",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Associate",
+              "block_id": "b20",
+              "kind": "text",
+              "start": 1235,
+              "end": 1244
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "December 2021 - March 2024",
+              "block_id": "b35",
+              "kind": "text",
+              "start": 2184,
+              "end": 2210
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Associate",
+              "block_id": "b20",
+              "kind": "text",
+              "start": 1235,
+              "end": 1244
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "WORK EXPERIENCE",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v5d96238ee7b7af6f",
+        "type": "EMPLOYMENT",
+        "title": "Senior  Financial  Analyst",
+        "org": "",
+        "entry_text": "Senior  Financial  Analyst • Drove financial efficiency by effectively processing incoming funds in Suspense through Nostro account reconciliation and expeditious settlement, resulting in streamlined operations • Executed seamless internal transfer of funds across accounts and facilitated the kickba",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior  Financial  Analyst",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 2236,
+              "end": 2262
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior  Financial  Analyst",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 2236,
+              "end": 2262
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "WORK EXPERIENCE",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "vcfd3574c5334505a",
+        "type": "EDUCATION",
+        "title": "Master Of Commerce",
+        "org": "SANT GADGE BABA AMRAVATI UNIVERSITY",
+        "entry_text": "SANT GADGE BABA AMRAVATI UNIVERSITY                                                                     October 2021 Master Of Commerce                                                                                                                 August 2019 SANT GADGE BABA AMRAVATI UNIVERSITY",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "SANT GADGE BABA AMRAVATI UNIVERSITY                                                                     October 2021",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 4999,
+              "end": 5115
+            },
+            {
+              "page": 1,
+              "text": "Master Of Commerce                                                                                                                 August 2019",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 5119,
+              "end": 5261
+            },
+            {
+              "page": 1,
+              "text": "SANT GADGE BABA AMRAVATI UNIVERSITY",
+              "block_id": "b71",
+              "kind": "text",
+              "start": 5263,
+              "end": 5298
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "October 2021",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 5103,
+              "end": 5115
+            },
+            {
+              "page": 1,
+              "text": "August 2019",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 5250,
+              "end": 5261
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "SANT GADGE BABA AMRAVATI UNIVERSITY",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 4999,
+              "end": 5034
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Master Of Commerce",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 5119,
+              "end": 5137
+            }
+          ],
+          "section": "SANT GADGE BABA AMRAVATI UNIVERSITY                                                                     October 2021",
+          "date_label": "October 2021 / August 2019",
+          "is_present": false
+        },
+        "date_label": "October 2021 / August 2019",
+        "section": "SANT GADGE BABA AMRAVATI UNIVERSITY                                                                     October 2021",
+        "status": "AMBIGUOUS"
+      },
+      {
+        "id": "v00f98887a855e865",
+        "type": "EDUCATION",
+        "title": "Bachelor Of Commerce MAHARASHTRA STATE BOARD HSC SSC",
+        "org": "",
+        "entry_text": "Bachelor Of Commerce MAHARASHTRA STATE BOARD HSC SSC                                        May 2016 • Account Reconciliation • Fund Accounting • Private Equity • Cash Settlements • SWIFT Messaging • MS Office Tools • Client Communication • Initiative and Leadership • Cross-functional Collaboration ",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor Of Commerce MAHARASHTRA STATE BOARD HSC SSC                                        May 2016",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 5300,
+              "end": 5400
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "May 2016",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 5392,
+              "end": 5400
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor Of Commerce MAHARASHTRA STATE BOARD HSC SSC",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 5300,
+              "end": 5352
+            }
+          ],
+          "section": "SANT GADGE BABA AMRAVATI UNIVERSITY                                                                     October 2021",
+          "date_label": "May 2016",
+          "is_present": false
+        },
+        "date_label": "May 2016",
+        "section": "SANT GADGE BABA AMRAVATI UNIVERSITY                                                                     October 2021",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "vf44cae2cc2ae6e95",
+            "v4453472ccd38ac5e",
+            "v5d96238ee7b7af6f"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 6,
+      "dated_share": 0.167,
+      "unresolved": 5,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.85
+    },
+    "total_represented_months": 5,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 4,
+          "dated_periods": 1,
+          "represented_months": 5,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 1,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 3,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v1a1c7ddb31067113",
+              "label": "Coforge Limited - Pune, India",
+              "state": "month_range",
+              "start": [
+                2026,
+                5
+              ],
+              "end": [
+                2026,
+                9
+              ],
+              "months": 5,
+              "raw": "May 2026 - Present",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Coforge Limited - Pune, India                                                                       May 2026 - Present",
+                    "block_id": "b10",
+                    "kind": "text",
+                    "start": 628,
+                    "end": 746
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "May 2026 - Present",
+                    "block_id": "b10",
+                    "kind": "text",
+                    "start": 728,
+                    "end": 746
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Coforge Limited - Pune, India",
+                    "block_id": "b10",
+                    "kind": "text",
+                    "start": 628,
+                    "end": 657
+                  }
+                ],
+                "title": [],
+                "section": "WORK EXPERIENCE",
+                "date_label": "May 2026 - Present",
+                "is_present": true
+              }
+            },
+            {
+              "id": "vf44cae2cc2ae6e95",
+              "label": "Team Lead",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Team Lead",
+                    "block_id": "b11",
+                    "kind": "text",
+                    "start": 749,
+                    "end": 758
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "April 2024 - May 2026",
+                    "block_id": "b18",
+                    "kind": "text",
+                    "start": 1195,
+                    "end": 1216
+                  }
+                ],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Team Lead",
+                    "block_id": "b11",
+                    "kind": "text",
+                    "start": 749,
+                    "end": 758
+                  }
+                ],
+                "section": "WORK EXPERIENCE",
+                "date_label": "",
+                "is_present": false
+              }
+            },
+            {
+              "id": "v4453472ccd38ac5e",
+              "label": "Associate",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Associate",
+                    "block_id": "b20",
+                    "kind": "text",
+                    "start": 1235,
+                    "end": 1244
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "December 2021 - March 2024",
+                    "block_id": "b35",
+                    "kind": "text",
+                    "start": 2184,
+                    "end": 2210
+                  }
+                ],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Associate",
+                    "block_id": "b20",
+                    "kind": "text",
+                    "start": 1235,
+                    "end": 1244
+                  }
+                ],
+                "section": "WORK EXPERIENCE",
+                "date_label": "",
+                "is_present": false
+              }
+            },
+            {
+              "id": "v5d96238ee7b7af6f",
+              "label": "Senior  Financial  Analyst",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Senior  Financial  Analyst",
+                    "block_id": "b37",
+                    "kind": "text",
+                    "start": 2236,
+                    "end": 2262
+                  }
+                ],
+                "dates": [],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Senior  Financial  Analyst",
+                    "block_id": "b37",
+                    "kind": "text",
+                    "start": 2236,
+                    "end": 2262
+                  }
+                ],
+                "section": "WORK EXPERIENCE",
+                "date_label": "",
+                "is_present": false
+              }
+            }
+          ]
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 2,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 1,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 1,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "vcfd3574c5334505a",
+              "label": "Master Of Commerce",
+              "state": "ambiguous",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "October 2021 / August 2019",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "SANT GADGE BABA AMRAVATI UNIVERSITY                                                                     October 2021",
+                    "block_id": "b69",
+                    "kind": "text",
+                    "start": 4999,
+                    "end": 5115
+                  },
+                  {
+                    "page": 1,
+                    "text": "Master Of Commerce                                                                                                                 August 2019",
+                    "block_id": "b70",
+                    "kind": "text",
+                    "start": 5119,
+                    "end": 5261
+                  },
+                  {
+                    "page": 1,
+                    "text": "SANT GADGE BABA AMRAVATI UNIVERSITY",
+                    "block_id": "b71",
+                    "kind": "text",
+                    "start": 5263,
+                    "end": 5298
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "October 2021",
+                    "block_id": "b69",
+                    "kind": "text",
+                    "start": 5103,
+                    "end": 5115
+                  },
+                  {
+                    "page": 1,
+                    "text": "August 2019",
+                    "block_id": "b70",
+                    "kind": "text",
+                    "start": 5250,
+                    "end": 5261
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "SANT GADGE BABA AMRAVATI UNIVERSITY",
+                    "block_id": "b69",
+                    "kind": "text",
+                    "start": 4999,
+                    "end": 5034
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Master Of Commerce",
+                    "block_id": "b70",
+                    "kind": "text",
+                    "start": 5119,
+                    "end": 5137
+                  }
+                ],
+                "section": "SANT GADGE BABA AMRAVATI UNIVERSITY                                                                     October 2021",
+                "date_label": "October 2021 / August 2019",
+                "is_present": false
+              }
+            },
+            {
+              "id": "v00f98887a855e865",
+              "label": "Bachelor Of Commerce MAHARASHTRA STATE BOARD HSC SSC",
+              "state": "single_date",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "May 2016",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Bachelor Of Commerce MAHARASHTRA STATE BOARD HSC SSC                                        May 2016",
+                    "block_id": "b72",
+                    "kind": "text",
+                    "start": 5300,
+                    "end": 5400
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "May 2016",
+                    "block_id": "b72",
+                    "kind": "text",
+                    "start": 5392,
+                    "end": 5400
+                  }
+                ],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Bachelor Of Commerce MAHARASHTRA STATE BOARD HSC SSC",
+                    "block_id": "b72",
+                    "kind": "text",
+                    "start": 5300,
+                    "end": 5352
+                  }
+                ],
+                "section": "SANT GADGE BABA AMRAVATI UNIVERSITY                                                                     October 2021",
+                "date_label": "May 2016",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 5,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 4,
+        "dated_periods": 1,
+        "represented_months": 5,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 1,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 3,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v1a1c7ddb31067113",
+            "label": "Coforge Limited - Pune, India",
+            "state": "month_range",
+            "start": [
+              2026,
+              5
+            ],
+            "end": [
+              2026,
+              9
+            ],
+            "months": 5,
+            "raw": "May 2026 - Present",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Coforge Limited - Pune, India                                                                       May 2026 - Present",
+                  "block_id": "b10",
+                  "kind": "text",
+                  "start": 628,
+                  "end": 746
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "May 2026 - Present",
+                  "block_id": "b10",
+                  "kind": "text",
+                  "start": 728,
+                  "end": 746
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Coforge Limited - Pune, India",
+                  "block_id": "b10",
+                  "kind": "text",
+                  "start": 628,
+                  "end": 657
+                }
+              ],
+              "title": [],
+              "section": "WORK EXPERIENCE",
+              "date_label": "May 2026 - Present",
+              "is_present": true
+            }
+          },
+          {
+            "id": "vf44cae2cc2ae6e95",
+            "label": "Team Lead",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Team Lead",
+                  "block_id": "b11",
+                  "kind": "text",
+                  "start": 749,
+                  "end": 758
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "April 2024 - May 2026",
+                  "block_id": "b18",
+                  "kind": "text",
+                  "start": 1195,
+                  "end": 1216
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Team Lead",
+                  "block_id": "b11",
+                  "kind": "text",
+                  "start": 749,
+                  "end": 758
+                }
+              ],
+              "section": "WORK EXPERIENCE",
+              "date_label": "",
+              "is_present": false
+            }
+          },
+          {
+            "id": "v4453472ccd38ac5e",
+            "label": "Associate",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Associate",
+                  "block_id": "b20",
+                  "kind": "text",
+                  "start": 1235,
+                  "end": 1244
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "December 2021 - March 2024",
+                  "block_id": "b35",
+                  "kind": "text",
+                  "start": 2184,
+                  "end": 2210
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Associate",
+                  "block_id": "b20",
+                  "kind": "text",
+                  "start": 1235,
+                  "end": 1244
+                }
+              ],
+              "section": "WORK EXPERIENCE",
+              "date_label": "",
+              "is_present": false
+            }
+          },
+          {
+            "id": "v5d96238ee7b7af6f",
+            "label": "Senior  Financial  Analyst",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Senior  Financial  Analyst",
+                  "block_id": "b37",
+                  "kind": "text",
+                  "start": 2236,
+                  "end": 2262
+                }
+              ],
+              "dates": [],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Senior  Financial  Analyst",
+                  "block_id": "b37",
+                  "kind": "text",
+                  "start": 2236,
+                  "end": 2262
+                }
+              ],
+              "section": "WORK EXPERIENCE",
+              "date_label": "",
+              "is_present": false
+            }
+          }
+        ]
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 2,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 1,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 1,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "vcfd3574c5334505a",
+            "label": "Master Of Commerce",
+            "state": "ambiguous",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "October 2021 / August 2019",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "SANT GADGE BABA AMRAVATI UNIVERSITY                                                                     October 2021",
+                  "block_id": "b69",
+                  "kind": "text",
+                  "start": 4999,
+                  "end": 5115
+                },
+                {
+                  "page": 1,
+                  "text": "Master Of Commerce                                                                                                                 August 2019",
+                  "block_id": "b70",
+                  "kind": "text",
+                  "start": 5119,
+                  "end": 5261
+                },
+                {
+                  "page": 1,
+                  "text": "SANT GADGE BABA AMRAVATI UNIVERSITY",
+                  "block_id": "b71",
+                  "kind": "text",
+                  "start": 5263,
+                  "end": 5298
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "October 2021",
+                  "block_id": "b69",
+                  "kind": "text",
+                  "start": 5103,
+                  "end": 5115
+                },
+                {
+                  "page": 1,
+                  "text": "August 2019",
+                  "block_id": "b70",
+                  "kind": "text",
+                  "start": 5250,
+                  "end": 5261
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "SANT GADGE BABA AMRAVATI UNIVERSITY",
+                  "block_id": "b69",
+                  "kind": "text",
+                  "start": 4999,
+                  "end": 5034
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Master Of Commerce",
+                  "block_id": "b70",
+                  "kind": "text",
+                  "start": 5119,
+                  "end": 5137
+                }
+              ],
+              "section": "SANT GADGE BABA AMRAVATI UNIVERSITY                                                                     October 2021",
+              "date_label": "October 2021 / August 2019",
+              "is_present": false
+            }
+          },
+          {
+            "id": "v00f98887a855e865",
+            "label": "Bachelor Of Commerce MAHARASHTRA STATE BOARD HSC SSC",
+            "state": "single_date",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "May 2016",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Bachelor Of Commerce MAHARASHTRA STATE BOARD HSC SSC                                        May 2016",
+                  "block_id": "b72",
+                  "kind": "text",
+                  "start": 5300,
+                  "end": 5400
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "May 2016",
+                  "block_id": "b72",
+                  "kind": "text",
+                  "start": 5392,
+                  "end": 5400
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Bachelor Of Commerce MAHARASHTRA STATE BOARD HSC SSC",
+                  "block_id": "b72",
+                  "kind": "text",
+                  "start": 5300,
+                  "end": 5352
+                }
+              ],
+              "section": "SANT GADGE BABA AMRAVATI UNIVERSITY                                                                     October 2021",
+              "date_label": "May 2016",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 5,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

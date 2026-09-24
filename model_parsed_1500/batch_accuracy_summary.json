@@ -1,14 +1,11 @@
 {
   "total_resumes": 1554,
-  "successful_parsed": 1554,
-  "failed_parsed": 0,
-  "elapsed_seconds": 19.26,
-  "speed_resumes_per_sec": 80.7,
-  "mean_document_accuracy_pct": 87.5,
-  "total_work_experience_extracted": 4890,
-  "avg_work_experience_per_resume": 3.15,
-  "total_projects_extracted": 1293,
-  "avg_projects_per_resume": 0.83,
-  "total_gaps_detected": 591,
-  "avg_gaps_per_resume": 0.38
+  "status_counts": {
+    "SUCCESS": 785,
+    "PARTIAL": 751,
+    "FAILED": 18
+  },
+  "overall_accuracy_pct": null,
+  "superseded_by": "../model_parsed_1500_audited/batch_summary.json",
+  "note": "Legacy predictions retained for comparison. Their document_accuracy values were heuristic scores, not measured accuracy. The old summary incorrectly counted failed and partial parses as successful. See docs/audit for the original invalid summary."
 }

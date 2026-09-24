@@ -1,0 +1,242 @@
+{
+  "file_name": "Suraj_Kumar_Candidate _12_Tech_Auditor.docx",
+  "input_mode": "original_document",
+  "input_sha256": "6a2be640f2dca22dfac4ff0bc462c13a58becdd746f50ecc4643e579f4e25ffe",
+  "doc_id": "6a2be640f2dca22dfac4ff0b",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 1,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "vdc81bee36a06d492",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Assistant Manager",
+      "start_date": "2017-07",
+      "end_date": "2023-09",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Position – Assistant Manager",
+            "block_id": "b121",
+            "kind": "text",
+            "start": 13122,
+            "end": 13150
+          },
+          {
+            "page": 1,
+            "text": "Date – July 2017 to September 2023",
+            "block_id": "b122",
+            "kind": "text",
+            "start": 13151,
+            "end": 13185
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "July 2017 to September 2023",
+            "block_id": "b122",
+            "kind": "text",
+            "start": 13158,
+            "end": 13185
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Assistant Manager",
+            "block_id": "b121",
+            "kind": "text",
+            "start": 13133,
+            "end": 13150
+          }
+        ],
+        "section": "PROFESSIONAL EXPERIENCE",
+        "date_label": "July 2017 to September 2023",
+        "is_present": false
+      }
+    }
+  ],
+  "education": [],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 1,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "raw_pipeline_dto": {
+    "doc_id": "6a2be640f2dca22dfac4ff0b",
+    "filename": "Suraj_Kumar_Candidate _12_Tech_Auditor.docx",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "vdc81bee36a06d492",
+        "type": "EMPLOYMENT",
+        "title": "Assistant Manager",
+        "org": "",
+        "start": "2017-07",
+        "end": "2023-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Position – Assistant Manager\nDate – July 2017 to September 2023",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Position – Assistant Manager",
+              "block_id": "b121",
+              "kind": "text",
+              "start": 13122,
+              "end": 13150
+            },
+            {
+              "page": 1,
+              "text": "Date – July 2017 to September 2023",
+              "block_id": "b122",
+              "kind": "text",
+              "start": 13151,
+              "end": 13185
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "July 2017 to September 2023",
+              "block_id": "b122",
+              "kind": "text",
+              "start": 13158,
+              "end": 13185
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Assistant Manager",
+              "block_id": "b121",
+              "kind": "text",
+              "start": 13133,
+              "end": 13150
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "July 2017 to September 2023",
+          "is_present": false
+        },
+        "date_label": "July 2017 to September 2023",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 1,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9
+    },
+    "total_represented_months": 75,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

@@ -1,0 +1,789 @@
+{
+  "file_name": "SAIPREETHIJUNGA1.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "8579fb6e61b8e86c606cdfc10ca41e21394c0b350a321bb358ca8ba2f72f3c62",
+  "doc_id": "8579fb6e61b8e86c606cdfc1",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 0,
+    "total_events": 2,
+    "dated_share": 0.0,
+    "unresolved": 2,
+    "ambiguous": 0,
+    "mean_event_confidence": null,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [],
+  "education": [
+    {
+      "id": "ve9accad349baf456",
+      "type": "EDUCATION",
+      "company": "AAFT University",
+      "title": "",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "• Certified Nutritionist from AAFT University, Delhi – June 2024.",
+            "block_id": "b218",
+            "kind": "text",
+            "start": 15346,
+            "end": 15411
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "June 2024",
+            "block_id": "b218",
+            "kind": "text",
+            "start": 15401,
+            "end": 15410
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "AAFT University",
+            "block_id": "b218",
+            "kind": "text",
+            "start": 15376,
+            "end": 15391
+          }
+        ],
+        "title": [],
+        "section": "• Certified Nutritionist from AAFT University, Delhi – June 2024.",
+        "date_label": "June 2024",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": "June 2024"
+    },
+    {
+      "id": "vb5a3cb7b6243542b",
+      "type": "EDUCATION",
+      "company": "",
+      "title": "Bachelor of Civil Engineering",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "• Bachelor of Civil Engineering from JNTU Kakinada-2013 with 73%",
+            "block_id": "b220",
+            "kind": "text",
+            "start": 15437,
+            "end": 15501
+          },
+          {
+            "page": 1,
+            "text": "• Intermediate (MPC) Sri chaitanya Junior college, Machilipatnam -2009 with 79%.",
+            "block_id": "b221",
+            "kind": "text",
+            "start": 15503,
+            "end": 15583
+          },
+          {
+            "page": 1,
+            "text": "• SSC (Xth) from – A Little Flower-The Leader English Medium High School",
+            "block_id": "b222",
+            "kind": "text",
+            "start": 15585,
+            "end": 15657
+          },
+          {
+            "page": 1,
+            "text": "Machilipatnam.2007 with 83%.",
+            "block_id": "b223",
+            "kind": "text",
+            "start": 15694,
+            "end": 15722
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2013",
+            "block_id": "b220",
+            "kind": "text",
+            "start": 15488,
+            "end": 15492
+          },
+          {
+            "page": 1,
+            "text": "2009",
+            "block_id": "b221",
+            "kind": "text",
+            "start": 15569,
+            "end": 15573
+          },
+          {
+            "page": 1,
+            "text": "2007",
+            "block_id": "b223",
+            "kind": "text",
+            "start": 15708,
+            "end": 15712
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Bachelor of Civil Engineering",
+            "block_id": "b220",
+            "kind": "text",
+            "start": 15439,
+            "end": 15468
+          }
+        ],
+        "section": "Academic Credentials",
+        "date_label": "2013 / 2009 / 2007",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": "2013 / 2009 / 2007"
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 0,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "PARTIAL",
+    "coverage_analysis": "PARTIAL",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "section EDUCATION: entry without dated header preserved as-is",
+    "entry e1: dates found without an explicit range",
+    "e0: dates cannot be assigned unambiguously",
+    "e1: dates cannot be assigned unambiguously",
+    "conflicting/ambiguous date kept for ''",
+    "conflicting/ambiguous date kept for 'Bachelor of Civil Engineering'",
+    "no dated events to order",
+    "no intervals to cover"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "8579fb6e61b8e86c606cdfc1",
+    "filename": "SAIPREETHIJUNGA1.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [],
+    "unresolved_events": [
+      {
+        "id": "ve9accad349baf456",
+        "type": "EDUCATION",
+        "title": "",
+        "org": "AAFT University",
+        "entry_text": "• Certified Nutritionist from AAFT University, Delhi – June 2024.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "• Certified Nutritionist from AAFT University, Delhi – June 2024.",
+              "block_id": "b218",
+              "kind": "text",
+              "start": 15346,
+              "end": 15411
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "June 2024",
+              "block_id": "b218",
+              "kind": "text",
+              "start": 15401,
+              "end": 15410
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "AAFT University",
+              "block_id": "b218",
+              "kind": "text",
+              "start": 15376,
+              "end": 15391
+            }
+          ],
+          "title": [],
+          "section": "• Certified Nutritionist from AAFT University, Delhi – June 2024.",
+          "date_label": "June 2024",
+          "is_present": false
+        },
+        "date_label": "June 2024",
+        "section": "• Certified Nutritionist from AAFT University, Delhi – June 2024.",
+        "status": "AMBIGUOUS"
+      },
+      {
+        "id": "vb5a3cb7b6243542b",
+        "type": "EDUCATION",
+        "title": "Bachelor of Civil Engineering",
+        "org": "",
+        "entry_text": "• Bachelor of Civil Engineering from JNTU Kakinada-2013 with 73% • Intermediate (MPC) Sri chaitanya Junior college, Machilipatnam -2009 with 79%. • SSC (Xth) from – A Little Flower-The Leader English Medium High School Machilipatnam.2007 with 83%.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "• Bachelor of Civil Engineering from JNTU Kakinada-2013 with 73%",
+              "block_id": "b220",
+              "kind": "text",
+              "start": 15437,
+              "end": 15501
+            },
+            {
+              "page": 1,
+              "text": "• Intermediate (MPC) Sri chaitanya Junior college, Machilipatnam -2009 with 79%.",
+              "block_id": "b221",
+              "kind": "text",
+              "start": 15503,
+              "end": 15583
+            },
+            {
+              "page": 1,
+              "text": "• SSC (Xth) from – A Little Flower-The Leader English Medium High School",
+              "block_id": "b222",
+              "kind": "text",
+              "start": 15585,
+              "end": 15657
+            },
+            {
+              "page": 1,
+              "text": "Machilipatnam.2007 with 83%.",
+              "block_id": "b223",
+              "kind": "text",
+              "start": 15694,
+              "end": 15722
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2013",
+              "block_id": "b220",
+              "kind": "text",
+              "start": 15488,
+              "end": 15492
+            },
+            {
+              "page": 1,
+              "text": "2009",
+              "block_id": "b221",
+              "kind": "text",
+              "start": 15569,
+              "end": 15573
+            },
+            {
+              "page": 1,
+              "text": "2007",
+              "block_id": "b223",
+              "kind": "text",
+              "start": 15708,
+              "end": 15712
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Civil Engineering",
+              "block_id": "b220",
+              "kind": "text",
+              "start": 15439,
+              "end": 15468
+            }
+          ],
+          "section": "Academic Credentials",
+          "date_label": "2013 / 2009 / 2007",
+          "is_present": false
+        },
+        "date_label": "2013 / 2009 / 2007",
+        "section": "Academic Credentials",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 0,
+      "total_events": 2,
+      "dated_share": 0.0,
+      "unresolved": 2,
+      "ambiguous": 0,
+      "mean_event_confidence": null,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 0,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "PARTIAL",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "PARTIAL",
+        "confidence": 0.3
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 2,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 2,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "ve9accad349baf456",
+              "label": "AAFT University",
+              "state": "single_date",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "June 2024",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "• Certified Nutritionist from AAFT University, Delhi – June 2024.",
+                    "block_id": "b218",
+                    "kind": "text",
+                    "start": 15346,
+                    "end": 15411
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "June 2024",
+                    "block_id": "b218",
+                    "kind": "text",
+                    "start": 15401,
+                    "end": 15410
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "AAFT University",
+                    "block_id": "b218",
+                    "kind": "text",
+                    "start": 15376,
+                    "end": 15391
+                  }
+                ],
+                "title": [],
+                "section": "• Certified Nutritionist from AAFT University, Delhi – June 2024.",
+                "date_label": "June 2024",
+                "is_present": false
+              }
+            },
+            {
+              "id": "vb5a3cb7b6243542b",
+              "label": "Bachelor of Civil Engineering",
+              "state": "single_date",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "2013 / 2009 / 2007",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "• Bachelor of Civil Engineering from JNTU Kakinada-2013 with 73%",
+                    "block_id": "b220",
+                    "kind": "text",
+                    "start": 15437,
+                    "end": 15501
+                  },
+                  {
+                    "page": 1,
+                    "text": "• Intermediate (MPC) Sri chaitanya Junior college, Machilipatnam -2009 with 79%.",
+                    "block_id": "b221",
+                    "kind": "text",
+                    "start": 15503,
+                    "end": 15583
+                  },
+                  {
+                    "page": 1,
+                    "text": "• SSC (Xth) from – A Little Flower-The Leader English Medium High School",
+                    "block_id": "b222",
+                    "kind": "text",
+                    "start": 15585,
+                    "end": 15657
+                  },
+                  {
+                    "page": 1,
+                    "text": "Machilipatnam.2007 with 83%.",
+                    "block_id": "b223",
+                    "kind": "text",
+                    "start": 15694,
+                    "end": 15722
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "2013",
+                    "block_id": "b220",
+                    "kind": "text",
+                    "start": 15488,
+                    "end": 15492
+                  },
+                  {
+                    "page": 1,
+                    "text": "2009",
+                    "block_id": "b221",
+                    "kind": "text",
+                    "start": 15569,
+                    "end": 15573
+                  },
+                  {
+                    "page": 1,
+                    "text": "2007",
+                    "block_id": "b223",
+                    "kind": "text",
+                    "start": 15708,
+                    "end": 15712
+                  }
+                ],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Bachelor of Civil Engineering",
+                    "block_id": "b220",
+                    "kind": "text",
+                    "start": 15439,
+                    "end": 15468
+                  }
+                ],
+                "section": "Academic Credentials",
+                "date_label": "2013 / 2009 / 2007",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 0,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 2,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 2,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "ve9accad349baf456",
+            "label": "AAFT University",
+            "state": "single_date",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "June 2024",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "• Certified Nutritionist from AAFT University, Delhi – June 2024.",
+                  "block_id": "b218",
+                  "kind": "text",
+                  "start": 15346,
+                  "end": 15411
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "June 2024",
+                  "block_id": "b218",
+                  "kind": "text",
+                  "start": 15401,
+                  "end": 15410
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "AAFT University",
+                  "block_id": "b218",
+                  "kind": "text",
+                  "start": 15376,
+                  "end": 15391
+                }
+              ],
+              "title": [],
+              "section": "• Certified Nutritionist from AAFT University, Delhi – June 2024.",
+              "date_label": "June 2024",
+              "is_present": false
+            }
+          },
+          {
+            "id": "vb5a3cb7b6243542b",
+            "label": "Bachelor of Civil Engineering",
+            "state": "single_date",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "2013 / 2009 / 2007",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "• Bachelor of Civil Engineering from JNTU Kakinada-2013 with 73%",
+                  "block_id": "b220",
+                  "kind": "text",
+                  "start": 15437,
+                  "end": 15501
+                },
+                {
+                  "page": 1,
+                  "text": "• Intermediate (MPC) Sri chaitanya Junior college, Machilipatnam -2009 with 79%.",
+                  "block_id": "b221",
+                  "kind": "text",
+                  "start": 15503,
+                  "end": 15583
+                },
+                {
+                  "page": 1,
+                  "text": "• SSC (Xth) from – A Little Flower-The Leader English Medium High School",
+                  "block_id": "b222",
+                  "kind": "text",
+                  "start": 15585,
+                  "end": 15657
+                },
+                {
+                  "page": 1,
+                  "text": "Machilipatnam.2007 with 83%.",
+                  "block_id": "b223",
+                  "kind": "text",
+                  "start": 15694,
+                  "end": 15722
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "2013",
+                  "block_id": "b220",
+                  "kind": "text",
+                  "start": 15488,
+                  "end": 15492
+                },
+                {
+                  "page": 1,
+                  "text": "2009",
+                  "block_id": "b221",
+                  "kind": "text",
+                  "start": 15569,
+                  "end": 15573
+                },
+                {
+                  "page": 1,
+                  "text": "2007",
+                  "block_id": "b223",
+                  "kind": "text",
+                  "start": 15708,
+                  "end": 15712
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Bachelor of Civil Engineering",
+                  "block_id": "b220",
+                  "kind": "text",
+                  "start": 15439,
+                  "end": 15468
+                }
+              ],
+              "section": "Academic Credentials",
+              "date_label": "2013 / 2009 / 2007",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 0,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

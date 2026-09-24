@@ -1,0 +1,465 @@
+{
+  "file_name": "Ramavath Veeresh Naik.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "bfbee152397d70dfd0d862ab3749e54001dcdf83b3c4b89544067293d84f37bc",
+  "doc_id": "bfbee152397d70dfd0d862ab",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 0,
+    "total_events": 3,
+    "dated_share": 0.0,
+    "unresolved": 3,
+    "ambiguous": 0,
+    "mean_event_confidence": null,
+    "ocr_pages": []
+  },
+  "work_experience": [
+    {
+      "id": "vee05caeb52f886f1",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Full-Stack  Engineer",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Full-Stack  Engineer",
+            "block_id": "b46",
+            "kind": "text",
+            "start": 1954,
+            "end": 1974
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2025",
+            "block_id": "b58",
+            "kind": "text",
+            "start": 2076,
+            "end": 2080
+          },
+          {
+            "page": 1,
+            "text": "2026",
+            "block_id": "b61",
+            "kind": "text",
+            "start": 2094,
+            "end": 2098
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Full-Stack  Engineer",
+            "block_id": "b46",
+            "kind": "text",
+            "start": 1954,
+            "end": 1974
+          }
+        ],
+        "section": "experience",
+        "date_label": "",
+        "is_present": false
+      }
+    },
+    {
+      "id": "v400275cd5955d9b2",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Full-Stack  Web  Developer",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Full-Stack  Web  Developer",
+            "block_id": "b170",
+            "kind": "text",
+            "start": 4597,
+            "end": 4623
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2023",
+            "block_id": "b179",
+            "kind": "text",
+            "start": 4690,
+            "end": 4694
+          },
+          {
+            "page": 1,
+            "text": "2025",
+            "block_id": "b182",
+            "kind": "text",
+            "start": 4707,
+            "end": 4711
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Full-Stack  Web  Developer",
+            "block_id": "b170",
+            "kind": "text",
+            "start": 4597,
+            "end": 4623
+          }
+        ],
+        "section": "experience",
+        "date_label": "",
+        "is_present": false
+      }
+    },
+    {
+      "id": "vafe36aa8100e761f",
+      "type": "INTERNSHIP",
+      "company": "",
+      "title": "Web  Development  Intern",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Web  Development  Intern",
+            "block_id": "b223",
+            "kind": "text",
+            "start": 5887,
+            "end": 5911
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2023",
+            "block_id": "b232",
+            "kind": "text",
+            "start": 5978,
+            "end": 5982
+          },
+          {
+            "page": 1,
+            "text": "2023",
+            "block_id": "b235",
+            "kind": "text",
+            "start": 5995,
+            "end": 5999
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Web  Development  Intern",
+            "block_id": "b223",
+            "kind": "text",
+            "start": 5887,
+            "end": 5911
+          }
+        ],
+        "section": "experience",
+        "date_label": "",
+        "is_present": false
+      }
+    }
+  ],
+  "education": [],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 3,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "PARTIAL",
+    "coverage_analysis": "PARTIAL",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "entry e0: dates found without an explicit range",
+    "entry e1: dates found without an explicit range",
+    "entry e2: dates found without an explicit range",
+    "no dated events to order",
+    "no intervals to cover"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "bfbee152397d70dfd0d862ab",
+    "filename": "Ramavath Veeresh Naik.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [],
+    "unresolved_events": [
+      {
+        "id": "vee05caeb52f886f1",
+        "type": "EMPLOYMENT",
+        "title": "Full-Stack  Engineer",
+        "org": "",
+        "entry_text": "Full-Stack  Engineer | Jaisvik Software (P) Limited – Jaimax Decentralized Digital Currency Apr 2025 – July 2026 • Spearheaded  a  12-engineer  team  owning  end-to-end  system  design  and  AWS  cloud  infrastructure,  scaling  the  platform  to  20,000+  active users. • Architected  a  high-reliab",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Full-Stack  Engineer",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 1954,
+              "end": 1974
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2025",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 2076,
+              "end": 2080
+            },
+            {
+              "page": 1,
+              "text": "2026",
+              "block_id": "b61",
+              "kind": "text",
+              "start": 2094,
+              "end": 2098
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Full-Stack  Engineer",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 1954,
+              "end": 1974
+            }
+          ],
+          "section": "experience",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "experience",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v400275cd5955d9b2",
+        "type": "EMPLOYMENT",
+        "title": "Full-Stack  Web  Developer",
+        "org": "",
+        "entry_text": "Full-Stack  Web  Developer | Swio Corporate And ITES Private Limited Jun 2023 – Apr 2025 • Delivered  8+  production  web  applications  —  PWAs,  event  platforms,  e-commerce,  and  exam  portals  —  scaling  to  10,000+  users  with consistent reliability and on-time delivery. • Engineered  Hashp",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Full-Stack  Web  Developer",
+              "block_id": "b170",
+              "kind": "text",
+              "start": 4597,
+              "end": 4623
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2023",
+              "block_id": "b179",
+              "kind": "text",
+              "start": 4690,
+              "end": 4694
+            },
+            {
+              "page": 1,
+              "text": "2025",
+              "block_id": "b182",
+              "kind": "text",
+              "start": 4707,
+              "end": 4711
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Full-Stack  Web  Developer",
+              "block_id": "b170",
+              "kind": "text",
+              "start": 4597,
+              "end": 4623
+            }
+          ],
+          "section": "experience",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "experience",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "vafe36aa8100e761f",
+        "type": "INTERNSHIP",
+        "title": "Web  Development  Intern",
+        "org": "",
+        "entry_text": "Web  Development  Intern | Swio Corporate And ITES Private Limited Apr 2023 – Jun 2023 • Designed  and  shipped  an  internal  form  builder  replacing  a  paid  external  tool  —  saving  ~$50/month  —  while  driving  UI  development  and implementing technical SEO best practices that improved pag",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Web  Development  Intern",
+              "block_id": "b223",
+              "kind": "text",
+              "start": 5887,
+              "end": 5911
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2023",
+              "block_id": "b232",
+              "kind": "text",
+              "start": 5978,
+              "end": 5982
+            },
+            {
+              "page": 1,
+              "text": "2023",
+              "block_id": "b235",
+              "kind": "text",
+              "start": 5995,
+              "end": 5999
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Web  Development  Intern",
+              "block_id": "b223",
+              "kind": "text",
+              "start": 5887,
+              "end": 5911
+            }
+          ],
+          "section": "experience",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "experience",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "vee05caeb52f886f1",
+            "v400275cd5955d9b2",
+            "vafe36aa8100e761f"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 0,
+      "total_events": 3,
+      "dated_share": 0.0,
+      "unresolved": 3,
+      "ambiguous": 0,
+      "mean_event_confidence": null,
+      "ocr_pages": []
+    },
+    "total_represented_months": 0,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "PARTIAL",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "PARTIAL",
+        "confidence": 0.3
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

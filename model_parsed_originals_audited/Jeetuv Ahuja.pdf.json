@@ -1,0 +1,395 @@
+{
+  "file_name": "Jeetuv Ahuja.pdf",
+  "input_mode": "original_document",
+  "input_sha256": "6d948bbeef3d1c5e4bf26261409a405bc171c7c9be8a10ac5fabdf64d4fce9ed",
+  "doc_id": "6d948bbeef3d1c5e4bf26261",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 0,
+    "total_events": 2,
+    "dated_share": 0.0,
+    "unresolved": 2,
+    "ambiguous": 0,
+    "mean_event_confidence": null
+  },
+  "work_experience": [],
+  "education": [
+    {
+      "id": "v47da99470431d0ab",
+      "type": "EDUCATION",
+      "company": "University of Mumbai",
+      "title": "Master of Commerce",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Master of Commerce – Advanced Accounting & Financial Management, University of Mumbai",
+            "block_id": "b28",
+            "kind": "pdf",
+            "page_width": 595,
+            "page_height": 842,
+            "bbox": [
+              34.025,
+              455.5865,
+              403.098176895,
+              465.0865
+            ],
+            "fragment_text": "Master of Commerce – Advanced Accounting & Financial Management, University of Mumbai"
+          }
+        ],
+        "dates": [],
+        "company": [
+          {
+            "page": 1,
+            "text": "University of Mumbai",
+            "block_id": "b28",
+            "kind": "pdf",
+            "page_width": 595,
+            "page_height": 842,
+            "bbox": [
+              319.38,
+              455.5865,
+              403.098176895,
+              465.0865
+            ],
+            "fragment_text": "University of Mumbai"
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Master of Commerce",
+            "block_id": "b28",
+            "kind": "pdf",
+            "page_width": 595,
+            "page_height": 842,
+            "bbox": [
+              34.025,
+              455.5865,
+              116.74324169500001,
+              465.0865
+            ],
+            "fragment_text": "Master of Commerce"
+          }
+        ],
+        "section": "EDUCATION",
+        "date_label": "",
+        "is_present": false
+      }
+    },
+    {
+      "id": "v0410ad58e4ccc10b",
+      "type": "EDUCATION",
+      "company": "SMT. Chandibai Himathmal Mansukhani College",
+      "title": "Bachelor of Commerce",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Bachelor of Commerce, SMT. Chandibai Himathmal Mansukhani College",
+            "block_id": "b29",
+            "kind": "pdf",
+            "page_width": 595,
+            "page_height": 842,
+            "bbox": [
+              34.025,
+              472.8665,
+              315.13816317,
+              482.3665
+            ],
+            "fragment_text": "Bachelor of Commerce, SMT. Chandibai Himathmal Mansukhani College"
+          }
+        ],
+        "dates": [],
+        "company": [
+          {
+            "page": 1,
+            "text": "SMT. Chandibai Himathmal Mansukhani College",
+            "block_id": "b29",
+            "kind": "pdf",
+            "page_width": 595,
+            "page_height": 842,
+            "bbox": [
+              127.8,
+              472.8665,
+              315.13816317,
+              482.3665
+            ],
+            "fragment_text": "SMT. Chandibai Himathmal Mansukhani College"
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Bachelor of Commerce",
+            "block_id": "b29",
+            "kind": "pdf",
+            "page_width": 595,
+            "page_height": 842,
+            "bbox": [
+              34.025,
+              472.8665,
+              123.26523759999999,
+              482.3665
+            ],
+            "fragment_text": "Bachelor of Commerce,"
+          }
+        ],
+        "section": "EDUCATION",
+        "date_label": "",
+        "is_present": false
+      }
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 0,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "PARTIAL",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "PARTIAL",
+    "coverage_analysis": "PARTIAL",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "raw_pipeline_dto": {
+    "doc_id": "6d948bbeef3d1c5e4bf26261",
+    "filename": "Jeetuv Ahuja.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [],
+    "unresolved_events": [
+      {
+        "id": "v47da99470431d0ab",
+        "type": "EDUCATION",
+        "title": "Master of Commerce",
+        "org": "University of Mumbai",
+        "entry_text": "Master of Commerce – Advanced Accounting & Financial Management, University of Mumbai",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Master of Commerce – Advanced Accounting & Financial Management, University of Mumbai",
+              "block_id": "b28",
+              "kind": "pdf",
+              "page_width": 595,
+              "page_height": 842,
+              "bbox": [
+                34.025,
+                455.5865,
+                403.098176895,
+                465.0865
+              ],
+              "fragment_text": "Master of Commerce – Advanced Accounting & Financial Management, University of Mumbai"
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "University of Mumbai",
+              "block_id": "b28",
+              "kind": "pdf",
+              "page_width": 595,
+              "page_height": 842,
+              "bbox": [
+                319.38,
+                455.5865,
+                403.098176895,
+                465.0865
+              ],
+              "fragment_text": "University of Mumbai"
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Master of Commerce",
+              "block_id": "b28",
+              "kind": "pdf",
+              "page_width": 595,
+              "page_height": 842,
+              "bbox": [
+                34.025,
+                455.5865,
+                116.74324169500001,
+                465.0865
+              ],
+              "fragment_text": "Master of Commerce"
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "EDUCATION",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v0410ad58e4ccc10b",
+        "type": "EDUCATION",
+        "title": "Bachelor of Commerce",
+        "org": "SMT. Chandibai Himathmal Mansukhani College",
+        "entry_text": "Bachelor of Commerce, SMT. Chandibai Himathmal Mansukhani College",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor of Commerce, SMT. Chandibai Himathmal Mansukhani College",
+              "block_id": "b29",
+              "kind": "pdf",
+              "page_width": 595,
+              "page_height": 842,
+              "bbox": [
+                34.025,
+                472.8665,
+                315.13816317,
+                482.3665
+              ],
+              "fragment_text": "Bachelor of Commerce, SMT. Chandibai Himathmal Mansukhani College"
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "SMT. Chandibai Himathmal Mansukhani College",
+              "block_id": "b29",
+              "kind": "pdf",
+              "page_width": 595,
+              "page_height": 842,
+              "bbox": [
+                127.8,
+                472.8665,
+                315.13816317,
+                482.3665
+              ],
+              "fragment_text": "SMT. Chandibai Himathmal Mansukhani College"
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Commerce",
+              "block_id": "b29",
+              "kind": "pdf",
+              "page_width": 595,
+              "page_height": 842,
+              "bbox": [
+                34.025,
+                472.8665,
+                123.26523759999999,
+                482.3665
+              ],
+              "fragment_text": "Bachelor of Commerce,"
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "EDUCATION",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 0,
+      "total_events": 2,
+      "dated_share": 0.0,
+      "unresolved": 2,
+      "ambiguous": 0,
+      "mean_event_confidence": null
+    },
+    "total_represented_months": 0,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "PARTIAL",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "PARTIAL",
+        "confidence": 0.3
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

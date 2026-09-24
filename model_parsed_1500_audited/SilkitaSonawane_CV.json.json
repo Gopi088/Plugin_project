@@ -1,0 +1,498 @@
+{
+  "file_name": "SilkitaSonawane_CV.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "e25739ab346793eec91f2b600b7690687be4044c6fb814a1dd1e6204864351c8",
+  "doc_id": "e25739ab346793eec91f2b60",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 3,
+    "dated_share": 0.667,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "ocr_pages": []
+  },
+  "work_experience": [
+    {
+      "id": "vdd173d120bf046a6",
+      "type": "EMPLOYMENT",
+      "company": "eClerx Services Ltd",
+      "title": "Financial Analyst",
+      "start_date": "2023-02",
+      "end_date": "2025-11",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Financial Analyst | eClerx Services Ltd. |",
+            "block_id": "b28",
+            "kind": "text",
+            "start": 1860,
+            "end": 1902
+          },
+          {
+            "page": 1,
+            "text": "Feb 2023 – Nov 2025",
+            "block_id": "b30",
+            "kind": "text",
+            "start": 1912,
+            "end": 1931
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Feb 2023 – Nov 2025",
+            "block_id": "b30",
+            "kind": "text",
+            "start": 1912,
+            "end": 1931
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "eClerx Services Ltd",
+            "block_id": "b28",
+            "kind": "text",
+            "start": 1880,
+            "end": 1899
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Financial Analyst",
+            "block_id": "b28",
+            "kind": "text",
+            "start": 1860,
+            "end": 1877
+          }
+        ],
+        "section": "PROFESSIONAL EXPERIENCE",
+        "date_label": "Feb 2023 – Nov 2025",
+        "is_present": false
+      }
+    },
+    {
+      "id": "v80e214fcf5643222",
+      "type": "EMPLOYMENT",
+      "company": "MAS",
+      "title": "Regulatory Reporting Associate",
+      "start_date": "2025-11",
+      "end_date": "2026-09",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Regulatory Reporting Associate - MAS",
+            "block_id": "b18",
+            "kind": "text",
+            "start": 1257,
+            "end": 1293
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Nov 2025 – Present",
+            "block_id": "b21",
+            "kind": "text",
+            "start": 1362,
+            "end": 1380
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "MAS",
+            "block_id": "b18",
+            "kind": "text",
+            "start": 1290,
+            "end": 1293
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Regulatory Reporting Associate",
+            "block_id": "b18",
+            "kind": "text",
+            "start": 1257,
+            "end": 1287
+          }
+        ],
+        "section": "PROFESSIONAL EXPERIENCE",
+        "date_label": "Nov 2025 – Present",
+        "is_present": true
+      }
+    }
+  ],
+  "education": [
+    {
+      "id": "v2248f17c7926fee2",
+      "type": "EDUCATION",
+      "company": "Shri M.M.P. Shah College of Arts",
+      "title": "Bachelor of Accounts",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Bachelor of Accounts, Finance and Insurance | Shri M.M.P. Shah College of Arts, Science and Commerce | 2022",
+            "block_id": "b50",
+            "kind": "text",
+            "start": 3695,
+            "end": 3802
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2022",
+            "block_id": "b50",
+            "kind": "text",
+            "start": 3798,
+            "end": 3802
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Shri M.M.P. Shah College of Arts",
+            "block_id": "b50",
+            "kind": "text",
+            "start": 3741,
+            "end": 3773
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Bachelor of Accounts",
+            "block_id": "b50",
+            "kind": "text",
+            "start": 3695,
+            "end": 3715
+          }
+        ],
+        "section": "EDUCATION",
+        "date_label": "2022",
+        "is_present": false
+      }
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 2,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "entry e2: dates found without an explicit range",
+    "e2: dates cannot be assigned unambiguously",
+    "overlap preserved: 'Financial Analyst' overlaps 'Regulatory Reporting Associate'",
+    "conflicting/ambiguous date kept for 'Bachelor of Accounts'"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "e25739ab346793eec91f2b60",
+    "filename": "SilkitaSonawane_CV.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "vdd173d120bf046a6",
+        "type": "EMPLOYMENT",
+        "title": "Financial Analyst",
+        "org": "eClerx Services Ltd",
+        "start": "2023-02",
+        "end": "2025-11",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Financial Analyst | eClerx Services Ltd. |\nFeb 2023 – Nov 2025",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Financial Analyst | eClerx Services Ltd. |",
+              "block_id": "b28",
+              "kind": "text",
+              "start": 1860,
+              "end": 1902
+            },
+            {
+              "page": 1,
+              "text": "Feb 2023 – Nov 2025",
+              "block_id": "b30",
+              "kind": "text",
+              "start": 1912,
+              "end": 1931
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Feb 2023 – Nov 2025",
+              "block_id": "b30",
+              "kind": "text",
+              "start": 1912,
+              "end": 1931
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "eClerx Services Ltd",
+              "block_id": "b28",
+              "kind": "text",
+              "start": 1880,
+              "end": 1899
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Financial Analyst",
+              "block_id": "b28",
+              "kind": "text",
+              "start": 1860,
+              "end": 1877
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Feb 2023 – Nov 2025",
+          "is_present": false
+        },
+        "date_label": "Feb 2023 – Nov 2025",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v80e214fcf5643222",
+        "type": "EMPLOYMENT",
+        "title": "Regulatory Reporting Associate",
+        "org": "MAS",
+        "start": "2025-11",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Regulatory Reporting Associate - MAS",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Regulatory Reporting Associate - MAS",
+              "block_id": "b18",
+              "kind": "text",
+              "start": 1257,
+              "end": 1293
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Nov 2025 – Present",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 1362,
+              "end": 1380
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "MAS",
+              "block_id": "b18",
+              "kind": "text",
+              "start": 1290,
+              "end": 1293
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Regulatory Reporting Associate",
+              "block_id": "b18",
+              "kind": "text",
+              "start": 1257,
+              "end": 1287
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Nov 2025 – Present",
+          "is_present": true
+        },
+        "date_label": "Nov 2025 – Present",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v2248f17c7926fee2",
+        "type": "EDUCATION",
+        "title": "Bachelor of Accounts",
+        "org": "Shri M.M.P. Shah College of Arts",
+        "entry_text": "Bachelor of Accounts, Finance and Insurance | Shri M.M.P. Shah College of Arts, Science and Commerce | 2022",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor of Accounts, Finance and Insurance | Shri M.M.P. Shah College of Arts, Science and Commerce | 2022",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 3695,
+              "end": 3802
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2022",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 3798,
+              "end": 3802
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Shri M.M.P. Shah College of Arts",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 3741,
+              "end": 3773
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Accounts",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 3695,
+              "end": 3715
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2022",
+          "is_present": false
+        },
+        "date_label": "2022",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "NO_GAP_DETECTED",
+        "confidence": 0.9,
+        "reasons": [],
+        "evidence": {
+          "note": "no uncovered months between supported entries"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 3,
+      "dated_share": 0.667,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "ocr_pages": []
+    },
+    "total_represented_months": 44,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

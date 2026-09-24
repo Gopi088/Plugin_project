@@ -1,0 +1,451 @@
+{
+  "file_name": "Chandan Kumar BV.pdf",
+  "input_mode": "original_document",
+  "input_sha256": "22590a41f9e28b98b2d170d28301755abe96ba85097aa5050f4f1bb023a10848",
+  "doc_id": "22590a41f9e28b98b2d170d2",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 0,
+    "total_events": 2,
+    "dated_share": 0.0,
+    "unresolved": 2,
+    "ambiguous": 0,
+    "mean_event_confidence": null
+  },
+  "work_experience": [],
+  "education": [
+    {
+      "id": "vb30865c56d23f924",
+      "type": "EDUCATION",
+      "company": "",
+      "title": "Data Entry MBA/PGDM",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Data Entry MBA/PGDM, 2025",
+            "block_id": "b26",
+            "kind": "pdf",
+            "page_width": 595,
+            "page_height": 842,
+            "bbox": [
+              30.0075687375,
+              381.3025807971,
+              346.5791668367222,
+              390.30485141835
+            ]
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2025",
+            "block_id": "b26",
+            "kind": "pdf",
+            "page_width": 595,
+            "page_height": 842,
+            "bbox": [
+              325.7790454717149,
+              381.75869584191,
+              346.5791668367222,
+              390.16081508841
+            ]
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Data Entry MBA/PGDM",
+            "block_id": "b26",
+            "kind": "pdf",
+            "page_width": 595,
+            "page_height": 842,
+            "bbox": [
+              30.0075687375,
+              381.3025807971,
+              321.2103181125086,
+              390.30485141835
+            ]
+          }
+        ],
+        "section": "Education",
+        "date_label": "2025",
+        "is_present": false
+      }
+    },
+    {
+      "id": "vcf8174f12cac8b91",
+      "type": "EDUCATION",
+      "company": "Royal degree college chintamani",
+      "title": "B.Com",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "B.Com, 2022",
+            "block_id": "b30",
+            "kind": "pdf",
+            "page_width": 595,
+            "page_height": 842,
+            "bbox": [
+              273.669026886,
+              424.36944344916003,
+              326.0815967835107,
+              432.77156269566
+            ],
+            "fragment_text": "B.Com, 2022"
+          },
+          {
+            "page": 1,
+            "text": "Royal degree college chintamani",
+            "block_id": "b31",
+            "kind": "pdf",
+            "page_width": 595,
+            "page_height": 842,
+            "bbox": [
+              261.665999391,
+              444.17443881591004,
+              389.323973257307,
+              452.57655806241
+            ],
+            "fragment_text": "Royal degree college chintamani"
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2022",
+            "block_id": "b30",
+            "kind": "pdf",
+            "page_width": 595,
+            "page_height": 842,
+            "bbox": [
+              305.3738987302149,
+              424.36944344916003,
+              326.0815967835107,
+              432.77156269566
+            ],
+            "fragment_text": "2022"
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Royal degree college chintamani",
+            "block_id": "b31",
+            "kind": "pdf",
+            "page_width": 595,
+            "page_height": 842,
+            "bbox": [
+              261.665999391,
+              444.17443881591004,
+              389.323973257307,
+              452.57655806241
+            ],
+            "fragment_text": "Royal degree college chintamani"
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "B.Com",
+            "block_id": "b30",
+            "kind": "pdf",
+            "page_width": 595,
+            "page_height": 842,
+            "bbox": [
+              273.669026886,
+              424.36944344916003,
+              300.3353278635012,
+              432.77156269566
+            ],
+            "fragment_text": "B.Com"
+          }
+        ],
+        "section": "Education",
+        "date_label": "2022",
+        "is_present": false
+      }
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 0,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "PARTIAL",
+    "coverage_analysis": "PARTIAL",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "raw_pipeline_dto": {
+    "doc_id": "22590a41f9e28b98b2d170d2",
+    "filename": "Chandan Kumar BV.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [],
+    "unresolved_events": [
+      {
+        "id": "vb30865c56d23f924",
+        "type": "EDUCATION",
+        "title": "Data Entry MBA/PGDM",
+        "org": "",
+        "entry_text": "Data Entry MBA/PGDM, 2025 MS Office Computer Skills Dhanwantari academy For Management Studies Accounting",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Data Entry MBA/PGDM, 2025",
+              "block_id": "b26",
+              "kind": "pdf",
+              "page_width": 595,
+              "page_height": 842,
+              "bbox": [
+                30.0075687375,
+                381.3025807971,
+                346.5791668367222,
+                390.30485141835
+              ]
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2025",
+              "block_id": "b26",
+              "kind": "pdf",
+              "page_width": 595,
+              "page_height": 842,
+              "bbox": [
+                325.7790454717149,
+                381.75869584191,
+                346.5791668367222,
+                390.16081508841
+              ]
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Data Entry MBA/PGDM",
+              "block_id": "b26",
+              "kind": "pdf",
+              "page_width": 595,
+              "page_height": 842,
+              "bbox": [
+                30.0075687375,
+                381.3025807971,
+                321.2103181125086,
+                390.30485141835
+              ]
+            }
+          ],
+          "section": "Education",
+          "date_label": "2025",
+          "is_present": false
+        },
+        "date_label": "2025",
+        "section": "Education",
+        "status": "AMBIGUOUS"
+      },
+      {
+        "id": "vcf8174f12cac8b91",
+        "type": "EDUCATION",
+        "title": "B.Com",
+        "org": "Royal degree college chintamani",
+        "entry_text": "B.Com, 2022 Royal degree college chintamani",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "B.Com, 2022",
+              "block_id": "b30",
+              "kind": "pdf",
+              "page_width": 595,
+              "page_height": 842,
+              "bbox": [
+                273.669026886,
+                424.36944344916003,
+                326.0815967835107,
+                432.77156269566
+              ],
+              "fragment_text": "B.Com, 2022"
+            },
+            {
+              "page": 1,
+              "text": "Royal degree college chintamani",
+              "block_id": "b31",
+              "kind": "pdf",
+              "page_width": 595,
+              "page_height": 842,
+              "bbox": [
+                261.665999391,
+                444.17443881591004,
+                389.323973257307,
+                452.57655806241
+              ],
+              "fragment_text": "Royal degree college chintamani"
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2022",
+              "block_id": "b30",
+              "kind": "pdf",
+              "page_width": 595,
+              "page_height": 842,
+              "bbox": [
+                305.3738987302149,
+                424.36944344916003,
+                326.0815967835107,
+                432.77156269566
+              ],
+              "fragment_text": "2022"
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Royal degree college chintamani",
+              "block_id": "b31",
+              "kind": "pdf",
+              "page_width": 595,
+              "page_height": 842,
+              "bbox": [
+                261.665999391,
+                444.17443881591004,
+                389.323973257307,
+                452.57655806241
+              ],
+              "fragment_text": "Royal degree college chintamani"
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "B.Com",
+              "block_id": "b30",
+              "kind": "pdf",
+              "page_width": 595,
+              "page_height": 842,
+              "bbox": [
+                273.669026886,
+                424.36944344916003,
+                300.3353278635012,
+                432.77156269566
+              ],
+              "fragment_text": "B.Com"
+            }
+          ],
+          "section": "Education",
+          "date_label": "2022",
+          "is_present": false
+        },
+        "date_label": "2022",
+        "section": "Education",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 0,
+      "total_events": 2,
+      "dated_share": 0.0,
+      "unresolved": 2,
+      "ambiguous": 0,
+      "mean_event_confidence": null
+    },
+    "total_represented_months": 0,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "PARTIAL",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "PARTIAL",
+        "confidence": 0.3
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

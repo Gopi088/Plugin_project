@@ -1,0 +1,578 @@
+{
+  "file_name": "Tripti Gupta.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "41a7587e43bf21eca58b8f77a20f884b91c9db7edc29985aedc7de81254a1029",
+  "doc_id": "41a7587e43bf21eca58b8f77",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 3,
+    "total_events": 3,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.81,
+    "ocr_pages": []
+  },
+  "work_experience": [
+    {
+      "id": "v218d362623b8c8cc",
+      "type": "EMPLOYMENT",
+      "company": "Cisco Systems",
+      "title": "Engineer",
+      "start_date": "2022-01",
+      "end_date": "2026-09",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Engineer",
+            "block_id": "b13",
+            "kind": "text",
+            "start": 559,
+            "end": 567
+          },
+          {
+            "page": 1,
+            "text": "Cisco Systems",
+            "block_id": "b14",
+            "kind": "text",
+            "start": 569,
+            "end": 582
+          },
+          {
+            "page": 1,
+            "text": "Jan 2022 – Present",
+            "block_id": "b15",
+            "kind": "text",
+            "start": 584,
+            "end": 602
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Jan 2022 – Present",
+            "block_id": "b15",
+            "kind": "text",
+            "start": 584,
+            "end": 602
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Cisco Systems",
+            "block_id": "b14",
+            "kind": "text",
+            "start": 569,
+            "end": 582
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Engineer",
+            "block_id": "b13",
+            "kind": "text",
+            "start": 559,
+            "end": 567
+          }
+        ],
+        "section": "PROFESSIONAL EXPERIENCE",
+        "date_label": "Jan 2022 – Present",
+        "is_present": true
+      }
+    }
+  ],
+  "education": [
+    {
+      "id": "v2d8a6559e0908389",
+      "type": "EDUCATION",
+      "company": "",
+      "title": "Delhi 8.9 CGPA",
+      "start_date": "2017-01",
+      "end_date": "2020-12",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Women (IGDTUW), Delhi 8.9 CGPA",
+            "block_id": "b6",
+            "kind": "text",
+            "start": 256,
+            "end": 286
+          },
+          {
+            "page": 1,
+            "text": "Bachelor of Computer Applications (BCA) 2017-2020 Guru Gobind Singh Indraprastha University, Delhi 9.2 CGPA",
+            "block_id": "b7",
+            "kind": "text",
+            "start": 288,
+            "end": 395
+          },
+          {
+            "page": 1,
+            "text": "AISSCE (Class XII) 2017 Tyagi Public School, Delhi 82%",
+            "block_id": "b8",
+            "kind": "text",
+            "start": 397,
+            "end": 451
+          },
+          {
+            "page": 1,
+            "text": "AISSE (Class X) 2015 Tyagi Public School, Delhi 9.6 CGPA",
+            "block_id": "b9",
+            "kind": "text",
+            "start": 453,
+            "end": 509
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2017-2020",
+            "block_id": "b7",
+            "kind": "text",
+            "start": 328,
+            "end": 337
+          },
+          {
+            "page": 1,
+            "text": "2017",
+            "block_id": "b8",
+            "kind": "text",
+            "start": 416,
+            "end": 420
+          },
+          {
+            "page": 1,
+            "text": "2015",
+            "block_id": "b9",
+            "kind": "text",
+            "start": 469,
+            "end": 473
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Delhi 8.9 CGPA",
+            "block_id": "b6",
+            "kind": "text",
+            "start": 272,
+            "end": 286
+          }
+        ],
+        "section": "EDUCATION",
+        "date_label": "2017-2020",
+        "is_present": false
+      }
+    },
+    {
+      "id": "v997a14d61d6282b9",
+      "type": "EDUCATION",
+      "company": "Name of Course Year University Marks",
+      "title": "",
+      "start_date": "2020-01",
+      "end_date": "2022-12",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Name of Course Year University Marks",
+            "block_id": "b4",
+            "kind": "text",
+            "start": 124,
+            "end": 160
+          },
+          {
+            "page": 1,
+            "text": "Master of Computer Applications (MCA) 2020-2022 Indira Gandhi Delhi Technical University for",
+            "block_id": "b5",
+            "kind": "text",
+            "start": 162,
+            "end": 254
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2020-2022",
+            "block_id": "b5",
+            "kind": "text",
+            "start": 200,
+            "end": 209
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Name of Course Year University Marks",
+            "block_id": "b4",
+            "kind": "text",
+            "start": 124,
+            "end": 160
+          }
+        ],
+        "title": [],
+        "section": "EDUCATION",
+        "date_label": "2020-2022",
+        "is_present": false
+      }
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 1,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "overlap preserved: 'Delhi 8.9 CGPA' overlaps ''",
+    "overlap preserved: '' overlaps 'Engineer'"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "41a7587e43bf21eca58b8f77",
+    "filename": "Tripti Gupta.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v2d8a6559e0908389",
+        "type": "EDUCATION",
+        "title": "Delhi 8.9 CGPA",
+        "org": "",
+        "start": "2017-01",
+        "end": "2020-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "Women (IGDTUW), Delhi 8.9 CGPA\nBachelor of Computer Applications (BCA) 2017-2020 Guru Gobind Singh Indraprastha University, Delhi 9.2 CGPA\nAISSCE (Class XII) 2017 Tyagi Public School, Delhi 82%\nAISSE (Class X) 2015 Tyagi Public School, Delhi 9.6 CGPA",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Women (IGDTUW), Delhi 8.9 CGPA",
+              "block_id": "b6",
+              "kind": "text",
+              "start": 256,
+              "end": 286
+            },
+            {
+              "page": 1,
+              "text": "Bachelor of Computer Applications (BCA) 2017-2020 Guru Gobind Singh Indraprastha University, Delhi 9.2 CGPA",
+              "block_id": "b7",
+              "kind": "text",
+              "start": 288,
+              "end": 395
+            },
+            {
+              "page": 1,
+              "text": "AISSCE (Class XII) 2017 Tyagi Public School, Delhi 82%",
+              "block_id": "b8",
+              "kind": "text",
+              "start": 397,
+              "end": 451
+            },
+            {
+              "page": 1,
+              "text": "AISSE (Class X) 2015 Tyagi Public School, Delhi 9.6 CGPA",
+              "block_id": "b9",
+              "kind": "text",
+              "start": 453,
+              "end": 509
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2017-2020",
+              "block_id": "b7",
+              "kind": "text",
+              "start": 328,
+              "end": 337
+            },
+            {
+              "page": 1,
+              "text": "2017",
+              "block_id": "b8",
+              "kind": "text",
+              "start": 416,
+              "end": 420
+            },
+            {
+              "page": 1,
+              "text": "2015",
+              "block_id": "b9",
+              "kind": "text",
+              "start": 469,
+              "end": 473
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Delhi 8.9 CGPA",
+              "block_id": "b6",
+              "kind": "text",
+              "start": 272,
+              "end": 286
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2017-2020",
+          "is_present": false
+        },
+        "date_label": "2017-2020",
+        "section": "EDUCATION",
+        "is_present": false
+      },
+      {
+        "id": "v997a14d61d6282b9",
+        "type": "EDUCATION",
+        "title": "",
+        "org": "Name of Course Year University Marks",
+        "start": "2020-01",
+        "end": "2022-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "Name of Course Year University Marks\nMaster of Computer Applications (MCA) 2020-2022 Indira Gandhi Delhi Technical University for",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Name of Course Year University Marks",
+              "block_id": "b4",
+              "kind": "text",
+              "start": 124,
+              "end": 160
+            },
+            {
+              "page": 1,
+              "text": "Master of Computer Applications (MCA) 2020-2022 Indira Gandhi Delhi Technical University for",
+              "block_id": "b5",
+              "kind": "text",
+              "start": 162,
+              "end": 254
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2020-2022",
+              "block_id": "b5",
+              "kind": "text",
+              "start": 200,
+              "end": 209
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Name of Course Year University Marks",
+              "block_id": "b4",
+              "kind": "text",
+              "start": 124,
+              "end": 160
+            }
+          ],
+          "title": [],
+          "section": "EDUCATION",
+          "date_label": "2020-2022",
+          "is_present": false
+        },
+        "date_label": "2020-2022",
+        "section": "EDUCATION",
+        "is_present": false
+      },
+      {
+        "id": "v218d362623b8c8cc",
+        "type": "EMPLOYMENT",
+        "title": "Engineer",
+        "org": "Cisco Systems",
+        "start": "2022-01",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Engineer\nCisco Systems\nJan 2022 – Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Engineer",
+              "block_id": "b13",
+              "kind": "text",
+              "start": 559,
+              "end": 567
+            },
+            {
+              "page": 1,
+              "text": "Cisco Systems",
+              "block_id": "b14",
+              "kind": "text",
+              "start": 569,
+              "end": 582
+            },
+            {
+              "page": 1,
+              "text": "Jan 2022 – Present",
+              "block_id": "b15",
+              "kind": "text",
+              "start": 584,
+              "end": 602
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jan 2022 – Present",
+              "block_id": "b15",
+              "kind": "text",
+              "start": 584,
+              "end": 602
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Cisco Systems",
+              "block_id": "b14",
+              "kind": "text",
+              "start": 569,
+              "end": 582
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Engineer",
+              "block_id": "b13",
+              "kind": "text",
+              "start": 559,
+              "end": 567
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Jan 2022 – Present",
+          "is_present": true
+        },
+        "date_label": "Jan 2022 – Present",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [],
+        "evidence": {
+          "note": "year-only dates need verification"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 3,
+      "total_events": 3,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.81,
+      "ocr_pages": []
+    },
+    "total_represented_months": 117,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

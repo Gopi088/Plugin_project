@@ -1,0 +1,181 @@
+{
+  "file_name": "SenthilKumarR.pdf",
+  "input_mode": "original_document",
+  "input_sha256": "9d78e089ec1305911fa660f0b2671a701becf00b6d6e954777b87f2d28874f83",
+  "doc_id": "9d78e089ec1305911fa660f0",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 0,
+    "total_events": 0,
+    "dated_share": 0.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": null
+  },
+  "work_experience": [],
+  "education": [],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "Client: – Citibank - India | Manual Tester (Mar 2018 – Jun 2019)",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [],
+      "raw_text": "Project 3: Client: – Citibank - India | Manual Tester (Mar 2018 – Jun 2019)",
+      "source": {
+        "entry": [
+          {
+            "page": 2,
+            "text": "Project 3: Client: – Citibank - India | Manual Tester (Mar 2018 – Jun 2019)",
+            "block_id": "b136",
+            "kind": "pdf",
+            "page_width": 595.25,
+            "page_height": 842,
+            "bbox": [
+              194.83,
+              731.98,
+              470.723,
+              740.98
+            ],
+            "fragment_text": "Project 3: Client: – Citibank - India | Manual Tester (Mar 2018 – Jun 2019)"
+          }
+        ]
+      }
+    }
+  ],
+  "gaps": [],
+  "total_work_experience_entries": 0,
+  "total_projects_entries": 1,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "PARTIAL",
+    "coverage_analysis": "PARTIAL",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "raw_pipeline_dto": {
+    "doc_id": "9d78e089ec1305911fa660f0",
+    "filename": "SenthilKumarR.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [],
+    "unresolved_events": [],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "Client: – Citibank - India | Manual Tester (Mar 2018 – Jun 2019)",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [],
+        "raw_text": "Project 3: Client: – Citibank - India | Manual Tester (Mar 2018 – Jun 2019)",
+        "source": {
+          "entry": [
+            {
+              "page": 2,
+              "text": "Project 3: Client: – Citibank - India | Manual Tester (Mar 2018 – Jun 2019)",
+              "block_id": "b136",
+              "kind": "pdf",
+              "page_width": 595.25,
+              "page_height": 842,
+              "bbox": [
+                194.83,
+                731.98,
+                470.723,
+                740.98
+              ],
+              "fragment_text": "Project 3: Client: – Citibank - India | Manual Tester (Mar 2018 – Jun 2019)"
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 0,
+      "total_events": 0,
+      "dated_share": 0.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": null
+    },
+    "total_represented_months": 0,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "PARTIAL",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "PARTIAL",
+        "confidence": 0.3
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

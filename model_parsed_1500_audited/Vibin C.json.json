@@ -1,0 +1,438 @@
+{
+  "file_name": "Vibin C.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "d6236f23e650ac74dc6704f5603df94e1c8882f2233ea5b2629e9f7d7d66e2ab",
+  "doc_id": "d6236f23e650ac74dc6704f5",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 3,
+    "dated_share": 0.667,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "ocr_pages": []
+  },
+  "work_experience": [
+    {
+      "id": "vb5295a059103d13f",
+      "type": "INTERNSHIP",
+      "company": "",
+      "title": "Software Engineer Intern",
+      "start_date": "2022-03",
+      "end_date": "2022-06",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Software Engineer Intern March 2022 - June 2022",
+            "block_id": "b39",
+            "kind": "text",
+            "start": 2398,
+            "end": 2445
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "March 2022 - June 2022",
+            "block_id": "b39",
+            "kind": "text",
+            "start": 2423,
+            "end": 2445
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Software Engineer Intern",
+            "block_id": "b39",
+            "kind": "text",
+            "start": 2398,
+            "end": 2422
+          }
+        ],
+        "section": "Internship",
+        "date_label": "March 2022 - June 2022",
+        "is_present": false
+      }
+    },
+    {
+      "id": "v8f6abfcb6f6af5cc",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Software Engineer",
+      "start_date": "2022-07",
+      "end_date": "2026-09",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Software Engineer July 2022 - Present",
+            "block_id": "b19",
+            "kind": "text",
+            "start": 997,
+            "end": 1034
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "July 2022 - Present",
+            "block_id": "b19",
+            "kind": "text",
+            "start": 1015,
+            "end": 1034
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Software Engineer",
+            "block_id": "b19",
+            "kind": "text",
+            "start": 997,
+            "end": 1014
+          }
+        ],
+        "section": "Experience",
+        "date_label": "July 2022 - Present",
+        "is_present": true
+      }
+    }
+  ],
+  "education": [
+    {
+      "id": "vc3a2696448c2bfcf",
+      "type": "EDUCATION",
+      "company": "East Point College of Engineering and Technology",
+      "title": "Bachelor of Engineering (Information Science and Engineering",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "East Point College of Engineering and Technology , Bengaluru",
+            "block_id": "b56",
+            "kind": "text",
+            "start": 3486,
+            "end": 3546
+          },
+          {
+            "page": 1,
+            "text": "• Bachelor of Engineering (Information Science and Engineering)",
+            "block_id": "b57",
+            "kind": "text",
+            "start": 3548,
+            "end": 3611
+          }
+        ],
+        "dates": [],
+        "company": [
+          {
+            "page": 1,
+            "text": "East Point College of Engineering and Technology",
+            "block_id": "b56",
+            "kind": "text",
+            "start": 3486,
+            "end": 3534
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Bachelor of Engineering (Information Science and Engineering",
+            "block_id": "b57",
+            "kind": "text",
+            "start": 3550,
+            "end": 3610
+          }
+        ],
+        "section": "Education",
+        "date_label": "",
+        "is_present": false
+      }
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 2,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "PARTIAL",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [],
+  "raw_pipeline_dto": {
+    "doc_id": "d6236f23e650ac74dc6704f5",
+    "filename": "Vibin C.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "vb5295a059103d13f",
+        "type": "INTERNSHIP",
+        "title": "Software Engineer Intern",
+        "org": "",
+        "start": "2022-03",
+        "end": "2022-06",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_INTERNSHIP_CUES"
+        ],
+        "quote": "Software Engineer Intern March 2022 - June 2022",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Software Engineer Intern March 2022 - June 2022",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 2398,
+              "end": 2445
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "March 2022 - June 2022",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 2423,
+              "end": 2445
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Software Engineer Intern",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 2398,
+              "end": 2422
+            }
+          ],
+          "section": "Internship",
+          "date_label": "March 2022 - June 2022",
+          "is_present": false
+        },
+        "date_label": "March 2022 - June 2022",
+        "section": "Internship",
+        "is_present": false
+      },
+      {
+        "id": "v8f6abfcb6f6af5cc",
+        "type": "EMPLOYMENT",
+        "title": "Software Engineer",
+        "org": "",
+        "start": "2022-07",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Software Engineer July 2022 - Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Software Engineer July 2022 - Present",
+              "block_id": "b19",
+              "kind": "text",
+              "start": 997,
+              "end": 1034
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "July 2022 - Present",
+              "block_id": "b19",
+              "kind": "text",
+              "start": 1015,
+              "end": 1034
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Software Engineer",
+              "block_id": "b19",
+              "kind": "text",
+              "start": 997,
+              "end": 1014
+            }
+          ],
+          "section": "Experience",
+          "date_label": "July 2022 - Present",
+          "is_present": true
+        },
+        "date_label": "July 2022 - Present",
+        "section": "Experience",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "vc3a2696448c2bfcf",
+        "type": "EDUCATION",
+        "title": "Bachelor of Engineering (Information Science and Engineering",
+        "org": "East Point College of Engineering and Technology",
+        "entry_text": "East Point College of Engineering and Technology , Bengaluru • Bachelor of Engineering (Information Science and Engineering)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "East Point College of Engineering and Technology , Bengaluru",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 3486,
+              "end": 3546
+            },
+            {
+              "page": 1,
+              "text": "• Bachelor of Engineering (Information Science and Engineering)",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 3548,
+              "end": 3611
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "East Point College of Engineering and Technology",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 3486,
+              "end": 3534
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Engineering (Information Science and Engineering",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 3550,
+              "end": 3610
+            }
+          ],
+          "section": "Education",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Education",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "NO_GAP_DETECTED",
+        "confidence": 0.9,
+        "reasons": [],
+        "evidence": {
+          "note": "no uncovered months between supported entries"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 3,
+      "dated_share": 0.667,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "ocr_pages": []
+    },
+    "total_represented_months": 55,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

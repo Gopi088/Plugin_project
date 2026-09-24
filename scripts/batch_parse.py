@@ -1,218 +1,164 @@
-"""Batch Resume to JSON Converter & Pipeline Parser.
-
-Converts resumes (PDF, DOCX, TXT) into clean, standardized JSON format
-without needing a browser or side panel. Ideal for batch processing
-large collections (e.g. 1,500+ resumes).
-
-Usage:
-  # Single resume:
-  ./venv/bin/python scripts/batch_parse.py --input resume.pdf --output output.json
-
-  # Batch process a whole directory (parallel):
-  ./venv/bin/python scripts/batch_parse.py --input-dir /path/to/resumes --output-dir /path/to/output_json --workers 4
-"""
-
+"""Batch the existing twelve-stage pipeline; parsing success is not accuracy."""
 import argparse
 import concurrent.futures
-import io
+import hashlib
 import json
-import os
 import sys
 import time
+from collections import Counter
 from pathlib import Path
+from functools import partial
 
-# Add project root to path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-
 from backend.pipeline_context import PipelineContext
 from backend.pipeline import runner
-from backend import docstore as DB
 
 
-def read_document(file_path):
+def parse_resume_to_json(file_path, doc_id=None, originals_dir=None):
     path = Path(file_path)
-    suffix = path.suffix.lower()
-    raw_bytes = path.read_bytes()
-    raw_text = ""
-
-    if suffix == ".pdf":
-        try:
-            import pdfplumber
-            with pdfplumber.open(io.BytesIO(raw_bytes)) as pdf:
-                raw_text = "\n".join(p.extract_text() or "" for p in pdf.pages)
-        except Exception:
-            pass
-    elif suffix in (".docx", ".doc"):
-        try:
-            from docx import Document
-            doc = Document(io.BytesIO(raw_bytes))
-            raw_text = "\n".join(p.text for p in doc.paragraphs)
-        except Exception:
-            pass
-    elif suffix == ".txt":
-        try:
-            raw_text = raw_bytes.decode("utf-8")
-        except UnicodeDecodeError:
-            raw_text = raw_bytes.decode("utf-8-sig", errors="ignore")
-
-    return raw_bytes, raw_text
-
-
-def parse_resume_to_json(file_path, doc_id=None):
-    """Parse a single resume file and return a structured JSON dict."""
-    path = Path(file_path)
-    filename = path.name
-    doc_id = doc_id or path.stem
-
-    raw_bytes, raw_text = read_document(path)
-    ctx = PipelineContext(doc_id, filename, raw_bytes=raw_bytes, raw_text=raw_text)
+    raw = path.read_bytes()
+    digest = hashlib.sha256(raw).hexdigest()
+    filename, text, mode = path.name, '', 'original_document'
+    recovered_from = None
+    if path.suffix.lower() == '.json':
+        data = json.loads(raw)
+        if not isinstance(data, dict) or not isinstance(data.get('text'), str):
+            raise ValueError('JSON input must be a text-extraction record')
+        text = data['text']
+        filename = data.get('filename') or path.name
+        raw, mode = b'', 'text_snapshot'
+        if not text.strip() and originals_dir:
+            # Exact filename only. Never silently choose among duplicate originals.
+            matches = [p for p in Path(originals_dir).rglob('*')
+                       if p.is_file() and p.name.casefold() == str(filename).casefold()]
+            if len(matches) > 1:
+                raise ValueError(f'Ambiguous original file for {filename}: {len(matches)} matches')
+            if matches:
+                original = matches[0]
+                if original.suffix.lower() not in {'.pdf', '.docx', '.doc', '.txt'}:
+                    raise ValueError(f'Unsupported original file: {original.name}')
+                raw = original.read_bytes()
+                recovered_from = str(original.resolve())
+                mode = 'recovered_original_document'
+    elif path.suffix.lower() not in {'.pdf', '.docx', '.doc', '.txt'}:
+        raise ValueError('Supported: PDF, DOCX, DOC (antiword required), UTF-8 TXT, text-extraction JSON.')
+    ctx = PipelineContext(doc_id or digest[:24], filename, raw_bytes=raw, raw_text=text)
     runner.run(ctx)
-
     dto = ctx.recruiter_output or {}
-
-    # Format into a clean, intuitive schema for easy comparison
-    timeline = dto.get("timeline", [])
-    unresolved = dto.get("unresolved_events", [])
-    all_events = timeline + unresolved
-
-    work_experience = []
-    education = []
-
-    for ev in all_events:
+    status = dto.get('status') or ('FAILED' if not ctx.raw_text.strip() else 'PARTIAL')
+    work, education = [], []
+    for event in dto.get('timeline', []) + dto.get('unresolved_events', []):
+        if event.get('type') not in {'EMPLOYMENT', 'INTERNSHIP', 'EDUCATION'}:
+            continue
         item = {
-            "id": ev.get("id"),
-            "title": ev.get("title") or "",
-            "company": ev.get("org") or "",
-            "start_date": ev.get("start") or "",
-            "end_date": ev.get("end") or "",
-            "duration": ev.get("duration") or "",
-            "is_current": bool(ev.get("is_present")),
-            "status": ev.get("status"),
-            "confidence": ev.get("confidence"),
-            "quote": ev.get("quote", "")[:200]
+            'id': event.get('id'), 'type': event.get('type'),
+            'company': event.get('org') or '', 'title': event.get('title') or '',
+            'start_date': event.get('start') or '', 'end_date': event.get('end') or '',
+            'is_current': bool(event.get('is_present')), 'status': event.get('status'),
+            'confidence': event.get('confidence'), 'source': event.get('source', {}),
+            'precision': event.get('precision'), 'date_label': event.get('date_label', ''),
         }
-        if ev.get("type") == "EDUCATION":
-            education.append(item)
-        else:
-            work_experience.append(item)
-
-    projects = []
-    for p in dto.get("projects", []):
-        projects.append({
-            "id": p.get("id"),
-            "name": p.get("name") or "",
-            "client": p.get("client") or "",
-            "role": p.get("role") or "",
-            "duration": p.get("duration") or "",
-            "details": p.get("details", [])
-        })
-
-    gaps = []
-    for g in dto.get("gaps", []):
-        if g.get("state") == "POTENTIAL_GAP":
-            gaps.append({
-                "id": g.get("id"),
-                "start": g.get("start_label") or g.get("start"),
-                "end": g.get("end_label") or g.get("end"),
-                "months": g.get("months"),
-                "state": g.get("state"),
-                "confidence": g.get("confidence")
-            })
-
-    output = {
-        "file_name": filename,
-        "doc_id": doc_id,
-        "candidate_name": dto.get("candidate_name") or "",
-        "status": dto.get("status", "PARTIAL"),
-        "quality": dto.get("quality", {}),
-        "work_experience": work_experience,
-        "projects": projects,
-        "education": education,
-        "gaps": gaps,
-        "total_work_experience_entries": len(work_experience),
-        "total_projects_entries": len(projects),
-        "total_gaps_detected": len(gaps),
-        "raw_pipeline_dto": dto
+        (education if event['type'] == 'EDUCATION' else work).append(item)
+    projects = dto.get('projects', [])
+    gaps = [gap for gap in dto.get('gaps', []) if gap.get('state') == 'POTENTIAL_GAP']
+    result = {
+        'file_name': filename, 'input_mode': mode, 'input_sha256': digest,
+        'doc_id': ctx.doc_id, 'candidate_name': dto.get('candidate_name', ''),
+        'status': status, 'quality': dto.get('quality', {}),
+        'work_experience': work, 'education': education, 'projects': projects, 'gaps': gaps,
+        'total_work_experience_entries': len(work),
+        'total_projects_entries': len(projects), 'total_gaps_detected': len(gaps),
+        'stage_statuses': {key: value.status for key, value in ctx.stage_results.items()},
+        'errors': [error for result in ctx.stage_results.values() for error in result.errors],
+        'warnings': [warning for result in ctx.stage_results.values() for warning in result.warnings],
+        'raw_pipeline_dto': dto,
     }
-    return output
+    if recovered_from:
+        result['recovered_from'] = recovered_from
+        result['original_sha256'] = hashlib.sha256(raw).hexdigest()
+    if status == 'FAILED' and mode == 'text_snapshot' and not text.strip():
+        result['errors'].insert(0, 'Reference extraction contains no text. Supply the original document with --originals-dir; use OCR if it is image-only.')
+    from backend.periods import analyze_record
+    result["period_analysis"] = analyze_record(result)
+    return result
 
 
-def process_single(file_path, output_dir=None):
+def process_single(file_path, output_dir=None, originals_dir=None):
     try:
-        data = parse_resume_to_json(file_path)
-        if output_dir:
-            out_file = Path(output_dir) / f"{Path(file_path).stem}.json"
-            out_file.write_text(json.dumps(data, indent=2, ensure_ascii=False))
-        return Path(file_path).name, True, data
+        data = parse_resume_to_json(file_path, originals_dir=originals_dir)
     except Exception as exc:
-        return Path(file_path).name, False, str(exc)
+        data = {
+            'file_name': Path(file_path).name, 'status': 'FAILED', 'errors': [str(exc)],
+            'work_experience': [], 'projects': [], 'education': [], 'gaps': [],
+        }
+    if output_dir:
+        # Retain the original extension: Alice.pdf and Alice.docx never overwrite.
+        destination = Path(output_dir) / (Path(file_path).name + '.json')
+        destination.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding='utf-8')
+    return Path(file_path).name, data['status'] != 'FAILED', data
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Batch Parse Resumes into JSON")
-    parser.add_argument("--input", "-i", help="Single resume file path (.pdf, .docx, .txt)")
-    parser.add_argument("--output", "-o", help="Output JSON path (for single file)")
-    parser.add_argument("--input-dir", help="Directory containing resumes to parse")
-    parser.add_argument("--output-dir", help="Directory where parsed JSONs will be saved")
-    parser.add_argument("--workers", type=int, default=4, help="Number of parallel workers (default: 4)")
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('path', nargs='?')
+    parser.add_argument('--input', '-i')
+    parser.add_argument('--input-dir')
+    parser.add_argument('--output', '-o')
+    parser.add_argument('--output-dir')
+    parser.add_argument('--workers', type=int, default=4)
+    parser.add_argument('--originals-dir', type=Path, help='Recover empty text snapshots from uniquely matched original filenames')
     args = parser.parse_args()
-
-    if args.input:
-        in_path = Path(args.input)
-        if not in_path.exists():
-            print(f"Error: File {in_path} does not exist.")
-            sys.exit(1)
-        data = parse_resume_to_json(in_path)
-        json_str = json.dumps(data, indent=2, ensure_ascii=False)
+    if args.originals_dir and not args.originals_dir.is_dir():
+        parser.error('Originals directory does not exist')
+    target = Path(args.input_dir or args.input or args.path or '.')
+    if not (args.input_dir or args.input or args.path):
+        parser.error('Provide a file or input directory')
+    if args.workers < 1:
+        parser.error('--workers must be positive')
+    if target.is_file():
+        _, _, data = process_single(target, originals_dir=args.originals_dir)
+        result = json.dumps(data, indent=2, ensure_ascii=False)
         if args.output:
-            Path(args.output).write_text(json_str)
-            print(f"Saved JSON output to {args.output}")
+            Path(args.output).write_text(result, encoding='utf-8')
         else:
-            print(json_str)
-        return
-
-    if args.input_dir:
-        in_dir = Path(args.input_dir)
-        if not in_dir.is_dir():
-            print(f"Error: Directory {in_dir} does not exist.")
-            sys.exit(1)
-
-        out_dir = Path(args.output_dir or (in_dir / "parsed_json"))
-        out_dir.mkdir(parents=True, exist_ok=True)
-
-        supported = (".pdf", ".docx", ".doc", ".txt")
-        files = [p for p in in_dir.iterdir() if p.suffix.lower() in supported and not p.name.startswith("~$")]
-        total = len(files)
-        print(f"Found {total} resumes to parse in {in_dir}.")
-        print(f"Writing parsed JSON files to {out_dir} using {args.workers} workers...")
-
-        start_time = time.time()
-        success = 0
-        failed = 0
-
-        with concurrent.futures.ProcessPoolExecutor(max_workers=args.workers) as executor:
-            futures = {executor.submit(process_single, f, out_dir): f for f in files}
-            for i, fut in enumerate(concurrent.futures.as_completed(futures), 1):
-                name, ok, res = fut.result()
-                if ok:
-                    success += 1
-                else:
-                    failed += 1
-                    print(f"[{i}/{total}] FAILED {name}: {res}")
-                if i % 50 == 0 or i == total:
-                    elapsed = time.time() - start_time
-                    rate = i / max(1, elapsed)
-                    print(f"Progress: {i}/{total} ({i*100//total}%) | Success: {success} | Failed: {failed} | Speed: {rate:.1f} resumes/sec")
-
-        total_time = time.time() - start_time
-        print(f"\nFinished batch processing {total} resumes in {total_time:.1f} seconds ({total/max(1, total_time):.1f} resumes/sec).")
-        print(f"Successfully saved {success} JSON files to: {out_dir}")
-        return
-
-    parser.print_help()
+            print(result)
+        return 1 if data['status'] == 'FAILED' else 0
+    if not target.is_dir():
+        parser.error('Input directory does not exist')
+    out = Path(args.output_dir or target / 'parsed_json')
+    out.mkdir(parents=True, exist_ok=True)
+    files = sorted(
+        path for path in target.iterdir()
+        if path.is_file() and path.suffix.lower() in {'.pdf', '.docx', '.doc', '.txt', '.json'}
+        and not path.name.startswith('~$')
+        and path.name not in {'batch_summary.json', 'batch_accuracy_summary.json', 'all_results.json'}
+    )
+    if not files:
+        parser.error('No supported input files')
+    start = time.monotonic()
+    statuses, counts = Counter(), Counter()
+    recovered = 0
+    process = partial(process_single, originals_dir=args.originals_dir)
+    with concurrent.futures.ProcessPoolExecutor(max_workers=args.workers) as pool:
+        for index, (_, _, data) in enumerate(pool.map(process, files, [out] * len(files)), 1):
+            statuses[data['status']] += 1
+            recovered += int(data.get('input_mode') == 'recovered_original_document' and data['status'] != 'FAILED')
+            for key in ('work_experience', 'education', 'projects', 'gaps'):
+                counts[key] += len(data.get(key, []))
+            if index % 100 == 0:
+                print(f'{index}/{len(files)} processed')
+    summary = {
+        'total_resumes': len(files), 'status_counts': {key: statuses[key] for key in ('SUCCESS', 'PARTIAL', 'FAILED')},
+        'recovered_from_originals': recovered,
+        'elapsed_seconds': round(time.monotonic() - start, 2), 'extracted_counts': dict(counts),
+        'overall_accuracy_pct': None,
+        'accuracy_explanation': 'Parsing alone cannot measure accuracy. Independent reviewed labels are required.',
+    }
+    (out / 'batch_summary.json').write_text(json.dumps(summary, indent=2), encoding='utf-8')
+    print(json.dumps(summary, indent=2))
+    return 1 if statuses['FAILED'] else 0
 
 
-if __name__ == "__main__":
-    main()
-
+if __name__ == '__main__':
+    sys.exit(main())

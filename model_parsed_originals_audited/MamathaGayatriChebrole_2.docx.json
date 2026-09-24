@@ -1,0 +1,385 @@
+{
+  "file_name": "MamathaGayatriChebrole_2.docx",
+  "input_mode": "original_document",
+  "input_sha256": "bfa6750113a69b9ffd05128d45375552f9800928cac261545b435d3edfe087e9",
+  "doc_id": "bfa6750113a69b9ffd05128d",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 0,
+    "total_events": 2,
+    "dated_share": 0.0,
+    "unresolved": 2,
+    "ambiguous": 0,
+    "mean_event_confidence": null
+  },
+  "work_experience": [],
+  "education": [
+    {
+      "id": "ve39f55502552a0d8",
+      "type": "EDUCATION",
+      "company": "JNT University",
+      "title": "",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "JNT University, KAKINADA, AP.\tJULY 2020 - MAY 2022",
+            "block_id": "b88",
+            "kind": "text",
+            "start": 8874,
+            "end": 8924
+          },
+          {
+            "page": 1,
+            "text": "M.TECH in Artificial Intelligence and Data Science KIEWT ENGINNERING COLLEGE.",
+            "block_id": "b89",
+            "kind": "text",
+            "start": 8925,
+            "end": 9002
+          },
+          {
+            "page": 1,
+            "text": "JNT UNIVERSITY, HYDERABAD, TG.\tMAY 2003- JULY 2007",
+            "block_id": "b90",
+            "kind": "text",
+            "start": 9003,
+            "end": 9053
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "JULY 2020 - MAY 2022",
+            "block_id": "b88",
+            "kind": "text",
+            "start": 8904,
+            "end": 8924
+          },
+          {
+            "page": 1,
+            "text": "MAY 2003- JULY 2007",
+            "block_id": "b90",
+            "kind": "text",
+            "start": 9034,
+            "end": 9053
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "JNT University",
+            "block_id": "b88",
+            "kind": "text",
+            "start": 8874,
+            "end": 8888
+          }
+        ],
+        "title": [],
+        "section": "EDUCATION",
+        "date_label": "JULY 2020 - MAY 2022 / MAY 2003- JULY 2007",
+        "is_present": false
+      }
+    },
+    {
+      "id": "v9349e4e2f9ec91ec",
+      "type": "EDUCATION",
+      "company": "B. TECH in Biotechnology. SNIST ENGINEERING COLLEGE.",
+      "title": "",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "B. TECH in Biotechnology. SNIST ENGINEERING COLLEGE.",
+            "block_id": "b91",
+            "kind": "text",
+            "start": 9054,
+            "end": 9106
+          }
+        ],
+        "dates": [],
+        "company": [
+          {
+            "page": 1,
+            "text": "B. TECH in Biotechnology. SNIST ENGINEERING COLLEGE",
+            "block_id": "b91",
+            "kind": "text",
+            "start": 9054,
+            "end": 9105
+          }
+        ],
+        "title": [],
+        "section": "EDUCATION",
+        "date_label": "",
+        "is_present": false
+      }
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "INVOICE SCANNER AI AGENT INDUSTRY: MANUFACTURING DURATION: JUL 2021 – JUN 2022 ROLE: DATASCIENTIST",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [],
+      "raw_text": "PROJECT 3: INVOICE SCANNER AI AGENT INDUSTRY: MANUFACTURING DURATION: JUL 2021 – JUN 2022 ROLE: DATASCIENTIST",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "PROJECT 3: INVOICE SCANNER AI AGENT INDUSTRY: MANUFACTURING DURATION: JUL 2021 – JUN 2022 ROLE: DATASCIENTIST",
+            "block_id": "b46",
+            "kind": "text",
+            "start": 4261,
+            "end": 4370
+          }
+        ]
+      }
+    }
+  ],
+  "gaps": [],
+  "total_work_experience_entries": 0,
+  "total_projects_entries": 1,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "PARTIAL",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "PARTIAL",
+    "coverage_analysis": "PARTIAL",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "raw_pipeline_dto": {
+    "doc_id": "bfa6750113a69b9ffd05128d",
+    "filename": "MamathaGayatriChebrole_2.docx",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [],
+    "unresolved_events": [
+      {
+        "id": "ve39f55502552a0d8",
+        "type": "EDUCATION",
+        "title": "",
+        "org": "JNT University",
+        "entry_text": "JNT University, KAKINADA, AP.\tJULY 2020 - MAY 2022 M.TECH in Artificial Intelligence and Data Science KIEWT ENGINNERING COLLEGE. JNT UNIVERSITY, HYDERABAD, TG.\tMAY 2003- JULY 2007",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "JNT University, KAKINADA, AP.\tJULY 2020 - MAY 2022",
+              "block_id": "b88",
+              "kind": "text",
+              "start": 8874,
+              "end": 8924
+            },
+            {
+              "page": 1,
+              "text": "M.TECH in Artificial Intelligence and Data Science KIEWT ENGINNERING COLLEGE.",
+              "block_id": "b89",
+              "kind": "text",
+              "start": 8925,
+              "end": 9002
+            },
+            {
+              "page": 1,
+              "text": "JNT UNIVERSITY, HYDERABAD, TG.\tMAY 2003- JULY 2007",
+              "block_id": "b90",
+              "kind": "text",
+              "start": 9003,
+              "end": 9053
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "JULY 2020 - MAY 2022",
+              "block_id": "b88",
+              "kind": "text",
+              "start": 8904,
+              "end": 8924
+            },
+            {
+              "page": 1,
+              "text": "MAY 2003- JULY 2007",
+              "block_id": "b90",
+              "kind": "text",
+              "start": 9034,
+              "end": 9053
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "JNT University",
+              "block_id": "b88",
+              "kind": "text",
+              "start": 8874,
+              "end": 8888
+            }
+          ],
+          "title": [],
+          "section": "EDUCATION",
+          "date_label": "JULY 2020 - MAY 2022 / MAY 2003- JULY 2007",
+          "is_present": false
+        },
+        "date_label": "JULY 2020 - MAY 2022 / MAY 2003- JULY 2007",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      },
+      {
+        "id": "v9349e4e2f9ec91ec",
+        "type": "EDUCATION",
+        "title": "",
+        "org": "B. TECH in Biotechnology. SNIST ENGINEERING COLLEGE.",
+        "entry_text": "B. TECH in Biotechnology. SNIST ENGINEERING COLLEGE.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "B. TECH in Biotechnology. SNIST ENGINEERING COLLEGE.",
+              "block_id": "b91",
+              "kind": "text",
+              "start": 9054,
+              "end": 9106
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "B. TECH in Biotechnology. SNIST ENGINEERING COLLEGE",
+              "block_id": "b91",
+              "kind": "text",
+              "start": 9054,
+              "end": 9105
+            }
+          ],
+          "title": [],
+          "section": "EDUCATION",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "EDUCATION",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "INVOICE SCANNER AI AGENT INDUSTRY: MANUFACTURING DURATION: JUL 2021 – JUN 2022 ROLE: DATASCIENTIST",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [],
+        "raw_text": "PROJECT 3: INVOICE SCANNER AI AGENT INDUSTRY: MANUFACTURING DURATION: JUL 2021 – JUN 2022 ROLE: DATASCIENTIST",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "PROJECT 3: INVOICE SCANNER AI AGENT INDUSTRY: MANUFACTURING DURATION: JUL 2021 – JUN 2022 ROLE: DATASCIENTIST",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 4261,
+              "end": 4370
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 0,
+      "total_events": 2,
+      "dated_share": 0.0,
+      "unresolved": 2,
+      "ambiguous": 0,
+      "mean_event_confidence": null
+    },
+    "total_represented_months": 0,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "PARTIAL",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "PARTIAL",
+        "confidence": 0.3
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

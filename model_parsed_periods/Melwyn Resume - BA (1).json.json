@@ -1,0 +1,1215 @@
+{
+  "file_name": "Melwyn Resume - BA (1).pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "b76eabd0e2b34dad7049466f3106be4f0ee8c575f2dfcd69c6678d6f7b3cce6f",
+  "doc_id": "b76eabd0e2b34dad7049466f",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 4,
+    "dated_share": 0.25,
+    "unresolved": 3,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.722,
+    "document_accuracy": 0.7
+  },
+  "work_experience": [
+    {
+      "id": "v308d9752dde1fd60",
+      "type": "EMPLOYMENT",
+      "company": "Officer",
+      "title": "Consultant",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Consultant - Officer",
+            "block_id": "b39",
+            "kind": "text",
+            "start": 977,
+            "end": 997
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2010 - 2012",
+            "block_id": "b71",
+            "kind": "text",
+            "start": 2806,
+            "end": 2817
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Officer",
+            "block_id": "b39",
+            "kind": "text",
+            "start": 990,
+            "end": 997
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Consultant",
+            "block_id": "b39",
+            "kind": "text",
+            "start": 977,
+            "end": 987
+          }
+        ],
+        "section": "WORK EXPERIENCE",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    }
+  ],
+  "education": [
+    {
+      "id": "v3de72b5c3811e029",
+      "type": "EDUCATION",
+      "company": "ST ALOYSIUS UNIVERSITY",
+      "title": "B.com",
+      "start_date": "2012-01",
+      "end_date": "2025-12",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.722,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "ST ALOYSIUS UNIVERSITY",
+            "block_id": "b72",
+            "kind": "text",
+            "start": 2819,
+            "end": 2841
+          },
+          {
+            "page": 1,
+            "text": "B.com",
+            "block_id": "b73",
+            "kind": "text",
+            "start": 2842,
+            "end": 2847
+          },
+          {
+            "page": 1,
+            "text": "2012 - DEC 2025",
+            "block_id": "b74",
+            "kind": "text",
+            "start": 2848,
+            "end": 2863
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2012 - DEC 2025",
+            "block_id": "b74",
+            "kind": "text",
+            "start": 2848,
+            "end": 2863
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "ST ALOYSIUS UNIVERSITY",
+            "block_id": "b72",
+            "kind": "text",
+            "start": 2819,
+            "end": 2841
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "B.com",
+            "block_id": "b73",
+            "kind": "text",
+            "start": 2842,
+            "end": 2847
+          }
+        ],
+        "section": "ST ALOYSIUS UNIVERSITY",
+        "date_label": "2012 - DEC 2025",
+        "is_present": false
+      },
+      "precision": "year",
+      "date_label": "2012 - DEC 2025"
+    },
+    {
+      "id": "v7ad5c5f33939f3a7",
+      "type": "EDUCATION",
+      "company": "DUBLIN UNIVERSITY",
+      "title": "",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "DUBLIN UNIVERSITY",
+            "block_id": "b17",
+            "kind": "text",
+            "start": 243,
+            "end": 260
+          },
+          {
+            "page": 1,
+            "text": "MANGALORE UNIVERSITY",
+            "block_id": "b21",
+            "kind": "text",
+            "start": 291,
+            "end": 311
+          }
+        ],
+        "dates": [],
+        "company": [
+          {
+            "page": 1,
+            "text": "DUBLIN UNIVERSITY",
+            "block_id": "b17",
+            "kind": "text",
+            "start": 243,
+            "end": 260
+          }
+        ],
+        "title": [],
+        "section": "DUBLIN UNIVERSITY",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    },
+    {
+      "id": "ve4a57033563b9172",
+      "type": "EDUCATION",
+      "company": "",
+      "title": "Fund Master",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Fund Master",
+            "block_id": "b78",
+            "kind": "text",
+            "start": 2942,
+            "end": 2953
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2012 - 2015",
+            "block_id": "b98",
+            "kind": "text",
+            "start": 3598,
+            "end": 3609
+          },
+          {
+            "page": 1,
+            "text": "2015 - 2017",
+            "block_id": "b108",
+            "kind": "text",
+            "start": 4199,
+            "end": 4210
+          },
+          {
+            "page": 1,
+            "text": "2017 - 2021",
+            "block_id": "b129",
+            "kind": "text",
+            "start": 4964,
+            "end": 4975
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Fund Master",
+            "block_id": "b78",
+            "kind": "text",
+            "start": 2942,
+            "end": 2953
+          }
+        ],
+        "section": "ST ALOYSIUS UNIVERSITY",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 1,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "section EDUCATION: entry without dated header preserved as-is",
+    "entry e4: 3 ranges; first kept, rest preserved in evidence"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "b76eabd0e2b34dad7049466f",
+    "filename": "Melwyn Resume - BA (1).pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v3de72b5c3811e029",
+        "type": "EDUCATION",
+        "title": "B.com",
+        "org": "ST ALOYSIUS UNIVERSITY",
+        "start": "2012-01",
+        "end": "2025-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.722,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "ST ALOYSIUS UNIVERSITY\nB.com\n2012 - DEC 2025",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "ST ALOYSIUS UNIVERSITY",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 2819,
+              "end": 2841
+            },
+            {
+              "page": 1,
+              "text": "B.com",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 2842,
+              "end": 2847
+            },
+            {
+              "page": 1,
+              "text": "2012 - DEC 2025",
+              "block_id": "b74",
+              "kind": "text",
+              "start": 2848,
+              "end": 2863
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2012 - DEC 2025",
+              "block_id": "b74",
+              "kind": "text",
+              "start": 2848,
+              "end": 2863
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "ST ALOYSIUS UNIVERSITY",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 2819,
+              "end": 2841
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "B.com",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 2842,
+              "end": 2847
+            }
+          ],
+          "section": "ST ALOYSIUS UNIVERSITY",
+          "date_label": "2012 - DEC 2025",
+          "is_present": false
+        },
+        "date_label": "2012 - DEC 2025",
+        "section": "ST ALOYSIUS UNIVERSITY",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v7ad5c5f33939f3a7",
+        "type": "EDUCATION",
+        "title": "",
+        "org": "DUBLIN UNIVERSITY",
+        "entry_text": "DUBLIN UNIVERSITY MANGALORE UNIVERSITY",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "DUBLIN UNIVERSITY",
+              "block_id": "b17",
+              "kind": "text",
+              "start": 243,
+              "end": 260
+            },
+            {
+              "page": 1,
+              "text": "MANGALORE UNIVERSITY",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 291,
+              "end": 311
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "DUBLIN UNIVERSITY",
+              "block_id": "b17",
+              "kind": "text",
+              "start": 243,
+              "end": 260
+            }
+          ],
+          "title": [],
+          "section": "DUBLIN UNIVERSITY",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "DUBLIN UNIVERSITY",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v308d9752dde1fd60",
+        "type": "EMPLOYMENT",
+        "title": "Consultant",
+        "org": "Officer",
+        "entry_text": "Consultant - Officer Implemented Benchmarking Project for EMEA region from India, achieving a 50% reduction in EMS exceptions Actively contributed to BAC Tool implementation for Benchmarking, enhancing efficiency and accuracy Completed Invest‑One GIO Upgradation Project 20.1 testing, ensuring smooth",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Consultant - Officer",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 977,
+              "end": 997
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2010 - 2012",
+              "block_id": "b71",
+              "kind": "text",
+              "start": 2806,
+              "end": 2817
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Officer",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 990,
+              "end": 997
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Consultant",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 977,
+              "end": 987
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "WORK EXPERIENCE",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "ve4a57033563b9172",
+        "type": "EDUCATION",
+        "title": "Fund Master",
+        "org": "",
+        "entry_text": "Fund Master BACT Tool Siepe Application - FIS Jira Bloomberg ICE Refinitiv MS-Excel Power BI Alteryx Built and maintained strong relationships with partners, managers, and vendors to support key business initiatives Ensured consistency and efficiency across daily process flows through proactive moni",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Fund Master",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 2942,
+              "end": 2953
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2012 - 2015",
+              "block_id": "b98",
+              "kind": "text",
+              "start": 3598,
+              "end": 3609
+            },
+            {
+              "page": 1,
+              "text": "2015 - 2017",
+              "block_id": "b108",
+              "kind": "text",
+              "start": 4199,
+              "end": 4210
+            },
+            {
+              "page": 1,
+              "text": "2017 - 2021",
+              "block_id": "b129",
+              "kind": "text",
+              "start": 4964,
+              "end": 4975
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Fund Master",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 2942,
+              "end": 2953
+            }
+          ],
+          "section": "ST ALOYSIUS UNIVERSITY",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "ST ALOYSIUS UNIVERSITY",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "v308d9752dde1fd60"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 4,
+      "dated_share": 0.25,
+      "unresolved": 3,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.722,
+      "document_accuracy": 0.7
+    },
+    "total_represented_months": 168,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 1,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v308d9752dde1fd60",
+              "label": "Consultant",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Consultant - Officer",
+                    "block_id": "b39",
+                    "kind": "text",
+                    "start": 977,
+                    "end": 997
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "2010 - 2012",
+                    "block_id": "b71",
+                    "kind": "text",
+                    "start": 2806,
+                    "end": 2817
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Officer",
+                    "block_id": "b39",
+                    "kind": "text",
+                    "start": 990,
+                    "end": 997
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Consultant",
+                    "block_id": "b39",
+                    "kind": "text",
+                    "start": 977,
+                    "end": 987
+                  }
+                ],
+                "section": "WORK EXPERIENCE",
+                "date_label": "",
+                "is_present": false
+              }
+            }
+          ]
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 3,
+          "dated_periods": 1,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 1,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 2,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v3de72b5c3811e029",
+              "label": "B.com",
+              "state": "year_range",
+              "start": [
+                2012,
+                1
+              ],
+              "end": [
+                2025,
+                12
+              ],
+              "months": null,
+              "raw": "2012 - DEC 2025",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "ST ALOYSIUS UNIVERSITY",
+                    "block_id": "b72",
+                    "kind": "text",
+                    "start": 2819,
+                    "end": 2841
+                  },
+                  {
+                    "page": 1,
+                    "text": "B.com",
+                    "block_id": "b73",
+                    "kind": "text",
+                    "start": 2842,
+                    "end": 2847
+                  },
+                  {
+                    "page": 1,
+                    "text": "2012 - DEC 2025",
+                    "block_id": "b74",
+                    "kind": "text",
+                    "start": 2848,
+                    "end": 2863
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "2012 - DEC 2025",
+                    "block_id": "b74",
+                    "kind": "text",
+                    "start": 2848,
+                    "end": 2863
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "ST ALOYSIUS UNIVERSITY",
+                    "block_id": "b72",
+                    "kind": "text",
+                    "start": 2819,
+                    "end": 2841
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "B.com",
+                    "block_id": "b73",
+                    "kind": "text",
+                    "start": 2842,
+                    "end": 2847
+                  }
+                ],
+                "section": "ST ALOYSIUS UNIVERSITY",
+                "date_label": "2012 - DEC 2025",
+                "is_present": false
+              }
+            },
+            {
+              "id": "v7ad5c5f33939f3a7",
+              "label": "DUBLIN UNIVERSITY",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "DUBLIN UNIVERSITY",
+                    "block_id": "b17",
+                    "kind": "text",
+                    "start": 243,
+                    "end": 260
+                  },
+                  {
+                    "page": 1,
+                    "text": "MANGALORE UNIVERSITY",
+                    "block_id": "b21",
+                    "kind": "text",
+                    "start": 291,
+                    "end": 311
+                  }
+                ],
+                "dates": [],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "DUBLIN UNIVERSITY",
+                    "block_id": "b17",
+                    "kind": "text",
+                    "start": 243,
+                    "end": 260
+                  }
+                ],
+                "title": [],
+                "section": "DUBLIN UNIVERSITY",
+                "date_label": "",
+                "is_present": false
+              }
+            },
+            {
+              "id": "ve4a57033563b9172",
+              "label": "Fund Master",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Fund Master",
+                    "block_id": "b78",
+                    "kind": "text",
+                    "start": 2942,
+                    "end": 2953
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "2012 - 2015",
+                    "block_id": "b98",
+                    "kind": "text",
+                    "start": 3598,
+                    "end": 3609
+                  },
+                  {
+                    "page": 1,
+                    "text": "2015 - 2017",
+                    "block_id": "b108",
+                    "kind": "text",
+                    "start": 4199,
+                    "end": 4210
+                  },
+                  {
+                    "page": 1,
+                    "text": "2017 - 2021",
+                    "block_id": "b129",
+                    "kind": "text",
+                    "start": 4964,
+                    "end": 4975
+                  }
+                ],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Fund Master",
+                    "block_id": "b78",
+                    "kind": "text",
+                    "start": 2942,
+                    "end": 2953
+                  }
+                ],
+                "section": "ST ALOYSIUS UNIVERSITY",
+                "date_label": "",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 0,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 1,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v308d9752dde1fd60",
+            "label": "Consultant",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Consultant - Officer",
+                  "block_id": "b39",
+                  "kind": "text",
+                  "start": 977,
+                  "end": 997
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "2010 - 2012",
+                  "block_id": "b71",
+                  "kind": "text",
+                  "start": 2806,
+                  "end": 2817
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Officer",
+                  "block_id": "b39",
+                  "kind": "text",
+                  "start": 990,
+                  "end": 997
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Consultant",
+                  "block_id": "b39",
+                  "kind": "text",
+                  "start": 977,
+                  "end": 987
+                }
+              ],
+              "section": "WORK EXPERIENCE",
+              "date_label": "",
+              "is_present": false
+            }
+          }
+        ]
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 3,
+        "dated_periods": 1,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 1,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 2,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v3de72b5c3811e029",
+            "label": "B.com",
+            "state": "year_range",
+            "start": [
+              2012,
+              1
+            ],
+            "end": [
+              2025,
+              12
+            ],
+            "months": null,
+            "raw": "2012 - DEC 2025",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "ST ALOYSIUS UNIVERSITY",
+                  "block_id": "b72",
+                  "kind": "text",
+                  "start": 2819,
+                  "end": 2841
+                },
+                {
+                  "page": 1,
+                  "text": "B.com",
+                  "block_id": "b73",
+                  "kind": "text",
+                  "start": 2842,
+                  "end": 2847
+                },
+                {
+                  "page": 1,
+                  "text": "2012 - DEC 2025",
+                  "block_id": "b74",
+                  "kind": "text",
+                  "start": 2848,
+                  "end": 2863
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "2012 - DEC 2025",
+                  "block_id": "b74",
+                  "kind": "text",
+                  "start": 2848,
+                  "end": 2863
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "ST ALOYSIUS UNIVERSITY",
+                  "block_id": "b72",
+                  "kind": "text",
+                  "start": 2819,
+                  "end": 2841
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "B.com",
+                  "block_id": "b73",
+                  "kind": "text",
+                  "start": 2842,
+                  "end": 2847
+                }
+              ],
+              "section": "ST ALOYSIUS UNIVERSITY",
+              "date_label": "2012 - DEC 2025",
+              "is_present": false
+            }
+          },
+          {
+            "id": "v7ad5c5f33939f3a7",
+            "label": "DUBLIN UNIVERSITY",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "DUBLIN UNIVERSITY",
+                  "block_id": "b17",
+                  "kind": "text",
+                  "start": 243,
+                  "end": 260
+                },
+                {
+                  "page": 1,
+                  "text": "MANGALORE UNIVERSITY",
+                  "block_id": "b21",
+                  "kind": "text",
+                  "start": 291,
+                  "end": 311
+                }
+              ],
+              "dates": [],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "DUBLIN UNIVERSITY",
+                  "block_id": "b17",
+                  "kind": "text",
+                  "start": 243,
+                  "end": 260
+                }
+              ],
+              "title": [],
+              "section": "DUBLIN UNIVERSITY",
+              "date_label": "",
+              "is_present": false
+            }
+          },
+          {
+            "id": "ve4a57033563b9172",
+            "label": "Fund Master",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Fund Master",
+                  "block_id": "b78",
+                  "kind": "text",
+                  "start": 2942,
+                  "end": 2953
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "2012 - 2015",
+                  "block_id": "b98",
+                  "kind": "text",
+                  "start": 3598,
+                  "end": 3609
+                },
+                {
+                  "page": 1,
+                  "text": "2015 - 2017",
+                  "block_id": "b108",
+                  "kind": "text",
+                  "start": 4199,
+                  "end": 4210
+                },
+                {
+                  "page": 1,
+                  "text": "2017 - 2021",
+                  "block_id": "b129",
+                  "kind": "text",
+                  "start": 4964,
+                  "end": 4975
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Fund Master",
+                  "block_id": "b78",
+                  "kind": "text",
+                  "start": 2942,
+                  "end": 2953
+                }
+              ],
+              "section": "ST ALOYSIUS UNIVERSITY",
+              "date_label": "",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 0,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

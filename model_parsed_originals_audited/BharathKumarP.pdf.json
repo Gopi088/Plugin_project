@@ -1,0 +1,400 @@
+{
+  "file_name": "BharathKumarP.pdf",
+  "input_mode": "original_document",
+  "input_sha256": "d10bdd0e2d32c581c38fc11fa2535c4b4e1940806b74256efd9af772d730560e",
+  "doc_id": "d10bdd0e2d32c581c38fc11f",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 2,
+    "dated_share": 0.5,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v97a18f30bc0a53e4",
+      "type": "EMPLOYMENT",
+      "company": "Accenture Solutions Pvt.Ltd",
+      "title": "",
+      "start_date": "2017-08",
+      "end_date": "2021-08",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "August 2017-August 2021 Accenture Solutions Pvt.Ltd, 29/04/2026- PRESENT",
+            "block_id": "b10",
+            "kind": "pdf",
+            "page_width": 595.5,
+            "page_height": 842.2499787,
+            "bbox": [
+              39.51597483350098,
+              346.36091449346515,
+              584.3604282140494,
+              359.02744226236115
+            ]
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "August 2017-August 2021",
+            "block_id": "b10",
+            "kind": "pdf",
+            "page_width": 595.5,
+            "page_height": 842.2499787,
+            "bbox": [
+              39.51597483350098,
+              349.02617409650895,
+              175.35136131983785,
+              359.02744226236115
+            ],
+            "fragment_text": "August 2017-August 2021"
+          },
+          {
+            "page": 1,
+            "text": "04/2026",
+            "block_id": "b10",
+            "kind": "pdf",
+            "page_width": 595.5,
+            "page_height": 842.2499787,
+            "bbox": [
+              515.7331063533323,
+              349.3859105102439,
+              545.9950279249285,
+              357.3853091849356
+            ]
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Accenture Solutions Pvt.Ltd",
+            "block_id": "b10",
+            "kind": "pdf",
+            "page_width": 595.5,
+            "page_height": 842.2499787,
+            "bbox": [
+              223.0351515068683,
+              346.36091449346515,
+              354.92376488774784,
+              356.36218265931734
+            ],
+            "fragment_text": "Accenture Solutions Pvt.Ltd,"
+          }
+        ],
+        "title": [],
+        "section": "EDUCATION WORK EXPERIENCE",
+        "date_label": "August 2017-August 2021",
+        "is_present": false
+      }
+    },
+    {
+      "id": "v022d137850b35c2b",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Senior Analyst",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Senior Analyst",
+            "block_id": "b11",
+            "kind": "pdf",
+            "page_width": 595.5,
+            "page_height": 842.2499787,
+            "bbox": [
+              227.92843288538157,
+              360.353476487982,
+              282.2815776861179,
+              368.8567305656797
+            ],
+            "fragment_text": "Senior Analyst"
+          }
+        ],
+        "dates": [],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Senior Analyst",
+            "block_id": "b11",
+            "kind": "pdf",
+            "page_width": 595.5,
+            "page_height": 842.2499787,
+            "bbox": [
+              227.92843288538157,
+              360.353476487982,
+              282.2815776861179,
+              368.8567305656797
+            ],
+            "fragment_text": "Senior Analyst"
+          }
+        ],
+        "section": "EDUCATION WORK EXPERIENCE",
+        "date_label": "",
+        "is_present": false
+      }
+    }
+  ],
+  "education": [],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 2,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "PARTIAL",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "raw_pipeline_dto": {
+    "doc_id": "d10bdd0e2d32c581c38fc11f",
+    "filename": "BharathKumarP.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "v97a18f30bc0a53e4",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Accenture Solutions Pvt.Ltd",
+        "start": "2017-08",
+        "end": "2021-08",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "August 2017-August 2021 Accenture Solutions Pvt.Ltd, 29/04/2026- PRESENT",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "August 2017-August 2021 Accenture Solutions Pvt.Ltd, 29/04/2026- PRESENT",
+              "block_id": "b10",
+              "kind": "pdf",
+              "page_width": 595.5,
+              "page_height": 842.2499787,
+              "bbox": [
+                39.51597483350098,
+                346.36091449346515,
+                584.3604282140494,
+                359.02744226236115
+              ]
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "August 2017-August 2021",
+              "block_id": "b10",
+              "kind": "pdf",
+              "page_width": 595.5,
+              "page_height": 842.2499787,
+              "bbox": [
+                39.51597483350098,
+                349.02617409650895,
+                175.35136131983785,
+                359.02744226236115
+              ],
+              "fragment_text": "August 2017-August 2021"
+            },
+            {
+              "page": 1,
+              "text": "04/2026",
+              "block_id": "b10",
+              "kind": "pdf",
+              "page_width": 595.5,
+              "page_height": 842.2499787,
+              "bbox": [
+                515.7331063533323,
+                349.3859105102439,
+                545.9950279249285,
+                357.3853091849356
+              ]
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Accenture Solutions Pvt.Ltd",
+              "block_id": "b10",
+              "kind": "pdf",
+              "page_width": 595.5,
+              "page_height": 842.2499787,
+              "bbox": [
+                223.0351515068683,
+                346.36091449346515,
+                354.92376488774784,
+                356.36218265931734
+              ],
+              "fragment_text": "Accenture Solutions Pvt.Ltd,"
+            }
+          ],
+          "title": [],
+          "section": "EDUCATION WORK EXPERIENCE",
+          "date_label": "August 2017-August 2021",
+          "is_present": false
+        },
+        "date_label": "August 2017-August 2021",
+        "section": "EDUCATION WORK EXPERIENCE",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v022d137850b35c2b",
+        "type": "EMPLOYMENT",
+        "title": "Senior Analyst",
+        "org": "",
+        "entry_text": "Senior Analyst ACS COLLEGE OF ENGINEERING Having 4 years of experience as a Software engineer. Having 1+ years of Hands-on experience in Adobe Workfront configuration, development and administration, Bachelor of Engineering supporting end-to-end project management workflows based on client requireme",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Analyst",
+              "block_id": "b11",
+              "kind": "pdf",
+              "page_width": 595.5,
+              "page_height": 842.2499787,
+              "bbox": [
+                227.92843288538157,
+                360.353476487982,
+                282.2815776861179,
+                368.8567305656797
+              ],
+              "fragment_text": "Senior Analyst"
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Analyst",
+              "block_id": "b11",
+              "kind": "pdf",
+              "page_width": 595.5,
+              "page_height": 842.2499787,
+              "bbox": [
+                227.92843288538157,
+                360.353476487982,
+                282.2815776861179,
+                368.8567305656797
+              ],
+              "fragment_text": "Senior Analyst"
+            }
+          ],
+          "section": "EDUCATION WORK EXPERIENCE",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "EDUCATION WORK EXPERIENCE",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "v022d137850b35c2b"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 2,
+      "dated_share": 0.5,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9
+    },
+    "total_represented_months": 49,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

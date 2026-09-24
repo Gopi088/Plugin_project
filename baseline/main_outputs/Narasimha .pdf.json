@@ -1,0 +1,341 @@
+{
+  "file_name": "Narasimha .pdf",
+  "input_mode": "original_document",
+  "input_sha256": "82a866e4e10d417d556f045699ce080305c4f400a7aeccc9d8af65150717280d",
+  "doc_id": "82a866e4e10d417d556f0456",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 0,
+    "total_events": 2,
+    "dated_share": 0.0,
+    "unresolved": 2,
+    "ambiguous": 0,
+    "mean_event_confidence": null,
+    "ocr_pages": []
+  },
+  "work_experience": [
+    {
+      "id": "vdb8bdea6d74a9279",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "❖ Role : IDMC Developer",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 5,
+            "text": "❖ Role : IDMC Developer",
+            "block_id": "b148",
+            "kind": "pdf",
+            "page_width": 595.56,
+            "page_height": 842.04,
+            "bbox": [
+              90.264,
+              163.08320000000003,
+              259.9844,
+              174.62
+            ],
+            "fragment_text": "❖ Role : IDMC Developer"
+          }
+        ],
+        "dates": [],
+        "company": [],
+        "title": [
+          {
+            "page": 5,
+            "text": "Role : IDMC Developer",
+            "block_id": "b148",
+            "kind": "pdf",
+            "page_width": 595.56,
+            "page_height": 842.04,
+            "bbox": [
+              107.9,
+              163.58000000000004,
+              259.9844,
+              174.62
+            ],
+            "fragment_text": "Role : IDMC Developer"
+          }
+        ],
+        "section": "Roles & Responsibilities:",
+        "date_label": "",
+        "is_present": false
+      }
+    }
+  ],
+  "education": [
+    {
+      "id": "vb374775229a50817",
+      "type": "EDUCATION",
+      "company": "❖ Completed Graduation From Acharya Nagarjuna University.",
+      "title": "",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 3,
+            "text": "❖ Completed Graduation From Acharya Nagarjuna University.",
+            "block_id": "b79",
+            "kind": "pdf",
+            "page_width": 595.56,
+            "page_height": 842.04,
+            "bbox": [
+              90.024,
+              286.2332,
+              347.61208,
+              297.77
+            ],
+            "fragment_text": "❖ CompletedGraduation From Acharya Nagarjuna University."
+          }
+        ],
+        "dates": [],
+        "company": [
+          {
+            "page": 3,
+            "text": "Completed Graduation From Acharya Nagarjuna University",
+            "block_id": "b79",
+            "kind": "pdf",
+            "page_width": 595.56,
+            "page_height": 842.04,
+            "bbox": [
+              107.9,
+              286.73,
+              345.62888,
+              297.77
+            ],
+            "fragment_text": "CompletedGraduation From Acharya Nagarjuna University"
+          }
+        ],
+        "title": [],
+        "section": "Educational Qualifications:",
+        "date_label": "",
+        "is_present": false
+      }
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 1,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "PARTIAL",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "PARTIAL",
+    "coverage_analysis": "PARTIAL",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "section EDUCATION: entry without dated header preserved as-is",
+    "no dated events to order",
+    "no intervals to cover"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "82a866e4e10d417d556f0456",
+    "filename": "Narasimha .pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [],
+    "unresolved_events": [
+      {
+        "id": "vb374775229a50817",
+        "type": "EDUCATION",
+        "title": "",
+        "org": "❖ Completed Graduation From Acharya Nagarjuna University.",
+        "entry_text": "❖ Completed Graduation From Acharya Nagarjuna University.",
+        "source": {
+          "entry": [
+            {
+              "page": 3,
+              "text": "❖ Completed Graduation From Acharya Nagarjuna University.",
+              "block_id": "b79",
+              "kind": "pdf",
+              "page_width": 595.56,
+              "page_height": 842.04,
+              "bbox": [
+                90.024,
+                286.2332,
+                347.61208,
+                297.77
+              ],
+              "fragment_text": "❖ CompletedGraduation From Acharya Nagarjuna University."
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 3,
+              "text": "Completed Graduation From Acharya Nagarjuna University",
+              "block_id": "b79",
+              "kind": "pdf",
+              "page_width": 595.56,
+              "page_height": 842.04,
+              "bbox": [
+                107.9,
+                286.73,
+                345.62888,
+                297.77
+              ],
+              "fragment_text": "CompletedGraduation From Acharya Nagarjuna University"
+            }
+          ],
+          "title": [],
+          "section": "Educational Qualifications:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Educational Qualifications:",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "vdb8bdea6d74a9279",
+        "type": "EMPLOYMENT",
+        "title": "❖ Role : IDMC Developer",
+        "org": "",
+        "entry_text": "❖ Role : IDMC Developer Description: The Multi-Channel Customer Identity Resolution project was designed to address the challenge of inconsistent and fragmented customer information collected across a wide range of business systems. These sources included e-commerce websites, retail POS systems, CRM",
+        "source": {
+          "entry": [
+            {
+              "page": 5,
+              "text": "❖ Role : IDMC Developer",
+              "block_id": "b148",
+              "kind": "pdf",
+              "page_width": 595.56,
+              "page_height": 842.04,
+              "bbox": [
+                90.264,
+                163.08320000000003,
+                259.9844,
+                174.62
+              ],
+              "fragment_text": "❖ Role : IDMC Developer"
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 5,
+              "text": "Role : IDMC Developer",
+              "block_id": "b148",
+              "kind": "pdf",
+              "page_width": 595.56,
+              "page_height": 842.04,
+              "bbox": [
+                107.9,
+                163.58000000000004,
+                259.9844,
+                174.62
+              ],
+              "fragment_text": "Role : IDMC Developer"
+            }
+          ],
+          "section": "Roles & Responsibilities:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Roles & Responsibilities:",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "vdb8bdea6d74a9279"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 0,
+      "total_events": 2,
+      "dated_share": 0.0,
+      "unresolved": 2,
+      "ambiguous": 0,
+      "mean_event_confidence": null,
+      "ocr_pages": []
+    },
+    "total_represented_months": 0,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "PARTIAL",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "PARTIAL",
+        "confidence": 0.3
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

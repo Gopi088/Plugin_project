@@ -1,0 +1,1565 @@
+{
+  "file_name": "Tarun Goreja Resume.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "553e525a2e84fe9f5c5a0c140460bea19916d7b022a6c70843d16c513ee10f0e",
+  "doc_id": "553e525a2e84fe9f5c5a0c14",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 4,
+    "total_events": 5,
+    "dated_share": 0.8,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.833,
+    "document_accuracy": 0.83
+  },
+  "work_experience": [
+    {
+      "id": "v1224c41845b010f1",
+      "type": "EMPLOYMENT",
+      "company": "Earlier Roles",
+      "title": "",
+      "start_date": "2011-01",
+      "end_date": "2020-12",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Earlier Roles (2011 – 2020)",
+            "block_id": "b94",
+            "kind": "text",
+            "start": 4565,
+            "end": 4592
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2011 – 2020",
+            "block_id": "b94",
+            "kind": "text",
+            "start": 4580,
+            "end": 4591
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Earlier Roles",
+            "block_id": "b94",
+            "kind": "text",
+            "start": 4565,
+            "end": 4578
+          }
+        ],
+        "title": [],
+        "section": "PROFESSIONAL EXPERIENCE",
+        "date_label": "2011 – 2020",
+        "is_present": false
+      },
+      "precision": "year",
+      "date_label": "2011 – 2020"
+    },
+    {
+      "id": "v8bd8a927bb568e5e",
+      "type": "EMPLOYMENT",
+      "company": "Snowflake Migration",
+      "title": "Team Leader",
+      "start_date": "2020-12",
+      "end_date": "2022-10",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Team Leader – Snowflake Migration",
+            "block_id": "b86",
+            "kind": "text",
+            "start": 4163,
+            "end": 4196
+          },
+          {
+            "page": 1,
+            "text": "Dec 2020 – Oct 2022",
+            "block_id": "b87",
+            "kind": "text",
+            "start": 4199,
+            "end": 4218
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Dec 2020 – Oct 2022",
+            "block_id": "b87",
+            "kind": "text",
+            "start": 4199,
+            "end": 4218
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Snowflake Migration",
+            "block_id": "b86",
+            "kind": "text",
+            "start": 4177,
+            "end": 4196
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Team Leader",
+            "block_id": "b86",
+            "kind": "text",
+            "start": 4163,
+            "end": 4174
+          }
+        ],
+        "section": "PROFESSIONAL EXPERIENCE",
+        "date_label": "Dec 2020 – Oct 2022",
+        "is_present": false
+      },
+      "precision": "month",
+      "date_label": "Dec 2020 – Oct 2022"
+    },
+    {
+      "id": "va57e5e65c8c7e9c6",
+      "type": "EMPLOYMENT",
+      "company": "Enterprise Data Engineering Release",
+      "title": "Associate Manager / Data Engineering Lead",
+      "start_date": "2022-11",
+      "end_date": "2024-06",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Associate Manager / Data Engineering Lead",
+            "block_id": "b77",
+            "kind": "text",
+            "start": 3655,
+            "end": 3696
+          },
+          {
+            "page": 1,
+            "text": "Enterprise Data Engineering Release | Nov 2022 – Jun 2024",
+            "block_id": "b78",
+            "kind": "text",
+            "start": 3699,
+            "end": 3756
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Nov 2022 – Jun 2024",
+            "block_id": "b78",
+            "kind": "text",
+            "start": 3737,
+            "end": 3756
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Enterprise Data Engineering Release",
+            "block_id": "b78",
+            "kind": "text",
+            "start": 3699,
+            "end": 3734
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Associate Manager / Data Engineering Lead",
+            "block_id": "b77",
+            "kind": "text",
+            "start": 3655,
+            "end": 3696
+          }
+        ],
+        "section": "PROFESSIONAL EXPERIENCE",
+        "date_label": "Nov 2022 – Jun 2024",
+        "is_present": false
+      },
+      "precision": "month",
+      "date_label": "Nov 2022 – Jun 2024"
+    },
+    {
+      "id": "vd67242de1a311e20",
+      "type": "EMPLOYMENT",
+      "company": "IBM Netezza → Snowflake Migration",
+      "title": "Solution Tech Architect / Data Engineering Lead",
+      "start_date": "2024-01",
+      "end_date": "2026-12",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.765,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Solution Tech Architect / Data Engineering Lead",
+            "block_id": "b58",
+            "kind": "text",
+            "start": 2561,
+            "end": 2608
+          },
+          {
+            "page": 1,
+            "text": "IBM Netezza → Snowflake Migration | US Retail Client (Los Angeles) | Jul",
+            "block_id": "b59",
+            "kind": "text",
+            "start": 2611,
+            "end": 2683
+          },
+          {
+            "page": 1,
+            "text": "2024 – Present",
+            "block_id": "b60",
+            "kind": "text",
+            "start": 2685,
+            "end": 2699
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2024 – Present",
+            "block_id": "b60",
+            "kind": "text",
+            "start": 2685,
+            "end": 2699
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "IBM Netezza → Snowflake Migration",
+            "block_id": "b59",
+            "kind": "text",
+            "start": 2611,
+            "end": 2644
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Solution Tech Architect / Data Engineering Lead",
+            "block_id": "b58",
+            "kind": "text",
+            "start": 2561,
+            "end": 2608
+          }
+        ],
+        "section": "PROFESSIONAL EXPERIENCE",
+        "date_label": "2024 – Present",
+        "is_present": true
+      },
+      "precision": "year",
+      "date_label": "2024 – Present"
+    }
+  ],
+  "education": [
+    {
+      "id": "ve7aa0c72d133e42c",
+      "type": "EDUCATION",
+      "company": "NMIMS University",
+      "title": "B.Tech",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "B.Tech – Computer Science",
+            "block_id": "b111",
+            "kind": "text",
+            "start": 5320,
+            "end": 5345
+          },
+          {
+            "page": 1,
+            "text": "NMIMS University, Mumbai (2011)",
+            "block_id": "b112",
+            "kind": "text",
+            "start": 5348,
+            "end": 5379
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2011",
+            "block_id": "b112",
+            "kind": "text",
+            "start": 5374,
+            "end": 5378
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "NMIMS University",
+            "block_id": "b112",
+            "kind": "text",
+            "start": 5348,
+            "end": 5364
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "B.Tech",
+            "block_id": "b111",
+            "kind": "text",
+            "start": 5320,
+            "end": 5326
+          }
+        ],
+        "section": "EDUCATION",
+        "date_label": "2011",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": "2011"
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 4,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "PARTIAL",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "e6: dates cannot be assigned unambiguously",
+    "overlap preserved: '' overlaps 'Team Leader'",
+    "overlap preserved: 'Associate Manager / Data Engineering Lead' overlaps 'Solution Tech Architect / Data Engineering Lead'",
+    "conflicting/ambiguous date kept for 'B.Tech'"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "553e525a2e84fe9f5c5a0c14",
+    "filename": "Tarun Goreja Resume.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "v1224c41845b010f1",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Earlier Roles",
+        "start": "2011-01",
+        "end": "2020-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Earlier Roles (2011 – 2020)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Earlier Roles (2011 – 2020)",
+              "block_id": "b94",
+              "kind": "text",
+              "start": 4565,
+              "end": 4592
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2011 – 2020",
+              "block_id": "b94",
+              "kind": "text",
+              "start": 4580,
+              "end": 4591
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Earlier Roles",
+              "block_id": "b94",
+              "kind": "text",
+              "start": 4565,
+              "end": 4578
+            }
+          ],
+          "title": [],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "2011 – 2020",
+          "is_present": false
+        },
+        "date_label": "2011 – 2020",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v8bd8a927bb568e5e",
+        "type": "EMPLOYMENT",
+        "title": "Team Leader",
+        "org": "Snowflake Migration",
+        "start": "2020-12",
+        "end": "2022-10",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Team Leader – Snowflake Migration\nDec 2020 – Oct 2022",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Team Leader – Snowflake Migration",
+              "block_id": "b86",
+              "kind": "text",
+              "start": 4163,
+              "end": 4196
+            },
+            {
+              "page": 1,
+              "text": "Dec 2020 – Oct 2022",
+              "block_id": "b87",
+              "kind": "text",
+              "start": 4199,
+              "end": 4218
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Dec 2020 – Oct 2022",
+              "block_id": "b87",
+              "kind": "text",
+              "start": 4199,
+              "end": 4218
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Snowflake Migration",
+              "block_id": "b86",
+              "kind": "text",
+              "start": 4177,
+              "end": 4196
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Team Leader",
+              "block_id": "b86",
+              "kind": "text",
+              "start": 4163,
+              "end": 4174
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Dec 2020 – Oct 2022",
+          "is_present": false
+        },
+        "date_label": "Dec 2020 – Oct 2022",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "va57e5e65c8c7e9c6",
+        "type": "EMPLOYMENT",
+        "title": "Associate Manager / Data Engineering Lead",
+        "org": "Enterprise Data Engineering Release",
+        "start": "2022-11",
+        "end": "2024-06",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Associate Manager / Data Engineering Lead\nEnterprise Data Engineering Release | Nov 2022 – Jun 2024",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Associate Manager / Data Engineering Lead",
+              "block_id": "b77",
+              "kind": "text",
+              "start": 3655,
+              "end": 3696
+            },
+            {
+              "page": 1,
+              "text": "Enterprise Data Engineering Release | Nov 2022 – Jun 2024",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 3699,
+              "end": 3756
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Nov 2022 – Jun 2024",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 3737,
+              "end": 3756
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Enterprise Data Engineering Release",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 3699,
+              "end": 3734
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Associate Manager / Data Engineering Lead",
+              "block_id": "b77",
+              "kind": "text",
+              "start": 3655,
+              "end": 3696
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Nov 2022 – Jun 2024",
+          "is_present": false
+        },
+        "date_label": "Nov 2022 – Jun 2024",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vd67242de1a311e20",
+        "type": "EMPLOYMENT",
+        "title": "Solution Tech Architect / Data Engineering Lead",
+        "org": "IBM Netezza → Snowflake Migration",
+        "start": "2024-01",
+        "end": "2026-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Solution Tech Architect / Data Engineering Lead\nIBM Netezza → Snowflake Migration | US Retail Client (Los Angeles) | Jul\n2024 – Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Solution Tech Architect / Data Engineering Lead",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 2561,
+              "end": 2608
+            },
+            {
+              "page": 1,
+              "text": "IBM Netezza → Snowflake Migration | US Retail Client (Los Angeles) | Jul",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 2611,
+              "end": 2683
+            },
+            {
+              "page": 1,
+              "text": "2024 – Present",
+              "block_id": "b60",
+              "kind": "text",
+              "start": 2685,
+              "end": 2699
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2024 – Present",
+              "block_id": "b60",
+              "kind": "text",
+              "start": 2685,
+              "end": 2699
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "IBM Netezza → Snowflake Migration",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 2611,
+              "end": 2644
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Solution Tech Architect / Data Engineering Lead",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 2561,
+              "end": 2608
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "2024 – Present",
+          "is_present": true
+        },
+        "date_label": "2024 – Present",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "ve7aa0c72d133e42c",
+        "type": "EDUCATION",
+        "title": "B.Tech",
+        "org": "NMIMS University",
+        "entry_text": "B.Tech – Computer Science NMIMS University, Mumbai (2011)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "B.Tech – Computer Science",
+              "block_id": "b111",
+              "kind": "text",
+              "start": 5320,
+              "end": 5345
+            },
+            {
+              "page": 1,
+              "text": "NMIMS University, Mumbai (2011)",
+              "block_id": "b112",
+              "kind": "text",
+              "start": 5348,
+              "end": 5379
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2011",
+              "block_id": "b112",
+              "kind": "text",
+              "start": 5374,
+              "end": 5378
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "NMIMS University",
+              "block_id": "b112",
+              "kind": "text",
+              "start": 5348,
+              "end": 5364
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "B.Tech",
+              "block_id": "b111",
+              "kind": "text",
+              "start": 5320,
+              "end": 5326
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2011",
+          "is_present": false
+        },
+        "date_label": "2011",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [],
+        "evidence": {
+          "note": "year-only dates need verification"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 4,
+      "total_events": 5,
+      "dated_share": 0.8,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.833,
+      "document_accuracy": 0.83
+    },
+    "total_represented_months": 192,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 4,
+          "dated_periods": 4,
+          "represented_months": 43,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 2,
+            "year_range": 2,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v1224c41845b010f1",
+              "label": "Earlier Roles",
+              "state": "year_range",
+              "start": [
+                2011,
+                1
+              ],
+              "end": [
+                2020,
+                12
+              ],
+              "months": null,
+              "raw": "2011 – 2020",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Earlier Roles (2011 – 2020)",
+                    "block_id": "b94",
+                    "kind": "text",
+                    "start": 4565,
+                    "end": 4592
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "2011 – 2020",
+                    "block_id": "b94",
+                    "kind": "text",
+                    "start": 4580,
+                    "end": 4591
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Earlier Roles",
+                    "block_id": "b94",
+                    "kind": "text",
+                    "start": 4565,
+                    "end": 4578
+                  }
+                ],
+                "title": [],
+                "section": "PROFESSIONAL EXPERIENCE",
+                "date_label": "2011 – 2020",
+                "is_present": false
+              }
+            },
+            {
+              "id": "v8bd8a927bb568e5e",
+              "label": "Team Leader",
+              "state": "month_range",
+              "start": [
+                2020,
+                12
+              ],
+              "end": [
+                2022,
+                10
+              ],
+              "months": 23,
+              "raw": "Dec 2020 – Oct 2022",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Team Leader – Snowflake Migration",
+                    "block_id": "b86",
+                    "kind": "text",
+                    "start": 4163,
+                    "end": 4196
+                  },
+                  {
+                    "page": 1,
+                    "text": "Dec 2020 – Oct 2022",
+                    "block_id": "b87",
+                    "kind": "text",
+                    "start": 4199,
+                    "end": 4218
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "Dec 2020 – Oct 2022",
+                    "block_id": "b87",
+                    "kind": "text",
+                    "start": 4199,
+                    "end": 4218
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Snowflake Migration",
+                    "block_id": "b86",
+                    "kind": "text",
+                    "start": 4177,
+                    "end": 4196
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Team Leader",
+                    "block_id": "b86",
+                    "kind": "text",
+                    "start": 4163,
+                    "end": 4174
+                  }
+                ],
+                "section": "PROFESSIONAL EXPERIENCE",
+                "date_label": "Dec 2020 – Oct 2022",
+                "is_present": false
+              }
+            },
+            {
+              "id": "va57e5e65c8c7e9c6",
+              "label": "Associate Manager / Data Engineering Lead",
+              "state": "month_range",
+              "start": [
+                2022,
+                11
+              ],
+              "end": [
+                2024,
+                6
+              ],
+              "months": 20,
+              "raw": "Nov 2022 – Jun 2024",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Associate Manager / Data Engineering Lead",
+                    "block_id": "b77",
+                    "kind": "text",
+                    "start": 3655,
+                    "end": 3696
+                  },
+                  {
+                    "page": 1,
+                    "text": "Enterprise Data Engineering Release | Nov 2022 – Jun 2024",
+                    "block_id": "b78",
+                    "kind": "text",
+                    "start": 3699,
+                    "end": 3756
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "Nov 2022 – Jun 2024",
+                    "block_id": "b78",
+                    "kind": "text",
+                    "start": 3737,
+                    "end": 3756
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Enterprise Data Engineering Release",
+                    "block_id": "b78",
+                    "kind": "text",
+                    "start": 3699,
+                    "end": 3734
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Associate Manager / Data Engineering Lead",
+                    "block_id": "b77",
+                    "kind": "text",
+                    "start": 3655,
+                    "end": 3696
+                  }
+                ],
+                "section": "PROFESSIONAL EXPERIENCE",
+                "date_label": "Nov 2022 – Jun 2024",
+                "is_present": false
+              }
+            },
+            {
+              "id": "vd67242de1a311e20",
+              "label": "Solution Tech Architect / Data Engineering Lead",
+              "state": "year_range",
+              "start": [
+                2024,
+                1
+              ],
+              "end": [
+                2026,
+                9
+              ],
+              "months": null,
+              "raw": "2024 – Present",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Solution Tech Architect / Data Engineering Lead",
+                    "block_id": "b58",
+                    "kind": "text",
+                    "start": 2561,
+                    "end": 2608
+                  },
+                  {
+                    "page": 1,
+                    "text": "IBM Netezza → Snowflake Migration | US Retail Client (Los Angeles) | Jul",
+                    "block_id": "b59",
+                    "kind": "text",
+                    "start": 2611,
+                    "end": 2683
+                  },
+                  {
+                    "page": 1,
+                    "text": "2024 – Present",
+                    "block_id": "b60",
+                    "kind": "text",
+                    "start": 2685,
+                    "end": 2699
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "2024 – Present",
+                    "block_id": "b60",
+                    "kind": "text",
+                    "start": 2685,
+                    "end": 2699
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "IBM Netezza → Snowflake Migration",
+                    "block_id": "b59",
+                    "kind": "text",
+                    "start": 2611,
+                    "end": 2644
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Solution Tech Architect / Data Engineering Lead",
+                    "block_id": "b58",
+                    "kind": "text",
+                    "start": 2561,
+                    "end": 2608
+                  }
+                ],
+                "section": "PROFESSIONAL EXPERIENCE",
+                "date_label": "2024 – Present",
+                "is_present": true
+              }
+            }
+          ]
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 1,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "ve7aa0c72d133e42c",
+              "label": "B.Tech",
+              "state": "single_date",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "2011",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "B.Tech – Computer Science",
+                    "block_id": "b111",
+                    "kind": "text",
+                    "start": 5320,
+                    "end": 5345
+                  },
+                  {
+                    "page": 1,
+                    "text": "NMIMS University, Mumbai (2011)",
+                    "block_id": "b112",
+                    "kind": "text",
+                    "start": 5348,
+                    "end": 5379
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "2011",
+                    "block_id": "b112",
+                    "kind": "text",
+                    "start": 5374,
+                    "end": 5378
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "NMIMS University",
+                    "block_id": "b112",
+                    "kind": "text",
+                    "start": 5348,
+                    "end": 5364
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "B.Tech",
+                    "block_id": "b111",
+                    "kind": "text",
+                    "start": 5320,
+                    "end": 5326
+                  }
+                ],
+                "section": "EDUCATION",
+                "date_label": "2011",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 43,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 4,
+        "dated_periods": 4,
+        "represented_months": 43,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 2,
+          "year_range": 2,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v1224c41845b010f1",
+            "label": "Earlier Roles",
+            "state": "year_range",
+            "start": [
+              2011,
+              1
+            ],
+            "end": [
+              2020,
+              12
+            ],
+            "months": null,
+            "raw": "2011 – 2020",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Earlier Roles (2011 – 2020)",
+                  "block_id": "b94",
+                  "kind": "text",
+                  "start": 4565,
+                  "end": 4592
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "2011 – 2020",
+                  "block_id": "b94",
+                  "kind": "text",
+                  "start": 4580,
+                  "end": 4591
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Earlier Roles",
+                  "block_id": "b94",
+                  "kind": "text",
+                  "start": 4565,
+                  "end": 4578
+                }
+              ],
+              "title": [],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "2011 – 2020",
+              "is_present": false
+            }
+          },
+          {
+            "id": "v8bd8a927bb568e5e",
+            "label": "Team Leader",
+            "state": "month_range",
+            "start": [
+              2020,
+              12
+            ],
+            "end": [
+              2022,
+              10
+            ],
+            "months": 23,
+            "raw": "Dec 2020 – Oct 2022",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Team Leader – Snowflake Migration",
+                  "block_id": "b86",
+                  "kind": "text",
+                  "start": 4163,
+                  "end": 4196
+                },
+                {
+                  "page": 1,
+                  "text": "Dec 2020 – Oct 2022",
+                  "block_id": "b87",
+                  "kind": "text",
+                  "start": 4199,
+                  "end": 4218
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Dec 2020 – Oct 2022",
+                  "block_id": "b87",
+                  "kind": "text",
+                  "start": 4199,
+                  "end": 4218
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Snowflake Migration",
+                  "block_id": "b86",
+                  "kind": "text",
+                  "start": 4177,
+                  "end": 4196
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Team Leader",
+                  "block_id": "b86",
+                  "kind": "text",
+                  "start": 4163,
+                  "end": 4174
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "Dec 2020 – Oct 2022",
+              "is_present": false
+            }
+          },
+          {
+            "id": "va57e5e65c8c7e9c6",
+            "label": "Associate Manager / Data Engineering Lead",
+            "state": "month_range",
+            "start": [
+              2022,
+              11
+            ],
+            "end": [
+              2024,
+              6
+            ],
+            "months": 20,
+            "raw": "Nov 2022 – Jun 2024",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Associate Manager / Data Engineering Lead",
+                  "block_id": "b77",
+                  "kind": "text",
+                  "start": 3655,
+                  "end": 3696
+                },
+                {
+                  "page": 1,
+                  "text": "Enterprise Data Engineering Release | Nov 2022 – Jun 2024",
+                  "block_id": "b78",
+                  "kind": "text",
+                  "start": 3699,
+                  "end": 3756
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Nov 2022 – Jun 2024",
+                  "block_id": "b78",
+                  "kind": "text",
+                  "start": 3737,
+                  "end": 3756
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Enterprise Data Engineering Release",
+                  "block_id": "b78",
+                  "kind": "text",
+                  "start": 3699,
+                  "end": 3734
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Associate Manager / Data Engineering Lead",
+                  "block_id": "b77",
+                  "kind": "text",
+                  "start": 3655,
+                  "end": 3696
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "Nov 2022 – Jun 2024",
+              "is_present": false
+            }
+          },
+          {
+            "id": "vd67242de1a311e20",
+            "label": "Solution Tech Architect / Data Engineering Lead",
+            "state": "year_range",
+            "start": [
+              2024,
+              1
+            ],
+            "end": [
+              2026,
+              9
+            ],
+            "months": null,
+            "raw": "2024 – Present",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Solution Tech Architect / Data Engineering Lead",
+                  "block_id": "b58",
+                  "kind": "text",
+                  "start": 2561,
+                  "end": 2608
+                },
+                {
+                  "page": 1,
+                  "text": "IBM Netezza → Snowflake Migration | US Retail Client (Los Angeles) | Jul",
+                  "block_id": "b59",
+                  "kind": "text",
+                  "start": 2611,
+                  "end": 2683
+                },
+                {
+                  "page": 1,
+                  "text": "2024 – Present",
+                  "block_id": "b60",
+                  "kind": "text",
+                  "start": 2685,
+                  "end": 2699
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "2024 – Present",
+                  "block_id": "b60",
+                  "kind": "text",
+                  "start": 2685,
+                  "end": 2699
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "IBM Netezza → Snowflake Migration",
+                  "block_id": "b59",
+                  "kind": "text",
+                  "start": 2611,
+                  "end": 2644
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Solution Tech Architect / Data Engineering Lead",
+                  "block_id": "b58",
+                  "kind": "text",
+                  "start": 2561,
+                  "end": 2608
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "2024 – Present",
+              "is_present": true
+            }
+          }
+        ]
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 1,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "ve7aa0c72d133e42c",
+            "label": "B.Tech",
+            "state": "single_date",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "2011",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "B.Tech – Computer Science",
+                  "block_id": "b111",
+                  "kind": "text",
+                  "start": 5320,
+                  "end": 5345
+                },
+                {
+                  "page": 1,
+                  "text": "NMIMS University, Mumbai (2011)",
+                  "block_id": "b112",
+                  "kind": "text",
+                  "start": 5348,
+                  "end": 5379
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "2011",
+                  "block_id": "b112",
+                  "kind": "text",
+                  "start": 5374,
+                  "end": 5378
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "NMIMS University",
+                  "block_id": "b112",
+                  "kind": "text",
+                  "start": 5348,
+                  "end": 5364
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "B.Tech",
+                  "block_id": "b111",
+                  "kind": "text",
+                  "start": 5320,
+                  "end": 5326
+                }
+              ],
+              "section": "EDUCATION",
+              "date_label": "2011",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 43,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

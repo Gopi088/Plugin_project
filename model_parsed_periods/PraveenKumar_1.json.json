@@ -1,0 +1,3590 @@
+{
+  "file_name": "PraveenKumar_1.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "a26e9f3bc0345cf355e8146dd4ee52bdffb90030f0aa90109f4d60e0571e7408",
+  "doc_id": "a26e9f3bc0345cf355e8146d",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 10,
+    "dated_share": 0.1,
+    "unresolved": 9,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "vc631ef28dae6c8c0",
+      "type": "EMPLOYMENT",
+      "company": "Espire",
+      "title": "Business Analyst",
+      "start_date": "2020-01",
+      "end_date": "2022-08",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Espire – Business Analyst Jan 2020 – Aug 2022",
+            "block_id": "b34",
+            "kind": "text",
+            "start": 2354,
+            "end": 2399
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Jan 2020 – Aug 2022",
+            "block_id": "b34",
+            "kind": "text",
+            "start": 2380,
+            "end": 2399
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Espire",
+            "block_id": "b34",
+            "kind": "text",
+            "start": 2354,
+            "end": 2360
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Business Analyst",
+            "block_id": "b34",
+            "kind": "text",
+            "start": 2363,
+            "end": 2379
+          }
+        ],
+        "section": "WORK EXPERIENCE",
+        "date_label": "Jan 2020 – Aug 2022",
+        "is_present": false
+      },
+      "precision": "month",
+      "date_label": "Jan 2020 – Aug 2022"
+    }
+  ],
+  "education": [
+    {
+      "id": "vacbd9e6e9d58595e",
+      "type": "EDUCATION",
+      "company": "GL Bajaj Institute of Technology and Management",
+      "title": "Master of Business Administration",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Master of Business Administration (MBA) – Information Technology & Operations",
+            "block_id": "b116",
+            "kind": "text",
+            "start": 9600,
+            "end": 9677
+          },
+          {
+            "page": 1,
+            "text": "GL Bajaj Institute of Technology and Management, Greater Noida",
+            "block_id": "b117",
+            "kind": "text",
+            "start": 9679,
+            "end": 9741
+          }
+        ],
+        "dates": [],
+        "company": [
+          {
+            "page": 1,
+            "text": "GL Bajaj Institute of Technology and Management",
+            "block_id": "b117",
+            "kind": "text",
+            "start": 9679,
+            "end": 9726
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Master of Business Administration",
+            "block_id": "b116",
+            "kind": "text",
+            "start": 9600,
+            "end": 9633
+          }
+        ],
+        "section": "EDUCATION",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    },
+    {
+      "id": "v7073dea7925a4bd5",
+      "type": "EDUCATION",
+      "company": "Galgotias University",
+      "title": "Bachelor of Technology",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Bachelor of Technology (B.Tech) – Computer Science and Engineering",
+            "block_id": "b118",
+            "kind": "text",
+            "start": 9743,
+            "end": 9809
+          },
+          {
+            "page": 1,
+            "text": "Galgotias University, Uttar Pradesh",
+            "block_id": "b119",
+            "kind": "text",
+            "start": 9811,
+            "end": 9846
+          }
+        ],
+        "dates": [],
+        "company": [
+          {
+            "page": 1,
+            "text": "Galgotias University",
+            "block_id": "b119",
+            "kind": "text",
+            "start": 9811,
+            "end": 9831
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Bachelor of Technology",
+            "block_id": "b118",
+            "kind": "text",
+            "start": 9743,
+            "end": 9765
+          }
+        ],
+        "section": "EDUCATION",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "AT&T(Mexico)",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "AT&T(Mexico)",
+        "At AT&T, I served as a Senior Business Analyst where I was responsible for bridging the gap between",
+        "business stakeholders and technical teams in delivering enhancements to the telecom service",
+        "management platform. My role involved gathering, analyzing, and documenting business requirements for",
+        "key features such as keyword management, rebranding workflows, and database optimization. I converted",
+        "these requirements into clear user stories and acceptance criteria using tools like Jira and Confluence,",
+        "and collaborated closely with developers and QA teams in an Agile environment to ensure timely delivery. I",
+        "also created mockups and process flow diagrams to provide visual clarity and validation during requirement"
+      ],
+      "raw_text": "AT&T(Mexico)\nAt AT&T, I served as a Senior Business Analyst where I was responsible for bridging the gap between\nbusiness stakeholders and technical teams in delivering enhancements to the telecom service\nmanagement platform. My role involved gathering, analyzing, and documenting business requirements for\nkey features such as keyword management, rebranding workflows, and database optimization. I converted\nthese requirements into clear user stories and acceptance criteria using tools like Jira and Confluence,\nand collaborated closely with developers and QA teams in an Agile environment to ensur",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "AT&T(Mexico)",
+            "block_id": "b51",
+            "kind": "text",
+            "start": 3666,
+            "end": 3678
+          },
+          {
+            "page": 1,
+            "text": "At AT&T, I served as a Senior Business Analyst where I was responsible for bridging the gap between",
+            "block_id": "b52",
+            "kind": "text",
+            "start": 3682,
+            "end": 3781
+          },
+          {
+            "page": 1,
+            "text": "business stakeholders and technical teams in delivering enhancements to the telecom service",
+            "block_id": "b53",
+            "kind": "text",
+            "start": 3783,
+            "end": 3874
+          },
+          {
+            "page": 1,
+            "text": "management platform. My role involved gathering, analyzing, and documenting business requirements for",
+            "block_id": "b54",
+            "kind": "text",
+            "start": 3876,
+            "end": 3977
+          },
+          {
+            "page": 1,
+            "text": "key features such as keyword management, rebranding workflows, and database optimization. I converted",
+            "block_id": "b55",
+            "kind": "text",
+            "start": 3979,
+            "end": 4080
+          },
+          {
+            "page": 1,
+            "text": "these requirements into clear user stories and acceptance criteria using tools like Jira and Confluence,",
+            "block_id": "b56",
+            "kind": "text",
+            "start": 4082,
+            "end": 4186
+          },
+          {
+            "page": 1,
+            "text": "and collaborated closely with developers and QA teams in an Agile environment to ensure timely delivery. I",
+            "block_id": "b57",
+            "kind": "text",
+            "start": 4188,
+            "end": 4294
+          },
+          {
+            "page": 1,
+            "text": "also created mockups and process flow diagrams to provide visual clarity and validation during requirement",
+            "block_id": "b58",
+            "kind": "text",
+            "start": 4296,
+            "end": 4402
+          },
+          {
+            "page": 1,
+            "text": "walkthroughs. As part of the UAT phase, I coordinated end-to-end testing, prepared detailed test cases,",
+            "block_id": "b59",
+            "kind": "text",
+            "start": 4404,
+            "end": 4507
+          },
+          {
+            "page": 1,
+            "text": "and managed defect resolution. I was actively involved in handling change requests, performing impact",
+            "block_id": "b60",
+            "kind": "text",
+            "start": 4509,
+            "end": 4610
+          },
+          {
+            "page": 1,
+            "text": "analysis, and maintaining requirement traceability throughout the SDLC. Post-deployment, I supported",
+            "block_id": "b61",
+            "kind": "text",
+            "start": 4612,
+            "end": 4712
+          },
+          {
+            "page": 1,
+            "text": "hypercare activities and facilitated user training sessions to ensure smooth adoption of new functionalities.",
+            "block_id": "b62",
+            "kind": "text",
+            "start": 4714,
+            "end": 4823
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_2",
+      "name": "My contribution helped streamline internal workflows and enhance the overall user experience on the",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "My contribution helped streamline internal workflows and enhance the overall user experience on the"
+      ],
+      "raw_text": "My contribution helped streamline internal workflows and enhance the overall user experience on the",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "My contribution helped streamline internal workflows and enhance the overall user experience on the",
+            "block_id": "b63",
+            "kind": "text",
+            "start": 4825,
+            "end": 4924
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_3",
+      "name": "AT&T platform.",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "AT&T platform."
+      ],
+      "raw_text": "AT&T platform.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "AT&T platform.",
+            "block_id": "b64",
+            "kind": "text",
+            "start": 4926,
+            "end": 4940
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_4",
+      "name": "Kuwait Finance House",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Kuwait Finance House",
+        "At Kuwait Finance House, I worked as a Business Analyst, where I was responsible for gathering and",
+        "analyzing requirements for various digital banking modules, including account management, loan servicing,",
+        "and financial reporting. I collaborated closely with product owners, subject matter experts, and technical",
+        "teams to translate business needs into detailed Business Requirement Documents (BRD) and Functional"
+      ],
+      "raw_text": "Kuwait Finance House\nAt Kuwait Finance House, I worked as a Business Analyst, where I was responsible for gathering and\nanalyzing requirements for various digital banking modules, including account management, loan servicing,\nand financial reporting. I collaborated closely with product owners, subject matter experts, and technical\nteams to translate business needs into detailed Business Requirement Documents (BRD) and Functional",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Kuwait Finance House",
+            "block_id": "b65",
+            "kind": "text",
+            "start": 4944,
+            "end": 4964
+          },
+          {
+            "page": 1,
+            "text": "At Kuwait Finance House, I worked as a Business Analyst, where I was responsible for gathering and",
+            "block_id": "b66",
+            "kind": "text",
+            "start": 4968,
+            "end": 5066
+          },
+          {
+            "page": 1,
+            "text": "analyzing requirements for various digital banking modules, including account management, loan servicing,",
+            "block_id": "b67",
+            "kind": "text",
+            "start": 5068,
+            "end": 5173
+          },
+          {
+            "page": 1,
+            "text": "and financial reporting. I collaborated closely with product owners, subject matter experts, and technical",
+            "block_id": "b68",
+            "kind": "text",
+            "start": 5175,
+            "end": 5281
+          },
+          {
+            "page": 1,
+            "text": "teams to translate business needs into detailed Business Requirement Documents (BRD) and Functional",
+            "block_id": "b69",
+            "kind": "text",
+            "start": 5283,
+            "end": 5382
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_5",
+      "name": "Requirement Documents (FRD), ensuring alignment with compliance and regulatory standards. My role",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Requirement Documents (FRD), ensuring alignment with compliance and regulatory standards. My role",
+        "involved working on API enhancement and integration, where I documented request and response",
+        "structures and supported backend coordination. I created process flows, use case diagrams, and data",
+        "mapping documents to support the implementation of new features and enhancements. As part of an Agile",
+        "team, I actively participated in sprint planning, daily stand-ups, and retrospectives, while also managing"
+      ],
+      "raw_text": "Requirement Documents (FRD), ensuring alignment with compliance and regulatory standards. My role\ninvolved working on API enhancement and integration, where I documented request and response\nstructures and supported backend coordination. I created process flows, use case diagrams, and data\nmapping documents to support the implementation of new features and enhancements. As part of an Agile\nteam, I actively participated in sprint planning, daily stand-ups, and retrospectives, while also managing",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Requirement Documents (FRD), ensuring alignment with compliance and regulatory standards. My role",
+            "block_id": "b70",
+            "kind": "text",
+            "start": 5384,
+            "end": 5481
+          },
+          {
+            "page": 1,
+            "text": "involved working on API enhancement and integration, where I documented request and response",
+            "block_id": "b71",
+            "kind": "text",
+            "start": 5483,
+            "end": 5575
+          },
+          {
+            "page": 1,
+            "text": "structures and supported backend coordination. I created process flows, use case diagrams, and data",
+            "block_id": "b72",
+            "kind": "text",
+            "start": 5577,
+            "end": 5676
+          },
+          {
+            "page": 1,
+            "text": "mapping documents to support the implementation of new features and enhancements. As part of an Agile",
+            "block_id": "b73",
+            "kind": "text",
+            "start": 5678,
+            "end": 5779
+          },
+          {
+            "page": 1,
+            "text": "team, I actively participated in sprint planning, daily stand-ups, and retrospectives, while also managing",
+            "block_id": "b74",
+            "kind": "text",
+            "start": 5781,
+            "end": 5887
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_6",
+      "name": "UAT execution—preparing test cases, coordinating defect resolution, and ensuring successful business",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "UAT execution—preparing test cases, coordinating defect resolution, and ensuring successful business",
+        "sign-off. Additionally, I played a key role in production support, performing impact analysis and addressing",
+        "critical issues, while also contributing to the creation of user manuals and training materials to support end- user adoption."
+      ],
+      "raw_text": "UAT execution—preparing test cases, coordinating defect resolution, and ensuring successful business\nsign-off. Additionally, I played a key role in production support, performing impact analysis and addressing\ncritical issues, while also contributing to the creation of user manuals and training materials to support end- user adoption.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "UAT execution—preparing test cases, coordinating defect resolution, and ensuring successful business",
+            "block_id": "b75",
+            "kind": "text",
+            "start": 5889,
+            "end": 5989
+          },
+          {
+            "page": 1,
+            "text": "sign-off. Additionally, I played a key role in production support, performing impact analysis and addressing",
+            "block_id": "b76",
+            "kind": "text",
+            "start": 5991,
+            "end": 6099
+          },
+          {
+            "page": 1,
+            "text": "critical issues, while also contributing to the creation of user manuals and training materials to support end-",
+            "block_id": "b77",
+            "kind": "text",
+            "start": 6101,
+            "end": 6212
+          },
+          {
+            "page": 1,
+            "text": "user adoption.",
+            "block_id": "b77",
+            "kind": "text",
+            "start": 6213,
+            "end": 6227
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_7",
+      "name": "Citi Bank",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Citi Bank",
+        "• At Citi Bank, I worked as a Business Analyst where I was involved in the enhancement of the bank’s",
+        "digital banking platform, focusing on improving user experience, streamlining loan processing, and",
+        "ensuring compliance with evolving financial regulations. I gathered and analyzed business requirements",
+        "through client interactions and stakeholder workshops, translating them into detailed documentation",
+        "including BRDs, FRDs, and user stories with defined acceptance criteria. I collaborated closely with",
+        "development teams to design and enhance RESTful APIs used in customer onboarding, loan",
+        "management, and transaction processing. In an Agile environment, I actively participated in sprint"
+      ],
+      "raw_text": "Citi Bank\n• At Citi Bank, I worked as a Business Analyst where I was involved in the enhancement of the bank’s\ndigital banking platform, focusing on improving user experience, streamlining loan processing, and\nensuring compliance with evolving financial regulations. I gathered and analyzed business requirements\nthrough client interactions and stakeholder workshops, translating them into detailed documentation\nincluding BRDs, FRDs, and user stories with defined acceptance criteria. I collaborated closely with\ndevelopment teams to design and enhance RESTful APIs used in customer onboarding, loan",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Citi Bank",
+            "block_id": "b78",
+            "kind": "text",
+            "start": 6231,
+            "end": 6240
+          },
+          {
+            "page": 1,
+            "text": "• At Citi Bank, I worked as a Business Analyst where I was involved in the enhancement of the bank’s",
+            "block_id": "b79",
+            "kind": "text",
+            "start": 6244,
+            "end": 6344
+          },
+          {
+            "page": 1,
+            "text": "digital banking platform, focusing on improving user experience, streamlining loan processing, and",
+            "block_id": "b80",
+            "kind": "text",
+            "start": 6346,
+            "end": 6444
+          },
+          {
+            "page": 1,
+            "text": "ensuring compliance with evolving financial regulations. I gathered and analyzed business requirements",
+            "block_id": "b81",
+            "kind": "text",
+            "start": 6446,
+            "end": 6548
+          },
+          {
+            "page": 1,
+            "text": "through client interactions and stakeholder workshops, translating them into detailed documentation",
+            "block_id": "b82",
+            "kind": "text",
+            "start": 6550,
+            "end": 6649
+          },
+          {
+            "page": 1,
+            "text": "including BRDs, FRDs, and user stories with defined acceptance criteria. I collaborated closely with",
+            "block_id": "b83",
+            "kind": "text",
+            "start": 6651,
+            "end": 6751
+          },
+          {
+            "page": 1,
+            "text": "development teams to design and enhance RESTful APIs used in customer onboarding, loan",
+            "block_id": "b84",
+            "kind": "text",
+            "start": 6753,
+            "end": 6839
+          },
+          {
+            "page": 1,
+            "text": "management, and transaction processing. In an Agile environment, I actively participated in sprint",
+            "block_id": "b85",
+            "kind": "text",
+            "start": 6841,
+            "end": 6939
+          },
+          {
+            "page": 1,
+            "text": "ceremonies, managed product backlogs, and ensured clear communication between business and",
+            "block_id": "b86",
+            "kind": "text",
+            "start": 6941,
+            "end": 7031
+          },
+          {
+            "page": 1,
+            "text": "technical stakeholders. I also played a key role in UAT planning and coordination, creating test cases,",
+            "block_id": "b87",
+            "kind": "text",
+            "start": 7033,
+            "end": 7136
+          },
+          {
+            "page": 1,
+            "text": "facilitating defect triage, and obtaining business sign-off for production releases. Additionally, I supported",
+            "block_id": "b88",
+            "kind": "text",
+            "start": 7138,
+            "end": 7248
+          },
+          {
+            "page": 1,
+            "text": "deployment activities using Jenkins and monitored post-release issues during the hypercare phase. My",
+            "block_id": "b89",
+            "kind": "text",
+            "start": 7250,
+            "end": 7350
+          },
+          {
+            "page": 1,
+            "text": "work contributed to delivering secure, user-friendly banking features while aligning with the bank's",
+            "block_id": "b90",
+            "kind": "text",
+            "start": 7352,
+            "end": 7452
+          },
+          {
+            "page": 1,
+            "text": "strategic digital transformation goals.Worked as a Business Analyst on digital banking transformation",
+            "block_id": "b91",
+            "kind": "text",
+            "start": 7454,
+            "end": 7555
+          },
+          {
+            "page": 1,
+            "text": "initiatives, partnering with business stakeholders to define Current State (AS-IS) processes, identify pain points,",
+            "block_id": "b92",
+            "kind": "text",
+            "start": 7557,
+            "end": 7672
+          },
+          {
+            "page": 1,
+            "text": "and design Future State (TO-BE) operating models aligned with business and regulatory objectives. Collaborated",
+            "block_id": "b93",
+            "kind": "text",
+            "start": 7674,
+            "end": 7784
+          },
+          {
+            "page": 1,
+            "text": "with business and technology teams on Target Operating Model (TOM) initiatives, supporting operating model",
+            "block_id": "b94",
+            "kind": "text",
+            "start": 7786,
+            "end": 7892
+          },
+          {
+            "page": 1,
+            "text": "improvements, process standardization, and digital transformation across customer onboarding, loan",
+            "block_id": "b95",
+            "kind": "text",
+            "start": 7894,
+            "end": 7992
+          },
+          {
+            "page": 1,
+            "text": "management, and transaction processing. Conducted detailed requirement gathering workshops and translated",
+            "block_id": "b96",
+            "kind": "text",
+            "start": 7994,
+            "end": 8099
+          },
+          {
+            "page": 1,
+            "text": "business needs into BRDs, FRDs, user stories, acceptance criteria, process flows, and functional specifications.",
+            "block_id": "b97",
+            "kind": "text",
+            "start": 8101,
+            "end": 8213
+          },
+          {
+            "page": 1,
+            "text": "Performed Business Architecture and Process Architecture analysis by documenting business capabilities, business",
+            "block_id": "b98",
+            "kind": "text",
+            "start": 8215,
+            "end": 8327
+          },
+          {
+            "page": 1,
+            "text": "processes, system interactions, and end-to-end workflow dependencies to support solution design. Facilitated",
+            "block_id": "b99",
+            "kind": "text",
+            "start": 8329,
+            "end": 8437
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_8",
+      "name": "Customer Journey Mapping workshops to analyse customer touchpoints, identify service gaps, improve user",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Customer Journey Mapping workshops to analyse customer touchpoints, identify service gaps, improve user",
+        "experience, and streamline digital banking journeys. Created AS-IS/TO-BE process maps, performed Gap Analysis",
+        "and impact assessments, and recommended process optimisation opportunities to improve operational efficiency",
+        "and customer experience. Worked closely with Solution Architects, Product Owners, Developers, QA, Operations,",
+        "and Business stakeholders to ensure business requirements were accurately translated into technical solutions.",
+        "Managed Agile ceremonies, prioritised product backlogs, refined user stories, coordinated UAT planning and",
+        "execution, resolved defects, and obtained business sign-off for production releases. Supported deployment,",
+        "hypercare, change management, and post-production issue resolution while ensuring compliance with banking"
+      ],
+      "raw_text": "Customer Journey Mapping workshops to analyse customer touchpoints, identify service gaps, improve user\nexperience, and streamline digital banking journeys. Created AS-IS/TO-BE process maps, performed Gap Analysis\nand impact assessments, and recommended process optimisation opportunities to improve operational efficiency\nand customer experience. Worked closely with Solution Architects, Product Owners, Developers, QA, Operations,\nand Business stakeholders to ensure business requirements were accurately translated into technical solutions.\nManaged Agile ceremonies, prioritised product backlogs, ",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Customer Journey Mapping workshops to analyse customer touchpoints, identify service gaps, improve user",
+            "block_id": "b100",
+            "kind": "text",
+            "start": 8439,
+            "end": 8542
+          },
+          {
+            "page": 1,
+            "text": "experience, and streamline digital banking journeys. Created AS-IS/TO-BE process maps, performed Gap Analysis",
+            "block_id": "b101",
+            "kind": "text",
+            "start": 8544,
+            "end": 8653
+          },
+          {
+            "page": 1,
+            "text": "and impact assessments, and recommended process optimisation opportunities to improve operational efficiency",
+            "block_id": "b102",
+            "kind": "text",
+            "start": 8655,
+            "end": 8763
+          },
+          {
+            "page": 1,
+            "text": "and customer experience. Worked closely with Solution Architects, Product Owners, Developers, QA, Operations,",
+            "block_id": "b103",
+            "kind": "text",
+            "start": 8765,
+            "end": 8874
+          },
+          {
+            "page": 1,
+            "text": "and Business stakeholders to ensure business requirements were accurately translated into technical solutions.",
+            "block_id": "b104",
+            "kind": "text",
+            "start": 8876,
+            "end": 8986
+          },
+          {
+            "page": 1,
+            "text": "Managed Agile ceremonies, prioritised product backlogs, refined user stories, coordinated UAT planning and",
+            "block_id": "b105",
+            "kind": "text",
+            "start": 8988,
+            "end": 9094
+          },
+          {
+            "page": 1,
+            "text": "execution, resolved defects, and obtained business sign-off for production releases. Supported deployment,",
+            "block_id": "b106",
+            "kind": "text",
+            "start": 9096,
+            "end": 9202
+          },
+          {
+            "page": 1,
+            "text": "hypercare, change management, and post-production issue resolution while ensuring compliance with banking",
+            "block_id": "b107",
+            "kind": "text",
+            "start": 9204,
+            "end": 9309
+          },
+          {
+            "page": 1,
+            "text": "standards and governance requirements.",
+            "block_id": "b108",
+            "kind": "text",
+            "start": 9311,
+            "end": 9349
+          }
+        ]
+      }
+    }
+  ],
+  "gaps": [],
+  "total_work_experience_entries": 1,
+  "total_projects_entries": 8,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [],
+  "raw_pipeline_dto": {
+    "doc_id": "a26e9f3bc0345cf355e8146d",
+    "filename": "PraveenKumar_1.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "vc631ef28dae6c8c0",
+        "type": "EMPLOYMENT",
+        "title": "Business Analyst",
+        "org": "Espire",
+        "start": "2020-01",
+        "end": "2022-08",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Espire – Business Analyst Jan 2020 – Aug 2022",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Espire – Business Analyst Jan 2020 – Aug 2022",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 2354,
+              "end": 2399
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jan 2020 – Aug 2022",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 2380,
+              "end": 2399
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Espire",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 2354,
+              "end": 2360
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Business Analyst",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 2363,
+              "end": 2379
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "Jan 2020 – Aug 2022",
+          "is_present": false
+        },
+        "date_label": "Jan 2020 – Aug 2022",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v3499001ed875547d",
+        "type": "PROJECT",
+        "title": "AT&T",
+        "org": "",
+        "entry_text": "AT&T(Mexico) At AT&T, I served as a Senior Business Analyst where I was responsible for bridging the gap between business stakeholders and technical teams in delivering enhancements to the telecom service management platform. My role involved gathering, analyzing, and documenting business requiremen",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "AT&T(Mexico)",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 3666,
+              "end": 3678
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "AT&T",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 3666,
+              "end": 3670
+            }
+          ],
+          "section": "PROJECTS",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROJECTS",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v37efa9467077a7f2",
+        "type": "PROJECT",
+        "title": "My contribution helped streamline internal workflows and enhance the overall user experience on the",
+        "org": "",
+        "entry_text": "My contribution helped streamline internal workflows and enhance the overall user experience on the",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "My contribution helped streamline internal workflows and enhance the overall user experience on the",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 4825,
+              "end": 4924
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "My contribution helped streamline internal workflows and enhance the overall user experience on the",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 4825,
+              "end": 4924
+            }
+          ],
+          "section": "PROJECTS",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROJECTS",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "vdc510f9168c3cb55",
+        "type": "PROJECT",
+        "title": "AT&T platform.",
+        "org": "",
+        "entry_text": "AT&T platform.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "AT&T platform.",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 4926,
+              "end": 4940
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "AT&T platform",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 4926,
+              "end": 4939
+            }
+          ],
+          "section": "PROJECTS",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROJECTS",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "vb519c0b5d565bd48",
+        "type": "PROJECT",
+        "title": "Kuwait Finance House",
+        "org": "",
+        "entry_text": "Kuwait Finance House At Kuwait Finance House, I worked as a Business Analyst, where I was responsible for gathering and analyzing requirements for various digital banking modules, including account management, loan servicing, and financial reporting. I collaborated closely with product owners, subje",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Kuwait Finance House",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 4944,
+              "end": 4964
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Kuwait Finance House",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 4944,
+              "end": 4964
+            }
+          ],
+          "section": "PROJECTS",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROJECTS",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v0c07803907c83940",
+        "type": "PROJECT",
+        "title": "UAT execution—preparing test cases, coordinating defect resolution, and ensuring successful business",
+        "org": "",
+        "entry_text": "UAT execution—preparing test cases, coordinating defect resolution, and ensuring successful business sign-off. Additionally, I played a key role in production support, performing impact analysis and addressing critical issues, while also contributing to the creation of user manuals and training mate",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "UAT execution—preparing test cases, coordinating defect resolution, and ensuring successful business",
+              "block_id": "b75",
+              "kind": "text",
+              "start": 5889,
+              "end": 5989
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "UAT execution—preparing test cases, coordinating defect resolution, and ensuring successful business",
+              "block_id": "b75",
+              "kind": "text",
+              "start": 5889,
+              "end": 5989
+            }
+          ],
+          "section": "PROJECTS",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROJECTS",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v4a184367f3c4da5b",
+        "type": "PROJECT",
+        "title": "Citi Bank",
+        "org": "",
+        "entry_text": "Citi Bank • At Citi Bank, I worked as a Business Analyst where I was involved in the enhancement of the bank’s digital banking platform, focusing on improving user experience, streamlining loan processing, and ensuring compliance with evolving financial regulations. I gathered and analyzed business ",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Citi Bank",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 6231,
+              "end": 6240
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Citi Bank",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 6231,
+              "end": 6240
+            }
+          ],
+          "section": "PROJECTS",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROJECTS",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v66b9a8267aeea3c3",
+        "type": "PROJECT",
+        "title": "Customer Journey Mapping workshops to analyse customer touchpoints, identify service gaps, improve user",
+        "org": "",
+        "entry_text": "Customer Journey Mapping workshops to analyse customer touchpoints, identify service gaps, improve user experience, and streamline digital banking journeys. Created AS-IS/TO-BE process maps, performed Gap Analysis and impact assessments, and recommended process optimisation opportunities to improve ",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Customer Journey Mapping workshops to analyse customer touchpoints, identify service gaps, improve user",
+              "block_id": "b100",
+              "kind": "text",
+              "start": 8439,
+              "end": 8542
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Customer Journey Mapping workshops to analyse customer touchpoints, identify service gaps, improve user",
+              "block_id": "b100",
+              "kind": "text",
+              "start": 8439,
+              "end": 8542
+            }
+          ],
+          "section": "PROJECTS",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROJECTS",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "vacbd9e6e9d58595e",
+        "type": "EDUCATION",
+        "title": "Master of Business Administration",
+        "org": "GL Bajaj Institute of Technology and Management",
+        "entry_text": "Master of Business Administration (MBA) – Information Technology & Operations GL Bajaj Institute of Technology and Management, Greater Noida",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Master of Business Administration (MBA) – Information Technology & Operations",
+              "block_id": "b116",
+              "kind": "text",
+              "start": 9600,
+              "end": 9677
+            },
+            {
+              "page": 1,
+              "text": "GL Bajaj Institute of Technology and Management, Greater Noida",
+              "block_id": "b117",
+              "kind": "text",
+              "start": 9679,
+              "end": 9741
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "GL Bajaj Institute of Technology and Management",
+              "block_id": "b117",
+              "kind": "text",
+              "start": 9679,
+              "end": 9726
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Master of Business Administration",
+              "block_id": "b116",
+              "kind": "text",
+              "start": 9600,
+              "end": 9633
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "EDUCATION",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v7073dea7925a4bd5",
+        "type": "EDUCATION",
+        "title": "Bachelor of Technology",
+        "org": "Galgotias University",
+        "entry_text": "Bachelor of Technology (B.Tech) – Computer Science and Engineering Galgotias University, Uttar Pradesh Intermediate (Class XII) – Science (PCM) Blue Bird Senior Secondary School, CBSE Board",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor of Technology (B.Tech) – Computer Science and Engineering",
+              "block_id": "b118",
+              "kind": "text",
+              "start": 9743,
+              "end": 9809
+            },
+            {
+              "page": 1,
+              "text": "Galgotias University, Uttar Pradesh",
+              "block_id": "b119",
+              "kind": "text",
+              "start": 9811,
+              "end": 9846
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "Galgotias University",
+              "block_id": "b119",
+              "kind": "text",
+              "start": 9811,
+              "end": 9831
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Technology",
+              "block_id": "b118",
+              "kind": "text",
+              "start": 9743,
+              "end": 9765
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "EDUCATION",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "AT&T(Mexico)",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "AT&T(Mexico)",
+          "At AT&T, I served as a Senior Business Analyst where I was responsible for bridging the gap between",
+          "business stakeholders and technical teams in delivering enhancements to the telecom service",
+          "management platform. My role involved gathering, analyzing, and documenting business requirements for",
+          "key features such as keyword management, rebranding workflows, and database optimization. I converted",
+          "these requirements into clear user stories and acceptance criteria using tools like Jira and Confluence,",
+          "and collaborated closely with developers and QA teams in an Agile environment to ensure timely delivery. I",
+          "also created mockups and process flow diagrams to provide visual clarity and validation during requirement"
+        ],
+        "raw_text": "AT&T(Mexico)\nAt AT&T, I served as a Senior Business Analyst where I was responsible for bridging the gap between\nbusiness stakeholders and technical teams in delivering enhancements to the telecom service\nmanagement platform. My role involved gathering, analyzing, and documenting business requirements for\nkey features such as keyword management, rebranding workflows, and database optimization. I converted\nthese requirements into clear user stories and acceptance criteria using tools like Jira and Confluence,\nand collaborated closely with developers and QA teams in an Agile environment to ensur",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "AT&T(Mexico)",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 3666,
+              "end": 3678
+            },
+            {
+              "page": 1,
+              "text": "At AT&T, I served as a Senior Business Analyst where I was responsible for bridging the gap between",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 3682,
+              "end": 3781
+            },
+            {
+              "page": 1,
+              "text": "business stakeholders and technical teams in delivering enhancements to the telecom service",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 3783,
+              "end": 3874
+            },
+            {
+              "page": 1,
+              "text": "management platform. My role involved gathering, analyzing, and documenting business requirements for",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 3876,
+              "end": 3977
+            },
+            {
+              "page": 1,
+              "text": "key features such as keyword management, rebranding workflows, and database optimization. I converted",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 3979,
+              "end": 4080
+            },
+            {
+              "page": 1,
+              "text": "these requirements into clear user stories and acceptance criteria using tools like Jira and Confluence,",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 4082,
+              "end": 4186
+            },
+            {
+              "page": 1,
+              "text": "and collaborated closely with developers and QA teams in an Agile environment to ensure timely delivery. I",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 4188,
+              "end": 4294
+            },
+            {
+              "page": 1,
+              "text": "also created mockups and process flow diagrams to provide visual clarity and validation during requirement",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 4296,
+              "end": 4402
+            },
+            {
+              "page": 1,
+              "text": "walkthroughs. As part of the UAT phase, I coordinated end-to-end testing, prepared detailed test cases,",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 4404,
+              "end": 4507
+            },
+            {
+              "page": 1,
+              "text": "and managed defect resolution. I was actively involved in handling change requests, performing impact",
+              "block_id": "b60",
+              "kind": "text",
+              "start": 4509,
+              "end": 4610
+            },
+            {
+              "page": 1,
+              "text": "analysis, and maintaining requirement traceability throughout the SDLC. Post-deployment, I supported",
+              "block_id": "b61",
+              "kind": "text",
+              "start": 4612,
+              "end": 4712
+            },
+            {
+              "page": 1,
+              "text": "hypercare activities and facilitated user training sessions to ensure smooth adoption of new functionalities.",
+              "block_id": "b62",
+              "kind": "text",
+              "start": 4714,
+              "end": 4823
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "My contribution helped streamline internal workflows and enhance the overall user experience on the",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "My contribution helped streamline internal workflows and enhance the overall user experience on the"
+        ],
+        "raw_text": "My contribution helped streamline internal workflows and enhance the overall user experience on the",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "My contribution helped streamline internal workflows and enhance the overall user experience on the",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 4825,
+              "end": 4924
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_3",
+        "name": "AT&T platform.",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "AT&T platform."
+        ],
+        "raw_text": "AT&T platform.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "AT&T platform.",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 4926,
+              "end": 4940
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_4",
+        "name": "Kuwait Finance House",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Kuwait Finance House",
+          "At Kuwait Finance House, I worked as a Business Analyst, where I was responsible for gathering and",
+          "analyzing requirements for various digital banking modules, including account management, loan servicing,",
+          "and financial reporting. I collaborated closely with product owners, subject matter experts, and technical",
+          "teams to translate business needs into detailed Business Requirement Documents (BRD) and Functional"
+        ],
+        "raw_text": "Kuwait Finance House\nAt Kuwait Finance House, I worked as a Business Analyst, where I was responsible for gathering and\nanalyzing requirements for various digital banking modules, including account management, loan servicing,\nand financial reporting. I collaborated closely with product owners, subject matter experts, and technical\nteams to translate business needs into detailed Business Requirement Documents (BRD) and Functional",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Kuwait Finance House",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 4944,
+              "end": 4964
+            },
+            {
+              "page": 1,
+              "text": "At Kuwait Finance House, I worked as a Business Analyst, where I was responsible for gathering and",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 4968,
+              "end": 5066
+            },
+            {
+              "page": 1,
+              "text": "analyzing requirements for various digital banking modules, including account management, loan servicing,",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 5068,
+              "end": 5173
+            },
+            {
+              "page": 1,
+              "text": "and financial reporting. I collaborated closely with product owners, subject matter experts, and technical",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 5175,
+              "end": 5281
+            },
+            {
+              "page": 1,
+              "text": "teams to translate business needs into detailed Business Requirement Documents (BRD) and Functional",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 5283,
+              "end": 5382
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_5",
+        "name": "Requirement Documents (FRD), ensuring alignment with compliance and regulatory standards. My role",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Requirement Documents (FRD), ensuring alignment with compliance and regulatory standards. My role",
+          "involved working on API enhancement and integration, where I documented request and response",
+          "structures and supported backend coordination. I created process flows, use case diagrams, and data",
+          "mapping documents to support the implementation of new features and enhancements. As part of an Agile",
+          "team, I actively participated in sprint planning, daily stand-ups, and retrospectives, while also managing"
+        ],
+        "raw_text": "Requirement Documents (FRD), ensuring alignment with compliance and regulatory standards. My role\ninvolved working on API enhancement and integration, where I documented request and response\nstructures and supported backend coordination. I created process flows, use case diagrams, and data\nmapping documents to support the implementation of new features and enhancements. As part of an Agile\nteam, I actively participated in sprint planning, daily stand-ups, and retrospectives, while also managing",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Requirement Documents (FRD), ensuring alignment with compliance and regulatory standards. My role",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 5384,
+              "end": 5481
+            },
+            {
+              "page": 1,
+              "text": "involved working on API enhancement and integration, where I documented request and response",
+              "block_id": "b71",
+              "kind": "text",
+              "start": 5483,
+              "end": 5575
+            },
+            {
+              "page": 1,
+              "text": "structures and supported backend coordination. I created process flows, use case diagrams, and data",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 5577,
+              "end": 5676
+            },
+            {
+              "page": 1,
+              "text": "mapping documents to support the implementation of new features and enhancements. As part of an Agile",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 5678,
+              "end": 5779
+            },
+            {
+              "page": 1,
+              "text": "team, I actively participated in sprint planning, daily stand-ups, and retrospectives, while also managing",
+              "block_id": "b74",
+              "kind": "text",
+              "start": 5781,
+              "end": 5887
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_6",
+        "name": "UAT execution—preparing test cases, coordinating defect resolution, and ensuring successful business",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "UAT execution—preparing test cases, coordinating defect resolution, and ensuring successful business",
+          "sign-off. Additionally, I played a key role in production support, performing impact analysis and addressing",
+          "critical issues, while also contributing to the creation of user manuals and training materials to support end- user adoption."
+        ],
+        "raw_text": "UAT execution—preparing test cases, coordinating defect resolution, and ensuring successful business\nsign-off. Additionally, I played a key role in production support, performing impact analysis and addressing\ncritical issues, while also contributing to the creation of user manuals and training materials to support end- user adoption.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "UAT execution—preparing test cases, coordinating defect resolution, and ensuring successful business",
+              "block_id": "b75",
+              "kind": "text",
+              "start": 5889,
+              "end": 5989
+            },
+            {
+              "page": 1,
+              "text": "sign-off. Additionally, I played a key role in production support, performing impact analysis and addressing",
+              "block_id": "b76",
+              "kind": "text",
+              "start": 5991,
+              "end": 6099
+            },
+            {
+              "page": 1,
+              "text": "critical issues, while also contributing to the creation of user manuals and training materials to support end-",
+              "block_id": "b77",
+              "kind": "text",
+              "start": 6101,
+              "end": 6212
+            },
+            {
+              "page": 1,
+              "text": "user adoption.",
+              "block_id": "b77",
+              "kind": "text",
+              "start": 6213,
+              "end": 6227
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_7",
+        "name": "Citi Bank",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Citi Bank",
+          "• At Citi Bank, I worked as a Business Analyst where I was involved in the enhancement of the bank’s",
+          "digital banking platform, focusing on improving user experience, streamlining loan processing, and",
+          "ensuring compliance with evolving financial regulations. I gathered and analyzed business requirements",
+          "through client interactions and stakeholder workshops, translating them into detailed documentation",
+          "including BRDs, FRDs, and user stories with defined acceptance criteria. I collaborated closely with",
+          "development teams to design and enhance RESTful APIs used in customer onboarding, loan",
+          "management, and transaction processing. In an Agile environment, I actively participated in sprint"
+        ],
+        "raw_text": "Citi Bank\n• At Citi Bank, I worked as a Business Analyst where I was involved in the enhancement of the bank’s\ndigital banking platform, focusing on improving user experience, streamlining loan processing, and\nensuring compliance with evolving financial regulations. I gathered and analyzed business requirements\nthrough client interactions and stakeholder workshops, translating them into detailed documentation\nincluding BRDs, FRDs, and user stories with defined acceptance criteria. I collaborated closely with\ndevelopment teams to design and enhance RESTful APIs used in customer onboarding, loan",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Citi Bank",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 6231,
+              "end": 6240
+            },
+            {
+              "page": 1,
+              "text": "• At Citi Bank, I worked as a Business Analyst where I was involved in the enhancement of the bank’s",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 6244,
+              "end": 6344
+            },
+            {
+              "page": 1,
+              "text": "digital banking platform, focusing on improving user experience, streamlining loan processing, and",
+              "block_id": "b80",
+              "kind": "text",
+              "start": 6346,
+              "end": 6444
+            },
+            {
+              "page": 1,
+              "text": "ensuring compliance with evolving financial regulations. I gathered and analyzed business requirements",
+              "block_id": "b81",
+              "kind": "text",
+              "start": 6446,
+              "end": 6548
+            },
+            {
+              "page": 1,
+              "text": "through client interactions and stakeholder workshops, translating them into detailed documentation",
+              "block_id": "b82",
+              "kind": "text",
+              "start": 6550,
+              "end": 6649
+            },
+            {
+              "page": 1,
+              "text": "including BRDs, FRDs, and user stories with defined acceptance criteria. I collaborated closely with",
+              "block_id": "b83",
+              "kind": "text",
+              "start": 6651,
+              "end": 6751
+            },
+            {
+              "page": 1,
+              "text": "development teams to design and enhance RESTful APIs used in customer onboarding, loan",
+              "block_id": "b84",
+              "kind": "text",
+              "start": 6753,
+              "end": 6839
+            },
+            {
+              "page": 1,
+              "text": "management, and transaction processing. In an Agile environment, I actively participated in sprint",
+              "block_id": "b85",
+              "kind": "text",
+              "start": 6841,
+              "end": 6939
+            },
+            {
+              "page": 1,
+              "text": "ceremonies, managed product backlogs, and ensured clear communication between business and",
+              "block_id": "b86",
+              "kind": "text",
+              "start": 6941,
+              "end": 7031
+            },
+            {
+              "page": 1,
+              "text": "technical stakeholders. I also played a key role in UAT planning and coordination, creating test cases,",
+              "block_id": "b87",
+              "kind": "text",
+              "start": 7033,
+              "end": 7136
+            },
+            {
+              "page": 1,
+              "text": "facilitating defect triage, and obtaining business sign-off for production releases. Additionally, I supported",
+              "block_id": "b88",
+              "kind": "text",
+              "start": 7138,
+              "end": 7248
+            },
+            {
+              "page": 1,
+              "text": "deployment activities using Jenkins and monitored post-release issues during the hypercare phase. My",
+              "block_id": "b89",
+              "kind": "text",
+              "start": 7250,
+              "end": 7350
+            },
+            {
+              "page": 1,
+              "text": "work contributed to delivering secure, user-friendly banking features while aligning with the bank's",
+              "block_id": "b90",
+              "kind": "text",
+              "start": 7352,
+              "end": 7452
+            },
+            {
+              "page": 1,
+              "text": "strategic digital transformation goals.Worked as a Business Analyst on digital banking transformation",
+              "block_id": "b91",
+              "kind": "text",
+              "start": 7454,
+              "end": 7555
+            },
+            {
+              "page": 1,
+              "text": "initiatives, partnering with business stakeholders to define Current State (AS-IS) processes, identify pain points,",
+              "block_id": "b92",
+              "kind": "text",
+              "start": 7557,
+              "end": 7672
+            },
+            {
+              "page": 1,
+              "text": "and design Future State (TO-BE) operating models aligned with business and regulatory objectives. Collaborated",
+              "block_id": "b93",
+              "kind": "text",
+              "start": 7674,
+              "end": 7784
+            },
+            {
+              "page": 1,
+              "text": "with business and technology teams on Target Operating Model (TOM) initiatives, supporting operating model",
+              "block_id": "b94",
+              "kind": "text",
+              "start": 7786,
+              "end": 7892
+            },
+            {
+              "page": 1,
+              "text": "improvements, process standardization, and digital transformation across customer onboarding, loan",
+              "block_id": "b95",
+              "kind": "text",
+              "start": 7894,
+              "end": 7992
+            },
+            {
+              "page": 1,
+              "text": "management, and transaction processing. Conducted detailed requirement gathering workshops and translated",
+              "block_id": "b96",
+              "kind": "text",
+              "start": 7994,
+              "end": 8099
+            },
+            {
+              "page": 1,
+              "text": "business needs into BRDs, FRDs, user stories, acceptance criteria, process flows, and functional specifications.",
+              "block_id": "b97",
+              "kind": "text",
+              "start": 8101,
+              "end": 8213
+            },
+            {
+              "page": 1,
+              "text": "Performed Business Architecture and Process Architecture analysis by documenting business capabilities, business",
+              "block_id": "b98",
+              "kind": "text",
+              "start": 8215,
+              "end": 8327
+            },
+            {
+              "page": 1,
+              "text": "processes, system interactions, and end-to-end workflow dependencies to support solution design. Facilitated",
+              "block_id": "b99",
+              "kind": "text",
+              "start": 8329,
+              "end": 8437
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_8",
+        "name": "Customer Journey Mapping workshops to analyse customer touchpoints, identify service gaps, improve user",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Customer Journey Mapping workshops to analyse customer touchpoints, identify service gaps, improve user",
+          "experience, and streamline digital banking journeys. Created AS-IS/TO-BE process maps, performed Gap Analysis",
+          "and impact assessments, and recommended process optimisation opportunities to improve operational efficiency",
+          "and customer experience. Worked closely with Solution Architects, Product Owners, Developers, QA, Operations,",
+          "and Business stakeholders to ensure business requirements were accurately translated into technical solutions.",
+          "Managed Agile ceremonies, prioritised product backlogs, refined user stories, coordinated UAT planning and",
+          "execution, resolved defects, and obtained business sign-off for production releases. Supported deployment,",
+          "hypercare, change management, and post-production issue resolution while ensuring compliance with banking"
+        ],
+        "raw_text": "Customer Journey Mapping workshops to analyse customer touchpoints, identify service gaps, improve user\nexperience, and streamline digital banking journeys. Created AS-IS/TO-BE process maps, performed Gap Analysis\nand impact assessments, and recommended process optimisation opportunities to improve operational efficiency\nand customer experience. Worked closely with Solution Architects, Product Owners, Developers, QA, Operations,\nand Business stakeholders to ensure business requirements were accurately translated into technical solutions.\nManaged Agile ceremonies, prioritised product backlogs, ",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Customer Journey Mapping workshops to analyse customer touchpoints, identify service gaps, improve user",
+              "block_id": "b100",
+              "kind": "text",
+              "start": 8439,
+              "end": 8542
+            },
+            {
+              "page": 1,
+              "text": "experience, and streamline digital banking journeys. Created AS-IS/TO-BE process maps, performed Gap Analysis",
+              "block_id": "b101",
+              "kind": "text",
+              "start": 8544,
+              "end": 8653
+            },
+            {
+              "page": 1,
+              "text": "and impact assessments, and recommended process optimisation opportunities to improve operational efficiency",
+              "block_id": "b102",
+              "kind": "text",
+              "start": 8655,
+              "end": 8763
+            },
+            {
+              "page": 1,
+              "text": "and customer experience. Worked closely with Solution Architects, Product Owners, Developers, QA, Operations,",
+              "block_id": "b103",
+              "kind": "text",
+              "start": 8765,
+              "end": 8874
+            },
+            {
+              "page": 1,
+              "text": "and Business stakeholders to ensure business requirements were accurately translated into technical solutions.",
+              "block_id": "b104",
+              "kind": "text",
+              "start": 8876,
+              "end": 8986
+            },
+            {
+              "page": 1,
+              "text": "Managed Agile ceremonies, prioritised product backlogs, refined user stories, coordinated UAT planning and",
+              "block_id": "b105",
+              "kind": "text",
+              "start": 8988,
+              "end": 9094
+            },
+            {
+              "page": 1,
+              "text": "execution, resolved defects, and obtained business sign-off for production releases. Supported deployment,",
+              "block_id": "b106",
+              "kind": "text",
+              "start": 9096,
+              "end": 9202
+            },
+            {
+              "page": 1,
+              "text": "hypercare, change management, and post-production issue resolution while ensuring compliance with banking",
+              "block_id": "b107",
+              "kind": "text",
+              "start": 9204,
+              "end": 9309
+            },
+            {
+              "page": 1,
+              "text": "standards and governance requirements.",
+              "block_id": "b108",
+              "kind": "text",
+              "start": 9311,
+              "end": 9349
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 10,
+      "dated_share": 0.1,
+      "unresolved": 9,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 32,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": true,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 1,
+          "represented_months": 32,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 1,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "vc631ef28dae6c8c0",
+              "label": "Business Analyst",
+              "state": "month_range",
+              "start": [
+                2020,
+                1
+              ],
+              "end": [
+                2022,
+                8
+              ],
+              "months": 32,
+              "raw": "Jan 2020 – Aug 2022",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Espire – Business Analyst Jan 2020 – Aug 2022",
+                    "block_id": "b34",
+                    "kind": "text",
+                    "start": 2354,
+                    "end": 2399
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "Jan 2020 – Aug 2022",
+                    "block_id": "b34",
+                    "kind": "text",
+                    "start": 2380,
+                    "end": 2399
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Espire",
+                    "block_id": "b34",
+                    "kind": "text",
+                    "start": 2354,
+                    "end": 2360
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Business Analyst",
+                    "block_id": "b34",
+                    "kind": "text",
+                    "start": 2363,
+                    "end": 2379
+                  }
+                ],
+                "section": "WORK EXPERIENCE",
+                "date_label": "Jan 2020 – Aug 2022",
+                "is_present": false
+              }
+            }
+          ]
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 8,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 8,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "proj_1",
+              "label": "AT&T(Mexico)",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "AT&T(Mexico)",
+                    "block_id": "b51",
+                    "kind": "text",
+                    "start": 3666,
+                    "end": 3678
+                  },
+                  {
+                    "page": 1,
+                    "text": "At AT&T, I served as a Senior Business Analyst where I was responsible for bridging the gap between",
+                    "block_id": "b52",
+                    "kind": "text",
+                    "start": 3682,
+                    "end": 3781
+                  },
+                  {
+                    "page": 1,
+                    "text": "business stakeholders and technical teams in delivering enhancements to the telecom service",
+                    "block_id": "b53",
+                    "kind": "text",
+                    "start": 3783,
+                    "end": 3874
+                  },
+                  {
+                    "page": 1,
+                    "text": "management platform. My role involved gathering, analyzing, and documenting business requirements for",
+                    "block_id": "b54",
+                    "kind": "text",
+                    "start": 3876,
+                    "end": 3977
+                  },
+                  {
+                    "page": 1,
+                    "text": "key features such as keyword management, rebranding workflows, and database optimization. I converted",
+                    "block_id": "b55",
+                    "kind": "text",
+                    "start": 3979,
+                    "end": 4080
+                  },
+                  {
+                    "page": 1,
+                    "text": "these requirements into clear user stories and acceptance criteria using tools like Jira and Confluence,",
+                    "block_id": "b56",
+                    "kind": "text",
+                    "start": 4082,
+                    "end": 4186
+                  },
+                  {
+                    "page": 1,
+                    "text": "and collaborated closely with developers and QA teams in an Agile environment to ensure timely delivery. I",
+                    "block_id": "b57",
+                    "kind": "text",
+                    "start": 4188,
+                    "end": 4294
+                  },
+                  {
+                    "page": 1,
+                    "text": "also created mockups and process flow diagrams to provide visual clarity and validation during requirement",
+                    "block_id": "b58",
+                    "kind": "text",
+                    "start": 4296,
+                    "end": 4402
+                  },
+                  {
+                    "page": 1,
+                    "text": "walkthroughs. As part of the UAT phase, I coordinated end-to-end testing, prepared detailed test cases,",
+                    "block_id": "b59",
+                    "kind": "text",
+                    "start": 4404,
+                    "end": 4507
+                  },
+                  {
+                    "page": 1,
+                    "text": "and managed defect resolution. I was actively involved in handling change requests, performing impact",
+                    "block_id": "b60",
+                    "kind": "text",
+                    "start": 4509,
+                    "end": 4610
+                  },
+                  {
+                    "page": 1,
+                    "text": "analysis, and maintaining requirement traceability throughout the SDLC. Post-deployment, I supported",
+                    "block_id": "b61",
+                    "kind": "text",
+                    "start": 4612,
+                    "end": 4712
+                  },
+                  {
+                    "page": 1,
+                    "text": "hypercare activities and facilitated user training sessions to ensure smooth adoption of new functionalities.",
+                    "block_id": "b62",
+                    "kind": "text",
+                    "start": 4714,
+                    "end": 4823
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_2",
+              "label": "My contribution helped streamline internal workflows and enhance the overall user experience on the",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "My contribution helped streamline internal workflows and enhance the overall user experience on the",
+                    "block_id": "b63",
+                    "kind": "text",
+                    "start": 4825,
+                    "end": 4924
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_3",
+              "label": "AT&T platform.",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "AT&T platform.",
+                    "block_id": "b64",
+                    "kind": "text",
+                    "start": 4926,
+                    "end": 4940
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_4",
+              "label": "Kuwait Finance House",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Kuwait Finance House",
+                    "block_id": "b65",
+                    "kind": "text",
+                    "start": 4944,
+                    "end": 4964
+                  },
+                  {
+                    "page": 1,
+                    "text": "At Kuwait Finance House, I worked as a Business Analyst, where I was responsible for gathering and",
+                    "block_id": "b66",
+                    "kind": "text",
+                    "start": 4968,
+                    "end": 5066
+                  },
+                  {
+                    "page": 1,
+                    "text": "analyzing requirements for various digital banking modules, including account management, loan servicing,",
+                    "block_id": "b67",
+                    "kind": "text",
+                    "start": 5068,
+                    "end": 5173
+                  },
+                  {
+                    "page": 1,
+                    "text": "and financial reporting. I collaborated closely with product owners, subject matter experts, and technical",
+                    "block_id": "b68",
+                    "kind": "text",
+                    "start": 5175,
+                    "end": 5281
+                  },
+                  {
+                    "page": 1,
+                    "text": "teams to translate business needs into detailed Business Requirement Documents (BRD) and Functional",
+                    "block_id": "b69",
+                    "kind": "text",
+                    "start": 5283,
+                    "end": 5382
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_5",
+              "label": "Requirement Documents (FRD), ensuring alignment with compliance and regulatory standards. My role",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Requirement Documents (FRD), ensuring alignment with compliance and regulatory standards. My role",
+                    "block_id": "b70",
+                    "kind": "text",
+                    "start": 5384,
+                    "end": 5481
+                  },
+                  {
+                    "page": 1,
+                    "text": "involved working on API enhancement and integration, where I documented request and response",
+                    "block_id": "b71",
+                    "kind": "text",
+                    "start": 5483,
+                    "end": 5575
+                  },
+                  {
+                    "page": 1,
+                    "text": "structures and supported backend coordination. I created process flows, use case diagrams, and data",
+                    "block_id": "b72",
+                    "kind": "text",
+                    "start": 5577,
+                    "end": 5676
+                  },
+                  {
+                    "page": 1,
+                    "text": "mapping documents to support the implementation of new features and enhancements. As part of an Agile",
+                    "block_id": "b73",
+                    "kind": "text",
+                    "start": 5678,
+                    "end": 5779
+                  },
+                  {
+                    "page": 1,
+                    "text": "team, I actively participated in sprint planning, daily stand-ups, and retrospectives, while also managing",
+                    "block_id": "b74",
+                    "kind": "text",
+                    "start": 5781,
+                    "end": 5887
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_6",
+              "label": "UAT execution—preparing test cases, coordinating defect resolution, and ensuring successful business",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "UAT execution—preparing test cases, coordinating defect resolution, and ensuring successful business",
+                    "block_id": "b75",
+                    "kind": "text",
+                    "start": 5889,
+                    "end": 5989
+                  },
+                  {
+                    "page": 1,
+                    "text": "sign-off. Additionally, I played a key role in production support, performing impact analysis and addressing",
+                    "block_id": "b76",
+                    "kind": "text",
+                    "start": 5991,
+                    "end": 6099
+                  },
+                  {
+                    "page": 1,
+                    "text": "critical issues, while also contributing to the creation of user manuals and training materials to support end-",
+                    "block_id": "b77",
+                    "kind": "text",
+                    "start": 6101,
+                    "end": 6212
+                  },
+                  {
+                    "page": 1,
+                    "text": "user adoption.",
+                    "block_id": "b77",
+                    "kind": "text",
+                    "start": 6213,
+                    "end": 6227
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_7",
+              "label": "Citi Bank",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Citi Bank",
+                    "block_id": "b78",
+                    "kind": "text",
+                    "start": 6231,
+                    "end": 6240
+                  },
+                  {
+                    "page": 1,
+                    "text": "• At Citi Bank, I worked as a Business Analyst where I was involved in the enhancement of the bank’s",
+                    "block_id": "b79",
+                    "kind": "text",
+                    "start": 6244,
+                    "end": 6344
+                  },
+                  {
+                    "page": 1,
+                    "text": "digital banking platform, focusing on improving user experience, streamlining loan processing, and",
+                    "block_id": "b80",
+                    "kind": "text",
+                    "start": 6346,
+                    "end": 6444
+                  },
+                  {
+                    "page": 1,
+                    "text": "ensuring compliance with evolving financial regulations. I gathered and analyzed business requirements",
+                    "block_id": "b81",
+                    "kind": "text",
+                    "start": 6446,
+                    "end": 6548
+                  },
+                  {
+                    "page": 1,
+                    "text": "through client interactions and stakeholder workshops, translating them into detailed documentation",
+                    "block_id": "b82",
+                    "kind": "text",
+                    "start": 6550,
+                    "end": 6649
+                  },
+                  {
+                    "page": 1,
+                    "text": "including BRDs, FRDs, and user stories with defined acceptance criteria. I collaborated closely with",
+                    "block_id": "b83",
+                    "kind": "text",
+                    "start": 6651,
+                    "end": 6751
+                  },
+                  {
+                    "page": 1,
+                    "text": "development teams to design and enhance RESTful APIs used in customer onboarding, loan",
+                    "block_id": "b84",
+                    "kind": "text",
+                    "start": 6753,
+                    "end": 6839
+                  },
+                  {
+                    "page": 1,
+                    "text": "management, and transaction processing. In an Agile environment, I actively participated in sprint",
+                    "block_id": "b85",
+                    "kind": "text",
+                    "start": 6841,
+                    "end": 6939
+                  },
+                  {
+                    "page": 1,
+                    "text": "ceremonies, managed product backlogs, and ensured clear communication between business and",
+                    "block_id": "b86",
+                    "kind": "text",
+                    "start": 6941,
+                    "end": 7031
+                  },
+                  {
+                    "page": 1,
+                    "text": "technical stakeholders. I also played a key role in UAT planning and coordination, creating test cases,",
+                    "block_id": "b87",
+                    "kind": "text",
+                    "start": 7033,
+                    "end": 7136
+                  },
+                  {
+                    "page": 1,
+                    "text": "facilitating defect triage, and obtaining business sign-off for production releases. Additionally, I supported",
+                    "block_id": "b88",
+                    "kind": "text",
+                    "start": 7138,
+                    "end": 7248
+                  },
+                  {
+                    "page": 1,
+                    "text": "deployment activities using Jenkins and monitored post-release issues during the hypercare phase. My",
+                    "block_id": "b89",
+                    "kind": "text",
+                    "start": 7250,
+                    "end": 7350
+                  },
+                  {
+                    "page": 1,
+                    "text": "work contributed to delivering secure, user-friendly banking features while aligning with the bank's",
+                    "block_id": "b90",
+                    "kind": "text",
+                    "start": 7352,
+                    "end": 7452
+                  },
+                  {
+                    "page": 1,
+                    "text": "strategic digital transformation goals.Worked as a Business Analyst on digital banking transformation",
+                    "block_id": "b91",
+                    "kind": "text",
+                    "start": 7454,
+                    "end": 7555
+                  },
+                  {
+                    "page": 1,
+                    "text": "initiatives, partnering with business stakeholders to define Current State (AS-IS) processes, identify pain points,",
+                    "block_id": "b92",
+                    "kind": "text",
+                    "start": 7557,
+                    "end": 7672
+                  },
+                  {
+                    "page": 1,
+                    "text": "and design Future State (TO-BE) operating models aligned with business and regulatory objectives. Collaborated",
+                    "block_id": "b93",
+                    "kind": "text",
+                    "start": 7674,
+                    "end": 7784
+                  },
+                  {
+                    "page": 1,
+                    "text": "with business and technology teams on Target Operating Model (TOM) initiatives, supporting operating model",
+                    "block_id": "b94",
+                    "kind": "text",
+                    "start": 7786,
+                    "end": 7892
+                  },
+                  {
+                    "page": 1,
+                    "text": "improvements, process standardization, and digital transformation across customer onboarding, loan",
+                    "block_id": "b95",
+                    "kind": "text",
+                    "start": 7894,
+                    "end": 7992
+                  },
+                  {
+                    "page": 1,
+                    "text": "management, and transaction processing. Conducted detailed requirement gathering workshops and translated",
+                    "block_id": "b96",
+                    "kind": "text",
+                    "start": 7994,
+                    "end": 8099
+                  },
+                  {
+                    "page": 1,
+                    "text": "business needs into BRDs, FRDs, user stories, acceptance criteria, process flows, and functional specifications.",
+                    "block_id": "b97",
+                    "kind": "text",
+                    "start": 8101,
+                    "end": 8213
+                  },
+                  {
+                    "page": 1,
+                    "text": "Performed Business Architecture and Process Architecture analysis by documenting business capabilities, business",
+                    "block_id": "b98",
+                    "kind": "text",
+                    "start": 8215,
+                    "end": 8327
+                  },
+                  {
+                    "page": 1,
+                    "text": "processes, system interactions, and end-to-end workflow dependencies to support solution design. Facilitated",
+                    "block_id": "b99",
+                    "kind": "text",
+                    "start": 8329,
+                    "end": 8437
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_8",
+              "label": "Customer Journey Mapping workshops to analyse customer touchpoints, identify service gaps, improve user",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Customer Journey Mapping workshops to analyse customer touchpoints, identify service gaps, improve user",
+                    "block_id": "b100",
+                    "kind": "text",
+                    "start": 8439,
+                    "end": 8542
+                  },
+                  {
+                    "page": 1,
+                    "text": "experience, and streamline digital banking journeys. Created AS-IS/TO-BE process maps, performed Gap Analysis",
+                    "block_id": "b101",
+                    "kind": "text",
+                    "start": 8544,
+                    "end": 8653
+                  },
+                  {
+                    "page": 1,
+                    "text": "and impact assessments, and recommended process optimisation opportunities to improve operational efficiency",
+                    "block_id": "b102",
+                    "kind": "text",
+                    "start": 8655,
+                    "end": 8763
+                  },
+                  {
+                    "page": 1,
+                    "text": "and customer experience. Worked closely with Solution Architects, Product Owners, Developers, QA, Operations,",
+                    "block_id": "b103",
+                    "kind": "text",
+                    "start": 8765,
+                    "end": 8874
+                  },
+                  {
+                    "page": 1,
+                    "text": "and Business stakeholders to ensure business requirements were accurately translated into technical solutions.",
+                    "block_id": "b104",
+                    "kind": "text",
+                    "start": 8876,
+                    "end": 8986
+                  },
+                  {
+                    "page": 1,
+                    "text": "Managed Agile ceremonies, prioritised product backlogs, refined user stories, coordinated UAT planning and",
+                    "block_id": "b105",
+                    "kind": "text",
+                    "start": 8988,
+                    "end": 9094
+                  },
+                  {
+                    "page": 1,
+                    "text": "execution, resolved defects, and obtained business sign-off for production releases. Supported deployment,",
+                    "block_id": "b106",
+                    "kind": "text",
+                    "start": 9096,
+                    "end": 9202
+                  },
+                  {
+                    "page": 1,
+                    "text": "hypercare, change management, and post-production issue resolution while ensuring compliance with banking",
+                    "block_id": "b107",
+                    "kind": "text",
+                    "start": 9204,
+                    "end": 9309
+                  },
+                  {
+                    "page": 1,
+                    "text": "standards and governance requirements.",
+                    "block_id": "b108",
+                    "kind": "text",
+                    "start": 9311,
+                    "end": 9349
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 2,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 2,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "vacbd9e6e9d58595e",
+              "label": "Master of Business Administration",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Master of Business Administration (MBA) – Information Technology & Operations",
+                    "block_id": "b116",
+                    "kind": "text",
+                    "start": 9600,
+                    "end": 9677
+                  },
+                  {
+                    "page": 1,
+                    "text": "GL Bajaj Institute of Technology and Management, Greater Noida",
+                    "block_id": "b117",
+                    "kind": "text",
+                    "start": 9679,
+                    "end": 9741
+                  }
+                ],
+                "dates": [],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "GL Bajaj Institute of Technology and Management",
+                    "block_id": "b117",
+                    "kind": "text",
+                    "start": 9679,
+                    "end": 9726
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Master of Business Administration",
+                    "block_id": "b116",
+                    "kind": "text",
+                    "start": 9600,
+                    "end": 9633
+                  }
+                ],
+                "section": "EDUCATION",
+                "date_label": "",
+                "is_present": false
+              }
+            },
+            {
+              "id": "v7073dea7925a4bd5",
+              "label": "Bachelor of Technology",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Bachelor of Technology (B.Tech) – Computer Science and Engineering",
+                    "block_id": "b118",
+                    "kind": "text",
+                    "start": 9743,
+                    "end": 9809
+                  },
+                  {
+                    "page": 1,
+                    "text": "Galgotias University, Uttar Pradesh",
+                    "block_id": "b119",
+                    "kind": "text",
+                    "start": 9811,
+                    "end": 9846
+                  }
+                ],
+                "dates": [],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Galgotias University",
+                    "block_id": "b119",
+                    "kind": "text",
+                    "start": 9811,
+                    "end": 9831
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Bachelor of Technology",
+                    "block_id": "b118",
+                    "kind": "text",
+                    "start": 9743,
+                    "end": 9765
+                  }
+                ],
+                "section": "EDUCATION",
+                "date_label": "",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 32,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": true,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 1,
+        "represented_months": 32,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 1,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "vc631ef28dae6c8c0",
+            "label": "Business Analyst",
+            "state": "month_range",
+            "start": [
+              2020,
+              1
+            ],
+            "end": [
+              2022,
+              8
+            ],
+            "months": 32,
+            "raw": "Jan 2020 – Aug 2022",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Espire – Business Analyst Jan 2020 – Aug 2022",
+                  "block_id": "b34",
+                  "kind": "text",
+                  "start": 2354,
+                  "end": 2399
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Jan 2020 – Aug 2022",
+                  "block_id": "b34",
+                  "kind": "text",
+                  "start": 2380,
+                  "end": 2399
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Espire",
+                  "block_id": "b34",
+                  "kind": "text",
+                  "start": 2354,
+                  "end": 2360
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Business Analyst",
+                  "block_id": "b34",
+                  "kind": "text",
+                  "start": 2363,
+                  "end": 2379
+                }
+              ],
+              "section": "WORK EXPERIENCE",
+              "date_label": "Jan 2020 – Aug 2022",
+              "is_present": false
+            }
+          }
+        ]
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 8,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 8,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "proj_1",
+            "label": "AT&T(Mexico)",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "AT&T(Mexico)",
+                  "block_id": "b51",
+                  "kind": "text",
+                  "start": 3666,
+                  "end": 3678
+                },
+                {
+                  "page": 1,
+                  "text": "At AT&T, I served as a Senior Business Analyst where I was responsible for bridging the gap between",
+                  "block_id": "b52",
+                  "kind": "text",
+                  "start": 3682,
+                  "end": 3781
+                },
+                {
+                  "page": 1,
+                  "text": "business stakeholders and technical teams in delivering enhancements to the telecom service",
+                  "block_id": "b53",
+                  "kind": "text",
+                  "start": 3783,
+                  "end": 3874
+                },
+                {
+                  "page": 1,
+                  "text": "management platform. My role involved gathering, analyzing, and documenting business requirements for",
+                  "block_id": "b54",
+                  "kind": "text",
+                  "start": 3876,
+                  "end": 3977
+                },
+                {
+                  "page": 1,
+                  "text": "key features such as keyword management, rebranding workflows, and database optimization. I converted",
+                  "block_id": "b55",
+                  "kind": "text",
+                  "start": 3979,
+                  "end": 4080
+                },
+                {
+                  "page": 1,
+                  "text": "these requirements into clear user stories and acceptance criteria using tools like Jira and Confluence,",
+                  "block_id": "b56",
+                  "kind": "text",
+                  "start": 4082,
+                  "end": 4186
+                },
+                {
+                  "page": 1,
+                  "text": "and collaborated closely with developers and QA teams in an Agile environment to ensure timely delivery. I",
+                  "block_id": "b57",
+                  "kind": "text",
+                  "start": 4188,
+                  "end": 4294
+                },
+                {
+                  "page": 1,
+                  "text": "also created mockups and process flow diagrams to provide visual clarity and validation during requirement",
+                  "block_id": "b58",
+                  "kind": "text",
+                  "start": 4296,
+                  "end": 4402
+                },
+                {
+                  "page": 1,
+                  "text": "walkthroughs. As part of the UAT phase, I coordinated end-to-end testing, prepared detailed test cases,",
+                  "block_id": "b59",
+                  "kind": "text",
+                  "start": 4404,
+                  "end": 4507
+                },
+                {
+                  "page": 1,
+                  "text": "and managed defect resolution. I was actively involved in handling change requests, performing impact",
+                  "block_id": "b60",
+                  "kind": "text",
+                  "start": 4509,
+                  "end": 4610
+                },
+                {
+                  "page": 1,
+                  "text": "analysis, and maintaining requirement traceability throughout the SDLC. Post-deployment, I supported",
+                  "block_id": "b61",
+                  "kind": "text",
+                  "start": 4612,
+                  "end": 4712
+                },
+                {
+                  "page": 1,
+                  "text": "hypercare activities and facilitated user training sessions to ensure smooth adoption of new functionalities.",
+                  "block_id": "b62",
+                  "kind": "text",
+                  "start": 4714,
+                  "end": 4823
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_2",
+            "label": "My contribution helped streamline internal workflows and enhance the overall user experience on the",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "My contribution helped streamline internal workflows and enhance the overall user experience on the",
+                  "block_id": "b63",
+                  "kind": "text",
+                  "start": 4825,
+                  "end": 4924
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_3",
+            "label": "AT&T platform.",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "AT&T platform.",
+                  "block_id": "b64",
+                  "kind": "text",
+                  "start": 4926,
+                  "end": 4940
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_4",
+            "label": "Kuwait Finance House",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Kuwait Finance House",
+                  "block_id": "b65",
+                  "kind": "text",
+                  "start": 4944,
+                  "end": 4964
+                },
+                {
+                  "page": 1,
+                  "text": "At Kuwait Finance House, I worked as a Business Analyst, where I was responsible for gathering and",
+                  "block_id": "b66",
+                  "kind": "text",
+                  "start": 4968,
+                  "end": 5066
+                },
+                {
+                  "page": 1,
+                  "text": "analyzing requirements for various digital banking modules, including account management, loan servicing,",
+                  "block_id": "b67",
+                  "kind": "text",
+                  "start": 5068,
+                  "end": 5173
+                },
+                {
+                  "page": 1,
+                  "text": "and financial reporting. I collaborated closely with product owners, subject matter experts, and technical",
+                  "block_id": "b68",
+                  "kind": "text",
+                  "start": 5175,
+                  "end": 5281
+                },
+                {
+                  "page": 1,
+                  "text": "teams to translate business needs into detailed Business Requirement Documents (BRD) and Functional",
+                  "block_id": "b69",
+                  "kind": "text",
+                  "start": 5283,
+                  "end": 5382
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_5",
+            "label": "Requirement Documents (FRD), ensuring alignment with compliance and regulatory standards. My role",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Requirement Documents (FRD), ensuring alignment with compliance and regulatory standards. My role",
+                  "block_id": "b70",
+                  "kind": "text",
+                  "start": 5384,
+                  "end": 5481
+                },
+                {
+                  "page": 1,
+                  "text": "involved working on API enhancement and integration, where I documented request and response",
+                  "block_id": "b71",
+                  "kind": "text",
+                  "start": 5483,
+                  "end": 5575
+                },
+                {
+                  "page": 1,
+                  "text": "structures and supported backend coordination. I created process flows, use case diagrams, and data",
+                  "block_id": "b72",
+                  "kind": "text",
+                  "start": 5577,
+                  "end": 5676
+                },
+                {
+                  "page": 1,
+                  "text": "mapping documents to support the implementation of new features and enhancements. As part of an Agile",
+                  "block_id": "b73",
+                  "kind": "text",
+                  "start": 5678,
+                  "end": 5779
+                },
+                {
+                  "page": 1,
+                  "text": "team, I actively participated in sprint planning, daily stand-ups, and retrospectives, while also managing",
+                  "block_id": "b74",
+                  "kind": "text",
+                  "start": 5781,
+                  "end": 5887
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_6",
+            "label": "UAT execution—preparing test cases, coordinating defect resolution, and ensuring successful business",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "UAT execution—preparing test cases, coordinating defect resolution, and ensuring successful business",
+                  "block_id": "b75",
+                  "kind": "text",
+                  "start": 5889,
+                  "end": 5989
+                },
+                {
+                  "page": 1,
+                  "text": "sign-off. Additionally, I played a key role in production support, performing impact analysis and addressing",
+                  "block_id": "b76",
+                  "kind": "text",
+                  "start": 5991,
+                  "end": 6099
+                },
+                {
+                  "page": 1,
+                  "text": "critical issues, while also contributing to the creation of user manuals and training materials to support end-",
+                  "block_id": "b77",
+                  "kind": "text",
+                  "start": 6101,
+                  "end": 6212
+                },
+                {
+                  "page": 1,
+                  "text": "user adoption.",
+                  "block_id": "b77",
+                  "kind": "text",
+                  "start": 6213,
+                  "end": 6227
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_7",
+            "label": "Citi Bank",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Citi Bank",
+                  "block_id": "b78",
+                  "kind": "text",
+                  "start": 6231,
+                  "end": 6240
+                },
+                {
+                  "page": 1,
+                  "text": "• At Citi Bank, I worked as a Business Analyst where I was involved in the enhancement of the bank’s",
+                  "block_id": "b79",
+                  "kind": "text",
+                  "start": 6244,
+                  "end": 6344
+                },
+                {
+                  "page": 1,
+                  "text": "digital banking platform, focusing on improving user experience, streamlining loan processing, and",
+                  "block_id": "b80",
+                  "kind": "text",
+                  "start": 6346,
+                  "end": 6444
+                },
+                {
+                  "page": 1,
+                  "text": "ensuring compliance with evolving financial regulations. I gathered and analyzed business requirements",
+                  "block_id": "b81",
+                  "kind": "text",
+                  "start": 6446,
+                  "end": 6548
+                },
+                {
+                  "page": 1,
+                  "text": "through client interactions and stakeholder workshops, translating them into detailed documentation",
+                  "block_id": "b82",
+                  "kind": "text",
+                  "start": 6550,
+                  "end": 6649
+                },
+                {
+                  "page": 1,
+                  "text": "including BRDs, FRDs, and user stories with defined acceptance criteria. I collaborated closely with",
+                  "block_id": "b83",
+                  "kind": "text",
+                  "start": 6651,
+                  "end": 6751
+                },
+                {
+                  "page": 1,
+                  "text": "development teams to design and enhance RESTful APIs used in customer onboarding, loan",
+                  "block_id": "b84",
+                  "kind": "text",
+                  "start": 6753,
+                  "end": 6839
+                },
+                {
+                  "page": 1,
+                  "text": "management, and transaction processing. In an Agile environment, I actively participated in sprint",
+                  "block_id": "b85",
+                  "kind": "text",
+                  "start": 6841,
+                  "end": 6939
+                },
+                {
+                  "page": 1,
+                  "text": "ceremonies, managed product backlogs, and ensured clear communication between business and",
+                  "block_id": "b86",
+                  "kind": "text",
+                  "start": 6941,
+                  "end": 7031
+                },
+                {
+                  "page": 1,
+                  "text": "technical stakeholders. I also played a key role in UAT planning and coordination, creating test cases,",
+                  "block_id": "b87",
+                  "kind": "text",
+                  "start": 7033,
+                  "end": 7136
+                },
+                {
+                  "page": 1,
+                  "text": "facilitating defect triage, and obtaining business sign-off for production releases. Additionally, I supported",
+                  "block_id": "b88",
+                  "kind": "text",
+                  "start": 7138,
+                  "end": 7248
+                },
+                {
+                  "page": 1,
+                  "text": "deployment activities using Jenkins and monitored post-release issues during the hypercare phase. My",
+                  "block_id": "b89",
+                  "kind": "text",
+                  "start": 7250,
+                  "end": 7350
+                },
+                {
+                  "page": 1,
+                  "text": "work contributed to delivering secure, user-friendly banking features while aligning with the bank's",
+                  "block_id": "b90",
+                  "kind": "text",
+                  "start": 7352,
+                  "end": 7452
+                },
+                {
+                  "page": 1,
+                  "text": "strategic digital transformation goals.Worked as a Business Analyst on digital banking transformation",
+                  "block_id": "b91",
+                  "kind": "text",
+                  "start": 7454,
+                  "end": 7555
+                },
+                {
+                  "page": 1,
+                  "text": "initiatives, partnering with business stakeholders to define Current State (AS-IS) processes, identify pain points,",
+                  "block_id": "b92",
+                  "kind": "text",
+                  "start": 7557,
+                  "end": 7672
+                },
+                {
+                  "page": 1,
+                  "text": "and design Future State (TO-BE) operating models aligned with business and regulatory objectives. Collaborated",
+                  "block_id": "b93",
+                  "kind": "text",
+                  "start": 7674,
+                  "end": 7784
+                },
+                {
+                  "page": 1,
+                  "text": "with business and technology teams on Target Operating Model (TOM) initiatives, supporting operating model",
+                  "block_id": "b94",
+                  "kind": "text",
+                  "start": 7786,
+                  "end": 7892
+                },
+                {
+                  "page": 1,
+                  "text": "improvements, process standardization, and digital transformation across customer onboarding, loan",
+                  "block_id": "b95",
+                  "kind": "text",
+                  "start": 7894,
+                  "end": 7992
+                },
+                {
+                  "page": 1,
+                  "text": "management, and transaction processing. Conducted detailed requirement gathering workshops and translated",
+                  "block_id": "b96",
+                  "kind": "text",
+                  "start": 7994,
+                  "end": 8099
+                },
+                {
+                  "page": 1,
+                  "text": "business needs into BRDs, FRDs, user stories, acceptance criteria, process flows, and functional specifications.",
+                  "block_id": "b97",
+                  "kind": "text",
+                  "start": 8101,
+                  "end": 8213
+                },
+                {
+                  "page": 1,
+                  "text": "Performed Business Architecture and Process Architecture analysis by documenting business capabilities, business",
+                  "block_id": "b98",
+                  "kind": "text",
+                  "start": 8215,
+                  "end": 8327
+                },
+                {
+                  "page": 1,
+                  "text": "processes, system interactions, and end-to-end workflow dependencies to support solution design. Facilitated",
+                  "block_id": "b99",
+                  "kind": "text",
+                  "start": 8329,
+                  "end": 8437
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_8",
+            "label": "Customer Journey Mapping workshops to analyse customer touchpoints, identify service gaps, improve user",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Customer Journey Mapping workshops to analyse customer touchpoints, identify service gaps, improve user",
+                  "block_id": "b100",
+                  "kind": "text",
+                  "start": 8439,
+                  "end": 8542
+                },
+                {
+                  "page": 1,
+                  "text": "experience, and streamline digital banking journeys. Created AS-IS/TO-BE process maps, performed Gap Analysis",
+                  "block_id": "b101",
+                  "kind": "text",
+                  "start": 8544,
+                  "end": 8653
+                },
+                {
+                  "page": 1,
+                  "text": "and impact assessments, and recommended process optimisation opportunities to improve operational efficiency",
+                  "block_id": "b102",
+                  "kind": "text",
+                  "start": 8655,
+                  "end": 8763
+                },
+                {
+                  "page": 1,
+                  "text": "and customer experience. Worked closely with Solution Architects, Product Owners, Developers, QA, Operations,",
+                  "block_id": "b103",
+                  "kind": "text",
+                  "start": 8765,
+                  "end": 8874
+                },
+                {
+                  "page": 1,
+                  "text": "and Business stakeholders to ensure business requirements were accurately translated into technical solutions.",
+                  "block_id": "b104",
+                  "kind": "text",
+                  "start": 8876,
+                  "end": 8986
+                },
+                {
+                  "page": 1,
+                  "text": "Managed Agile ceremonies, prioritised product backlogs, refined user stories, coordinated UAT planning and",
+                  "block_id": "b105",
+                  "kind": "text",
+                  "start": 8988,
+                  "end": 9094
+                },
+                {
+                  "page": 1,
+                  "text": "execution, resolved defects, and obtained business sign-off for production releases. Supported deployment,",
+                  "block_id": "b106",
+                  "kind": "text",
+                  "start": 9096,
+                  "end": 9202
+                },
+                {
+                  "page": 1,
+                  "text": "hypercare, change management, and post-production issue resolution while ensuring compliance with banking",
+                  "block_id": "b107",
+                  "kind": "text",
+                  "start": 9204,
+                  "end": 9309
+                },
+                {
+                  "page": 1,
+                  "text": "standards and governance requirements.",
+                  "block_id": "b108",
+                  "kind": "text",
+                  "start": 9311,
+                  "end": 9349
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 2,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 2,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "vacbd9e6e9d58595e",
+            "label": "Master of Business Administration",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Master of Business Administration (MBA) – Information Technology & Operations",
+                  "block_id": "b116",
+                  "kind": "text",
+                  "start": 9600,
+                  "end": 9677
+                },
+                {
+                  "page": 1,
+                  "text": "GL Bajaj Institute of Technology and Management, Greater Noida",
+                  "block_id": "b117",
+                  "kind": "text",
+                  "start": 9679,
+                  "end": 9741
+                }
+              ],
+              "dates": [],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "GL Bajaj Institute of Technology and Management",
+                  "block_id": "b117",
+                  "kind": "text",
+                  "start": 9679,
+                  "end": 9726
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Master of Business Administration",
+                  "block_id": "b116",
+                  "kind": "text",
+                  "start": 9600,
+                  "end": 9633
+                }
+              ],
+              "section": "EDUCATION",
+              "date_label": "",
+              "is_present": false
+            }
+          },
+          {
+            "id": "v7073dea7925a4bd5",
+            "label": "Bachelor of Technology",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Bachelor of Technology (B.Tech) – Computer Science and Engineering",
+                  "block_id": "b118",
+                  "kind": "text",
+                  "start": 9743,
+                  "end": 9809
+                },
+                {
+                  "page": 1,
+                  "text": "Galgotias University, Uttar Pradesh",
+                  "block_id": "b119",
+                  "kind": "text",
+                  "start": 9811,
+                  "end": 9846
+                }
+              ],
+              "dates": [],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Galgotias University",
+                  "block_id": "b119",
+                  "kind": "text",
+                  "start": 9811,
+                  "end": 9831
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Bachelor of Technology",
+                  "block_id": "b118",
+                  "kind": "text",
+                  "start": 9743,
+                  "end": 9765
+                }
+              ],
+              "section": "EDUCATION",
+              "date_label": "",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 32,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

@@ -1,0 +1,814 @@
+{
+  "file_name": "Boshiruddinsheikh.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "ae30510b950f532be6cf5564fb11b74826c4d5534f6ce680408ead3d3be07434",
+  "doc_id": "ae30510b950f532be6cf5564",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 0,
+    "total_events": 3,
+    "dated_share": 0.0,
+    "unresolved": 3,
+    "ambiguous": 0,
+    "mean_event_confidence": null,
+    "document_accuracy": 0.83
+  },
+  "work_experience": [
+    {
+      "id": "v798da8612eddf6a9",
+      "type": "EMPLOYMENT",
+      "company": "at Expleo Group",
+      "title": "Software Developer",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Software Developer at Expleo Group, Pune",
+            "block_id": "b25",
+            "kind": "text",
+            "start": 1761,
+            "end": 1801
+          }
+        ],
+        "dates": [],
+        "company": [
+          {
+            "page": 1,
+            "text": "at Expleo Group",
+            "block_id": "b25",
+            "kind": "text",
+            "start": 1780,
+            "end": 1795
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Software Developer",
+            "block_id": "b25",
+            "kind": "text",
+            "start": 1761,
+            "end": 1779
+          }
+        ],
+        "section": "Employment History",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    },
+    {
+      "id": "v62fde619b21e204a",
+      "type": "EMPLOYMENT",
+      "company": "Ceinsys Tech Limited",
+      "title": "Software Developer",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Software Developer at Ceinsys Tech Limited , Pune",
+            "block_id": "b51",
+            "kind": "text",
+            "start": 3235,
+            "end": 3284
+          }
+        ],
+        "dates": [],
+        "company": [
+          {
+            "page": 1,
+            "text": "Ceinsys Tech Limited",
+            "block_id": "b51",
+            "kind": "text",
+            "start": 3257,
+            "end": 3277
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Software Developer",
+            "block_id": "b51",
+            "kind": "text",
+            "start": 3235,
+            "end": 3253
+          }
+        ],
+        "section": "Employment History",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    }
+  ],
+  "education": [
+    {
+      "id": "v16fbdb2425b888fa",
+      "type": "EDUCATION",
+      "company": "DR.C.V.Raman university",
+      "title": "Bachelor of Computer Application",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Bachelor of Computer Application (BCA), DR.C.V.Raman university, Bilaspur",
+            "block_id": "b125",
+            "kind": "text",
+            "start": 6226,
+            "end": 6299
+          }
+        ],
+        "dates": [],
+        "company": [
+          {
+            "page": 1,
+            "text": "DR.C.V.Raman university",
+            "block_id": "b125",
+            "kind": "text",
+            "start": 6266,
+            "end": 6289
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Bachelor of Computer Application",
+            "block_id": "b125",
+            "kind": "text",
+            "start": 6226,
+            "end": 6258
+          }
+        ],
+        "section": "Education",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 2,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "PARTIAL",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "PARTIAL",
+    "coverage_analysis": "PARTIAL",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "no dated events to order",
+    "no intervals to cover"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "ae30510b950f532be6cf5564",
+    "filename": "Boshiruddinsheikh.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [],
+    "unresolved_events": [
+      {
+        "id": "v798da8612eddf6a9",
+        "type": "EMPLOYMENT",
+        "title": "Software Developer",
+        "org": "at Expleo Group",
+        "entry_text": "Software Developer at Expleo Group, Pune F E B R U A R Y 2 0 2 1 • Having 10+ years of IT experience in requirements gathering, analysis, design, development, and maintenance of Windows and Web-based applications using Microsoft technologies including C#, ASP.NET, ASP.NET Core, .NET, Web API, MS Azu",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Software Developer at Expleo Group, Pune",
+              "block_id": "b25",
+              "kind": "text",
+              "start": 1761,
+              "end": 1801
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "at Expleo Group",
+              "block_id": "b25",
+              "kind": "text",
+              "start": 1780,
+              "end": 1795
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Software Developer",
+              "block_id": "b25",
+              "kind": "text",
+              "start": 1761,
+              "end": 1779
+            }
+          ],
+          "section": "Employment History",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Employment History",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v62fde619b21e204a",
+        "type": "EMPLOYMENT",
+        "title": "Software Developer",
+        "org": "Ceinsys Tech Limited",
+        "entry_text": "Software Developer at Ceinsys Tech Limited , Pune M A Y 2 0 2 0 — J A N U A R Y 2 0 2 1 • Strong expertise in C#, ASP.NET Core, .NET 6/.NET 8, Web API, MVC, and Entity Framework Core. • Strong understanding of Agile Scrum methodology and Software Development Life Cycle (SDLC). BOSHIRUDDIN786 SHEIKH ",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Software Developer at Ceinsys Tech Limited , Pune",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 3235,
+              "end": 3284
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "Ceinsys Tech Limited",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 3257,
+              "end": 3277
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Software Developer",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 3235,
+              "end": 3253
+            }
+          ],
+          "section": "Employment History",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Employment History",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v16fbdb2425b888fa",
+        "type": "EDUCATION",
+        "title": "Bachelor of Computer Application",
+        "org": "DR.C.V.Raman university",
+        "entry_text": "Bachelor of Computer Application (BCA), DR.C.V.Raman university, Bilaspur A P R I L 2 0 1 1 — M A R C H 2 0 1 4 Courses Exam 486: Developing ASP.NET MVC Web Applications, Microsoft J A N U A R Y 2 0 2 1 • Designing and developing web applications in an ASP.NET MVC model • Planning and designing user",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor of Computer Application (BCA), DR.C.V.Raman university, Bilaspur",
+              "block_id": "b125",
+              "kind": "text",
+              "start": 6226,
+              "end": 6299
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "DR.C.V.Raman university",
+              "block_id": "b125",
+              "kind": "text",
+              "start": 6266,
+              "end": 6289
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Computer Application",
+              "block_id": "b125",
+              "kind": "text",
+              "start": 6226,
+              "end": 6258
+            }
+          ],
+          "section": "Education",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Education",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "v798da8612eddf6a9",
+            "v62fde619b21e204a"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 0,
+      "total_events": 3,
+      "dated_share": 0.0,
+      "unresolved": 3,
+      "ambiguous": 0,
+      "mean_event_confidence": null,
+      "document_accuracy": 0.83
+    },
+    "total_represented_months": 0,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "PARTIAL",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "PARTIAL",
+        "confidence": 0.3
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 2,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 2,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v798da8612eddf6a9",
+              "label": "Software Developer",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Software Developer at Expleo Group, Pune",
+                    "block_id": "b25",
+                    "kind": "text",
+                    "start": 1761,
+                    "end": 1801
+                  }
+                ],
+                "dates": [],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "at Expleo Group",
+                    "block_id": "b25",
+                    "kind": "text",
+                    "start": 1780,
+                    "end": 1795
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Software Developer",
+                    "block_id": "b25",
+                    "kind": "text",
+                    "start": 1761,
+                    "end": 1779
+                  }
+                ],
+                "section": "Employment History",
+                "date_label": "",
+                "is_present": false
+              }
+            },
+            {
+              "id": "v62fde619b21e204a",
+              "label": "Software Developer",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Software Developer at Ceinsys Tech Limited , Pune",
+                    "block_id": "b51",
+                    "kind": "text",
+                    "start": 3235,
+                    "end": 3284
+                  }
+                ],
+                "dates": [],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Ceinsys Tech Limited",
+                    "block_id": "b51",
+                    "kind": "text",
+                    "start": 3257,
+                    "end": 3277
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Software Developer",
+                    "block_id": "b51",
+                    "kind": "text",
+                    "start": 3235,
+                    "end": 3253
+                  }
+                ],
+                "section": "Employment History",
+                "date_label": "",
+                "is_present": false
+              }
+            }
+          ]
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 1,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v16fbdb2425b888fa",
+              "label": "Bachelor of Computer Application",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Bachelor of Computer Application (BCA), DR.C.V.Raman university, Bilaspur",
+                    "block_id": "b125",
+                    "kind": "text",
+                    "start": 6226,
+                    "end": 6299
+                  }
+                ],
+                "dates": [],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "DR.C.V.Raman university",
+                    "block_id": "b125",
+                    "kind": "text",
+                    "start": 6266,
+                    "end": 6289
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Bachelor of Computer Application",
+                    "block_id": "b125",
+                    "kind": "text",
+                    "start": 6226,
+                    "end": 6258
+                  }
+                ],
+                "section": "Education",
+                "date_label": "",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 0,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 2,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 2,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v798da8612eddf6a9",
+            "label": "Software Developer",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Software Developer at Expleo Group, Pune",
+                  "block_id": "b25",
+                  "kind": "text",
+                  "start": 1761,
+                  "end": 1801
+                }
+              ],
+              "dates": [],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "at Expleo Group",
+                  "block_id": "b25",
+                  "kind": "text",
+                  "start": 1780,
+                  "end": 1795
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Software Developer",
+                  "block_id": "b25",
+                  "kind": "text",
+                  "start": 1761,
+                  "end": 1779
+                }
+              ],
+              "section": "Employment History",
+              "date_label": "",
+              "is_present": false
+            }
+          },
+          {
+            "id": "v62fde619b21e204a",
+            "label": "Software Developer",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Software Developer at Ceinsys Tech Limited , Pune",
+                  "block_id": "b51",
+                  "kind": "text",
+                  "start": 3235,
+                  "end": 3284
+                }
+              ],
+              "dates": [],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Ceinsys Tech Limited",
+                  "block_id": "b51",
+                  "kind": "text",
+                  "start": 3257,
+                  "end": 3277
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Software Developer",
+                  "block_id": "b51",
+                  "kind": "text",
+                  "start": 3235,
+                  "end": 3253
+                }
+              ],
+              "section": "Employment History",
+              "date_label": "",
+              "is_present": false
+            }
+          }
+        ]
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 1,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v16fbdb2425b888fa",
+            "label": "Bachelor of Computer Application",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Bachelor of Computer Application (BCA), DR.C.V.Raman university, Bilaspur",
+                  "block_id": "b125",
+                  "kind": "text",
+                  "start": 6226,
+                  "end": 6299
+                }
+              ],
+              "dates": [],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "DR.C.V.Raman university",
+                  "block_id": "b125",
+                  "kind": "text",
+                  "start": 6266,
+                  "end": 6289
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Bachelor of Computer Application",
+                  "block_id": "b125",
+                  "kind": "text",
+                  "start": 6226,
+                  "end": 6258
+                }
+              ],
+              "section": "Education",
+              "date_label": "",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 0,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

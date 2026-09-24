@@ -1,0 +1,310 @@
+{
+  "file_name": "Kavitha Murthy_1.docx",
+  "input_mode": "text_snapshot",
+  "input_sha256": "a46d43f3884406a6295a0309f0164634043e10db1e1b7889797d713013a39f5e",
+  "doc_id": "a46d43f3884406a6295a0309",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 0,
+    "total_events": 1,
+    "dated_share": 0.0,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": null,
+    "ocr_pages": []
+  },
+  "work_experience": [],
+  "education": [
+    {
+      "id": "vc4a740b237e040b6",
+      "type": "EDUCATION",
+      "company": "Carnegie Mellon University",
+      "title": "MBA",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "PGP in Big Data Analytics & Optimization – INSOFE (2019) (Certified by LTI, Carnegie Mellon University, USA)",
+            "block_id": "b37",
+            "kind": "text",
+            "start": 3739,
+            "end": 3847
+          },
+          {
+            "page": 1,
+            "text": "MBA – Bharathiar University (2012) | Grade: A++",
+            "block_id": "b38",
+            "kind": "text",
+            "start": 3848,
+            "end": 3895
+          },
+          {
+            "page": 1,
+            "text": "B.Sc. Computer Science – M.S University (2010) | 80%",
+            "block_id": "b39",
+            "kind": "text",
+            "start": 3896,
+            "end": 3948
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2019",
+            "block_id": "b37",
+            "kind": "text",
+            "start": 3790,
+            "end": 3794
+          },
+          {
+            "page": 1,
+            "text": "2012",
+            "block_id": "b38",
+            "kind": "text",
+            "start": 3877,
+            "end": 3881
+          },
+          {
+            "page": 1,
+            "text": "2010",
+            "block_id": "b39",
+            "kind": "text",
+            "start": 3937,
+            "end": 3941
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Carnegie Mellon University",
+            "block_id": "b37",
+            "kind": "text",
+            "start": 3815,
+            "end": 3841
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "MBA",
+            "block_id": "b38",
+            "kind": "text",
+            "start": 3848,
+            "end": 3851
+          }
+        ],
+        "section": "EDUCATION",
+        "date_label": "2019 / 2012 / 2010",
+        "is_present": false
+      }
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 0,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "PARTIAL",
+    "coverage_analysis": "PARTIAL",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "section EDUCATION: entry without dated header preserved as-is",
+    "entry e0: dates found without an explicit range",
+    "e0: dates cannot be assigned unambiguously",
+    "conflicting/ambiguous date kept for 'MBA'",
+    "no dated events to order",
+    "no intervals to cover"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "a46d43f3884406a6295a0309",
+    "filename": "Kavitha Murthy_1.docx",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [],
+    "unresolved_events": [
+      {
+        "id": "vc4a740b237e040b6",
+        "type": "EDUCATION",
+        "title": "MBA",
+        "org": "Carnegie Mellon University",
+        "entry_text": "PGP in Big Data Analytics & Optimization – INSOFE (2019) (Certified by LTI, Carnegie Mellon University, USA) MBA – Bharathiar University (2012) | Grade: A++ B.Sc. Computer Science – M.S University (2010) | 80%",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "PGP in Big Data Analytics & Optimization – INSOFE (2019) (Certified by LTI, Carnegie Mellon University, USA)",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 3739,
+              "end": 3847
+            },
+            {
+              "page": 1,
+              "text": "MBA – Bharathiar University (2012) | Grade: A++",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 3848,
+              "end": 3895
+            },
+            {
+              "page": 1,
+              "text": "B.Sc. Computer Science – M.S University (2010) | 80%",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 3896,
+              "end": 3948
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2019",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 3790,
+              "end": 3794
+            },
+            {
+              "page": 1,
+              "text": "2012",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 3877,
+              "end": 3881
+            },
+            {
+              "page": 1,
+              "text": "2010",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 3937,
+              "end": 3941
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Carnegie Mellon University",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 3815,
+              "end": 3841
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "MBA",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 3848,
+              "end": 3851
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2019 / 2012 / 2010",
+          "is_present": false
+        },
+        "date_label": "2019 / 2012 / 2010",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 0,
+      "total_events": 1,
+      "dated_share": 0.0,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": null,
+      "ocr_pages": []
+    },
+    "total_represented_months": 0,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "PARTIAL",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "PARTIAL",
+        "confidence": 0.3
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

@@ -1,0 +1,5615 @@
+{
+  "file_name": "Rahul Parey.docx",
+  "input_mode": "text_snapshot",
+  "input_sha256": "4d81df13403f48280902ee3e1ec23d99237b335fae31de191025bf45bda2d26b",
+  "doc_id": "4d81df13403f48280902ee3e",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 2,
+    "dated_share": 0.5,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.765,
+    "ocr_pages": []
+  },
+  "work_experience": [
+    {
+      "id": "vc01304ad16c0846a",
+      "type": "EMPLOYMENT",
+      "company": "Database : Sql Server",
+      "title": "",
+      "start_date": "2005-01",
+      "end_date": "2008-12",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Database \t: Sql Server 2005/2008.",
+            "block_id": "b194",
+            "kind": "text",
+            "start": 12739,
+            "end": 12772
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2005/2008",
+            "block_id": "b194",
+            "kind": "text",
+            "start": 12762,
+            "end": 12771
+          },
+          {
+            "page": 1,
+            "text": "2008",
+            "block_id": "b200",
+            "kind": "text",
+            "start": 13047,
+            "end": 13051
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Database \t: Sql Server",
+            "block_id": "b194",
+            "kind": "text",
+            "start": 12739,
+            "end": 12761
+          }
+        ],
+        "title": [],
+        "section": "Professional Experience:",
+        "date_label": "2005/2008",
+        "is_present": false
+      }
+    },
+    {
+      "id": "v274424e4b819d1f6",
+      "type": "EMPLOYMENT",
+      "company": "Nihar Info Global Limited",
+      "title": "",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Organization \t\t\t: Nihar Info Global Limited, Hyderabad.",
+            "block_id": "b319",
+            "kind": "text",
+            "start": 18534,
+            "end": 18589
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2003",
+            "block_id": "b322",
+            "kind": "text",
+            "start": 18725,
+            "end": 18729
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Nihar Info Global Limited",
+            "block_id": "b319",
+            "kind": "text",
+            "start": 18552,
+            "end": 18577
+          }
+        ],
+        "title": [],
+        "section": "Professional Experience:",
+        "date_label": "",
+        "is_present": false
+      }
+    }
+  ],
+  "education": [],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "Intake",
+      "client": "Optum(United HealthGroup).",
+      "role": "Project Management & Team Handling, Client Interaction, Requirement Gathering, Component creation, Risk Management , Project tracking , Coordinating with stake holder for Project status etc.",
+      "duration": "",
+      "details": [
+        "Team Size                          : 45",
+        "Environment                       : Java 17 ,JPA,Spring Boot, Spring cloud Technologies, Kafka,AWS.",
+        "Database \t: DB2, Postgre SQL, MongoDB ,kubernetes.",
+        "Annexure #2:"
+      ],
+      "raw_text": "Project : Intelligent Intake",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project : Intelligent Intake",
+            "block_id": "b50",
+            "kind": "text",
+            "start": 5553,
+            "end": 5581
+          },
+          {
+            "page": 1,
+            "text": "Client\t\t\t\t: Optum(United HealthGroup).",
+            "block_id": "b51",
+            "kind": "text",
+            "start": 5582,
+            "end": 5620
+          },
+          {
+            "page": 1,
+            "text": "Team Size                          : 45",
+            "block_id": "b52",
+            "kind": "text",
+            "start": 5621,
+            "end": 5660
+          },
+          {
+            "page": 1,
+            "text": "Environment                       : Java 17 ,JPA,Spring Boot, Spring cloud Technologies, Kafka,AWS.",
+            "block_id": "b53",
+            "kind": "text",
+            "start": 5661,
+            "end": 5760
+          },
+          {
+            "page": 1,
+            "text": "Database \t: DB2, Postgre SQL, MongoDB ,kubernetes.",
+            "block_id": "b54",
+            "kind": "text",
+            "start": 5762,
+            "end": 5812
+          },
+          {
+            "page": 1,
+            "text": "Role                        \t\t: Project Management & Team Handling, Client Interaction, Requirement Gathering, Component creation, Risk Management , Project tracking , Coordinating with stake holder for Project status etc.",
+            "block_id": "b55",
+            "kind": "text",
+            "start": 5813,
+            "end": 6035
+          },
+          {
+            "page": 1,
+            "text": "Annexure #2:",
+            "block_id": "b56",
+            "kind": "text",
+            "start": 6036,
+            "end": 6048
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_2",
+      "name": "PID Application",
+      "client": "PUMA,Germany.",
+      "role": "Project Management & Team Handling, Client Interaction, Requirement Gathering, Component creation, Risk Management , Project tracking , Coordinating with stake holder for Project status etc.",
+      "duration": "",
+      "details": [
+        "Team Size                          : 15",
+        "Environment                       : Java 17 ,JPA,Spring Boot, Spring cloud Technologies, Kafka, AWS.",
+        "Database \t: DB2, Postgre SQL, MongoDB."
+      ],
+      "raw_text": "Project : PUMA - PID Application",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project : PUMA - PID Application",
+            "block_id": "b57",
+            "kind": "text",
+            "start": 6049,
+            "end": 6081
+          },
+          {
+            "page": 1,
+            "text": "Client\t\t\t\t: PUMA,Germany.",
+            "block_id": "b58",
+            "kind": "text",
+            "start": 6082,
+            "end": 6107
+          },
+          {
+            "page": 1,
+            "text": "Team Size                          : 15",
+            "block_id": "b59",
+            "kind": "text",
+            "start": 6108,
+            "end": 6147
+          },
+          {
+            "page": 1,
+            "text": "Environment                       : Java 17 ,JPA,Spring Boot, Spring cloud Technologies, Kafka, AWS.",
+            "block_id": "b60",
+            "kind": "text",
+            "start": 6148,
+            "end": 6248
+          },
+          {
+            "page": 1,
+            "text": "Database \t: DB2, Postgre SQL, MongoDB.",
+            "block_id": "b61",
+            "kind": "text",
+            "start": 6250,
+            "end": 6288
+          },
+          {
+            "page": 1,
+            "text": "Role                        \t\t: Project Management & Team Handling, Client Interaction, Requirement Gathering, Component creation, Risk Management , Project tracking , Coordinating with stake holder for Project status etc.",
+            "block_id": "b62",
+            "kind": "text",
+            "start": 6289,
+            "end": 6511
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_3",
+      "name": "Online Banking",
+      "client": "SVB ,UK.",
+      "role": "Project Management & Team Handling , Client Interaction , Requirement Gathering, Component creation etc.",
+      "duration": "",
+      "details": [
+        "Team Size                          : 10",
+        "Environment                       : Java 11 ,JPA,Spring Boot, Spring cloud Technologies, Kafka,AWS.",
+        "Database \t: Oracle 11g.",
+        "Annexure #3:"
+      ],
+      "raw_text": "Project : SVB - Online Banking",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project : SVB - Online Banking",
+            "block_id": "b63",
+            "kind": "text",
+            "start": 6512,
+            "end": 6542
+          },
+          {
+            "page": 1,
+            "text": "Client\t\t\t\t: SVB ,UK.",
+            "block_id": "b64",
+            "kind": "text",
+            "start": 6543,
+            "end": 6563
+          },
+          {
+            "page": 1,
+            "text": "Team Size                          : 10",
+            "block_id": "b65",
+            "kind": "text",
+            "start": 6564,
+            "end": 6603
+          },
+          {
+            "page": 1,
+            "text": "Environment                       : Java 11 ,JPA,Spring Boot, Spring cloud Technologies, Kafka,AWS.",
+            "block_id": "b66",
+            "kind": "text",
+            "start": 6604,
+            "end": 6703
+          },
+          {
+            "page": 1,
+            "text": "Database \t: Oracle 11g.",
+            "block_id": "b67",
+            "kind": "text",
+            "start": 6705,
+            "end": 6728
+          },
+          {
+            "page": 1,
+            "text": "Role                        \t\t: Project Management & Team Handling , Client Interaction , Requirement Gathering, Component creation etc.",
+            "block_id": "b68",
+            "kind": "text",
+            "start": 6729,
+            "end": 6865
+          },
+          {
+            "page": 1,
+            "text": "Annexure #3:",
+            "block_id": "b69",
+            "kind": "text",
+            "start": 6866,
+            "end": 6878
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_4",
+      "name": "NSE - Parivartan Project",
+      "client": "NSE,India.",
+      "role": "Team Handling , Client Interaction , Requirement Gathering, Component creation etc.",
+      "duration": "",
+      "details": [
+        "Team Size                          : 11",
+        "Environment                       : Java 11 ,JPA,Spring Boot, Spring cloud Technologies.",
+        "Database \t: Oracle 11g.",
+        "Annexure #4:"
+      ],
+      "raw_text": "Project : WIPRO - NSE - Parivartan Project",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project : WIPRO - NSE - Parivartan Project",
+            "block_id": "b70",
+            "kind": "text",
+            "start": 6879,
+            "end": 6921
+          },
+          {
+            "page": 1,
+            "text": "Client\t\t\t\t: NSE,India.",
+            "block_id": "b71",
+            "kind": "text",
+            "start": 6922,
+            "end": 6944
+          },
+          {
+            "page": 1,
+            "text": "Team Size                          : 11",
+            "block_id": "b72",
+            "kind": "text",
+            "start": 6945,
+            "end": 6984
+          },
+          {
+            "page": 1,
+            "text": "Environment                       : Java 11 ,JPA,Spring Boot, Spring cloud Technologies.",
+            "block_id": "b73",
+            "kind": "text",
+            "start": 6985,
+            "end": 7073
+          },
+          {
+            "page": 1,
+            "text": "Database \t: Oracle 11g.",
+            "block_id": "b74",
+            "kind": "text",
+            "start": 7075,
+            "end": 7098
+          },
+          {
+            "page": 1,
+            "text": "Role                        \t\t: Team Handling , Client Interaction , Requirement Gathering, Component creation etc.",
+            "block_id": "b75",
+            "kind": "text",
+            "start": 7099,
+            "end": 7214
+          },
+          {
+            "page": 1,
+            "text": "Annexure #4:",
+            "block_id": "b76",
+            "kind": "text",
+            "start": 7215,
+            "end": 7227
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_5",
+      "name": "(Business Evolution)",
+      "client": "CITI Bank,UK.",
+      "role": "Enhancement Development and documentation.",
+      "duration": "",
+      "details": [
+        "Team Size                          : 5",
+        "Environment                       : Java 8 ,Struts,Hibernate,Spring Boot, Spring cloud Technologies.",
+        "Database \t: Oracle 11g."
+      ],
+      "raw_text": "Project : DelphiBE(Business Evolution)",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project : DelphiBE(Business Evolution)",
+            "block_id": "b77",
+            "kind": "text",
+            "start": 7228,
+            "end": 7266
+          },
+          {
+            "page": 1,
+            "text": "Client\t\t\t\t: CITI Bank,UK.",
+            "block_id": "b78",
+            "kind": "text",
+            "start": 7267,
+            "end": 7292
+          },
+          {
+            "page": 1,
+            "text": "Team Size                          : 5",
+            "block_id": "b79",
+            "kind": "text",
+            "start": 7293,
+            "end": 7331
+          },
+          {
+            "page": 1,
+            "text": "Environment                       : Java 8 ,Struts,Hibernate,Spring Boot, Spring cloud Technologies.",
+            "block_id": "b80",
+            "kind": "text",
+            "start": 7332,
+            "end": 7432
+          },
+          {
+            "page": 1,
+            "text": "Database \t: Oracle 11g.",
+            "block_id": "b81",
+            "kind": "text",
+            "start": 7434,
+            "end": 7457
+          },
+          {
+            "page": 1,
+            "text": "Role                        \t\t: Enhancement Development and documentation.",
+            "block_id": "b82",
+            "kind": "text",
+            "start": 7458,
+            "end": 7532
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_6",
+      "name": "(Extensible platform)",
+      "client": "CITI Bank,UK.",
+      "role": "Enhancement Development and documentation.",
+      "duration": "",
+      "details": [
+        "Team Size                          : 4",
+        "Environment                       : Java 8, Websphere ,Struts,Hibernate,Spring Boot.",
+        "Platform             \t\t: RHEL 7.",
+        "Database \t: Oracle 11g."
+      ],
+      "raw_text": "Project : Delphi(Extensible platform)",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project : Delphi(Extensible platform)",
+            "block_id": "b83",
+            "kind": "text",
+            "start": 7533,
+            "end": 7570
+          },
+          {
+            "page": 1,
+            "text": "Client\t\t\t\t: CITI Bank,UK.",
+            "block_id": "b84",
+            "kind": "text",
+            "start": 7571,
+            "end": 7596
+          },
+          {
+            "page": 1,
+            "text": "Team Size                          : 4",
+            "block_id": "b85",
+            "kind": "text",
+            "start": 7597,
+            "end": 7635
+          },
+          {
+            "page": 1,
+            "text": "Environment                       : Java 8, Websphere ,Struts,Hibernate,Spring Boot.",
+            "block_id": "b86",
+            "kind": "text",
+            "start": 7636,
+            "end": 7720
+          },
+          {
+            "page": 1,
+            "text": "Platform             \t\t: RHEL 7.",
+            "block_id": "b87",
+            "kind": "text",
+            "start": 7722,
+            "end": 7754
+          },
+          {
+            "page": 1,
+            "text": "Database \t: Oracle 11g.",
+            "block_id": "b88",
+            "kind": "text",
+            "start": 7755,
+            "end": 7778
+          },
+          {
+            "page": 1,
+            "text": "Role                        \t\t: Enhancement Development and documentation.",
+            "block_id": "b89",
+            "kind": "text",
+            "start": 7779,
+            "end": 7853
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_7",
+      "name": "System",
+      "client": "CITI Bank,UK.",
+      "role": "Enhancement Development and documentation.",
+      "duration": "",
+      "details": [
+        "Team Size                          : 2",
+        "Environment                       : Java 8 ,Struts,Hibernate,Spring Boot, Spring cloud Technologies.",
+        "Database \t: Oracle 11g.",
+        "Annexure #5:"
+      ],
+      "raw_text": "Project : Taxminder System",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project : Taxminder System",
+            "block_id": "b90",
+            "kind": "text",
+            "start": 7854,
+            "end": 7880
+          },
+          {
+            "page": 1,
+            "text": "Client\t\t\t\t: CITI Bank,UK.",
+            "block_id": "b91",
+            "kind": "text",
+            "start": 7881,
+            "end": 7906
+          },
+          {
+            "page": 1,
+            "text": "Team Size                          : 2",
+            "block_id": "b92",
+            "kind": "text",
+            "start": 7907,
+            "end": 7945
+          },
+          {
+            "page": 1,
+            "text": "Environment                       : Java 8 ,Struts,Hibernate,Spring Boot, Spring cloud Technologies.",
+            "block_id": "b93",
+            "kind": "text",
+            "start": 7946,
+            "end": 8046
+          },
+          {
+            "page": 1,
+            "text": "Database \t: Oracle 11g.",
+            "block_id": "b94",
+            "kind": "text",
+            "start": 8049,
+            "end": 8072
+          },
+          {
+            "page": 1,
+            "text": "Role                        \t\t: Enhancement Development and documentation.",
+            "block_id": "b95",
+            "kind": "text",
+            "start": 8073,
+            "end": 8147
+          },
+          {
+            "page": 1,
+            "text": "Annexure #5:",
+            "block_id": "b96",
+            "kind": "text",
+            "start": 8148,
+            "end": 8160
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_8",
+      "name": "Deposit",
+      "client": "Nordea ,Finland.",
+      "role": "Requirement analysis ,Development and documentation.",
+      "duration": "",
+      "details": [
+        "Team Size                          : 3",
+        "Environment                       : Java , Vaadin Framework 6.",
+        "Platform             \t\t: Window 7.",
+        "Database \t: Oracle 11g."
+      ],
+      "raw_text": "Project : Safety Deposit",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project : Safety Deposit",
+            "block_id": "b97",
+            "kind": "text",
+            "start": 8161,
+            "end": 8185
+          },
+          {
+            "page": 1,
+            "text": "Client\t\t\t\t: Nordea ,Finland.",
+            "block_id": "b98",
+            "kind": "text",
+            "start": 8186,
+            "end": 8214
+          },
+          {
+            "page": 1,
+            "text": "Team Size                          : 3",
+            "block_id": "b99",
+            "kind": "text",
+            "start": 8215,
+            "end": 8253
+          },
+          {
+            "page": 1,
+            "text": "Environment                       : Java , Vaadin Framework 6.",
+            "block_id": "b100",
+            "kind": "text",
+            "start": 8254,
+            "end": 8316
+          },
+          {
+            "page": 1,
+            "text": "Platform             \t\t: Window 7.",
+            "block_id": "b101",
+            "kind": "text",
+            "start": 8318,
+            "end": 8352
+          },
+          {
+            "page": 1,
+            "text": "Database \t: Oracle 11g.",
+            "block_id": "b102",
+            "kind": "text",
+            "start": 8353,
+            "end": 8376
+          },
+          {
+            "page": 1,
+            "text": "Role                        \t\t: Requirement analysis ,Development and documentation.",
+            "block_id": "b103",
+            "kind": "text",
+            "start": 8377,
+            "end": 8461
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_9",
+      "name": "NIL",
+      "client": "Nordea ,Finland.",
+      "role": "Requirement analysis ,Development,unit Test case and \t\t\t\t\t\t   documentation.",
+      "duration": "",
+      "details": [
+        "Team Size                          : 6",
+        "Environment                       : Java , Hibernate ,Spring.",
+        "Platform             \t\t: Window 7.",
+        "Database \t: Oracle 11g."
+      ],
+      "raw_text": "Project : OTP NIL",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project : OTP NIL",
+            "block_id": "b104",
+            "kind": "text",
+            "start": 8462,
+            "end": 8479
+          },
+          {
+            "page": 1,
+            "text": "Client\t\t\t\t: Nordea ,Finland.",
+            "block_id": "b105",
+            "kind": "text",
+            "start": 8480,
+            "end": 8508
+          },
+          {
+            "page": 1,
+            "text": "Team Size                          : 6",
+            "block_id": "b106",
+            "kind": "text",
+            "start": 8509,
+            "end": 8547
+          },
+          {
+            "page": 1,
+            "text": "Environment                       : Java , Hibernate ,Spring.",
+            "block_id": "b107",
+            "kind": "text",
+            "start": 8548,
+            "end": 8609
+          },
+          {
+            "page": 1,
+            "text": "Platform             \t\t: Window 7.",
+            "block_id": "b108",
+            "kind": "text",
+            "start": 8611,
+            "end": 8645
+          },
+          {
+            "page": 1,
+            "text": "Database \t: Oracle 11g.",
+            "block_id": "b109",
+            "kind": "text",
+            "start": 8646,
+            "end": 8669
+          },
+          {
+            "page": 1,
+            "text": "Role                        \t\t: Requirement analysis ,Development,unit Test case and \t\t\t\t\t\t   documentation.",
+            "block_id": "b110",
+            "kind": "text",
+            "start": 8670,
+            "end": 8778
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_10",
+      "name": "Adapter",
+      "client": "Nordea ,Finland.",
+      "role": "Requirement analysis ,Development,unit Test case and \t\t\t\t\t\t   documentation.",
+      "duration": "",
+      "details": [
+        "Team Size                          : 7",
+        "Environment                       : Java,J2ee.",
+        "Platform             \t\t: Window 7.",
+        "Database \t: Oracle 11g."
+      ],
+      "raw_text": "Project : Legacy Adapter",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project : Legacy Adapter",
+            "block_id": "b111",
+            "kind": "text",
+            "start": 8779,
+            "end": 8803
+          },
+          {
+            "page": 1,
+            "text": "Client\t\t\t\t: Nordea ,Finland.",
+            "block_id": "b112",
+            "kind": "text",
+            "start": 8804,
+            "end": 8832
+          },
+          {
+            "page": 1,
+            "text": "Team Size                          : 7",
+            "block_id": "b113",
+            "kind": "text",
+            "start": 8833,
+            "end": 8871
+          },
+          {
+            "page": 1,
+            "text": "Environment                       : Java,J2ee.",
+            "block_id": "b114",
+            "kind": "text",
+            "start": 8872,
+            "end": 8918
+          },
+          {
+            "page": 1,
+            "text": "Platform             \t\t: Window 7.",
+            "block_id": "b115",
+            "kind": "text",
+            "start": 8920,
+            "end": 8954
+          },
+          {
+            "page": 1,
+            "text": "Database \t: Oracle 11g.",
+            "block_id": "b116",
+            "kind": "text",
+            "start": 8955,
+            "end": 8978
+          },
+          {
+            "page": 1,
+            "text": "Role                        \t\t: Requirement analysis ,Development,unit Test case and \t\t\t\t\t\t   documentation.",
+            "block_id": "b117",
+            "kind": "text",
+            "start": 8979,
+            "end": 9087
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_11",
+      "name": "Holding Reports",
+      "client": "Nordea ,Finland.",
+      "role": "Requirement analysis ,Development,unit Test case and \t\t\t\t\t\t   documentation.",
+      "duration": "",
+      "details": [
+        "Team Size                          : 2",
+        "Environment                       : Java,Spring.",
+        "Platform             \t\t: Window 7.",
+        "Database \t: Oracle 11g."
+      ],
+      "raw_text": "Project : Customer Holding Reports",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project : Customer Holding Reports",
+            "block_id": "b118",
+            "kind": "text",
+            "start": 9088,
+            "end": 9122
+          },
+          {
+            "page": 1,
+            "text": "Client\t\t\t\t: Nordea ,Finland.",
+            "block_id": "b119",
+            "kind": "text",
+            "start": 9123,
+            "end": 9151
+          },
+          {
+            "page": 1,
+            "text": "Team Size                          : 2",
+            "block_id": "b120",
+            "kind": "text",
+            "start": 9152,
+            "end": 9190
+          },
+          {
+            "page": 1,
+            "text": "Environment                       : Java,Spring.",
+            "block_id": "b121",
+            "kind": "text",
+            "start": 9191,
+            "end": 9239
+          },
+          {
+            "page": 1,
+            "text": "Platform             \t\t: Window 7.",
+            "block_id": "b122",
+            "kind": "text",
+            "start": 9241,
+            "end": 9275
+          },
+          {
+            "page": 1,
+            "text": "Database \t: Oracle 11g.",
+            "block_id": "b123",
+            "kind": "text",
+            "start": 9276,
+            "end": 9299
+          },
+          {
+            "page": 1,
+            "text": "Role                        \t\t: Requirement analysis ,Development,unit Test case and \t\t\t\t\t\t   documentation.",
+            "block_id": "b124",
+            "kind": "text",
+            "start": 9300,
+            "end": 9408
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_12",
+      "name": "and SOAP Service",
+      "client": "HBO ,New York.",
+      "role": "Requirement analysis ,Development,unit Test case and \t\t\t\t\t\t   documentation.",
+      "duration": "",
+      "details": [
+        "Team Size                          : 6",
+        "Environment                       : Java , Hibernate ,Spring Data Jpa,Spring boot.",
+        "Platform             \t\t: Window 7.",
+        "Database \t: Oracle 11g."
+      ],
+      "raw_text": "Project : Promo and SOAP Service",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project : Promo and SOAP Service",
+            "block_id": "b125",
+            "kind": "text",
+            "start": 9409,
+            "end": 9441
+          },
+          {
+            "page": 1,
+            "text": "Client\t\t\t\t: HBO ,New York.",
+            "block_id": "b126",
+            "kind": "text",
+            "start": 9442,
+            "end": 9468
+          },
+          {
+            "page": 1,
+            "text": "Team Size                          : 6",
+            "block_id": "b127",
+            "kind": "text",
+            "start": 9469,
+            "end": 9507
+          },
+          {
+            "page": 1,
+            "text": "Environment                       : Java , Hibernate ,Spring Data Jpa,Spring boot.",
+            "block_id": "b128",
+            "kind": "text",
+            "start": 9508,
+            "end": 9590
+          },
+          {
+            "page": 1,
+            "text": "Platform             \t\t: Window 7.",
+            "block_id": "b129",
+            "kind": "text",
+            "start": 9592,
+            "end": 9626
+          },
+          {
+            "page": 1,
+            "text": "Database \t: Oracle 11g.",
+            "block_id": "b130",
+            "kind": "text",
+            "start": 9627,
+            "end": 9650
+          },
+          {
+            "page": 1,
+            "text": "Role                        \t\t: Requirement analysis ,Development,unit Test case and \t\t\t\t\t\t   documentation.",
+            "block_id": "b131",
+            "kind": "text",
+            "start": 9651,
+            "end": 9759
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_13",
+      "name": "(Strategic Planning Of  Original programming)",
+      "client": "HBO ,New York.",
+      "role": "Requirement analysis ,Development,unit Test case.",
+      "duration": "",
+      "details": [
+        "Team Size                          : 3",
+        "Environment                       : Java , Hibernate ,Spring.",
+        "Platform             \t\t: Window 7.",
+        "Database \t: Oracle 11g."
+      ],
+      "raw_text": "Project : SPOP (Strategic Planning Of  Original programming)",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project : SPOP (Strategic Planning Of  Original programming)",
+            "block_id": "b132",
+            "kind": "text",
+            "start": 9761,
+            "end": 9821
+          },
+          {
+            "page": 1,
+            "text": "Client\t\t\t\t: HBO ,New York.",
+            "block_id": "b133",
+            "kind": "text",
+            "start": 9822,
+            "end": 9848
+          },
+          {
+            "page": 1,
+            "text": "Team Size                          : 3",
+            "block_id": "b134",
+            "kind": "text",
+            "start": 9849,
+            "end": 9887
+          },
+          {
+            "page": 1,
+            "text": "Environment                       : Java , Hibernate ,Spring.",
+            "block_id": "b135",
+            "kind": "text",
+            "start": 9888,
+            "end": 9949
+          },
+          {
+            "page": 1,
+            "text": "Platform             \t\t: Window 7.",
+            "block_id": "b136",
+            "kind": "text",
+            "start": 9951,
+            "end": 9985
+          },
+          {
+            "page": 1,
+            "text": "Database \t: Oracle 11g.",
+            "block_id": "b137",
+            "kind": "text",
+            "start": 9986,
+            "end": 10009
+          },
+          {
+            "page": 1,
+            "text": "Role                        \t\t: Requirement analysis ,Development,unit Test case.",
+            "block_id": "b138",
+            "kind": "text",
+            "start": 10010,
+            "end": 10091
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_14",
+      "name": "Project Scheduler",
+      "client": "HBO ,New York.",
+      "role": "Requirement analysis ,Development and  documentation.",
+      "duration": "",
+      "details": [
+        "Team Size                          : 9",
+        "Environment                       : Java , Hibernate ,Spring.",
+        "Platform             \t\t: Window 7.",
+        "Database \t: Oracle 11g.",
+        "Annexure #6:"
+      ],
+      "raw_text": "Project : Scheduler",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project : Scheduler",
+            "block_id": "b139",
+            "kind": "text",
+            "start": 10092,
+            "end": 10111
+          },
+          {
+            "page": 1,
+            "text": "Client\t\t\t\t: HBO ,New York.",
+            "block_id": "b140",
+            "kind": "text",
+            "start": 10112,
+            "end": 10138
+          },
+          {
+            "page": 1,
+            "text": "Team Size                          : 9",
+            "block_id": "b141",
+            "kind": "text",
+            "start": 10139,
+            "end": 10177
+          },
+          {
+            "page": 1,
+            "text": "Environment                       : Java , Hibernate ,Spring.",
+            "block_id": "b142",
+            "kind": "text",
+            "start": 10178,
+            "end": 10239
+          },
+          {
+            "page": 1,
+            "text": "Platform             \t\t: Window 7.",
+            "block_id": "b143",
+            "kind": "text",
+            "start": 10241,
+            "end": 10275
+          },
+          {
+            "page": 1,
+            "text": "Database \t: Oracle 11g.",
+            "block_id": "b144",
+            "kind": "text",
+            "start": 10276,
+            "end": 10299
+          },
+          {
+            "page": 1,
+            "text": "Role                        \t\t: Requirement analysis ,Development and  documentation.",
+            "block_id": "b145",
+            "kind": "text",
+            "start": 10300,
+            "end": 10385
+          },
+          {
+            "page": 1,
+            "text": "Annexure #6:",
+            "block_id": "b146",
+            "kind": "text",
+            "start": 10386,
+            "end": 10398
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_15",
+      "name": "Delhi,India – SiteGroupWise Inventory Lookup",
+      "client": "ITC ,Delhi,India.",
+      "role": "Requirement analysis ,Development,unit Test case and \t\t\t\t\t\t  documentation.",
+      "duration": "",
+      "details": [
+        "Team Size                          : 7",
+        "Environment                       : Java , Hibernate,Spring.",
+        "Platform             \t\t: Window 2008.",
+        "Database \t: Sql Server 2012."
+      ],
+      "raw_text": "Project : ITC –Delhi,India – SiteGroupWise Inventory Lookup",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project : ITC –Delhi,India – SiteGroupWise Inventory Lookup",
+            "block_id": "b147",
+            "kind": "text",
+            "start": 10399,
+            "end": 10458
+          },
+          {
+            "page": 1,
+            "text": "Client\t\t\t\t: ITC ,Delhi,India.",
+            "block_id": "b148",
+            "kind": "text",
+            "start": 10459,
+            "end": 10488
+          },
+          {
+            "page": 1,
+            "text": "Team Size                          : 7",
+            "block_id": "b149",
+            "kind": "text",
+            "start": 10489,
+            "end": 10527
+          },
+          {
+            "page": 1,
+            "text": "Environment                       : Java , Hibernate,Spring.",
+            "block_id": "b150",
+            "kind": "text",
+            "start": 10528,
+            "end": 10588
+          },
+          {
+            "page": 1,
+            "text": "Platform             \t\t: Window 2008.",
+            "block_id": "b151",
+            "kind": "text",
+            "start": 10590,
+            "end": 10627
+          },
+          {
+            "page": 1,
+            "text": "Database \t: Sql Server 2012.",
+            "block_id": "b152",
+            "kind": "text",
+            "start": 10628,
+            "end": 10656
+          },
+          {
+            "page": 1,
+            "text": "Role                        \t\t: Requirement analysis ,Development,unit Test case and \t\t\t\t\t\t  documentation.",
+            "block_id": "b153",
+            "kind": "text",
+            "start": 10657,
+            "end": 10764
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_16",
+      "name": "Delhi,India – OutPut Formats",
+      "client": "ITC ,Delhi,India.",
+      "role": "Requirement analysis ,Development,unit Test case and \t\t\t\t\t\t  documentation.",
+      "duration": "",
+      "details": [
+        "Team Size                          : 4",
+        "Environment                       : Java , Hibernate,Spring.",
+        "Platform             \t\t: Window 2008.",
+        "Database \t: Sql Server 2012."
+      ],
+      "raw_text": "Project : ITC –Delhi,India – OutPut Formats",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project : ITC –Delhi,India – OutPut Formats",
+            "block_id": "b154",
+            "kind": "text",
+            "start": 10765,
+            "end": 10808
+          },
+          {
+            "page": 1,
+            "text": "Client\t\t\t\t: ITC ,Delhi,India.",
+            "block_id": "b155",
+            "kind": "text",
+            "start": 10809,
+            "end": 10838
+          },
+          {
+            "page": 1,
+            "text": "Team Size                          : 4",
+            "block_id": "b156",
+            "kind": "text",
+            "start": 10839,
+            "end": 10877
+          },
+          {
+            "page": 1,
+            "text": "Environment                       : Java , Hibernate,Spring.",
+            "block_id": "b157",
+            "kind": "text",
+            "start": 10878,
+            "end": 10938
+          },
+          {
+            "page": 1,
+            "text": "Platform             \t\t: Window 2008.",
+            "block_id": "b158",
+            "kind": "text",
+            "start": 10940,
+            "end": 10977
+          },
+          {
+            "page": 1,
+            "text": "Database \t: Sql Server 2012.",
+            "block_id": "b159",
+            "kind": "text",
+            "start": 10978,
+            "end": 11006
+          },
+          {
+            "page": 1,
+            "text": "Role                        \t\t: Requirement analysis ,Development,unit Test case and \t\t\t\t\t\t  documentation.",
+            "block_id": "b160",
+            "kind": "text",
+            "start": 11007,
+            "end": 11114
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_17",
+      "name": "Delhi,India – Dispatch order",
+      "client": "ITC ,Delhi,India.",
+      "role": "Requirement analysis ,Development,unit Test case and documentation.",
+      "duration": "",
+      "details": [
+        "Team Size                          : 2",
+        "Environment                       : Java , Hibernate ,Spring.",
+        "Platform             \t\t: Window 2008.",
+        "Database \t: Sql Server 2012."
+      ],
+      "raw_text": "Project : ITC –Delhi,India – Dispatch order",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project : ITC –Delhi,India – Dispatch order",
+            "block_id": "b161",
+            "kind": "text",
+            "start": 11115,
+            "end": 11158
+          },
+          {
+            "page": 1,
+            "text": "Client\t\t\t\t: ITC ,Delhi,India.",
+            "block_id": "b162",
+            "kind": "text",
+            "start": 11160,
+            "end": 11189
+          },
+          {
+            "page": 1,
+            "text": "Team Size                          : 2",
+            "block_id": "b163",
+            "kind": "text",
+            "start": 11190,
+            "end": 11228
+          },
+          {
+            "page": 1,
+            "text": "Environment                       : Java , Hibernate ,Spring.",
+            "block_id": "b164",
+            "kind": "text",
+            "start": 11229,
+            "end": 11290
+          },
+          {
+            "page": 1,
+            "text": "Platform             \t\t: Window 2008.",
+            "block_id": "b165",
+            "kind": "text",
+            "start": 11292,
+            "end": 11329
+          },
+          {
+            "page": 1,
+            "text": "Database \t: Sql Server 2012.",
+            "block_id": "b166",
+            "kind": "text",
+            "start": 11330,
+            "end": 11358
+          },
+          {
+            "page": 1,
+            "text": "Role                         : Requirement analysis ,Development,unit Test case and documentation.",
+            "block_id": "b167",
+            "kind": "text",
+            "start": 11359,
+            "end": 11457
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_18",
+      "name": "Delhi,India – Receive order and Franchise Purchase Receipt Modification",
+      "client": "ITC ,Delhi,India.",
+      "role": "Requirement analysis ,Development,unit Test case.",
+      "duration": "",
+      "details": [
+        "Team Size                          : 6",
+        "Environment                       : Java , Hibernate,Spring.",
+        "Platform             \t\t: Window 2008.",
+        "Database \t: Sql Server 2012."
+      ],
+      "raw_text": "Project : ITC –Delhi,India – Receive order and Franchise Purchase Receipt Modification",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project : ITC –Delhi,India – Receive order and Franchise Purchase Receipt Modification",
+            "block_id": "b168",
+            "kind": "text",
+            "start": 11458,
+            "end": 11544
+          },
+          {
+            "page": 1,
+            "text": "Client\t\t\t\t: ITC ,Delhi,India.",
+            "block_id": "b169",
+            "kind": "text",
+            "start": 11545,
+            "end": 11574
+          },
+          {
+            "page": 1,
+            "text": "Team Size                          : 6",
+            "block_id": "b170",
+            "kind": "text",
+            "start": 11575,
+            "end": 11613
+          },
+          {
+            "page": 1,
+            "text": "Environment                       : Java , Hibernate,Spring.",
+            "block_id": "b171",
+            "kind": "text",
+            "start": 11614,
+            "end": 11674
+          },
+          {
+            "page": 1,
+            "text": "Platform             \t\t: Window 2008.",
+            "block_id": "b172",
+            "kind": "text",
+            "start": 11676,
+            "end": 11713
+          },
+          {
+            "page": 1,
+            "text": "Database \t: Sql Server 2012.",
+            "block_id": "b173",
+            "kind": "text",
+            "start": 11714,
+            "end": 11742
+          },
+          {
+            "page": 1,
+            "text": "Role                                      : Requirement analysis ,Development,unit Test case.",
+            "block_id": "b174",
+            "kind": "text",
+            "start": 11743,
+            "end": 11836
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_19",
+      "name": "Delhi,India –Franchise Request,Approval,Return",
+      "client": "ITC ,Delhi,India.",
+      "role": "Documentation ,Coding.",
+      "duration": "",
+      "details": [
+        "Team Size                          : 4",
+        "Environment                       : Java , Hibernate,Spring.",
+        "Platform             \t\t: Window 2008.",
+        "Database \t: Sql Server 2012."
+      ],
+      "raw_text": "Project : ITC –Delhi,India –Franchise Request,Approval,Return",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project : ITC –Delhi,India –Franchise Request,Approval,Return",
+            "block_id": "b175",
+            "kind": "text",
+            "start": 11837,
+            "end": 11898
+          },
+          {
+            "page": 1,
+            "text": "Client\t\t\t\t: ITC ,Delhi,India.",
+            "block_id": "b176",
+            "kind": "text",
+            "start": 11899,
+            "end": 11928
+          },
+          {
+            "page": 1,
+            "text": "Team Size                          : 4",
+            "block_id": "b177",
+            "kind": "text",
+            "start": 11929,
+            "end": 11967
+          },
+          {
+            "page": 1,
+            "text": "Environment                       : Java , Hibernate,Spring.",
+            "block_id": "b178",
+            "kind": "text",
+            "start": 11968,
+            "end": 12028
+          },
+          {
+            "page": 1,
+            "text": "Platform             \t\t: Window 2008.",
+            "block_id": "b179",
+            "kind": "text",
+            "start": 12030,
+            "end": 12067
+          },
+          {
+            "page": 1,
+            "text": "Database \t: Sql Server 2012.",
+            "block_id": "b180",
+            "kind": "text",
+            "start": 12068,
+            "end": 12096
+          },
+          {
+            "page": 1,
+            "text": "Role                    \t          : Documentation ,Coding.",
+            "block_id": "b181",
+            "kind": "text",
+            "start": 12097,
+            "end": 12156
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_20",
+      "name": "Delhi,India –Thank You SMS/Email Notification",
+      "client": "ITC ,Delhi,India.",
+      "role": "Documentation ,Coding.",
+      "duration": "",
+      "details": [
+        "Team Size                          : 5",
+        "Environment                       : Java ,Webservice,Hibernate,Spring.",
+        "Platform             \t\t: Window 2008.",
+        "Database \t: Sql Server 2012."
+      ],
+      "raw_text": "Project : ITC –Delhi,India –Thank You SMS/Email Notification",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project : ITC –Delhi,India –Thank You SMS/Email Notification",
+            "block_id": "b182",
+            "kind": "text",
+            "start": 12157,
+            "end": 12217
+          },
+          {
+            "page": 1,
+            "text": "Client\t\t\t\t: ITC ,Delhi,India.",
+            "block_id": "b183",
+            "kind": "text",
+            "start": 12218,
+            "end": 12247
+          },
+          {
+            "page": 1,
+            "text": "Team Size                          : 5",
+            "block_id": "b184",
+            "kind": "text",
+            "start": 12248,
+            "end": 12286
+          },
+          {
+            "page": 1,
+            "text": "Environment                       : Java ,Webservice,Hibernate,Spring.",
+            "block_id": "b185",
+            "kind": "text",
+            "start": 12287,
+            "end": 12357
+          },
+          {
+            "page": 1,
+            "text": "Platform             \t\t: Window 2008.",
+            "block_id": "b186",
+            "kind": "text",
+            "start": 12359,
+            "end": 12396
+          },
+          {
+            "page": 1,
+            "text": "Database \t: Sql Server 2012.",
+            "block_id": "b187",
+            "kind": "text",
+            "start": 12397,
+            "end": 12425
+          },
+          {
+            "page": 1,
+            "text": "Role                    \t          : Documentation ,Coding.",
+            "block_id": "b188",
+            "kind": "text",
+            "start": 12426,
+            "end": 12485
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_21",
+      "name": "International-UAE –Loyalty Redemption and Discount as Discount",
+      "client": "BMA International ,UAE.",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Team Size                          : 10",
+        "Environment                       : Java, Hibernate,Spring .",
+        "Platform             \t\t: Window 2008."
+      ],
+      "raw_text": "Project : BMA International-UAE –Loyalty Redemption and Discount as Discount",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project : BMA International-UAE –Loyalty Redemption and Discount as Discount",
+            "block_id": "b189",
+            "kind": "text",
+            "start": 12486,
+            "end": 12562
+          },
+          {
+            "page": 1,
+            "text": "Client\t\t\t\t: BMA International ,UAE.",
+            "block_id": "b190",
+            "kind": "text",
+            "start": 12563,
+            "end": 12598
+          },
+          {
+            "page": 1,
+            "text": "Team Size                          : 10",
+            "block_id": "b191",
+            "kind": "text",
+            "start": 12599,
+            "end": 12638
+          },
+          {
+            "page": 1,
+            "text": "Environment                       : Java, Hibernate,Spring .",
+            "block_id": "b192",
+            "kind": "text",
+            "start": 12639,
+            "end": 12699
+          },
+          {
+            "page": 1,
+            "text": "Platform             \t\t: Window 2008.",
+            "block_id": "b193",
+            "kind": "text",
+            "start": 12701,
+            "end": 12738
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_22",
+      "name": "Clothing Inc(CCI) –Stock Take",
+      "client": "CCI, Philippines.",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Team Size                          : 4",
+        "Environment                       : Java ,Hibernate,Spring.",
+        "Platform             \t\t: Window 2008."
+      ],
+      "raw_text": "Project : California Clothing Inc(CCI) –Stock Take",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project : California Clothing Inc(CCI) –Stock Take",
+            "block_id": "b196",
+            "kind": "text",
+            "start": 12833,
+            "end": 12883
+          },
+          {
+            "page": 1,
+            "text": "Client\t\t\t\t: CCI, Philippines.",
+            "block_id": "b197",
+            "kind": "text",
+            "start": 12885,
+            "end": 12914
+          },
+          {
+            "page": 1,
+            "text": "Team Size                          : 4",
+            "block_id": "b198",
+            "kind": "text",
+            "start": 12915,
+            "end": 12953
+          },
+          {
+            "page": 1,
+            "text": "Environment                       : Java ,Hibernate,Spring.",
+            "block_id": "b199",
+            "kind": "text",
+            "start": 12954,
+            "end": 13013
+          },
+          {
+            "page": 1,
+            "text": "Platform             \t\t: Window 2008.",
+            "block_id": "b200",
+            "kind": "text",
+            "start": 13015,
+            "end": 13052
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_23",
+      "name": "Currency Delimiter",
+      "client": "Trikomsel(OKE), Indonesia.",
+      "role": "Documentation ,Coding.",
+      "duration": "",
+      "details": [
+        "Team Size                          : 1",
+        "Environment                       : Java ,Jasper Report,Hibernate.",
+        "Platform             \t\t: Window 2008.",
+        "Database \t: Sql Server 2012."
+      ],
+      "raw_text": "Project : Trikomsel –Currency Delimiter",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project : Trikomsel –Currency Delimiter",
+            "block_id": "b203",
+            "kind": "text",
+            "start": 13161,
+            "end": 13200
+          },
+          {
+            "page": 1,
+            "text": "Client\t\t\t\t: Trikomsel(OKE), Indonesia.",
+            "block_id": "b204",
+            "kind": "text",
+            "start": 13201,
+            "end": 13239
+          },
+          {
+            "page": 1,
+            "text": "Team Size                          : 1",
+            "block_id": "b205",
+            "kind": "text",
+            "start": 13240,
+            "end": 13278
+          },
+          {
+            "page": 1,
+            "text": "Environment                       : Java ,Jasper Report,Hibernate.",
+            "block_id": "b206",
+            "kind": "text",
+            "start": 13279,
+            "end": 13345
+          },
+          {
+            "page": 1,
+            "text": "Platform             \t\t: Window 2008.",
+            "block_id": "b207",
+            "kind": "text",
+            "start": 13347,
+            "end": 13384
+          },
+          {
+            "page": 1,
+            "text": "Database \t: Sql Server 2012.",
+            "block_id": "b208",
+            "kind": "text",
+            "start": 13385,
+            "end": 13413
+          },
+          {
+            "page": 1,
+            "text": "Role                    \t          : Documentation ,Coding.",
+            "block_id": "b209",
+            "kind": "text",
+            "start": 13414,
+            "end": 13473
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_24",
+      "name": "ECR Integration",
+      "client": "Trikomsel(OKE), Indonesia.",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Team Size                          : 2",
+        "Environment                       : Java ,Jasper Report,Hibernate.",
+        "Platform             \t\t: Window 2008."
+      ],
+      "raw_text": "Project : Trikomsel –ECR Integration",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project : Trikomsel –ECR Integration",
+            "block_id": "b210",
+            "kind": "text",
+            "start": 13474,
+            "end": 13510
+          },
+          {
+            "page": 1,
+            "text": "Client\t\t\t\t: Trikomsel(OKE), Indonesia.",
+            "block_id": "b211",
+            "kind": "text",
+            "start": 13511,
+            "end": 13549
+          },
+          {
+            "page": 1,
+            "text": "Team Size                          : 2",
+            "block_id": "b212",
+            "kind": "text",
+            "start": 13550,
+            "end": 13588
+          },
+          {
+            "page": 1,
+            "text": "Environment                       : Java ,Jasper Report,Hibernate.",
+            "block_id": "b213",
+            "kind": "text",
+            "start": 13589,
+            "end": 13655
+          },
+          {
+            "page": 1,
+            "text": "Platform             \t\t: Window 2008.",
+            "block_id": "b214",
+            "kind": "text",
+            "start": 13657,
+            "end": 13694
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_25",
+      "name": "Store Front(KPI(Key Performance Indicator))",
+      "client": "Valiram Group, Indonesia.",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Team Size                          : 2",
+        "Environment                       : Java ,Jasper Report,Hibernate.",
+        "Platform             \t\t: Window 2008."
+      ],
+      "raw_text": "Project : Valiram –Store Front(KPI(Key Performance Indicator))",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project : Valiram –Store Front(KPI(Key Performance Indicator))",
+            "block_id": "b218",
+            "kind": "text",
+            "start": 13826,
+            "end": 13888
+          },
+          {
+            "page": 1,
+            "text": "Client\t\t\t\t: Valiram Group, Indonesia.",
+            "block_id": "b219",
+            "kind": "text",
+            "start": 13889,
+            "end": 13926
+          },
+          {
+            "page": 1,
+            "text": "Team Size                          : 2",
+            "block_id": "b220",
+            "kind": "text",
+            "start": 13927,
+            "end": 13965
+          },
+          {
+            "page": 1,
+            "text": "Environment                       : Java ,Jasper Report,Hibernate.",
+            "block_id": "b221",
+            "kind": "text",
+            "start": 13966,
+            "end": 14032
+          },
+          {
+            "page": 1,
+            "text": "Platform             \t\t: Window 2008.",
+            "block_id": "b222",
+            "kind": "text",
+            "start": 14034,
+            "end": 14071
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_26",
+      "name": "Store Front(Concurrency)",
+      "client": "IKEA, UAE.",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Team Size                          : 4",
+        "Environment                       : Java ,Jasper Report,Hibernate.",
+        "Platform             \t\t: Window 2008."
+      ],
+      "raw_text": "Project : IKEA –Store Front(Concurrency)",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project : IKEA –Store Front(Concurrency)",
+            "block_id": "b226",
+            "kind": "text",
+            "start": 14203,
+            "end": 14243
+          },
+          {
+            "page": 1,
+            "text": "Client\t\t\t\t: IKEA, UAE.",
+            "block_id": "b227",
+            "kind": "text",
+            "start": 14244,
+            "end": 14266
+          },
+          {
+            "page": 1,
+            "text": "Team Size                          : 4",
+            "block_id": "b228",
+            "kind": "text",
+            "start": 14267,
+            "end": 14305
+          },
+          {
+            "page": 1,
+            "text": "Environment                       : Java ,Jasper Report,Hibernate.",
+            "block_id": "b229",
+            "kind": "text",
+            "start": 14306,
+            "end": 14372
+          },
+          {
+            "page": 1,
+            "text": "Platform             \t\t: Window 2008.",
+            "block_id": "b230",
+            "kind": "text",
+            "start": 14374,
+            "end": 14411
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_27",
+      "name": "Operation/Store Front(Value Added Tax)-Delhi",
+      "client": "HotSpot(Spice).",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Team Size                          : 2",
+        "Environment                       : Java, Jasper Report.",
+        "Platform             \t\t: Window 2008."
+      ],
+      "raw_text": "Project : Store Operation/Store Front(Value Added Tax)-Delhi",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project : Store Operation/Store Front(Value Added Tax)-Delhi",
+            "block_id": "b234",
+            "kind": "text",
+            "start": 14543,
+            "end": 14603
+          },
+          {
+            "page": 1,
+            "text": "Client\t\t\t\t: HotSpot(Spice).",
+            "block_id": "b235",
+            "kind": "text",
+            "start": 14604,
+            "end": 14631
+          },
+          {
+            "page": 1,
+            "text": "Team Size                          : 2",
+            "block_id": "b236",
+            "kind": "text",
+            "start": 14632,
+            "end": 14670
+          },
+          {
+            "page": 1,
+            "text": "Environment                       : Java, Jasper Report.",
+            "block_id": "b237",
+            "kind": "text",
+            "start": 14671,
+            "end": 14727
+          },
+          {
+            "page": 1,
+            "text": "Platform             \t\t: Window 2008.",
+            "block_id": "b238",
+            "kind": "text",
+            "start": 14729,
+            "end": 14766
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_28",
+      "name": "Integration",
+      "client": "MAP( Mitra Adiperkasa)Indonesia.",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Team Size                          : 4",
+        "Environment                       : Java,Jsp,Servlet,JBoss 4.0/6.0,xml,Hibernate.",
+        "Platform             \t\t: Window 2008."
+      ],
+      "raw_text": "Project : SAP-EAS Integration",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project : SAP-EAS Integration",
+            "block_id": "b242",
+            "kind": "text",
+            "start": 14898,
+            "end": 14927
+          },
+          {
+            "page": 1,
+            "text": "Client\t\t\t\t: MAP( Mitra Adiperkasa)Indonesia.",
+            "block_id": "b243",
+            "kind": "text",
+            "start": 14928,
+            "end": 14972
+          },
+          {
+            "page": 1,
+            "text": "Team Size                          : 4",
+            "block_id": "b244",
+            "kind": "text",
+            "start": 14973,
+            "end": 15011
+          },
+          {
+            "page": 1,
+            "text": "Environment                       : Java,Jsp,Servlet,JBoss 4.0/6.0,xml,Hibernate.",
+            "block_id": "b245",
+            "kind": "text",
+            "start": 15012,
+            "end": 15093
+          },
+          {
+            "page": 1,
+            "text": "Platform             \t\t: Window 2008.",
+            "block_id": "b246",
+            "kind": "text",
+            "start": 15095,
+            "end": 15132
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_29",
+      "name": "Project Reconciliation",
+      "client": "Dhanlaxmi Bank.",
+      "role": "Information gathering and Requirement",
+      "duration": "",
+      "details": [
+        "Team Size                          : 3",
+        "Environment                       : Hibernate,Java, JSP,Servlet.",
+        "Websphere 6.1, Jasperreport.",
+        "Platform             \t\t: Window 2008.",
+        "Database \t: Oracle 10g.",
+        "Analysis, Coding."
+      ],
+      "raw_text": "Project : Reconciliation",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project : Reconciliation",
+            "block_id": "b251",
+            "kind": "text",
+            "start": 15277,
+            "end": 15301
+          },
+          {
+            "page": 1,
+            "text": "Client\t\t\t\t: Dhanlaxmi Bank.",
+            "block_id": "b252",
+            "kind": "text",
+            "start": 15302,
+            "end": 15329
+          },
+          {
+            "page": 1,
+            "text": "Team Size                          : 3",
+            "block_id": "b253",
+            "kind": "text",
+            "start": 15330,
+            "end": 15368
+          },
+          {
+            "page": 1,
+            "text": "Environment                       : Hibernate,Java, JSP,Servlet.",
+            "block_id": "b254",
+            "kind": "text",
+            "start": 15369,
+            "end": 15433
+          },
+          {
+            "page": 1,
+            "text": "Websphere 6.1, Jasperreport.",
+            "block_id": "b255",
+            "kind": "text",
+            "start": 15477,
+            "end": 15505
+          },
+          {
+            "page": 1,
+            "text": "Platform             \t\t: Window 2008.",
+            "block_id": "b256",
+            "kind": "text",
+            "start": 15507,
+            "end": 15544
+          },
+          {
+            "page": 1,
+            "text": "Database \t: Oracle 10g.",
+            "block_id": "b257",
+            "kind": "text",
+            "start": 15545,
+            "end": 15568
+          },
+          {
+            "page": 1,
+            "text": "Role                    \t          : Information gathering and Requirement",
+            "block_id": "b258",
+            "kind": "text",
+            "start": 15569,
+            "end": 15643
+          },
+          {
+            "page": 1,
+            "text": "Analysis, Coding.",
+            "block_id": "b259",
+            "kind": "text",
+            "start": 15648,
+            "end": 15665
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_30",
+      "name": "Finance",
+      "client": "Dhanlaxmi Bank.",
+      "role": "Information gathering and Requirement",
+      "duration": "",
+      "details": [
+        "Team Size                          : 2",
+        "Environment                       : Hibernate, JSP,Servlet,XML",
+        "Websphere 6.1, Jasperreport.",
+        "Platform             \t\t: Window 2008.",
+        "Database \t: Oracle 10g.",
+        "Analysis, Coding."
+      ],
+      "raw_text": "Project : Trade Finance",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project : Trade Finance",
+            "block_id": "b260",
+            "kind": "text",
+            "start": 15666,
+            "end": 15689
+          },
+          {
+            "page": 1,
+            "text": "Client\t\t\t\t: Dhanlaxmi Bank.",
+            "block_id": "b261",
+            "kind": "text",
+            "start": 15690,
+            "end": 15717
+          },
+          {
+            "page": 1,
+            "text": "Team Size                          : 2",
+            "block_id": "b262",
+            "kind": "text",
+            "start": 15718,
+            "end": 15756
+          },
+          {
+            "page": 1,
+            "text": "Environment                       : Hibernate, JSP,Servlet,XML",
+            "block_id": "b263",
+            "kind": "text",
+            "start": 15757,
+            "end": 15819
+          },
+          {
+            "page": 1,
+            "text": "Websphere 6.1, Jasperreport.",
+            "block_id": "b264",
+            "kind": "text",
+            "start": 15863,
+            "end": 15891
+          },
+          {
+            "page": 1,
+            "text": "Platform             \t\t: Window 2008.",
+            "block_id": "b265",
+            "kind": "text",
+            "start": 15893,
+            "end": 15930
+          },
+          {
+            "page": 1,
+            "text": "Database \t: Oracle 10g.",
+            "block_id": "b266",
+            "kind": "text",
+            "start": 15931,
+            "end": 15954
+          },
+          {
+            "page": 1,
+            "text": "Role                    \t          : Information gathering and Requirement",
+            "block_id": "b267",
+            "kind": "text",
+            "start": 15955,
+            "end": 16029
+          },
+          {
+            "page": 1,
+            "text": "Analysis, Coding.",
+            "block_id": "b268",
+            "kind": "text",
+            "start": 16034,
+            "end": 16051
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_31",
+      "name": "System.",
+      "client": "Dhanlaxmi Bank.",
+      "role": "Information gathering and Requirement",
+      "duration": "",
+      "details": [
+        "Team Size                          : 4",
+        "Environment                       : Hibernate, Servlet,JSP,XML,",
+        "Websphere 6.1,  Jasperreport.",
+        "Platform             \t\t: Window 2008.",
+        "Database \t: Oracle 10g,Sql Server 2005.",
+        "Analysis, Coding."
+      ],
+      "raw_text": "Project : CBS-CTS-Clearing System.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project : CBS-CTS-Clearing System.",
+            "block_id": "b269",
+            "kind": "text",
+            "start": 16052,
+            "end": 16086
+          },
+          {
+            "page": 1,
+            "text": "Client\t\t\t\t: Dhanlaxmi Bank.",
+            "block_id": "b270",
+            "kind": "text",
+            "start": 16087,
+            "end": 16114
+          },
+          {
+            "page": 1,
+            "text": "Team Size                          : 4",
+            "block_id": "b271",
+            "kind": "text",
+            "start": 16115,
+            "end": 16153
+          },
+          {
+            "page": 1,
+            "text": "Environment                       : Hibernate, Servlet,JSP,XML,",
+            "block_id": "b272",
+            "kind": "text",
+            "start": 16154,
+            "end": 16217
+          },
+          {
+            "page": 1,
+            "text": "Websphere 6.1,  Jasperreport.",
+            "block_id": "b273",
+            "kind": "text",
+            "start": 16261,
+            "end": 16290
+          },
+          {
+            "page": 1,
+            "text": "Platform             \t\t: Window 2008.",
+            "block_id": "b274",
+            "kind": "text",
+            "start": 16292,
+            "end": 16329
+          },
+          {
+            "page": 1,
+            "text": "Database \t: Oracle 10g,Sql Server 2005.",
+            "block_id": "b275",
+            "kind": "text",
+            "start": 16330,
+            "end": 16369
+          },
+          {
+            "page": 1,
+            "text": "Role                    \t          :  Information gathering and Requirement",
+            "block_id": "b276",
+            "kind": "text",
+            "start": 16370,
+            "end": 16445
+          },
+          {
+            "page": 1,
+            "text": "Analysis, Coding.",
+            "block_id": "b277",
+            "kind": "text",
+            "start": 16450,
+            "end": 16467
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_32",
+      "name": "Prasadam Dispatch.",
+      "client": "Dhanlaxmi Bank.",
+      "role": "Information gathering and Requirement",
+      "duration": "",
+      "details": [
+        "Team Size                          : 6",
+        "Environment                       : Hibernate, JSP,Servlet",
+        "Websphere 6.1, Jasperreport ,Ajax.",
+        "Platform             \t\t: Window 2008.",
+        "Database \t: Oracle 10g.",
+        "Analysis, Coding.",
+        "Annexure #8:",
+        "Projec: Vodafone Smart Reports",
+        "Client\t\t\t\t: Vodafone Essar Ltd, Andheri (E) Mumbai.",
+        "Team Size                          : 3",
+        "Environment                       : JDBC, JSP",
+        "Apache Tomcat Server 6.0, Jasperreport.",
+        "Platform             \t\t: UNIX and Window 2000.",
+        "Database \t: Oracle 10g.",
+        "Role                    \t          : Information gathering and Requirement analysis",
+        "Changes in user interface, Modification",
+        "Migration, maintenance Analysis,",
+        "Coding."
+      ],
+      "raw_text": "Project : Sabarimala Prasadam Dispatch.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project : Sabarimala Prasadam Dispatch.",
+            "block_id": "b278",
+            "kind": "text",
+            "start": 16468,
+            "end": 16507
+          },
+          {
+            "page": 1,
+            "text": "Client\t\t\t\t: Dhanlaxmi Bank.",
+            "block_id": "b279",
+            "kind": "text",
+            "start": 16508,
+            "end": 16535
+          },
+          {
+            "page": 1,
+            "text": "Team Size                          : 6",
+            "block_id": "b280",
+            "kind": "text",
+            "start": 16536,
+            "end": 16574
+          },
+          {
+            "page": 1,
+            "text": "Environment                       : Hibernate, JSP,Servlet",
+            "block_id": "b281",
+            "kind": "text",
+            "start": 16575,
+            "end": 16633
+          },
+          {
+            "page": 1,
+            "text": "Websphere 6.1, Jasperreport ,Ajax.",
+            "block_id": "b282",
+            "kind": "text",
+            "start": 16677,
+            "end": 16711
+          },
+          {
+            "page": 1,
+            "text": "Platform             \t\t: Window 2008.",
+            "block_id": "b283",
+            "kind": "text",
+            "start": 16713,
+            "end": 16750
+          },
+          {
+            "page": 1,
+            "text": "Database \t: Oracle 10g.",
+            "block_id": "b284",
+            "kind": "text",
+            "start": 16751,
+            "end": 16774
+          },
+          {
+            "page": 1,
+            "text": "Role                    \t          : Information gathering and Requirement",
+            "block_id": "b285",
+            "kind": "text",
+            "start": 16775,
+            "end": 16849
+          },
+          {
+            "page": 1,
+            "text": "Analysis, Coding.",
+            "block_id": "b286",
+            "kind": "text",
+            "start": 16854,
+            "end": 16871
+          },
+          {
+            "page": 1,
+            "text": "Annexure #8:",
+            "block_id": "b287",
+            "kind": "text",
+            "start": 16872,
+            "end": 16884
+          },
+          {
+            "page": 1,
+            "text": "Projec: Vodafone Smart Reports",
+            "block_id": "b288",
+            "kind": "text",
+            "start": 16885,
+            "end": 16915
+          },
+          {
+            "page": 1,
+            "text": "Client\t\t\t\t: Vodafone Essar Ltd, Andheri (E) Mumbai.",
+            "block_id": "b289",
+            "kind": "text",
+            "start": 16916,
+            "end": 16967
+          },
+          {
+            "page": 1,
+            "text": "Team Size                          : 3",
+            "block_id": "b290",
+            "kind": "text",
+            "start": 16968,
+            "end": 17006
+          },
+          {
+            "page": 1,
+            "text": "Environment                       : JDBC, JSP",
+            "block_id": "b291",
+            "kind": "text",
+            "start": 17007,
+            "end": 17052
+          },
+          {
+            "page": 1,
+            "text": "Apache Tomcat Server 6.0, Jasperreport.",
+            "block_id": "b292",
+            "kind": "text",
+            "start": 17096,
+            "end": 17135
+          },
+          {
+            "page": 1,
+            "text": "Platform             \t\t: UNIX and Window 2000.",
+            "block_id": "b293",
+            "kind": "text",
+            "start": 17137,
+            "end": 17183
+          },
+          {
+            "page": 1,
+            "text": "Database \t: Oracle 10g.",
+            "block_id": "b294",
+            "kind": "text",
+            "start": 17184,
+            "end": 17207
+          },
+          {
+            "page": 1,
+            "text": "Role                    \t          : Information gathering and Requirement analysis",
+            "block_id": "b295",
+            "kind": "text",
+            "start": 17208,
+            "end": 17291
+          },
+          {
+            "page": 1,
+            "text": "Changes in user interface, Modification",
+            "block_id": "b296",
+            "kind": "text",
+            "start": 17342,
+            "end": 17381
+          },
+          {
+            "page": 1,
+            "text": "Migration, maintenance Analysis,",
+            "block_id": "b297",
+            "kind": "text",
+            "start": 17425,
+            "end": 17457
+          },
+          {
+            "page": 1,
+            "text": "Coding.",
+            "block_id": "b298",
+            "kind": "text",
+            "start": 17506,
+            "end": 17513
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_33",
+      "name": "Application",
+      "client": "Vodafone Essar Ltd, Andheri (E) Mumbai.",
+      "role": "Analysis, Coding,Changes in user interface, Modification",
+      "duration": "",
+      "details": [
+        "Team Size                          : 2",
+        "Environment            \t: Servlet, JSP, Oracle 10g,",
+        "Apache Tomcat Server 6.0, Jasperreport.",
+        "Platform             \t\t: UNIX and Windows 2003.",
+        "Database \t: Oracle 10g.",
+        "Migration, maintenance Analysis.",
+        "Annexure #9:"
+      ],
+      "raw_text": "Project : SMS Application",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project : SMS Application",
+            "block_id": "b299",
+            "kind": "text",
+            "start": 17514,
+            "end": 17539
+          },
+          {
+            "page": 1,
+            "text": "Client\t\t\t\t: Vodafone Essar Ltd, Andheri (E) Mumbai.",
+            "block_id": "b300",
+            "kind": "text",
+            "start": 17541,
+            "end": 17592
+          },
+          {
+            "page": 1,
+            "text": "Team Size                          : 2",
+            "block_id": "b301",
+            "kind": "text",
+            "start": 17594,
+            "end": 17632
+          },
+          {
+            "page": 1,
+            "text": "Environment            \t: Servlet, JSP, Oracle 10g,",
+            "block_id": "b302",
+            "kind": "text",
+            "start": 17633,
+            "end": 17684
+          },
+          {
+            "page": 1,
+            "text": "Apache Tomcat Server 6.0, Jasperreport.",
+            "block_id": "b303",
+            "kind": "text",
+            "start": 17729,
+            "end": 17768
+          },
+          {
+            "page": 1,
+            "text": "Platform             \t\t: UNIX and Windows 2003.",
+            "block_id": "b304",
+            "kind": "text",
+            "start": 17770,
+            "end": 17817
+          },
+          {
+            "page": 1,
+            "text": "Database \t: Oracle 10g.",
+            "block_id": "b305",
+            "kind": "text",
+            "start": 17818,
+            "end": 17841
+          },
+          {
+            "page": 1,
+            "text": "Role                    \t          : Analysis, Coding,Changes in user interface, Modification",
+            "block_id": "b306",
+            "kind": "text",
+            "start": 17842,
+            "end": 17935
+          },
+          {
+            "page": 1,
+            "text": "Migration, maintenance Analysis.",
+            "block_id": "b307",
+            "kind": "text",
+            "start": 17981,
+            "end": 18013
+          },
+          {
+            "page": 1,
+            "text": "Annexure #9:",
+            "block_id": "b308",
+            "kind": "text",
+            "start": 18057,
+            "end": 18069
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_34",
+      "name": "(Material Management System)",
+      "client": "Paradip Port Trust, Orissa.",
+      "role": "Requirement Gathering,Analysis, Coding.",
+      "duration": "",
+      "details": [
+        "Organization \t\t\t: Nihar Info Global Limited, Hyderabad.",
+        "Team Size \t: 5.",
+        "Environnent            \t: Servlet ,Jsp, Oracle 10g,",
+        "Apache Tomcat Server 6.0, Jasperreport.",
+        "Platform             \t\t: Windows 2003/XP.",
+        "Database \t: Oracle 10g."
+      ],
+      "raw_text": "Project : MMS (Material Management System)",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project : MMS (Material Management System)",
+            "block_id": "b309",
+            "kind": "text",
+            "start": 18070,
+            "end": 18112
+          },
+          {
+            "page": 1,
+            "text": "Client\t\t\t\t: Paradip Port Trust, Orissa.",
+            "block_id": "b310",
+            "kind": "text",
+            "start": 18114,
+            "end": 18153
+          },
+          {
+            "page": 1,
+            "text": "Organization \t\t\t: Nihar Info Global Limited, Hyderabad.",
+            "block_id": "b311",
+            "kind": "text",
+            "start": 18155,
+            "end": 18210
+          },
+          {
+            "page": 1,
+            "text": "Team Size \t: 5.",
+            "block_id": "b312",
+            "kind": "text",
+            "start": 18211,
+            "end": 18226
+          },
+          {
+            "page": 1,
+            "text": "Environnent            \t: Servlet ,Jsp, Oracle 10g,",
+            "block_id": "b313",
+            "kind": "text",
+            "start": 18227,
+            "end": 18278
+          },
+          {
+            "page": 1,
+            "text": "Apache Tomcat Server 6.0, Jasperreport.",
+            "block_id": "b314",
+            "kind": "text",
+            "start": 18323,
+            "end": 18362
+          },
+          {
+            "page": 1,
+            "text": "Platform             \t\t: Windows 2003/XP.",
+            "block_id": "b315",
+            "kind": "text",
+            "start": 18364,
+            "end": 18405
+          },
+          {
+            "page": 1,
+            "text": "Database \t: Oracle 10g.",
+            "block_id": "b316",
+            "kind": "text",
+            "start": 18406,
+            "end": 18429
+          },
+          {
+            "page": 1,
+            "text": "Role                    \t          : Requirement Gathering,Analysis, Coding.",
+            "block_id": "b317",
+            "kind": "text",
+            "start": 18430,
+            "end": 18506
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_35",
+      "name": "Tendering",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [],
+      "raw_text": "Project : Online Tendering",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project : Online Tendering",
+            "block_id": "b318",
+            "kind": "text",
+            "start": 18507,
+            "end": 18533
+          }
+        ]
+      }
+    }
+  ],
+  "gaps": [],
+  "total_work_experience_entries": 2,
+  "total_projects_entries": 35,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "entry e0: 4 ranges; first kept, rest preserved in evidence",
+    "entry e1: 5 ranges; first kept, rest preserved in evidence",
+    "entry e9: dates found without an explicit range"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "4d81df13403f48280902ee3e",
+    "filename": "Rahul Parey.docx",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "vc01304ad16c0846a",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Database : Sql Server",
+        "start": "2005-01",
+        "end": "2008-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Database \t: Sql Server 2005/2008.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Database \t: Sql Server 2005/2008.",
+              "block_id": "b194",
+              "kind": "text",
+              "start": 12739,
+              "end": 12772
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2005/2008",
+              "block_id": "b194",
+              "kind": "text",
+              "start": 12762,
+              "end": 12771
+            },
+            {
+              "page": 1,
+              "text": "2008",
+              "block_id": "b200",
+              "kind": "text",
+              "start": 13047,
+              "end": 13051
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Database \t: Sql Server",
+              "block_id": "b194",
+              "kind": "text",
+              "start": 12739,
+              "end": 12761
+            }
+          ],
+          "title": [],
+          "section": "Professional Experience:",
+          "date_label": "2005/2008",
+          "is_present": false
+        },
+        "date_label": "2005/2008",
+        "section": "Professional Experience:",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v274424e4b819d1f6",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Nihar Info Global Limited",
+        "entry_text": "Organization \t\t\t: Nihar Info Global Limited, Hyderabad. Team Size \t: 4. Environment            \t: Java, servlet,Jsp, Html,JavaScript,Tomcat 5.5,Oracle. Platform             \t\t: Window Server 2003. Database \t: Oracle 10g . Role                    \t          : Requirement Gathering,Analysis, Coding.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Organization \t\t\t: Nihar Info Global Limited, Hyderabad.",
+              "block_id": "b319",
+              "kind": "text",
+              "start": 18534,
+              "end": 18589
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2003",
+              "block_id": "b322",
+              "kind": "text",
+              "start": 18725,
+              "end": 18729
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Nihar Info Global Limited",
+              "block_id": "b319",
+              "kind": "text",
+              "start": 18552,
+              "end": 18577
+            }
+          ],
+          "title": [],
+          "section": "Professional Experience:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Professional Experience:",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "Intake",
+        "client": "Optum(United HealthGroup).",
+        "role": "Project Management & Team Handling, Client Interaction, Requirement Gathering, Component creation, Risk Management , Project tracking , Coordinating with stake holder for Project status etc.",
+        "duration": "",
+        "details": [
+          "Team Size                          : 45",
+          "Environment                       : Java 17 ,JPA,Spring Boot, Spring cloud Technologies, Kafka,AWS.",
+          "Database \t: DB2, Postgre SQL, MongoDB ,kubernetes.",
+          "Annexure #2:"
+        ],
+        "raw_text": "Project : Intelligent Intake",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project : Intelligent Intake",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 5553,
+              "end": 5581
+            },
+            {
+              "page": 1,
+              "text": "Client\t\t\t\t: Optum(United HealthGroup).",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 5582,
+              "end": 5620
+            },
+            {
+              "page": 1,
+              "text": "Team Size                          : 45",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 5621,
+              "end": 5660
+            },
+            {
+              "page": 1,
+              "text": "Environment                       : Java 17 ,JPA,Spring Boot, Spring cloud Technologies, Kafka,AWS.",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 5661,
+              "end": 5760
+            },
+            {
+              "page": 1,
+              "text": "Database \t: DB2, Postgre SQL, MongoDB ,kubernetes.",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 5762,
+              "end": 5812
+            },
+            {
+              "page": 1,
+              "text": "Role                        \t\t: Project Management & Team Handling, Client Interaction, Requirement Gathering, Component creation, Risk Management , Project tracking , Coordinating with stake holder for Project status etc.",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 5813,
+              "end": 6035
+            },
+            {
+              "page": 1,
+              "text": "Annexure #2:",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 6036,
+              "end": 6048
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "PID Application",
+        "client": "PUMA,Germany.",
+        "role": "Project Management & Team Handling, Client Interaction, Requirement Gathering, Component creation, Risk Management , Project tracking , Coordinating with stake holder for Project status etc.",
+        "duration": "",
+        "details": [
+          "Team Size                          : 15",
+          "Environment                       : Java 17 ,JPA,Spring Boot, Spring cloud Technologies, Kafka, AWS.",
+          "Database \t: DB2, Postgre SQL, MongoDB."
+        ],
+        "raw_text": "Project : PUMA - PID Application",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project : PUMA - PID Application",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 6049,
+              "end": 6081
+            },
+            {
+              "page": 1,
+              "text": "Client\t\t\t\t: PUMA,Germany.",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 6082,
+              "end": 6107
+            },
+            {
+              "page": 1,
+              "text": "Team Size                          : 15",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 6108,
+              "end": 6147
+            },
+            {
+              "page": 1,
+              "text": "Environment                       : Java 17 ,JPA,Spring Boot, Spring cloud Technologies, Kafka, AWS.",
+              "block_id": "b60",
+              "kind": "text",
+              "start": 6148,
+              "end": 6248
+            },
+            {
+              "page": 1,
+              "text": "Database \t: DB2, Postgre SQL, MongoDB.",
+              "block_id": "b61",
+              "kind": "text",
+              "start": 6250,
+              "end": 6288
+            },
+            {
+              "page": 1,
+              "text": "Role                        \t\t: Project Management & Team Handling, Client Interaction, Requirement Gathering, Component creation, Risk Management , Project tracking , Coordinating with stake holder for Project status etc.",
+              "block_id": "b62",
+              "kind": "text",
+              "start": 6289,
+              "end": 6511
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_3",
+        "name": "Online Banking",
+        "client": "SVB ,UK.",
+        "role": "Project Management & Team Handling , Client Interaction , Requirement Gathering, Component creation etc.",
+        "duration": "",
+        "details": [
+          "Team Size                          : 10",
+          "Environment                       : Java 11 ,JPA,Spring Boot, Spring cloud Technologies, Kafka,AWS.",
+          "Database \t: Oracle 11g.",
+          "Annexure #3:"
+        ],
+        "raw_text": "Project : SVB - Online Banking",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project : SVB - Online Banking",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 6512,
+              "end": 6542
+            },
+            {
+              "page": 1,
+              "text": "Client\t\t\t\t: SVB ,UK.",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 6543,
+              "end": 6563
+            },
+            {
+              "page": 1,
+              "text": "Team Size                          : 10",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 6564,
+              "end": 6603
+            },
+            {
+              "page": 1,
+              "text": "Environment                       : Java 11 ,JPA,Spring Boot, Spring cloud Technologies, Kafka,AWS.",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 6604,
+              "end": 6703
+            },
+            {
+              "page": 1,
+              "text": "Database \t: Oracle 11g.",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 6705,
+              "end": 6728
+            },
+            {
+              "page": 1,
+              "text": "Role                        \t\t: Project Management & Team Handling , Client Interaction , Requirement Gathering, Component creation etc.",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 6729,
+              "end": 6865
+            },
+            {
+              "page": 1,
+              "text": "Annexure #3:",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 6866,
+              "end": 6878
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_4",
+        "name": "NSE - Parivartan Project",
+        "client": "NSE,India.",
+        "role": "Team Handling , Client Interaction , Requirement Gathering, Component creation etc.",
+        "duration": "",
+        "details": [
+          "Team Size                          : 11",
+          "Environment                       : Java 11 ,JPA,Spring Boot, Spring cloud Technologies.",
+          "Database \t: Oracle 11g.",
+          "Annexure #4:"
+        ],
+        "raw_text": "Project : WIPRO - NSE - Parivartan Project",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project : WIPRO - NSE - Parivartan Project",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 6879,
+              "end": 6921
+            },
+            {
+              "page": 1,
+              "text": "Client\t\t\t\t: NSE,India.",
+              "block_id": "b71",
+              "kind": "text",
+              "start": 6922,
+              "end": 6944
+            },
+            {
+              "page": 1,
+              "text": "Team Size                          : 11",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 6945,
+              "end": 6984
+            },
+            {
+              "page": 1,
+              "text": "Environment                       : Java 11 ,JPA,Spring Boot, Spring cloud Technologies.",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 6985,
+              "end": 7073
+            },
+            {
+              "page": 1,
+              "text": "Database \t: Oracle 11g.",
+              "block_id": "b74",
+              "kind": "text",
+              "start": 7075,
+              "end": 7098
+            },
+            {
+              "page": 1,
+              "text": "Role                        \t\t: Team Handling , Client Interaction , Requirement Gathering, Component creation etc.",
+              "block_id": "b75",
+              "kind": "text",
+              "start": 7099,
+              "end": 7214
+            },
+            {
+              "page": 1,
+              "text": "Annexure #4:",
+              "block_id": "b76",
+              "kind": "text",
+              "start": 7215,
+              "end": 7227
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_5",
+        "name": "(Business Evolution)",
+        "client": "CITI Bank,UK.",
+        "role": "Enhancement Development and documentation.",
+        "duration": "",
+        "details": [
+          "Team Size                          : 5",
+          "Environment                       : Java 8 ,Struts,Hibernate,Spring Boot, Spring cloud Technologies.",
+          "Database \t: Oracle 11g."
+        ],
+        "raw_text": "Project : DelphiBE(Business Evolution)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project : DelphiBE(Business Evolution)",
+              "block_id": "b77",
+              "kind": "text",
+              "start": 7228,
+              "end": 7266
+            },
+            {
+              "page": 1,
+              "text": "Client\t\t\t\t: CITI Bank,UK.",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 7267,
+              "end": 7292
+            },
+            {
+              "page": 1,
+              "text": "Team Size                          : 5",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 7293,
+              "end": 7331
+            },
+            {
+              "page": 1,
+              "text": "Environment                       : Java 8 ,Struts,Hibernate,Spring Boot, Spring cloud Technologies.",
+              "block_id": "b80",
+              "kind": "text",
+              "start": 7332,
+              "end": 7432
+            },
+            {
+              "page": 1,
+              "text": "Database \t: Oracle 11g.",
+              "block_id": "b81",
+              "kind": "text",
+              "start": 7434,
+              "end": 7457
+            },
+            {
+              "page": 1,
+              "text": "Role                        \t\t: Enhancement Development and documentation.",
+              "block_id": "b82",
+              "kind": "text",
+              "start": 7458,
+              "end": 7532
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_6",
+        "name": "(Extensible platform)",
+        "client": "CITI Bank,UK.",
+        "role": "Enhancement Development and documentation.",
+        "duration": "",
+        "details": [
+          "Team Size                          : 4",
+          "Environment                       : Java 8, Websphere ,Struts,Hibernate,Spring Boot.",
+          "Platform             \t\t: RHEL 7.",
+          "Database \t: Oracle 11g."
+        ],
+        "raw_text": "Project : Delphi(Extensible platform)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project : Delphi(Extensible platform)",
+              "block_id": "b83",
+              "kind": "text",
+              "start": 7533,
+              "end": 7570
+            },
+            {
+              "page": 1,
+              "text": "Client\t\t\t\t: CITI Bank,UK.",
+              "block_id": "b84",
+              "kind": "text",
+              "start": 7571,
+              "end": 7596
+            },
+            {
+              "page": 1,
+              "text": "Team Size                          : 4",
+              "block_id": "b85",
+              "kind": "text",
+              "start": 7597,
+              "end": 7635
+            },
+            {
+              "page": 1,
+              "text": "Environment                       : Java 8, Websphere ,Struts,Hibernate,Spring Boot.",
+              "block_id": "b86",
+              "kind": "text",
+              "start": 7636,
+              "end": 7720
+            },
+            {
+              "page": 1,
+              "text": "Platform             \t\t: RHEL 7.",
+              "block_id": "b87",
+              "kind": "text",
+              "start": 7722,
+              "end": 7754
+            },
+            {
+              "page": 1,
+              "text": "Database \t: Oracle 11g.",
+              "block_id": "b88",
+              "kind": "text",
+              "start": 7755,
+              "end": 7778
+            },
+            {
+              "page": 1,
+              "text": "Role                        \t\t: Enhancement Development and documentation.",
+              "block_id": "b89",
+              "kind": "text",
+              "start": 7779,
+              "end": 7853
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_7",
+        "name": "System",
+        "client": "CITI Bank,UK.",
+        "role": "Enhancement Development and documentation.",
+        "duration": "",
+        "details": [
+          "Team Size                          : 2",
+          "Environment                       : Java 8 ,Struts,Hibernate,Spring Boot, Spring cloud Technologies.",
+          "Database \t: Oracle 11g.",
+          "Annexure #5:"
+        ],
+        "raw_text": "Project : Taxminder System",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project : Taxminder System",
+              "block_id": "b90",
+              "kind": "text",
+              "start": 7854,
+              "end": 7880
+            },
+            {
+              "page": 1,
+              "text": "Client\t\t\t\t: CITI Bank,UK.",
+              "block_id": "b91",
+              "kind": "text",
+              "start": 7881,
+              "end": 7906
+            },
+            {
+              "page": 1,
+              "text": "Team Size                          : 2",
+              "block_id": "b92",
+              "kind": "text",
+              "start": 7907,
+              "end": 7945
+            },
+            {
+              "page": 1,
+              "text": "Environment                       : Java 8 ,Struts,Hibernate,Spring Boot, Spring cloud Technologies.",
+              "block_id": "b93",
+              "kind": "text",
+              "start": 7946,
+              "end": 8046
+            },
+            {
+              "page": 1,
+              "text": "Database \t: Oracle 11g.",
+              "block_id": "b94",
+              "kind": "text",
+              "start": 8049,
+              "end": 8072
+            },
+            {
+              "page": 1,
+              "text": "Role                        \t\t: Enhancement Development and documentation.",
+              "block_id": "b95",
+              "kind": "text",
+              "start": 8073,
+              "end": 8147
+            },
+            {
+              "page": 1,
+              "text": "Annexure #5:",
+              "block_id": "b96",
+              "kind": "text",
+              "start": 8148,
+              "end": 8160
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_8",
+        "name": "Deposit",
+        "client": "Nordea ,Finland.",
+        "role": "Requirement analysis ,Development and documentation.",
+        "duration": "",
+        "details": [
+          "Team Size                          : 3",
+          "Environment                       : Java , Vaadin Framework 6.",
+          "Platform             \t\t: Window 7.",
+          "Database \t: Oracle 11g."
+        ],
+        "raw_text": "Project : Safety Deposit",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project : Safety Deposit",
+              "block_id": "b97",
+              "kind": "text",
+              "start": 8161,
+              "end": 8185
+            },
+            {
+              "page": 1,
+              "text": "Client\t\t\t\t: Nordea ,Finland.",
+              "block_id": "b98",
+              "kind": "text",
+              "start": 8186,
+              "end": 8214
+            },
+            {
+              "page": 1,
+              "text": "Team Size                          : 3",
+              "block_id": "b99",
+              "kind": "text",
+              "start": 8215,
+              "end": 8253
+            },
+            {
+              "page": 1,
+              "text": "Environment                       : Java , Vaadin Framework 6.",
+              "block_id": "b100",
+              "kind": "text",
+              "start": 8254,
+              "end": 8316
+            },
+            {
+              "page": 1,
+              "text": "Platform             \t\t: Window 7.",
+              "block_id": "b101",
+              "kind": "text",
+              "start": 8318,
+              "end": 8352
+            },
+            {
+              "page": 1,
+              "text": "Database \t: Oracle 11g.",
+              "block_id": "b102",
+              "kind": "text",
+              "start": 8353,
+              "end": 8376
+            },
+            {
+              "page": 1,
+              "text": "Role                        \t\t: Requirement analysis ,Development and documentation.",
+              "block_id": "b103",
+              "kind": "text",
+              "start": 8377,
+              "end": 8461
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_9",
+        "name": "NIL",
+        "client": "Nordea ,Finland.",
+        "role": "Requirement analysis ,Development,unit Test case and \t\t\t\t\t\t   documentation.",
+        "duration": "",
+        "details": [
+          "Team Size                          : 6",
+          "Environment                       : Java , Hibernate ,Spring.",
+          "Platform             \t\t: Window 7.",
+          "Database \t: Oracle 11g."
+        ],
+        "raw_text": "Project : OTP NIL",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project : OTP NIL",
+              "block_id": "b104",
+              "kind": "text",
+              "start": 8462,
+              "end": 8479
+            },
+            {
+              "page": 1,
+              "text": "Client\t\t\t\t: Nordea ,Finland.",
+              "block_id": "b105",
+              "kind": "text",
+              "start": 8480,
+              "end": 8508
+            },
+            {
+              "page": 1,
+              "text": "Team Size                          : 6",
+              "block_id": "b106",
+              "kind": "text",
+              "start": 8509,
+              "end": 8547
+            },
+            {
+              "page": 1,
+              "text": "Environment                       : Java , Hibernate ,Spring.",
+              "block_id": "b107",
+              "kind": "text",
+              "start": 8548,
+              "end": 8609
+            },
+            {
+              "page": 1,
+              "text": "Platform             \t\t: Window 7.",
+              "block_id": "b108",
+              "kind": "text",
+              "start": 8611,
+              "end": 8645
+            },
+            {
+              "page": 1,
+              "text": "Database \t: Oracle 11g.",
+              "block_id": "b109",
+              "kind": "text",
+              "start": 8646,
+              "end": 8669
+            },
+            {
+              "page": 1,
+              "text": "Role                        \t\t: Requirement analysis ,Development,unit Test case and \t\t\t\t\t\t   documentation.",
+              "block_id": "b110",
+              "kind": "text",
+              "start": 8670,
+              "end": 8778
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_10",
+        "name": "Adapter",
+        "client": "Nordea ,Finland.",
+        "role": "Requirement analysis ,Development,unit Test case and \t\t\t\t\t\t   documentation.",
+        "duration": "",
+        "details": [
+          "Team Size                          : 7",
+          "Environment                       : Java,J2ee.",
+          "Platform             \t\t: Window 7.",
+          "Database \t: Oracle 11g."
+        ],
+        "raw_text": "Project : Legacy Adapter",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project : Legacy Adapter",
+              "block_id": "b111",
+              "kind": "text",
+              "start": 8779,
+              "end": 8803
+            },
+            {
+              "page": 1,
+              "text": "Client\t\t\t\t: Nordea ,Finland.",
+              "block_id": "b112",
+              "kind": "text",
+              "start": 8804,
+              "end": 8832
+            },
+            {
+              "page": 1,
+              "text": "Team Size                          : 7",
+              "block_id": "b113",
+              "kind": "text",
+              "start": 8833,
+              "end": 8871
+            },
+            {
+              "page": 1,
+              "text": "Environment                       : Java,J2ee.",
+              "block_id": "b114",
+              "kind": "text",
+              "start": 8872,
+              "end": 8918
+            },
+            {
+              "page": 1,
+              "text": "Platform             \t\t: Window 7.",
+              "block_id": "b115",
+              "kind": "text",
+              "start": 8920,
+              "end": 8954
+            },
+            {
+              "page": 1,
+              "text": "Database \t: Oracle 11g.",
+              "block_id": "b116",
+              "kind": "text",
+              "start": 8955,
+              "end": 8978
+            },
+            {
+              "page": 1,
+              "text": "Role                        \t\t: Requirement analysis ,Development,unit Test case and \t\t\t\t\t\t   documentation.",
+              "block_id": "b117",
+              "kind": "text",
+              "start": 8979,
+              "end": 9087
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_11",
+        "name": "Holding Reports",
+        "client": "Nordea ,Finland.",
+        "role": "Requirement analysis ,Development,unit Test case and \t\t\t\t\t\t   documentation.",
+        "duration": "",
+        "details": [
+          "Team Size                          : 2",
+          "Environment                       : Java,Spring.",
+          "Platform             \t\t: Window 7.",
+          "Database \t: Oracle 11g."
+        ],
+        "raw_text": "Project : Customer Holding Reports",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project : Customer Holding Reports",
+              "block_id": "b118",
+              "kind": "text",
+              "start": 9088,
+              "end": 9122
+            },
+            {
+              "page": 1,
+              "text": "Client\t\t\t\t: Nordea ,Finland.",
+              "block_id": "b119",
+              "kind": "text",
+              "start": 9123,
+              "end": 9151
+            },
+            {
+              "page": 1,
+              "text": "Team Size                          : 2",
+              "block_id": "b120",
+              "kind": "text",
+              "start": 9152,
+              "end": 9190
+            },
+            {
+              "page": 1,
+              "text": "Environment                       : Java,Spring.",
+              "block_id": "b121",
+              "kind": "text",
+              "start": 9191,
+              "end": 9239
+            },
+            {
+              "page": 1,
+              "text": "Platform             \t\t: Window 7.",
+              "block_id": "b122",
+              "kind": "text",
+              "start": 9241,
+              "end": 9275
+            },
+            {
+              "page": 1,
+              "text": "Database \t: Oracle 11g.",
+              "block_id": "b123",
+              "kind": "text",
+              "start": 9276,
+              "end": 9299
+            },
+            {
+              "page": 1,
+              "text": "Role                        \t\t: Requirement analysis ,Development,unit Test case and \t\t\t\t\t\t   documentation.",
+              "block_id": "b124",
+              "kind": "text",
+              "start": 9300,
+              "end": 9408
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_12",
+        "name": "and SOAP Service",
+        "client": "HBO ,New York.",
+        "role": "Requirement analysis ,Development,unit Test case and \t\t\t\t\t\t   documentation.",
+        "duration": "",
+        "details": [
+          "Team Size                          : 6",
+          "Environment                       : Java , Hibernate ,Spring Data Jpa,Spring boot.",
+          "Platform             \t\t: Window 7.",
+          "Database \t: Oracle 11g."
+        ],
+        "raw_text": "Project : Promo and SOAP Service",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project : Promo and SOAP Service",
+              "block_id": "b125",
+              "kind": "text",
+              "start": 9409,
+              "end": 9441
+            },
+            {
+              "page": 1,
+              "text": "Client\t\t\t\t: HBO ,New York.",
+              "block_id": "b126",
+              "kind": "text",
+              "start": 9442,
+              "end": 9468
+            },
+            {
+              "page": 1,
+              "text": "Team Size                          : 6",
+              "block_id": "b127",
+              "kind": "text",
+              "start": 9469,
+              "end": 9507
+            },
+            {
+              "page": 1,
+              "text": "Environment                       : Java , Hibernate ,Spring Data Jpa,Spring boot.",
+              "block_id": "b128",
+              "kind": "text",
+              "start": 9508,
+              "end": 9590
+            },
+            {
+              "page": 1,
+              "text": "Platform             \t\t: Window 7.",
+              "block_id": "b129",
+              "kind": "text",
+              "start": 9592,
+              "end": 9626
+            },
+            {
+              "page": 1,
+              "text": "Database \t: Oracle 11g.",
+              "block_id": "b130",
+              "kind": "text",
+              "start": 9627,
+              "end": 9650
+            },
+            {
+              "page": 1,
+              "text": "Role                        \t\t: Requirement analysis ,Development,unit Test case and \t\t\t\t\t\t   documentation.",
+              "block_id": "b131",
+              "kind": "text",
+              "start": 9651,
+              "end": 9759
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_13",
+        "name": "(Strategic Planning Of  Original programming)",
+        "client": "HBO ,New York.",
+        "role": "Requirement analysis ,Development,unit Test case.",
+        "duration": "",
+        "details": [
+          "Team Size                          : 3",
+          "Environment                       : Java , Hibernate ,Spring.",
+          "Platform             \t\t: Window 7.",
+          "Database \t: Oracle 11g."
+        ],
+        "raw_text": "Project : SPOP (Strategic Planning Of  Original programming)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project : SPOP (Strategic Planning Of  Original programming)",
+              "block_id": "b132",
+              "kind": "text",
+              "start": 9761,
+              "end": 9821
+            },
+            {
+              "page": 1,
+              "text": "Client\t\t\t\t: HBO ,New York.",
+              "block_id": "b133",
+              "kind": "text",
+              "start": 9822,
+              "end": 9848
+            },
+            {
+              "page": 1,
+              "text": "Team Size                          : 3",
+              "block_id": "b134",
+              "kind": "text",
+              "start": 9849,
+              "end": 9887
+            },
+            {
+              "page": 1,
+              "text": "Environment                       : Java , Hibernate ,Spring.",
+              "block_id": "b135",
+              "kind": "text",
+              "start": 9888,
+              "end": 9949
+            },
+            {
+              "page": 1,
+              "text": "Platform             \t\t: Window 7.",
+              "block_id": "b136",
+              "kind": "text",
+              "start": 9951,
+              "end": 9985
+            },
+            {
+              "page": 1,
+              "text": "Database \t: Oracle 11g.",
+              "block_id": "b137",
+              "kind": "text",
+              "start": 9986,
+              "end": 10009
+            },
+            {
+              "page": 1,
+              "text": "Role                        \t\t: Requirement analysis ,Development,unit Test case.",
+              "block_id": "b138",
+              "kind": "text",
+              "start": 10010,
+              "end": 10091
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_14",
+        "name": "Project Scheduler",
+        "client": "HBO ,New York.",
+        "role": "Requirement analysis ,Development and  documentation.",
+        "duration": "",
+        "details": [
+          "Team Size                          : 9",
+          "Environment                       : Java , Hibernate ,Spring.",
+          "Platform             \t\t: Window 7.",
+          "Database \t: Oracle 11g.",
+          "Annexure #6:"
+        ],
+        "raw_text": "Project : Scheduler",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project : Scheduler",
+              "block_id": "b139",
+              "kind": "text",
+              "start": 10092,
+              "end": 10111
+            },
+            {
+              "page": 1,
+              "text": "Client\t\t\t\t: HBO ,New York.",
+              "block_id": "b140",
+              "kind": "text",
+              "start": 10112,
+              "end": 10138
+            },
+            {
+              "page": 1,
+              "text": "Team Size                          : 9",
+              "block_id": "b141",
+              "kind": "text",
+              "start": 10139,
+              "end": 10177
+            },
+            {
+              "page": 1,
+              "text": "Environment                       : Java , Hibernate ,Spring.",
+              "block_id": "b142",
+              "kind": "text",
+              "start": 10178,
+              "end": 10239
+            },
+            {
+              "page": 1,
+              "text": "Platform             \t\t: Window 7.",
+              "block_id": "b143",
+              "kind": "text",
+              "start": 10241,
+              "end": 10275
+            },
+            {
+              "page": 1,
+              "text": "Database \t: Oracle 11g.",
+              "block_id": "b144",
+              "kind": "text",
+              "start": 10276,
+              "end": 10299
+            },
+            {
+              "page": 1,
+              "text": "Role                        \t\t: Requirement analysis ,Development and  documentation.",
+              "block_id": "b145",
+              "kind": "text",
+              "start": 10300,
+              "end": 10385
+            },
+            {
+              "page": 1,
+              "text": "Annexure #6:",
+              "block_id": "b146",
+              "kind": "text",
+              "start": 10386,
+              "end": 10398
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_15",
+        "name": "Delhi,India – SiteGroupWise Inventory Lookup",
+        "client": "ITC ,Delhi,India.",
+        "role": "Requirement analysis ,Development,unit Test case and \t\t\t\t\t\t  documentation.",
+        "duration": "",
+        "details": [
+          "Team Size                          : 7",
+          "Environment                       : Java , Hibernate,Spring.",
+          "Platform             \t\t: Window 2008.",
+          "Database \t: Sql Server 2012."
+        ],
+        "raw_text": "Project : ITC –Delhi,India – SiteGroupWise Inventory Lookup",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project : ITC –Delhi,India – SiteGroupWise Inventory Lookup",
+              "block_id": "b147",
+              "kind": "text",
+              "start": 10399,
+              "end": 10458
+            },
+            {
+              "page": 1,
+              "text": "Client\t\t\t\t: ITC ,Delhi,India.",
+              "block_id": "b148",
+              "kind": "text",
+              "start": 10459,
+              "end": 10488
+            },
+            {
+              "page": 1,
+              "text": "Team Size                          : 7",
+              "block_id": "b149",
+              "kind": "text",
+              "start": 10489,
+              "end": 10527
+            },
+            {
+              "page": 1,
+              "text": "Environment                       : Java , Hibernate,Spring.",
+              "block_id": "b150",
+              "kind": "text",
+              "start": 10528,
+              "end": 10588
+            },
+            {
+              "page": 1,
+              "text": "Platform             \t\t: Window 2008.",
+              "block_id": "b151",
+              "kind": "text",
+              "start": 10590,
+              "end": 10627
+            },
+            {
+              "page": 1,
+              "text": "Database \t: Sql Server 2012.",
+              "block_id": "b152",
+              "kind": "text",
+              "start": 10628,
+              "end": 10656
+            },
+            {
+              "page": 1,
+              "text": "Role                        \t\t: Requirement analysis ,Development,unit Test case and \t\t\t\t\t\t  documentation.",
+              "block_id": "b153",
+              "kind": "text",
+              "start": 10657,
+              "end": 10764
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_16",
+        "name": "Delhi,India – OutPut Formats",
+        "client": "ITC ,Delhi,India.",
+        "role": "Requirement analysis ,Development,unit Test case and \t\t\t\t\t\t  documentation.",
+        "duration": "",
+        "details": [
+          "Team Size                          : 4",
+          "Environment                       : Java , Hibernate,Spring.",
+          "Platform             \t\t: Window 2008.",
+          "Database \t: Sql Server 2012."
+        ],
+        "raw_text": "Project : ITC –Delhi,India – OutPut Formats",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project : ITC –Delhi,India – OutPut Formats",
+              "block_id": "b154",
+              "kind": "text",
+              "start": 10765,
+              "end": 10808
+            },
+            {
+              "page": 1,
+              "text": "Client\t\t\t\t: ITC ,Delhi,India.",
+              "block_id": "b155",
+              "kind": "text",
+              "start": 10809,
+              "end": 10838
+            },
+            {
+              "page": 1,
+              "text": "Team Size                          : 4",
+              "block_id": "b156",
+              "kind": "text",
+              "start": 10839,
+              "end": 10877
+            },
+            {
+              "page": 1,
+              "text": "Environment                       : Java , Hibernate,Spring.",
+              "block_id": "b157",
+              "kind": "text",
+              "start": 10878,
+              "end": 10938
+            },
+            {
+              "page": 1,
+              "text": "Platform             \t\t: Window 2008.",
+              "block_id": "b158",
+              "kind": "text",
+              "start": 10940,
+              "end": 10977
+            },
+            {
+              "page": 1,
+              "text": "Database \t: Sql Server 2012.",
+              "block_id": "b159",
+              "kind": "text",
+              "start": 10978,
+              "end": 11006
+            },
+            {
+              "page": 1,
+              "text": "Role                        \t\t: Requirement analysis ,Development,unit Test case and \t\t\t\t\t\t  documentation.",
+              "block_id": "b160",
+              "kind": "text",
+              "start": 11007,
+              "end": 11114
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_17",
+        "name": "Delhi,India – Dispatch order",
+        "client": "ITC ,Delhi,India.",
+        "role": "Requirement analysis ,Development,unit Test case and documentation.",
+        "duration": "",
+        "details": [
+          "Team Size                          : 2",
+          "Environment                       : Java , Hibernate ,Spring.",
+          "Platform             \t\t: Window 2008.",
+          "Database \t: Sql Server 2012."
+        ],
+        "raw_text": "Project : ITC –Delhi,India – Dispatch order",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project : ITC –Delhi,India – Dispatch order",
+              "block_id": "b161",
+              "kind": "text",
+              "start": 11115,
+              "end": 11158
+            },
+            {
+              "page": 1,
+              "text": "Client\t\t\t\t: ITC ,Delhi,India.",
+              "block_id": "b162",
+              "kind": "text",
+              "start": 11160,
+              "end": 11189
+            },
+            {
+              "page": 1,
+              "text": "Team Size                          : 2",
+              "block_id": "b163",
+              "kind": "text",
+              "start": 11190,
+              "end": 11228
+            },
+            {
+              "page": 1,
+              "text": "Environment                       : Java , Hibernate ,Spring.",
+              "block_id": "b164",
+              "kind": "text",
+              "start": 11229,
+              "end": 11290
+            },
+            {
+              "page": 1,
+              "text": "Platform             \t\t: Window 2008.",
+              "block_id": "b165",
+              "kind": "text",
+              "start": 11292,
+              "end": 11329
+            },
+            {
+              "page": 1,
+              "text": "Database \t: Sql Server 2012.",
+              "block_id": "b166",
+              "kind": "text",
+              "start": 11330,
+              "end": 11358
+            },
+            {
+              "page": 1,
+              "text": "Role                         : Requirement analysis ,Development,unit Test case and documentation.",
+              "block_id": "b167",
+              "kind": "text",
+              "start": 11359,
+              "end": 11457
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_18",
+        "name": "Delhi,India – Receive order and Franchise Purchase Receipt Modification",
+        "client": "ITC ,Delhi,India.",
+        "role": "Requirement analysis ,Development,unit Test case.",
+        "duration": "",
+        "details": [
+          "Team Size                          : 6",
+          "Environment                       : Java , Hibernate,Spring.",
+          "Platform             \t\t: Window 2008.",
+          "Database \t: Sql Server 2012."
+        ],
+        "raw_text": "Project : ITC –Delhi,India – Receive order and Franchise Purchase Receipt Modification",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project : ITC –Delhi,India – Receive order and Franchise Purchase Receipt Modification",
+              "block_id": "b168",
+              "kind": "text",
+              "start": 11458,
+              "end": 11544
+            },
+            {
+              "page": 1,
+              "text": "Client\t\t\t\t: ITC ,Delhi,India.",
+              "block_id": "b169",
+              "kind": "text",
+              "start": 11545,
+              "end": 11574
+            },
+            {
+              "page": 1,
+              "text": "Team Size                          : 6",
+              "block_id": "b170",
+              "kind": "text",
+              "start": 11575,
+              "end": 11613
+            },
+            {
+              "page": 1,
+              "text": "Environment                       : Java , Hibernate,Spring.",
+              "block_id": "b171",
+              "kind": "text",
+              "start": 11614,
+              "end": 11674
+            },
+            {
+              "page": 1,
+              "text": "Platform             \t\t: Window 2008.",
+              "block_id": "b172",
+              "kind": "text",
+              "start": 11676,
+              "end": 11713
+            },
+            {
+              "page": 1,
+              "text": "Database \t: Sql Server 2012.",
+              "block_id": "b173",
+              "kind": "text",
+              "start": 11714,
+              "end": 11742
+            },
+            {
+              "page": 1,
+              "text": "Role                                      : Requirement analysis ,Development,unit Test case.",
+              "block_id": "b174",
+              "kind": "text",
+              "start": 11743,
+              "end": 11836
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_19",
+        "name": "Delhi,India –Franchise Request,Approval,Return",
+        "client": "ITC ,Delhi,India.",
+        "role": "Documentation ,Coding.",
+        "duration": "",
+        "details": [
+          "Team Size                          : 4",
+          "Environment                       : Java , Hibernate,Spring.",
+          "Platform             \t\t: Window 2008.",
+          "Database \t: Sql Server 2012."
+        ],
+        "raw_text": "Project : ITC –Delhi,India –Franchise Request,Approval,Return",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project : ITC –Delhi,India –Franchise Request,Approval,Return",
+              "block_id": "b175",
+              "kind": "text",
+              "start": 11837,
+              "end": 11898
+            },
+            {
+              "page": 1,
+              "text": "Client\t\t\t\t: ITC ,Delhi,India.",
+              "block_id": "b176",
+              "kind": "text",
+              "start": 11899,
+              "end": 11928
+            },
+            {
+              "page": 1,
+              "text": "Team Size                          : 4",
+              "block_id": "b177",
+              "kind": "text",
+              "start": 11929,
+              "end": 11967
+            },
+            {
+              "page": 1,
+              "text": "Environment                       : Java , Hibernate,Spring.",
+              "block_id": "b178",
+              "kind": "text",
+              "start": 11968,
+              "end": 12028
+            },
+            {
+              "page": 1,
+              "text": "Platform             \t\t: Window 2008.",
+              "block_id": "b179",
+              "kind": "text",
+              "start": 12030,
+              "end": 12067
+            },
+            {
+              "page": 1,
+              "text": "Database \t: Sql Server 2012.",
+              "block_id": "b180",
+              "kind": "text",
+              "start": 12068,
+              "end": 12096
+            },
+            {
+              "page": 1,
+              "text": "Role                    \t          : Documentation ,Coding.",
+              "block_id": "b181",
+              "kind": "text",
+              "start": 12097,
+              "end": 12156
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_20",
+        "name": "Delhi,India –Thank You SMS/Email Notification",
+        "client": "ITC ,Delhi,India.",
+        "role": "Documentation ,Coding.",
+        "duration": "",
+        "details": [
+          "Team Size                          : 5",
+          "Environment                       : Java ,Webservice,Hibernate,Spring.",
+          "Platform             \t\t: Window 2008.",
+          "Database \t: Sql Server 2012."
+        ],
+        "raw_text": "Project : ITC –Delhi,India –Thank You SMS/Email Notification",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project : ITC –Delhi,India –Thank You SMS/Email Notification",
+              "block_id": "b182",
+              "kind": "text",
+              "start": 12157,
+              "end": 12217
+            },
+            {
+              "page": 1,
+              "text": "Client\t\t\t\t: ITC ,Delhi,India.",
+              "block_id": "b183",
+              "kind": "text",
+              "start": 12218,
+              "end": 12247
+            },
+            {
+              "page": 1,
+              "text": "Team Size                          : 5",
+              "block_id": "b184",
+              "kind": "text",
+              "start": 12248,
+              "end": 12286
+            },
+            {
+              "page": 1,
+              "text": "Environment                       : Java ,Webservice,Hibernate,Spring.",
+              "block_id": "b185",
+              "kind": "text",
+              "start": 12287,
+              "end": 12357
+            },
+            {
+              "page": 1,
+              "text": "Platform             \t\t: Window 2008.",
+              "block_id": "b186",
+              "kind": "text",
+              "start": 12359,
+              "end": 12396
+            },
+            {
+              "page": 1,
+              "text": "Database \t: Sql Server 2012.",
+              "block_id": "b187",
+              "kind": "text",
+              "start": 12397,
+              "end": 12425
+            },
+            {
+              "page": 1,
+              "text": "Role                    \t          : Documentation ,Coding.",
+              "block_id": "b188",
+              "kind": "text",
+              "start": 12426,
+              "end": 12485
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_21",
+        "name": "International-UAE –Loyalty Redemption and Discount as Discount",
+        "client": "BMA International ,UAE.",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Team Size                          : 10",
+          "Environment                       : Java, Hibernate,Spring .",
+          "Platform             \t\t: Window 2008."
+        ],
+        "raw_text": "Project : BMA International-UAE –Loyalty Redemption and Discount as Discount",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project : BMA International-UAE –Loyalty Redemption and Discount as Discount",
+              "block_id": "b189",
+              "kind": "text",
+              "start": 12486,
+              "end": 12562
+            },
+            {
+              "page": 1,
+              "text": "Client\t\t\t\t: BMA International ,UAE.",
+              "block_id": "b190",
+              "kind": "text",
+              "start": 12563,
+              "end": 12598
+            },
+            {
+              "page": 1,
+              "text": "Team Size                          : 10",
+              "block_id": "b191",
+              "kind": "text",
+              "start": 12599,
+              "end": 12638
+            },
+            {
+              "page": 1,
+              "text": "Environment                       : Java, Hibernate,Spring .",
+              "block_id": "b192",
+              "kind": "text",
+              "start": 12639,
+              "end": 12699
+            },
+            {
+              "page": 1,
+              "text": "Platform             \t\t: Window 2008.",
+              "block_id": "b193",
+              "kind": "text",
+              "start": 12701,
+              "end": 12738
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_22",
+        "name": "Clothing Inc(CCI) –Stock Take",
+        "client": "CCI, Philippines.",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Team Size                          : 4",
+          "Environment                       : Java ,Hibernate,Spring.",
+          "Platform             \t\t: Window 2008."
+        ],
+        "raw_text": "Project : California Clothing Inc(CCI) –Stock Take",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project : California Clothing Inc(CCI) –Stock Take",
+              "block_id": "b196",
+              "kind": "text",
+              "start": 12833,
+              "end": 12883
+            },
+            {
+              "page": 1,
+              "text": "Client\t\t\t\t: CCI, Philippines.",
+              "block_id": "b197",
+              "kind": "text",
+              "start": 12885,
+              "end": 12914
+            },
+            {
+              "page": 1,
+              "text": "Team Size                          : 4",
+              "block_id": "b198",
+              "kind": "text",
+              "start": 12915,
+              "end": 12953
+            },
+            {
+              "page": 1,
+              "text": "Environment                       : Java ,Hibernate,Spring.",
+              "block_id": "b199",
+              "kind": "text",
+              "start": 12954,
+              "end": 13013
+            },
+            {
+              "page": 1,
+              "text": "Platform             \t\t: Window 2008.",
+              "block_id": "b200",
+              "kind": "text",
+              "start": 13015,
+              "end": 13052
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_23",
+        "name": "Currency Delimiter",
+        "client": "Trikomsel(OKE), Indonesia.",
+        "role": "Documentation ,Coding.",
+        "duration": "",
+        "details": [
+          "Team Size                          : 1",
+          "Environment                       : Java ,Jasper Report,Hibernate.",
+          "Platform             \t\t: Window 2008.",
+          "Database \t: Sql Server 2012."
+        ],
+        "raw_text": "Project : Trikomsel –Currency Delimiter",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project : Trikomsel –Currency Delimiter",
+              "block_id": "b203",
+              "kind": "text",
+              "start": 13161,
+              "end": 13200
+            },
+            {
+              "page": 1,
+              "text": "Client\t\t\t\t: Trikomsel(OKE), Indonesia.",
+              "block_id": "b204",
+              "kind": "text",
+              "start": 13201,
+              "end": 13239
+            },
+            {
+              "page": 1,
+              "text": "Team Size                          : 1",
+              "block_id": "b205",
+              "kind": "text",
+              "start": 13240,
+              "end": 13278
+            },
+            {
+              "page": 1,
+              "text": "Environment                       : Java ,Jasper Report,Hibernate.",
+              "block_id": "b206",
+              "kind": "text",
+              "start": 13279,
+              "end": 13345
+            },
+            {
+              "page": 1,
+              "text": "Platform             \t\t: Window 2008.",
+              "block_id": "b207",
+              "kind": "text",
+              "start": 13347,
+              "end": 13384
+            },
+            {
+              "page": 1,
+              "text": "Database \t: Sql Server 2012.",
+              "block_id": "b208",
+              "kind": "text",
+              "start": 13385,
+              "end": 13413
+            },
+            {
+              "page": 1,
+              "text": "Role                    \t          : Documentation ,Coding.",
+              "block_id": "b209",
+              "kind": "text",
+              "start": 13414,
+              "end": 13473
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_24",
+        "name": "ECR Integration",
+        "client": "Trikomsel(OKE), Indonesia.",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Team Size                          : 2",
+          "Environment                       : Java ,Jasper Report,Hibernate.",
+          "Platform             \t\t: Window 2008."
+        ],
+        "raw_text": "Project : Trikomsel –ECR Integration",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project : Trikomsel –ECR Integration",
+              "block_id": "b210",
+              "kind": "text",
+              "start": 13474,
+              "end": 13510
+            },
+            {
+              "page": 1,
+              "text": "Client\t\t\t\t: Trikomsel(OKE), Indonesia.",
+              "block_id": "b211",
+              "kind": "text",
+              "start": 13511,
+              "end": 13549
+            },
+            {
+              "page": 1,
+              "text": "Team Size                          : 2",
+              "block_id": "b212",
+              "kind": "text",
+              "start": 13550,
+              "end": 13588
+            },
+            {
+              "page": 1,
+              "text": "Environment                       : Java ,Jasper Report,Hibernate.",
+              "block_id": "b213",
+              "kind": "text",
+              "start": 13589,
+              "end": 13655
+            },
+            {
+              "page": 1,
+              "text": "Platform             \t\t: Window 2008.",
+              "block_id": "b214",
+              "kind": "text",
+              "start": 13657,
+              "end": 13694
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_25",
+        "name": "Store Front(KPI(Key Performance Indicator))",
+        "client": "Valiram Group, Indonesia.",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Team Size                          : 2",
+          "Environment                       : Java ,Jasper Report,Hibernate.",
+          "Platform             \t\t: Window 2008."
+        ],
+        "raw_text": "Project : Valiram –Store Front(KPI(Key Performance Indicator))",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project : Valiram –Store Front(KPI(Key Performance Indicator))",
+              "block_id": "b218",
+              "kind": "text",
+              "start": 13826,
+              "end": 13888
+            },
+            {
+              "page": 1,
+              "text": "Client\t\t\t\t: Valiram Group, Indonesia.",
+              "block_id": "b219",
+              "kind": "text",
+              "start": 13889,
+              "end": 13926
+            },
+            {
+              "page": 1,
+              "text": "Team Size                          : 2",
+              "block_id": "b220",
+              "kind": "text",
+              "start": 13927,
+              "end": 13965
+            },
+            {
+              "page": 1,
+              "text": "Environment                       : Java ,Jasper Report,Hibernate.",
+              "block_id": "b221",
+              "kind": "text",
+              "start": 13966,
+              "end": 14032
+            },
+            {
+              "page": 1,
+              "text": "Platform             \t\t: Window 2008.",
+              "block_id": "b222",
+              "kind": "text",
+              "start": 14034,
+              "end": 14071
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_26",
+        "name": "Store Front(Concurrency)",
+        "client": "IKEA, UAE.",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Team Size                          : 4",
+          "Environment                       : Java ,Jasper Report,Hibernate.",
+          "Platform             \t\t: Window 2008."
+        ],
+        "raw_text": "Project : IKEA –Store Front(Concurrency)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project : IKEA –Store Front(Concurrency)",
+              "block_id": "b226",
+              "kind": "text",
+              "start": 14203,
+              "end": 14243
+            },
+            {
+              "page": 1,
+              "text": "Client\t\t\t\t: IKEA, UAE.",
+              "block_id": "b227",
+              "kind": "text",
+              "start": 14244,
+              "end": 14266
+            },
+            {
+              "page": 1,
+              "text": "Team Size                          : 4",
+              "block_id": "b228",
+              "kind": "text",
+              "start": 14267,
+              "end": 14305
+            },
+            {
+              "page": 1,
+              "text": "Environment                       : Java ,Jasper Report,Hibernate.",
+              "block_id": "b229",
+              "kind": "text",
+              "start": 14306,
+              "end": 14372
+            },
+            {
+              "page": 1,
+              "text": "Platform             \t\t: Window 2008.",
+              "block_id": "b230",
+              "kind": "text",
+              "start": 14374,
+              "end": 14411
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_27",
+        "name": "Operation/Store Front(Value Added Tax)-Delhi",
+        "client": "HotSpot(Spice).",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Team Size                          : 2",
+          "Environment                       : Java, Jasper Report.",
+          "Platform             \t\t: Window 2008."
+        ],
+        "raw_text": "Project : Store Operation/Store Front(Value Added Tax)-Delhi",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project : Store Operation/Store Front(Value Added Tax)-Delhi",
+              "block_id": "b234",
+              "kind": "text",
+              "start": 14543,
+              "end": 14603
+            },
+            {
+              "page": 1,
+              "text": "Client\t\t\t\t: HotSpot(Spice).",
+              "block_id": "b235",
+              "kind": "text",
+              "start": 14604,
+              "end": 14631
+            },
+            {
+              "page": 1,
+              "text": "Team Size                          : 2",
+              "block_id": "b236",
+              "kind": "text",
+              "start": 14632,
+              "end": 14670
+            },
+            {
+              "page": 1,
+              "text": "Environment                       : Java, Jasper Report.",
+              "block_id": "b237",
+              "kind": "text",
+              "start": 14671,
+              "end": 14727
+            },
+            {
+              "page": 1,
+              "text": "Platform             \t\t: Window 2008.",
+              "block_id": "b238",
+              "kind": "text",
+              "start": 14729,
+              "end": 14766
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_28",
+        "name": "Integration",
+        "client": "MAP( Mitra Adiperkasa)Indonesia.",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Team Size                          : 4",
+          "Environment                       : Java,Jsp,Servlet,JBoss 4.0/6.0,xml,Hibernate.",
+          "Platform             \t\t: Window 2008."
+        ],
+        "raw_text": "Project : SAP-EAS Integration",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project : SAP-EAS Integration",
+              "block_id": "b242",
+              "kind": "text",
+              "start": 14898,
+              "end": 14927
+            },
+            {
+              "page": 1,
+              "text": "Client\t\t\t\t: MAP( Mitra Adiperkasa)Indonesia.",
+              "block_id": "b243",
+              "kind": "text",
+              "start": 14928,
+              "end": 14972
+            },
+            {
+              "page": 1,
+              "text": "Team Size                          : 4",
+              "block_id": "b244",
+              "kind": "text",
+              "start": 14973,
+              "end": 15011
+            },
+            {
+              "page": 1,
+              "text": "Environment                       : Java,Jsp,Servlet,JBoss 4.0/6.0,xml,Hibernate.",
+              "block_id": "b245",
+              "kind": "text",
+              "start": 15012,
+              "end": 15093
+            },
+            {
+              "page": 1,
+              "text": "Platform             \t\t: Window 2008.",
+              "block_id": "b246",
+              "kind": "text",
+              "start": 15095,
+              "end": 15132
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_29",
+        "name": "Project Reconciliation",
+        "client": "Dhanlaxmi Bank.",
+        "role": "Information gathering and Requirement",
+        "duration": "",
+        "details": [
+          "Team Size                          : 3",
+          "Environment                       : Hibernate,Java, JSP,Servlet.",
+          "Websphere 6.1, Jasperreport.",
+          "Platform             \t\t: Window 2008.",
+          "Database \t: Oracle 10g.",
+          "Analysis, Coding."
+        ],
+        "raw_text": "Project : Reconciliation",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project : Reconciliation",
+              "block_id": "b251",
+              "kind": "text",
+              "start": 15277,
+              "end": 15301
+            },
+            {
+              "page": 1,
+              "text": "Client\t\t\t\t: Dhanlaxmi Bank.",
+              "block_id": "b252",
+              "kind": "text",
+              "start": 15302,
+              "end": 15329
+            },
+            {
+              "page": 1,
+              "text": "Team Size                          : 3",
+              "block_id": "b253",
+              "kind": "text",
+              "start": 15330,
+              "end": 15368
+            },
+            {
+              "page": 1,
+              "text": "Environment                       : Hibernate,Java, JSP,Servlet.",
+              "block_id": "b254",
+              "kind": "text",
+              "start": 15369,
+              "end": 15433
+            },
+            {
+              "page": 1,
+              "text": "Websphere 6.1, Jasperreport.",
+              "block_id": "b255",
+              "kind": "text",
+              "start": 15477,
+              "end": 15505
+            },
+            {
+              "page": 1,
+              "text": "Platform             \t\t: Window 2008.",
+              "block_id": "b256",
+              "kind": "text",
+              "start": 15507,
+              "end": 15544
+            },
+            {
+              "page": 1,
+              "text": "Database \t: Oracle 10g.",
+              "block_id": "b257",
+              "kind": "text",
+              "start": 15545,
+              "end": 15568
+            },
+            {
+              "page": 1,
+              "text": "Role                    \t          : Information gathering and Requirement",
+              "block_id": "b258",
+              "kind": "text",
+              "start": 15569,
+              "end": 15643
+            },
+            {
+              "page": 1,
+              "text": "Analysis, Coding.",
+              "block_id": "b259",
+              "kind": "text",
+              "start": 15648,
+              "end": 15665
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_30",
+        "name": "Finance",
+        "client": "Dhanlaxmi Bank.",
+        "role": "Information gathering and Requirement",
+        "duration": "",
+        "details": [
+          "Team Size                          : 2",
+          "Environment                       : Hibernate, JSP,Servlet,XML",
+          "Websphere 6.1, Jasperreport.",
+          "Platform             \t\t: Window 2008.",
+          "Database \t: Oracle 10g.",
+          "Analysis, Coding."
+        ],
+        "raw_text": "Project : Trade Finance",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project : Trade Finance",
+              "block_id": "b260",
+              "kind": "text",
+              "start": 15666,
+              "end": 15689
+            },
+            {
+              "page": 1,
+              "text": "Client\t\t\t\t: Dhanlaxmi Bank.",
+              "block_id": "b261",
+              "kind": "text",
+              "start": 15690,
+              "end": 15717
+            },
+            {
+              "page": 1,
+              "text": "Team Size                          : 2",
+              "block_id": "b262",
+              "kind": "text",
+              "start": 15718,
+              "end": 15756
+            },
+            {
+              "page": 1,
+              "text": "Environment                       : Hibernate, JSP,Servlet,XML",
+              "block_id": "b263",
+              "kind": "text",
+              "start": 15757,
+              "end": 15819
+            },
+            {
+              "page": 1,
+              "text": "Websphere 6.1, Jasperreport.",
+              "block_id": "b264",
+              "kind": "text",
+              "start": 15863,
+              "end": 15891
+            },
+            {
+              "page": 1,
+              "text": "Platform             \t\t: Window 2008.",
+              "block_id": "b265",
+              "kind": "text",
+              "start": 15893,
+              "end": 15930
+            },
+            {
+              "page": 1,
+              "text": "Database \t: Oracle 10g.",
+              "block_id": "b266",
+              "kind": "text",
+              "start": 15931,
+              "end": 15954
+            },
+            {
+              "page": 1,
+              "text": "Role                    \t          : Information gathering and Requirement",
+              "block_id": "b267",
+              "kind": "text",
+              "start": 15955,
+              "end": 16029
+            },
+            {
+              "page": 1,
+              "text": "Analysis, Coding.",
+              "block_id": "b268",
+              "kind": "text",
+              "start": 16034,
+              "end": 16051
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_31",
+        "name": "System.",
+        "client": "Dhanlaxmi Bank.",
+        "role": "Information gathering and Requirement",
+        "duration": "",
+        "details": [
+          "Team Size                          : 4",
+          "Environment                       : Hibernate, Servlet,JSP,XML,",
+          "Websphere 6.1,  Jasperreport.",
+          "Platform             \t\t: Window 2008.",
+          "Database \t: Oracle 10g,Sql Server 2005.",
+          "Analysis, Coding."
+        ],
+        "raw_text": "Project : CBS-CTS-Clearing System.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project : CBS-CTS-Clearing System.",
+              "block_id": "b269",
+              "kind": "text",
+              "start": 16052,
+              "end": 16086
+            },
+            {
+              "page": 1,
+              "text": "Client\t\t\t\t: Dhanlaxmi Bank.",
+              "block_id": "b270",
+              "kind": "text",
+              "start": 16087,
+              "end": 16114
+            },
+            {
+              "page": 1,
+              "text": "Team Size                          : 4",
+              "block_id": "b271",
+              "kind": "text",
+              "start": 16115,
+              "end": 16153
+            },
+            {
+              "page": 1,
+              "text": "Environment                       : Hibernate, Servlet,JSP,XML,",
+              "block_id": "b272",
+              "kind": "text",
+              "start": 16154,
+              "end": 16217
+            },
+            {
+              "page": 1,
+              "text": "Websphere 6.1,  Jasperreport.",
+              "block_id": "b273",
+              "kind": "text",
+              "start": 16261,
+              "end": 16290
+            },
+            {
+              "page": 1,
+              "text": "Platform             \t\t: Window 2008.",
+              "block_id": "b274",
+              "kind": "text",
+              "start": 16292,
+              "end": 16329
+            },
+            {
+              "page": 1,
+              "text": "Database \t: Oracle 10g,Sql Server 2005.",
+              "block_id": "b275",
+              "kind": "text",
+              "start": 16330,
+              "end": 16369
+            },
+            {
+              "page": 1,
+              "text": "Role                    \t          :  Information gathering and Requirement",
+              "block_id": "b276",
+              "kind": "text",
+              "start": 16370,
+              "end": 16445
+            },
+            {
+              "page": 1,
+              "text": "Analysis, Coding.",
+              "block_id": "b277",
+              "kind": "text",
+              "start": 16450,
+              "end": 16467
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_32",
+        "name": "Prasadam Dispatch.",
+        "client": "Dhanlaxmi Bank.",
+        "role": "Information gathering and Requirement",
+        "duration": "",
+        "details": [
+          "Team Size                          : 6",
+          "Environment                       : Hibernate, JSP,Servlet",
+          "Websphere 6.1, Jasperreport ,Ajax.",
+          "Platform             \t\t: Window 2008.",
+          "Database \t: Oracle 10g.",
+          "Analysis, Coding.",
+          "Annexure #8:",
+          "Projec: Vodafone Smart Reports",
+          "Client\t\t\t\t: Vodafone Essar Ltd, Andheri (E) Mumbai.",
+          "Team Size                          : 3",
+          "Environment                       : JDBC, JSP",
+          "Apache Tomcat Server 6.0, Jasperreport.",
+          "Platform             \t\t: UNIX and Window 2000.",
+          "Database \t: Oracle 10g.",
+          "Role                    \t          : Information gathering and Requirement analysis",
+          "Changes in user interface, Modification",
+          "Migration, maintenance Analysis,",
+          "Coding."
+        ],
+        "raw_text": "Project : Sabarimala Prasadam Dispatch.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project : Sabarimala Prasadam Dispatch.",
+              "block_id": "b278",
+              "kind": "text",
+              "start": 16468,
+              "end": 16507
+            },
+            {
+              "page": 1,
+              "text": "Client\t\t\t\t: Dhanlaxmi Bank.",
+              "block_id": "b279",
+              "kind": "text",
+              "start": 16508,
+              "end": 16535
+            },
+            {
+              "page": 1,
+              "text": "Team Size                          : 6",
+              "block_id": "b280",
+              "kind": "text",
+              "start": 16536,
+              "end": 16574
+            },
+            {
+              "page": 1,
+              "text": "Environment                       : Hibernate, JSP,Servlet",
+              "block_id": "b281",
+              "kind": "text",
+              "start": 16575,
+              "end": 16633
+            },
+            {
+              "page": 1,
+              "text": "Websphere 6.1, Jasperreport ,Ajax.",
+              "block_id": "b282",
+              "kind": "text",
+              "start": 16677,
+              "end": 16711
+            },
+            {
+              "page": 1,
+              "text": "Platform             \t\t: Window 2008.",
+              "block_id": "b283",
+              "kind": "text",
+              "start": 16713,
+              "end": 16750
+            },
+            {
+              "page": 1,
+              "text": "Database \t: Oracle 10g.",
+              "block_id": "b284",
+              "kind": "text",
+              "start": 16751,
+              "end": 16774
+            },
+            {
+              "page": 1,
+              "text": "Role                    \t          : Information gathering and Requirement",
+              "block_id": "b285",
+              "kind": "text",
+              "start": 16775,
+              "end": 16849
+            },
+            {
+              "page": 1,
+              "text": "Analysis, Coding.",
+              "block_id": "b286",
+              "kind": "text",
+              "start": 16854,
+              "end": 16871
+            },
+            {
+              "page": 1,
+              "text": "Annexure #8:",
+              "block_id": "b287",
+              "kind": "text",
+              "start": 16872,
+              "end": 16884
+            },
+            {
+              "page": 1,
+              "text": "Projec: Vodafone Smart Reports",
+              "block_id": "b288",
+              "kind": "text",
+              "start": 16885,
+              "end": 16915
+            },
+            {
+              "page": 1,
+              "text": "Client\t\t\t\t: Vodafone Essar Ltd, Andheri (E) Mumbai.",
+              "block_id": "b289",
+              "kind": "text",
+              "start": 16916,
+              "end": 16967
+            },
+            {
+              "page": 1,
+              "text": "Team Size                          : 3",
+              "block_id": "b290",
+              "kind": "text",
+              "start": 16968,
+              "end": 17006
+            },
+            {
+              "page": 1,
+              "text": "Environment                       : JDBC, JSP",
+              "block_id": "b291",
+              "kind": "text",
+              "start": 17007,
+              "end": 17052
+            },
+            {
+              "page": 1,
+              "text": "Apache Tomcat Server 6.0, Jasperreport.",
+              "block_id": "b292",
+              "kind": "text",
+              "start": 17096,
+              "end": 17135
+            },
+            {
+              "page": 1,
+              "text": "Platform             \t\t: UNIX and Window 2000.",
+              "block_id": "b293",
+              "kind": "text",
+              "start": 17137,
+              "end": 17183
+            },
+            {
+              "page": 1,
+              "text": "Database \t: Oracle 10g.",
+              "block_id": "b294",
+              "kind": "text",
+              "start": 17184,
+              "end": 17207
+            },
+            {
+              "page": 1,
+              "text": "Role                    \t          : Information gathering and Requirement analysis",
+              "block_id": "b295",
+              "kind": "text",
+              "start": 17208,
+              "end": 17291
+            },
+            {
+              "page": 1,
+              "text": "Changes in user interface, Modification",
+              "block_id": "b296",
+              "kind": "text",
+              "start": 17342,
+              "end": 17381
+            },
+            {
+              "page": 1,
+              "text": "Migration, maintenance Analysis,",
+              "block_id": "b297",
+              "kind": "text",
+              "start": 17425,
+              "end": 17457
+            },
+            {
+              "page": 1,
+              "text": "Coding.",
+              "block_id": "b298",
+              "kind": "text",
+              "start": 17506,
+              "end": 17513
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_33",
+        "name": "Application",
+        "client": "Vodafone Essar Ltd, Andheri (E) Mumbai.",
+        "role": "Analysis, Coding,Changes in user interface, Modification",
+        "duration": "",
+        "details": [
+          "Team Size                          : 2",
+          "Environment            \t: Servlet, JSP, Oracle 10g,",
+          "Apache Tomcat Server 6.0, Jasperreport.",
+          "Platform             \t\t: UNIX and Windows 2003.",
+          "Database \t: Oracle 10g.",
+          "Migration, maintenance Analysis.",
+          "Annexure #9:"
+        ],
+        "raw_text": "Project : SMS Application",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project : SMS Application",
+              "block_id": "b299",
+              "kind": "text",
+              "start": 17514,
+              "end": 17539
+            },
+            {
+              "page": 1,
+              "text": "Client\t\t\t\t: Vodafone Essar Ltd, Andheri (E) Mumbai.",
+              "block_id": "b300",
+              "kind": "text",
+              "start": 17541,
+              "end": 17592
+            },
+            {
+              "page": 1,
+              "text": "Team Size                          : 2",
+              "block_id": "b301",
+              "kind": "text",
+              "start": 17594,
+              "end": 17632
+            },
+            {
+              "page": 1,
+              "text": "Environment            \t: Servlet, JSP, Oracle 10g,",
+              "block_id": "b302",
+              "kind": "text",
+              "start": 17633,
+              "end": 17684
+            },
+            {
+              "page": 1,
+              "text": "Apache Tomcat Server 6.0, Jasperreport.",
+              "block_id": "b303",
+              "kind": "text",
+              "start": 17729,
+              "end": 17768
+            },
+            {
+              "page": 1,
+              "text": "Platform             \t\t: UNIX and Windows 2003.",
+              "block_id": "b304",
+              "kind": "text",
+              "start": 17770,
+              "end": 17817
+            },
+            {
+              "page": 1,
+              "text": "Database \t: Oracle 10g.",
+              "block_id": "b305",
+              "kind": "text",
+              "start": 17818,
+              "end": 17841
+            },
+            {
+              "page": 1,
+              "text": "Role                    \t          : Analysis, Coding,Changes in user interface, Modification",
+              "block_id": "b306",
+              "kind": "text",
+              "start": 17842,
+              "end": 17935
+            },
+            {
+              "page": 1,
+              "text": "Migration, maintenance Analysis.",
+              "block_id": "b307",
+              "kind": "text",
+              "start": 17981,
+              "end": 18013
+            },
+            {
+              "page": 1,
+              "text": "Annexure #9:",
+              "block_id": "b308",
+              "kind": "text",
+              "start": 18057,
+              "end": 18069
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_34",
+        "name": "(Material Management System)",
+        "client": "Paradip Port Trust, Orissa.",
+        "role": "Requirement Gathering,Analysis, Coding.",
+        "duration": "",
+        "details": [
+          "Organization \t\t\t: Nihar Info Global Limited, Hyderabad.",
+          "Team Size \t: 5.",
+          "Environnent            \t: Servlet ,Jsp, Oracle 10g,",
+          "Apache Tomcat Server 6.0, Jasperreport.",
+          "Platform             \t\t: Windows 2003/XP.",
+          "Database \t: Oracle 10g."
+        ],
+        "raw_text": "Project : MMS (Material Management System)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project : MMS (Material Management System)",
+              "block_id": "b309",
+              "kind": "text",
+              "start": 18070,
+              "end": 18112
+            },
+            {
+              "page": 1,
+              "text": "Client\t\t\t\t: Paradip Port Trust, Orissa.",
+              "block_id": "b310",
+              "kind": "text",
+              "start": 18114,
+              "end": 18153
+            },
+            {
+              "page": 1,
+              "text": "Organization \t\t\t: Nihar Info Global Limited, Hyderabad.",
+              "block_id": "b311",
+              "kind": "text",
+              "start": 18155,
+              "end": 18210
+            },
+            {
+              "page": 1,
+              "text": "Team Size \t: 5.",
+              "block_id": "b312",
+              "kind": "text",
+              "start": 18211,
+              "end": 18226
+            },
+            {
+              "page": 1,
+              "text": "Environnent            \t: Servlet ,Jsp, Oracle 10g,",
+              "block_id": "b313",
+              "kind": "text",
+              "start": 18227,
+              "end": 18278
+            },
+            {
+              "page": 1,
+              "text": "Apache Tomcat Server 6.0, Jasperreport.",
+              "block_id": "b314",
+              "kind": "text",
+              "start": 18323,
+              "end": 18362
+            },
+            {
+              "page": 1,
+              "text": "Platform             \t\t: Windows 2003/XP.",
+              "block_id": "b315",
+              "kind": "text",
+              "start": 18364,
+              "end": 18405
+            },
+            {
+              "page": 1,
+              "text": "Database \t: Oracle 10g.",
+              "block_id": "b316",
+              "kind": "text",
+              "start": 18406,
+              "end": 18429
+            },
+            {
+              "page": 1,
+              "text": "Role                    \t          : Requirement Gathering,Analysis, Coding.",
+              "block_id": "b317",
+              "kind": "text",
+              "start": 18430,
+              "end": 18506
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_35",
+        "name": "Tendering",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [],
+        "raw_text": "Project : Online Tendering",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project : Online Tendering",
+              "block_id": "b318",
+              "kind": "text",
+              "start": 18507,
+              "end": 18533
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "v274424e4b819d1f6"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 2,
+      "dated_share": 0.5,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.765,
+      "ocr_pages": []
+    },
+    "total_represented_months": 48,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

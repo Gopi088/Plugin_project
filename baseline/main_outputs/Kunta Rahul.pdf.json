@@ -1,0 +1,413 @@
+{
+  "file_name": "Kunta Rahul.pdf",
+  "input_mode": "original_document",
+  "input_sha256": "96b27ab215f9b7ead8cbadde4e426634b8f646aee53e2ddd02707ecca93c371e",
+  "doc_id": "96b27ab215f9b7ead8cbadde",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 2,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.765,
+    "ocr_pages": []
+  },
+  "work_experience": [],
+  "education": [
+    {
+      "id": "v5b9ea636255db09e",
+      "type": "EDUCATION",
+      "company": "",
+      "title": "Diploma in Electrical & Electronics Engineering",
+      "start_date": "2015-01",
+      "end_date": "2018-12",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765,
+      "source": {
+        "entry": [
+          {
+            "page": 2,
+            "text": "• Diploma in Electrical & Electronics Engineering – 78.6% (2015–2018)",
+            "block_id": "b48",
+            "kind": "pdf",
+            "page_width": 595.32,
+            "page_height": 841.92,
+            "bbox": [
+              45.24,
+              322.01,
+              369.96760000000006,
+              334.00999999999993
+            ],
+            "fragment_text": "• Diploma in Electrical & Electronics Engineering – 78.6% (2015–2018)"
+          }
+        ],
+        "dates": [
+          {
+            "page": 2,
+            "text": "2015–2018",
+            "block_id": "b48",
+            "kind": "pdf",
+            "page_width": 595.32,
+            "page_height": 841.92,
+            "bbox": [
+              316.70132,
+              323.62159999999994,
+              366.69076,
+              333.5816
+            ],
+            "fragment_text": "2015–2018"
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 2,
+            "text": "Diploma in Electrical & Electronics Engineering",
+            "block_id": "b48",
+            "kind": "pdf",
+            "page_width": 595.32,
+            "page_height": 841.92,
+            "bbox": [
+              63.264,
+              323.62159999999994,
+              270.8403599999999,
+              333.5816
+            ],
+            "fragment_text": "Diploma in Electrical & Electronics Engineering"
+          }
+        ],
+        "section": "EDUCATION",
+        "date_label": "2015–2018",
+        "is_present": false
+      }
+    },
+    {
+      "id": "vf74523a9d14c2209",
+      "type": "EDUCATION",
+      "company": "",
+      "title": "B.Tech in Electrical & Electronics Engineering",
+      "start_date": "2018-01",
+      "end_date": "2021-12",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765,
+      "source": {
+        "entry": [
+          {
+            "page": 2,
+            "text": "• B.Tech in Electrical & Electronics Engineering – 7.21 CGPA (2018–2021)",
+            "block_id": "b47",
+            "kind": "pdf",
+            "page_width": 595.32,
+            "page_height": 841.92,
+            "bbox": [
+              45.24,
+              300.53,
+              384.86752000000007,
+              312.53
+            ],
+            "fragment_text": "• B.Tech in Electrical & Electronics Engineering – 7.21 CGPA (2018–2021)"
+          }
+        ],
+        "dates": [
+          {
+            "page": 2,
+            "text": "2018–2021",
+            "block_id": "b47",
+            "kind": "pdf",
+            "page_width": 595.32,
+            "page_height": 841.92,
+            "bbox": [
+              331.55756,
+              302.14160000000004,
+              381.55084,
+              312.10159999999996
+            ],
+            "fragment_text": "2018–2021"
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 2,
+            "text": "B.Tech in Electrical & Electronics Engineering",
+            "block_id": "b47",
+            "kind": "pdf",
+            "page_width": 595.32,
+            "page_height": 841.92,
+            "bbox": [
+              63.264,
+              302.14160000000004,
+              264.83447999999987,
+              312.10159999999996
+            ],
+            "fragment_text": "B.Tech in Electrical & Electronics Engineering"
+          }
+        ],
+        "section": "EDUCATION",
+        "date_label": "2018–2021",
+        "is_present": false
+      }
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 0,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "overlap preserved: 'Diploma in Electrical & Electronics Engineering' overlaps 'B.Tech in Electrical & Electronics Engineering'"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "96b27ab215f9b7ead8cbadde",
+    "filename": "Kunta Rahul.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v5b9ea636255db09e",
+        "type": "EDUCATION",
+        "title": "Diploma in Electrical & Electronics Engineering",
+        "org": "",
+        "start": "2015-01",
+        "end": "2018-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "• Diploma in Electrical & Electronics Engineering – 78.6% (2015–2018)",
+        "source": {
+          "entry": [
+            {
+              "page": 2,
+              "text": "• Diploma in Electrical & Electronics Engineering – 78.6% (2015–2018)",
+              "block_id": "b48",
+              "kind": "pdf",
+              "page_width": 595.32,
+              "page_height": 841.92,
+              "bbox": [
+                45.24,
+                322.01,
+                369.96760000000006,
+                334.00999999999993
+              ],
+              "fragment_text": "• Diploma in Electrical & Electronics Engineering – 78.6% (2015–2018)"
+            }
+          ],
+          "dates": [
+            {
+              "page": 2,
+              "text": "2015–2018",
+              "block_id": "b48",
+              "kind": "pdf",
+              "page_width": 595.32,
+              "page_height": 841.92,
+              "bbox": [
+                316.70132,
+                323.62159999999994,
+                366.69076,
+                333.5816
+              ],
+              "fragment_text": "2015–2018"
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 2,
+              "text": "Diploma in Electrical & Electronics Engineering",
+              "block_id": "b48",
+              "kind": "pdf",
+              "page_width": 595.32,
+              "page_height": 841.92,
+              "bbox": [
+                63.264,
+                323.62159999999994,
+                270.8403599999999,
+                333.5816
+              ],
+              "fragment_text": "Diploma in Electrical & Electronics Engineering"
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2015–2018",
+          "is_present": false
+        },
+        "date_label": "2015–2018",
+        "section": "EDUCATION",
+        "is_present": false
+      },
+      {
+        "id": "vf74523a9d14c2209",
+        "type": "EDUCATION",
+        "title": "B.Tech in Electrical & Electronics Engineering",
+        "org": "",
+        "start": "2018-01",
+        "end": "2021-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "• B.Tech in Electrical & Electronics Engineering – 7.21 CGPA (2018–2021)",
+        "source": {
+          "entry": [
+            {
+              "page": 2,
+              "text": "• B.Tech in Electrical & Electronics Engineering – 7.21 CGPA (2018–2021)",
+              "block_id": "b47",
+              "kind": "pdf",
+              "page_width": 595.32,
+              "page_height": 841.92,
+              "bbox": [
+                45.24,
+                300.53,
+                384.86752000000007,
+                312.53
+              ],
+              "fragment_text": "• B.Tech in Electrical & Electronics Engineering – 7.21 CGPA (2018–2021)"
+            }
+          ],
+          "dates": [
+            {
+              "page": 2,
+              "text": "2018–2021",
+              "block_id": "b47",
+              "kind": "pdf",
+              "page_width": 595.32,
+              "page_height": 841.92,
+              "bbox": [
+                331.55756,
+                302.14160000000004,
+                381.55084,
+                312.10159999999996
+              ],
+              "fragment_text": "2018–2021"
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 2,
+              "text": "B.Tech in Electrical & Electronics Engineering",
+              "block_id": "b47",
+              "kind": "pdf",
+              "page_width": 595.32,
+              "page_height": 841.92,
+              "bbox": [
+                63.264,
+                302.14160000000004,
+                264.83447999999987,
+                312.10159999999996
+              ],
+              "fragment_text": "B.Tech in Electrical & Electronics Engineering"
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2018–2021",
+          "is_present": false
+        },
+        "date_label": "2018–2021",
+        "section": "EDUCATION",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [],
+        "evidence": {
+          "note": "year-only dates need verification"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 2,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.765,
+      "ocr_pages": []
+    },
+    "total_represented_months": 84,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

@@ -1,0 +1,1223 @@
+{
+  "file_name": "ShubhamParashar.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "d70830253b1259cb43683dfab2b4f88eb8f6013e4d59f0e0af1e0bc488d8baac",
+  "doc_id": "d70830253b1259cb43683dfa",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 4,
+    "dated_share": 0.5,
+    "unresolved": 2,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.811,
+    "document_accuracy": 0.81
+  },
+  "work_experience": [
+    {
+      "id": "vc54594e6716ab3b9",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Software Engineer @ T rianz",
+      "start_date": "2023-08",
+      "end_date": "2026-09",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Software Engineer @ T rianz August 2023 - Present",
+            "block_id": "b23",
+            "kind": "text",
+            "start": 1633,
+            "end": 1682
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "August 2023 - Present",
+            "block_id": "b23",
+            "kind": "text",
+            "start": 1661,
+            "end": 1682
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Software Engineer @ T rianz",
+            "block_id": "b23",
+            "kind": "text",
+            "start": 1633,
+            "end": 1660
+          }
+        ],
+        "section": "EXPERIENCE",
+        "date_label": "August 2023 - Present",
+        "is_present": true
+      },
+      "precision": "month",
+      "date_label": "August 2023 - Present"
+    }
+  ],
+  "education": [
+    {
+      "id": "vb8140f4007a21e7d",
+      "type": "EDUCATION",
+      "company": "Maulana Azad National Institute of T echnology",
+      "title": "Bachelor of Technology in Mechanical Engineering CGPA: 7.97",
+      "start_date": "2019-01",
+      "end_date": "2023-12",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.722,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Maulana Azad National Institute of T echnology , Bhopal, India 2019 - 2023",
+            "block_id": "b10",
+            "kind": "text",
+            "start": 730,
+            "end": 804
+          },
+          {
+            "page": 1,
+            "text": "Bachelor of Technology in Mechanical Engineering CGPA: 7.97",
+            "block_id": "b11",
+            "kind": "text",
+            "start": 805,
+            "end": 864
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2019 - 2023",
+            "block_id": "b10",
+            "kind": "text",
+            "start": 793,
+            "end": 804
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Maulana Azad National Institute of T echnology",
+            "block_id": "b10",
+            "kind": "text",
+            "start": 730,
+            "end": 776
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Bachelor of Technology in Mechanical Engineering CGPA: 7.97",
+            "block_id": "b11",
+            "kind": "text",
+            "start": 805,
+            "end": 864
+          }
+        ],
+        "section": "Maulana Azad National Institute of T echnology , Bhopal, India 2019 - 2023",
+        "date_label": "2019 - 2023",
+        "is_present": false
+      },
+      "precision": "year",
+      "date_label": "2019 - 2023"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "Cognito, and Azure AD SSO.",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Cognito, and Azure AD SSO.",
+        "• Designed scalable access-control workflows and federated authentication systems supporting secure multi-agency collaboration and",
+        "compliance requirements.",
+        "• Owned architecture planning, sprint execution, stakeholder communication, and production delivery lifecycle."
+      ],
+      "raw_text": "Cognito, and Azure AD SSO.\n• Designed scalable access-control workflows and federated authentication systems supporting secure multi-agency collaboration and\ncompliance requirements.\n• Owned architecture planning, sprint execution, stakeholder communication, and production delivery lifecycle.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Cognito, and Azure AD SSO.",
+            "block_id": "b41",
+            "kind": "text",
+            "start": 3327,
+            "end": 3353
+          },
+          {
+            "page": 1,
+            "text": "• Designed scalable access-control workflows and federated authentication systems supporting secure multi-agency collaboration and",
+            "block_id": "b42",
+            "kind": "text",
+            "start": 3354,
+            "end": 3484
+          },
+          {
+            "page": 1,
+            "text": "compliance requirements.",
+            "block_id": "b43",
+            "kind": "text",
+            "start": 3485,
+            "end": 3509
+          },
+          {
+            "page": 1,
+            "text": "• Owned architecture planning, sprint execution, stakeholder communication, and production delivery lifecycle.",
+            "block_id": "b44",
+            "kind": "text",
+            "start": 3510,
+            "end": 3620
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_2",
+      "name": "ACHIVEMENTS",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "ACHIVEMENTS",
+        "• Built a scalable full-stack recruitment platform using React, Node.js, and TypeScript featuring automated resume analysis, real-time",
+        "interview evaluation, and intelligent candidate matching.",
+        "• Developed responsive frontend interfaces and backend APIs supporting concurrent recruiter workflows and low-latency candidate",
+        "processing."
+      ],
+      "raw_text": "ACHIVEMENTS\n• Built a scalable full-stack recruitment platform using React, Node.js, and TypeScript featuring automated resume analysis, real-time\ninterview evaluation, and intelligent candidate matching.\n• Developed responsive frontend interfaces and backend APIs supporting concurrent recruiter workflows and low-latency candidate\nprocessing.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "ACHIVEMENTS",
+            "block_id": "b45",
+            "kind": "text",
+            "start": 3621,
+            "end": 3632
+          },
+          {
+            "page": 1,
+            "text": "• Built a scalable full-stack recruitment platform using React, Node.js, and TypeScript featuring automated resume analysis, real-time",
+            "block_id": "b46",
+            "kind": "text",
+            "start": 3633,
+            "end": 3767
+          },
+          {
+            "page": 1,
+            "text": "interview evaluation, and intelligent candidate matching.",
+            "block_id": "b47",
+            "kind": "text",
+            "start": 3768,
+            "end": 3825
+          },
+          {
+            "page": 1,
+            "text": "• Developed responsive frontend interfaces and backend APIs supporting concurrent recruiter workflows and low-latency candidate",
+            "block_id": "b48",
+            "kind": "text",
+            "start": 3826,
+            "end": 3953
+          },
+          {
+            "page": 1,
+            "text": "processing.",
+            "block_id": "b49",
+            "kind": "text",
+            "start": 3954,
+            "end": 3965
+          }
+        ]
+      }
+    }
+  ],
+  "gaps": [],
+  "total_work_experience_entries": 1,
+  "total_projects_entries": 2,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "overlap preserved: 'Bachelor of Technology in Mechanical Engineering CGPA: 7.97' overlaps 'Software Engineer @ T rianz'"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "d70830253b1259cb43683dfa",
+    "filename": "ShubhamParashar.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "vb8140f4007a21e7d",
+        "type": "EDUCATION",
+        "title": "Bachelor of Technology in Mechanical Engineering CGPA: 7.97",
+        "org": "Maulana Azad National Institute of T echnology",
+        "start": "2019-01",
+        "end": "2023-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.722,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "Maulana Azad National Institute of T echnology , Bhopal, India 2019 - 2023\nBachelor of Technology in Mechanical Engineering CGPA: 7.97",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Maulana Azad National Institute of T echnology , Bhopal, India 2019 - 2023",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 730,
+              "end": 804
+            },
+            {
+              "page": 1,
+              "text": "Bachelor of Technology in Mechanical Engineering CGPA: 7.97",
+              "block_id": "b11",
+              "kind": "text",
+              "start": 805,
+              "end": 864
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2019 - 2023",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 793,
+              "end": 804
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Maulana Azad National Institute of T echnology",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 730,
+              "end": 776
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Technology in Mechanical Engineering CGPA: 7.97",
+              "block_id": "b11",
+              "kind": "text",
+              "start": 805,
+              "end": 864
+            }
+          ],
+          "section": "Maulana Azad National Institute of T echnology , Bhopal, India 2019 - 2023",
+          "date_label": "2019 - 2023",
+          "is_present": false
+        },
+        "date_label": "2019 - 2023",
+        "section": "Maulana Azad National Institute of T echnology , Bhopal, India 2019 - 2023",
+        "is_present": false
+      },
+      {
+        "id": "vc54594e6716ab3b9",
+        "type": "EMPLOYMENT",
+        "title": "Software Engineer @ T rianz",
+        "org": "",
+        "start": "2023-08",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Software Engineer @ T rianz August 2023 - Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Software Engineer @ T rianz August 2023 - Present",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 1633,
+              "end": 1682
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "August 2023 - Present",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 1661,
+              "end": 1682
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Software Engineer @ T rianz",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 1633,
+              "end": 1660
+            }
+          ],
+          "section": "EXPERIENCE",
+          "date_label": "August 2023 - Present",
+          "is_present": true
+        },
+        "date_label": "August 2023 - Present",
+        "section": "EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v607729bde336fbb1",
+        "type": "PROJECT",
+        "title": "Cognito, and Azure AD SSO.",
+        "org": "",
+        "entry_text": "Cognito, and Azure AD SSO. • Designed scalable access-control workflows and federated authentication systems supporting secure multi-agency collaboration and compliance requirements. • Owned architecture planning, sprint execution, stakeholder communication, and production delivery lifecycle.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Cognito, and Azure AD SSO.",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 3327,
+              "end": 3353
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Cognito, and Azure AD SSO",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 3327,
+              "end": 3352
+            }
+          ],
+          "section": "PROJECTS",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROJECTS",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v023c158ae58bc409",
+        "type": "PROJECT",
+        "title": "ACHIVEMENTS",
+        "org": "",
+        "entry_text": "ACHIVEMENTS • Built a scalable full-stack recruitment platform using React, Node.js, and TypeScript featuring automated resume analysis, real-time interview evaluation, and intelligent candidate matching. • Developed responsive frontend interfaces and backend APIs supporting concurrent recruiter wor",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "ACHIVEMENTS",
+              "block_id": "b45",
+              "kind": "text",
+              "start": 3621,
+              "end": 3632
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "ACHIVEMENTS",
+              "block_id": "b45",
+              "kind": "text",
+              "start": 3621,
+              "end": 3632
+            }
+          ],
+          "section": "PROJECTS",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROJECTS",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "Cognito, and Azure AD SSO.",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Cognito, and Azure AD SSO.",
+          "• Designed scalable access-control workflows and federated authentication systems supporting secure multi-agency collaboration and",
+          "compliance requirements.",
+          "• Owned architecture planning, sprint execution, stakeholder communication, and production delivery lifecycle."
+        ],
+        "raw_text": "Cognito, and Azure AD SSO.\n• Designed scalable access-control workflows and federated authentication systems supporting secure multi-agency collaboration and\ncompliance requirements.\n• Owned architecture planning, sprint execution, stakeholder communication, and production delivery lifecycle.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Cognito, and Azure AD SSO.",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 3327,
+              "end": 3353
+            },
+            {
+              "page": 1,
+              "text": "• Designed scalable access-control workflows and federated authentication systems supporting secure multi-agency collaboration and",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 3354,
+              "end": 3484
+            },
+            {
+              "page": 1,
+              "text": "compliance requirements.",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 3485,
+              "end": 3509
+            },
+            {
+              "page": 1,
+              "text": "• Owned architecture planning, sprint execution, stakeholder communication, and production delivery lifecycle.",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 3510,
+              "end": 3620
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "ACHIVEMENTS",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "ACHIVEMENTS",
+          "• Built a scalable full-stack recruitment platform using React, Node.js, and TypeScript featuring automated resume analysis, real-time",
+          "interview evaluation, and intelligent candidate matching.",
+          "• Developed responsive frontend interfaces and backend APIs supporting concurrent recruiter workflows and low-latency candidate",
+          "processing."
+        ],
+        "raw_text": "ACHIVEMENTS\n• Built a scalable full-stack recruitment platform using React, Node.js, and TypeScript featuring automated resume analysis, real-time\ninterview evaluation, and intelligent candidate matching.\n• Developed responsive frontend interfaces and backend APIs supporting concurrent recruiter workflows and low-latency candidate\nprocessing.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "ACHIVEMENTS",
+              "block_id": "b45",
+              "kind": "text",
+              "start": 3621,
+              "end": 3632
+            },
+            {
+              "page": 1,
+              "text": "• Built a scalable full-stack recruitment platform using React, Node.js, and TypeScript featuring automated resume analysis, real-time",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 3633,
+              "end": 3767
+            },
+            {
+              "page": 1,
+              "text": "interview evaluation, and intelligent candidate matching.",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 3768,
+              "end": 3825
+            },
+            {
+              "page": 1,
+              "text": "• Developed responsive frontend interfaces and backend APIs supporting concurrent recruiter workflows and low-latency candidate",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 3826,
+              "end": 3953
+            },
+            {
+              "page": 1,
+              "text": "processing.",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 3954,
+              "end": 3965
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [],
+        "evidence": {
+          "note": "year-only dates need verification"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 4,
+      "dated_share": 0.5,
+      "unresolved": 2,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.811,
+      "document_accuracy": 0.81
+    },
+    "total_represented_months": 93,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": true,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 1,
+          "represented_months": 38,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 1,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "vc54594e6716ab3b9",
+              "label": "Software Engineer @ T rianz",
+              "state": "month_range",
+              "start": [
+                2023,
+                8
+              ],
+              "end": [
+                2026,
+                9
+              ],
+              "months": 38,
+              "raw": "August 2023 - Present",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Software Engineer @ T rianz August 2023 - Present",
+                    "block_id": "b23",
+                    "kind": "text",
+                    "start": 1633,
+                    "end": 1682
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "August 2023 - Present",
+                    "block_id": "b23",
+                    "kind": "text",
+                    "start": 1661,
+                    "end": 1682
+                  }
+                ],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Software Engineer @ T rianz",
+                    "block_id": "b23",
+                    "kind": "text",
+                    "start": 1633,
+                    "end": 1660
+                  }
+                ],
+                "section": "EXPERIENCE",
+                "date_label": "August 2023 - Present",
+                "is_present": true
+              }
+            }
+          ]
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 2,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 2,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "proj_1",
+              "label": "Cognito, and Azure AD SSO.",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Cognito, and Azure AD SSO.",
+                    "block_id": "b41",
+                    "kind": "text",
+                    "start": 3327,
+                    "end": 3353
+                  },
+                  {
+                    "page": 1,
+                    "text": "• Designed scalable access-control workflows and federated authentication systems supporting secure multi-agency collaboration and",
+                    "block_id": "b42",
+                    "kind": "text",
+                    "start": 3354,
+                    "end": 3484
+                  },
+                  {
+                    "page": 1,
+                    "text": "compliance requirements.",
+                    "block_id": "b43",
+                    "kind": "text",
+                    "start": 3485,
+                    "end": 3509
+                  },
+                  {
+                    "page": 1,
+                    "text": "• Owned architecture planning, sprint execution, stakeholder communication, and production delivery lifecycle.",
+                    "block_id": "b44",
+                    "kind": "text",
+                    "start": 3510,
+                    "end": 3620
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_2",
+              "label": "ACHIVEMENTS",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "ACHIVEMENTS",
+                    "block_id": "b45",
+                    "kind": "text",
+                    "start": 3621,
+                    "end": 3632
+                  },
+                  {
+                    "page": 1,
+                    "text": "• Built a scalable full-stack recruitment platform using React, Node.js, and TypeScript featuring automated resume analysis, real-time",
+                    "block_id": "b46",
+                    "kind": "text",
+                    "start": 3633,
+                    "end": 3767
+                  },
+                  {
+                    "page": 1,
+                    "text": "interview evaluation, and intelligent candidate matching.",
+                    "block_id": "b47",
+                    "kind": "text",
+                    "start": 3768,
+                    "end": 3825
+                  },
+                  {
+                    "page": 1,
+                    "text": "• Developed responsive frontend interfaces and backend APIs supporting concurrent recruiter workflows and low-latency candidate",
+                    "block_id": "b48",
+                    "kind": "text",
+                    "start": 3826,
+                    "end": 3953
+                  },
+                  {
+                    "page": 1,
+                    "text": "processing.",
+                    "block_id": "b49",
+                    "kind": "text",
+                    "start": 3954,
+                    "end": 3965
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 1,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 1,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "vb8140f4007a21e7d",
+              "label": "Bachelor of Technology in Mechanical Engineering CGPA: 7.97",
+              "state": "year_range",
+              "start": [
+                2019,
+                1
+              ],
+              "end": [
+                2023,
+                12
+              ],
+              "months": null,
+              "raw": "2019 - 2023",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Maulana Azad National Institute of T echnology , Bhopal, India 2019 - 2023",
+                    "block_id": "b10",
+                    "kind": "text",
+                    "start": 730,
+                    "end": 804
+                  },
+                  {
+                    "page": 1,
+                    "text": "Bachelor of Technology in Mechanical Engineering CGPA: 7.97",
+                    "block_id": "b11",
+                    "kind": "text",
+                    "start": 805,
+                    "end": 864
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "2019 - 2023",
+                    "block_id": "b10",
+                    "kind": "text",
+                    "start": 793,
+                    "end": 804
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Maulana Azad National Institute of T echnology",
+                    "block_id": "b10",
+                    "kind": "text",
+                    "start": 730,
+                    "end": 776
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Bachelor of Technology in Mechanical Engineering CGPA: 7.97",
+                    "block_id": "b11",
+                    "kind": "text",
+                    "start": 805,
+                    "end": 864
+                  }
+                ],
+                "section": "Maulana Azad National Institute of T echnology , Bhopal, India 2019 - 2023",
+                "date_label": "2019 - 2023",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 38,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": true,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 1,
+        "represented_months": 38,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 1,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "vc54594e6716ab3b9",
+            "label": "Software Engineer @ T rianz",
+            "state": "month_range",
+            "start": [
+              2023,
+              8
+            ],
+            "end": [
+              2026,
+              9
+            ],
+            "months": 38,
+            "raw": "August 2023 - Present",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Software Engineer @ T rianz August 2023 - Present",
+                  "block_id": "b23",
+                  "kind": "text",
+                  "start": 1633,
+                  "end": 1682
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "August 2023 - Present",
+                  "block_id": "b23",
+                  "kind": "text",
+                  "start": 1661,
+                  "end": 1682
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Software Engineer @ T rianz",
+                  "block_id": "b23",
+                  "kind": "text",
+                  "start": 1633,
+                  "end": 1660
+                }
+              ],
+              "section": "EXPERIENCE",
+              "date_label": "August 2023 - Present",
+              "is_present": true
+            }
+          }
+        ]
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 2,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 2,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "proj_1",
+            "label": "Cognito, and Azure AD SSO.",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Cognito, and Azure AD SSO.",
+                  "block_id": "b41",
+                  "kind": "text",
+                  "start": 3327,
+                  "end": 3353
+                },
+                {
+                  "page": 1,
+                  "text": "• Designed scalable access-control workflows and federated authentication systems supporting secure multi-agency collaboration and",
+                  "block_id": "b42",
+                  "kind": "text",
+                  "start": 3354,
+                  "end": 3484
+                },
+                {
+                  "page": 1,
+                  "text": "compliance requirements.",
+                  "block_id": "b43",
+                  "kind": "text",
+                  "start": 3485,
+                  "end": 3509
+                },
+                {
+                  "page": 1,
+                  "text": "• Owned architecture planning, sprint execution, stakeholder communication, and production delivery lifecycle.",
+                  "block_id": "b44",
+                  "kind": "text",
+                  "start": 3510,
+                  "end": 3620
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_2",
+            "label": "ACHIVEMENTS",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "ACHIVEMENTS",
+                  "block_id": "b45",
+                  "kind": "text",
+                  "start": 3621,
+                  "end": 3632
+                },
+                {
+                  "page": 1,
+                  "text": "• Built a scalable full-stack recruitment platform using React, Node.js, and TypeScript featuring automated resume analysis, real-time",
+                  "block_id": "b46",
+                  "kind": "text",
+                  "start": 3633,
+                  "end": 3767
+                },
+                {
+                  "page": 1,
+                  "text": "interview evaluation, and intelligent candidate matching.",
+                  "block_id": "b47",
+                  "kind": "text",
+                  "start": 3768,
+                  "end": 3825
+                },
+                {
+                  "page": 1,
+                  "text": "• Developed responsive frontend interfaces and backend APIs supporting concurrent recruiter workflows and low-latency candidate",
+                  "block_id": "b48",
+                  "kind": "text",
+                  "start": 3826,
+                  "end": 3953
+                },
+                {
+                  "page": 1,
+                  "text": "processing.",
+                  "block_id": "b49",
+                  "kind": "text",
+                  "start": 3954,
+                  "end": 3965
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 1,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 1,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "vb8140f4007a21e7d",
+            "label": "Bachelor of Technology in Mechanical Engineering CGPA: 7.97",
+            "state": "year_range",
+            "start": [
+              2019,
+              1
+            ],
+            "end": [
+              2023,
+              12
+            ],
+            "months": null,
+            "raw": "2019 - 2023",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Maulana Azad National Institute of T echnology , Bhopal, India 2019 - 2023",
+                  "block_id": "b10",
+                  "kind": "text",
+                  "start": 730,
+                  "end": 804
+                },
+                {
+                  "page": 1,
+                  "text": "Bachelor of Technology in Mechanical Engineering CGPA: 7.97",
+                  "block_id": "b11",
+                  "kind": "text",
+                  "start": 805,
+                  "end": 864
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "2019 - 2023",
+                  "block_id": "b10",
+                  "kind": "text",
+                  "start": 793,
+                  "end": 804
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Maulana Azad National Institute of T echnology",
+                  "block_id": "b10",
+                  "kind": "text",
+                  "start": 730,
+                  "end": 776
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Bachelor of Technology in Mechanical Engineering CGPA: 7.97",
+                  "block_id": "b11",
+                  "kind": "text",
+                  "start": 805,
+                  "end": 864
+                }
+              ],
+              "section": "Maulana Azad National Institute of T echnology , Bhopal, India 2019 - 2023",
+              "date_label": "2019 - 2023",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 38,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

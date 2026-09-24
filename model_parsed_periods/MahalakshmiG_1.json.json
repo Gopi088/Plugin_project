@@ -1,0 +1,1330 @@
+{
+  "file_name": "MahalakshmiG_1.docx",
+  "input_mode": "text_snapshot",
+  "input_sha256": "5cb67128ccd34363e287c80cb60af374354fef4fa5d32e3c9669bcd1e93c7b29",
+  "doc_id": "5cb67128ccd34363e287c80c",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 5,
+    "dated_share": 0.2,
+    "unresolved": 4,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [],
+  "education": [
+    {
+      "id": "veae0b0257666a0d5",
+      "type": "EDUCATION",
+      "company": "AI/ML • Post Graduate University of Texas",
+      "title": "Computer Science • B.E",
+      "start_date": "2011-01",
+      "end_date": "2015-01",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "AI/ML • Post Graduate University of Texas",
+            "block_id": "b61",
+            "kind": "text",
+            "start": 5241,
+            "end": 5282
+          },
+          {
+            "page": 1,
+            "text": "Computer Science • B.E",
+            "block_id": "b63",
+            "kind": "text",
+            "start": 5302,
+            "end": 5324
+          },
+          {
+            "page": 1,
+            "text": "Park College of Engineering and Technology, Anna University",
+            "block_id": "b64",
+            "kind": "text",
+            "start": 5325,
+            "end": 5384
+          },
+          {
+            "page": 1,
+            "text": "Jan 2011 - Jan 2015",
+            "block_id": "b65",
+            "kind": "text",
+            "start": 5385,
+            "end": 5404
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Jan 2011 - Jan 2015",
+            "block_id": "b65",
+            "kind": "text",
+            "start": 5385,
+            "end": 5404
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "AI/ML • Post Graduate University of Texas",
+            "block_id": "b61",
+            "kind": "text",
+            "start": 5241,
+            "end": 5282
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Computer Science • B.E",
+            "block_id": "b63",
+            "kind": "text",
+            "start": 5302,
+            "end": 5324
+          }
+        ],
+        "section": "Education",
+        "date_label": "Jan 2011 - Jan 2015",
+        "is_present": false
+      },
+      "precision": "month",
+      "date_label": "Jan 2011 - Jan 2015"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "Flipkart AI/ML Automation Pipelines",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Flipkart AI/ML Automation Pipelines",
+        "Designed and implemented ML-based automation pipelines to optimize repetitive workflows, reducing manual effort and improving accuracy."
+      ],
+      "raw_text": "Flipkart AI/ML Automation Pipelines\nDesigned and implemented ML-based automation pipelines to optimize repetitive workflows, reducing manual effort and improving accuracy.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Flipkart AI/ML Automation Pipelines",
+            "block_id": "b49",
+            "kind": "text",
+            "start": 3838,
+            "end": 3873
+          },
+          {
+            "page": 1,
+            "text": "Designed and implemented ML-based automation pipelines to optimize repetitive workflows, reducing manual effort and improving accuracy.",
+            "block_id": "b50",
+            "kind": "text",
+            "start": 3875,
+            "end": 4010
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_2",
+      "name": "Applied NLP techniques for text extraction and classification of unstructured business data, enhancing decision-making speed.",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Applied NLP techniques for text extraction and classification of unstructured business data, enhancing decision-making speed.",
+        "Leveraged supervised learning models for anomaly detection and forecasting within key operational processes.",
+        "Coordinated with cross-functional client teams to ensure smooth adoption of AI/ML solutions and provided knowledge transfer sessions for sustainable use."
+      ],
+      "raw_text": "Applied NLP techniques for text extraction and classification of unstructured business data, enhancing decision-making speed.\nLeveraged supervised learning models for anomaly detection and forecasting within key operational processes.\nCoordinated with cross-functional client teams to ensure smooth adoption of AI/ML solutions and provided knowledge transfer sessions for sustainable use.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Applied NLP techniques for text extraction and classification of unstructured business data, enhancing decision-making speed.",
+            "block_id": "b51",
+            "kind": "text",
+            "start": 4012,
+            "end": 4137
+          },
+          {
+            "page": 1,
+            "text": "Leveraged supervised learning models for anomaly detection and forecasting within key operational processes.",
+            "block_id": "b52",
+            "kind": "text",
+            "start": 4139,
+            "end": 4247
+          },
+          {
+            "page": 1,
+            "text": "Coordinated with cross-functional client teams to ensure smooth adoption of AI/ML solutions and provided knowledge transfer sessions for sustainable use.",
+            "block_id": "b53",
+            "kind": "text",
+            "start": 4249,
+            "end": 4402
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_3",
+      "name": "RMG",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "RMG",
+        "Created a master dataset by integrating 7 diverse data sources, enhancing data completeness and improving model accuracy by 20%"
+      ],
+      "raw_text": "RMG\nCreated a master dataset by integrating 7 diverse data sources, enhancing data completeness and improving model accuracy by 20%",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "RMG",
+            "block_id": "b54",
+            "kind": "text",
+            "start": 4403,
+            "end": 4406
+          },
+          {
+            "page": 1,
+            "text": "Created a master dataset by integrating 7 diverse data sources, enhancing data completeness and improving model accuracy by 20%",
+            "block_id": "b55",
+            "kind": "text",
+            "start": 4407,
+            "end": 4534
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_4",
+      "name": "Employed various classification models and utilized different metrics, achieving overall model accuracy of 88%.",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Employed various classification models and utilized different metrics, achieving overall model accuracy of 88%.",
+        "Developed a generic function for data preprocessing and wrangling, including data profiling, cleaning, and outlier treatment, streamlining the data preparation process and reducing preparation time by 40%.",
+        "Built a multipurpose Triage AI agent for a stock brokerage firm using MCP, enabling Retrieval-Augmented Generation (RAG) on text and images, and natural language text-to-SQL queries.",
+        "Developed an Agentic HR Workflow with LangGraph, building a scalable HR automation pipeline to handle queries on hiring, holidays, and leave policies, easily integrable with existing systems."
+      ],
+      "raw_text": "Employed various classification models and utilized different metrics, achieving overall model accuracy of 88%.\nDeveloped a generic function for data preprocessing and wrangling, including data profiling, cleaning, and outlier treatment, streamlining the data preparation process and reducing preparation time by 40%.\nBuilt a multipurpose Triage AI agent for a stock brokerage firm using MCP, enabling Retrieval-Augmented Generation (RAG) on text and images, and natural language text-to-SQL queries.\nDeveloped an Agentic HR Workflow with LangGraph, building a scalable HR automation pipeline to hand",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Employed various classification models and utilized different metrics, achieving overall model accuracy of 88%.",
+            "block_id": "b56",
+            "kind": "text",
+            "start": 4535,
+            "end": 4646
+          },
+          {
+            "page": 1,
+            "text": "Developed a generic function for data preprocessing and wrangling, including data profiling, cleaning, and outlier treatment, streamlining the data preparation process and reducing preparation time by 40%.",
+            "block_id": "b57",
+            "kind": "text",
+            "start": 4647,
+            "end": 4852
+          },
+          {
+            "page": 1,
+            "text": "Built a multipurpose Triage AI agent for a stock brokerage firm using MCP, enabling Retrieval-Augmented Generation (RAG) on text and images, and natural language text-to-SQL queries.",
+            "block_id": "b58",
+            "kind": "text",
+            "start": 4855,
+            "end": 5037
+          },
+          {
+            "page": 1,
+            "text": "Developed an Agentic HR Workflow with LangGraph, building a scalable HR automation pipeline to handle queries on hiring, holidays, and leave policies, easily integrable with existing systems.",
+            "block_id": "b59",
+            "kind": "text",
+            "start": 5039,
+            "end": 5230
+          }
+        ]
+      }
+    }
+  ],
+  "gaps": [],
+  "total_work_experience_entries": 0,
+  "total_projects_entries": 4,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [],
+  "raw_pipeline_dto": {
+    "doc_id": "5cb67128ccd34363e287c80c",
+    "filename": "MahalakshmiG_1.docx",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "veae0b0257666a0d5",
+        "type": "EDUCATION",
+        "title": "Computer Science • B.E",
+        "org": "AI/ML • Post Graduate University of Texas",
+        "start": "2011-01",
+        "end": "2015-01",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "AI/ML • Post Graduate University of Texas\nComputer Science • B.E\nPark College of Engineering and Technology, Anna University\nJan 2011 - Jan 2015",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "AI/ML • Post Graduate University of Texas",
+              "block_id": "b61",
+              "kind": "text",
+              "start": 5241,
+              "end": 5282
+            },
+            {
+              "page": 1,
+              "text": "Computer Science • B.E",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 5302,
+              "end": 5324
+            },
+            {
+              "page": 1,
+              "text": "Park College of Engineering and Technology, Anna University",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 5325,
+              "end": 5384
+            },
+            {
+              "page": 1,
+              "text": "Jan 2011 - Jan 2015",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 5385,
+              "end": 5404
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jan 2011 - Jan 2015",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 5385,
+              "end": 5404
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "AI/ML • Post Graduate University of Texas",
+              "block_id": "b61",
+              "kind": "text",
+              "start": 5241,
+              "end": 5282
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Computer Science • B.E",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 5302,
+              "end": 5324
+            }
+          ],
+          "section": "Education",
+          "date_label": "Jan 2011 - Jan 2015",
+          "is_present": false
+        },
+        "date_label": "Jan 2011 - Jan 2015",
+        "section": "Education",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "vcff706eb09420cf5",
+        "type": "PROJECT",
+        "title": "Flipkart AI/ML Automation Pipelines",
+        "org": "",
+        "entry_text": "Flipkart AI/ML Automation Pipelines Designed and implemented ML-based automation pipelines to optimize repetitive workflows, reducing manual effort and improving accuracy.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Flipkart AI/ML Automation Pipelines",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 3838,
+              "end": 3873
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Flipkart AI/ML Automation Pipelines",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 3838,
+              "end": 3873
+            }
+          ],
+          "section": "Projects",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Projects",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v9f9b3266860e5967",
+        "type": "PROJECT",
+        "title": "Applied NLP techniques for text extraction and classification of unstructured business data, enhancing decision-making speed.",
+        "org": "",
+        "entry_text": "Applied NLP techniques for text extraction and classification of unstructured business data, enhancing decision-making speed. Leveraged supervised learning models for anomaly detection and forecasting within key operational processes. Coordinated with cross-functional client teams to ensure smooth a",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Applied NLP techniques for text extraction and classification of unstructured business data, enhancing decision-making speed.",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 4012,
+              "end": 4137
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Applied NLP techniques for text extraction and classification of unstructured business data, enhancing decision-making speed",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 4012,
+              "end": 4136
+            }
+          ],
+          "section": "Projects",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Projects",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v88ee69432d21d7f1",
+        "type": "PROJECT",
+        "title": "RMG",
+        "org": "",
+        "entry_text": "RMG Created a master dataset by integrating 7 diverse data sources, enhancing data completeness and improving model accuracy by 20%",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "RMG",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 4403,
+              "end": 4406
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "RMG",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 4403,
+              "end": 4406
+            }
+          ],
+          "section": "Projects",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Projects",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "vabb2563095720b33",
+        "type": "PROJECT",
+        "title": "Employed various classification models and utilized different metrics, achieving overall model accuracy of 88%.",
+        "org": "",
+        "entry_text": "Employed various classification models and utilized different metrics, achieving overall model accuracy of 88%. Developed a generic function for data preprocessing and wrangling, including data profiling, cleaning, and outlier treatment, streamlining the data preparation process and reducing prepara",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Employed various classification models and utilized different metrics, achieving overall model accuracy of 88%.",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 4535,
+              "end": 4646
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Employed various classification models and utilized different metrics, achieving overall model accuracy of 88",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 4535,
+              "end": 4644
+            }
+          ],
+          "section": "Projects",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Projects",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "Flipkart AI/ML Automation Pipelines",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Flipkart AI/ML Automation Pipelines",
+          "Designed and implemented ML-based automation pipelines to optimize repetitive workflows, reducing manual effort and improving accuracy."
+        ],
+        "raw_text": "Flipkart AI/ML Automation Pipelines\nDesigned and implemented ML-based automation pipelines to optimize repetitive workflows, reducing manual effort and improving accuracy.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Flipkart AI/ML Automation Pipelines",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 3838,
+              "end": 3873
+            },
+            {
+              "page": 1,
+              "text": "Designed and implemented ML-based automation pipelines to optimize repetitive workflows, reducing manual effort and improving accuracy.",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 3875,
+              "end": 4010
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "Applied NLP techniques for text extraction and classification of unstructured business data, enhancing decision-making speed.",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Applied NLP techniques for text extraction and classification of unstructured business data, enhancing decision-making speed.",
+          "Leveraged supervised learning models for anomaly detection and forecasting within key operational processes.",
+          "Coordinated with cross-functional client teams to ensure smooth adoption of AI/ML solutions and provided knowledge transfer sessions for sustainable use."
+        ],
+        "raw_text": "Applied NLP techniques for text extraction and classification of unstructured business data, enhancing decision-making speed.\nLeveraged supervised learning models for anomaly detection and forecasting within key operational processes.\nCoordinated with cross-functional client teams to ensure smooth adoption of AI/ML solutions and provided knowledge transfer sessions for sustainable use.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Applied NLP techniques for text extraction and classification of unstructured business data, enhancing decision-making speed.",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 4012,
+              "end": 4137
+            },
+            {
+              "page": 1,
+              "text": "Leveraged supervised learning models for anomaly detection and forecasting within key operational processes.",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 4139,
+              "end": 4247
+            },
+            {
+              "page": 1,
+              "text": "Coordinated with cross-functional client teams to ensure smooth adoption of AI/ML solutions and provided knowledge transfer sessions for sustainable use.",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 4249,
+              "end": 4402
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_3",
+        "name": "RMG",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "RMG",
+          "Created a master dataset by integrating 7 diverse data sources, enhancing data completeness and improving model accuracy by 20%"
+        ],
+        "raw_text": "RMG\nCreated a master dataset by integrating 7 diverse data sources, enhancing data completeness and improving model accuracy by 20%",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "RMG",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 4403,
+              "end": 4406
+            },
+            {
+              "page": 1,
+              "text": "Created a master dataset by integrating 7 diverse data sources, enhancing data completeness and improving model accuracy by 20%",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 4407,
+              "end": 4534
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_4",
+        "name": "Employed various classification models and utilized different metrics, achieving overall model accuracy of 88%.",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Employed various classification models and utilized different metrics, achieving overall model accuracy of 88%.",
+          "Developed a generic function for data preprocessing and wrangling, including data profiling, cleaning, and outlier treatment, streamlining the data preparation process and reducing preparation time by 40%.",
+          "Built a multipurpose Triage AI agent for a stock brokerage firm using MCP, enabling Retrieval-Augmented Generation (RAG) on text and images, and natural language text-to-SQL queries.",
+          "Developed an Agentic HR Workflow with LangGraph, building a scalable HR automation pipeline to handle queries on hiring, holidays, and leave policies, easily integrable with existing systems."
+        ],
+        "raw_text": "Employed various classification models and utilized different metrics, achieving overall model accuracy of 88%.\nDeveloped a generic function for data preprocessing and wrangling, including data profiling, cleaning, and outlier treatment, streamlining the data preparation process and reducing preparation time by 40%.\nBuilt a multipurpose Triage AI agent for a stock brokerage firm using MCP, enabling Retrieval-Augmented Generation (RAG) on text and images, and natural language text-to-SQL queries.\nDeveloped an Agentic HR Workflow with LangGraph, building a scalable HR automation pipeline to hand",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Employed various classification models and utilized different metrics, achieving overall model accuracy of 88%.",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 4535,
+              "end": 4646
+            },
+            {
+              "page": 1,
+              "text": "Developed a generic function for data preprocessing and wrangling, including data profiling, cleaning, and outlier treatment, streamlining the data preparation process and reducing preparation time by 40%.",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 4647,
+              "end": 4852
+            },
+            {
+              "page": 1,
+              "text": "Built a multipurpose Triage AI agent for a stock brokerage firm using MCP, enabling Retrieval-Augmented Generation (RAG) on text and images, and natural language text-to-SQL queries.",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 4855,
+              "end": 5037
+            },
+            {
+              "page": 1,
+              "text": "Developed an Agentic HR Workflow with LangGraph, building a scalable HR automation pipeline to handle queries on hiring, holidays, and leave policies, easily integrable with existing systems.",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 5039,
+              "end": 5230
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 5,
+      "dated_share": 0.2,
+      "unresolved": 4,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 49,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 4,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 4,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "proj_1",
+              "label": "Flipkart AI/ML Automation Pipelines",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Flipkart AI/ML Automation Pipelines",
+                    "block_id": "b49",
+                    "kind": "text",
+                    "start": 3838,
+                    "end": 3873
+                  },
+                  {
+                    "page": 1,
+                    "text": "Designed and implemented ML-based automation pipelines to optimize repetitive workflows, reducing manual effort and improving accuracy.",
+                    "block_id": "b50",
+                    "kind": "text",
+                    "start": 3875,
+                    "end": 4010
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_2",
+              "label": "Applied NLP techniques for text extraction and classification of unstructured business data, enhancing decision-making speed.",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Applied NLP techniques for text extraction and classification of unstructured business data, enhancing decision-making speed.",
+                    "block_id": "b51",
+                    "kind": "text",
+                    "start": 4012,
+                    "end": 4137
+                  },
+                  {
+                    "page": 1,
+                    "text": "Leveraged supervised learning models for anomaly detection and forecasting within key operational processes.",
+                    "block_id": "b52",
+                    "kind": "text",
+                    "start": 4139,
+                    "end": 4247
+                  },
+                  {
+                    "page": 1,
+                    "text": "Coordinated with cross-functional client teams to ensure smooth adoption of AI/ML solutions and provided knowledge transfer sessions for sustainable use.",
+                    "block_id": "b53",
+                    "kind": "text",
+                    "start": 4249,
+                    "end": 4402
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_3",
+              "label": "RMG",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "RMG",
+                    "block_id": "b54",
+                    "kind": "text",
+                    "start": 4403,
+                    "end": 4406
+                  },
+                  {
+                    "page": 1,
+                    "text": "Created a master dataset by integrating 7 diverse data sources, enhancing data completeness and improving model accuracy by 20%",
+                    "block_id": "b55",
+                    "kind": "text",
+                    "start": 4407,
+                    "end": 4534
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_4",
+              "label": "Employed various classification models and utilized different metrics, achieving overall model accuracy of 88%.",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Employed various classification models and utilized different metrics, achieving overall model accuracy of 88%.",
+                    "block_id": "b56",
+                    "kind": "text",
+                    "start": 4535,
+                    "end": 4646
+                  },
+                  {
+                    "page": 1,
+                    "text": "Developed a generic function for data preprocessing and wrangling, including data profiling, cleaning, and outlier treatment, streamlining the data preparation process and reducing preparation time by 40%.",
+                    "block_id": "b57",
+                    "kind": "text",
+                    "start": 4647,
+                    "end": 4852
+                  },
+                  {
+                    "page": 1,
+                    "text": "Built a multipurpose Triage AI agent for a stock brokerage firm using MCP, enabling Retrieval-Augmented Generation (RAG) on text and images, and natural language text-to-SQL queries.",
+                    "block_id": "b58",
+                    "kind": "text",
+                    "start": 4855,
+                    "end": 5037
+                  },
+                  {
+                    "page": 1,
+                    "text": "Developed an Agentic HR Workflow with LangGraph, building a scalable HR automation pipeline to handle queries on hiring, holidays, and leave policies, easily integrable with existing systems.",
+                    "block_id": "b59",
+                    "kind": "text",
+                    "start": 5039,
+                    "end": 5230
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "education": {
+          "all_entries_month_precise": true,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 1,
+          "represented_months": 49,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 1,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "veae0b0257666a0d5",
+              "label": "Computer Science • B.E",
+              "state": "month_range",
+              "start": [
+                2011,
+                1
+              ],
+              "end": [
+                2015,
+                1
+              ],
+              "months": 49,
+              "raw": "Jan 2011 - Jan 2015",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "AI/ML • Post Graduate University of Texas",
+                    "block_id": "b61",
+                    "kind": "text",
+                    "start": 5241,
+                    "end": 5282
+                  },
+                  {
+                    "page": 1,
+                    "text": "Computer Science • B.E",
+                    "block_id": "b63",
+                    "kind": "text",
+                    "start": 5302,
+                    "end": 5324
+                  },
+                  {
+                    "page": 1,
+                    "text": "Park College of Engineering and Technology, Anna University",
+                    "block_id": "b64",
+                    "kind": "text",
+                    "start": 5325,
+                    "end": 5384
+                  },
+                  {
+                    "page": 1,
+                    "text": "Jan 2011 - Jan 2015",
+                    "block_id": "b65",
+                    "kind": "text",
+                    "start": 5385,
+                    "end": 5404
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "Jan 2011 - Jan 2015",
+                    "block_id": "b65",
+                    "kind": "text",
+                    "start": 5385,
+                    "end": 5404
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "AI/ML • Post Graduate University of Texas",
+                    "block_id": "b61",
+                    "kind": "text",
+                    "start": 5241,
+                    "end": 5282
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Computer Science • B.E",
+                    "block_id": "b63",
+                    "kind": "text",
+                    "start": 5302,
+                    "end": 5324
+                  }
+                ],
+                "section": "Education",
+                "date_label": "Jan 2011 - Jan 2015",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 49,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 4,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 4,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "proj_1",
+            "label": "Flipkart AI/ML Automation Pipelines",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Flipkart AI/ML Automation Pipelines",
+                  "block_id": "b49",
+                  "kind": "text",
+                  "start": 3838,
+                  "end": 3873
+                },
+                {
+                  "page": 1,
+                  "text": "Designed and implemented ML-based automation pipelines to optimize repetitive workflows, reducing manual effort and improving accuracy.",
+                  "block_id": "b50",
+                  "kind": "text",
+                  "start": 3875,
+                  "end": 4010
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_2",
+            "label": "Applied NLP techniques for text extraction and classification of unstructured business data, enhancing decision-making speed.",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Applied NLP techniques for text extraction and classification of unstructured business data, enhancing decision-making speed.",
+                  "block_id": "b51",
+                  "kind": "text",
+                  "start": 4012,
+                  "end": 4137
+                },
+                {
+                  "page": 1,
+                  "text": "Leveraged supervised learning models for anomaly detection and forecasting within key operational processes.",
+                  "block_id": "b52",
+                  "kind": "text",
+                  "start": 4139,
+                  "end": 4247
+                },
+                {
+                  "page": 1,
+                  "text": "Coordinated with cross-functional client teams to ensure smooth adoption of AI/ML solutions and provided knowledge transfer sessions for sustainable use.",
+                  "block_id": "b53",
+                  "kind": "text",
+                  "start": 4249,
+                  "end": 4402
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_3",
+            "label": "RMG",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "RMG",
+                  "block_id": "b54",
+                  "kind": "text",
+                  "start": 4403,
+                  "end": 4406
+                },
+                {
+                  "page": 1,
+                  "text": "Created a master dataset by integrating 7 diverse data sources, enhancing data completeness and improving model accuracy by 20%",
+                  "block_id": "b55",
+                  "kind": "text",
+                  "start": 4407,
+                  "end": 4534
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_4",
+            "label": "Employed various classification models and utilized different metrics, achieving overall model accuracy of 88%.",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Employed various classification models and utilized different metrics, achieving overall model accuracy of 88%.",
+                  "block_id": "b56",
+                  "kind": "text",
+                  "start": 4535,
+                  "end": 4646
+                },
+                {
+                  "page": 1,
+                  "text": "Developed a generic function for data preprocessing and wrangling, including data profiling, cleaning, and outlier treatment, streamlining the data preparation process and reducing preparation time by 40%.",
+                  "block_id": "b57",
+                  "kind": "text",
+                  "start": 4647,
+                  "end": 4852
+                },
+                {
+                  "page": 1,
+                  "text": "Built a multipurpose Triage AI agent for a stock brokerage firm using MCP, enabling Retrieval-Augmented Generation (RAG) on text and images, and natural language text-to-SQL queries.",
+                  "block_id": "b58",
+                  "kind": "text",
+                  "start": 4855,
+                  "end": 5037
+                },
+                {
+                  "page": 1,
+                  "text": "Developed an Agentic HR Workflow with LangGraph, building a scalable HR automation pipeline to handle queries on hiring, holidays, and leave policies, easily integrable with existing systems.",
+                  "block_id": "b59",
+                  "kind": "text",
+                  "start": 5039,
+                  "end": 5230
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "education": {
+        "all_entries_month_precise": true,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 1,
+        "represented_months": 49,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 1,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "veae0b0257666a0d5",
+            "label": "Computer Science • B.E",
+            "state": "month_range",
+            "start": [
+              2011,
+              1
+            ],
+            "end": [
+              2015,
+              1
+            ],
+            "months": 49,
+            "raw": "Jan 2011 - Jan 2015",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "AI/ML • Post Graduate University of Texas",
+                  "block_id": "b61",
+                  "kind": "text",
+                  "start": 5241,
+                  "end": 5282
+                },
+                {
+                  "page": 1,
+                  "text": "Computer Science • B.E",
+                  "block_id": "b63",
+                  "kind": "text",
+                  "start": 5302,
+                  "end": 5324
+                },
+                {
+                  "page": 1,
+                  "text": "Park College of Engineering and Technology, Anna University",
+                  "block_id": "b64",
+                  "kind": "text",
+                  "start": 5325,
+                  "end": 5384
+                },
+                {
+                  "page": 1,
+                  "text": "Jan 2011 - Jan 2015",
+                  "block_id": "b65",
+                  "kind": "text",
+                  "start": 5385,
+                  "end": 5404
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Jan 2011 - Jan 2015",
+                  "block_id": "b65",
+                  "kind": "text",
+                  "start": 5385,
+                  "end": 5404
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "AI/ML • Post Graduate University of Texas",
+                  "block_id": "b61",
+                  "kind": "text",
+                  "start": 5241,
+                  "end": 5282
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Computer Science • B.E",
+                  "block_id": "b63",
+                  "kind": "text",
+                  "start": 5302,
+                  "end": 5324
+                }
+              ],
+              "section": "Education",
+              "date_label": "Jan 2011 - Jan 2015",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 49,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

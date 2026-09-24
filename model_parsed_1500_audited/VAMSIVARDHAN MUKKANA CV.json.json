@@ -1,0 +1,414 @@
+{
+  "file_name": "VAMSIVARDHAN MUKKANA CV.docx",
+  "input_mode": "recovered_original_document",
+  "input_sha256": "c3a574266ab21de1b2726fa6bcf54c4368a674f8aa433e64f9a1fdfe9c427f9e",
+  "doc_id": "c3a574266ab21de1b2726fa6",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 2,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.833,
+    "ocr_pages": []
+  },
+  "work_experience": [
+    {
+      "id": "ve2acdc3c139417c8",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Decision Scientist (Data Governance & Data Quality",
+      "start_date": "2022-06",
+      "end_date": "2026-09",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Decision Scientist (Data Governance & Data Quality)",
+            "block_id": "b10",
+            "kind": "text",
+            "start": 1770,
+            "end": 1821
+          },
+          {
+            "page": 1,
+            "text": "Mu Sigma Business Solutions Private Limited ( Client – Citi Bank)",
+            "block_id": "b11",
+            "kind": "text",
+            "start": 1822,
+            "end": 1887
+          },
+          {
+            "page": 1,
+            "text": "Jun’22 – Present                              \t\t\t                           Bengaluru, Karnataka, India",
+            "block_id": "b12",
+            "kind": "text",
+            "start": 1888,
+            "end": 1991
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Jun’22 – Present",
+            "block_id": "b12",
+            "kind": "text",
+            "start": 1888,
+            "end": 1904
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Decision Scientist (Data Governance & Data Quality",
+            "block_id": "b10",
+            "kind": "text",
+            "start": 1770,
+            "end": 1820
+          }
+        ],
+        "section": "WORK EXPERIENCE",
+        "date_label": "Jun’22 – Present",
+        "is_present": true
+      }
+    }
+  ],
+  "education": [
+    {
+      "id": "v8436740b3a086202",
+      "type": "EDUCATION",
+      "company": "Gandhi Institute of Technology and Management (GITAM)",
+      "title": "B.E. (Electronics & Communication Engineering",
+      "start_date": "2018-01",
+      "end_date": "2022-12",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "B.E. (Electronics & Communication Engineering)",
+            "block_id": "b44",
+            "kind": "text",
+            "start": 5957,
+            "end": 6003
+          },
+          {
+            "page": 1,
+            "text": "Gandhi Institute of Technology and Management (GITAM), Visakhapatnam, Andhra Pradesh",
+            "block_id": "b45",
+            "kind": "text",
+            "start": 6005,
+            "end": 6089
+          },
+          {
+            "page": 1,
+            "text": "2018 – 2022",
+            "block_id": "b46",
+            "kind": "text",
+            "start": 6090,
+            "end": 6101
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2018 – 2022",
+            "block_id": "b46",
+            "kind": "text",
+            "start": 6090,
+            "end": 6101
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Gandhi Institute of Technology and Management (GITAM",
+            "block_id": "b45",
+            "kind": "text",
+            "start": 6005,
+            "end": 6057
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "B.E. (Electronics & Communication Engineering",
+            "block_id": "b44",
+            "kind": "text",
+            "start": 5957,
+            "end": 6002
+          }
+        ],
+        "section": "EDUCATION",
+        "date_label": "2018 – 2022",
+        "is_present": false
+      }
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 1,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "overlap preserved: 'B.E. (Electronics & Communication Engineering' overlaps 'Decision Scientist (Data Governance & Data Quality'"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "c3a574266ab21de1b2726fa6",
+    "filename": "VAMSIVARDHAN MUKKANA CV.docx",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v8436740b3a086202",
+        "type": "EDUCATION",
+        "title": "B.E. (Electronics & Communication Engineering",
+        "org": "Gandhi Institute of Technology and Management (GITAM)",
+        "start": "2018-01",
+        "end": "2022-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "B.E. (Electronics & Communication Engineering)\nGandhi Institute of Technology and Management (GITAM), Visakhapatnam, Andhra Pradesh\n2018 – 2022",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "B.E. (Electronics & Communication Engineering)",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 5957,
+              "end": 6003
+            },
+            {
+              "page": 1,
+              "text": "Gandhi Institute of Technology and Management (GITAM), Visakhapatnam, Andhra Pradesh",
+              "block_id": "b45",
+              "kind": "text",
+              "start": 6005,
+              "end": 6089
+            },
+            {
+              "page": 1,
+              "text": "2018 – 2022",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 6090,
+              "end": 6101
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2018 – 2022",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 6090,
+              "end": 6101
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Gandhi Institute of Technology and Management (GITAM",
+              "block_id": "b45",
+              "kind": "text",
+              "start": 6005,
+              "end": 6057
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "B.E. (Electronics & Communication Engineering",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 5957,
+              "end": 6002
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2018 – 2022",
+          "is_present": false
+        },
+        "date_label": "2018 – 2022",
+        "section": "EDUCATION",
+        "is_present": false
+      },
+      {
+        "id": "ve2acdc3c139417c8",
+        "type": "EMPLOYMENT",
+        "title": "Decision Scientist (Data Governance & Data Quality",
+        "org": "",
+        "start": "2022-06",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Decision Scientist (Data Governance & Data Quality)\nMu Sigma Business Solutions Private Limited ( Client – Citi Bank)\nJun’22 – Present                              \t\t\t                           Bengaluru, Karnataka, India",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Decision Scientist (Data Governance & Data Quality)",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 1770,
+              "end": 1821
+            },
+            {
+              "page": 1,
+              "text": "Mu Sigma Business Solutions Private Limited ( Client – Citi Bank)",
+              "block_id": "b11",
+              "kind": "text",
+              "start": 1822,
+              "end": 1887
+            },
+            {
+              "page": 1,
+              "text": "Jun’22 – Present                              \t\t\t                           Bengaluru, Karnataka, India",
+              "block_id": "b12",
+              "kind": "text",
+              "start": 1888,
+              "end": 1991
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jun’22 – Present",
+              "block_id": "b12",
+              "kind": "text",
+              "start": 1888,
+              "end": 1904
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Decision Scientist (Data Governance & Data Quality",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 1770,
+              "end": 1820
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "Jun’22 – Present",
+          "is_present": true
+        },
+        "date_label": "Jun’22 – Present",
+        "section": "WORK EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [],
+        "evidence": {
+          "note": "year-only dates need verification"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 2,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.833,
+      "ocr_pages": []
+    },
+    "total_represented_months": 105,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  },
+  "recovered_from": "/mnt/c/Users/Gopi Gedar/Eragina Digital Solutions Private Limited/Eragina Digital - Documents/RESUMES/resume/RESUMES_FLAT/VAMSIVARDHAN MUKKANA CV.docx",
+  "original_sha256": "659df53f7c3d232b6191a712056d789efda9aac36b26b0531549d20ee5ab2875"
+}

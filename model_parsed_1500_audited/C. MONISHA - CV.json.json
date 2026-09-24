@@ -1,0 +1,308 @@
+{
+  "file_name": "C. MONISHA - CV.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "3b4b629c0afdb93ce68086d1c8b86c85699a54112c57805e3d0b30f9d425cd92",
+  "doc_id": "3b4b629c0afdb93ce68086d1",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 2,
+    "dated_share": 0.5,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "ocr_pages": []
+  },
+  "work_experience": [
+    {
+      "id": "v9d9b24e806595099",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Senior Associate",
+      "start_date": "2024-01",
+      "end_date": "2025-03",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Senior Associate",
+            "block_id": "b16",
+            "kind": "text",
+            "start": 1011,
+            "end": 1027
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "22 Jan 2024 - 12 March 2025",
+            "block_id": "b34",
+            "kind": "text",
+            "start": 2248,
+            "end": 2275
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Senior Associate",
+            "block_id": "b16",
+            "kind": "text",
+            "start": 1011,
+            "end": 1027
+          }
+        ],
+        "section": "Experience",
+        "date_label": "22 Jan 2024 - 12 March 2025",
+        "is_present": false
+      }
+    },
+    {
+      "id": "vd3dd2385dac078a5",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Senior Associate",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Senior Associate",
+            "block_id": "b50",
+            "kind": "text",
+            "start": 3281,
+            "end": 3297
+          }
+        ],
+        "dates": [],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Senior Associate",
+            "block_id": "b50",
+            "kind": "text",
+            "start": 3281,
+            "end": 3297
+          }
+        ],
+        "section": "Experience",
+        "date_label": "",
+        "is_present": false
+      }
+    }
+  ],
+  "education": [],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 2,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "PARTIAL",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [],
+  "raw_pipeline_dto": {
+    "doc_id": "3b4b629c0afdb93ce68086d1",
+    "filename": "C. MONISHA - CV.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "v9d9b24e806595099",
+        "type": "EMPLOYMENT",
+        "title": "Senior Associate",
+        "org": "",
+        "start": "2024-01",
+        "end": "2025-03",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Senior Associate",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Associate",
+              "block_id": "b16",
+              "kind": "text",
+              "start": 1011,
+              "end": 1027
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "22 Jan 2024 - 12 March 2025",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 2248,
+              "end": 2275
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Associate",
+              "block_id": "b16",
+              "kind": "text",
+              "start": 1011,
+              "end": 1027
+            }
+          ],
+          "section": "Experience",
+          "date_label": "22 Jan 2024 - 12 March 2025",
+          "is_present": false
+        },
+        "date_label": "22 Jan 2024 - 12 March 2025",
+        "section": "Experience",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "vd3dd2385dac078a5",
+        "type": "EMPLOYMENT",
+        "title": "Senior Associate",
+        "org": "",
+        "entry_text": "Senior Associate • Responsible for review/valuation and carry out basic and complex trades of Derivative. • Over the Counter Trades in accordance with established procedures – Specifically for Swap trades.that includes various products such as IRS, CDS, and TRS within the daily cut off time. Part of",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Associate",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 3281,
+              "end": 3297
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Associate",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 3281,
+              "end": 3297
+            }
+          ],
+          "section": "Experience",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Experience",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "vd3dd2385dac078a5"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 2,
+      "dated_share": 0.5,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "ocr_pages": []
+    },
+    "total_represented_months": 15,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

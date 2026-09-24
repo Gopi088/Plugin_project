@@ -1,0 +1,435 @@
+{
+  "file_name": "Divakar_1.pdf",
+  "input_mode": "original_document",
+  "input_sha256": "8ca692906ee3af2f245e73b014bac1376fe01b22d968b14868104c7ea97bc970",
+  "doc_id": "8ca692906ee3af2f245e73b0",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 2,
+    "dated_share": 0.5,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "vfeb0fc1fe16a7121",
+      "type": "EMPLOYMENT",
+      "company": "Chegus Infotech",
+      "title": "Software Engineer",
+      "start_date": "2023-04",
+      "end_date": "2026-09",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Software Engineer April 2023 – Present",
+            "block_id": "b15",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              36.024,
+              332.61999999999995,
+              543.13,
+              344.61999999999995
+            ],
+            "fragment_text": "Software Engineer April 2023 – Present"
+          },
+          {
+            "page": 1,
+            "text": "Chegus Infotech",
+            "block_id": "b16",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              36.024,
+              348.21999999999997,
+              115.35600000000002,
+              360.21999999999997
+            ],
+            "fragment_text": "Chegus Infotech"
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "April 2023 – Present",
+            "block_id": "b15",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              442.97,
+              332.61999999999995,
+              543.13,
+              344.61999999999995
+            ],
+            "fragment_text": "April 2023 – Present"
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Chegus Infotech",
+            "block_id": "b16",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              36.024,
+              348.21999999999997,
+              115.35600000000002,
+              360.21999999999997
+            ],
+            "fragment_text": "Chegus Infotech"
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Software Engineer",
+            "block_id": "b15",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              36.024,
+              332.61999999999995,
+              126.85200000000002,
+              344.61999999999995
+            ],
+            "fragment_text": "Software Engineer"
+          }
+        ],
+        "section": "Professional Experience",
+        "date_label": "April 2023 – Present",
+        "is_present": true
+      }
+    }
+  ],
+  "education": [
+    {
+      "id": "vbbac3d5964d5d978",
+      "type": "EDUCATION",
+      "company": "BSC - VDA Degree College",
+      "title": "",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 2,
+            "text": "BSC - VDA Degree College",
+            "block_id": "b76",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              38.664,
+              635.8299999999999,
+              173.05200000000002,
+              647.8299999999999
+            ],
+            "fragment_text": "BSC - VDA Degree College"
+          }
+        ],
+        "dates": [],
+        "company": [
+          {
+            "page": 2,
+            "text": "BSC - VDA Degree College",
+            "block_id": "b76",
+            "kind": "pdf",
+            "page_width": 595.2,
+            "page_height": 841.92,
+            "bbox": [
+              38.664,
+              635.8299999999999,
+              173.05200000000002,
+              647.8299999999999
+            ],
+            "fragment_text": "BSC - VDA Degree College"
+          }
+        ],
+        "title": [],
+        "section": "Education",
+        "date_label": "",
+        "is_present": false
+      }
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 1,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "PARTIAL",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "raw_pipeline_dto": {
+    "doc_id": "8ca692906ee3af2f245e73b0",
+    "filename": "Divakar_1.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "vfeb0fc1fe16a7121",
+        "type": "EMPLOYMENT",
+        "title": "Software Engineer",
+        "org": "Chegus Infotech",
+        "start": "2023-04",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Software Engineer April 2023 – Present\nChegus Infotech",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Software Engineer April 2023 – Present",
+              "block_id": "b15",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                36.024,
+                332.61999999999995,
+                543.13,
+                344.61999999999995
+              ],
+              "fragment_text": "Software Engineer April 2023 – Present"
+            },
+            {
+              "page": 1,
+              "text": "Chegus Infotech",
+              "block_id": "b16",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                36.024,
+                348.21999999999997,
+                115.35600000000002,
+                360.21999999999997
+              ],
+              "fragment_text": "Chegus Infotech"
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "April 2023 – Present",
+              "block_id": "b15",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                442.97,
+                332.61999999999995,
+                543.13,
+                344.61999999999995
+              ],
+              "fragment_text": "April 2023 – Present"
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Chegus Infotech",
+              "block_id": "b16",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                36.024,
+                348.21999999999997,
+                115.35600000000002,
+                360.21999999999997
+              ],
+              "fragment_text": "Chegus Infotech"
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Software Engineer",
+              "block_id": "b15",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                36.024,
+                332.61999999999995,
+                126.85200000000002,
+                344.61999999999995
+              ],
+              "fragment_text": "Software Engineer"
+            }
+          ],
+          "section": "Professional Experience",
+          "date_label": "April 2023 – Present",
+          "is_present": true
+        },
+        "date_label": "April 2023 – Present",
+        "section": "Professional Experience",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "vbbac3d5964d5d978",
+        "type": "EDUCATION",
+        "title": "",
+        "org": "BSC - VDA Degree College",
+        "entry_text": "BSC - VDA Degree College",
+        "source": {
+          "entry": [
+            {
+              "page": 2,
+              "text": "BSC - VDA Degree College",
+              "block_id": "b76",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                38.664,
+                635.8299999999999,
+                173.05200000000002,
+                647.8299999999999
+              ],
+              "fragment_text": "BSC - VDA Degree College"
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 2,
+              "text": "BSC - VDA Degree College",
+              "block_id": "b76",
+              "kind": "pdf",
+              "page_width": 595.2,
+              "page_height": 841.92,
+              "bbox": [
+                38.664,
+                635.8299999999999,
+                173.05200000000002,
+                647.8299999999999
+              ],
+              "fragment_text": "BSC - VDA Degree College"
+            }
+          ],
+          "title": [],
+          "section": "Education",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Education",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 2,
+      "dated_share": 0.5,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9
+    },
+    "total_represented_months": 42,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

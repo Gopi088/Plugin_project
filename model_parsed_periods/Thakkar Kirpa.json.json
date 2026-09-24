@@ -1,0 +1,1872 @@
+{
+  "file_name": "Thakkar Kirpa.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "b2fbff87dbda59bf9f354df884a7d7bdab9af5af757b87ceff952afe94ae74dc",
+  "doc_id": "b2fbff87dbda59bf9f354df8",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 3,
+    "total_events": 8,
+    "dated_share": 0.375,
+    "unresolved": 5,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.765,
+    "document_accuracy": 0.77
+  },
+  "work_experience": [
+    {
+      "id": "v741841190b4780c8",
+      "type": "EMPLOYMENT",
+      "company": "TATA Consultancy Services",
+      "title": "Ltd. System Engineer",
+      "start_date": "2018-01",
+      "end_date": "2022-12",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "TATA Consultancy Services  | Ltd. System Engineer | 2018 – 2022 (Gandhinagar)",
+            "block_id": "b23",
+            "kind": "text",
+            "start": 1555,
+            "end": 1632
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2018 – 2022",
+            "block_id": "b23",
+            "kind": "text",
+            "start": 1607,
+            "end": 1618
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "TATA Consultancy Services",
+            "block_id": "b23",
+            "kind": "text",
+            "start": 1555,
+            "end": 1580
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Ltd. System Engineer",
+            "block_id": "b23",
+            "kind": "text",
+            "start": 1584,
+            "end": 1604
+          }
+        ],
+        "section": "Professional Experience",
+        "date_label": "2018 – 2022",
+        "is_present": false
+      },
+      "precision": "year",
+      "date_label": "2018 – 2022"
+    }
+  ],
+  "education": [
+    {
+      "id": "vc477b02426aa86fe",
+      "type": "EDUCATION",
+      "company": "Anand Mercantile College of Science and Computer Technology",
+      "title": "Bachelor of Computer Application",
+      "start_date": "2012-01",
+      "end_date": "2015-12",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Bachelor of Computer Application (8.84)",
+            "block_id": "b43",
+            "kind": "text",
+            "start": 2817,
+            "end": 2856
+          },
+          {
+            "page": 1,
+            "text": "Anand Mercantile College of Science and Computer Technology  | 2012-2015",
+            "block_id": "b44",
+            "kind": "text",
+            "start": 2858,
+            "end": 2930
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2012-2015",
+            "block_id": "b44",
+            "kind": "text",
+            "start": 2921,
+            "end": 2930
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Anand Mercantile College of Science and Computer Technology",
+            "block_id": "b44",
+            "kind": "text",
+            "start": 2858,
+            "end": 2917
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Bachelor of Computer Application",
+            "block_id": "b43",
+            "kind": "text",
+            "start": 2817,
+            "end": 2849
+          }
+        ],
+        "section": "Education",
+        "date_label": "2012-2015",
+        "is_present": false
+      },
+      "precision": "year",
+      "date_label": "2012-2015"
+    },
+    {
+      "id": "vc5f033998986fb80",
+      "type": "EDUCATION",
+      "company": "",
+      "title": "Master of Computer Applications",
+      "start_date": "2015-01",
+      "end_date": "2018-12",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Master of Computer Applications (7.92)",
+            "block_id": "b41",
+            "kind": "text",
+            "start": 2703,
+            "end": 2741
+          },
+          {
+            "page": 1,
+            "text": "G H Patel P G Department of Computer Science and Technology | 2015-  2018",
+            "block_id": "b42",
+            "kind": "text",
+            "start": 2743,
+            "end": 2816
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2015-  2018",
+            "block_id": "b42",
+            "kind": "text",
+            "start": 2805,
+            "end": 2816
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Master of Computer Applications",
+            "block_id": "b41",
+            "kind": "text",
+            "start": 2703,
+            "end": 2734
+          }
+        ],
+        "section": "Education",
+        "date_label": "2015-  2018",
+        "is_present": false
+      },
+      "precision": "year",
+      "date_label": "2015-  2018"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "Security  Analysis and Threat Detection  – IBM",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Security  Analysis and Threat Detection  – IBM",
+        "• Optimized React-  based platform with Redux for improved state management, resulting in a better views for",
+        "customers for threat detection and a 30% reduction in response times."
+      ],
+      "raw_text": "Security  Analysis and Threat Detection  – IBM\n• Optimized React-  based platform with Redux for improved state management, resulting in a better views for\ncustomers for threat detection and a 30% reduction in response times.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Security  Analysis and Threat Detection  – IBM",
+            "block_id": "b28",
+            "kind": "text",
+            "start": 1855,
+            "end": 1901
+          },
+          {
+            "page": 1,
+            "text": "• Optimized React-  based platform with Redux for improved state management, resulting in a better views for",
+            "block_id": "b29",
+            "kind": "text",
+            "start": 1902,
+            "end": 2010
+          },
+          {
+            "page": 1,
+            "text": "customers for threat detection and a 30% reduction in response times.",
+            "block_id": "b30",
+            "kind": "text",
+            "start": 2012,
+            "end": 2081
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_2",
+      "name": "Intranet Redesign – KLA",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Intranet Redesign – KLA",
+        "• Led the redesign  of the KLA Intranet, creating a centralized React platform that enhanced employee",
+        "collaboration and productivity."
+      ],
+      "raw_text": "Intranet Redesign – KLA\n• Led the redesign  of the KLA Intranet, creating a centralized React platform that enhanced employee\ncollaboration and productivity.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Intranet Redesign – KLA",
+            "block_id": "b31",
+            "kind": "text",
+            "start": 2083,
+            "end": 2106
+          },
+          {
+            "page": 1,
+            "text": "• Led the redesign  of the KLA Intranet, creating a centralized React platform that enhanced employee",
+            "block_id": "b32",
+            "kind": "text",
+            "start": 2108,
+            "end": 2209
+          },
+          {
+            "page": 1,
+            "text": "collaboration and productivity.",
+            "block_id": "b33",
+            "kind": "text",
+            "start": 2212,
+            "end": 2243
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_3",
+      "name": "KIRPATHAKKAR THAKKAR",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "KIRPATHAKKAR THAKKAR"
+      ],
+      "raw_text": "KIRPATHAKKAR THAKKAR",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "KIRPATHAKKAR THAKKAR",
+            "block_id": "b34",
+            "kind": "text",
+            "start": 2245,
+            "end": 2265
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_4",
+      "name": "Emergent Learning & Collaboration  Platform – Leading Airport Group",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Emergent Learning & Collaboration  Platform – Leading Airport Group",
+        "• Built a digital platform  for airport employees, integrating social features, learning  modules, and live video",
+        "streaming to promote collaboration and knowledge sharing."
+      ],
+      "raw_text": "Emergent Learning & Collaboration  Platform – Leading Airport Group\n• Built a digital platform  for airport employees, integrating social features, learning  modules, and live video\nstreaming to promote collaboration and knowledge sharing.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Emergent Learning & Collaboration  Platform – Leading Airport Group",
+            "block_id": "b35",
+            "kind": "text",
+            "start": 2268,
+            "end": 2335
+          },
+          {
+            "page": 1,
+            "text": "• Built a digital platform  for airport employees, integrating social features, learning  modules, and live video",
+            "block_id": "b36",
+            "kind": "text",
+            "start": 2337,
+            "end": 2450
+          },
+          {
+            "page": 1,
+            "text": "streaming to promote collaboration and knowledge sharing.",
+            "block_id": "b37",
+            "kind": "text",
+            "start": 2452,
+            "end": 2509
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_5",
+      "name": "Micro-  & Learning Collaborative Solution – Global  Insurance Company",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Micro-  & Learning Collaborative Solution – Global  Insurance Company",
+        "• Delivered a gamified micro-learning  solution using React, improving employee engagement  and retention."
+      ],
+      "raw_text": "Micro-  & Learning Collaborative Solution – Global  Insurance Company\n• Delivered a gamified micro-learning  solution using React, improving employee engagement  and retention.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Micro-  & Learning Collaborative Solution – Global  Insurance Company",
+            "block_id": "b38",
+            "kind": "text",
+            "start": 2511,
+            "end": 2580
+          },
+          {
+            "page": 1,
+            "text": "• Delivered a gamified micro-learning  solution using React, improving employee engagement  and retention.",
+            "block_id": "b39",
+            "kind": "text",
+            "start": 2582,
+            "end": 2688
+          }
+        ]
+      }
+    }
+  ],
+  "gaps": [],
+  "total_work_experience_entries": 1,
+  "total_projects_entries": 5,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "overlap preserved: 'Bachelor of Computer Application' overlaps 'Master of Computer Applications'",
+    "overlap preserved: 'Master of Computer Applications' overlaps 'Ltd. System Engineer'"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "b2fbff87dbda59bf9f354df8",
+    "filename": "Thakkar Kirpa.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "vc477b02426aa86fe",
+        "type": "EDUCATION",
+        "title": "Bachelor of Computer Application",
+        "org": "Anand Mercantile College of Science and Computer Technology",
+        "start": "2012-01",
+        "end": "2015-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "Bachelor of Computer Application (8.84)\nAnand Mercantile College of Science and Computer Technology  | 2012-2015",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor of Computer Application (8.84)",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 2817,
+              "end": 2856
+            },
+            {
+              "page": 1,
+              "text": "Anand Mercantile College of Science and Computer Technology  | 2012-2015",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 2858,
+              "end": 2930
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2012-2015",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 2921,
+              "end": 2930
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Anand Mercantile College of Science and Computer Technology",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 2858,
+              "end": 2917
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Computer Application",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 2817,
+              "end": 2849
+            }
+          ],
+          "section": "Education",
+          "date_label": "2012-2015",
+          "is_present": false
+        },
+        "date_label": "2012-2015",
+        "section": "Education",
+        "is_present": false
+      },
+      {
+        "id": "vc5f033998986fb80",
+        "type": "EDUCATION",
+        "title": "Master of Computer Applications",
+        "org": "",
+        "start": "2015-01",
+        "end": "2018-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "Master of Computer Applications (7.92)\nG H Patel P G Department of Computer Science and Technology | 2015-  2018",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Master of Computer Applications (7.92)",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 2703,
+              "end": 2741
+            },
+            {
+              "page": 1,
+              "text": "G H Patel P G Department of Computer Science and Technology | 2015-  2018",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 2743,
+              "end": 2816
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2015-  2018",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 2805,
+              "end": 2816
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Master of Computer Applications",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 2703,
+              "end": 2734
+            }
+          ],
+          "section": "Education",
+          "date_label": "2015-  2018",
+          "is_present": false
+        },
+        "date_label": "2015-  2018",
+        "section": "Education",
+        "is_present": false
+      },
+      {
+        "id": "v741841190b4780c8",
+        "type": "EMPLOYMENT",
+        "title": "Ltd. System Engineer",
+        "org": "TATA Consultancy Services",
+        "start": "2018-01",
+        "end": "2022-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "TATA Consultancy Services  | Ltd. System Engineer | 2018 – 2022 (Gandhinagar)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "TATA Consultancy Services  | Ltd. System Engineer | 2018 – 2022 (Gandhinagar)",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 1555,
+              "end": 1632
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2018 – 2022",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 1607,
+              "end": 1618
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "TATA Consultancy Services",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 1555,
+              "end": 1580
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Ltd. System Engineer",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 1584,
+              "end": 1604
+            }
+          ],
+          "section": "Professional Experience",
+          "date_label": "2018 – 2022",
+          "is_present": false
+        },
+        "date_label": "2018 – 2022",
+        "section": "Professional Experience",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v100992678ef73359",
+        "type": "PROJECT",
+        "title": "Security  Analysis and Threat Detection  – IBM",
+        "org": "",
+        "entry_text": "Security  Analysis and Threat Detection  – IBM • Optimized React-  based platform with Redux for improved state management, resulting in a better views for customers for threat detection and a 30% reduction in response times.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Security  Analysis and Threat Detection  – IBM",
+              "block_id": "b28",
+              "kind": "text",
+              "start": 1855,
+              "end": 1901
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Security  Analysis and Threat Detection  – IBM",
+              "block_id": "b28",
+              "kind": "text",
+              "start": 1855,
+              "end": 1901
+            }
+          ],
+          "section": "Key Projects",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Key Projects",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v4c10ae26830c1b76",
+        "type": "PROJECT",
+        "title": "Intranet Redesign – KLA",
+        "org": "",
+        "entry_text": "Intranet Redesign – KLA • Led the redesign  of the KLA Intranet, creating a centralized React platform that enhanced employee collaboration and productivity.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Intranet Redesign – KLA",
+              "block_id": "b31",
+              "kind": "text",
+              "start": 2083,
+              "end": 2106
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Intranet Redesign – KLA",
+              "block_id": "b31",
+              "kind": "text",
+              "start": 2083,
+              "end": 2106
+            }
+          ],
+          "section": "Key Projects",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Key Projects",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v926162b35a3cf0c2",
+        "type": "PROJECT",
+        "title": "KIRPATHAKKAR THAKKAR",
+        "org": "",
+        "entry_text": "KIRPATHAKKAR THAKKAR",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "KIRPATHAKKAR THAKKAR",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 2245,
+              "end": 2265
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "KIRPATHAKKAR THAKKAR",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 2245,
+              "end": 2265
+            }
+          ],
+          "section": "Key Projects",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Key Projects",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "ve48531a9cee60595",
+        "type": "PROJECT",
+        "title": "Emergent Learning & Collaboration  Platform – Leading Airport Group",
+        "org": "",
+        "entry_text": "Emergent Learning & Collaboration  Platform – Leading Airport Group • Built a digital platform  for airport employees, integrating social features, learning  modules, and live video streaming to promote collaboration and knowledge sharing.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Emergent Learning & Collaboration  Platform – Leading Airport Group",
+              "block_id": "b35",
+              "kind": "text",
+              "start": 2268,
+              "end": 2335
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Emergent Learning & Collaboration  Platform – Leading Airport Group",
+              "block_id": "b35",
+              "kind": "text",
+              "start": 2268,
+              "end": 2335
+            }
+          ],
+          "section": "Key Projects",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Key Projects",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "vf6688169091ef1e0",
+        "type": "PROJECT",
+        "title": "Micro-  & Learning Collaborative Solution – Global  Insurance Company",
+        "org": "",
+        "entry_text": "Micro-  & Learning Collaborative Solution – Global  Insurance Company • Delivered a gamified micro-learning  solution using React, improving employee engagement  and retention.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Micro-  & Learning Collaborative Solution – Global  Insurance Company",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 2511,
+              "end": 2580
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Micro-  & Learning Collaborative Solution – Global  Insurance Company",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 2511,
+              "end": 2580
+            }
+          ],
+          "section": "Key Projects",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Key Projects",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "Security  Analysis and Threat Detection  – IBM",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Security  Analysis and Threat Detection  – IBM",
+          "• Optimized React-  based platform with Redux for improved state management, resulting in a better views for",
+          "customers for threat detection and a 30% reduction in response times."
+        ],
+        "raw_text": "Security  Analysis and Threat Detection  – IBM\n• Optimized React-  based platform with Redux for improved state management, resulting in a better views for\ncustomers for threat detection and a 30% reduction in response times.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Security  Analysis and Threat Detection  – IBM",
+              "block_id": "b28",
+              "kind": "text",
+              "start": 1855,
+              "end": 1901
+            },
+            {
+              "page": 1,
+              "text": "• Optimized React-  based platform with Redux for improved state management, resulting in a better views for",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 1902,
+              "end": 2010
+            },
+            {
+              "page": 1,
+              "text": "customers for threat detection and a 30% reduction in response times.",
+              "block_id": "b30",
+              "kind": "text",
+              "start": 2012,
+              "end": 2081
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "Intranet Redesign – KLA",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Intranet Redesign – KLA",
+          "• Led the redesign  of the KLA Intranet, creating a centralized React platform that enhanced employee",
+          "collaboration and productivity."
+        ],
+        "raw_text": "Intranet Redesign – KLA\n• Led the redesign  of the KLA Intranet, creating a centralized React platform that enhanced employee\ncollaboration and productivity.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Intranet Redesign – KLA",
+              "block_id": "b31",
+              "kind": "text",
+              "start": 2083,
+              "end": 2106
+            },
+            {
+              "page": 1,
+              "text": "• Led the redesign  of the KLA Intranet, creating a centralized React platform that enhanced employee",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 2108,
+              "end": 2209
+            },
+            {
+              "page": 1,
+              "text": "collaboration and productivity.",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 2212,
+              "end": 2243
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_3",
+        "name": "KIRPATHAKKAR THAKKAR",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "KIRPATHAKKAR THAKKAR"
+        ],
+        "raw_text": "KIRPATHAKKAR THAKKAR",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "KIRPATHAKKAR THAKKAR",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 2245,
+              "end": 2265
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_4",
+        "name": "Emergent Learning & Collaboration  Platform – Leading Airport Group",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Emergent Learning & Collaboration  Platform – Leading Airport Group",
+          "• Built a digital platform  for airport employees, integrating social features, learning  modules, and live video",
+          "streaming to promote collaboration and knowledge sharing."
+        ],
+        "raw_text": "Emergent Learning & Collaboration  Platform – Leading Airport Group\n• Built a digital platform  for airport employees, integrating social features, learning  modules, and live video\nstreaming to promote collaboration and knowledge sharing.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Emergent Learning & Collaboration  Platform – Leading Airport Group",
+              "block_id": "b35",
+              "kind": "text",
+              "start": 2268,
+              "end": 2335
+            },
+            {
+              "page": 1,
+              "text": "• Built a digital platform  for airport employees, integrating social features, learning  modules, and live video",
+              "block_id": "b36",
+              "kind": "text",
+              "start": 2337,
+              "end": 2450
+            },
+            {
+              "page": 1,
+              "text": "streaming to promote collaboration and knowledge sharing.",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 2452,
+              "end": 2509
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_5",
+        "name": "Micro-  & Learning Collaborative Solution – Global  Insurance Company",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Micro-  & Learning Collaborative Solution – Global  Insurance Company",
+          "• Delivered a gamified micro-learning  solution using React, improving employee engagement  and retention."
+        ],
+        "raw_text": "Micro-  & Learning Collaborative Solution – Global  Insurance Company\n• Delivered a gamified micro-learning  solution using React, improving employee engagement  and retention.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Micro-  & Learning Collaborative Solution – Global  Insurance Company",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 2511,
+              "end": 2580
+            },
+            {
+              "page": 1,
+              "text": "• Delivered a gamified micro-learning  solution using React, improving employee engagement  and retention.",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 2582,
+              "end": 2688
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [],
+        "evidence": {
+          "note": "year-only dates need verification"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 3,
+      "total_events": 8,
+      "dated_share": 0.375,
+      "unresolved": 5,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.765,
+      "document_accuracy": 0.77
+    },
+    "total_represented_months": 132,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 1,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 1,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v741841190b4780c8",
+              "label": "Ltd. System Engineer",
+              "state": "year_range",
+              "start": [
+                2018,
+                1
+              ],
+              "end": [
+                2022,
+                12
+              ],
+              "months": null,
+              "raw": "2018 – 2022",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "TATA Consultancy Services  | Ltd. System Engineer | 2018 – 2022 (Gandhinagar)",
+                    "block_id": "b23",
+                    "kind": "text",
+                    "start": 1555,
+                    "end": 1632
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "2018 – 2022",
+                    "block_id": "b23",
+                    "kind": "text",
+                    "start": 1607,
+                    "end": 1618
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "TATA Consultancy Services",
+                    "block_id": "b23",
+                    "kind": "text",
+                    "start": 1555,
+                    "end": 1580
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Ltd. System Engineer",
+                    "block_id": "b23",
+                    "kind": "text",
+                    "start": 1584,
+                    "end": 1604
+                  }
+                ],
+                "section": "Professional Experience",
+                "date_label": "2018 – 2022",
+                "is_present": false
+              }
+            }
+          ]
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 5,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 5,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "proj_1",
+              "label": "Security  Analysis and Threat Detection  – IBM",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Security  Analysis and Threat Detection  – IBM",
+                    "block_id": "b28",
+                    "kind": "text",
+                    "start": 1855,
+                    "end": 1901
+                  },
+                  {
+                    "page": 1,
+                    "text": "• Optimized React-  based platform with Redux for improved state management, resulting in a better views for",
+                    "block_id": "b29",
+                    "kind": "text",
+                    "start": 1902,
+                    "end": 2010
+                  },
+                  {
+                    "page": 1,
+                    "text": "customers for threat detection and a 30% reduction in response times.",
+                    "block_id": "b30",
+                    "kind": "text",
+                    "start": 2012,
+                    "end": 2081
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_2",
+              "label": "Intranet Redesign – KLA",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Intranet Redesign – KLA",
+                    "block_id": "b31",
+                    "kind": "text",
+                    "start": 2083,
+                    "end": 2106
+                  },
+                  {
+                    "page": 1,
+                    "text": "• Led the redesign  of the KLA Intranet, creating a centralized React platform that enhanced employee",
+                    "block_id": "b32",
+                    "kind": "text",
+                    "start": 2108,
+                    "end": 2209
+                  },
+                  {
+                    "page": 1,
+                    "text": "collaboration and productivity.",
+                    "block_id": "b33",
+                    "kind": "text",
+                    "start": 2212,
+                    "end": 2243
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_3",
+              "label": "KIRPATHAKKAR THAKKAR",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "KIRPATHAKKAR THAKKAR",
+                    "block_id": "b34",
+                    "kind": "text",
+                    "start": 2245,
+                    "end": 2265
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_4",
+              "label": "Emergent Learning & Collaboration  Platform – Leading Airport Group",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Emergent Learning & Collaboration  Platform – Leading Airport Group",
+                    "block_id": "b35",
+                    "kind": "text",
+                    "start": 2268,
+                    "end": 2335
+                  },
+                  {
+                    "page": 1,
+                    "text": "• Built a digital platform  for airport employees, integrating social features, learning  modules, and live video",
+                    "block_id": "b36",
+                    "kind": "text",
+                    "start": 2337,
+                    "end": 2450
+                  },
+                  {
+                    "page": 1,
+                    "text": "streaming to promote collaboration and knowledge sharing.",
+                    "block_id": "b37",
+                    "kind": "text",
+                    "start": 2452,
+                    "end": 2509
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_5",
+              "label": "Micro-  & Learning Collaborative Solution – Global  Insurance Company",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Micro-  & Learning Collaborative Solution – Global  Insurance Company",
+                    "block_id": "b38",
+                    "kind": "text",
+                    "start": 2511,
+                    "end": 2580
+                  },
+                  {
+                    "page": 1,
+                    "text": "• Delivered a gamified micro-learning  solution using React, improving employee engagement  and retention.",
+                    "block_id": "b39",
+                    "kind": "text",
+                    "start": 2582,
+                    "end": 2688
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 2,
+          "dated_periods": 2,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 2,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "vc477b02426aa86fe",
+              "label": "Bachelor of Computer Application",
+              "state": "year_range",
+              "start": [
+                2012,
+                1
+              ],
+              "end": [
+                2015,
+                12
+              ],
+              "months": null,
+              "raw": "2012-2015",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Bachelor of Computer Application (8.84)",
+                    "block_id": "b43",
+                    "kind": "text",
+                    "start": 2817,
+                    "end": 2856
+                  },
+                  {
+                    "page": 1,
+                    "text": "Anand Mercantile College of Science and Computer Technology  | 2012-2015",
+                    "block_id": "b44",
+                    "kind": "text",
+                    "start": 2858,
+                    "end": 2930
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "2012-2015",
+                    "block_id": "b44",
+                    "kind": "text",
+                    "start": 2921,
+                    "end": 2930
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Anand Mercantile College of Science and Computer Technology",
+                    "block_id": "b44",
+                    "kind": "text",
+                    "start": 2858,
+                    "end": 2917
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Bachelor of Computer Application",
+                    "block_id": "b43",
+                    "kind": "text",
+                    "start": 2817,
+                    "end": 2849
+                  }
+                ],
+                "section": "Education",
+                "date_label": "2012-2015",
+                "is_present": false
+              }
+            },
+            {
+              "id": "vc5f033998986fb80",
+              "label": "Master of Computer Applications",
+              "state": "year_range",
+              "start": [
+                2015,
+                1
+              ],
+              "end": [
+                2018,
+                12
+              ],
+              "months": null,
+              "raw": "2015-  2018",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Master of Computer Applications (7.92)",
+                    "block_id": "b41",
+                    "kind": "text",
+                    "start": 2703,
+                    "end": 2741
+                  },
+                  {
+                    "page": 1,
+                    "text": "G H Patel P G Department of Computer Science and Technology | 2015-  2018",
+                    "block_id": "b42",
+                    "kind": "text",
+                    "start": 2743,
+                    "end": 2816
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "2015-  2018",
+                    "block_id": "b42",
+                    "kind": "text",
+                    "start": 2805,
+                    "end": 2816
+                  }
+                ],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Master of Computer Applications",
+                    "block_id": "b41",
+                    "kind": "text",
+                    "start": 2703,
+                    "end": 2734
+                  }
+                ],
+                "section": "Education",
+                "date_label": "2015-  2018",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 0,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 1,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 1,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v741841190b4780c8",
+            "label": "Ltd. System Engineer",
+            "state": "year_range",
+            "start": [
+              2018,
+              1
+            ],
+            "end": [
+              2022,
+              12
+            ],
+            "months": null,
+            "raw": "2018 – 2022",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "TATA Consultancy Services  | Ltd. System Engineer | 2018 – 2022 (Gandhinagar)",
+                  "block_id": "b23",
+                  "kind": "text",
+                  "start": 1555,
+                  "end": 1632
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "2018 – 2022",
+                  "block_id": "b23",
+                  "kind": "text",
+                  "start": 1607,
+                  "end": 1618
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "TATA Consultancy Services",
+                  "block_id": "b23",
+                  "kind": "text",
+                  "start": 1555,
+                  "end": 1580
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Ltd. System Engineer",
+                  "block_id": "b23",
+                  "kind": "text",
+                  "start": 1584,
+                  "end": 1604
+                }
+              ],
+              "section": "Professional Experience",
+              "date_label": "2018 – 2022",
+              "is_present": false
+            }
+          }
+        ]
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 5,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 5,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "proj_1",
+            "label": "Security  Analysis and Threat Detection  – IBM",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Security  Analysis and Threat Detection  – IBM",
+                  "block_id": "b28",
+                  "kind": "text",
+                  "start": 1855,
+                  "end": 1901
+                },
+                {
+                  "page": 1,
+                  "text": "• Optimized React-  based platform with Redux for improved state management, resulting in a better views for",
+                  "block_id": "b29",
+                  "kind": "text",
+                  "start": 1902,
+                  "end": 2010
+                },
+                {
+                  "page": 1,
+                  "text": "customers for threat detection and a 30% reduction in response times.",
+                  "block_id": "b30",
+                  "kind": "text",
+                  "start": 2012,
+                  "end": 2081
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_2",
+            "label": "Intranet Redesign – KLA",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Intranet Redesign – KLA",
+                  "block_id": "b31",
+                  "kind": "text",
+                  "start": 2083,
+                  "end": 2106
+                },
+                {
+                  "page": 1,
+                  "text": "• Led the redesign  of the KLA Intranet, creating a centralized React platform that enhanced employee",
+                  "block_id": "b32",
+                  "kind": "text",
+                  "start": 2108,
+                  "end": 2209
+                },
+                {
+                  "page": 1,
+                  "text": "collaboration and productivity.",
+                  "block_id": "b33",
+                  "kind": "text",
+                  "start": 2212,
+                  "end": 2243
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_3",
+            "label": "KIRPATHAKKAR THAKKAR",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "KIRPATHAKKAR THAKKAR",
+                  "block_id": "b34",
+                  "kind": "text",
+                  "start": 2245,
+                  "end": 2265
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_4",
+            "label": "Emergent Learning & Collaboration  Platform – Leading Airport Group",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Emergent Learning & Collaboration  Platform – Leading Airport Group",
+                  "block_id": "b35",
+                  "kind": "text",
+                  "start": 2268,
+                  "end": 2335
+                },
+                {
+                  "page": 1,
+                  "text": "• Built a digital platform  for airport employees, integrating social features, learning  modules, and live video",
+                  "block_id": "b36",
+                  "kind": "text",
+                  "start": 2337,
+                  "end": 2450
+                },
+                {
+                  "page": 1,
+                  "text": "streaming to promote collaboration and knowledge sharing.",
+                  "block_id": "b37",
+                  "kind": "text",
+                  "start": 2452,
+                  "end": 2509
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_5",
+            "label": "Micro-  & Learning Collaborative Solution – Global  Insurance Company",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Micro-  & Learning Collaborative Solution – Global  Insurance Company",
+                  "block_id": "b38",
+                  "kind": "text",
+                  "start": 2511,
+                  "end": 2580
+                },
+                {
+                  "page": 1,
+                  "text": "• Delivered a gamified micro-learning  solution using React, improving employee engagement  and retention.",
+                  "block_id": "b39",
+                  "kind": "text",
+                  "start": 2582,
+                  "end": 2688
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 2,
+        "dated_periods": 2,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 2,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "vc477b02426aa86fe",
+            "label": "Bachelor of Computer Application",
+            "state": "year_range",
+            "start": [
+              2012,
+              1
+            ],
+            "end": [
+              2015,
+              12
+            ],
+            "months": null,
+            "raw": "2012-2015",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Bachelor of Computer Application (8.84)",
+                  "block_id": "b43",
+                  "kind": "text",
+                  "start": 2817,
+                  "end": 2856
+                },
+                {
+                  "page": 1,
+                  "text": "Anand Mercantile College of Science and Computer Technology  | 2012-2015",
+                  "block_id": "b44",
+                  "kind": "text",
+                  "start": 2858,
+                  "end": 2930
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "2012-2015",
+                  "block_id": "b44",
+                  "kind": "text",
+                  "start": 2921,
+                  "end": 2930
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Anand Mercantile College of Science and Computer Technology",
+                  "block_id": "b44",
+                  "kind": "text",
+                  "start": 2858,
+                  "end": 2917
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Bachelor of Computer Application",
+                  "block_id": "b43",
+                  "kind": "text",
+                  "start": 2817,
+                  "end": 2849
+                }
+              ],
+              "section": "Education",
+              "date_label": "2012-2015",
+              "is_present": false
+            }
+          },
+          {
+            "id": "vc5f033998986fb80",
+            "label": "Master of Computer Applications",
+            "state": "year_range",
+            "start": [
+              2015,
+              1
+            ],
+            "end": [
+              2018,
+              12
+            ],
+            "months": null,
+            "raw": "2015-  2018",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Master of Computer Applications (7.92)",
+                  "block_id": "b41",
+                  "kind": "text",
+                  "start": 2703,
+                  "end": 2741
+                },
+                {
+                  "page": 1,
+                  "text": "G H Patel P G Department of Computer Science and Technology | 2015-  2018",
+                  "block_id": "b42",
+                  "kind": "text",
+                  "start": 2743,
+                  "end": 2816
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "2015-  2018",
+                  "block_id": "b42",
+                  "kind": "text",
+                  "start": 2805,
+                  "end": 2816
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Master of Computer Applications",
+                  "block_id": "b41",
+                  "kind": "text",
+                  "start": 2703,
+                  "end": 2734
+                }
+              ],
+              "section": "Education",
+              "date_label": "2015-  2018",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 0,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

@@ -1,0 +1,851 @@
+{
+  "file_name": "Sumitkumar[4y_3m].pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "0ddcee670f50b58a911cb1fcd91bcae671e41ad6342f9508830d17c46ea49f71",
+  "doc_id": "0ddcee670f50b58a911cb1fc",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 0,
+    "total_events": 2,
+    "dated_share": 0.0,
+    "unresolved": 2,
+    "ambiguous": 0,
+    "mean_event_confidence": null,
+    "document_accuracy": 0.85
+  },
+  "work_experience": [
+    {
+      "id": "v4453472ccd38ac5e",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Associate",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Associate",
+            "block_id": "b41",
+            "kind": "text",
+            "start": 1500,
+            "end": 1509
+          }
+        ],
+        "dates": [],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Associate",
+            "block_id": "b41",
+            "kind": "text",
+            "start": 1500,
+            "end": 1509
+          }
+        ],
+        "section": "Work Experience",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    }
+  ],
+  "education": [
+    {
+      "id": "ve75d22490e8902e2",
+      "type": "EDUCATION",
+      "company": "Haldia Institute of Technology",
+      "title": "",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Haldia Institute of Technology, Haldia",
+            "block_id": "b66",
+            "kind": "text",
+            "start": 1823,
+            "end": 1861
+          }
+        ],
+        "dates": [],
+        "company": [
+          {
+            "page": 1,
+            "text": "Haldia Institute of Technology",
+            "block_id": "b66",
+            "kind": "text",
+            "start": 1823,
+            "end": 1853
+          }
+        ],
+        "title": [],
+        "section": "Haldia Institute of Technology, Haldia",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "Project Engineer",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Wipro Enterprises",
+        "Design and implement scalable solutions for clients.",
+        "Provided technical expertise in designing, developing, and implementing",
+        "the business requirement.",
+        "Responsible for Workfront Core and Workfront Fusion Scenario Business",
+        "requirement."
+      ],
+      "raw_text": "Project Engineer",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project Engineer",
+            "block_id": "b15",
+            "kind": "text",
+            "start": 362,
+            "end": 378
+          },
+          {
+            "page": 1,
+            "text": "Wipro Enterprises",
+            "block_id": "b16",
+            "kind": "text",
+            "start": 379,
+            "end": 396
+          },
+          {
+            "page": 1,
+            "text": "Design and implement scalable solutions for clients.",
+            "block_id": "b17",
+            "kind": "text",
+            "start": 397,
+            "end": 449
+          },
+          {
+            "page": 1,
+            "text": "Provided technical expertise in designing, developing, and implementing",
+            "block_id": "b18",
+            "kind": "text",
+            "start": 450,
+            "end": 521
+          },
+          {
+            "page": 1,
+            "text": "the business requirement.",
+            "block_id": "b19",
+            "kind": "text",
+            "start": 522,
+            "end": 547
+          },
+          {
+            "page": 1,
+            "text": "Responsible for Workfront Core and Workfront Fusion Scenario Business",
+            "block_id": "b20",
+            "kind": "text",
+            "start": 548,
+            "end": 617
+          },
+          {
+            "page": 1,
+            "text": "requirement.",
+            "block_id": "b21",
+            "kind": "text",
+            "start": 618,
+            "end": 630
+          }
+        ]
+      }
+    }
+  ],
+  "gaps": [],
+  "total_work_experience_entries": 1,
+  "total_projects_entries": 1,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "PARTIAL",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "PARTIAL",
+    "coverage_analysis": "PARTIAL",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "section EDUCATION: entry without dated header preserved as-is",
+    "no dated events to order",
+    "no intervals to cover"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "0ddcee670f50b58a911cb1fc",
+    "filename": "Sumitkumar[4y_3m].pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [],
+    "unresolved_events": [
+      {
+        "id": "v4453472ccd38ac5e",
+        "type": "EMPLOYMENT",
+        "title": "Associate",
+        "org": "",
+        "entry_text": "Associate Publicis RESOURCES Design and implement scalable solutions.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Associate",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 1500,
+              "end": 1509
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Associate",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 1500,
+              "end": 1509
+            }
+          ],
+          "section": "Work Experience",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Work Experience",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "ve75d22490e8902e2",
+        "type": "EDUCATION",
+        "title": "",
+        "org": "Haldia Institute of Technology",
+        "entry_text": "Haldia Institute of Technology, Haldia",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Haldia Institute of Technology, Haldia",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 1823,
+              "end": 1861
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "Haldia Institute of Technology",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 1823,
+              "end": 1853
+            }
+          ],
+          "title": [],
+          "section": "Haldia Institute of Technology, Haldia",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Haldia Institute of Technology, Haldia",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "Project Engineer",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Wipro Enterprises",
+          "Design and implement scalable solutions for clients.",
+          "Provided technical expertise in designing, developing, and implementing",
+          "the business requirement.",
+          "Responsible for Workfront Core and Workfront Fusion Scenario Business",
+          "requirement."
+        ],
+        "raw_text": "Project Engineer",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project Engineer",
+              "block_id": "b15",
+              "kind": "text",
+              "start": 362,
+              "end": 378
+            },
+            {
+              "page": 1,
+              "text": "Wipro Enterprises",
+              "block_id": "b16",
+              "kind": "text",
+              "start": 379,
+              "end": 396
+            },
+            {
+              "page": 1,
+              "text": "Design and implement scalable solutions for clients.",
+              "block_id": "b17",
+              "kind": "text",
+              "start": 397,
+              "end": 449
+            },
+            {
+              "page": 1,
+              "text": "Provided technical expertise in designing, developing, and implementing",
+              "block_id": "b18",
+              "kind": "text",
+              "start": 450,
+              "end": 521
+            },
+            {
+              "page": 1,
+              "text": "the business requirement.",
+              "block_id": "b19",
+              "kind": "text",
+              "start": 522,
+              "end": 547
+            },
+            {
+              "page": 1,
+              "text": "Responsible for Workfront Core and Workfront Fusion Scenario Business",
+              "block_id": "b20",
+              "kind": "text",
+              "start": 548,
+              "end": 617
+            },
+            {
+              "page": 1,
+              "text": "requirement.",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 618,
+              "end": 630
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "v4453472ccd38ac5e"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 0,
+      "total_events": 2,
+      "dated_share": 0.0,
+      "unresolved": 2,
+      "ambiguous": 0,
+      "mean_event_confidence": null,
+      "document_accuracy": 0.85
+    },
+    "total_represented_months": 0,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "PARTIAL",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "PARTIAL",
+        "confidence": 0.3
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 1,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v4453472ccd38ac5e",
+              "label": "Associate",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Associate",
+                    "block_id": "b41",
+                    "kind": "text",
+                    "start": 1500,
+                    "end": 1509
+                  }
+                ],
+                "dates": [],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Associate",
+                    "block_id": "b41",
+                    "kind": "text",
+                    "start": 1500,
+                    "end": 1509
+                  }
+                ],
+                "section": "Work Experience",
+                "date_label": "",
+                "is_present": false
+              }
+            }
+          ]
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 1,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "proj_1",
+              "label": "Project Engineer",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Project Engineer",
+                    "block_id": "b15",
+                    "kind": "text",
+                    "start": 362,
+                    "end": 378
+                  },
+                  {
+                    "page": 1,
+                    "text": "Wipro Enterprises",
+                    "block_id": "b16",
+                    "kind": "text",
+                    "start": 379,
+                    "end": 396
+                  },
+                  {
+                    "page": 1,
+                    "text": "Design and implement scalable solutions for clients.",
+                    "block_id": "b17",
+                    "kind": "text",
+                    "start": 397,
+                    "end": 449
+                  },
+                  {
+                    "page": 1,
+                    "text": "Provided technical expertise in designing, developing, and implementing",
+                    "block_id": "b18",
+                    "kind": "text",
+                    "start": 450,
+                    "end": 521
+                  },
+                  {
+                    "page": 1,
+                    "text": "the business requirement.",
+                    "block_id": "b19",
+                    "kind": "text",
+                    "start": 522,
+                    "end": 547
+                  },
+                  {
+                    "page": 1,
+                    "text": "Responsible for Workfront Core and Workfront Fusion Scenario Business",
+                    "block_id": "b20",
+                    "kind": "text",
+                    "start": 548,
+                    "end": 617
+                  },
+                  {
+                    "page": 1,
+                    "text": "requirement.",
+                    "block_id": "b21",
+                    "kind": "text",
+                    "start": 618,
+                    "end": 630
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 1,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "ve75d22490e8902e2",
+              "label": "Haldia Institute of Technology",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Haldia Institute of Technology, Haldia",
+                    "block_id": "b66",
+                    "kind": "text",
+                    "start": 1823,
+                    "end": 1861
+                  }
+                ],
+                "dates": [],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Haldia Institute of Technology",
+                    "block_id": "b66",
+                    "kind": "text",
+                    "start": 1823,
+                    "end": 1853
+                  }
+                ],
+                "title": [],
+                "section": "Haldia Institute of Technology, Haldia",
+                "date_label": "",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 0,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 1,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v4453472ccd38ac5e",
+            "label": "Associate",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Associate",
+                  "block_id": "b41",
+                  "kind": "text",
+                  "start": 1500,
+                  "end": 1509
+                }
+              ],
+              "dates": [],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Associate",
+                  "block_id": "b41",
+                  "kind": "text",
+                  "start": 1500,
+                  "end": 1509
+                }
+              ],
+              "section": "Work Experience",
+              "date_label": "",
+              "is_present": false
+            }
+          }
+        ]
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 1,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "proj_1",
+            "label": "Project Engineer",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Project Engineer",
+                  "block_id": "b15",
+                  "kind": "text",
+                  "start": 362,
+                  "end": 378
+                },
+                {
+                  "page": 1,
+                  "text": "Wipro Enterprises",
+                  "block_id": "b16",
+                  "kind": "text",
+                  "start": 379,
+                  "end": 396
+                },
+                {
+                  "page": 1,
+                  "text": "Design and implement scalable solutions for clients.",
+                  "block_id": "b17",
+                  "kind": "text",
+                  "start": 397,
+                  "end": 449
+                },
+                {
+                  "page": 1,
+                  "text": "Provided technical expertise in designing, developing, and implementing",
+                  "block_id": "b18",
+                  "kind": "text",
+                  "start": 450,
+                  "end": 521
+                },
+                {
+                  "page": 1,
+                  "text": "the business requirement.",
+                  "block_id": "b19",
+                  "kind": "text",
+                  "start": 522,
+                  "end": 547
+                },
+                {
+                  "page": 1,
+                  "text": "Responsible for Workfront Core and Workfront Fusion Scenario Business",
+                  "block_id": "b20",
+                  "kind": "text",
+                  "start": 548,
+                  "end": 617
+                },
+                {
+                  "page": 1,
+                  "text": "requirement.",
+                  "block_id": "b21",
+                  "kind": "text",
+                  "start": 618,
+                  "end": 630
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 1,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "ve75d22490e8902e2",
+            "label": "Haldia Institute of Technology",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Haldia Institute of Technology, Haldia",
+                  "block_id": "b66",
+                  "kind": "text",
+                  "start": 1823,
+                  "end": 1861
+                }
+              ],
+              "dates": [],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Haldia Institute of Technology",
+                  "block_id": "b66",
+                  "kind": "text",
+                  "start": 1823,
+                  "end": 1853
+                }
+              ],
+              "title": [],
+              "section": "Haldia Institute of Technology, Haldia",
+              "date_label": "",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 0,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

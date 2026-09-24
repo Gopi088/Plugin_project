@@ -1,0 +1,646 @@
+{
+  "file_name": "SHWETA SHARMA_1.docx",
+  "input_mode": "text_snapshot",
+  "input_sha256": "bc507487b58b22a08a03dd8a5d116ec71f22cba06bd58f491a647215d576bb19",
+  "doc_id": "bc507487b58b22a08a03dd8a",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 2,
+    "dated_share": 0.5,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.722,
+    "document_accuracy": 0.7
+  },
+  "work_experience": [
+    {
+      "id": "vf774d2139a5250c8",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Google Generative Al Leader",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Google Generative Al Leader, ACE — Alfresco Certified Engineer, AZ-900 — Azure Fundamentals, Kubernetes (Udemy)",
+            "block_id": "b28",
+            "kind": "text",
+            "start": 4043,
+            "end": 4154
+          }
+        ],
+        "dates": [],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Google Generative Al Leader",
+            "block_id": "b28",
+            "kind": "text",
+            "start": 4043,
+            "end": 4070
+          }
+        ],
+        "section": "Senior Software Developer, Accenture\t04/2019 – 10/2021 | Pune Engineered scalable search solutions using Java-backed Solr/Elasticsearch for an ECM system managing over 5 million documents.",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    }
+  ],
+  "education": [
+    {
+      "id": "ve6cee50f0d4cedbb",
+      "type": "EDUCATION",
+      "company": "Nagpur University",
+      "title": "Bachelor of Engineering",
+      "start_date": "2011-01",
+      "end_date": "2015-12",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.722,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Bachelor of Engineering (BE), Nagpur University\t2011 – 2015",
+            "block_id": "b29",
+            "kind": "text",
+            "start": 4155,
+            "end": 4214
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2011 – 2015",
+            "block_id": "b29",
+            "kind": "text",
+            "start": 4203,
+            "end": 4214
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Nagpur University",
+            "block_id": "b29",
+            "kind": "text",
+            "start": 4185,
+            "end": 4202
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Bachelor of Engineering",
+            "block_id": "b29",
+            "kind": "text",
+            "start": 4155,
+            "end": 4178
+          }
+        ],
+        "section": "Bachelor of Engineering (BE), Nagpur University\t2011 – 2015",
+        "date_label": "2011 – 2015",
+        "is_present": false
+      },
+      "precision": "year",
+      "date_label": "2011 – 2015"
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 1,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "PARTIAL",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [],
+  "raw_pipeline_dto": {
+    "doc_id": "bc507487b58b22a08a03dd8a",
+    "filename": "SHWETA SHARMA_1.docx",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "ve6cee50f0d4cedbb",
+        "type": "EDUCATION",
+        "title": "Bachelor of Engineering",
+        "org": "Nagpur University",
+        "start": "2011-01",
+        "end": "2015-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.722,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "Bachelor of Engineering (BE), Nagpur University\t2011 – 2015",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor of Engineering (BE), Nagpur University\t2011 – 2015",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 4155,
+              "end": 4214
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2011 – 2015",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 4203,
+              "end": 4214
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Nagpur University",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 4185,
+              "end": 4202
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Engineering",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 4155,
+              "end": 4178
+            }
+          ],
+          "section": "Bachelor of Engineering (BE), Nagpur University\t2011 – 2015",
+          "date_label": "2011 – 2015",
+          "is_present": false
+        },
+        "date_label": "2011 – 2015",
+        "section": "Bachelor of Engineering (BE), Nagpur University\t2011 – 2015",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "vf774d2139a5250c8",
+        "type": "EMPLOYMENT",
+        "title": "Google Generative Al Leader",
+        "org": "",
+        "entry_text": "Google Generative Al Leader, ACE — Alfresco Certified Engineer, AZ-900 — Azure Fundamentals, Kubernetes (Udemy)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Google Generative Al Leader, ACE — Alfresco Certified Engineer, AZ-900 — Azure Fundamentals, Kubernetes (Udemy)",
+              "block_id": "b28",
+              "kind": "text",
+              "start": 4043,
+              "end": 4154
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Google Generative Al Leader",
+              "block_id": "b28",
+              "kind": "text",
+              "start": 4043,
+              "end": 4070
+            }
+          ],
+          "section": "Senior Software Developer, Accenture\t04/2019 – 10/2021 | Pune Engineered scalable search solutions using Java-backed Solr/Elasticsearch for an ECM system managing over 5 million documents.",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Senior Software Developer, Accenture\t04/2019 – 10/2021 | Pune Engineered scalable search solutions using Java-backed Solr/Elasticsearch for an ECM system managing over 5 million documents.",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "vf774d2139a5250c8"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 2,
+      "dated_share": 0.5,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.722,
+      "document_accuracy": 0.7
+    },
+    "total_represented_months": 60,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 1,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "vf774d2139a5250c8",
+              "label": "Google Generative Al Leader",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Google Generative Al Leader, ACE — Alfresco Certified Engineer, AZ-900 — Azure Fundamentals, Kubernetes (Udemy)",
+                    "block_id": "b28",
+                    "kind": "text",
+                    "start": 4043,
+                    "end": 4154
+                  }
+                ],
+                "dates": [],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Google Generative Al Leader",
+                    "block_id": "b28",
+                    "kind": "text",
+                    "start": 4043,
+                    "end": 4070
+                  }
+                ],
+                "section": "Senior Software Developer, Accenture\t04/2019 – 10/2021 | Pune Engineered scalable search solutions using Java-backed Solr/Elasticsearch for an ECM system managing over 5 million documents.",
+                "date_label": "",
+                "is_present": false
+              }
+            }
+          ]
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 1,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 1,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "ve6cee50f0d4cedbb",
+              "label": "Bachelor of Engineering",
+              "state": "year_range",
+              "start": [
+                2011,
+                1
+              ],
+              "end": [
+                2015,
+                12
+              ],
+              "months": null,
+              "raw": "2011 – 2015",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Bachelor of Engineering (BE), Nagpur University\t2011 – 2015",
+                    "block_id": "b29",
+                    "kind": "text",
+                    "start": 4155,
+                    "end": 4214
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "2011 – 2015",
+                    "block_id": "b29",
+                    "kind": "text",
+                    "start": 4203,
+                    "end": 4214
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Nagpur University",
+                    "block_id": "b29",
+                    "kind": "text",
+                    "start": 4185,
+                    "end": 4202
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Bachelor of Engineering",
+                    "block_id": "b29",
+                    "kind": "text",
+                    "start": 4155,
+                    "end": 4178
+                  }
+                ],
+                "section": "Bachelor of Engineering (BE), Nagpur University\t2011 – 2015",
+                "date_label": "2011 – 2015",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 0,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 1,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "vf774d2139a5250c8",
+            "label": "Google Generative Al Leader",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Google Generative Al Leader, ACE — Alfresco Certified Engineer, AZ-900 — Azure Fundamentals, Kubernetes (Udemy)",
+                  "block_id": "b28",
+                  "kind": "text",
+                  "start": 4043,
+                  "end": 4154
+                }
+              ],
+              "dates": [],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Google Generative Al Leader",
+                  "block_id": "b28",
+                  "kind": "text",
+                  "start": 4043,
+                  "end": 4070
+                }
+              ],
+              "section": "Senior Software Developer, Accenture\t04/2019 – 10/2021 | Pune Engineered scalable search solutions using Java-backed Solr/Elasticsearch for an ECM system managing over 5 million documents.",
+              "date_label": "",
+              "is_present": false
+            }
+          }
+        ]
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 1,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 1,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "ve6cee50f0d4cedbb",
+            "label": "Bachelor of Engineering",
+            "state": "year_range",
+            "start": [
+              2011,
+              1
+            ],
+            "end": [
+              2015,
+              12
+            ],
+            "months": null,
+            "raw": "2011 – 2015",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Bachelor of Engineering (BE), Nagpur University\t2011 – 2015",
+                  "block_id": "b29",
+                  "kind": "text",
+                  "start": 4155,
+                  "end": 4214
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "2011 – 2015",
+                  "block_id": "b29",
+                  "kind": "text",
+                  "start": 4203,
+                  "end": 4214
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Nagpur University",
+                  "block_id": "b29",
+                  "kind": "text",
+                  "start": 4185,
+                  "end": 4202
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Bachelor of Engineering",
+                  "block_id": "b29",
+                  "kind": "text",
+                  "start": 4155,
+                  "end": 4178
+                }
+              ],
+              "section": "Bachelor of Engineering (BE), Nagpur University\t2011 – 2015",
+              "date_label": "2011 – 2015",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 0,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

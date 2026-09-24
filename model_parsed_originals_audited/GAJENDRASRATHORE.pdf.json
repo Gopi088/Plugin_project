@@ -1,0 +1,388 @@
+{
+  "file_name": "GAJENDRASRATHORE.pdf",
+  "input_mode": "original_document",
+  "input_sha256": "be67d2f315b68262c0f83f886c51a1d5b1d3b2319b7d4a87d227a82233846818",
+  "doc_id": "be67d2f315b68262c0f83f88",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 0,
+    "total_events": 2,
+    "dated_share": 0.0,
+    "unresolved": 2,
+    "ambiguous": 0,
+    "mean_event_confidence": null
+  },
+  "work_experience": [
+    {
+      "id": "v0b18c25f14bad553",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Sr. Technical Program Manager",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 4,
+            "text": "(Sr. Technical Program Manager)",
+            "block_id": "b135",
+            "kind": "pdf",
+            "page_width": 612,
+            "page_height": 792,
+            "bbox": [
+              231.68,
+              106.30499999999995,
+              380.94212,
+              117.28499999999997
+            ],
+            "fragment_text": "(Sr. Technical Program Manager)"
+          }
+        ],
+        "dates": [
+          {
+            "page": 4,
+            "text": "2015",
+            "block_id": "b147",
+            "kind": "pdf",
+            "page_width": 612,
+            "page_height": 792,
+            "bbox": [
+              432.53092,
+              294.305,
+              454.79836,
+              305.285
+            ]
+          },
+          {
+            "page": 4,
+            "text": "2021",
+            "block_id": "b147",
+            "kind": "pdf",
+            "page_width": 612,
+            "page_height": 792,
+            "bbox": [
+              523.3843,
+              294.305,
+              545.65174,
+              305.285
+            ]
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 4,
+            "text": "Sr. Technical Program Manager",
+            "block_id": "b135",
+            "kind": "pdf",
+            "page_width": 612,
+            "page_height": 792,
+            "bbox": [
+              235.10576,
+              106.30499999999995,
+              377.51636,
+              117.28499999999997
+            ],
+            "fragment_text": "Sr. Technical Program Manager"
+          }
+        ],
+        "section": "WORK HISTORY",
+        "date_label": "",
+        "is_present": false
+      }
+    },
+    {
+      "id": "v34b1e5bc809b6766",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Manager",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 4,
+            "text": "Manager",
+            "block_id": "b159",
+            "kind": "pdf",
+            "page_width": 612,
+            "page_height": 792,
+            "bbox": [
+              231.68,
+              509.84499999999997,
+              271.8668,
+              520.825
+            ]
+          }
+        ],
+        "dates": [],
+        "company": [],
+        "title": [
+          {
+            "page": 4,
+            "text": "Manager",
+            "block_id": "b159",
+            "kind": "pdf",
+            "page_width": 612,
+            "page_height": 792,
+            "bbox": [
+              231.68,
+              509.84499999999997,
+              271.8668,
+              520.825
+            ]
+          }
+        ],
+        "section": "WORK HISTORY",
+        "date_label": "",
+        "is_present": false
+      }
+    }
+  ],
+  "education": [],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 2,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "PARTIAL",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "PARTIAL",
+    "coverage_analysis": "PARTIAL",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "raw_pipeline_dto": {
+    "doc_id": "be67d2f315b68262c0f83f88",
+    "filename": "GAJENDRASRATHORE.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [],
+    "unresolved_events": [
+      {
+        "id": "v0b18c25f14bad553",
+        "type": "EMPLOYMENT",
+        "title": "Sr. Technical Program Manager",
+        "org": "",
+        "entry_text": "(Sr. Technical Program Manager) • Lead enterprise-scale Data, AI, and Digital Transformation programs across public-sector and regulated environments. • Govern Open Source FIWARE and Azure-based Data Platform Modernization and AI/ML initiatives including architecture validation, roadmap alignment, a",
+        "source": {
+          "entry": [
+            {
+              "page": 4,
+              "text": "(Sr. Technical Program Manager)",
+              "block_id": "b135",
+              "kind": "pdf",
+              "page_width": 612,
+              "page_height": 792,
+              "bbox": [
+                231.68,
+                106.30499999999995,
+                380.94212,
+                117.28499999999997
+              ],
+              "fragment_text": "(Sr. Technical Program Manager)"
+            }
+          ],
+          "dates": [
+            {
+              "page": 4,
+              "text": "2015",
+              "block_id": "b147",
+              "kind": "pdf",
+              "page_width": 612,
+              "page_height": 792,
+              "bbox": [
+                432.53092,
+                294.305,
+                454.79836,
+                305.285
+              ]
+            },
+            {
+              "page": 4,
+              "text": "2021",
+              "block_id": "b147",
+              "kind": "pdf",
+              "page_width": 612,
+              "page_height": 792,
+              "bbox": [
+                523.3843,
+                294.305,
+                545.65174,
+                305.285
+              ]
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 4,
+              "text": "Sr. Technical Program Manager",
+              "block_id": "b135",
+              "kind": "pdf",
+              "page_width": 612,
+              "page_height": 792,
+              "bbox": [
+                235.10576,
+                106.30499999999995,
+                377.51636,
+                117.28499999999997
+              ],
+              "fragment_text": "Sr. Technical Program Manager"
+            }
+          ],
+          "section": "WORK HISTORY",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "WORK HISTORY",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v34b1e5bc809b6766",
+        "type": "EMPLOYMENT",
+        "title": "Manager",
+        "org": "",
+        "entry_text": "Manager",
+        "source": {
+          "entry": [
+            {
+              "page": 4,
+              "text": "Manager",
+              "block_id": "b159",
+              "kind": "pdf",
+              "page_width": 612,
+              "page_height": 792,
+              "bbox": [
+                231.68,
+                509.84499999999997,
+                271.8668,
+                520.825
+              ]
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 4,
+              "text": "Manager",
+              "block_id": "b159",
+              "kind": "pdf",
+              "page_width": 612,
+              "page_height": 792,
+              "bbox": [
+                231.68,
+                509.84499999999997,
+                271.8668,
+                520.825
+              ]
+            }
+          ],
+          "section": "WORK HISTORY",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "WORK HISTORY",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "v0b18c25f14bad553",
+            "v34b1e5bc809b6766"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 0,
+      "total_events": 2,
+      "dated_share": 0.0,
+      "unresolved": 2,
+      "ambiguous": 0,
+      "mean_event_confidence": null
+    },
+    "total_represented_months": 0,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "PARTIAL",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "PARTIAL",
+        "confidence": 0.3
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

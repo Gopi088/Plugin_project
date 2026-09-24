@@ -8,6 +8,8 @@ import unittest
 from pathlib import Path
 from tests import test_e2e as api_harness
 
+ROOT = Path(__file__).resolve().parents[1]
+
 CHROME = shutil.which('google-chrome')
 if CHROME:
     try:

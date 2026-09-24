@@ -1,0 +1,1565 @@
+{
+  "file_name": "NishaPatil.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "76095cd41680924e3dc38ec3db38507f2d4e4a40144ba0152bea365f853072d4",
+  "doc_id": "76095cd41680924e3dc38ec3",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 4,
+    "dated_share": 0.5,
+    "unresolved": 2,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "va08997e4c5064309",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Tax Associate",
+      "start_date": "2022-06",
+      "end_date": "2023-06",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Tax Associate",
+            "block_id": "b25",
+            "kind": "text",
+            "start": 1559,
+            "end": 1572
+          },
+          {
+            "page": 1,
+            "text": "Jun 2022 – Jun 2023",
+            "block_id": "b26",
+            "kind": "text",
+            "start": 1574,
+            "end": 1593
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Jun 2022 – Jun 2023",
+            "block_id": "b26",
+            "kind": "text",
+            "start": 1574,
+            "end": 1593
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Tax Associate",
+            "block_id": "b25",
+            "kind": "text",
+            "start": 1559,
+            "end": 1572
+          }
+        ],
+        "section": "PROFESSIONAL EXPERIENCE",
+        "date_label": "Jun 2022 – Jun 2023",
+        "is_present": false
+      },
+      "precision": "month",
+      "date_label": "Jun 2022 – Jun 2023"
+    },
+    {
+      "id": "v6b4c856a68804366",
+      "type": "EMPLOYMENT",
+      "company": "Middle Office Solutions",
+      "title": "Operations Analyst",
+      "start_date": "2024-02",
+      "end_date": "2026-09",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Operations Analyst – Middle Office Solutions (Trade Operations)",
+            "block_id": "b12",
+            "kind": "text",
+            "start": 743,
+            "end": 806
+          },
+          {
+            "page": 1,
+            "text": "Feb 2024 – Present",
+            "block_id": "b13",
+            "kind": "text",
+            "start": 808,
+            "end": 826
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Feb 2024 – Present",
+            "block_id": "b13",
+            "kind": "text",
+            "start": 808,
+            "end": 826
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Middle Office Solutions",
+            "block_id": "b12",
+            "kind": "text",
+            "start": 764,
+            "end": 787
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Operations Analyst",
+            "block_id": "b12",
+            "kind": "text",
+            "start": 743,
+            "end": 761
+          }
+        ],
+        "section": "PROFESSIONAL EXPERIENCE",
+        "date_label": "Feb 2024 – Present",
+        "is_present": true
+      },
+      "precision": "month",
+      "date_label": "Feb 2024 – Present"
+    }
+  ],
+  "education": [
+    {
+      "id": "vf407e5f7ae93cb53",
+      "type": "EDUCATION",
+      "company": "Mumbai University",
+      "title": "MBA",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "MBA – MMS (Finance)",
+            "block_id": "b46",
+            "kind": "text",
+            "start": 2395,
+            "end": 2414
+          },
+          {
+            "page": 1,
+            "text": "Mumbai University | 2022",
+            "block_id": "b47",
+            "kind": "text",
+            "start": 2416,
+            "end": 2440
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2022",
+            "block_id": "b47",
+            "kind": "text",
+            "start": 2436,
+            "end": 2440
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Mumbai University",
+            "block_id": "b47",
+            "kind": "text",
+            "start": 2416,
+            "end": 2433
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "MBA",
+            "block_id": "b46",
+            "kind": "text",
+            "start": 2395,
+            "end": 2398
+          }
+        ],
+        "section": "EDUCATION",
+        "date_label": "2022",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": "2022"
+    },
+    {
+      "id": "ve581e5c32b7afe00",
+      "type": "EDUCATION",
+      "company": "Mumbai University",
+      "title": "Bachelor of Commerce",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Bachelor of Commerce – Accounting & Finance (B.Com-BAF)",
+            "block_id": "b48",
+            "kind": "text",
+            "start": 2442,
+            "end": 2497
+          },
+          {
+            "page": 1,
+            "text": "Mumbai University | 2020",
+            "block_id": "b49",
+            "kind": "text",
+            "start": 2499,
+            "end": 2523
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2020",
+            "block_id": "b49",
+            "kind": "text",
+            "start": 2519,
+            "end": 2523
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Mumbai University",
+            "block_id": "b49",
+            "kind": "text",
+            "start": 2499,
+            "end": 2516
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Bachelor of Commerce",
+            "block_id": "b48",
+            "kind": "text",
+            "start": 2442,
+            "end": 2462
+          }
+        ],
+        "section": "EDUCATION",
+        "date_label": "2020",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": "2020"
+    }
+  ],
+  "projects": [],
+  "gaps": [
+    {
+      "id": "g2c2ef47295a8ec30",
+      "start": [
+        2023,
+        7
+      ],
+      "end": [
+        2024,
+        1
+      ],
+      "months": 7,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9,
+      "reasons": [
+        "GAP_NO_COVERAGE"
+      ],
+      "evidence": {
+        "event_before": "va08997e4c5064309",
+        "event_after": "v6b4c856a68804366",
+        "coverage_scope": "employment",
+        "unplaced_activity_ids": [
+          "vf407e5f7ae93cb53",
+          "ve581e5c32b7afe00"
+        ]
+      },
+      "start_label": "2023-07",
+      "end_label": "2024-01",
+      "evidence_quotes": [
+        "Tax Associate Jun 2022 – Jun 2023",
+        "Operations Analyst – Middle Office Solutions (Trade Operations) Feb 2024 – Present"
+      ],
+      "evidence_details": [
+        {
+          "header": "Tax Associate",
+          "quote": "Tax Associate Jun 2022 – Jun 2023",
+          "event_id": "va08997e4c5064309",
+          "source": {
+            "entry": [
+              {
+                "page": 1,
+                "text": "Tax Associate",
+                "block_id": "b25",
+                "kind": "text",
+                "start": 1559,
+                "end": 1572
+              },
+              {
+                "page": 1,
+                "text": "Jun 2022 – Jun 2023",
+                "block_id": "b26",
+                "kind": "text",
+                "start": 1574,
+                "end": 1593
+              }
+            ],
+            "dates": [
+              {
+                "page": 1,
+                "text": "Jun 2022 – Jun 2023",
+                "block_id": "b26",
+                "kind": "text",
+                "start": 1574,
+                "end": 1593
+              }
+            ],
+            "company": [],
+            "title": [
+              {
+                "page": 1,
+                "text": "Tax Associate",
+                "block_id": "b25",
+                "kind": "text",
+                "start": 1559,
+                "end": 1572
+              }
+            ],
+            "section": "PROFESSIONAL EXPERIENCE",
+            "date_label": "Jun 2022 – Jun 2023",
+            "is_present": false
+          }
+        },
+        {
+          "header": "Operations Analyst at Middle Office Solutions",
+          "quote": "Operations Analyst – Middle Office Solutions (Trade Operations) Feb 2024 – Present",
+          "event_id": "v6b4c856a68804366",
+          "source": {
+            "entry": [
+              {
+                "page": 1,
+                "text": "Operations Analyst – Middle Office Solutions (Trade Operations)",
+                "block_id": "b12",
+                "kind": "text",
+                "start": 743,
+                "end": 806
+              },
+              {
+                "page": 1,
+                "text": "Feb 2024 – Present",
+                "block_id": "b13",
+                "kind": "text",
+                "start": 808,
+                "end": 826
+              }
+            ],
+            "dates": [
+              {
+                "page": 1,
+                "text": "Feb 2024 – Present",
+                "block_id": "b13",
+                "kind": "text",
+                "start": 808,
+                "end": 826
+              }
+            ],
+            "company": [
+              {
+                "page": 1,
+                "text": "Middle Office Solutions",
+                "block_id": "b12",
+                "kind": "text",
+                "start": 764,
+                "end": 787
+              }
+            ],
+            "title": [
+              {
+                "page": 1,
+                "text": "Operations Analyst",
+                "block_id": "b12",
+                "kind": "text",
+                "start": 743,
+                "end": 761
+              }
+            ],
+            "section": "PROFESSIONAL EXPERIENCE",
+            "date_label": "Feb 2024 – Present",
+            "is_present": true
+          }
+        }
+      ]
+    }
+  ],
+  "total_work_experience_entries": 2,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 1,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "e2: dates cannot be assigned unambiguously",
+    "e3: dates cannot be assigned unambiguously",
+    "conflicting/ambiguous date kept for 'MBA'",
+    "conflicting/ambiguous date kept for 'Bachelor of Commerce'"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "76095cd41680924e3dc38ec3",
+    "filename": "NishaPatil.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "va08997e4c5064309",
+        "type": "EMPLOYMENT",
+        "title": "Tax Associate",
+        "org": "",
+        "start": "2022-06",
+        "end": "2023-06",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Tax Associate\nJun 2022 – Jun 2023",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Tax Associate",
+              "block_id": "b25",
+              "kind": "text",
+              "start": 1559,
+              "end": 1572
+            },
+            {
+              "page": 1,
+              "text": "Jun 2022 – Jun 2023",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 1574,
+              "end": 1593
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jun 2022 – Jun 2023",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 1574,
+              "end": 1593
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Tax Associate",
+              "block_id": "b25",
+              "kind": "text",
+              "start": 1559,
+              "end": 1572
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Jun 2022 – Jun 2023",
+          "is_present": false
+        },
+        "date_label": "Jun 2022 – Jun 2023",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v6b4c856a68804366",
+        "type": "EMPLOYMENT",
+        "title": "Operations Analyst",
+        "org": "Middle Office Solutions",
+        "start": "2024-02",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Operations Analyst – Middle Office Solutions (Trade Operations)\nFeb 2024 – Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Operations Analyst – Middle Office Solutions (Trade Operations)",
+              "block_id": "b12",
+              "kind": "text",
+              "start": 743,
+              "end": 806
+            },
+            {
+              "page": 1,
+              "text": "Feb 2024 – Present",
+              "block_id": "b13",
+              "kind": "text",
+              "start": 808,
+              "end": 826
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Feb 2024 – Present",
+              "block_id": "b13",
+              "kind": "text",
+              "start": 808,
+              "end": 826
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Middle Office Solutions",
+              "block_id": "b12",
+              "kind": "text",
+              "start": 764,
+              "end": 787
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Operations Analyst",
+              "block_id": "b12",
+              "kind": "text",
+              "start": 743,
+              "end": 761
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Feb 2024 – Present",
+          "is_present": true
+        },
+        "date_label": "Feb 2024 – Present",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "vf407e5f7ae93cb53",
+        "type": "EDUCATION",
+        "title": "MBA",
+        "org": "Mumbai University",
+        "entry_text": "MBA – MMS (Finance) Mumbai University | 2022",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "MBA – MMS (Finance)",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 2395,
+              "end": 2414
+            },
+            {
+              "page": 1,
+              "text": "Mumbai University | 2022",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 2416,
+              "end": 2440
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2022",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 2436,
+              "end": 2440
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Mumbai University",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 2416,
+              "end": 2433
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "MBA",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 2395,
+              "end": 2398
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2022",
+          "is_present": false
+        },
+        "date_label": "2022",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      },
+      {
+        "id": "ve581e5c32b7afe00",
+        "type": "EDUCATION",
+        "title": "Bachelor of Commerce",
+        "org": "Mumbai University",
+        "entry_text": "Bachelor of Commerce – Accounting & Finance (B.Com-BAF) Mumbai University | 2020 TECHNICAL PROFICIENCIES & LANGUAGES Platforms: CTM (DTCC), Traiana, MTM Trade Affirmation, NYFIX, Tradeweb TRAX, Deal Manager, AxEo, Markit MS Excel: VLOOKUP, INDEX-MATCH, Pivot Tables, Conditional Formatting, Data Vali",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor of Commerce – Accounting & Finance (B.Com-BAF)",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 2442,
+              "end": 2497
+            },
+            {
+              "page": 1,
+              "text": "Mumbai University | 2020",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 2499,
+              "end": 2523
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2020",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 2519,
+              "end": 2523
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Mumbai University",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 2499,
+              "end": 2516
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Commerce",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 2442,
+              "end": 2462
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2020",
+          "is_present": false
+        },
+        "date_label": "2020",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g2c2ef47295a8ec30",
+        "start": [
+          2023,
+          7
+        ],
+        "end": [
+          2024,
+          1
+        ],
+        "months": 7,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "va08997e4c5064309",
+          "event_after": "v6b4c856a68804366",
+          "coverage_scope": "employment",
+          "unplaced_activity_ids": [
+            "vf407e5f7ae93cb53",
+            "ve581e5c32b7afe00"
+          ]
+        },
+        "start_label": "2023-07",
+        "end_label": "2024-01",
+        "evidence_quotes": [
+          "Tax Associate Jun 2022 – Jun 2023",
+          "Operations Analyst – Middle Office Solutions (Trade Operations) Feb 2024 – Present"
+        ],
+        "evidence_details": [
+          {
+            "header": "Tax Associate",
+            "quote": "Tax Associate Jun 2022 – Jun 2023",
+            "event_id": "va08997e4c5064309",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Tax Associate",
+                  "block_id": "b25",
+                  "kind": "text",
+                  "start": 1559,
+                  "end": 1572
+                },
+                {
+                  "page": 1,
+                  "text": "Jun 2022 – Jun 2023",
+                  "block_id": "b26",
+                  "kind": "text",
+                  "start": 1574,
+                  "end": 1593
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Jun 2022 – Jun 2023",
+                  "block_id": "b26",
+                  "kind": "text",
+                  "start": 1574,
+                  "end": 1593
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Tax Associate",
+                  "block_id": "b25",
+                  "kind": "text",
+                  "start": 1559,
+                  "end": 1572
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "Jun 2022 – Jun 2023",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Operations Analyst at Middle Office Solutions",
+            "quote": "Operations Analyst – Middle Office Solutions (Trade Operations) Feb 2024 – Present",
+            "event_id": "v6b4c856a68804366",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Operations Analyst – Middle Office Solutions (Trade Operations)",
+                  "block_id": "b12",
+                  "kind": "text",
+                  "start": 743,
+                  "end": 806
+                },
+                {
+                  "page": 1,
+                  "text": "Feb 2024 – Present",
+                  "block_id": "b13",
+                  "kind": "text",
+                  "start": 808,
+                  "end": 826
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Feb 2024 – Present",
+                  "block_id": "b13",
+                  "kind": "text",
+                  "start": 808,
+                  "end": 826
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Middle Office Solutions",
+                  "block_id": "b12",
+                  "kind": "text",
+                  "start": 764,
+                  "end": 787
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Operations Analyst",
+                  "block_id": "b12",
+                  "kind": "text",
+                  "start": 743,
+                  "end": 761
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "Feb 2024 – Present",
+              "is_present": true
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 4,
+      "dated_share": 0.5,
+      "unresolved": 2,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 45,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": true,
+          "unrepresented_periods_in_category": [
+            {
+              "start": [
+                2023,
+                7
+              ],
+              "end": [
+                2024,
+                1
+              ],
+              "months": 7
+            }
+          ],
+          "entries": 2,
+          "dated_periods": 2,
+          "represented_months": 45,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 2,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "va08997e4c5064309",
+              "label": "Tax Associate",
+              "state": "month_range",
+              "start": [
+                2022,
+                6
+              ],
+              "end": [
+                2023,
+                6
+              ],
+              "months": 13,
+              "raw": "Jun 2022 – Jun 2023",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Tax Associate",
+                    "block_id": "b25",
+                    "kind": "text",
+                    "start": 1559,
+                    "end": 1572
+                  },
+                  {
+                    "page": 1,
+                    "text": "Jun 2022 – Jun 2023",
+                    "block_id": "b26",
+                    "kind": "text",
+                    "start": 1574,
+                    "end": 1593
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "Jun 2022 – Jun 2023",
+                    "block_id": "b26",
+                    "kind": "text",
+                    "start": 1574,
+                    "end": 1593
+                  }
+                ],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Tax Associate",
+                    "block_id": "b25",
+                    "kind": "text",
+                    "start": 1559,
+                    "end": 1572
+                  }
+                ],
+                "section": "PROFESSIONAL EXPERIENCE",
+                "date_label": "Jun 2022 – Jun 2023",
+                "is_present": false
+              }
+            },
+            {
+              "id": "v6b4c856a68804366",
+              "label": "Operations Analyst",
+              "state": "month_range",
+              "start": [
+                2024,
+                2
+              ],
+              "end": [
+                2026,
+                9
+              ],
+              "months": 32,
+              "raw": "Feb 2024 – Present",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Operations Analyst – Middle Office Solutions (Trade Operations)",
+                    "block_id": "b12",
+                    "kind": "text",
+                    "start": 743,
+                    "end": 806
+                  },
+                  {
+                    "page": 1,
+                    "text": "Feb 2024 – Present",
+                    "block_id": "b13",
+                    "kind": "text",
+                    "start": 808,
+                    "end": 826
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "Feb 2024 – Present",
+                    "block_id": "b13",
+                    "kind": "text",
+                    "start": 808,
+                    "end": 826
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Middle Office Solutions",
+                    "block_id": "b12",
+                    "kind": "text",
+                    "start": 764,
+                    "end": 787
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Operations Analyst",
+                    "block_id": "b12",
+                    "kind": "text",
+                    "start": 743,
+                    "end": 761
+                  }
+                ],
+                "section": "PROFESSIONAL EXPERIENCE",
+                "date_label": "Feb 2024 – Present",
+                "is_present": true
+              }
+            }
+          ]
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 2,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 2,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "vf407e5f7ae93cb53",
+              "label": "MBA",
+              "state": "single_date",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "2022",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "MBA – MMS (Finance)",
+                    "block_id": "b46",
+                    "kind": "text",
+                    "start": 2395,
+                    "end": 2414
+                  },
+                  {
+                    "page": 1,
+                    "text": "Mumbai University | 2022",
+                    "block_id": "b47",
+                    "kind": "text",
+                    "start": 2416,
+                    "end": 2440
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "2022",
+                    "block_id": "b47",
+                    "kind": "text",
+                    "start": 2436,
+                    "end": 2440
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Mumbai University",
+                    "block_id": "b47",
+                    "kind": "text",
+                    "start": 2416,
+                    "end": 2433
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "MBA",
+                    "block_id": "b46",
+                    "kind": "text",
+                    "start": 2395,
+                    "end": 2398
+                  }
+                ],
+                "section": "EDUCATION",
+                "date_label": "2022",
+                "is_present": false
+              }
+            },
+            {
+              "id": "ve581e5c32b7afe00",
+              "label": "Bachelor of Commerce",
+              "state": "single_date",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "2020",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Bachelor of Commerce – Accounting & Finance (B.Com-BAF)",
+                    "block_id": "b48",
+                    "kind": "text",
+                    "start": 2442,
+                    "end": 2497
+                  },
+                  {
+                    "page": 1,
+                    "text": "Mumbai University | 2020",
+                    "block_id": "b49",
+                    "kind": "text",
+                    "start": 2499,
+                    "end": 2523
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "2020",
+                    "block_id": "b49",
+                    "kind": "text",
+                    "start": 2519,
+                    "end": 2523
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Mumbai University",
+                    "block_id": "b49",
+                    "kind": "text",
+                    "start": 2499,
+                    "end": 2516
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Bachelor of Commerce",
+                    "block_id": "b48",
+                    "kind": "text",
+                    "start": 2442,
+                    "end": 2462
+                  }
+                ],
+                "section": "EDUCATION",
+                "date_label": "2020",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 45,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": true,
+        "unrepresented_periods_in_category": [
+          {
+            "start": [
+              2023,
+              7
+            ],
+            "end": [
+              2024,
+              1
+            ],
+            "months": 7
+          }
+        ],
+        "entries": 2,
+        "dated_periods": 2,
+        "represented_months": 45,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 2,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "va08997e4c5064309",
+            "label": "Tax Associate",
+            "state": "month_range",
+            "start": [
+              2022,
+              6
+            ],
+            "end": [
+              2023,
+              6
+            ],
+            "months": 13,
+            "raw": "Jun 2022 – Jun 2023",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Tax Associate",
+                  "block_id": "b25",
+                  "kind": "text",
+                  "start": 1559,
+                  "end": 1572
+                },
+                {
+                  "page": 1,
+                  "text": "Jun 2022 – Jun 2023",
+                  "block_id": "b26",
+                  "kind": "text",
+                  "start": 1574,
+                  "end": 1593
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Jun 2022 – Jun 2023",
+                  "block_id": "b26",
+                  "kind": "text",
+                  "start": 1574,
+                  "end": 1593
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Tax Associate",
+                  "block_id": "b25",
+                  "kind": "text",
+                  "start": 1559,
+                  "end": 1572
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "Jun 2022 – Jun 2023",
+              "is_present": false
+            }
+          },
+          {
+            "id": "v6b4c856a68804366",
+            "label": "Operations Analyst",
+            "state": "month_range",
+            "start": [
+              2024,
+              2
+            ],
+            "end": [
+              2026,
+              9
+            ],
+            "months": 32,
+            "raw": "Feb 2024 – Present",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Operations Analyst – Middle Office Solutions (Trade Operations)",
+                  "block_id": "b12",
+                  "kind": "text",
+                  "start": 743,
+                  "end": 806
+                },
+                {
+                  "page": 1,
+                  "text": "Feb 2024 – Present",
+                  "block_id": "b13",
+                  "kind": "text",
+                  "start": 808,
+                  "end": 826
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Feb 2024 – Present",
+                  "block_id": "b13",
+                  "kind": "text",
+                  "start": 808,
+                  "end": 826
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Middle Office Solutions",
+                  "block_id": "b12",
+                  "kind": "text",
+                  "start": 764,
+                  "end": 787
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Operations Analyst",
+                  "block_id": "b12",
+                  "kind": "text",
+                  "start": 743,
+                  "end": 761
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "Feb 2024 – Present",
+              "is_present": true
+            }
+          }
+        ]
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 2,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 2,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "vf407e5f7ae93cb53",
+            "label": "MBA",
+            "state": "single_date",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "2022",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "MBA – MMS (Finance)",
+                  "block_id": "b46",
+                  "kind": "text",
+                  "start": 2395,
+                  "end": 2414
+                },
+                {
+                  "page": 1,
+                  "text": "Mumbai University | 2022",
+                  "block_id": "b47",
+                  "kind": "text",
+                  "start": 2416,
+                  "end": 2440
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "2022",
+                  "block_id": "b47",
+                  "kind": "text",
+                  "start": 2436,
+                  "end": 2440
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Mumbai University",
+                  "block_id": "b47",
+                  "kind": "text",
+                  "start": 2416,
+                  "end": 2433
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "MBA",
+                  "block_id": "b46",
+                  "kind": "text",
+                  "start": 2395,
+                  "end": 2398
+                }
+              ],
+              "section": "EDUCATION",
+              "date_label": "2022",
+              "is_present": false
+            }
+          },
+          {
+            "id": "ve581e5c32b7afe00",
+            "label": "Bachelor of Commerce",
+            "state": "single_date",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "2020",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Bachelor of Commerce – Accounting & Finance (B.Com-BAF)",
+                  "block_id": "b48",
+                  "kind": "text",
+                  "start": 2442,
+                  "end": 2497
+                },
+                {
+                  "page": 1,
+                  "text": "Mumbai University | 2020",
+                  "block_id": "b49",
+                  "kind": "text",
+                  "start": 2499,
+                  "end": 2523
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "2020",
+                  "block_id": "b49",
+                  "kind": "text",
+                  "start": 2519,
+                  "end": 2523
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Mumbai University",
+                  "block_id": "b49",
+                  "kind": "text",
+                  "start": 2499,
+                  "end": 2516
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Bachelor of Commerce",
+                  "block_id": "b48",
+                  "kind": "text",
+                  "start": 2442,
+                  "end": 2462
+                }
+              ],
+              "section": "EDUCATION",
+              "date_label": "2020",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 45,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

@@ -1,0 +1,406 @@
+{
+  "file_name": "Kumar Suraj.pdf",
+  "input_mode": "original_document",
+  "input_sha256": "9e2f1daa25ca10f6e6e34f58ed72417956562ceee6d65ed29d904bf6ffe40b5d",
+  "doc_id": "9e2f1daa25ca10f6e6e34f58",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 2,
+    "dated_share": 0.5,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "ocr_pages": []
+  },
+  "work_experience": [
+    {
+      "id": "v1537e6b901674265",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Java Full Stack Developer",
+      "start_date": "2021-11",
+      "end_date": "2025-12",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Java Full Stack Developer |Nov 2021 – Dec 2025",
+            "block_id": "b23",
+            "kind": "pdf",
+            "page_width": 595.32,
+            "page_height": 841.92,
+            "bbox": [
+              40.56,
+              525.1899999999999,
+              496.228,
+              537.67
+            ],
+            "fragment_text": "Java Full Stack Developer |Nov 2021 – Dec 2025"
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Nov 2021 – Dec 2025",
+            "block_id": "b23",
+            "kind": "pdf",
+            "page_width": 595.32,
+            "page_height": 841.92,
+            "bbox": [
+              378.3600000000007,
+              525.1899999999999,
+              496.228,
+              537.67
+            ],
+            "fragment_text": "Nov 2021 – Dec 2025"
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Java Full Stack Developer",
+            "block_id": "b23",
+            "kind": "pdf",
+            "page_width": 595.32,
+            "page_height": 841.92,
+            "bbox": [
+              40.56,
+              525.1899999999999,
+              188.49599999999998,
+              537.1899999999999
+            ]
+          }
+        ],
+        "section": "Professional Experience",
+        "date_label": "Nov 2021 – Dec 2025",
+        "is_present": false
+      }
+    }
+  ],
+  "education": [
+    {
+      "id": "v0768cba14969112c",
+      "type": "EDUCATION",
+      "company": "Dr.A.P.J. Abdul Kalam University",
+      "title": "B.Tech in Computer Science and Engineering",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 2,
+            "text": "B.Tech in Computer Science and Engineering, Dr.A.P.J. Abdul Kalam University, Lucknow",
+            "block_id": "b65",
+            "kind": "pdf",
+            "page_width": 595.32,
+            "page_height": 841.92,
+            "bbox": [
+              41.04,
+              639.0999999999999,
+              515.3280000000003,
+              651.0999999999999
+            ],
+            "fragment_text": "B.Tech in Computer Science and Engineering, Dr.A.P.J. Abdul Kalam University, Lucknow"
+          }
+        ],
+        "dates": [],
+        "company": [
+          {
+            "page": 2,
+            "text": "Dr.A.P.J. Abdul Kalam University",
+            "block_id": "b65",
+            "kind": "pdf",
+            "page_width": 595.32,
+            "page_height": 841.92,
+            "bbox": [
+              289.692,
+              639.0999999999999,
+              462.1560000000002,
+              651.0999999999999
+            ],
+            "fragment_text": "Dr.A.P.J. Abdul Kalam University"
+          }
+        ],
+        "title": [
+          {
+            "page": 2,
+            "text": "B.Tech in Computer Science and Engineering",
+            "block_id": "b65",
+            "kind": "pdf",
+            "page_width": 595.32,
+            "page_height": 841.92,
+            "bbox": [
+              41.04,
+              639.0999999999999,
+              283.08,
+              651.0999999999999
+            ],
+            "fragment_text": "B.Tech in Computer Science and Engineering"
+          }
+        ],
+        "section": "Education",
+        "date_label": "",
+        "is_present": false
+      }
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 1,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "PARTIAL",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [],
+  "raw_pipeline_dto": {
+    "doc_id": "9e2f1daa25ca10f6e6e34f58",
+    "filename": "Kumar Suraj.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "v1537e6b901674265",
+        "type": "EMPLOYMENT",
+        "title": "Java Full Stack Developer",
+        "org": "",
+        "start": "2021-11",
+        "end": "2025-12",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Java Full Stack Developer |Nov 2021 – Dec 2025",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Java Full Stack Developer |Nov 2021 – Dec 2025",
+              "block_id": "b23",
+              "kind": "pdf",
+              "page_width": 595.32,
+              "page_height": 841.92,
+              "bbox": [
+                40.56,
+                525.1899999999999,
+                496.228,
+                537.67
+              ],
+              "fragment_text": "Java Full Stack Developer |Nov 2021 – Dec 2025"
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Nov 2021 – Dec 2025",
+              "block_id": "b23",
+              "kind": "pdf",
+              "page_width": 595.32,
+              "page_height": 841.92,
+              "bbox": [
+                378.3600000000007,
+                525.1899999999999,
+                496.228,
+                537.67
+              ],
+              "fragment_text": "Nov 2021 – Dec 2025"
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Java Full Stack Developer",
+              "block_id": "b23",
+              "kind": "pdf",
+              "page_width": 595.32,
+              "page_height": 841.92,
+              "bbox": [
+                40.56,
+                525.1899999999999,
+                188.49599999999998,
+                537.1899999999999
+              ]
+            }
+          ],
+          "section": "Professional Experience",
+          "date_label": "Nov 2021 – Dec 2025",
+          "is_present": false
+        },
+        "date_label": "Nov 2021 – Dec 2025",
+        "section": "Professional Experience",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v0768cba14969112c",
+        "type": "EDUCATION",
+        "title": "B.Tech in Computer Science and Engineering",
+        "org": "Dr.A.P.J. Abdul Kalam University",
+        "entry_text": "B.Tech in Computer Science and Engineering, Dr.A.P.J. Abdul Kalam University, Lucknow Additional Highlights • Experience designing scalable distributed systems with Load Balancer, Cache, and API Gateway. • Strong knowledge of Microservices best practices, and circuit breaker patterns. • Worked in Ag",
+        "source": {
+          "entry": [
+            {
+              "page": 2,
+              "text": "B.Tech in Computer Science and Engineering, Dr.A.P.J. Abdul Kalam University, Lucknow",
+              "block_id": "b65",
+              "kind": "pdf",
+              "page_width": 595.32,
+              "page_height": 841.92,
+              "bbox": [
+                41.04,
+                639.0999999999999,
+                515.3280000000003,
+                651.0999999999999
+              ],
+              "fragment_text": "B.Tech in Computer Science and Engineering, Dr.A.P.J. Abdul Kalam University, Lucknow"
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 2,
+              "text": "Dr.A.P.J. Abdul Kalam University",
+              "block_id": "b65",
+              "kind": "pdf",
+              "page_width": 595.32,
+              "page_height": 841.92,
+              "bbox": [
+                289.692,
+                639.0999999999999,
+                462.1560000000002,
+                651.0999999999999
+              ],
+              "fragment_text": "Dr.A.P.J. Abdul Kalam University"
+            }
+          ],
+          "title": [
+            {
+              "page": 2,
+              "text": "B.Tech in Computer Science and Engineering",
+              "block_id": "b65",
+              "kind": "pdf",
+              "page_width": 595.32,
+              "page_height": 841.92,
+              "bbox": [
+                41.04,
+                639.0999999999999,
+                283.08,
+                651.0999999999999
+              ],
+              "fragment_text": "B.Tech in Computer Science and Engineering"
+            }
+          ],
+          "section": "Education",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Education",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 2,
+      "dated_share": 0.5,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "ocr_pages": []
+    },
+    "total_represented_months": 50,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

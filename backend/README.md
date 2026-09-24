@@ -1,6 +1,6 @@
 # Backend — Resume Timeline & Gap Detection API
 
-Stdlib only (`http.server` + `sqlite3`). No framework to install.
+HTTP and storage use the standard library (`http.server` + `sqlite3`). Document extraction requires `requirements.txt`; optional local Tesseract handles scanned PDF pages and antiword handles legacy DOC files.
 
 ## Run
 

@@ -1,0 +1,239 @@
+{
+  "file_name": "Bhagyasree Dey (1).pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "735d736e69013ea9380930e5fcc71cd5327069493e23538275df8ab0398b8c6e",
+  "doc_id": "735d736e69013ea9380930e5",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 0,
+    "total_events": 1,
+    "dated_share": 0.0,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": null,
+    "ocr_pages": []
+  },
+  "work_experience": [],
+  "education": [
+    {
+      "id": "vd9f0ce32a960e512",
+      "type": "EDUCATION",
+      "company": "Pune University",
+      "title": "",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "SCDL, Pune University, Bengaluru",
+            "block_id": "b184",
+            "kind": "text",
+            "start": 8538,
+            "end": 8570
+          },
+          {
+            "page": 1,
+            "text": "RamMohan College, Calcutta",
+            "block_id": "b186",
+            "kind": "text",
+            "start": 8599,
+            "end": 8625
+          },
+          {
+            "page": 1,
+            "text": "University, Kolkata",
+            "block_id": "b187",
+            "kind": "text",
+            "start": 8626,
+            "end": 8645
+          }
+        ],
+        "dates": [],
+        "company": [
+          {
+            "page": 1,
+            "text": "Pune University",
+            "block_id": "b184",
+            "kind": "text",
+            "start": 8544,
+            "end": 8559
+          }
+        ],
+        "title": [],
+        "section": "Education",
+        "date_label": "",
+        "is_present": false
+      }
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 0,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "PARTIAL",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "PARTIAL",
+    "coverage_analysis": "PARTIAL",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "section EDUCATION: entry without dated header preserved as-is",
+    "no dated events to order",
+    "no intervals to cover"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "735d736e69013ea9380930e5",
+    "filename": "Bhagyasree Dey (1).pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [],
+    "unresolved_events": [
+      {
+        "id": "vd9f0ce32a960e512",
+        "type": "EDUCATION",
+        "title": "",
+        "org": "Pune University",
+        "entry_text": "SCDL, Pune University, Bengaluru RamMohan College, Calcutta University, Kolkata",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "SCDL, Pune University, Bengaluru",
+              "block_id": "b184",
+              "kind": "text",
+              "start": 8538,
+              "end": 8570
+            },
+            {
+              "page": 1,
+              "text": "RamMohan College, Calcutta",
+              "block_id": "b186",
+              "kind": "text",
+              "start": 8599,
+              "end": 8625
+            },
+            {
+              "page": 1,
+              "text": "University, Kolkata",
+              "block_id": "b187",
+              "kind": "text",
+              "start": 8626,
+              "end": 8645
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "Pune University",
+              "block_id": "b184",
+              "kind": "text",
+              "start": 8544,
+              "end": 8559
+            }
+          ],
+          "title": [],
+          "section": "Education",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Education",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 0,
+      "total_events": 1,
+      "dated_share": 0.0,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": null,
+      "ocr_pages": []
+    },
+    "total_represented_months": 0,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "PARTIAL",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "PARTIAL",
+        "confidence": 0.3
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

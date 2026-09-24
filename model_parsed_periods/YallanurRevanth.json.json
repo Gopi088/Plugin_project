@@ -1,0 +1,975 @@
+{
+  "file_name": "YallanurRevanth.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "463abfa85fb2fe0926f5a122efd51acee6c860efe88f1223e6114685ec8884da",
+  "doc_id": "463abfa85fb2fe0926f5a122",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 2,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v8afcbc599997b6ab",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Systems Engineer",
+      "start_date": "2022-02",
+      "end_date": "2026-09",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Systems Engineer | Feb 2022 – Present",
+            "block_id": "b11",
+            "kind": "text",
+            "start": 662,
+            "end": 699
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Feb 2022 – Present",
+            "block_id": "b11",
+            "kind": "text",
+            "start": 681,
+            "end": 699
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Systems Engineer",
+            "block_id": "b11",
+            "kind": "text",
+            "start": 662,
+            "end": 678
+          }
+        ],
+        "section": "PROFESSIONAL EXPERIENCE",
+        "date_label": "Feb 2022 – Present",
+        "is_present": true
+      },
+      "precision": "month",
+      "date_label": "Feb 2022 – Present"
+    }
+  ],
+  "education": [
+    {
+      "id": "vdae8378c08c1cfea",
+      "type": "EDUCATION",
+      "company": "R.N.S Institute of Technology",
+      "title": "Bachelor of Engineering",
+      "start_date": "2017-08",
+      "end_date": "2021-06",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Bachelor of Engineering (Electrical & Electronics Engineering)",
+            "block_id": "b31",
+            "kind": "text",
+            "start": 2011,
+            "end": 2073
+          },
+          {
+            "page": 1,
+            "text": "R.N.S Institute of Technology, Bengaluru | Aug 2017 – Jun 2021",
+            "block_id": "b32",
+            "kind": "text",
+            "start": 2075,
+            "end": 2137
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Aug 2017 – Jun 2021",
+            "block_id": "b32",
+            "kind": "text",
+            "start": 2118,
+            "end": 2137
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "R.N.S Institute of Technology",
+            "block_id": "b32",
+            "kind": "text",
+            "start": 2075,
+            "end": 2104
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Bachelor of Engineering",
+            "block_id": "b31",
+            "kind": "text",
+            "start": 2011,
+            "end": 2034
+          }
+        ],
+        "section": "EDUCATION",
+        "date_label": "Aug 2017 – Jun 2021",
+        "is_present": false
+      },
+      "precision": "month",
+      "date_label": "Aug 2017 – Jun 2021"
+    }
+  ],
+  "projects": [],
+  "gaps": [
+    {
+      "id": "gc2283a5630a10e8d",
+      "start": [
+        2021,
+        7
+      ],
+      "end": [
+        2022,
+        1
+      ],
+      "months": 7,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9,
+      "reasons": [
+        "GAP_NO_COVERAGE"
+      ],
+      "evidence": {
+        "event_before": "vdae8378c08c1cfea",
+        "event_after": "v8afcbc599997b6ab",
+        "coverage_scope": "all_dated_activity",
+        "unplaced_activity_ids": []
+      },
+      "start_label": "2021-07",
+      "end_label": "2022-01",
+      "evidence_quotes": [
+        "Bachelor of Engineering (Electrical & Electronics Engineering) R.N.S Institute of Technology, Bengaluru | Aug 2017 – Jun 2021",
+        "Systems Engineer | Feb 2022 – Present"
+      ],
+      "evidence_details": [
+        {
+          "header": "Bachelor of Engineering at R.N.S Institute of Technology",
+          "quote": "Bachelor of Engineering (Electrical & Electronics Engineering) R.N.S Institute of Technology, Bengaluru | Aug 2017 – Jun 2021",
+          "event_id": "vdae8378c08c1cfea",
+          "source": {
+            "entry": [
+              {
+                "page": 1,
+                "text": "Bachelor of Engineering (Electrical & Electronics Engineering)",
+                "block_id": "b31",
+                "kind": "text",
+                "start": 2011,
+                "end": 2073
+              },
+              {
+                "page": 1,
+                "text": "R.N.S Institute of Technology, Bengaluru | Aug 2017 – Jun 2021",
+                "block_id": "b32",
+                "kind": "text",
+                "start": 2075,
+                "end": 2137
+              }
+            ],
+            "dates": [
+              {
+                "page": 1,
+                "text": "Aug 2017 – Jun 2021",
+                "block_id": "b32",
+                "kind": "text",
+                "start": 2118,
+                "end": 2137
+              }
+            ],
+            "company": [
+              {
+                "page": 1,
+                "text": "R.N.S Institute of Technology",
+                "block_id": "b32",
+                "kind": "text",
+                "start": 2075,
+                "end": 2104
+              }
+            ],
+            "title": [
+              {
+                "page": 1,
+                "text": "Bachelor of Engineering",
+                "block_id": "b31",
+                "kind": "text",
+                "start": 2011,
+                "end": 2034
+              }
+            ],
+            "section": "EDUCATION",
+            "date_label": "Aug 2017 – Jun 2021",
+            "is_present": false
+          }
+        },
+        {
+          "header": "Systems Engineer",
+          "quote": "Systems Engineer | Feb 2022 – Present",
+          "event_id": "v8afcbc599997b6ab",
+          "source": {
+            "entry": [
+              {
+                "page": 1,
+                "text": "Systems Engineer | Feb 2022 – Present",
+                "block_id": "b11",
+                "kind": "text",
+                "start": 662,
+                "end": 699
+              }
+            ],
+            "dates": [
+              {
+                "page": 1,
+                "text": "Feb 2022 – Present",
+                "block_id": "b11",
+                "kind": "text",
+                "start": 681,
+                "end": 699
+              }
+            ],
+            "company": [],
+            "title": [
+              {
+                "page": 1,
+                "text": "Systems Engineer",
+                "block_id": "b11",
+                "kind": "text",
+                "start": 662,
+                "end": 678
+              }
+            ],
+            "section": "PROFESSIONAL EXPERIENCE",
+            "date_label": "Feb 2022 – Present",
+            "is_present": true
+          }
+        }
+      ]
+    }
+  ],
+  "total_work_experience_entries": 1,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 1,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [],
+  "raw_pipeline_dto": {
+    "doc_id": "463abfa85fb2fe0926f5a122",
+    "filename": "YallanurRevanth.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "vdae8378c08c1cfea",
+        "type": "EDUCATION",
+        "title": "Bachelor of Engineering",
+        "org": "R.N.S Institute of Technology",
+        "start": "2017-08",
+        "end": "2021-06",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "Bachelor of Engineering (Electrical & Electronics Engineering)\nR.N.S Institute of Technology, Bengaluru | Aug 2017 – Jun 2021",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor of Engineering (Electrical & Electronics Engineering)",
+              "block_id": "b31",
+              "kind": "text",
+              "start": 2011,
+              "end": 2073
+            },
+            {
+              "page": 1,
+              "text": "R.N.S Institute of Technology, Bengaluru | Aug 2017 – Jun 2021",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 2075,
+              "end": 2137
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Aug 2017 – Jun 2021",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 2118,
+              "end": 2137
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "R.N.S Institute of Technology",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 2075,
+              "end": 2104
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Engineering",
+              "block_id": "b31",
+              "kind": "text",
+              "start": 2011,
+              "end": 2034
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "Aug 2017 – Jun 2021",
+          "is_present": false
+        },
+        "date_label": "Aug 2017 – Jun 2021",
+        "section": "EDUCATION",
+        "is_present": false
+      },
+      {
+        "id": "v8afcbc599997b6ab",
+        "type": "EMPLOYMENT",
+        "title": "Systems Engineer",
+        "org": "",
+        "start": "2022-02",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Systems Engineer | Feb 2022 – Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Systems Engineer | Feb 2022 – Present",
+              "block_id": "b11",
+              "kind": "text",
+              "start": 662,
+              "end": 699
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Feb 2022 – Present",
+              "block_id": "b11",
+              "kind": "text",
+              "start": 681,
+              "end": 699
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Systems Engineer",
+              "block_id": "b11",
+              "kind": "text",
+              "start": 662,
+              "end": 678
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Feb 2022 – Present",
+          "is_present": true
+        },
+        "date_label": "Feb 2022 – Present",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "gc2283a5630a10e8d",
+        "start": [
+          2021,
+          7
+        ],
+        "end": [
+          2022,
+          1
+        ],
+        "months": 7,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "vdae8378c08c1cfea",
+          "event_after": "v8afcbc599997b6ab",
+          "coverage_scope": "all_dated_activity",
+          "unplaced_activity_ids": []
+        },
+        "start_label": "2021-07",
+        "end_label": "2022-01",
+        "evidence_quotes": [
+          "Bachelor of Engineering (Electrical & Electronics Engineering) R.N.S Institute of Technology, Bengaluru | Aug 2017 – Jun 2021",
+          "Systems Engineer | Feb 2022 – Present"
+        ],
+        "evidence_details": [
+          {
+            "header": "Bachelor of Engineering at R.N.S Institute of Technology",
+            "quote": "Bachelor of Engineering (Electrical & Electronics Engineering) R.N.S Institute of Technology, Bengaluru | Aug 2017 – Jun 2021",
+            "event_id": "vdae8378c08c1cfea",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Bachelor of Engineering (Electrical & Electronics Engineering)",
+                  "block_id": "b31",
+                  "kind": "text",
+                  "start": 2011,
+                  "end": 2073
+                },
+                {
+                  "page": 1,
+                  "text": "R.N.S Institute of Technology, Bengaluru | Aug 2017 – Jun 2021",
+                  "block_id": "b32",
+                  "kind": "text",
+                  "start": 2075,
+                  "end": 2137
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Aug 2017 – Jun 2021",
+                  "block_id": "b32",
+                  "kind": "text",
+                  "start": 2118,
+                  "end": 2137
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "R.N.S Institute of Technology",
+                  "block_id": "b32",
+                  "kind": "text",
+                  "start": 2075,
+                  "end": 2104
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Bachelor of Engineering",
+                  "block_id": "b31",
+                  "kind": "text",
+                  "start": 2011,
+                  "end": 2034
+                }
+              ],
+              "section": "EDUCATION",
+              "date_label": "Aug 2017 – Jun 2021",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Systems Engineer",
+            "quote": "Systems Engineer | Feb 2022 – Present",
+            "event_id": "v8afcbc599997b6ab",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Systems Engineer | Feb 2022 – Present",
+                  "block_id": "b11",
+                  "kind": "text",
+                  "start": 662,
+                  "end": 699
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Feb 2022 – Present",
+                  "block_id": "b11",
+                  "kind": "text",
+                  "start": 681,
+                  "end": 699
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Systems Engineer",
+                  "block_id": "b11",
+                  "kind": "text",
+                  "start": 662,
+                  "end": 678
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "Feb 2022 – Present",
+              "is_present": true
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 2,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 103,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": true,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 1,
+          "represented_months": 56,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 1,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v8afcbc599997b6ab",
+              "label": "Systems Engineer",
+              "state": "month_range",
+              "start": [
+                2022,
+                2
+              ],
+              "end": [
+                2026,
+                9
+              ],
+              "months": 56,
+              "raw": "Feb 2022 – Present",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Systems Engineer | Feb 2022 – Present",
+                    "block_id": "b11",
+                    "kind": "text",
+                    "start": 662,
+                    "end": 699
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "Feb 2022 – Present",
+                    "block_id": "b11",
+                    "kind": "text",
+                    "start": 681,
+                    "end": 699
+                  }
+                ],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Systems Engineer",
+                    "block_id": "b11",
+                    "kind": "text",
+                    "start": 662,
+                    "end": 678
+                  }
+                ],
+                "section": "PROFESSIONAL EXPERIENCE",
+                "date_label": "Feb 2022 – Present",
+                "is_present": true
+              }
+            }
+          ]
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        },
+        "education": {
+          "all_entries_month_precise": true,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 1,
+          "represented_months": 47,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 1,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "vdae8378c08c1cfea",
+              "label": "Bachelor of Engineering",
+              "state": "month_range",
+              "start": [
+                2017,
+                8
+              ],
+              "end": [
+                2021,
+                6
+              ],
+              "months": 47,
+              "raw": "Aug 2017 – Jun 2021",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Bachelor of Engineering (Electrical & Electronics Engineering)",
+                    "block_id": "b31",
+                    "kind": "text",
+                    "start": 2011,
+                    "end": 2073
+                  },
+                  {
+                    "page": 1,
+                    "text": "R.N.S Institute of Technology, Bengaluru | Aug 2017 – Jun 2021",
+                    "block_id": "b32",
+                    "kind": "text",
+                    "start": 2075,
+                    "end": 2137
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "Aug 2017 – Jun 2021",
+                    "block_id": "b32",
+                    "kind": "text",
+                    "start": 2118,
+                    "end": 2137
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "R.N.S Institute of Technology",
+                    "block_id": "b32",
+                    "kind": "text",
+                    "start": 2075,
+                    "end": 2104
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Bachelor of Engineering",
+                    "block_id": "b31",
+                    "kind": "text",
+                    "start": 2011,
+                    "end": 2034
+                  }
+                ],
+                "section": "EDUCATION",
+                "date_label": "Aug 2017 – Jun 2021",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 103,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": true,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 1,
+        "represented_months": 56,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 1,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v8afcbc599997b6ab",
+            "label": "Systems Engineer",
+            "state": "month_range",
+            "start": [
+              2022,
+              2
+            ],
+            "end": [
+              2026,
+              9
+            ],
+            "months": 56,
+            "raw": "Feb 2022 – Present",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Systems Engineer | Feb 2022 – Present",
+                  "block_id": "b11",
+                  "kind": "text",
+                  "start": 662,
+                  "end": 699
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Feb 2022 – Present",
+                  "block_id": "b11",
+                  "kind": "text",
+                  "start": 681,
+                  "end": 699
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Systems Engineer",
+                  "block_id": "b11",
+                  "kind": "text",
+                  "start": 662,
+                  "end": 678
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "Feb 2022 – Present",
+              "is_present": true
+            }
+          }
+        ]
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      },
+      "education": {
+        "all_entries_month_precise": true,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 1,
+        "represented_months": 47,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 1,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "vdae8378c08c1cfea",
+            "label": "Bachelor of Engineering",
+            "state": "month_range",
+            "start": [
+              2017,
+              8
+            ],
+            "end": [
+              2021,
+              6
+            ],
+            "months": 47,
+            "raw": "Aug 2017 – Jun 2021",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Bachelor of Engineering (Electrical & Electronics Engineering)",
+                  "block_id": "b31",
+                  "kind": "text",
+                  "start": 2011,
+                  "end": 2073
+                },
+                {
+                  "page": 1,
+                  "text": "R.N.S Institute of Technology, Bengaluru | Aug 2017 – Jun 2021",
+                  "block_id": "b32",
+                  "kind": "text",
+                  "start": 2075,
+                  "end": 2137
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Aug 2017 – Jun 2021",
+                  "block_id": "b32",
+                  "kind": "text",
+                  "start": 2118,
+                  "end": 2137
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "R.N.S Institute of Technology",
+                  "block_id": "b32",
+                  "kind": "text",
+                  "start": 2075,
+                  "end": 2104
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Bachelor of Engineering",
+                  "block_id": "b31",
+                  "kind": "text",
+                  "start": 2011,
+                  "end": 2034
+                }
+              ],
+              "section": "EDUCATION",
+              "date_label": "Aug 2017 – Jun 2021",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 103,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

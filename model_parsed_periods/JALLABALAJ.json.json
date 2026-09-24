@@ -1,0 +1,1344 @@
+{
+  "file_name": "JALLABALAJ.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "54b5af756ca73e69317a60a67a7a0f21668c5adc6b6852f7aadabd7ded20d4e8",
+  "doc_id": "54b5af756ca73e69317a60a6",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 5,
+    "dated_share": 0.4,
+    "unresolved": 3,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.833,
+    "document_accuracy": 0.83
+  },
+  "work_experience": [
+    {
+      "id": "v5c1cee4cfd82cd6f",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Deputy Manager",
+      "start_date": "2022-03",
+      "end_date": "2026-09",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Deputy Manager [March - 2022] – Present",
+            "block_id": "b40",
+            "kind": "text",
+            "start": 2619,
+            "end": 2658
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "March - 2022] – Present",
+            "block_id": "b40",
+            "kind": "text",
+            "start": 2635,
+            "end": 2658
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Deputy Manager",
+            "block_id": "b40",
+            "kind": "text",
+            "start": 2619,
+            "end": 2633
+          }
+        ],
+        "section": "PROFESSIONAL EXPERIENCE",
+        "date_label": "March - 2022] – Present",
+        "is_present": true
+      },
+      "precision": "month",
+      "date_label": "March - 2022] – Present"
+    }
+  ],
+  "education": [
+    {
+      "id": "v09598d3c3de8e274",
+      "type": "EDUCATION",
+      "company": "Calorx Teachers University",
+      "title": "Bachelor of Computer Application",
+      "start_date": "2015-01",
+      "end_date": "2018-12",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Bachelor of Computer Application – BCA 2015 – 2018",
+            "block_id": "b108",
+            "kind": "text",
+            "start": 7697,
+            "end": 7747
+          },
+          {
+            "page": 1,
+            "text": "Calorx Teachers University, Ahmedabad",
+            "block_id": "b109",
+            "kind": "text",
+            "start": 7749,
+            "end": 7786
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2015 – 2018",
+            "block_id": "b108",
+            "kind": "text",
+            "start": 7736,
+            "end": 7747
+          },
+          {
+            "page": 1,
+            "text": "2024",
+            "block_id": "b111",
+            "kind": "text",
+            "start": 7854,
+            "end": 7858
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Calorx Teachers University",
+            "block_id": "b109",
+            "kind": "text",
+            "start": 7749,
+            "end": 7775
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Bachelor of Computer Application",
+            "block_id": "b108",
+            "kind": "text",
+            "start": 7697,
+            "end": 7729
+          }
+        ],
+        "section": "EDUCATION",
+        "date_label": "2015 – 2018",
+        "is_present": false
+      },
+      "precision": "year",
+      "date_label": "2015 – 2018"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "Contacts, Cases, Contracts & Entitlements, Agent Workspace, Advanced Work Assignment, and the",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Contacts, Cases, Contracts & Entitlements, Agent Workspace, Advanced Work Assignment, and the"
+      ],
+      "raw_text": "Contacts, Cases, Contracts & Entitlements, Agent Workspace, Advanced Work Assignment, and the",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Contacts, Cases, Contracts & Entitlements, Agent Workspace, Advanced Work Assignment, and the",
+            "block_id": "b90",
+            "kind": "text",
+            "start": 6470,
+            "end": 6563
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_2",
+      "name": "Customer Service Portal. Partnered with senior developer on custom integrations; owned all configuration,",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Customer Service Portal. Partnered with senior developer on custom integrations; owned all configuration,"
+      ],
+      "raw_text": "Customer Service Portal. Partnered with senior developer on custom integrations; owned all configuration,",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Customer Service Portal. Partnered with senior developer on custom integrations; owned all configuration,",
+            "block_id": "b91",
+            "kind": "text",
+            "start": 6565,
+            "end": 6670
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_3",
+      "name": "UAT, and go-live support.",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "UAT, and go-live support.",
+        "• SPM / PPM Modernization — Rolled out Demand, Project, Resource, and Agile 2.0 modules for 12 product",
+        "squads. Built custom demand scoring workflow in Flow Designer; configured resource workbench and",
+        "capacity planning for a 200-person engineering org.",
+        "• Platform Governance & Upgrade Playbook — Authored a reusable upgrade playbook (pre-checks, skipped",
+        "records, ATF runs, UAT, cut-over) now used as the standard across three instances. Reduced upgrade",
+        "delivery time by ~30% and eliminated post-upgrade Sev-1s for the last 3 cycles."
+      ],
+      "raw_text": "UAT, and go-live support.\n• SPM / PPM Modernization — Rolled out Demand, Project, Resource, and Agile 2.0 modules for 12 product\nsquads. Built custom demand scoring workflow in Flow Designer; configured resource workbench and\ncapacity planning for a 200-person engineering org.\n• Platform Governance & Upgrade Playbook — Authored a reusable upgrade playbook (pre-checks, skipped\nrecords, ATF runs, UAT, cut-over) now used as the standard across three instances. Reduced upgrade\ndelivery time by ~30% and eliminated post-upgrade Sev-1s for the last 3 cycles.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "UAT, and go-live support.",
+            "block_id": "b92",
+            "kind": "text",
+            "start": 6672,
+            "end": 6697
+          },
+          {
+            "page": 1,
+            "text": "• SPM / PPM Modernization — Rolled out Demand, Project, Resource, and Agile 2.0 modules for 12 product",
+            "block_id": "b93",
+            "kind": "text",
+            "start": 6699,
+            "end": 6801
+          },
+          {
+            "page": 1,
+            "text": "squads. Built custom demand scoring workflow in Flow Designer; configured resource workbench and",
+            "block_id": "b94",
+            "kind": "text",
+            "start": 6803,
+            "end": 6899
+          },
+          {
+            "page": 1,
+            "text": "capacity planning for a 200-person engineering org.",
+            "block_id": "b95",
+            "kind": "text",
+            "start": 6901,
+            "end": 6952
+          },
+          {
+            "page": 1,
+            "text": "• Platform Governance & Upgrade Playbook — Authored a reusable upgrade playbook (pre-checks, skipped",
+            "block_id": "b96",
+            "kind": "text",
+            "start": 6954,
+            "end": 7054
+          },
+          {
+            "page": 1,
+            "text": "records, ATF runs, UAT, cut-over) now used as the standard across three instances. Reduced upgrade",
+            "block_id": "b97",
+            "kind": "text",
+            "start": 7056,
+            "end": 7154
+          },
+          {
+            "page": 1,
+            "text": "delivery time by ~30% and eliminated post-upgrade Sev-1s for the last 3 cycles.",
+            "block_id": "b98",
+            "kind": "text",
+            "start": 7156,
+            "end": 7235
+          }
+        ]
+      }
+    }
+  ],
+  "gaps": [],
+  "total_work_experience_entries": 1,
+  "total_projects_entries": 3,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "PARTIAL",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [],
+  "raw_pipeline_dto": {
+    "doc_id": "54b5af756ca73e69317a60a6",
+    "filename": "JALLABALAJ.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "v09598d3c3de8e274",
+        "type": "EDUCATION",
+        "title": "Bachelor of Computer Application",
+        "org": "Calorx Teachers University",
+        "start": "2015-01",
+        "end": "2018-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "Bachelor of Computer Application – BCA 2015 – 2018\nCalorx Teachers University, Ahmedabad",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor of Computer Application – BCA 2015 – 2018",
+              "block_id": "b108",
+              "kind": "text",
+              "start": 7697,
+              "end": 7747
+            },
+            {
+              "page": 1,
+              "text": "Calorx Teachers University, Ahmedabad",
+              "block_id": "b109",
+              "kind": "text",
+              "start": 7749,
+              "end": 7786
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2015 – 2018",
+              "block_id": "b108",
+              "kind": "text",
+              "start": 7736,
+              "end": 7747
+            },
+            {
+              "page": 1,
+              "text": "2024",
+              "block_id": "b111",
+              "kind": "text",
+              "start": 7854,
+              "end": 7858
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Calorx Teachers University",
+              "block_id": "b109",
+              "kind": "text",
+              "start": 7749,
+              "end": 7775
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Computer Application",
+              "block_id": "b108",
+              "kind": "text",
+              "start": 7697,
+              "end": 7729
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2015 – 2018",
+          "is_present": false
+        },
+        "date_label": "2015 – 2018",
+        "section": "EDUCATION",
+        "is_present": false
+      },
+      {
+        "id": "v5c1cee4cfd82cd6f",
+        "type": "EMPLOYMENT",
+        "title": "Deputy Manager",
+        "org": "",
+        "start": "2022-03",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Deputy Manager [March - 2022] – Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Deputy Manager [March - 2022] – Present",
+              "block_id": "b40",
+              "kind": "text",
+              "start": 2619,
+              "end": 2658
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "March - 2022] – Present",
+              "block_id": "b40",
+              "kind": "text",
+              "start": 2635,
+              "end": 2658
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Deputy Manager",
+              "block_id": "b40",
+              "kind": "text",
+              "start": 2619,
+              "end": 2633
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "March - 2022] – Present",
+          "is_present": true
+        },
+        "date_label": "March - 2022] – Present",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v3bc91099a5f136dc",
+        "type": "PROJECT",
+        "title": "Contacts, Cases, Contracts & Entitlements, Agent Workspace, Advanced Work Assignment, and the",
+        "org": "",
+        "entry_text": "Contacts, Cases, Contracts & Entitlements, Agent Workspace, Advanced Work Assignment, and the",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Contacts, Cases, Contracts & Entitlements, Agent Workspace, Advanced Work Assignment, and the",
+              "block_id": "b90",
+              "kind": "text",
+              "start": 6470,
+              "end": 6563
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Contacts, Cases, Contracts & Entitlements, Agent Workspace, Advanced Work Assignment, and the",
+              "block_id": "b90",
+              "kind": "text",
+              "start": 6470,
+              "end": 6563
+            }
+          ],
+          "section": "KEY PROJECTS",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "KEY PROJECTS",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v7387f093be8beb1c",
+        "type": "PROJECT",
+        "title": "Customer Service Portal. Partnered with senior developer on custom integrations; owned all configuration",
+        "org": "",
+        "entry_text": "Customer Service Portal. Partnered with senior developer on custom integrations; owned all configuration,",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Customer Service Portal. Partnered with senior developer on custom integrations; owned all configuration,",
+              "block_id": "b91",
+              "kind": "text",
+              "start": 6565,
+              "end": 6670
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Customer Service Portal. Partnered with senior developer on custom integrations; owned all configuration",
+              "block_id": "b91",
+              "kind": "text",
+              "start": 6565,
+              "end": 6669
+            }
+          ],
+          "section": "KEY PROJECTS",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "KEY PROJECTS",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "vc9e3c238e604c2c3",
+        "type": "PROJECT",
+        "title": "UAT, and go-live support.",
+        "org": "",
+        "entry_text": "UAT, and go-live support. • SPM / PPM Modernization — Rolled out Demand, Project, Resource, and Agile 2.0 modules for 12 product squads. Built custom demand scoring workflow in Flow Designer; configured resource workbench and capacity planning for a 200-person engineering org. • Platform Governance ",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "UAT, and go-live support.",
+              "block_id": "b92",
+              "kind": "text",
+              "start": 6672,
+              "end": 6697
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "UAT, and go-live support",
+              "block_id": "b92",
+              "kind": "text",
+              "start": 6672,
+              "end": 6696
+            }
+          ],
+          "section": "KEY PROJECTS",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "KEY PROJECTS",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "Contacts, Cases, Contracts & Entitlements, Agent Workspace, Advanced Work Assignment, and the",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Contacts, Cases, Contracts & Entitlements, Agent Workspace, Advanced Work Assignment, and the"
+        ],
+        "raw_text": "Contacts, Cases, Contracts & Entitlements, Agent Workspace, Advanced Work Assignment, and the",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Contacts, Cases, Contracts & Entitlements, Agent Workspace, Advanced Work Assignment, and the",
+              "block_id": "b90",
+              "kind": "text",
+              "start": 6470,
+              "end": 6563
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "Customer Service Portal. Partnered with senior developer on custom integrations; owned all configuration,",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Customer Service Portal. Partnered with senior developer on custom integrations; owned all configuration,"
+        ],
+        "raw_text": "Customer Service Portal. Partnered with senior developer on custom integrations; owned all configuration,",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Customer Service Portal. Partnered with senior developer on custom integrations; owned all configuration,",
+              "block_id": "b91",
+              "kind": "text",
+              "start": 6565,
+              "end": 6670
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_3",
+        "name": "UAT, and go-live support.",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "UAT, and go-live support.",
+          "• SPM / PPM Modernization — Rolled out Demand, Project, Resource, and Agile 2.0 modules for 12 product",
+          "squads. Built custom demand scoring workflow in Flow Designer; configured resource workbench and",
+          "capacity planning for a 200-person engineering org.",
+          "• Platform Governance & Upgrade Playbook — Authored a reusable upgrade playbook (pre-checks, skipped",
+          "records, ATF runs, UAT, cut-over) now used as the standard across three instances. Reduced upgrade",
+          "delivery time by ~30% and eliminated post-upgrade Sev-1s for the last 3 cycles."
+        ],
+        "raw_text": "UAT, and go-live support.\n• SPM / PPM Modernization — Rolled out Demand, Project, Resource, and Agile 2.0 modules for 12 product\nsquads. Built custom demand scoring workflow in Flow Designer; configured resource workbench and\ncapacity planning for a 200-person engineering org.\n• Platform Governance & Upgrade Playbook — Authored a reusable upgrade playbook (pre-checks, skipped\nrecords, ATF runs, UAT, cut-over) now used as the standard across three instances. Reduced upgrade\ndelivery time by ~30% and eliminated post-upgrade Sev-1s for the last 3 cycles.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "UAT, and go-live support.",
+              "block_id": "b92",
+              "kind": "text",
+              "start": 6672,
+              "end": 6697
+            },
+            {
+              "page": 1,
+              "text": "• SPM / PPM Modernization — Rolled out Demand, Project, Resource, and Agile 2.0 modules for 12 product",
+              "block_id": "b93",
+              "kind": "text",
+              "start": 6699,
+              "end": 6801
+            },
+            {
+              "page": 1,
+              "text": "squads. Built custom demand scoring workflow in Flow Designer; configured resource workbench and",
+              "block_id": "b94",
+              "kind": "text",
+              "start": 6803,
+              "end": 6899
+            },
+            {
+              "page": 1,
+              "text": "capacity planning for a 200-person engineering org.",
+              "block_id": "b95",
+              "kind": "text",
+              "start": 6901,
+              "end": 6952
+            },
+            {
+              "page": 1,
+              "text": "• Platform Governance & Upgrade Playbook — Authored a reusable upgrade playbook (pre-checks, skipped",
+              "block_id": "b96",
+              "kind": "text",
+              "start": 6954,
+              "end": 7054
+            },
+            {
+              "page": 1,
+              "text": "records, ATF runs, UAT, cut-over) now used as the standard across three instances. Reduced upgrade",
+              "block_id": "b97",
+              "kind": "text",
+              "start": 7056,
+              "end": 7154
+            },
+            {
+              "page": 1,
+              "text": "delivery time by ~30% and eliminated post-upgrade Sev-1s for the last 3 cycles.",
+              "block_id": "b98",
+              "kind": "text",
+              "start": 7156,
+              "end": 7235
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [],
+        "evidence": {
+          "note": "year-only dates need verification"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 5,
+      "dated_share": 0.4,
+      "unresolved": 3,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.833,
+      "document_accuracy": 0.83
+    },
+    "total_represented_months": 103,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": true,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 1,
+          "represented_months": 55,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 1,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v5c1cee4cfd82cd6f",
+              "label": "Deputy Manager",
+              "state": "month_range",
+              "start": [
+                2022,
+                3
+              ],
+              "end": [
+                2026,
+                9
+              ],
+              "months": 55,
+              "raw": "March - 2022] – Present",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Deputy Manager [March - 2022] – Present",
+                    "block_id": "b40",
+                    "kind": "text",
+                    "start": 2619,
+                    "end": 2658
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "March - 2022] – Present",
+                    "block_id": "b40",
+                    "kind": "text",
+                    "start": 2635,
+                    "end": 2658
+                  }
+                ],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Deputy Manager",
+                    "block_id": "b40",
+                    "kind": "text",
+                    "start": 2619,
+                    "end": 2633
+                  }
+                ],
+                "section": "PROFESSIONAL EXPERIENCE",
+                "date_label": "March - 2022] – Present",
+                "is_present": true
+              }
+            }
+          ]
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 3,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 3,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "proj_1",
+              "label": "Contacts, Cases, Contracts & Entitlements, Agent Workspace, Advanced Work Assignment, and the",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Contacts, Cases, Contracts & Entitlements, Agent Workspace, Advanced Work Assignment, and the",
+                    "block_id": "b90",
+                    "kind": "text",
+                    "start": 6470,
+                    "end": 6563
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_2",
+              "label": "Customer Service Portal. Partnered with senior developer on custom integrations; owned all configuration,",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Customer Service Portal. Partnered with senior developer on custom integrations; owned all configuration,",
+                    "block_id": "b91",
+                    "kind": "text",
+                    "start": 6565,
+                    "end": 6670
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_3",
+              "label": "UAT, and go-live support.",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "UAT, and go-live support.",
+                    "block_id": "b92",
+                    "kind": "text",
+                    "start": 6672,
+                    "end": 6697
+                  },
+                  {
+                    "page": 1,
+                    "text": "• SPM / PPM Modernization — Rolled out Demand, Project, Resource, and Agile 2.0 modules for 12 product",
+                    "block_id": "b93",
+                    "kind": "text",
+                    "start": 6699,
+                    "end": 6801
+                  },
+                  {
+                    "page": 1,
+                    "text": "squads. Built custom demand scoring workflow in Flow Designer; configured resource workbench and",
+                    "block_id": "b94",
+                    "kind": "text",
+                    "start": 6803,
+                    "end": 6899
+                  },
+                  {
+                    "page": 1,
+                    "text": "capacity planning for a 200-person engineering org.",
+                    "block_id": "b95",
+                    "kind": "text",
+                    "start": 6901,
+                    "end": 6952
+                  },
+                  {
+                    "page": 1,
+                    "text": "• Platform Governance & Upgrade Playbook — Authored a reusable upgrade playbook (pre-checks, skipped",
+                    "block_id": "b96",
+                    "kind": "text",
+                    "start": 6954,
+                    "end": 7054
+                  },
+                  {
+                    "page": 1,
+                    "text": "records, ATF runs, UAT, cut-over) now used as the standard across three instances. Reduced upgrade",
+                    "block_id": "b97",
+                    "kind": "text",
+                    "start": 7056,
+                    "end": 7154
+                  },
+                  {
+                    "page": 1,
+                    "text": "delivery time by ~30% and eliminated post-upgrade Sev-1s for the last 3 cycles.",
+                    "block_id": "b98",
+                    "kind": "text",
+                    "start": 7156,
+                    "end": 7235
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 1,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 1,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v09598d3c3de8e274",
+              "label": "Bachelor of Computer Application",
+              "state": "year_range",
+              "start": [
+                2015,
+                1
+              ],
+              "end": [
+                2018,
+                12
+              ],
+              "months": null,
+              "raw": "2015 – 2018",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Bachelor of Computer Application – BCA 2015 – 2018",
+                    "block_id": "b108",
+                    "kind": "text",
+                    "start": 7697,
+                    "end": 7747
+                  },
+                  {
+                    "page": 1,
+                    "text": "Calorx Teachers University, Ahmedabad",
+                    "block_id": "b109",
+                    "kind": "text",
+                    "start": 7749,
+                    "end": 7786
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "2015 – 2018",
+                    "block_id": "b108",
+                    "kind": "text",
+                    "start": 7736,
+                    "end": 7747
+                  },
+                  {
+                    "page": 1,
+                    "text": "2024",
+                    "block_id": "b111",
+                    "kind": "text",
+                    "start": 7854,
+                    "end": 7858
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Calorx Teachers University",
+                    "block_id": "b109",
+                    "kind": "text",
+                    "start": 7749,
+                    "end": 7775
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Bachelor of Computer Application",
+                    "block_id": "b108",
+                    "kind": "text",
+                    "start": 7697,
+                    "end": 7729
+                  }
+                ],
+                "section": "EDUCATION",
+                "date_label": "2015 – 2018",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 55,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": true,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 1,
+        "represented_months": 55,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 1,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v5c1cee4cfd82cd6f",
+            "label": "Deputy Manager",
+            "state": "month_range",
+            "start": [
+              2022,
+              3
+            ],
+            "end": [
+              2026,
+              9
+            ],
+            "months": 55,
+            "raw": "March - 2022] – Present",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Deputy Manager [March - 2022] – Present",
+                  "block_id": "b40",
+                  "kind": "text",
+                  "start": 2619,
+                  "end": 2658
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "March - 2022] – Present",
+                  "block_id": "b40",
+                  "kind": "text",
+                  "start": 2635,
+                  "end": 2658
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Deputy Manager",
+                  "block_id": "b40",
+                  "kind": "text",
+                  "start": 2619,
+                  "end": 2633
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "March - 2022] – Present",
+              "is_present": true
+            }
+          }
+        ]
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 3,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 3,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "proj_1",
+            "label": "Contacts, Cases, Contracts & Entitlements, Agent Workspace, Advanced Work Assignment, and the",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Contacts, Cases, Contracts & Entitlements, Agent Workspace, Advanced Work Assignment, and the",
+                  "block_id": "b90",
+                  "kind": "text",
+                  "start": 6470,
+                  "end": 6563
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_2",
+            "label": "Customer Service Portal. Partnered with senior developer on custom integrations; owned all configuration,",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Customer Service Portal. Partnered with senior developer on custom integrations; owned all configuration,",
+                  "block_id": "b91",
+                  "kind": "text",
+                  "start": 6565,
+                  "end": 6670
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_3",
+            "label": "UAT, and go-live support.",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "UAT, and go-live support.",
+                  "block_id": "b92",
+                  "kind": "text",
+                  "start": 6672,
+                  "end": 6697
+                },
+                {
+                  "page": 1,
+                  "text": "• SPM / PPM Modernization — Rolled out Demand, Project, Resource, and Agile 2.0 modules for 12 product",
+                  "block_id": "b93",
+                  "kind": "text",
+                  "start": 6699,
+                  "end": 6801
+                },
+                {
+                  "page": 1,
+                  "text": "squads. Built custom demand scoring workflow in Flow Designer; configured resource workbench and",
+                  "block_id": "b94",
+                  "kind": "text",
+                  "start": 6803,
+                  "end": 6899
+                },
+                {
+                  "page": 1,
+                  "text": "capacity planning for a 200-person engineering org.",
+                  "block_id": "b95",
+                  "kind": "text",
+                  "start": 6901,
+                  "end": 6952
+                },
+                {
+                  "page": 1,
+                  "text": "• Platform Governance & Upgrade Playbook — Authored a reusable upgrade playbook (pre-checks, skipped",
+                  "block_id": "b96",
+                  "kind": "text",
+                  "start": 6954,
+                  "end": 7054
+                },
+                {
+                  "page": 1,
+                  "text": "records, ATF runs, UAT, cut-over) now used as the standard across three instances. Reduced upgrade",
+                  "block_id": "b97",
+                  "kind": "text",
+                  "start": 7056,
+                  "end": 7154
+                },
+                {
+                  "page": 1,
+                  "text": "delivery time by ~30% and eliminated post-upgrade Sev-1s for the last 3 cycles.",
+                  "block_id": "b98",
+                  "kind": "text",
+                  "start": 7156,
+                  "end": 7235
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 1,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 1,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v09598d3c3de8e274",
+            "label": "Bachelor of Computer Application",
+            "state": "year_range",
+            "start": [
+              2015,
+              1
+            ],
+            "end": [
+              2018,
+              12
+            ],
+            "months": null,
+            "raw": "2015 – 2018",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Bachelor of Computer Application – BCA 2015 – 2018",
+                  "block_id": "b108",
+                  "kind": "text",
+                  "start": 7697,
+                  "end": 7747
+                },
+                {
+                  "page": 1,
+                  "text": "Calorx Teachers University, Ahmedabad",
+                  "block_id": "b109",
+                  "kind": "text",
+                  "start": 7749,
+                  "end": 7786
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "2015 – 2018",
+                  "block_id": "b108",
+                  "kind": "text",
+                  "start": 7736,
+                  "end": 7747
+                },
+                {
+                  "page": 1,
+                  "text": "2024",
+                  "block_id": "b111",
+                  "kind": "text",
+                  "start": 7854,
+                  "end": 7858
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Calorx Teachers University",
+                  "block_id": "b109",
+                  "kind": "text",
+                  "start": 7749,
+                  "end": 7775
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Bachelor of Computer Application",
+                  "block_id": "b108",
+                  "kind": "text",
+                  "start": 7697,
+                  "end": 7729
+                }
+              ],
+              "section": "EDUCATION",
+              "date_label": "2015 – 2018",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 55,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

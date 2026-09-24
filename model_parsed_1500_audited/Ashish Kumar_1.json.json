@@ -1,0 +1,362 @@
+{
+  "file_name": "Ashish Kumar_1.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "9349203c2eee879635c8c21fe9dd15c54a3da2cffb73286f9d47f3b8008e6f72",
+  "doc_id": "9349203c2eee879635c8c21f",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 2,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "ocr_pages": []
+  },
+  "work_experience": [
+    {
+      "id": "v0f838e74f19e0b9d",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Business Analyst",
+      "start_date": "2021-07",
+      "end_date": "2026-09",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Business Analyst (Client: ING Bank) | July 2021 – Present",
+            "block_id": "b24",
+            "kind": "text",
+            "start": 1458,
+            "end": 1515
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "July 2021 – Present",
+            "block_id": "b24",
+            "kind": "text",
+            "start": 1496,
+            "end": 1515
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Business Analyst",
+            "block_id": "b24",
+            "kind": "text",
+            "start": 1458,
+            "end": 1474
+          }
+        ],
+        "section": "Professional Experience",
+        "date_label": "July 2021 – Present",
+        "is_present": true
+      }
+    }
+  ],
+  "education": [
+    {
+      "id": "v3bcd5aa469d39f23",
+      "type": "EDUCATION",
+      "company": "Silicon Institute of Technology",
+      "title": "Bachelor of Technology (Computer Science Engineering)",
+      "start_date": "2017-07",
+      "end_date": "2021-06",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Bachelor of Technology (Computer Science Engineering), Silicon Institute of Technology,",
+            "block_id": "b54",
+            "kind": "text",
+            "start": 3596,
+            "end": 3683
+          },
+          {
+            "page": 1,
+            "text": "Bhubaneswar (July 2017– June 2021) | CGPA: 8.55",
+            "block_id": "b55",
+            "kind": "text",
+            "start": 3685,
+            "end": 3732
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "July 2017– June 2021",
+            "block_id": "b55",
+            "kind": "text",
+            "start": 3698,
+            "end": 3718
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Silicon Institute of Technology",
+            "block_id": "b54",
+            "kind": "text",
+            "start": 3651,
+            "end": 3682
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Bachelor of Technology (Computer Science Engineering",
+            "block_id": "b54",
+            "kind": "text",
+            "start": 3596,
+            "end": 3648
+          }
+        ],
+        "section": "Education",
+        "date_label": "July 2017– June 2021",
+        "is_present": false
+      }
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 1,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [],
+  "raw_pipeline_dto": {
+    "doc_id": "9349203c2eee879635c8c21f",
+    "filename": "Ashish Kumar_1.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v3bcd5aa469d39f23",
+        "type": "EDUCATION",
+        "title": "Bachelor of Technology (Computer Science Engineering)",
+        "org": "Silicon Institute of Technology",
+        "start": "2017-07",
+        "end": "2021-06",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "Bachelor of Technology (Computer Science Engineering), Silicon Institute of Technology,\nBhubaneswar (July 2017– June 2021) | CGPA: 8.55",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor of Technology (Computer Science Engineering), Silicon Institute of Technology,",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 3596,
+              "end": 3683
+            },
+            {
+              "page": 1,
+              "text": "Bhubaneswar (July 2017– June 2021) | CGPA: 8.55",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 3685,
+              "end": 3732
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "July 2017– June 2021",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 3698,
+              "end": 3718
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Silicon Institute of Technology",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 3651,
+              "end": 3682
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Technology (Computer Science Engineering",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 3596,
+              "end": 3648
+            }
+          ],
+          "section": "Education",
+          "date_label": "July 2017– June 2021",
+          "is_present": false
+        },
+        "date_label": "July 2017– June 2021",
+        "section": "Education",
+        "is_present": false
+      },
+      {
+        "id": "v0f838e74f19e0b9d",
+        "type": "EMPLOYMENT",
+        "title": "Business Analyst",
+        "org": "",
+        "start": "2021-07",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Business Analyst (Client: ING Bank) | July 2021 – Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Business Analyst (Client: ING Bank) | July 2021 – Present",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 1458,
+              "end": 1515
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "July 2021 – Present",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 1496,
+              "end": 1515
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Business Analyst",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 1458,
+              "end": 1474
+            }
+          ],
+          "section": "Professional Experience",
+          "date_label": "July 2021 – Present",
+          "is_present": true
+        },
+        "date_label": "July 2021 – Present",
+        "section": "Professional Experience",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "NO_GAP_DETECTED",
+        "confidence": 0.9,
+        "reasons": [],
+        "evidence": {
+          "note": "no uncovered months between supported entries"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 2,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "ocr_pages": []
+    },
+    "total_represented_months": 111,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

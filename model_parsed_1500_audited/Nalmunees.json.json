@@ -1,0 +1,448 @@
+{
+  "file_name": "Nalmunees.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "08df8556fbae57538f0075a94daf3783c022acad80bc76c5f4ebc88fc8c85876",
+  "doc_id": "08df8556fbae57538f0075a9",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 3,
+    "total_events": 3,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "ocr_pages": []
+  },
+  "work_experience": [
+    {
+      "id": "v85c7549d2d7ac5ff",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Network Engineer L1",
+      "start_date": "2022-02",
+      "end_date": "2023-05",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "WIPRO Ltd (In payroll of IDC Technologies) (Feb 2022 to May 2023) – Network Engineer L1",
+            "block_id": "b74",
+            "kind": "text",
+            "start": 5231,
+            "end": 5318
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Feb 2022 to May 2023",
+            "block_id": "b74",
+            "kind": "text",
+            "start": 5275,
+            "end": 5295
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Network Engineer L1",
+            "block_id": "b74",
+            "kind": "text",
+            "start": 5299,
+            "end": 5318
+          }
+        ],
+        "section": "Experience:",
+        "date_label": "Feb 2022 to May 2023",
+        "is_present": false
+      }
+    },
+    {
+      "id": "v30516d30a7ccc92c",
+      "type": "EMPLOYMENT",
+      "company": "Skyworks Semiconductor Pvt Ltd India (",
+      "title": "Senior Network Administrator 1",
+      "start_date": "2023-06",
+      "end_date": "2025-10",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Skyworks Semiconductor Pvt Ltd India (June 2023 to OCT 2025) – Senior Network Administrator 1",
+            "block_id": "b58",
+            "kind": "text",
+            "start": 3988,
+            "end": 4081
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "June 2023 to OCT 2025",
+            "block_id": "b58",
+            "kind": "text",
+            "start": 4026,
+            "end": 4047
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Skyworks Semiconductor Pvt Ltd India",
+            "block_id": "b58",
+            "kind": "text",
+            "start": 3988,
+            "end": 4024
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Senior Network Administrator 1",
+            "block_id": "b58",
+            "kind": "text",
+            "start": 4051,
+            "end": 4081
+          }
+        ],
+        "section": "Experience:",
+        "date_label": "June 2023 to OCT 2025",
+        "is_present": false
+      }
+    },
+    {
+      "id": "v1dea25bfd40a2f4d",
+      "type": "EMPLOYMENT",
+      "company": "NIKE India Technology Center (",
+      "title": "",
+      "start_date": "2025-10",
+      "end_date": "2026-09",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "NIKE India Technology Center (OCT 2025 to Present) – SWE II Core Infrastructure",
+            "block_id": "b35",
+            "kind": "text",
+            "start": 2195,
+            "end": 2274
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "OCT 2025 to Present",
+            "block_id": "b35",
+            "kind": "text",
+            "start": 2225,
+            "end": 2244
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "NIKE India Technology Center",
+            "block_id": "b35",
+            "kind": "text",
+            "start": 2195,
+            "end": 2223
+          }
+        ],
+        "title": [],
+        "section": "Experience:",
+        "date_label": "OCT 2025 to Present",
+        "is_present": true
+      }
+    }
+  ],
+  "education": [],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 3,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "overlap preserved: 'Senior Network Administrator 1' overlaps ''"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "08df8556fbae57538f0075a9",
+    "filename": "Nalmunees.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v85c7549d2d7ac5ff",
+        "type": "EMPLOYMENT",
+        "title": "Network Engineer L1",
+        "org": "",
+        "start": "2022-02",
+        "end": "2023-05",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "WIPRO Ltd (In payroll of IDC Technologies) (Feb 2022 to May 2023) – Network Engineer L1",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "WIPRO Ltd (In payroll of IDC Technologies) (Feb 2022 to May 2023) – Network Engineer L1",
+              "block_id": "b74",
+              "kind": "text",
+              "start": 5231,
+              "end": 5318
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Feb 2022 to May 2023",
+              "block_id": "b74",
+              "kind": "text",
+              "start": 5275,
+              "end": 5295
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Network Engineer L1",
+              "block_id": "b74",
+              "kind": "text",
+              "start": 5299,
+              "end": 5318
+            }
+          ],
+          "section": "Experience:",
+          "date_label": "Feb 2022 to May 2023",
+          "is_present": false
+        },
+        "date_label": "Feb 2022 to May 2023",
+        "section": "Experience:",
+        "is_present": false
+      },
+      {
+        "id": "v30516d30a7ccc92c",
+        "type": "EMPLOYMENT",
+        "title": "Senior Network Administrator 1",
+        "org": "Skyworks Semiconductor Pvt Ltd India (",
+        "start": "2023-06",
+        "end": "2025-10",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Skyworks Semiconductor Pvt Ltd India (June 2023 to OCT 2025) – Senior Network Administrator 1",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Skyworks Semiconductor Pvt Ltd India (June 2023 to OCT 2025) – Senior Network Administrator 1",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 3988,
+              "end": 4081
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "June 2023 to OCT 2025",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 4026,
+              "end": 4047
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Skyworks Semiconductor Pvt Ltd India",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 3988,
+              "end": 4024
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Network Administrator 1",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 4051,
+              "end": 4081
+            }
+          ],
+          "section": "Experience:",
+          "date_label": "June 2023 to OCT 2025",
+          "is_present": false
+        },
+        "date_label": "June 2023 to OCT 2025",
+        "section": "Experience:",
+        "is_present": false
+      },
+      {
+        "id": "v1dea25bfd40a2f4d",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "NIKE India Technology Center (",
+        "start": "2025-10",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "NIKE India Technology Center (OCT 2025 to Present) – SWE II Core Infrastructure",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "NIKE India Technology Center (OCT 2025 to Present) – SWE II Core Infrastructure",
+              "block_id": "b35",
+              "kind": "text",
+              "start": 2195,
+              "end": 2274
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "OCT 2025 to Present",
+              "block_id": "b35",
+              "kind": "text",
+              "start": 2225,
+              "end": 2244
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "NIKE India Technology Center",
+              "block_id": "b35",
+              "kind": "text",
+              "start": 2195,
+              "end": 2223
+            }
+          ],
+          "title": [],
+          "section": "Experience:",
+          "date_label": "OCT 2025 to Present",
+          "is_present": true
+        },
+        "date_label": "OCT 2025 to Present",
+        "section": "Experience:",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "NO_GAP_DETECTED",
+        "confidence": 0.9,
+        "reasons": [],
+        "evidence": {
+          "note": "no uncovered months between supported entries"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 3,
+      "total_events": 3,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "ocr_pages": []
+    },
+    "total_represented_months": 56,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

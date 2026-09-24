@@ -1,0 +1,683 @@
+{
+  "file_name": "AshwajitWanjari].pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "7f92bd939a4a33f6b6436912f401e6c6bb75d5f6ef94a35ee8b0014834ed466f",
+  "doc_id": "7f92bd939a4a33f6b6436912",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 2,
+    "dated_share": 0.5,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v1acc64d7b3a9336f",
+      "type": "EMPLOYMENT",
+      "company": "Cognizant",
+      "title": "Associate",
+      "start_date": "2023-06",
+      "end_date": "2026-09",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Associate - Cognizant                                                                                                                                              June 2023 -Present",
+            "block_id": "b17",
+            "kind": "text",
+            "start": 1778,
+            "end": 1959
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "June 2023 -Present",
+            "block_id": "b17",
+            "kind": "text",
+            "start": 1941,
+            "end": 1959
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Cognizant",
+            "block_id": "b17",
+            "kind": "text",
+            "start": 1790,
+            "end": 1799
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Associate",
+            "block_id": "b17",
+            "kind": "text",
+            "start": 1778,
+            "end": 1787
+          }
+        ],
+        "section": "WORK EXPERIENCE",
+        "date_label": "June 2023 -Present",
+        "is_present": true
+      },
+      "precision": "month",
+      "date_label": "June 2023 -Present"
+    }
+  ],
+  "education": [
+    {
+      "id": "v465fc742c9c8c792",
+      "type": "EDUCATION",
+      "company": "",
+      "title": "Master of Business Administration",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "• Master of Business Administration - 2019",
+            "block_id": "b64",
+            "kind": "text",
+            "start": 6234,
+            "end": 6276
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2019",
+            "block_id": "b64",
+            "kind": "text",
+            "start": 6272,
+            "end": 6276
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Master of Business Administration",
+            "block_id": "b64",
+            "kind": "text",
+            "start": 6236,
+            "end": 6269
+          }
+        ],
+        "section": "Education",
+        "date_label": "2019",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": "2019"
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 1,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "e1: dates cannot be assigned unambiguously",
+    "conflicting/ambiguous date kept for 'Master of Business Administration'"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "7f92bd939a4a33f6b6436912",
+    "filename": "AshwajitWanjari].pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v1acc64d7b3a9336f",
+        "type": "EMPLOYMENT",
+        "title": "Associate",
+        "org": "Cognizant",
+        "start": "2023-06",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Associate - Cognizant                                                                                                                                              June 2023 -Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Associate - Cognizant                                                                                                                                              June 2023 -Present",
+              "block_id": "b17",
+              "kind": "text",
+              "start": 1778,
+              "end": 1959
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "June 2023 -Present",
+              "block_id": "b17",
+              "kind": "text",
+              "start": 1941,
+              "end": 1959
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Cognizant",
+              "block_id": "b17",
+              "kind": "text",
+              "start": 1790,
+              "end": 1799
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Associate",
+              "block_id": "b17",
+              "kind": "text",
+              "start": 1778,
+              "end": 1787
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "June 2023 -Present",
+          "is_present": true
+        },
+        "date_label": "June 2023 -Present",
+        "section": "WORK EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v465fc742c9c8c792",
+        "type": "EDUCATION",
+        "title": "Master of Business Administration",
+        "org": "",
+        "entry_text": "• Master of Business Administration - 2019",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "• Master of Business Administration - 2019",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 6234,
+              "end": 6276
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2019",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 6272,
+              "end": 6276
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Master of Business Administration",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 6236,
+              "end": 6269
+            }
+          ],
+          "section": "Education",
+          "date_label": "2019",
+          "is_present": false
+        },
+        "date_label": "2019",
+        "section": "Education",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 2,
+      "dated_share": 0.5,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 40,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": true,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 1,
+          "represented_months": 40,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 1,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v1acc64d7b3a9336f",
+              "label": "Associate",
+              "state": "month_range",
+              "start": [
+                2023,
+                6
+              ],
+              "end": [
+                2026,
+                9
+              ],
+              "months": 40,
+              "raw": "June 2023 -Present",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Associate - Cognizant                                                                                                                                              June 2023 -Present",
+                    "block_id": "b17",
+                    "kind": "text",
+                    "start": 1778,
+                    "end": 1959
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "June 2023 -Present",
+                    "block_id": "b17",
+                    "kind": "text",
+                    "start": 1941,
+                    "end": 1959
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Cognizant",
+                    "block_id": "b17",
+                    "kind": "text",
+                    "start": 1790,
+                    "end": 1799
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Associate",
+                    "block_id": "b17",
+                    "kind": "text",
+                    "start": 1778,
+                    "end": 1787
+                  }
+                ],
+                "section": "WORK EXPERIENCE",
+                "date_label": "June 2023 -Present",
+                "is_present": true
+              }
+            }
+          ]
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 1,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v465fc742c9c8c792",
+              "label": "Master of Business Administration",
+              "state": "single_date",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "2019",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "• Master of Business Administration - 2019",
+                    "block_id": "b64",
+                    "kind": "text",
+                    "start": 6234,
+                    "end": 6276
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "2019",
+                    "block_id": "b64",
+                    "kind": "text",
+                    "start": 6272,
+                    "end": 6276
+                  }
+                ],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Master of Business Administration",
+                    "block_id": "b64",
+                    "kind": "text",
+                    "start": 6236,
+                    "end": 6269
+                  }
+                ],
+                "section": "Education",
+                "date_label": "2019",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 40,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": true,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 1,
+        "represented_months": 40,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 1,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v1acc64d7b3a9336f",
+            "label": "Associate",
+            "state": "month_range",
+            "start": [
+              2023,
+              6
+            ],
+            "end": [
+              2026,
+              9
+            ],
+            "months": 40,
+            "raw": "June 2023 -Present",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Associate - Cognizant                                                                                                                                              June 2023 -Present",
+                  "block_id": "b17",
+                  "kind": "text",
+                  "start": 1778,
+                  "end": 1959
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "June 2023 -Present",
+                  "block_id": "b17",
+                  "kind": "text",
+                  "start": 1941,
+                  "end": 1959
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Cognizant",
+                  "block_id": "b17",
+                  "kind": "text",
+                  "start": 1790,
+                  "end": 1799
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Associate",
+                  "block_id": "b17",
+                  "kind": "text",
+                  "start": 1778,
+                  "end": 1787
+                }
+              ],
+              "section": "WORK EXPERIENCE",
+              "date_label": "June 2023 -Present",
+              "is_present": true
+            }
+          }
+        ]
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 1,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v465fc742c9c8c792",
+            "label": "Master of Business Administration",
+            "state": "single_date",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "2019",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "• Master of Business Administration - 2019",
+                  "block_id": "b64",
+                  "kind": "text",
+                  "start": 6234,
+                  "end": 6276
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "2019",
+                  "block_id": "b64",
+                  "kind": "text",
+                  "start": 6272,
+                  "end": 6276
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Master of Business Administration",
+                  "block_id": "b64",
+                  "kind": "text",
+                  "start": 6236,
+                  "end": 6269
+                }
+              ],
+              "section": "Education",
+              "date_label": "2019",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 40,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

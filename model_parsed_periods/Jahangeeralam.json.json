@@ -1,0 +1,3309 @@
+{
+  "file_name": "Jahangeeralam.docx",
+  "input_mode": "text_snapshot",
+  "input_sha256": "f870082fcdf3713a68e3f72ea1f93309b410fc2931738f639f67dc2aa6dc0cc0",
+  "doc_id": "f870082fcdf3713a68e3f72e",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 4,
+    "total_events": 14,
+    "dated_share": 0.286,
+    "unresolved": 10,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v8e4a2f623c5caf99",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "R SYSTEMS INTERNATIONAL Project Leader",
+      "start_date": "2021-10",
+      "end_date": "2026-09",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "R SYSTEMS INTERNATIONAL Project Leader - AI, Data Engineering & BI Noida, India Oct 2021 - Present",
+            "block_id": "b22",
+            "kind": "text",
+            "start": 1872,
+            "end": 1970
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Oct 2021 - Present",
+            "block_id": "b22",
+            "kind": "text",
+            "start": 1952,
+            "end": 1970
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "R SYSTEMS INTERNATIONAL Project Leader",
+            "block_id": "b22",
+            "kind": "text",
+            "start": 1872,
+            "end": 1910
+          }
+        ],
+        "section": "PROFESSIONAL EXPERIENCE",
+        "date_label": "Oct 2021 - Present",
+        "is_present": true
+      },
+      "precision": "month",
+      "date_label": "Oct 2021 - Present"
+    }
+  ],
+  "education": [],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "Key Contributions:",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Key Contributions:",
+        "Developed ML models for forecasting business volumes and policy spends using PyTorch and scikit-learn",
+        "Built Agentic AI system using LangGraph enabling natural language policy queries, automated analysis and insight generation",
+        "Implemented RAG workflows for retrieving relocation, HR, immigration, assignment, and destination city policies",
+        "Integrated model outputs into Sisense using custom Python scripts, providing dynamic KPIs, alerts, and narrative insights",
+        "Automated data processing pipelines using Python, SQL, and Azure Databricks components",
+        "Improved decision-making for relocations, exceptions, housing allowances, move volumes, and program-level performance"
+      ],
+      "raw_text": "Key Contributions:\nDeveloped ML models for forecasting business volumes and policy spends using PyTorch and scikit-learn\nBuilt Agentic AI system using LangGraph enabling natural language policy queries, automated analysis and insight generation\nImplemented RAG workflows for retrieving relocation, HR, immigration, assignment, and destination city policies\nIntegrated model outputs into Sisense using custom Python scripts, providing dynamic KPIs, alerts, and narrative insights\nAutomated data processing pipelines using Python, SQL, and Azure Databricks components\nImproved decision-making for reloc",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Key Contributions:",
+            "block_id": "b33",
+            "kind": "text",
+            "start": 3197,
+            "end": 3215
+          },
+          {
+            "page": 1,
+            "text": "Developed ML models for forecasting business volumes and policy spends using PyTorch and scikit-learn",
+            "block_id": "b34",
+            "kind": "text",
+            "start": 3216,
+            "end": 3317
+          },
+          {
+            "page": 1,
+            "text": "Built Agentic AI system using LangGraph enabling natural language policy queries, automated analysis and insight generation",
+            "block_id": "b35",
+            "kind": "text",
+            "start": 3318,
+            "end": 3441
+          },
+          {
+            "page": 1,
+            "text": "Implemented RAG workflows for retrieving relocation, HR, immigration, assignment, and destination city policies",
+            "block_id": "b36",
+            "kind": "text",
+            "start": 3442,
+            "end": 3553
+          },
+          {
+            "page": 1,
+            "text": "Integrated model outputs into Sisense using custom Python scripts, providing dynamic KPIs, alerts, and narrative insights",
+            "block_id": "b37",
+            "kind": "text",
+            "start": 3554,
+            "end": 3675
+          },
+          {
+            "page": 1,
+            "text": "Automated data processing pipelines using Python, SQL, and Azure Databricks components",
+            "block_id": "b38",
+            "kind": "text",
+            "start": 3676,
+            "end": 3762
+          },
+          {
+            "page": 1,
+            "text": "Improved decision-making for relocations, exceptions, housing allowances, move volumes, and program-level performance",
+            "block_id": "b39",
+            "kind": "text",
+            "start": 3763,
+            "end": 3880
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_2",
+      "name": "TaskUs - Billing Dashboard (scikit-learn, ML & Power BI)",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "TaskUs - Billing Dashboard (scikit-learn, ML & Power BI)",
+        "Conducted business discovery sessions and gathered KPI and reporting requirements from stakeholders",
+        "Designed semantic data model with fact tables, dimension tables, and incremental loads",
+        "Developed scikit-learn pipelines (IsolationForest, Logistic Regression) to detect anomalous billing patterns and high-risk entries",
+        "Exposed model outputs (risk flags, anomaly scores, predicted utilization) as SQL tables consumed by Power BI",
+        "Integrated ML-generated risk scores and forecast outputs into Power BI, enabling predictive KPIs and proactive dashboard alerts"
+      ],
+      "raw_text": "TaskUs - Billing Dashboard (scikit-learn, ML & Power BI)\nConducted business discovery sessions and gathered KPI and reporting requirements from stakeholders\nDesigned semantic data model with fact tables, dimension tables, and incremental loads\nDeveloped scikit-learn pipelines (IsolationForest, Logistic Regression) to detect anomalous billing patterns and high-risk entries\nExposed model outputs (risk flags, anomaly scores, predicted utilization) as SQL tables consumed by Power BI\nIntegrated ML-generated risk scores and forecast outputs into Power BI, enabling predictive KPIs and proactive dashb",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "TaskUs - Billing Dashboard (scikit-learn, ML & Power BI)",
+            "block_id": "b40",
+            "kind": "text",
+            "start": 3881,
+            "end": 3937
+          },
+          {
+            "page": 1,
+            "text": "Conducted business discovery sessions and gathered KPI and reporting requirements from stakeholders",
+            "block_id": "b41",
+            "kind": "text",
+            "start": 3938,
+            "end": 4037
+          },
+          {
+            "page": 1,
+            "text": "Designed semantic data model with fact tables, dimension tables, and incremental loads",
+            "block_id": "b42",
+            "kind": "text",
+            "start": 4038,
+            "end": 4124
+          },
+          {
+            "page": 1,
+            "text": "Developed scikit-learn pipelines (IsolationForest, Logistic Regression) to detect anomalous billing patterns and high-risk entries",
+            "block_id": "b43",
+            "kind": "text",
+            "start": 4125,
+            "end": 4255
+          },
+          {
+            "page": 1,
+            "text": "Exposed model outputs (risk flags, anomaly scores, predicted utilization) as SQL tables consumed by Power BI",
+            "block_id": "b44",
+            "kind": "text",
+            "start": 4256,
+            "end": 4364
+          },
+          {
+            "page": 1,
+            "text": "Integrated ML-generated risk scores and forecast outputs into Power BI, enabling predictive KPIs and proactive dashboard alerts",
+            "block_id": "b45",
+            "kind": "text",
+            "start": 4365,
+            "end": 4492
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_3",
+      "name": "TaskUs - AutoEncoder for Anomaly Detection",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "TaskUs - AutoEncoder for Anomaly Detection",
+        "Designed PyTorch AutoEncoder to detect anomalous operational patterns in log data, billing entries, and utilization metrics",
+        "Model identified spikes, duplicate activities, and abnormal usage trends, automatically flagging high-risk cases for QA teams",
+        "Integrated anomaly scores into Power BI dashboards for management visibility and real-time monitoring"
+      ],
+      "raw_text": "TaskUs - AutoEncoder for Anomaly Detection\nDesigned PyTorch AutoEncoder to detect anomalous operational patterns in log data, billing entries, and utilization metrics\nModel identified spikes, duplicate activities, and abnormal usage trends, automatically flagging high-risk cases for QA teams\nIntegrated anomaly scores into Power BI dashboards for management visibility and real-time monitoring",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "TaskUs - AutoEncoder for Anomaly Detection",
+            "block_id": "b46",
+            "kind": "text",
+            "start": 4493,
+            "end": 4535
+          },
+          {
+            "page": 1,
+            "text": "Designed PyTorch AutoEncoder to detect anomalous operational patterns in log data, billing entries, and utilization metrics",
+            "block_id": "b47",
+            "kind": "text",
+            "start": 4536,
+            "end": 4659
+          },
+          {
+            "page": 1,
+            "text": "Model identified spikes, duplicate activities, and abnormal usage trends, automatically flagging high-risk cases for QA teams",
+            "block_id": "b48",
+            "kind": "text",
+            "start": 4660,
+            "end": 4785
+          },
+          {
+            "page": 1,
+            "text": "Integrated anomaly scores into Power BI dashboards for management visibility and real-time monitoring",
+            "block_id": "b49",
+            "kind": "text",
+            "start": 4786,
+            "end": 4887
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_4",
+      "name": "FINANALYTIC CAPITAL PVT. LTD. Assistant Data Lead Mumbai, India Aug 2018 - Oct 2021",
+      "client": "",
+      "role": "",
+      "duration": "Aug 2018 - Oct 2021",
+      "details": [
+        "FINANALYTIC CAPITAL PVT. LTD. Assistant Data Lead Mumbai, India Aug 2018 - Oct 2021"
+      ],
+      "raw_text": "FINANALYTIC CAPITAL PVT. LTD. Assistant Data Lead Mumbai, India Aug 2018 - Oct 2021",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "FINANALYTIC CAPITAL PVT. LTD. Assistant Data Lead Mumbai, India Aug 2018 - Oct 2021",
+            "block_id": "b50",
+            "kind": "text",
+            "start": 4888,
+            "end": 4971
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_5",
+      "name": "Key Achievements:",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Key Achievements:",
+        "Led 10-member Data Science team delivering analytics solutions, ML models, and ETL pipelines",
+        "Built end-to-end Azure Data Factory and Azure Databricks workflows for financial performance analytics and automated reporting",
+        "Implemented ML models (scikit-learn: RandomForest, Logistic Regression, IsolationForest) to detect financial anomalies, predict revenue trends, and identify outlier transactions"
+      ],
+      "raw_text": "Key Achievements:\nLed 10-member Data Science team delivering analytics solutions, ML models, and ETL pipelines\nBuilt end-to-end Azure Data Factory and Azure Databricks workflows for financial performance analytics and automated reporting\nImplemented ML models (scikit-learn: RandomForest, Logistic Regression, IsolationForest) to detect financial anomalies, predict revenue trends, and identify outlier transactions",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Key Achievements:",
+            "block_id": "b51",
+            "kind": "text",
+            "start": 4972,
+            "end": 4989
+          },
+          {
+            "page": 1,
+            "text": "Led 10-member Data Science team delivering analytics solutions, ML models, and ETL pipelines",
+            "block_id": "b52",
+            "kind": "text",
+            "start": 4990,
+            "end": 5082
+          },
+          {
+            "page": 1,
+            "text": "Built end-to-end Azure Data Factory and Azure Databricks workflows for financial performance analytics and automated reporting",
+            "block_id": "b53",
+            "kind": "text",
+            "start": 5083,
+            "end": 5209
+          },
+          {
+            "page": 1,
+            "text": "Implemented ML models (scikit-learn: RandomForest, Logistic Regression, IsolationForest) to detect financial anomalies, predict revenue trends, and identify outlier transactions",
+            "block_id": "b54",
+            "kind": "text",
+            "start": 5210,
+            "end": 5387
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_6",
+      "name": "Reduced manual reporting work by 120+ hours per month through automation and cloud-scale transformation pipelines",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Reduced manual reporting work by 120+ hours per month through automation and cloud-scale transformation pipelines",
+        "Designed interactive Power BI dashboards with predictive KPIs and early-warning indicators for leadership"
+      ],
+      "raw_text": "Reduced manual reporting work by 120+ hours per month through automation and cloud-scale transformation pipelines\nDesigned interactive Power BI dashboards with predictive KPIs and early-warning indicators for leadership",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Reduced manual reporting work by 120+ hours per month through automation and cloud-scale transformation pipelines",
+            "block_id": "b55",
+            "kind": "text",
+            "start": 5388,
+            "end": 5501
+          },
+          {
+            "page": 1,
+            "text": "Designed interactive Power BI dashboards with predictive KPIs and early-warning indicators for leadership",
+            "block_id": "b56",
+            "kind": "text",
+            "start": 5502,
+            "end": 5607
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_7",
+      "name": "Key Responsibilities:",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Key Responsibilities:",
+        "Collaborated with business and finance stakeholders to define KPIs, capture analytical requirements, and translate them into measurable data products and ML use cases.",
+        "Applied ML techniques—Random Forests, Logistic Regression, Gradient Boosting, and K-Means clustering—to enhance forecasting accuracy and detect anomalies across spending, revenue, cash flow, and investment KPIs.",
+        "Implemented predictive models for churn, sales forecasting, budget variance prediction, and cost trend analysis using structured, time-series, and semi-structured datasets.",
+        "Developed transformation notebooks in Azure Databricks (PySpark) to cleanse, aggregate, and enrich financial datasets for reporting and ML models",
+        "Applied ML techniques (RandomForest, Logistic Regression, K-Means clustering) to improve forecasting accuracy and detect anomalies in spending, revenue, and investment metrics",
+        "Led Agile ceremonies including backlog refinement, sprint planning, and stakeholder demos, ensuring smooth delivery cycles"
+      ],
+      "raw_text": "Key Responsibilities:\nCollaborated with business and finance stakeholders to define KPIs, capture analytical requirements, and translate them into measurable data products and ML use cases.\nApplied ML techniques—Random Forests, Logistic Regression, Gradient Boosting, and K-Means clustering—to enhance forecasting accuracy and detect anomalies across spending, revenue, cash flow, and investment KPIs.\nImplemented predictive models for churn, sales forecasting, budget variance prediction, and cost trend analysis using structured, time-series, and semi-structured datasets.\nDeveloped transformation ",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Key Responsibilities:",
+            "block_id": "b57",
+            "kind": "text",
+            "start": 5608,
+            "end": 5629
+          },
+          {
+            "page": 1,
+            "text": "Collaborated with business and finance stakeholders to define KPIs, capture analytical requirements, and translate them into measurable data products and ML use cases.",
+            "block_id": "b58",
+            "kind": "text",
+            "start": 5630,
+            "end": 5797
+          },
+          {
+            "page": 1,
+            "text": "Applied ML techniques—Random Forests, Logistic Regression, Gradient Boosting, and K-Means clustering—to enhance forecasting accuracy and detect anomalies across spending, revenue, cash flow, and investment KPIs.",
+            "block_id": "b59",
+            "kind": "text",
+            "start": 5798,
+            "end": 6009
+          },
+          {
+            "page": 1,
+            "text": "Implemented predictive models for churn, sales forecasting, budget variance prediction, and cost trend analysis using structured, time-series, and semi-structured datasets.",
+            "block_id": "b60",
+            "kind": "text",
+            "start": 6010,
+            "end": 6182
+          },
+          {
+            "page": 1,
+            "text": "Developed transformation notebooks in Azure Databricks (PySpark) to cleanse, aggregate, and enrich financial datasets for reporting and ML models",
+            "block_id": "b61",
+            "kind": "text",
+            "start": 6183,
+            "end": 6328
+          },
+          {
+            "page": 1,
+            "text": "Applied ML techniques (RandomForest, Logistic Regression, K-Means clustering) to improve forecasting accuracy and detect anomalies in spending, revenue, and investment metrics",
+            "block_id": "b62",
+            "kind": "text",
+            "start": 6329,
+            "end": 6504
+          },
+          {
+            "page": 1,
+            "text": "Led Agile ceremonies including backlog refinement, sprint planning, and stakeholder demos, ensuring smooth delivery cycles",
+            "block_id": "b63",
+            "kind": "text",
+            "start": 6505,
+            "end": 6627
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_8",
+      "name": "Published curated datasets and ML outputs to SQL/ADF pipelines for consumption in Power BI dashboards",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Published curated datasets and ML outputs to SQL/ADF pipelines for consumption in Power BI dashboards"
+      ],
+      "raw_text": "Published curated datasets and ML outputs to SQL/ADF pipelines for consumption in Power BI dashboards",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Published curated datasets and ML outputs to SQL/ADF pipelines for consumption in Power BI dashboards",
+            "block_id": "b64",
+            "kind": "text",
+            "start": 6628,
+            "end": 6729
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_9",
+      "name": "FINANALYTIC CAPITAL Senior Software Engineer - Analytics Delhi, India",
+      "client": "",
+      "role": "",
+      "duration": "May 2016 - Jul 2018",
+      "details": [
+        "FINANALYTIC CAPITAL Senior Software Engineer - Analytics Delhi, India",
+        "May 2016 - Jul 2018",
+        "Performed data review, validation, and preprocessing (cleaning, encoding, imputations, outlier checks) to prepare high-quality datasets for traditional machine learning workflows.",
+        "Managed ETL/ELT pipelines and ensured accurate deployment of structured data into enterprise data warehouses for downstream ML model consumption.",
+        "Produced weekly and monthly analytical reports highlighting model performance metrics, data drift indicators, and business KPIs derived from ML outputs.",
+        "Conducted data profiling and exploratory analysis to detect anomalies, distribution shifts, multicollinearity, and feature importance patterns.",
+        "Collected and integrated data from multiple sources (databases, APIs, flat files) to build comprehensive, feature-rich datasets for model training and evaluation.",
+        "Designed and developed Power BI dashboards to visualize feature-level insights, prediction outputs, and real-world ML performance metrics for stakeholders."
+      ],
+      "raw_text": "FINANALYTIC CAPITAL Senior Software Engineer - Analytics Delhi, India\nMay 2016 - Jul 2018\nPerformed data review, validation, and preprocessing (cleaning, encoding, imputations, outlier checks) to prepare high-quality datasets for traditional machine learning workflows.\nManaged ETL/ELT pipelines and ensured accurate deployment of structured data into enterprise data warehouses for downstream ML model consumption.\nProduced weekly and monthly analytical reports highlighting model performance metrics, data drift indicators, and business KPIs derived from ML outputs.\nConducted data profiling and ex",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "FINANALYTIC CAPITAL Senior Software Engineer - Analytics Delhi, India",
+            "block_id": "b65",
+            "kind": "text",
+            "start": 6730,
+            "end": 6799
+          },
+          {
+            "page": 1,
+            "text": "May 2016 - Jul 2018",
+            "block_id": "b66",
+            "kind": "text",
+            "start": 6801,
+            "end": 6820
+          },
+          {
+            "page": 1,
+            "text": "Performed data review, validation, and preprocessing (cleaning, encoding, imputations, outlier checks) to prepare high-quality datasets for traditional machine learning workflows.",
+            "block_id": "b67",
+            "kind": "text",
+            "start": 6821,
+            "end": 7000
+          },
+          {
+            "page": 1,
+            "text": "Managed ETL/ELT pipelines and ensured accurate deployment of structured data into enterprise data warehouses for downstream ML model consumption.",
+            "block_id": "b68",
+            "kind": "text",
+            "start": 7001,
+            "end": 7146
+          },
+          {
+            "page": 1,
+            "text": "Produced weekly and monthly analytical reports highlighting model performance metrics, data drift indicators, and business KPIs derived from ML outputs.",
+            "block_id": "b69",
+            "kind": "text",
+            "start": 7147,
+            "end": 7299
+          },
+          {
+            "page": 1,
+            "text": "Conducted data profiling and exploratory analysis to detect anomalies, distribution shifts, multicollinearity, and feature importance patterns.",
+            "block_id": "b70",
+            "kind": "text",
+            "start": 7300,
+            "end": 7443
+          },
+          {
+            "page": 1,
+            "text": "Collected and integrated data from multiple sources (databases, APIs, flat files) to build comprehensive, feature-rich datasets for model training and evaluation.",
+            "block_id": "b71",
+            "kind": "text",
+            "start": 7444,
+            "end": 7606
+          },
+          {
+            "page": 1,
+            "text": "Designed and developed Power BI dashboards to visualize feature-level insights, prediction outputs, and real-world ML performance metrics for stakeholders.",
+            "block_id": "b72",
+            "kind": "text",
+            "start": 7607,
+            "end": 7762
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_10",
+      "name": "GENPACT Process Developer - ETL & Analytics Noida, India",
+      "client": "",
+      "role": "",
+      "duration": "Feb 2015 - Apr 2016",
+      "details": [
+        "GENPACT Process Developer - ETL & Analytics Noida, India",
+        "Feb 2015 - Apr 2016"
+      ],
+      "raw_text": "GENPACT Process Developer - ETL & Analytics Noida, India\nFeb 2015 - Apr 2016",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "GENPACT Process Developer - ETL & Analytics Noida, India",
+            "block_id": "b73",
+            "kind": "text",
+            "start": 7763,
+            "end": 7819
+          },
+          {
+            "page": 1,
+            "text": "Feb 2015 - Apr 2016",
+            "block_id": "b74",
+            "kind": "text",
+            "start": 7821,
+            "end": 7840
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_11",
+      "name": "Design, Build and deploy effective Predictive Model on structured data",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Design, Build and deploy effective Predictive Model on structured data"
+      ],
+      "raw_text": "Design, Build and deploy effective Predictive Model on structured data",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Design, Build and deploy effective Predictive Model on structured data",
+            "block_id": "b75",
+            "kind": "text",
+            "start": 7841,
+            "end": 7911
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_12",
+      "name": "Visualize Model Predictions.",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Visualize Model Predictions."
+      ],
+      "raw_text": "Visualize Model Predictions.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Visualize Model Predictions.",
+            "block_id": "b76",
+            "kind": "text",
+            "start": 7912,
+            "end": 7940
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_13",
+      "name": "Identify and test for bugs and bottlenecks.",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Identify and test for bugs and bottlenecks.",
+        "Collaborate with other teams within the organization and be able to devise the technical solution as it relates to the business & technical requirements"
+      ],
+      "raw_text": "Identify and test for bugs and bottlenecks.\nCollaborate with other teams within the organization and be able to devise the technical solution as it relates to the business & technical requirements",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Identify and test for bugs and bottlenecks.",
+            "block_id": "b77",
+            "kind": "text",
+            "start": 7941,
+            "end": 7984
+          },
+          {
+            "page": 1,
+            "text": "Collaborate with other teams within the organization and be able to devise the technical solution as it relates to the business & technical requirements",
+            "block_id": "b78",
+            "kind": "text",
+            "start": 7985,
+            "end": 8137
+          }
+        ]
+      }
+    }
+  ],
+  "gaps": [],
+  "total_work_experience_entries": 1,
+  "total_projects_entries": 13,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "overlap preserved: 'FINANALYTIC CAPITAL PVT. LTD. Assistant Data Lead Mumbai, India' overlaps 'R SYSTEMS INTERNATIONAL Project Leader'"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "f870082fcdf3713a68e3f72e",
+    "filename": "Jahangeeralam.docx",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v8ef68ad6a98a9ffe",
+        "type": "PROJECT",
+        "title": "GENPACT Process Developer - ETL & Analytics Noida, India",
+        "org": "",
+        "start": "2015-02",
+        "end": "2016-04",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_PROJECT_CUES"
+        ],
+        "quote": "GENPACT Process Developer - ETL & Analytics Noida, India\nFeb 2015 - Apr 2016",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "GENPACT Process Developer - ETL & Analytics Noida, India",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 7763,
+              "end": 7819
+            },
+            {
+              "page": 1,
+              "text": "Feb 2015 - Apr 2016",
+              "block_id": "b74",
+              "kind": "text",
+              "start": 7821,
+              "end": 7840
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Feb 2015 - Apr 2016",
+              "block_id": "b74",
+              "kind": "text",
+              "start": 7821,
+              "end": 7840
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "GENPACT Process Developer - ETL & Analytics Noida, India",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 7763,
+              "end": 7819
+            }
+          ],
+          "section": "Major Projects:",
+          "date_label": "Feb 2015 - Apr 2016",
+          "is_present": false
+        },
+        "date_label": "Feb 2015 - Apr 2016",
+        "section": "Major Projects:",
+        "is_present": false
+      },
+      {
+        "id": "v2c572bc7d859a4b9",
+        "type": "PROJECT",
+        "title": "FINANALYTIC CAPITAL Senior Software Engineer - Analytics Delhi, India",
+        "org": "",
+        "start": "2016-05",
+        "end": "2018-07",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_PROJECT_CUES"
+        ],
+        "quote": "FINANALYTIC CAPITAL Senior Software Engineer - Analytics Delhi, India\nMay 2016 - Jul 2018",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "FINANALYTIC CAPITAL Senior Software Engineer - Analytics Delhi, India",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 6730,
+              "end": 6799
+            },
+            {
+              "page": 1,
+              "text": "May 2016 - Jul 2018",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 6801,
+              "end": 6820
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "May 2016 - Jul 2018",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 6801,
+              "end": 6820
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "FINANALYTIC CAPITAL Senior Software Engineer - Analytics Delhi, India",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 6730,
+              "end": 6799
+            }
+          ],
+          "section": "Major Projects:",
+          "date_label": "May 2016 - Jul 2018",
+          "is_present": false
+        },
+        "date_label": "May 2016 - Jul 2018",
+        "section": "Major Projects:",
+        "is_present": false
+      },
+      {
+        "id": "v6ddc2e21ef31e41a",
+        "type": "PROJECT",
+        "title": "FINANALYTIC CAPITAL PVT. LTD. Assistant Data Lead Mumbai, India",
+        "org": "",
+        "start": "2018-08",
+        "end": "2021-10",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_PROJECT_CUES"
+        ],
+        "quote": "FINANALYTIC CAPITAL PVT. LTD. Assistant Data Lead Mumbai, India Aug 2018 - Oct 2021",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "FINANALYTIC CAPITAL PVT. LTD. Assistant Data Lead Mumbai, India Aug 2018 - Oct 2021",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 4888,
+              "end": 4971
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Aug 2018 - Oct 2021",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 4952,
+              "end": 4971
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "FINANALYTIC CAPITAL PVT. LTD. Assistant Data Lead Mumbai, India",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 4888,
+              "end": 4951
+            }
+          ],
+          "section": "Major Projects:",
+          "date_label": "Aug 2018 - Oct 2021",
+          "is_present": false
+        },
+        "date_label": "Aug 2018 - Oct 2021",
+        "section": "Major Projects:",
+        "is_present": false
+      },
+      {
+        "id": "v8e4a2f623c5caf99",
+        "type": "EMPLOYMENT",
+        "title": "R SYSTEMS INTERNATIONAL Project Leader",
+        "org": "",
+        "start": "2021-10",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "R SYSTEMS INTERNATIONAL Project Leader - AI, Data Engineering & BI Noida, India Oct 2021 - Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "R SYSTEMS INTERNATIONAL Project Leader - AI, Data Engineering & BI Noida, India Oct 2021 - Present",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 1872,
+              "end": 1970
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Oct 2021 - Present",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 1952,
+              "end": 1970
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "R SYSTEMS INTERNATIONAL Project Leader",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 1872,
+              "end": 1910
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Oct 2021 - Present",
+          "is_present": true
+        },
+        "date_label": "Oct 2021 - Present",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v91222f44e35614b3",
+        "type": "PROJECT",
+        "title": "Key Contributions",
+        "org": "",
+        "entry_text": "Key Contributions: Developed ML models for forecasting business volumes and policy spends using PyTorch and scikit-learn Built Agentic AI system using LangGraph enabling natural language policy queries, automated analysis and insight generation Implemented RAG workflows for retrieving relocation, HR",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Key Contributions:",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 3197,
+              "end": 3215
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Key Contributions",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 3197,
+              "end": 3214
+            }
+          ],
+          "section": "Major Projects:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Major Projects:",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v22056776b7a51be6",
+        "type": "PROJECT",
+        "title": "TaskUs - Billing Dashboard",
+        "org": "",
+        "entry_text": "TaskUs - Billing Dashboard (scikit-learn, ML & Power BI) Conducted business discovery sessions and gathered KPI and reporting requirements from stakeholders Designed semantic data model with fact tables, dimension tables, and incremental loads Developed scikit-learn pipelines (IsolationForest, Logis",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "TaskUs - Billing Dashboard (scikit-learn, ML & Power BI)",
+              "block_id": "b40",
+              "kind": "text",
+              "start": 3881,
+              "end": 3937
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "TaskUs - Billing Dashboard",
+              "block_id": "b40",
+              "kind": "text",
+              "start": 3881,
+              "end": 3907
+            }
+          ],
+          "section": "Major Projects:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Major Projects:",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "vf74e9b46dbc0cee1",
+        "type": "PROJECT",
+        "title": "TaskUs - AutoEncoder for Anomaly Detection",
+        "org": "",
+        "entry_text": "TaskUs - AutoEncoder for Anomaly Detection Designed PyTorch AutoEncoder to detect anomalous operational patterns in log data, billing entries, and utilization metrics Model identified spikes, duplicate activities, and abnormal usage trends, automatically flagging high-risk cases for QA teams Integra",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "TaskUs - AutoEncoder for Anomaly Detection",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 4493,
+              "end": 4535
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "TaskUs - AutoEncoder for Anomaly Detection",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 4493,
+              "end": 4535
+            }
+          ],
+          "section": "Major Projects:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Major Projects:",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v16e6f7ab2f1e8531",
+        "type": "PROJECT",
+        "title": "Key Achievements",
+        "org": "",
+        "entry_text": "Key Achievements: Led 10-member Data Science team delivering analytics solutions, ML models, and ETL pipelines Built end-to-end Azure Data Factory and Azure Databricks workflows for financial performance analytics and automated reporting Implemented ML models (scikit-learn: RandomForest, Logistic Re",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Key Achievements:",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 4972,
+              "end": 4989
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Key Achievements",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 4972,
+              "end": 4988
+            }
+          ],
+          "section": "Major Projects:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Major Projects:",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v1aa73f965d857fe1",
+        "type": "PROJECT",
+        "title": "Reduced manual reporting work by 120+ hours per month through automation and cloud-scale transformation pipelines",
+        "org": "",
+        "entry_text": "Reduced manual reporting work by 120+ hours per month through automation and cloud-scale transformation pipelines Designed interactive Power BI dashboards with predictive KPIs and early-warning indicators for leadership",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Reduced manual reporting work by 120+ hours per month through automation and cloud-scale transformation pipelines",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 5388,
+              "end": 5501
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Reduced manual reporting work by 120+ hours per month through automation and cloud-scale transformation pipelines",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 5388,
+              "end": 5501
+            }
+          ],
+          "section": "Major Projects:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Major Projects:",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "vab9bcfa2425de1ec",
+        "type": "PROJECT",
+        "title": "Key Responsibilities",
+        "org": "",
+        "entry_text": "Key Responsibilities: Collaborated with business and finance stakeholders to define KPIs, capture analytical requirements, and translate them into measurable data products and ML use cases. Applied ML techniques—Random Forests, Logistic Regression, Gradient Boosting, and K-Means clustering—to enhanc",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Key Responsibilities:",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 5608,
+              "end": 5629
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Key Responsibilities",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 5608,
+              "end": 5628
+            }
+          ],
+          "section": "Major Projects:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Major Projects:",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v27c1f9944be46fec",
+        "type": "PROJECT",
+        "title": "Published curated datasets and ML outputs to SQL/ADF pipelines for consumption in Power BI dashboards",
+        "org": "",
+        "entry_text": "Published curated datasets and ML outputs to SQL/ADF pipelines for consumption in Power BI dashboards",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Published curated datasets and ML outputs to SQL/ADF pipelines for consumption in Power BI dashboards",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 6628,
+              "end": 6729
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Published curated datasets and ML outputs to SQL/ADF pipelines for consumption in Power BI dashboards",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 6628,
+              "end": 6729
+            }
+          ],
+          "section": "Major Projects:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Major Projects:",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "vde1a3aa3fb1c8ffd",
+        "type": "PROJECT",
+        "title": "Design, Build and deploy effective Predictive Model on structured data",
+        "org": "",
+        "entry_text": "Design, Build and deploy effective Predictive Model on structured data",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Design, Build and deploy effective Predictive Model on structured data",
+              "block_id": "b75",
+              "kind": "text",
+              "start": 7841,
+              "end": 7911
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Design, Build and deploy effective Predictive Model on structured data",
+              "block_id": "b75",
+              "kind": "text",
+              "start": 7841,
+              "end": 7911
+            }
+          ],
+          "section": "Major Projects:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Major Projects:",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v67477b5ccec6b0df",
+        "type": "PROJECT",
+        "title": "Visualize Model Predictions.",
+        "org": "",
+        "entry_text": "Visualize Model Predictions.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Visualize Model Predictions.",
+              "block_id": "b76",
+              "kind": "text",
+              "start": 7912,
+              "end": 7940
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Visualize Model Predictions",
+              "block_id": "b76",
+              "kind": "text",
+              "start": 7912,
+              "end": 7939
+            }
+          ],
+          "section": "Major Projects:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Major Projects:",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v62d1881524de4244",
+        "type": "PROJECT",
+        "title": "Identify and test for bugs and bottlenecks.",
+        "org": "",
+        "entry_text": "Identify and test for bugs and bottlenecks. Collaborate with other teams within the organization and be able to devise the technical solution as it relates to the business & technical requirements",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Identify and test for bugs and bottlenecks.",
+              "block_id": "b77",
+              "kind": "text",
+              "start": 7941,
+              "end": 7984
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Identify and test for bugs and bottlenecks",
+              "block_id": "b77",
+              "kind": "text",
+              "start": 7941,
+              "end": 7983
+            }
+          ],
+          "section": "Major Projects:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Major Projects:",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "Key Contributions:",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Key Contributions:",
+          "Developed ML models for forecasting business volumes and policy spends using PyTorch and scikit-learn",
+          "Built Agentic AI system using LangGraph enabling natural language policy queries, automated analysis and insight generation",
+          "Implemented RAG workflows for retrieving relocation, HR, immigration, assignment, and destination city policies",
+          "Integrated model outputs into Sisense using custom Python scripts, providing dynamic KPIs, alerts, and narrative insights",
+          "Automated data processing pipelines using Python, SQL, and Azure Databricks components",
+          "Improved decision-making for relocations, exceptions, housing allowances, move volumes, and program-level performance"
+        ],
+        "raw_text": "Key Contributions:\nDeveloped ML models for forecasting business volumes and policy spends using PyTorch and scikit-learn\nBuilt Agentic AI system using LangGraph enabling natural language policy queries, automated analysis and insight generation\nImplemented RAG workflows for retrieving relocation, HR, immigration, assignment, and destination city policies\nIntegrated model outputs into Sisense using custom Python scripts, providing dynamic KPIs, alerts, and narrative insights\nAutomated data processing pipelines using Python, SQL, and Azure Databricks components\nImproved decision-making for reloc",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Key Contributions:",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 3197,
+              "end": 3215
+            },
+            {
+              "page": 1,
+              "text": "Developed ML models for forecasting business volumes and policy spends using PyTorch and scikit-learn",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 3216,
+              "end": 3317
+            },
+            {
+              "page": 1,
+              "text": "Built Agentic AI system using LangGraph enabling natural language policy queries, automated analysis and insight generation",
+              "block_id": "b35",
+              "kind": "text",
+              "start": 3318,
+              "end": 3441
+            },
+            {
+              "page": 1,
+              "text": "Implemented RAG workflows for retrieving relocation, HR, immigration, assignment, and destination city policies",
+              "block_id": "b36",
+              "kind": "text",
+              "start": 3442,
+              "end": 3553
+            },
+            {
+              "page": 1,
+              "text": "Integrated model outputs into Sisense using custom Python scripts, providing dynamic KPIs, alerts, and narrative insights",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 3554,
+              "end": 3675
+            },
+            {
+              "page": 1,
+              "text": "Automated data processing pipelines using Python, SQL, and Azure Databricks components",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 3676,
+              "end": 3762
+            },
+            {
+              "page": 1,
+              "text": "Improved decision-making for relocations, exceptions, housing allowances, move volumes, and program-level performance",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 3763,
+              "end": 3880
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "TaskUs - Billing Dashboard (scikit-learn, ML & Power BI)",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "TaskUs - Billing Dashboard (scikit-learn, ML & Power BI)",
+          "Conducted business discovery sessions and gathered KPI and reporting requirements from stakeholders",
+          "Designed semantic data model with fact tables, dimension tables, and incremental loads",
+          "Developed scikit-learn pipelines (IsolationForest, Logistic Regression) to detect anomalous billing patterns and high-risk entries",
+          "Exposed model outputs (risk flags, anomaly scores, predicted utilization) as SQL tables consumed by Power BI",
+          "Integrated ML-generated risk scores and forecast outputs into Power BI, enabling predictive KPIs and proactive dashboard alerts"
+        ],
+        "raw_text": "TaskUs - Billing Dashboard (scikit-learn, ML & Power BI)\nConducted business discovery sessions and gathered KPI and reporting requirements from stakeholders\nDesigned semantic data model with fact tables, dimension tables, and incremental loads\nDeveloped scikit-learn pipelines (IsolationForest, Logistic Regression) to detect anomalous billing patterns and high-risk entries\nExposed model outputs (risk flags, anomaly scores, predicted utilization) as SQL tables consumed by Power BI\nIntegrated ML-generated risk scores and forecast outputs into Power BI, enabling predictive KPIs and proactive dashb",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "TaskUs - Billing Dashboard (scikit-learn, ML & Power BI)",
+              "block_id": "b40",
+              "kind": "text",
+              "start": 3881,
+              "end": 3937
+            },
+            {
+              "page": 1,
+              "text": "Conducted business discovery sessions and gathered KPI and reporting requirements from stakeholders",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 3938,
+              "end": 4037
+            },
+            {
+              "page": 1,
+              "text": "Designed semantic data model with fact tables, dimension tables, and incremental loads",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 4038,
+              "end": 4124
+            },
+            {
+              "page": 1,
+              "text": "Developed scikit-learn pipelines (IsolationForest, Logistic Regression) to detect anomalous billing patterns and high-risk entries",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 4125,
+              "end": 4255
+            },
+            {
+              "page": 1,
+              "text": "Exposed model outputs (risk flags, anomaly scores, predicted utilization) as SQL tables consumed by Power BI",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 4256,
+              "end": 4364
+            },
+            {
+              "page": 1,
+              "text": "Integrated ML-generated risk scores and forecast outputs into Power BI, enabling predictive KPIs and proactive dashboard alerts",
+              "block_id": "b45",
+              "kind": "text",
+              "start": 4365,
+              "end": 4492
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_3",
+        "name": "TaskUs - AutoEncoder for Anomaly Detection",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "TaskUs - AutoEncoder for Anomaly Detection",
+          "Designed PyTorch AutoEncoder to detect anomalous operational patterns in log data, billing entries, and utilization metrics",
+          "Model identified spikes, duplicate activities, and abnormal usage trends, automatically flagging high-risk cases for QA teams",
+          "Integrated anomaly scores into Power BI dashboards for management visibility and real-time monitoring"
+        ],
+        "raw_text": "TaskUs - AutoEncoder for Anomaly Detection\nDesigned PyTorch AutoEncoder to detect anomalous operational patterns in log data, billing entries, and utilization metrics\nModel identified spikes, duplicate activities, and abnormal usage trends, automatically flagging high-risk cases for QA teams\nIntegrated anomaly scores into Power BI dashboards for management visibility and real-time monitoring",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "TaskUs - AutoEncoder for Anomaly Detection",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 4493,
+              "end": 4535
+            },
+            {
+              "page": 1,
+              "text": "Designed PyTorch AutoEncoder to detect anomalous operational patterns in log data, billing entries, and utilization metrics",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 4536,
+              "end": 4659
+            },
+            {
+              "page": 1,
+              "text": "Model identified spikes, duplicate activities, and abnormal usage trends, automatically flagging high-risk cases for QA teams",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 4660,
+              "end": 4785
+            },
+            {
+              "page": 1,
+              "text": "Integrated anomaly scores into Power BI dashboards for management visibility and real-time monitoring",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 4786,
+              "end": 4887
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_4",
+        "name": "FINANALYTIC CAPITAL PVT. LTD. Assistant Data Lead Mumbai, India Aug 2018 - Oct 2021",
+        "client": "",
+        "role": "",
+        "duration": "Aug 2018 - Oct 2021",
+        "details": [
+          "FINANALYTIC CAPITAL PVT. LTD. Assistant Data Lead Mumbai, India Aug 2018 - Oct 2021"
+        ],
+        "raw_text": "FINANALYTIC CAPITAL PVT. LTD. Assistant Data Lead Mumbai, India Aug 2018 - Oct 2021",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "FINANALYTIC CAPITAL PVT. LTD. Assistant Data Lead Mumbai, India Aug 2018 - Oct 2021",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 4888,
+              "end": 4971
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_5",
+        "name": "Key Achievements:",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Key Achievements:",
+          "Led 10-member Data Science team delivering analytics solutions, ML models, and ETL pipelines",
+          "Built end-to-end Azure Data Factory and Azure Databricks workflows for financial performance analytics and automated reporting",
+          "Implemented ML models (scikit-learn: RandomForest, Logistic Regression, IsolationForest) to detect financial anomalies, predict revenue trends, and identify outlier transactions"
+        ],
+        "raw_text": "Key Achievements:\nLed 10-member Data Science team delivering analytics solutions, ML models, and ETL pipelines\nBuilt end-to-end Azure Data Factory and Azure Databricks workflows for financial performance analytics and automated reporting\nImplemented ML models (scikit-learn: RandomForest, Logistic Regression, IsolationForest) to detect financial anomalies, predict revenue trends, and identify outlier transactions",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Key Achievements:",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 4972,
+              "end": 4989
+            },
+            {
+              "page": 1,
+              "text": "Led 10-member Data Science team delivering analytics solutions, ML models, and ETL pipelines",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 4990,
+              "end": 5082
+            },
+            {
+              "page": 1,
+              "text": "Built end-to-end Azure Data Factory and Azure Databricks workflows for financial performance analytics and automated reporting",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 5083,
+              "end": 5209
+            },
+            {
+              "page": 1,
+              "text": "Implemented ML models (scikit-learn: RandomForest, Logistic Regression, IsolationForest) to detect financial anomalies, predict revenue trends, and identify outlier transactions",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 5210,
+              "end": 5387
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_6",
+        "name": "Reduced manual reporting work by 120+ hours per month through automation and cloud-scale transformation pipelines",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Reduced manual reporting work by 120+ hours per month through automation and cloud-scale transformation pipelines",
+          "Designed interactive Power BI dashboards with predictive KPIs and early-warning indicators for leadership"
+        ],
+        "raw_text": "Reduced manual reporting work by 120+ hours per month through automation and cloud-scale transformation pipelines\nDesigned interactive Power BI dashboards with predictive KPIs and early-warning indicators for leadership",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Reduced manual reporting work by 120+ hours per month through automation and cloud-scale transformation pipelines",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 5388,
+              "end": 5501
+            },
+            {
+              "page": 1,
+              "text": "Designed interactive Power BI dashboards with predictive KPIs and early-warning indicators for leadership",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 5502,
+              "end": 5607
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_7",
+        "name": "Key Responsibilities:",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Key Responsibilities:",
+          "Collaborated with business and finance stakeholders to define KPIs, capture analytical requirements, and translate them into measurable data products and ML use cases.",
+          "Applied ML techniques—Random Forests, Logistic Regression, Gradient Boosting, and K-Means clustering—to enhance forecasting accuracy and detect anomalies across spending, revenue, cash flow, and investment KPIs.",
+          "Implemented predictive models for churn, sales forecasting, budget variance prediction, and cost trend analysis using structured, time-series, and semi-structured datasets.",
+          "Developed transformation notebooks in Azure Databricks (PySpark) to cleanse, aggregate, and enrich financial datasets for reporting and ML models",
+          "Applied ML techniques (RandomForest, Logistic Regression, K-Means clustering) to improve forecasting accuracy and detect anomalies in spending, revenue, and investment metrics",
+          "Led Agile ceremonies including backlog refinement, sprint planning, and stakeholder demos, ensuring smooth delivery cycles"
+        ],
+        "raw_text": "Key Responsibilities:\nCollaborated with business and finance stakeholders to define KPIs, capture analytical requirements, and translate them into measurable data products and ML use cases.\nApplied ML techniques—Random Forests, Logistic Regression, Gradient Boosting, and K-Means clustering—to enhance forecasting accuracy and detect anomalies across spending, revenue, cash flow, and investment KPIs.\nImplemented predictive models for churn, sales forecasting, budget variance prediction, and cost trend analysis using structured, time-series, and semi-structured datasets.\nDeveloped transformation ",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Key Responsibilities:",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 5608,
+              "end": 5629
+            },
+            {
+              "page": 1,
+              "text": "Collaborated with business and finance stakeholders to define KPIs, capture analytical requirements, and translate them into measurable data products and ML use cases.",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 5630,
+              "end": 5797
+            },
+            {
+              "page": 1,
+              "text": "Applied ML techniques—Random Forests, Logistic Regression, Gradient Boosting, and K-Means clustering—to enhance forecasting accuracy and detect anomalies across spending, revenue, cash flow, and investment KPIs.",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 5798,
+              "end": 6009
+            },
+            {
+              "page": 1,
+              "text": "Implemented predictive models for churn, sales forecasting, budget variance prediction, and cost trend analysis using structured, time-series, and semi-structured datasets.",
+              "block_id": "b60",
+              "kind": "text",
+              "start": 6010,
+              "end": 6182
+            },
+            {
+              "page": 1,
+              "text": "Developed transformation notebooks in Azure Databricks (PySpark) to cleanse, aggregate, and enrich financial datasets for reporting and ML models",
+              "block_id": "b61",
+              "kind": "text",
+              "start": 6183,
+              "end": 6328
+            },
+            {
+              "page": 1,
+              "text": "Applied ML techniques (RandomForest, Logistic Regression, K-Means clustering) to improve forecasting accuracy and detect anomalies in spending, revenue, and investment metrics",
+              "block_id": "b62",
+              "kind": "text",
+              "start": 6329,
+              "end": 6504
+            },
+            {
+              "page": 1,
+              "text": "Led Agile ceremonies including backlog refinement, sprint planning, and stakeholder demos, ensuring smooth delivery cycles",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 6505,
+              "end": 6627
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_8",
+        "name": "Published curated datasets and ML outputs to SQL/ADF pipelines for consumption in Power BI dashboards",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Published curated datasets and ML outputs to SQL/ADF pipelines for consumption in Power BI dashboards"
+        ],
+        "raw_text": "Published curated datasets and ML outputs to SQL/ADF pipelines for consumption in Power BI dashboards",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Published curated datasets and ML outputs to SQL/ADF pipelines for consumption in Power BI dashboards",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 6628,
+              "end": 6729
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_9",
+        "name": "FINANALYTIC CAPITAL Senior Software Engineer - Analytics Delhi, India",
+        "client": "",
+        "role": "",
+        "duration": "May 2016 - Jul 2018",
+        "details": [
+          "FINANALYTIC CAPITAL Senior Software Engineer - Analytics Delhi, India",
+          "May 2016 - Jul 2018",
+          "Performed data review, validation, and preprocessing (cleaning, encoding, imputations, outlier checks) to prepare high-quality datasets for traditional machine learning workflows.",
+          "Managed ETL/ELT pipelines and ensured accurate deployment of structured data into enterprise data warehouses for downstream ML model consumption.",
+          "Produced weekly and monthly analytical reports highlighting model performance metrics, data drift indicators, and business KPIs derived from ML outputs.",
+          "Conducted data profiling and exploratory analysis to detect anomalies, distribution shifts, multicollinearity, and feature importance patterns.",
+          "Collected and integrated data from multiple sources (databases, APIs, flat files) to build comprehensive, feature-rich datasets for model training and evaluation.",
+          "Designed and developed Power BI dashboards to visualize feature-level insights, prediction outputs, and real-world ML performance metrics for stakeholders."
+        ],
+        "raw_text": "FINANALYTIC CAPITAL Senior Software Engineer - Analytics Delhi, India\nMay 2016 - Jul 2018\nPerformed data review, validation, and preprocessing (cleaning, encoding, imputations, outlier checks) to prepare high-quality datasets for traditional machine learning workflows.\nManaged ETL/ELT pipelines and ensured accurate deployment of structured data into enterprise data warehouses for downstream ML model consumption.\nProduced weekly and monthly analytical reports highlighting model performance metrics, data drift indicators, and business KPIs derived from ML outputs.\nConducted data profiling and ex",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "FINANALYTIC CAPITAL Senior Software Engineer - Analytics Delhi, India",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 6730,
+              "end": 6799
+            },
+            {
+              "page": 1,
+              "text": "May 2016 - Jul 2018",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 6801,
+              "end": 6820
+            },
+            {
+              "page": 1,
+              "text": "Performed data review, validation, and preprocessing (cleaning, encoding, imputations, outlier checks) to prepare high-quality datasets for traditional machine learning workflows.",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 6821,
+              "end": 7000
+            },
+            {
+              "page": 1,
+              "text": "Managed ETL/ELT pipelines and ensured accurate deployment of structured data into enterprise data warehouses for downstream ML model consumption.",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 7001,
+              "end": 7146
+            },
+            {
+              "page": 1,
+              "text": "Produced weekly and monthly analytical reports highlighting model performance metrics, data drift indicators, and business KPIs derived from ML outputs.",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 7147,
+              "end": 7299
+            },
+            {
+              "page": 1,
+              "text": "Conducted data profiling and exploratory analysis to detect anomalies, distribution shifts, multicollinearity, and feature importance patterns.",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 7300,
+              "end": 7443
+            },
+            {
+              "page": 1,
+              "text": "Collected and integrated data from multiple sources (databases, APIs, flat files) to build comprehensive, feature-rich datasets for model training and evaluation.",
+              "block_id": "b71",
+              "kind": "text",
+              "start": 7444,
+              "end": 7606
+            },
+            {
+              "page": 1,
+              "text": "Designed and developed Power BI dashboards to visualize feature-level insights, prediction outputs, and real-world ML performance metrics for stakeholders.",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 7607,
+              "end": 7762
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_10",
+        "name": "GENPACT Process Developer - ETL & Analytics Noida, India",
+        "client": "",
+        "role": "",
+        "duration": "Feb 2015 - Apr 2016",
+        "details": [
+          "GENPACT Process Developer - ETL & Analytics Noida, India",
+          "Feb 2015 - Apr 2016"
+        ],
+        "raw_text": "GENPACT Process Developer - ETL & Analytics Noida, India\nFeb 2015 - Apr 2016",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "GENPACT Process Developer - ETL & Analytics Noida, India",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 7763,
+              "end": 7819
+            },
+            {
+              "page": 1,
+              "text": "Feb 2015 - Apr 2016",
+              "block_id": "b74",
+              "kind": "text",
+              "start": 7821,
+              "end": 7840
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_11",
+        "name": "Design, Build and deploy effective Predictive Model on structured data",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Design, Build and deploy effective Predictive Model on structured data"
+        ],
+        "raw_text": "Design, Build and deploy effective Predictive Model on structured data",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Design, Build and deploy effective Predictive Model on structured data",
+              "block_id": "b75",
+              "kind": "text",
+              "start": 7841,
+              "end": 7911
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_12",
+        "name": "Visualize Model Predictions.",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Visualize Model Predictions."
+        ],
+        "raw_text": "Visualize Model Predictions.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Visualize Model Predictions.",
+              "block_id": "b76",
+              "kind": "text",
+              "start": 7912,
+              "end": 7940
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_13",
+        "name": "Identify and test for bugs and bottlenecks.",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Identify and test for bugs and bottlenecks.",
+          "Collaborate with other teams within the organization and be able to devise the technical solution as it relates to the business & technical requirements"
+        ],
+        "raw_text": "Identify and test for bugs and bottlenecks.\nCollaborate with other teams within the organization and be able to devise the technical solution as it relates to the business & technical requirements",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Identify and test for bugs and bottlenecks.",
+              "block_id": "b77",
+              "kind": "text",
+              "start": 7941,
+              "end": 7984
+            },
+            {
+              "page": 1,
+              "text": "Collaborate with other teams within the organization and be able to devise the technical solution as it relates to the business & technical requirements",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 7985,
+              "end": 8137
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "NO_GAP_DETECTED",
+        "confidence": 0.9,
+        "reasons": [],
+        "evidence": {
+          "note": "no uncovered months between supported entries"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 4,
+      "total_events": 14,
+      "dated_share": 0.286,
+      "unresolved": 10,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 140,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": true,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 1,
+          "represented_months": 60,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 1,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v8e4a2f623c5caf99",
+              "label": "R SYSTEMS INTERNATIONAL Project Leader",
+              "state": "month_range",
+              "start": [
+                2021,
+                10
+              ],
+              "end": [
+                2026,
+                9
+              ],
+              "months": 60,
+              "raw": "Oct 2021 - Present",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "R SYSTEMS INTERNATIONAL Project Leader - AI, Data Engineering & BI Noida, India Oct 2021 - Present",
+                    "block_id": "b22",
+                    "kind": "text",
+                    "start": 1872,
+                    "end": 1970
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "Oct 2021 - Present",
+                    "block_id": "b22",
+                    "kind": "text",
+                    "start": 1952,
+                    "end": 1970
+                  }
+                ],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "R SYSTEMS INTERNATIONAL Project Leader",
+                    "block_id": "b22",
+                    "kind": "text",
+                    "start": 1872,
+                    "end": 1910
+                  }
+                ],
+                "section": "PROFESSIONAL EXPERIENCE",
+                "date_label": "Oct 2021 - Present",
+                "is_present": true
+              }
+            }
+          ]
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 13,
+          "dated_periods": 3,
+          "represented_months": 81,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 3,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 10,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "proj_1",
+              "label": "Key Contributions:",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Key Contributions:",
+                    "block_id": "b33",
+                    "kind": "text",
+                    "start": 3197,
+                    "end": 3215
+                  },
+                  {
+                    "page": 1,
+                    "text": "Developed ML models for forecasting business volumes and policy spends using PyTorch and scikit-learn",
+                    "block_id": "b34",
+                    "kind": "text",
+                    "start": 3216,
+                    "end": 3317
+                  },
+                  {
+                    "page": 1,
+                    "text": "Built Agentic AI system using LangGraph enabling natural language policy queries, automated analysis and insight generation",
+                    "block_id": "b35",
+                    "kind": "text",
+                    "start": 3318,
+                    "end": 3441
+                  },
+                  {
+                    "page": 1,
+                    "text": "Implemented RAG workflows for retrieving relocation, HR, immigration, assignment, and destination city policies",
+                    "block_id": "b36",
+                    "kind": "text",
+                    "start": 3442,
+                    "end": 3553
+                  },
+                  {
+                    "page": 1,
+                    "text": "Integrated model outputs into Sisense using custom Python scripts, providing dynamic KPIs, alerts, and narrative insights",
+                    "block_id": "b37",
+                    "kind": "text",
+                    "start": 3554,
+                    "end": 3675
+                  },
+                  {
+                    "page": 1,
+                    "text": "Automated data processing pipelines using Python, SQL, and Azure Databricks components",
+                    "block_id": "b38",
+                    "kind": "text",
+                    "start": 3676,
+                    "end": 3762
+                  },
+                  {
+                    "page": 1,
+                    "text": "Improved decision-making for relocations, exceptions, housing allowances, move volumes, and program-level performance",
+                    "block_id": "b39",
+                    "kind": "text",
+                    "start": 3763,
+                    "end": 3880
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_2",
+              "label": "TaskUs - Billing Dashboard (scikit-learn, ML & Power BI)",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "TaskUs - Billing Dashboard (scikit-learn, ML & Power BI)",
+                    "block_id": "b40",
+                    "kind": "text",
+                    "start": 3881,
+                    "end": 3937
+                  },
+                  {
+                    "page": 1,
+                    "text": "Conducted business discovery sessions and gathered KPI and reporting requirements from stakeholders",
+                    "block_id": "b41",
+                    "kind": "text",
+                    "start": 3938,
+                    "end": 4037
+                  },
+                  {
+                    "page": 1,
+                    "text": "Designed semantic data model with fact tables, dimension tables, and incremental loads",
+                    "block_id": "b42",
+                    "kind": "text",
+                    "start": 4038,
+                    "end": 4124
+                  },
+                  {
+                    "page": 1,
+                    "text": "Developed scikit-learn pipelines (IsolationForest, Logistic Regression) to detect anomalous billing patterns and high-risk entries",
+                    "block_id": "b43",
+                    "kind": "text",
+                    "start": 4125,
+                    "end": 4255
+                  },
+                  {
+                    "page": 1,
+                    "text": "Exposed model outputs (risk flags, anomaly scores, predicted utilization) as SQL tables consumed by Power BI",
+                    "block_id": "b44",
+                    "kind": "text",
+                    "start": 4256,
+                    "end": 4364
+                  },
+                  {
+                    "page": 1,
+                    "text": "Integrated ML-generated risk scores and forecast outputs into Power BI, enabling predictive KPIs and proactive dashboard alerts",
+                    "block_id": "b45",
+                    "kind": "text",
+                    "start": 4365,
+                    "end": 4492
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_3",
+              "label": "TaskUs - AutoEncoder for Anomaly Detection",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "TaskUs - AutoEncoder for Anomaly Detection",
+                    "block_id": "b46",
+                    "kind": "text",
+                    "start": 4493,
+                    "end": 4535
+                  },
+                  {
+                    "page": 1,
+                    "text": "Designed PyTorch AutoEncoder to detect anomalous operational patterns in log data, billing entries, and utilization metrics",
+                    "block_id": "b47",
+                    "kind": "text",
+                    "start": 4536,
+                    "end": 4659
+                  },
+                  {
+                    "page": 1,
+                    "text": "Model identified spikes, duplicate activities, and abnormal usage trends, automatically flagging high-risk cases for QA teams",
+                    "block_id": "b48",
+                    "kind": "text",
+                    "start": 4660,
+                    "end": 4785
+                  },
+                  {
+                    "page": 1,
+                    "text": "Integrated anomaly scores into Power BI dashboards for management visibility and real-time monitoring",
+                    "block_id": "b49",
+                    "kind": "text",
+                    "start": 4786,
+                    "end": 4887
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_4",
+              "label": "FINANALYTIC CAPITAL PVT. LTD. Assistant Data Lead Mumbai, India Aug 2018 - Oct 2021",
+              "state": "month_range",
+              "start": [
+                2018,
+                8
+              ],
+              "end": [
+                2021,
+                10
+              ],
+              "months": 39,
+              "raw": "Aug 2018 - Oct 2021",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "FINANALYTIC CAPITAL PVT. LTD. Assistant Data Lead Mumbai, India Aug 2018 - Oct 2021",
+                    "block_id": "b50",
+                    "kind": "text",
+                    "start": 4888,
+                    "end": 4971
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_5",
+              "label": "Key Achievements:",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Key Achievements:",
+                    "block_id": "b51",
+                    "kind": "text",
+                    "start": 4972,
+                    "end": 4989
+                  },
+                  {
+                    "page": 1,
+                    "text": "Led 10-member Data Science team delivering analytics solutions, ML models, and ETL pipelines",
+                    "block_id": "b52",
+                    "kind": "text",
+                    "start": 4990,
+                    "end": 5082
+                  },
+                  {
+                    "page": 1,
+                    "text": "Built end-to-end Azure Data Factory and Azure Databricks workflows for financial performance analytics and automated reporting",
+                    "block_id": "b53",
+                    "kind": "text",
+                    "start": 5083,
+                    "end": 5209
+                  },
+                  {
+                    "page": 1,
+                    "text": "Implemented ML models (scikit-learn: RandomForest, Logistic Regression, IsolationForest) to detect financial anomalies, predict revenue trends, and identify outlier transactions",
+                    "block_id": "b54",
+                    "kind": "text",
+                    "start": 5210,
+                    "end": 5387
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_6",
+              "label": "Reduced manual reporting work by 120+ hours per month through automation and cloud-scale transformation pipelines",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Reduced manual reporting work by 120+ hours per month through automation and cloud-scale transformation pipelines",
+                    "block_id": "b55",
+                    "kind": "text",
+                    "start": 5388,
+                    "end": 5501
+                  },
+                  {
+                    "page": 1,
+                    "text": "Designed interactive Power BI dashboards with predictive KPIs and early-warning indicators for leadership",
+                    "block_id": "b56",
+                    "kind": "text",
+                    "start": 5502,
+                    "end": 5607
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_7",
+              "label": "Key Responsibilities:",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Key Responsibilities:",
+                    "block_id": "b57",
+                    "kind": "text",
+                    "start": 5608,
+                    "end": 5629
+                  },
+                  {
+                    "page": 1,
+                    "text": "Collaborated with business and finance stakeholders to define KPIs, capture analytical requirements, and translate them into measurable data products and ML use cases.",
+                    "block_id": "b58",
+                    "kind": "text",
+                    "start": 5630,
+                    "end": 5797
+                  },
+                  {
+                    "page": 1,
+                    "text": "Applied ML techniques—Random Forests, Logistic Regression, Gradient Boosting, and K-Means clustering—to enhance forecasting accuracy and detect anomalies across spending, revenue, cash flow, and investment KPIs.",
+                    "block_id": "b59",
+                    "kind": "text",
+                    "start": 5798,
+                    "end": 6009
+                  },
+                  {
+                    "page": 1,
+                    "text": "Implemented predictive models for churn, sales forecasting, budget variance prediction, and cost trend analysis using structured, time-series, and semi-structured datasets.",
+                    "block_id": "b60",
+                    "kind": "text",
+                    "start": 6010,
+                    "end": 6182
+                  },
+                  {
+                    "page": 1,
+                    "text": "Developed transformation notebooks in Azure Databricks (PySpark) to cleanse, aggregate, and enrich financial datasets for reporting and ML models",
+                    "block_id": "b61",
+                    "kind": "text",
+                    "start": 6183,
+                    "end": 6328
+                  },
+                  {
+                    "page": 1,
+                    "text": "Applied ML techniques (RandomForest, Logistic Regression, K-Means clustering) to improve forecasting accuracy and detect anomalies in spending, revenue, and investment metrics",
+                    "block_id": "b62",
+                    "kind": "text",
+                    "start": 6329,
+                    "end": 6504
+                  },
+                  {
+                    "page": 1,
+                    "text": "Led Agile ceremonies including backlog refinement, sprint planning, and stakeholder demos, ensuring smooth delivery cycles",
+                    "block_id": "b63",
+                    "kind": "text",
+                    "start": 6505,
+                    "end": 6627
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_8",
+              "label": "Published curated datasets and ML outputs to SQL/ADF pipelines for consumption in Power BI dashboards",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Published curated datasets and ML outputs to SQL/ADF pipelines for consumption in Power BI dashboards",
+                    "block_id": "b64",
+                    "kind": "text",
+                    "start": 6628,
+                    "end": 6729
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_9",
+              "label": "FINANALYTIC CAPITAL Senior Software Engineer - Analytics Delhi, India",
+              "state": "month_range",
+              "start": [
+                2016,
+                5
+              ],
+              "end": [
+                2018,
+                7
+              ],
+              "months": 27,
+              "raw": "May 2016 - Jul 2018",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "FINANALYTIC CAPITAL Senior Software Engineer - Analytics Delhi, India",
+                    "block_id": "b65",
+                    "kind": "text",
+                    "start": 6730,
+                    "end": 6799
+                  },
+                  {
+                    "page": 1,
+                    "text": "May 2016 - Jul 2018",
+                    "block_id": "b66",
+                    "kind": "text",
+                    "start": 6801,
+                    "end": 6820
+                  },
+                  {
+                    "page": 1,
+                    "text": "Performed data review, validation, and preprocessing (cleaning, encoding, imputations, outlier checks) to prepare high-quality datasets for traditional machine learning workflows.",
+                    "block_id": "b67",
+                    "kind": "text",
+                    "start": 6821,
+                    "end": 7000
+                  },
+                  {
+                    "page": 1,
+                    "text": "Managed ETL/ELT pipelines and ensured accurate deployment of structured data into enterprise data warehouses for downstream ML model consumption.",
+                    "block_id": "b68",
+                    "kind": "text",
+                    "start": 7001,
+                    "end": 7146
+                  },
+                  {
+                    "page": 1,
+                    "text": "Produced weekly and monthly analytical reports highlighting model performance metrics, data drift indicators, and business KPIs derived from ML outputs.",
+                    "block_id": "b69",
+                    "kind": "text",
+                    "start": 7147,
+                    "end": 7299
+                  },
+                  {
+                    "page": 1,
+                    "text": "Conducted data profiling and exploratory analysis to detect anomalies, distribution shifts, multicollinearity, and feature importance patterns.",
+                    "block_id": "b70",
+                    "kind": "text",
+                    "start": 7300,
+                    "end": 7443
+                  },
+                  {
+                    "page": 1,
+                    "text": "Collected and integrated data from multiple sources (databases, APIs, flat files) to build comprehensive, feature-rich datasets for model training and evaluation.",
+                    "block_id": "b71",
+                    "kind": "text",
+                    "start": 7444,
+                    "end": 7606
+                  },
+                  {
+                    "page": 1,
+                    "text": "Designed and developed Power BI dashboards to visualize feature-level insights, prediction outputs, and real-world ML performance metrics for stakeholders.",
+                    "block_id": "b72",
+                    "kind": "text",
+                    "start": 7607,
+                    "end": 7762
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_10",
+              "label": "GENPACT Process Developer - ETL & Analytics Noida, India",
+              "state": "month_range",
+              "start": [
+                2015,
+                2
+              ],
+              "end": [
+                2016,
+                4
+              ],
+              "months": 15,
+              "raw": "Feb 2015 - Apr 2016",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "GENPACT Process Developer - ETL & Analytics Noida, India",
+                    "block_id": "b73",
+                    "kind": "text",
+                    "start": 7763,
+                    "end": 7819
+                  },
+                  {
+                    "page": 1,
+                    "text": "Feb 2015 - Apr 2016",
+                    "block_id": "b74",
+                    "kind": "text",
+                    "start": 7821,
+                    "end": 7840
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_11",
+              "label": "Design, Build and deploy effective Predictive Model on structured data",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Design, Build and deploy effective Predictive Model on structured data",
+                    "block_id": "b75",
+                    "kind": "text",
+                    "start": 7841,
+                    "end": 7911
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_12",
+              "label": "Visualize Model Predictions.",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Visualize Model Predictions.",
+                    "block_id": "b76",
+                    "kind": "text",
+                    "start": 7912,
+                    "end": 7940
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_13",
+              "label": "Identify and test for bugs and bottlenecks.",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Identify and test for bugs and bottlenecks.",
+                    "block_id": "b77",
+                    "kind": "text",
+                    "start": 7941,
+                    "end": 7984
+                  },
+                  {
+                    "page": 1,
+                    "text": "Collaborate with other teams within the organization and be able to devise the technical solution as it relates to the business & technical requirements",
+                    "block_id": "b78",
+                    "kind": "text",
+                    "start": 7985,
+                    "end": 8137
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        }
+      },
+      "represented_months": 140,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": true,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 1,
+        "represented_months": 60,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 1,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v8e4a2f623c5caf99",
+            "label": "R SYSTEMS INTERNATIONAL Project Leader",
+            "state": "month_range",
+            "start": [
+              2021,
+              10
+            ],
+            "end": [
+              2026,
+              9
+            ],
+            "months": 60,
+            "raw": "Oct 2021 - Present",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "R SYSTEMS INTERNATIONAL Project Leader - AI, Data Engineering & BI Noida, India Oct 2021 - Present",
+                  "block_id": "b22",
+                  "kind": "text",
+                  "start": 1872,
+                  "end": 1970
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Oct 2021 - Present",
+                  "block_id": "b22",
+                  "kind": "text",
+                  "start": 1952,
+                  "end": 1970
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "R SYSTEMS INTERNATIONAL Project Leader",
+                  "block_id": "b22",
+                  "kind": "text",
+                  "start": 1872,
+                  "end": 1910
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE",
+              "date_label": "Oct 2021 - Present",
+              "is_present": true
+            }
+          }
+        ]
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 13,
+        "dated_periods": 3,
+        "represented_months": 81,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 3,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 10,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "proj_1",
+            "label": "Key Contributions:",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Key Contributions:",
+                  "block_id": "b33",
+                  "kind": "text",
+                  "start": 3197,
+                  "end": 3215
+                },
+                {
+                  "page": 1,
+                  "text": "Developed ML models for forecasting business volumes and policy spends using PyTorch and scikit-learn",
+                  "block_id": "b34",
+                  "kind": "text",
+                  "start": 3216,
+                  "end": 3317
+                },
+                {
+                  "page": 1,
+                  "text": "Built Agentic AI system using LangGraph enabling natural language policy queries, automated analysis and insight generation",
+                  "block_id": "b35",
+                  "kind": "text",
+                  "start": 3318,
+                  "end": 3441
+                },
+                {
+                  "page": 1,
+                  "text": "Implemented RAG workflows for retrieving relocation, HR, immigration, assignment, and destination city policies",
+                  "block_id": "b36",
+                  "kind": "text",
+                  "start": 3442,
+                  "end": 3553
+                },
+                {
+                  "page": 1,
+                  "text": "Integrated model outputs into Sisense using custom Python scripts, providing dynamic KPIs, alerts, and narrative insights",
+                  "block_id": "b37",
+                  "kind": "text",
+                  "start": 3554,
+                  "end": 3675
+                },
+                {
+                  "page": 1,
+                  "text": "Automated data processing pipelines using Python, SQL, and Azure Databricks components",
+                  "block_id": "b38",
+                  "kind": "text",
+                  "start": 3676,
+                  "end": 3762
+                },
+                {
+                  "page": 1,
+                  "text": "Improved decision-making for relocations, exceptions, housing allowances, move volumes, and program-level performance",
+                  "block_id": "b39",
+                  "kind": "text",
+                  "start": 3763,
+                  "end": 3880
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_2",
+            "label": "TaskUs - Billing Dashboard (scikit-learn, ML & Power BI)",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "TaskUs - Billing Dashboard (scikit-learn, ML & Power BI)",
+                  "block_id": "b40",
+                  "kind": "text",
+                  "start": 3881,
+                  "end": 3937
+                },
+                {
+                  "page": 1,
+                  "text": "Conducted business discovery sessions and gathered KPI and reporting requirements from stakeholders",
+                  "block_id": "b41",
+                  "kind": "text",
+                  "start": 3938,
+                  "end": 4037
+                },
+                {
+                  "page": 1,
+                  "text": "Designed semantic data model with fact tables, dimension tables, and incremental loads",
+                  "block_id": "b42",
+                  "kind": "text",
+                  "start": 4038,
+                  "end": 4124
+                },
+                {
+                  "page": 1,
+                  "text": "Developed scikit-learn pipelines (IsolationForest, Logistic Regression) to detect anomalous billing patterns and high-risk entries",
+                  "block_id": "b43",
+                  "kind": "text",
+                  "start": 4125,
+                  "end": 4255
+                },
+                {
+                  "page": 1,
+                  "text": "Exposed model outputs (risk flags, anomaly scores, predicted utilization) as SQL tables consumed by Power BI",
+                  "block_id": "b44",
+                  "kind": "text",
+                  "start": 4256,
+                  "end": 4364
+                },
+                {
+                  "page": 1,
+                  "text": "Integrated ML-generated risk scores and forecast outputs into Power BI, enabling predictive KPIs and proactive dashboard alerts",
+                  "block_id": "b45",
+                  "kind": "text",
+                  "start": 4365,
+                  "end": 4492
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_3",
+            "label": "TaskUs - AutoEncoder for Anomaly Detection",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "TaskUs - AutoEncoder for Anomaly Detection",
+                  "block_id": "b46",
+                  "kind": "text",
+                  "start": 4493,
+                  "end": 4535
+                },
+                {
+                  "page": 1,
+                  "text": "Designed PyTorch AutoEncoder to detect anomalous operational patterns in log data, billing entries, and utilization metrics",
+                  "block_id": "b47",
+                  "kind": "text",
+                  "start": 4536,
+                  "end": 4659
+                },
+                {
+                  "page": 1,
+                  "text": "Model identified spikes, duplicate activities, and abnormal usage trends, automatically flagging high-risk cases for QA teams",
+                  "block_id": "b48",
+                  "kind": "text",
+                  "start": 4660,
+                  "end": 4785
+                },
+                {
+                  "page": 1,
+                  "text": "Integrated anomaly scores into Power BI dashboards for management visibility and real-time monitoring",
+                  "block_id": "b49",
+                  "kind": "text",
+                  "start": 4786,
+                  "end": 4887
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_4",
+            "label": "FINANALYTIC CAPITAL PVT. LTD. Assistant Data Lead Mumbai, India Aug 2018 - Oct 2021",
+            "state": "month_range",
+            "start": [
+              2018,
+              8
+            ],
+            "end": [
+              2021,
+              10
+            ],
+            "months": 39,
+            "raw": "Aug 2018 - Oct 2021",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "FINANALYTIC CAPITAL PVT. LTD. Assistant Data Lead Mumbai, India Aug 2018 - Oct 2021",
+                  "block_id": "b50",
+                  "kind": "text",
+                  "start": 4888,
+                  "end": 4971
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_5",
+            "label": "Key Achievements:",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Key Achievements:",
+                  "block_id": "b51",
+                  "kind": "text",
+                  "start": 4972,
+                  "end": 4989
+                },
+                {
+                  "page": 1,
+                  "text": "Led 10-member Data Science team delivering analytics solutions, ML models, and ETL pipelines",
+                  "block_id": "b52",
+                  "kind": "text",
+                  "start": 4990,
+                  "end": 5082
+                },
+                {
+                  "page": 1,
+                  "text": "Built end-to-end Azure Data Factory and Azure Databricks workflows for financial performance analytics and automated reporting",
+                  "block_id": "b53",
+                  "kind": "text",
+                  "start": 5083,
+                  "end": 5209
+                },
+                {
+                  "page": 1,
+                  "text": "Implemented ML models (scikit-learn: RandomForest, Logistic Regression, IsolationForest) to detect financial anomalies, predict revenue trends, and identify outlier transactions",
+                  "block_id": "b54",
+                  "kind": "text",
+                  "start": 5210,
+                  "end": 5387
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_6",
+            "label": "Reduced manual reporting work by 120+ hours per month through automation and cloud-scale transformation pipelines",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Reduced manual reporting work by 120+ hours per month through automation and cloud-scale transformation pipelines",
+                  "block_id": "b55",
+                  "kind": "text",
+                  "start": 5388,
+                  "end": 5501
+                },
+                {
+                  "page": 1,
+                  "text": "Designed interactive Power BI dashboards with predictive KPIs and early-warning indicators for leadership",
+                  "block_id": "b56",
+                  "kind": "text",
+                  "start": 5502,
+                  "end": 5607
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_7",
+            "label": "Key Responsibilities:",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Key Responsibilities:",
+                  "block_id": "b57",
+                  "kind": "text",
+                  "start": 5608,
+                  "end": 5629
+                },
+                {
+                  "page": 1,
+                  "text": "Collaborated with business and finance stakeholders to define KPIs, capture analytical requirements, and translate them into measurable data products and ML use cases.",
+                  "block_id": "b58",
+                  "kind": "text",
+                  "start": 5630,
+                  "end": 5797
+                },
+                {
+                  "page": 1,
+                  "text": "Applied ML techniques—Random Forests, Logistic Regression, Gradient Boosting, and K-Means clustering—to enhance forecasting accuracy and detect anomalies across spending, revenue, cash flow, and investment KPIs.",
+                  "block_id": "b59",
+                  "kind": "text",
+                  "start": 5798,
+                  "end": 6009
+                },
+                {
+                  "page": 1,
+                  "text": "Implemented predictive models for churn, sales forecasting, budget variance prediction, and cost trend analysis using structured, time-series, and semi-structured datasets.",
+                  "block_id": "b60",
+                  "kind": "text",
+                  "start": 6010,
+                  "end": 6182
+                },
+                {
+                  "page": 1,
+                  "text": "Developed transformation notebooks in Azure Databricks (PySpark) to cleanse, aggregate, and enrich financial datasets for reporting and ML models",
+                  "block_id": "b61",
+                  "kind": "text",
+                  "start": 6183,
+                  "end": 6328
+                },
+                {
+                  "page": 1,
+                  "text": "Applied ML techniques (RandomForest, Logistic Regression, K-Means clustering) to improve forecasting accuracy and detect anomalies in spending, revenue, and investment metrics",
+                  "block_id": "b62",
+                  "kind": "text",
+                  "start": 6329,
+                  "end": 6504
+                },
+                {
+                  "page": 1,
+                  "text": "Led Agile ceremonies including backlog refinement, sprint planning, and stakeholder demos, ensuring smooth delivery cycles",
+                  "block_id": "b63",
+                  "kind": "text",
+                  "start": 6505,
+                  "end": 6627
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_8",
+            "label": "Published curated datasets and ML outputs to SQL/ADF pipelines for consumption in Power BI dashboards",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Published curated datasets and ML outputs to SQL/ADF pipelines for consumption in Power BI dashboards",
+                  "block_id": "b64",
+                  "kind": "text",
+                  "start": 6628,
+                  "end": 6729
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_9",
+            "label": "FINANALYTIC CAPITAL Senior Software Engineer - Analytics Delhi, India",
+            "state": "month_range",
+            "start": [
+              2016,
+              5
+            ],
+            "end": [
+              2018,
+              7
+            ],
+            "months": 27,
+            "raw": "May 2016 - Jul 2018",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "FINANALYTIC CAPITAL Senior Software Engineer - Analytics Delhi, India",
+                  "block_id": "b65",
+                  "kind": "text",
+                  "start": 6730,
+                  "end": 6799
+                },
+                {
+                  "page": 1,
+                  "text": "May 2016 - Jul 2018",
+                  "block_id": "b66",
+                  "kind": "text",
+                  "start": 6801,
+                  "end": 6820
+                },
+                {
+                  "page": 1,
+                  "text": "Performed data review, validation, and preprocessing (cleaning, encoding, imputations, outlier checks) to prepare high-quality datasets for traditional machine learning workflows.",
+                  "block_id": "b67",
+                  "kind": "text",
+                  "start": 6821,
+                  "end": 7000
+                },
+                {
+                  "page": 1,
+                  "text": "Managed ETL/ELT pipelines and ensured accurate deployment of structured data into enterprise data warehouses for downstream ML model consumption.",
+                  "block_id": "b68",
+                  "kind": "text",
+                  "start": 7001,
+                  "end": 7146
+                },
+                {
+                  "page": 1,
+                  "text": "Produced weekly and monthly analytical reports highlighting model performance metrics, data drift indicators, and business KPIs derived from ML outputs.",
+                  "block_id": "b69",
+                  "kind": "text",
+                  "start": 7147,
+                  "end": 7299
+                },
+                {
+                  "page": 1,
+                  "text": "Conducted data profiling and exploratory analysis to detect anomalies, distribution shifts, multicollinearity, and feature importance patterns.",
+                  "block_id": "b70",
+                  "kind": "text",
+                  "start": 7300,
+                  "end": 7443
+                },
+                {
+                  "page": 1,
+                  "text": "Collected and integrated data from multiple sources (databases, APIs, flat files) to build comprehensive, feature-rich datasets for model training and evaluation.",
+                  "block_id": "b71",
+                  "kind": "text",
+                  "start": 7444,
+                  "end": 7606
+                },
+                {
+                  "page": 1,
+                  "text": "Designed and developed Power BI dashboards to visualize feature-level insights, prediction outputs, and real-world ML performance metrics for stakeholders.",
+                  "block_id": "b72",
+                  "kind": "text",
+                  "start": 7607,
+                  "end": 7762
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_10",
+            "label": "GENPACT Process Developer - ETL & Analytics Noida, India",
+            "state": "month_range",
+            "start": [
+              2015,
+              2
+            ],
+            "end": [
+              2016,
+              4
+            ],
+            "months": 15,
+            "raw": "Feb 2015 - Apr 2016",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "GENPACT Process Developer - ETL & Analytics Noida, India",
+                  "block_id": "b73",
+                  "kind": "text",
+                  "start": 7763,
+                  "end": 7819
+                },
+                {
+                  "page": 1,
+                  "text": "Feb 2015 - Apr 2016",
+                  "block_id": "b74",
+                  "kind": "text",
+                  "start": 7821,
+                  "end": 7840
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_11",
+            "label": "Design, Build and deploy effective Predictive Model on structured data",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Design, Build and deploy effective Predictive Model on structured data",
+                  "block_id": "b75",
+                  "kind": "text",
+                  "start": 7841,
+                  "end": 7911
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_12",
+            "label": "Visualize Model Predictions.",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Visualize Model Predictions.",
+                  "block_id": "b76",
+                  "kind": "text",
+                  "start": 7912,
+                  "end": 7940
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_13",
+            "label": "Identify and test for bugs and bottlenecks.",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Identify and test for bugs and bottlenecks.",
+                  "block_id": "b77",
+                  "kind": "text",
+                  "start": 7941,
+                  "end": 7984
+                },
+                {
+                  "page": 1,
+                  "text": "Collaborate with other teams within the organization and be able to devise the technical solution as it relates to the business & technical requirements",
+                  "block_id": "b78",
+                  "kind": "text",
+                  "start": 7985,
+                  "end": 8137
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      }
+    },
+    "represented_months": 140,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

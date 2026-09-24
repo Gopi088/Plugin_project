@@ -1,0 +1,553 @@
+{
+  "file_name": "sakshi ux ui resume.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "7f5186420fbb6fd5620c42f045d21a1532cdfe4f5dedf07080e1db6d2bf268bb",
+  "doc_id": "7f5186420fbb6fd5620c42f0",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 0,
+    "total_events": 2,
+    "dated_share": 0.0,
+    "unresolved": 2,
+    "ambiguous": 0,
+    "mean_event_confidence": null,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [],
+  "education": [
+    {
+      "id": "v807bb39e4c9d4da3",
+      "type": "EDUCATION",
+      "company": "SNDT Women's University",
+      "title": "",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "SNDT Women's University",
+            "block_id": "b10",
+            "kind": "text",
+            "start": 423,
+            "end": 446
+          }
+        ],
+        "dates": [],
+        "company": [
+          {
+            "page": 1,
+            "text": "SNDT Women's University",
+            "block_id": "b10",
+            "kind": "text",
+            "start": 423,
+            "end": 446
+          }
+        ],
+        "title": [],
+        "section": "SNDT Women's University",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    },
+    {
+      "id": "v7e61969513c26235",
+      "type": "EDUCATION",
+      "company": "Savitribai Phule Pune University",
+      "title": "",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Savitribai Phule Pune University",
+            "block_id": "b45",
+            "kind": "text",
+            "start": 2069,
+            "end": 2101
+          }
+        ],
+        "dates": [],
+        "company": [
+          {
+            "page": 1,
+            "text": "Savitribai Phule Pune University",
+            "block_id": "b45",
+            "kind": "text",
+            "start": 2069,
+            "end": 2101
+          }
+        ],
+        "title": [],
+        "section": "Savitribai Phule Pune University",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 0,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "PARTIAL",
+    "coverage_analysis": "PARTIAL",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "section EDUCATION: entry without dated header preserved as-is",
+    "section EDUCATION: entry without dated header preserved as-is",
+    "no dated events to order",
+    "no intervals to cover"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "7f5186420fbb6fd5620c42f0",
+    "filename": "sakshi ux ui resume.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [],
+    "unresolved_events": [
+      {
+        "id": "v807bb39e4c9d4da3",
+        "type": "EDUCATION",
+        "title": "",
+        "org": "SNDT Women's University",
+        "entry_text": "SNDT Women's University",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "SNDT Women's University",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 423,
+              "end": 446
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "SNDT Women's University",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 423,
+              "end": 446
+            }
+          ],
+          "title": [],
+          "section": "SNDT Women's University",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "SNDT Women's University",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v7e61969513c26235",
+        "type": "EDUCATION",
+        "title": "",
+        "org": "Savitribai Phule Pune University",
+        "entry_text": "Savitribai Phule Pune University",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Savitribai Phule Pune University",
+              "block_id": "b45",
+              "kind": "text",
+              "start": 2069,
+              "end": 2101
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "Savitribai Phule Pune University",
+              "block_id": "b45",
+              "kind": "text",
+              "start": 2069,
+              "end": 2101
+            }
+          ],
+          "title": [],
+          "section": "Savitribai Phule Pune University",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Savitribai Phule Pune University",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 0,
+      "total_events": 2,
+      "dated_share": 0.0,
+      "unresolved": 2,
+      "ambiguous": 0,
+      "mean_event_confidence": null,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 0,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "PARTIAL",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "PARTIAL",
+        "confidence": 0.3
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 2,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 2,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v807bb39e4c9d4da3",
+              "label": "SNDT Women's University",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "SNDT Women's University",
+                    "block_id": "b10",
+                    "kind": "text",
+                    "start": 423,
+                    "end": 446
+                  }
+                ],
+                "dates": [],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "SNDT Women's University",
+                    "block_id": "b10",
+                    "kind": "text",
+                    "start": 423,
+                    "end": 446
+                  }
+                ],
+                "title": [],
+                "section": "SNDT Women's University",
+                "date_label": "",
+                "is_present": false
+              }
+            },
+            {
+              "id": "v7e61969513c26235",
+              "label": "Savitribai Phule Pune University",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Savitribai Phule Pune University",
+                    "block_id": "b45",
+                    "kind": "text",
+                    "start": 2069,
+                    "end": 2101
+                  }
+                ],
+                "dates": [],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Savitribai Phule Pune University",
+                    "block_id": "b45",
+                    "kind": "text",
+                    "start": 2069,
+                    "end": 2101
+                  }
+                ],
+                "title": [],
+                "section": "Savitribai Phule Pune University",
+                "date_label": "",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 0,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 2,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 2,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v807bb39e4c9d4da3",
+            "label": "SNDT Women's University",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "SNDT Women's University",
+                  "block_id": "b10",
+                  "kind": "text",
+                  "start": 423,
+                  "end": 446
+                }
+              ],
+              "dates": [],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "SNDT Women's University",
+                  "block_id": "b10",
+                  "kind": "text",
+                  "start": 423,
+                  "end": 446
+                }
+              ],
+              "title": [],
+              "section": "SNDT Women's University",
+              "date_label": "",
+              "is_present": false
+            }
+          },
+          {
+            "id": "v7e61969513c26235",
+            "label": "Savitribai Phule Pune University",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Savitribai Phule Pune University",
+                  "block_id": "b45",
+                  "kind": "text",
+                  "start": 2069,
+                  "end": 2101
+                }
+              ],
+              "dates": [],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Savitribai Phule Pune University",
+                  "block_id": "b45",
+                  "kind": "text",
+                  "start": 2069,
+                  "end": 2101
+                }
+              ],
+              "title": [],
+              "section": "Savitribai Phule Pune University",
+              "date_label": "",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 0,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

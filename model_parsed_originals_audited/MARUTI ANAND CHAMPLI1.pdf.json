@@ -1,0 +1,322 @@
+{
+  "file_name": "MARUTI ANAND CHAMPLI1.pdf",
+  "input_mode": "original_document",
+  "input_sha256": "59c358d22246a00349bf79b7fa5a1760f40688a7f8ff95bd8b559e77c8413545",
+  "doc_id": "59c358d22246a00349bf79b7",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 0,
+    "total_events": 1,
+    "dated_share": 0.0,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": null
+  },
+  "work_experience": [
+    {
+      "id": "v8009158082d8ab49",
+      "type": "EMPLOYMENT",
+      "company": "State Street Corporation",
+      "title": "Team Lead",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Team Lead – Fund Accounting | State Street Corporation –",
+            "block_id": "b19",
+            "kind": "pdf",
+            "page_width": 595.5,
+            "page_height": 842.5,
+            "bbox": [
+              232.35,
+              227.64,
+              538.346,
+              238.64
+            ],
+            "fragment_text": "Team Lead – Fund Accounting | State Street Corporation –"
+          },
+          {
+            "page": 1,
+            "text": "Education",
+            "block_id": "b19",
+            "kind": "pdf",
+            "page_width": 595.5,
+            "page_height": 842.5,
+            "bbox": [
+              20.0,
+              234.11,
+              95.36000000000001,
+              250.11
+            ],
+            "fragment_text": "Education"
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2017",
+            "block_id": "b22",
+            "kind": "pdf",
+            "page_width": 595.5,
+            "page_height": 842.5,
+            "bbox": [
+              61.283,
+              272.72,
+              81.315,
+              280.72
+            ],
+            "fragment_text": "2017"
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "State Street Corporation",
+            "block_id": "b19",
+            "kind": "pdf",
+            "page_width": 595.5,
+            "page_height": 842.5,
+            "bbox": [
+              401.578,
+              227.64,
+              528.903,
+              238.64
+            ],
+            "fragment_text": "State Street Corporation"
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Team Lead",
+            "block_id": "b19",
+            "kind": "pdf",
+            "page_width": 595.5,
+            "page_height": 842.5,
+            "bbox": [
+              232.35,
+              227.64,
+              290.034,
+              238.64
+            ]
+          }
+        ],
+        "section": "Work Experience",
+        "date_label": "",
+        "is_present": false
+      }
+    }
+  ],
+  "education": [],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 1,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "PARTIAL",
+    "coverage_analysis": "PARTIAL",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "raw_pipeline_dto": {
+    "doc_id": "59c358d22246a00349bf79b7",
+    "filename": "MARUTI ANAND CHAMPLI1.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [],
+    "unresolved_events": [
+      {
+        "id": "v8009158082d8ab49",
+        "type": "EMPLOYMENT",
+        "title": "Team Lead",
+        "org": "State Street Corporation",
+        "entry_text": "Team Lead – Fund Accounting | State Street Corporation – Education Mumbai, India Mumbai University B. Com (Banking & Insurance) – VCMIT | 2017 Team Leadership & Operational Management:",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Team Lead – Fund Accounting | State Street Corporation –",
+              "block_id": "b19",
+              "kind": "pdf",
+              "page_width": 595.5,
+              "page_height": 842.5,
+              "bbox": [
+                232.35,
+                227.64,
+                538.346,
+                238.64
+              ],
+              "fragment_text": "Team Lead – Fund Accounting | State Street Corporation –"
+            },
+            {
+              "page": 1,
+              "text": "Education",
+              "block_id": "b19",
+              "kind": "pdf",
+              "page_width": 595.5,
+              "page_height": 842.5,
+              "bbox": [
+                20.0,
+                234.11,
+                95.36000000000001,
+                250.11
+              ],
+              "fragment_text": "Education"
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2017",
+              "block_id": "b22",
+              "kind": "pdf",
+              "page_width": 595.5,
+              "page_height": 842.5,
+              "bbox": [
+                61.283,
+                272.72,
+                81.315,
+                280.72
+              ],
+              "fragment_text": "2017"
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "State Street Corporation",
+              "block_id": "b19",
+              "kind": "pdf",
+              "page_width": 595.5,
+              "page_height": 842.5,
+              "bbox": [
+                401.578,
+                227.64,
+                528.903,
+                238.64
+              ],
+              "fragment_text": "State Street Corporation"
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Team Lead",
+              "block_id": "b19",
+              "kind": "pdf",
+              "page_width": 595.5,
+              "page_height": 842.5,
+              "bbox": [
+                232.35,
+                227.64,
+                290.034,
+                238.64
+              ]
+            }
+          ],
+          "section": "Work Experience",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Work Experience",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "v8009158082d8ab49"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 0,
+      "total_events": 1,
+      "dated_share": 0.0,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": null
+    },
+    "total_represented_months": 0,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "PARTIAL",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "PARTIAL",
+        "confidence": 0.3
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

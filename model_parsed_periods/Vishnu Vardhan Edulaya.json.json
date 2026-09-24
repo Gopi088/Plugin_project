@@ -1,0 +1,3253 @@
+{
+  "file_name": "Vishnu Vardhan Edulaya.docx",
+  "input_mode": "text_snapshot",
+  "input_sha256": "72edf726cfa375bdfd52690a55cef29d44034b7009c2b86d21c0593584f0e702",
+  "doc_id": "72edf726cfa375bdfd52690a",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 14,
+    "dated_share": 0.143,
+    "unresolved": 12,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v3b743595df7e5766",
+      "type": "EMPLOYMENT",
+      "company": "Millennium IMS Pvt. Ltd",
+      "title": "Associate Software Developer",
+      "start_date": "2021-08",
+      "end_date": "2023-07",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Associate Software Developer | Millennium IMS Pvt. Ltd., Bangalore",
+            "block_id": "b21",
+            "kind": "text",
+            "start": 2497,
+            "end": 2563
+          },
+          {
+            "page": 1,
+            "text": "Aug, 2021 – July, 2023",
+            "block_id": "b22",
+            "kind": "text",
+            "start": 2564,
+            "end": 2586
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Aug, 2021 – July, 2023",
+            "block_id": "b22",
+            "kind": "text",
+            "start": 2564,
+            "end": 2586
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Millennium IMS Pvt. Ltd",
+            "block_id": "b21",
+            "kind": "text",
+            "start": 2528,
+            "end": 2551
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Associate Software Developer",
+            "block_id": "b21",
+            "kind": "text",
+            "start": 2497,
+            "end": 2525
+          }
+        ],
+        "section": "PROFESSIONAL EXPERIENCE:",
+        "date_label": "Aug, 2021 – July, 2023",
+        "is_present": false
+      },
+      "precision": "month",
+      "date_label": "Aug, 2021 – July, 2023"
+    },
+    {
+      "id": "va3136f6bf6acc432",
+      "type": "EMPLOYMENT",
+      "company": "Tarento Technologies Pvt. Ltd",
+      "title": "Power Platform Developer",
+      "start_date": "2023-08",
+      "end_date": "2026-09",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Power Platform Developer | Tarento Technologies Pvt. Ltd., Bangalore",
+            "block_id": "b12",
+            "kind": "text",
+            "start": 1348,
+            "end": 1416
+          },
+          {
+            "page": 1,
+            "text": "Aug 2023 – Present",
+            "block_id": "b13",
+            "kind": "text",
+            "start": 1417,
+            "end": 1435
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Aug 2023 – Present",
+            "block_id": "b13",
+            "kind": "text",
+            "start": 1417,
+            "end": 1435
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Tarento Technologies Pvt. Ltd",
+            "block_id": "b12",
+            "kind": "text",
+            "start": 1375,
+            "end": 1404
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Power Platform Developer",
+            "block_id": "b12",
+            "kind": "text",
+            "start": 1348,
+            "end": 1372
+          }
+        ],
+        "section": "PROFESSIONAL EXPERIENCE:",
+        "date_label": "Aug 2023 – Present",
+        "is_present": true
+      },
+      "precision": "month",
+      "date_label": "Aug 2023 – Present"
+    }
+  ],
+  "education": [
+    {
+      "id": "v12112f42200faa8c",
+      "type": "EDUCATION",
+      "company": "Bachelors of Science: Pragathi Degree College",
+      "title": "",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Bachelors of Science: Pragathi Degree College (Osmania University Hyderabad)",
+            "block_id": "b73",
+            "kind": "text",
+            "start": 6481,
+            "end": 6557
+          }
+        ],
+        "dates": [],
+        "company": [
+          {
+            "page": 1,
+            "text": "Bachelors of Science: Pragathi Degree College",
+            "block_id": "b73",
+            "kind": "text",
+            "start": 6481,
+            "end": 6526
+          }
+        ],
+        "title": [],
+        "section": "EDUCATION:",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "Employee Skill Tracker & Performance Management System",
+      "client": "",
+      "role": "Power Platform Developer",
+      "duration": "",
+      "details": [
+        "Employee Skill Tracker & Performance Management System",
+        "Technologies: PowerApps (Canvas Apps), Dataverse, Power Automate, Office 365 Outlook / Teams",
+        "Designed and developed a role-based Canvas App to manage employee skills, certifications, and performance records.",
+        "Built custom Dataverse tables with relationships to support scalable data structure.",
+        "Implemented CRUD operations using Power FX and Patch() for optimized data updates.",
+        "Created responsive UI with reusable components and conditional visibility rules.",
+        "Integrated Power Automate to trigger email alerts and reminders for performance reviews."
+      ],
+      "raw_text": "Employee Skill Tracker & Performance Management System\nTechnologies: PowerApps (Canvas Apps), Dataverse, Power Automate, Office 365 Outlook / Teams\nRole: Power Platform Developer\nDesigned and developed a role-based Canvas App to manage employee skills, certifications, and performance records.\nBuilt custom Dataverse tables with relationships to support scalable data structure.\nImplemented CRUD operations using Power FX and Patch() for optimized data updates.\nCreated responsive UI with reusable components and conditional visibility rules.\nIntegrated Power Automate to trigger email alerts and rem",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Employee Skill Tracker & Performance Management System",
+            "block_id": "b34",
+            "kind": "text",
+            "start": 3507,
+            "end": 3561
+          },
+          {
+            "page": 1,
+            "text": "Technologies: PowerApps (Canvas Apps), Dataverse, Power Automate, Office 365 Outlook / Teams",
+            "block_id": "b35",
+            "kind": "text",
+            "start": 3562,
+            "end": 3654
+          },
+          {
+            "page": 1,
+            "text": "Role: Power Platform Developer",
+            "block_id": "b36",
+            "kind": "text",
+            "start": 3655,
+            "end": 3685
+          },
+          {
+            "page": 1,
+            "text": "Designed and developed a role-based Canvas App to manage employee skills, certifications, and performance records.",
+            "block_id": "b37",
+            "kind": "text",
+            "start": 3686,
+            "end": 3800
+          },
+          {
+            "page": 1,
+            "text": "Built custom Dataverse tables with relationships to support scalable data structure.",
+            "block_id": "b38",
+            "kind": "text",
+            "start": 3801,
+            "end": 3885
+          },
+          {
+            "page": 1,
+            "text": "Implemented CRUD operations using Power FX and Patch() for optimized data updates.",
+            "block_id": "b39",
+            "kind": "text",
+            "start": 3886,
+            "end": 3968
+          },
+          {
+            "page": 1,
+            "text": "Created responsive UI with reusable components and conditional visibility rules.",
+            "block_id": "b40",
+            "kind": "text",
+            "start": 3969,
+            "end": 4049
+          },
+          {
+            "page": 1,
+            "text": "Integrated Power Automate to trigger email alerts and reminders for performance reviews.",
+            "block_id": "b41",
+            "kind": "text",
+            "start": 4050,
+            "end": 4138
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_2",
+      "name": "Applied role-based access control for secure and contextual data visibility.",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Applied role-based access control for secure and contextual data visibility."
+      ],
+      "raw_text": "Applied role-based access control for secure and contextual data visibility.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Applied role-based access control for secure and contextual data visibility.",
+            "block_id": "b42",
+            "kind": "text",
+            "start": 4139,
+            "end": 4215
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_3",
+      "name": "Reduced manual HR tracking efforts by ~45%, improving data consistency and transparency.",
+      "client": "",
+      "role": "Power Automate Developer",
+      "duration": "",
+      "details": [
+        "Reduced manual HR tracking efforts by ~45%, improving data consistency and transparency.",
+        "Improved performance review timelines by ~30% via automated workflows & notifications.",
+        "Automated Incident Escalation & SLA Monitoring System",
+        "Technologies: Power Automate Cloud Flows, Dataverse, Outlook / Teams, Power BI",
+        "Created scheduled cloud flows to monitor incident SLA thresholds and trigger escalations.",
+        "Integrated Dataverse, Teams & Outlook for end-to-end notification & approval workflows.",
+        "Designed adaptive card notifications in Microsoft Teams for real-time action & approval.",
+        "Implemented switch cases, parallel branches, and dynamic expressions for multi-tier escalation."
+      ],
+      "raw_text": "Reduced manual HR tracking efforts by ~45%, improving data consistency and transparency.\nImproved performance review timelines by ~30% via automated workflows & notifications.\nAutomated Incident Escalation & SLA Monitoring System\nTechnologies: Power Automate Cloud Flows, Dataverse, Outlook / Teams, Power BI\nRole: Power Automate Developer\nCreated scheduled cloud flows to monitor incident SLA thresholds and trigger escalations.\nIntegrated Dataverse, Teams & Outlook for end-to-end notification & approval workflows.\nDesigned adaptive card notifications in Microsoft Teams for real-time action & app",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Reduced manual HR tracking efforts by ~45%, improving data consistency and transparency.",
+            "block_id": "b43",
+            "kind": "text",
+            "start": 4216,
+            "end": 4304
+          },
+          {
+            "page": 1,
+            "text": "Improved performance review timelines by ~30% via automated workflows & notifications.",
+            "block_id": "b44",
+            "kind": "text",
+            "start": 4305,
+            "end": 4391
+          },
+          {
+            "page": 1,
+            "text": "Automated Incident Escalation & SLA Monitoring System",
+            "block_id": "b45",
+            "kind": "text",
+            "start": 4392,
+            "end": 4445
+          },
+          {
+            "page": 1,
+            "text": "Technologies: Power Automate Cloud Flows, Dataverse, Outlook / Teams, Power BI",
+            "block_id": "b46",
+            "kind": "text",
+            "start": 4446,
+            "end": 4524
+          },
+          {
+            "page": 1,
+            "text": "Role: Power Automate Developer",
+            "block_id": "b47",
+            "kind": "text",
+            "start": 4525,
+            "end": 4555
+          },
+          {
+            "page": 1,
+            "text": "Created scheduled cloud flows to monitor incident SLA thresholds and trigger escalations.",
+            "block_id": "b48",
+            "kind": "text",
+            "start": 4556,
+            "end": 4645
+          },
+          {
+            "page": 1,
+            "text": "Integrated Dataverse, Teams & Outlook for end-to-end notification & approval workflows.",
+            "block_id": "b49",
+            "kind": "text",
+            "start": 4646,
+            "end": 4733
+          },
+          {
+            "page": 1,
+            "text": "Designed adaptive card notifications in Microsoft Teams for real-time action & approval.",
+            "block_id": "b50",
+            "kind": "text",
+            "start": 4734,
+            "end": 4822
+          },
+          {
+            "page": 1,
+            "text": "Implemented switch cases, parallel branches, and dynamic expressions for multi-tier escalation.",
+            "block_id": "b51",
+            "kind": "text",
+            "start": 4823,
+            "end": 4918
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_4",
+      "name": "Logged escalation metrics into Dataverse for SLA compliance dashboards in Power BI.",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Logged escalation metrics into Dataverse for SLA compliance dashboards in Power BI."
+      ],
+      "raw_text": "Logged escalation metrics into Dataverse for SLA compliance dashboards in Power BI.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Logged escalation metrics into Dataverse for SLA compliance dashboards in Power BI.",
+            "block_id": "b52",
+            "kind": "text",
+            "start": 4919,
+            "end": 5002
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_5",
+      "name": "Reduced manual SLA monitoring effort by ~60% with automated tracking and alerts.",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Reduced manual SLA monitoring effort by ~60% with automated tracking and alerts.",
+        "Improved incident resolution time by ~40% through proactive escalation workflows."
+      ],
+      "raw_text": "Reduced manual SLA monitoring effort by ~60% with automated tracking and alerts.\nImproved incident resolution time by ~40% through proactive escalation workflows.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Reduced manual SLA monitoring effort by ~60% with automated tracking and alerts.",
+            "block_id": "b53",
+            "kind": "text",
+            "start": 5003,
+            "end": 5083
+          },
+          {
+            "page": 1,
+            "text": "Improved incident resolution time by ~40% through proactive escalation workflows.",
+            "block_id": "b54",
+            "kind": "text",
+            "start": 5084,
+            "end": 5165
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_6",
+      "name": "Reduced SLA breach rate by ~25% using early alerts and automated follow-ups.",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Reduced SLA breach rate by ~25% using early alerts and automated follow-ups."
+      ],
+      "raw_text": "Reduced SLA breach rate by ~25% using early alerts and automated follow-ups.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Reduced SLA breach rate by ~25% using early alerts and automated follow-ups.",
+            "block_id": "b55",
+            "kind": "text",
+            "start": 5166,
+            "end": 5242
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_7",
+      "name": "Task & Resource Management System",
+      "client": "",
+      "role": "Power Platform Developer",
+      "duration": "",
+      "details": [
+        "Task & Resource Management System",
+        "Technologies: Model-Driven Apps, Dataverse, Power Automate, Power BI"
+      ],
+      "raw_text": "Task & Resource Management System\nTechnologies: Model-Driven Apps, Dataverse, Power Automate, Power BI\nRole: Power Platform Developer",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Task & Resource Management System",
+            "block_id": "b56",
+            "kind": "text",
+            "start": 5243,
+            "end": 5276
+          },
+          {
+            "page": 1,
+            "text": "Technologies: Model-Driven Apps, Dataverse, Power Automate, Power BI",
+            "block_id": "b57",
+            "kind": "text",
+            "start": 5277,
+            "end": 5345
+          },
+          {
+            "page": 1,
+            "text": "Role: Power Platform Developer",
+            "block_id": "b58",
+            "kind": "text",
+            "start": 5346,
+            "end": 5376
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_8",
+      "name": "Architected a Model-Driven App for project task planning, resource allocation, and workload oversight.",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Architected a Model-Driven App for project task planning, resource allocation, and workload oversight.",
+        "Configured Dataverse tables, forms, views, and dashboards for streamlined data workflows.",
+        "Implemented Business Process Flows to automate stage transitions and approval steps."
+      ],
+      "raw_text": "Architected a Model-Driven App for project task planning, resource allocation, and workload oversight.\nConfigured Dataverse tables, forms, views, and dashboards for streamlined data workflows.\nImplemented Business Process Flows to automate stage transitions and approval steps.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Architected a Model-Driven App for project task planning, resource allocation, and workload oversight.",
+            "block_id": "b59",
+            "kind": "text",
+            "start": 5377,
+            "end": 5479
+          },
+          {
+            "page": 1,
+            "text": "Configured Dataverse tables, forms, views, and dashboards for streamlined data workflows.",
+            "block_id": "b60",
+            "kind": "text",
+            "start": 5480,
+            "end": 5569
+          },
+          {
+            "page": 1,
+            "text": "Implemented Business Process Flows to automate stage transitions and approval steps.",
+            "block_id": "b61",
+            "kind": "text",
+            "start": 5570,
+            "end": 5654
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_9",
+      "name": "Orchestrated task notifications, SLA follow-ups, and reminders using Power Automate flows.",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Orchestrated task notifications, SLA follow-ups, and reminders using Power Automate flows."
+      ],
+      "raw_text": "Orchestrated task notifications, SLA follow-ups, and reminders using Power Automate flows.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Orchestrated task notifications, SLA follow-ups, and reminders using Power Automate flows.",
+            "block_id": "b62",
+            "kind": "text",
+            "start": 5655,
+            "end": 5745
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_10",
+      "name": "Enhanced reporting visibility and planning accuracy by ~35%, reducing manual coordination effort by ~50%.",
+      "client": "",
+      "role": "RPA / Power Automate Desktop Developer",
+      "duration": "",
+      "details": [
+        "Enhanced reporting visibility and planning accuracy by ~35%, reducing manual coordination effort by ~50%.",
+        "Automated Invoice Data Extraction & ERP Entry (RPA)",
+        "Technologies: Power Automate Desktop (UI Automation & OCR), Cloud Flows, Dataverse, AI Builder",
+        "Designed an OCR-driven invoice data extraction flow using AI Builder.",
+        "Automated legacy ERP data entry via PAD UI-based RPA workflows."
+      ],
+      "raw_text": "Enhanced reporting visibility and planning accuracy by ~35%, reducing manual coordination effort by ~50%.\nAutomated Invoice Data Extraction & ERP Entry (RPA)\nTechnologies: Power Automate Desktop (UI Automation & OCR), Cloud Flows, Dataverse, AI Builder\nRole: RPA / Power Automate Desktop Developer\nDesigned an OCR-driven invoice data extraction flow using AI Builder.\nAutomated legacy ERP data entry via PAD UI-based RPA workflows.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Enhanced reporting visibility and planning accuracy by ~35%, reducing manual coordination effort by ~50%.",
+            "block_id": "b63",
+            "kind": "text",
+            "start": 5746,
+            "end": 5851
+          },
+          {
+            "page": 1,
+            "text": "Automated Invoice Data Extraction & ERP Entry (RPA)",
+            "block_id": "b64",
+            "kind": "text",
+            "start": 5852,
+            "end": 5903
+          },
+          {
+            "page": 1,
+            "text": "Technologies: Power Automate Desktop (UI Automation & OCR), Cloud Flows, Dataverse, AI Builder",
+            "block_id": "b65",
+            "kind": "text",
+            "start": 5904,
+            "end": 5998
+          },
+          {
+            "page": 1,
+            "text": "Role: RPA / Power Automate Desktop Developer",
+            "block_id": "b66",
+            "kind": "text",
+            "start": 5999,
+            "end": 6043
+          },
+          {
+            "page": 1,
+            "text": "Designed an OCR-driven invoice data extraction flow using AI Builder.",
+            "block_id": "b67",
+            "kind": "text",
+            "start": 6044,
+            "end": 6113
+          },
+          {
+            "page": 1,
+            "text": "Automated legacy ERP data entry via PAD UI-based RPA workflows.",
+            "block_id": "b68",
+            "kind": "text",
+            "start": 6114,
+            "end": 6177
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_11",
+      "name": "Instituted validation checks, exception logs, and audit controls using Dataverse tables.",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Instituted validation checks, exception logs, and audit controls using Dataverse tables.",
+        "Enabled unattended bot execution with retry logic and fault-tolerant error handling.",
+        "Decreased invoice processing effort by ~70% and reduced data entry errors by ~45%, lowering operational cost by ~30%."
+      ],
+      "raw_text": "Instituted validation checks, exception logs, and audit controls using Dataverse tables.\nEnabled unattended bot execution with retry logic and fault-tolerant error handling.\nDecreased invoice processing effort by ~70% and reduced data entry errors by ~45%, lowering operational cost by ~30%.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Instituted validation checks, exception logs, and audit controls using Dataverse tables.",
+            "block_id": "b69",
+            "kind": "text",
+            "start": 6178,
+            "end": 6266
+          },
+          {
+            "page": 1,
+            "text": "Enabled unattended bot execution with retry logic and fault-tolerant error handling.",
+            "block_id": "b70",
+            "kind": "text",
+            "start": 6267,
+            "end": 6351
+          },
+          {
+            "page": 1,
+            "text": "Decreased invoice processing effort by ~70% and reduced data entry errors by ~45%, lowering operational cost by ~30%.",
+            "block_id": "b71",
+            "kind": "text",
+            "start": 6352,
+            "end": 6469
+          }
+        ]
+      }
+    }
+  ],
+  "gaps": [],
+  "total_work_experience_entries": 2,
+  "total_projects_entries": 11,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "section EDUCATION: entry without dated header preserved as-is"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "72edf726cfa375bdfd52690a",
+    "filename": "Vishnu Vardhan Edulaya.docx",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v3b743595df7e5766",
+        "type": "EMPLOYMENT",
+        "title": "Associate Software Developer",
+        "org": "Millennium IMS Pvt. Ltd",
+        "start": "2021-08",
+        "end": "2023-07",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Associate Software Developer | Millennium IMS Pvt. Ltd., Bangalore\nAug, 2021 – July, 2023",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Associate Software Developer | Millennium IMS Pvt. Ltd., Bangalore",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 2497,
+              "end": 2563
+            },
+            {
+              "page": 1,
+              "text": "Aug, 2021 – July, 2023",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 2564,
+              "end": 2586
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Aug, 2021 – July, 2023",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 2564,
+              "end": 2586
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Millennium IMS Pvt. Ltd",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 2528,
+              "end": 2551
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Associate Software Developer",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 2497,
+              "end": 2525
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE:",
+          "date_label": "Aug, 2021 – July, 2023",
+          "is_present": false
+        },
+        "date_label": "Aug, 2021 – July, 2023",
+        "section": "PROFESSIONAL EXPERIENCE:",
+        "is_present": false
+      },
+      {
+        "id": "va3136f6bf6acc432",
+        "type": "EMPLOYMENT",
+        "title": "Power Platform Developer",
+        "org": "Tarento Technologies Pvt. Ltd",
+        "start": "2023-08",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Power Platform Developer | Tarento Technologies Pvt. Ltd., Bangalore\nAug 2023 – Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Power Platform Developer | Tarento Technologies Pvt. Ltd., Bangalore",
+              "block_id": "b12",
+              "kind": "text",
+              "start": 1348,
+              "end": 1416
+            },
+            {
+              "page": 1,
+              "text": "Aug 2023 – Present",
+              "block_id": "b13",
+              "kind": "text",
+              "start": 1417,
+              "end": 1435
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Aug 2023 – Present",
+              "block_id": "b13",
+              "kind": "text",
+              "start": 1417,
+              "end": 1435
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Tarento Technologies Pvt. Ltd",
+              "block_id": "b12",
+              "kind": "text",
+              "start": 1375,
+              "end": 1404
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Power Platform Developer",
+              "block_id": "b12",
+              "kind": "text",
+              "start": 1348,
+              "end": 1372
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE:",
+          "date_label": "Aug 2023 – Present",
+          "is_present": true
+        },
+        "date_label": "Aug 2023 – Present",
+        "section": "PROFESSIONAL EXPERIENCE:",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v99084cc1ea353d91",
+        "type": "PROJECT",
+        "title": "Employee Skill Tracker & Performance Management System",
+        "org": "",
+        "entry_text": "Employee Skill Tracker & Performance Management System Technologies: PowerApps (Canvas Apps), Dataverse, Power Automate, Office 365 Outlook / Teams Role: Power Platform Developer Designed and developed a role-based Canvas App to manage employee skills, certifications, and performance records. Built ",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Employee Skill Tracker & Performance Management System",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 3507,
+              "end": 3561
+            },
+            {
+              "page": 1,
+              "text": "Technologies: PowerApps (Canvas Apps), Dataverse, Power Automate, Office 365 Outlook / Teams",
+              "block_id": "b35",
+              "kind": "text",
+              "start": 3562,
+              "end": 3654
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Employee Skill Tracker & Performance Management System",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 3507,
+              "end": 3561
+            }
+          ],
+          "section": "PROJECTS:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROJECTS:",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v6c7f7a3c3e1c5e3e",
+        "type": "PROJECT",
+        "title": "Applied role-based access control for secure and contextual data visibility.",
+        "org": "",
+        "entry_text": "Applied role-based access control for secure and contextual data visibility.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Applied role-based access control for secure and contextual data visibility.",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 4139,
+              "end": 4215
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Applied role-based access control for secure and contextual data visibility",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 4139,
+              "end": 4214
+            }
+          ],
+          "section": "PROJECTS:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROJECTS:",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v03d5c81b90230b64",
+        "type": "PROJECT",
+        "title": "Reduced manual HR tracking efforts by ~45%, improving data consistency and transparency.",
+        "org": "",
+        "entry_text": "Reduced manual HR tracking efforts by ~45%, improving data consistency and transparency. Improved performance review timelines by ~30% via automated workflows & notifications. Automated Incident Escalation & SLA Monitoring System Technologies: Power Automate Cloud Flows, Dataverse, Outlook / Teams, ",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Reduced manual HR tracking efforts by ~45%, improving data consistency and transparency.",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 4216,
+              "end": 4304
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Reduced manual HR tracking efforts by ~45%, improving data consistency and transparency",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 4216,
+              "end": 4303
+            }
+          ],
+          "section": "PROJECTS:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROJECTS:",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v4c46336fe928982b",
+        "type": "PROJECT",
+        "title": "Logged escalation metrics into Dataverse for SLA compliance dashboards in Power BI.",
+        "org": "",
+        "entry_text": "Logged escalation metrics into Dataverse for SLA compliance dashboards in Power BI.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Logged escalation metrics into Dataverse for SLA compliance dashboards in Power BI.",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 4919,
+              "end": 5002
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Logged escalation metrics into Dataverse for SLA compliance dashboards in Power BI",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 4919,
+              "end": 5001
+            }
+          ],
+          "section": "PROJECTS:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROJECTS:",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "vf43a024483a64f31",
+        "type": "PROJECT",
+        "title": "Reduced manual SLA monitoring effort by ~60% with automated tracking and alerts.",
+        "org": "",
+        "entry_text": "Reduced manual SLA monitoring effort by ~60% with automated tracking and alerts. Improved incident resolution time by ~40% through proactive escalation workflows.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Reduced manual SLA monitoring effort by ~60% with automated tracking and alerts.",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 5003,
+              "end": 5083
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Reduced manual SLA monitoring effort by ~60% with automated tracking and alerts",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 5003,
+              "end": 5082
+            }
+          ],
+          "section": "PROJECTS:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROJECTS:",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "vcdc7aa1c93d51665",
+        "type": "PROJECT",
+        "title": "Reduced SLA breach rate by ~25% using early alerts and automated follow-ups.",
+        "org": "",
+        "entry_text": "Reduced SLA breach rate by ~25% using early alerts and automated follow-ups.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Reduced SLA breach rate by ~25% using early alerts and automated follow-ups.",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 5166,
+              "end": 5242
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Reduced SLA breach rate by ~25% using early alerts and automated follow-ups",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 5166,
+              "end": 5241
+            }
+          ],
+          "section": "PROJECTS:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROJECTS:",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v658ffc47d2af3608",
+        "type": "PROJECT",
+        "title": "Task & Resource Management System",
+        "org": "",
+        "entry_text": "Task & Resource Management System Technologies: Model-Driven Apps, Dataverse, Power Automate, Power BI Role: Power Platform Developer",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Task & Resource Management System",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 5243,
+              "end": 5276
+            },
+            {
+              "page": 1,
+              "text": "Technologies: Model-Driven Apps, Dataverse, Power Automate, Power BI",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 5277,
+              "end": 5345
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Task & Resource Management System",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 5243,
+              "end": 5276
+            }
+          ],
+          "section": "PROJECTS:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROJECTS:",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "va768ff761d5ed36b",
+        "type": "PROJECT",
+        "title": "Architected a Model-Driven App for project task planning, resource allocation, and workload oversight.",
+        "org": "",
+        "entry_text": "Architected a Model-Driven App for project task planning, resource allocation, and workload oversight. Configured Dataverse tables, forms, views, and dashboards for streamlined data workflows. Implemented Business Process Flows to automate stage transitions and approval steps.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Architected a Model-Driven App for project task planning, resource allocation, and workload oversight.",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 5377,
+              "end": 5479
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Architected a Model-Driven App for project task planning, resource allocation, and workload oversight",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 5377,
+              "end": 5478
+            }
+          ],
+          "section": "PROJECTS:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROJECTS:",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v1eae9d18f5c58a44",
+        "type": "PROJECT",
+        "title": "Orchestrated task notifications, SLA follow-ups, and reminders using Power Automate flows.",
+        "org": "",
+        "entry_text": "Orchestrated task notifications, SLA follow-ups, and reminders using Power Automate flows.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Orchestrated task notifications, SLA follow-ups, and reminders using Power Automate flows.",
+              "block_id": "b62",
+              "kind": "text",
+              "start": 5655,
+              "end": 5745
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Orchestrated task notifications, SLA follow-ups, and reminders using Power Automate flows",
+              "block_id": "b62",
+              "kind": "text",
+              "start": 5655,
+              "end": 5744
+            }
+          ],
+          "section": "PROJECTS:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROJECTS:",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v7bdfac849fffdbbe",
+        "type": "PROJECT",
+        "title": "Enhanced reporting visibility and planning accuracy by ~35%, reducing manual coordination effort by ~50%.",
+        "org": "",
+        "entry_text": "Enhanced reporting visibility and planning accuracy by ~35%, reducing manual coordination effort by ~50%. Automated Invoice Data Extraction & ERP Entry (RPA) Technologies: Power Automate Desktop (UI Automation & OCR), Cloud Flows, Dataverse, AI Builder Role: RPA / Power Automate Desktop Developer De",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Enhanced reporting visibility and planning accuracy by ~35%, reducing manual coordination effort by ~50%.",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 5746,
+              "end": 5851
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Enhanced reporting visibility and planning accuracy by ~35%, reducing manual coordination effort by ~50",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 5746,
+              "end": 5849
+            }
+          ],
+          "section": "PROJECTS:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROJECTS:",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "vdb9fb2817b2e25e4",
+        "type": "PROJECT",
+        "title": "Instituted validation checks, exception logs, and audit controls using Dataverse tables.",
+        "org": "",
+        "entry_text": "Instituted validation checks, exception logs, and audit controls using Dataverse tables. Enabled unattended bot execution with retry logic and fault-tolerant error handling. Decreased invoice processing effort by ~70% and reduced data entry errors by ~45%, lowering operational cost by ~30%.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Instituted validation checks, exception logs, and audit controls using Dataverse tables.",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 6178,
+              "end": 6266
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Instituted validation checks, exception logs, and audit controls using Dataverse tables",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 6178,
+              "end": 6265
+            }
+          ],
+          "section": "PROJECTS:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROJECTS:",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v12112f42200faa8c",
+        "type": "EDUCATION",
+        "title": "",
+        "org": "Bachelors of Science: Pragathi Degree College",
+        "entry_text": "Bachelors of Science: Pragathi Degree College (Osmania University Hyderabad)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelors of Science: Pragathi Degree College (Osmania University Hyderabad)",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 6481,
+              "end": 6557
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "Bachelors of Science: Pragathi Degree College",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 6481,
+              "end": 6526
+            }
+          ],
+          "title": [],
+          "section": "EDUCATION:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "EDUCATION:",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "Employee Skill Tracker & Performance Management System",
+        "client": "",
+        "role": "Power Platform Developer",
+        "duration": "",
+        "details": [
+          "Employee Skill Tracker & Performance Management System",
+          "Technologies: PowerApps (Canvas Apps), Dataverse, Power Automate, Office 365 Outlook / Teams",
+          "Designed and developed a role-based Canvas App to manage employee skills, certifications, and performance records.",
+          "Built custom Dataverse tables with relationships to support scalable data structure.",
+          "Implemented CRUD operations using Power FX and Patch() for optimized data updates.",
+          "Created responsive UI with reusable components and conditional visibility rules.",
+          "Integrated Power Automate to trigger email alerts and reminders for performance reviews."
+        ],
+        "raw_text": "Employee Skill Tracker & Performance Management System\nTechnologies: PowerApps (Canvas Apps), Dataverse, Power Automate, Office 365 Outlook / Teams\nRole: Power Platform Developer\nDesigned and developed a role-based Canvas App to manage employee skills, certifications, and performance records.\nBuilt custom Dataverse tables with relationships to support scalable data structure.\nImplemented CRUD operations using Power FX and Patch() for optimized data updates.\nCreated responsive UI with reusable components and conditional visibility rules.\nIntegrated Power Automate to trigger email alerts and rem",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Employee Skill Tracker & Performance Management System",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 3507,
+              "end": 3561
+            },
+            {
+              "page": 1,
+              "text": "Technologies: PowerApps (Canvas Apps), Dataverse, Power Automate, Office 365 Outlook / Teams",
+              "block_id": "b35",
+              "kind": "text",
+              "start": 3562,
+              "end": 3654
+            },
+            {
+              "page": 1,
+              "text": "Role: Power Platform Developer",
+              "block_id": "b36",
+              "kind": "text",
+              "start": 3655,
+              "end": 3685
+            },
+            {
+              "page": 1,
+              "text": "Designed and developed a role-based Canvas App to manage employee skills, certifications, and performance records.",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 3686,
+              "end": 3800
+            },
+            {
+              "page": 1,
+              "text": "Built custom Dataverse tables with relationships to support scalable data structure.",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 3801,
+              "end": 3885
+            },
+            {
+              "page": 1,
+              "text": "Implemented CRUD operations using Power FX and Patch() for optimized data updates.",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 3886,
+              "end": 3968
+            },
+            {
+              "page": 1,
+              "text": "Created responsive UI with reusable components and conditional visibility rules.",
+              "block_id": "b40",
+              "kind": "text",
+              "start": 3969,
+              "end": 4049
+            },
+            {
+              "page": 1,
+              "text": "Integrated Power Automate to trigger email alerts and reminders for performance reviews.",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 4050,
+              "end": 4138
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "Applied role-based access control for secure and contextual data visibility.",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Applied role-based access control for secure and contextual data visibility."
+        ],
+        "raw_text": "Applied role-based access control for secure and contextual data visibility.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Applied role-based access control for secure and contextual data visibility.",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 4139,
+              "end": 4215
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_3",
+        "name": "Reduced manual HR tracking efforts by ~45%, improving data consistency and transparency.",
+        "client": "",
+        "role": "Power Automate Developer",
+        "duration": "",
+        "details": [
+          "Reduced manual HR tracking efforts by ~45%, improving data consistency and transparency.",
+          "Improved performance review timelines by ~30% via automated workflows & notifications.",
+          "Automated Incident Escalation & SLA Monitoring System",
+          "Technologies: Power Automate Cloud Flows, Dataverse, Outlook / Teams, Power BI",
+          "Created scheduled cloud flows to monitor incident SLA thresholds and trigger escalations.",
+          "Integrated Dataverse, Teams & Outlook for end-to-end notification & approval workflows.",
+          "Designed adaptive card notifications in Microsoft Teams for real-time action & approval.",
+          "Implemented switch cases, parallel branches, and dynamic expressions for multi-tier escalation."
+        ],
+        "raw_text": "Reduced manual HR tracking efforts by ~45%, improving data consistency and transparency.\nImproved performance review timelines by ~30% via automated workflows & notifications.\nAutomated Incident Escalation & SLA Monitoring System\nTechnologies: Power Automate Cloud Flows, Dataverse, Outlook / Teams, Power BI\nRole: Power Automate Developer\nCreated scheduled cloud flows to monitor incident SLA thresholds and trigger escalations.\nIntegrated Dataverse, Teams & Outlook for end-to-end notification & approval workflows.\nDesigned adaptive card notifications in Microsoft Teams for real-time action & app",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Reduced manual HR tracking efforts by ~45%, improving data consistency and transparency.",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 4216,
+              "end": 4304
+            },
+            {
+              "page": 1,
+              "text": "Improved performance review timelines by ~30% via automated workflows & notifications.",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 4305,
+              "end": 4391
+            },
+            {
+              "page": 1,
+              "text": "Automated Incident Escalation & SLA Monitoring System",
+              "block_id": "b45",
+              "kind": "text",
+              "start": 4392,
+              "end": 4445
+            },
+            {
+              "page": 1,
+              "text": "Technologies: Power Automate Cloud Flows, Dataverse, Outlook / Teams, Power BI",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 4446,
+              "end": 4524
+            },
+            {
+              "page": 1,
+              "text": "Role: Power Automate Developer",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 4525,
+              "end": 4555
+            },
+            {
+              "page": 1,
+              "text": "Created scheduled cloud flows to monitor incident SLA thresholds and trigger escalations.",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 4556,
+              "end": 4645
+            },
+            {
+              "page": 1,
+              "text": "Integrated Dataverse, Teams & Outlook for end-to-end notification & approval workflows.",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 4646,
+              "end": 4733
+            },
+            {
+              "page": 1,
+              "text": "Designed adaptive card notifications in Microsoft Teams for real-time action & approval.",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 4734,
+              "end": 4822
+            },
+            {
+              "page": 1,
+              "text": "Implemented switch cases, parallel branches, and dynamic expressions for multi-tier escalation.",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 4823,
+              "end": 4918
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_4",
+        "name": "Logged escalation metrics into Dataverse for SLA compliance dashboards in Power BI.",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Logged escalation metrics into Dataverse for SLA compliance dashboards in Power BI."
+        ],
+        "raw_text": "Logged escalation metrics into Dataverse for SLA compliance dashboards in Power BI.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Logged escalation metrics into Dataverse for SLA compliance dashboards in Power BI.",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 4919,
+              "end": 5002
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_5",
+        "name": "Reduced manual SLA monitoring effort by ~60% with automated tracking and alerts.",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Reduced manual SLA monitoring effort by ~60% with automated tracking and alerts.",
+          "Improved incident resolution time by ~40% through proactive escalation workflows."
+        ],
+        "raw_text": "Reduced manual SLA monitoring effort by ~60% with automated tracking and alerts.\nImproved incident resolution time by ~40% through proactive escalation workflows.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Reduced manual SLA monitoring effort by ~60% with automated tracking and alerts.",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 5003,
+              "end": 5083
+            },
+            {
+              "page": 1,
+              "text": "Improved incident resolution time by ~40% through proactive escalation workflows.",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 5084,
+              "end": 5165
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_6",
+        "name": "Reduced SLA breach rate by ~25% using early alerts and automated follow-ups.",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Reduced SLA breach rate by ~25% using early alerts and automated follow-ups."
+        ],
+        "raw_text": "Reduced SLA breach rate by ~25% using early alerts and automated follow-ups.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Reduced SLA breach rate by ~25% using early alerts and automated follow-ups.",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 5166,
+              "end": 5242
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_7",
+        "name": "Task & Resource Management System",
+        "client": "",
+        "role": "Power Platform Developer",
+        "duration": "",
+        "details": [
+          "Task & Resource Management System",
+          "Technologies: Model-Driven Apps, Dataverse, Power Automate, Power BI"
+        ],
+        "raw_text": "Task & Resource Management System\nTechnologies: Model-Driven Apps, Dataverse, Power Automate, Power BI\nRole: Power Platform Developer",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Task & Resource Management System",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 5243,
+              "end": 5276
+            },
+            {
+              "page": 1,
+              "text": "Technologies: Model-Driven Apps, Dataverse, Power Automate, Power BI",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 5277,
+              "end": 5345
+            },
+            {
+              "page": 1,
+              "text": "Role: Power Platform Developer",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 5346,
+              "end": 5376
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_8",
+        "name": "Architected a Model-Driven App for project task planning, resource allocation, and workload oversight.",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Architected a Model-Driven App for project task planning, resource allocation, and workload oversight.",
+          "Configured Dataverse tables, forms, views, and dashboards for streamlined data workflows.",
+          "Implemented Business Process Flows to automate stage transitions and approval steps."
+        ],
+        "raw_text": "Architected a Model-Driven App for project task planning, resource allocation, and workload oversight.\nConfigured Dataverse tables, forms, views, and dashboards for streamlined data workflows.\nImplemented Business Process Flows to automate stage transitions and approval steps.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Architected a Model-Driven App for project task planning, resource allocation, and workload oversight.",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 5377,
+              "end": 5479
+            },
+            {
+              "page": 1,
+              "text": "Configured Dataverse tables, forms, views, and dashboards for streamlined data workflows.",
+              "block_id": "b60",
+              "kind": "text",
+              "start": 5480,
+              "end": 5569
+            },
+            {
+              "page": 1,
+              "text": "Implemented Business Process Flows to automate stage transitions and approval steps.",
+              "block_id": "b61",
+              "kind": "text",
+              "start": 5570,
+              "end": 5654
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_9",
+        "name": "Orchestrated task notifications, SLA follow-ups, and reminders using Power Automate flows.",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Orchestrated task notifications, SLA follow-ups, and reminders using Power Automate flows."
+        ],
+        "raw_text": "Orchestrated task notifications, SLA follow-ups, and reminders using Power Automate flows.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Orchestrated task notifications, SLA follow-ups, and reminders using Power Automate flows.",
+              "block_id": "b62",
+              "kind": "text",
+              "start": 5655,
+              "end": 5745
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_10",
+        "name": "Enhanced reporting visibility and planning accuracy by ~35%, reducing manual coordination effort by ~50%.",
+        "client": "",
+        "role": "RPA / Power Automate Desktop Developer",
+        "duration": "",
+        "details": [
+          "Enhanced reporting visibility and planning accuracy by ~35%, reducing manual coordination effort by ~50%.",
+          "Automated Invoice Data Extraction & ERP Entry (RPA)",
+          "Technologies: Power Automate Desktop (UI Automation & OCR), Cloud Flows, Dataverse, AI Builder",
+          "Designed an OCR-driven invoice data extraction flow using AI Builder.",
+          "Automated legacy ERP data entry via PAD UI-based RPA workflows."
+        ],
+        "raw_text": "Enhanced reporting visibility and planning accuracy by ~35%, reducing manual coordination effort by ~50%.\nAutomated Invoice Data Extraction & ERP Entry (RPA)\nTechnologies: Power Automate Desktop (UI Automation & OCR), Cloud Flows, Dataverse, AI Builder\nRole: RPA / Power Automate Desktop Developer\nDesigned an OCR-driven invoice data extraction flow using AI Builder.\nAutomated legacy ERP data entry via PAD UI-based RPA workflows.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Enhanced reporting visibility and planning accuracy by ~35%, reducing manual coordination effort by ~50%.",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 5746,
+              "end": 5851
+            },
+            {
+              "page": 1,
+              "text": "Automated Invoice Data Extraction & ERP Entry (RPA)",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 5852,
+              "end": 5903
+            },
+            {
+              "page": 1,
+              "text": "Technologies: Power Automate Desktop (UI Automation & OCR), Cloud Flows, Dataverse, AI Builder",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 5904,
+              "end": 5998
+            },
+            {
+              "page": 1,
+              "text": "Role: RPA / Power Automate Desktop Developer",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 5999,
+              "end": 6043
+            },
+            {
+              "page": 1,
+              "text": "Designed an OCR-driven invoice data extraction flow using AI Builder.",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 6044,
+              "end": 6113
+            },
+            {
+              "page": 1,
+              "text": "Automated legacy ERP data entry via PAD UI-based RPA workflows.",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 6114,
+              "end": 6177
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_11",
+        "name": "Instituted validation checks, exception logs, and audit controls using Dataverse tables.",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Instituted validation checks, exception logs, and audit controls using Dataverse tables.",
+          "Enabled unattended bot execution with retry logic and fault-tolerant error handling.",
+          "Decreased invoice processing effort by ~70% and reduced data entry errors by ~45%, lowering operational cost by ~30%."
+        ],
+        "raw_text": "Instituted validation checks, exception logs, and audit controls using Dataverse tables.\nEnabled unattended bot execution with retry logic and fault-tolerant error handling.\nDecreased invoice processing effort by ~70% and reduced data entry errors by ~45%, lowering operational cost by ~30%.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Instituted validation checks, exception logs, and audit controls using Dataverse tables.",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 6178,
+              "end": 6266
+            },
+            {
+              "page": 1,
+              "text": "Enabled unattended bot execution with retry logic and fault-tolerant error handling.",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 6267,
+              "end": 6351
+            },
+            {
+              "page": 1,
+              "text": "Decreased invoice processing effort by ~70% and reduced data entry errors by ~45%, lowering operational cost by ~30%.",
+              "block_id": "b71",
+              "kind": "text",
+              "start": 6352,
+              "end": 6469
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "NO_GAP_DETECTED",
+        "confidence": 0.9,
+        "reasons": [],
+        "evidence": {
+          "note": "no uncovered months between supported entries"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 14,
+      "dated_share": 0.143,
+      "unresolved": 12,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 62,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": true,
+          "unrepresented_periods_in_category": [],
+          "entries": 2,
+          "dated_periods": 2,
+          "represented_months": 62,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 2,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v3b743595df7e5766",
+              "label": "Associate Software Developer",
+              "state": "month_range",
+              "start": [
+                2021,
+                8
+              ],
+              "end": [
+                2023,
+                7
+              ],
+              "months": 24,
+              "raw": "Aug, 2021 – July, 2023",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Associate Software Developer | Millennium IMS Pvt. Ltd., Bangalore",
+                    "block_id": "b21",
+                    "kind": "text",
+                    "start": 2497,
+                    "end": 2563
+                  },
+                  {
+                    "page": 1,
+                    "text": "Aug, 2021 – July, 2023",
+                    "block_id": "b22",
+                    "kind": "text",
+                    "start": 2564,
+                    "end": 2586
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "Aug, 2021 – July, 2023",
+                    "block_id": "b22",
+                    "kind": "text",
+                    "start": 2564,
+                    "end": 2586
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Millennium IMS Pvt. Ltd",
+                    "block_id": "b21",
+                    "kind": "text",
+                    "start": 2528,
+                    "end": 2551
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Associate Software Developer",
+                    "block_id": "b21",
+                    "kind": "text",
+                    "start": 2497,
+                    "end": 2525
+                  }
+                ],
+                "section": "PROFESSIONAL EXPERIENCE:",
+                "date_label": "Aug, 2021 – July, 2023",
+                "is_present": false
+              }
+            },
+            {
+              "id": "va3136f6bf6acc432",
+              "label": "Power Platform Developer",
+              "state": "month_range",
+              "start": [
+                2023,
+                8
+              ],
+              "end": [
+                2026,
+                9
+              ],
+              "months": 38,
+              "raw": "Aug 2023 – Present",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Power Platform Developer | Tarento Technologies Pvt. Ltd., Bangalore",
+                    "block_id": "b12",
+                    "kind": "text",
+                    "start": 1348,
+                    "end": 1416
+                  },
+                  {
+                    "page": 1,
+                    "text": "Aug 2023 – Present",
+                    "block_id": "b13",
+                    "kind": "text",
+                    "start": 1417,
+                    "end": 1435
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "Aug 2023 – Present",
+                    "block_id": "b13",
+                    "kind": "text",
+                    "start": 1417,
+                    "end": 1435
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Tarento Technologies Pvt. Ltd",
+                    "block_id": "b12",
+                    "kind": "text",
+                    "start": 1375,
+                    "end": 1404
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Power Platform Developer",
+                    "block_id": "b12",
+                    "kind": "text",
+                    "start": 1348,
+                    "end": 1372
+                  }
+                ],
+                "section": "PROFESSIONAL EXPERIENCE:",
+                "date_label": "Aug 2023 – Present",
+                "is_present": true
+              }
+            }
+          ]
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 11,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 11,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "proj_1",
+              "label": "Employee Skill Tracker & Performance Management System",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Employee Skill Tracker & Performance Management System",
+                    "block_id": "b34",
+                    "kind": "text",
+                    "start": 3507,
+                    "end": 3561
+                  },
+                  {
+                    "page": 1,
+                    "text": "Technologies: PowerApps (Canvas Apps), Dataverse, Power Automate, Office 365 Outlook / Teams",
+                    "block_id": "b35",
+                    "kind": "text",
+                    "start": 3562,
+                    "end": 3654
+                  },
+                  {
+                    "page": 1,
+                    "text": "Role: Power Platform Developer",
+                    "block_id": "b36",
+                    "kind": "text",
+                    "start": 3655,
+                    "end": 3685
+                  },
+                  {
+                    "page": 1,
+                    "text": "Designed and developed a role-based Canvas App to manage employee skills, certifications, and performance records.",
+                    "block_id": "b37",
+                    "kind": "text",
+                    "start": 3686,
+                    "end": 3800
+                  },
+                  {
+                    "page": 1,
+                    "text": "Built custom Dataverse tables with relationships to support scalable data structure.",
+                    "block_id": "b38",
+                    "kind": "text",
+                    "start": 3801,
+                    "end": 3885
+                  },
+                  {
+                    "page": 1,
+                    "text": "Implemented CRUD operations using Power FX and Patch() for optimized data updates.",
+                    "block_id": "b39",
+                    "kind": "text",
+                    "start": 3886,
+                    "end": 3968
+                  },
+                  {
+                    "page": 1,
+                    "text": "Created responsive UI with reusable components and conditional visibility rules.",
+                    "block_id": "b40",
+                    "kind": "text",
+                    "start": 3969,
+                    "end": 4049
+                  },
+                  {
+                    "page": 1,
+                    "text": "Integrated Power Automate to trigger email alerts and reminders for performance reviews.",
+                    "block_id": "b41",
+                    "kind": "text",
+                    "start": 4050,
+                    "end": 4138
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_2",
+              "label": "Applied role-based access control for secure and contextual data visibility.",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Applied role-based access control for secure and contextual data visibility.",
+                    "block_id": "b42",
+                    "kind": "text",
+                    "start": 4139,
+                    "end": 4215
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_3",
+              "label": "Reduced manual HR tracking efforts by ~45%, improving data consistency and transparency.",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Reduced manual HR tracking efforts by ~45%, improving data consistency and transparency.",
+                    "block_id": "b43",
+                    "kind": "text",
+                    "start": 4216,
+                    "end": 4304
+                  },
+                  {
+                    "page": 1,
+                    "text": "Improved performance review timelines by ~30% via automated workflows & notifications.",
+                    "block_id": "b44",
+                    "kind": "text",
+                    "start": 4305,
+                    "end": 4391
+                  },
+                  {
+                    "page": 1,
+                    "text": "Automated Incident Escalation & SLA Monitoring System",
+                    "block_id": "b45",
+                    "kind": "text",
+                    "start": 4392,
+                    "end": 4445
+                  },
+                  {
+                    "page": 1,
+                    "text": "Technologies: Power Automate Cloud Flows, Dataverse, Outlook / Teams, Power BI",
+                    "block_id": "b46",
+                    "kind": "text",
+                    "start": 4446,
+                    "end": 4524
+                  },
+                  {
+                    "page": 1,
+                    "text": "Role: Power Automate Developer",
+                    "block_id": "b47",
+                    "kind": "text",
+                    "start": 4525,
+                    "end": 4555
+                  },
+                  {
+                    "page": 1,
+                    "text": "Created scheduled cloud flows to monitor incident SLA thresholds and trigger escalations.",
+                    "block_id": "b48",
+                    "kind": "text",
+                    "start": 4556,
+                    "end": 4645
+                  },
+                  {
+                    "page": 1,
+                    "text": "Integrated Dataverse, Teams & Outlook for end-to-end notification & approval workflows.",
+                    "block_id": "b49",
+                    "kind": "text",
+                    "start": 4646,
+                    "end": 4733
+                  },
+                  {
+                    "page": 1,
+                    "text": "Designed adaptive card notifications in Microsoft Teams for real-time action & approval.",
+                    "block_id": "b50",
+                    "kind": "text",
+                    "start": 4734,
+                    "end": 4822
+                  },
+                  {
+                    "page": 1,
+                    "text": "Implemented switch cases, parallel branches, and dynamic expressions for multi-tier escalation.",
+                    "block_id": "b51",
+                    "kind": "text",
+                    "start": 4823,
+                    "end": 4918
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_4",
+              "label": "Logged escalation metrics into Dataverse for SLA compliance dashboards in Power BI.",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Logged escalation metrics into Dataverse for SLA compliance dashboards in Power BI.",
+                    "block_id": "b52",
+                    "kind": "text",
+                    "start": 4919,
+                    "end": 5002
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_5",
+              "label": "Reduced manual SLA monitoring effort by ~60% with automated tracking and alerts.",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Reduced manual SLA monitoring effort by ~60% with automated tracking and alerts.",
+                    "block_id": "b53",
+                    "kind": "text",
+                    "start": 5003,
+                    "end": 5083
+                  },
+                  {
+                    "page": 1,
+                    "text": "Improved incident resolution time by ~40% through proactive escalation workflows.",
+                    "block_id": "b54",
+                    "kind": "text",
+                    "start": 5084,
+                    "end": 5165
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_6",
+              "label": "Reduced SLA breach rate by ~25% using early alerts and automated follow-ups.",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Reduced SLA breach rate by ~25% using early alerts and automated follow-ups.",
+                    "block_id": "b55",
+                    "kind": "text",
+                    "start": 5166,
+                    "end": 5242
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_7",
+              "label": "Task & Resource Management System",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Task & Resource Management System",
+                    "block_id": "b56",
+                    "kind": "text",
+                    "start": 5243,
+                    "end": 5276
+                  },
+                  {
+                    "page": 1,
+                    "text": "Technologies: Model-Driven Apps, Dataverse, Power Automate, Power BI",
+                    "block_id": "b57",
+                    "kind": "text",
+                    "start": 5277,
+                    "end": 5345
+                  },
+                  {
+                    "page": 1,
+                    "text": "Role: Power Platform Developer",
+                    "block_id": "b58",
+                    "kind": "text",
+                    "start": 5346,
+                    "end": 5376
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_8",
+              "label": "Architected a Model-Driven App for project task planning, resource allocation, and workload oversight.",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Architected a Model-Driven App for project task planning, resource allocation, and workload oversight.",
+                    "block_id": "b59",
+                    "kind": "text",
+                    "start": 5377,
+                    "end": 5479
+                  },
+                  {
+                    "page": 1,
+                    "text": "Configured Dataverse tables, forms, views, and dashboards for streamlined data workflows.",
+                    "block_id": "b60",
+                    "kind": "text",
+                    "start": 5480,
+                    "end": 5569
+                  },
+                  {
+                    "page": 1,
+                    "text": "Implemented Business Process Flows to automate stage transitions and approval steps.",
+                    "block_id": "b61",
+                    "kind": "text",
+                    "start": 5570,
+                    "end": 5654
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_9",
+              "label": "Orchestrated task notifications, SLA follow-ups, and reminders using Power Automate flows.",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Orchestrated task notifications, SLA follow-ups, and reminders using Power Automate flows.",
+                    "block_id": "b62",
+                    "kind": "text",
+                    "start": 5655,
+                    "end": 5745
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_10",
+              "label": "Enhanced reporting visibility and planning accuracy by ~35%, reducing manual coordination effort by ~50%.",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Enhanced reporting visibility and planning accuracy by ~35%, reducing manual coordination effort by ~50%.",
+                    "block_id": "b63",
+                    "kind": "text",
+                    "start": 5746,
+                    "end": 5851
+                  },
+                  {
+                    "page": 1,
+                    "text": "Automated Invoice Data Extraction & ERP Entry (RPA)",
+                    "block_id": "b64",
+                    "kind": "text",
+                    "start": 5852,
+                    "end": 5903
+                  },
+                  {
+                    "page": 1,
+                    "text": "Technologies: Power Automate Desktop (UI Automation & OCR), Cloud Flows, Dataverse, AI Builder",
+                    "block_id": "b65",
+                    "kind": "text",
+                    "start": 5904,
+                    "end": 5998
+                  },
+                  {
+                    "page": 1,
+                    "text": "Role: RPA / Power Automate Desktop Developer",
+                    "block_id": "b66",
+                    "kind": "text",
+                    "start": 5999,
+                    "end": 6043
+                  },
+                  {
+                    "page": 1,
+                    "text": "Designed an OCR-driven invoice data extraction flow using AI Builder.",
+                    "block_id": "b67",
+                    "kind": "text",
+                    "start": 6044,
+                    "end": 6113
+                  },
+                  {
+                    "page": 1,
+                    "text": "Automated legacy ERP data entry via PAD UI-based RPA workflows.",
+                    "block_id": "b68",
+                    "kind": "text",
+                    "start": 6114,
+                    "end": 6177
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_11",
+              "label": "Instituted validation checks, exception logs, and audit controls using Dataverse tables.",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Instituted validation checks, exception logs, and audit controls using Dataverse tables.",
+                    "block_id": "b69",
+                    "kind": "text",
+                    "start": 6178,
+                    "end": 6266
+                  },
+                  {
+                    "page": 1,
+                    "text": "Enabled unattended bot execution with retry logic and fault-tolerant error handling.",
+                    "block_id": "b70",
+                    "kind": "text",
+                    "start": 6267,
+                    "end": 6351
+                  },
+                  {
+                    "page": 1,
+                    "text": "Decreased invoice processing effort by ~70% and reduced data entry errors by ~45%, lowering operational cost by ~30%.",
+                    "block_id": "b71",
+                    "kind": "text",
+                    "start": 6352,
+                    "end": 6469
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 1,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v12112f42200faa8c",
+              "label": "Bachelors of Science: Pragathi Degree College",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Bachelors of Science: Pragathi Degree College (Osmania University Hyderabad)",
+                    "block_id": "b73",
+                    "kind": "text",
+                    "start": 6481,
+                    "end": 6557
+                  }
+                ],
+                "dates": [],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Bachelors of Science: Pragathi Degree College",
+                    "block_id": "b73",
+                    "kind": "text",
+                    "start": 6481,
+                    "end": 6526
+                  }
+                ],
+                "title": [],
+                "section": "EDUCATION:",
+                "date_label": "",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 62,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": true,
+        "unrepresented_periods_in_category": [],
+        "entries": 2,
+        "dated_periods": 2,
+        "represented_months": 62,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 2,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v3b743595df7e5766",
+            "label": "Associate Software Developer",
+            "state": "month_range",
+            "start": [
+              2021,
+              8
+            ],
+            "end": [
+              2023,
+              7
+            ],
+            "months": 24,
+            "raw": "Aug, 2021 – July, 2023",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Associate Software Developer | Millennium IMS Pvt. Ltd., Bangalore",
+                  "block_id": "b21",
+                  "kind": "text",
+                  "start": 2497,
+                  "end": 2563
+                },
+                {
+                  "page": 1,
+                  "text": "Aug, 2021 – July, 2023",
+                  "block_id": "b22",
+                  "kind": "text",
+                  "start": 2564,
+                  "end": 2586
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Aug, 2021 – July, 2023",
+                  "block_id": "b22",
+                  "kind": "text",
+                  "start": 2564,
+                  "end": 2586
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Millennium IMS Pvt. Ltd",
+                  "block_id": "b21",
+                  "kind": "text",
+                  "start": 2528,
+                  "end": 2551
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Associate Software Developer",
+                  "block_id": "b21",
+                  "kind": "text",
+                  "start": 2497,
+                  "end": 2525
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE:",
+              "date_label": "Aug, 2021 – July, 2023",
+              "is_present": false
+            }
+          },
+          {
+            "id": "va3136f6bf6acc432",
+            "label": "Power Platform Developer",
+            "state": "month_range",
+            "start": [
+              2023,
+              8
+            ],
+            "end": [
+              2026,
+              9
+            ],
+            "months": 38,
+            "raw": "Aug 2023 – Present",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Power Platform Developer | Tarento Technologies Pvt. Ltd., Bangalore",
+                  "block_id": "b12",
+                  "kind": "text",
+                  "start": 1348,
+                  "end": 1416
+                },
+                {
+                  "page": 1,
+                  "text": "Aug 2023 – Present",
+                  "block_id": "b13",
+                  "kind": "text",
+                  "start": 1417,
+                  "end": 1435
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Aug 2023 – Present",
+                  "block_id": "b13",
+                  "kind": "text",
+                  "start": 1417,
+                  "end": 1435
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Tarento Technologies Pvt. Ltd",
+                  "block_id": "b12",
+                  "kind": "text",
+                  "start": 1375,
+                  "end": 1404
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Power Platform Developer",
+                  "block_id": "b12",
+                  "kind": "text",
+                  "start": 1348,
+                  "end": 1372
+                }
+              ],
+              "section": "PROFESSIONAL EXPERIENCE:",
+              "date_label": "Aug 2023 – Present",
+              "is_present": true
+            }
+          }
+        ]
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 11,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 11,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "proj_1",
+            "label": "Employee Skill Tracker & Performance Management System",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Employee Skill Tracker & Performance Management System",
+                  "block_id": "b34",
+                  "kind": "text",
+                  "start": 3507,
+                  "end": 3561
+                },
+                {
+                  "page": 1,
+                  "text": "Technologies: PowerApps (Canvas Apps), Dataverse, Power Automate, Office 365 Outlook / Teams",
+                  "block_id": "b35",
+                  "kind": "text",
+                  "start": 3562,
+                  "end": 3654
+                },
+                {
+                  "page": 1,
+                  "text": "Role: Power Platform Developer",
+                  "block_id": "b36",
+                  "kind": "text",
+                  "start": 3655,
+                  "end": 3685
+                },
+                {
+                  "page": 1,
+                  "text": "Designed and developed a role-based Canvas App to manage employee skills, certifications, and performance records.",
+                  "block_id": "b37",
+                  "kind": "text",
+                  "start": 3686,
+                  "end": 3800
+                },
+                {
+                  "page": 1,
+                  "text": "Built custom Dataverse tables with relationships to support scalable data structure.",
+                  "block_id": "b38",
+                  "kind": "text",
+                  "start": 3801,
+                  "end": 3885
+                },
+                {
+                  "page": 1,
+                  "text": "Implemented CRUD operations using Power FX and Patch() for optimized data updates.",
+                  "block_id": "b39",
+                  "kind": "text",
+                  "start": 3886,
+                  "end": 3968
+                },
+                {
+                  "page": 1,
+                  "text": "Created responsive UI with reusable components and conditional visibility rules.",
+                  "block_id": "b40",
+                  "kind": "text",
+                  "start": 3969,
+                  "end": 4049
+                },
+                {
+                  "page": 1,
+                  "text": "Integrated Power Automate to trigger email alerts and reminders for performance reviews.",
+                  "block_id": "b41",
+                  "kind": "text",
+                  "start": 4050,
+                  "end": 4138
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_2",
+            "label": "Applied role-based access control for secure and contextual data visibility.",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Applied role-based access control for secure and contextual data visibility.",
+                  "block_id": "b42",
+                  "kind": "text",
+                  "start": 4139,
+                  "end": 4215
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_3",
+            "label": "Reduced manual HR tracking efforts by ~45%, improving data consistency and transparency.",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Reduced manual HR tracking efforts by ~45%, improving data consistency and transparency.",
+                  "block_id": "b43",
+                  "kind": "text",
+                  "start": 4216,
+                  "end": 4304
+                },
+                {
+                  "page": 1,
+                  "text": "Improved performance review timelines by ~30% via automated workflows & notifications.",
+                  "block_id": "b44",
+                  "kind": "text",
+                  "start": 4305,
+                  "end": 4391
+                },
+                {
+                  "page": 1,
+                  "text": "Automated Incident Escalation & SLA Monitoring System",
+                  "block_id": "b45",
+                  "kind": "text",
+                  "start": 4392,
+                  "end": 4445
+                },
+                {
+                  "page": 1,
+                  "text": "Technologies: Power Automate Cloud Flows, Dataverse, Outlook / Teams, Power BI",
+                  "block_id": "b46",
+                  "kind": "text",
+                  "start": 4446,
+                  "end": 4524
+                },
+                {
+                  "page": 1,
+                  "text": "Role: Power Automate Developer",
+                  "block_id": "b47",
+                  "kind": "text",
+                  "start": 4525,
+                  "end": 4555
+                },
+                {
+                  "page": 1,
+                  "text": "Created scheduled cloud flows to monitor incident SLA thresholds and trigger escalations.",
+                  "block_id": "b48",
+                  "kind": "text",
+                  "start": 4556,
+                  "end": 4645
+                },
+                {
+                  "page": 1,
+                  "text": "Integrated Dataverse, Teams & Outlook for end-to-end notification & approval workflows.",
+                  "block_id": "b49",
+                  "kind": "text",
+                  "start": 4646,
+                  "end": 4733
+                },
+                {
+                  "page": 1,
+                  "text": "Designed adaptive card notifications in Microsoft Teams for real-time action & approval.",
+                  "block_id": "b50",
+                  "kind": "text",
+                  "start": 4734,
+                  "end": 4822
+                },
+                {
+                  "page": 1,
+                  "text": "Implemented switch cases, parallel branches, and dynamic expressions for multi-tier escalation.",
+                  "block_id": "b51",
+                  "kind": "text",
+                  "start": 4823,
+                  "end": 4918
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_4",
+            "label": "Logged escalation metrics into Dataverse for SLA compliance dashboards in Power BI.",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Logged escalation metrics into Dataverse for SLA compliance dashboards in Power BI.",
+                  "block_id": "b52",
+                  "kind": "text",
+                  "start": 4919,
+                  "end": 5002
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_5",
+            "label": "Reduced manual SLA monitoring effort by ~60% with automated tracking and alerts.",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Reduced manual SLA monitoring effort by ~60% with automated tracking and alerts.",
+                  "block_id": "b53",
+                  "kind": "text",
+                  "start": 5003,
+                  "end": 5083
+                },
+                {
+                  "page": 1,
+                  "text": "Improved incident resolution time by ~40% through proactive escalation workflows.",
+                  "block_id": "b54",
+                  "kind": "text",
+                  "start": 5084,
+                  "end": 5165
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_6",
+            "label": "Reduced SLA breach rate by ~25% using early alerts and automated follow-ups.",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Reduced SLA breach rate by ~25% using early alerts and automated follow-ups.",
+                  "block_id": "b55",
+                  "kind": "text",
+                  "start": 5166,
+                  "end": 5242
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_7",
+            "label": "Task & Resource Management System",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Task & Resource Management System",
+                  "block_id": "b56",
+                  "kind": "text",
+                  "start": 5243,
+                  "end": 5276
+                },
+                {
+                  "page": 1,
+                  "text": "Technologies: Model-Driven Apps, Dataverse, Power Automate, Power BI",
+                  "block_id": "b57",
+                  "kind": "text",
+                  "start": 5277,
+                  "end": 5345
+                },
+                {
+                  "page": 1,
+                  "text": "Role: Power Platform Developer",
+                  "block_id": "b58",
+                  "kind": "text",
+                  "start": 5346,
+                  "end": 5376
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_8",
+            "label": "Architected a Model-Driven App for project task planning, resource allocation, and workload oversight.",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Architected a Model-Driven App for project task planning, resource allocation, and workload oversight.",
+                  "block_id": "b59",
+                  "kind": "text",
+                  "start": 5377,
+                  "end": 5479
+                },
+                {
+                  "page": 1,
+                  "text": "Configured Dataverse tables, forms, views, and dashboards for streamlined data workflows.",
+                  "block_id": "b60",
+                  "kind": "text",
+                  "start": 5480,
+                  "end": 5569
+                },
+                {
+                  "page": 1,
+                  "text": "Implemented Business Process Flows to automate stage transitions and approval steps.",
+                  "block_id": "b61",
+                  "kind": "text",
+                  "start": 5570,
+                  "end": 5654
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_9",
+            "label": "Orchestrated task notifications, SLA follow-ups, and reminders using Power Automate flows.",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Orchestrated task notifications, SLA follow-ups, and reminders using Power Automate flows.",
+                  "block_id": "b62",
+                  "kind": "text",
+                  "start": 5655,
+                  "end": 5745
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_10",
+            "label": "Enhanced reporting visibility and planning accuracy by ~35%, reducing manual coordination effort by ~50%.",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Enhanced reporting visibility and planning accuracy by ~35%, reducing manual coordination effort by ~50%.",
+                  "block_id": "b63",
+                  "kind": "text",
+                  "start": 5746,
+                  "end": 5851
+                },
+                {
+                  "page": 1,
+                  "text": "Automated Invoice Data Extraction & ERP Entry (RPA)",
+                  "block_id": "b64",
+                  "kind": "text",
+                  "start": 5852,
+                  "end": 5903
+                },
+                {
+                  "page": 1,
+                  "text": "Technologies: Power Automate Desktop (UI Automation & OCR), Cloud Flows, Dataverse, AI Builder",
+                  "block_id": "b65",
+                  "kind": "text",
+                  "start": 5904,
+                  "end": 5998
+                },
+                {
+                  "page": 1,
+                  "text": "Role: RPA / Power Automate Desktop Developer",
+                  "block_id": "b66",
+                  "kind": "text",
+                  "start": 5999,
+                  "end": 6043
+                },
+                {
+                  "page": 1,
+                  "text": "Designed an OCR-driven invoice data extraction flow using AI Builder.",
+                  "block_id": "b67",
+                  "kind": "text",
+                  "start": 6044,
+                  "end": 6113
+                },
+                {
+                  "page": 1,
+                  "text": "Automated legacy ERP data entry via PAD UI-based RPA workflows.",
+                  "block_id": "b68",
+                  "kind": "text",
+                  "start": 6114,
+                  "end": 6177
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_11",
+            "label": "Instituted validation checks, exception logs, and audit controls using Dataverse tables.",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Instituted validation checks, exception logs, and audit controls using Dataverse tables.",
+                  "block_id": "b69",
+                  "kind": "text",
+                  "start": 6178,
+                  "end": 6266
+                },
+                {
+                  "page": 1,
+                  "text": "Enabled unattended bot execution with retry logic and fault-tolerant error handling.",
+                  "block_id": "b70",
+                  "kind": "text",
+                  "start": 6267,
+                  "end": 6351
+                },
+                {
+                  "page": 1,
+                  "text": "Decreased invoice processing effort by ~70% and reduced data entry errors by ~45%, lowering operational cost by ~30%.",
+                  "block_id": "b71",
+                  "kind": "text",
+                  "start": 6352,
+                  "end": 6469
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 1,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v12112f42200faa8c",
+            "label": "Bachelors of Science: Pragathi Degree College",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Bachelors of Science: Pragathi Degree College (Osmania University Hyderabad)",
+                  "block_id": "b73",
+                  "kind": "text",
+                  "start": 6481,
+                  "end": 6557
+                }
+              ],
+              "dates": [],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Bachelors of Science: Pragathi Degree College",
+                  "block_id": "b73",
+                  "kind": "text",
+                  "start": 6481,
+                  "end": 6526
+                }
+              ],
+              "title": [],
+              "section": "EDUCATION:",
+              "date_label": "",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 62,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

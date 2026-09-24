@@ -1,0 +1,464 @@
+{
+  "file_name": "SURAJIT SINGHA.docx",
+  "input_mode": "original_document",
+  "input_sha256": "883fe6d05f56a10dd2914187b395b9ac64c4e41f78ea4c5793ccc685e9663eab",
+  "doc_id": "883fe6d05f56a10dd2914187",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 0,
+    "total_events": 4,
+    "dated_share": 0.0,
+    "unresolved": 4,
+    "ambiguous": 0,
+    "mean_event_confidence": null
+  },
+  "work_experience": [
+    {
+      "id": "v681e63f306527d1a",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Software Engineer Specialist",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Software Engineer Specialist",
+            "block_id": "b13",
+            "kind": "text",
+            "start": 753,
+            "end": 781
+          }
+        ],
+        "dates": [],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Software Engineer Specialist",
+            "block_id": "b13",
+            "kind": "text",
+            "start": 753,
+            "end": 781
+          }
+        ],
+        "section": "Experience",
+        "date_label": "",
+        "is_present": false
+      }
+    },
+    {
+      "id": "v46a3c0f25d21b13c",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Software Engineering Specialist",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Software Engineering Specialist",
+            "block_id": "b20",
+            "kind": "text",
+            "start": 1489,
+            "end": 1520
+          }
+        ],
+        "dates": [],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Software Engineering Specialist",
+            "block_id": "b20",
+            "kind": "text",
+            "start": 1489,
+            "end": 1520
+          }
+        ],
+        "section": "Experience",
+        "date_label": "",
+        "is_present": false
+      }
+    },
+    {
+      "id": "v4c6ea3b99b11f2b4",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Sr. Software Engineer",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Sr. Software Engineer",
+            "block_id": "b27",
+            "kind": "text",
+            "start": 2387,
+            "end": 2408
+          }
+        ],
+        "dates": [],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Sr. Software Engineer",
+            "block_id": "b27",
+            "kind": "text",
+            "start": 2387,
+            "end": 2408
+          }
+        ],
+        "section": "Experience",
+        "date_label": "",
+        "is_present": false
+      }
+    }
+  ],
+  "education": [
+    {
+      "id": "v689b05247fdbef1b",
+      "type": "EDUCATION",
+      "company": "Cambridge Institute of Technology",
+      "title": "Bachelor of Engineering - Computer Science and Engineering",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Cambridge Institute of Technology, Visvesvaraya Technological University",
+            "block_id": "b9",
+            "kind": "text",
+            "start": 586,
+            "end": 658
+          },
+          {
+            "page": 1,
+            "text": "Bachelor of Engineering - Computer Science and Engineering",
+            "block_id": "b10",
+            "kind": "text",
+            "start": 659,
+            "end": 717
+          }
+        ],
+        "dates": [],
+        "company": [
+          {
+            "page": 1,
+            "text": "Cambridge Institute of Technology",
+            "block_id": "b9",
+            "kind": "text",
+            "start": 586,
+            "end": 619
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Bachelor of Engineering - Computer Science and Engineering",
+            "block_id": "b10",
+            "kind": "text",
+            "start": 659,
+            "end": 717
+          }
+        ],
+        "section": "Education",
+        "date_label": "",
+        "is_present": false
+      }
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 3,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "PARTIAL",
+    "date_association": "PARTIAL",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "PARTIAL",
+    "coverage_analysis": "PARTIAL",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "raw_pipeline_dto": {
+    "doc_id": "883fe6d05f56a10dd2914187",
+    "filename": "SURAJIT SINGHA.docx",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [],
+    "unresolved_events": [
+      {
+        "id": "v689b05247fdbef1b",
+        "type": "EDUCATION",
+        "title": "Bachelor of Engineering - Computer Science and Engineering",
+        "org": "Cambridge Institute of Technology",
+        "entry_text": "Cambridge Institute of Technology, Visvesvaraya Technological University Bachelor of Engineering - Computer Science and Engineering",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Cambridge Institute of Technology, Visvesvaraya Technological University",
+              "block_id": "b9",
+              "kind": "text",
+              "start": 586,
+              "end": 658
+            },
+            {
+              "page": 1,
+              "text": "Bachelor of Engineering - Computer Science and Engineering",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 659,
+              "end": 717
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "Cambridge Institute of Technology",
+              "block_id": "b9",
+              "kind": "text",
+              "start": 586,
+              "end": 619
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Engineering - Computer Science and Engineering",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 659,
+              "end": 717
+            }
+          ],
+          "section": "Education",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Education",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v681e63f306527d1a",
+        "type": "EMPLOYMENT",
+        "title": "Software Engineer Specialist",
+        "org": "",
+        "entry_text": "Software Engineer Specialist Bengaluru Contributed to the development of Streaming Analytics for Cumulocity, enhancing system stability, fault tolerance, and uptime in production environments by implementing resilience for the Analytics Builder feature. Developed and deployed multiple microservice v",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Software Engineer Specialist",
+              "block_id": "b13",
+              "kind": "text",
+              "start": 753,
+              "end": 781
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Software Engineer Specialist",
+              "block_id": "b13",
+              "kind": "text",
+              "start": 753,
+              "end": 781
+            }
+          ],
+          "section": "Experience",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Experience",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v46a3c0f25d21b13c",
+        "type": "EMPLOYMENT",
+        "title": "Software Engineering Specialist",
+        "org": "",
+        "entry_text": "Software Engineering Specialist Bangalore Built the backend for a no-code Streaming Analytics platform, enabling non-technical users to define real-time analytics on telemetry data. Implemented multi-tenancy support and system resilience to ensure scalability and high availability. Mentored and led ",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Software Engineering Specialist",
+              "block_id": "b20",
+              "kind": "text",
+              "start": 1489,
+              "end": 1520
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Software Engineering Specialist",
+              "block_id": "b20",
+              "kind": "text",
+              "start": 1489,
+              "end": 1520
+            }
+          ],
+          "section": "Experience",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Experience",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v4c6ea3b99b11f2b4",
+        "type": "EMPLOYMENT",
+        "title": "Sr. Software Engineer",
+        "org": "",
+        "entry_text": "Sr. Software Engineer Bangalore Served as a Senior Developer, contributing to all phases of the software development lifecycle—from design and analysis to development and post-production support. Mentored and led a team of 5 junior developers, providing technical guidance and fostering skill develop",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Sr. Software Engineer",
+              "block_id": "b27",
+              "kind": "text",
+              "start": 2387,
+              "end": 2408
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Sr. Software Engineer",
+              "block_id": "b27",
+              "kind": "text",
+              "start": 2387,
+              "end": 2408
+            }
+          ],
+          "section": "Experience",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Experience",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "v681e63f306527d1a",
+            "v46a3c0f25d21b13c",
+            "v4c6ea3b99b11f2b4"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 0,
+      "total_events": 4,
+      "dated_share": 0.0,
+      "unresolved": 4,
+      "ambiguous": 0,
+      "mean_event_confidence": null
+    },
+    "total_represented_months": 0,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "PARTIAL",
+        "confidence": 0.3
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "PARTIAL",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "PARTIAL",
+        "confidence": 0.3
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

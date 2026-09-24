@@ -1,0 +1,228 @@
+{
+  "file_name": "VaishnaviK.pdf",
+  "input_mode": "original_document",
+  "input_sha256": "c9d8a7edbccc15eb7c459f33ad075fc9466dc000dc2cb8efec2361b132d2e3a9",
+  "doc_id": "c9d8a7edbccc15eb7c459f33",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 0,
+    "total_events": 1,
+    "dated_share": 0.0,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": null
+  },
+  "work_experience": [
+    {
+      "id": "v4ecde2fca10e1b87",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Key Responsibilities as an Associate:",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 2,
+            "text": "Key Responsibilities as an Associate:",
+            "block_id": "b38",
+            "kind": "pdf",
+            "page_width": 612,
+            "page_height": 792,
+            "bbox": [
+              72.025,
+              232.55000000000007,
+              237.85000000000002,
+              242.55000000000007
+            ],
+            "fragment_text": "Key Responsibilities as an Associate:"
+          }
+        ],
+        "dates": [],
+        "company": [],
+        "title": [
+          {
+            "page": 2,
+            "text": "Key Responsibilities as an Associate",
+            "block_id": "b38",
+            "kind": "pdf",
+            "page_width": 612,
+            "page_height": 792,
+            "bbox": [
+              72.025,
+              232.55000000000007,
+              235.11,
+              242.55000000000007
+            ]
+          }
+        ],
+        "section": "Experience:",
+        "date_label": "",
+        "is_present": false
+      }
+    }
+  ],
+  "education": [],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 1,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "PARTIAL",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "PARTIAL",
+    "coverage_analysis": "PARTIAL",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "raw_pipeline_dto": {
+    "doc_id": "c9d8a7edbccc15eb7c459f33",
+    "filename": "VaishnaviK.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [],
+    "unresolved_events": [
+      {
+        "id": "v4ecde2fca10e1b87",
+        "type": "EMPLOYMENT",
+        "title": "Key Responsibilities as an Associate:",
+        "org": "",
+        "entry_text": "Key Responsibilities as an Associate: Worked extensively on audit of financial statement of private equity funds, hedge funds and mutual funds clients in performing substantive audit procedures related to US based investment Companies. • Integral Part of teams assigned as dedicated teams for the US ",
+        "source": {
+          "entry": [
+            {
+              "page": 2,
+              "text": "Key Responsibilities as an Associate:",
+              "block_id": "b38",
+              "kind": "pdf",
+              "page_width": 612,
+              "page_height": 792,
+              "bbox": [
+                72.025,
+                232.55000000000007,
+                237.85000000000002,
+                242.55000000000007
+              ],
+              "fragment_text": "Key Responsibilities as an Associate:"
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 2,
+              "text": "Key Responsibilities as an Associate",
+              "block_id": "b38",
+              "kind": "pdf",
+              "page_width": 612,
+              "page_height": 792,
+              "bbox": [
+                72.025,
+                232.55000000000007,
+                235.11,
+                242.55000000000007
+              ]
+            }
+          ],
+          "section": "Experience:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Experience:",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "v4ecde2fca10e1b87"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 0,
+      "total_events": 1,
+      "dated_share": 0.0,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": null
+    },
+    "total_represented_months": 0,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "PARTIAL",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "PARTIAL",
+        "confidence": 0.3
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

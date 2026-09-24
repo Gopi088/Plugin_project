@@ -1,0 +1,856 @@
+{
+  "file_name": "NidhiNathani (1).pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "cf5d4ca4e801ae1bead551a18849627ae6db3219b0744584b34086287714693d",
+  "doc_id": "cf5d4ca4e801ae1bead551a1",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 0,
+    "total_events": 2,
+    "dated_share": 0.0,
+    "unresolved": 2,
+    "ambiguous": 0,
+    "mean_event_confidence": null,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [],
+  "education": [
+    {
+      "id": "v5be4dce6bd451e60",
+      "type": "EDUCATION",
+      "company": "Massachusetts Institute of Technology DevOps Handler",
+      "title": "SAFe 5 Scaled Agile Framework Scrum Master",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "• SAFe 5 Scaled Agile Framework Scrum Master from Scaled Agile Inc (2020).",
+            "block_id": "b40",
+            "kind": "text",
+            "start": 2959,
+            "end": 3033
+          },
+          {
+            "page": 1,
+            "text": "• Massachusetts Institute of Technology DevOps Handler, Accenture accredited (2018).",
+            "block_id": "b41",
+            "kind": "text",
+            "start": 3034,
+            "end": 3118
+          },
+          {
+            "page": 1,
+            "text": "• International Software Testing Qualifications Board (2019).",
+            "block_id": "b42",
+            "kind": "text",
+            "start": 3119,
+            "end": 3180
+          },
+          {
+            "page": 1,
+            "text": "• Financial Markets, NSE NSEIT academy Ltd (2018).",
+            "block_id": "b43",
+            "kind": "text",
+            "start": 3181,
+            "end": 3231
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2020",
+            "block_id": "b40",
+            "kind": "text",
+            "start": 3027,
+            "end": 3031
+          },
+          {
+            "page": 1,
+            "text": "2018",
+            "block_id": "b41",
+            "kind": "text",
+            "start": 3112,
+            "end": 3116
+          },
+          {
+            "page": 1,
+            "text": "2019",
+            "block_id": "b42",
+            "kind": "text",
+            "start": 3174,
+            "end": 3178
+          },
+          {
+            "page": 1,
+            "text": "2018",
+            "block_id": "b43",
+            "kind": "text",
+            "start": 3225,
+            "end": 3229
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Massachusetts Institute of Technology DevOps Handler",
+            "block_id": "b41",
+            "kind": "text",
+            "start": 3036,
+            "end": 3088
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "SAFe 5 Scaled Agile Framework Scrum Master",
+            "block_id": "b40",
+            "kind": "text",
+            "start": 2961,
+            "end": 3003
+          }
+        ],
+        "section": "• SAFe 5 Scaled Agile Framework Scrum Master from Scaled Agile Inc (2020).",
+        "date_label": "2020 / 2018 / 2019",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": "2020 / 2018 / 2019"
+    },
+    {
+      "id": "v592dabf56591a6a2",
+      "type": "EDUCATION",
+      "company": "",
+      "title": "Bachelor of Engineering Degree",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Bachelor of Engineering Degree 2010,",
+            "block_id": "b88",
+            "kind": "text",
+            "start": 5842,
+            "end": 5878
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2010",
+            "block_id": "b88",
+            "kind": "text",
+            "start": 5873,
+            "end": 5877
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Bachelor of Engineering Degree",
+            "block_id": "b88",
+            "kind": "text",
+            "start": 5842,
+            "end": 5872
+          }
+        ],
+        "section": "Education",
+        "date_label": "2010",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": "2010"
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 0,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "PARTIAL",
+    "coverage_analysis": "PARTIAL",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "entry e0: dates found without an explicit range",
+    "e0: dates cannot be assigned unambiguously",
+    "e1: dates cannot be assigned unambiguously",
+    "conflicting/ambiguous date kept for 'SAFe 5 Scaled Agile Framework Scrum Master'",
+    "conflicting/ambiguous date kept for 'Bachelor of Engineering Degree'",
+    "no dated events to order",
+    "no intervals to cover"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "cf5d4ca4e801ae1bead551a1",
+    "filename": "NidhiNathani (1).pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [],
+    "unresolved_events": [
+      {
+        "id": "v5be4dce6bd451e60",
+        "type": "EDUCATION",
+        "title": "SAFe 5 Scaled Agile Framework Scrum Master",
+        "org": "Massachusetts Institute of Technology DevOps Handler",
+        "entry_text": "• SAFe 5 Scaled Agile Framework Scrum Master from Scaled Agile Inc (2020). • Massachusetts Institute of Technology DevOps Handler, Accenture accredited (2018). • International Software Testing Qualifications Board (2019). • Financial Markets, NSE NSEIT academy Ltd (2018). Additional Learnings • ITSM",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "• SAFe 5 Scaled Agile Framework Scrum Master from Scaled Agile Inc (2020).",
+              "block_id": "b40",
+              "kind": "text",
+              "start": 2959,
+              "end": 3033
+            },
+            {
+              "page": 1,
+              "text": "• Massachusetts Institute of Technology DevOps Handler, Accenture accredited (2018).",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 3034,
+              "end": 3118
+            },
+            {
+              "page": 1,
+              "text": "• International Software Testing Qualifications Board (2019).",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 3119,
+              "end": 3180
+            },
+            {
+              "page": 1,
+              "text": "• Financial Markets, NSE NSEIT academy Ltd (2018).",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 3181,
+              "end": 3231
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2020",
+              "block_id": "b40",
+              "kind": "text",
+              "start": 3027,
+              "end": 3031
+            },
+            {
+              "page": 1,
+              "text": "2018",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 3112,
+              "end": 3116
+            },
+            {
+              "page": 1,
+              "text": "2019",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 3174,
+              "end": 3178
+            },
+            {
+              "page": 1,
+              "text": "2018",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 3225,
+              "end": 3229
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Massachusetts Institute of Technology DevOps Handler",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 3036,
+              "end": 3088
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "SAFe 5 Scaled Agile Framework Scrum Master",
+              "block_id": "b40",
+              "kind": "text",
+              "start": 2961,
+              "end": 3003
+            }
+          ],
+          "section": "• SAFe 5 Scaled Agile Framework Scrum Master from Scaled Agile Inc (2020).",
+          "date_label": "2020 / 2018 / 2019",
+          "is_present": false
+        },
+        "date_label": "2020 / 2018 / 2019",
+        "section": "• SAFe 5 Scaled Agile Framework Scrum Master from Scaled Agile Inc (2020).",
+        "status": "AMBIGUOUS"
+      },
+      {
+        "id": "v592dabf56591a6a2",
+        "type": "EDUCATION",
+        "title": "Bachelor of Engineering Degree",
+        "org": "",
+        "entry_text": "Bachelor of Engineering Degree 2010, from RTMNU University. Tools & Technologies Microservices APIs & Integration: REST, SOAP , Open API, Swagger, Postman. Data & Analytics: SQL, ETL, Migration env, Power BI, SAS & Excel. Collaboration & Delivery Tools: Jira, Figma, Confluence, Aha, Visio, MS PowerP",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor of Engineering Degree 2010,",
+              "block_id": "b88",
+              "kind": "text",
+              "start": 5842,
+              "end": 5878
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2010",
+              "block_id": "b88",
+              "kind": "text",
+              "start": 5873,
+              "end": 5877
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Engineering Degree",
+              "block_id": "b88",
+              "kind": "text",
+              "start": 5842,
+              "end": 5872
+            }
+          ],
+          "section": "Education",
+          "date_label": "2010",
+          "is_present": false
+        },
+        "date_label": "2010",
+        "section": "Education",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 0,
+      "total_events": 2,
+      "dated_share": 0.0,
+      "unresolved": 2,
+      "ambiguous": 0,
+      "mean_event_confidence": null,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 0,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "PARTIAL",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "PARTIAL",
+        "confidence": 0.3
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 2,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 2,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v5be4dce6bd451e60",
+              "label": "SAFe 5 Scaled Agile Framework Scrum Master",
+              "state": "single_date",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "2020 / 2018 / 2019",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "• SAFe 5 Scaled Agile Framework Scrum Master from Scaled Agile Inc (2020).",
+                    "block_id": "b40",
+                    "kind": "text",
+                    "start": 2959,
+                    "end": 3033
+                  },
+                  {
+                    "page": 1,
+                    "text": "• Massachusetts Institute of Technology DevOps Handler, Accenture accredited (2018).",
+                    "block_id": "b41",
+                    "kind": "text",
+                    "start": 3034,
+                    "end": 3118
+                  },
+                  {
+                    "page": 1,
+                    "text": "• International Software Testing Qualifications Board (2019).",
+                    "block_id": "b42",
+                    "kind": "text",
+                    "start": 3119,
+                    "end": 3180
+                  },
+                  {
+                    "page": 1,
+                    "text": "• Financial Markets, NSE NSEIT academy Ltd (2018).",
+                    "block_id": "b43",
+                    "kind": "text",
+                    "start": 3181,
+                    "end": 3231
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "2020",
+                    "block_id": "b40",
+                    "kind": "text",
+                    "start": 3027,
+                    "end": 3031
+                  },
+                  {
+                    "page": 1,
+                    "text": "2018",
+                    "block_id": "b41",
+                    "kind": "text",
+                    "start": 3112,
+                    "end": 3116
+                  },
+                  {
+                    "page": 1,
+                    "text": "2019",
+                    "block_id": "b42",
+                    "kind": "text",
+                    "start": 3174,
+                    "end": 3178
+                  },
+                  {
+                    "page": 1,
+                    "text": "2018",
+                    "block_id": "b43",
+                    "kind": "text",
+                    "start": 3225,
+                    "end": 3229
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Massachusetts Institute of Technology DevOps Handler",
+                    "block_id": "b41",
+                    "kind": "text",
+                    "start": 3036,
+                    "end": 3088
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "SAFe 5 Scaled Agile Framework Scrum Master",
+                    "block_id": "b40",
+                    "kind": "text",
+                    "start": 2961,
+                    "end": 3003
+                  }
+                ],
+                "section": "• SAFe 5 Scaled Agile Framework Scrum Master from Scaled Agile Inc (2020).",
+                "date_label": "2020 / 2018 / 2019",
+                "is_present": false
+              }
+            },
+            {
+              "id": "v592dabf56591a6a2",
+              "label": "Bachelor of Engineering Degree",
+              "state": "single_date",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "2010",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Bachelor of Engineering Degree 2010,",
+                    "block_id": "b88",
+                    "kind": "text",
+                    "start": 5842,
+                    "end": 5878
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "2010",
+                    "block_id": "b88",
+                    "kind": "text",
+                    "start": 5873,
+                    "end": 5877
+                  }
+                ],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Bachelor of Engineering Degree",
+                    "block_id": "b88",
+                    "kind": "text",
+                    "start": 5842,
+                    "end": 5872
+                  }
+                ],
+                "section": "Education",
+                "date_label": "2010",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 0,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 2,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 2,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v5be4dce6bd451e60",
+            "label": "SAFe 5 Scaled Agile Framework Scrum Master",
+            "state": "single_date",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "2020 / 2018 / 2019",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "• SAFe 5 Scaled Agile Framework Scrum Master from Scaled Agile Inc (2020).",
+                  "block_id": "b40",
+                  "kind": "text",
+                  "start": 2959,
+                  "end": 3033
+                },
+                {
+                  "page": 1,
+                  "text": "• Massachusetts Institute of Technology DevOps Handler, Accenture accredited (2018).",
+                  "block_id": "b41",
+                  "kind": "text",
+                  "start": 3034,
+                  "end": 3118
+                },
+                {
+                  "page": 1,
+                  "text": "• International Software Testing Qualifications Board (2019).",
+                  "block_id": "b42",
+                  "kind": "text",
+                  "start": 3119,
+                  "end": 3180
+                },
+                {
+                  "page": 1,
+                  "text": "• Financial Markets, NSE NSEIT academy Ltd (2018).",
+                  "block_id": "b43",
+                  "kind": "text",
+                  "start": 3181,
+                  "end": 3231
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "2020",
+                  "block_id": "b40",
+                  "kind": "text",
+                  "start": 3027,
+                  "end": 3031
+                },
+                {
+                  "page": 1,
+                  "text": "2018",
+                  "block_id": "b41",
+                  "kind": "text",
+                  "start": 3112,
+                  "end": 3116
+                },
+                {
+                  "page": 1,
+                  "text": "2019",
+                  "block_id": "b42",
+                  "kind": "text",
+                  "start": 3174,
+                  "end": 3178
+                },
+                {
+                  "page": 1,
+                  "text": "2018",
+                  "block_id": "b43",
+                  "kind": "text",
+                  "start": 3225,
+                  "end": 3229
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Massachusetts Institute of Technology DevOps Handler",
+                  "block_id": "b41",
+                  "kind": "text",
+                  "start": 3036,
+                  "end": 3088
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "SAFe 5 Scaled Agile Framework Scrum Master",
+                  "block_id": "b40",
+                  "kind": "text",
+                  "start": 2961,
+                  "end": 3003
+                }
+              ],
+              "section": "• SAFe 5 Scaled Agile Framework Scrum Master from Scaled Agile Inc (2020).",
+              "date_label": "2020 / 2018 / 2019",
+              "is_present": false
+            }
+          },
+          {
+            "id": "v592dabf56591a6a2",
+            "label": "Bachelor of Engineering Degree",
+            "state": "single_date",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "2010",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Bachelor of Engineering Degree 2010,",
+                  "block_id": "b88",
+                  "kind": "text",
+                  "start": 5842,
+                  "end": 5878
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "2010",
+                  "block_id": "b88",
+                  "kind": "text",
+                  "start": 5873,
+                  "end": 5877
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Bachelor of Engineering Degree",
+                  "block_id": "b88",
+                  "kind": "text",
+                  "start": 5842,
+                  "end": 5872
+                }
+              ],
+              "section": "Education",
+              "date_label": "2010",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 0,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

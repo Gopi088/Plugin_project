@@ -1,0 +1,946 @@
+{
+  "file_name": "Sneha Dattatray  Aakhade.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "228ed5d51825532f6efc638805131a689dc19b81ea5bde79ac774c90a79a43e8",
+  "doc_id": "228ed5d51825532f6efc6388",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 0,
+    "total_events": 3,
+    "dated_share": 0.0,
+    "unresolved": 3,
+    "ambiguous": 0,
+    "mean_event_confidence": null,
+    "document_accuracy": 0.87
+  },
+  "work_experience": [
+    {
+      "id": "vacad7d19ffe91a37",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Trade Analyst",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Trade Analyst (Transaction Services)",
+            "block_id": "b79",
+            "kind": "text",
+            "start": 5787,
+            "end": 5823
+          }
+        ],
+        "dates": [],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Trade Analyst",
+            "block_id": "b79",
+            "kind": "text",
+            "start": 5787,
+            "end": 5800
+          }
+        ],
+        "section": "WORK EXPERIENCE",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    }
+  ],
+  "education": [
+    {
+      "id": "vec03ff1eb2082771",
+      "type": "EDUCATION",
+      "company": "Modern Institute of business management",
+      "title": "MBA",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "• Modern Institute of business management, Pune University",
+            "block_id": "b105",
+            "kind": "text",
+            "start": 7221,
+            "end": 7279
+          },
+          {
+            "page": 1,
+            "text": "MBA (Finance) 2018",
+            "block_id": "b106",
+            "kind": "text",
+            "start": 7281,
+            "end": 7299
+          },
+          {
+            "page": 1,
+            "text": "• M. D. Palesha College of Commerce, North Maharashtra University",
+            "block_id": "b107",
+            "kind": "text",
+            "start": 7301,
+            "end": 7366
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2018",
+            "block_id": "b106",
+            "kind": "text",
+            "start": 7295,
+            "end": 7299
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Modern Institute of business management",
+            "block_id": "b105",
+            "kind": "text",
+            "start": 7223,
+            "end": 7262
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "MBA",
+            "block_id": "b106",
+            "kind": "text",
+            "start": 7281,
+            "end": 7284
+          }
+        ],
+        "section": "ACADEMIC CREDENTIALS",
+        "date_label": "2018",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": "2018"
+    },
+    {
+      "id": "v3a5272d55d44eed6",
+      "type": "EDUCATION",
+      "company": "",
+      "title": "B.com",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "B.com (commerce) 2016",
+            "block_id": "b108",
+            "kind": "text",
+            "start": 7368,
+            "end": 7389
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2016",
+            "block_id": "b108",
+            "kind": "text",
+            "start": 7385,
+            "end": 7389
+          },
+          {
+            "page": 1,
+            "text": "Jan. 2019",
+            "block_id": "b111",
+            "kind": "text",
+            "start": 7535,
+            "end": 7544
+          },
+          {
+            "page": 1,
+            "text": "May 2019",
+            "block_id": "b111",
+            "kind": "text",
+            "start": 7549,
+            "end": 7557
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "B.com",
+            "block_id": "b108",
+            "kind": "text",
+            "start": 7368,
+            "end": 7373
+          }
+        ],
+        "section": "ACADEMIC CREDENTIALS",
+        "date_label": "2016",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": "2016"
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 1,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "PARTIAL",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "PARTIAL",
+    "coverage_analysis": "PARTIAL",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "entry e5: dates found without an explicit range",
+    "e4: dates cannot be assigned unambiguously",
+    "e5: dates cannot be assigned unambiguously",
+    "conflicting/ambiguous date kept for 'MBA'",
+    "conflicting/ambiguous date kept for 'B.com'",
+    "no dated events to order",
+    "no intervals to cover"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "228ed5d51825532f6efc6388",
+    "filename": "Sneha Dattatray  Aakhade.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [],
+    "unresolved_events": [
+      {
+        "id": "vacad7d19ffe91a37",
+        "type": "EMPLOYMENT",
+        "title": "Trade Analyst",
+        "org": "",
+        "entry_text": "Trade Analyst (Transaction Services) Roles and Responsibilities • As a part of Screening team, entrusted with the task of identification, verification and authentication of faxes received and routing of US and non- US transactions to the appropriate processing team within deadlines (validation proce",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Trade Analyst (Transaction Services)",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 5787,
+              "end": 5823
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Trade Analyst",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 5787,
+              "end": 5800
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "WORK EXPERIENCE",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "vec03ff1eb2082771",
+        "type": "EDUCATION",
+        "title": "MBA",
+        "org": "Modern Institute of business management",
+        "entry_text": "• Modern Institute of business management, Pune University MBA (Finance) 2018 • M. D. Palesha College of Commerce, North Maharashtra University",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "• Modern Institute of business management, Pune University",
+              "block_id": "b105",
+              "kind": "text",
+              "start": 7221,
+              "end": 7279
+            },
+            {
+              "page": 1,
+              "text": "MBA (Finance) 2018",
+              "block_id": "b106",
+              "kind": "text",
+              "start": 7281,
+              "end": 7299
+            },
+            {
+              "page": 1,
+              "text": "• M. D. Palesha College of Commerce, North Maharashtra University",
+              "block_id": "b107",
+              "kind": "text",
+              "start": 7301,
+              "end": 7366
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2018",
+              "block_id": "b106",
+              "kind": "text",
+              "start": 7295,
+              "end": 7299
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Modern Institute of business management",
+              "block_id": "b105",
+              "kind": "text",
+              "start": 7223,
+              "end": 7262
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "MBA",
+              "block_id": "b106",
+              "kind": "text",
+              "start": 7281,
+              "end": 7284
+            }
+          ],
+          "section": "ACADEMIC CREDENTIALS",
+          "date_label": "2018",
+          "is_present": false
+        },
+        "date_label": "2018",
+        "section": "ACADEMIC CREDENTIALS",
+        "status": "AMBIGUOUS"
+      },
+      {
+        "id": "v3a5272d55d44eed6",
+        "type": "EDUCATION",
+        "title": "B.com",
+        "org": "",
+        "entry_text": "B.com (commerce) 2016 REWARD AND RECOGNITION • Recipient of ‘SPOT award’ for processing high volume consistently. • Recipient of two time ‘Syntel Champ Award’ in Jan. 2019 and May 2019 • Appraised by superiors for being a quick learner of the process and performing well to complete the allocated wor",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "B.com (commerce) 2016",
+              "block_id": "b108",
+              "kind": "text",
+              "start": 7368,
+              "end": 7389
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2016",
+              "block_id": "b108",
+              "kind": "text",
+              "start": 7385,
+              "end": 7389
+            },
+            {
+              "page": 1,
+              "text": "Jan. 2019",
+              "block_id": "b111",
+              "kind": "text",
+              "start": 7535,
+              "end": 7544
+            },
+            {
+              "page": 1,
+              "text": "May 2019",
+              "block_id": "b111",
+              "kind": "text",
+              "start": 7549,
+              "end": 7557
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "B.com",
+              "block_id": "b108",
+              "kind": "text",
+              "start": 7368,
+              "end": 7373
+            }
+          ],
+          "section": "ACADEMIC CREDENTIALS",
+          "date_label": "2016",
+          "is_present": false
+        },
+        "date_label": "2016",
+        "section": "ACADEMIC CREDENTIALS",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "vacad7d19ffe91a37"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 0,
+      "total_events": 3,
+      "dated_share": 0.0,
+      "unresolved": 3,
+      "ambiguous": 0,
+      "mean_event_confidence": null,
+      "document_accuracy": 0.87
+    },
+    "total_represented_months": 0,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "PARTIAL",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "PARTIAL",
+        "confidence": 0.3
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 1,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "vacad7d19ffe91a37",
+              "label": "Trade Analyst",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Trade Analyst (Transaction Services)",
+                    "block_id": "b79",
+                    "kind": "text",
+                    "start": 5787,
+                    "end": 5823
+                  }
+                ],
+                "dates": [],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Trade Analyst",
+                    "block_id": "b79",
+                    "kind": "text",
+                    "start": 5787,
+                    "end": 5800
+                  }
+                ],
+                "section": "WORK EXPERIENCE",
+                "date_label": "",
+                "is_present": false
+              }
+            }
+          ]
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 2,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 2,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "vec03ff1eb2082771",
+              "label": "MBA",
+              "state": "single_date",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "2018",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "• Modern Institute of business management, Pune University",
+                    "block_id": "b105",
+                    "kind": "text",
+                    "start": 7221,
+                    "end": 7279
+                  },
+                  {
+                    "page": 1,
+                    "text": "MBA (Finance) 2018",
+                    "block_id": "b106",
+                    "kind": "text",
+                    "start": 7281,
+                    "end": 7299
+                  },
+                  {
+                    "page": 1,
+                    "text": "• M. D. Palesha College of Commerce, North Maharashtra University",
+                    "block_id": "b107",
+                    "kind": "text",
+                    "start": 7301,
+                    "end": 7366
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "2018",
+                    "block_id": "b106",
+                    "kind": "text",
+                    "start": 7295,
+                    "end": 7299
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Modern Institute of business management",
+                    "block_id": "b105",
+                    "kind": "text",
+                    "start": 7223,
+                    "end": 7262
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "MBA",
+                    "block_id": "b106",
+                    "kind": "text",
+                    "start": 7281,
+                    "end": 7284
+                  }
+                ],
+                "section": "ACADEMIC CREDENTIALS",
+                "date_label": "2018",
+                "is_present": false
+              }
+            },
+            {
+              "id": "v3a5272d55d44eed6",
+              "label": "B.com",
+              "state": "single_date",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "2016",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "B.com (commerce) 2016",
+                    "block_id": "b108",
+                    "kind": "text",
+                    "start": 7368,
+                    "end": 7389
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "2016",
+                    "block_id": "b108",
+                    "kind": "text",
+                    "start": 7385,
+                    "end": 7389
+                  },
+                  {
+                    "page": 1,
+                    "text": "Jan. 2019",
+                    "block_id": "b111",
+                    "kind": "text",
+                    "start": 7535,
+                    "end": 7544
+                  },
+                  {
+                    "page": 1,
+                    "text": "May 2019",
+                    "block_id": "b111",
+                    "kind": "text",
+                    "start": 7549,
+                    "end": 7557
+                  }
+                ],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "B.com",
+                    "block_id": "b108",
+                    "kind": "text",
+                    "start": 7368,
+                    "end": 7373
+                  }
+                ],
+                "section": "ACADEMIC CREDENTIALS",
+                "date_label": "2016",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 0,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 1,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "vacad7d19ffe91a37",
+            "label": "Trade Analyst",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Trade Analyst (Transaction Services)",
+                  "block_id": "b79",
+                  "kind": "text",
+                  "start": 5787,
+                  "end": 5823
+                }
+              ],
+              "dates": [],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Trade Analyst",
+                  "block_id": "b79",
+                  "kind": "text",
+                  "start": 5787,
+                  "end": 5800
+                }
+              ],
+              "section": "WORK EXPERIENCE",
+              "date_label": "",
+              "is_present": false
+            }
+          }
+        ]
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 2,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 2,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "vec03ff1eb2082771",
+            "label": "MBA",
+            "state": "single_date",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "2018",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "• Modern Institute of business management, Pune University",
+                  "block_id": "b105",
+                  "kind": "text",
+                  "start": 7221,
+                  "end": 7279
+                },
+                {
+                  "page": 1,
+                  "text": "MBA (Finance) 2018",
+                  "block_id": "b106",
+                  "kind": "text",
+                  "start": 7281,
+                  "end": 7299
+                },
+                {
+                  "page": 1,
+                  "text": "• M. D. Palesha College of Commerce, North Maharashtra University",
+                  "block_id": "b107",
+                  "kind": "text",
+                  "start": 7301,
+                  "end": 7366
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "2018",
+                  "block_id": "b106",
+                  "kind": "text",
+                  "start": 7295,
+                  "end": 7299
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Modern Institute of business management",
+                  "block_id": "b105",
+                  "kind": "text",
+                  "start": 7223,
+                  "end": 7262
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "MBA",
+                  "block_id": "b106",
+                  "kind": "text",
+                  "start": 7281,
+                  "end": 7284
+                }
+              ],
+              "section": "ACADEMIC CREDENTIALS",
+              "date_label": "2018",
+              "is_present": false
+            }
+          },
+          {
+            "id": "v3a5272d55d44eed6",
+            "label": "B.com",
+            "state": "single_date",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "2016",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "B.com (commerce) 2016",
+                  "block_id": "b108",
+                  "kind": "text",
+                  "start": 7368,
+                  "end": 7389
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "2016",
+                  "block_id": "b108",
+                  "kind": "text",
+                  "start": 7385,
+                  "end": 7389
+                },
+                {
+                  "page": 1,
+                  "text": "Jan. 2019",
+                  "block_id": "b111",
+                  "kind": "text",
+                  "start": 7535,
+                  "end": 7544
+                },
+                {
+                  "page": 1,
+                  "text": "May 2019",
+                  "block_id": "b111",
+                  "kind": "text",
+                  "start": 7549,
+                  "end": 7557
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "B.com",
+                  "block_id": "b108",
+                  "kind": "text",
+                  "start": 7368,
+                  "end": 7373
+                }
+              ],
+              "section": "ACADEMIC CREDENTIALS",
+              "date_label": "2016",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 0,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

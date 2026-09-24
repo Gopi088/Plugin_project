@@ -1,0 +1,1134 @@
+{
+  "file_name": "Mohd Hammad Khan.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "b02cd1a9610b2f5effd2b357cb89efd8fe337f47e8a4c5d4d618bd48e9815d02",
+  "doc_id": "b02cd1a9610b2f5effd2b357",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 0,
+    "total_events": 5,
+    "dated_share": 0.0,
+    "unresolved": 5,
+    "ambiguous": 0,
+    "mean_event_confidence": null,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [],
+  "education": [
+    {
+      "id": "v4a1b86c74d27a7dd",
+      "type": "EDUCATION",
+      "company": "",
+      "title": "Post Graduate Diploma In Management",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Post Graduate Diploma In Management |",
+            "block_id": "b38",
+            "kind": "text",
+            "start": 930,
+            "end": 967
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2018 - 2023",
+            "block_id": "b42",
+            "kind": "text",
+            "start": 1023,
+            "end": 1034
+          },
+          {
+            "page": 1,
+            "text": "2018",
+            "block_id": "b47",
+            "kind": "text",
+            "start": 1161,
+            "end": 1165
+          },
+          {
+            "page": 1,
+            "text": "2016",
+            "block_id": "b51",
+            "kind": "text",
+            "start": 1227,
+            "end": 1231
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Post Graduate Diploma In Management",
+            "block_id": "b38",
+            "kind": "text",
+            "start": 930,
+            "end": 965
+          }
+        ],
+        "section": "Education",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    },
+    {
+      "id": "v617993c8f360ebc1",
+      "type": "EDUCATION",
+      "company": "College Sports and Management Fest",
+      "title": "",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Winner in Dodgeball Burning Bush, College Sports and Management Fest| 2024",
+            "block_id": "b83",
+            "kind": "text",
+            "start": 3045,
+            "end": 3119
+          },
+          {
+            "page": 1,
+            "text": "Legal Aid Camp organized by Faculty of law, Integral University | 2021",
+            "block_id": "b84",
+            "kind": "text",
+            "start": 3120,
+            "end": 3190
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2024",
+            "block_id": "b83",
+            "kind": "text",
+            "start": 3115,
+            "end": 3119
+          },
+          {
+            "page": 1,
+            "text": "2021",
+            "block_id": "b84",
+            "kind": "text",
+            "start": 3186,
+            "end": 3190
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "College Sports and Management Fest",
+            "block_id": "b83",
+            "kind": "text",
+            "start": 3079,
+            "end": 3113
+          }
+        ],
+        "title": [],
+        "section": "Winner in Dodgeball Burning Bush, College Sports and Management Fest| 2024",
+        "date_label": "2024 / 2021",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": "2024 / 2021"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "Academics & Rewards",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Academics & Rewards"
+      ],
+      "raw_text": "Academics & Rewards",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Academics & Rewards",
+            "block_id": "b12",
+            "kind": "text",
+            "start": 188,
+            "end": 207
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_2",
+      "name": "English",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "English"
+      ],
+      "raw_text": "English",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "English",
+            "block_id": "b13",
+            "kind": "text",
+            "start": 208,
+            "end": 215
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_3",
+      "name": "Hindi",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Hindi"
+      ],
+      "raw_text": "Hindi",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Hindi",
+            "block_id": "b14",
+            "kind": "text",
+            "start": 216,
+            "end": 221
+          }
+        ]
+      }
+    }
+  ],
+  "gaps": [],
+  "total_work_experience_entries": 0,
+  "total_projects_entries": 3,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "PARTIAL",
+    "coverage_analysis": "PARTIAL",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "section EDUCATION: entry without dated header preserved as-is",
+    "entry e4: dates found without an explicit range",
+    "e4: dates cannot be assigned unambiguously",
+    "conflicting/ambiguous date kept for ''",
+    "no dated events to order",
+    "no intervals to cover"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "b02cd1a9610b2f5effd2b357",
+    "filename": "Mohd Hammad Khan.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [],
+    "unresolved_events": [
+      {
+        "id": "vcb7694b1d0f0df87",
+        "type": "PROJECT",
+        "title": "Academics & Rewards",
+        "org": "",
+        "entry_text": "Academics & Rewards",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Academics & Rewards",
+              "block_id": "b12",
+              "kind": "text",
+              "start": 188,
+              "end": 207
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Academics & Rewards",
+              "block_id": "b12",
+              "kind": "text",
+              "start": 188,
+              "end": 207
+            }
+          ],
+          "section": "Academic Projects Undertaken",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Academic Projects Undertaken",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v2f3eeaeb6657699c",
+        "type": "PROJECT",
+        "title": "English",
+        "org": "",
+        "entry_text": "English",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "English",
+              "block_id": "b13",
+              "kind": "text",
+              "start": 208,
+              "end": 215
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "English",
+              "block_id": "b13",
+              "kind": "text",
+              "start": 208,
+              "end": 215
+            }
+          ],
+          "section": "Academic Projects Undertaken",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Academic Projects Undertaken",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v5c3dc37375585357",
+        "type": "PROJECT",
+        "title": "Hindi",
+        "org": "",
+        "entry_text": "Hindi",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Hindi",
+              "block_id": "b14",
+              "kind": "text",
+              "start": 216,
+              "end": 221
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Hindi",
+              "block_id": "b14",
+              "kind": "text",
+              "start": 216,
+              "end": 221
+            }
+          ],
+          "section": "Academic Projects Undertaken",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Academic Projects Undertaken",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v4a1b86c74d27a7dd",
+        "type": "EDUCATION",
+        "title": "Post Graduate Diploma In Management",
+        "org": "",
+        "entry_text": "Post Graduate Diploma In Management | Finance & IB | 65.56% Indus Business Academy Bangalore 2018 - 2023 Bachelors of Business Administration & Bachelors of Law | 62.00% Integral University Lucknow 2018 Class XII |Commerce| 69.00% Kendriya Vidyalaya RDSO Lucknow 2016 Class X | 66.50% Kendriya Vidyal",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Post Graduate Diploma In Management |",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 930,
+              "end": 967
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2018 - 2023",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 1023,
+              "end": 1034
+            },
+            {
+              "page": 1,
+              "text": "2018",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 1161,
+              "end": 1165
+            },
+            {
+              "page": 1,
+              "text": "2016",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 1227,
+              "end": 1231
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Post Graduate Diploma In Management",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 930,
+              "end": 965
+            }
+          ],
+          "section": "Education",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Education",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v617993c8f360ebc1",
+        "type": "EDUCATION",
+        "title": "",
+        "org": "College Sports and Management Fest",
+        "entry_text": "Winner in Dodgeball Burning Bush, College Sports and Management Fest| 2024 Legal Aid Camp organized by Faculty of law, Integral University | 2021",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Winner in Dodgeball Burning Bush, College Sports and Management Fest| 2024",
+              "block_id": "b83",
+              "kind": "text",
+              "start": 3045,
+              "end": 3119
+            },
+            {
+              "page": 1,
+              "text": "Legal Aid Camp organized by Faculty of law, Integral University | 2021",
+              "block_id": "b84",
+              "kind": "text",
+              "start": 3120,
+              "end": 3190
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2024",
+              "block_id": "b83",
+              "kind": "text",
+              "start": 3115,
+              "end": 3119
+            },
+            {
+              "page": 1,
+              "text": "2021",
+              "block_id": "b84",
+              "kind": "text",
+              "start": 3186,
+              "end": 3190
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "College Sports and Management Fest",
+              "block_id": "b83",
+              "kind": "text",
+              "start": 3079,
+              "end": 3113
+            }
+          ],
+          "title": [],
+          "section": "Winner in Dodgeball Burning Bush, College Sports and Management Fest| 2024",
+          "date_label": "2024 / 2021",
+          "is_present": false
+        },
+        "date_label": "2024 / 2021",
+        "section": "Winner in Dodgeball Burning Bush, College Sports and Management Fest| 2024",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "Academics & Rewards",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Academics & Rewards"
+        ],
+        "raw_text": "Academics & Rewards",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Academics & Rewards",
+              "block_id": "b12",
+              "kind": "text",
+              "start": 188,
+              "end": 207
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "English",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "English"
+        ],
+        "raw_text": "English",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "English",
+              "block_id": "b13",
+              "kind": "text",
+              "start": 208,
+              "end": 215
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_3",
+        "name": "Hindi",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Hindi"
+        ],
+        "raw_text": "Hindi",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Hindi",
+              "block_id": "b14",
+              "kind": "text",
+              "start": 216,
+              "end": 221
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 0,
+      "total_events": 5,
+      "dated_share": 0.0,
+      "unresolved": 5,
+      "ambiguous": 0,
+      "mean_event_confidence": null,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 0,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "PARTIAL",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "PARTIAL",
+        "confidence": 0.3
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 3,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 3,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "proj_1",
+              "label": "Academics & Rewards",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Academics & Rewards",
+                    "block_id": "b12",
+                    "kind": "text",
+                    "start": 188,
+                    "end": 207
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_2",
+              "label": "English",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "English",
+                    "block_id": "b13",
+                    "kind": "text",
+                    "start": 208,
+                    "end": 215
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_3",
+              "label": "Hindi",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Hindi",
+                    "block_id": "b14",
+                    "kind": "text",
+                    "start": 216,
+                    "end": 221
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 2,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 1,
+            "ambiguous": 1,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v4a1b86c74d27a7dd",
+              "label": "Post Graduate Diploma In Management",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Post Graduate Diploma In Management |",
+                    "block_id": "b38",
+                    "kind": "text",
+                    "start": 930,
+                    "end": 967
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "2018 - 2023",
+                    "block_id": "b42",
+                    "kind": "text",
+                    "start": 1023,
+                    "end": 1034
+                  },
+                  {
+                    "page": 1,
+                    "text": "2018",
+                    "block_id": "b47",
+                    "kind": "text",
+                    "start": 1161,
+                    "end": 1165
+                  },
+                  {
+                    "page": 1,
+                    "text": "2016",
+                    "block_id": "b51",
+                    "kind": "text",
+                    "start": 1227,
+                    "end": 1231
+                  }
+                ],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Post Graduate Diploma In Management",
+                    "block_id": "b38",
+                    "kind": "text",
+                    "start": 930,
+                    "end": 965
+                  }
+                ],
+                "section": "Education",
+                "date_label": "",
+                "is_present": false
+              }
+            },
+            {
+              "id": "v617993c8f360ebc1",
+              "label": "College Sports and Management Fest",
+              "state": "ambiguous",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "2024 / 2021",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Winner in Dodgeball Burning Bush, College Sports and Management Fest| 2024",
+                    "block_id": "b83",
+                    "kind": "text",
+                    "start": 3045,
+                    "end": 3119
+                  },
+                  {
+                    "page": 1,
+                    "text": "Legal Aid Camp organized by Faculty of law, Integral University | 2021",
+                    "block_id": "b84",
+                    "kind": "text",
+                    "start": 3120,
+                    "end": 3190
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "2024",
+                    "block_id": "b83",
+                    "kind": "text",
+                    "start": 3115,
+                    "end": 3119
+                  },
+                  {
+                    "page": 1,
+                    "text": "2021",
+                    "block_id": "b84",
+                    "kind": "text",
+                    "start": 3186,
+                    "end": 3190
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "College Sports and Management Fest",
+                    "block_id": "b83",
+                    "kind": "text",
+                    "start": 3079,
+                    "end": 3113
+                  }
+                ],
+                "title": [],
+                "section": "Winner in Dodgeball Burning Bush, College Sports and Management Fest| 2024",
+                "date_label": "2024 / 2021",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 0,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 3,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 3,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "proj_1",
+            "label": "Academics & Rewards",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Academics & Rewards",
+                  "block_id": "b12",
+                  "kind": "text",
+                  "start": 188,
+                  "end": 207
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_2",
+            "label": "English",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "English",
+                  "block_id": "b13",
+                  "kind": "text",
+                  "start": 208,
+                  "end": 215
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_3",
+            "label": "Hindi",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Hindi",
+                  "block_id": "b14",
+                  "kind": "text",
+                  "start": 216,
+                  "end": 221
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 2,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 1,
+          "ambiguous": 1,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v4a1b86c74d27a7dd",
+            "label": "Post Graduate Diploma In Management",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Post Graduate Diploma In Management |",
+                  "block_id": "b38",
+                  "kind": "text",
+                  "start": 930,
+                  "end": 967
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "2018 - 2023",
+                  "block_id": "b42",
+                  "kind": "text",
+                  "start": 1023,
+                  "end": 1034
+                },
+                {
+                  "page": 1,
+                  "text": "2018",
+                  "block_id": "b47",
+                  "kind": "text",
+                  "start": 1161,
+                  "end": 1165
+                },
+                {
+                  "page": 1,
+                  "text": "2016",
+                  "block_id": "b51",
+                  "kind": "text",
+                  "start": 1227,
+                  "end": 1231
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Post Graduate Diploma In Management",
+                  "block_id": "b38",
+                  "kind": "text",
+                  "start": 930,
+                  "end": 965
+                }
+              ],
+              "section": "Education",
+              "date_label": "",
+              "is_present": false
+            }
+          },
+          {
+            "id": "v617993c8f360ebc1",
+            "label": "College Sports and Management Fest",
+            "state": "ambiguous",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "2024 / 2021",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Winner in Dodgeball Burning Bush, College Sports and Management Fest| 2024",
+                  "block_id": "b83",
+                  "kind": "text",
+                  "start": 3045,
+                  "end": 3119
+                },
+                {
+                  "page": 1,
+                  "text": "Legal Aid Camp organized by Faculty of law, Integral University | 2021",
+                  "block_id": "b84",
+                  "kind": "text",
+                  "start": 3120,
+                  "end": 3190
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "2024",
+                  "block_id": "b83",
+                  "kind": "text",
+                  "start": 3115,
+                  "end": 3119
+                },
+                {
+                  "page": 1,
+                  "text": "2021",
+                  "block_id": "b84",
+                  "kind": "text",
+                  "start": 3186,
+                  "end": 3190
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "College Sports and Management Fest",
+                  "block_id": "b83",
+                  "kind": "text",
+                  "start": 3079,
+                  "end": 3113
+                }
+              ],
+              "title": [],
+              "section": "Winner in Dodgeball Burning Bush, College Sports and Management Fest| 2024",
+              "date_label": "2024 / 2021",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 0,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

@@ -1,0 +1,372 @@
+{
+  "file_name": "Vaishavi Krishna.pdf",
+  "input_mode": "original_document",
+  "input_sha256": "468800904d0159d2032dd00ba793ecc60aab7f89752affbf5fed9e88f2b093f9",
+  "doc_id": "468800904d0159d2032dd00b",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 2,
+    "dated_share": 0.5,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v831c997b713981c1",
+      "type": "EMPLOYMENT",
+      "company": "Apex Fubd Services LLP",
+      "title": "",
+      "start_date": "2022-02",
+      "end_date": "2024-04",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Fund Accountant Level-2 - Apex Fubd Services LLP (February 2022 to April 24 2024)",
+            "block_id": "b26",
+            "kind": "pdf",
+            "page_width": 612,
+            "page_height": 792,
+            "bbox": [
+              72.025,
+              479.87,
+              455.99,
+              489.87
+            ],
+            "fragment_text": "Fund Accountant Level-2 - Apex Fubd Services LLP (February 2022 to April 24 2024)"
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "February 2022 to April 24 2024",
+            "block_id": "b26",
+            "kind": "pdf",
+            "page_width": 612,
+            "page_height": 792,
+            "bbox": [
+              308.13,
+              479.87,
+              451.84000000000003,
+              489.87
+            ],
+            "fragment_text": "February 2022 to April 24 2024"
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Apex Fubd Services LLP",
+            "block_id": "b26",
+            "kind": "pdf",
+            "page_width": 612,
+            "page_height": 792,
+            "bbox": [
+              194.58,
+              479.87,
+              302.02,
+              489.87
+            ],
+            "fragment_text": "Apex Fubd Services LLP"
+          }
+        ],
+        "title": [],
+        "section": "Experience:",
+        "date_label": "February 2022 to April 24 2024",
+        "is_present": false
+      }
+    },
+    {
+      "id": "v4ecde2fca10e1b87",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Key Responsibilities as an Associate:",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 3,
+            "text": "Key Responsibilities as an Associate:",
+            "block_id": "b52",
+            "kind": "pdf",
+            "page_width": 612,
+            "page_height": 792,
+            "bbox": [
+              72.025,
+              197.05000000000007,
+              237.35000000000002,
+              207.05000000000007
+            ],
+            "fragment_text": "Key Responsibilities as an Associate:"
+          }
+        ],
+        "dates": [],
+        "company": [],
+        "title": [
+          {
+            "page": 3,
+            "text": "Key Responsibilities as an Associate",
+            "block_id": "b52",
+            "kind": "pdf",
+            "page_width": 612,
+            "page_height": 792,
+            "bbox": [
+              72.025,
+              197.05000000000007,
+              234.61,
+              207.05000000000007
+            ]
+          }
+        ],
+        "section": "Experience:",
+        "date_label": "",
+        "is_present": false
+      }
+    }
+  ],
+  "education": [],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 2,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "PARTIAL",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "raw_pipeline_dto": {
+    "doc_id": "468800904d0159d2032dd00b",
+    "filename": "Vaishavi Krishna.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "v831c997b713981c1",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Apex Fubd Services LLP",
+        "start": "2022-02",
+        "end": "2024-04",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Fund Accountant Level-2 - Apex Fubd Services LLP (February 2022 to April 24 2024)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Fund Accountant Level-2 - Apex Fubd Services LLP (February 2022 to April 24 2024)",
+              "block_id": "b26",
+              "kind": "pdf",
+              "page_width": 612,
+              "page_height": 792,
+              "bbox": [
+                72.025,
+                479.87,
+                455.99,
+                489.87
+              ],
+              "fragment_text": "Fund Accountant Level-2 - Apex Fubd Services LLP (February 2022 to April 24 2024)"
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "February 2022 to April 24 2024",
+              "block_id": "b26",
+              "kind": "pdf",
+              "page_width": 612,
+              "page_height": 792,
+              "bbox": [
+                308.13,
+                479.87,
+                451.84000000000003,
+                489.87
+              ],
+              "fragment_text": "February 2022 to April 24 2024"
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Apex Fubd Services LLP",
+              "block_id": "b26",
+              "kind": "pdf",
+              "page_width": 612,
+              "page_height": 792,
+              "bbox": [
+                194.58,
+                479.87,
+                302.02,
+                489.87
+              ],
+              "fragment_text": "Apex Fubd Services LLP"
+            }
+          ],
+          "title": [],
+          "section": "Experience:",
+          "date_label": "February 2022 to April 24 2024",
+          "is_present": false
+        },
+        "date_label": "February 2022 to April 24 2024",
+        "section": "Experience:",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v4ecde2fca10e1b87",
+        "type": "EMPLOYMENT",
+        "title": "Key Responsibilities as an Associate:",
+        "org": "",
+        "entry_text": "Key Responsibilities as an Associate: Worked extensively on audit of financial statement of private equity funds, hedge funds and mutual funds clients in performing substantive audit procedures related to US based investment Companies. • Integral Part of teams assigned as dedicated teams for the US ",
+        "source": {
+          "entry": [
+            {
+              "page": 3,
+              "text": "Key Responsibilities as an Associate:",
+              "block_id": "b52",
+              "kind": "pdf",
+              "page_width": 612,
+              "page_height": 792,
+              "bbox": [
+                72.025,
+                197.05000000000007,
+                237.35000000000002,
+                207.05000000000007
+              ],
+              "fragment_text": "Key Responsibilities as an Associate:"
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 3,
+              "text": "Key Responsibilities as an Associate",
+              "block_id": "b52",
+              "kind": "pdf",
+              "page_width": 612,
+              "page_height": 792,
+              "bbox": [
+                72.025,
+                197.05000000000007,
+                234.61,
+                207.05000000000007
+              ]
+            }
+          ],
+          "section": "Experience:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Experience:",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "v4ecde2fca10e1b87"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 2,
+      "dated_share": 0.5,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9
+    },
+    "total_represented_months": 27,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

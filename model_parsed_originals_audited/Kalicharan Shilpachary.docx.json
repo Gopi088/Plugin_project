@@ -1,0 +1,344 @@
+{
+  "file_name": "Kalicharan Shilpachary.docx",
+  "input_mode": "original_document",
+  "input_sha256": "2ea6dd92e00f12be3b2ab1e715f41771339bf86617e7e025800bfe76c420ff41",
+  "doc_id": "2ea6dd92e00f12be3b2ab1e7",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 0,
+    "total_events": 1,
+    "dated_share": 0.0,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": null
+  },
+  "work_experience": [
+    {
+      "id": "v00821f72a5129eb5",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": ">> As Senior Software Engineer",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": ">> As Senior Software Engineer, Test delivery lead",
+            "block_id": "b9",
+            "kind": "text",
+            "start": 1236,
+            "end": 1286
+          },
+          {
+            "page": 1,
+            "text": "Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate",
+            "block_id": "b10",
+            "kind": "text",
+            "start": 1287,
+            "end": 1354
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2025",
+            "block_id": "b10",
+            "kind": "text",
+            "start": 1315,
+            "end": 1319
+          },
+          {
+            "page": 1,
+            "text": "Dec 2021",
+            "block_id": "b13",
+            "kind": "text",
+            "start": 1443,
+            "end": 1451
+          },
+          {
+            "page": 1,
+            "text": "8 Dec 2021",
+            "block_id": "b13",
+            "kind": "text",
+            "start": 1441,
+            "end": 1451
+          },
+          {
+            "page": 1,
+            "text": "Mar 2020",
+            "block_id": "b15",
+            "kind": "text",
+            "start": 1526,
+            "end": 1534
+          },
+          {
+            "page": 1,
+            "text": "19 Mar 2020",
+            "block_id": "b15",
+            "kind": "text",
+            "start": 1523,
+            "end": 1534
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "As Senior Software Engineer",
+            "block_id": "b9",
+            "kind": "text",
+            "start": 1239,
+            "end": 1266
+          }
+        ],
+        "section": "+91-9449459091(Bangalore)\t|\thcs.kalicharan@gmail.com\t|\thttps://www.linkedin.com/in/kalicharan-s/ Principal Software Engineer with 15 years of experience in software development, test automation, and enterprise-scale AI solutions. I specialize in building Generative AI–powered productivity frameworks that make global support teams faster, smarter, and more consistent. My expertise spans LLM integration, RAG pipelines, Agentic AI, and API engineering, with a proven record of turning cutting-edge AI into practical, production-ready tools. At Oracle, I’ve led the design of context-aware summarization, orchestration, and evaluation platforms that reduced manual effort by 70% and established reusable frameworks for future AI adoption. Skilled in Agile delivery, global collaboration, and architecting scalable ML/LLM systems, I bring a unique blend of technical depth, architectural vision, and a drive to amplify productivity through AI.",
+        "date_label": "2025",
+        "is_present": false
+      }
+    }
+  ],
+  "education": [],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "Hybrid SaaS Manager- Hybrid SaaS is an Oracle developed & managed PaaS-SaaS solution.",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [],
+      "raw_text": "Project:\tOracle Hybrid SaaS Manager- Hybrid SaaS is an Oracle developed & managed PaaS-SaaS solution.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project:\tOracle Hybrid SaaS Manager- Hybrid SaaS is an Oracle developed & managed PaaS-SaaS solution.",
+            "block_id": "b105",
+            "kind": "text",
+            "start": 11796,
+            "end": 11897
+          }
+        ]
+      }
+    }
+  ],
+  "gaps": [],
+  "total_work_experience_entries": 1,
+  "total_projects_entries": 1,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "PARTIAL",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "PARTIAL",
+    "coverage_analysis": "PARTIAL",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "raw_pipeline_dto": {
+    "doc_id": "2ea6dd92e00f12be3b2ab1e7",
+    "filename": "Kalicharan Shilpachary.docx",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [],
+    "unresolved_events": [
+      {
+        "id": "v00821f72a5129eb5",
+        "type": "EMPLOYMENT",
+        "title": ">> As Senior Software Engineer",
+        "org": "",
+        "entry_text": ">> As Senior Software Engineer, Test delivery lead Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate Issue by Oracle Certified SAFe® 4 Scrum Master Issued by Scaled Agile Inc\t[Expired on 8 Dec 2021] Certified SAFe® 4 Practitioner Issued by Scaled Agile Inc\t[Expired on 19 Mar 2020] ",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": ">> As Senior Software Engineer, Test delivery lead",
+              "block_id": "b9",
+              "kind": "text",
+              "start": 1236,
+              "end": 1286
+            },
+            {
+              "page": 1,
+              "text": "Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 1287,
+              "end": 1354
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2025",
+              "block_id": "b10",
+              "kind": "text",
+              "start": 1315,
+              "end": 1319
+            },
+            {
+              "page": 1,
+              "text": "Dec 2021",
+              "block_id": "b13",
+              "kind": "text",
+              "start": 1443,
+              "end": 1451
+            },
+            {
+              "page": 1,
+              "text": "8 Dec 2021",
+              "block_id": "b13",
+              "kind": "text",
+              "start": 1441,
+              "end": 1451
+            },
+            {
+              "page": 1,
+              "text": "Mar 2020",
+              "block_id": "b15",
+              "kind": "text",
+              "start": 1526,
+              "end": 1534
+            },
+            {
+              "page": 1,
+              "text": "19 Mar 2020",
+              "block_id": "b15",
+              "kind": "text",
+              "start": 1523,
+              "end": 1534
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "As Senior Software Engineer",
+              "block_id": "b9",
+              "kind": "text",
+              "start": 1239,
+              "end": 1266
+            }
+          ],
+          "section": "+91-9449459091(Bangalore)\t|\thcs.kalicharan@gmail.com\t|\thttps://www.linkedin.com/in/kalicharan-s/ Principal Software Engineer with 15 years of experience in software development, test automation, and enterprise-scale AI solutions. I specialize in building Generative AI–powered productivity frameworks that make global support teams faster, smarter, and more consistent. My expertise spans LLM integration, RAG pipelines, Agentic AI, and API engineering, with a proven record of turning cutting-edge AI into practical, production-ready tools. At Oracle, I’ve led the design of context-aware summarization, orchestration, and evaluation platforms that reduced manual effort by 70% and established reusable frameworks for future AI adoption. Skilled in Agile delivery, global collaboration, and architecting scalable ML/LLM systems, I bring a unique blend of technical depth, architectural vision, and a drive to amplify productivity through AI.",
+          "date_label": "2025",
+          "is_present": false
+        },
+        "date_label": "2025",
+        "section": "+91-9449459091(Bangalore)\t|\thcs.kalicharan@gmail.com\t|\thttps://www.linkedin.com/in/kalicharan-s/ Principal Software Engineer with 15 years of experience in software development, test automation, and enterprise-scale AI solutions. I specialize in building Generative AI–powered productivity frameworks that make global support teams faster, smarter, and more consistent. My expertise spans LLM integration, RAG pipelines, Agentic AI, and API engineering, with a proven record of turning cutting-edge AI into practical, production-ready tools. At Oracle, I’ve led the design of context-aware summarization, orchestration, and evaluation platforms that reduced manual effort by 70% and established reusable frameworks for future AI adoption. Skilled in Agile delivery, global collaboration, and architecting scalable ML/LLM systems, I bring a unique blend of technical depth, architectural vision, and a drive to amplify productivity through AI.",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "Hybrid SaaS Manager- Hybrid SaaS is an Oracle developed & managed PaaS-SaaS solution.",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [],
+        "raw_text": "Project:\tOracle Hybrid SaaS Manager- Hybrid SaaS is an Oracle developed & managed PaaS-SaaS solution.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project:\tOracle Hybrid SaaS Manager- Hybrid SaaS is an Oracle developed & managed PaaS-SaaS solution.",
+              "block_id": "b105",
+              "kind": "text",
+              "start": 11796,
+              "end": 11897
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "v00821f72a5129eb5"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 0,
+      "total_events": 1,
+      "dated_share": 0.0,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": null
+    },
+    "total_represented_months": 0,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "PARTIAL",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "PARTIAL",
+        "confidence": 0.3
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

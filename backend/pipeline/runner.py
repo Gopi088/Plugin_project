@@ -32,11 +32,13 @@ def _skipped(name, reason):
 
 
 def run(ctx):
+    blocked = set()
     for fn in S.STAGE_FUNCS:
         name = fn.__name__[4:]  # s01_document_processing -> document_processing
         prereq_failed = [p for p in _PREREQ.get(name, ())
-                         if ctx.stage_results.get(p, _skipped(p, "")).status == "FAILED"]
+                         if p in blocked or p not in ctx.stage_results]
         if prereq_failed:
+            blocked.add(name)
             ctx.stage_results[name] = _skipped(
                 name, f"skipped: prerequisite failed ({', '.join(prereq_failed)})")
             continue
@@ -46,4 +48,6 @@ def run(ctx):
             res = M.StageResult(name, status="FAILED", confidence=0.0,
                                 errors=[f"unexpected {type(exc).__name__}: {exc}"])
         ctx.stage_results[name] = res
+        if res.status == "FAILED":
+            blocked.add(name)
     return ctx

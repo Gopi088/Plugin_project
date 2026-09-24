@@ -1,0 +1,505 @@
+{
+  "file_name": "Divya G.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "93379ed8b57fe7a4afd398efc9ae1ec48a2af750836008138cc6720527036518",
+  "doc_id": "93379ed8b57fe7a4afd398ef",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 3,
+    "dated_share": 0.333,
+    "unresolved": 2,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "ocr_pages": []
+  },
+  "work_experience": [
+    {
+      "id": "v6b22cbf71b0ccf71",
+      "type": "EMPLOYMENT",
+      "company": "Vendor Management",
+      "title": "Operational Associate",
+      "start_date": "2024-09",
+      "end_date": "2025-09",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Operational Associate – Vendor Management",
+            "block_id": "b21",
+            "kind": "text",
+            "start": 1057,
+            "end": 1098
+          },
+          {
+            "page": 1,
+            "text": "Sep 2024 –Sep 2025",
+            "block_id": "b22",
+            "kind": "text",
+            "start": 1100,
+            "end": 1118
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Sep 2024 –Sep 2025",
+            "block_id": "b22",
+            "kind": "text",
+            "start": 1100,
+            "end": 1118
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Vendor Management",
+            "block_id": "b21",
+            "kind": "text",
+            "start": 1081,
+            "end": 1098
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Operational Associate",
+            "block_id": "b21",
+            "kind": "text",
+            "start": 1057,
+            "end": 1078
+          }
+        ],
+        "section": "PROFESSIONAL EXPERIENCE",
+        "date_label": "Sep 2024 –Sep 2025",
+        "is_present": false
+      }
+    },
+    {
+      "id": "vd05e6faaf7b32448",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Procurement Operations Associate",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Procurement Operations Associate",
+            "block_id": "b36",
+            "kind": "text",
+            "start": 1929,
+            "end": 1961
+          }
+        ],
+        "dates": [],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Procurement Operations Associate",
+            "block_id": "b36",
+            "kind": "text",
+            "start": 1929,
+            "end": 1961
+          }
+        ],
+        "section": "PROFESSIONAL EXPERIENCE",
+        "date_label": "",
+        "is_present": false
+      }
+    }
+  ],
+  "education": [
+    {
+      "id": "va0e991aa12634e68",
+      "type": "EDUCATION",
+      "company": "Indian Academy Degree College",
+      "title": "Bachelor of Commerce (B.Com)",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Bachelor of Commerce (B.Com) – Indian Academy Degree College | 2023 | 65%",
+            "block_id": "b54",
+            "kind": "text",
+            "start": 2807,
+            "end": 2880
+          },
+          {
+            "page": 1,
+            "text": "PUC – St. Anne’s Pre-University College | 2019 | 60%",
+            "block_id": "b55",
+            "kind": "text",
+            "start": 2882,
+            "end": 2934
+          },
+          {
+            "page": 1,
+            "text": "SSLC – St. Anne’s High School | 68%",
+            "block_id": "b56",
+            "kind": "text",
+            "start": 2936,
+            "end": 2971
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2023",
+            "block_id": "b54",
+            "kind": "text",
+            "start": 2870,
+            "end": 2874
+          },
+          {
+            "page": 1,
+            "text": "2019",
+            "block_id": "b55",
+            "kind": "text",
+            "start": 2924,
+            "end": 2928
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Indian Academy Degree College",
+            "block_id": "b54",
+            "kind": "text",
+            "start": 2838,
+            "end": 2867
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Bachelor of Commerce (B.Com",
+            "block_id": "b54",
+            "kind": "text",
+            "start": 2807,
+            "end": 2834
+          }
+        ],
+        "section": "EDUCATION",
+        "date_label": "2023 / 2019",
+        "is_present": false
+      }
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 2,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "PARTIAL",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "entry e2: dates found without an explicit range",
+    "e2: dates cannot be assigned unambiguously",
+    "conflicting/ambiguous date kept for 'Bachelor of Commerce (B.Com)'"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "93379ed8b57fe7a4afd398ef",
+    "filename": "Divya G.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "v6b22cbf71b0ccf71",
+        "type": "EMPLOYMENT",
+        "title": "Operational Associate",
+        "org": "Vendor Management",
+        "start": "2024-09",
+        "end": "2025-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Operational Associate – Vendor Management\nSep 2024 –Sep 2025",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Operational Associate – Vendor Management",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 1057,
+              "end": 1098
+            },
+            {
+              "page": 1,
+              "text": "Sep 2024 –Sep 2025",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 1100,
+              "end": 1118
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Sep 2024 –Sep 2025",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 1100,
+              "end": 1118
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Vendor Management",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 1081,
+              "end": 1098
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Operational Associate",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 1057,
+              "end": 1078
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "Sep 2024 –Sep 2025",
+          "is_present": false
+        },
+        "date_label": "Sep 2024 –Sep 2025",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "vd05e6faaf7b32448",
+        "type": "EMPLOYMENT",
+        "title": "Procurement Operations Associate",
+        "org": "",
+        "entry_text": "Procurement Operations Associate • Performed Contract Compliance Checks (C3) to validate Purchase Requisitions (PR) within procurement workflows. • Created and managed Procurement Contract IDs for Statements of Work (SOW), amendments, and renewals. • Reviewed and managed over 130 cost center contrac",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Procurement Operations Associate",
+              "block_id": "b36",
+              "kind": "text",
+              "start": 1929,
+              "end": 1961
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Procurement Operations Associate",
+              "block_id": "b36",
+              "kind": "text",
+              "start": 1929,
+              "end": 1961
+            }
+          ],
+          "section": "PROFESSIONAL EXPERIENCE",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROFESSIONAL EXPERIENCE",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "va0e991aa12634e68",
+        "type": "EDUCATION",
+        "title": "Bachelor of Commerce (B.Com)",
+        "org": "Indian Academy Degree College",
+        "entry_text": "Bachelor of Commerce (B.Com) – Indian Academy Degree College | 2023 | 65% PUC – St. Anne’s Pre-University College | 2019 | 60% SSLC – St. Anne’s High School | 68%",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Bachelor of Commerce (B.Com) – Indian Academy Degree College | 2023 | 65%",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 2807,
+              "end": 2880
+            },
+            {
+              "page": 1,
+              "text": "PUC – St. Anne’s Pre-University College | 2019 | 60%",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 2882,
+              "end": 2934
+            },
+            {
+              "page": 1,
+              "text": "SSLC – St. Anne’s High School | 68%",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 2936,
+              "end": 2971
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2023",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 2870,
+              "end": 2874
+            },
+            {
+              "page": 1,
+              "text": "2019",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 2924,
+              "end": 2928
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Indian Academy Degree College",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 2838,
+              "end": 2867
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Bachelor of Commerce (B.Com",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 2807,
+              "end": 2834
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2023 / 2019",
+          "is_present": false
+        },
+        "date_label": "2023 / 2019",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "vd05e6faaf7b32448"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 3,
+      "dated_share": 0.333,
+      "unresolved": 2,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "ocr_pages": []
+    },
+    "total_represented_months": 13,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

@@ -207,10 +207,26 @@ def extract_education(text, today=None):
 
 
 def extract_jobs(text, today=None):
-    exp = section(text, [r"PROFESSIONAL EXPERIENCE", r"WORK EXPERIENCE", r"EMPLOYMENT", r"\bEXPERIENCE\b"],
+    exp = section(text, [r"PROFESSIONAL EXPERIENCE", r"WORK EXPERIENCE", r"EMPLOYMENT HISTORY", r"WORK HISTORY", r"EMPLOYMENT", r"\bEXPERIENCE\b", r"CAREER HISTORY", r"CAREER TIMELINE", r"CAREER OVERVIEW", r"CAREER JOURNEY", r"CAREER", r"POSITIONS HELD", r"PROFESSIONAL BACKGROUND", r"CHRONOLOGICAL WORK HISTORY", r"CHRONOLOGICAL EXPERIENCE"],
                   [r"KEY PROJECTS", r"\bPROJECTS\b", r"EDUCATION", r"SKILLS", r"CERTIFICATION"])
     if not exp:
         return []
+        # Fallback: scan lines of text directly, excluding Education and Skills sections
+        lines_all = (text or "").split("\n")
+        in_skip = False
+        exp_lines = []
+        for ln in lines_all:
+            s = ln.strip()
+            if re.match(r"(?i)^(?:education|academic|qualification|skills|technical skills|certifications?)\b", s) and len(s.split()) <= 6:
+                in_skip = True
+                continue
+            if in_skip and re.match(r"(?i)^(?:projects?|awards?|summary|personal projects)\b", s) and len(s.split()) <= 6:
+                in_skip = False
+            if not in_skip:
+                exp_lines.append(ln)
+        lines = [ln.strip() for ln in exp_lines if ln.strip()]
+    else:
+        lines = [ln.strip() for ln in exp.split("\n") if ln.strip()]
     jobs = []
     lines = [ln.strip() for ln in exp.split("\n") if ln.strip()]
     current = None
@@ -237,12 +253,18 @@ def extract_jobs(text, today=None):
             norm_raw = raw.replace("\u2013", "-").replace("\u2014", "-")
             idx = norm_line.lower().find(norm_raw.lower()[:10])
             inline_role = line[:idx].strip(" -–—|,") if idx > 0 else ""
+            inline_role = line[:idx].strip(" :–—|,") if idx > 0 else line[idx + len(raw):].strip(" :–—|,")
             if inline_role and len(inline_role) > 2:
                 # date on the same line as role: "Senior Engineer ... Jan 2022 - Present"
                 # or "Company | Title | 05/2025 - Present" -> split on "|"
+                # or "Company as Role"
                 role = inline_role
                 company = ""
-                if "|" in inline_role:
+                m_as = re.match(r'(?i)^(.+?)\s+as\s+(?:an?\s+)?(.+)$', inline_role.strip(' :–—|,'))
+                if m_as:
+                    company = m_as.group(1).split(',')[0].strip(' :–—|,')
+                    role = m_as.group(2).strip(' :–—|,')
+                elif "|" in inline_role:
                     parts = [p.strip() for p in inline_role.split("|") if p.strip()]
                     if len(parts) >= 2:
                         company, role = parts[0], " | ".join(parts[1:])
@@ -422,15 +444,15 @@ def analyze_resume_timeline(text, today=None, *, raw_bytes=b"", filename="resume
                "start": _month(event.start), "end": _month(event.end),
                "raw": event.date_label, "precision": event.precision,
                "status": event.status, "source": event.source}
+        row["duration_months"] = (months_between(row["start"], row["end"]) + 1
+            if row["start"] and row["end"] and event.precision == "month" and event.status == "CONFIRMED" else None)
         if event.type in ("EMPLOYMENT", "INTERNSHIP"):
-            row["duration_months"] = (months_between(row["start"], row["end"]) + 1
-                if row["start"] and row["end"] and event.precision == "month" else None)
             jobs.append(row)
         elif event.type == "EDUCATION":
             education.append({**row, "label": event.title})
     # A course end is evidence of an education date, not proof of graduation.
     grad_gap = None
-    job_gaps = []
+    job_gaps, activity_gaps = [], []
     for gap in ctx.gaps:
         if gap.state != "POTENTIAL_GAP":
             continue
@@ -438,11 +460,15 @@ def analyze_resume_timeline(text, today=None, *, raw_bytes=b"", filename="resume
         evidence = next((g.get("evidence_details", []) for g in bounds if g["id"] == gap.id), [])
         row = {"gap_months": gap.months, "start": _month(gap.start),
                "end": _month(gap.end), "evidence": evidence}
-        if ctx.events_by_id().get(gap.evidence.get("event_before")).type == "EDUCATION":
+        before = ctx.events_by_id().get(gap.evidence.get("event_before"))
+        after = ctx.events_by_id().get(gap.evidence.get("event_after"))
+        activity_gaps.append(row)
+        if before.type == 'EDUCATION' and after.type in ('EMPLOYMENT', 'INTERNSHIP'):
             grad_gap = gap.months
-        else:
+        elif before.type in ('EMPLOYMENT', 'INTERNSHIP') and after.type in ('EMPLOYMENT', 'INTERNSHIP'):
             job_gaps.append(row)
-    return {"graduation": None, "education_entries": education, "jobs": jobs,
+    return {"period_analysis": dto.get("period_analysis", {}), "activity_gaps": activity_gaps,
+            "graduation": None, "education_entries": education, "jobs": jobs,
             "graduation_to_first_job_months": grad_gap, "job_gaps": job_gaps,
             "total_experience_months": (len({year * 12 + month for e in ctx.events
                 if e.type in ("EMPLOYMENT", "INTERNSHIP") and e.start and e.end

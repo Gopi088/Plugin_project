@@ -1,0 +1,764 @@
+{
+  "file_name": "Mayank Bhayana.pdf",
+  "input_mode": "original_document",
+  "input_sha256": "e1d58c9c25a46f9b73d38bd842b2226b71c6e25faaa88e5d43d93d9baab3fb23",
+  "doc_id": "e1d58c9c25a46f9b73d38bd8",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 2,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v4743fbb40900761d",
+      "type": "EMPLOYMENT",
+      "company": "Bachelor of Technology/B. Tech",
+      "title": "",
+      "start_date": "2008-07",
+      "end_date": "2012-06",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 3,
+            "text": "Maharshi Dayanand University, Rohtak July 2008 - June 2012",
+            "block_id": "b96",
+            "kind": "pdf",
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "bbox": [
+              47.400000750000004,
+              203.825938575,
+              573.1198968269535,
+              214.84501357500005
+            ],
+            "fragment_text": "Maharshi Dayanand University, Rohtak July 2008 - June 2012"
+          },
+          {
+            "page": 3,
+            "text": "Bachelor of Technology/B. Tech, Computer Science and Engineering (CSE)",
+            "block_id": "b97",
+            "kind": "pdf",
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "bbox": [
+              47.400000750000004,
+              219.81124095000007,
+              376.3238065101573,
+              228.79421594999997
+            ],
+            "fragment_text": "Bachelor of Technology/B. Tech, Computer Science and Engineering (CSE)"
+          }
+        ],
+        "dates": [
+          {
+            "page": 3,
+            "text": "July 2008 - June 2012",
+            "block_id": "b96",
+            "kind": "pdf",
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "bbox": [
+              468.74553973699125,
+              203.825938575,
+              573.1198968269535,
+              214.84501357500005
+            ],
+            "fragment_text": "July 2008 - June 2012"
+          }
+        ],
+        "company": [
+          {
+            "page": 3,
+            "text": "Bachelor of Technology/B. Tech",
+            "block_id": "b97",
+            "kind": "pdf",
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "bbox": [
+              47.400000750000004,
+              219.81124095000007,
+              190.26691945781255,
+              228.79421594999997
+            ],
+            "fragment_text": "Bachelor of Technology/B. Tech"
+          }
+        ],
+        "title": [],
+        "section": "Tata Consultancy Services Jan 2024–Present",
+        "date_label": "July 2008 - June 2012",
+        "is_present": false
+      }
+    },
+    {
+      "id": "v74cce8628ee958ef",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Senior Product Developer 7 months",
+      "start_date": "2013-05",
+      "end_date": "2019-09",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 2,
+            "text": "Senior Product Developer 7 months",
+            "block_id": "b72",
+            "kind": "pdf",
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "bbox": [
+              46.8000015,
+              459.79989945,
+              541.2808622250018,
+              470.33987445
+            ],
+            "fragment_text": "Senior Product Developer 7 months"
+          }
+        ],
+        "dates": [
+          {
+            "page": 2,
+            "text": "May 2013–Sep 2019",
+            "block_id": "b74",
+            "kind": "pdf",
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "bbox": [
+              463.6799925,
+              516.425929575,
+              569.08846395,
+              527.4450045750001
+            ],
+            "fragment_text": "May 2013– Sep 2019"
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 2,
+            "text": "Senior Product Developer 7 months",
+            "block_id": "b72",
+            "kind": "pdf",
+            "page_width": 612.0,
+            "page_height": 792.0,
+            "bbox": [
+              46.8000015,
+              459.79989945,
+              541.2808622250018,
+              470.33987445
+            ],
+            "fragment_text": "Senior Product Developer 7 months"
+          }
+        ],
+        "section": "Tata Consultancy Services Jan 2024–Present",
+        "date_label": "May 2013–Sep 2019",
+        "is_present": false
+      }
+    }
+  ],
+  "education": [],
+  "projects": [],
+  "gaps": [
+    {
+      "id": "g91fe276f35cccc66",
+      "start": [
+        2012,
+        7
+      ],
+      "end": [
+        2013,
+        4
+      ],
+      "months": 10,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9,
+      "reasons": [
+        "GAP_NO_COVERAGE"
+      ],
+      "evidence": {
+        "event_before": "v4743fbb40900761d",
+        "event_after": "v74cce8628ee958ef",
+        "coverage_scope": "all_dated_activity"
+      },
+      "start_label": "2012-07",
+      "end_label": "2013-04",
+      "evidence_quotes": [
+        "Maharshi Dayanand University, Rohtak July 2008 - June 2012 Bachelor of Technology/B. Tech, Computer Science and Engineering (CSE)",
+        "Senior Product Developer 7 months"
+      ],
+      "evidence_details": [
+        {
+          "header": "Bachelor of Technology/B. Tech",
+          "quote": "Maharshi Dayanand University, Rohtak July 2008 - June 2012 Bachelor of Technology/B. Tech, Computer Science and Engineering (CSE)",
+          "event_id": "v4743fbb40900761d",
+          "source": {
+            "entry": [
+              {
+                "page": 3,
+                "text": "Maharshi Dayanand University, Rohtak July 2008 - June 2012",
+                "block_id": "b96",
+                "kind": "pdf",
+                "page_width": 612.0,
+                "page_height": 792.0,
+                "bbox": [
+                  47.400000750000004,
+                  203.825938575,
+                  573.1198968269535,
+                  214.84501357500005
+                ],
+                "fragment_text": "Maharshi Dayanand University, Rohtak July 2008 - June 2012"
+              },
+              {
+                "page": 3,
+                "text": "Bachelor of Technology/B. Tech, Computer Science and Engineering (CSE)",
+                "block_id": "b97",
+                "kind": "pdf",
+                "page_width": 612.0,
+                "page_height": 792.0,
+                "bbox": [
+                  47.400000750000004,
+                  219.81124095000007,
+                  376.3238065101573,
+                  228.79421594999997
+                ],
+                "fragment_text": "Bachelor of Technology/B. Tech, Computer Science and Engineering (CSE)"
+              }
+            ],
+            "dates": [
+              {
+                "page": 3,
+                "text": "July 2008 - June 2012",
+                "block_id": "b96",
+                "kind": "pdf",
+                "page_width": 612.0,
+                "page_height": 792.0,
+                "bbox": [
+                  468.74553973699125,
+                  203.825938575,
+                  573.1198968269535,
+                  214.84501357500005
+                ],
+                "fragment_text": "July 2008 - June 2012"
+              }
+            ],
+            "company": [
+              {
+                "page": 3,
+                "text": "Bachelor of Technology/B. Tech",
+                "block_id": "b97",
+                "kind": "pdf",
+                "page_width": 612.0,
+                "page_height": 792.0,
+                "bbox": [
+                  47.400000750000004,
+                  219.81124095000007,
+                  190.26691945781255,
+                  228.79421594999997
+                ],
+                "fragment_text": "Bachelor of Technology/B. Tech"
+              }
+            ],
+            "title": [],
+            "section": "Tata Consultancy Services Jan 2024–Present",
+            "date_label": "July 2008 - June 2012",
+            "is_present": false
+          }
+        },
+        {
+          "header": "Senior Product Developer 7 months",
+          "quote": "Senior Product Developer 7 months",
+          "event_id": "v74cce8628ee958ef",
+          "source": {
+            "entry": [
+              {
+                "page": 2,
+                "text": "Senior Product Developer 7 months",
+                "block_id": "b72",
+                "kind": "pdf",
+                "page_width": 612.0,
+                "page_height": 792.0,
+                "bbox": [
+                  46.8000015,
+                  459.79989945,
+                  541.2808622250018,
+                  470.33987445
+                ],
+                "fragment_text": "Senior Product Developer 7 months"
+              }
+            ],
+            "dates": [
+              {
+                "page": 2,
+                "text": "May 2013–Sep 2019",
+                "block_id": "b74",
+                "kind": "pdf",
+                "page_width": 612.0,
+                "page_height": 792.0,
+                "bbox": [
+                  463.6799925,
+                  516.425929575,
+                  569.08846395,
+                  527.4450045750001
+                ],
+                "fragment_text": "May 2013– Sep 2019"
+              }
+            ],
+            "company": [],
+            "title": [
+              {
+                "page": 2,
+                "text": "Senior Product Developer 7 months",
+                "block_id": "b72",
+                "kind": "pdf",
+                "page_width": 612.0,
+                "page_height": 792.0,
+                "bbox": [
+                  46.8000015,
+                  459.79989945,
+                  541.2808622250018,
+                  470.33987445
+                ],
+                "fragment_text": "Senior Product Developer 7 months"
+              }
+            ],
+            "section": "Tata Consultancy Services Jan 2024–Present",
+            "date_label": "May 2013–Sep 2019",
+            "is_present": false
+          }
+        }
+      ]
+    }
+  ],
+  "total_work_experience_entries": 2,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 1,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "raw_pipeline_dto": {
+    "doc_id": "e1d58c9c25a46f9b73d38bd8",
+    "filename": "Mayank Bhayana.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v4743fbb40900761d",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Bachelor of Technology/B. Tech",
+        "start": "2008-07",
+        "end": "2012-06",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Maharshi Dayanand University, Rohtak July 2008 - June 2012\nBachelor of Technology/B. Tech, Computer Science and Engineering (CSE)",
+        "source": {
+          "entry": [
+            {
+              "page": 3,
+              "text": "Maharshi Dayanand University, Rohtak July 2008 - June 2012",
+              "block_id": "b96",
+              "kind": "pdf",
+              "page_width": 612.0,
+              "page_height": 792.0,
+              "bbox": [
+                47.400000750000004,
+                203.825938575,
+                573.1198968269535,
+                214.84501357500005
+              ],
+              "fragment_text": "Maharshi Dayanand University, Rohtak July 2008 - June 2012"
+            },
+            {
+              "page": 3,
+              "text": "Bachelor of Technology/B. Tech, Computer Science and Engineering (CSE)",
+              "block_id": "b97",
+              "kind": "pdf",
+              "page_width": 612.0,
+              "page_height": 792.0,
+              "bbox": [
+                47.400000750000004,
+                219.81124095000007,
+                376.3238065101573,
+                228.79421594999997
+              ],
+              "fragment_text": "Bachelor of Technology/B. Tech, Computer Science and Engineering (CSE)"
+            }
+          ],
+          "dates": [
+            {
+              "page": 3,
+              "text": "July 2008 - June 2012",
+              "block_id": "b96",
+              "kind": "pdf",
+              "page_width": 612.0,
+              "page_height": 792.0,
+              "bbox": [
+                468.74553973699125,
+                203.825938575,
+                573.1198968269535,
+                214.84501357500005
+              ],
+              "fragment_text": "July 2008 - June 2012"
+            }
+          ],
+          "company": [
+            {
+              "page": 3,
+              "text": "Bachelor of Technology/B. Tech",
+              "block_id": "b97",
+              "kind": "pdf",
+              "page_width": 612.0,
+              "page_height": 792.0,
+              "bbox": [
+                47.400000750000004,
+                219.81124095000007,
+                190.26691945781255,
+                228.79421594999997
+              ],
+              "fragment_text": "Bachelor of Technology/B. Tech"
+            }
+          ],
+          "title": [],
+          "section": "Tata Consultancy Services Jan 2024–Present",
+          "date_label": "July 2008 - June 2012",
+          "is_present": false
+        },
+        "date_label": "July 2008 - June 2012",
+        "section": "Tata Consultancy Services Jan 2024–Present",
+        "is_present": false
+      },
+      {
+        "id": "v74cce8628ee958ef",
+        "type": "EMPLOYMENT",
+        "title": "Senior Product Developer 7 months",
+        "org": "",
+        "start": "2013-05",
+        "end": "2019-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Senior Product Developer 7 months",
+        "source": {
+          "entry": [
+            {
+              "page": 2,
+              "text": "Senior Product Developer 7 months",
+              "block_id": "b72",
+              "kind": "pdf",
+              "page_width": 612.0,
+              "page_height": 792.0,
+              "bbox": [
+                46.8000015,
+                459.79989945,
+                541.2808622250018,
+                470.33987445
+              ],
+              "fragment_text": "Senior Product Developer 7 months"
+            }
+          ],
+          "dates": [
+            {
+              "page": 2,
+              "text": "May 2013–Sep 2019",
+              "block_id": "b74",
+              "kind": "pdf",
+              "page_width": 612.0,
+              "page_height": 792.0,
+              "bbox": [
+                463.6799925,
+                516.425929575,
+                569.08846395,
+                527.4450045750001
+              ],
+              "fragment_text": "May 2013– Sep 2019"
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 2,
+              "text": "Senior Product Developer 7 months",
+              "block_id": "b72",
+              "kind": "pdf",
+              "page_width": 612.0,
+              "page_height": 792.0,
+              "bbox": [
+                46.8000015,
+                459.79989945,
+                541.2808622250018,
+                470.33987445
+              ],
+              "fragment_text": "Senior Product Developer 7 months"
+            }
+          ],
+          "section": "Tata Consultancy Services Jan 2024–Present",
+          "date_label": "May 2013–Sep 2019",
+          "is_present": false
+        },
+        "date_label": "May 2013–Sep 2019",
+        "section": "Tata Consultancy Services Jan 2024–Present",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g91fe276f35cccc66",
+        "start": [
+          2012,
+          7
+        ],
+        "end": [
+          2013,
+          4
+        ],
+        "months": 10,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "v4743fbb40900761d",
+          "event_after": "v74cce8628ee958ef",
+          "coverage_scope": "all_dated_activity"
+        },
+        "start_label": "2012-07",
+        "end_label": "2013-04",
+        "evidence_quotes": [
+          "Maharshi Dayanand University, Rohtak July 2008 - June 2012 Bachelor of Technology/B. Tech, Computer Science and Engineering (CSE)",
+          "Senior Product Developer 7 months"
+        ],
+        "evidence_details": [
+          {
+            "header": "Bachelor of Technology/B. Tech",
+            "quote": "Maharshi Dayanand University, Rohtak July 2008 - June 2012 Bachelor of Technology/B. Tech, Computer Science and Engineering (CSE)",
+            "event_id": "v4743fbb40900761d",
+            "source": {
+              "entry": [
+                {
+                  "page": 3,
+                  "text": "Maharshi Dayanand University, Rohtak July 2008 - June 2012",
+                  "block_id": "b96",
+                  "kind": "pdf",
+                  "page_width": 612.0,
+                  "page_height": 792.0,
+                  "bbox": [
+                    47.400000750000004,
+                    203.825938575,
+                    573.1198968269535,
+                    214.84501357500005
+                  ],
+                  "fragment_text": "Maharshi Dayanand University, Rohtak July 2008 - June 2012"
+                },
+                {
+                  "page": 3,
+                  "text": "Bachelor of Technology/B. Tech, Computer Science and Engineering (CSE)",
+                  "block_id": "b97",
+                  "kind": "pdf",
+                  "page_width": 612.0,
+                  "page_height": 792.0,
+                  "bbox": [
+                    47.400000750000004,
+                    219.81124095000007,
+                    376.3238065101573,
+                    228.79421594999997
+                  ],
+                  "fragment_text": "Bachelor of Technology/B. Tech, Computer Science and Engineering (CSE)"
+                }
+              ],
+              "dates": [
+                {
+                  "page": 3,
+                  "text": "July 2008 - June 2012",
+                  "block_id": "b96",
+                  "kind": "pdf",
+                  "page_width": 612.0,
+                  "page_height": 792.0,
+                  "bbox": [
+                    468.74553973699125,
+                    203.825938575,
+                    573.1198968269535,
+                    214.84501357500005
+                  ],
+                  "fragment_text": "July 2008 - June 2012"
+                }
+              ],
+              "company": [
+                {
+                  "page": 3,
+                  "text": "Bachelor of Technology/B. Tech",
+                  "block_id": "b97",
+                  "kind": "pdf",
+                  "page_width": 612.0,
+                  "page_height": 792.0,
+                  "bbox": [
+                    47.400000750000004,
+                    219.81124095000007,
+                    190.26691945781255,
+                    228.79421594999997
+                  ],
+                  "fragment_text": "Bachelor of Technology/B. Tech"
+                }
+              ],
+              "title": [],
+              "section": "Tata Consultancy Services Jan 2024–Present",
+              "date_label": "July 2008 - June 2012",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Senior Product Developer 7 months",
+            "quote": "Senior Product Developer 7 months",
+            "event_id": "v74cce8628ee958ef",
+            "source": {
+              "entry": [
+                {
+                  "page": 2,
+                  "text": "Senior Product Developer 7 months",
+                  "block_id": "b72",
+                  "kind": "pdf",
+                  "page_width": 612.0,
+                  "page_height": 792.0,
+                  "bbox": [
+                    46.8000015,
+                    459.79989945,
+                    541.2808622250018,
+                    470.33987445
+                  ],
+                  "fragment_text": "Senior Product Developer 7 months"
+                }
+              ],
+              "dates": [
+                {
+                  "page": 2,
+                  "text": "May 2013–Sep 2019",
+                  "block_id": "b74",
+                  "kind": "pdf",
+                  "page_width": 612.0,
+                  "page_height": 792.0,
+                  "bbox": [
+                    463.6799925,
+                    516.425929575,
+                    569.08846395,
+                    527.4450045750001
+                  ],
+                  "fragment_text": "May 2013– Sep 2019"
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 2,
+                  "text": "Senior Product Developer 7 months",
+                  "block_id": "b72",
+                  "kind": "pdf",
+                  "page_width": 612.0,
+                  "page_height": 792.0,
+                  "bbox": [
+                    46.8000015,
+                    459.79989945,
+                    541.2808622250018,
+                    470.33987445
+                  ],
+                  "fragment_text": "Senior Product Developer 7 months"
+                }
+              ],
+              "section": "Tata Consultancy Services Jan 2024–Present",
+              "date_label": "May 2013–Sep 2019",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 2,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9
+    },
+    "total_represented_months": 125,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

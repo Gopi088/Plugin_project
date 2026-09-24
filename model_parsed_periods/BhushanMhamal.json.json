@@ -1,0 +1,3283 @@
+{
+  "file_name": "BhushanMhamal.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "7b0e52f2466f65006f1a7e0fd78d618cc792a99162ece1e50de11765c4c17c94",
+  "doc_id": "7b0e52f2466f65006f1a7e0f",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 3,
+    "total_events": 8,
+    "dated_share": 0.375,
+    "unresolved": 5,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "va8ba3c069e9d2b43",
+      "type": "EMPLOYMENT",
+      "company": "Capgemini",
+      "title": "Senior Consultant",
+      "start_date": "2022-04",
+      "end_date": "2023-09",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Senior Consultant | Capgemini | Apr’22 – Sept’23",
+            "block_id": "b42",
+            "kind": "text",
+            "start": 2453,
+            "end": 2501
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Apr’22 – Sept’23",
+            "block_id": "b42",
+            "kind": "text",
+            "start": 2485,
+            "end": 2501
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Capgemini",
+            "block_id": "b42",
+            "kind": "text",
+            "start": 2473,
+            "end": 2482
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Senior Consultant",
+            "block_id": "b42",
+            "kind": "text",
+            "start": 2453,
+            "end": 2470
+          }
+        ],
+        "section": "WORK EXPERIENCE",
+        "date_label": "Apr’22 – Sept’23",
+        "is_present": false
+      },
+      "precision": "month",
+      "date_label": "Apr’22 – Sept’23"
+    },
+    {
+      "id": "vd5b54cebd42d9a47",
+      "type": "EMPLOYMENT",
+      "company": "Cognizant",
+      "title": "Senior Consultant",
+      "start_date": "2023-10",
+      "end_date": "2026-09",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Senior Consultant | Cognizant | Oct’23 – Present",
+            "block_id": "b27",
+            "kind": "text",
+            "start": 1415,
+            "end": 1463
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Oct’23 – Present",
+            "block_id": "b27",
+            "kind": "text",
+            "start": 1447,
+            "end": 1463
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Cognizant",
+            "block_id": "b27",
+            "kind": "text",
+            "start": 1435,
+            "end": 1444
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Senior Consultant",
+            "block_id": "b27",
+            "kind": "text",
+            "start": 1415,
+            "end": 1432
+          }
+        ],
+        "section": "WORK EXPERIENCE",
+        "date_label": "Oct’23 – Present",
+        "is_present": true
+      },
+      "precision": "month",
+      "date_label": "Oct’23 – Present"
+    }
+  ],
+  "education": [
+    {
+      "id": "v3c8e9831baee54d4",
+      "type": "EDUCATION",
+      "company": "",
+      "title": "Master in Management",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "2017 Master in Management, Marketing",
+            "block_id": "b66",
+            "kind": "text",
+            "start": 3297,
+            "end": 3333
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2017",
+            "block_id": "b66",
+            "kind": "text",
+            "start": 3297,
+            "end": 3301
+          },
+          {
+            "page": 1,
+            "text": "2011",
+            "block_id": "b68",
+            "kind": "text",
+            "start": 3369,
+            "end": 3373
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Master in Management",
+            "block_id": "b66",
+            "kind": "text",
+            "start": 3302,
+            "end": 3322
+          }
+        ],
+        "section": "EDUCATION",
+        "date_label": "2017",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": "2017"
+    },
+    {
+      "id": "vc686831a8af85d80",
+      "type": "EDUCATION",
+      "company": "",
+      "title": "Scrum Certification+Scrum Master- Udemy",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "• Scrum Certification+Scrum Master-",
+            "block_id": "b78",
+            "kind": "text",
+            "start": 3658,
+            "end": 3693
+          },
+          {
+            "page": 1,
+            "text": "Udemy",
+            "block_id": "b78",
+            "kind": "text",
+            "start": 3694,
+            "end": 3699
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Mar’21 – Apr’22",
+            "block_id": "b92",
+            "kind": "text",
+            "start": 4417,
+            "end": 4432
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Scrum Certification+Scrum Master-",
+            "block_id": "b78",
+            "kind": "text",
+            "start": 3660,
+            "end": 3693
+          },
+          {
+            "page": 1,
+            "text": "Udemy",
+            "block_id": "b78",
+            "kind": "text",
+            "start": 3694,
+            "end": 3699
+          }
+        ],
+        "section": "EDUCATION",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    },
+    {
+      "id": "vdcea29eea10d2b45",
+      "type": "EDUCATION",
+      "company": "",
+      "title": "− Agile Delivery & Scrum Master Role: Facilitated scrum ceremonies",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "− Agile Delivery & Scrum Master Role: Facilitated scrum ceremonies, sprint planning, and retrospectives, ensuring Agile adoption.",
+            "block_id": "b95",
+            "kind": "text",
+            "start": 4599,
+            "end": 4728
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Mar’21 – Apr’22",
+            "block_id": "b100",
+            "kind": "text",
+            "start": 5248,
+            "end": 5263
+          },
+          {
+            "page": 1,
+            "text": "Jun’17 – Dec’20",
+            "block_id": "b104",
+            "kind": "text",
+            "start": 5522,
+            "end": 5537
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Agile Delivery & Scrum Master Role: Facilitated scrum ceremonies",
+            "block_id": "b95",
+            "kind": "text",
+            "start": 4601,
+            "end": 4665
+          }
+        ],
+        "section": "EDUCATION",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "Aggregator Platform (US Client) (Mar’21 – Apr’22)",
+      "client": "",
+      "role": "Business Analyst / Product Owner",
+      "duration": "",
+      "details": [
+        "− Performed impact analysis, backlog updates, and sprint alignment within Agile framework.",
+        "− Ensured repository management and requirement traceability across sprints."
+      ],
+      "raw_text": "Project: E-commerce Aggregator Platform (US Client) (Mar’21 – Apr’22)",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project: E-commerce Aggregator Platform (US Client) (Mar’21 – Apr’22)",
+            "block_id": "b100",
+            "kind": "text",
+            "start": 5195,
+            "end": 5264
+          },
+          {
+            "page": 1,
+            "text": "Role: Business Analyst / Product Owner",
+            "block_id": "b101",
+            "kind": "text",
+            "start": 5266,
+            "end": 5304
+          },
+          {
+            "page": 1,
+            "text": "− Performed impact analysis, backlog updates, and sprint alignment within Agile framework.",
+            "block_id": "b102",
+            "kind": "text",
+            "start": 5308,
+            "end": 5398
+          },
+          {
+            "page": 1,
+            "text": "− Ensured repository management and requirement traceability across sprints.",
+            "block_id": "b103",
+            "kind": "text",
+            "start": 5401,
+            "end": 5477
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_2",
+      "name": "/ Business Analyst | MCX | Jun’17 – Dec’20",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Key Result Areas:",
+        "− Trade Lifecycle: Good Knowledge of TLC as worked across requirements of various department of an Exchange",
+        "− Agile & Waterfall Delivery: Managed projects across Agile and Waterfall methodologies, ensuring structured and timely execution.",
+        "− Requirements & Solution Design: Developed FSDs, data flow diagrams, use cases, wireframes , and translated requirements for cross- functional teams.",
+        "− Stakeholder & Vendor Management:  Collaborated with stakeholders and vendors, managing POCs, requirement alignment, and",
+        "delivery coordination.",
+        "− Testing & Quality Assurance: Reviewed test cases, supported QA teams, and ensured quality delivery through validation and UAT support.",
+        "− Change Management & Production Support: Handled CMR process, deployments, and production issue resolution, ensuring business continuity."
+      ],
+      "raw_text": "Project Lead / Business Analyst | MCX | Jun’17 – Dec’20",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project Lead / Business Analyst | MCX | Jun’17 – Dec’20",
+            "block_id": "b104",
+            "kind": "text",
+            "start": 5482,
+            "end": 5537
+          },
+          {
+            "page": 1,
+            "text": "Key Result Areas:",
+            "block_id": "b105",
+            "kind": "text",
+            "start": 5543,
+            "end": 5560
+          },
+          {
+            "page": 1,
+            "text": "− Trade Lifecycle: Good Knowledge of TLC as worked across requirements of various department of an Exchange",
+            "block_id": "b106",
+            "kind": "text",
+            "start": 5564,
+            "end": 5671
+          },
+          {
+            "page": 1,
+            "text": "− Agile & Waterfall Delivery: Managed projects across Agile and Waterfall methodologies, ensuring structured and timely execution.",
+            "block_id": "b107",
+            "kind": "text",
+            "start": 5673,
+            "end": 5803
+          },
+          {
+            "page": 1,
+            "text": "− Requirements & Solution Design: Developed FSDs, data flow diagrams, use cases, wireframes , and translated requirements for cross-",
+            "block_id": "b108",
+            "kind": "text",
+            "start": 5806,
+            "end": 5938
+          },
+          {
+            "page": 1,
+            "text": "functional teams.",
+            "block_id": "b108",
+            "kind": "text",
+            "start": 5939,
+            "end": 5956
+          },
+          {
+            "page": 1,
+            "text": "− Stakeholder & Vendor Management:  Collaborated with stakeholders and vendors, managing POCs, requirement alignment, and",
+            "block_id": "b109",
+            "kind": "text",
+            "start": 5959,
+            "end": 6080
+          },
+          {
+            "page": 1,
+            "text": "delivery coordination.",
+            "block_id": "b110",
+            "kind": "text",
+            "start": 6082,
+            "end": 6104
+          },
+          {
+            "page": 1,
+            "text": "− Testing & Quality Assurance: Reviewed test cases, supported QA teams, and ensured quality delivery through validation and UAT support.",
+            "block_id": "b111",
+            "kind": "text",
+            "start": 6107,
+            "end": 6243
+          },
+          {
+            "page": 1,
+            "text": "− Change Management & Production Support: Handled CMR process, deployments, and production issue resolution, ensuring business continuity.",
+            "block_id": "b112",
+            "kind": "text",
+            "start": 6246,
+            "end": 6384
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_3",
+      "name": "Internal departments of Exchange",
+      "client": "Internal departments of Exchange",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Part of Development team",
+        "− Regulatory Reporting Application : Managed requirements and reporting logic  using SQL/Excel, ensuring compliance with regulatory",
+        "guidelines using Excel/SQL-based validation.",
+        "− Charges & Reporting System: Owned application managing client/member charges, performing data analysis and reporting using SQL",
+        "and Tableau.",
+        "− Commodity Tracking System : Supported lifecycle tracking of warehouse commodities, ensuring data accuracy and stakeholder",
+        "reporting.",
+        "− Multiple Enterprise Portals : Acted as Project Lead/Scrum Master , owned the project pipeline, managing requirements, sprint"
+      ],
+      "raw_text": "Part of Development team\nClient: Internal departments of Exchange\n− Regulatory Reporting Application : Managed requirements and reporting logic  using SQL/Excel, ensuring compliance with regulatory\nguidelines using Excel/SQL-based validation.\n− Charges & Reporting System: Owned application managing client/member charges, performing data analysis and reporting using SQL\nand Tableau.\n− Commodity Tracking System : Supported lifecycle tracking of warehouse commodities, ensuring data accuracy and stakeholder\nreporting.\n− Multiple Enterprise Portals : Acted as Project Lead/Scrum Master , owned the p",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Part of Development team",
+            "block_id": "b114",
+            "kind": "text",
+            "start": 6404,
+            "end": 6428
+          },
+          {
+            "page": 1,
+            "text": "Client: Internal departments of Exchange",
+            "block_id": "b115",
+            "kind": "text",
+            "start": 6430,
+            "end": 6470
+          },
+          {
+            "page": 1,
+            "text": "− Regulatory Reporting Application : Managed requirements and reporting logic  using SQL/Excel, ensuring compliance with regulatory",
+            "block_id": "b116",
+            "kind": "text",
+            "start": 6474,
+            "end": 6605
+          },
+          {
+            "page": 1,
+            "text": "guidelines using Excel/SQL-based validation.",
+            "block_id": "b117",
+            "kind": "text",
+            "start": 6607,
+            "end": 6651
+          },
+          {
+            "page": 1,
+            "text": "− Charges & Reporting System: Owned application managing client/member charges, performing data analysis and reporting using SQL",
+            "block_id": "b118",
+            "kind": "text",
+            "start": 6654,
+            "end": 6782
+          },
+          {
+            "page": 1,
+            "text": "and Tableau.",
+            "block_id": "b119",
+            "kind": "text",
+            "start": 6784,
+            "end": 6796
+          },
+          {
+            "page": 1,
+            "text": "− Commodity Tracking System : Supported lifecycle tracking of warehouse commodities, ensuring data accuracy and stakeholder",
+            "block_id": "b120",
+            "kind": "text",
+            "start": 6799,
+            "end": 6922
+          },
+          {
+            "page": 1,
+            "text": "reporting.",
+            "block_id": "b121",
+            "kind": "text",
+            "start": 6924,
+            "end": 6934
+          },
+          {
+            "page": 1,
+            "text": "− Multiple Enterprise Portals : Acted as Project Lead/Scrum Master , owned the project pipeline, managing requirements, sprint",
+            "block_id": "b122",
+            "kind": "text",
+            "start": 6937,
+            "end": 7063
+          },
+          {
+            "page": 1,
+            "text": "execution, and team coordination.",
+            "block_id": "b123",
+            "kind": "text",
+            "start": 7065,
+            "end": 7098
+          },
+          {
+            "page": 1,
+            "text": "− POC & Stakeholder Initiatives: Led vendor POCs, feasibility studies, requirement gathering, demos, and UAT support  across projects.",
+            "block_id": "b124",
+            "kind": "text",
+            "start": 7101,
+            "end": 7235
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_4",
+      "name": "Business Development Intern | Alibaba | May’16 – Jun’16",
+      "client": "",
+      "role": "",
+      "duration": "May’16 – Jun’16",
+      "details": [
+        "Business Development Intern | Alibaba | May’16 – Jun’16"
+      ],
+      "raw_text": "Business Development Intern | Alibaba | May’16 – Jun’16",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Business Development Intern | Alibaba | May’16 – Jun’16",
+            "block_id": "b125",
+            "kind": "text",
+            "start": 7238,
+            "end": 7293
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_5",
+      "name": "Key Result Areas:",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Key Result Areas:",
+        "− Market Strategy & Analysis: Developed go-to-market strategy for new business clusters and analyzed supplier performance.",
+        "− Data Analysis & Insights: Gathered and analyzed supplier feedback to improve business efficiency and decision-making.",
+        "− Pilot Project Execution: Supported implementation of pilot initiatives (Million India Talent).",
+        "Assistant Professor | Fr. Agnel Polytechnic / Goa Engineering College | Nov’11 – Dec’14"
+      ],
+      "raw_text": "Key Result Areas:\n− Market Strategy & Analysis: Developed go-to-market strategy for new business clusters and analyzed supplier performance.\n− Data Analysis & Insights: Gathered and analyzed supplier feedback to improve business efficiency and decision-making.\n− Pilot Project Execution: Supported implementation of pilot initiatives (Million India Talent).\nAssistant Professor | Fr. Agnel Polytechnic / Goa Engineering College | Nov’11 – Dec’14",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Key Result Areas:",
+            "block_id": "b126",
+            "kind": "text",
+            "start": 7297,
+            "end": 7314
+          },
+          {
+            "page": 1,
+            "text": "− Market Strategy & Analysis: Developed go-to-market strategy for new business clusters and analyzed supplier performance.",
+            "block_id": "b127",
+            "kind": "text",
+            "start": 7318,
+            "end": 7440
+          },
+          {
+            "page": 1,
+            "text": "− Data Analysis & Insights: Gathered and analyzed supplier feedback to improve business efficiency and decision-making.",
+            "block_id": "b128",
+            "kind": "text",
+            "start": 7443,
+            "end": 7562
+          },
+          {
+            "page": 1,
+            "text": "− Pilot Project Execution: Supported implementation of pilot initiatives (Million India Talent).",
+            "block_id": "b129",
+            "kind": "text",
+            "start": 7565,
+            "end": 7661
+          },
+          {
+            "page": 1,
+            "text": "Assistant Professor | Fr. Agnel Polytechnic / Goa Engineering College | Nov’11 – Dec’14",
+            "block_id": "b130",
+            "kind": "text",
+            "start": 7664,
+            "end": 7751
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_6",
+      "name": "Key Result Areas:",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Key Result Areas:",
+        "− Academic Delivery & Mentorship: Delivered engineering curriculum and mentored students for academic and project success.",
+        "− Student Development & Evaluation: Guided projects and conducted performance analysis and reporting."
+      ],
+      "raw_text": "Key Result Areas:\n− Academic Delivery & Mentorship: Delivered engineering curriculum and mentored students for academic and project success.\n− Student Development & Evaluation: Guided projects and conducted performance analysis and reporting.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Key Result Areas:",
+            "block_id": "b131",
+            "kind": "text",
+            "start": 7755,
+            "end": 7772
+          },
+          {
+            "page": 1,
+            "text": "− Academic Delivery & Mentorship: Delivered engineering curriculum and mentored students for academic and project success.",
+            "block_id": "b132",
+            "kind": "text",
+            "start": 7776,
+            "end": 7898
+          },
+          {
+            "page": 1,
+            "text": "− Student Development & Evaluation: Guided projects and conducted performance analysis and reporting.",
+            "block_id": "b133",
+            "kind": "text",
+            "start": 7901,
+            "end": 8002
+          }
+        ]
+      }
+    }
+  ],
+  "gaps": [
+    {
+      "id": "gf4ca8061d3c2bc42",
+      "start": [
+        2016,
+        7
+      ],
+      "end": [
+        2022,
+        3
+      ],
+      "months": 69,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9,
+      "reasons": [
+        "GAP_NO_COVERAGE"
+      ],
+      "evidence": {
+        "event_before": "vd554df4d185c44ec",
+        "event_after": "va8ba3c069e9d2b43",
+        "coverage_scope": "all_dated_activity",
+        "unplaced_activity_ids": [
+          "v3c8e9831baee54d4",
+          "vc686831a8af85d80",
+          "vdcea29eea10d2b45",
+          "v4eed7ce1d8fb34c6",
+          "vcf066631ed8eb7f2"
+        ]
+      },
+      "start_label": "2016-07",
+      "end_label": "2022-03",
+      "evidence_quotes": [
+        "Business Development Intern | Alibaba | May’16 – Jun’16",
+        "Senior Consultant | Capgemini | Apr’22 – Sept’23"
+      ],
+      "evidence_details": [
+        {
+          "header": "Business Development Intern | Alibab",
+          "quote": "Business Development Intern | Alibaba | May’16 – Jun’16",
+          "event_id": "vd554df4d185c44ec",
+          "source": {
+            "entry": [
+              {
+                "page": 1,
+                "text": "Business Development Intern | Alibaba | May’16 – Jun’16",
+                "block_id": "b125",
+                "kind": "text",
+                "start": 7238,
+                "end": 7293
+              }
+            ],
+            "dates": [
+              {
+                "page": 1,
+                "text": "May’16 – Jun’16",
+                "block_id": "b125",
+                "kind": "text",
+                "start": 7278,
+                "end": 7293
+              }
+            ],
+            "company": [],
+            "title": [
+              {
+                "page": 1,
+                "text": "Business Development Intern | Alibaba",
+                "block_id": "b125",
+                "kind": "text",
+                "start": 7238,
+                "end": 7275
+              }
+            ],
+            "section": "Key Projects",
+            "date_label": "May’16 – Jun’16",
+            "is_present": false
+          }
+        },
+        {
+          "header": "Senior Consultant at Capgemini",
+          "quote": "Senior Consultant | Capgemini | Apr’22 – Sept’23",
+          "event_id": "va8ba3c069e9d2b43",
+          "source": {
+            "entry": [
+              {
+                "page": 1,
+                "text": "Senior Consultant | Capgemini | Apr’22 – Sept’23",
+                "block_id": "b42",
+                "kind": "text",
+                "start": 2453,
+                "end": 2501
+              }
+            ],
+            "dates": [
+              {
+                "page": 1,
+                "text": "Apr’22 – Sept’23",
+                "block_id": "b42",
+                "kind": "text",
+                "start": 2485,
+                "end": 2501
+              }
+            ],
+            "company": [
+              {
+                "page": 1,
+                "text": "Capgemini",
+                "block_id": "b42",
+                "kind": "text",
+                "start": 2473,
+                "end": 2482
+              }
+            ],
+            "title": [
+              {
+                "page": 1,
+                "text": "Senior Consultant",
+                "block_id": "b42",
+                "kind": "text",
+                "start": 2453,
+                "end": 2470
+              }
+            ],
+            "section": "WORK EXPERIENCE",
+            "date_label": "Apr’22 – Sept’23",
+            "is_present": false
+          }
+        }
+      ]
+    }
+  ],
+  "total_work_experience_entries": 2,
+  "total_projects_entries": 6,
+  "total_gaps_detected": 1,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "entry e2: dates found without an explicit range",
+    "entry e4: 2 ranges; first kept, rest preserved in evidence",
+    "e2: dates cannot be assigned unambiguously",
+    "conflicting/ambiguous date kept for 'Master in Management'"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "7b0e52f2466f65006f1a7e0f",
+    "filename": "BhushanMhamal.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "vd554df4d185c44ec",
+        "type": "PROJECT",
+        "title": "Business Development Intern | Alibaba",
+        "org": "",
+        "start": "2016-05",
+        "end": "2016-06",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_PROJECT_CUES"
+        ],
+        "quote": "Business Development Intern | Alibaba | May’16 – Jun’16",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Business Development Intern | Alibaba | May’16 – Jun’16",
+              "block_id": "b125",
+              "kind": "text",
+              "start": 7238,
+              "end": 7293
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "May’16 – Jun’16",
+              "block_id": "b125",
+              "kind": "text",
+              "start": 7278,
+              "end": 7293
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Business Development Intern | Alibaba",
+              "block_id": "b125",
+              "kind": "text",
+              "start": 7238,
+              "end": 7275
+            }
+          ],
+          "section": "Key Projects",
+          "date_label": "May’16 – Jun’16",
+          "is_present": false
+        },
+        "date_label": "May’16 – Jun’16",
+        "section": "Key Projects",
+        "is_present": false
+      },
+      {
+        "id": "va8ba3c069e9d2b43",
+        "type": "EMPLOYMENT",
+        "title": "Senior Consultant",
+        "org": "Capgemini",
+        "start": "2022-04",
+        "end": "2023-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Senior Consultant | Capgemini | Apr’22 – Sept’23",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Consultant | Capgemini | Apr’22 – Sept’23",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 2453,
+              "end": 2501
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Apr’22 – Sept’23",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 2485,
+              "end": 2501
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Capgemini",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 2473,
+              "end": 2482
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Consultant",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 2453,
+              "end": 2470
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "Apr’22 – Sept’23",
+          "is_present": false
+        },
+        "date_label": "Apr’22 – Sept’23",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "vd5b54cebd42d9a47",
+        "type": "EMPLOYMENT",
+        "title": "Senior Consultant",
+        "org": "Cognizant",
+        "start": "2023-10",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Senior Consultant | Cognizant | Oct’23 – Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Consultant | Cognizant | Oct’23 – Present",
+              "block_id": "b27",
+              "kind": "text",
+              "start": 1415,
+              "end": 1463
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Oct’23 – Present",
+              "block_id": "b27",
+              "kind": "text",
+              "start": 1447,
+              "end": 1463
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Cognizant",
+              "block_id": "b27",
+              "kind": "text",
+              "start": 1435,
+              "end": 1444
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Consultant",
+              "block_id": "b27",
+              "kind": "text",
+              "start": 1415,
+              "end": 1432
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "Oct’23 – Present",
+          "is_present": true
+        },
+        "date_label": "Oct’23 – Present",
+        "section": "WORK EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v3c8e9831baee54d4",
+        "type": "EDUCATION",
+        "title": "Master in Management",
+        "org": "",
+        "entry_text": "2017 Master in Management, Marketing from Mumbai University’s ADMIFMS 2011 Bachelors in Mechanical Engineering from Goa Engineering College, Goa University TRAINING/CERTIFICATIONS • SAFe PO/PM • Green Belt Lean Six Sigma • Multi Commodity of Exchange certified Commodity Practitioner • AZ-900: MS-Azu",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "2017 Master in Management, Marketing",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 3297,
+              "end": 3333
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2017",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 3297,
+              "end": 3301
+            },
+            {
+              "page": 1,
+              "text": "2011",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 3369,
+              "end": 3373
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Master in Management",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 3302,
+              "end": 3322
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2017",
+          "is_present": false
+        },
+        "date_label": "2017",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      },
+      {
+        "id": "vc686831a8af85d80",
+        "type": "EDUCATION",
+        "title": "Scrum Certification+Scrum Master- Udemy",
+        "org": "",
+        "entry_text": "• Scrum Certification+Scrum Master- Udemy • MongoDB SI Associate certification • SPSS-University of Mumbai SOFT SKILLS • Communication • Planning • Leadership • Decision Making • Problem Solving − Agile & Scrum Execution: Managed and participated in Agile ceremonies, ensuring delivery alignment and ",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "• Scrum Certification+Scrum Master-",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 3658,
+              "end": 3693
+            },
+            {
+              "page": 1,
+              "text": "Udemy",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 3694,
+              "end": 3699
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Mar’21 – Apr’22",
+              "block_id": "b92",
+              "kind": "text",
+              "start": 4417,
+              "end": 4432
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Scrum Certification+Scrum Master-",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 3660,
+              "end": 3693
+            },
+            {
+              "page": 1,
+              "text": "Udemy",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 3694,
+              "end": 3699
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "EDUCATION",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "vdcea29eea10d2b45",
+        "type": "EDUCATION",
+        "title": "− Agile Delivery & Scrum Master Role: Facilitated scrum ceremonies",
+        "org": "",
+        "entry_text": "− Agile Delivery & Scrum Master Role: Facilitated scrum ceremonies, sprint planning, and retrospectives, ensuring Agile adoption. − Solution Design & Documentation: Created FSDs, data flow diagrams, use cases, mockups, and wireframes . − Stakeholder & Vendor Management: Managed stakeholders and vend",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "− Agile Delivery & Scrum Master Role: Facilitated scrum ceremonies, sprint planning, and retrospectives, ensuring Agile adoption.",
+              "block_id": "b95",
+              "kind": "text",
+              "start": 4599,
+              "end": 4728
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Mar’21 – Apr’22",
+              "block_id": "b100",
+              "kind": "text",
+              "start": 5248,
+              "end": 5263
+            },
+            {
+              "page": 1,
+              "text": "Jun’17 – Dec’20",
+              "block_id": "b104",
+              "kind": "text",
+              "start": 5522,
+              "end": 5537
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Agile Delivery & Scrum Master Role: Facilitated scrum ceremonies",
+              "block_id": "b95",
+              "kind": "text",
+              "start": 4601,
+              "end": 4665
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "EDUCATION",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v4eed7ce1d8fb34c6",
+        "type": "PROJECT",
+        "title": "Part of Development team",
+        "org": "",
+        "entry_text": "Part of Development team Client: Internal departments of Exchange − Regulatory Reporting Application : Managed requirements and reporting logic  using SQL/Excel, ensuring compliance with regulatory guidelines using Excel/SQL-based validation. − Charges & Reporting System: Owned application managing ",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Part of Development team",
+              "block_id": "b114",
+              "kind": "text",
+              "start": 6404,
+              "end": 6428
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Part of Development team",
+              "block_id": "b114",
+              "kind": "text",
+              "start": 6404,
+              "end": 6428
+            }
+          ],
+          "section": "Key Projects",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Key Projects",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "vcf066631ed8eb7f2",
+        "type": "PROJECT",
+        "title": "Key Result Areas",
+        "org": "",
+        "entry_text": "Key Result Areas: − Market Strategy & Analysis: Developed go-to-market strategy for new business clusters and analyzed supplier performance. − Data Analysis & Insights: Gathered and analyzed supplier feedback to improve business efficiency and decision-making. − Pilot Project Execution: Supported im",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Key Result Areas:",
+              "block_id": "b126",
+              "kind": "text",
+              "start": 7297,
+              "end": 7314
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Nov’11 – Dec’14",
+              "block_id": "b130",
+              "kind": "text",
+              "start": 7736,
+              "end": 7751
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Key Result Areas",
+              "block_id": "b126",
+              "kind": "text",
+              "start": 7297,
+              "end": 7313
+            }
+          ],
+          "section": "Key Projects",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Key Projects",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "Aggregator Platform (US Client) (Mar’21 – Apr’22)",
+        "client": "",
+        "role": "Business Analyst / Product Owner",
+        "duration": "",
+        "details": [
+          "− Performed impact analysis, backlog updates, and sprint alignment within Agile framework.",
+          "− Ensured repository management and requirement traceability across sprints."
+        ],
+        "raw_text": "Project: E-commerce Aggregator Platform (US Client) (Mar’21 – Apr’22)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project: E-commerce Aggregator Platform (US Client) (Mar’21 – Apr’22)",
+              "block_id": "b100",
+              "kind": "text",
+              "start": 5195,
+              "end": 5264
+            },
+            {
+              "page": 1,
+              "text": "Role: Business Analyst / Product Owner",
+              "block_id": "b101",
+              "kind": "text",
+              "start": 5266,
+              "end": 5304
+            },
+            {
+              "page": 1,
+              "text": "− Performed impact analysis, backlog updates, and sprint alignment within Agile framework.",
+              "block_id": "b102",
+              "kind": "text",
+              "start": 5308,
+              "end": 5398
+            },
+            {
+              "page": 1,
+              "text": "− Ensured repository management and requirement traceability across sprints.",
+              "block_id": "b103",
+              "kind": "text",
+              "start": 5401,
+              "end": 5477
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "/ Business Analyst | MCX | Jun’17 – Dec’20",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Key Result Areas:",
+          "− Trade Lifecycle: Good Knowledge of TLC as worked across requirements of various department of an Exchange",
+          "− Agile & Waterfall Delivery: Managed projects across Agile and Waterfall methodologies, ensuring structured and timely execution.",
+          "− Requirements & Solution Design: Developed FSDs, data flow diagrams, use cases, wireframes , and translated requirements for cross- functional teams.",
+          "− Stakeholder & Vendor Management:  Collaborated with stakeholders and vendors, managing POCs, requirement alignment, and",
+          "delivery coordination.",
+          "− Testing & Quality Assurance: Reviewed test cases, supported QA teams, and ensured quality delivery through validation and UAT support.",
+          "− Change Management & Production Support: Handled CMR process, deployments, and production issue resolution, ensuring business continuity."
+        ],
+        "raw_text": "Project Lead / Business Analyst | MCX | Jun’17 – Dec’20",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project Lead / Business Analyst | MCX | Jun’17 – Dec’20",
+              "block_id": "b104",
+              "kind": "text",
+              "start": 5482,
+              "end": 5537
+            },
+            {
+              "page": 1,
+              "text": "Key Result Areas:",
+              "block_id": "b105",
+              "kind": "text",
+              "start": 5543,
+              "end": 5560
+            },
+            {
+              "page": 1,
+              "text": "− Trade Lifecycle: Good Knowledge of TLC as worked across requirements of various department of an Exchange",
+              "block_id": "b106",
+              "kind": "text",
+              "start": 5564,
+              "end": 5671
+            },
+            {
+              "page": 1,
+              "text": "− Agile & Waterfall Delivery: Managed projects across Agile and Waterfall methodologies, ensuring structured and timely execution.",
+              "block_id": "b107",
+              "kind": "text",
+              "start": 5673,
+              "end": 5803
+            },
+            {
+              "page": 1,
+              "text": "− Requirements & Solution Design: Developed FSDs, data flow diagrams, use cases, wireframes , and translated requirements for cross-",
+              "block_id": "b108",
+              "kind": "text",
+              "start": 5806,
+              "end": 5938
+            },
+            {
+              "page": 1,
+              "text": "functional teams.",
+              "block_id": "b108",
+              "kind": "text",
+              "start": 5939,
+              "end": 5956
+            },
+            {
+              "page": 1,
+              "text": "− Stakeholder & Vendor Management:  Collaborated with stakeholders and vendors, managing POCs, requirement alignment, and",
+              "block_id": "b109",
+              "kind": "text",
+              "start": 5959,
+              "end": 6080
+            },
+            {
+              "page": 1,
+              "text": "delivery coordination.",
+              "block_id": "b110",
+              "kind": "text",
+              "start": 6082,
+              "end": 6104
+            },
+            {
+              "page": 1,
+              "text": "− Testing & Quality Assurance: Reviewed test cases, supported QA teams, and ensured quality delivery through validation and UAT support.",
+              "block_id": "b111",
+              "kind": "text",
+              "start": 6107,
+              "end": 6243
+            },
+            {
+              "page": 1,
+              "text": "− Change Management & Production Support: Handled CMR process, deployments, and production issue resolution, ensuring business continuity.",
+              "block_id": "b112",
+              "kind": "text",
+              "start": 6246,
+              "end": 6384
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_3",
+        "name": "Internal departments of Exchange",
+        "client": "Internal departments of Exchange",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Part of Development team",
+          "− Regulatory Reporting Application : Managed requirements and reporting logic  using SQL/Excel, ensuring compliance with regulatory",
+          "guidelines using Excel/SQL-based validation.",
+          "− Charges & Reporting System: Owned application managing client/member charges, performing data analysis and reporting using SQL",
+          "and Tableau.",
+          "− Commodity Tracking System : Supported lifecycle tracking of warehouse commodities, ensuring data accuracy and stakeholder",
+          "reporting.",
+          "− Multiple Enterprise Portals : Acted as Project Lead/Scrum Master , owned the project pipeline, managing requirements, sprint"
+        ],
+        "raw_text": "Part of Development team\nClient: Internal departments of Exchange\n− Regulatory Reporting Application : Managed requirements and reporting logic  using SQL/Excel, ensuring compliance with regulatory\nguidelines using Excel/SQL-based validation.\n− Charges & Reporting System: Owned application managing client/member charges, performing data analysis and reporting using SQL\nand Tableau.\n− Commodity Tracking System : Supported lifecycle tracking of warehouse commodities, ensuring data accuracy and stakeholder\nreporting.\n− Multiple Enterprise Portals : Acted as Project Lead/Scrum Master , owned the p",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Part of Development team",
+              "block_id": "b114",
+              "kind": "text",
+              "start": 6404,
+              "end": 6428
+            },
+            {
+              "page": 1,
+              "text": "Client: Internal departments of Exchange",
+              "block_id": "b115",
+              "kind": "text",
+              "start": 6430,
+              "end": 6470
+            },
+            {
+              "page": 1,
+              "text": "− Regulatory Reporting Application : Managed requirements and reporting logic  using SQL/Excel, ensuring compliance with regulatory",
+              "block_id": "b116",
+              "kind": "text",
+              "start": 6474,
+              "end": 6605
+            },
+            {
+              "page": 1,
+              "text": "guidelines using Excel/SQL-based validation.",
+              "block_id": "b117",
+              "kind": "text",
+              "start": 6607,
+              "end": 6651
+            },
+            {
+              "page": 1,
+              "text": "− Charges & Reporting System: Owned application managing client/member charges, performing data analysis and reporting using SQL",
+              "block_id": "b118",
+              "kind": "text",
+              "start": 6654,
+              "end": 6782
+            },
+            {
+              "page": 1,
+              "text": "and Tableau.",
+              "block_id": "b119",
+              "kind": "text",
+              "start": 6784,
+              "end": 6796
+            },
+            {
+              "page": 1,
+              "text": "− Commodity Tracking System : Supported lifecycle tracking of warehouse commodities, ensuring data accuracy and stakeholder",
+              "block_id": "b120",
+              "kind": "text",
+              "start": 6799,
+              "end": 6922
+            },
+            {
+              "page": 1,
+              "text": "reporting.",
+              "block_id": "b121",
+              "kind": "text",
+              "start": 6924,
+              "end": 6934
+            },
+            {
+              "page": 1,
+              "text": "− Multiple Enterprise Portals : Acted as Project Lead/Scrum Master , owned the project pipeline, managing requirements, sprint",
+              "block_id": "b122",
+              "kind": "text",
+              "start": 6937,
+              "end": 7063
+            },
+            {
+              "page": 1,
+              "text": "execution, and team coordination.",
+              "block_id": "b123",
+              "kind": "text",
+              "start": 7065,
+              "end": 7098
+            },
+            {
+              "page": 1,
+              "text": "− POC & Stakeholder Initiatives: Led vendor POCs, feasibility studies, requirement gathering, demos, and UAT support  across projects.",
+              "block_id": "b124",
+              "kind": "text",
+              "start": 7101,
+              "end": 7235
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_4",
+        "name": "Business Development Intern | Alibaba | May’16 – Jun’16",
+        "client": "",
+        "role": "",
+        "duration": "May’16 – Jun’16",
+        "details": [
+          "Business Development Intern | Alibaba | May’16 – Jun’16"
+        ],
+        "raw_text": "Business Development Intern | Alibaba | May’16 – Jun’16",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Business Development Intern | Alibaba | May’16 – Jun’16",
+              "block_id": "b125",
+              "kind": "text",
+              "start": 7238,
+              "end": 7293
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_5",
+        "name": "Key Result Areas:",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Key Result Areas:",
+          "− Market Strategy & Analysis: Developed go-to-market strategy for new business clusters and analyzed supplier performance.",
+          "− Data Analysis & Insights: Gathered and analyzed supplier feedback to improve business efficiency and decision-making.",
+          "− Pilot Project Execution: Supported implementation of pilot initiatives (Million India Talent).",
+          "Assistant Professor | Fr. Agnel Polytechnic / Goa Engineering College | Nov’11 – Dec’14"
+        ],
+        "raw_text": "Key Result Areas:\n− Market Strategy & Analysis: Developed go-to-market strategy for new business clusters and analyzed supplier performance.\n− Data Analysis & Insights: Gathered and analyzed supplier feedback to improve business efficiency and decision-making.\n− Pilot Project Execution: Supported implementation of pilot initiatives (Million India Talent).\nAssistant Professor | Fr. Agnel Polytechnic / Goa Engineering College | Nov’11 – Dec’14",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Key Result Areas:",
+              "block_id": "b126",
+              "kind": "text",
+              "start": 7297,
+              "end": 7314
+            },
+            {
+              "page": 1,
+              "text": "− Market Strategy & Analysis: Developed go-to-market strategy for new business clusters and analyzed supplier performance.",
+              "block_id": "b127",
+              "kind": "text",
+              "start": 7318,
+              "end": 7440
+            },
+            {
+              "page": 1,
+              "text": "− Data Analysis & Insights: Gathered and analyzed supplier feedback to improve business efficiency and decision-making.",
+              "block_id": "b128",
+              "kind": "text",
+              "start": 7443,
+              "end": 7562
+            },
+            {
+              "page": 1,
+              "text": "− Pilot Project Execution: Supported implementation of pilot initiatives (Million India Talent).",
+              "block_id": "b129",
+              "kind": "text",
+              "start": 7565,
+              "end": 7661
+            },
+            {
+              "page": 1,
+              "text": "Assistant Professor | Fr. Agnel Polytechnic / Goa Engineering College | Nov’11 – Dec’14",
+              "block_id": "b130",
+              "kind": "text",
+              "start": 7664,
+              "end": 7751
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_6",
+        "name": "Key Result Areas:",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Key Result Areas:",
+          "− Academic Delivery & Mentorship: Delivered engineering curriculum and mentored students for academic and project success.",
+          "− Student Development & Evaluation: Guided projects and conducted performance analysis and reporting."
+        ],
+        "raw_text": "Key Result Areas:\n− Academic Delivery & Mentorship: Delivered engineering curriculum and mentored students for academic and project success.\n− Student Development & Evaluation: Guided projects and conducted performance analysis and reporting.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Key Result Areas:",
+              "block_id": "b131",
+              "kind": "text",
+              "start": 7755,
+              "end": 7772
+            },
+            {
+              "page": 1,
+              "text": "− Academic Delivery & Mentorship: Delivered engineering curriculum and mentored students for academic and project success.",
+              "block_id": "b132",
+              "kind": "text",
+              "start": 7776,
+              "end": 7898
+            },
+            {
+              "page": 1,
+              "text": "− Student Development & Evaluation: Guided projects and conducted performance analysis and reporting.",
+              "block_id": "b133",
+              "kind": "text",
+              "start": 7901,
+              "end": 8002
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "gf4ca8061d3c2bc42",
+        "start": [
+          2016,
+          7
+        ],
+        "end": [
+          2022,
+          3
+        ],
+        "months": 69,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "vd554df4d185c44ec",
+          "event_after": "va8ba3c069e9d2b43",
+          "coverage_scope": "all_dated_activity",
+          "unplaced_activity_ids": [
+            "v3c8e9831baee54d4",
+            "vc686831a8af85d80",
+            "vdcea29eea10d2b45",
+            "v4eed7ce1d8fb34c6",
+            "vcf066631ed8eb7f2"
+          ]
+        },
+        "start_label": "2016-07",
+        "end_label": "2022-03",
+        "evidence_quotes": [
+          "Business Development Intern | Alibaba | May’16 – Jun’16",
+          "Senior Consultant | Capgemini | Apr’22 – Sept’23"
+        ],
+        "evidence_details": [
+          {
+            "header": "Business Development Intern | Alibab",
+            "quote": "Business Development Intern | Alibaba | May’16 – Jun’16",
+            "event_id": "vd554df4d185c44ec",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Business Development Intern | Alibaba | May’16 – Jun’16",
+                  "block_id": "b125",
+                  "kind": "text",
+                  "start": 7238,
+                  "end": 7293
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "May’16 – Jun’16",
+                  "block_id": "b125",
+                  "kind": "text",
+                  "start": 7278,
+                  "end": 7293
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Business Development Intern | Alibaba",
+                  "block_id": "b125",
+                  "kind": "text",
+                  "start": 7238,
+                  "end": 7275
+                }
+              ],
+              "section": "Key Projects",
+              "date_label": "May’16 – Jun’16",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Senior Consultant at Capgemini",
+            "quote": "Senior Consultant | Capgemini | Apr’22 – Sept’23",
+            "event_id": "va8ba3c069e9d2b43",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Senior Consultant | Capgemini | Apr’22 – Sept’23",
+                  "block_id": "b42",
+                  "kind": "text",
+                  "start": 2453,
+                  "end": 2501
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Apr’22 – Sept’23",
+                  "block_id": "b42",
+                  "kind": "text",
+                  "start": 2485,
+                  "end": 2501
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Capgemini",
+                  "block_id": "b42",
+                  "kind": "text",
+                  "start": 2473,
+                  "end": 2482
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Senior Consultant",
+                  "block_id": "b42",
+                  "kind": "text",
+                  "start": 2453,
+                  "end": 2470
+                }
+              ],
+              "section": "WORK EXPERIENCE",
+              "date_label": "Apr’22 – Sept’23",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 3,
+      "total_events": 8,
+      "dated_share": 0.375,
+      "unresolved": 5,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 56,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": true,
+          "unrepresented_periods_in_category": [],
+          "entries": 2,
+          "dated_periods": 2,
+          "represented_months": 54,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 2,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "va8ba3c069e9d2b43",
+              "label": "Senior Consultant",
+              "state": "month_range",
+              "start": [
+                2022,
+                4
+              ],
+              "end": [
+                2023,
+                9
+              ],
+              "months": 18,
+              "raw": "Apr’22 – Sept’23",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Senior Consultant | Capgemini | Apr’22 – Sept’23",
+                    "block_id": "b42",
+                    "kind": "text",
+                    "start": 2453,
+                    "end": 2501
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "Apr’22 – Sept’23",
+                    "block_id": "b42",
+                    "kind": "text",
+                    "start": 2485,
+                    "end": 2501
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Capgemini",
+                    "block_id": "b42",
+                    "kind": "text",
+                    "start": 2473,
+                    "end": 2482
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Senior Consultant",
+                    "block_id": "b42",
+                    "kind": "text",
+                    "start": 2453,
+                    "end": 2470
+                  }
+                ],
+                "section": "WORK EXPERIENCE",
+                "date_label": "Apr’22 – Sept’23",
+                "is_present": false
+              }
+            },
+            {
+              "id": "vd5b54cebd42d9a47",
+              "label": "Senior Consultant",
+              "state": "month_range",
+              "start": [
+                2023,
+                10
+              ],
+              "end": [
+                2026,
+                9
+              ],
+              "months": 36,
+              "raw": "Oct’23 – Present",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Senior Consultant | Cognizant | Oct’23 – Present",
+                    "block_id": "b27",
+                    "kind": "text",
+                    "start": 1415,
+                    "end": 1463
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "Oct’23 – Present",
+                    "block_id": "b27",
+                    "kind": "text",
+                    "start": 1447,
+                    "end": 1463
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Cognizant",
+                    "block_id": "b27",
+                    "kind": "text",
+                    "start": 1435,
+                    "end": 1444
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Senior Consultant",
+                    "block_id": "b27",
+                    "kind": "text",
+                    "start": 1415,
+                    "end": 1432
+                  }
+                ],
+                "section": "WORK EXPERIENCE",
+                "date_label": "Oct’23 – Present",
+                "is_present": true
+              }
+            }
+          ]
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 6,
+          "dated_periods": 1,
+          "represented_months": 2,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 1,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 5,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "proj_1",
+              "label": "Aggregator Platform (US Client) (Mar’21 – Apr’22)",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Project: E-commerce Aggregator Platform (US Client) (Mar’21 – Apr’22)",
+                    "block_id": "b100",
+                    "kind": "text",
+                    "start": 5195,
+                    "end": 5264
+                  },
+                  {
+                    "page": 1,
+                    "text": "Role: Business Analyst / Product Owner",
+                    "block_id": "b101",
+                    "kind": "text",
+                    "start": 5266,
+                    "end": 5304
+                  },
+                  {
+                    "page": 1,
+                    "text": "− Performed impact analysis, backlog updates, and sprint alignment within Agile framework.",
+                    "block_id": "b102",
+                    "kind": "text",
+                    "start": 5308,
+                    "end": 5398
+                  },
+                  {
+                    "page": 1,
+                    "text": "− Ensured repository management and requirement traceability across sprints.",
+                    "block_id": "b103",
+                    "kind": "text",
+                    "start": 5401,
+                    "end": 5477
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_2",
+              "label": "/ Business Analyst | MCX | Jun’17 – Dec’20",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Project Lead / Business Analyst | MCX | Jun’17 – Dec’20",
+                    "block_id": "b104",
+                    "kind": "text",
+                    "start": 5482,
+                    "end": 5537
+                  },
+                  {
+                    "page": 1,
+                    "text": "Key Result Areas:",
+                    "block_id": "b105",
+                    "kind": "text",
+                    "start": 5543,
+                    "end": 5560
+                  },
+                  {
+                    "page": 1,
+                    "text": "− Trade Lifecycle: Good Knowledge of TLC as worked across requirements of various department of an Exchange",
+                    "block_id": "b106",
+                    "kind": "text",
+                    "start": 5564,
+                    "end": 5671
+                  },
+                  {
+                    "page": 1,
+                    "text": "− Agile & Waterfall Delivery: Managed projects across Agile and Waterfall methodologies, ensuring structured and timely execution.",
+                    "block_id": "b107",
+                    "kind": "text",
+                    "start": 5673,
+                    "end": 5803
+                  },
+                  {
+                    "page": 1,
+                    "text": "− Requirements & Solution Design: Developed FSDs, data flow diagrams, use cases, wireframes , and translated requirements for cross-",
+                    "block_id": "b108",
+                    "kind": "text",
+                    "start": 5806,
+                    "end": 5938
+                  },
+                  {
+                    "page": 1,
+                    "text": "functional teams.",
+                    "block_id": "b108",
+                    "kind": "text",
+                    "start": 5939,
+                    "end": 5956
+                  },
+                  {
+                    "page": 1,
+                    "text": "− Stakeholder & Vendor Management:  Collaborated with stakeholders and vendors, managing POCs, requirement alignment, and",
+                    "block_id": "b109",
+                    "kind": "text",
+                    "start": 5959,
+                    "end": 6080
+                  },
+                  {
+                    "page": 1,
+                    "text": "delivery coordination.",
+                    "block_id": "b110",
+                    "kind": "text",
+                    "start": 6082,
+                    "end": 6104
+                  },
+                  {
+                    "page": 1,
+                    "text": "− Testing & Quality Assurance: Reviewed test cases, supported QA teams, and ensured quality delivery through validation and UAT support.",
+                    "block_id": "b111",
+                    "kind": "text",
+                    "start": 6107,
+                    "end": 6243
+                  },
+                  {
+                    "page": 1,
+                    "text": "− Change Management & Production Support: Handled CMR process, deployments, and production issue resolution, ensuring business continuity.",
+                    "block_id": "b112",
+                    "kind": "text",
+                    "start": 6246,
+                    "end": 6384
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_3",
+              "label": "Internal departments of Exchange",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Part of Development team",
+                    "block_id": "b114",
+                    "kind": "text",
+                    "start": 6404,
+                    "end": 6428
+                  },
+                  {
+                    "page": 1,
+                    "text": "Client: Internal departments of Exchange",
+                    "block_id": "b115",
+                    "kind": "text",
+                    "start": 6430,
+                    "end": 6470
+                  },
+                  {
+                    "page": 1,
+                    "text": "− Regulatory Reporting Application : Managed requirements and reporting logic  using SQL/Excel, ensuring compliance with regulatory",
+                    "block_id": "b116",
+                    "kind": "text",
+                    "start": 6474,
+                    "end": 6605
+                  },
+                  {
+                    "page": 1,
+                    "text": "guidelines using Excel/SQL-based validation.",
+                    "block_id": "b117",
+                    "kind": "text",
+                    "start": 6607,
+                    "end": 6651
+                  },
+                  {
+                    "page": 1,
+                    "text": "− Charges & Reporting System: Owned application managing client/member charges, performing data analysis and reporting using SQL",
+                    "block_id": "b118",
+                    "kind": "text",
+                    "start": 6654,
+                    "end": 6782
+                  },
+                  {
+                    "page": 1,
+                    "text": "and Tableau.",
+                    "block_id": "b119",
+                    "kind": "text",
+                    "start": 6784,
+                    "end": 6796
+                  },
+                  {
+                    "page": 1,
+                    "text": "− Commodity Tracking System : Supported lifecycle tracking of warehouse commodities, ensuring data accuracy and stakeholder",
+                    "block_id": "b120",
+                    "kind": "text",
+                    "start": 6799,
+                    "end": 6922
+                  },
+                  {
+                    "page": 1,
+                    "text": "reporting.",
+                    "block_id": "b121",
+                    "kind": "text",
+                    "start": 6924,
+                    "end": 6934
+                  },
+                  {
+                    "page": 1,
+                    "text": "− Multiple Enterprise Portals : Acted as Project Lead/Scrum Master , owned the project pipeline, managing requirements, sprint",
+                    "block_id": "b122",
+                    "kind": "text",
+                    "start": 6937,
+                    "end": 7063
+                  },
+                  {
+                    "page": 1,
+                    "text": "execution, and team coordination.",
+                    "block_id": "b123",
+                    "kind": "text",
+                    "start": 7065,
+                    "end": 7098
+                  },
+                  {
+                    "page": 1,
+                    "text": "− POC & Stakeholder Initiatives: Led vendor POCs, feasibility studies, requirement gathering, demos, and UAT support  across projects.",
+                    "block_id": "b124",
+                    "kind": "text",
+                    "start": 7101,
+                    "end": 7235
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_4",
+              "label": "Business Development Intern | Alibaba | May’16 – Jun’16",
+              "state": "month_range",
+              "start": [
+                2016,
+                5
+              ],
+              "end": [
+                2016,
+                6
+              ],
+              "months": 2,
+              "raw": "May’16 – Jun’16",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Business Development Intern | Alibaba | May’16 – Jun’16",
+                    "block_id": "b125",
+                    "kind": "text",
+                    "start": 7238,
+                    "end": 7293
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_5",
+              "label": "Key Result Areas:",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Key Result Areas:",
+                    "block_id": "b126",
+                    "kind": "text",
+                    "start": 7297,
+                    "end": 7314
+                  },
+                  {
+                    "page": 1,
+                    "text": "− Market Strategy & Analysis: Developed go-to-market strategy for new business clusters and analyzed supplier performance.",
+                    "block_id": "b127",
+                    "kind": "text",
+                    "start": 7318,
+                    "end": 7440
+                  },
+                  {
+                    "page": 1,
+                    "text": "− Data Analysis & Insights: Gathered and analyzed supplier feedback to improve business efficiency and decision-making.",
+                    "block_id": "b128",
+                    "kind": "text",
+                    "start": 7443,
+                    "end": 7562
+                  },
+                  {
+                    "page": 1,
+                    "text": "− Pilot Project Execution: Supported implementation of pilot initiatives (Million India Talent).",
+                    "block_id": "b129",
+                    "kind": "text",
+                    "start": 7565,
+                    "end": 7661
+                  },
+                  {
+                    "page": 1,
+                    "text": "Assistant Professor | Fr. Agnel Polytechnic / Goa Engineering College | Nov’11 – Dec’14",
+                    "block_id": "b130",
+                    "kind": "text",
+                    "start": 7664,
+                    "end": 7751
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_6",
+              "label": "Key Result Areas:",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Key Result Areas:",
+                    "block_id": "b131",
+                    "kind": "text",
+                    "start": 7755,
+                    "end": 7772
+                  },
+                  {
+                    "page": 1,
+                    "text": "− Academic Delivery & Mentorship: Delivered engineering curriculum and mentored students for academic and project success.",
+                    "block_id": "b132",
+                    "kind": "text",
+                    "start": 7776,
+                    "end": 7898
+                  },
+                  {
+                    "page": 1,
+                    "text": "− Student Development & Evaluation: Guided projects and conducted performance analysis and reporting.",
+                    "block_id": "b133",
+                    "kind": "text",
+                    "start": 7901,
+                    "end": 8002
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 3,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 1,
+            "duration_only": 0,
+            "undated": 2,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v3c8e9831baee54d4",
+              "label": "Master in Management",
+              "state": "single_date",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "2017",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "2017 Master in Management, Marketing",
+                    "block_id": "b66",
+                    "kind": "text",
+                    "start": 3297,
+                    "end": 3333
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "2017",
+                    "block_id": "b66",
+                    "kind": "text",
+                    "start": 3297,
+                    "end": 3301
+                  },
+                  {
+                    "page": 1,
+                    "text": "2011",
+                    "block_id": "b68",
+                    "kind": "text",
+                    "start": 3369,
+                    "end": 3373
+                  }
+                ],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Master in Management",
+                    "block_id": "b66",
+                    "kind": "text",
+                    "start": 3302,
+                    "end": 3322
+                  }
+                ],
+                "section": "EDUCATION",
+                "date_label": "2017",
+                "is_present": false
+              }
+            },
+            {
+              "id": "vc686831a8af85d80",
+              "label": "Scrum Certification+Scrum Master- Udemy",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "• Scrum Certification+Scrum Master-",
+                    "block_id": "b78",
+                    "kind": "text",
+                    "start": 3658,
+                    "end": 3693
+                  },
+                  {
+                    "page": 1,
+                    "text": "Udemy",
+                    "block_id": "b78",
+                    "kind": "text",
+                    "start": 3694,
+                    "end": 3699
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "Mar’21 – Apr’22",
+                    "block_id": "b92",
+                    "kind": "text",
+                    "start": 4417,
+                    "end": 4432
+                  }
+                ],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Scrum Certification+Scrum Master-",
+                    "block_id": "b78",
+                    "kind": "text",
+                    "start": 3660,
+                    "end": 3693
+                  },
+                  {
+                    "page": 1,
+                    "text": "Udemy",
+                    "block_id": "b78",
+                    "kind": "text",
+                    "start": 3694,
+                    "end": 3699
+                  }
+                ],
+                "section": "EDUCATION",
+                "date_label": "",
+                "is_present": false
+              }
+            },
+            {
+              "id": "vdcea29eea10d2b45",
+              "label": "− Agile Delivery & Scrum Master Role: Facilitated scrum ceremonies",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "− Agile Delivery & Scrum Master Role: Facilitated scrum ceremonies, sprint planning, and retrospectives, ensuring Agile adoption.",
+                    "block_id": "b95",
+                    "kind": "text",
+                    "start": 4599,
+                    "end": 4728
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "Mar’21 – Apr’22",
+                    "block_id": "b100",
+                    "kind": "text",
+                    "start": 5248,
+                    "end": 5263
+                  },
+                  {
+                    "page": 1,
+                    "text": "Jun’17 – Dec’20",
+                    "block_id": "b104",
+                    "kind": "text",
+                    "start": 5522,
+                    "end": 5537
+                  }
+                ],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Agile Delivery & Scrum Master Role: Facilitated scrum ceremonies",
+                    "block_id": "b95",
+                    "kind": "text",
+                    "start": 4601,
+                    "end": 4665
+                  }
+                ],
+                "section": "EDUCATION",
+                "date_label": "",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 56,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": true,
+        "unrepresented_periods_in_category": [],
+        "entries": 2,
+        "dated_periods": 2,
+        "represented_months": 54,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 2,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "va8ba3c069e9d2b43",
+            "label": "Senior Consultant",
+            "state": "month_range",
+            "start": [
+              2022,
+              4
+            ],
+            "end": [
+              2023,
+              9
+            ],
+            "months": 18,
+            "raw": "Apr’22 – Sept’23",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Senior Consultant | Capgemini | Apr’22 – Sept’23",
+                  "block_id": "b42",
+                  "kind": "text",
+                  "start": 2453,
+                  "end": 2501
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Apr’22 – Sept’23",
+                  "block_id": "b42",
+                  "kind": "text",
+                  "start": 2485,
+                  "end": 2501
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Capgemini",
+                  "block_id": "b42",
+                  "kind": "text",
+                  "start": 2473,
+                  "end": 2482
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Senior Consultant",
+                  "block_id": "b42",
+                  "kind": "text",
+                  "start": 2453,
+                  "end": 2470
+                }
+              ],
+              "section": "WORK EXPERIENCE",
+              "date_label": "Apr’22 – Sept’23",
+              "is_present": false
+            }
+          },
+          {
+            "id": "vd5b54cebd42d9a47",
+            "label": "Senior Consultant",
+            "state": "month_range",
+            "start": [
+              2023,
+              10
+            ],
+            "end": [
+              2026,
+              9
+            ],
+            "months": 36,
+            "raw": "Oct’23 – Present",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Senior Consultant | Cognizant | Oct’23 – Present",
+                  "block_id": "b27",
+                  "kind": "text",
+                  "start": 1415,
+                  "end": 1463
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Oct’23 – Present",
+                  "block_id": "b27",
+                  "kind": "text",
+                  "start": 1447,
+                  "end": 1463
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Cognizant",
+                  "block_id": "b27",
+                  "kind": "text",
+                  "start": 1435,
+                  "end": 1444
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Senior Consultant",
+                  "block_id": "b27",
+                  "kind": "text",
+                  "start": 1415,
+                  "end": 1432
+                }
+              ],
+              "section": "WORK EXPERIENCE",
+              "date_label": "Oct’23 – Present",
+              "is_present": true
+            }
+          }
+        ]
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 6,
+        "dated_periods": 1,
+        "represented_months": 2,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 1,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 5,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "proj_1",
+            "label": "Aggregator Platform (US Client) (Mar’21 – Apr’22)",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Project: E-commerce Aggregator Platform (US Client) (Mar’21 – Apr’22)",
+                  "block_id": "b100",
+                  "kind": "text",
+                  "start": 5195,
+                  "end": 5264
+                },
+                {
+                  "page": 1,
+                  "text": "Role: Business Analyst / Product Owner",
+                  "block_id": "b101",
+                  "kind": "text",
+                  "start": 5266,
+                  "end": 5304
+                },
+                {
+                  "page": 1,
+                  "text": "− Performed impact analysis, backlog updates, and sprint alignment within Agile framework.",
+                  "block_id": "b102",
+                  "kind": "text",
+                  "start": 5308,
+                  "end": 5398
+                },
+                {
+                  "page": 1,
+                  "text": "− Ensured repository management and requirement traceability across sprints.",
+                  "block_id": "b103",
+                  "kind": "text",
+                  "start": 5401,
+                  "end": 5477
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_2",
+            "label": "/ Business Analyst | MCX | Jun’17 – Dec’20",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Project Lead / Business Analyst | MCX | Jun’17 – Dec’20",
+                  "block_id": "b104",
+                  "kind": "text",
+                  "start": 5482,
+                  "end": 5537
+                },
+                {
+                  "page": 1,
+                  "text": "Key Result Areas:",
+                  "block_id": "b105",
+                  "kind": "text",
+                  "start": 5543,
+                  "end": 5560
+                },
+                {
+                  "page": 1,
+                  "text": "− Trade Lifecycle: Good Knowledge of TLC as worked across requirements of various department of an Exchange",
+                  "block_id": "b106",
+                  "kind": "text",
+                  "start": 5564,
+                  "end": 5671
+                },
+                {
+                  "page": 1,
+                  "text": "− Agile & Waterfall Delivery: Managed projects across Agile and Waterfall methodologies, ensuring structured and timely execution.",
+                  "block_id": "b107",
+                  "kind": "text",
+                  "start": 5673,
+                  "end": 5803
+                },
+                {
+                  "page": 1,
+                  "text": "− Requirements & Solution Design: Developed FSDs, data flow diagrams, use cases, wireframes , and translated requirements for cross-",
+                  "block_id": "b108",
+                  "kind": "text",
+                  "start": 5806,
+                  "end": 5938
+                },
+                {
+                  "page": 1,
+                  "text": "functional teams.",
+                  "block_id": "b108",
+                  "kind": "text",
+                  "start": 5939,
+                  "end": 5956
+                },
+                {
+                  "page": 1,
+                  "text": "− Stakeholder & Vendor Management:  Collaborated with stakeholders and vendors, managing POCs, requirement alignment, and",
+                  "block_id": "b109",
+                  "kind": "text",
+                  "start": 5959,
+                  "end": 6080
+                },
+                {
+                  "page": 1,
+                  "text": "delivery coordination.",
+                  "block_id": "b110",
+                  "kind": "text",
+                  "start": 6082,
+                  "end": 6104
+                },
+                {
+                  "page": 1,
+                  "text": "− Testing & Quality Assurance: Reviewed test cases, supported QA teams, and ensured quality delivery through validation and UAT support.",
+                  "block_id": "b111",
+                  "kind": "text",
+                  "start": 6107,
+                  "end": 6243
+                },
+                {
+                  "page": 1,
+                  "text": "− Change Management & Production Support: Handled CMR process, deployments, and production issue resolution, ensuring business continuity.",
+                  "block_id": "b112",
+                  "kind": "text",
+                  "start": 6246,
+                  "end": 6384
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_3",
+            "label": "Internal departments of Exchange",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Part of Development team",
+                  "block_id": "b114",
+                  "kind": "text",
+                  "start": 6404,
+                  "end": 6428
+                },
+                {
+                  "page": 1,
+                  "text": "Client: Internal departments of Exchange",
+                  "block_id": "b115",
+                  "kind": "text",
+                  "start": 6430,
+                  "end": 6470
+                },
+                {
+                  "page": 1,
+                  "text": "− Regulatory Reporting Application : Managed requirements and reporting logic  using SQL/Excel, ensuring compliance with regulatory",
+                  "block_id": "b116",
+                  "kind": "text",
+                  "start": 6474,
+                  "end": 6605
+                },
+                {
+                  "page": 1,
+                  "text": "guidelines using Excel/SQL-based validation.",
+                  "block_id": "b117",
+                  "kind": "text",
+                  "start": 6607,
+                  "end": 6651
+                },
+                {
+                  "page": 1,
+                  "text": "− Charges & Reporting System: Owned application managing client/member charges, performing data analysis and reporting using SQL",
+                  "block_id": "b118",
+                  "kind": "text",
+                  "start": 6654,
+                  "end": 6782
+                },
+                {
+                  "page": 1,
+                  "text": "and Tableau.",
+                  "block_id": "b119",
+                  "kind": "text",
+                  "start": 6784,
+                  "end": 6796
+                },
+                {
+                  "page": 1,
+                  "text": "− Commodity Tracking System : Supported lifecycle tracking of warehouse commodities, ensuring data accuracy and stakeholder",
+                  "block_id": "b120",
+                  "kind": "text",
+                  "start": 6799,
+                  "end": 6922
+                },
+                {
+                  "page": 1,
+                  "text": "reporting.",
+                  "block_id": "b121",
+                  "kind": "text",
+                  "start": 6924,
+                  "end": 6934
+                },
+                {
+                  "page": 1,
+                  "text": "− Multiple Enterprise Portals : Acted as Project Lead/Scrum Master , owned the project pipeline, managing requirements, sprint",
+                  "block_id": "b122",
+                  "kind": "text",
+                  "start": 6937,
+                  "end": 7063
+                },
+                {
+                  "page": 1,
+                  "text": "execution, and team coordination.",
+                  "block_id": "b123",
+                  "kind": "text",
+                  "start": 7065,
+                  "end": 7098
+                },
+                {
+                  "page": 1,
+                  "text": "− POC & Stakeholder Initiatives: Led vendor POCs, feasibility studies, requirement gathering, demos, and UAT support  across projects.",
+                  "block_id": "b124",
+                  "kind": "text",
+                  "start": 7101,
+                  "end": 7235
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_4",
+            "label": "Business Development Intern | Alibaba | May’16 – Jun’16",
+            "state": "month_range",
+            "start": [
+              2016,
+              5
+            ],
+            "end": [
+              2016,
+              6
+            ],
+            "months": 2,
+            "raw": "May’16 – Jun’16",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Business Development Intern | Alibaba | May’16 – Jun’16",
+                  "block_id": "b125",
+                  "kind": "text",
+                  "start": 7238,
+                  "end": 7293
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_5",
+            "label": "Key Result Areas:",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Key Result Areas:",
+                  "block_id": "b126",
+                  "kind": "text",
+                  "start": 7297,
+                  "end": 7314
+                },
+                {
+                  "page": 1,
+                  "text": "− Market Strategy & Analysis: Developed go-to-market strategy for new business clusters and analyzed supplier performance.",
+                  "block_id": "b127",
+                  "kind": "text",
+                  "start": 7318,
+                  "end": 7440
+                },
+                {
+                  "page": 1,
+                  "text": "− Data Analysis & Insights: Gathered and analyzed supplier feedback to improve business efficiency and decision-making.",
+                  "block_id": "b128",
+                  "kind": "text",
+                  "start": 7443,
+                  "end": 7562
+                },
+                {
+                  "page": 1,
+                  "text": "− Pilot Project Execution: Supported implementation of pilot initiatives (Million India Talent).",
+                  "block_id": "b129",
+                  "kind": "text",
+                  "start": 7565,
+                  "end": 7661
+                },
+                {
+                  "page": 1,
+                  "text": "Assistant Professor | Fr. Agnel Polytechnic / Goa Engineering College | Nov’11 – Dec’14",
+                  "block_id": "b130",
+                  "kind": "text",
+                  "start": 7664,
+                  "end": 7751
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_6",
+            "label": "Key Result Areas:",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Key Result Areas:",
+                  "block_id": "b131",
+                  "kind": "text",
+                  "start": 7755,
+                  "end": 7772
+                },
+                {
+                  "page": 1,
+                  "text": "− Academic Delivery & Mentorship: Delivered engineering curriculum and mentored students for academic and project success.",
+                  "block_id": "b132",
+                  "kind": "text",
+                  "start": 7776,
+                  "end": 7898
+                },
+                {
+                  "page": 1,
+                  "text": "− Student Development & Evaluation: Guided projects and conducted performance analysis and reporting.",
+                  "block_id": "b133",
+                  "kind": "text",
+                  "start": 7901,
+                  "end": 8002
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 3,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 1,
+          "duration_only": 0,
+          "undated": 2,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v3c8e9831baee54d4",
+            "label": "Master in Management",
+            "state": "single_date",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "2017",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "2017 Master in Management, Marketing",
+                  "block_id": "b66",
+                  "kind": "text",
+                  "start": 3297,
+                  "end": 3333
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "2017",
+                  "block_id": "b66",
+                  "kind": "text",
+                  "start": 3297,
+                  "end": 3301
+                },
+                {
+                  "page": 1,
+                  "text": "2011",
+                  "block_id": "b68",
+                  "kind": "text",
+                  "start": 3369,
+                  "end": 3373
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Master in Management",
+                  "block_id": "b66",
+                  "kind": "text",
+                  "start": 3302,
+                  "end": 3322
+                }
+              ],
+              "section": "EDUCATION",
+              "date_label": "2017",
+              "is_present": false
+            }
+          },
+          {
+            "id": "vc686831a8af85d80",
+            "label": "Scrum Certification+Scrum Master- Udemy",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "• Scrum Certification+Scrum Master-",
+                  "block_id": "b78",
+                  "kind": "text",
+                  "start": 3658,
+                  "end": 3693
+                },
+                {
+                  "page": 1,
+                  "text": "Udemy",
+                  "block_id": "b78",
+                  "kind": "text",
+                  "start": 3694,
+                  "end": 3699
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Mar’21 – Apr’22",
+                  "block_id": "b92",
+                  "kind": "text",
+                  "start": 4417,
+                  "end": 4432
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Scrum Certification+Scrum Master-",
+                  "block_id": "b78",
+                  "kind": "text",
+                  "start": 3660,
+                  "end": 3693
+                },
+                {
+                  "page": 1,
+                  "text": "Udemy",
+                  "block_id": "b78",
+                  "kind": "text",
+                  "start": 3694,
+                  "end": 3699
+                }
+              ],
+              "section": "EDUCATION",
+              "date_label": "",
+              "is_present": false
+            }
+          },
+          {
+            "id": "vdcea29eea10d2b45",
+            "label": "− Agile Delivery & Scrum Master Role: Facilitated scrum ceremonies",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "− Agile Delivery & Scrum Master Role: Facilitated scrum ceremonies, sprint planning, and retrospectives, ensuring Agile adoption.",
+                  "block_id": "b95",
+                  "kind": "text",
+                  "start": 4599,
+                  "end": 4728
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Mar’21 – Apr’22",
+                  "block_id": "b100",
+                  "kind": "text",
+                  "start": 5248,
+                  "end": 5263
+                },
+                {
+                  "page": 1,
+                  "text": "Jun’17 – Dec’20",
+                  "block_id": "b104",
+                  "kind": "text",
+                  "start": 5522,
+                  "end": 5537
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Agile Delivery & Scrum Master Role: Facilitated scrum ceremonies",
+                  "block_id": "b95",
+                  "kind": "text",
+                  "start": 4601,
+                  "end": 4665
+                }
+              ],
+              "section": "EDUCATION",
+              "date_label": "",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 56,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

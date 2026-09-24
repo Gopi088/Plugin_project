@@ -1,0 +1,1642 @@
+{
+  "file_name": "MadhuriMule.docx",
+  "input_mode": "text_snapshot",
+  "input_sha256": "7e3d1eeeebdec75998b371329792804ffd95492ce72fc1adbf799c73575ac287",
+  "doc_id": "7e3d1eeeebdec75998b37132",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 7,
+    "dated_share": 0.143,
+    "unresolved": 6,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [],
+  "education": [
+    {
+      "id": "v32ee6230b2d0a7c2",
+      "type": "EDUCATION",
+      "company": "Viswasai junior college",
+      "title": "",
+      "start_date": "2019-04",
+      "end_date": "2021-04",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Viswasai junior college |mpc ; Percentage – 80\tApril 2019 - April 2021",
+            "block_id": "b9",
+            "kind": "text",
+            "start": 272,
+            "end": 342
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "April 2019 - April 2021",
+            "block_id": "b9",
+            "kind": "text",
+            "start": 319,
+            "end": 342
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Viswasai junior college",
+            "block_id": "b9",
+            "kind": "text",
+            "start": 272,
+            "end": 295
+          }
+        ],
+        "title": [],
+        "section": "EDUCATION",
+        "date_label": "April 2019 - April 2021",
+        "is_present": false
+      },
+      "precision": "month",
+      "date_label": "April 2019 - April 2021"
+    },
+    {
+      "id": "vafa8e19e78537147",
+      "type": "EDUCATION",
+      "company": "Lakireddy Bali Reddy College Of Engineering",
+      "title": "",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Lakireddy Bali Reddy College Of Engineering",
+            "block_id": "b4",
+            "kind": "text",
+            "start": 117,
+            "end": 160
+          },
+          {
+            "page": 1,
+            "text": "Bachelor of Electronics and Communication [ECE]; GPA: 8.3",
+            "block_id": "b5",
+            "kind": "text",
+            "start": 161,
+            "end": 218
+          }
+        ],
+        "dates": [],
+        "company": [
+          {
+            "page": 1,
+            "text": "Lakireddy Bali Reddy College Of Engineering",
+            "block_id": "b4",
+            "kind": "text",
+            "start": 117,
+            "end": 160
+          }
+        ],
+        "title": [],
+        "section": "Lakireddy Bali Reddy College Of Engineering",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "Personal Portfolio | personalportfolio-madhuri-2052002.netlify.app\tMarch 25- April 2025",
+      "client": "",
+      "role": "",
+      "duration": "April 2025",
+      "details": [
+        "Personal Portfolio | personalportfolio-madhuri-2052002.netlify.app\tMarch 25- April 2025",
+        "Developed a full-stack personal portfolio application using Angular for the frontend and Node.js with Express.js for the backend.",
+        "Utilized MongoDB Atlas as the database solution for scalable and secure data storage.",
+        "Implemented RESTful APIs for seamless data communication between the frontend and backend.",
+        "Deployed the backend on Render and the frontend on Netlify, ensuring continuous deployment and accessibility."
+      ],
+      "raw_text": "Personal Portfolio | personalportfolio-madhuri-2052002.netlify.app\tMarch 25- April 2025\nDeveloped a full-stack personal portfolio application using Angular for the frontend and Node.js with Express.js for the backend.\nUtilized MongoDB Atlas as the database solution for scalable and secure data storage.\nImplemented RESTful APIs for seamless data communication between the frontend and backend.\nDeployed the backend on Render and the frontend on Netlify, ensuring continuous deployment and accessibility.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Personal Portfolio | personalportfolio-madhuri-2052002.netlify.app\tMarch 25- April 2025",
+            "block_id": "b27",
+            "kind": "text",
+            "start": 2241,
+            "end": 2328
+          },
+          {
+            "page": 1,
+            "text": "Developed a full-stack personal portfolio application using Angular for the frontend and Node.js with Express.js for the backend.",
+            "block_id": "b28",
+            "kind": "text",
+            "start": 2329,
+            "end": 2458
+          },
+          {
+            "page": 1,
+            "text": "Utilized MongoDB Atlas as the database solution for scalable and secure data storage.",
+            "block_id": "b29",
+            "kind": "text",
+            "start": 2459,
+            "end": 2544
+          },
+          {
+            "page": 1,
+            "text": "Implemented RESTful APIs for seamless data communication between the frontend and backend.",
+            "block_id": "b30",
+            "kind": "text",
+            "start": 2545,
+            "end": 2635
+          },
+          {
+            "page": 1,
+            "text": "Deployed the backend on Render and the frontend on Netlify, ensuring continuous deployment and accessibility.",
+            "block_id": "b31",
+            "kind": "text",
+            "start": 2636,
+            "end": 2745
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_2",
+      "name": "Payment Integration | Ongoing\tApril 25- Present",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Payment Integration | Ongoing\tApril 25- Present",
+        "Integrated secure payment gateway using Java, Spring Boot, and REST APIs in a microservices-based architecture."
+      ],
+      "raw_text": "Payment Integration | Ongoing\tApril 25- Present\nIntegrated secure payment gateway using Java, Spring Boot, and REST APIs in a microservices-based architecture.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Payment Integration | Ongoing\tApril 25- Present",
+            "block_id": "b32",
+            "kind": "text",
+            "start": 2746,
+            "end": 2793
+          },
+          {
+            "page": 1,
+            "text": "Integrated secure payment gateway using Java, Spring Boot, and REST APIs in a microservices-based architecture.",
+            "block_id": "b33",
+            "kind": "text",
+            "start": 2794,
+            "end": 2905
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_3",
+      "name": "Followed Agile/Scrum methodologies, managed tasks via JIRA, and collaborated using Git and Bitbucket.",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Followed Agile/Scrum methodologies, managed tasks via JIRA, and collaborated using Git and Bitbucket.",
+        "Deployed microservices with Maven and embedded Tomcat, ensuring smooth CI/CD pipeline.",
+        "Leveraged AWS services for cloud deployment and scalability of payment modules."
+      ],
+      "raw_text": "Followed Agile/Scrum methodologies, managed tasks via JIRA, and collaborated using Git and Bitbucket.\nDeployed microservices with Maven and embedded Tomcat, ensuring smooth CI/CD pipeline.\nLeveraged AWS services for cloud deployment and scalability of payment modules.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Followed Agile/Scrum methodologies, managed tasks via JIRA, and collaborated using Git and Bitbucket.",
+            "block_id": "b34",
+            "kind": "text",
+            "start": 2906,
+            "end": 3007
+          },
+          {
+            "page": 1,
+            "text": "Deployed microservices with Maven and embedded Tomcat, ensuring smooth CI/CD pipeline.",
+            "block_id": "b35",
+            "kind": "text",
+            "start": 3008,
+            "end": 3094
+          },
+          {
+            "page": 1,
+            "text": "Leveraged AWS services for cloud deployment and scalability of payment modules.",
+            "block_id": "b36",
+            "kind": "text",
+            "start": 3095,
+            "end": 3174
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_4",
+      "name": "CERTIFICATES",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "CERTIFICATES"
+      ],
+      "raw_text": "CERTIFICATES",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "CERTIFICATES",
+            "block_id": "b37",
+            "kind": "text",
+            "start": 3175,
+            "end": 3187
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_5",
+      "name": "Full stack development- Java (Exceler)\tmay-septemper 2024",
+      "client": "",
+      "role": "",
+      "duration": "2024",
+      "details": [
+        "Full stack development- Java (Exceler)\tmay-septemper 2024",
+        "Completed Full Stack Web Development course focused on Java, Spring Boot, REST APIs, HTML, CSS, JavaScript, and MySQL."
+      ],
+      "raw_text": "Full stack development- Java (Exceler)\tmay-septemper 2024\nCompleted Full Stack Web Development course focused on Java, Spring Boot, REST APIs, HTML, CSS, JavaScript, and MySQL.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Full stack development- Java (Exceler)\tmay-septemper 2024",
+            "block_id": "b38",
+            "kind": "text",
+            "start": 3188,
+            "end": 3245
+          },
+          {
+            "page": 1,
+            "text": "Completed Full Stack Web Development course focused on Java, Spring Boot, REST APIs, HTML, CSS, JavaScript, and MySQL.",
+            "block_id": "b39",
+            "kind": "text",
+            "start": 3246,
+            "end": 3364
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_6",
+      "name": "Gained hands-on experience building end-to-end web applications with frontend to backend integration and CRUD operations.",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Gained hands-on experience building end-to-end web applications with frontend to backend integration and CRUD operations."
+      ],
+      "raw_text": "Gained hands-on experience building end-to-end web applications with frontend to backend integration and CRUD operations.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Gained hands-on experience building end-to-end web applications with frontend to backend integration and CRUD operations.",
+            "block_id": "b40",
+            "kind": "text",
+            "start": 3365,
+            "end": 3486
+          }
+        ]
+      }
+    }
+  ],
+  "gaps": [],
+  "total_work_experience_entries": 0,
+  "total_projects_entries": 6,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "section EDUCATION: entry without dated header preserved as-is",
+    "e2: dates cannot be assigned unambiguously",
+    "e6: dates cannot be assigned unambiguously",
+    "conflicting/ambiguous date kept for 'Personal Portfolio | personalportfolio-madhuri-2052002.netlify.app\tMarch 25'"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "7e3d1eeeebdec75998b37132",
+    "filename": "MadhuriMule.docx",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v32ee6230b2d0a7c2",
+        "type": "EDUCATION",
+        "title": "",
+        "org": "Viswasai junior college",
+        "start": "2019-04",
+        "end": "2021-04",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "Viswasai junior college |mpc ; Percentage – 80\tApril 2019 - April 2021",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Viswasai junior college |mpc ; Percentage – 80\tApril 2019 - April 2021",
+              "block_id": "b9",
+              "kind": "text",
+              "start": 272,
+              "end": 342
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "April 2019 - April 2021",
+              "block_id": "b9",
+              "kind": "text",
+              "start": 319,
+              "end": 342
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Viswasai junior college",
+              "block_id": "b9",
+              "kind": "text",
+              "start": 272,
+              "end": 295
+            }
+          ],
+          "title": [],
+          "section": "EDUCATION",
+          "date_label": "April 2019 - April 2021",
+          "is_present": false
+        },
+        "date_label": "April 2019 - April 2021",
+        "section": "EDUCATION",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "vafa8e19e78537147",
+        "type": "EDUCATION",
+        "title": "",
+        "org": "Lakireddy Bali Reddy College Of Engineering",
+        "entry_text": "Lakireddy Bali Reddy College Of Engineering Bachelor of Electronics and Communication [ECE]; GPA: 8.3",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Lakireddy Bali Reddy College Of Engineering",
+              "block_id": "b4",
+              "kind": "text",
+              "start": 117,
+              "end": 160
+            },
+            {
+              "page": 1,
+              "text": "Bachelor of Electronics and Communication [ECE]; GPA: 8.3",
+              "block_id": "b5",
+              "kind": "text",
+              "start": 161,
+              "end": 218
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "Lakireddy Bali Reddy College Of Engineering",
+              "block_id": "b4",
+              "kind": "text",
+              "start": 117,
+              "end": 160
+            }
+          ],
+          "title": [],
+          "section": "Lakireddy Bali Reddy College Of Engineering",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Lakireddy Bali Reddy College Of Engineering",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v57cc20722f9db094",
+        "type": "PROJECT",
+        "title": "Personal Portfolio | personalportfolio-madhuri-2052002.netlify.app\tMarch 25",
+        "org": "",
+        "entry_text": "Personal Portfolio | personalportfolio-madhuri-2052002.netlify.app\tMarch 25- April 2025 Developed a full-stack personal portfolio application using Angular for the frontend and Node.js with Express.js for the backend. Utilized MongoDB Atlas as the database solution for scalable and secure data stora",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Personal Portfolio | personalportfolio-madhuri-2052002.netlify.app\tMarch 25- April 2025",
+              "block_id": "b27",
+              "kind": "text",
+              "start": 2241,
+              "end": 2328
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "April 2025",
+              "block_id": "b27",
+              "kind": "text",
+              "start": 2318,
+              "end": 2328
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Personal Portfolio | personalportfolio-madhuri-2052002.netlify.app\tMarch 25",
+              "block_id": "b27",
+              "kind": "text",
+              "start": 2241,
+              "end": 2316
+            }
+          ],
+          "section": "PROJECTS",
+          "date_label": "April 2025",
+          "is_present": false
+        },
+        "date_label": "April 2025",
+        "section": "PROJECTS",
+        "status": "AMBIGUOUS"
+      },
+      {
+        "id": "v6d5f3e038826262f",
+        "type": "PROJECT",
+        "title": "Payment Integration | Ongoing\tApril 25- Present",
+        "org": "",
+        "entry_text": "Payment Integration | Ongoing\tApril 25- Present Integrated secure payment gateway using Java, Spring Boot, and REST APIs in a microservices-based architecture.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Payment Integration | Ongoing\tApril 25- Present",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 2746,
+              "end": 2793
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Payment Integration | Ongoing\tApril 25- Present",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 2746,
+              "end": 2793
+            }
+          ],
+          "section": "PROJECTS",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROJECTS",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v7cf0f9b90f666e5f",
+        "type": "PROJECT",
+        "title": "Followed Agile/Scrum methodologies, managed tasks via JIRA, and collaborated using Git and Bitbucket.",
+        "org": "",
+        "entry_text": "Followed Agile/Scrum methodologies, managed tasks via JIRA, and collaborated using Git and Bitbucket. Deployed microservices with Maven and embedded Tomcat, ensuring smooth CI/CD pipeline. Leveraged AWS services for cloud deployment and scalability of payment modules.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Followed Agile/Scrum methodologies, managed tasks via JIRA, and collaborated using Git and Bitbucket.",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 2906,
+              "end": 3007
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Followed Agile/Scrum methodologies, managed tasks via JIRA, and collaborated using Git and Bitbucket",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 2906,
+              "end": 3006
+            }
+          ],
+          "section": "PROJECTS",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROJECTS",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v53021a2196babbe3",
+        "type": "PROJECT",
+        "title": "CERTIFICATES",
+        "org": "",
+        "entry_text": "CERTIFICATES",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "CERTIFICATES",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 3175,
+              "end": 3187
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "CERTIFICATES",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 3175,
+              "end": 3187
+            }
+          ],
+          "section": "PROJECTS",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROJECTS",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "vbd6723116735f31e",
+        "type": "PROJECT",
+        "title": "Gained hands-on experience building end-to-end web applications with frontend to backend integration and CRUD operations.",
+        "org": "",
+        "entry_text": "Gained hands-on experience building end-to-end web applications with frontend to backend integration and CRUD operations.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Gained hands-on experience building end-to-end web applications with frontend to backend integration and CRUD operations.",
+              "block_id": "b40",
+              "kind": "text",
+              "start": 3365,
+              "end": 3486
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Gained hands-on experience building end-to-end web applications with frontend to backend integration and CRUD operations",
+              "block_id": "b40",
+              "kind": "text",
+              "start": 3365,
+              "end": 3485
+            }
+          ],
+          "section": "PROJECTS",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROJECTS",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "Personal Portfolio | personalportfolio-madhuri-2052002.netlify.app\tMarch 25- April 2025",
+        "client": "",
+        "role": "",
+        "duration": "April 2025",
+        "details": [
+          "Personal Portfolio | personalportfolio-madhuri-2052002.netlify.app\tMarch 25- April 2025",
+          "Developed a full-stack personal portfolio application using Angular for the frontend and Node.js with Express.js for the backend.",
+          "Utilized MongoDB Atlas as the database solution for scalable and secure data storage.",
+          "Implemented RESTful APIs for seamless data communication between the frontend and backend.",
+          "Deployed the backend on Render and the frontend on Netlify, ensuring continuous deployment and accessibility."
+        ],
+        "raw_text": "Personal Portfolio | personalportfolio-madhuri-2052002.netlify.app\tMarch 25- April 2025\nDeveloped a full-stack personal portfolio application using Angular for the frontend and Node.js with Express.js for the backend.\nUtilized MongoDB Atlas as the database solution for scalable and secure data storage.\nImplemented RESTful APIs for seamless data communication between the frontend and backend.\nDeployed the backend on Render and the frontend on Netlify, ensuring continuous deployment and accessibility.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Personal Portfolio | personalportfolio-madhuri-2052002.netlify.app\tMarch 25- April 2025",
+              "block_id": "b27",
+              "kind": "text",
+              "start": 2241,
+              "end": 2328
+            },
+            {
+              "page": 1,
+              "text": "Developed a full-stack personal portfolio application using Angular for the frontend and Node.js with Express.js for the backend.",
+              "block_id": "b28",
+              "kind": "text",
+              "start": 2329,
+              "end": 2458
+            },
+            {
+              "page": 1,
+              "text": "Utilized MongoDB Atlas as the database solution for scalable and secure data storage.",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 2459,
+              "end": 2544
+            },
+            {
+              "page": 1,
+              "text": "Implemented RESTful APIs for seamless data communication between the frontend and backend.",
+              "block_id": "b30",
+              "kind": "text",
+              "start": 2545,
+              "end": 2635
+            },
+            {
+              "page": 1,
+              "text": "Deployed the backend on Render and the frontend on Netlify, ensuring continuous deployment and accessibility.",
+              "block_id": "b31",
+              "kind": "text",
+              "start": 2636,
+              "end": 2745
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "Payment Integration | Ongoing\tApril 25- Present",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Payment Integration | Ongoing\tApril 25- Present",
+          "Integrated secure payment gateway using Java, Spring Boot, and REST APIs in a microservices-based architecture."
+        ],
+        "raw_text": "Payment Integration | Ongoing\tApril 25- Present\nIntegrated secure payment gateway using Java, Spring Boot, and REST APIs in a microservices-based architecture.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Payment Integration | Ongoing\tApril 25- Present",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 2746,
+              "end": 2793
+            },
+            {
+              "page": 1,
+              "text": "Integrated secure payment gateway using Java, Spring Boot, and REST APIs in a microservices-based architecture.",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 2794,
+              "end": 2905
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_3",
+        "name": "Followed Agile/Scrum methodologies, managed tasks via JIRA, and collaborated using Git and Bitbucket.",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Followed Agile/Scrum methodologies, managed tasks via JIRA, and collaborated using Git and Bitbucket.",
+          "Deployed microservices with Maven and embedded Tomcat, ensuring smooth CI/CD pipeline.",
+          "Leveraged AWS services for cloud deployment and scalability of payment modules."
+        ],
+        "raw_text": "Followed Agile/Scrum methodologies, managed tasks via JIRA, and collaborated using Git and Bitbucket.\nDeployed microservices with Maven and embedded Tomcat, ensuring smooth CI/CD pipeline.\nLeveraged AWS services for cloud deployment and scalability of payment modules.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Followed Agile/Scrum methodologies, managed tasks via JIRA, and collaborated using Git and Bitbucket.",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 2906,
+              "end": 3007
+            },
+            {
+              "page": 1,
+              "text": "Deployed microservices with Maven and embedded Tomcat, ensuring smooth CI/CD pipeline.",
+              "block_id": "b35",
+              "kind": "text",
+              "start": 3008,
+              "end": 3094
+            },
+            {
+              "page": 1,
+              "text": "Leveraged AWS services for cloud deployment and scalability of payment modules.",
+              "block_id": "b36",
+              "kind": "text",
+              "start": 3095,
+              "end": 3174
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_4",
+        "name": "CERTIFICATES",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "CERTIFICATES"
+        ],
+        "raw_text": "CERTIFICATES",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "CERTIFICATES",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 3175,
+              "end": 3187
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_5",
+        "name": "Full stack development- Java (Exceler)\tmay-septemper 2024",
+        "client": "",
+        "role": "",
+        "duration": "2024",
+        "details": [
+          "Full stack development- Java (Exceler)\tmay-septemper 2024",
+          "Completed Full Stack Web Development course focused on Java, Spring Boot, REST APIs, HTML, CSS, JavaScript, and MySQL."
+        ],
+        "raw_text": "Full stack development- Java (Exceler)\tmay-septemper 2024\nCompleted Full Stack Web Development course focused on Java, Spring Boot, REST APIs, HTML, CSS, JavaScript, and MySQL.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Full stack development- Java (Exceler)\tmay-septemper 2024",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 3188,
+              "end": 3245
+            },
+            {
+              "page": 1,
+              "text": "Completed Full Stack Web Development course focused on Java, Spring Boot, REST APIs, HTML, CSS, JavaScript, and MySQL.",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 3246,
+              "end": 3364
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_6",
+        "name": "Gained hands-on experience building end-to-end web applications with frontend to backend integration and CRUD operations.",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Gained hands-on experience building end-to-end web applications with frontend to backend integration and CRUD operations."
+        ],
+        "raw_text": "Gained hands-on experience building end-to-end web applications with frontend to backend integration and CRUD operations.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Gained hands-on experience building end-to-end web applications with frontend to backend integration and CRUD operations.",
+              "block_id": "b40",
+              "kind": "text",
+              "start": 3365,
+              "end": 3486
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "v57cc20722f9db094"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 7,
+      "dated_share": 0.143,
+      "unresolved": 6,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 25,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 6,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 2,
+            "duration_only": 0,
+            "undated": 4,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "proj_1",
+              "label": "Personal Portfolio | personalportfolio-madhuri-2052002.netlify.app\tMarch 25- April 2025",
+              "state": "single_date",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "April 2025",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Personal Portfolio | personalportfolio-madhuri-2052002.netlify.app\tMarch 25- April 2025",
+                    "block_id": "b27",
+                    "kind": "text",
+                    "start": 2241,
+                    "end": 2328
+                  },
+                  {
+                    "page": 1,
+                    "text": "Developed a full-stack personal portfolio application using Angular for the frontend and Node.js with Express.js for the backend.",
+                    "block_id": "b28",
+                    "kind": "text",
+                    "start": 2329,
+                    "end": 2458
+                  },
+                  {
+                    "page": 1,
+                    "text": "Utilized MongoDB Atlas as the database solution for scalable and secure data storage.",
+                    "block_id": "b29",
+                    "kind": "text",
+                    "start": 2459,
+                    "end": 2544
+                  },
+                  {
+                    "page": 1,
+                    "text": "Implemented RESTful APIs for seamless data communication between the frontend and backend.",
+                    "block_id": "b30",
+                    "kind": "text",
+                    "start": 2545,
+                    "end": 2635
+                  },
+                  {
+                    "page": 1,
+                    "text": "Deployed the backend on Render and the frontend on Netlify, ensuring continuous deployment and accessibility.",
+                    "block_id": "b31",
+                    "kind": "text",
+                    "start": 2636,
+                    "end": 2745
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_2",
+              "label": "Payment Integration | Ongoing\tApril 25- Present",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Payment Integration | Ongoing\tApril 25- Present",
+                    "block_id": "b32",
+                    "kind": "text",
+                    "start": 2746,
+                    "end": 2793
+                  },
+                  {
+                    "page": 1,
+                    "text": "Integrated secure payment gateway using Java, Spring Boot, and REST APIs in a microservices-based architecture.",
+                    "block_id": "b33",
+                    "kind": "text",
+                    "start": 2794,
+                    "end": 2905
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_3",
+              "label": "Followed Agile/Scrum methodologies, managed tasks via JIRA, and collaborated using Git and Bitbucket.",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Followed Agile/Scrum methodologies, managed tasks via JIRA, and collaborated using Git and Bitbucket.",
+                    "block_id": "b34",
+                    "kind": "text",
+                    "start": 2906,
+                    "end": 3007
+                  },
+                  {
+                    "page": 1,
+                    "text": "Deployed microservices with Maven and embedded Tomcat, ensuring smooth CI/CD pipeline.",
+                    "block_id": "b35",
+                    "kind": "text",
+                    "start": 3008,
+                    "end": 3094
+                  },
+                  {
+                    "page": 1,
+                    "text": "Leveraged AWS services for cloud deployment and scalability of payment modules.",
+                    "block_id": "b36",
+                    "kind": "text",
+                    "start": 3095,
+                    "end": 3174
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_4",
+              "label": "CERTIFICATES",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "CERTIFICATES",
+                    "block_id": "b37",
+                    "kind": "text",
+                    "start": 3175,
+                    "end": 3187
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_5",
+              "label": "Full stack development- Java (Exceler)\tmay-septemper 2024",
+              "state": "single_date",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "2024",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Full stack development- Java (Exceler)\tmay-septemper 2024",
+                    "block_id": "b38",
+                    "kind": "text",
+                    "start": 3188,
+                    "end": 3245
+                  },
+                  {
+                    "page": 1,
+                    "text": "Completed Full Stack Web Development course focused on Java, Spring Boot, REST APIs, HTML, CSS, JavaScript, and MySQL.",
+                    "block_id": "b39",
+                    "kind": "text",
+                    "start": 3246,
+                    "end": 3364
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_6",
+              "label": "Gained hands-on experience building end-to-end web applications with frontend to backend integration and CRUD operations.",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Gained hands-on experience building end-to-end web applications with frontend to backend integration and CRUD operations.",
+                    "block_id": "b40",
+                    "kind": "text",
+                    "start": 3365,
+                    "end": 3486
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 2,
+          "dated_periods": 1,
+          "represented_months": 25,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 1,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 1,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v32ee6230b2d0a7c2",
+              "label": "Viswasai junior college",
+              "state": "month_range",
+              "start": [
+                2019,
+                4
+              ],
+              "end": [
+                2021,
+                4
+              ],
+              "months": 25,
+              "raw": "April 2019 - April 2021",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Viswasai junior college |mpc ; Percentage – 80\tApril 2019 - April 2021",
+                    "block_id": "b9",
+                    "kind": "text",
+                    "start": 272,
+                    "end": 342
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "April 2019 - April 2021",
+                    "block_id": "b9",
+                    "kind": "text",
+                    "start": 319,
+                    "end": 342
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Viswasai junior college",
+                    "block_id": "b9",
+                    "kind": "text",
+                    "start": 272,
+                    "end": 295
+                  }
+                ],
+                "title": [],
+                "section": "EDUCATION",
+                "date_label": "April 2019 - April 2021",
+                "is_present": false
+              }
+            },
+            {
+              "id": "vafa8e19e78537147",
+              "label": "Lakireddy Bali Reddy College Of Engineering",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Lakireddy Bali Reddy College Of Engineering",
+                    "block_id": "b4",
+                    "kind": "text",
+                    "start": 117,
+                    "end": 160
+                  },
+                  {
+                    "page": 1,
+                    "text": "Bachelor of Electronics and Communication [ECE]; GPA: 8.3",
+                    "block_id": "b5",
+                    "kind": "text",
+                    "start": 161,
+                    "end": 218
+                  }
+                ],
+                "dates": [],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Lakireddy Bali Reddy College Of Engineering",
+                    "block_id": "b4",
+                    "kind": "text",
+                    "start": 117,
+                    "end": 160
+                  }
+                ],
+                "title": [],
+                "section": "Lakireddy Bali Reddy College Of Engineering",
+                "date_label": "",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 25,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 6,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 2,
+          "duration_only": 0,
+          "undated": 4,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "proj_1",
+            "label": "Personal Portfolio | personalportfolio-madhuri-2052002.netlify.app\tMarch 25- April 2025",
+            "state": "single_date",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "April 2025",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Personal Portfolio | personalportfolio-madhuri-2052002.netlify.app\tMarch 25- April 2025",
+                  "block_id": "b27",
+                  "kind": "text",
+                  "start": 2241,
+                  "end": 2328
+                },
+                {
+                  "page": 1,
+                  "text": "Developed a full-stack personal portfolio application using Angular for the frontend and Node.js with Express.js for the backend.",
+                  "block_id": "b28",
+                  "kind": "text",
+                  "start": 2329,
+                  "end": 2458
+                },
+                {
+                  "page": 1,
+                  "text": "Utilized MongoDB Atlas as the database solution for scalable and secure data storage.",
+                  "block_id": "b29",
+                  "kind": "text",
+                  "start": 2459,
+                  "end": 2544
+                },
+                {
+                  "page": 1,
+                  "text": "Implemented RESTful APIs for seamless data communication between the frontend and backend.",
+                  "block_id": "b30",
+                  "kind": "text",
+                  "start": 2545,
+                  "end": 2635
+                },
+                {
+                  "page": 1,
+                  "text": "Deployed the backend on Render and the frontend on Netlify, ensuring continuous deployment and accessibility.",
+                  "block_id": "b31",
+                  "kind": "text",
+                  "start": 2636,
+                  "end": 2745
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_2",
+            "label": "Payment Integration | Ongoing\tApril 25- Present",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Payment Integration | Ongoing\tApril 25- Present",
+                  "block_id": "b32",
+                  "kind": "text",
+                  "start": 2746,
+                  "end": 2793
+                },
+                {
+                  "page": 1,
+                  "text": "Integrated secure payment gateway using Java, Spring Boot, and REST APIs in a microservices-based architecture.",
+                  "block_id": "b33",
+                  "kind": "text",
+                  "start": 2794,
+                  "end": 2905
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_3",
+            "label": "Followed Agile/Scrum methodologies, managed tasks via JIRA, and collaborated using Git and Bitbucket.",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Followed Agile/Scrum methodologies, managed tasks via JIRA, and collaborated using Git and Bitbucket.",
+                  "block_id": "b34",
+                  "kind": "text",
+                  "start": 2906,
+                  "end": 3007
+                },
+                {
+                  "page": 1,
+                  "text": "Deployed microservices with Maven and embedded Tomcat, ensuring smooth CI/CD pipeline.",
+                  "block_id": "b35",
+                  "kind": "text",
+                  "start": 3008,
+                  "end": 3094
+                },
+                {
+                  "page": 1,
+                  "text": "Leveraged AWS services for cloud deployment and scalability of payment modules.",
+                  "block_id": "b36",
+                  "kind": "text",
+                  "start": 3095,
+                  "end": 3174
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_4",
+            "label": "CERTIFICATES",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "CERTIFICATES",
+                  "block_id": "b37",
+                  "kind": "text",
+                  "start": 3175,
+                  "end": 3187
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_5",
+            "label": "Full stack development- Java (Exceler)\tmay-septemper 2024",
+            "state": "single_date",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "2024",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Full stack development- Java (Exceler)\tmay-septemper 2024",
+                  "block_id": "b38",
+                  "kind": "text",
+                  "start": 3188,
+                  "end": 3245
+                },
+                {
+                  "page": 1,
+                  "text": "Completed Full Stack Web Development course focused on Java, Spring Boot, REST APIs, HTML, CSS, JavaScript, and MySQL.",
+                  "block_id": "b39",
+                  "kind": "text",
+                  "start": 3246,
+                  "end": 3364
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_6",
+            "label": "Gained hands-on experience building end-to-end web applications with frontend to backend integration and CRUD operations.",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Gained hands-on experience building end-to-end web applications with frontend to backend integration and CRUD operations.",
+                  "block_id": "b40",
+                  "kind": "text",
+                  "start": 3365,
+                  "end": 3486
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 2,
+        "dated_periods": 1,
+        "represented_months": 25,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 1,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 1,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v32ee6230b2d0a7c2",
+            "label": "Viswasai junior college",
+            "state": "month_range",
+            "start": [
+              2019,
+              4
+            ],
+            "end": [
+              2021,
+              4
+            ],
+            "months": 25,
+            "raw": "April 2019 - April 2021",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Viswasai junior college |mpc ; Percentage – 80\tApril 2019 - April 2021",
+                  "block_id": "b9",
+                  "kind": "text",
+                  "start": 272,
+                  "end": 342
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "April 2019 - April 2021",
+                  "block_id": "b9",
+                  "kind": "text",
+                  "start": 319,
+                  "end": 342
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Viswasai junior college",
+                  "block_id": "b9",
+                  "kind": "text",
+                  "start": 272,
+                  "end": 295
+                }
+              ],
+              "title": [],
+              "section": "EDUCATION",
+              "date_label": "April 2019 - April 2021",
+              "is_present": false
+            }
+          },
+          {
+            "id": "vafa8e19e78537147",
+            "label": "Lakireddy Bali Reddy College Of Engineering",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Lakireddy Bali Reddy College Of Engineering",
+                  "block_id": "b4",
+                  "kind": "text",
+                  "start": 117,
+                  "end": 160
+                },
+                {
+                  "page": 1,
+                  "text": "Bachelor of Electronics and Communication [ECE]; GPA: 8.3",
+                  "block_id": "b5",
+                  "kind": "text",
+                  "start": 161,
+                  "end": 218
+                }
+              ],
+              "dates": [],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Lakireddy Bali Reddy College Of Engineering",
+                  "block_id": "b4",
+                  "kind": "text",
+                  "start": 117,
+                  "end": 160
+                }
+              ],
+              "title": [],
+              "section": "Lakireddy Bali Reddy College Of Engineering",
+              "date_label": "",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 25,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

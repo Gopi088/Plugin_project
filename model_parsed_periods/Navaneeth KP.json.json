@@ -1,0 +1,2261 @@
+{
+  "file_name": "Navaneeth KP.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "b64229225e2ec7d8beeaf10bb56205515daafdfd954aee7c150728c864150b8b",
+  "doc_id": "b64229225e2ec7d8beeaf10b",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 6,
+    "dated_share": 0.333,
+    "unresolved": 4,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "vcb96f3b05c1242d0",
+      "type": "EMPLOYMENT",
+      "company": "Deloitte USI",
+      "title": "Business Technology Analyst",
+      "start_date": "2023-06",
+      "end_date": "2025-01",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Business Technology Analyst",
+            "block_id": "b27",
+            "kind": "text",
+            "start": 1618,
+            "end": 1645
+          },
+          {
+            "page": 1,
+            "text": "Deloitte USI| Jun’23-Jan’25                                                                             Bangalore, India",
+            "block_id": "b28",
+            "kind": "text",
+            "start": 1647,
+            "end": 1767
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Jun’23-Jan’25",
+            "block_id": "b28",
+            "kind": "text",
+            "start": 1661,
+            "end": 1674
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Deloitte USI",
+            "block_id": "b28",
+            "kind": "text",
+            "start": 1647,
+            "end": 1659
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Business Technology Analyst",
+            "block_id": "b27",
+            "kind": "text",
+            "start": 1618,
+            "end": 1645
+          }
+        ],
+        "section": "WORK EXPERIENCE",
+        "date_label": "Jun’23-Jan’25",
+        "is_present": false
+      },
+      "precision": "month",
+      "date_label": "Jun’23-Jan’25"
+    }
+  ],
+  "education": [
+    {
+      "id": "vb5b07af0b08fb413",
+      "type": "EDUCATION",
+      "company": "",
+      "title": "CGPA: 8.47/10",
+      "start_date": "2017-06",
+      "end_date": "2020-05",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Vishwa Vidyapeetham, Kerala, India | CGPA: 8.47/10",
+            "block_id": "b84",
+            "kind": "text",
+            "start": 4669,
+            "end": 4719
+          },
+          {
+            "page": 1,
+            "text": "| Jun’17 – May’20",
+            "block_id": "b85",
+            "kind": "text",
+            "start": 4721,
+            "end": 4738
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Jun’17 – May’20",
+            "block_id": "b85",
+            "kind": "text",
+            "start": 4723,
+            "end": 4738
+          },
+          {
+            "page": 1,
+            "text": "Aug’20-May’23",
+            "block_id": "b99",
+            "kind": "text",
+            "start": 5021,
+            "end": 5034
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "CGPA: 8.47/10",
+            "block_id": "b84",
+            "kind": "text",
+            "start": 4706,
+            "end": 4719
+          }
+        ],
+        "section": "EDUCATION",
+        "date_label": "Jun’17 – May’20",
+        "is_present": false
+      },
+      "precision": "month",
+      "date_label": "Jun’17 – May’20"
+    },
+    {
+      "id": "va93d222447948b86",
+      "type": "EDUCATION",
+      "company": "University of Europe for",
+      "title": "− MBA in Digital Technology",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "− MBA in Digital Technology, University of Europe for",
+            "block_id": "b81",
+            "kind": "text",
+            "start": 4504,
+            "end": 4557
+          },
+          {
+            "page": 1,
+            "text": "− Bachelor of Computer Applications (BCA), Amrita",
+            "block_id": "b83",
+            "kind": "text",
+            "start": 4618,
+            "end": 4667
+          }
+        ],
+        "dates": [],
+        "company": [
+          {
+            "page": 1,
+            "text": "University of Europe for",
+            "block_id": "b81",
+            "kind": "text",
+            "start": 4533,
+            "end": 4557
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "MBA in Digital Technology",
+            "block_id": "b81",
+            "kind": "text",
+            "start": 4506,
+            "end": 4531
+          }
+        ],
+        "section": "EDUCATION",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "KPIs, and performance metrics in enabling data-driven product and digital transformation decisions",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "KPIs, and performance metrics in enabling data-driven product and digital transformation decisions",
+        "− AI-Powered Housing Finance Analytics | MBA Digital Technology Project – Analysed housing finance data using Python, Power BI and Excel",
+        "to identify customer, loan and performance trends, applied predictive ML and Neural Network classification for risk and decision analysis, and",
+        "developed a prescriptive AI approach to generate business recommendations.",
+        "− Salesforce Release Quality Analytics | Business Analytics & AI - Analysed Salesforce release data using SQL, Power BI, Excel and Python,",
+        "developing KPI dashboards for release quality and deployment performance, and applied Random Forest Regression and AI/ML techniques",
+        "to identify factors influencing release outcomes and generate data-driven recommendations."
+      ],
+      "raw_text": "KPIs, and performance metrics in enabling data-driven product and digital transformation decisions\n− AI-Powered Housing Finance Analytics | MBA Digital Technology Project – Analysed housing finance data using Python, Power BI and Excel\nto identify customer, loan and performance trends, applied predictive ML and Neural Network classification for risk and decision analysis, and\ndeveloped a prescriptive AI approach to generate business recommendations.\n− Salesforce Release Quality Analytics | Business Analytics & AI - Analysed Salesforce release data using SQL, Power BI, Excel and Python,\ndevelop",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "KPIs, and performance metrics in enabling data-driven product and digital transformation decisions",
+            "block_id": "b123",
+            "kind": "text",
+            "start": 7183,
+            "end": 7281
+          },
+          {
+            "page": 1,
+            "text": "− AI-Powered Housing Finance Analytics | MBA Digital Technology Project – Analysed housing finance data using Python, Power BI and Excel",
+            "block_id": "b124",
+            "kind": "text",
+            "start": 7283,
+            "end": 7419
+          },
+          {
+            "page": 1,
+            "text": "to identify customer, loan and performance trends, applied predictive ML and Neural Network classification for risk and decision analysis, and",
+            "block_id": "b125",
+            "kind": "text",
+            "start": 7421,
+            "end": 7563
+          },
+          {
+            "page": 1,
+            "text": "developed a prescriptive AI approach to generate business recommendations.",
+            "block_id": "b126",
+            "kind": "text",
+            "start": 7565,
+            "end": 7639
+          },
+          {
+            "page": 1,
+            "text": "− Salesforce Release Quality Analytics | Business Analytics & AI - Analysed Salesforce release data using SQL, Power BI, Excel and Python,",
+            "block_id": "b127",
+            "kind": "text",
+            "start": 7641,
+            "end": 7779
+          },
+          {
+            "page": 1,
+            "text": "developing KPI dashboards for release quality and deployment performance, and applied Random Forest Regression and AI/ML techniques",
+            "block_id": "b128",
+            "kind": "text",
+            "start": 7781,
+            "end": 7912
+          },
+          {
+            "page": 1,
+            "text": "to identify factors influencing release outcomes and generate data-driven recommendations.",
+            "block_id": "b129",
+            "kind": "text",
+            "start": 7914,
+            "end": 8004
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_2",
+      "name": "EXTRACIRRICULAR LEADERSHIP & COMMUNITY ENGAGEMENT",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "EXTRACIRRICULAR LEADERSHIP & COMMUNITY ENGAGEMENT",
+        "− Cluster Lead – Deloitte Impact Day (Educational Upliftment Program) | Led volunteer coordination and community outreach initiatives across"
+      ],
+      "raw_text": "EXTRACIRRICULAR LEADERSHIP & COMMUNITY ENGAGEMENT\n− Cluster Lead – Deloitte Impact Day (Educational Upliftment Program) | Led volunteer coordination and community outreach initiatives across",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "EXTRACIRRICULAR LEADERSHIP & COMMUNITY ENGAGEMENT",
+            "block_id": "b130",
+            "kind": "text",
+            "start": 8009,
+            "end": 8058
+          },
+          {
+            "page": 1,
+            "text": "− Cluster Lead – Deloitte Impact Day (Educational Upliftment Program) | Led volunteer coordination and community outreach initiatives across",
+            "block_id": "b131",
+            "kind": "text",
+            "start": 8060,
+            "end": 8200
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_3",
+      "name": "Deloitte’s social impact programs for two consecutive years.",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Deloitte’s social impact programs for two consecutive years.",
+        "− Mentor – Deloitte Buddy Program | Supported onboarding, training, and professional integration of new hires, fostering knowledge sharing",
+        "and team collaboration.",
+        "− Community Outreach Volunteer – AYUDH International | Contributed to youth-driven social impact projects, community development",
+        "initiatives, and volunteer engagement activities.",
+        "− Project Lead – Jeevamritam Clean Water Initiative | Directed community welfare initiatives focused on improving access to clean drinking",
+        "water and enhancing public well-being.",
+        "− Volunteer – Kerala Flood Relief Operations (2017) | Assisted in rescue coordination, emergency response, rehabilitation activities, and"
+      ],
+      "raw_text": "Deloitte’s social impact programs for two consecutive years.\n− Mentor – Deloitte Buddy Program | Supported onboarding, training, and professional integration of new hires, fostering knowledge sharing\nand team collaboration.\n− Community Outreach Volunteer – AYUDH International | Contributed to youth-driven social impact projects, community development\ninitiatives, and volunteer engagement activities.\n− Project Lead – Jeevamritam Clean Water Initiative | Directed community welfare initiatives focused on improving access to clean drinking\nwater and enhancing public well-being.\n− Volunteer – Keral",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Deloitte’s social impact programs for two consecutive years.",
+            "block_id": "b132",
+            "kind": "text",
+            "start": 8202,
+            "end": 8262
+          },
+          {
+            "page": 1,
+            "text": "− Mentor – Deloitte Buddy Program | Supported onboarding, training, and professional integration of new hires, fostering knowledge sharing",
+            "block_id": "b133",
+            "kind": "text",
+            "start": 8265,
+            "end": 8403
+          },
+          {
+            "page": 1,
+            "text": "and team collaboration.",
+            "block_id": "b134",
+            "kind": "text",
+            "start": 8405,
+            "end": 8428
+          },
+          {
+            "page": 1,
+            "text": "− Community Outreach Volunteer – AYUDH International | Contributed to youth-driven social impact projects, community development",
+            "block_id": "b135",
+            "kind": "text",
+            "start": 8431,
+            "end": 8559
+          },
+          {
+            "page": 1,
+            "text": "initiatives, and volunteer engagement activities.",
+            "block_id": "b136",
+            "kind": "text",
+            "start": 8561,
+            "end": 8610
+          },
+          {
+            "page": 1,
+            "text": "− Project Lead – Jeevamritam Clean Water Initiative | Directed community welfare initiatives focused on improving access to clean drinking",
+            "block_id": "b137",
+            "kind": "text",
+            "start": 8613,
+            "end": 8751
+          },
+          {
+            "page": 1,
+            "text": "water and enhancing public well-being.",
+            "block_id": "b138",
+            "kind": "text",
+            "start": 8753,
+            "end": 8791
+          },
+          {
+            "page": 1,
+            "text": "− Volunteer – Kerala Flood Relief Operations (2017) | Assisted in rescue coordination, emergency response, rehabilitation activities, and",
+            "block_id": "b139",
+            "kind": "text",
+            "start": 8794,
+            "end": 8931
+          },
+          {
+            "page": 1,
+            "text": "humanitarian support during flood relief efforts.",
+            "block_id": "b140",
+            "kind": "text",
+            "start": 8933,
+            "end": 8982
+          },
+          {
+            "page": 1,
+            "text": "− School Unit Captain – National Service Scheme (NSS) | Led student volunteer programs, awareness campaigns, and community service",
+            "block_id": "b141",
+            "kind": "text",
+            "start": 8985,
+            "end": 9115
+          },
+          {
+            "page": 1,
+            "text": "initiatives while coordinating team-based social outreach activities.",
+            "block_id": "b142",
+            "kind": "text",
+            "start": 9117,
+            "end": 9186
+          }
+        ]
+      }
+    }
+  ],
+  "gaps": [
+    {
+      "id": "g17707ab9d6911fd0",
+      "start": [
+        2020,
+        6
+      ],
+      "end": [
+        2023,
+        5
+      ],
+      "months": 36,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.9,
+      "reasons": [
+        "GAP_NO_COVERAGE"
+      ],
+      "evidence": {
+        "event_before": "vb5b07af0b08fb413",
+        "event_after": "vcb96f3b05c1242d0",
+        "coverage_scope": "all_dated_activity",
+        "unplaced_activity_ids": [
+          "va93d222447948b86",
+          "v41e65802e254b809",
+          "v06559c03256329bf",
+          "v0fd1e70802f6a14f"
+        ]
+      },
+      "start_label": "2020-06",
+      "end_label": "2023-05",
+      "evidence_quotes": [
+        "Vishwa Vidyapeetham, Kerala, India | CGPA: 8.47/10 | Jun’17 – May’20",
+        "Business Technology Analyst Deloitte USI| Jun’23-Jan’25                                                                             Bangalore, India"
+      ],
+      "evidence_details": [
+        {
+          "header": "CGPA: 8.47/10",
+          "quote": "Vishwa Vidyapeetham, Kerala, India | CGPA: 8.47/10 | Jun’17 – May’20",
+          "event_id": "vb5b07af0b08fb413",
+          "source": {
+            "entry": [
+              {
+                "page": 1,
+                "text": "Vishwa Vidyapeetham, Kerala, India | CGPA: 8.47/10",
+                "block_id": "b84",
+                "kind": "text",
+                "start": 4669,
+                "end": 4719
+              },
+              {
+                "page": 1,
+                "text": "| Jun’17 – May’20",
+                "block_id": "b85",
+                "kind": "text",
+                "start": 4721,
+                "end": 4738
+              }
+            ],
+            "dates": [
+              {
+                "page": 1,
+                "text": "Jun’17 – May’20",
+                "block_id": "b85",
+                "kind": "text",
+                "start": 4723,
+                "end": 4738
+              },
+              {
+                "page": 1,
+                "text": "Aug’20-May’23",
+                "block_id": "b99",
+                "kind": "text",
+                "start": 5021,
+                "end": 5034
+              }
+            ],
+            "company": [],
+            "title": [
+              {
+                "page": 1,
+                "text": "CGPA: 8.47/10",
+                "block_id": "b84",
+                "kind": "text",
+                "start": 4706,
+                "end": 4719
+              }
+            ],
+            "section": "EDUCATION",
+            "date_label": "Jun’17 – May’20",
+            "is_present": false
+          }
+        },
+        {
+          "header": "Business Technology Analyst at Deloitte USI",
+          "quote": "Business Technology Analyst Deloitte USI| Jun’23-Jan’25                                                                             Bangalore, India",
+          "event_id": "vcb96f3b05c1242d0",
+          "source": {
+            "entry": [
+              {
+                "page": 1,
+                "text": "Business Technology Analyst",
+                "block_id": "b27",
+                "kind": "text",
+                "start": 1618,
+                "end": 1645
+              },
+              {
+                "page": 1,
+                "text": "Deloitte USI| Jun’23-Jan’25                                                                             Bangalore, India",
+                "block_id": "b28",
+                "kind": "text",
+                "start": 1647,
+                "end": 1767
+              }
+            ],
+            "dates": [
+              {
+                "page": 1,
+                "text": "Jun’23-Jan’25",
+                "block_id": "b28",
+                "kind": "text",
+                "start": 1661,
+                "end": 1674
+              }
+            ],
+            "company": [
+              {
+                "page": 1,
+                "text": "Deloitte USI",
+                "block_id": "b28",
+                "kind": "text",
+                "start": 1647,
+                "end": 1659
+              }
+            ],
+            "title": [
+              {
+                "page": 1,
+                "text": "Business Technology Analyst",
+                "block_id": "b27",
+                "kind": "text",
+                "start": 1618,
+                "end": 1645
+              }
+            ],
+            "section": "WORK EXPERIENCE",
+            "date_label": "Jun’23-Jan’25",
+            "is_present": false
+          }
+        }
+      ]
+    }
+  ],
+  "total_work_experience_entries": 1,
+  "total_projects_entries": 3,
+  "total_gaps_detected": 1,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "entry e2: 2 ranges; first kept, rest preserved in evidence"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "b64229225e2ec7d8beeaf10b",
+    "filename": "Navaneeth KP.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "vb5b07af0b08fb413",
+        "type": "EDUCATION",
+        "title": "CGPA: 8.47/10",
+        "org": "",
+        "start": "2017-06",
+        "end": "2020-05",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "Vishwa Vidyapeetham, Kerala, India | CGPA: 8.47/10\n| Jun’17 – May’20",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Vishwa Vidyapeetham, Kerala, India | CGPA: 8.47/10",
+              "block_id": "b84",
+              "kind": "text",
+              "start": 4669,
+              "end": 4719
+            },
+            {
+              "page": 1,
+              "text": "| Jun’17 – May’20",
+              "block_id": "b85",
+              "kind": "text",
+              "start": 4721,
+              "end": 4738
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jun’17 – May’20",
+              "block_id": "b85",
+              "kind": "text",
+              "start": 4723,
+              "end": 4738
+            },
+            {
+              "page": 1,
+              "text": "Aug’20-May’23",
+              "block_id": "b99",
+              "kind": "text",
+              "start": 5021,
+              "end": 5034
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "CGPA: 8.47/10",
+              "block_id": "b84",
+              "kind": "text",
+              "start": 4706,
+              "end": 4719
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "Jun’17 – May’20",
+          "is_present": false
+        },
+        "date_label": "Jun’17 – May’20",
+        "section": "EDUCATION",
+        "is_present": false
+      },
+      {
+        "id": "vcb96f3b05c1242d0",
+        "type": "EMPLOYMENT",
+        "title": "Business Technology Analyst",
+        "org": "Deloitte USI",
+        "start": "2023-06",
+        "end": "2025-01",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Business Technology Analyst\nDeloitte USI| Jun’23-Jan’25                                                                             Bangalore, India",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Business Technology Analyst",
+              "block_id": "b27",
+              "kind": "text",
+              "start": 1618,
+              "end": 1645
+            },
+            {
+              "page": 1,
+              "text": "Deloitte USI| Jun’23-Jan’25                                                                             Bangalore, India",
+              "block_id": "b28",
+              "kind": "text",
+              "start": 1647,
+              "end": 1767
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jun’23-Jan’25",
+              "block_id": "b28",
+              "kind": "text",
+              "start": 1661,
+              "end": 1674
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Deloitte USI",
+              "block_id": "b28",
+              "kind": "text",
+              "start": 1647,
+              "end": 1659
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Business Technology Analyst",
+              "block_id": "b27",
+              "kind": "text",
+              "start": 1618,
+              "end": 1645
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "Jun’23-Jan’25",
+          "is_present": false
+        },
+        "date_label": "Jun’23-Jan’25",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "va93d222447948b86",
+        "type": "EDUCATION",
+        "title": "− MBA in Digital Technology",
+        "org": "University of Europe for",
+        "entry_text": "− MBA in Digital Technology, University of Europe for − Bachelor of Computer Applications (BCA), Amrita",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "− MBA in Digital Technology, University of Europe for",
+              "block_id": "b81",
+              "kind": "text",
+              "start": 4504,
+              "end": 4557
+            },
+            {
+              "page": 1,
+              "text": "− Bachelor of Computer Applications (BCA), Amrita",
+              "block_id": "b83",
+              "kind": "text",
+              "start": 4618,
+              "end": 4667
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "University of Europe for",
+              "block_id": "b81",
+              "kind": "text",
+              "start": 4533,
+              "end": 4557
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "MBA in Digital Technology",
+              "block_id": "b81",
+              "kind": "text",
+              "start": 4506,
+              "end": 4531
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "EDUCATION",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v41e65802e254b809",
+        "type": "PROJECT",
+        "title": "KPIs, and performance metrics in enabling data-driven product and digital transformation decisions",
+        "org": "",
+        "entry_text": "KPIs, and performance metrics in enabling data-driven product and digital transformation decisions − AI-Powered Housing Finance Analytics | MBA Digital Technology Project – Analysed housing finance data using Python, Power BI and Excel to identify customer, loan and performance trends, applied predi",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "KPIs, and performance metrics in enabling data-driven product and digital transformation decisions",
+              "block_id": "b123",
+              "kind": "text",
+              "start": 7183,
+              "end": 7281
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "KPIs, and performance metrics in enabling data-driven product and digital transformation decisions",
+              "block_id": "b123",
+              "kind": "text",
+              "start": 7183,
+              "end": 7281
+            }
+          ],
+          "section": "PROJECTS",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROJECTS",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v06559c03256329bf",
+        "type": "PROJECT",
+        "title": "EXTRACIRRICULAR LEADERSHIP & COMMUNITY ENGAGEMENT",
+        "org": "",
+        "entry_text": "EXTRACIRRICULAR LEADERSHIP & COMMUNITY ENGAGEMENT − Cluster Lead – Deloitte Impact Day (Educational Upliftment Program) | Led volunteer coordination and community outreach initiatives across",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "EXTRACIRRICULAR LEADERSHIP & COMMUNITY ENGAGEMENT",
+              "block_id": "b130",
+              "kind": "text",
+              "start": 8009,
+              "end": 8058
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "EXTRACIRRICULAR LEADERSHIP & COMMUNITY ENGAGEMENT",
+              "block_id": "b130",
+              "kind": "text",
+              "start": 8009,
+              "end": 8058
+            }
+          ],
+          "section": "PROJECTS",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROJECTS",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v0fd1e70802f6a14f",
+        "type": "PROJECT",
+        "title": "Deloitte’s social impact programs for two consecutive years.",
+        "org": "",
+        "entry_text": "Deloitte’s social impact programs for two consecutive years. − Mentor – Deloitte Buddy Program | Supported onboarding, training, and professional integration of new hires, fostering knowledge sharing and team collaboration. − Community Outreach Volunteer – AYUDH International | Contributed to youth-",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Deloitte’s social impact programs for two consecutive years.",
+              "block_id": "b132",
+              "kind": "text",
+              "start": 8202,
+              "end": 8262
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2017",
+              "block_id": "b139",
+              "kind": "text",
+              "start": 8840,
+              "end": 8844
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Deloitte’s social impact programs for two consecutive years",
+              "block_id": "b132",
+              "kind": "text",
+              "start": 8202,
+              "end": 8261
+            }
+          ],
+          "section": "PROJECTS",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "PROJECTS",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "KPIs, and performance metrics in enabling data-driven product and digital transformation decisions",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "KPIs, and performance metrics in enabling data-driven product and digital transformation decisions",
+          "− AI-Powered Housing Finance Analytics | MBA Digital Technology Project – Analysed housing finance data using Python, Power BI and Excel",
+          "to identify customer, loan and performance trends, applied predictive ML and Neural Network classification for risk and decision analysis, and",
+          "developed a prescriptive AI approach to generate business recommendations.",
+          "− Salesforce Release Quality Analytics | Business Analytics & AI - Analysed Salesforce release data using SQL, Power BI, Excel and Python,",
+          "developing KPI dashboards for release quality and deployment performance, and applied Random Forest Regression and AI/ML techniques",
+          "to identify factors influencing release outcomes and generate data-driven recommendations."
+        ],
+        "raw_text": "KPIs, and performance metrics in enabling data-driven product and digital transformation decisions\n− AI-Powered Housing Finance Analytics | MBA Digital Technology Project – Analysed housing finance data using Python, Power BI and Excel\nto identify customer, loan and performance trends, applied predictive ML and Neural Network classification for risk and decision analysis, and\ndeveloped a prescriptive AI approach to generate business recommendations.\n− Salesforce Release Quality Analytics | Business Analytics & AI - Analysed Salesforce release data using SQL, Power BI, Excel and Python,\ndevelop",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "KPIs, and performance metrics in enabling data-driven product and digital transformation decisions",
+              "block_id": "b123",
+              "kind": "text",
+              "start": 7183,
+              "end": 7281
+            },
+            {
+              "page": 1,
+              "text": "− AI-Powered Housing Finance Analytics | MBA Digital Technology Project – Analysed housing finance data using Python, Power BI and Excel",
+              "block_id": "b124",
+              "kind": "text",
+              "start": 7283,
+              "end": 7419
+            },
+            {
+              "page": 1,
+              "text": "to identify customer, loan and performance trends, applied predictive ML and Neural Network classification for risk and decision analysis, and",
+              "block_id": "b125",
+              "kind": "text",
+              "start": 7421,
+              "end": 7563
+            },
+            {
+              "page": 1,
+              "text": "developed a prescriptive AI approach to generate business recommendations.",
+              "block_id": "b126",
+              "kind": "text",
+              "start": 7565,
+              "end": 7639
+            },
+            {
+              "page": 1,
+              "text": "− Salesforce Release Quality Analytics | Business Analytics & AI - Analysed Salesforce release data using SQL, Power BI, Excel and Python,",
+              "block_id": "b127",
+              "kind": "text",
+              "start": 7641,
+              "end": 7779
+            },
+            {
+              "page": 1,
+              "text": "developing KPI dashboards for release quality and deployment performance, and applied Random Forest Regression and AI/ML techniques",
+              "block_id": "b128",
+              "kind": "text",
+              "start": 7781,
+              "end": 7912
+            },
+            {
+              "page": 1,
+              "text": "to identify factors influencing release outcomes and generate data-driven recommendations.",
+              "block_id": "b129",
+              "kind": "text",
+              "start": 7914,
+              "end": 8004
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "EXTRACIRRICULAR LEADERSHIP & COMMUNITY ENGAGEMENT",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "EXTRACIRRICULAR LEADERSHIP & COMMUNITY ENGAGEMENT",
+          "− Cluster Lead – Deloitte Impact Day (Educational Upliftment Program) | Led volunteer coordination and community outreach initiatives across"
+        ],
+        "raw_text": "EXTRACIRRICULAR LEADERSHIP & COMMUNITY ENGAGEMENT\n− Cluster Lead – Deloitte Impact Day (Educational Upliftment Program) | Led volunteer coordination and community outreach initiatives across",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "EXTRACIRRICULAR LEADERSHIP & COMMUNITY ENGAGEMENT",
+              "block_id": "b130",
+              "kind": "text",
+              "start": 8009,
+              "end": 8058
+            },
+            {
+              "page": 1,
+              "text": "− Cluster Lead – Deloitte Impact Day (Educational Upliftment Program) | Led volunteer coordination and community outreach initiatives across",
+              "block_id": "b131",
+              "kind": "text",
+              "start": 8060,
+              "end": 8200
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_3",
+        "name": "Deloitte’s social impact programs for two consecutive years.",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Deloitte’s social impact programs for two consecutive years.",
+          "− Mentor – Deloitte Buddy Program | Supported onboarding, training, and professional integration of new hires, fostering knowledge sharing",
+          "and team collaboration.",
+          "− Community Outreach Volunteer – AYUDH International | Contributed to youth-driven social impact projects, community development",
+          "initiatives, and volunteer engagement activities.",
+          "− Project Lead – Jeevamritam Clean Water Initiative | Directed community welfare initiatives focused on improving access to clean drinking",
+          "water and enhancing public well-being.",
+          "− Volunteer – Kerala Flood Relief Operations (2017) | Assisted in rescue coordination, emergency response, rehabilitation activities, and"
+        ],
+        "raw_text": "Deloitte’s social impact programs for two consecutive years.\n− Mentor – Deloitte Buddy Program | Supported onboarding, training, and professional integration of new hires, fostering knowledge sharing\nand team collaboration.\n− Community Outreach Volunteer – AYUDH International | Contributed to youth-driven social impact projects, community development\ninitiatives, and volunteer engagement activities.\n− Project Lead – Jeevamritam Clean Water Initiative | Directed community welfare initiatives focused on improving access to clean drinking\nwater and enhancing public well-being.\n− Volunteer – Keral",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Deloitte’s social impact programs for two consecutive years.",
+              "block_id": "b132",
+              "kind": "text",
+              "start": 8202,
+              "end": 8262
+            },
+            {
+              "page": 1,
+              "text": "− Mentor – Deloitte Buddy Program | Supported onboarding, training, and professional integration of new hires, fostering knowledge sharing",
+              "block_id": "b133",
+              "kind": "text",
+              "start": 8265,
+              "end": 8403
+            },
+            {
+              "page": 1,
+              "text": "and team collaboration.",
+              "block_id": "b134",
+              "kind": "text",
+              "start": 8405,
+              "end": 8428
+            },
+            {
+              "page": 1,
+              "text": "− Community Outreach Volunteer – AYUDH International | Contributed to youth-driven social impact projects, community development",
+              "block_id": "b135",
+              "kind": "text",
+              "start": 8431,
+              "end": 8559
+            },
+            {
+              "page": 1,
+              "text": "initiatives, and volunteer engagement activities.",
+              "block_id": "b136",
+              "kind": "text",
+              "start": 8561,
+              "end": 8610
+            },
+            {
+              "page": 1,
+              "text": "− Project Lead – Jeevamritam Clean Water Initiative | Directed community welfare initiatives focused on improving access to clean drinking",
+              "block_id": "b137",
+              "kind": "text",
+              "start": 8613,
+              "end": 8751
+            },
+            {
+              "page": 1,
+              "text": "water and enhancing public well-being.",
+              "block_id": "b138",
+              "kind": "text",
+              "start": 8753,
+              "end": 8791
+            },
+            {
+              "page": 1,
+              "text": "− Volunteer – Kerala Flood Relief Operations (2017) | Assisted in rescue coordination, emergency response, rehabilitation activities, and",
+              "block_id": "b139",
+              "kind": "text",
+              "start": 8794,
+              "end": 8931
+            },
+            {
+              "page": 1,
+              "text": "humanitarian support during flood relief efforts.",
+              "block_id": "b140",
+              "kind": "text",
+              "start": 8933,
+              "end": 8982
+            },
+            {
+              "page": 1,
+              "text": "− School Unit Captain – National Service Scheme (NSS) | Led student volunteer programs, awareness campaigns, and community service",
+              "block_id": "b141",
+              "kind": "text",
+              "start": 8985,
+              "end": 9115
+            },
+            {
+              "page": 1,
+              "text": "initiatives while coordinating team-based social outreach activities.",
+              "block_id": "b142",
+              "kind": "text",
+              "start": 9117,
+              "end": 9186
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g17707ab9d6911fd0",
+        "start": [
+          2020,
+          6
+        ],
+        "end": [
+          2023,
+          5
+        ],
+        "months": 36,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.9,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "vb5b07af0b08fb413",
+          "event_after": "vcb96f3b05c1242d0",
+          "coverage_scope": "all_dated_activity",
+          "unplaced_activity_ids": [
+            "va93d222447948b86",
+            "v41e65802e254b809",
+            "v06559c03256329bf",
+            "v0fd1e70802f6a14f"
+          ]
+        },
+        "start_label": "2020-06",
+        "end_label": "2023-05",
+        "evidence_quotes": [
+          "Vishwa Vidyapeetham, Kerala, India | CGPA: 8.47/10 | Jun’17 – May’20",
+          "Business Technology Analyst Deloitte USI| Jun’23-Jan’25                                                                             Bangalore, India"
+        ],
+        "evidence_details": [
+          {
+            "header": "CGPA: 8.47/10",
+            "quote": "Vishwa Vidyapeetham, Kerala, India | CGPA: 8.47/10 | Jun’17 – May’20",
+            "event_id": "vb5b07af0b08fb413",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Vishwa Vidyapeetham, Kerala, India | CGPA: 8.47/10",
+                  "block_id": "b84",
+                  "kind": "text",
+                  "start": 4669,
+                  "end": 4719
+                },
+                {
+                  "page": 1,
+                  "text": "| Jun’17 – May’20",
+                  "block_id": "b85",
+                  "kind": "text",
+                  "start": 4721,
+                  "end": 4738
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Jun’17 – May’20",
+                  "block_id": "b85",
+                  "kind": "text",
+                  "start": 4723,
+                  "end": 4738
+                },
+                {
+                  "page": 1,
+                  "text": "Aug’20-May’23",
+                  "block_id": "b99",
+                  "kind": "text",
+                  "start": 5021,
+                  "end": 5034
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "CGPA: 8.47/10",
+                  "block_id": "b84",
+                  "kind": "text",
+                  "start": 4706,
+                  "end": 4719
+                }
+              ],
+              "section": "EDUCATION",
+              "date_label": "Jun’17 – May’20",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Business Technology Analyst at Deloitte USI",
+            "quote": "Business Technology Analyst Deloitte USI| Jun’23-Jan’25                                                                             Bangalore, India",
+            "event_id": "vcb96f3b05c1242d0",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Business Technology Analyst",
+                  "block_id": "b27",
+                  "kind": "text",
+                  "start": 1618,
+                  "end": 1645
+                },
+                {
+                  "page": 1,
+                  "text": "Deloitte USI| Jun’23-Jan’25                                                                             Bangalore, India",
+                  "block_id": "b28",
+                  "kind": "text",
+                  "start": 1647,
+                  "end": 1767
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Jun’23-Jan’25",
+                  "block_id": "b28",
+                  "kind": "text",
+                  "start": 1661,
+                  "end": 1674
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Deloitte USI",
+                  "block_id": "b28",
+                  "kind": "text",
+                  "start": 1647,
+                  "end": 1659
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Business Technology Analyst",
+                  "block_id": "b27",
+                  "kind": "text",
+                  "start": 1618,
+                  "end": 1645
+                }
+              ],
+              "section": "WORK EXPERIENCE",
+              "date_label": "Jun’23-Jan’25",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 6,
+      "dated_share": 0.333,
+      "unresolved": 4,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 56,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": true,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 1,
+          "represented_months": 20,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 1,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "vcb96f3b05c1242d0",
+              "label": "Business Technology Analyst",
+              "state": "month_range",
+              "start": [
+                2023,
+                6
+              ],
+              "end": [
+                2025,
+                1
+              ],
+              "months": 20,
+              "raw": "Jun’23-Jan’25",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Business Technology Analyst",
+                    "block_id": "b27",
+                    "kind": "text",
+                    "start": 1618,
+                    "end": 1645
+                  },
+                  {
+                    "page": 1,
+                    "text": "Deloitte USI| Jun’23-Jan’25                                                                             Bangalore, India",
+                    "block_id": "b28",
+                    "kind": "text",
+                    "start": 1647,
+                    "end": 1767
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "Jun’23-Jan’25",
+                    "block_id": "b28",
+                    "kind": "text",
+                    "start": 1661,
+                    "end": 1674
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Deloitte USI",
+                    "block_id": "b28",
+                    "kind": "text",
+                    "start": 1647,
+                    "end": 1659
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Business Technology Analyst",
+                    "block_id": "b27",
+                    "kind": "text",
+                    "start": 1618,
+                    "end": 1645
+                  }
+                ],
+                "section": "WORK EXPERIENCE",
+                "date_label": "Jun’23-Jan’25",
+                "is_present": false
+              }
+            }
+          ]
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 3,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 3,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "proj_1",
+              "label": "KPIs, and performance metrics in enabling data-driven product and digital transformation decisions",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "KPIs, and performance metrics in enabling data-driven product and digital transformation decisions",
+                    "block_id": "b123",
+                    "kind": "text",
+                    "start": 7183,
+                    "end": 7281
+                  },
+                  {
+                    "page": 1,
+                    "text": "− AI-Powered Housing Finance Analytics | MBA Digital Technology Project – Analysed housing finance data using Python, Power BI and Excel",
+                    "block_id": "b124",
+                    "kind": "text",
+                    "start": 7283,
+                    "end": 7419
+                  },
+                  {
+                    "page": 1,
+                    "text": "to identify customer, loan and performance trends, applied predictive ML and Neural Network classification for risk and decision analysis, and",
+                    "block_id": "b125",
+                    "kind": "text",
+                    "start": 7421,
+                    "end": 7563
+                  },
+                  {
+                    "page": 1,
+                    "text": "developed a prescriptive AI approach to generate business recommendations.",
+                    "block_id": "b126",
+                    "kind": "text",
+                    "start": 7565,
+                    "end": 7639
+                  },
+                  {
+                    "page": 1,
+                    "text": "− Salesforce Release Quality Analytics | Business Analytics & AI - Analysed Salesforce release data using SQL, Power BI, Excel and Python,",
+                    "block_id": "b127",
+                    "kind": "text",
+                    "start": 7641,
+                    "end": 7779
+                  },
+                  {
+                    "page": 1,
+                    "text": "developing KPI dashboards for release quality and deployment performance, and applied Random Forest Regression and AI/ML techniques",
+                    "block_id": "b128",
+                    "kind": "text",
+                    "start": 7781,
+                    "end": 7912
+                  },
+                  {
+                    "page": 1,
+                    "text": "to identify factors influencing release outcomes and generate data-driven recommendations.",
+                    "block_id": "b129",
+                    "kind": "text",
+                    "start": 7914,
+                    "end": 8004
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_2",
+              "label": "EXTRACIRRICULAR LEADERSHIP & COMMUNITY ENGAGEMENT",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "EXTRACIRRICULAR LEADERSHIP & COMMUNITY ENGAGEMENT",
+                    "block_id": "b130",
+                    "kind": "text",
+                    "start": 8009,
+                    "end": 8058
+                  },
+                  {
+                    "page": 1,
+                    "text": "− Cluster Lead – Deloitte Impact Day (Educational Upliftment Program) | Led volunteer coordination and community outreach initiatives across",
+                    "block_id": "b131",
+                    "kind": "text",
+                    "start": 8060,
+                    "end": 8200
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_3",
+              "label": "Deloitte’s social impact programs for two consecutive years.",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Deloitte’s social impact programs for two consecutive years.",
+                    "block_id": "b132",
+                    "kind": "text",
+                    "start": 8202,
+                    "end": 8262
+                  },
+                  {
+                    "page": 1,
+                    "text": "− Mentor – Deloitte Buddy Program | Supported onboarding, training, and professional integration of new hires, fostering knowledge sharing",
+                    "block_id": "b133",
+                    "kind": "text",
+                    "start": 8265,
+                    "end": 8403
+                  },
+                  {
+                    "page": 1,
+                    "text": "and team collaboration.",
+                    "block_id": "b134",
+                    "kind": "text",
+                    "start": 8405,
+                    "end": 8428
+                  },
+                  {
+                    "page": 1,
+                    "text": "− Community Outreach Volunteer – AYUDH International | Contributed to youth-driven social impact projects, community development",
+                    "block_id": "b135",
+                    "kind": "text",
+                    "start": 8431,
+                    "end": 8559
+                  },
+                  {
+                    "page": 1,
+                    "text": "initiatives, and volunteer engagement activities.",
+                    "block_id": "b136",
+                    "kind": "text",
+                    "start": 8561,
+                    "end": 8610
+                  },
+                  {
+                    "page": 1,
+                    "text": "− Project Lead – Jeevamritam Clean Water Initiative | Directed community welfare initiatives focused on improving access to clean drinking",
+                    "block_id": "b137",
+                    "kind": "text",
+                    "start": 8613,
+                    "end": 8751
+                  },
+                  {
+                    "page": 1,
+                    "text": "water and enhancing public well-being.",
+                    "block_id": "b138",
+                    "kind": "text",
+                    "start": 8753,
+                    "end": 8791
+                  },
+                  {
+                    "page": 1,
+                    "text": "− Volunteer – Kerala Flood Relief Operations (2017) | Assisted in rescue coordination, emergency response, rehabilitation activities, and",
+                    "block_id": "b139",
+                    "kind": "text",
+                    "start": 8794,
+                    "end": 8931
+                  },
+                  {
+                    "page": 1,
+                    "text": "humanitarian support during flood relief efforts.",
+                    "block_id": "b140",
+                    "kind": "text",
+                    "start": 8933,
+                    "end": 8982
+                  },
+                  {
+                    "page": 1,
+                    "text": "− School Unit Captain – National Service Scheme (NSS) | Led student volunteer programs, awareness campaigns, and community service",
+                    "block_id": "b141",
+                    "kind": "text",
+                    "start": 8985,
+                    "end": 9115
+                  },
+                  {
+                    "page": 1,
+                    "text": "initiatives while coordinating team-based social outreach activities.",
+                    "block_id": "b142",
+                    "kind": "text",
+                    "start": 9117,
+                    "end": 9186
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 2,
+          "dated_periods": 1,
+          "represented_months": 36,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 1,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 1,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "vb5b07af0b08fb413",
+              "label": "CGPA: 8.47/10",
+              "state": "month_range",
+              "start": [
+                2017,
+                6
+              ],
+              "end": [
+                2020,
+                5
+              ],
+              "months": 36,
+              "raw": "Jun’17 – May’20",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Vishwa Vidyapeetham, Kerala, India | CGPA: 8.47/10",
+                    "block_id": "b84",
+                    "kind": "text",
+                    "start": 4669,
+                    "end": 4719
+                  },
+                  {
+                    "page": 1,
+                    "text": "| Jun’17 – May’20",
+                    "block_id": "b85",
+                    "kind": "text",
+                    "start": 4721,
+                    "end": 4738
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "Jun’17 – May’20",
+                    "block_id": "b85",
+                    "kind": "text",
+                    "start": 4723,
+                    "end": 4738
+                  },
+                  {
+                    "page": 1,
+                    "text": "Aug’20-May’23",
+                    "block_id": "b99",
+                    "kind": "text",
+                    "start": 5021,
+                    "end": 5034
+                  }
+                ],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "CGPA: 8.47/10",
+                    "block_id": "b84",
+                    "kind": "text",
+                    "start": 4706,
+                    "end": 4719
+                  }
+                ],
+                "section": "EDUCATION",
+                "date_label": "Jun’17 – May’20",
+                "is_present": false
+              }
+            },
+            {
+              "id": "va93d222447948b86",
+              "label": "− MBA in Digital Technology",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "− MBA in Digital Technology, University of Europe for",
+                    "block_id": "b81",
+                    "kind": "text",
+                    "start": 4504,
+                    "end": 4557
+                  },
+                  {
+                    "page": 1,
+                    "text": "− Bachelor of Computer Applications (BCA), Amrita",
+                    "block_id": "b83",
+                    "kind": "text",
+                    "start": 4618,
+                    "end": 4667
+                  }
+                ],
+                "dates": [],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "University of Europe for",
+                    "block_id": "b81",
+                    "kind": "text",
+                    "start": 4533,
+                    "end": 4557
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "MBA in Digital Technology",
+                    "block_id": "b81",
+                    "kind": "text",
+                    "start": 4506,
+                    "end": 4531
+                  }
+                ],
+                "section": "EDUCATION",
+                "date_label": "",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 56,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": true,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 1,
+        "represented_months": 20,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 1,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "vcb96f3b05c1242d0",
+            "label": "Business Technology Analyst",
+            "state": "month_range",
+            "start": [
+              2023,
+              6
+            ],
+            "end": [
+              2025,
+              1
+            ],
+            "months": 20,
+            "raw": "Jun’23-Jan’25",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Business Technology Analyst",
+                  "block_id": "b27",
+                  "kind": "text",
+                  "start": 1618,
+                  "end": 1645
+                },
+                {
+                  "page": 1,
+                  "text": "Deloitte USI| Jun’23-Jan’25                                                                             Bangalore, India",
+                  "block_id": "b28",
+                  "kind": "text",
+                  "start": 1647,
+                  "end": 1767
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Jun’23-Jan’25",
+                  "block_id": "b28",
+                  "kind": "text",
+                  "start": 1661,
+                  "end": 1674
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Deloitte USI",
+                  "block_id": "b28",
+                  "kind": "text",
+                  "start": 1647,
+                  "end": 1659
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Business Technology Analyst",
+                  "block_id": "b27",
+                  "kind": "text",
+                  "start": 1618,
+                  "end": 1645
+                }
+              ],
+              "section": "WORK EXPERIENCE",
+              "date_label": "Jun’23-Jan’25",
+              "is_present": false
+            }
+          }
+        ]
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 3,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 3,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "proj_1",
+            "label": "KPIs, and performance metrics in enabling data-driven product and digital transformation decisions",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "KPIs, and performance metrics in enabling data-driven product and digital transformation decisions",
+                  "block_id": "b123",
+                  "kind": "text",
+                  "start": 7183,
+                  "end": 7281
+                },
+                {
+                  "page": 1,
+                  "text": "− AI-Powered Housing Finance Analytics | MBA Digital Technology Project – Analysed housing finance data using Python, Power BI and Excel",
+                  "block_id": "b124",
+                  "kind": "text",
+                  "start": 7283,
+                  "end": 7419
+                },
+                {
+                  "page": 1,
+                  "text": "to identify customer, loan and performance trends, applied predictive ML and Neural Network classification for risk and decision analysis, and",
+                  "block_id": "b125",
+                  "kind": "text",
+                  "start": 7421,
+                  "end": 7563
+                },
+                {
+                  "page": 1,
+                  "text": "developed a prescriptive AI approach to generate business recommendations.",
+                  "block_id": "b126",
+                  "kind": "text",
+                  "start": 7565,
+                  "end": 7639
+                },
+                {
+                  "page": 1,
+                  "text": "− Salesforce Release Quality Analytics | Business Analytics & AI - Analysed Salesforce release data using SQL, Power BI, Excel and Python,",
+                  "block_id": "b127",
+                  "kind": "text",
+                  "start": 7641,
+                  "end": 7779
+                },
+                {
+                  "page": 1,
+                  "text": "developing KPI dashboards for release quality and deployment performance, and applied Random Forest Regression and AI/ML techniques",
+                  "block_id": "b128",
+                  "kind": "text",
+                  "start": 7781,
+                  "end": 7912
+                },
+                {
+                  "page": 1,
+                  "text": "to identify factors influencing release outcomes and generate data-driven recommendations.",
+                  "block_id": "b129",
+                  "kind": "text",
+                  "start": 7914,
+                  "end": 8004
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_2",
+            "label": "EXTRACIRRICULAR LEADERSHIP & COMMUNITY ENGAGEMENT",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "EXTRACIRRICULAR LEADERSHIP & COMMUNITY ENGAGEMENT",
+                  "block_id": "b130",
+                  "kind": "text",
+                  "start": 8009,
+                  "end": 8058
+                },
+                {
+                  "page": 1,
+                  "text": "− Cluster Lead – Deloitte Impact Day (Educational Upliftment Program) | Led volunteer coordination and community outreach initiatives across",
+                  "block_id": "b131",
+                  "kind": "text",
+                  "start": 8060,
+                  "end": 8200
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_3",
+            "label": "Deloitte’s social impact programs for two consecutive years.",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Deloitte’s social impact programs for two consecutive years.",
+                  "block_id": "b132",
+                  "kind": "text",
+                  "start": 8202,
+                  "end": 8262
+                },
+                {
+                  "page": 1,
+                  "text": "− Mentor – Deloitte Buddy Program | Supported onboarding, training, and professional integration of new hires, fostering knowledge sharing",
+                  "block_id": "b133",
+                  "kind": "text",
+                  "start": 8265,
+                  "end": 8403
+                },
+                {
+                  "page": 1,
+                  "text": "and team collaboration.",
+                  "block_id": "b134",
+                  "kind": "text",
+                  "start": 8405,
+                  "end": 8428
+                },
+                {
+                  "page": 1,
+                  "text": "− Community Outreach Volunteer – AYUDH International | Contributed to youth-driven social impact projects, community development",
+                  "block_id": "b135",
+                  "kind": "text",
+                  "start": 8431,
+                  "end": 8559
+                },
+                {
+                  "page": 1,
+                  "text": "initiatives, and volunteer engagement activities.",
+                  "block_id": "b136",
+                  "kind": "text",
+                  "start": 8561,
+                  "end": 8610
+                },
+                {
+                  "page": 1,
+                  "text": "− Project Lead – Jeevamritam Clean Water Initiative | Directed community welfare initiatives focused on improving access to clean drinking",
+                  "block_id": "b137",
+                  "kind": "text",
+                  "start": 8613,
+                  "end": 8751
+                },
+                {
+                  "page": 1,
+                  "text": "water and enhancing public well-being.",
+                  "block_id": "b138",
+                  "kind": "text",
+                  "start": 8753,
+                  "end": 8791
+                },
+                {
+                  "page": 1,
+                  "text": "− Volunteer – Kerala Flood Relief Operations (2017) | Assisted in rescue coordination, emergency response, rehabilitation activities, and",
+                  "block_id": "b139",
+                  "kind": "text",
+                  "start": 8794,
+                  "end": 8931
+                },
+                {
+                  "page": 1,
+                  "text": "humanitarian support during flood relief efforts.",
+                  "block_id": "b140",
+                  "kind": "text",
+                  "start": 8933,
+                  "end": 8982
+                },
+                {
+                  "page": 1,
+                  "text": "− School Unit Captain – National Service Scheme (NSS) | Led student volunteer programs, awareness campaigns, and community service",
+                  "block_id": "b141",
+                  "kind": "text",
+                  "start": 8985,
+                  "end": 9115
+                },
+                {
+                  "page": 1,
+                  "text": "initiatives while coordinating team-based social outreach activities.",
+                  "block_id": "b142",
+                  "kind": "text",
+                  "start": 9117,
+                  "end": 9186
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 2,
+        "dated_periods": 1,
+        "represented_months": 36,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 1,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 1,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "vb5b07af0b08fb413",
+            "label": "CGPA: 8.47/10",
+            "state": "month_range",
+            "start": [
+              2017,
+              6
+            ],
+            "end": [
+              2020,
+              5
+            ],
+            "months": 36,
+            "raw": "Jun’17 – May’20",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Vishwa Vidyapeetham, Kerala, India | CGPA: 8.47/10",
+                  "block_id": "b84",
+                  "kind": "text",
+                  "start": 4669,
+                  "end": 4719
+                },
+                {
+                  "page": 1,
+                  "text": "| Jun’17 – May’20",
+                  "block_id": "b85",
+                  "kind": "text",
+                  "start": 4721,
+                  "end": 4738
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Jun’17 – May’20",
+                  "block_id": "b85",
+                  "kind": "text",
+                  "start": 4723,
+                  "end": 4738
+                },
+                {
+                  "page": 1,
+                  "text": "Aug’20-May’23",
+                  "block_id": "b99",
+                  "kind": "text",
+                  "start": 5021,
+                  "end": 5034
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "CGPA: 8.47/10",
+                  "block_id": "b84",
+                  "kind": "text",
+                  "start": 4706,
+                  "end": 4719
+                }
+              ],
+              "section": "EDUCATION",
+              "date_label": "Jun’17 – May’20",
+              "is_present": false
+            }
+          },
+          {
+            "id": "va93d222447948b86",
+            "label": "− MBA in Digital Technology",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "− MBA in Digital Technology, University of Europe for",
+                  "block_id": "b81",
+                  "kind": "text",
+                  "start": 4504,
+                  "end": 4557
+                },
+                {
+                  "page": 1,
+                  "text": "− Bachelor of Computer Applications (BCA), Amrita",
+                  "block_id": "b83",
+                  "kind": "text",
+                  "start": 4618,
+                  "end": 4667
+                }
+              ],
+              "dates": [],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "University of Europe for",
+                  "block_id": "b81",
+                  "kind": "text",
+                  "start": 4533,
+                  "end": 4557
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "MBA in Digital Technology",
+                  "block_id": "b81",
+                  "kind": "text",
+                  "start": 4506,
+                  "end": 4531
+                }
+              ],
+              "section": "EDUCATION",
+              "date_label": "",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 56,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

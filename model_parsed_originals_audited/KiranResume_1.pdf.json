@@ -1,0 +1,514 @@
+{
+  "file_name": "KiranResume_1.pdf",
+  "input_mode": "original_document",
+  "input_sha256": "66e50947cdc12f9a08c6557c6a3d01756eea695258255c77cc5a26af19d3249b",
+  "doc_id": "66e50947cdc12f9a08c6557c",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 3,
+    "dated_share": 0.667,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.765
+  },
+  "work_experience": [
+    {
+      "id": "v3af504848e063bcf",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "AI Engineering Senior Analyst",
+      "start_date": "2020-01",
+      "end_date": "2022-12",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "AI Engineering Senior Analyst",
+            "block_id": "b33",
+            "kind": "pdf",
+            "page_width": 595.56,
+            "page_height": 842.52,
+            "bbox": [
+              247.25,
+              429.43528,
+              389.67208,
+              440.47528
+            ],
+            "fragment_text": "AI Engineering Senior Analyst"
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2020 - 2022",
+            "block_id": "b45",
+            "kind": "pdf",
+            "page_width": 595.56,
+            "page_height": 842.52,
+            "bbox": [
+              523.2,
+              570.69172,
+              574.35504,
+              580.65172
+            ],
+            "fragment_text": "2020 - 2022"
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "AI Engineering Senior Analyst",
+            "block_id": "b33",
+            "kind": "pdf",
+            "page_width": 595.56,
+            "page_height": 842.52,
+            "bbox": [
+              247.25,
+              429.43528,
+              389.67208,
+              440.47528
+            ],
+            "fragment_text": "AI Engineering Senior Analyst"
+          }
+        ],
+        "section": "WORK EXPERIENCE",
+        "date_label": "2020 - 2022",
+        "is_present": false
+      }
+    },
+    {
+      "id": "v2e4beba61815d31c",
+      "type": "EMPLOYMENT",
+      "company": "Data Mining Accenture",
+      "title": "",
+      "start_date": "2022-01",
+      "end_date": "2026-12",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.765,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Data Mining Accenture 2022 - PRESENT",
+            "block_id": "b32",
+            "kind": "pdf",
+            "page_width": 595.56,
+            "page_height": 842.52,
+            "bbox": [
+              33.84,
+              414.19527999999997,
+              570.87792,
+              428.01171999999997
+            ]
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2022 - PRESENT",
+            "block_id": "b32",
+            "kind": "pdf",
+            "page_width": 595.56,
+            "page_height": 842.52,
+            "bbox": [
+              500.62,
+              418.05172,
+              570.87792,
+              428.01171999999997
+            ],
+            "fragment_text": "2022 - PRESENT"
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Data Mining Accenture",
+            "block_id": "b32",
+            "kind": "pdf",
+            "page_width": 595.56,
+            "page_height": 842.52,
+            "bbox": [
+              33.84,
+              414.19527999999997,
+              302.16296,
+              425.85171999999994
+            ]
+          }
+        ],
+        "title": [],
+        "section": "WORK EXPERIENCE",
+        "date_label": "2022 - PRESENT",
+        "is_present": true
+      }
+    },
+    {
+      "id": "v6b1c9df41f364293",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Associate Data Scientist",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Associate Data Scientist",
+            "block_id": "b47",
+            "kind": "pdf",
+            "page_width": 595.56,
+            "page_height": 842.52,
+            "bbox": [
+              247.49,
+              584.86528,
+              361.10488000000004,
+              595.90528
+            ],
+            "fragment_text": "Associate Data Scientist"
+          }
+        ],
+        "dates": [],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Associate Data Scientist",
+            "block_id": "b47",
+            "kind": "pdf",
+            "page_width": 595.56,
+            "page_height": 842.52,
+            "bbox": [
+              247.49,
+              584.86528,
+              361.10488000000004,
+              595.90528
+            ],
+            "fragment_text": "Associate Data Scientist"
+          }
+        ],
+        "section": "WORK EXPERIENCE",
+        "date_label": "",
+        "is_present": false
+      }
+    }
+  ],
+  "education": [],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 3,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "PARTIAL",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "raw_pipeline_dto": {
+    "doc_id": "66e50947cdc12f9a08c6557c",
+    "filename": "KiranResume_1.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "v3af504848e063bcf",
+        "type": "EMPLOYMENT",
+        "title": "AI Engineering Senior Analyst",
+        "org": "",
+        "start": "2020-01",
+        "end": "2022-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "AI Engineering Senior Analyst",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "AI Engineering Senior Analyst",
+              "block_id": "b33",
+              "kind": "pdf",
+              "page_width": 595.56,
+              "page_height": 842.52,
+              "bbox": [
+                247.25,
+                429.43528,
+                389.67208,
+                440.47528
+              ],
+              "fragment_text": "AI Engineering Senior Analyst"
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2020 - 2022",
+              "block_id": "b45",
+              "kind": "pdf",
+              "page_width": 595.56,
+              "page_height": 842.52,
+              "bbox": [
+                523.2,
+                570.69172,
+                574.35504,
+                580.65172
+              ],
+              "fragment_text": "2020 - 2022"
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "AI Engineering Senior Analyst",
+              "block_id": "b33",
+              "kind": "pdf",
+              "page_width": 595.56,
+              "page_height": 842.52,
+              "bbox": [
+                247.25,
+                429.43528,
+                389.67208,
+                440.47528
+              ],
+              "fragment_text": "AI Engineering Senior Analyst"
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "2020 - 2022",
+          "is_present": false
+        },
+        "date_label": "2020 - 2022",
+        "section": "WORK EXPERIENCE",
+        "is_present": false
+      },
+      {
+        "id": "v2e4beba61815d31c",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Data Mining Accenture",
+        "start": "2022-01",
+        "end": "2026-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Data Mining Accenture 2022 - PRESENT",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Data Mining Accenture 2022 - PRESENT",
+              "block_id": "b32",
+              "kind": "pdf",
+              "page_width": 595.56,
+              "page_height": 842.52,
+              "bbox": [
+                33.84,
+                414.19527999999997,
+                570.87792,
+                428.01171999999997
+              ]
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2022 - PRESENT",
+              "block_id": "b32",
+              "kind": "pdf",
+              "page_width": 595.56,
+              "page_height": 842.52,
+              "bbox": [
+                500.62,
+                418.05172,
+                570.87792,
+                428.01171999999997
+              ],
+              "fragment_text": "2022 - PRESENT"
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Data Mining Accenture",
+              "block_id": "b32",
+              "kind": "pdf",
+              "page_width": 595.56,
+              "page_height": 842.52,
+              "bbox": [
+                33.84,
+                414.19527999999997,
+                302.16296,
+                425.85171999999994
+              ]
+            }
+          ],
+          "title": [],
+          "section": "WORK EXPERIENCE",
+          "date_label": "2022 - PRESENT",
+          "is_present": true
+        },
+        "date_label": "2022 - PRESENT",
+        "section": "WORK EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v6b1c9df41f364293",
+        "type": "EMPLOYMENT",
+        "title": "Associate Data Scientist",
+        "org": "",
+        "entry_text": "Associate Data Scientist Power BI & Tableau Design and develop AI solutions using machine learning and deep Azure DevOps / Git learning algorithms. Linux/Redhat/SQL Build end-to-end pipelines from data pre-processing till model inference and monitoring in GCP. Monitor performance of existing models,",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Associate Data Scientist",
+              "block_id": "b47",
+              "kind": "pdf",
+              "page_width": 595.56,
+              "page_height": 842.52,
+              "bbox": [
+                247.49,
+                584.86528,
+                361.10488000000004,
+                595.90528
+              ],
+              "fragment_text": "Associate Data Scientist"
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Associate Data Scientist",
+              "block_id": "b47",
+              "kind": "pdf",
+              "page_width": 595.56,
+              "page_height": 842.52,
+              "bbox": [
+                247.49,
+                584.86528,
+                361.10488000000004,
+                595.90528
+              ],
+              "fragment_text": "Associate Data Scientist"
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "WORK EXPERIENCE",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "v6b1c9df41f364293"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 3,
+      "dated_share": 0.667,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.765
+    },
+    "total_represented_months": 84,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

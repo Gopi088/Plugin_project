@@ -15,6 +15,8 @@ from backend import docstore, source
 from backend.pipeline import runner
 from backend.pipeline_context import PipelineContext
 
+ROOT = Path(__file__).resolve().parents[1]
+
 CHROME = shutil.which('google-chrome') or shutil.which('chromium')
 if CHROME:
     try:

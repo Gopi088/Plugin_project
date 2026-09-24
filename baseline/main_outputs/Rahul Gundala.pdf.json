@@ -1,0 +1,490 @@
+{
+  "file_name": "Rahul Gundala.pdf",
+  "input_mode": "original_document",
+  "input_sha256": "8dfc49b7f26abc0cc23dc8959bd01da6ddc5a82f3258621b1d0318beb85b7b3f",
+  "doc_id": "8dfc49b7f26abc0cc23dc895",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 0,
+    "total_events": 2,
+    "dated_share": 0.0,
+    "unresolved": 2,
+    "ambiguous": 0,
+    "mean_event_confidence": null,
+    "ocr_pages": []
+  },
+  "work_experience": [
+    {
+      "id": "v05bf58149c2f29e3",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Associate Analyst Present",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Apr 2022 - Associate Analyst",
+            "block_id": "b36",
+            "kind": "pdf",
+            "page_width": 595,
+            "page_height": 842,
+            "bbox": [
+              229.2578251545,
+              578.46431042997,
+              380.1621373892953,
+              588.35480508585
+            ]
+          },
+          {
+            "page": 1,
+            "text": "Present",
+            "block_id": "b36",
+            "kind": "pdf",
+            "page_width": 595,
+            "page_height": 842,
+            "bbox": [
+              229.2578251545,
+              588.06673242597,
+              256.8121251098657,
+              595.86870029772
+            ],
+            "fragment_text": "Present"
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Apr 2022",
+            "block_id": "b36",
+            "kind": "pdf",
+            "page_width": 595,
+            "page_height": 842,
+            "bbox": [
+              229.2578251545,
+              578.46431042997,
+              263.79361103341057,
+              586.26627830172
+            ],
+            "fragment_text": "Apr 2022"
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Associate Analyst",
+            "block_id": "b36",
+            "kind": "pdf",
+            "page_width": 595,
+            "page_height": 842,
+            "bbox": [
+              309.678109371,
+              579.3525344646,
+              380.1621373892953,
+              588.35480508585
+            ]
+          },
+          {
+            "page": 1,
+            "text": "Present",
+            "block_id": "b36",
+            "kind": "pdf",
+            "page_width": 595,
+            "page_height": 842,
+            "bbox": [
+              229.2578251545,
+              588.06673242597,
+              256.8121251098657,
+              595.86870029772
+            ],
+            "fragment_text": "Present"
+          }
+        ],
+        "section": "WORK EXPERIENCE",
+        "date_label": "Apr 2022",
+        "is_present": false
+      }
+    }
+  ],
+  "education": [
+    {
+      "id": "vda6ec5cd60907f27",
+      "type": "EDUCATION",
+      "company": "Vellore Institute of Technology",
+      "title": "",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "4 Years 2021 M.Tech",
+            "block_id": "b21",
+            "kind": "pdf",
+            "page_width": 595,
+            "page_height": 842,
+            "bbox": [
+              33.608476986,
+              336.00315503097,
+              339.76219740878065,
+              348.29425518585
+            ]
+          },
+          {
+            "page": 1,
+            "text": "Vellore Institute of Technology",
+            "block_id": "b22",
+            "kind": "pdf",
+            "page_width": 595,
+            "page_height": 842,
+            "bbox": [
+              309.678109371,
+              353.98369021848004,
+              454.9916364553898,
+              364.18626358923
+            ]
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2021",
+            "block_id": "b21",
+            "kind": "pdf",
+            "page_width": 595,
+            "page_height": 842,
+            "bbox": [
+              229.2578251545,
+              338.40376052997,
+              247.02455641475532,
+              346.20572840172
+            ]
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Vellore Institute of Technology",
+            "block_id": "b22",
+            "kind": "pdf",
+            "page_width": 595,
+            "page_height": 842,
+            "bbox": [
+              309.678109371,
+              353.98369021848004,
+              454.9916364553898,
+              364.18626358923
+            ]
+          }
+        ],
+        "title": [],
+        "section": "EDUCATION",
+        "date_label": "2021",
+        "is_present": false
+      }
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 1,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "PARTIAL",
+    "coverage_analysis": "PARTIAL",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "entry e0: dates found without an explicit range",
+    "entry e1: dates found without an explicit range",
+    "entry e2: dates found without an explicit range",
+    "e0: dates cannot be assigned unambiguously",
+    "e1: dates cannot be assigned unambiguously",
+    "e2: dates cannot be assigned unambiguously",
+    "conflicting/ambiguous date kept for ''",
+    "conflicting/ambiguous date kept for 'Associate Analyst Present'",
+    "no dated events to order",
+    "no intervals to cover"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "8dfc49b7f26abc0cc23dc895",
+    "filename": "Rahul Gundala.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [],
+    "unresolved_events": [
+      {
+        "id": "vda6ec5cd60907f27",
+        "type": "EDUCATION",
+        "title": "",
+        "org": "Vellore Institute of Technology",
+        "entry_text": "4 Years 2021 M.Tech Vellore Institute of Technology",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "4 Years 2021 M.Tech",
+              "block_id": "b21",
+              "kind": "pdf",
+              "page_width": 595,
+              "page_height": 842,
+              "bbox": [
+                33.608476986,
+                336.00315503097,
+                339.76219740878065,
+                348.29425518585
+              ]
+            },
+            {
+              "page": 1,
+              "text": "Vellore Institute of Technology",
+              "block_id": "b22",
+              "kind": "pdf",
+              "page_width": 595,
+              "page_height": 842,
+              "bbox": [
+                309.678109371,
+                353.98369021848004,
+                454.9916364553898,
+                364.18626358923
+              ]
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2021",
+              "block_id": "b21",
+              "kind": "pdf",
+              "page_width": 595,
+              "page_height": 842,
+              "bbox": [
+                229.2578251545,
+                338.40376052997,
+                247.02455641475532,
+                346.20572840172
+              ]
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Vellore Institute of Technology",
+              "block_id": "b22",
+              "kind": "pdf",
+              "page_width": 595,
+              "page_height": 842,
+              "bbox": [
+                309.678109371,
+                353.98369021848004,
+                454.9916364553898,
+                364.18626358923
+              ]
+            }
+          ],
+          "title": [],
+          "section": "EDUCATION",
+          "date_label": "2021",
+          "is_present": false
+        },
+        "date_label": "2021",
+        "section": "EDUCATION",
+        "status": "AMBIGUOUS"
+      },
+      {
+        "id": "v05bf58149c2f29e3",
+        "type": "EMPLOYMENT",
+        "title": "Associate Analyst Present",
+        "org": "",
+        "entry_text": "Apr 2022 - Associate Analyst Present Eslint PurpleTalk I am a software analyst hands on experience as full stack Npm developer. Graphql TypeScript",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Apr 2022 - Associate Analyst",
+              "block_id": "b36",
+              "kind": "pdf",
+              "page_width": 595,
+              "page_height": 842,
+              "bbox": [
+                229.2578251545,
+                578.46431042997,
+                380.1621373892953,
+                588.35480508585
+              ]
+            },
+            {
+              "page": 1,
+              "text": "Present",
+              "block_id": "b36",
+              "kind": "pdf",
+              "page_width": 595,
+              "page_height": 842,
+              "bbox": [
+                229.2578251545,
+                588.06673242597,
+                256.8121251098657,
+                595.86870029772
+              ],
+              "fragment_text": "Present"
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Apr 2022",
+              "block_id": "b36",
+              "kind": "pdf",
+              "page_width": 595,
+              "page_height": 842,
+              "bbox": [
+                229.2578251545,
+                578.46431042997,
+                263.79361103341057,
+                586.26627830172
+              ],
+              "fragment_text": "Apr 2022"
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Associate Analyst",
+              "block_id": "b36",
+              "kind": "pdf",
+              "page_width": 595,
+              "page_height": 842,
+              "bbox": [
+                309.678109371,
+                579.3525344646,
+                380.1621373892953,
+                588.35480508585
+              ]
+            },
+            {
+              "page": 1,
+              "text": "Present",
+              "block_id": "b36",
+              "kind": "pdf",
+              "page_width": 595,
+              "page_height": 842,
+              "bbox": [
+                229.2578251545,
+                588.06673242597,
+                256.8121251098657,
+                595.86870029772
+              ],
+              "fragment_text": "Present"
+            }
+          ],
+          "section": "WORK EXPERIENCE",
+          "date_label": "Apr 2022",
+          "is_present": false
+        },
+        "date_label": "Apr 2022",
+        "section": "WORK EXPERIENCE",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "v05bf58149c2f29e3"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 0,
+      "total_events": 2,
+      "dated_share": 0.0,
+      "unresolved": 2,
+      "ambiguous": 0,
+      "mean_event_confidence": null,
+      "ocr_pages": []
+    },
+    "total_represented_months": 0,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "PARTIAL",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "PARTIAL",
+        "confidence": 0.3
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

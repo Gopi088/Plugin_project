@@ -1,0 +1,484 @@
+{
+  "file_name": "Gopal.docx",
+  "input_mode": "text_snapshot",
+  "input_sha256": "917edcfc31fb982d0293732d911983469b32c3c3582c20b70e5b1a0252903ef8",
+  "doc_id": "917edcfc31fb982d0293732d",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 1,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "ocr_pages": []
+  },
+  "work_experience": [
+    {
+      "id": "v96cc6d194c357241",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Data Scientist",
+      "start_date": "2020-10",
+      "end_date": "2026-09",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Data Scientist",
+            "block_id": "b9",
+            "kind": "text",
+            "start": 558,
+            "end": 572
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Oct 2020 - Current",
+            "block_id": "b12",
+            "kind": "text",
+            "start": 605,
+            "end": 623
+          },
+          {
+            "page": 1,
+            "text": "2018",
+            "block_id": "b13",
+            "kind": "text",
+            "start": 643,
+            "end": 647
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Data Scientist",
+            "block_id": "b9",
+            "kind": "text",
+            "start": 558,
+            "end": 572
+          }
+        ],
+        "section": "Experience",
+        "date_label": "Oct 2020 - Current",
+        "is_present": true
+      }
+    }
+  ],
+  "education": [],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "Project",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "ANTWORKS,Chennai\tApr 2019 - Sep 2019",
+        "Researched, designed and implemented machine learning applications to solve business problems.",
+        "Worked on proofs of concept for innovative new solutions.",
+        "Devised and deployed predictive models using machine learning algorithms to drive business decisions.",
+        "Insurance Domain – Intelligent Document Processing",
+        "Developed Handwritten Text Recognition using deep learning models combined with Tesseract OCR, enabling extraction from unstructured handwritten forms.",
+        "Built a Signature Detection system leveraging CNN-based object detection models to validate document authenticity.  Implemented checkbox detection using OpenCV and optimized image preprocessing techniques.",
+        "Enhanced product performance by profiling memory usage and implementing fixes, resulting in more efficient processing."
+      ],
+      "raw_text": "ANTWORKS,Chennai\tApr 2019 - Sep 2019\nResearched, designed and implemented machine learning applications to solve business problems.\nWorked on proofs of concept for innovative new solutions.\nDevised and deployed predictive models using machine learning algorithms to drive business decisions.\nInsurance Domain – Intelligent Document Processing\nDeveloped Handwritten Text Recognition using deep learning models combined with Tesseract OCR, enabling extraction from unstructured handwritten forms.\nBuilt a Signature Detection system leveraging CNN-based object detection models to validate document auth",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "ANTWORKS,Chennai\tApr 2019 - Sep 2019",
+            "block_id": "b48",
+            "kind": "text",
+            "start": 2756,
+            "end": 2792
+          },
+          {
+            "page": 1,
+            "text": "Researched, designed and implemented machine learning applications to solve business problems.",
+            "block_id": "b49",
+            "kind": "text",
+            "start": 2794,
+            "end": 2888
+          },
+          {
+            "page": 1,
+            "text": "Worked on proofs of concept for innovative new solutions.",
+            "block_id": "b50",
+            "kind": "text",
+            "start": 2891,
+            "end": 2948
+          },
+          {
+            "page": 1,
+            "text": "Devised and deployed predictive models using machine learning algorithms to drive business decisions.",
+            "block_id": "b51",
+            "kind": "text",
+            "start": 2950,
+            "end": 3051
+          },
+          {
+            "page": 1,
+            "text": "Insurance Domain – Intelligent Document Processing",
+            "block_id": "b52",
+            "kind": "text",
+            "start": 3052,
+            "end": 3102
+          },
+          {
+            "page": 1,
+            "text": "Developed Handwritten Text Recognition using deep learning models combined with Tesseract OCR, enabling extraction from unstructured handwritten forms.",
+            "block_id": "b53",
+            "kind": "text",
+            "start": 3105,
+            "end": 3256
+          },
+          {
+            "page": 1,
+            "text": "Built a Signature Detection system leveraging CNN-based object detection models to validate document authenticity.  Implemented checkbox detection using OpenCV and optimized image preprocessing techniques.",
+            "block_id": "b54",
+            "kind": "text",
+            "start": 3258,
+            "end": 3463
+          },
+          {
+            "page": 1,
+            "text": "Enhanced product performance by profiling memory usage and implementing fixes, resulting in more efficient processing.",
+            "block_id": "b55",
+            "kind": "text",
+            "start": 3466,
+            "end": 3584
+          },
+          {
+            "page": 1,
+            "text": "Financial Domain – Document AI & Image Intelligence",
+            "block_id": "b56",
+            "kind": "text",
+            "start": 3585,
+            "end": 3636
+          },
+          {
+            "page": 1,
+            "text": "Designed solutions for printed character extraction and key-value pair identification from large volumes of financial/insurance documents.",
+            "block_id": "b57",
+            "kind": "text",
+            "start": 3638,
+            "end": 3776
+          },
+          {
+            "page": 1,
+            "text": "Developed pattern-matching pipelines to automate value extraction based on customer-specific templates.",
+            "block_id": "b58",
+            "kind": "text",
+            "start": 3779,
+            "end": 3882
+          },
+          {
+            "page": 1,
+            "text": "Implemented photo ID recognition workflows across diverse image formats to support compliance use cases.  Trained/fine-tuned signature detection models with new datasets, improving real-world accuracy.",
+            "block_id": "b59",
+            "kind": "text",
+            "start": 3884,
+            "end": 4085
+          }
+        ]
+      }
+    }
+  ],
+  "gaps": [],
+  "total_work_experience_entries": 1,
+  "total_projects_entries": 1,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [],
+  "raw_pipeline_dto": {
+    "doc_id": "917edcfc31fb982d0293732d",
+    "filename": "Gopal.docx",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v96cc6d194c357241",
+        "type": "EMPLOYMENT",
+        "title": "Data Scientist",
+        "org": "",
+        "start": "2020-10",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Data Scientist",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Data Scientist",
+              "block_id": "b9",
+              "kind": "text",
+              "start": 558,
+              "end": 572
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Oct 2020 - Current",
+              "block_id": "b12",
+              "kind": "text",
+              "start": 605,
+              "end": 623
+            },
+            {
+              "page": 1,
+              "text": "2018",
+              "block_id": "b13",
+              "kind": "text",
+              "start": 643,
+              "end": 647
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Data Scientist",
+              "block_id": "b9",
+              "kind": "text",
+              "start": 558,
+              "end": 572
+            }
+          ],
+          "section": "Experience",
+          "date_label": "Oct 2020 - Current",
+          "is_present": true
+        },
+        "date_label": "Oct 2020 - Current",
+        "section": "Experience",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "Project",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "ANTWORKS,Chennai\tApr 2019 - Sep 2019",
+          "Researched, designed and implemented machine learning applications to solve business problems.",
+          "Worked on proofs of concept for innovative new solutions.",
+          "Devised and deployed predictive models using machine learning algorithms to drive business decisions.",
+          "Insurance Domain – Intelligent Document Processing",
+          "Developed Handwritten Text Recognition using deep learning models combined with Tesseract OCR, enabling extraction from unstructured handwritten forms.",
+          "Built a Signature Detection system leveraging CNN-based object detection models to validate document authenticity.  Implemented checkbox detection using OpenCV and optimized image preprocessing techniques.",
+          "Enhanced product performance by profiling memory usage and implementing fixes, resulting in more efficient processing."
+        ],
+        "raw_text": "ANTWORKS,Chennai\tApr 2019 - Sep 2019\nResearched, designed and implemented machine learning applications to solve business problems.\nWorked on proofs of concept for innovative new solutions.\nDevised and deployed predictive models using machine learning algorithms to drive business decisions.\nInsurance Domain – Intelligent Document Processing\nDeveloped Handwritten Text Recognition using deep learning models combined with Tesseract OCR, enabling extraction from unstructured handwritten forms.\nBuilt a Signature Detection system leveraging CNN-based object detection models to validate document auth",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "ANTWORKS,Chennai\tApr 2019 - Sep 2019",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 2756,
+              "end": 2792
+            },
+            {
+              "page": 1,
+              "text": "Researched, designed and implemented machine learning applications to solve business problems.",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 2794,
+              "end": 2888
+            },
+            {
+              "page": 1,
+              "text": "Worked on proofs of concept for innovative new solutions.",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 2891,
+              "end": 2948
+            },
+            {
+              "page": 1,
+              "text": "Devised and deployed predictive models using machine learning algorithms to drive business decisions.",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 2950,
+              "end": 3051
+            },
+            {
+              "page": 1,
+              "text": "Insurance Domain – Intelligent Document Processing",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 3052,
+              "end": 3102
+            },
+            {
+              "page": 1,
+              "text": "Developed Handwritten Text Recognition using deep learning models combined with Tesseract OCR, enabling extraction from unstructured handwritten forms.",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 3105,
+              "end": 3256
+            },
+            {
+              "page": 1,
+              "text": "Built a Signature Detection system leveraging CNN-based object detection models to validate document authenticity.  Implemented checkbox detection using OpenCV and optimized image preprocessing techniques.",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 3258,
+              "end": 3463
+            },
+            {
+              "page": 1,
+              "text": "Enhanced product performance by profiling memory usage and implementing fixes, resulting in more efficient processing.",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 3466,
+              "end": 3584
+            },
+            {
+              "page": 1,
+              "text": "Financial Domain – Document AI & Image Intelligence",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 3585,
+              "end": 3636
+            },
+            {
+              "page": 1,
+              "text": "Designed solutions for printed character extraction and key-value pair identification from large volumes of financial/insurance documents.",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 3638,
+              "end": 3776
+            },
+            {
+              "page": 1,
+              "text": "Developed pattern-matching pipelines to automate value extraction based on customer-specific templates.",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 3779,
+              "end": 3882
+            },
+            {
+              "page": 1,
+              "text": "Implemented photo ID recognition workflows across diverse image formats to support compliance use cases.  Trained/fine-tuned signature detection models with new datasets, improving real-world accuracy.",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 3884,
+              "end": 4085
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 1,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "ocr_pages": []
+    },
+    "total_represented_months": 72,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

@@ -1,0 +1,849 @@
+{
+  "file_name": "BhuvaatsingJadhav[10y_0m] (1).pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "587efa51c0a54b2165fa4b82b75bdcb930f703510f0e4e0bb5df3ed78fc419c5",
+  "doc_id": "587efa51c0a54b2165fa4b82",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 2,
+    "dated_share": 0.5,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.85,
+    "document_accuracy": 0.85
+  },
+  "work_experience": [
+    {
+      "id": "v42cf51c7f6b38fbb",
+      "type": "EMPLOYMENT",
+      "company": "Infosys Technologies Ltd",
+      "title": "Business Analyst",
+      "start_date": "2020-01",
+      "end_date": "2022-12",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.85,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Business Analyst",
+            "block_id": "b42",
+            "kind": "text",
+            "start": 2935,
+            "end": 2951
+          },
+          {
+            "page": 1,
+            "text": "Infosys Technologies Ltd.",
+            "block_id": "b43",
+            "kind": "text",
+            "start": 2953,
+            "end": 2978
+          },
+          {
+            "page": 1,
+            "text": "Jan 2020 – Dec 2022",
+            "block_id": "b44",
+            "kind": "text",
+            "start": 2980,
+            "end": 2999
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Jan 2020 – Dec 2022",
+            "block_id": "b44",
+            "kind": "text",
+            "start": 2980,
+            "end": 2999
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Infosys Technologies Ltd",
+            "block_id": "b43",
+            "kind": "text",
+            "start": 2953,
+            "end": 2977
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Business Analyst",
+            "block_id": "b42",
+            "kind": "text",
+            "start": 2935,
+            "end": 2951
+          }
+        ],
+        "section": "Tata Consultancy Services",
+        "date_label": "Jan 2020 – Dec 2022",
+        "is_present": false
+      },
+      "precision": "month",
+      "date_label": "Jan 2020 – Dec 2022"
+    }
+  ],
+  "education": [
+    {
+      "id": "v79eed346ab91e368",
+      "type": "EDUCATION",
+      "company": "Dr. Babasaheb Ambedkar Marathwada University",
+      "title": "B.Com",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "M.Com | Dr. Babasaheb Ambedkar Marathwada University 2020",
+            "block_id": "b67",
+            "kind": "text",
+            "start": 4556,
+            "end": 4613
+          },
+          {
+            "page": 1,
+            "text": "B.Com | Dr. Babasaheb Ambedkar Marathwada University 2015",
+            "block_id": "b68",
+            "kind": "text",
+            "start": 4615,
+            "end": 4672
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2020",
+            "block_id": "b67",
+            "kind": "text",
+            "start": 4609,
+            "end": 4613
+          },
+          {
+            "page": 1,
+            "text": "2015",
+            "block_id": "b68",
+            "kind": "text",
+            "start": 4668,
+            "end": 4672
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Dr. Babasaheb Ambedkar Marathwada University",
+            "block_id": "b67",
+            "kind": "text",
+            "start": 4564,
+            "end": 4608
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "B.Com",
+            "block_id": "b68",
+            "kind": "text",
+            "start": 4615,
+            "end": 4620
+          }
+        ],
+        "section": "M.Com | Dr. Babasaheb Ambedkar Marathwada University 2020",
+        "date_label": "2020 / 2015",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": "2020 / 2015"
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 1,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "section EDUCATION: entry without dated header preserved as-is",
+    "entry e3: dates found without an explicit range",
+    "e3: dates cannot be assigned unambiguously",
+    "conflicting/ambiguous date kept for 'B.Com'"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "587efa51c0a54b2165fa4b82",
+    "filename": "BhuvaatsingJadhav[10y_0m] (1).pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v42cf51c7f6b38fbb",
+        "type": "EMPLOYMENT",
+        "title": "Business Analyst",
+        "org": "Infosys Technologies Ltd",
+        "start": "2020-01",
+        "end": "2022-12",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.85,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Business Analyst\nInfosys Technologies Ltd.\nJan 2020 – Dec 2022",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Business Analyst",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 2935,
+              "end": 2951
+            },
+            {
+              "page": 1,
+              "text": "Infosys Technologies Ltd.",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 2953,
+              "end": 2978
+            },
+            {
+              "page": 1,
+              "text": "Jan 2020 – Dec 2022",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 2980,
+              "end": 2999
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jan 2020 – Dec 2022",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 2980,
+              "end": 2999
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Infosys Technologies Ltd",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 2953,
+              "end": 2977
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Business Analyst",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 2935,
+              "end": 2951
+            }
+          ],
+          "section": "Tata Consultancy Services",
+          "date_label": "Jan 2020 – Dec 2022",
+          "is_present": false
+        },
+        "date_label": "Jan 2020 – Dec 2022",
+        "section": "Tata Consultancy Services",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v79eed346ab91e368",
+        "type": "EDUCATION",
+        "title": "B.Com",
+        "org": "Dr. Babasaheb Ambedkar Marathwada University",
+        "entry_text": "M.Com | Dr. Babasaheb Ambedkar Marathwada University 2020 B.Com | Dr. Babasaheb Ambedkar Marathwada University 2015",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "M.Com | Dr. Babasaheb Ambedkar Marathwada University 2020",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 4556,
+              "end": 4613
+            },
+            {
+              "page": 1,
+              "text": "B.Com | Dr. Babasaheb Ambedkar Marathwada University 2015",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 4615,
+              "end": 4672
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2020",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 4609,
+              "end": 4613
+            },
+            {
+              "page": 1,
+              "text": "2015",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 4668,
+              "end": 4672
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Dr. Babasaheb Ambedkar Marathwada University",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 4564,
+              "end": 4608
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "B.Com",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 4615,
+              "end": 4620
+            }
+          ],
+          "section": "M.Com | Dr. Babasaheb Ambedkar Marathwada University 2020",
+          "date_label": "2020 / 2015",
+          "is_present": false
+        },
+        "date_label": "2020 / 2015",
+        "section": "M.Com | Dr. Babasaheb Ambedkar Marathwada University 2020",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 2,
+      "dated_share": 0.5,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.85,
+      "document_accuracy": 0.85
+    },
+    "total_represented_months": 36,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": true,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 1,
+          "represented_months": 36,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 1,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v42cf51c7f6b38fbb",
+              "label": "Business Analyst",
+              "state": "month_range",
+              "start": [
+                2020,
+                1
+              ],
+              "end": [
+                2022,
+                12
+              ],
+              "months": 36,
+              "raw": "Jan 2020 – Dec 2022",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Business Analyst",
+                    "block_id": "b42",
+                    "kind": "text",
+                    "start": 2935,
+                    "end": 2951
+                  },
+                  {
+                    "page": 1,
+                    "text": "Infosys Technologies Ltd.",
+                    "block_id": "b43",
+                    "kind": "text",
+                    "start": 2953,
+                    "end": 2978
+                  },
+                  {
+                    "page": 1,
+                    "text": "Jan 2020 – Dec 2022",
+                    "block_id": "b44",
+                    "kind": "text",
+                    "start": 2980,
+                    "end": 2999
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "Jan 2020 – Dec 2022",
+                    "block_id": "b44",
+                    "kind": "text",
+                    "start": 2980,
+                    "end": 2999
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Infosys Technologies Ltd",
+                    "block_id": "b43",
+                    "kind": "text",
+                    "start": 2953,
+                    "end": 2977
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Business Analyst",
+                    "block_id": "b42",
+                    "kind": "text",
+                    "start": 2935,
+                    "end": 2951
+                  }
+                ],
+                "section": "Tata Consultancy Services",
+                "date_label": "Jan 2020 – Dec 2022",
+                "is_present": false
+              }
+            }
+          ]
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 1,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v79eed346ab91e368",
+              "label": "B.Com",
+              "state": "ambiguous",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "2020 / 2015",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "M.Com | Dr. Babasaheb Ambedkar Marathwada University 2020",
+                    "block_id": "b67",
+                    "kind": "text",
+                    "start": 4556,
+                    "end": 4613
+                  },
+                  {
+                    "page": 1,
+                    "text": "B.Com | Dr. Babasaheb Ambedkar Marathwada University 2015",
+                    "block_id": "b68",
+                    "kind": "text",
+                    "start": 4615,
+                    "end": 4672
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "2020",
+                    "block_id": "b67",
+                    "kind": "text",
+                    "start": 4609,
+                    "end": 4613
+                  },
+                  {
+                    "page": 1,
+                    "text": "2015",
+                    "block_id": "b68",
+                    "kind": "text",
+                    "start": 4668,
+                    "end": 4672
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Dr. Babasaheb Ambedkar Marathwada University",
+                    "block_id": "b67",
+                    "kind": "text",
+                    "start": 4564,
+                    "end": 4608
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "B.Com",
+                    "block_id": "b68",
+                    "kind": "text",
+                    "start": 4615,
+                    "end": 4620
+                  }
+                ],
+                "section": "M.Com | Dr. Babasaheb Ambedkar Marathwada University 2020",
+                "date_label": "2020 / 2015",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 36,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": true,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 1,
+        "represented_months": 36,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 1,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v42cf51c7f6b38fbb",
+            "label": "Business Analyst",
+            "state": "month_range",
+            "start": [
+              2020,
+              1
+            ],
+            "end": [
+              2022,
+              12
+            ],
+            "months": 36,
+            "raw": "Jan 2020 – Dec 2022",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Business Analyst",
+                  "block_id": "b42",
+                  "kind": "text",
+                  "start": 2935,
+                  "end": 2951
+                },
+                {
+                  "page": 1,
+                  "text": "Infosys Technologies Ltd.",
+                  "block_id": "b43",
+                  "kind": "text",
+                  "start": 2953,
+                  "end": 2978
+                },
+                {
+                  "page": 1,
+                  "text": "Jan 2020 – Dec 2022",
+                  "block_id": "b44",
+                  "kind": "text",
+                  "start": 2980,
+                  "end": 2999
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Jan 2020 – Dec 2022",
+                  "block_id": "b44",
+                  "kind": "text",
+                  "start": 2980,
+                  "end": 2999
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Infosys Technologies Ltd",
+                  "block_id": "b43",
+                  "kind": "text",
+                  "start": 2953,
+                  "end": 2977
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Business Analyst",
+                  "block_id": "b42",
+                  "kind": "text",
+                  "start": 2935,
+                  "end": 2951
+                }
+              ],
+              "section": "Tata Consultancy Services",
+              "date_label": "Jan 2020 – Dec 2022",
+              "is_present": false
+            }
+          }
+        ]
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 1,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v79eed346ab91e368",
+            "label": "B.Com",
+            "state": "ambiguous",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "2020 / 2015",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "M.Com | Dr. Babasaheb Ambedkar Marathwada University 2020",
+                  "block_id": "b67",
+                  "kind": "text",
+                  "start": 4556,
+                  "end": 4613
+                },
+                {
+                  "page": 1,
+                  "text": "B.Com | Dr. Babasaheb Ambedkar Marathwada University 2015",
+                  "block_id": "b68",
+                  "kind": "text",
+                  "start": 4615,
+                  "end": 4672
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "2020",
+                  "block_id": "b67",
+                  "kind": "text",
+                  "start": 4609,
+                  "end": 4613
+                },
+                {
+                  "page": 1,
+                  "text": "2015",
+                  "block_id": "b68",
+                  "kind": "text",
+                  "start": 4668,
+                  "end": 4672
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Dr. Babasaheb Ambedkar Marathwada University",
+                  "block_id": "b67",
+                  "kind": "text",
+                  "start": 4564,
+                  "end": 4608
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "B.Com",
+                  "block_id": "b68",
+                  "kind": "text",
+                  "start": 4615,
+                  "end": 4620
+                }
+              ],
+              "section": "M.Com | Dr. Babasaheb Ambedkar Marathwada University 2020",
+              "date_label": "2020 / 2015",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 36,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

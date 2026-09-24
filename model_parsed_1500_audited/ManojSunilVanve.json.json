@@ -1,0 +1,490 @@
+{
+  "file_name": "ManojSunilVanve.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "b7057c4013354516b74960985c99ce36312ecd0d752aa19c1e587ea72b40e1b5",
+  "doc_id": "b7057c4013354516b7496098",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 3,
+    "dated_share": 0.333,
+    "unresolved": 2,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "ocr_pages": []
+  },
+  "work_experience": [
+    {
+      "id": "v1457fe4455f92108",
+      "type": "EMPLOYMENT",
+      "company": "Bank of New York",
+      "title": "Associate",
+      "start_date": "2022-04",
+      "end_date": "2026-01",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Associate, Fund/Client Accounting II - (Bank of New York, Pune, India)",
+            "block_id": "b14",
+            "kind": "text",
+            "start": 644,
+            "end": 714
+          },
+          {
+            "page": 1,
+            "text": "April 2022 to January 2026",
+            "block_id": "b15",
+            "kind": "text",
+            "start": 718,
+            "end": 744
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "April 2022 to January 2026",
+            "block_id": "b15",
+            "kind": "text",
+            "start": 718,
+            "end": 744
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Bank of New York",
+            "block_id": "b14",
+            "kind": "text",
+            "start": 684,
+            "end": 700
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Associate",
+            "block_id": "b14",
+            "kind": "text",
+            "start": 644,
+            "end": 653
+          }
+        ],
+        "section": "Work Experience",
+        "date_label": "April 2022 to January 2026",
+        "is_present": false
+      }
+    }
+  ],
+  "education": [
+    {
+      "id": "vb5db65922a0b364e",
+      "type": "EDUCATION",
+      "company": "",
+      "title": "MBA (FINANCE",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "MBA (FINANCE)",
+            "block_id": "b64",
+            "kind": "text",
+            "start": 3801,
+            "end": 3814
+          },
+          {
+            "page": 1,
+            "text": "AISSMS, Pune 2013",
+            "block_id": "b65",
+            "kind": "text",
+            "start": 3816,
+            "end": 3833
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2013",
+            "block_id": "b65",
+            "kind": "text",
+            "start": 3829,
+            "end": 3833
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "MBA (FINANCE",
+            "block_id": "b64",
+            "kind": "text",
+            "start": 3801,
+            "end": 3813
+          }
+        ],
+        "section": "Education",
+        "date_label": "2013",
+        "is_present": false
+      }
+    },
+    {
+      "id": "v73e67d74f7c19c8a",
+      "type": "EDUCATION",
+      "company": "",
+      "title": "B.Sc. Hotel Management",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "B.Sc. Hotel Management",
+            "block_id": "b66",
+            "kind": "text",
+            "start": 3837,
+            "end": 3859
+          },
+          {
+            "page": 1,
+            "text": "IHTM , Pune 2009",
+            "block_id": "b67",
+            "kind": "text",
+            "start": 3861,
+            "end": 3877
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2009",
+            "block_id": "b67",
+            "kind": "text",
+            "start": 3873,
+            "end": 3877
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "B.Sc. Hotel Management",
+            "block_id": "b66",
+            "kind": "text",
+            "start": 3837,
+            "end": 3859
+          }
+        ],
+        "section": "Education",
+        "date_label": "2009",
+        "is_present": false
+      }
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 1,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "entry e2: dates found without an explicit range",
+    "entry e3: dates found without an explicit range",
+    "e2: dates cannot be assigned unambiguously",
+    "e3: dates cannot be assigned unambiguously",
+    "conflicting/ambiguous date kept for 'MBA (FINANCE'",
+    "conflicting/ambiguous date kept for 'B.Sc. Hotel Management'"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "b7057c4013354516b7496098",
+    "filename": "ManojSunilVanve.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v1457fe4455f92108",
+        "type": "EMPLOYMENT",
+        "title": "Associate",
+        "org": "Bank of New York",
+        "start": "2022-04",
+        "end": "2026-01",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Associate, Fund/Client Accounting II - (Bank of New York, Pune, India)\nApril 2022 to January 2026",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Associate, Fund/Client Accounting II - (Bank of New York, Pune, India)",
+              "block_id": "b14",
+              "kind": "text",
+              "start": 644,
+              "end": 714
+            },
+            {
+              "page": 1,
+              "text": "April 2022 to January 2026",
+              "block_id": "b15",
+              "kind": "text",
+              "start": 718,
+              "end": 744
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "April 2022 to January 2026",
+              "block_id": "b15",
+              "kind": "text",
+              "start": 718,
+              "end": 744
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Bank of New York",
+              "block_id": "b14",
+              "kind": "text",
+              "start": 684,
+              "end": 700
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Associate",
+              "block_id": "b14",
+              "kind": "text",
+              "start": 644,
+              "end": 653
+            }
+          ],
+          "section": "Work Experience",
+          "date_label": "April 2022 to January 2026",
+          "is_present": false
+        },
+        "date_label": "April 2022 to January 2026",
+        "section": "Work Experience",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "vb5db65922a0b364e",
+        "type": "EDUCATION",
+        "title": "MBA (FINANCE",
+        "org": "",
+        "entry_text": "MBA (FINANCE) AISSMS, Pune 2013",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "MBA (FINANCE)",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 3801,
+              "end": 3814
+            },
+            {
+              "page": 1,
+              "text": "AISSMS, Pune 2013",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 3816,
+              "end": 3833
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2013",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 3829,
+              "end": 3833
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "MBA (FINANCE",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 3801,
+              "end": 3813
+            }
+          ],
+          "section": "Education",
+          "date_label": "2013",
+          "is_present": false
+        },
+        "date_label": "2013",
+        "section": "Education",
+        "status": "AMBIGUOUS"
+      },
+      {
+        "id": "v73e67d74f7c19c8a",
+        "type": "EDUCATION",
+        "title": "B.Sc. Hotel Management",
+        "org": "",
+        "entry_text": "B.Sc. Hotel Management IHTM , Pune 2009",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "B.Sc. Hotel Management",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 3837,
+              "end": 3859
+            },
+            {
+              "page": 1,
+              "text": "IHTM , Pune 2009",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 3861,
+              "end": 3877
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2009",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 3873,
+              "end": 3877
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "B.Sc. Hotel Management",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 3837,
+              "end": 3859
+            }
+          ],
+          "section": "Education",
+          "date_label": "2009",
+          "is_present": false
+        },
+        "date_label": "2009",
+        "section": "Education",
+        "status": "AMBIGUOUS"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 3,
+      "dated_share": 0.333,
+      "unresolved": 2,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "ocr_pages": []
+    },
+    "total_represented_months": 46,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

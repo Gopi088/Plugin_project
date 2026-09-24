@@ -18,7 +18,7 @@ original-resume evidence remain available. See [workspace setup and contracts](w
 
 | Part | Path | Stack |
 |---|---|---|
-| 12-stage pipeline | `backend/` | stdlib only (`http.server` + `sqlite3`), spaCy assist optional |
+| 12-stage pipeline | `backend/` | Python, PDF/DOCX extraction, stdlib HTTP/SQLite, optional spaCy hints |
 | Browser extension (MV3) | `extension/` | vanilla JS, no build step |
 | Legacy resume CLI | `scripts/`, `test_resume.py` | same venv |
 | Tests + eval | `tests/`, `eval/` | `unittest`, node for JS checks |
@@ -40,11 +40,21 @@ venv/bin/python -m pip install -r requirements.txt
 
 > On Debian/Ubuntu, never use bare `pip install` (PEP 668 system error) — always `venv/bin/python -m pip`.
 
-Verify:
+Verify using the explicit project interpreter (a copied virtual environment's
+activation script may still point to its old folder):
 
 ```bash
-venv/bin/python -m unittest discover -s tests
+venv/bin/python scripts/check_environment.py
+PYTHONDONTWRITEBYTECODE=1 venv/bin/python -m unittest discover -s tests
+PYTHONDONTWRITEBYTECODE=1 venv/bin/python eval/metrics.py
 ```
+
+For scanned PDFs and legacy Word files, the extractor uses local optional tools:
+`sudo apt install tesseract-ocr tesseract-ocr-eng antiword` on Ubuntu/WSL.
+OCR-derived entries retain page rectangles, are marked uncertain, and do not
+produce automatic gap claims. Missing tools are reported explicitly. Never
+reuse a virtual environment from a different machine/path; create it at the
+project path using the setup commands above.
 
 ## Run the backend
 
@@ -162,3 +172,13 @@ API persistence, and real headless Chrome review clicks and scrolling:
 ```bash
 PYTHONDONTWRITEBYTECODE=1 venv/bin/python -m unittest discover -s tests
 ```
+
+
+## Batch audit and manager briefing
+
+See [the manager briefing](docs/PROJECT_MANAGER_SUMMARY.md) for the architecture,
+technology stack, audit fixes and validation limits, and [the batch guide](docs/BATCH_EVALUATION_GUIDE.md)
+for reproducible commands and label requirements. The 1,554 saved extraction records
+are source text, not independent ground truth: the previous 91.43% overall accuracy
+claim was invalid. [The corrected report](accuracy_report.md) separates processing
+statuses and source diagnostics from measured labeled metrics.

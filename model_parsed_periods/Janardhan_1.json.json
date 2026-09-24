@@ -1,0 +1,1217 @@
+{
+  "file_name": "Janardhan_1.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "d1e8e05157e0cc1909ac14c6c7313f6eacaba3a2e9e38daf5b1f5dab908b066e",
+  "doc_id": "d1e8e05157e0cc1909ac14c6",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 3,
+    "dated_share": 0.667,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.85,
+    "document_accuracy": 0.85
+  },
+  "work_experience": [
+    {
+      "id": "v3d5956fb359442bb",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Senior Engineer",
+      "start_date": "2021-10",
+      "end_date": "2023-02",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.85,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Senior Engineer",
+            "block_id": "b70",
+            "kind": "text",
+            "start": 2481,
+            "end": 2496
+          },
+          {
+            "page": 1,
+            "text": "Oct 2021 - Feb 2023",
+            "block_id": "b72",
+            "kind": "text",
+            "start": 2521,
+            "end": 2540
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Oct 2021 - Feb 2023",
+            "block_id": "b72",
+            "kind": "text",
+            "start": 2521,
+            "end": 2540
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Senior Engineer",
+            "block_id": "b70",
+            "kind": "text",
+            "start": 2481,
+            "end": 2496
+          }
+        ],
+        "section": "Jan 2024 – Jun 2025",
+        "date_label": "Oct 2021 - Feb 2023",
+        "is_present": false
+      },
+      "precision": "month",
+      "date_label": "Oct 2021 - Feb 2023"
+    },
+    {
+      "id": "vb9b4a7768f7b30cd",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Sr AI/ML Engineer",
+      "start_date": "2023-05",
+      "end_date": "2023-11",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.85,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Sr AI/ML Engineer",
+            "block_id": "b59",
+            "kind": "text",
+            "start": 2026,
+            "end": 2043
+          },
+          {
+            "page": 1,
+            "text": "May 2023 – Nov 2023",
+            "block_id": "b61",
+            "kind": "text",
+            "start": 2064,
+            "end": 2083
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "May 2023 – Nov 2023",
+            "block_id": "b61",
+            "kind": "text",
+            "start": 2064,
+            "end": 2083
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Sr AI/ML Engineer",
+            "block_id": "b59",
+            "kind": "text",
+            "start": 2026,
+            "end": 2043
+          }
+        ],
+        "section": "Jan 2024 – Jun 2025",
+        "date_label": "May 2023 – Nov 2023",
+        "is_present": false
+      },
+      "precision": "month",
+      "date_label": "May 2023 – Nov 2023"
+    }
+  ],
+  "education": [
+    {
+      "id": "v525636b17e4208b7",
+      "type": "EDUCATION",
+      "company": "CR Engg College",
+      "title": "MCA",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "MCA, CR Engg College,",
+            "block_id": "b123",
+            "kind": "text",
+            "start": 4338,
+            "end": 4359
+          },
+          {
+            "page": 1,
+            "text": "SSGS Degree College,",
+            "block_id": "b126",
+            "kind": "text",
+            "start": 4392,
+            "end": 4412
+          }
+        ],
+        "dates": [],
+        "company": [
+          {
+            "page": 1,
+            "text": "CR Engg College",
+            "block_id": "b123",
+            "kind": "text",
+            "start": 4343,
+            "end": 4358
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "MCA",
+            "block_id": "b123",
+            "kind": "text",
+            "start": 4338,
+            "end": 4341
+          }
+        ],
+        "section": "MCA, CR Engg College,",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    }
+  ],
+  "projects": [],
+  "gaps": [
+    {
+      "id": "gc85f9821742fe6de",
+      "start": [
+        2023,
+        3
+      ],
+      "end": [
+        2023,
+        4
+      ],
+      "months": 2,
+      "state": "POTENTIAL_GAP",
+      "confidence": 0.85,
+      "reasons": [
+        "GAP_NO_COVERAGE"
+      ],
+      "evidence": {
+        "event_before": "v3d5956fb359442bb",
+        "event_after": "vb9b4a7768f7b30cd",
+        "coverage_scope": "employment",
+        "unplaced_activity_ids": [
+          "v525636b17e4208b7"
+        ]
+      },
+      "start_label": "2023-03",
+      "end_label": "2023-04",
+      "evidence_quotes": [
+        "Senior Engineer Oct 2021 - Feb 2023",
+        "Sr AI/ML Engineer May 2023 – Nov 2023"
+      ],
+      "evidence_details": [
+        {
+          "header": "Senior Engineer",
+          "quote": "Senior Engineer Oct 2021 - Feb 2023",
+          "event_id": "v3d5956fb359442bb",
+          "source": {
+            "entry": [
+              {
+                "page": 1,
+                "text": "Senior Engineer",
+                "block_id": "b70",
+                "kind": "text",
+                "start": 2481,
+                "end": 2496
+              },
+              {
+                "page": 1,
+                "text": "Oct 2021 - Feb 2023",
+                "block_id": "b72",
+                "kind": "text",
+                "start": 2521,
+                "end": 2540
+              }
+            ],
+            "dates": [
+              {
+                "page": 1,
+                "text": "Oct 2021 - Feb 2023",
+                "block_id": "b72",
+                "kind": "text",
+                "start": 2521,
+                "end": 2540
+              }
+            ],
+            "company": [],
+            "title": [
+              {
+                "page": 1,
+                "text": "Senior Engineer",
+                "block_id": "b70",
+                "kind": "text",
+                "start": 2481,
+                "end": 2496
+              }
+            ],
+            "section": "Jan 2024 – Jun 2025",
+            "date_label": "Oct 2021 - Feb 2023",
+            "is_present": false
+          }
+        },
+        {
+          "header": "Sr AI/ML Engineer",
+          "quote": "Sr AI/ML Engineer May 2023 – Nov 2023",
+          "event_id": "vb9b4a7768f7b30cd",
+          "source": {
+            "entry": [
+              {
+                "page": 1,
+                "text": "Sr AI/ML Engineer",
+                "block_id": "b59",
+                "kind": "text",
+                "start": 2026,
+                "end": 2043
+              },
+              {
+                "page": 1,
+                "text": "May 2023 – Nov 2023",
+                "block_id": "b61",
+                "kind": "text",
+                "start": 2064,
+                "end": 2083
+              }
+            ],
+            "dates": [
+              {
+                "page": 1,
+                "text": "May 2023 – Nov 2023",
+                "block_id": "b61",
+                "kind": "text",
+                "start": 2064,
+                "end": 2083
+              }
+            ],
+            "company": [],
+            "title": [
+              {
+                "page": 1,
+                "text": "Sr AI/ML Engineer",
+                "block_id": "b59",
+                "kind": "text",
+                "start": 2026,
+                "end": 2043
+              }
+            ],
+            "section": "Jan 2024 – Jun 2025",
+            "date_label": "May 2023 – Nov 2023",
+            "is_present": false
+          }
+        }
+      ]
+    }
+  ],
+  "total_work_experience_entries": 2,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 1,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "section EDUCATION: entry without dated header preserved as-is"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "d1e8e05157e0cc1909ac14c6",
+    "filename": "Janardhan_1.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v3d5956fb359442bb",
+        "type": "EMPLOYMENT",
+        "title": "Senior Engineer",
+        "org": "",
+        "start": "2021-10",
+        "end": "2023-02",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.85,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Senior Engineer\nOct 2021 - Feb 2023",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Senior Engineer",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 2481,
+              "end": 2496
+            },
+            {
+              "page": 1,
+              "text": "Oct 2021 - Feb 2023",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 2521,
+              "end": 2540
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Oct 2021 - Feb 2023",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 2521,
+              "end": 2540
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Senior Engineer",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 2481,
+              "end": 2496
+            }
+          ],
+          "section": "Jan 2024 – Jun 2025",
+          "date_label": "Oct 2021 - Feb 2023",
+          "is_present": false
+        },
+        "date_label": "Oct 2021 - Feb 2023",
+        "section": "Jan 2024 – Jun 2025",
+        "is_present": false
+      },
+      {
+        "id": "vb9b4a7768f7b30cd",
+        "type": "EMPLOYMENT",
+        "title": "Sr AI/ML Engineer",
+        "org": "",
+        "start": "2023-05",
+        "end": "2023-11",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.85,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Sr AI/ML Engineer\nMay 2023 – Nov 2023",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Sr AI/ML Engineer",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 2026,
+              "end": 2043
+            },
+            {
+              "page": 1,
+              "text": "May 2023 – Nov 2023",
+              "block_id": "b61",
+              "kind": "text",
+              "start": 2064,
+              "end": 2083
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "May 2023 – Nov 2023",
+              "block_id": "b61",
+              "kind": "text",
+              "start": 2064,
+              "end": 2083
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Sr AI/ML Engineer",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 2026,
+              "end": 2043
+            }
+          ],
+          "section": "Jan 2024 – Jun 2025",
+          "date_label": "May 2023 – Nov 2023",
+          "is_present": false
+        },
+        "date_label": "May 2023 – Nov 2023",
+        "section": "Jan 2024 – Jun 2025",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v525636b17e4208b7",
+        "type": "EDUCATION",
+        "title": "MCA",
+        "org": "CR Engg College",
+        "entry_text": "MCA, CR Engg College, SSGS Degree College,",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "MCA, CR Engg College,",
+              "block_id": "b123",
+              "kind": "text",
+              "start": 4338,
+              "end": 4359
+            },
+            {
+              "page": 1,
+              "text": "SSGS Degree College,",
+              "block_id": "b126",
+              "kind": "text",
+              "start": 4392,
+              "end": 4412
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "CR Engg College",
+              "block_id": "b123",
+              "kind": "text",
+              "start": 4343,
+              "end": 4358
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "MCA",
+              "block_id": "b123",
+              "kind": "text",
+              "start": 4338,
+              "end": 4341
+            }
+          ],
+          "section": "MCA, CR Engg College,",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "MCA, CR Engg College,",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "gc85f9821742fe6de",
+        "start": [
+          2023,
+          3
+        ],
+        "end": [
+          2023,
+          4
+        ],
+        "months": 2,
+        "state": "POTENTIAL_GAP",
+        "confidence": 0.85,
+        "reasons": [
+          "GAP_NO_COVERAGE"
+        ],
+        "evidence": {
+          "event_before": "v3d5956fb359442bb",
+          "event_after": "vb9b4a7768f7b30cd",
+          "coverage_scope": "employment",
+          "unplaced_activity_ids": [
+            "v525636b17e4208b7"
+          ]
+        },
+        "start_label": "2023-03",
+        "end_label": "2023-04",
+        "evidence_quotes": [
+          "Senior Engineer Oct 2021 - Feb 2023",
+          "Sr AI/ML Engineer May 2023 – Nov 2023"
+        ],
+        "evidence_details": [
+          {
+            "header": "Senior Engineer",
+            "quote": "Senior Engineer Oct 2021 - Feb 2023",
+            "event_id": "v3d5956fb359442bb",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Senior Engineer",
+                  "block_id": "b70",
+                  "kind": "text",
+                  "start": 2481,
+                  "end": 2496
+                },
+                {
+                  "page": 1,
+                  "text": "Oct 2021 - Feb 2023",
+                  "block_id": "b72",
+                  "kind": "text",
+                  "start": 2521,
+                  "end": 2540
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Oct 2021 - Feb 2023",
+                  "block_id": "b72",
+                  "kind": "text",
+                  "start": 2521,
+                  "end": 2540
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Senior Engineer",
+                  "block_id": "b70",
+                  "kind": "text",
+                  "start": 2481,
+                  "end": 2496
+                }
+              ],
+              "section": "Jan 2024 – Jun 2025",
+              "date_label": "Oct 2021 - Feb 2023",
+              "is_present": false
+            }
+          },
+          {
+            "header": "Sr AI/ML Engineer",
+            "quote": "Sr AI/ML Engineer May 2023 – Nov 2023",
+            "event_id": "vb9b4a7768f7b30cd",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Sr AI/ML Engineer",
+                  "block_id": "b59",
+                  "kind": "text",
+                  "start": 2026,
+                  "end": 2043
+                },
+                {
+                  "page": 1,
+                  "text": "May 2023 – Nov 2023",
+                  "block_id": "b61",
+                  "kind": "text",
+                  "start": 2064,
+                  "end": 2083
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "May 2023 – Nov 2023",
+                  "block_id": "b61",
+                  "kind": "text",
+                  "start": 2064,
+                  "end": 2083
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Sr AI/ML Engineer",
+                  "block_id": "b59",
+                  "kind": "text",
+                  "start": 2026,
+                  "end": 2043
+                }
+              ],
+              "section": "Jan 2024 – Jun 2025",
+              "date_label": "May 2023 – Nov 2023",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 3,
+      "dated_share": 0.667,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.85,
+      "document_accuracy": 0.85
+    },
+    "total_represented_months": 24,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": true,
+          "unrepresented_periods_in_category": [
+            {
+              "start": [
+                2023,
+                3
+              ],
+              "end": [
+                2023,
+                4
+              ],
+              "months": 2
+            }
+          ],
+          "entries": 2,
+          "dated_periods": 2,
+          "represented_months": 24,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 2,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v3d5956fb359442bb",
+              "label": "Senior Engineer",
+              "state": "month_range",
+              "start": [
+                2021,
+                10
+              ],
+              "end": [
+                2023,
+                2
+              ],
+              "months": 17,
+              "raw": "Oct 2021 - Feb 2023",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Senior Engineer",
+                    "block_id": "b70",
+                    "kind": "text",
+                    "start": 2481,
+                    "end": 2496
+                  },
+                  {
+                    "page": 1,
+                    "text": "Oct 2021 - Feb 2023",
+                    "block_id": "b72",
+                    "kind": "text",
+                    "start": 2521,
+                    "end": 2540
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "Oct 2021 - Feb 2023",
+                    "block_id": "b72",
+                    "kind": "text",
+                    "start": 2521,
+                    "end": 2540
+                  }
+                ],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Senior Engineer",
+                    "block_id": "b70",
+                    "kind": "text",
+                    "start": 2481,
+                    "end": 2496
+                  }
+                ],
+                "section": "Jan 2024 – Jun 2025",
+                "date_label": "Oct 2021 - Feb 2023",
+                "is_present": false
+              }
+            },
+            {
+              "id": "vb9b4a7768f7b30cd",
+              "label": "Sr AI/ML Engineer",
+              "state": "month_range",
+              "start": [
+                2023,
+                5
+              ],
+              "end": [
+                2023,
+                11
+              ],
+              "months": 7,
+              "raw": "May 2023 – Nov 2023",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Sr AI/ML Engineer",
+                    "block_id": "b59",
+                    "kind": "text",
+                    "start": 2026,
+                    "end": 2043
+                  },
+                  {
+                    "page": 1,
+                    "text": "May 2023 – Nov 2023",
+                    "block_id": "b61",
+                    "kind": "text",
+                    "start": 2064,
+                    "end": 2083
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "May 2023 – Nov 2023",
+                    "block_id": "b61",
+                    "kind": "text",
+                    "start": 2064,
+                    "end": 2083
+                  }
+                ],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Sr AI/ML Engineer",
+                    "block_id": "b59",
+                    "kind": "text",
+                    "start": 2026,
+                    "end": 2043
+                  }
+                ],
+                "section": "Jan 2024 – Jun 2025",
+                "date_label": "May 2023 – Nov 2023",
+                "is_present": false
+              }
+            }
+          ]
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 1,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v525636b17e4208b7",
+              "label": "MCA",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "MCA, CR Engg College,",
+                    "block_id": "b123",
+                    "kind": "text",
+                    "start": 4338,
+                    "end": 4359
+                  },
+                  {
+                    "page": 1,
+                    "text": "SSGS Degree College,",
+                    "block_id": "b126",
+                    "kind": "text",
+                    "start": 4392,
+                    "end": 4412
+                  }
+                ],
+                "dates": [],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "CR Engg College",
+                    "block_id": "b123",
+                    "kind": "text",
+                    "start": 4343,
+                    "end": 4358
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "MCA",
+                    "block_id": "b123",
+                    "kind": "text",
+                    "start": 4338,
+                    "end": 4341
+                  }
+                ],
+                "section": "MCA, CR Engg College,",
+                "date_label": "",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 24,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": true,
+        "unrepresented_periods_in_category": [
+          {
+            "start": [
+              2023,
+              3
+            ],
+            "end": [
+              2023,
+              4
+            ],
+            "months": 2
+          }
+        ],
+        "entries": 2,
+        "dated_periods": 2,
+        "represented_months": 24,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 2,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v3d5956fb359442bb",
+            "label": "Senior Engineer",
+            "state": "month_range",
+            "start": [
+              2021,
+              10
+            ],
+            "end": [
+              2023,
+              2
+            ],
+            "months": 17,
+            "raw": "Oct 2021 - Feb 2023",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Senior Engineer",
+                  "block_id": "b70",
+                  "kind": "text",
+                  "start": 2481,
+                  "end": 2496
+                },
+                {
+                  "page": 1,
+                  "text": "Oct 2021 - Feb 2023",
+                  "block_id": "b72",
+                  "kind": "text",
+                  "start": 2521,
+                  "end": 2540
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Oct 2021 - Feb 2023",
+                  "block_id": "b72",
+                  "kind": "text",
+                  "start": 2521,
+                  "end": 2540
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Senior Engineer",
+                  "block_id": "b70",
+                  "kind": "text",
+                  "start": 2481,
+                  "end": 2496
+                }
+              ],
+              "section": "Jan 2024 – Jun 2025",
+              "date_label": "Oct 2021 - Feb 2023",
+              "is_present": false
+            }
+          },
+          {
+            "id": "vb9b4a7768f7b30cd",
+            "label": "Sr AI/ML Engineer",
+            "state": "month_range",
+            "start": [
+              2023,
+              5
+            ],
+            "end": [
+              2023,
+              11
+            ],
+            "months": 7,
+            "raw": "May 2023 – Nov 2023",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Sr AI/ML Engineer",
+                  "block_id": "b59",
+                  "kind": "text",
+                  "start": 2026,
+                  "end": 2043
+                },
+                {
+                  "page": 1,
+                  "text": "May 2023 – Nov 2023",
+                  "block_id": "b61",
+                  "kind": "text",
+                  "start": 2064,
+                  "end": 2083
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "May 2023 – Nov 2023",
+                  "block_id": "b61",
+                  "kind": "text",
+                  "start": 2064,
+                  "end": 2083
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Sr AI/ML Engineer",
+                  "block_id": "b59",
+                  "kind": "text",
+                  "start": 2026,
+                  "end": 2043
+                }
+              ],
+              "section": "Jan 2024 – Jun 2025",
+              "date_label": "May 2023 – Nov 2023",
+              "is_present": false
+            }
+          }
+        ]
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 1,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v525636b17e4208b7",
+            "label": "MCA",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "MCA, CR Engg College,",
+                  "block_id": "b123",
+                  "kind": "text",
+                  "start": 4338,
+                  "end": 4359
+                },
+                {
+                  "page": 1,
+                  "text": "SSGS Degree College,",
+                  "block_id": "b126",
+                  "kind": "text",
+                  "start": 4392,
+                  "end": 4412
+                }
+              ],
+              "dates": [],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "CR Engg College",
+                  "block_id": "b123",
+                  "kind": "text",
+                  "start": 4343,
+                  "end": 4358
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "MCA",
+                  "block_id": "b123",
+                  "kind": "text",
+                  "start": 4338,
+                  "end": 4341
+                }
+              ],
+              "section": "MCA, CR Engg College,",
+              "date_label": "",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 24,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

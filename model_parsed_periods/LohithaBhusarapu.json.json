@@ -1,0 +1,1201 @@
+{
+  "file_name": "LohithaBhusarapu.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "2de21f5c1e4399eb4d923e37a81f8252c38455edbaadefe04cc4dc2fcdcf3aac",
+  "doc_id": "2de21f5c1e4399eb4d923e37",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 5,
+    "dated_share": 0.4,
+    "unresolved": 3,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.833,
+    "document_accuracy": 0.79
+  },
+  "work_experience": [
+    {
+      "id": "v1241548383925277",
+      "type": "EMPLOYMENT",
+      "company": "Nova Prime Solutions Pvt Ltd",
+      "title": "",
+      "start_date": "2023-08",
+      "end_date": "2026-09",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Nova Prime Solutions Pvt Ltd, Hyderabad Aug 2023 – Present",
+            "block_id": "b21",
+            "kind": "text",
+            "start": 1723,
+            "end": 1781
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Aug 2023 – Present",
+            "block_id": "b21",
+            "kind": "text",
+            "start": 1763,
+            "end": 1781
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Nova Prime Solutions Pvt Ltd",
+            "block_id": "b21",
+            "kind": "text",
+            "start": 1723,
+            "end": 1751
+          }
+        ],
+        "title": [],
+        "section": "Work Experience",
+        "date_label": "Aug 2023 – Present",
+        "is_present": true
+      },
+      "precision": "month",
+      "date_label": "Aug 2023 – Present"
+    },
+    {
+      "id": "va83ed166ba4fbf8b",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Generative AI Engineer",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Generative AI Engineer — Full Stack Developer",
+            "block_id": "b22",
+            "kind": "text",
+            "start": 1782,
+            "end": 1827
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Aug 2022 – Aug 2023",
+            "block_id": "b39",
+            "kind": "text",
+            "start": 3089,
+            "end": 3108
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Generative AI Engineer",
+            "block_id": "b22",
+            "kind": "text",
+            "start": 1782,
+            "end": 1804
+          }
+        ],
+        "section": "Work Experience",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    },
+    {
+      "id": "ved3f8afd9fb8b315",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Software Engineer",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Software Engineer (Internship)",
+            "block_id": "b40",
+            "kind": "text",
+            "start": 3109,
+            "end": 3139
+          }
+        ],
+        "dates": [],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Software Engineer",
+            "block_id": "b40",
+            "kind": "text",
+            "start": 3109,
+            "end": 3126
+          }
+        ],
+        "section": "Work Experience",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    }
+  ],
+  "education": [
+    {
+      "id": "v1f5060e62b2b058b",
+      "type": "EDUCATION",
+      "company": "Sri Sairam Engineering College",
+      "title": "",
+      "start_date": "2019-01",
+      "end_date": "2023-12",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Sri Sairam Engineering College — B.E Computer Science 2019 – 2023 CGPA: 9.28",
+            "block_id": "b56",
+            "kind": "text",
+            "start": 4000,
+            "end": 4076
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2019 – 2023",
+            "block_id": "b56",
+            "kind": "text",
+            "start": 4054,
+            "end": 4065
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Sri Sairam Engineering College",
+            "block_id": "b56",
+            "kind": "text",
+            "start": 4000,
+            "end": 4030
+          }
+        ],
+        "title": [],
+        "section": "Education",
+        "date_label": "2019 – 2023",
+        "is_present": false
+      },
+      "precision": "year",
+      "date_label": "2019 – 2023"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "Agentic AI workflows.",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Agentic AI workflows.",
+        "– Developed cloud-native solutions integrating React, ASP.NET Core, Python, PostgreSQL, Azure services, CI/CD pipelines,",
+        "analytics dashboards, and REST APIs."
+      ],
+      "raw_text": "Agentic AI workflows.\n– Developed cloud-native solutions integrating React, ASP.NET Core, Python, PostgreSQL, Azure services, CI/CD pipelines,\nanalytics dashboards, and REST APIs.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Agentic AI workflows.",
+            "block_id": "b49",
+            "kind": "text",
+            "start": 3703,
+            "end": 3724
+          },
+          {
+            "page": 1,
+            "text": "– Developed cloud-native solutions integrating React, ASP.NET Core, Python, PostgreSQL, Azure services, CI/CD pipelines,",
+            "block_id": "b50",
+            "kind": "text",
+            "start": 3725,
+            "end": 3845
+          },
+          {
+            "page": 1,
+            "text": "analytics dashboards, and REST APIs.",
+            "block_id": "b51",
+            "kind": "text",
+            "start": 3846,
+            "end": 3882
+          }
+        ]
+      }
+    }
+  ],
+  "gaps": [],
+  "total_work_experience_entries": 3,
+  "total_projects_entries": 1,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "PARTIAL",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "section EDUCATION: entry without dated header preserved as-is",
+    "overlap preserved: '' overlaps ''"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "2de21f5c1e4399eb4d923e37",
+    "filename": "LohithaBhusarapu.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "v1f5060e62b2b058b",
+        "type": "EDUCATION",
+        "title": "",
+        "org": "Sri Sairam Engineering College",
+        "start": "2019-01",
+        "end": "2023-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "Sri Sairam Engineering College — B.E Computer Science 2019 – 2023 CGPA: 9.28",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Sri Sairam Engineering College — B.E Computer Science 2019 – 2023 CGPA: 9.28",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 4000,
+              "end": 4076
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2019 – 2023",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 4054,
+              "end": 4065
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Sri Sairam Engineering College",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 4000,
+              "end": 4030
+            }
+          ],
+          "title": [],
+          "section": "Education",
+          "date_label": "2019 – 2023",
+          "is_present": false
+        },
+        "date_label": "2019 – 2023",
+        "section": "Education",
+        "is_present": false
+      },
+      {
+        "id": "v1241548383925277",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Nova Prime Solutions Pvt Ltd",
+        "start": "2023-08",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Nova Prime Solutions Pvt Ltd, Hyderabad Aug 2023 – Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Nova Prime Solutions Pvt Ltd, Hyderabad Aug 2023 – Present",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 1723,
+              "end": 1781
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Aug 2023 – Present",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 1763,
+              "end": 1781
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Nova Prime Solutions Pvt Ltd",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 1723,
+              "end": 1751
+            }
+          ],
+          "title": [],
+          "section": "Work Experience",
+          "date_label": "Aug 2023 – Present",
+          "is_present": true
+        },
+        "date_label": "Aug 2023 – Present",
+        "section": "Work Experience",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "va83ed166ba4fbf8b",
+        "type": "EMPLOYMENT",
+        "title": "Generative AI Engineer",
+        "org": "",
+        "entry_text": "Generative AI Engineer — Full Stack Developer – Designed and deployed AI-powered applications using Azure OpenAI, LLMs, Retrieval-Augmented Generation (RAG), LangGraph, AI Agents, vector search, and prompt orchestration frameworks. – Built scalable React, Next.js, TypeScript, ASP.NET Core, Python, a",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Generative AI Engineer — Full Stack Developer",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 1782,
+              "end": 1827
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Aug 2022 – Aug 2023",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 3089,
+              "end": 3108
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Generative AI Engineer",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 1782,
+              "end": 1804
+            }
+          ],
+          "section": "Work Experience",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Work Experience",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "ved3f8afd9fb8b315",
+        "type": "EMPLOYMENT",
+        "title": "Software Engineer",
+        "org": "",
+        "entry_text": "Software Engineer (Internship) – Built enterprise APIs, reporting systems, analytics solutions, and backend services using ASP.NET Core, SQL Server, React, and TypeScript. – Optimized SQL queries, reporting workflows, operational dashboards, and application performance supporting enterprise SaaS pla",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Software Engineer (Internship)",
+              "block_id": "b40",
+              "kind": "text",
+              "start": 3109,
+              "end": 3139
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Software Engineer",
+              "block_id": "b40",
+              "kind": "text",
+              "start": 3109,
+              "end": 3126
+            }
+          ],
+          "section": "Work Experience",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Work Experience",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "vc2fa0c7d42af9e9b",
+        "type": "PROJECT",
+        "title": "Agentic AI workflows.",
+        "org": "",
+        "entry_text": "Agentic AI workflows. – Developed cloud-native solutions integrating React, ASP.NET Core, Python, PostgreSQL, Azure services, CI/CD pipelines, analytics dashboards, and REST APIs.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Agentic AI workflows.",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 3703,
+              "end": 3724
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Agentic AI workflows",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 3703,
+              "end": 3723
+            }
+          ],
+          "section": "Projects",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Projects",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "Agentic AI workflows.",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Agentic AI workflows.",
+          "– Developed cloud-native solutions integrating React, ASP.NET Core, Python, PostgreSQL, Azure services, CI/CD pipelines,",
+          "analytics dashboards, and REST APIs."
+        ],
+        "raw_text": "Agentic AI workflows.\n– Developed cloud-native solutions integrating React, ASP.NET Core, Python, PostgreSQL, Azure services, CI/CD pipelines,\nanalytics dashboards, and REST APIs.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Agentic AI workflows.",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 3703,
+              "end": 3724
+            },
+            {
+              "page": 1,
+              "text": "– Developed cloud-native solutions integrating React, ASP.NET Core, Python, PostgreSQL, Azure services, CI/CD pipelines,",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 3725,
+              "end": 3845
+            },
+            {
+              "page": 1,
+              "text": "analytics dashboards, and REST APIs.",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 3846,
+              "end": 3882
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": [
+            "va83ed166ba4fbf8b",
+            "ved3f8afd9fb8b315"
+          ]
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 5,
+      "dated_share": 0.4,
+      "unresolved": 3,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.833,
+      "document_accuracy": 0.79
+    },
+    "total_represented_months": 93,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 3,
+          "dated_periods": 1,
+          "represented_months": 38,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 1,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 2,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v1241548383925277",
+              "label": "Nova Prime Solutions Pvt Ltd",
+              "state": "month_range",
+              "start": [
+                2023,
+                8
+              ],
+              "end": [
+                2026,
+                9
+              ],
+              "months": 38,
+              "raw": "Aug 2023 – Present",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Nova Prime Solutions Pvt Ltd, Hyderabad Aug 2023 – Present",
+                    "block_id": "b21",
+                    "kind": "text",
+                    "start": 1723,
+                    "end": 1781
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "Aug 2023 – Present",
+                    "block_id": "b21",
+                    "kind": "text",
+                    "start": 1763,
+                    "end": 1781
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Nova Prime Solutions Pvt Ltd",
+                    "block_id": "b21",
+                    "kind": "text",
+                    "start": 1723,
+                    "end": 1751
+                  }
+                ],
+                "title": [],
+                "section": "Work Experience",
+                "date_label": "Aug 2023 – Present",
+                "is_present": true
+              }
+            },
+            {
+              "id": "va83ed166ba4fbf8b",
+              "label": "Generative AI Engineer",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Generative AI Engineer — Full Stack Developer",
+                    "block_id": "b22",
+                    "kind": "text",
+                    "start": 1782,
+                    "end": 1827
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "Aug 2022 – Aug 2023",
+                    "block_id": "b39",
+                    "kind": "text",
+                    "start": 3089,
+                    "end": 3108
+                  }
+                ],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Generative AI Engineer",
+                    "block_id": "b22",
+                    "kind": "text",
+                    "start": 1782,
+                    "end": 1804
+                  }
+                ],
+                "section": "Work Experience",
+                "date_label": "",
+                "is_present": false
+              }
+            },
+            {
+              "id": "ved3f8afd9fb8b315",
+              "label": "Software Engineer",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Software Engineer (Internship)",
+                    "block_id": "b40",
+                    "kind": "text",
+                    "start": 3109,
+                    "end": 3139
+                  }
+                ],
+                "dates": [],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Software Engineer",
+                    "block_id": "b40",
+                    "kind": "text",
+                    "start": 3109,
+                    "end": 3126
+                  }
+                ],
+                "section": "Work Experience",
+                "date_label": "",
+                "is_present": false
+              }
+            }
+          ]
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 1,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "proj_1",
+              "label": "Agentic AI workflows.",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Agentic AI workflows.",
+                    "block_id": "b49",
+                    "kind": "text",
+                    "start": 3703,
+                    "end": 3724
+                  },
+                  {
+                    "page": 1,
+                    "text": "– Developed cloud-native solutions integrating React, ASP.NET Core, Python, PostgreSQL, Azure services, CI/CD pipelines,",
+                    "block_id": "b50",
+                    "kind": "text",
+                    "start": 3725,
+                    "end": 3845
+                  },
+                  {
+                    "page": 1,
+                    "text": "analytics dashboards, and REST APIs.",
+                    "block_id": "b51",
+                    "kind": "text",
+                    "start": 3846,
+                    "end": 3882
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 1,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 1,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v1f5060e62b2b058b",
+              "label": "Sri Sairam Engineering College",
+              "state": "year_range",
+              "start": [
+                2019,
+                1
+              ],
+              "end": [
+                2023,
+                12
+              ],
+              "months": null,
+              "raw": "2019 – 2023",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Sri Sairam Engineering College — B.E Computer Science 2019 – 2023 CGPA: 9.28",
+                    "block_id": "b56",
+                    "kind": "text",
+                    "start": 4000,
+                    "end": 4076
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "2019 – 2023",
+                    "block_id": "b56",
+                    "kind": "text",
+                    "start": 4054,
+                    "end": 4065
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Sri Sairam Engineering College",
+                    "block_id": "b56",
+                    "kind": "text",
+                    "start": 4000,
+                    "end": 4030
+                  }
+                ],
+                "title": [],
+                "section": "Education",
+                "date_label": "2019 – 2023",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 38,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 3,
+        "dated_periods": 1,
+        "represented_months": 38,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 1,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 2,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v1241548383925277",
+            "label": "Nova Prime Solutions Pvt Ltd",
+            "state": "month_range",
+            "start": [
+              2023,
+              8
+            ],
+            "end": [
+              2026,
+              9
+            ],
+            "months": 38,
+            "raw": "Aug 2023 – Present",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Nova Prime Solutions Pvt Ltd, Hyderabad Aug 2023 – Present",
+                  "block_id": "b21",
+                  "kind": "text",
+                  "start": 1723,
+                  "end": 1781
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Aug 2023 – Present",
+                  "block_id": "b21",
+                  "kind": "text",
+                  "start": 1763,
+                  "end": 1781
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Nova Prime Solutions Pvt Ltd",
+                  "block_id": "b21",
+                  "kind": "text",
+                  "start": 1723,
+                  "end": 1751
+                }
+              ],
+              "title": [],
+              "section": "Work Experience",
+              "date_label": "Aug 2023 – Present",
+              "is_present": true
+            }
+          },
+          {
+            "id": "va83ed166ba4fbf8b",
+            "label": "Generative AI Engineer",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Generative AI Engineer — Full Stack Developer",
+                  "block_id": "b22",
+                  "kind": "text",
+                  "start": 1782,
+                  "end": 1827
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Aug 2022 – Aug 2023",
+                  "block_id": "b39",
+                  "kind": "text",
+                  "start": 3089,
+                  "end": 3108
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Generative AI Engineer",
+                  "block_id": "b22",
+                  "kind": "text",
+                  "start": 1782,
+                  "end": 1804
+                }
+              ],
+              "section": "Work Experience",
+              "date_label": "",
+              "is_present": false
+            }
+          },
+          {
+            "id": "ved3f8afd9fb8b315",
+            "label": "Software Engineer",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Software Engineer (Internship)",
+                  "block_id": "b40",
+                  "kind": "text",
+                  "start": 3109,
+                  "end": 3139
+                }
+              ],
+              "dates": [],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Software Engineer",
+                  "block_id": "b40",
+                  "kind": "text",
+                  "start": 3109,
+                  "end": 3126
+                }
+              ],
+              "section": "Work Experience",
+              "date_label": "",
+              "is_present": false
+            }
+          }
+        ]
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 1,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "proj_1",
+            "label": "Agentic AI workflows.",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Agentic AI workflows.",
+                  "block_id": "b49",
+                  "kind": "text",
+                  "start": 3703,
+                  "end": 3724
+                },
+                {
+                  "page": 1,
+                  "text": "– Developed cloud-native solutions integrating React, ASP.NET Core, Python, PostgreSQL, Azure services, CI/CD pipelines,",
+                  "block_id": "b50",
+                  "kind": "text",
+                  "start": 3725,
+                  "end": 3845
+                },
+                {
+                  "page": 1,
+                  "text": "analytics dashboards, and REST APIs.",
+                  "block_id": "b51",
+                  "kind": "text",
+                  "start": 3846,
+                  "end": 3882
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 1,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 1,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v1f5060e62b2b058b",
+            "label": "Sri Sairam Engineering College",
+            "state": "year_range",
+            "start": [
+              2019,
+              1
+            ],
+            "end": [
+              2023,
+              12
+            ],
+            "months": null,
+            "raw": "2019 – 2023",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Sri Sairam Engineering College — B.E Computer Science 2019 – 2023 CGPA: 9.28",
+                  "block_id": "b56",
+                  "kind": "text",
+                  "start": 4000,
+                  "end": 4076
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "2019 – 2023",
+                  "block_id": "b56",
+                  "kind": "text",
+                  "start": 4054,
+                  "end": 4065
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Sri Sairam Engineering College",
+                  "block_id": "b56",
+                  "kind": "text",
+                  "start": 4000,
+                  "end": 4030
+                }
+              ],
+              "title": [],
+              "section": "Education",
+              "date_label": "2019 – 2023",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 38,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

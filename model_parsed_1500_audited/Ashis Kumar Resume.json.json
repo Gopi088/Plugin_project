@@ -1,0 +1,135 @@
+{
+  "file_name": "Ashis Kumar Resume.docx",
+  "input_mode": "text_snapshot",
+  "input_sha256": "4302a838620dcc437e861af7f8189f08005e1ec8547dabf6f9459a9edc8880b1",
+  "doc_id": "4302a838620dcc437e861af7",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 0,
+    "total_events": 0,
+    "dated_share": 0.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": null,
+    "ocr_pages": []
+  },
+  "work_experience": [],
+  "education": [],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 0,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "PARTIAL",
+    "entry_segmentation": "SKIPPED",
+    "date_extraction": "PARTIAL",
+    "date_association": "SKIPPED",
+    "event_classification": "SKIPPED",
+    "timeline_reconciliation": "PARTIAL",
+    "coverage_analysis": "PARTIAL",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [
+    "no sections",
+    "no entries",
+    "no entries"
+  ],
+  "warnings": [
+    "no section headers found",
+    "no dates found",
+    "no dated events to order",
+    "no intervals to cover"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "4302a838620dcc437e861af7",
+    "filename": "Ashis Kumar Resume.docx",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 0,
+      "total_events": 0,
+      "dated_share": 0.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": null,
+      "ocr_pages": []
+    },
+    "total_represented_months": 0,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "PARTIAL",
+        "confidence": 0.2
+      },
+      "entry_segmentation": {
+        "status": "SKIPPED",
+        "confidence": 0.0
+      },
+      "date_extraction": {
+        "status": "PARTIAL",
+        "confidence": 0.3
+      },
+      "date_association": {
+        "status": "SKIPPED",
+        "confidence": 0.0
+      },
+      "event_classification": {
+        "status": "SKIPPED",
+        "confidence": 0.0
+      },
+      "timeline_reconciliation": {
+        "status": "PARTIAL",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "PARTIAL",
+        "confidence": 0.3
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

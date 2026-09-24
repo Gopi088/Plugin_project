@@ -1,0 +1,1650 @@
+{
+  "file_name": "RajeshwarNinawe.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "033ee19fa261691946727e5f587220784efa00050e05563d9567d5641dca4d49",
+  "doc_id": "033ee19fa261691946727e5f",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 5,
+    "dated_share": 0.2,
+    "unresolved": 4,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "v1bcacc944fcf427f",
+      "type": "EMPLOYMENT",
+      "company": "Trinity Mobility",
+      "title": "",
+      "start_date": "2021-07",
+      "end_date": "2025-08",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Trinity Mobility July 2021- August 2025",
+            "block_id": "b21",
+            "kind": "text",
+            "start": 906,
+            "end": 945
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "July 2021- August 2025",
+            "block_id": "b21",
+            "kind": "text",
+            "start": 923,
+            "end": 945
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Trinity Mobility",
+            "block_id": "b21",
+            "kind": "text",
+            "start": 906,
+            "end": 922
+          }
+        ],
+        "title": [],
+        "section": "Experience",
+        "date_label": "July 2021- August 2025",
+        "is_present": false
+      },
+      "precision": "month",
+      "date_label": "July 2021- August 2025"
+    }
+  ],
+  "education": [
+    {
+      "id": "vc9b9f02619e7437b",
+      "type": "EDUCATION",
+      "company": "",
+      "title": "BTech Graduated",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "AMBIGUOUS",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "BTech Graduated: 2020",
+            "block_id": "b62",
+            "kind": "text",
+            "start": 4170,
+            "end": 4191
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2020",
+            "block_id": "b62",
+            "kind": "text",
+            "start": 4187,
+            "end": 4191
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "BTech Graduated",
+            "block_id": "b62",
+            "kind": "text",
+            "start": 4170,
+            "end": 4185
+          }
+        ],
+        "section": "Education",
+        "date_label": "2020",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": "2020"
+    },
+    {
+      "id": "ve7ccc8bd9fb471ca",
+      "type": "EDUCATION",
+      "company": "",
+      "title": "Pune CGPA: 7.99 / 10",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "MIT Academy of Engineering, Pune CGPA: 7.99 / 10",
+            "block_id": "b63",
+            "kind": "text",
+            "start": 4193,
+            "end": 4241
+          }
+        ],
+        "dates": [],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Pune CGPA: 7.99 / 10",
+            "block_id": "b63",
+            "kind": "text",
+            "start": 4221,
+            "end": 4241
+          }
+        ],
+        "section": "Education",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "StayEase Pro",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "StayEase Pro",
+        "Developed a comprehensive hotel reservation system using Java 8 and Spring Boot, integrating MySQL for robust data",
+        "management. Implemented microservices architecture with Eureka Server for service registry and discovery and Angular for",
+        "the FrontEnd part. Utilized Spring Security with JWT for secure user authentication.  Created RESTful APIs for efficient",
+        "booking and management functionalities. Employed JUnit and Mockito for rigorous unit and integration testing. Automated",
+        "deployments using Jenkins and Docker, ensuring continuous delivery and operational efficiency."
+      ],
+      "raw_text": "StayEase Pro\nDeveloped a comprehensive hotel reservation system using Java 8 and Spring Boot, integrating MySQL for robust data\nmanagement. Implemented microservices architecture with Eureka Server for service registry and discovery and Angular for\nthe FrontEnd part. Utilized Spring Security with JWT for secure user authentication.  Created RESTful APIs for efficient\nbooking and management functionalities. Employed JUnit and Mockito for rigorous unit and integration testing. Automated\ndeployments using Jenkins and Docker, ensuring continuous delivery and operational efficiency.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "StayEase Pro",
+            "block_id": "b41",
+            "kind": "text",
+            "start": 2358,
+            "end": 2370
+          },
+          {
+            "page": 1,
+            "text": "Developed a comprehensive hotel reservation system using Java 8 and Spring Boot, integrating MySQL for robust data",
+            "block_id": "b42",
+            "kind": "text",
+            "start": 2372,
+            "end": 2486
+          },
+          {
+            "page": 1,
+            "text": "management. Implemented microservices architecture with Eureka Server for service registry and discovery and Angular for",
+            "block_id": "b43",
+            "kind": "text",
+            "start": 2488,
+            "end": 2608
+          },
+          {
+            "page": 1,
+            "text": "the FrontEnd part. Utilized Spring Security with JWT for secure user authentication.  Created RESTful APIs for efficient",
+            "block_id": "b44",
+            "kind": "text",
+            "start": 2610,
+            "end": 2730
+          },
+          {
+            "page": 1,
+            "text": "booking and management functionalities. Employed JUnit and Mockito for rigorous unit and integration testing. Automated",
+            "block_id": "b45",
+            "kind": "text",
+            "start": 2732,
+            "end": 2851
+          },
+          {
+            "page": 1,
+            "text": "deployments using Jenkins and Docker, ensuring continuous delivery and operational efficiency.",
+            "block_id": "b46",
+            "kind": "text",
+            "start": 2853,
+            "end": 2947
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_2",
+      "name": "Roles and Responsibility",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Roles and Responsibility",
+        "– Designed and developed RESTful APIs using Spring Boot (Microservices architecture) for scalable hotel",
+        "management services",
+        "– Built responsive frontend modules using Angular (components, services, routing) to provide an intuitive booking",
+        "and account management experience.",
+        "– Implemented JWT-based authentication and Spring Security to secure APIs and enable role-based access control.",
+        "– Built an admin dashboard for user and role management, ensuring controlled access to system resources.",
+        "– Integrated Hibernate (ORM) with MySQL for effecient database operations, entity mapping, and caching."
+      ],
+      "raw_text": "Roles and Responsibility\n– Designed and developed RESTful APIs using Spring Boot (Microservices architecture) for scalable hotel\nmanagement services\n– Built responsive frontend modules using Angular (components, services, routing) to provide an intuitive booking\nand account management experience.\n– Implemented JWT-based authentication and Spring Security to secure APIs and enable role-based access control.\n– Built an admin dashboard for user and role management, ensuring controlled access to system resources.\n– Integrated Hibernate (ORM) with MySQL for effecient database operations, entity map",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Roles and Responsibility",
+            "block_id": "b47",
+            "kind": "text",
+            "start": 2951,
+            "end": 2975
+          },
+          {
+            "page": 1,
+            "text": "– Designed and developed RESTful APIs using Spring Boot (Microservices architecture) for scalable hotel",
+            "block_id": "b48",
+            "kind": "text",
+            "start": 2977,
+            "end": 3080
+          },
+          {
+            "page": 1,
+            "text": "management services",
+            "block_id": "b49",
+            "kind": "text",
+            "start": 3082,
+            "end": 3101
+          },
+          {
+            "page": 1,
+            "text": "– Built responsive frontend modules using Angular (components, services, routing) to provide an intuitive booking",
+            "block_id": "b50",
+            "kind": "text",
+            "start": 3103,
+            "end": 3216
+          },
+          {
+            "page": 1,
+            "text": "and account management experience.",
+            "block_id": "b51",
+            "kind": "text",
+            "start": 3218,
+            "end": 3252
+          },
+          {
+            "page": 1,
+            "text": "– Implemented JWT-based authentication and Spring Security to secure APIs and enable role-based access control.",
+            "block_id": "b52",
+            "kind": "text",
+            "start": 3254,
+            "end": 3365
+          },
+          {
+            "page": 1,
+            "text": "– Built an admin dashboard for user and role management, ensuring controlled access to system resources.",
+            "block_id": "b53",
+            "kind": "text",
+            "start": 3367,
+            "end": 3471
+          },
+          {
+            "page": 1,
+            "text": "– Integrated Hibernate (ORM) with MySQL for effecient database operations, entity mapping, and caching.",
+            "block_id": "b54",
+            "kind": "text",
+            "start": 3473,
+            "end": 3576
+          },
+          {
+            "page": 1,
+            "text": "– Deployed the application on AWS Cloud, ensuring high availability, scalability, and performance optimization.",
+            "block_id": "b55",
+            "kind": "text",
+            "start": 3578,
+            "end": 3689
+          },
+          {
+            "page": 1,
+            "text": "– Implemented third-party integrations (Email, SMS, Whatsapp) to improve customer communication and",
+            "block_id": "b56",
+            "kind": "text",
+            "start": 3691,
+            "end": 3790
+          },
+          {
+            "page": 1,
+            "text": "booking/payment notifications.",
+            "block_id": "b57",
+            "kind": "text",
+            "start": 3792,
+            "end": 3822
+          },
+          {
+            "page": 1,
+            "text": "– Developed audit logging and error handling routines to maintain traceability and transaction reliability.",
+            "block_id": "b58",
+            "kind": "text",
+            "start": 3825,
+            "end": 3932
+          },
+          {
+            "page": 1,
+            "text": "– Conducted unit testing (JUnit) and integration testing (Postman) to ensure system stability and API performance.",
+            "block_id": "b59",
+            "kind": "text",
+            "start": 3934,
+            "end": 4048
+          },
+          {
+            "page": 1,
+            "text": "– Collaborated with stakeholders to gather requirements and deliver features aligned with business needs.",
+            "block_id": "b60",
+            "kind": "text",
+            "start": 4050,
+            "end": 4155
+          }
+        ]
+      }
+    }
+  ],
+  "gaps": [],
+  "total_work_experience_entries": 1,
+  "total_projects_entries": 2,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "PARTIAL",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "e4: dates cannot be assigned unambiguously",
+    "conflicting/ambiguous date kept for 'BTech Graduated'"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "033ee19fa261691946727e5f",
+    "filename": "RajeshwarNinawe.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "v1bcacc944fcf427f",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Trinity Mobility",
+        "start": "2021-07",
+        "end": "2025-08",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Trinity Mobility July 2021- August 2025",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Trinity Mobility July 2021- August 2025",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 906,
+              "end": 945
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "July 2021- August 2025",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 923,
+              "end": 945
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Trinity Mobility",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 906,
+              "end": 922
+            }
+          ],
+          "title": [],
+          "section": "Experience",
+          "date_label": "July 2021- August 2025",
+          "is_present": false
+        },
+        "date_label": "July 2021- August 2025",
+        "section": "Experience",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v7a5c2c603683cd19",
+        "type": "PROJECT",
+        "title": "StayEase Pro",
+        "org": "",
+        "entry_text": "StayEase Pro Developed a comprehensive hotel reservation system using Java 8 and Spring Boot, integrating MySQL for robust data management. Implemented microservices architecture with Eureka Server for service registry and discovery and Angular for the FrontEnd part. Utilized Spring Security with JW",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "StayEase Pro",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 2358,
+              "end": 2370
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "StayEase Pro",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 2358,
+              "end": 2370
+            }
+          ],
+          "section": "Projects",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Projects",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v1400481e6668957d",
+        "type": "PROJECT",
+        "title": "Roles and Responsibility",
+        "org": "",
+        "entry_text": "Roles and Responsibility – Designed and developed RESTful APIs using Spring Boot (Microservices architecture) for scalable hotel management services – Built responsive frontend modules using Angular (components, services, routing) to provide an intuitive booking and account management experience. – ",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Roles and Responsibility",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 2951,
+              "end": 2975
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Roles and Responsibility",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 2951,
+              "end": 2975
+            }
+          ],
+          "section": "Projects",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Projects",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "vc9b9f02619e7437b",
+        "type": "EDUCATION",
+        "title": "BTech Graduated",
+        "org": "",
+        "entry_text": "BTech Graduated: 2020",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "BTech Graduated: 2020",
+              "block_id": "b62",
+              "kind": "text",
+              "start": 4170,
+              "end": 4191
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2020",
+              "block_id": "b62",
+              "kind": "text",
+              "start": 4187,
+              "end": 4191
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "BTech Graduated",
+              "block_id": "b62",
+              "kind": "text",
+              "start": 4170,
+              "end": 4185
+            }
+          ],
+          "section": "Education",
+          "date_label": "2020",
+          "is_present": false
+        },
+        "date_label": "2020",
+        "section": "Education",
+        "status": "AMBIGUOUS"
+      },
+      {
+        "id": "ve7ccc8bd9fb471ca",
+        "type": "EDUCATION",
+        "title": "Pune CGPA: 7.99 / 10",
+        "org": "",
+        "entry_text": "MIT Academy of Engineering, Pune CGPA: 7.99 / 10",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "MIT Academy of Engineering, Pune CGPA: 7.99 / 10",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 4193,
+              "end": 4241
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Pune CGPA: 7.99 / 10",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 4221,
+              "end": 4241
+            }
+          ],
+          "section": "Education",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Education",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "StayEase Pro",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "StayEase Pro",
+          "Developed a comprehensive hotel reservation system using Java 8 and Spring Boot, integrating MySQL for robust data",
+          "management. Implemented microservices architecture with Eureka Server for service registry and discovery and Angular for",
+          "the FrontEnd part. Utilized Spring Security with JWT for secure user authentication.  Created RESTful APIs for efficient",
+          "booking and management functionalities. Employed JUnit and Mockito for rigorous unit and integration testing. Automated",
+          "deployments using Jenkins and Docker, ensuring continuous delivery and operational efficiency."
+        ],
+        "raw_text": "StayEase Pro\nDeveloped a comprehensive hotel reservation system using Java 8 and Spring Boot, integrating MySQL for robust data\nmanagement. Implemented microservices architecture with Eureka Server for service registry and discovery and Angular for\nthe FrontEnd part. Utilized Spring Security with JWT for secure user authentication.  Created RESTful APIs for efficient\nbooking and management functionalities. Employed JUnit and Mockito for rigorous unit and integration testing. Automated\ndeployments using Jenkins and Docker, ensuring continuous delivery and operational efficiency.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "StayEase Pro",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 2358,
+              "end": 2370
+            },
+            {
+              "page": 1,
+              "text": "Developed a comprehensive hotel reservation system using Java 8 and Spring Boot, integrating MySQL for robust data",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 2372,
+              "end": 2486
+            },
+            {
+              "page": 1,
+              "text": "management. Implemented microservices architecture with Eureka Server for service registry and discovery and Angular for",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 2488,
+              "end": 2608
+            },
+            {
+              "page": 1,
+              "text": "the FrontEnd part. Utilized Spring Security with JWT for secure user authentication.  Created RESTful APIs for efficient",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 2610,
+              "end": 2730
+            },
+            {
+              "page": 1,
+              "text": "booking and management functionalities. Employed JUnit and Mockito for rigorous unit and integration testing. Automated",
+              "block_id": "b45",
+              "kind": "text",
+              "start": 2732,
+              "end": 2851
+            },
+            {
+              "page": 1,
+              "text": "deployments using Jenkins and Docker, ensuring continuous delivery and operational efficiency.",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 2853,
+              "end": 2947
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "Roles and Responsibility",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Roles and Responsibility",
+          "– Designed and developed RESTful APIs using Spring Boot (Microservices architecture) for scalable hotel",
+          "management services",
+          "– Built responsive frontend modules using Angular (components, services, routing) to provide an intuitive booking",
+          "and account management experience.",
+          "– Implemented JWT-based authentication and Spring Security to secure APIs and enable role-based access control.",
+          "– Built an admin dashboard for user and role management, ensuring controlled access to system resources.",
+          "– Integrated Hibernate (ORM) with MySQL for effecient database operations, entity mapping, and caching."
+        ],
+        "raw_text": "Roles and Responsibility\n– Designed and developed RESTful APIs using Spring Boot (Microservices architecture) for scalable hotel\nmanagement services\n– Built responsive frontend modules using Angular (components, services, routing) to provide an intuitive booking\nand account management experience.\n– Implemented JWT-based authentication and Spring Security to secure APIs and enable role-based access control.\n– Built an admin dashboard for user and role management, ensuring controlled access to system resources.\n– Integrated Hibernate (ORM) with MySQL for effecient database operations, entity map",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Roles and Responsibility",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 2951,
+              "end": 2975
+            },
+            {
+              "page": 1,
+              "text": "– Designed and developed RESTful APIs using Spring Boot (Microservices architecture) for scalable hotel",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 2977,
+              "end": 3080
+            },
+            {
+              "page": 1,
+              "text": "management services",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 3082,
+              "end": 3101
+            },
+            {
+              "page": 1,
+              "text": "– Built responsive frontend modules using Angular (components, services, routing) to provide an intuitive booking",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 3103,
+              "end": 3216
+            },
+            {
+              "page": 1,
+              "text": "and account management experience.",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 3218,
+              "end": 3252
+            },
+            {
+              "page": 1,
+              "text": "– Implemented JWT-based authentication and Spring Security to secure APIs and enable role-based access control.",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 3254,
+              "end": 3365
+            },
+            {
+              "page": 1,
+              "text": "– Built an admin dashboard for user and role management, ensuring controlled access to system resources.",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 3367,
+              "end": 3471
+            },
+            {
+              "page": 1,
+              "text": "– Integrated Hibernate (ORM) with MySQL for effecient database operations, entity mapping, and caching.",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 3473,
+              "end": 3576
+            },
+            {
+              "page": 1,
+              "text": "– Deployed the application on AWS Cloud, ensuring high availability, scalability, and performance optimization.",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 3578,
+              "end": 3689
+            },
+            {
+              "page": 1,
+              "text": "– Implemented third-party integrations (Email, SMS, Whatsapp) to improve customer communication and",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 3691,
+              "end": 3790
+            },
+            {
+              "page": 1,
+              "text": "booking/payment notifications.",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 3792,
+              "end": 3822
+            },
+            {
+              "page": 1,
+              "text": "– Developed audit logging and error handling routines to maintain traceability and transaction reliability.",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 3825,
+              "end": 3932
+            },
+            {
+              "page": 1,
+              "text": "– Conducted unit testing (JUnit) and integration testing (Postman) to ensure system stability and API performance.",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 3934,
+              "end": 4048
+            },
+            {
+              "page": 1,
+              "text": "– Collaborated with stakeholders to gather requirements and deliver features aligned with business needs.",
+              "block_id": "b60",
+              "kind": "text",
+              "start": 4050,
+              "end": 4155
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 5,
+      "dated_share": 0.2,
+      "unresolved": 4,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 50,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": true,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 1,
+          "represented_months": 50,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 1,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v1bcacc944fcf427f",
+              "label": "Trinity Mobility",
+              "state": "month_range",
+              "start": [
+                2021,
+                7
+              ],
+              "end": [
+                2025,
+                8
+              ],
+              "months": 50,
+              "raw": "July 2021- August 2025",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Trinity Mobility July 2021- August 2025",
+                    "block_id": "b21",
+                    "kind": "text",
+                    "start": 906,
+                    "end": 945
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "July 2021- August 2025",
+                    "block_id": "b21",
+                    "kind": "text",
+                    "start": 923,
+                    "end": 945
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Trinity Mobility",
+                    "block_id": "b21",
+                    "kind": "text",
+                    "start": 906,
+                    "end": 922
+                  }
+                ],
+                "title": [],
+                "section": "Experience",
+                "date_label": "July 2021- August 2025",
+                "is_present": false
+              }
+            }
+          ]
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 2,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 2,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "proj_1",
+              "label": "StayEase Pro",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "StayEase Pro",
+                    "block_id": "b41",
+                    "kind": "text",
+                    "start": 2358,
+                    "end": 2370
+                  },
+                  {
+                    "page": 1,
+                    "text": "Developed a comprehensive hotel reservation system using Java 8 and Spring Boot, integrating MySQL for robust data",
+                    "block_id": "b42",
+                    "kind": "text",
+                    "start": 2372,
+                    "end": 2486
+                  },
+                  {
+                    "page": 1,
+                    "text": "management. Implemented microservices architecture with Eureka Server for service registry and discovery and Angular for",
+                    "block_id": "b43",
+                    "kind": "text",
+                    "start": 2488,
+                    "end": 2608
+                  },
+                  {
+                    "page": 1,
+                    "text": "the FrontEnd part. Utilized Spring Security with JWT for secure user authentication.  Created RESTful APIs for efficient",
+                    "block_id": "b44",
+                    "kind": "text",
+                    "start": 2610,
+                    "end": 2730
+                  },
+                  {
+                    "page": 1,
+                    "text": "booking and management functionalities. Employed JUnit and Mockito for rigorous unit and integration testing. Automated",
+                    "block_id": "b45",
+                    "kind": "text",
+                    "start": 2732,
+                    "end": 2851
+                  },
+                  {
+                    "page": 1,
+                    "text": "deployments using Jenkins and Docker, ensuring continuous delivery and operational efficiency.",
+                    "block_id": "b46",
+                    "kind": "text",
+                    "start": 2853,
+                    "end": 2947
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_2",
+              "label": "Roles and Responsibility",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Roles and Responsibility",
+                    "block_id": "b47",
+                    "kind": "text",
+                    "start": 2951,
+                    "end": 2975
+                  },
+                  {
+                    "page": 1,
+                    "text": "– Designed and developed RESTful APIs using Spring Boot (Microservices architecture) for scalable hotel",
+                    "block_id": "b48",
+                    "kind": "text",
+                    "start": 2977,
+                    "end": 3080
+                  },
+                  {
+                    "page": 1,
+                    "text": "management services",
+                    "block_id": "b49",
+                    "kind": "text",
+                    "start": 3082,
+                    "end": 3101
+                  },
+                  {
+                    "page": 1,
+                    "text": "– Built responsive frontend modules using Angular (components, services, routing) to provide an intuitive booking",
+                    "block_id": "b50",
+                    "kind": "text",
+                    "start": 3103,
+                    "end": 3216
+                  },
+                  {
+                    "page": 1,
+                    "text": "and account management experience.",
+                    "block_id": "b51",
+                    "kind": "text",
+                    "start": 3218,
+                    "end": 3252
+                  },
+                  {
+                    "page": 1,
+                    "text": "– Implemented JWT-based authentication and Spring Security to secure APIs and enable role-based access control.",
+                    "block_id": "b52",
+                    "kind": "text",
+                    "start": 3254,
+                    "end": 3365
+                  },
+                  {
+                    "page": 1,
+                    "text": "– Built an admin dashboard for user and role management, ensuring controlled access to system resources.",
+                    "block_id": "b53",
+                    "kind": "text",
+                    "start": 3367,
+                    "end": 3471
+                  },
+                  {
+                    "page": 1,
+                    "text": "– Integrated Hibernate (ORM) with MySQL for effecient database operations, entity mapping, and caching.",
+                    "block_id": "b54",
+                    "kind": "text",
+                    "start": 3473,
+                    "end": 3576
+                  },
+                  {
+                    "page": 1,
+                    "text": "– Deployed the application on AWS Cloud, ensuring high availability, scalability, and performance optimization.",
+                    "block_id": "b55",
+                    "kind": "text",
+                    "start": 3578,
+                    "end": 3689
+                  },
+                  {
+                    "page": 1,
+                    "text": "– Implemented third-party integrations (Email, SMS, Whatsapp) to improve customer communication and",
+                    "block_id": "b56",
+                    "kind": "text",
+                    "start": 3691,
+                    "end": 3790
+                  },
+                  {
+                    "page": 1,
+                    "text": "booking/payment notifications.",
+                    "block_id": "b57",
+                    "kind": "text",
+                    "start": 3792,
+                    "end": 3822
+                  },
+                  {
+                    "page": 1,
+                    "text": "– Developed audit logging and error handling routines to maintain traceability and transaction reliability.",
+                    "block_id": "b58",
+                    "kind": "text",
+                    "start": 3825,
+                    "end": 3932
+                  },
+                  {
+                    "page": 1,
+                    "text": "– Conducted unit testing (JUnit) and integration testing (Postman) to ensure system stability and API performance.",
+                    "block_id": "b59",
+                    "kind": "text",
+                    "start": 3934,
+                    "end": 4048
+                  },
+                  {
+                    "page": 1,
+                    "text": "– Collaborated with stakeholders to gather requirements and deliver features aligned with business needs.",
+                    "block_id": "b60",
+                    "kind": "text",
+                    "start": 4050,
+                    "end": 4155
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 2,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 1,
+            "duration_only": 0,
+            "undated": 1,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "vc9b9f02619e7437b",
+              "label": "BTech Graduated",
+              "state": "single_date",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "2020",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "BTech Graduated: 2020",
+                    "block_id": "b62",
+                    "kind": "text",
+                    "start": 4170,
+                    "end": 4191
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "2020",
+                    "block_id": "b62",
+                    "kind": "text",
+                    "start": 4187,
+                    "end": 4191
+                  }
+                ],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "BTech Graduated",
+                    "block_id": "b62",
+                    "kind": "text",
+                    "start": 4170,
+                    "end": 4185
+                  }
+                ],
+                "section": "Education",
+                "date_label": "2020",
+                "is_present": false
+              }
+            },
+            {
+              "id": "ve7ccc8bd9fb471ca",
+              "label": "Pune CGPA: 7.99 / 10",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "MIT Academy of Engineering, Pune CGPA: 7.99 / 10",
+                    "block_id": "b63",
+                    "kind": "text",
+                    "start": 4193,
+                    "end": 4241
+                  }
+                ],
+                "dates": [],
+                "company": [],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Pune CGPA: 7.99 / 10",
+                    "block_id": "b63",
+                    "kind": "text",
+                    "start": 4221,
+                    "end": 4241
+                  }
+                ],
+                "section": "Education",
+                "date_label": "",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 50,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": true,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 1,
+        "represented_months": 50,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 1,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v1bcacc944fcf427f",
+            "label": "Trinity Mobility",
+            "state": "month_range",
+            "start": [
+              2021,
+              7
+            ],
+            "end": [
+              2025,
+              8
+            ],
+            "months": 50,
+            "raw": "July 2021- August 2025",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Trinity Mobility July 2021- August 2025",
+                  "block_id": "b21",
+                  "kind": "text",
+                  "start": 906,
+                  "end": 945
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "July 2021- August 2025",
+                  "block_id": "b21",
+                  "kind": "text",
+                  "start": 923,
+                  "end": 945
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Trinity Mobility",
+                  "block_id": "b21",
+                  "kind": "text",
+                  "start": 906,
+                  "end": 922
+                }
+              ],
+              "title": [],
+              "section": "Experience",
+              "date_label": "July 2021- August 2025",
+              "is_present": false
+            }
+          }
+        ]
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 2,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 2,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "proj_1",
+            "label": "StayEase Pro",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "StayEase Pro",
+                  "block_id": "b41",
+                  "kind": "text",
+                  "start": 2358,
+                  "end": 2370
+                },
+                {
+                  "page": 1,
+                  "text": "Developed a comprehensive hotel reservation system using Java 8 and Spring Boot, integrating MySQL for robust data",
+                  "block_id": "b42",
+                  "kind": "text",
+                  "start": 2372,
+                  "end": 2486
+                },
+                {
+                  "page": 1,
+                  "text": "management. Implemented microservices architecture with Eureka Server for service registry and discovery and Angular for",
+                  "block_id": "b43",
+                  "kind": "text",
+                  "start": 2488,
+                  "end": 2608
+                },
+                {
+                  "page": 1,
+                  "text": "the FrontEnd part. Utilized Spring Security with JWT for secure user authentication.  Created RESTful APIs for efficient",
+                  "block_id": "b44",
+                  "kind": "text",
+                  "start": 2610,
+                  "end": 2730
+                },
+                {
+                  "page": 1,
+                  "text": "booking and management functionalities. Employed JUnit and Mockito for rigorous unit and integration testing. Automated",
+                  "block_id": "b45",
+                  "kind": "text",
+                  "start": 2732,
+                  "end": 2851
+                },
+                {
+                  "page": 1,
+                  "text": "deployments using Jenkins and Docker, ensuring continuous delivery and operational efficiency.",
+                  "block_id": "b46",
+                  "kind": "text",
+                  "start": 2853,
+                  "end": 2947
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_2",
+            "label": "Roles and Responsibility",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Roles and Responsibility",
+                  "block_id": "b47",
+                  "kind": "text",
+                  "start": 2951,
+                  "end": 2975
+                },
+                {
+                  "page": 1,
+                  "text": "– Designed and developed RESTful APIs using Spring Boot (Microservices architecture) for scalable hotel",
+                  "block_id": "b48",
+                  "kind": "text",
+                  "start": 2977,
+                  "end": 3080
+                },
+                {
+                  "page": 1,
+                  "text": "management services",
+                  "block_id": "b49",
+                  "kind": "text",
+                  "start": 3082,
+                  "end": 3101
+                },
+                {
+                  "page": 1,
+                  "text": "– Built responsive frontend modules using Angular (components, services, routing) to provide an intuitive booking",
+                  "block_id": "b50",
+                  "kind": "text",
+                  "start": 3103,
+                  "end": 3216
+                },
+                {
+                  "page": 1,
+                  "text": "and account management experience.",
+                  "block_id": "b51",
+                  "kind": "text",
+                  "start": 3218,
+                  "end": 3252
+                },
+                {
+                  "page": 1,
+                  "text": "– Implemented JWT-based authentication and Spring Security to secure APIs and enable role-based access control.",
+                  "block_id": "b52",
+                  "kind": "text",
+                  "start": 3254,
+                  "end": 3365
+                },
+                {
+                  "page": 1,
+                  "text": "– Built an admin dashboard for user and role management, ensuring controlled access to system resources.",
+                  "block_id": "b53",
+                  "kind": "text",
+                  "start": 3367,
+                  "end": 3471
+                },
+                {
+                  "page": 1,
+                  "text": "– Integrated Hibernate (ORM) with MySQL for effecient database operations, entity mapping, and caching.",
+                  "block_id": "b54",
+                  "kind": "text",
+                  "start": 3473,
+                  "end": 3576
+                },
+                {
+                  "page": 1,
+                  "text": "– Deployed the application on AWS Cloud, ensuring high availability, scalability, and performance optimization.",
+                  "block_id": "b55",
+                  "kind": "text",
+                  "start": 3578,
+                  "end": 3689
+                },
+                {
+                  "page": 1,
+                  "text": "– Implemented third-party integrations (Email, SMS, Whatsapp) to improve customer communication and",
+                  "block_id": "b56",
+                  "kind": "text",
+                  "start": 3691,
+                  "end": 3790
+                },
+                {
+                  "page": 1,
+                  "text": "booking/payment notifications.",
+                  "block_id": "b57",
+                  "kind": "text",
+                  "start": 3792,
+                  "end": 3822
+                },
+                {
+                  "page": 1,
+                  "text": "– Developed audit logging and error handling routines to maintain traceability and transaction reliability.",
+                  "block_id": "b58",
+                  "kind": "text",
+                  "start": 3825,
+                  "end": 3932
+                },
+                {
+                  "page": 1,
+                  "text": "– Conducted unit testing (JUnit) and integration testing (Postman) to ensure system stability and API performance.",
+                  "block_id": "b59",
+                  "kind": "text",
+                  "start": 3934,
+                  "end": 4048
+                },
+                {
+                  "page": 1,
+                  "text": "– Collaborated with stakeholders to gather requirements and deliver features aligned with business needs.",
+                  "block_id": "b60",
+                  "kind": "text",
+                  "start": 4050,
+                  "end": 4155
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 2,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 1,
+          "duration_only": 0,
+          "undated": 1,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "vc9b9f02619e7437b",
+            "label": "BTech Graduated",
+            "state": "single_date",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "2020",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "BTech Graduated: 2020",
+                  "block_id": "b62",
+                  "kind": "text",
+                  "start": 4170,
+                  "end": 4191
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "2020",
+                  "block_id": "b62",
+                  "kind": "text",
+                  "start": 4187,
+                  "end": 4191
+                }
+              ],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "BTech Graduated",
+                  "block_id": "b62",
+                  "kind": "text",
+                  "start": 4170,
+                  "end": 4185
+                }
+              ],
+              "section": "Education",
+              "date_label": "2020",
+              "is_present": false
+            }
+          },
+          {
+            "id": "ve7ccc8bd9fb471ca",
+            "label": "Pune CGPA: 7.99 / 10",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "MIT Academy of Engineering, Pune CGPA: 7.99 / 10",
+                  "block_id": "b63",
+                  "kind": "text",
+                  "start": 4193,
+                  "end": 4241
+                }
+              ],
+              "dates": [],
+              "company": [],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Pune CGPA: 7.99 / 10",
+                  "block_id": "b63",
+                  "kind": "text",
+                  "start": 4221,
+                  "end": 4241
+                }
+              ],
+              "section": "Education",
+              "date_label": "",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 50,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

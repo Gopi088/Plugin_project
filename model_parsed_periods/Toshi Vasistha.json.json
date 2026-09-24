@@ -1,0 +1,4518 @@
+{
+  "file_name": "Toshi Vasistha.docx",
+  "input_mode": "text_snapshot",
+  "input_sha256": "7bfc44e7340952882710e9c819e556e45bb923860cb8ce567dc455040368c8ff",
+  "doc_id": "7bfc44e7340952882710e9c8",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 11,
+    "dated_share": 0.182,
+    "unresolved": 9,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.833,
+    "document_accuracy": 0.83
+  },
+  "work_experience": [
+    {
+      "id": "v1a3ab53de6d7c56a",
+      "type": "EMPLOYMENT",
+      "company": "Publicis Sapient",
+      "title": "",
+      "start_date": "2022-06",
+      "end_date": "2026-09",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Publicis Sapient | Jun 2022 – Present",
+            "block_id": "b39",
+            "kind": "text",
+            "start": 3712,
+            "end": 3749
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Jun 2022 – Present",
+            "block_id": "b39",
+            "kind": "text",
+            "start": 3731,
+            "end": 3749
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Publicis Sapient",
+            "block_id": "b39",
+            "kind": "text",
+            "start": 3712,
+            "end": 3728
+          }
+        ],
+        "title": [],
+        "section": "WORK EXPERIENCE",
+        "date_label": "Jun 2022 – Present",
+        "is_present": true
+      },
+      "precision": "month",
+      "date_label": "Jun 2022 – Present"
+    }
+  ],
+  "education": [
+    {
+      "id": "vcc5195aa2ada9816",
+      "type": "EDUCATION",
+      "company": "Birla Institute Of Technology",
+      "title": "B.Tech. in Production Engineering",
+      "start_date": "2010-01",
+      "end_date": "2014-12",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.765,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "B.Tech. in Production Engineering from Birla Institute Of Technology, Mesra (2010-2014) - 65%",
+            "block_id": "b26",
+            "kind": "text",
+            "start": 2597,
+            "end": 2690
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2010-2014",
+            "block_id": "b26",
+            "kind": "text",
+            "start": 2674,
+            "end": 2683
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Birla Institute Of Technology",
+            "block_id": "b26",
+            "kind": "text",
+            "start": 2636,
+            "end": 2665
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "B.Tech. in Production Engineering",
+            "block_id": "b26",
+            "kind": "text",
+            "start": 2597,
+            "end": 2630
+          }
+        ],
+        "section": "EDUCATION",
+        "date_label": "2010-2014",
+        "is_present": false
+      },
+      "precision": "year",
+      "date_label": "2010-2014"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "HSBC WPB API – Senior Associate Infrastructure Engineer L1",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "HSBC WPB API – Senior Associate Infrastructure Engineer L1",
+        "Skills/Domain: Linux, AWS (S3, EC2, IAM, Route 53, API Gateway, CloudFront, Load Balancers), Terraform, Kubernetes, Docker, Prometheus, Grafana, GitLab, GitHub, Jenkins, Chef, Jira, Confluence, Mulesoft Gateway",
+        "Description: Part of HSBC’s Build Once Scale Fast (BOSF) program focusing on WPB API remediation, improving API standards, discoverability, and reducing cost/risk across the estate."
+      ],
+      "raw_text": "HSBC WPB API – Senior Associate Infrastructure Engineer L1\nSkills/Domain: Linux, AWS (S3, EC2, IAM, Route 53, API Gateway, CloudFront, Load Balancers), Terraform, Kubernetes, Docker, Prometheus, Grafana, GitLab, GitHub, Jenkins, Chef, Jira, Confluence, Mulesoft Gateway\nDescription: Part of HSBC’s Build Once Scale Fast (BOSF) program focusing on WPB API remediation, improving API standards, discoverability, and reducing cost/risk across the estate.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "HSBC WPB API – Senior Associate Infrastructure Engineer L1",
+            "block_id": "b41",
+            "kind": "text",
+            "start": 3773,
+            "end": 3831
+          },
+          {
+            "page": 1,
+            "text": "Skills/Domain: Linux, AWS (S3, EC2, IAM, Route 53, API Gateway, CloudFront, Load Balancers), Terraform, Kubernetes, Docker, Prometheus, Grafana, GitLab, GitHub, Jenkins, Chef, Jira, Confluence, Mulesoft Gateway",
+            "block_id": "b42",
+            "kind": "text",
+            "start": 3832,
+            "end": 4042
+          },
+          {
+            "page": 1,
+            "text": "Description: Part of HSBC’s Build Once Scale Fast (BOSF) program focusing on WPB API remediation, improving API standards, discoverability, and reducing cost/risk across the estate.",
+            "block_id": "b43",
+            "kind": "text",
+            "start": 4043,
+            "end": 4224
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_2",
+      "name": "Key Contributions:",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Key Contributions:",
+        "Sole DevOps engineer responsible for end-to-end infrastructure setup and CI/CD pipelines across Dev, QA, Pre-Prod, and Prod.",
+        "Deployed services as Kubernetes pods on AWS EKS and enabled Mulesoft Gateway for GraphQL APIs.",
+        "Implemented Splunk logging, documented deployment processes, and managed production Go-Live troubleshooting.",
+        "Acted as process architect to identify roadblocks, train developers, and create comprehensive knowledge repositories."
+      ],
+      "raw_text": "Key Contributions:\nSole DevOps engineer responsible for end-to-end infrastructure setup and CI/CD pipelines across Dev, QA, Pre-Prod, and Prod.\nDeployed services as Kubernetes pods on AWS EKS and enabled Mulesoft Gateway for GraphQL APIs.\nImplemented Splunk logging, documented deployment processes, and managed production Go-Live troubleshooting.\nActed as process architect to identify roadblocks, train developers, and create comprehensive knowledge repositories.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Key Contributions:",
+            "block_id": "b44",
+            "kind": "text",
+            "start": 4225,
+            "end": 4243
+          },
+          {
+            "page": 1,
+            "text": "Sole DevOps engineer responsible for end-to-end infrastructure setup and CI/CD pipelines across Dev, QA, Pre-Prod, and Prod.",
+            "block_id": "b45",
+            "kind": "text",
+            "start": 4244,
+            "end": 4368
+          },
+          {
+            "page": 1,
+            "text": "Deployed services as Kubernetes pods on AWS EKS and enabled Mulesoft Gateway for GraphQL APIs.",
+            "block_id": "b46",
+            "kind": "text",
+            "start": 4369,
+            "end": 4463
+          },
+          {
+            "page": 1,
+            "text": "Implemented Splunk logging, documented deployment processes, and managed production Go-Live troubleshooting.",
+            "block_id": "b47",
+            "kind": "text",
+            "start": 4464,
+            "end": 4572
+          },
+          {
+            "page": 1,
+            "text": "Acted as process architect to identify roadblocks, train developers, and create comprehensive knowledge repositories.",
+            "block_id": "b48",
+            "kind": "text",
+            "start": 4573,
+            "end": 4690
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_3",
+      "name": "SCB SLA1 → SLA2 – DevOps Engineer",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "SCB SLA1 → SLA2 – DevOps Engineer"
+      ],
+      "raw_text": "SCB SLA1 → SLA2 – DevOps Engineer",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "SCB SLA1 → SLA2 – DevOps Engineer",
+            "block_id": "b49",
+            "kind": "text",
+            "start": 4691,
+            "end": 4724
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_4",
+      "name": "Skills/Domain: DevOps, Cloud Infrastructure (Azure/Huawei), CI/CD",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Skills/Domain: DevOps, Cloud Infrastructure (Azure/Huawei), CI/CD",
+        "Summary: Supported the SCBx CCoE initiative to centralize cloud adoption and migrate legacy systems to Azure and Huawei, ensuring alignment of IT capabilities with business objectives."
+      ],
+      "raw_text": "Skills/Domain: DevOps, Cloud Infrastructure (Azure/Huawei), CI/CD\nSummary: Supported the SCBx CCoE initiative to centralize cloud adoption and migrate legacy systems to Azure and Huawei, ensuring alignment of IT capabilities with business objectives.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Skills/Domain: DevOps, Cloud Infrastructure (Azure/Huawei), CI/CD",
+            "block_id": "b50",
+            "kind": "text",
+            "start": 4725,
+            "end": 4790
+          },
+          {
+            "page": 1,
+            "text": "Summary: Supported the SCBx CCoE initiative to centralize cloud adoption and migrate legacy systems to Azure and Huawei, ensuring alignment of IT capabilities with business objectives.",
+            "block_id": "b51",
+            "kind": "text",
+            "start": 4791,
+            "end": 4975
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_5",
+      "name": "Key Achievements:",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Key Achievements:",
+        "Spearheaded CI/CD initiatives by designing and operating Jenkins-based landing zone pipelines, standardizing onboarding and automation across multiple subsidiaries.",
+        "Implemented DevSecOps, semantic versioning, and microservice pipelines with integrated GitLab/Jira workflows, enhancing code quality and deployment reliability.",
+        "Developed reusable Terraform modules and templates, embedding shift-left testing to validate infrastructure components early in the pipeline.",
+        "Delivered a fully functional Syslog Server solution on Azure across SCB and subsidiaries, meeting critical cybersecurity compliance requirements.",
+        "Led a Proof of Concept (PoC) integrating DevSecOps tools into Terraform pipelines to detect vulnerabilities and enforce compliance standards effectively.",
+        "Tesco – Team Lead (SLA2), Finance Data Hub (FDH) Skills/Domain: DevOps, Azure Cloud, CI/CD, Terraform Summary:",
+        "Led the implementation of the Finance Data Hub (FDH) on Microsoft Azure, delivering a scalable and reusable data platform supporting multiple business domains. Focused on governance, compliance, and cost optimization while enabling faster and more reliable platform delivery."
+      ],
+      "raw_text": "Key Achievements:\nSpearheaded CI/CD initiatives by designing and operating Jenkins-based landing zone pipelines, standardizing onboarding and automation across multiple subsidiaries.\nImplemented DevSecOps, semantic versioning, and microservice pipelines with integrated GitLab/Jira workflows, enhancing code quality and deployment reliability.\nDeveloped reusable Terraform modules and templates, embedding shift-left testing to validate infrastructure components early in the pipeline.\nDelivered a fully functional Syslog Server solution on Azure across SCB and subsidiaries, meeting critical cyberse",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Key Achievements:",
+            "block_id": "b52",
+            "kind": "text",
+            "start": 4976,
+            "end": 4993
+          },
+          {
+            "page": 1,
+            "text": "Spearheaded CI/CD initiatives by designing and operating Jenkins-based landing zone pipelines, standardizing onboarding and automation across multiple subsidiaries.",
+            "block_id": "b53",
+            "kind": "text",
+            "start": 4994,
+            "end": 5158
+          },
+          {
+            "page": 1,
+            "text": "Implemented DevSecOps, semantic versioning, and microservice pipelines with integrated GitLab/Jira workflows, enhancing code quality and deployment reliability.",
+            "block_id": "b54",
+            "kind": "text",
+            "start": 5159,
+            "end": 5319
+          },
+          {
+            "page": 1,
+            "text": "Developed reusable Terraform modules and templates, embedding shift-left testing to validate infrastructure components early in the pipeline.",
+            "block_id": "b55",
+            "kind": "text",
+            "start": 5320,
+            "end": 5461
+          },
+          {
+            "page": 1,
+            "text": "Delivered a fully functional Syslog Server solution on Azure across SCB and subsidiaries, meeting critical cybersecurity compliance requirements.",
+            "block_id": "b56",
+            "kind": "text",
+            "start": 5462,
+            "end": 5607
+          },
+          {
+            "page": 1,
+            "text": "Led a Proof of Concept (PoC) integrating DevSecOps tools into Terraform pipelines to detect vulnerabilities and enforce compliance standards effectively.",
+            "block_id": "b57",
+            "kind": "text",
+            "start": 5608,
+            "end": 5761
+          },
+          {
+            "page": 1,
+            "text": "Tesco – Team Lead (SLA2), Finance Data Hub (FDH) Skills/Domain: DevOps, Azure Cloud, CI/CD, Terraform Summary:",
+            "block_id": "b58",
+            "kind": "text",
+            "start": 5762,
+            "end": 5872
+          },
+          {
+            "page": 1,
+            "text": "Led the implementation of the Finance Data Hub (FDH) on Microsoft Azure, delivering a scalable and reusable data platform supporting multiple business domains. Focused on governance, compliance, and cost optimization while enabling faster and more reliable platform delivery.",
+            "block_id": "b59",
+            "kind": "text",
+            "start": 5873,
+            "end": 6148
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_6",
+      "name": "Key Achievements:",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Key Achievements:",
+        "Designed and deployed CI/CD pipelines with GitHub Workflows and Azure DevOps, automating both infrastructure provisioning and application deployment.",
+        "Defined the Terraform delivery strategy, incorporating reusable modules, remote state management, and shift-left testing for consistent, auditable, and reliable infrastructure.",
+        "Streamlined environment provisioning (DEV, PPE, PROD) with standardized Terraform templates, reducing deployment times and accelerating overall delivery cycles.",
+        "Partnered with cross-functional teams to build reusable platform assets, minimizing redundancy and ensuring scalability across Finance, Legal, and Property domains."
+      ],
+      "raw_text": "Key Achievements:\nDesigned and deployed CI/CD pipelines with GitHub Workflows and Azure DevOps, automating both infrastructure provisioning and application deployment.\nDefined the Terraform delivery strategy, incorporating reusable modules, remote state management, and shift-left testing for consistent, auditable, and reliable infrastructure.\nStreamlined environment provisioning (DEV, PPE, PROD) with standardized Terraform templates, reducing deployment times and accelerating overall delivery cycles.\nPartnered with cross-functional teams to build reusable platform assets, minimizing redundancy",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Key Achievements:",
+            "block_id": "b60",
+            "kind": "text",
+            "start": 6149,
+            "end": 6166
+          },
+          {
+            "page": 1,
+            "text": "Designed and deployed CI/CD pipelines with GitHub Workflows and Azure DevOps, automating both infrastructure provisioning and application deployment.",
+            "block_id": "b61",
+            "kind": "text",
+            "start": 6167,
+            "end": 6316
+          },
+          {
+            "page": 1,
+            "text": "Defined the Terraform delivery strategy, incorporating reusable modules, remote state management, and shift-left testing for consistent, auditable, and reliable infrastructure.",
+            "block_id": "b62",
+            "kind": "text",
+            "start": 6317,
+            "end": 6493
+          },
+          {
+            "page": 1,
+            "text": "Streamlined environment provisioning (DEV, PPE, PROD) with standardized Terraform templates, reducing deployment times and accelerating overall delivery cycles.",
+            "block_id": "b63",
+            "kind": "text",
+            "start": 6494,
+            "end": 6654
+          },
+          {
+            "page": 1,
+            "text": "Partnered with cross-functional teams to build reusable platform assets, minimizing redundancy and ensuring scalability across Finance, Legal, and Property domains.",
+            "block_id": "b64",
+            "kind": "text",
+            "start": 6655,
+            "end": 6819
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_7",
+      "name": "Tesco – Tech Lead, Safe & Secure Stores",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Tesco – Tech Lead, Safe & Secure Stores"
+      ],
+      "raw_text": "Tesco – Tech Lead, Safe & Secure Stores",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Tesco – Tech Lead, Safe & Secure Stores",
+            "block_id": "b65",
+            "kind": "text",
+            "start": 6820,
+            "end": 6859
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_8",
+      "name": "Skills/Domain: Cloud Infrastructure, Kubernetes, Rancher, Ansible, Terraform, Azure DevOps, Observability Summary:",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Skills/Domain: Cloud Infrastructure, Kubernetes, Rancher, Ansible, Terraform, Azure DevOps, Observability Summary:",
+        "Leading the Safe & Secure Stores program, delivering secure retail store environments through advanced video intelligence and incident prevention platforms. Managing a 10-member engineering team responsible for Video Platform and Incident Prevention initiatives across global store operations."
+      ],
+      "raw_text": "Skills/Domain: Cloud Infrastructure, Kubernetes, Rancher, Ansible, Terraform, Azure DevOps, Observability Summary:\nLeading the Safe & Secure Stores program, delivering secure retail store environments through advanced video intelligence and incident prevention platforms. Managing a 10-member engineering team responsible for Video Platform and Incident Prevention initiatives across global store operations.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Skills/Domain: Cloud Infrastructure, Kubernetes, Rancher, Ansible, Terraform, Azure DevOps, Observability Summary:",
+            "block_id": "b66",
+            "kind": "text",
+            "start": 6860,
+            "end": 6974
+          },
+          {
+            "page": 1,
+            "text": "Leading the Safe & Secure Stores program, delivering secure retail store environments through advanced video intelligence and incident prevention platforms. Managing a 10-member engineering team responsible for Video Platform and Incident Prevention initiatives across global store operations.",
+            "block_id": "b67",
+            "kind": "text",
+            "start": 6975,
+            "end": 7268
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_9",
+      "name": "Key Achievements:",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Key Achievements:",
+        "Designed and deployed a fault-tolerant Rancher control plane with 3× stacked etcd masters and worker nodes, eliminating single points of failure while ensuring uninterrupted cluster management.",
+        "Implemented Rancher disaster recovery with Rancher Backup Operator, enabling automated snapshots and validated restore workflows to reduce recovery times and minimize data loss.",
+        "Strengthened etcd resilience with automated backups, compaction strategies, and quota tuning, ensuring stability for large-scale production clusters.",
+        "Built scalable multi-node K3s clusters with dedicated etcd persistent volumes to support both large-format and express stores, meeting high availability and disaster recovery requirements.",
+        "Reduced cluster setup time from 0.5 days to under 2 hours through infrastructure automation with Ansible and modular Terraform templates.",
+        "Developed Azure DevOps pipelines for automated cluster onboarding, reporting, and audit tracking, improving compliance and operational efficiency.",
+        "Standardized GitOps onboarding using Rancher Fleet, streamlining bundle deployment and drift detection across 4,000+ edge clusters."
+      ],
+      "raw_text": "Key Achievements:\nDesigned and deployed a fault-tolerant Rancher control plane with 3× stacked etcd masters and worker nodes, eliminating single points of failure while ensuring uninterrupted cluster management.\nImplemented Rancher disaster recovery with Rancher Backup Operator, enabling automated snapshots and validated restore workflows to reduce recovery times and minimize data loss.\nStrengthened etcd resilience with automated backups, compaction strategies, and quota tuning, ensuring stability for large-scale production clusters.\nBuilt scalable multi-node K3s clusters with dedicated etcd p",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Key Achievements:",
+            "block_id": "b68",
+            "kind": "text",
+            "start": 7269,
+            "end": 7286
+          },
+          {
+            "page": 1,
+            "text": "Designed and deployed a fault-tolerant Rancher control plane with 3× stacked etcd masters and worker nodes, eliminating single points of failure while ensuring uninterrupted cluster management.",
+            "block_id": "b69",
+            "kind": "text",
+            "start": 7287,
+            "end": 7480
+          },
+          {
+            "page": 1,
+            "text": "Implemented Rancher disaster recovery with Rancher Backup Operator, enabling automated snapshots and validated restore workflows to reduce recovery times and minimize data loss.",
+            "block_id": "b70",
+            "kind": "text",
+            "start": 7481,
+            "end": 7658
+          },
+          {
+            "page": 1,
+            "text": "Strengthened etcd resilience with automated backups, compaction strategies, and quota tuning, ensuring stability for large-scale production clusters.",
+            "block_id": "b71",
+            "kind": "text",
+            "start": 7659,
+            "end": 7808
+          },
+          {
+            "page": 1,
+            "text": "Built scalable multi-node K3s clusters with dedicated etcd persistent volumes to support both large-format and express stores, meeting high availability and disaster recovery requirements.",
+            "block_id": "b72",
+            "kind": "text",
+            "start": 7809,
+            "end": 7997
+          },
+          {
+            "page": 1,
+            "text": "Reduced cluster setup time from 0.5 days to under 2 hours through infrastructure automation with Ansible and modular Terraform templates.",
+            "block_id": "b73",
+            "kind": "text",
+            "start": 7998,
+            "end": 8135
+          },
+          {
+            "page": 1,
+            "text": "Developed Azure DevOps pipelines for automated cluster onboarding, reporting, and audit tracking, improving compliance and operational efficiency.",
+            "block_id": "b74",
+            "kind": "text",
+            "start": 8136,
+            "end": 8282
+          },
+          {
+            "page": 1,
+            "text": "Standardized GitOps onboarding using Rancher Fleet, streamlining bundle deployment and drift detection across 4,000+ edge clusters.",
+            "block_id": "b75",
+            "kind": "text",
+            "start": 8283,
+            "end": 8414
+          },
+          {
+            "page": 1,
+            "text": "Recognized meta-observability dashboards with New Relic integrations, enabling proactive control-plane monitoring, faster issue detection, and audit-driven insights.",
+            "block_id": "b76",
+            "kind": "text",
+            "start": 8415,
+            "end": 8580
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_10",
+      "name": "Ticketmaster, India | DevOps Engineer | Dec’2019 – Jun’2022\t Privacy Core – DevOps Engineer",
+      "client": "",
+      "role": "",
+      "duration": "2019 - 2022",
+      "details": [
+        "Ticketmaster, India | DevOps Engineer | Dec’2019 – Jun’2022\t Privacy Core – DevOps Engineer",
+        "Skills/Domain: GitLab, GitHub, Jira, Terraform, Confluence, Prometheus, Grafana, Kubernetes, Helm, AWS (Lambda, RDS, EC2, Route 53, IAM, S3), Vault, Docker",
+        "Description: Centralized platform for managing and fulfilling Data Subject Requests (DSRs) across Ticketmaster, Livenation, Ticketweb, Frontgate, and other brands to ensure compliance with CCPA and U.S. privacy regulations."
+      ],
+      "raw_text": "Ticketmaster, India | DevOps Engineer | Dec’2019 – Jun’2022\t Privacy Core – DevOps Engineer\nSkills/Domain: GitLab, GitHub, Jira, Terraform, Confluence, Prometheus, Grafana, Kubernetes, Helm, AWS (Lambda, RDS, EC2, Route 53, IAM, S3), Vault, Docker\nDescription: Centralized platform for managing and fulfilling Data Subject Requests (DSRs) across Ticketmaster, Livenation, Ticketweb, Frontgate, and other brands to ensure compliance with CCPA and U.S. privacy regulations.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Ticketmaster, India | DevOps Engineer | Dec’2019 – Jun’2022\t Privacy Core – DevOps Engineer",
+            "block_id": "b77",
+            "kind": "text",
+            "start": 8582,
+            "end": 8673
+          },
+          {
+            "page": 1,
+            "text": "Skills/Domain: GitLab, GitHub, Jira, Terraform, Confluence, Prometheus, Grafana, Kubernetes, Helm, AWS (Lambda, RDS, EC2, Route 53, IAM, S3), Vault, Docker",
+            "block_id": "b78",
+            "kind": "text",
+            "start": 8674,
+            "end": 8829
+          },
+          {
+            "page": 1,
+            "text": "Description: Centralized platform for managing and fulfilling Data Subject Requests (DSRs) across Ticketmaster, Livenation, Ticketweb, Frontgate, and other brands to ensure compliance with CCPA and U.S. privacy regulations.",
+            "block_id": "b79",
+            "kind": "text",
+            "start": 8830,
+            "end": 9053
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_11",
+      "name": "Key Contributions:",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Key Contributions:",
+        "Implemented Prometheus alerting and Grafana dashboards for privacy applications.",
+        "Built and optimized GitLab CI/CD pipelines and AWS infrastructure with Terraform."
+      ],
+      "raw_text": "Key Contributions:\nImplemented Prometheus alerting and Grafana dashboards for privacy applications.\nBuilt and optimized GitLab CI/CD pipelines and AWS infrastructure with Terraform.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Key Contributions:",
+            "block_id": "b80",
+            "kind": "text",
+            "start": 9054,
+            "end": 9072
+          },
+          {
+            "page": 1,
+            "text": "Implemented Prometheus alerting and Grafana dashboards for privacy applications.",
+            "block_id": "b81",
+            "kind": "text",
+            "start": 9073,
+            "end": 9153
+          },
+          {
+            "page": 1,
+            "text": "Built and optimized GitLab CI/CD pipelines and AWS infrastructure with Terraform.",
+            "block_id": "b82",
+            "kind": "text",
+            "start": 9154,
+            "end": 9235
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_12",
+      "name": "Upgraded Helm v2→v3 and rolled out infra patches/upgrades across Terraform, Kubernetes, Prometheus, and Grafana.",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Upgraded Helm v2→v3 and rolled out infra patches/upgrades across Terraform, Kubernetes, Prometheus, and Grafana.",
+        "Integrated Vault sidecar containers for automated cert management and extended solution org-wide."
+      ],
+      "raw_text": "Upgraded Helm v2→v3 and rolled out infra patches/upgrades across Terraform, Kubernetes, Prometheus, and Grafana.\nIntegrated Vault sidecar containers for automated cert management and extended solution org-wide.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Upgraded Helm v2→v3 and rolled out infra patches/upgrades across Terraform, Kubernetes, Prometheus, and Grafana.",
+            "block_id": "b83",
+            "kind": "text",
+            "start": 9236,
+            "end": 9348
+          },
+          {
+            "page": 1,
+            "text": "Integrated Vault sidecar containers for automated cert management and extended solution org-wide.",
+            "block_id": "b84",
+            "kind": "text",
+            "start": 9349,
+            "end": 9446
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_13",
+      "name": "Secured sensitive assets by encrypting Payment API credentials (TalonOne–CCPA).",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Secured sensitive assets by encrypting Payment API credentials (TalonOne–CCPA).",
+        "Performed DevOps audits, resource right-sizing, and cost/security optimizations across Privacy Core, CDS, and GDPR.",
+        "Troubleshot Kubernetes workloads and piloted CPU/memory resource management.",
+        "Authored Confluence documentation and led technical knowledge-sharing sessions."
+      ],
+      "raw_text": "Secured sensitive assets by encrypting Payment API credentials (TalonOne–CCPA).\nPerformed DevOps audits, resource right-sizing, and cost/security optimizations across Privacy Core, CDS, and GDPR.\nTroubleshot Kubernetes workloads and piloted CPU/memory resource management.\nAuthored Confluence documentation and led technical knowledge-sharing sessions.",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Secured sensitive assets by encrypting Payment API credentials (TalonOne–CCPA).",
+            "block_id": "b85",
+            "kind": "text",
+            "start": 9447,
+            "end": 9526
+          },
+          {
+            "page": 1,
+            "text": "Performed DevOps audits, resource right-sizing, and cost/security optimizations across Privacy Core, CDS, and GDPR.",
+            "block_id": "b86",
+            "kind": "text",
+            "start": 9527,
+            "end": 9642
+          },
+          {
+            "page": 1,
+            "text": "Troubleshot Kubernetes workloads and piloted CPU/memory resource management.",
+            "block_id": "b87",
+            "kind": "text",
+            "start": 9643,
+            "end": 9719
+          },
+          {
+            "page": 1,
+            "text": "Authored Confluence documentation and led technical knowledge-sharing sessions.",
+            "block_id": "b88",
+            "kind": "text",
+            "start": 9720,
+            "end": 9799
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_14",
+      "name": "G4S IT Services, India | DevOps Consultant | Oct’2018 – Dec’2019",
+      "client": "",
+      "role": "",
+      "duration": "2018 - 2019",
+      "details": [
+        "G4S IT Services, India | DevOps Consultant | Oct’2018 – Dec’2019",
+        "Administered Atlassian tools (Jira, Bitbucket, Confluence) and managed GCP components (IAM, PubSub, BigQuery, DataStore, Compute/ App Engine, Cloud SQL, Stackdriver).",
+        "Designed and deployed high-availability cloud infrastructure on GCP with load balancers and auto-scaling server groups.",
+        "Implemented CI/CD pipelines with Jenkins for microservices and payment gateway deployments.",
+        "Built and deployed applications on Google App Engine and Google Compute Engine, ensuring reliability and scalability.",
+        "Configured and managed MongoDB and Redis clusters with high availability for resilient data storage."
+      ],
+      "raw_text": "G4S IT Services, India | DevOps Consultant | Oct’2018 – Dec’2019\nAdministered Atlassian tools (Jira, Bitbucket, Confluence) and managed GCP components (IAM, PubSub, BigQuery, DataStore, Compute/ App Engine, Cloud SQL, Stackdriver).\nDesigned and deployed high-availability cloud infrastructure on GCP with load balancers and auto-scaling server groups.\nImplemented CI/CD pipelines with Jenkins for microservices and payment gateway deployments.\nBuilt and deployed applications on Google App Engine and Google Compute Engine, ensuring reliability and scalability.\nConfigured and managed MongoDB and Red",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "G4S IT Services, India | DevOps Consultant | Oct’2018 – Dec’2019",
+            "block_id": "b89",
+            "kind": "text",
+            "start": 9801,
+            "end": 9865
+          },
+          {
+            "page": 1,
+            "text": "Administered Atlassian tools (Jira, Bitbucket, Confluence) and managed GCP components (IAM, PubSub, BigQuery, DataStore, Compute/ App Engine, Cloud SQL, Stackdriver).",
+            "block_id": "b90",
+            "kind": "text",
+            "start": 9867,
+            "end": 10033
+          },
+          {
+            "page": 1,
+            "text": "Designed and deployed high-availability cloud infrastructure on GCP with load balancers and auto-scaling server groups.",
+            "block_id": "b91",
+            "kind": "text",
+            "start": 10034,
+            "end": 10153
+          },
+          {
+            "page": 1,
+            "text": "Implemented CI/CD pipelines with Jenkins for microservices and payment gateway deployments.",
+            "block_id": "b92",
+            "kind": "text",
+            "start": 10154,
+            "end": 10245
+          },
+          {
+            "page": 1,
+            "text": "Built and deployed applications on Google App Engine and Google Compute Engine, ensuring reliability and scalability.",
+            "block_id": "b93",
+            "kind": "text",
+            "start": 10246,
+            "end": 10363
+          },
+          {
+            "page": 1,
+            "text": "Configured and managed MongoDB and Redis clusters with high availability for resilient data storage.",
+            "block_id": "b94",
+            "kind": "text",
+            "start": 10364,
+            "end": 10464
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_15",
+      "name": "HCL Infra (Client: US Foods) | Specialist / DevOps Consultant | Jan’2018 – Sep’2018",
+      "client": "",
+      "role": "",
+      "duration": "2018 - 2018",
+      "details": [
+        "HCL Infra (Client: US Foods) | Specialist / DevOps Consultant | Jan’2018 – Sep’2018",
+        "Designed and automated infrastructure using Chef (server, workstation, nodes), managing cookbooks, recipes, and seamless deployments.",
+        "Integrated Bitbucket with ChefDK and automated cookbook uploads to Chef Server via Bamboo CI/CD pipelines.",
+        "Provisioned and maintained AWS services (VPC, EC2, S3, IAM, Route 53) to support enterprise-scale cloud infrastructure.",
+        "Set up and managed infrastructure for multiple POCs (e.g., R servers, Anaconda environments) to accelerate innovation.",
+        "Implemented secure and scalable storage solutions by creating and managing S3 buckets across AWS environments.",
+        "Tech Mahindra (Client: AT&T) | Software Engineer (Build & Release / WebLogic Admin) | Oct’2014 – Jan’2018",
+        "Installed, configured, and managed WebLogic servers on distributed clusters, integrating with web servers for high availability."
+      ],
+      "raw_text": "HCL Infra (Client: US Foods) | Specialist / DevOps Consultant | Jan’2018 – Sep’2018\nDesigned and automated infrastructure using Chef (server, workstation, nodes), managing cookbooks, recipes, and seamless deployments.\nIntegrated Bitbucket with ChefDK and automated cookbook uploads to Chef Server via Bamboo CI/CD pipelines.\nProvisioned and maintained AWS services (VPC, EC2, S3, IAM, Route 53) to support enterprise-scale cloud infrastructure.\nSet up and managed infrastructure for multiple POCs (e.g., R servers, Anaconda environments) to accelerate innovation.\nImplemented secure and scalable stor",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "HCL Infra (Client: US Foods) | Specialist / DevOps Consultant | Jan’2018 – Sep’2018",
+            "block_id": "b95",
+            "kind": "text",
+            "start": 10466,
+            "end": 10549
+          },
+          {
+            "page": 1,
+            "text": "Designed and automated infrastructure using Chef (server, workstation, nodes), managing cookbooks, recipes, and seamless deployments.",
+            "block_id": "b96",
+            "kind": "text",
+            "start": 10551,
+            "end": 10684
+          },
+          {
+            "page": 1,
+            "text": "Integrated Bitbucket with ChefDK and automated cookbook uploads to Chef Server via Bamboo CI/CD pipelines.",
+            "block_id": "b97",
+            "kind": "text",
+            "start": 10685,
+            "end": 10791
+          },
+          {
+            "page": 1,
+            "text": "Provisioned and maintained AWS services (VPC, EC2, S3, IAM, Route 53) to support enterprise-scale cloud infrastructure.",
+            "block_id": "b98",
+            "kind": "text",
+            "start": 10792,
+            "end": 10911
+          },
+          {
+            "page": 1,
+            "text": "Set up and managed infrastructure for multiple POCs (e.g., R servers, Anaconda environments) to accelerate innovation.",
+            "block_id": "b99",
+            "kind": "text",
+            "start": 10912,
+            "end": 11030
+          },
+          {
+            "page": 1,
+            "text": "Implemented secure and scalable storage solutions by creating and managing S3 buckets across AWS environments.",
+            "block_id": "b100",
+            "kind": "text",
+            "start": 11031,
+            "end": 11141
+          },
+          {
+            "page": 1,
+            "text": "Tech Mahindra (Client: AT&T) | Software Engineer (Build & Release / WebLogic Admin) | Oct’2014 – Jan’2018",
+            "block_id": "b101",
+            "kind": "text",
+            "start": 11143,
+            "end": 11248
+          },
+          {
+            "page": 1,
+            "text": "Installed, configured, and managed WebLogic servers on distributed clusters, integrating with web servers for high availability.",
+            "block_id": "b102",
+            "kind": "text",
+            "start": 11250,
+            "end": 11378
+          },
+          {
+            "page": 1,
+            "text": "Automated build and deployment processes using Jenkins, Maven, Ant, and Shell scripting, reducing manual effort and deployment time.",
+            "block_id": "b103",
+            "kind": "text",
+            "start": 11379,
+            "end": 11511
+          },
+          {
+            "page": 1,
+            "text": "Provided end-to-end application support (Prod, UAT, Dev) for major AT&T applications across desktop, mobile, SMB, and backend systems.",
+            "block_id": "b104",
+            "kind": "text",
+            "start": 11512,
+            "end": 11646
+          },
+          {
+            "page": 1,
+            "text": "Authored SOPs/KOPs and stabilized support services with defined processes, ensuring audit and compliance readiness.",
+            "block_id": "b105",
+            "kind": "text",
+            "start": 11647,
+            "end": 11762
+          },
+          {
+            "page": 1,
+            "text": "Led incident management, environment setup, and release planning (hot-fix, minor, and major deployments), coordinating with global teams for smooth delivery.",
+            "block_id": "b106",
+            "kind": "text",
+            "start": 11763,
+            "end": 11920
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_16",
+      "name": "KEY HIGHLIGHTS ACROSS CAREER",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "KEY HIGHLIGHTS ACROSS CAREER",
+        "Delivered large-scale cloud and DevOps transformations across finance and retail domains, architecting fault-tolerant, highly available, and automated solutions on AWS, Azure, and private cloud platforms.",
+        "Led Tesco’s Safe Secure Store Program as Tech Lead, designing a high-availability Rancher setup (4000+ downstream clusters), architecting multi- node K3s clusters for large-format stores, and implementing Ansible- and Terraform-based automation that reduced provisioning time from hours to minutes.",
+        "Served as CI/CD SME for SCB’s CCoE Project, creating reusable Jenkins pipelines, Terraform modules, and delivering a cloud-based Syslog Server solution across SCB and subsidiaries—later showcased in technical community sessions.",
+        "Orchestrated automation in Tesco’s Finance Data Hub Program, building a Terraform-driven provisioning solution with GitHub workflows and CI/CD pipelines on Azure CSP, enabling rapid and reliable infrastructure rollout.",
+        "Consistently recognized for impact with multiple Core Value Awards at Publicis Sapient, including Partnering for Client Impact, Engaging with Openness, and Inclusive Collaboration.",
+        "Winner of “Howathon 2024” (EnggNext, Publicis Sapient) for building an AI-powered cloud architecture generator that converted designs into Terraform and deployed via GitHub Actions CI/CD pipelines.",
+        "Active community leader and mentor: drives She Thrives on Cloud (women-in-tech initiative), leads the Azure Tribe community for Cloud & DevOps practitioners, delivers technical knowledge-sharing sessions, and advocates for diversity and inclusion in technology."
+      ],
+      "raw_text": "KEY HIGHLIGHTS ACROSS CAREER\nDelivered large-scale cloud and DevOps transformations across finance and retail domains, architecting fault-tolerant, highly available, and automated solutions on AWS, Azure, and private cloud platforms.\nLed Tesco’s Safe Secure Store Program as Tech Lead, designing a high-availability Rancher setup (4000+ downstream clusters), architecting multi- node K3s clusters for large-format stores, and implementing Ansible- and Terraform-based automation that reduced provisioning time from hours to minutes.\nServed as CI/CD SME for SCB’s CCoE Project, creating reusable Jenki",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "KEY HIGHLIGHTS ACROSS CAREER",
+            "block_id": "b107",
+            "kind": "text",
+            "start": 11922,
+            "end": 11950
+          },
+          {
+            "page": 1,
+            "text": "Delivered large-scale cloud and DevOps transformations across finance and retail domains, architecting fault-tolerant, highly available, and automated solutions on AWS, Azure, and private cloud platforms.",
+            "block_id": "b108",
+            "kind": "text",
+            "start": 11951,
+            "end": 12155
+          },
+          {
+            "page": 1,
+            "text": "Led Tesco’s Safe Secure Store Program as Tech Lead, designing a high-availability Rancher setup (4000+ downstream clusters), architecting multi- node K3s clusters for large-format stores, and implementing Ansible- and Terraform-based automation that reduced provisioning time from hours to minutes.",
+            "block_id": "b109",
+            "kind": "text",
+            "start": 12156,
+            "end": 12454
+          },
+          {
+            "page": 1,
+            "text": "Served as CI/CD SME for SCB’s CCoE Project, creating reusable Jenkins pipelines, Terraform modules, and delivering a cloud-based Syslog Server solution across SCB and subsidiaries—later showcased in technical community sessions.",
+            "block_id": "b110",
+            "kind": "text",
+            "start": 12455,
+            "end": 12683
+          },
+          {
+            "page": 1,
+            "text": "Orchestrated automation in Tesco’s Finance Data Hub Program, building a Terraform-driven provisioning solution with GitHub workflows and CI/CD pipelines on Azure CSP, enabling rapid and reliable infrastructure rollout.",
+            "block_id": "b111",
+            "kind": "text",
+            "start": 12684,
+            "end": 12902
+          },
+          {
+            "page": 1,
+            "text": "Consistently recognized for impact with multiple Core Value Awards at Publicis Sapient, including Partnering for Client Impact, Engaging with Openness, and Inclusive Collaboration.",
+            "block_id": "b112",
+            "kind": "text",
+            "start": 12903,
+            "end": 13083
+          },
+          {
+            "page": 1,
+            "text": "Winner of “Howathon 2024” (EnggNext, Publicis Sapient) for building an AI-powered cloud architecture generator that converted designs into Terraform and deployed via GitHub Actions CI/CD pipelines.",
+            "block_id": "b113",
+            "kind": "text",
+            "start": 13084,
+            "end": 13281
+          },
+          {
+            "page": 1,
+            "text": "Active community leader and mentor: drives She Thrives on Cloud (women-in-tech initiative), leads the Azure Tribe community for Cloud & DevOps practitioners, delivers technical knowledge-sharing sessions, and advocates for diversity and inclusion in technology.",
+            "block_id": "b114",
+            "kind": "text",
+            "start": 13282,
+            "end": 13543
+          },
+          {
+            "page": 1,
+            "text": "Experienced in GO-LIVE event leadership, environment orchestration, and troubleshooting under tight deadlines, ensuring smooth deployments and production stability.",
+            "block_id": "b115",
+            "kind": "text",
+            "start": 13544,
+            "end": 13708
+          },
+          {
+            "page": 1,
+            "text": "Transitioned from Mechanical Engineer to DevOps Engineer, combining a problem-solving mindset with a passion for exploring new tools, technologies, and future-ready innovations.",
+            "block_id": "b116",
+            "kind": "text",
+            "start": 13709,
+            "end": 13886
+          }
+        ]
+      }
+    }
+  ],
+  "gaps": [],
+  "total_work_experience_entries": 1,
+  "total_projects_entries": 16,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "entry e16: dates found without an explicit range",
+    "e11: dates cannot be assigned unambiguously",
+    "e15: dates cannot be assigned unambiguously",
+    "e16: dates cannot be assigned unambiguously"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "7bfc44e7340952882710e9c8",
+    "filename": "Toshi Vasistha.docx",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "vcc5195aa2ada9816",
+        "type": "EDUCATION",
+        "title": "B.Tech. in Production Engineering",
+        "org": "Birla Institute Of Technology",
+        "start": "2010-01",
+        "end": "2014-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.765,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "B.Tech. in Production Engineering from Birla Institute Of Technology, Mesra (2010-2014) - 65%",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "B.Tech. in Production Engineering from Birla Institute Of Technology, Mesra (2010-2014) - 65%",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 2597,
+              "end": 2690
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2010-2014",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 2674,
+              "end": 2683
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Birla Institute Of Technology",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 2636,
+              "end": 2665
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "B.Tech. in Production Engineering",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 2597,
+              "end": 2630
+            }
+          ],
+          "section": "EDUCATION",
+          "date_label": "2010-2014",
+          "is_present": false
+        },
+        "date_label": "2010-2014",
+        "section": "EDUCATION",
+        "is_present": false
+      },
+      {
+        "id": "v1a3ab53de6d7c56a",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Publicis Sapient",
+        "start": "2022-06",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Publicis Sapient | Jun 2022 – Present",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Publicis Sapient | Jun 2022 – Present",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 3712,
+              "end": 3749
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jun 2022 – Present",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 3731,
+              "end": 3749
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Publicis Sapient",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 3712,
+              "end": 3728
+            }
+          ],
+          "title": [],
+          "section": "WORK EXPERIENCE",
+          "date_label": "Jun 2022 – Present",
+          "is_present": true
+        },
+        "date_label": "Jun 2022 – Present",
+        "section": "WORK EXPERIENCE",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "vb6465b0179a90b1a",
+        "type": "PROJECT",
+        "title": "HSBC WPB API – Senior Associate Infrastructure Engineer L1",
+        "org": "",
+        "entry_text": "HSBC WPB API – Senior Associate Infrastructure Engineer L1 Skills/Domain: Linux, AWS (S3, EC2, IAM, Route 53, API Gateway, CloudFront, Load Balancers), Terraform, Kubernetes, Docker, Prometheus, Grafana, GitLab, GitHub, Jenkins, Chef, Jira, Confluence, Mulesoft Gateway Description: Part of HSBC’s Bu",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "HSBC WPB API – Senior Associate Infrastructure Engineer L1",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 3773,
+              "end": 3831
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "HSBC WPB API – Senior Associate Infrastructure Engineer L1",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 3773,
+              "end": 3831
+            }
+          ],
+          "section": "Key Projects Handled:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Key Projects Handled:",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v91222f44e35614b3",
+        "type": "PROJECT",
+        "title": "Key Contributions",
+        "org": "",
+        "entry_text": "Key Contributions: Sole DevOps engineer responsible for end-to-end infrastructure setup and CI/CD pipelines across Dev, QA, Pre-Prod, and Prod. Deployed services as Kubernetes pods on AWS EKS and enabled Mulesoft Gateway for GraphQL APIs. Implemented Splunk logging, documented deployment processes, ",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Key Contributions:",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 4225,
+              "end": 4243
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Key Contributions",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 4225,
+              "end": 4242
+            }
+          ],
+          "section": "Key Projects Handled:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Key Projects Handled:",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "vb312221cc1e6c508",
+        "type": "PROJECT",
+        "title": "SCB SLA1 → SLA2 – DevOps Engineer",
+        "org": "",
+        "entry_text": "SCB SLA1 → SLA2 – DevOps Engineer",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "SCB SLA1 → SLA2 – DevOps Engineer",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 4691,
+              "end": 4724
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "SCB SLA1 → SLA2 – DevOps Engineer",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 4691,
+              "end": 4724
+            }
+          ],
+          "section": "Key Projects Handled:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Key Projects Handled:",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v16e6f7ab2f1e8531",
+        "type": "PROJECT",
+        "title": "Key Achievements",
+        "org": "",
+        "entry_text": "Key Achievements: Spearheaded CI/CD initiatives by designing and operating Jenkins-based landing zone pipelines, standardizing onboarding and automation across multiple subsidiaries. Implemented DevSecOps, semantic versioning, and microservice pipelines with integrated GitLab/Jira workflows, enhanci",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Key Achievements:",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 4976,
+              "end": 4993
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Key Achievements",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 4976,
+              "end": 4992
+            }
+          ],
+          "section": "Key Projects Handled:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Key Projects Handled:",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "va06b8b169751207d",
+        "type": "PROJECT",
+        "title": "Tesco – Tech Lead, Safe & Secure Stores",
+        "org": "",
+        "entry_text": "Tesco – Tech Lead, Safe & Secure Stores",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Tesco – Tech Lead, Safe & Secure Stores",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 6820,
+              "end": 6859
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Tesco – Tech Lead, Safe & Secure Stores",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 6820,
+              "end": 6859
+            }
+          ],
+          "section": "Key Projects Handled:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Key Projects Handled:",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "vd6cdd837a4940e87",
+        "type": "PROJECT",
+        "title": "Skills/Domain: Cloud Infrastructure, Kubernetes, Rancher, Ansible, Terraform, Azure DevOps, Observability Summary",
+        "org": "",
+        "entry_text": "Skills/Domain: Cloud Infrastructure, Kubernetes, Rancher, Ansible, Terraform, Azure DevOps, Observability Summary: Leading the Safe & Secure Stores program, delivering secure retail store environments through advanced video intelligence and incident prevention platforms. Managing a 10-member enginee",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Skills/Domain: Cloud Infrastructure, Kubernetes, Rancher, Ansible, Terraform, Azure DevOps, Observability Summary:",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 6860,
+              "end": 6974
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Skills/Domain: Cloud Infrastructure, Kubernetes, Rancher, Ansible, Terraform, Azure DevOps, Observability Summary",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 6860,
+              "end": 6973
+            }
+          ],
+          "section": "Key Projects Handled:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Key Projects Handled:",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v889f7a46436e74f5",
+        "type": "PROJECT",
+        "title": "Upgraded Helm v2→v3 and rolled out infra patches/upgrades across Terraform, Kubernetes, Prometheus, and Grafana.",
+        "org": "",
+        "entry_text": "Upgraded Helm v2→v3 and rolled out infra patches/upgrades across Terraform, Kubernetes, Prometheus, and Grafana. Integrated Vault sidecar containers for automated cert management and extended solution org-wide.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Upgraded Helm v2→v3 and rolled out infra patches/upgrades across Terraform, Kubernetes, Prometheus, and Grafana.",
+              "block_id": "b83",
+              "kind": "text",
+              "start": 9236,
+              "end": 9348
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Upgraded Helm v2→v3 and rolled out infra patches/upgrades across Terraform, Kubernetes, Prometheus, and Grafana",
+              "block_id": "b83",
+              "kind": "text",
+              "start": 9236,
+              "end": 9347
+            }
+          ],
+          "section": "Key Projects Handled:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Key Projects Handled:",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "vf3870f0dc4fe1d28",
+        "type": "PROJECT",
+        "title": "Secured sensitive assets by encrypting Payment API credentials .",
+        "org": "",
+        "entry_text": "Secured sensitive assets by encrypting Payment API credentials (TalonOne–CCPA). Performed DevOps audits, resource right-sizing, and cost/security optimizations across Privacy Core, CDS, and GDPR. Troubleshot Kubernetes workloads and piloted CPU/memory resource management. Authored Confluence documen",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Secured sensitive assets by encrypting Payment API credentials (TalonOne–CCPA).",
+              "block_id": "b85",
+              "kind": "text",
+              "start": 9447,
+              "end": 9526
+            }
+          ],
+          "dates": [],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Secured sensitive assets by encrypting Payment API credentials",
+              "block_id": "b85",
+              "kind": "text",
+              "start": 9447,
+              "end": 9509
+            }
+          ],
+          "section": "Key Projects Handled:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Key Projects Handled:",
+        "status": "UNRESOLVED"
+      },
+      {
+        "id": "v1c7bdee41d9cabc9",
+        "type": "PROJECT",
+        "title": "KEY HIGHLIGHTS ACROSS CAREER",
+        "org": "",
+        "entry_text": "KEY HIGHLIGHTS ACROSS CAREER Delivered large-scale cloud and DevOps transformations across finance and retail domains, architecting fault-tolerant, highly available, and automated solutions on AWS, Azure, and private cloud platforms. Led Tesco’s Safe Secure Store Program as Tech Lead, designing a hi",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "KEY HIGHLIGHTS ACROSS CAREER",
+              "block_id": "b107",
+              "kind": "text",
+              "start": 11922,
+              "end": 11950
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2024",
+              "block_id": "b113",
+              "kind": "text",
+              "start": 13104,
+              "end": 13108
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "KEY HIGHLIGHTS ACROSS CAREER",
+              "block_id": "b107",
+              "kind": "text",
+              "start": 11922,
+              "end": 11950
+            }
+          ],
+          "section": "Key Projects Handled:",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Key Projects Handled:",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "HSBC WPB API – Senior Associate Infrastructure Engineer L1",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "HSBC WPB API – Senior Associate Infrastructure Engineer L1",
+          "Skills/Domain: Linux, AWS (S3, EC2, IAM, Route 53, API Gateway, CloudFront, Load Balancers), Terraform, Kubernetes, Docker, Prometheus, Grafana, GitLab, GitHub, Jenkins, Chef, Jira, Confluence, Mulesoft Gateway",
+          "Description: Part of HSBC’s Build Once Scale Fast (BOSF) program focusing on WPB API remediation, improving API standards, discoverability, and reducing cost/risk across the estate."
+        ],
+        "raw_text": "HSBC WPB API – Senior Associate Infrastructure Engineer L1\nSkills/Domain: Linux, AWS (S3, EC2, IAM, Route 53, API Gateway, CloudFront, Load Balancers), Terraform, Kubernetes, Docker, Prometheus, Grafana, GitLab, GitHub, Jenkins, Chef, Jira, Confluence, Mulesoft Gateway\nDescription: Part of HSBC’s Build Once Scale Fast (BOSF) program focusing on WPB API remediation, improving API standards, discoverability, and reducing cost/risk across the estate.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "HSBC WPB API – Senior Associate Infrastructure Engineer L1",
+              "block_id": "b41",
+              "kind": "text",
+              "start": 3773,
+              "end": 3831
+            },
+            {
+              "page": 1,
+              "text": "Skills/Domain: Linux, AWS (S3, EC2, IAM, Route 53, API Gateway, CloudFront, Load Balancers), Terraform, Kubernetes, Docker, Prometheus, Grafana, GitLab, GitHub, Jenkins, Chef, Jira, Confluence, Mulesoft Gateway",
+              "block_id": "b42",
+              "kind": "text",
+              "start": 3832,
+              "end": 4042
+            },
+            {
+              "page": 1,
+              "text": "Description: Part of HSBC’s Build Once Scale Fast (BOSF) program focusing on WPB API remediation, improving API standards, discoverability, and reducing cost/risk across the estate.",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 4043,
+              "end": 4224
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "Key Contributions:",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Key Contributions:",
+          "Sole DevOps engineer responsible for end-to-end infrastructure setup and CI/CD pipelines across Dev, QA, Pre-Prod, and Prod.",
+          "Deployed services as Kubernetes pods on AWS EKS and enabled Mulesoft Gateway for GraphQL APIs.",
+          "Implemented Splunk logging, documented deployment processes, and managed production Go-Live troubleshooting.",
+          "Acted as process architect to identify roadblocks, train developers, and create comprehensive knowledge repositories."
+        ],
+        "raw_text": "Key Contributions:\nSole DevOps engineer responsible for end-to-end infrastructure setup and CI/CD pipelines across Dev, QA, Pre-Prod, and Prod.\nDeployed services as Kubernetes pods on AWS EKS and enabled Mulesoft Gateway for GraphQL APIs.\nImplemented Splunk logging, documented deployment processes, and managed production Go-Live troubleshooting.\nActed as process architect to identify roadblocks, train developers, and create comprehensive knowledge repositories.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Key Contributions:",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 4225,
+              "end": 4243
+            },
+            {
+              "page": 1,
+              "text": "Sole DevOps engineer responsible for end-to-end infrastructure setup and CI/CD pipelines across Dev, QA, Pre-Prod, and Prod.",
+              "block_id": "b45",
+              "kind": "text",
+              "start": 4244,
+              "end": 4368
+            },
+            {
+              "page": 1,
+              "text": "Deployed services as Kubernetes pods on AWS EKS and enabled Mulesoft Gateway for GraphQL APIs.",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 4369,
+              "end": 4463
+            },
+            {
+              "page": 1,
+              "text": "Implemented Splunk logging, documented deployment processes, and managed production Go-Live troubleshooting.",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 4464,
+              "end": 4572
+            },
+            {
+              "page": 1,
+              "text": "Acted as process architect to identify roadblocks, train developers, and create comprehensive knowledge repositories.",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 4573,
+              "end": 4690
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_3",
+        "name": "SCB SLA1 → SLA2 – DevOps Engineer",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "SCB SLA1 → SLA2 – DevOps Engineer"
+        ],
+        "raw_text": "SCB SLA1 → SLA2 – DevOps Engineer",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "SCB SLA1 → SLA2 – DevOps Engineer",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 4691,
+              "end": 4724
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_4",
+        "name": "Skills/Domain: DevOps, Cloud Infrastructure (Azure/Huawei), CI/CD",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Skills/Domain: DevOps, Cloud Infrastructure (Azure/Huawei), CI/CD",
+          "Summary: Supported the SCBx CCoE initiative to centralize cloud adoption and migrate legacy systems to Azure and Huawei, ensuring alignment of IT capabilities with business objectives."
+        ],
+        "raw_text": "Skills/Domain: DevOps, Cloud Infrastructure (Azure/Huawei), CI/CD\nSummary: Supported the SCBx CCoE initiative to centralize cloud adoption and migrate legacy systems to Azure and Huawei, ensuring alignment of IT capabilities with business objectives.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Skills/Domain: DevOps, Cloud Infrastructure (Azure/Huawei), CI/CD",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 4725,
+              "end": 4790
+            },
+            {
+              "page": 1,
+              "text": "Summary: Supported the SCBx CCoE initiative to centralize cloud adoption and migrate legacy systems to Azure and Huawei, ensuring alignment of IT capabilities with business objectives.",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 4791,
+              "end": 4975
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_5",
+        "name": "Key Achievements:",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Key Achievements:",
+          "Spearheaded CI/CD initiatives by designing and operating Jenkins-based landing zone pipelines, standardizing onboarding and automation across multiple subsidiaries.",
+          "Implemented DevSecOps, semantic versioning, and microservice pipelines with integrated GitLab/Jira workflows, enhancing code quality and deployment reliability.",
+          "Developed reusable Terraform modules and templates, embedding shift-left testing to validate infrastructure components early in the pipeline.",
+          "Delivered a fully functional Syslog Server solution on Azure across SCB and subsidiaries, meeting critical cybersecurity compliance requirements.",
+          "Led a Proof of Concept (PoC) integrating DevSecOps tools into Terraform pipelines to detect vulnerabilities and enforce compliance standards effectively.",
+          "Tesco – Team Lead (SLA2), Finance Data Hub (FDH) Skills/Domain: DevOps, Azure Cloud, CI/CD, Terraform Summary:",
+          "Led the implementation of the Finance Data Hub (FDH) on Microsoft Azure, delivering a scalable and reusable data platform supporting multiple business domains. Focused on governance, compliance, and cost optimization while enabling faster and more reliable platform delivery."
+        ],
+        "raw_text": "Key Achievements:\nSpearheaded CI/CD initiatives by designing and operating Jenkins-based landing zone pipelines, standardizing onboarding and automation across multiple subsidiaries.\nImplemented DevSecOps, semantic versioning, and microservice pipelines with integrated GitLab/Jira workflows, enhancing code quality and deployment reliability.\nDeveloped reusable Terraform modules and templates, embedding shift-left testing to validate infrastructure components early in the pipeline.\nDelivered a fully functional Syslog Server solution on Azure across SCB and subsidiaries, meeting critical cyberse",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Key Achievements:",
+              "block_id": "b52",
+              "kind": "text",
+              "start": 4976,
+              "end": 4993
+            },
+            {
+              "page": 1,
+              "text": "Spearheaded CI/CD initiatives by designing and operating Jenkins-based landing zone pipelines, standardizing onboarding and automation across multiple subsidiaries.",
+              "block_id": "b53",
+              "kind": "text",
+              "start": 4994,
+              "end": 5158
+            },
+            {
+              "page": 1,
+              "text": "Implemented DevSecOps, semantic versioning, and microservice pipelines with integrated GitLab/Jira workflows, enhancing code quality and deployment reliability.",
+              "block_id": "b54",
+              "kind": "text",
+              "start": 5159,
+              "end": 5319
+            },
+            {
+              "page": 1,
+              "text": "Developed reusable Terraform modules and templates, embedding shift-left testing to validate infrastructure components early in the pipeline.",
+              "block_id": "b55",
+              "kind": "text",
+              "start": 5320,
+              "end": 5461
+            },
+            {
+              "page": 1,
+              "text": "Delivered a fully functional Syslog Server solution on Azure across SCB and subsidiaries, meeting critical cybersecurity compliance requirements.",
+              "block_id": "b56",
+              "kind": "text",
+              "start": 5462,
+              "end": 5607
+            },
+            {
+              "page": 1,
+              "text": "Led a Proof of Concept (PoC) integrating DevSecOps tools into Terraform pipelines to detect vulnerabilities and enforce compliance standards effectively.",
+              "block_id": "b57",
+              "kind": "text",
+              "start": 5608,
+              "end": 5761
+            },
+            {
+              "page": 1,
+              "text": "Tesco – Team Lead (SLA2), Finance Data Hub (FDH) Skills/Domain: DevOps, Azure Cloud, CI/CD, Terraform Summary:",
+              "block_id": "b58",
+              "kind": "text",
+              "start": 5762,
+              "end": 5872
+            },
+            {
+              "page": 1,
+              "text": "Led the implementation of the Finance Data Hub (FDH) on Microsoft Azure, delivering a scalable and reusable data platform supporting multiple business domains. Focused on governance, compliance, and cost optimization while enabling faster and more reliable platform delivery.",
+              "block_id": "b59",
+              "kind": "text",
+              "start": 5873,
+              "end": 6148
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_6",
+        "name": "Key Achievements:",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Key Achievements:",
+          "Designed and deployed CI/CD pipelines with GitHub Workflows and Azure DevOps, automating both infrastructure provisioning and application deployment.",
+          "Defined the Terraform delivery strategy, incorporating reusable modules, remote state management, and shift-left testing for consistent, auditable, and reliable infrastructure.",
+          "Streamlined environment provisioning (DEV, PPE, PROD) with standardized Terraform templates, reducing deployment times and accelerating overall delivery cycles.",
+          "Partnered with cross-functional teams to build reusable platform assets, minimizing redundancy and ensuring scalability across Finance, Legal, and Property domains."
+        ],
+        "raw_text": "Key Achievements:\nDesigned and deployed CI/CD pipelines with GitHub Workflows and Azure DevOps, automating both infrastructure provisioning and application deployment.\nDefined the Terraform delivery strategy, incorporating reusable modules, remote state management, and shift-left testing for consistent, auditable, and reliable infrastructure.\nStreamlined environment provisioning (DEV, PPE, PROD) with standardized Terraform templates, reducing deployment times and accelerating overall delivery cycles.\nPartnered with cross-functional teams to build reusable platform assets, minimizing redundancy",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Key Achievements:",
+              "block_id": "b60",
+              "kind": "text",
+              "start": 6149,
+              "end": 6166
+            },
+            {
+              "page": 1,
+              "text": "Designed and deployed CI/CD pipelines with GitHub Workflows and Azure DevOps, automating both infrastructure provisioning and application deployment.",
+              "block_id": "b61",
+              "kind": "text",
+              "start": 6167,
+              "end": 6316
+            },
+            {
+              "page": 1,
+              "text": "Defined the Terraform delivery strategy, incorporating reusable modules, remote state management, and shift-left testing for consistent, auditable, and reliable infrastructure.",
+              "block_id": "b62",
+              "kind": "text",
+              "start": 6317,
+              "end": 6493
+            },
+            {
+              "page": 1,
+              "text": "Streamlined environment provisioning (DEV, PPE, PROD) with standardized Terraform templates, reducing deployment times and accelerating overall delivery cycles.",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 6494,
+              "end": 6654
+            },
+            {
+              "page": 1,
+              "text": "Partnered with cross-functional teams to build reusable platform assets, minimizing redundancy and ensuring scalability across Finance, Legal, and Property domains.",
+              "block_id": "b64",
+              "kind": "text",
+              "start": 6655,
+              "end": 6819
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_7",
+        "name": "Tesco – Tech Lead, Safe & Secure Stores",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Tesco – Tech Lead, Safe & Secure Stores"
+        ],
+        "raw_text": "Tesco – Tech Lead, Safe & Secure Stores",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Tesco – Tech Lead, Safe & Secure Stores",
+              "block_id": "b65",
+              "kind": "text",
+              "start": 6820,
+              "end": 6859
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_8",
+        "name": "Skills/Domain: Cloud Infrastructure, Kubernetes, Rancher, Ansible, Terraform, Azure DevOps, Observability Summary:",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Skills/Domain: Cloud Infrastructure, Kubernetes, Rancher, Ansible, Terraform, Azure DevOps, Observability Summary:",
+          "Leading the Safe & Secure Stores program, delivering secure retail store environments through advanced video intelligence and incident prevention platforms. Managing a 10-member engineering team responsible for Video Platform and Incident Prevention initiatives across global store operations."
+        ],
+        "raw_text": "Skills/Domain: Cloud Infrastructure, Kubernetes, Rancher, Ansible, Terraform, Azure DevOps, Observability Summary:\nLeading the Safe & Secure Stores program, delivering secure retail store environments through advanced video intelligence and incident prevention platforms. Managing a 10-member engineering team responsible for Video Platform and Incident Prevention initiatives across global store operations.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Skills/Domain: Cloud Infrastructure, Kubernetes, Rancher, Ansible, Terraform, Azure DevOps, Observability Summary:",
+              "block_id": "b66",
+              "kind": "text",
+              "start": 6860,
+              "end": 6974
+            },
+            {
+              "page": 1,
+              "text": "Leading the Safe & Secure Stores program, delivering secure retail store environments through advanced video intelligence and incident prevention platforms. Managing a 10-member engineering team responsible for Video Platform and Incident Prevention initiatives across global store operations.",
+              "block_id": "b67",
+              "kind": "text",
+              "start": 6975,
+              "end": 7268
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_9",
+        "name": "Key Achievements:",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Key Achievements:",
+          "Designed and deployed a fault-tolerant Rancher control plane with 3× stacked etcd masters and worker nodes, eliminating single points of failure while ensuring uninterrupted cluster management.",
+          "Implemented Rancher disaster recovery with Rancher Backup Operator, enabling automated snapshots and validated restore workflows to reduce recovery times and minimize data loss.",
+          "Strengthened etcd resilience with automated backups, compaction strategies, and quota tuning, ensuring stability for large-scale production clusters.",
+          "Built scalable multi-node K3s clusters with dedicated etcd persistent volumes to support both large-format and express stores, meeting high availability and disaster recovery requirements.",
+          "Reduced cluster setup time from 0.5 days to under 2 hours through infrastructure automation with Ansible and modular Terraform templates.",
+          "Developed Azure DevOps pipelines for automated cluster onboarding, reporting, and audit tracking, improving compliance and operational efficiency.",
+          "Standardized GitOps onboarding using Rancher Fleet, streamlining bundle deployment and drift detection across 4,000+ edge clusters."
+        ],
+        "raw_text": "Key Achievements:\nDesigned and deployed a fault-tolerant Rancher control plane with 3× stacked etcd masters and worker nodes, eliminating single points of failure while ensuring uninterrupted cluster management.\nImplemented Rancher disaster recovery with Rancher Backup Operator, enabling automated snapshots and validated restore workflows to reduce recovery times and minimize data loss.\nStrengthened etcd resilience with automated backups, compaction strategies, and quota tuning, ensuring stability for large-scale production clusters.\nBuilt scalable multi-node K3s clusters with dedicated etcd p",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Key Achievements:",
+              "block_id": "b68",
+              "kind": "text",
+              "start": 7269,
+              "end": 7286
+            },
+            {
+              "page": 1,
+              "text": "Designed and deployed a fault-tolerant Rancher control plane with 3× stacked etcd masters and worker nodes, eliminating single points of failure while ensuring uninterrupted cluster management.",
+              "block_id": "b69",
+              "kind": "text",
+              "start": 7287,
+              "end": 7480
+            },
+            {
+              "page": 1,
+              "text": "Implemented Rancher disaster recovery with Rancher Backup Operator, enabling automated snapshots and validated restore workflows to reduce recovery times and minimize data loss.",
+              "block_id": "b70",
+              "kind": "text",
+              "start": 7481,
+              "end": 7658
+            },
+            {
+              "page": 1,
+              "text": "Strengthened etcd resilience with automated backups, compaction strategies, and quota tuning, ensuring stability for large-scale production clusters.",
+              "block_id": "b71",
+              "kind": "text",
+              "start": 7659,
+              "end": 7808
+            },
+            {
+              "page": 1,
+              "text": "Built scalable multi-node K3s clusters with dedicated etcd persistent volumes to support both large-format and express stores, meeting high availability and disaster recovery requirements.",
+              "block_id": "b72",
+              "kind": "text",
+              "start": 7809,
+              "end": 7997
+            },
+            {
+              "page": 1,
+              "text": "Reduced cluster setup time from 0.5 days to under 2 hours through infrastructure automation with Ansible and modular Terraform templates.",
+              "block_id": "b73",
+              "kind": "text",
+              "start": 7998,
+              "end": 8135
+            },
+            {
+              "page": 1,
+              "text": "Developed Azure DevOps pipelines for automated cluster onboarding, reporting, and audit tracking, improving compliance and operational efficiency.",
+              "block_id": "b74",
+              "kind": "text",
+              "start": 8136,
+              "end": 8282
+            },
+            {
+              "page": 1,
+              "text": "Standardized GitOps onboarding using Rancher Fleet, streamlining bundle deployment and drift detection across 4,000+ edge clusters.",
+              "block_id": "b75",
+              "kind": "text",
+              "start": 8283,
+              "end": 8414
+            },
+            {
+              "page": 1,
+              "text": "Recognized meta-observability dashboards with New Relic integrations, enabling proactive control-plane monitoring, faster issue detection, and audit-driven insights.",
+              "block_id": "b76",
+              "kind": "text",
+              "start": 8415,
+              "end": 8580
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_10",
+        "name": "Ticketmaster, India | DevOps Engineer | Dec’2019 – Jun’2022\t Privacy Core – DevOps Engineer",
+        "client": "",
+        "role": "",
+        "duration": "2019 - 2022",
+        "details": [
+          "Ticketmaster, India | DevOps Engineer | Dec’2019 – Jun’2022\t Privacy Core – DevOps Engineer",
+          "Skills/Domain: GitLab, GitHub, Jira, Terraform, Confluence, Prometheus, Grafana, Kubernetes, Helm, AWS (Lambda, RDS, EC2, Route 53, IAM, S3), Vault, Docker",
+          "Description: Centralized platform for managing and fulfilling Data Subject Requests (DSRs) across Ticketmaster, Livenation, Ticketweb, Frontgate, and other brands to ensure compliance with CCPA and U.S. privacy regulations."
+        ],
+        "raw_text": "Ticketmaster, India | DevOps Engineer | Dec’2019 – Jun’2022\t Privacy Core – DevOps Engineer\nSkills/Domain: GitLab, GitHub, Jira, Terraform, Confluence, Prometheus, Grafana, Kubernetes, Helm, AWS (Lambda, RDS, EC2, Route 53, IAM, S3), Vault, Docker\nDescription: Centralized platform for managing and fulfilling Data Subject Requests (DSRs) across Ticketmaster, Livenation, Ticketweb, Frontgate, and other brands to ensure compliance with CCPA and U.S. privacy regulations.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Ticketmaster, India | DevOps Engineer | Dec’2019 – Jun’2022\t Privacy Core – DevOps Engineer",
+              "block_id": "b77",
+              "kind": "text",
+              "start": 8582,
+              "end": 8673
+            },
+            {
+              "page": 1,
+              "text": "Skills/Domain: GitLab, GitHub, Jira, Terraform, Confluence, Prometheus, Grafana, Kubernetes, Helm, AWS (Lambda, RDS, EC2, Route 53, IAM, S3), Vault, Docker",
+              "block_id": "b78",
+              "kind": "text",
+              "start": 8674,
+              "end": 8829
+            },
+            {
+              "page": 1,
+              "text": "Description: Centralized platform for managing and fulfilling Data Subject Requests (DSRs) across Ticketmaster, Livenation, Ticketweb, Frontgate, and other brands to ensure compliance with CCPA and U.S. privacy regulations.",
+              "block_id": "b79",
+              "kind": "text",
+              "start": 8830,
+              "end": 9053
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_11",
+        "name": "Key Contributions:",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Key Contributions:",
+          "Implemented Prometheus alerting and Grafana dashboards for privacy applications.",
+          "Built and optimized GitLab CI/CD pipelines and AWS infrastructure with Terraform."
+        ],
+        "raw_text": "Key Contributions:\nImplemented Prometheus alerting and Grafana dashboards for privacy applications.\nBuilt and optimized GitLab CI/CD pipelines and AWS infrastructure with Terraform.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Key Contributions:",
+              "block_id": "b80",
+              "kind": "text",
+              "start": 9054,
+              "end": 9072
+            },
+            {
+              "page": 1,
+              "text": "Implemented Prometheus alerting and Grafana dashboards for privacy applications.",
+              "block_id": "b81",
+              "kind": "text",
+              "start": 9073,
+              "end": 9153
+            },
+            {
+              "page": 1,
+              "text": "Built and optimized GitLab CI/CD pipelines and AWS infrastructure with Terraform.",
+              "block_id": "b82",
+              "kind": "text",
+              "start": 9154,
+              "end": 9235
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_12",
+        "name": "Upgraded Helm v2→v3 and rolled out infra patches/upgrades across Terraform, Kubernetes, Prometheus, and Grafana.",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Upgraded Helm v2→v3 and rolled out infra patches/upgrades across Terraform, Kubernetes, Prometheus, and Grafana.",
+          "Integrated Vault sidecar containers for automated cert management and extended solution org-wide."
+        ],
+        "raw_text": "Upgraded Helm v2→v3 and rolled out infra patches/upgrades across Terraform, Kubernetes, Prometheus, and Grafana.\nIntegrated Vault sidecar containers for automated cert management and extended solution org-wide.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Upgraded Helm v2→v3 and rolled out infra patches/upgrades across Terraform, Kubernetes, Prometheus, and Grafana.",
+              "block_id": "b83",
+              "kind": "text",
+              "start": 9236,
+              "end": 9348
+            },
+            {
+              "page": 1,
+              "text": "Integrated Vault sidecar containers for automated cert management and extended solution org-wide.",
+              "block_id": "b84",
+              "kind": "text",
+              "start": 9349,
+              "end": 9446
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_13",
+        "name": "Secured sensitive assets by encrypting Payment API credentials (TalonOne–CCPA).",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Secured sensitive assets by encrypting Payment API credentials (TalonOne–CCPA).",
+          "Performed DevOps audits, resource right-sizing, and cost/security optimizations across Privacy Core, CDS, and GDPR.",
+          "Troubleshot Kubernetes workloads and piloted CPU/memory resource management.",
+          "Authored Confluence documentation and led technical knowledge-sharing sessions."
+        ],
+        "raw_text": "Secured sensitive assets by encrypting Payment API credentials (TalonOne–CCPA).\nPerformed DevOps audits, resource right-sizing, and cost/security optimizations across Privacy Core, CDS, and GDPR.\nTroubleshot Kubernetes workloads and piloted CPU/memory resource management.\nAuthored Confluence documentation and led technical knowledge-sharing sessions.",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Secured sensitive assets by encrypting Payment API credentials (TalonOne–CCPA).",
+              "block_id": "b85",
+              "kind": "text",
+              "start": 9447,
+              "end": 9526
+            },
+            {
+              "page": 1,
+              "text": "Performed DevOps audits, resource right-sizing, and cost/security optimizations across Privacy Core, CDS, and GDPR.",
+              "block_id": "b86",
+              "kind": "text",
+              "start": 9527,
+              "end": 9642
+            },
+            {
+              "page": 1,
+              "text": "Troubleshot Kubernetes workloads and piloted CPU/memory resource management.",
+              "block_id": "b87",
+              "kind": "text",
+              "start": 9643,
+              "end": 9719
+            },
+            {
+              "page": 1,
+              "text": "Authored Confluence documentation and led technical knowledge-sharing sessions.",
+              "block_id": "b88",
+              "kind": "text",
+              "start": 9720,
+              "end": 9799
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_14",
+        "name": "G4S IT Services, India | DevOps Consultant | Oct’2018 – Dec’2019",
+        "client": "",
+        "role": "",
+        "duration": "2018 - 2019",
+        "details": [
+          "G4S IT Services, India | DevOps Consultant | Oct’2018 – Dec’2019",
+          "Administered Atlassian tools (Jira, Bitbucket, Confluence) and managed GCP components (IAM, PubSub, BigQuery, DataStore, Compute/ App Engine, Cloud SQL, Stackdriver).",
+          "Designed and deployed high-availability cloud infrastructure on GCP with load balancers and auto-scaling server groups.",
+          "Implemented CI/CD pipelines with Jenkins for microservices and payment gateway deployments.",
+          "Built and deployed applications on Google App Engine and Google Compute Engine, ensuring reliability and scalability.",
+          "Configured and managed MongoDB and Redis clusters with high availability for resilient data storage."
+        ],
+        "raw_text": "G4S IT Services, India | DevOps Consultant | Oct’2018 – Dec’2019\nAdministered Atlassian tools (Jira, Bitbucket, Confluence) and managed GCP components (IAM, PubSub, BigQuery, DataStore, Compute/ App Engine, Cloud SQL, Stackdriver).\nDesigned and deployed high-availability cloud infrastructure on GCP with load balancers and auto-scaling server groups.\nImplemented CI/CD pipelines with Jenkins for microservices and payment gateway deployments.\nBuilt and deployed applications on Google App Engine and Google Compute Engine, ensuring reliability and scalability.\nConfigured and managed MongoDB and Red",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "G4S IT Services, India | DevOps Consultant | Oct’2018 – Dec’2019",
+              "block_id": "b89",
+              "kind": "text",
+              "start": 9801,
+              "end": 9865
+            },
+            {
+              "page": 1,
+              "text": "Administered Atlassian tools (Jira, Bitbucket, Confluence) and managed GCP components (IAM, PubSub, BigQuery, DataStore, Compute/ App Engine, Cloud SQL, Stackdriver).",
+              "block_id": "b90",
+              "kind": "text",
+              "start": 9867,
+              "end": 10033
+            },
+            {
+              "page": 1,
+              "text": "Designed and deployed high-availability cloud infrastructure on GCP with load balancers and auto-scaling server groups.",
+              "block_id": "b91",
+              "kind": "text",
+              "start": 10034,
+              "end": 10153
+            },
+            {
+              "page": 1,
+              "text": "Implemented CI/CD pipelines with Jenkins for microservices and payment gateway deployments.",
+              "block_id": "b92",
+              "kind": "text",
+              "start": 10154,
+              "end": 10245
+            },
+            {
+              "page": 1,
+              "text": "Built and deployed applications on Google App Engine and Google Compute Engine, ensuring reliability and scalability.",
+              "block_id": "b93",
+              "kind": "text",
+              "start": 10246,
+              "end": 10363
+            },
+            {
+              "page": 1,
+              "text": "Configured and managed MongoDB and Redis clusters with high availability for resilient data storage.",
+              "block_id": "b94",
+              "kind": "text",
+              "start": 10364,
+              "end": 10464
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_15",
+        "name": "HCL Infra (Client: US Foods) | Specialist / DevOps Consultant | Jan’2018 – Sep’2018",
+        "client": "",
+        "role": "",
+        "duration": "2018 - 2018",
+        "details": [
+          "HCL Infra (Client: US Foods) | Specialist / DevOps Consultant | Jan’2018 – Sep’2018",
+          "Designed and automated infrastructure using Chef (server, workstation, nodes), managing cookbooks, recipes, and seamless deployments.",
+          "Integrated Bitbucket with ChefDK and automated cookbook uploads to Chef Server via Bamboo CI/CD pipelines.",
+          "Provisioned and maintained AWS services (VPC, EC2, S3, IAM, Route 53) to support enterprise-scale cloud infrastructure.",
+          "Set up and managed infrastructure for multiple POCs (e.g., R servers, Anaconda environments) to accelerate innovation.",
+          "Implemented secure and scalable storage solutions by creating and managing S3 buckets across AWS environments.",
+          "Tech Mahindra (Client: AT&T) | Software Engineer (Build & Release / WebLogic Admin) | Oct’2014 – Jan’2018",
+          "Installed, configured, and managed WebLogic servers on distributed clusters, integrating with web servers for high availability."
+        ],
+        "raw_text": "HCL Infra (Client: US Foods) | Specialist / DevOps Consultant | Jan’2018 – Sep’2018\nDesigned and automated infrastructure using Chef (server, workstation, nodes), managing cookbooks, recipes, and seamless deployments.\nIntegrated Bitbucket with ChefDK and automated cookbook uploads to Chef Server via Bamboo CI/CD pipelines.\nProvisioned and maintained AWS services (VPC, EC2, S3, IAM, Route 53) to support enterprise-scale cloud infrastructure.\nSet up and managed infrastructure for multiple POCs (e.g., R servers, Anaconda environments) to accelerate innovation.\nImplemented secure and scalable stor",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "HCL Infra (Client: US Foods) | Specialist / DevOps Consultant | Jan’2018 – Sep’2018",
+              "block_id": "b95",
+              "kind": "text",
+              "start": 10466,
+              "end": 10549
+            },
+            {
+              "page": 1,
+              "text": "Designed and automated infrastructure using Chef (server, workstation, nodes), managing cookbooks, recipes, and seamless deployments.",
+              "block_id": "b96",
+              "kind": "text",
+              "start": 10551,
+              "end": 10684
+            },
+            {
+              "page": 1,
+              "text": "Integrated Bitbucket with ChefDK and automated cookbook uploads to Chef Server via Bamboo CI/CD pipelines.",
+              "block_id": "b97",
+              "kind": "text",
+              "start": 10685,
+              "end": 10791
+            },
+            {
+              "page": 1,
+              "text": "Provisioned and maintained AWS services (VPC, EC2, S3, IAM, Route 53) to support enterprise-scale cloud infrastructure.",
+              "block_id": "b98",
+              "kind": "text",
+              "start": 10792,
+              "end": 10911
+            },
+            {
+              "page": 1,
+              "text": "Set up and managed infrastructure for multiple POCs (e.g., R servers, Anaconda environments) to accelerate innovation.",
+              "block_id": "b99",
+              "kind": "text",
+              "start": 10912,
+              "end": 11030
+            },
+            {
+              "page": 1,
+              "text": "Implemented secure and scalable storage solutions by creating and managing S3 buckets across AWS environments.",
+              "block_id": "b100",
+              "kind": "text",
+              "start": 11031,
+              "end": 11141
+            },
+            {
+              "page": 1,
+              "text": "Tech Mahindra (Client: AT&T) | Software Engineer (Build & Release / WebLogic Admin) | Oct’2014 – Jan’2018",
+              "block_id": "b101",
+              "kind": "text",
+              "start": 11143,
+              "end": 11248
+            },
+            {
+              "page": 1,
+              "text": "Installed, configured, and managed WebLogic servers on distributed clusters, integrating with web servers for high availability.",
+              "block_id": "b102",
+              "kind": "text",
+              "start": 11250,
+              "end": 11378
+            },
+            {
+              "page": 1,
+              "text": "Automated build and deployment processes using Jenkins, Maven, Ant, and Shell scripting, reducing manual effort and deployment time.",
+              "block_id": "b103",
+              "kind": "text",
+              "start": 11379,
+              "end": 11511
+            },
+            {
+              "page": 1,
+              "text": "Provided end-to-end application support (Prod, UAT, Dev) for major AT&T applications across desktop, mobile, SMB, and backend systems.",
+              "block_id": "b104",
+              "kind": "text",
+              "start": 11512,
+              "end": 11646
+            },
+            {
+              "page": 1,
+              "text": "Authored SOPs/KOPs and stabilized support services with defined processes, ensuring audit and compliance readiness.",
+              "block_id": "b105",
+              "kind": "text",
+              "start": 11647,
+              "end": 11762
+            },
+            {
+              "page": 1,
+              "text": "Led incident management, environment setup, and release planning (hot-fix, minor, and major deployments), coordinating with global teams for smooth delivery.",
+              "block_id": "b106",
+              "kind": "text",
+              "start": 11763,
+              "end": 11920
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_16",
+        "name": "KEY HIGHLIGHTS ACROSS CAREER",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "KEY HIGHLIGHTS ACROSS CAREER",
+          "Delivered large-scale cloud and DevOps transformations across finance and retail domains, architecting fault-tolerant, highly available, and automated solutions on AWS, Azure, and private cloud platforms.",
+          "Led Tesco’s Safe Secure Store Program as Tech Lead, designing a high-availability Rancher setup (4000+ downstream clusters), architecting multi- node K3s clusters for large-format stores, and implementing Ansible- and Terraform-based automation that reduced provisioning time from hours to minutes.",
+          "Served as CI/CD SME for SCB’s CCoE Project, creating reusable Jenkins pipelines, Terraform modules, and delivering a cloud-based Syslog Server solution across SCB and subsidiaries—later showcased in technical community sessions.",
+          "Orchestrated automation in Tesco’s Finance Data Hub Program, building a Terraform-driven provisioning solution with GitHub workflows and CI/CD pipelines on Azure CSP, enabling rapid and reliable infrastructure rollout.",
+          "Consistently recognized for impact with multiple Core Value Awards at Publicis Sapient, including Partnering for Client Impact, Engaging with Openness, and Inclusive Collaboration.",
+          "Winner of “Howathon 2024” (EnggNext, Publicis Sapient) for building an AI-powered cloud architecture generator that converted designs into Terraform and deployed via GitHub Actions CI/CD pipelines.",
+          "Active community leader and mentor: drives She Thrives on Cloud (women-in-tech initiative), leads the Azure Tribe community for Cloud & DevOps practitioners, delivers technical knowledge-sharing sessions, and advocates for diversity and inclusion in technology."
+        ],
+        "raw_text": "KEY HIGHLIGHTS ACROSS CAREER\nDelivered large-scale cloud and DevOps transformations across finance and retail domains, architecting fault-tolerant, highly available, and automated solutions on AWS, Azure, and private cloud platforms.\nLed Tesco’s Safe Secure Store Program as Tech Lead, designing a high-availability Rancher setup (4000+ downstream clusters), architecting multi- node K3s clusters for large-format stores, and implementing Ansible- and Terraform-based automation that reduced provisioning time from hours to minutes.\nServed as CI/CD SME for SCB’s CCoE Project, creating reusable Jenki",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "KEY HIGHLIGHTS ACROSS CAREER",
+              "block_id": "b107",
+              "kind": "text",
+              "start": 11922,
+              "end": 11950
+            },
+            {
+              "page": 1,
+              "text": "Delivered large-scale cloud and DevOps transformations across finance and retail domains, architecting fault-tolerant, highly available, and automated solutions on AWS, Azure, and private cloud platforms.",
+              "block_id": "b108",
+              "kind": "text",
+              "start": 11951,
+              "end": 12155
+            },
+            {
+              "page": 1,
+              "text": "Led Tesco’s Safe Secure Store Program as Tech Lead, designing a high-availability Rancher setup (4000+ downstream clusters), architecting multi- node K3s clusters for large-format stores, and implementing Ansible- and Terraform-based automation that reduced provisioning time from hours to minutes.",
+              "block_id": "b109",
+              "kind": "text",
+              "start": 12156,
+              "end": 12454
+            },
+            {
+              "page": 1,
+              "text": "Served as CI/CD SME for SCB’s CCoE Project, creating reusable Jenkins pipelines, Terraform modules, and delivering a cloud-based Syslog Server solution across SCB and subsidiaries—later showcased in technical community sessions.",
+              "block_id": "b110",
+              "kind": "text",
+              "start": 12455,
+              "end": 12683
+            },
+            {
+              "page": 1,
+              "text": "Orchestrated automation in Tesco’s Finance Data Hub Program, building a Terraform-driven provisioning solution with GitHub workflows and CI/CD pipelines on Azure CSP, enabling rapid and reliable infrastructure rollout.",
+              "block_id": "b111",
+              "kind": "text",
+              "start": 12684,
+              "end": 12902
+            },
+            {
+              "page": 1,
+              "text": "Consistently recognized for impact with multiple Core Value Awards at Publicis Sapient, including Partnering for Client Impact, Engaging with Openness, and Inclusive Collaboration.",
+              "block_id": "b112",
+              "kind": "text",
+              "start": 12903,
+              "end": 13083
+            },
+            {
+              "page": 1,
+              "text": "Winner of “Howathon 2024” (EnggNext, Publicis Sapient) for building an AI-powered cloud architecture generator that converted designs into Terraform and deployed via GitHub Actions CI/CD pipelines.",
+              "block_id": "b113",
+              "kind": "text",
+              "start": 13084,
+              "end": 13281
+            },
+            {
+              "page": 1,
+              "text": "Active community leader and mentor: drives She Thrives on Cloud (women-in-tech initiative), leads the Azure Tribe community for Cloud & DevOps practitioners, delivers technical knowledge-sharing sessions, and advocates for diversity and inclusion in technology.",
+              "block_id": "b114",
+              "kind": "text",
+              "start": 13282,
+              "end": 13543
+            },
+            {
+              "page": 1,
+              "text": "Experienced in GO-LIVE event leadership, environment orchestration, and troubleshooting under tight deadlines, ensuring smooth deployments and production stability.",
+              "block_id": "b115",
+              "kind": "text",
+              "start": 13544,
+              "end": 13708
+            },
+            {
+              "page": 1,
+              "text": "Transitioned from Mechanical Engineer to DevOps Engineer, combining a problem-solving mindset with a passion for exploring new tools, technologies, and future-ready innovations.",
+              "block_id": "b116",
+              "kind": "text",
+              "start": 13709,
+              "end": 13886
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [],
+        "evidence": {
+          "note": "year-only dates need verification"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 11,
+      "dated_share": 0.182,
+      "unresolved": 9,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.833,
+      "document_accuracy": 0.83
+    },
+    "total_represented_months": 112,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": true,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 1,
+          "represented_months": 52,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 1,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v1a3ab53de6d7c56a",
+              "label": "Publicis Sapient",
+              "state": "month_range",
+              "start": [
+                2022,
+                6
+              ],
+              "end": [
+                2026,
+                9
+              ],
+              "months": 52,
+              "raw": "Jun 2022 – Present",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Publicis Sapient | Jun 2022 – Present",
+                    "block_id": "b39",
+                    "kind": "text",
+                    "start": 3712,
+                    "end": 3749
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "Jun 2022 – Present",
+                    "block_id": "b39",
+                    "kind": "text",
+                    "start": 3731,
+                    "end": 3749
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Publicis Sapient",
+                    "block_id": "b39",
+                    "kind": "text",
+                    "start": 3712,
+                    "end": 3728
+                  }
+                ],
+                "title": [],
+                "section": "WORK EXPERIENCE",
+                "date_label": "Jun 2022 – Present",
+                "is_present": true
+              }
+            }
+          ]
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 16,
+          "dated_periods": 3,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 3,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 13,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "proj_1",
+              "label": "HSBC WPB API – Senior Associate Infrastructure Engineer L1",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "HSBC WPB API – Senior Associate Infrastructure Engineer L1",
+                    "block_id": "b41",
+                    "kind": "text",
+                    "start": 3773,
+                    "end": 3831
+                  },
+                  {
+                    "page": 1,
+                    "text": "Skills/Domain: Linux, AWS (S3, EC2, IAM, Route 53, API Gateway, CloudFront, Load Balancers), Terraform, Kubernetes, Docker, Prometheus, Grafana, GitLab, GitHub, Jenkins, Chef, Jira, Confluence, Mulesoft Gateway",
+                    "block_id": "b42",
+                    "kind": "text",
+                    "start": 3832,
+                    "end": 4042
+                  },
+                  {
+                    "page": 1,
+                    "text": "Description: Part of HSBC’s Build Once Scale Fast (BOSF) program focusing on WPB API remediation, improving API standards, discoverability, and reducing cost/risk across the estate.",
+                    "block_id": "b43",
+                    "kind": "text",
+                    "start": 4043,
+                    "end": 4224
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_2",
+              "label": "Key Contributions:",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Key Contributions:",
+                    "block_id": "b44",
+                    "kind": "text",
+                    "start": 4225,
+                    "end": 4243
+                  },
+                  {
+                    "page": 1,
+                    "text": "Sole DevOps engineer responsible for end-to-end infrastructure setup and CI/CD pipelines across Dev, QA, Pre-Prod, and Prod.",
+                    "block_id": "b45",
+                    "kind": "text",
+                    "start": 4244,
+                    "end": 4368
+                  },
+                  {
+                    "page": 1,
+                    "text": "Deployed services as Kubernetes pods on AWS EKS and enabled Mulesoft Gateway for GraphQL APIs.",
+                    "block_id": "b46",
+                    "kind": "text",
+                    "start": 4369,
+                    "end": 4463
+                  },
+                  {
+                    "page": 1,
+                    "text": "Implemented Splunk logging, documented deployment processes, and managed production Go-Live troubleshooting.",
+                    "block_id": "b47",
+                    "kind": "text",
+                    "start": 4464,
+                    "end": 4572
+                  },
+                  {
+                    "page": 1,
+                    "text": "Acted as process architect to identify roadblocks, train developers, and create comprehensive knowledge repositories.",
+                    "block_id": "b48",
+                    "kind": "text",
+                    "start": 4573,
+                    "end": 4690
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_3",
+              "label": "SCB SLA1 → SLA2 – DevOps Engineer",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "SCB SLA1 → SLA2 – DevOps Engineer",
+                    "block_id": "b49",
+                    "kind": "text",
+                    "start": 4691,
+                    "end": 4724
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_4",
+              "label": "Skills/Domain: DevOps, Cloud Infrastructure (Azure/Huawei), CI/CD",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Skills/Domain: DevOps, Cloud Infrastructure (Azure/Huawei), CI/CD",
+                    "block_id": "b50",
+                    "kind": "text",
+                    "start": 4725,
+                    "end": 4790
+                  },
+                  {
+                    "page": 1,
+                    "text": "Summary: Supported the SCBx CCoE initiative to centralize cloud adoption and migrate legacy systems to Azure and Huawei, ensuring alignment of IT capabilities with business objectives.",
+                    "block_id": "b51",
+                    "kind": "text",
+                    "start": 4791,
+                    "end": 4975
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_5",
+              "label": "Key Achievements:",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Key Achievements:",
+                    "block_id": "b52",
+                    "kind": "text",
+                    "start": 4976,
+                    "end": 4993
+                  },
+                  {
+                    "page": 1,
+                    "text": "Spearheaded CI/CD initiatives by designing and operating Jenkins-based landing zone pipelines, standardizing onboarding and automation across multiple subsidiaries.",
+                    "block_id": "b53",
+                    "kind": "text",
+                    "start": 4994,
+                    "end": 5158
+                  },
+                  {
+                    "page": 1,
+                    "text": "Implemented DevSecOps, semantic versioning, and microservice pipelines with integrated GitLab/Jira workflows, enhancing code quality and deployment reliability.",
+                    "block_id": "b54",
+                    "kind": "text",
+                    "start": 5159,
+                    "end": 5319
+                  },
+                  {
+                    "page": 1,
+                    "text": "Developed reusable Terraform modules and templates, embedding shift-left testing to validate infrastructure components early in the pipeline.",
+                    "block_id": "b55",
+                    "kind": "text",
+                    "start": 5320,
+                    "end": 5461
+                  },
+                  {
+                    "page": 1,
+                    "text": "Delivered a fully functional Syslog Server solution on Azure across SCB and subsidiaries, meeting critical cybersecurity compliance requirements.",
+                    "block_id": "b56",
+                    "kind": "text",
+                    "start": 5462,
+                    "end": 5607
+                  },
+                  {
+                    "page": 1,
+                    "text": "Led a Proof of Concept (PoC) integrating DevSecOps tools into Terraform pipelines to detect vulnerabilities and enforce compliance standards effectively.",
+                    "block_id": "b57",
+                    "kind": "text",
+                    "start": 5608,
+                    "end": 5761
+                  },
+                  {
+                    "page": 1,
+                    "text": "Tesco – Team Lead (SLA2), Finance Data Hub (FDH) Skills/Domain: DevOps, Azure Cloud, CI/CD, Terraform Summary:",
+                    "block_id": "b58",
+                    "kind": "text",
+                    "start": 5762,
+                    "end": 5872
+                  },
+                  {
+                    "page": 1,
+                    "text": "Led the implementation of the Finance Data Hub (FDH) on Microsoft Azure, delivering a scalable and reusable data platform supporting multiple business domains. Focused on governance, compliance, and cost optimization while enabling faster and more reliable platform delivery.",
+                    "block_id": "b59",
+                    "kind": "text",
+                    "start": 5873,
+                    "end": 6148
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_6",
+              "label": "Key Achievements:",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Key Achievements:",
+                    "block_id": "b60",
+                    "kind": "text",
+                    "start": 6149,
+                    "end": 6166
+                  },
+                  {
+                    "page": 1,
+                    "text": "Designed and deployed CI/CD pipelines with GitHub Workflows and Azure DevOps, automating both infrastructure provisioning and application deployment.",
+                    "block_id": "b61",
+                    "kind": "text",
+                    "start": 6167,
+                    "end": 6316
+                  },
+                  {
+                    "page": 1,
+                    "text": "Defined the Terraform delivery strategy, incorporating reusable modules, remote state management, and shift-left testing for consistent, auditable, and reliable infrastructure.",
+                    "block_id": "b62",
+                    "kind": "text",
+                    "start": 6317,
+                    "end": 6493
+                  },
+                  {
+                    "page": 1,
+                    "text": "Streamlined environment provisioning (DEV, PPE, PROD) with standardized Terraform templates, reducing deployment times and accelerating overall delivery cycles.",
+                    "block_id": "b63",
+                    "kind": "text",
+                    "start": 6494,
+                    "end": 6654
+                  },
+                  {
+                    "page": 1,
+                    "text": "Partnered with cross-functional teams to build reusable platform assets, minimizing redundancy and ensuring scalability across Finance, Legal, and Property domains.",
+                    "block_id": "b64",
+                    "kind": "text",
+                    "start": 6655,
+                    "end": 6819
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_7",
+              "label": "Tesco – Tech Lead, Safe & Secure Stores",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Tesco – Tech Lead, Safe & Secure Stores",
+                    "block_id": "b65",
+                    "kind": "text",
+                    "start": 6820,
+                    "end": 6859
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_8",
+              "label": "Skills/Domain: Cloud Infrastructure, Kubernetes, Rancher, Ansible, Terraform, Azure DevOps, Observability Summary:",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Skills/Domain: Cloud Infrastructure, Kubernetes, Rancher, Ansible, Terraform, Azure DevOps, Observability Summary:",
+                    "block_id": "b66",
+                    "kind": "text",
+                    "start": 6860,
+                    "end": 6974
+                  },
+                  {
+                    "page": 1,
+                    "text": "Leading the Safe & Secure Stores program, delivering secure retail store environments through advanced video intelligence and incident prevention platforms. Managing a 10-member engineering team responsible for Video Platform and Incident Prevention initiatives across global store operations.",
+                    "block_id": "b67",
+                    "kind": "text",
+                    "start": 6975,
+                    "end": 7268
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_9",
+              "label": "Key Achievements:",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Key Achievements:",
+                    "block_id": "b68",
+                    "kind": "text",
+                    "start": 7269,
+                    "end": 7286
+                  },
+                  {
+                    "page": 1,
+                    "text": "Designed and deployed a fault-tolerant Rancher control plane with 3× stacked etcd masters and worker nodes, eliminating single points of failure while ensuring uninterrupted cluster management.",
+                    "block_id": "b69",
+                    "kind": "text",
+                    "start": 7287,
+                    "end": 7480
+                  },
+                  {
+                    "page": 1,
+                    "text": "Implemented Rancher disaster recovery with Rancher Backup Operator, enabling automated snapshots and validated restore workflows to reduce recovery times and minimize data loss.",
+                    "block_id": "b70",
+                    "kind": "text",
+                    "start": 7481,
+                    "end": 7658
+                  },
+                  {
+                    "page": 1,
+                    "text": "Strengthened etcd resilience with automated backups, compaction strategies, and quota tuning, ensuring stability for large-scale production clusters.",
+                    "block_id": "b71",
+                    "kind": "text",
+                    "start": 7659,
+                    "end": 7808
+                  },
+                  {
+                    "page": 1,
+                    "text": "Built scalable multi-node K3s clusters with dedicated etcd persistent volumes to support both large-format and express stores, meeting high availability and disaster recovery requirements.",
+                    "block_id": "b72",
+                    "kind": "text",
+                    "start": 7809,
+                    "end": 7997
+                  },
+                  {
+                    "page": 1,
+                    "text": "Reduced cluster setup time from 0.5 days to under 2 hours through infrastructure automation with Ansible and modular Terraform templates.",
+                    "block_id": "b73",
+                    "kind": "text",
+                    "start": 7998,
+                    "end": 8135
+                  },
+                  {
+                    "page": 1,
+                    "text": "Developed Azure DevOps pipelines for automated cluster onboarding, reporting, and audit tracking, improving compliance and operational efficiency.",
+                    "block_id": "b74",
+                    "kind": "text",
+                    "start": 8136,
+                    "end": 8282
+                  },
+                  {
+                    "page": 1,
+                    "text": "Standardized GitOps onboarding using Rancher Fleet, streamlining bundle deployment and drift detection across 4,000+ edge clusters.",
+                    "block_id": "b75",
+                    "kind": "text",
+                    "start": 8283,
+                    "end": 8414
+                  },
+                  {
+                    "page": 1,
+                    "text": "Recognized meta-observability dashboards with New Relic integrations, enabling proactive control-plane monitoring, faster issue detection, and audit-driven insights.",
+                    "block_id": "b76",
+                    "kind": "text",
+                    "start": 8415,
+                    "end": 8580
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_10",
+              "label": "Ticketmaster, India | DevOps Engineer | Dec’2019 – Jun’2022\t Privacy Core – DevOps Engineer",
+              "state": "year_range",
+              "start": [
+                2019,
+                1
+              ],
+              "end": [
+                2022,
+                12
+              ],
+              "months": null,
+              "raw": "2019 - 2022",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Ticketmaster, India | DevOps Engineer | Dec’2019 – Jun’2022\t Privacy Core – DevOps Engineer",
+                    "block_id": "b77",
+                    "kind": "text",
+                    "start": 8582,
+                    "end": 8673
+                  },
+                  {
+                    "page": 1,
+                    "text": "Skills/Domain: GitLab, GitHub, Jira, Terraform, Confluence, Prometheus, Grafana, Kubernetes, Helm, AWS (Lambda, RDS, EC2, Route 53, IAM, S3), Vault, Docker",
+                    "block_id": "b78",
+                    "kind": "text",
+                    "start": 8674,
+                    "end": 8829
+                  },
+                  {
+                    "page": 1,
+                    "text": "Description: Centralized platform for managing and fulfilling Data Subject Requests (DSRs) across Ticketmaster, Livenation, Ticketweb, Frontgate, and other brands to ensure compliance with CCPA and U.S. privacy regulations.",
+                    "block_id": "b79",
+                    "kind": "text",
+                    "start": 8830,
+                    "end": 9053
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_11",
+              "label": "Key Contributions:",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Key Contributions:",
+                    "block_id": "b80",
+                    "kind": "text",
+                    "start": 9054,
+                    "end": 9072
+                  },
+                  {
+                    "page": 1,
+                    "text": "Implemented Prometheus alerting and Grafana dashboards for privacy applications.",
+                    "block_id": "b81",
+                    "kind": "text",
+                    "start": 9073,
+                    "end": 9153
+                  },
+                  {
+                    "page": 1,
+                    "text": "Built and optimized GitLab CI/CD pipelines and AWS infrastructure with Terraform.",
+                    "block_id": "b82",
+                    "kind": "text",
+                    "start": 9154,
+                    "end": 9235
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_12",
+              "label": "Upgraded Helm v2→v3 and rolled out infra patches/upgrades across Terraform, Kubernetes, Prometheus, and Grafana.",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Upgraded Helm v2→v3 and rolled out infra patches/upgrades across Terraform, Kubernetes, Prometheus, and Grafana.",
+                    "block_id": "b83",
+                    "kind": "text",
+                    "start": 9236,
+                    "end": 9348
+                  },
+                  {
+                    "page": 1,
+                    "text": "Integrated Vault sidecar containers for automated cert management and extended solution org-wide.",
+                    "block_id": "b84",
+                    "kind": "text",
+                    "start": 9349,
+                    "end": 9446
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_13",
+              "label": "Secured sensitive assets by encrypting Payment API credentials (TalonOne–CCPA).",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Secured sensitive assets by encrypting Payment API credentials (TalonOne–CCPA).",
+                    "block_id": "b85",
+                    "kind": "text",
+                    "start": 9447,
+                    "end": 9526
+                  },
+                  {
+                    "page": 1,
+                    "text": "Performed DevOps audits, resource right-sizing, and cost/security optimizations across Privacy Core, CDS, and GDPR.",
+                    "block_id": "b86",
+                    "kind": "text",
+                    "start": 9527,
+                    "end": 9642
+                  },
+                  {
+                    "page": 1,
+                    "text": "Troubleshot Kubernetes workloads and piloted CPU/memory resource management.",
+                    "block_id": "b87",
+                    "kind": "text",
+                    "start": 9643,
+                    "end": 9719
+                  },
+                  {
+                    "page": 1,
+                    "text": "Authored Confluence documentation and led technical knowledge-sharing sessions.",
+                    "block_id": "b88",
+                    "kind": "text",
+                    "start": 9720,
+                    "end": 9799
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_14",
+              "label": "G4S IT Services, India | DevOps Consultant | Oct’2018 – Dec’2019",
+              "state": "year_range",
+              "start": [
+                2018,
+                1
+              ],
+              "end": [
+                2019,
+                12
+              ],
+              "months": null,
+              "raw": "2018 - 2019",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "G4S IT Services, India | DevOps Consultant | Oct’2018 – Dec’2019",
+                    "block_id": "b89",
+                    "kind": "text",
+                    "start": 9801,
+                    "end": 9865
+                  },
+                  {
+                    "page": 1,
+                    "text": "Administered Atlassian tools (Jira, Bitbucket, Confluence) and managed GCP components (IAM, PubSub, BigQuery, DataStore, Compute/ App Engine, Cloud SQL, Stackdriver).",
+                    "block_id": "b90",
+                    "kind": "text",
+                    "start": 9867,
+                    "end": 10033
+                  },
+                  {
+                    "page": 1,
+                    "text": "Designed and deployed high-availability cloud infrastructure on GCP with load balancers and auto-scaling server groups.",
+                    "block_id": "b91",
+                    "kind": "text",
+                    "start": 10034,
+                    "end": 10153
+                  },
+                  {
+                    "page": 1,
+                    "text": "Implemented CI/CD pipelines with Jenkins for microservices and payment gateway deployments.",
+                    "block_id": "b92",
+                    "kind": "text",
+                    "start": 10154,
+                    "end": 10245
+                  },
+                  {
+                    "page": 1,
+                    "text": "Built and deployed applications on Google App Engine and Google Compute Engine, ensuring reliability and scalability.",
+                    "block_id": "b93",
+                    "kind": "text",
+                    "start": 10246,
+                    "end": 10363
+                  },
+                  {
+                    "page": 1,
+                    "text": "Configured and managed MongoDB and Redis clusters with high availability for resilient data storage.",
+                    "block_id": "b94",
+                    "kind": "text",
+                    "start": 10364,
+                    "end": 10464
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_15",
+              "label": "HCL Infra (Client: US Foods) | Specialist / DevOps Consultant | Jan’2018 – Sep’2018",
+              "state": "year_range",
+              "start": [
+                2018,
+                1
+              ],
+              "end": [
+                2018,
+                12
+              ],
+              "months": null,
+              "raw": "2018 - 2018",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "HCL Infra (Client: US Foods) | Specialist / DevOps Consultant | Jan’2018 – Sep’2018",
+                    "block_id": "b95",
+                    "kind": "text",
+                    "start": 10466,
+                    "end": 10549
+                  },
+                  {
+                    "page": 1,
+                    "text": "Designed and automated infrastructure using Chef (server, workstation, nodes), managing cookbooks, recipes, and seamless deployments.",
+                    "block_id": "b96",
+                    "kind": "text",
+                    "start": 10551,
+                    "end": 10684
+                  },
+                  {
+                    "page": 1,
+                    "text": "Integrated Bitbucket with ChefDK and automated cookbook uploads to Chef Server via Bamboo CI/CD pipelines.",
+                    "block_id": "b97",
+                    "kind": "text",
+                    "start": 10685,
+                    "end": 10791
+                  },
+                  {
+                    "page": 1,
+                    "text": "Provisioned and maintained AWS services (VPC, EC2, S3, IAM, Route 53) to support enterprise-scale cloud infrastructure.",
+                    "block_id": "b98",
+                    "kind": "text",
+                    "start": 10792,
+                    "end": 10911
+                  },
+                  {
+                    "page": 1,
+                    "text": "Set up and managed infrastructure for multiple POCs (e.g., R servers, Anaconda environments) to accelerate innovation.",
+                    "block_id": "b99",
+                    "kind": "text",
+                    "start": 10912,
+                    "end": 11030
+                  },
+                  {
+                    "page": 1,
+                    "text": "Implemented secure and scalable storage solutions by creating and managing S3 buckets across AWS environments.",
+                    "block_id": "b100",
+                    "kind": "text",
+                    "start": 11031,
+                    "end": 11141
+                  },
+                  {
+                    "page": 1,
+                    "text": "Tech Mahindra (Client: AT&T) | Software Engineer (Build & Release / WebLogic Admin) | Oct’2014 – Jan’2018",
+                    "block_id": "b101",
+                    "kind": "text",
+                    "start": 11143,
+                    "end": 11248
+                  },
+                  {
+                    "page": 1,
+                    "text": "Installed, configured, and managed WebLogic servers on distributed clusters, integrating with web servers for high availability.",
+                    "block_id": "b102",
+                    "kind": "text",
+                    "start": 11250,
+                    "end": 11378
+                  },
+                  {
+                    "page": 1,
+                    "text": "Automated build and deployment processes using Jenkins, Maven, Ant, and Shell scripting, reducing manual effort and deployment time.",
+                    "block_id": "b103",
+                    "kind": "text",
+                    "start": 11379,
+                    "end": 11511
+                  },
+                  {
+                    "page": 1,
+                    "text": "Provided end-to-end application support (Prod, UAT, Dev) for major AT&T applications across desktop, mobile, SMB, and backend systems.",
+                    "block_id": "b104",
+                    "kind": "text",
+                    "start": 11512,
+                    "end": 11646
+                  },
+                  {
+                    "page": 1,
+                    "text": "Authored SOPs/KOPs and stabilized support services with defined processes, ensuring audit and compliance readiness.",
+                    "block_id": "b105",
+                    "kind": "text",
+                    "start": 11647,
+                    "end": 11762
+                  },
+                  {
+                    "page": 1,
+                    "text": "Led incident management, environment setup, and release planning (hot-fix, minor, and major deployments), coordinating with global teams for smooth delivery.",
+                    "block_id": "b106",
+                    "kind": "text",
+                    "start": 11763,
+                    "end": 11920
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_16",
+              "label": "KEY HIGHLIGHTS ACROSS CAREER",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "KEY HIGHLIGHTS ACROSS CAREER",
+                    "block_id": "b107",
+                    "kind": "text",
+                    "start": 11922,
+                    "end": 11950
+                  },
+                  {
+                    "page": 1,
+                    "text": "Delivered large-scale cloud and DevOps transformations across finance and retail domains, architecting fault-tolerant, highly available, and automated solutions on AWS, Azure, and private cloud platforms.",
+                    "block_id": "b108",
+                    "kind": "text",
+                    "start": 11951,
+                    "end": 12155
+                  },
+                  {
+                    "page": 1,
+                    "text": "Led Tesco’s Safe Secure Store Program as Tech Lead, designing a high-availability Rancher setup (4000+ downstream clusters), architecting multi- node K3s clusters for large-format stores, and implementing Ansible- and Terraform-based automation that reduced provisioning time from hours to minutes.",
+                    "block_id": "b109",
+                    "kind": "text",
+                    "start": 12156,
+                    "end": 12454
+                  },
+                  {
+                    "page": 1,
+                    "text": "Served as CI/CD SME for SCB’s CCoE Project, creating reusable Jenkins pipelines, Terraform modules, and delivering a cloud-based Syslog Server solution across SCB and subsidiaries—later showcased in technical community sessions.",
+                    "block_id": "b110",
+                    "kind": "text",
+                    "start": 12455,
+                    "end": 12683
+                  },
+                  {
+                    "page": 1,
+                    "text": "Orchestrated automation in Tesco’s Finance Data Hub Program, building a Terraform-driven provisioning solution with GitHub workflows and CI/CD pipelines on Azure CSP, enabling rapid and reliable infrastructure rollout.",
+                    "block_id": "b111",
+                    "kind": "text",
+                    "start": 12684,
+                    "end": 12902
+                  },
+                  {
+                    "page": 1,
+                    "text": "Consistently recognized for impact with multiple Core Value Awards at Publicis Sapient, including Partnering for Client Impact, Engaging with Openness, and Inclusive Collaboration.",
+                    "block_id": "b112",
+                    "kind": "text",
+                    "start": 12903,
+                    "end": 13083
+                  },
+                  {
+                    "page": 1,
+                    "text": "Winner of “Howathon 2024” (EnggNext, Publicis Sapient) for building an AI-powered cloud architecture generator that converted designs into Terraform and deployed via GitHub Actions CI/CD pipelines.",
+                    "block_id": "b113",
+                    "kind": "text",
+                    "start": 13084,
+                    "end": 13281
+                  },
+                  {
+                    "page": 1,
+                    "text": "Active community leader and mentor: drives She Thrives on Cloud (women-in-tech initiative), leads the Azure Tribe community for Cloud & DevOps practitioners, delivers technical knowledge-sharing sessions, and advocates for diversity and inclusion in technology.",
+                    "block_id": "b114",
+                    "kind": "text",
+                    "start": 13282,
+                    "end": 13543
+                  },
+                  {
+                    "page": 1,
+                    "text": "Experienced in GO-LIVE event leadership, environment orchestration, and troubleshooting under tight deadlines, ensuring smooth deployments and production stability.",
+                    "block_id": "b115",
+                    "kind": "text",
+                    "start": 13544,
+                    "end": 13708
+                  },
+                  {
+                    "page": 1,
+                    "text": "Transitioned from Mechanical Engineer to DevOps Engineer, combining a problem-solving mindset with a passion for exploring new tools, technologies, and future-ready innovations.",
+                    "block_id": "b116",
+                    "kind": "text",
+                    "start": 13709,
+                    "end": 13886
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 1,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 1,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "vcc5195aa2ada9816",
+              "label": "B.Tech. in Production Engineering",
+              "state": "year_range",
+              "start": [
+                2010,
+                1
+              ],
+              "end": [
+                2014,
+                12
+              ],
+              "months": null,
+              "raw": "2010-2014",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "B.Tech. in Production Engineering from Birla Institute Of Technology, Mesra (2010-2014) - 65%",
+                    "block_id": "b26",
+                    "kind": "text",
+                    "start": 2597,
+                    "end": 2690
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "2010-2014",
+                    "block_id": "b26",
+                    "kind": "text",
+                    "start": 2674,
+                    "end": 2683
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Birla Institute Of Technology",
+                    "block_id": "b26",
+                    "kind": "text",
+                    "start": 2636,
+                    "end": 2665
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "B.Tech. in Production Engineering",
+                    "block_id": "b26",
+                    "kind": "text",
+                    "start": 2597,
+                    "end": 2630
+                  }
+                ],
+                "section": "EDUCATION",
+                "date_label": "2010-2014",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 52,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": true,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 1,
+        "represented_months": 52,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 1,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v1a3ab53de6d7c56a",
+            "label": "Publicis Sapient",
+            "state": "month_range",
+            "start": [
+              2022,
+              6
+            ],
+            "end": [
+              2026,
+              9
+            ],
+            "months": 52,
+            "raw": "Jun 2022 – Present",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Publicis Sapient | Jun 2022 – Present",
+                  "block_id": "b39",
+                  "kind": "text",
+                  "start": 3712,
+                  "end": 3749
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Jun 2022 – Present",
+                  "block_id": "b39",
+                  "kind": "text",
+                  "start": 3731,
+                  "end": 3749
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Publicis Sapient",
+                  "block_id": "b39",
+                  "kind": "text",
+                  "start": 3712,
+                  "end": 3728
+                }
+              ],
+              "title": [],
+              "section": "WORK EXPERIENCE",
+              "date_label": "Jun 2022 – Present",
+              "is_present": true
+            }
+          }
+        ]
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 16,
+        "dated_periods": 3,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 3,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 13,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "proj_1",
+            "label": "HSBC WPB API – Senior Associate Infrastructure Engineer L1",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "HSBC WPB API – Senior Associate Infrastructure Engineer L1",
+                  "block_id": "b41",
+                  "kind": "text",
+                  "start": 3773,
+                  "end": 3831
+                },
+                {
+                  "page": 1,
+                  "text": "Skills/Domain: Linux, AWS (S3, EC2, IAM, Route 53, API Gateway, CloudFront, Load Balancers), Terraform, Kubernetes, Docker, Prometheus, Grafana, GitLab, GitHub, Jenkins, Chef, Jira, Confluence, Mulesoft Gateway",
+                  "block_id": "b42",
+                  "kind": "text",
+                  "start": 3832,
+                  "end": 4042
+                },
+                {
+                  "page": 1,
+                  "text": "Description: Part of HSBC’s Build Once Scale Fast (BOSF) program focusing on WPB API remediation, improving API standards, discoverability, and reducing cost/risk across the estate.",
+                  "block_id": "b43",
+                  "kind": "text",
+                  "start": 4043,
+                  "end": 4224
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_2",
+            "label": "Key Contributions:",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Key Contributions:",
+                  "block_id": "b44",
+                  "kind": "text",
+                  "start": 4225,
+                  "end": 4243
+                },
+                {
+                  "page": 1,
+                  "text": "Sole DevOps engineer responsible for end-to-end infrastructure setup and CI/CD pipelines across Dev, QA, Pre-Prod, and Prod.",
+                  "block_id": "b45",
+                  "kind": "text",
+                  "start": 4244,
+                  "end": 4368
+                },
+                {
+                  "page": 1,
+                  "text": "Deployed services as Kubernetes pods on AWS EKS and enabled Mulesoft Gateway for GraphQL APIs.",
+                  "block_id": "b46",
+                  "kind": "text",
+                  "start": 4369,
+                  "end": 4463
+                },
+                {
+                  "page": 1,
+                  "text": "Implemented Splunk logging, documented deployment processes, and managed production Go-Live troubleshooting.",
+                  "block_id": "b47",
+                  "kind": "text",
+                  "start": 4464,
+                  "end": 4572
+                },
+                {
+                  "page": 1,
+                  "text": "Acted as process architect to identify roadblocks, train developers, and create comprehensive knowledge repositories.",
+                  "block_id": "b48",
+                  "kind": "text",
+                  "start": 4573,
+                  "end": 4690
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_3",
+            "label": "SCB SLA1 → SLA2 – DevOps Engineer",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "SCB SLA1 → SLA2 – DevOps Engineer",
+                  "block_id": "b49",
+                  "kind": "text",
+                  "start": 4691,
+                  "end": 4724
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_4",
+            "label": "Skills/Domain: DevOps, Cloud Infrastructure (Azure/Huawei), CI/CD",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Skills/Domain: DevOps, Cloud Infrastructure (Azure/Huawei), CI/CD",
+                  "block_id": "b50",
+                  "kind": "text",
+                  "start": 4725,
+                  "end": 4790
+                },
+                {
+                  "page": 1,
+                  "text": "Summary: Supported the SCBx CCoE initiative to centralize cloud adoption and migrate legacy systems to Azure and Huawei, ensuring alignment of IT capabilities with business objectives.",
+                  "block_id": "b51",
+                  "kind": "text",
+                  "start": 4791,
+                  "end": 4975
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_5",
+            "label": "Key Achievements:",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Key Achievements:",
+                  "block_id": "b52",
+                  "kind": "text",
+                  "start": 4976,
+                  "end": 4993
+                },
+                {
+                  "page": 1,
+                  "text": "Spearheaded CI/CD initiatives by designing and operating Jenkins-based landing zone pipelines, standardizing onboarding and automation across multiple subsidiaries.",
+                  "block_id": "b53",
+                  "kind": "text",
+                  "start": 4994,
+                  "end": 5158
+                },
+                {
+                  "page": 1,
+                  "text": "Implemented DevSecOps, semantic versioning, and microservice pipelines with integrated GitLab/Jira workflows, enhancing code quality and deployment reliability.",
+                  "block_id": "b54",
+                  "kind": "text",
+                  "start": 5159,
+                  "end": 5319
+                },
+                {
+                  "page": 1,
+                  "text": "Developed reusable Terraform modules and templates, embedding shift-left testing to validate infrastructure components early in the pipeline.",
+                  "block_id": "b55",
+                  "kind": "text",
+                  "start": 5320,
+                  "end": 5461
+                },
+                {
+                  "page": 1,
+                  "text": "Delivered a fully functional Syslog Server solution on Azure across SCB and subsidiaries, meeting critical cybersecurity compliance requirements.",
+                  "block_id": "b56",
+                  "kind": "text",
+                  "start": 5462,
+                  "end": 5607
+                },
+                {
+                  "page": 1,
+                  "text": "Led a Proof of Concept (PoC) integrating DevSecOps tools into Terraform pipelines to detect vulnerabilities and enforce compliance standards effectively.",
+                  "block_id": "b57",
+                  "kind": "text",
+                  "start": 5608,
+                  "end": 5761
+                },
+                {
+                  "page": 1,
+                  "text": "Tesco – Team Lead (SLA2), Finance Data Hub (FDH) Skills/Domain: DevOps, Azure Cloud, CI/CD, Terraform Summary:",
+                  "block_id": "b58",
+                  "kind": "text",
+                  "start": 5762,
+                  "end": 5872
+                },
+                {
+                  "page": 1,
+                  "text": "Led the implementation of the Finance Data Hub (FDH) on Microsoft Azure, delivering a scalable and reusable data platform supporting multiple business domains. Focused on governance, compliance, and cost optimization while enabling faster and more reliable platform delivery.",
+                  "block_id": "b59",
+                  "kind": "text",
+                  "start": 5873,
+                  "end": 6148
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_6",
+            "label": "Key Achievements:",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Key Achievements:",
+                  "block_id": "b60",
+                  "kind": "text",
+                  "start": 6149,
+                  "end": 6166
+                },
+                {
+                  "page": 1,
+                  "text": "Designed and deployed CI/CD pipelines with GitHub Workflows and Azure DevOps, automating both infrastructure provisioning and application deployment.",
+                  "block_id": "b61",
+                  "kind": "text",
+                  "start": 6167,
+                  "end": 6316
+                },
+                {
+                  "page": 1,
+                  "text": "Defined the Terraform delivery strategy, incorporating reusable modules, remote state management, and shift-left testing for consistent, auditable, and reliable infrastructure.",
+                  "block_id": "b62",
+                  "kind": "text",
+                  "start": 6317,
+                  "end": 6493
+                },
+                {
+                  "page": 1,
+                  "text": "Streamlined environment provisioning (DEV, PPE, PROD) with standardized Terraform templates, reducing deployment times and accelerating overall delivery cycles.",
+                  "block_id": "b63",
+                  "kind": "text",
+                  "start": 6494,
+                  "end": 6654
+                },
+                {
+                  "page": 1,
+                  "text": "Partnered with cross-functional teams to build reusable platform assets, minimizing redundancy and ensuring scalability across Finance, Legal, and Property domains.",
+                  "block_id": "b64",
+                  "kind": "text",
+                  "start": 6655,
+                  "end": 6819
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_7",
+            "label": "Tesco – Tech Lead, Safe & Secure Stores",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Tesco – Tech Lead, Safe & Secure Stores",
+                  "block_id": "b65",
+                  "kind": "text",
+                  "start": 6820,
+                  "end": 6859
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_8",
+            "label": "Skills/Domain: Cloud Infrastructure, Kubernetes, Rancher, Ansible, Terraform, Azure DevOps, Observability Summary:",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Skills/Domain: Cloud Infrastructure, Kubernetes, Rancher, Ansible, Terraform, Azure DevOps, Observability Summary:",
+                  "block_id": "b66",
+                  "kind": "text",
+                  "start": 6860,
+                  "end": 6974
+                },
+                {
+                  "page": 1,
+                  "text": "Leading the Safe & Secure Stores program, delivering secure retail store environments through advanced video intelligence and incident prevention platforms. Managing a 10-member engineering team responsible for Video Platform and Incident Prevention initiatives across global store operations.",
+                  "block_id": "b67",
+                  "kind": "text",
+                  "start": 6975,
+                  "end": 7268
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_9",
+            "label": "Key Achievements:",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Key Achievements:",
+                  "block_id": "b68",
+                  "kind": "text",
+                  "start": 7269,
+                  "end": 7286
+                },
+                {
+                  "page": 1,
+                  "text": "Designed and deployed a fault-tolerant Rancher control plane with 3× stacked etcd masters and worker nodes, eliminating single points of failure while ensuring uninterrupted cluster management.",
+                  "block_id": "b69",
+                  "kind": "text",
+                  "start": 7287,
+                  "end": 7480
+                },
+                {
+                  "page": 1,
+                  "text": "Implemented Rancher disaster recovery with Rancher Backup Operator, enabling automated snapshots and validated restore workflows to reduce recovery times and minimize data loss.",
+                  "block_id": "b70",
+                  "kind": "text",
+                  "start": 7481,
+                  "end": 7658
+                },
+                {
+                  "page": 1,
+                  "text": "Strengthened etcd resilience with automated backups, compaction strategies, and quota tuning, ensuring stability for large-scale production clusters.",
+                  "block_id": "b71",
+                  "kind": "text",
+                  "start": 7659,
+                  "end": 7808
+                },
+                {
+                  "page": 1,
+                  "text": "Built scalable multi-node K3s clusters with dedicated etcd persistent volumes to support both large-format and express stores, meeting high availability and disaster recovery requirements.",
+                  "block_id": "b72",
+                  "kind": "text",
+                  "start": 7809,
+                  "end": 7997
+                },
+                {
+                  "page": 1,
+                  "text": "Reduced cluster setup time from 0.5 days to under 2 hours through infrastructure automation with Ansible and modular Terraform templates.",
+                  "block_id": "b73",
+                  "kind": "text",
+                  "start": 7998,
+                  "end": 8135
+                },
+                {
+                  "page": 1,
+                  "text": "Developed Azure DevOps pipelines for automated cluster onboarding, reporting, and audit tracking, improving compliance and operational efficiency.",
+                  "block_id": "b74",
+                  "kind": "text",
+                  "start": 8136,
+                  "end": 8282
+                },
+                {
+                  "page": 1,
+                  "text": "Standardized GitOps onboarding using Rancher Fleet, streamlining bundle deployment and drift detection across 4,000+ edge clusters.",
+                  "block_id": "b75",
+                  "kind": "text",
+                  "start": 8283,
+                  "end": 8414
+                },
+                {
+                  "page": 1,
+                  "text": "Recognized meta-observability dashboards with New Relic integrations, enabling proactive control-plane monitoring, faster issue detection, and audit-driven insights.",
+                  "block_id": "b76",
+                  "kind": "text",
+                  "start": 8415,
+                  "end": 8580
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_10",
+            "label": "Ticketmaster, India | DevOps Engineer | Dec’2019 – Jun’2022\t Privacy Core – DevOps Engineer",
+            "state": "year_range",
+            "start": [
+              2019,
+              1
+            ],
+            "end": [
+              2022,
+              12
+            ],
+            "months": null,
+            "raw": "2019 - 2022",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Ticketmaster, India | DevOps Engineer | Dec’2019 – Jun’2022\t Privacy Core – DevOps Engineer",
+                  "block_id": "b77",
+                  "kind": "text",
+                  "start": 8582,
+                  "end": 8673
+                },
+                {
+                  "page": 1,
+                  "text": "Skills/Domain: GitLab, GitHub, Jira, Terraform, Confluence, Prometheus, Grafana, Kubernetes, Helm, AWS (Lambda, RDS, EC2, Route 53, IAM, S3), Vault, Docker",
+                  "block_id": "b78",
+                  "kind": "text",
+                  "start": 8674,
+                  "end": 8829
+                },
+                {
+                  "page": 1,
+                  "text": "Description: Centralized platform for managing and fulfilling Data Subject Requests (DSRs) across Ticketmaster, Livenation, Ticketweb, Frontgate, and other brands to ensure compliance with CCPA and U.S. privacy regulations.",
+                  "block_id": "b79",
+                  "kind": "text",
+                  "start": 8830,
+                  "end": 9053
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_11",
+            "label": "Key Contributions:",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Key Contributions:",
+                  "block_id": "b80",
+                  "kind": "text",
+                  "start": 9054,
+                  "end": 9072
+                },
+                {
+                  "page": 1,
+                  "text": "Implemented Prometheus alerting and Grafana dashboards for privacy applications.",
+                  "block_id": "b81",
+                  "kind": "text",
+                  "start": 9073,
+                  "end": 9153
+                },
+                {
+                  "page": 1,
+                  "text": "Built and optimized GitLab CI/CD pipelines and AWS infrastructure with Terraform.",
+                  "block_id": "b82",
+                  "kind": "text",
+                  "start": 9154,
+                  "end": 9235
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_12",
+            "label": "Upgraded Helm v2→v3 and rolled out infra patches/upgrades across Terraform, Kubernetes, Prometheus, and Grafana.",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Upgraded Helm v2→v3 and rolled out infra patches/upgrades across Terraform, Kubernetes, Prometheus, and Grafana.",
+                  "block_id": "b83",
+                  "kind": "text",
+                  "start": 9236,
+                  "end": 9348
+                },
+                {
+                  "page": 1,
+                  "text": "Integrated Vault sidecar containers for automated cert management and extended solution org-wide.",
+                  "block_id": "b84",
+                  "kind": "text",
+                  "start": 9349,
+                  "end": 9446
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_13",
+            "label": "Secured sensitive assets by encrypting Payment API credentials (TalonOne–CCPA).",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Secured sensitive assets by encrypting Payment API credentials (TalonOne–CCPA).",
+                  "block_id": "b85",
+                  "kind": "text",
+                  "start": 9447,
+                  "end": 9526
+                },
+                {
+                  "page": 1,
+                  "text": "Performed DevOps audits, resource right-sizing, and cost/security optimizations across Privacy Core, CDS, and GDPR.",
+                  "block_id": "b86",
+                  "kind": "text",
+                  "start": 9527,
+                  "end": 9642
+                },
+                {
+                  "page": 1,
+                  "text": "Troubleshot Kubernetes workloads and piloted CPU/memory resource management.",
+                  "block_id": "b87",
+                  "kind": "text",
+                  "start": 9643,
+                  "end": 9719
+                },
+                {
+                  "page": 1,
+                  "text": "Authored Confluence documentation and led technical knowledge-sharing sessions.",
+                  "block_id": "b88",
+                  "kind": "text",
+                  "start": 9720,
+                  "end": 9799
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_14",
+            "label": "G4S IT Services, India | DevOps Consultant | Oct’2018 – Dec’2019",
+            "state": "year_range",
+            "start": [
+              2018,
+              1
+            ],
+            "end": [
+              2019,
+              12
+            ],
+            "months": null,
+            "raw": "2018 - 2019",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "G4S IT Services, India | DevOps Consultant | Oct’2018 – Dec’2019",
+                  "block_id": "b89",
+                  "kind": "text",
+                  "start": 9801,
+                  "end": 9865
+                },
+                {
+                  "page": 1,
+                  "text": "Administered Atlassian tools (Jira, Bitbucket, Confluence) and managed GCP components (IAM, PubSub, BigQuery, DataStore, Compute/ App Engine, Cloud SQL, Stackdriver).",
+                  "block_id": "b90",
+                  "kind": "text",
+                  "start": 9867,
+                  "end": 10033
+                },
+                {
+                  "page": 1,
+                  "text": "Designed and deployed high-availability cloud infrastructure on GCP with load balancers and auto-scaling server groups.",
+                  "block_id": "b91",
+                  "kind": "text",
+                  "start": 10034,
+                  "end": 10153
+                },
+                {
+                  "page": 1,
+                  "text": "Implemented CI/CD pipelines with Jenkins for microservices and payment gateway deployments.",
+                  "block_id": "b92",
+                  "kind": "text",
+                  "start": 10154,
+                  "end": 10245
+                },
+                {
+                  "page": 1,
+                  "text": "Built and deployed applications on Google App Engine and Google Compute Engine, ensuring reliability and scalability.",
+                  "block_id": "b93",
+                  "kind": "text",
+                  "start": 10246,
+                  "end": 10363
+                },
+                {
+                  "page": 1,
+                  "text": "Configured and managed MongoDB and Redis clusters with high availability for resilient data storage.",
+                  "block_id": "b94",
+                  "kind": "text",
+                  "start": 10364,
+                  "end": 10464
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_15",
+            "label": "HCL Infra (Client: US Foods) | Specialist / DevOps Consultant | Jan’2018 – Sep’2018",
+            "state": "year_range",
+            "start": [
+              2018,
+              1
+            ],
+            "end": [
+              2018,
+              12
+            ],
+            "months": null,
+            "raw": "2018 - 2018",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "HCL Infra (Client: US Foods) | Specialist / DevOps Consultant | Jan’2018 – Sep’2018",
+                  "block_id": "b95",
+                  "kind": "text",
+                  "start": 10466,
+                  "end": 10549
+                },
+                {
+                  "page": 1,
+                  "text": "Designed and automated infrastructure using Chef (server, workstation, nodes), managing cookbooks, recipes, and seamless deployments.",
+                  "block_id": "b96",
+                  "kind": "text",
+                  "start": 10551,
+                  "end": 10684
+                },
+                {
+                  "page": 1,
+                  "text": "Integrated Bitbucket with ChefDK and automated cookbook uploads to Chef Server via Bamboo CI/CD pipelines.",
+                  "block_id": "b97",
+                  "kind": "text",
+                  "start": 10685,
+                  "end": 10791
+                },
+                {
+                  "page": 1,
+                  "text": "Provisioned and maintained AWS services (VPC, EC2, S3, IAM, Route 53) to support enterprise-scale cloud infrastructure.",
+                  "block_id": "b98",
+                  "kind": "text",
+                  "start": 10792,
+                  "end": 10911
+                },
+                {
+                  "page": 1,
+                  "text": "Set up and managed infrastructure for multiple POCs (e.g., R servers, Anaconda environments) to accelerate innovation.",
+                  "block_id": "b99",
+                  "kind": "text",
+                  "start": 10912,
+                  "end": 11030
+                },
+                {
+                  "page": 1,
+                  "text": "Implemented secure and scalable storage solutions by creating and managing S3 buckets across AWS environments.",
+                  "block_id": "b100",
+                  "kind": "text",
+                  "start": 11031,
+                  "end": 11141
+                },
+                {
+                  "page": 1,
+                  "text": "Tech Mahindra (Client: AT&T) | Software Engineer (Build & Release / WebLogic Admin) | Oct’2014 – Jan’2018",
+                  "block_id": "b101",
+                  "kind": "text",
+                  "start": 11143,
+                  "end": 11248
+                },
+                {
+                  "page": 1,
+                  "text": "Installed, configured, and managed WebLogic servers on distributed clusters, integrating with web servers for high availability.",
+                  "block_id": "b102",
+                  "kind": "text",
+                  "start": 11250,
+                  "end": 11378
+                },
+                {
+                  "page": 1,
+                  "text": "Automated build and deployment processes using Jenkins, Maven, Ant, and Shell scripting, reducing manual effort and deployment time.",
+                  "block_id": "b103",
+                  "kind": "text",
+                  "start": 11379,
+                  "end": 11511
+                },
+                {
+                  "page": 1,
+                  "text": "Provided end-to-end application support (Prod, UAT, Dev) for major AT&T applications across desktop, mobile, SMB, and backend systems.",
+                  "block_id": "b104",
+                  "kind": "text",
+                  "start": 11512,
+                  "end": 11646
+                },
+                {
+                  "page": 1,
+                  "text": "Authored SOPs/KOPs and stabilized support services with defined processes, ensuring audit and compliance readiness.",
+                  "block_id": "b105",
+                  "kind": "text",
+                  "start": 11647,
+                  "end": 11762
+                },
+                {
+                  "page": 1,
+                  "text": "Led incident management, environment setup, and release planning (hot-fix, minor, and major deployments), coordinating with global teams for smooth delivery.",
+                  "block_id": "b106",
+                  "kind": "text",
+                  "start": 11763,
+                  "end": 11920
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_16",
+            "label": "KEY HIGHLIGHTS ACROSS CAREER",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "KEY HIGHLIGHTS ACROSS CAREER",
+                  "block_id": "b107",
+                  "kind": "text",
+                  "start": 11922,
+                  "end": 11950
+                },
+                {
+                  "page": 1,
+                  "text": "Delivered large-scale cloud and DevOps transformations across finance and retail domains, architecting fault-tolerant, highly available, and automated solutions on AWS, Azure, and private cloud platforms.",
+                  "block_id": "b108",
+                  "kind": "text",
+                  "start": 11951,
+                  "end": 12155
+                },
+                {
+                  "page": 1,
+                  "text": "Led Tesco’s Safe Secure Store Program as Tech Lead, designing a high-availability Rancher setup (4000+ downstream clusters), architecting multi- node K3s clusters for large-format stores, and implementing Ansible- and Terraform-based automation that reduced provisioning time from hours to minutes.",
+                  "block_id": "b109",
+                  "kind": "text",
+                  "start": 12156,
+                  "end": 12454
+                },
+                {
+                  "page": 1,
+                  "text": "Served as CI/CD SME for SCB’s CCoE Project, creating reusable Jenkins pipelines, Terraform modules, and delivering a cloud-based Syslog Server solution across SCB and subsidiaries—later showcased in technical community sessions.",
+                  "block_id": "b110",
+                  "kind": "text",
+                  "start": 12455,
+                  "end": 12683
+                },
+                {
+                  "page": 1,
+                  "text": "Orchestrated automation in Tesco’s Finance Data Hub Program, building a Terraform-driven provisioning solution with GitHub workflows and CI/CD pipelines on Azure CSP, enabling rapid and reliable infrastructure rollout.",
+                  "block_id": "b111",
+                  "kind": "text",
+                  "start": 12684,
+                  "end": 12902
+                },
+                {
+                  "page": 1,
+                  "text": "Consistently recognized for impact with multiple Core Value Awards at Publicis Sapient, including Partnering for Client Impact, Engaging with Openness, and Inclusive Collaboration.",
+                  "block_id": "b112",
+                  "kind": "text",
+                  "start": 12903,
+                  "end": 13083
+                },
+                {
+                  "page": 1,
+                  "text": "Winner of “Howathon 2024” (EnggNext, Publicis Sapient) for building an AI-powered cloud architecture generator that converted designs into Terraform and deployed via GitHub Actions CI/CD pipelines.",
+                  "block_id": "b113",
+                  "kind": "text",
+                  "start": 13084,
+                  "end": 13281
+                },
+                {
+                  "page": 1,
+                  "text": "Active community leader and mentor: drives She Thrives on Cloud (women-in-tech initiative), leads the Azure Tribe community for Cloud & DevOps practitioners, delivers technical knowledge-sharing sessions, and advocates for diversity and inclusion in technology.",
+                  "block_id": "b114",
+                  "kind": "text",
+                  "start": 13282,
+                  "end": 13543
+                },
+                {
+                  "page": 1,
+                  "text": "Experienced in GO-LIVE event leadership, environment orchestration, and troubleshooting under tight deadlines, ensuring smooth deployments and production stability.",
+                  "block_id": "b115",
+                  "kind": "text",
+                  "start": 13544,
+                  "end": 13708
+                },
+                {
+                  "page": 1,
+                  "text": "Transitioned from Mechanical Engineer to DevOps Engineer, combining a problem-solving mindset with a passion for exploring new tools, technologies, and future-ready innovations.",
+                  "block_id": "b116",
+                  "kind": "text",
+                  "start": 13709,
+                  "end": 13886
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 1,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 1,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "vcc5195aa2ada9816",
+            "label": "B.Tech. in Production Engineering",
+            "state": "year_range",
+            "start": [
+              2010,
+              1
+            ],
+            "end": [
+              2014,
+              12
+            ],
+            "months": null,
+            "raw": "2010-2014",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "B.Tech. in Production Engineering from Birla Institute Of Technology, Mesra (2010-2014) - 65%",
+                  "block_id": "b26",
+                  "kind": "text",
+                  "start": 2597,
+                  "end": 2690
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "2010-2014",
+                  "block_id": "b26",
+                  "kind": "text",
+                  "start": 2674,
+                  "end": 2683
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Birla Institute Of Technology",
+                  "block_id": "b26",
+                  "kind": "text",
+                  "start": 2636,
+                  "end": 2665
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "B.Tech. in Production Engineering",
+                  "block_id": "b26",
+                  "kind": "text",
+                  "start": 2597,
+                  "end": 2630
+                }
+              ],
+              "section": "EDUCATION",
+              "date_label": "2010-2014",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 52,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

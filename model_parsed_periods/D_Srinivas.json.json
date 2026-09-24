@@ -1,0 +1,1875 @@
+{
+  "file_name": "D_Srinivas.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "6fd1d38262cc0fddbd87a44850d75daef8c437e2a65b171268d4a209cdc5b78d",
+  "doc_id": "6fd1d38262cc0fddbd87a448",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 3,
+    "dated_share": 0.667,
+    "unresolved": 1,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "document_accuracy": 0.9
+  },
+  "work_experience": [
+    {
+      "id": "vbc10d13f46d3948b",
+      "type": "EMPLOYMENT",
+      "company": "Boven Technologies Pvt Ltd",
+      "title": "Software Engineer",
+      "start_date": "2020-06",
+      "end_date": "2022-04",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Boven Technologies Pvt Ltd — Software Engineer (Jun 2020 – Apr 2022)",
+            "block_id": "b43",
+            "kind": "text",
+            "start": 2448,
+            "end": 2516
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Jun 2020 – Apr 2022",
+            "block_id": "b43",
+            "kind": "text",
+            "start": 2496,
+            "end": 2515
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Boven Technologies Pvt Ltd",
+            "block_id": "b43",
+            "kind": "text",
+            "start": 2448,
+            "end": 2474
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Software Engineer",
+            "block_id": "b43",
+            "kind": "text",
+            "start": 2477,
+            "end": 2494
+          }
+        ],
+        "section": "Professional Experience",
+        "date_label": "Jun 2020 – Apr 2022",
+        "is_present": false
+      },
+      "precision": "month",
+      "date_label": "Jun 2020 – Apr 2022"
+    },
+    {
+      "id": "vaa38865ea5cd07b8",
+      "type": "EMPLOYMENT",
+      "company": "HCL Technologies Ltd",
+      "title": "Lead Engineer",
+      "start_date": "2022-04",
+      "end_date": "2025-04",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "HCL Technologies Ltd — Lead Engineer (Apr 2022 – Apr 2025)",
+            "block_id": "b22",
+            "kind": "text",
+            "start": 1259,
+            "end": 1317
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "Apr 2022 – Apr 2025",
+            "block_id": "b22",
+            "kind": "text",
+            "start": 1297,
+            "end": 1316
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "HCL Technologies Ltd",
+            "block_id": "b22",
+            "kind": "text",
+            "start": 1259,
+            "end": 1279
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "Lead Engineer",
+            "block_id": "b22",
+            "kind": "text",
+            "start": 1282,
+            "end": 1295
+          }
+        ],
+        "section": "Professional Experience",
+        "date_label": "Apr 2022 – Apr 2025",
+        "is_present": false
+      },
+      "precision": "month",
+      "date_label": "Apr 2022 – Apr 2025"
+    }
+  ],
+  "education": [
+    {
+      "id": "v75cdb400c46f6eff",
+      "type": "EDUCATION",
+      "company": "Yogi Vemana University",
+      "title": "B.Sc. Degree",
+      "start_date": "",
+      "end_date": "",
+      "is_current": false,
+      "status": "UNRESOLVED",
+      "confidence": null,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "B.Sc. Degree — Yogi Vemana University",
+            "block_id": "b63",
+            "kind": "text",
+            "start": 3562,
+            "end": 3599
+          }
+        ],
+        "dates": [],
+        "company": [
+          {
+            "page": 1,
+            "text": "Yogi Vemana University",
+            "block_id": "b63",
+            "kind": "text",
+            "start": 3577,
+            "end": 3599
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "B.Sc. Degree",
+            "block_id": "b63",
+            "kind": "text",
+            "start": 3562,
+            "end": 3574
+          }
+        ],
+        "section": "Education",
+        "date_label": "",
+        "is_present": false
+      },
+      "precision": null,
+      "date_label": ""
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "SYNAPPS Integration (Synchrony)",
+      "client": "",
+      "role": "Sr. Power Platform / MS Dynamics 365 Developer",
+      "duration": "",
+      "details": [
+        "Environment: Power Apps (Canvas), Power Automate, Copilot Studio, Dataverse,",
+        "SharePoint, SQL, Azure",
+        "- Developed enterprise Canvas Apps with modular architecture, reusable components, and",
+        "environment-based routing (Dev/UAT/Prod).",
+        "- Built Power Automate flows integrating with backend systems using REST APIs, HTTP",
+        "connectors, and on‑prem gateway.",
+        "- Implemented webhooks and child flows with structured error handling, retry policies, and",
+        "correlation IDs.",
+        "- Designed Copilot Studio bots with topic design, generative answers, Dataverse/SharePoint",
+        "connectors, and Teams escalation.",
+        "- Applied prompt engineering techniques to generate flows, Power Fx expressions, and test",
+        "payloads using Copilot.",
+        "- Implemented ALM using managed solutions, environment variables, and Azure DevOps",
+        "CI/CD pipelines.",
+        "- Ensured governance and compliance using DLP policies, secure parameters, and"
+      ],
+      "raw_text": "Project: ALLEGRO – SYNAPPS Integration (Synchrony)",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project: ALLEGRO – SYNAPPS Integration (Synchrony)",
+            "block_id": "b23",
+            "kind": "text",
+            "start": 1319,
+            "end": 1369
+          },
+          {
+            "page": 1,
+            "text": "Role: Sr. Power Platform / MS Dynamics 365 Developer",
+            "block_id": "b24",
+            "kind": "text",
+            "start": 1371,
+            "end": 1423
+          },
+          {
+            "page": 1,
+            "text": "Environment: Power Apps (Canvas), Power Automate, Copilot Studio, Dataverse,",
+            "block_id": "b25",
+            "kind": "text",
+            "start": 1425,
+            "end": 1501
+          },
+          {
+            "page": 1,
+            "text": "SharePoint, SQL, Azure",
+            "block_id": "b26",
+            "kind": "text",
+            "start": 1503,
+            "end": 1525
+          },
+          {
+            "page": 1,
+            "text": "- Developed enterprise Canvas Apps with modular architecture, reusable components, and",
+            "block_id": "b27",
+            "kind": "text",
+            "start": 1529,
+            "end": 1615
+          },
+          {
+            "page": 1,
+            "text": "environment-based routing (Dev/UAT/Prod).",
+            "block_id": "b28",
+            "kind": "text",
+            "start": 1617,
+            "end": 1658
+          },
+          {
+            "page": 1,
+            "text": "- Built Power Automate flows integrating with backend systems using REST APIs, HTTP",
+            "block_id": "b29",
+            "kind": "text",
+            "start": 1660,
+            "end": 1743
+          },
+          {
+            "page": 1,
+            "text": "connectors, and on‑prem gateway.",
+            "block_id": "b30",
+            "kind": "text",
+            "start": 1745,
+            "end": 1777
+          },
+          {
+            "page": 1,
+            "text": "- Implemented webhooks and child flows with structured error handling, retry policies, and",
+            "block_id": "b31",
+            "kind": "text",
+            "start": 1779,
+            "end": 1869
+          },
+          {
+            "page": 1,
+            "text": "correlation IDs.",
+            "block_id": "b32",
+            "kind": "text",
+            "start": 1871,
+            "end": 1887
+          },
+          {
+            "page": 1,
+            "text": "- Designed Copilot Studio bots with topic design, generative answers, Dataverse/SharePoint",
+            "block_id": "b33",
+            "kind": "text",
+            "start": 1889,
+            "end": 1979
+          },
+          {
+            "page": 1,
+            "text": "connectors, and Teams escalation.",
+            "block_id": "b34",
+            "kind": "text",
+            "start": 1981,
+            "end": 2014
+          },
+          {
+            "page": 1,
+            "text": "- Applied prompt engineering techniques to generate flows, Power Fx expressions, and test",
+            "block_id": "b35",
+            "kind": "text",
+            "start": 2016,
+            "end": 2105
+          },
+          {
+            "page": 1,
+            "text": "payloads using Copilot.",
+            "block_id": "b36",
+            "kind": "text",
+            "start": 2107,
+            "end": 2130
+          },
+          {
+            "page": 1,
+            "text": "- Implemented ALM using managed solutions, environment variables, and Azure DevOps",
+            "block_id": "b37",
+            "kind": "text",
+            "start": 2132,
+            "end": 2214
+          },
+          {
+            "page": 1,
+            "text": "CI/CD pipelines.",
+            "block_id": "b38",
+            "kind": "text",
+            "start": 2216,
+            "end": 2232
+          },
+          {
+            "page": 1,
+            "text": "- Ensured governance and compliance using DLP policies, secure parameters, and",
+            "block_id": "b39",
+            "kind": "text",
+            "start": 2234,
+            "end": 2312
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_2",
+      "name": "Toolkit",
+      "client": "",
+      "role": "Power Apps / CRM Developer",
+      "duration": "",
+      "details": [
+        "Environment: Power Apps (Canvas), Power Automate, SharePoint, SQL",
+        "- Developed task-based Canvas Apps with parameterized forms and execution workflows.",
+        "- Built flows invoking SQL stored procedures with approvals and Teams/email notifications.",
+        "- Used Copilot to scaffold screens, optimize Power Fx logic, and draft automation logic.",
+        "- Created Copilot Studio topic drafts for FAQs and operational guidance.",
+        "- Implemented solution packaging and documented deployment and rollback steps."
+      ],
+      "raw_text": "Project: PM Toolkit",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project: PM Toolkit",
+            "block_id": "b44",
+            "kind": "text",
+            "start": 2518,
+            "end": 2537
+          },
+          {
+            "page": 1,
+            "text": "Role: Power Apps / CRM Developer",
+            "block_id": "b45",
+            "kind": "text",
+            "start": 2539,
+            "end": 2571
+          },
+          {
+            "page": 1,
+            "text": "Environment: Power Apps (Canvas), Power Automate, SharePoint, SQL",
+            "block_id": "b46",
+            "kind": "text",
+            "start": 2573,
+            "end": 2638
+          },
+          {
+            "page": 1,
+            "text": "- Developed task-based Canvas Apps with parameterized forms and execution workflows.",
+            "block_id": "b47",
+            "kind": "text",
+            "start": 2642,
+            "end": 2726
+          },
+          {
+            "page": 1,
+            "text": "- Built flows invoking SQL stored procedures with approvals and Teams/email notifications.",
+            "block_id": "b48",
+            "kind": "text",
+            "start": 2728,
+            "end": 2818
+          },
+          {
+            "page": 1,
+            "text": "- Used Copilot to scaffold screens, optimize Power Fx logic, and draft automation logic.",
+            "block_id": "b49",
+            "kind": "text",
+            "start": 2820,
+            "end": 2908
+          },
+          {
+            "page": 1,
+            "text": "- Created Copilot Studio topic drafts for FAQs and operational guidance.",
+            "block_id": "b50",
+            "kind": "text",
+            "start": 2910,
+            "end": 2982
+          },
+          {
+            "page": 1,
+            "text": "- Implemented solution packaging and documented deployment and rollback steps.",
+            "block_id": "b51",
+            "kind": "text",
+            "start": 2984,
+            "end": 3062
+          }
+        ]
+      }
+    }
+  ],
+  "gaps": [],
+  "total_work_experience_entries": 2,
+  "total_projects_entries": 2,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "section EDUCATION: entry without dated header preserved as-is",
+    "overlap preserved: 'Software Engineer' overlaps 'Lead Engineer'"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "6fd1d38262cc0fddbd87a448",
+    "filename": "D_Srinivas.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "vbc10d13f46d3948b",
+        "type": "EMPLOYMENT",
+        "title": "Software Engineer",
+        "org": "Boven Technologies Pvt Ltd",
+        "start": "2020-06",
+        "end": "2022-04",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Boven Technologies Pvt Ltd — Software Engineer (Jun 2020 – Apr 2022)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Boven Technologies Pvt Ltd — Software Engineer (Jun 2020 – Apr 2022)",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 2448,
+              "end": 2516
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Jun 2020 – Apr 2022",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 2496,
+              "end": 2515
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Boven Technologies Pvt Ltd",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 2448,
+              "end": 2474
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Software Engineer",
+              "block_id": "b43",
+              "kind": "text",
+              "start": 2477,
+              "end": 2494
+            }
+          ],
+          "section": "Professional Experience",
+          "date_label": "Jun 2020 – Apr 2022",
+          "is_present": false
+        },
+        "date_label": "Jun 2020 – Apr 2022",
+        "section": "Professional Experience",
+        "is_present": false
+      },
+      {
+        "id": "vaa38865ea5cd07b8",
+        "type": "EMPLOYMENT",
+        "title": "Lead Engineer",
+        "org": "HCL Technologies Ltd",
+        "start": "2022-04",
+        "end": "2025-04",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "HCL Technologies Ltd — Lead Engineer (Apr 2022 – Apr 2025)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "HCL Technologies Ltd — Lead Engineer (Apr 2022 – Apr 2025)",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 1259,
+              "end": 1317
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "Apr 2022 – Apr 2025",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 1297,
+              "end": 1316
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "HCL Technologies Ltd",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 1259,
+              "end": 1279
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "Lead Engineer",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 1282,
+              "end": 1295
+            }
+          ],
+          "section": "Professional Experience",
+          "date_label": "Apr 2022 – Apr 2025",
+          "is_present": false
+        },
+        "date_label": "Apr 2022 – Apr 2025",
+        "section": "Professional Experience",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [
+      {
+        "id": "v75cdb400c46f6eff",
+        "type": "EDUCATION",
+        "title": "B.Sc. Degree",
+        "org": "Yogi Vemana University",
+        "entry_text": "B.Sc. Degree — Yogi Vemana University",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "B.Sc. Degree — Yogi Vemana University",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 3562,
+              "end": 3599
+            }
+          ],
+          "dates": [],
+          "company": [
+            {
+              "page": 1,
+              "text": "Yogi Vemana University",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 3577,
+              "end": 3599
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "B.Sc. Degree",
+              "block_id": "b63",
+              "kind": "text",
+              "start": 3562,
+              "end": 3574
+            }
+          ],
+          "section": "Education",
+          "date_label": "",
+          "is_present": false
+        },
+        "date_label": "",
+        "section": "Education",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "SYNAPPS Integration (Synchrony)",
+        "client": "",
+        "role": "Sr. Power Platform / MS Dynamics 365 Developer",
+        "duration": "",
+        "details": [
+          "Environment: Power Apps (Canvas), Power Automate, Copilot Studio, Dataverse,",
+          "SharePoint, SQL, Azure",
+          "- Developed enterprise Canvas Apps with modular architecture, reusable components, and",
+          "environment-based routing (Dev/UAT/Prod).",
+          "- Built Power Automate flows integrating with backend systems using REST APIs, HTTP",
+          "connectors, and on‑prem gateway.",
+          "- Implemented webhooks and child flows with structured error handling, retry policies, and",
+          "correlation IDs.",
+          "- Designed Copilot Studio bots with topic design, generative answers, Dataverse/SharePoint",
+          "connectors, and Teams escalation.",
+          "- Applied prompt engineering techniques to generate flows, Power Fx expressions, and test",
+          "payloads using Copilot.",
+          "- Implemented ALM using managed solutions, environment variables, and Azure DevOps",
+          "CI/CD pipelines.",
+          "- Ensured governance and compliance using DLP policies, secure parameters, and"
+        ],
+        "raw_text": "Project: ALLEGRO – SYNAPPS Integration (Synchrony)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project: ALLEGRO – SYNAPPS Integration (Synchrony)",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 1319,
+              "end": 1369
+            },
+            {
+              "page": 1,
+              "text": "Role: Sr. Power Platform / MS Dynamics 365 Developer",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 1371,
+              "end": 1423
+            },
+            {
+              "page": 1,
+              "text": "Environment: Power Apps (Canvas), Power Automate, Copilot Studio, Dataverse,",
+              "block_id": "b25",
+              "kind": "text",
+              "start": 1425,
+              "end": 1501
+            },
+            {
+              "page": 1,
+              "text": "SharePoint, SQL, Azure",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 1503,
+              "end": 1525
+            },
+            {
+              "page": 1,
+              "text": "- Developed enterprise Canvas Apps with modular architecture, reusable components, and",
+              "block_id": "b27",
+              "kind": "text",
+              "start": 1529,
+              "end": 1615
+            },
+            {
+              "page": 1,
+              "text": "environment-based routing (Dev/UAT/Prod).",
+              "block_id": "b28",
+              "kind": "text",
+              "start": 1617,
+              "end": 1658
+            },
+            {
+              "page": 1,
+              "text": "- Built Power Automate flows integrating with backend systems using REST APIs, HTTP",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 1660,
+              "end": 1743
+            },
+            {
+              "page": 1,
+              "text": "connectors, and on‑prem gateway.",
+              "block_id": "b30",
+              "kind": "text",
+              "start": 1745,
+              "end": 1777
+            },
+            {
+              "page": 1,
+              "text": "- Implemented webhooks and child flows with structured error handling, retry policies, and",
+              "block_id": "b31",
+              "kind": "text",
+              "start": 1779,
+              "end": 1869
+            },
+            {
+              "page": 1,
+              "text": "correlation IDs.",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 1871,
+              "end": 1887
+            },
+            {
+              "page": 1,
+              "text": "- Designed Copilot Studio bots with topic design, generative answers, Dataverse/SharePoint",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 1889,
+              "end": 1979
+            },
+            {
+              "page": 1,
+              "text": "connectors, and Teams escalation.",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 1981,
+              "end": 2014
+            },
+            {
+              "page": 1,
+              "text": "- Applied prompt engineering techniques to generate flows, Power Fx expressions, and test",
+              "block_id": "b35",
+              "kind": "text",
+              "start": 2016,
+              "end": 2105
+            },
+            {
+              "page": 1,
+              "text": "payloads using Copilot.",
+              "block_id": "b36",
+              "kind": "text",
+              "start": 2107,
+              "end": 2130
+            },
+            {
+              "page": 1,
+              "text": "- Implemented ALM using managed solutions, environment variables, and Azure DevOps",
+              "block_id": "b37",
+              "kind": "text",
+              "start": 2132,
+              "end": 2214
+            },
+            {
+              "page": 1,
+              "text": "CI/CD pipelines.",
+              "block_id": "b38",
+              "kind": "text",
+              "start": 2216,
+              "end": 2232
+            },
+            {
+              "page": 1,
+              "text": "- Ensured governance and compliance using DLP policies, secure parameters, and",
+              "block_id": "b39",
+              "kind": "text",
+              "start": 2234,
+              "end": 2312
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "Toolkit",
+        "client": "",
+        "role": "Power Apps / CRM Developer",
+        "duration": "",
+        "details": [
+          "Environment: Power Apps (Canvas), Power Automate, SharePoint, SQL",
+          "- Developed task-based Canvas Apps with parameterized forms and execution workflows.",
+          "- Built flows invoking SQL stored procedures with approvals and Teams/email notifications.",
+          "- Used Copilot to scaffold screens, optimize Power Fx logic, and draft automation logic.",
+          "- Created Copilot Studio topic drafts for FAQs and operational guidance.",
+          "- Implemented solution packaging and documented deployment and rollback steps."
+        ],
+        "raw_text": "Project: PM Toolkit",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project: PM Toolkit",
+              "block_id": "b44",
+              "kind": "text",
+              "start": 2518,
+              "end": 2537
+            },
+            {
+              "page": 1,
+              "text": "Role: Power Apps / CRM Developer",
+              "block_id": "b45",
+              "kind": "text",
+              "start": 2539,
+              "end": 2571
+            },
+            {
+              "page": 1,
+              "text": "Environment: Power Apps (Canvas), Power Automate, SharePoint, SQL",
+              "block_id": "b46",
+              "kind": "text",
+              "start": 2573,
+              "end": 2638
+            },
+            {
+              "page": 1,
+              "text": "- Developed task-based Canvas Apps with parameterized forms and execution workflows.",
+              "block_id": "b47",
+              "kind": "text",
+              "start": 2642,
+              "end": 2726
+            },
+            {
+              "page": 1,
+              "text": "- Built flows invoking SQL stored procedures with approvals and Teams/email notifications.",
+              "block_id": "b48",
+              "kind": "text",
+              "start": 2728,
+              "end": 2818
+            },
+            {
+              "page": 1,
+              "text": "- Used Copilot to scaffold screens, optimize Power Fx logic, and draft automation logic.",
+              "block_id": "b49",
+              "kind": "text",
+              "start": 2820,
+              "end": 2908
+            },
+            {
+              "page": 1,
+              "text": "- Created Copilot Studio topic drafts for FAQs and operational guidance.",
+              "block_id": "b50",
+              "kind": "text",
+              "start": 2910,
+              "end": 2982
+            },
+            {
+              "page": 1,
+              "text": "- Implemented solution packaging and documented deployment and rollback steps.",
+              "block_id": "b51",
+              "kind": "text",
+              "start": 2984,
+              "end": 3062
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "NO_GAP_DETECTED",
+        "confidence": 0.9,
+        "reasons": [],
+        "evidence": {
+          "note": "no uncovered months between supported entries"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 3,
+      "dated_share": 0.667,
+      "unresolved": 1,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "document_accuracy": 0.9
+    },
+    "total_represented_months": 59,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": true,
+          "unrepresented_periods_in_category": [],
+          "entries": 2,
+          "dated_periods": 2,
+          "represented_months": 59,
+          "overlap_months": 1,
+          "states": {
+            "month_range": 2,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "vbc10d13f46d3948b",
+              "label": "Software Engineer",
+              "state": "month_range",
+              "start": [
+                2020,
+                6
+              ],
+              "end": [
+                2022,
+                4
+              ],
+              "months": 23,
+              "raw": "Jun 2020 – Apr 2022",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Boven Technologies Pvt Ltd — Software Engineer (Jun 2020 – Apr 2022)",
+                    "block_id": "b43",
+                    "kind": "text",
+                    "start": 2448,
+                    "end": 2516
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "Jun 2020 – Apr 2022",
+                    "block_id": "b43",
+                    "kind": "text",
+                    "start": 2496,
+                    "end": 2515
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Boven Technologies Pvt Ltd",
+                    "block_id": "b43",
+                    "kind": "text",
+                    "start": 2448,
+                    "end": 2474
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Software Engineer",
+                    "block_id": "b43",
+                    "kind": "text",
+                    "start": 2477,
+                    "end": 2494
+                  }
+                ],
+                "section": "Professional Experience",
+                "date_label": "Jun 2020 – Apr 2022",
+                "is_present": false
+              }
+            },
+            {
+              "id": "vaa38865ea5cd07b8",
+              "label": "Lead Engineer",
+              "state": "month_range",
+              "start": [
+                2022,
+                4
+              ],
+              "end": [
+                2025,
+                4
+              ],
+              "months": 37,
+              "raw": "Apr 2022 – Apr 2025",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "HCL Technologies Ltd — Lead Engineer (Apr 2022 – Apr 2025)",
+                    "block_id": "b22",
+                    "kind": "text",
+                    "start": 1259,
+                    "end": 1317
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "Apr 2022 – Apr 2025",
+                    "block_id": "b22",
+                    "kind": "text",
+                    "start": 1297,
+                    "end": 1316
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "HCL Technologies Ltd",
+                    "block_id": "b22",
+                    "kind": "text",
+                    "start": 1259,
+                    "end": 1279
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "Lead Engineer",
+                    "block_id": "b22",
+                    "kind": "text",
+                    "start": 1282,
+                    "end": 1295
+                  }
+                ],
+                "section": "Professional Experience",
+                "date_label": "Apr 2022 – Apr 2025",
+                "is_present": false
+              }
+            }
+          ]
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 2,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 2,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "proj_1",
+              "label": "SYNAPPS Integration (Synchrony)",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Project: ALLEGRO – SYNAPPS Integration (Synchrony)",
+                    "block_id": "b23",
+                    "kind": "text",
+                    "start": 1319,
+                    "end": 1369
+                  },
+                  {
+                    "page": 1,
+                    "text": "Role: Sr. Power Platform / MS Dynamics 365 Developer",
+                    "block_id": "b24",
+                    "kind": "text",
+                    "start": 1371,
+                    "end": 1423
+                  },
+                  {
+                    "page": 1,
+                    "text": "Environment: Power Apps (Canvas), Power Automate, Copilot Studio, Dataverse,",
+                    "block_id": "b25",
+                    "kind": "text",
+                    "start": 1425,
+                    "end": 1501
+                  },
+                  {
+                    "page": 1,
+                    "text": "SharePoint, SQL, Azure",
+                    "block_id": "b26",
+                    "kind": "text",
+                    "start": 1503,
+                    "end": 1525
+                  },
+                  {
+                    "page": 1,
+                    "text": "- Developed enterprise Canvas Apps with modular architecture, reusable components, and",
+                    "block_id": "b27",
+                    "kind": "text",
+                    "start": 1529,
+                    "end": 1615
+                  },
+                  {
+                    "page": 1,
+                    "text": "environment-based routing (Dev/UAT/Prod).",
+                    "block_id": "b28",
+                    "kind": "text",
+                    "start": 1617,
+                    "end": 1658
+                  },
+                  {
+                    "page": 1,
+                    "text": "- Built Power Automate flows integrating with backend systems using REST APIs, HTTP",
+                    "block_id": "b29",
+                    "kind": "text",
+                    "start": 1660,
+                    "end": 1743
+                  },
+                  {
+                    "page": 1,
+                    "text": "connectors, and on‑prem gateway.",
+                    "block_id": "b30",
+                    "kind": "text",
+                    "start": 1745,
+                    "end": 1777
+                  },
+                  {
+                    "page": 1,
+                    "text": "- Implemented webhooks and child flows with structured error handling, retry policies, and",
+                    "block_id": "b31",
+                    "kind": "text",
+                    "start": 1779,
+                    "end": 1869
+                  },
+                  {
+                    "page": 1,
+                    "text": "correlation IDs.",
+                    "block_id": "b32",
+                    "kind": "text",
+                    "start": 1871,
+                    "end": 1887
+                  },
+                  {
+                    "page": 1,
+                    "text": "- Designed Copilot Studio bots with topic design, generative answers, Dataverse/SharePoint",
+                    "block_id": "b33",
+                    "kind": "text",
+                    "start": 1889,
+                    "end": 1979
+                  },
+                  {
+                    "page": 1,
+                    "text": "connectors, and Teams escalation.",
+                    "block_id": "b34",
+                    "kind": "text",
+                    "start": 1981,
+                    "end": 2014
+                  },
+                  {
+                    "page": 1,
+                    "text": "- Applied prompt engineering techniques to generate flows, Power Fx expressions, and test",
+                    "block_id": "b35",
+                    "kind": "text",
+                    "start": 2016,
+                    "end": 2105
+                  },
+                  {
+                    "page": 1,
+                    "text": "payloads using Copilot.",
+                    "block_id": "b36",
+                    "kind": "text",
+                    "start": 2107,
+                    "end": 2130
+                  },
+                  {
+                    "page": 1,
+                    "text": "- Implemented ALM using managed solutions, environment variables, and Azure DevOps",
+                    "block_id": "b37",
+                    "kind": "text",
+                    "start": 2132,
+                    "end": 2214
+                  },
+                  {
+                    "page": 1,
+                    "text": "CI/CD pipelines.",
+                    "block_id": "b38",
+                    "kind": "text",
+                    "start": 2216,
+                    "end": 2232
+                  },
+                  {
+                    "page": 1,
+                    "text": "- Ensured governance and compliance using DLP policies, secure parameters, and",
+                    "block_id": "b39",
+                    "kind": "text",
+                    "start": 2234,
+                    "end": 2312
+                  }
+                ]
+              }
+            },
+            {
+              "id": "proj_2",
+              "label": "Toolkit",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "Project: PM Toolkit",
+                    "block_id": "b44",
+                    "kind": "text",
+                    "start": 2518,
+                    "end": 2537
+                  },
+                  {
+                    "page": 1,
+                    "text": "Role: Power Apps / CRM Developer",
+                    "block_id": "b45",
+                    "kind": "text",
+                    "start": 2539,
+                    "end": 2571
+                  },
+                  {
+                    "page": 1,
+                    "text": "Environment: Power Apps (Canvas), Power Automate, SharePoint, SQL",
+                    "block_id": "b46",
+                    "kind": "text",
+                    "start": 2573,
+                    "end": 2638
+                  },
+                  {
+                    "page": 1,
+                    "text": "- Developed task-based Canvas Apps with parameterized forms and execution workflows.",
+                    "block_id": "b47",
+                    "kind": "text",
+                    "start": 2642,
+                    "end": 2726
+                  },
+                  {
+                    "page": 1,
+                    "text": "- Built flows invoking SQL stored procedures with approvals and Teams/email notifications.",
+                    "block_id": "b48",
+                    "kind": "text",
+                    "start": 2728,
+                    "end": 2818
+                  },
+                  {
+                    "page": 1,
+                    "text": "- Used Copilot to scaffold screens, optimize Power Fx logic, and draft automation logic.",
+                    "block_id": "b49",
+                    "kind": "text",
+                    "start": 2820,
+                    "end": 2908
+                  },
+                  {
+                    "page": 1,
+                    "text": "- Created Copilot Studio topic drafts for FAQs and operational guidance.",
+                    "block_id": "b50",
+                    "kind": "text",
+                    "start": 2910,
+                    "end": 2982
+                  },
+                  {
+                    "page": 1,
+                    "text": "- Implemented solution packaging and documented deployment and rollback steps.",
+                    "block_id": "b51",
+                    "kind": "text",
+                    "start": 2984,
+                    "end": 3062
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 1,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v75cdb400c46f6eff",
+              "label": "B.Sc. Degree",
+              "state": "undated",
+              "start": null,
+              "end": null,
+              "months": null,
+              "raw": "",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "B.Sc. Degree — Yogi Vemana University",
+                    "block_id": "b63",
+                    "kind": "text",
+                    "start": 3562,
+                    "end": 3599
+                  }
+                ],
+                "dates": [],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Yogi Vemana University",
+                    "block_id": "b63",
+                    "kind": "text",
+                    "start": 3577,
+                    "end": 3599
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "B.Sc. Degree",
+                    "block_id": "b63",
+                    "kind": "text",
+                    "start": 3562,
+                    "end": 3574
+                  }
+                ],
+                "section": "Education",
+                "date_label": "",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 59,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": true,
+        "unrepresented_periods_in_category": [],
+        "entries": 2,
+        "dated_periods": 2,
+        "represented_months": 59,
+        "overlap_months": 1,
+        "states": {
+          "month_range": 2,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "vbc10d13f46d3948b",
+            "label": "Software Engineer",
+            "state": "month_range",
+            "start": [
+              2020,
+              6
+            ],
+            "end": [
+              2022,
+              4
+            ],
+            "months": 23,
+            "raw": "Jun 2020 – Apr 2022",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Boven Technologies Pvt Ltd — Software Engineer (Jun 2020 – Apr 2022)",
+                  "block_id": "b43",
+                  "kind": "text",
+                  "start": 2448,
+                  "end": 2516
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Jun 2020 – Apr 2022",
+                  "block_id": "b43",
+                  "kind": "text",
+                  "start": 2496,
+                  "end": 2515
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Boven Technologies Pvt Ltd",
+                  "block_id": "b43",
+                  "kind": "text",
+                  "start": 2448,
+                  "end": 2474
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Software Engineer",
+                  "block_id": "b43",
+                  "kind": "text",
+                  "start": 2477,
+                  "end": 2494
+                }
+              ],
+              "section": "Professional Experience",
+              "date_label": "Jun 2020 – Apr 2022",
+              "is_present": false
+            }
+          },
+          {
+            "id": "vaa38865ea5cd07b8",
+            "label": "Lead Engineer",
+            "state": "month_range",
+            "start": [
+              2022,
+              4
+            ],
+            "end": [
+              2025,
+              4
+            ],
+            "months": 37,
+            "raw": "Apr 2022 – Apr 2025",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "HCL Technologies Ltd — Lead Engineer (Apr 2022 – Apr 2025)",
+                  "block_id": "b22",
+                  "kind": "text",
+                  "start": 1259,
+                  "end": 1317
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "Apr 2022 – Apr 2025",
+                  "block_id": "b22",
+                  "kind": "text",
+                  "start": 1297,
+                  "end": 1316
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "HCL Technologies Ltd",
+                  "block_id": "b22",
+                  "kind": "text",
+                  "start": 1259,
+                  "end": 1279
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "Lead Engineer",
+                  "block_id": "b22",
+                  "kind": "text",
+                  "start": 1282,
+                  "end": 1295
+                }
+              ],
+              "section": "Professional Experience",
+              "date_label": "Apr 2022 – Apr 2025",
+              "is_present": false
+            }
+          }
+        ]
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 2,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 2,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "proj_1",
+            "label": "SYNAPPS Integration (Synchrony)",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Project: ALLEGRO – SYNAPPS Integration (Synchrony)",
+                  "block_id": "b23",
+                  "kind": "text",
+                  "start": 1319,
+                  "end": 1369
+                },
+                {
+                  "page": 1,
+                  "text": "Role: Sr. Power Platform / MS Dynamics 365 Developer",
+                  "block_id": "b24",
+                  "kind": "text",
+                  "start": 1371,
+                  "end": 1423
+                },
+                {
+                  "page": 1,
+                  "text": "Environment: Power Apps (Canvas), Power Automate, Copilot Studio, Dataverse,",
+                  "block_id": "b25",
+                  "kind": "text",
+                  "start": 1425,
+                  "end": 1501
+                },
+                {
+                  "page": 1,
+                  "text": "SharePoint, SQL, Azure",
+                  "block_id": "b26",
+                  "kind": "text",
+                  "start": 1503,
+                  "end": 1525
+                },
+                {
+                  "page": 1,
+                  "text": "- Developed enterprise Canvas Apps with modular architecture, reusable components, and",
+                  "block_id": "b27",
+                  "kind": "text",
+                  "start": 1529,
+                  "end": 1615
+                },
+                {
+                  "page": 1,
+                  "text": "environment-based routing (Dev/UAT/Prod).",
+                  "block_id": "b28",
+                  "kind": "text",
+                  "start": 1617,
+                  "end": 1658
+                },
+                {
+                  "page": 1,
+                  "text": "- Built Power Automate flows integrating with backend systems using REST APIs, HTTP",
+                  "block_id": "b29",
+                  "kind": "text",
+                  "start": 1660,
+                  "end": 1743
+                },
+                {
+                  "page": 1,
+                  "text": "connectors, and on‑prem gateway.",
+                  "block_id": "b30",
+                  "kind": "text",
+                  "start": 1745,
+                  "end": 1777
+                },
+                {
+                  "page": 1,
+                  "text": "- Implemented webhooks and child flows with structured error handling, retry policies, and",
+                  "block_id": "b31",
+                  "kind": "text",
+                  "start": 1779,
+                  "end": 1869
+                },
+                {
+                  "page": 1,
+                  "text": "correlation IDs.",
+                  "block_id": "b32",
+                  "kind": "text",
+                  "start": 1871,
+                  "end": 1887
+                },
+                {
+                  "page": 1,
+                  "text": "- Designed Copilot Studio bots with topic design, generative answers, Dataverse/SharePoint",
+                  "block_id": "b33",
+                  "kind": "text",
+                  "start": 1889,
+                  "end": 1979
+                },
+                {
+                  "page": 1,
+                  "text": "connectors, and Teams escalation.",
+                  "block_id": "b34",
+                  "kind": "text",
+                  "start": 1981,
+                  "end": 2014
+                },
+                {
+                  "page": 1,
+                  "text": "- Applied prompt engineering techniques to generate flows, Power Fx expressions, and test",
+                  "block_id": "b35",
+                  "kind": "text",
+                  "start": 2016,
+                  "end": 2105
+                },
+                {
+                  "page": 1,
+                  "text": "payloads using Copilot.",
+                  "block_id": "b36",
+                  "kind": "text",
+                  "start": 2107,
+                  "end": 2130
+                },
+                {
+                  "page": 1,
+                  "text": "- Implemented ALM using managed solutions, environment variables, and Azure DevOps",
+                  "block_id": "b37",
+                  "kind": "text",
+                  "start": 2132,
+                  "end": 2214
+                },
+                {
+                  "page": 1,
+                  "text": "CI/CD pipelines.",
+                  "block_id": "b38",
+                  "kind": "text",
+                  "start": 2216,
+                  "end": 2232
+                },
+                {
+                  "page": 1,
+                  "text": "- Ensured governance and compliance using DLP policies, secure parameters, and",
+                  "block_id": "b39",
+                  "kind": "text",
+                  "start": 2234,
+                  "end": 2312
+                }
+              ]
+            }
+          },
+          {
+            "id": "proj_2",
+            "label": "Toolkit",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "Project: PM Toolkit",
+                  "block_id": "b44",
+                  "kind": "text",
+                  "start": 2518,
+                  "end": 2537
+                },
+                {
+                  "page": 1,
+                  "text": "Role: Power Apps / CRM Developer",
+                  "block_id": "b45",
+                  "kind": "text",
+                  "start": 2539,
+                  "end": 2571
+                },
+                {
+                  "page": 1,
+                  "text": "Environment: Power Apps (Canvas), Power Automate, SharePoint, SQL",
+                  "block_id": "b46",
+                  "kind": "text",
+                  "start": 2573,
+                  "end": 2638
+                },
+                {
+                  "page": 1,
+                  "text": "- Developed task-based Canvas Apps with parameterized forms and execution workflows.",
+                  "block_id": "b47",
+                  "kind": "text",
+                  "start": 2642,
+                  "end": 2726
+                },
+                {
+                  "page": 1,
+                  "text": "- Built flows invoking SQL stored procedures with approvals and Teams/email notifications.",
+                  "block_id": "b48",
+                  "kind": "text",
+                  "start": 2728,
+                  "end": 2818
+                },
+                {
+                  "page": 1,
+                  "text": "- Used Copilot to scaffold screens, optimize Power Fx logic, and draft automation logic.",
+                  "block_id": "b49",
+                  "kind": "text",
+                  "start": 2820,
+                  "end": 2908
+                },
+                {
+                  "page": 1,
+                  "text": "- Created Copilot Studio topic drafts for FAQs and operational guidance.",
+                  "block_id": "b50",
+                  "kind": "text",
+                  "start": 2910,
+                  "end": 2982
+                },
+                {
+                  "page": 1,
+                  "text": "- Implemented solution packaging and documented deployment and rollback steps.",
+                  "block_id": "b51",
+                  "kind": "text",
+                  "start": 2984,
+                  "end": 3062
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 1,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v75cdb400c46f6eff",
+            "label": "B.Sc. Degree",
+            "state": "undated",
+            "start": null,
+            "end": null,
+            "months": null,
+            "raw": "",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "B.Sc. Degree — Yogi Vemana University",
+                  "block_id": "b63",
+                  "kind": "text",
+                  "start": 3562,
+                  "end": 3599
+                }
+              ],
+              "dates": [],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Yogi Vemana University",
+                  "block_id": "b63",
+                  "kind": "text",
+                  "start": 3577,
+                  "end": 3599
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "B.Sc. Degree",
+                  "block_id": "b63",
+                  "kind": "text",
+                  "start": 3562,
+                  "end": 3574
+                }
+              ],
+              "section": "Education",
+              "date_label": "",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 59,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}

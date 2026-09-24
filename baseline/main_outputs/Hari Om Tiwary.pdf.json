@@ -1,0 +1,412 @@
+{
+  "file_name": "Hari Om Tiwary.pdf",
+  "input_mode": "original_document",
+  "input_sha256": "e098b777af9d85ffc848edcefd6e466789f8d5c4cc81b84d5391fcaf405406a4",
+  "doc_id": "e098b777af9d85ffc848edce",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 2,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "ocr_pages": []
+  },
+  "work_experience": [
+    {
+      "id": "v1e6d2cc9d3a4035c",
+      "type": "EMPLOYMENT",
+      "company": "",
+      "title": "Consultant Pune",
+      "start_date": "2021-03",
+      "end_date": "2025-05",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Consultant Pune,Maharashtra",
+            "block_id": "b18",
+            "kind": "pdf",
+            "page_width": 612,
+            "page_height": 792,
+            "bbox": [
+              46.8,
+              313.1369672,
+              570.5951944999999,
+              323.0995672
+            ],
+            "fragment_text": "Consultant Pune, Maharashtra"
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "March2021–May2025",
+            "block_id": "b22",
+            "kind": "pdf",
+            "page_width": 612,
+            "page_height": 792,
+            "bbox": [
+              451.173,
+              385.6982652,
+              570.6058267999999,
+              396.6073652
+            ],
+            "fragment_text": "March 2021 – May 2025"
+          }
+        ],
+        "company": [],
+        "title": [
+          {
+            "page": 1,
+            "text": "Consultant Pune",
+            "block_id": "b18",
+            "kind": "pdf",
+            "page_width": 612,
+            "page_height": 792,
+            "bbox": [
+              46.8,
+              313.1369672,
+              512.9466096,
+              323.0995672
+            ],
+            "fragment_text": "Consultant Pune"
+          }
+        ],
+        "section": "Experience",
+        "date_label": "March2021–May2025",
+        "is_present": false
+      }
+    },
+    {
+      "id": "vb61da2bbfdc3c599",
+      "type": "EMPLOYMENT",
+      "company": "Capgemini",
+      "title": "",
+      "start_date": "2025-06",
+      "end_date": "2026-09",
+      "is_current": true,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Capgemini June2025–Current",
+            "block_id": "b17",
+            "kind": "pdf",
+            "page_width": 612,
+            "page_height": 792,
+            "bbox": [
+              46.8,
+              298.7497197,
+              570.5954462,
+              309.7133652
+            ],
+            "fragment_text": "Capgemini June 2025 – Current"
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "June2025–Current",
+            "block_id": "b17",
+            "kind": "pdf",
+            "page_width": 612,
+            "page_height": 792,
+            "bbox": [
+              471.519,
+              298.8042652,
+              570.5954462,
+              309.7133652
+            ],
+            "fragment_text": "June 2025 – Current"
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Capgemini",
+            "block_id": "b17",
+            "kind": "pdf",
+            "page_width": 612,
+            "page_height": 792,
+            "bbox": [
+              46.8,
+              298.7497197,
+              98.06731545000001,
+              309.6588197
+            ],
+            "fragment_text": "Capgemini"
+          }
+        ],
+        "title": [],
+        "section": "Experience",
+        "date_label": "June2025–Current",
+        "is_present": true
+      }
+    }
+  ],
+  "education": [],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 2,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [],
+  "raw_pipeline_dto": {
+    "doc_id": "e098b777af9d85ffc848edce",
+    "filename": "Hari Om Tiwary.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v1e6d2cc9d3a4035c",
+        "type": "EMPLOYMENT",
+        "title": "Consultant Pune",
+        "org": "",
+        "start": "2021-03",
+        "end": "2025-05",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES",
+          "ASSOC_PROJECT_DATES"
+        ],
+        "quote": "Consultant Pune,Maharashtra",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Consultant Pune,Maharashtra",
+              "block_id": "b18",
+              "kind": "pdf",
+              "page_width": 612,
+              "page_height": 792,
+              "bbox": [
+                46.8,
+                313.1369672,
+                570.5951944999999,
+                323.0995672
+              ],
+              "fragment_text": "Consultant Pune, Maharashtra"
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "March2021–May2025",
+              "block_id": "b22",
+              "kind": "pdf",
+              "page_width": 612,
+              "page_height": 792,
+              "bbox": [
+                451.173,
+                385.6982652,
+                570.6058267999999,
+                396.6073652
+              ],
+              "fragment_text": "March 2021 – May 2025"
+            }
+          ],
+          "company": [],
+          "title": [
+            {
+              "page": 1,
+              "text": "Consultant Pune",
+              "block_id": "b18",
+              "kind": "pdf",
+              "page_width": 612,
+              "page_height": 792,
+              "bbox": [
+                46.8,
+                313.1369672,
+                512.9466096,
+                323.0995672
+              ],
+              "fragment_text": "Consultant Pune"
+            }
+          ],
+          "section": "Experience",
+          "date_label": "March2021–May2025",
+          "is_present": false
+        },
+        "date_label": "March2021–May2025",
+        "section": "Experience",
+        "is_present": false
+      },
+      {
+        "id": "vb61da2bbfdc3c599",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Capgemini",
+        "start": "2025-06",
+        "end": "2026-09",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Capgemini June2025–Current",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Capgemini June2025–Current",
+              "block_id": "b17",
+              "kind": "pdf",
+              "page_width": 612,
+              "page_height": 792,
+              "bbox": [
+                46.8,
+                298.7497197,
+                570.5954462,
+                309.7133652
+              ],
+              "fragment_text": "Capgemini June 2025 – Current"
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "June2025–Current",
+              "block_id": "b17",
+              "kind": "pdf",
+              "page_width": 612,
+              "page_height": 792,
+              "bbox": [
+                471.519,
+                298.8042652,
+                570.5954462,
+                309.7133652
+              ],
+              "fragment_text": "June 2025 – Current"
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Capgemini",
+              "block_id": "b17",
+              "kind": "pdf",
+              "page_width": 612,
+              "page_height": 792,
+              "bbox": [
+                46.8,
+                298.7497197,
+                98.06731545000001,
+                309.6588197
+              ],
+              "fragment_text": "Capgemini"
+            }
+          ],
+          "title": [],
+          "section": "Experience",
+          "date_label": "June2025–Current",
+          "is_present": true
+        },
+        "date_label": "June2025–Current",
+        "section": "Experience",
+        "is_present": true
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "NO_GAP_DETECTED",
+        "confidence": 0.9,
+        "reasons": [],
+        "evidence": {
+          "note": "no uncovered months between supported entries"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 2,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "ocr_pages": []
+    },
+    "total_represented_months": 67,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

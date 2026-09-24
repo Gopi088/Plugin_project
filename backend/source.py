@@ -51,6 +51,8 @@ def locations(block, start=0, end=None):
         a, b = lo - part['start'], hi - part['start']
         chars = [x for x in line['chars'][a:b] if x]
         loc = {'page': line['page'], 'text': block.text[lo:hi], 'block_id': block.id}
+        if line.get('method') == 'ocr':
+            loc['method'] = 'ocr'
         if line['width'] and chars:
             loc.update(kind='pdf', page_width=line['width'], page_height=line['height'],
                        bbox=[min(x['x0'] for x in chars), min(x['top'] for x in chars),
@@ -79,6 +81,8 @@ def entity_span(text, entity):
 
 
 def event_source(ctx, event):
+    if getattr(event, 'project_source', None):
+        return event.project_source
     ent = ctx.entries_by_id().get(event.entry_id)
     blocks = ctx.blocks_by_id()
     mentions = [m for m in ctx.mentions if ent and m.entry_id == ent.id]

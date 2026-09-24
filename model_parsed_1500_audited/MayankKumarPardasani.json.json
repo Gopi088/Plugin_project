@@ -1,0 +1,295 @@
+{
+  "file_name": "MayankKumarPardasani.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "7aa731a5d71c5683a08a55278b9993da262f9015ea8f59b1eb3bda175c35fe73",
+  "doc_id": "7aa731a5d71c5683a08a5527",
+  "candidate_name": "",
+  "status": "PARTIAL",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 1,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "ocr_pages": []
+  },
+  "work_experience": [
+    {
+      "id": "v39d038e3462315f8",
+      "type": "EMPLOYMENT",
+      "company": "Indusind Bank",
+      "title": "ACQUISITION MANAGER",
+      "start_date": "2015-02",
+      "end_date": "2015-11",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "ACQUISITION MANAGER, 02/2015 - 11/2015",
+            "block_id": "b117",
+            "kind": "text",
+            "start": 6354,
+            "end": 6392
+          },
+          {
+            "page": 1,
+            "text": "Indusind Bank",
+            "block_id": "b118",
+            "kind": "text",
+            "start": 6395,
+            "end": 6408
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "02/2015 - 11/2015",
+            "block_id": "b117",
+            "kind": "text",
+            "start": 6375,
+            "end": 6392
+          },
+          {
+            "page": 1,
+            "text": "07/2013",
+            "block_id": "b128",
+            "kind": "text",
+            "start": 6793,
+            "end": 6800
+          },
+          {
+            "page": 1,
+            "text": "07/2011",
+            "block_id": "b130",
+            "kind": "text",
+            "start": 6833,
+            "end": 6840
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Indusind Bank",
+            "block_id": "b118",
+            "kind": "text",
+            "start": 6395,
+            "end": 6408
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "ACQUISITION MANAGER",
+            "block_id": "b117",
+            "kind": "text",
+            "start": 6354,
+            "end": 6373
+          }
+        ],
+        "section": "ROLE- UAT LEAD/TEAM MANAGER, 08/2022 - 06/2025",
+        "date_label": "02/2015 - 11/2015",
+        "is_present": false
+      }
+    }
+  ],
+  "education": [],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 1,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "PARTIAL",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [],
+  "raw_pipeline_dto": {
+    "doc_id": "7aa731a5d71c5683a08a5527",
+    "filename": "MayankKumarPardasani.pdf",
+    "candidate_name": "",
+    "status": "PARTIAL",
+    "timeline": [
+      {
+        "id": "v39d038e3462315f8",
+        "type": "EMPLOYMENT",
+        "title": "ACQUISITION MANAGER",
+        "org": "Indusind Bank",
+        "start": "2015-02",
+        "end": "2015-11",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "ACQUISITION MANAGER, 02/2015 - 11/2015\nIndusind Bank",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "ACQUISITION MANAGER, 02/2015 - 11/2015",
+              "block_id": "b117",
+              "kind": "text",
+              "start": 6354,
+              "end": 6392
+            },
+            {
+              "page": 1,
+              "text": "Indusind Bank",
+              "block_id": "b118",
+              "kind": "text",
+              "start": 6395,
+              "end": 6408
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "02/2015 - 11/2015",
+              "block_id": "b117",
+              "kind": "text",
+              "start": 6375,
+              "end": 6392
+            },
+            {
+              "page": 1,
+              "text": "07/2013",
+              "block_id": "b128",
+              "kind": "text",
+              "start": 6793,
+              "end": 6800
+            },
+            {
+              "page": 1,
+              "text": "07/2011",
+              "block_id": "b130",
+              "kind": "text",
+              "start": 6833,
+              "end": 6840
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Indusind Bank",
+              "block_id": "b118",
+              "kind": "text",
+              "start": 6395,
+              "end": 6408
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "ACQUISITION MANAGER",
+              "block_id": "b117",
+              "kind": "text",
+              "start": 6354,
+              "end": 6373
+            }
+          ],
+          "section": "ROLE- UAT LEAD/TEAM MANAGER, 08/2022 - 06/2025",
+          "date_label": "02/2015 - 11/2015",
+          "is_present": false
+        },
+        "date_label": "02/2015 - 11/2015",
+        "section": "ROLE- UAT LEAD/TEAM MANAGER, 08/2022 - 06/2025",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 1,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "ocr_pages": []
+    },
+    "total_represented_months": 10,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "PARTIAL",
+        "confidence": 0.6
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

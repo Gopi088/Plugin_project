@@ -1,0 +1,687 @@
+{
+  "file_name": "Yerram-Sushma.docx",
+  "input_mode": "text_snapshot",
+  "input_sha256": "c9f88876de01996281fe6a91ee405748949512820a36337896146d13952a8863",
+  "doc_id": "c9f88876de01996281fe6a91",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 2,
+    "total_events": 2,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.9,
+    "ocr_pages": []
+  },
+  "work_experience": [
+    {
+      "id": "v208ebe557874c3cb",
+      "type": "EMPLOYMENT",
+      "company": "AVK Software Solutions Pvt.Ltd",
+      "title": "",
+      "start_date": "2022-05",
+      "end_date": "2022-12",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "AVK Software Solutions Pvt.Ltd\t05/2022 – 12/2022",
+            "block_id": "b24",
+            "kind": "text",
+            "start": 2844,
+            "end": 2892
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "05/2022 – 12/2022",
+            "block_id": "b24",
+            "kind": "text",
+            "start": 2875,
+            "end": 2892
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "AVK Software Solutions Pvt.Ltd",
+            "block_id": "b24",
+            "kind": "text",
+            "start": 2844,
+            "end": 2874
+          }
+        ],
+        "title": [],
+        "section": "Power Platform Developer VN2 Solutions Pvt. Ltd",
+        "date_label": "05/2022 – 12/2022",
+        "is_present": false
+      }
+    },
+    {
+      "id": "vf2f30c7505372fde",
+      "type": "EMPLOYMENT",
+      "company": "Utsah Sotware SolutionsPvt.Ltd",
+      "title": "",
+      "start_date": "2023-01",
+      "end_date": "2025-06",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.9,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Utsah Sotware SolutionsPvt.Ltd\t01/2023 – 06/2025",
+            "block_id": "b17",
+            "kind": "text",
+            "start": 2033,
+            "end": 2081
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "01/2023 – 06/2025",
+            "block_id": "b17",
+            "kind": "text",
+            "start": 2064,
+            "end": 2081
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Utsah Sotware SolutionsPvt.Ltd",
+            "block_id": "b17",
+            "kind": "text",
+            "start": 2033,
+            "end": 2063
+          }
+        ],
+        "title": [],
+        "section": "Power Platform Developer VN2 Solutions Pvt. Ltd",
+        "date_label": "01/2023 – 06/2025",
+        "is_present": false
+      }
+    }
+  ],
+  "education": [],
+  "projects": [
+    {
+      "id": "proj_1",
+      "name": "HR Policy & Leave Management Copilot",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Built an Intelligent HR Copilot using Copilot Studio to answer employee queries on HR policies, leave balances, and holidays using Generative AI (RAG).",
+        "Integrated SharePoint as a knowledge source and Dataverse to store leave requests, balances, and approval history with role-based security.",
+        "Developed Power Automate flows for multi-level leave approvals, automated notifications, reminders, and status updates.",
+        "Connected Copilot and leave workflows with Power Apps (Canvas App) and deployed the solution in Microsoft Teams with Azure AD authentication.",
+        "Implemented fallback topics, human escalation, error handling, and DLP policies to ensure secure, reliable, and enterprise-compliant automation."
+      ],
+      "raw_text": "Project: Intelligent HR Policy & Leave Management Copilot",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project: Intelligent HR Policy & Leave Management Copilot",
+            "block_id": "b18",
+            "kind": "text",
+            "start": 2082,
+            "end": 2139
+          },
+          {
+            "page": 1,
+            "text": "Built an Intelligent HR Copilot using Copilot Studio to answer employee queries on HR policies, leave balances, and holidays using Generative AI (RAG).",
+            "block_id": "b19",
+            "kind": "text",
+            "start": 2141,
+            "end": 2292
+          },
+          {
+            "page": 1,
+            "text": "Integrated SharePoint as a knowledge source and Dataverse to store leave requests, balances, and approval history with role-based security.",
+            "block_id": "b20",
+            "kind": "text",
+            "start": 2294,
+            "end": 2433
+          },
+          {
+            "page": 1,
+            "text": "Developed Power Automate flows for multi-level leave approvals, automated notifications, reminders, and status updates.",
+            "block_id": "b21",
+            "kind": "text",
+            "start": 2435,
+            "end": 2554
+          },
+          {
+            "page": 1,
+            "text": "Connected Copilot and leave workflows with Power Apps (Canvas App) and deployed the solution in Microsoft Teams with Azure AD authentication.",
+            "block_id": "b22",
+            "kind": "text",
+            "start": 2556,
+            "end": 2697
+          },
+          {
+            "page": 1,
+            "text": "Implemented fallback topics, human escalation, error handling, and DLP policies to ensure secure, reliable, and enterprise-compliant automation.",
+            "block_id": "b23",
+            "kind": "text",
+            "start": 2699,
+            "end": 2843
+          }
+        ]
+      }
+    },
+    {
+      "id": "proj_2",
+      "name": "Management & Resource Allocation Copilot",
+      "client": "",
+      "role": "",
+      "duration": "",
+      "details": [
+        "Developed a Project Management Copilot using Copilot Studio to answer queries on project status, milestones, and resource allocation.",
+        "Integrated Dataverse and SharePoint lists to track projects, tasks, and resource availability.  Automated task updates, approval workflows, and notifications using Power Automate.",
+        "Built a Power Apps Canvas App for project and task management with role-based access.  Deployed the Copilot in Microsoft Teams with user-context–based responses",
+        "Primary Skills: Microsoft Power Apps(Canvas, Model-Driven), Power Automate, Microsoft Copilot Studio, Power Fx, Microsoft 365 Integration, Power BI",
+        "Database Technology: Share point, Dataverse, Salesforce, SQL Server, On Premises data gateway",
+        "Integration & Automation: REST APIʼs, AI Builder",
+        "Extensive exposure to Power Apps Canvas App development, including multi-role interfaces, dynamic forms, galleries, validations, and interactive dashboards.",
+        "Strong hands-on experience with Power Automate workflows such as approvals, escalations, SLA monitoring, Teams/Outlook integration, AI Builder extraction, and REST API-based connectivity. Skilled in designing and managing Dataverse schemas, relationships, security roles, and implementing end-to-end business logic using tables, lookups, and automated updates.",
+        "Exposure to Power BI reporting and analytics, building dashboards for SLA tracking, attendance insights, invoice lifecycle trends, and department performance metrics.",
+        "Exposure to designing and deploying Copilot solutions using Copilot Studio, integrating Generative AI (RAG), enterprise knowledge sources, and Power Automate workflows to support intelligent, secure business automation."
+      ],
+      "raw_text": "Project: Project Management & Resource Allocation Copilot",
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "Project: Project Management & Resource Allocation Copilot",
+            "block_id": "b25",
+            "kind": "text",
+            "start": 2893,
+            "end": 2950
+          },
+          {
+            "page": 1,
+            "text": "Developed a Project Management Copilot using Copilot Studio to answer queries on project status, milestones, and resource allocation.",
+            "block_id": "b26",
+            "kind": "text",
+            "start": 2952,
+            "end": 3085
+          },
+          {
+            "page": 1,
+            "text": "Integrated Dataverse and SharePoint lists to track projects, tasks, and resource availability.  Automated task updates, approval workflows, and notifications using Power Automate.",
+            "block_id": "b27",
+            "kind": "text",
+            "start": 3087,
+            "end": 3266
+          },
+          {
+            "page": 1,
+            "text": "Built a Power Apps Canvas App for project and task management with role-based access.  Deployed the Copilot in Microsoft Teams with user-context–based responses",
+            "block_id": "b28",
+            "kind": "text",
+            "start": 3268,
+            "end": 3428
+          },
+          {
+            "page": 1,
+            "text": "Primary Skills: Microsoft Power Apps(Canvas, Model-Driven), Power Automate, Microsoft Copilot Studio, Power Fx, Microsoft 365 Integration, Power BI",
+            "block_id": "b29",
+            "kind": "text",
+            "start": 3429,
+            "end": 3576
+          },
+          {
+            "page": 1,
+            "text": "Database Technology: Share point, Dataverse, Salesforce, SQL Server, On Premises data gateway",
+            "block_id": "b30",
+            "kind": "text",
+            "start": 3577,
+            "end": 3670
+          },
+          {
+            "page": 1,
+            "text": "Integration & Automation: REST APIʼs, AI Builder",
+            "block_id": "b31",
+            "kind": "text",
+            "start": 3671,
+            "end": 3719
+          },
+          {
+            "page": 1,
+            "text": "Extensive exposure to Power Apps Canvas App development, including multi-role interfaces, dynamic forms, galleries, validations, and interactive dashboards.",
+            "block_id": "b32",
+            "kind": "text",
+            "start": 3720,
+            "end": 3876
+          },
+          {
+            "page": 1,
+            "text": "Strong hands-on experience with Power Automate workflows such as approvals, escalations, SLA monitoring, Teams/Outlook integration, AI Builder extraction, and REST API-based connectivity. Skilled in designing and managing Dataverse schemas, relationships, security roles, and implementing end-to-end business logic using tables, lookups, and automated updates.",
+            "block_id": "b33",
+            "kind": "text",
+            "start": 3877,
+            "end": 4237
+          },
+          {
+            "page": 1,
+            "text": "Exposure to Power BI reporting and analytics, building dashboards for SLA tracking, attendance insights, invoice lifecycle trends, and department performance metrics.",
+            "block_id": "b34",
+            "kind": "text",
+            "start": 4238,
+            "end": 4404
+          },
+          {
+            "page": 1,
+            "text": "Exposure to designing and deploying Copilot solutions using Copilot Studio, integrating Generative AI (RAG), enterprise knowledge sources, and Power Automate workflows to support intelligent, secure business automation.",
+            "block_id": "b35",
+            "kind": "text",
+            "start": 4405,
+            "end": 4624
+          }
+        ]
+      }
+    }
+  ],
+  "gaps": [],
+  "total_work_experience_entries": 2,
+  "total_projects_entries": 2,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [],
+  "raw_pipeline_dto": {
+    "doc_id": "c9f88876de01996281fe6a91",
+    "filename": "Yerram-Sushma.docx",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v208ebe557874c3cb",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "AVK Software Solutions Pvt.Ltd",
+        "start": "2022-05",
+        "end": "2022-12",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "AVK Software Solutions Pvt.Ltd\t05/2022 – 12/2022",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "AVK Software Solutions Pvt.Ltd\t05/2022 – 12/2022",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 2844,
+              "end": 2892
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "05/2022 – 12/2022",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 2875,
+              "end": 2892
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "AVK Software Solutions Pvt.Ltd",
+              "block_id": "b24",
+              "kind": "text",
+              "start": 2844,
+              "end": 2874
+            }
+          ],
+          "title": [],
+          "section": "Power Platform Developer VN2 Solutions Pvt. Ltd",
+          "date_label": "05/2022 – 12/2022",
+          "is_present": false
+        },
+        "date_label": "05/2022 – 12/2022",
+        "section": "Power Platform Developer VN2 Solutions Pvt. Ltd",
+        "is_present": false
+      },
+      {
+        "id": "vf2f30c7505372fde",
+        "type": "EMPLOYMENT",
+        "title": "",
+        "org": "Utsah Sotware SolutionsPvt.Ltd",
+        "start": "2023-01",
+        "end": "2025-06",
+        "precision": "month",
+        "status": "CONFIRMED",
+        "confidence": 0.9,
+        "reasons": [
+          "EVENT_EMPLOYMENT_CUES"
+        ],
+        "quote": "Utsah Sotware SolutionsPvt.Ltd\t01/2023 – 06/2025",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Utsah Sotware SolutionsPvt.Ltd\t01/2023 – 06/2025",
+              "block_id": "b17",
+              "kind": "text",
+              "start": 2033,
+              "end": 2081
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "01/2023 – 06/2025",
+              "block_id": "b17",
+              "kind": "text",
+              "start": 2064,
+              "end": 2081
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Utsah Sotware SolutionsPvt.Ltd",
+              "block_id": "b17",
+              "kind": "text",
+              "start": 2033,
+              "end": 2063
+            }
+          ],
+          "title": [],
+          "section": "Power Platform Developer VN2 Solutions Pvt. Ltd",
+          "date_label": "01/2023 – 06/2025",
+          "is_present": false
+        },
+        "date_label": "01/2023 – 06/2025",
+        "section": "Power Platform Developer VN2 Solutions Pvt. Ltd",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [
+      {
+        "id": "proj_1",
+        "name": "HR Policy & Leave Management Copilot",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Built an Intelligent HR Copilot using Copilot Studio to answer employee queries on HR policies, leave balances, and holidays using Generative AI (RAG).",
+          "Integrated SharePoint as a knowledge source and Dataverse to store leave requests, balances, and approval history with role-based security.",
+          "Developed Power Automate flows for multi-level leave approvals, automated notifications, reminders, and status updates.",
+          "Connected Copilot and leave workflows with Power Apps (Canvas App) and deployed the solution in Microsoft Teams with Azure AD authentication.",
+          "Implemented fallback topics, human escalation, error handling, and DLP policies to ensure secure, reliable, and enterprise-compliant automation."
+        ],
+        "raw_text": "Project: Intelligent HR Policy & Leave Management Copilot",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project: Intelligent HR Policy & Leave Management Copilot",
+              "block_id": "b18",
+              "kind": "text",
+              "start": 2082,
+              "end": 2139
+            },
+            {
+              "page": 1,
+              "text": "Built an Intelligent HR Copilot using Copilot Studio to answer employee queries on HR policies, leave balances, and holidays using Generative AI (RAG).",
+              "block_id": "b19",
+              "kind": "text",
+              "start": 2141,
+              "end": 2292
+            },
+            {
+              "page": 1,
+              "text": "Integrated SharePoint as a knowledge source and Dataverse to store leave requests, balances, and approval history with role-based security.",
+              "block_id": "b20",
+              "kind": "text",
+              "start": 2294,
+              "end": 2433
+            },
+            {
+              "page": 1,
+              "text": "Developed Power Automate flows for multi-level leave approvals, automated notifications, reminders, and status updates.",
+              "block_id": "b21",
+              "kind": "text",
+              "start": 2435,
+              "end": 2554
+            },
+            {
+              "page": 1,
+              "text": "Connected Copilot and leave workflows with Power Apps (Canvas App) and deployed the solution in Microsoft Teams with Azure AD authentication.",
+              "block_id": "b22",
+              "kind": "text",
+              "start": 2556,
+              "end": 2697
+            },
+            {
+              "page": 1,
+              "text": "Implemented fallback topics, human escalation, error handling, and DLP policies to ensure secure, reliable, and enterprise-compliant automation.",
+              "block_id": "b23",
+              "kind": "text",
+              "start": 2699,
+              "end": 2843
+            }
+          ]
+        }
+      },
+      {
+        "id": "proj_2",
+        "name": "Management & Resource Allocation Copilot",
+        "client": "",
+        "role": "",
+        "duration": "",
+        "details": [
+          "Developed a Project Management Copilot using Copilot Studio to answer queries on project status, milestones, and resource allocation.",
+          "Integrated Dataverse and SharePoint lists to track projects, tasks, and resource availability.  Automated task updates, approval workflows, and notifications using Power Automate.",
+          "Built a Power Apps Canvas App for project and task management with role-based access.  Deployed the Copilot in Microsoft Teams with user-context–based responses",
+          "Primary Skills: Microsoft Power Apps(Canvas, Model-Driven), Power Automate, Microsoft Copilot Studio, Power Fx, Microsoft 365 Integration, Power BI",
+          "Database Technology: Share point, Dataverse, Salesforce, SQL Server, On Premises data gateway",
+          "Integration & Automation: REST APIʼs, AI Builder",
+          "Extensive exposure to Power Apps Canvas App development, including multi-role interfaces, dynamic forms, galleries, validations, and interactive dashboards.",
+          "Strong hands-on experience with Power Automate workflows such as approvals, escalations, SLA monitoring, Teams/Outlook integration, AI Builder extraction, and REST API-based connectivity. Skilled in designing and managing Dataverse schemas, relationships, security roles, and implementing end-to-end business logic using tables, lookups, and automated updates.",
+          "Exposure to Power BI reporting and analytics, building dashboards for SLA tracking, attendance insights, invoice lifecycle trends, and department performance metrics.",
+          "Exposure to designing and deploying Copilot solutions using Copilot Studio, integrating Generative AI (RAG), enterprise knowledge sources, and Power Automate workflows to support intelligent, secure business automation."
+        ],
+        "raw_text": "Project: Project Management & Resource Allocation Copilot",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "Project: Project Management & Resource Allocation Copilot",
+              "block_id": "b25",
+              "kind": "text",
+              "start": 2893,
+              "end": 2950
+            },
+            {
+              "page": 1,
+              "text": "Developed a Project Management Copilot using Copilot Studio to answer queries on project status, milestones, and resource allocation.",
+              "block_id": "b26",
+              "kind": "text",
+              "start": 2952,
+              "end": 3085
+            },
+            {
+              "page": 1,
+              "text": "Integrated Dataverse and SharePoint lists to track projects, tasks, and resource availability.  Automated task updates, approval workflows, and notifications using Power Automate.",
+              "block_id": "b27",
+              "kind": "text",
+              "start": 3087,
+              "end": 3266
+            },
+            {
+              "page": 1,
+              "text": "Built a Power Apps Canvas App for project and task management with role-based access.  Deployed the Copilot in Microsoft Teams with user-context–based responses",
+              "block_id": "b28",
+              "kind": "text",
+              "start": 3268,
+              "end": 3428
+            },
+            {
+              "page": 1,
+              "text": "Primary Skills: Microsoft Power Apps(Canvas, Model-Driven), Power Automate, Microsoft Copilot Studio, Power Fx, Microsoft 365 Integration, Power BI",
+              "block_id": "b29",
+              "kind": "text",
+              "start": 3429,
+              "end": 3576
+            },
+            {
+              "page": 1,
+              "text": "Database Technology: Share point, Dataverse, Salesforce, SQL Server, On Premises data gateway",
+              "block_id": "b30",
+              "kind": "text",
+              "start": 3577,
+              "end": 3670
+            },
+            {
+              "page": 1,
+              "text": "Integration & Automation: REST APIʼs, AI Builder",
+              "block_id": "b31",
+              "kind": "text",
+              "start": 3671,
+              "end": 3719
+            },
+            {
+              "page": 1,
+              "text": "Extensive exposure to Power Apps Canvas App development, including multi-role interfaces, dynamic forms, galleries, validations, and interactive dashboards.",
+              "block_id": "b32",
+              "kind": "text",
+              "start": 3720,
+              "end": 3876
+            },
+            {
+              "page": 1,
+              "text": "Strong hands-on experience with Power Automate workflows such as approvals, escalations, SLA monitoring, Teams/Outlook integration, AI Builder extraction, and REST API-based connectivity. Skilled in designing and managing Dataverse schemas, relationships, security roles, and implementing end-to-end business logic using tables, lookups, and automated updates.",
+              "block_id": "b33",
+              "kind": "text",
+              "start": 3877,
+              "end": 4237
+            },
+            {
+              "page": 1,
+              "text": "Exposure to Power BI reporting and analytics, building dashboards for SLA tracking, attendance insights, invoice lifecycle trends, and department performance metrics.",
+              "block_id": "b34",
+              "kind": "text",
+              "start": 4238,
+              "end": 4404
+            },
+            {
+              "page": 1,
+              "text": "Exposure to designing and deploying Copilot solutions using Copilot Studio, integrating Generative AI (RAG), enterprise knowledge sources, and Power Automate workflows to support intelligent, secure business automation.",
+              "block_id": "b35",
+              "kind": "text",
+              "start": 4405,
+              "end": 4624
+            }
+          ]
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "NO_GAP_DETECTED",
+        "confidence": 0.9,
+        "reasons": [],
+        "evidence": {
+          "note": "no uncovered months between supported entries"
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 2,
+      "total_events": 2,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.9,
+      "ocr_pages": []
+    },
+    "total_represented_months": 38,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision."
+  }
+}

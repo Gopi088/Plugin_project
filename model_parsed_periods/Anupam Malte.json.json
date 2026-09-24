@@ -1,0 +1,493 @@
+{
+  "file_name": "Anupam Malte.pdf",
+  "input_mode": "text_snapshot",
+  "input_sha256": "c4089f300ced39c18cf3d9bbf9685a2295c8eef0695df18737641670c1eec4b9",
+  "doc_id": "c4089f300ced39c18cf3d9bb",
+  "candidate_name": "",
+  "status": "SUCCESS",
+  "quality": {
+    "dated_events": 1,
+    "total_events": 1,
+    "dated_share": 1.0,
+    "unresolved": 0,
+    "ambiguous": 0,
+    "mean_event_confidence": 0.722,
+    "document_accuracy": 0.72
+  },
+  "work_experience": [],
+  "education": [
+    {
+      "id": "v9caa3bd55d1b699b",
+      "type": "EDUCATION",
+      "company": "Institute for Technology and Management",
+      "title": "MBA in Finance",
+      "start_date": "2008-01",
+      "end_date": "2010-12",
+      "is_current": false,
+      "status": "CONFIRMED",
+      "confidence": 0.722,
+      "source": {
+        "entry": [
+          {
+            "page": 1,
+            "text": "MBA in Finance from Institute for Technology and Management (2008-2010)",
+            "block_id": "b18",
+            "kind": "text",
+            "start": 950,
+            "end": 1021
+          }
+        ],
+        "dates": [
+          {
+            "page": 1,
+            "text": "2008-2010",
+            "block_id": "b18",
+            "kind": "text",
+            "start": 1011,
+            "end": 1020
+          }
+        ],
+        "company": [
+          {
+            "page": 1,
+            "text": "Institute for Technology and Management",
+            "block_id": "b18",
+            "kind": "text",
+            "start": 970,
+            "end": 1009
+          }
+        ],
+        "title": [
+          {
+            "page": 1,
+            "text": "MBA in Finance",
+            "block_id": "b18",
+            "kind": "text",
+            "start": 950,
+            "end": 964
+          }
+        ],
+        "section": "MBA in Finance from Institute for Technology and Management (2008-2010)",
+        "date_label": "2008-2010",
+        "is_present": false
+      },
+      "precision": "year",
+      "date_label": "2008-2010"
+    }
+  ],
+  "projects": [],
+  "gaps": [],
+  "total_work_experience_entries": 0,
+  "total_projects_entries": 0,
+  "total_gaps_detected": 0,
+  "stage_statuses": {
+    "document_processing": "SUCCESS",
+    "text_representation": "SUCCESS",
+    "section_detection": "SUCCESS",
+    "entry_segmentation": "SUCCESS",
+    "date_extraction": "SUCCESS",
+    "date_association": "SUCCESS",
+    "event_classification": "SUCCESS",
+    "timeline_reconciliation": "SUCCESS",
+    "coverage_analysis": "SUCCESS",
+    "gap_detection": "SUCCESS",
+    "confidence_evidence": "SUCCESS",
+    "recruiter_output": "SUCCESS"
+  },
+  "errors": [],
+  "warnings": [
+    "section EDUCATION: entry without dated header preserved as-is"
+  ],
+  "raw_pipeline_dto": {
+    "doc_id": "c4089f300ced39c18cf3d9bb",
+    "filename": "Anupam Malte.pdf",
+    "candidate_name": "",
+    "status": "SUCCESS",
+    "timeline": [
+      {
+        "id": "v9caa3bd55d1b699b",
+        "type": "EDUCATION",
+        "title": "MBA in Finance",
+        "org": "Institute for Technology and Management",
+        "start": "2008-01",
+        "end": "2010-12",
+        "precision": "year",
+        "status": "CONFIRMED",
+        "confidence": 0.722,
+        "reasons": [
+          "EVENT_EDUCATION_CUES"
+        ],
+        "quote": "MBA in Finance from Institute for Technology and Management (2008-2010)",
+        "source": {
+          "entry": [
+            {
+              "page": 1,
+              "text": "MBA in Finance from Institute for Technology and Management (2008-2010)",
+              "block_id": "b18",
+              "kind": "text",
+              "start": 950,
+              "end": 1021
+            }
+          ],
+          "dates": [
+            {
+              "page": 1,
+              "text": "2008-2010",
+              "block_id": "b18",
+              "kind": "text",
+              "start": 1011,
+              "end": 1020
+            }
+          ],
+          "company": [
+            {
+              "page": 1,
+              "text": "Institute for Technology and Management",
+              "block_id": "b18",
+              "kind": "text",
+              "start": 970,
+              "end": 1009
+            }
+          ],
+          "title": [
+            {
+              "page": 1,
+              "text": "MBA in Finance",
+              "block_id": "b18",
+              "kind": "text",
+              "start": 950,
+              "end": 964
+            }
+          ],
+          "section": "MBA in Finance from Institute for Technology and Management (2008-2010)",
+          "date_label": "2008-2010",
+          "is_present": false
+        },
+        "date_label": "2008-2010",
+        "section": "MBA in Finance from Institute for Technology and Management (2008-2010)",
+        "is_present": false
+      }
+    ],
+    "unresolved_events": [],
+    "projects": [],
+    "gaps": [
+      {
+        "id": "g0",
+        "start": null,
+        "end": null,
+        "months": 0,
+        "state": "INSUFFICIENT_EVIDENCE",
+        "confidence": 0.4,
+        "reasons": [
+          "INSUFFICIENT_DATES"
+        ],
+        "evidence": {
+          "note": "insufficient reliable date coverage; no gap inference possible",
+          "uncertain_event_ids": []
+        },
+        "evidence_quotes": [],
+        "evidence_details": []
+      }
+    ],
+    "quality": {
+      "dated_events": 1,
+      "total_events": 1,
+      "dated_share": 1.0,
+      "unresolved": 0,
+      "ambiguous": 0,
+      "mean_event_confidence": 0.722,
+      "document_accuracy": 0.72
+    },
+    "total_represented_months": 36,
+    "stages": {
+      "document_processing": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "text_representation": {
+        "status": "SUCCESS",
+        "confidence": 0.95
+      },
+      "section_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "entry_segmentation": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "date_extraction": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "date_association": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "event_classification": {
+        "status": "SUCCESS",
+        "confidence": 0.8
+      },
+      "timeline_reconciliation": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "coverage_analysis": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      },
+      "gap_detection": {
+        "status": "SUCCESS",
+        "confidence": 0.85
+      },
+      "confidence_evidence": {
+        "status": "SUCCESS",
+        "confidence": 0.9
+      }
+    },
+    "model_versions": {},
+    "disclaimer": "Potential gaps mark periods with no clearly represented activity in the resume. They are not evidence of unemployment. The recruiter makes the final decision.",
+    "period_analysis": {
+      "categories": {
+        "work_experience": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        },
+        "projects": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 0,
+          "dated_periods": 0,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 0,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": []
+        },
+        "education": {
+          "all_entries_month_precise": false,
+          "unrepresented_periods_in_category": [],
+          "entries": 1,
+          "dated_periods": 1,
+          "represented_months": 0,
+          "overlap_months": 0,
+          "states": {
+            "month_range": 0,
+            "year_range": 1,
+            "single_date": 0,
+            "duration_only": 0,
+            "undated": 0,
+            "ambiguous": 0,
+            "invalid": 0
+          },
+          "periods": [
+            {
+              "id": "v9caa3bd55d1b699b",
+              "label": "MBA in Finance",
+              "state": "year_range",
+              "start": [
+                2008,
+                1
+              ],
+              "end": [
+                2010,
+                12
+              ],
+              "months": null,
+              "raw": "2008-2010",
+              "source": {
+                "entry": [
+                  {
+                    "page": 1,
+                    "text": "MBA in Finance from Institute for Technology and Management (2008-2010)",
+                    "block_id": "b18",
+                    "kind": "text",
+                    "start": 950,
+                    "end": 1021
+                  }
+                ],
+                "dates": [
+                  {
+                    "page": 1,
+                    "text": "2008-2010",
+                    "block_id": "b18",
+                    "kind": "text",
+                    "start": 1011,
+                    "end": 1020
+                  }
+                ],
+                "company": [
+                  {
+                    "page": 1,
+                    "text": "Institute for Technology and Management",
+                    "block_id": "b18",
+                    "kind": "text",
+                    "start": 970,
+                    "end": 1009
+                  }
+                ],
+                "title": [
+                  {
+                    "page": 1,
+                    "text": "MBA in Finance",
+                    "block_id": "b18",
+                    "kind": "text",
+                    "start": 950,
+                    "end": 964
+                  }
+                ],
+                "section": "MBA in Finance from Institute for Technology and Management (2008-2010)",
+                "date_label": "2008-2010",
+                "is_present": false
+              }
+            }
+          ]
+        }
+      },
+      "represented_months": 0,
+      "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+    }
+  },
+  "period_analysis": {
+    "categories": {
+      "work_experience": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      },
+      "projects": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 0,
+        "dated_periods": 0,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 0,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": []
+      },
+      "education": {
+        "all_entries_month_precise": false,
+        "unrepresented_periods_in_category": [],
+        "entries": 1,
+        "dated_periods": 1,
+        "represented_months": 0,
+        "overlap_months": 0,
+        "states": {
+          "month_range": 0,
+          "year_range": 1,
+          "single_date": 0,
+          "duration_only": 0,
+          "undated": 0,
+          "ambiguous": 0,
+          "invalid": 0
+        },
+        "periods": [
+          {
+            "id": "v9caa3bd55d1b699b",
+            "label": "MBA in Finance",
+            "state": "year_range",
+            "start": [
+              2008,
+              1
+            ],
+            "end": [
+              2010,
+              12
+            ],
+            "months": null,
+            "raw": "2008-2010",
+            "source": {
+              "entry": [
+                {
+                  "page": 1,
+                  "text": "MBA in Finance from Institute for Technology and Management (2008-2010)",
+                  "block_id": "b18",
+                  "kind": "text",
+                  "start": 950,
+                  "end": 1021
+                }
+              ],
+              "dates": [
+                {
+                  "page": 1,
+                  "text": "2008-2010",
+                  "block_id": "b18",
+                  "kind": "text",
+                  "start": 1011,
+                  "end": 1020
+                }
+              ],
+              "company": [
+                {
+                  "page": 1,
+                  "text": "Institute for Technology and Management",
+                  "block_id": "b18",
+                  "kind": "text",
+                  "start": 970,
+                  "end": 1009
+                }
+              ],
+              "title": [
+                {
+                  "page": 1,
+                  "text": "MBA in Finance",
+                  "block_id": "b18",
+                  "kind": "text",
+                  "start": 950,
+                  "end": 964
+                }
+              ],
+              "section": "MBA in Finance from Institute for Technology and Management (2008-2010)",
+              "date_label": "2008-2010",
+              "is_present": false
+            }
+          }
+        ]
+      }
+    },
+    "represented_months": 0,
+    "definition": "Inclusive calendar months, overlaps counted once. Year-only/single dates and unplaced durations do not establish precise monthly coverage."
+  }
+}
