@@ -96,7 +96,7 @@ class TestPipeline(unittest.TestCase):
             self.assertTrue(chain["links"])
 
 
-    def test_employer_inherits_project_dates(self):
+    def test_project_periods_do_not_invent_employer_tenure(self):
         text = """Candidate Name
 PROFESSIONAL EXPERIENCE
 Company: Infosys Technologies
@@ -113,10 +113,14 @@ Duration: Jan 2023 - May 2024
         self.assertEqual(len(jobs), 1)
         self.assertEqual(jobs[0].title, "Software Engineer")
         self.assertEqual(jobs[0].org, "Infosys Technologies")
-        self.assertEqual(jobs[0].start, (2021, 1))
-        self.assertEqual(jobs[0].end, (2024, 5))
-        self.assertEqual(jobs[0].status, "CONFIRMED")
-        self.assertIn("ASSOC_PROJECT_DATES", jobs[0].reasons)
+        self.assertIsNone(jobs[0].start)
+        self.assertIsNone(jobs[0].end)
+        self.assertEqual(jobs[0].status, "UNRESOLVED")
+        projects = [e for e in ctx.events if e.type == "PROJECT"]
+        self.assertEqual(sorted((e.start, e.end) for e in projects),
+                         [((2021, 1), (2022, 12)), ((2023, 1), (2024, 5))])
+        self.assertTrue(all(e.source['dates'] for e in projects))
+        self.assertEqual(ctx.recruiter_output['period_analysis']['categories']['projects']['represented_months'], 41)
 
     def test_no_random_project_career_entries(self):
         text = """Chaitanya Developer
@@ -201,6 +205,63 @@ Duration : 3 Months
         durs = [p["duration"] for p in projects]
         self.assertIn("1 Month", durs)
         self.assertIn("3 Months", durs)
+
+    def test_ashwini_pattern_details_header_projects_and_conflict(self):
+        # Regression: bare "Details:" must not split the PROJECTS section;
+        # "Project: N:" prefixes must be stripped; a project extending past
+        # its parent employer must raise DATE_CONFLICT with both gap readings.
+        text = """A A Ashwini
+WORK EXPERIENCE
+• Sonata Software Ltd : Dec 2023- till now
+• Tiger Analytics : May 2022 – Nov 2023
+• Tech Mahindra : July 2018- May 2019
+PROJECTS and POCs:
+POC: 1
+Title: Intelligent Document Question Answering using RAG
+Details:
+• Objective line.
+Project: 1
+Client Name: Microsoft
+Role: Senior Digital Engineer
+Duration: Dec-23 to Dec-24
+• Did cloud work.
+Project: 7
+Client Name: PepsiCo
+Role: Associate Software Engineer
+Duration: Dec-18 to Jan-20
+• Built reports.
+EDUCATION
+B.E in CIVIL Engineering from GITAM School of Technology 2013-2017
+"""
+        ctx = run_text(text)
+        projects = ctx.recruiter_output.get("projects", [])
+        by_client = {p["client"]: p for p in projects}
+        self.assertIn("Microsoft", by_client)
+        self.assertIn("PepsiCo", by_client)
+        self.assertEqual(by_client["Microsoft"]["duration"], "Dec-23 to Dec-24")
+        self.assertEqual(by_client["Microsoft"]["role"], "Senior Digital Engineer")
+        self.assertEqual(by_client["PepsiCo"]["duration"], "Dec-18 to Jan-20")
+        # No "Project: N:" prefixes left in names (POC identifier kept as-is).
+        import re as _re
+        for p in projects:
+            self.assertFalse(_re.match(r"(?i)^\s*project\s*[-#:]*\s*\d+\s*[:\-–.]", p["name"]),
+                             f"prefix not stripped: {p['name']!r}")
+        # PepsiCo project (Dec-18 to Jan-20) extends past Tech Mahindra (ends May 2019).
+        pepsi = next(e for e in ctx.events if e.type == "PROJECT" and e.org == "PepsiCo")
+        self.assertIn("DATE_CONFLICT", pepsi.reasons)
+        self.assertTrue(pepsi.conflict["extends_after_employment"])
+        self.assertEqual(pepsi.conflict["parent_org"], "Tech Mahindra")
+        self.assertLess(pepsi.confidence, 0.85)
+        # Gap reported under both interpretations.
+        gaps = [g for g in ctx.recruiter_output.get("gaps", []) if g.get("state") == "POTENTIAL_GAP"]
+        self.assertTrue(gaps)
+        interp = gaps[0]["evidence"]["interpretations"]
+        self.assertIn("all_dated_activity", interp)
+        self.assertIn("employment_only", interp)
+        emp = interp["employment_only"]
+        emp_months = emp[0]["months"] if isinstance(emp, list) else emp["months"]
+        self.assertEqual(emp_months, 35)  # Jun 2019 – Apr 2022 per resume dates
+        self.assertEqual(interp["all_dated_activity"]["months"], 27)  # Feb 2020 – Apr 2022
 
 
 if __name__ == "__main__":

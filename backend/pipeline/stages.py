@@ -86,9 +86,13 @@ def _is_header_line(s):
     if re.match(r"(?i)^(?:projects?\s*(?:&|and)\s*research|research\s*(?:&|and)\s*projects?)\s*:?$", t):
         return "PROJECTS"
     if not re.search(r"\d", t) and not DESCRIPTION.match(t):
-        if re.match(r"(?i)^(?:professional|work|career|employment|corporate|industry|relevant|chronological)?\s*(?:history|background|timeline|chronology|record|engagements|profile|path|journey|positions(?:\s+held)?)\s*:?$", t) and len(t.split()) <= 6:
+        if re.match(r"(?i)^(?:professional|work|career|employment|corporate|industry|relevant|chronological)?\s*(?:history|background|timeline|chronology|record|engagements|profile|path|journey|positions(?:\s+held)?)\s*:?$", t) and 1 < len(t.split()) <= 6:
             return "EXPERIENCE"
-        if re.match(r"(?i)^(?:academic|educational|education)?\s*(?:qualifications?|background|history|details|credentials|education)\s*:?$", t) and len(t.split()) <= 6:
+        # NOTE: single generic words like "Details:" must NOT become EDUCATION;
+        # they are project sub-labels (e.g. "Details:" under a POC/Project).
+        # Explicit single-word headers (EDUCATION, ACADEMIC, ...) are already
+        # handled by the SECTION_KINDS exact match above.
+        if re.match(r"(?i)^(?:academic|educational|education)?\s*(?:qualifications?|background|history|credentials|education)\s*:?$", t) and 1 < len(t.split()) <= 6:
             return "EDUCATION"
     return None
 
@@ -331,18 +335,36 @@ def s03_section_detection(ctx):
         if kind:
             bounds.append((i, kind, b.text.strip(), False))
 
-    # Discover implicit EXPERIENCE sections: any block starting a job entry outside EXPERIENCE
+    # Discover implicit EXPERIENCE sections: any block starting a job entry outside EXPERIENCE.
+    # A job-looking line inside another explicit section (e.g. SKILLS) is treated
+    # as a skill bullet ONLY when isolated. A repeated employment pattern
+    # (>=2 job starts in the same non-EXPERIENCE section range) is strong
+    # evidence of a heading-less experience region (e.g. M Lipsa) and must NOT
+    # be suppressed.
     job_starts = [i for i in range(len(ctx.blocks)) if _looks_like_job_start(ctx.blocks, i)]
+    job_start_set = set(job_starts)
     for j_idx in job_starts:
-        sec_kind = None
+        in_explicit_experience = False
+        containing_range = None
         for n, (b_idx, k, h, is_imp) in enumerate(bounds):
             nxt = bounds[n + 1][0] if n + 1 < len(bounds) else len(ctx.blocks)
             if b_idx <= j_idx < nxt:
-                sec_kind = k
+                containing_range = (b_idx, nxt, k)
+                if k == "EXPERIENCE":
+                    in_explicit_experience = True
                 break
-        if sec_kind is None:
-            bounds.append((j_idx, "EXPERIENCE", ctx.blocks[j_idx].text.strip(), True))
-            bounds.sort(key=lambda x: x[0])
+        if in_explicit_experience:
+            continue
+        if containing_range is not None:
+            start, end, kind = containing_range
+            if kind in ("SKILLS", "PROJECTS", "OTHER", "PERSONAL", "SUMMARY"):
+                peers = sum(1 for j in job_start_set if start <= j < end)
+                if peers < 2:
+                    # Isolated job-looking line inside a non-experience section:
+                    # treat as skill bullet / project line, not a new section.
+                    continue
+        bounds.append((j_idx, "EXPERIENCE", ctx.blocks[j_idx].text.strip(), True))
+        bounds.sort(key=lambda x: x[0])
 
     # Discover implicit EDUCATION sections if not already inside EDUCATION
     edu_starts = [i for i in range(len(ctx.blocks)) if _looks_like_edu_start(ctx.blocks, i)]
@@ -409,8 +431,11 @@ def _header_candidate(line, kind):
     if kind == "EDUCATION":
         return bool(DEGREE_CUE.search(s))
     if kind == "PROJECTS":
-        return bool(PROJECT_HEAD.match(s) or re.match(r"(?i)^\s*(?:project|poc)(?:[-#]?\s*\d+|[\s:]|$)", s)
-                    or (len(s.split()) <= 15 and not s.startswith(BULLET_PREFIXES) and not DESCRIPTION.match(s) and (s[0].isupper() or any(c.isdigit() for c in s[:4]))))
+        # Generic sub-labels (Details:, Roles & Responsibilities, Approach:, Outcome:)
+        # are project content, never new-project headers.
+        if re.match(r"(?i)^\s*(?:details|roles?\s*(?:&|and)?\s*responsibilities|approach|outcome|objective)\b", s):
+            return False
+        return bool(PROJECT_HEAD.match(s) or re.match(r"(?i)^\s*(?:project|poc)(?:[-#]?\s*\d+|[\s:]|$)", s))
     if re.match(r"(?i)^(?:company|organization|organisation|employer)\s*:", s):
         return True
     if re.match(r"(?i)^(?:position|designation|job title)\s*:", s):
@@ -468,6 +493,14 @@ def _segment_section(sec_id, sec_kind, header_text, bids, by_id, entries, warnin
             if cur_lines:
                 flush()
                 cur_lines, cur_bids = [], []
+            continue
+        # In PROJECTS sections, ONLY Project:/POC: headers start a new entry.
+        # Title:/Details:/Roles & Responsibilities/bullets/numbered items all
+        # continue the current project (they are not separate projects).
+        if sec_kind == "PROJECTS" and cur_lines and not (
+                PROJECT_HEAD.match(line) or re.match(r"(?i)^\s*(?:project|poc)(?:[-#]?\s*\d+|[\s:]|$)", line)):
+            cur_lines.append(line)
+            cur_bids.append(bid)
             continue
         if _looks_like_entry_start(line, sec_kind):
             # project / tenure metadata continues current entry
@@ -533,11 +566,11 @@ def s04_entry_segmentation(ctx):
         if sec.kind not in ("EXPERIENCE", "EDUCATION", "PROJECTS"):
             continue
         # Check if this is an implicit experience section (header is a job entry)
-        is_implicit_experience = (sec.kind == "EXPERIENCE" and 
+        is_implicit_experience = (sec.kind == "EXPERIENCE" and
                                    sec.header_text in [b.text.strip() for b in ctx.blocks if b.id in sec.block_ids])
         # Check if this is an implicit section (header is a job/education entry)
         is_implicit = getattr(sec, "is_implicit", False) or (
-            sec.kind in ("EXPERIENCE", "EDUCATION") and 
+            sec.kind in ("EXPERIENCE", "EDUCATION") and
             sec.header_text in [b.text.strip() for b in ctx.blocks if b.id in sec.block_ids]
         )
         _segment_section(sec.id, sec.kind, sec.header_text,
@@ -864,6 +897,13 @@ def s07_event_classification(ctx):
         if not header_ids:
             continue
         lines = [blocks[bid].text for bid in header_ids]
+        # Guard: generic sub-labels (Details:, Roles & Responsibilities, bare
+        # outcome/approach sentences) are project content, never standalone
+        # PROJECT events. Only Project:/POC:-headed entries become events.
+        if sec.kind == "PROJECTS":
+            first = lines[0].strip() if lines else ""
+            if not (PROJECT_HEAD.match(first) or re.match(r"(?i)^\s*(?:project|poc)(?:[-#]?\s*\d+|[\s:]|$)", first)):
+                continue
         title, org = _header_labels(lines, sec.kind)
         if not title and not org:
             continue
@@ -918,7 +958,7 @@ def s07_event_classification(ctx):
             event.org = ''
         if not event.title and not event.org:
             continue
-        key = (etype, event.title, event.org, event.date_label)
+        key = (etype, event.title, event.org, event.start, event.end)
         if key in seen:
             continue
         seen.add(key)
@@ -927,6 +967,8 @@ def s07_event_classification(ctx):
             ctx.unresolved.append(entry.id)
         events.append(event)
     _include_project_periods(ctx, events)
+    # Deduplicate events with same org and overlapping dates, preferring INTERNSHIP > EMPLOYMENT > PROJECT
+    events = _deduplicate_events(events)
     ctx.events = events
     return _sr('event_classification', confidence=0.8, warnings=warnings,
                output={'events': len(events), 'unresolved': len(ctx.unresolved)})
@@ -934,13 +976,104 @@ def s07_event_classification(ctx):
 
 # ---------------------------------------------------------------- stage 8
 
+def _deduplicate_events(events):
+    """Remove duplicate events with same org and overlapping dates.
+    Preference order: INTERNSHIP > EMPLOYMENT > PROJECT > EDUCATION > OTHER."""
+    type_rank = {"INTERNSHIP": 4, "EMPLOYMENT": 3, "PROJECT": 2, "EDUCATION": 1, "OTHER": 0}
+    # Group by org (case-insensitive)
+    from collections import defaultdict
+    groups = defaultdict(list)
+    for e in events:
+        groups[e.org.strip().lower()].append(e)
+    kept = []
+    for org, evs in groups.items():
+        # Sort by type rank desc, then by start date
+        evs.sort(key=lambda e: (-type_rank.get(e.type, 0), e.start or (0,0)))
+        kept_org = []
+        for e in evs:
+            # Check overlap with already kept for this org
+            overlap = False
+            for k in kept_org:
+                if e.start and k.start and e.end and k.end:
+                    # overlap if ranges intersect
+                    if not (e.end < k.start or e.start > k.end):
+                        overlap = True
+                        break
+            if not overlap:
+                kept_org.append(e)
+        kept.extend(kept_org)
+    return kept
+
+def _strip_project_prefix(name):
+    """Strip leading 'Project N:' / 'POC N:' numbering prefixes from project names.
+
+    'Project: 1: Microsoft' -> 'Microsoft'; 'Project 2 - KELLOGS' -> 'KELLOGS'.
+    Bare identifiers like 'POC: 1' (no title/client after stripping) are kept
+    as-is so the item remains identifiable.
+    """
+    if not name:
+        return name
+    stripped = re.sub(r'^\s*(?:project|poc)\s*[-#:]*\s*\d+\s*[:\-–.]?\s*', '', name, flags=re.IGNORECASE).strip()
+    return stripped or name
+
+
+def _find_parent_employment(p_start, p_end, employment_events):
+    """Return the employment event with max month-overlap to the project range."""
+    best, best_overlap = None, 0
+    for e in employment_events:
+        if not e.start or not e.end:
+            continue
+        lo = max(D.month_index(p_start), D.month_index(e.start))
+        hi = min(D.month_index(p_end), D.month_index(e.end))
+        overlap = max(0, hi - lo + 1)
+        if overlap > best_overlap:
+            best, best_overlap = e, overlap
+    return best
+
+
+def _detect_date_conflicts(ctx, events):
+    """Flag dated PROJECT events extending outside their parent employer tenure.
+
+    Attaches DATE_CONFLICT reason, lowers event confidence, and records
+    machine-readable conflict evidence on the event.
+    """
+    employments = [e for e in events if e.type in ('EMPLOYMENT', 'INTERNSHIP')
+                   and e.start and e.end and e.status == 'CONFIRMED']
+    for e in events:
+        if e.type != 'PROJECT' or not e.start or not e.end or e.status != 'CONFIRMED':
+            continue
+        parent = _find_parent_employment(e.start, e.end, employments)
+        if parent is None:
+            continue
+        extends_before = D.month_index(e.start) < D.month_index(parent.start)
+        extends_after = D.month_index(e.end) > D.month_index(parent.end)
+        if extends_before or extends_after:
+            if 'DATE_CONFLICT' not in e.reasons:
+                e.reasons.append('DATE_CONFLICT')
+            e.confidence = round(e.confidence * 0.7, 3)
+            e.conflict = {
+                'parent_event_id': parent.id,
+                'parent_org': parent.org,
+                'parent_title': parent.title,
+                'employment_start': list(parent.start),
+                'employment_end': list(parent.end),
+                'project_start': list(e.start),
+                'project_end': list(e.end),
+                'extends_before_employment': extends_before,
+                'extends_after_employment': extends_after,
+            }
+
+
 def _include_project_periods(ctx, events):
     """Bring explicitly dated project blocks into coverage before reconciliation."""
     for project in extract_project_blocks(ctx):
         locs = project.get('source', {}).get('entry', [])
         bids = {loc.get('block_id') for loc in locs}
-        # Dedicated project sections already classified by stage 7 retain their IDs.
-        if any(e.type == 'PROJECT' and bids.intersection(getattr(e, 'header_block_ids', [])) for e in events):
+        # Dedicated project sections already classified by stage 7 retain their IDs —
+        # but only if that event is actually dated. UNRESOLVED stubs (title only,
+        # no dates) must NOT block the dated project period from being added.
+        if any(e.type == 'PROJECT' and e.start and e.end
+               and bids.intersection(getattr(e, 'header_block_ids', [])) for e in events):
             continue
         ranges = [m for m in D.find_mentions(project.get('duration', '')) if m['is_range']]
         if len(ranges) != 1:
@@ -956,7 +1089,7 @@ def _include_project_periods(ctx, events):
             continue
         event = M.Event('project_' + project['id'], entry.id,
                         [a.id for a in ctx.assocs if a.mention_id in {mention.id for mention in mentions}],
-                        'PROJECT', project['name'], project.get('client', ''), m['start'], m['end'],
+                        'PROJECT', project.get('role') or _strip_project_prefix(project['name']), project.get('client', ''), m['start'], m['end'],
                         m['precision'], status, 0.5 if status == 'AMBIGUOUS' else 0.85, ['EVENT_PROJECT_CUES'])
         event.date_label, event.section, event.is_present = m['raw'], 'PROJECTS', m['is_present']
         event.header_block_ids = list(bids)
@@ -970,6 +1103,18 @@ def _include_project_periods(ctx, events):
                                 'company': company_locs, 'section': 'PROJECTS', 'date_label': m['raw'], 'is_present': m['is_present']}
         event.source = event.project_source
         events.append(event)
+    # Drop UNRESOLVED stub PROJECT events whose blocks are covered by a dated
+    # (CONFIRMED) project period event. Stubs carry title only and would
+    # otherwise duplicate the dated entries in the DTO.
+    dated_bids = set()
+    for e in events:
+        if e.type == 'PROJECT' and e.start and e.end and e.status == 'CONFIRMED':
+            dated_bids.update(getattr(e, 'header_block_ids', []))
+    if dated_bids:
+        events[:] = [e for e in events
+                     if not (e.type == 'PROJECT' and not (e.start and e.end)
+                             and set(getattr(e, 'header_block_ids', [])).issubset(dated_bids))]
+    _detect_date_conflicts(ctx, events)
 
 
 def s08_timeline_reconciliation(ctx):
@@ -1034,6 +1179,35 @@ def s10_gap_detection(ctx):
     employment_only = bool(work_intervals) and I.union(work_intervals) == I.union([(e.start, e.end) for e in dated])
     unplaced = [e.id for e in core if not (e.start and e.end) or e.status != 'CONFIRMED']
     dated.sort(key=lambda e: D.month_index(e.start))
+    # Alternate interpretation: employment/education tenures only, ignoring
+    # dated project/client work. Reported alongside the primary gap so a
+    # project that extends past its parent employer (DATE_CONFLICT) can be
+    # judged both ways instead of silently picking one.
+    emp_dated = sorted(
+        [e for e in dated if e.type in ('EMPLOYMENT', 'INTERNSHIP', 'EDUCATION')],
+        key=lambda e: D.month_index(e.start))
+
+    def _ranges(evts):
+        out, cur_end, cur_ev = [], None, None
+        for b in evts:
+            if cur_end is None:
+                cur_end, cur_ev = b.end, b
+                continue
+            gm = max(0, D.months_between(cur_end, b.start) - 1)
+            if gm > 0 and cur_ev.precision == "month" and b.precision == "month":
+                out.append({
+                    "months": gm,
+                    "start": list(D.add_months(cur_end, 1)),
+                    "end": list(D.add_months(b.start, -1)),
+                    "event_before": cur_ev.id,
+                    "event_after": b.id,
+                })
+            if D.month_index(b.end) > D.month_index(cur_end):
+                cur_end, cur_ev = b.end, b
+        return out
+
+    employment_only_gaps = _ranges(emp_dated)
+    ctx.meta["employment_only_gaps"] = employment_only_gaps
     gaps = []
     if len(dated) < 2 or uncertain or ctx.meta.get("reading_incomplete"):
         g = M.Gap("g0", None, None, 0, "INSUFFICIENT_EVIDENCE", 0.4,
@@ -1053,7 +1227,15 @@ def s10_gap_detection(ctx):
                           0.0, ["GAP_NO_COVERAGE"],  # confidence filled in stage 11
                           {"event_before": last_event.id, "event_after": b.id,
                            "coverage_scope": "employment" if employment_only else "all_dated_activity",
-                           "unplaced_activity_ids": unplaced})
+                           "unplaced_activity_ids": unplaced,
+                           "interpretations": {
+                               "all_dated_activity": {
+                                   "months": gm,
+                                   "start": list(gap_start),
+                                   "end": list(gap_end),
+                               },
+                               "employment_only": employment_only_gaps,
+                           }})
                 gaps.append(g)
             if D.month_index(b.end) > D.month_index(max_end):
                 max_end = b.end
@@ -1086,6 +1268,13 @@ def s11_confidence_evidence(ctx):
         ca = by_ev.get(g.evidence.get("event_after"))
         g.confidence = EV.gap_confidence(cb.confidence if cb else None,
                                          ca.confidence if ca else None, True)
+        # A gap bounded by a DATE_CONFLICT project is less certain: the
+        # project may or may not count as continuous activity.
+        if any("DATE_CONFLICT" in (getattr(ev, "reasons", []) or [])
+               for ev in (cb, ca) if ev is not None):
+            g.confidence = round(g.confidence * 0.85, 3)
+            if "DATE_CONFLICT" not in g.reasons:
+                g.reasons.append("DATE_CONFLICT")
         ctx.lineage[g.id] = EV.lineage(g, by_ev, by_en, by_a, by_m, by_b, ctx.doc_id)
     return _sr("confidence_evidence", status="SUCCESS", confidence=0.9,
                output={"gaps_scored": sum(1 for g in ctx.gaps if g.state == "POTENTIAL_GAP"),
@@ -1151,6 +1340,7 @@ def extract_project_blocks(ctx):
                 head = next((t for t in lines if re.match(r'(?i)^\s*(?:project|poc)(?:[-#]?\s*\d+|[\s:]|$)', t)), '')
 
                 name = title or (f'{head}: {client}' if head and client else (head or client or (lines[0].lstrip("•●■▪·○◆◇➢✔►▸✓★-*–— ") if lines else 'Project')))
+                name = _strip_project_prefix(name)
                 details = [line.strip() for line in lines if line.strip() and not re.match(r'(?i)^(?:client|role|duration|period|tenure|title|project|poc)\b', line.strip())]
 
                 locs = []

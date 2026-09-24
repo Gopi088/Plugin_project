@@ -3,6 +3,11 @@ pdfminer.six==20221105
 spacy
 python-docx>=1.1.0
 pytest
+pyyaml>=6.0
+# Optional LLM provider SDKs (only needed for the provider you configure).
+# openai>=1.0
+# anthropic>=0.30
+requests>=2.0
 # Direct runtime imports for source rendering and browser image tests.
 pypdfium2
 Pillow
