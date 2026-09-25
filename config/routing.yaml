@@ -3,7 +3,14 @@ routing:
   low_confidence_threshold: 40
 
 llm:
-  provider: "openai"
-  model: "gpt-4o-mini"
+  provider: "deepseek"
+  model: "deepseek-chat"
   temperature: 0.1
-  max_tokens: 2000
+  max_tokens: 4096
+  base_url: "https://api.deepseek.com"
+  # You can either paste your DeepSeek API key here:
+  # api_key: "sk-your-deepseek-api-key-here"
+  # OR set it in a .env file at the project root:
+  # DEEPSEEK_API_KEY="sk-your-deepseek-api-key-here"
+  # OR export it in your shell environment:
+  # export DEEPSEEK_API_KEY="sk-your-deepseek-api-key-here"

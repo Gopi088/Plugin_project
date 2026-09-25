@@ -96,11 +96,12 @@ def parse_with_api(raw_bytes, filename='resume.pdf', timeout=15):
         if not resume_id:
             return None
 
-        req = Request(api_base() + f'/resumes/{resume_id}', headers={'Accept': 'application/json'})
+        req = Request(api_base() + f'/resumes?resume_id={resume_id}', headers={'Accept': 'application/json'})
         with urlopen(req, timeout=timeout) as resp:
             if resp.status != 200:
                 return None
             detail = json.loads(resp.read().decode('utf-8'))
+            # The API returns processed_resume directly in the response
             return detail.get('data', {}).get('processed_resume') or detail.get('processed_resume')
     except Exception:
         return None

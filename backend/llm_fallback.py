@@ -30,6 +30,23 @@ class LLMProvider(ABC):
     def is_available(self) -> bool:
         pass
 
+
+class DisabledProvider(LLMProvider):
+    """Default provider: LLM tier explicitly disabled (resumes hold PII).
+
+    Never calls any model; the runner treats this as unavailable and
+    routes to human review.
+    """
+
+    def __init__(self, cfg=None):
+        self.cfg = cfg or {}
+
+    def is_available(self) -> bool:
+        return False
+
+    def review(self, request: LLMRequest) -> LLMResponse:
+        raise RuntimeError("LLM tier is disabled (provider: disabled)")
+
 _provider_cache = None
 
 def get_provider(config: Dict[str, Any] = None) -> LLMProvider:
@@ -44,11 +61,18 @@ def get_provider(config: Dict[str, Any] = None) -> LLMProvider:
             config = yaml.safe_load(f)
     
     llm_cfg = config.get("llm", {})
-    provider_name = llm_cfg.get("provider", "openai")
-    
+    provider_name = llm_cfg.get("provider", "disabled")
+
+    if provider_name == "disabled":
+        _provider_cache = DisabledProvider(llm_cfg)
+        return _provider_cache
+
     if provider_name == "openai":
         from .llm_providers.openai_provider import OpenAIProvider
         _provider_cache = OpenAIProvider(llm_cfg)
+    elif provider_name == "deepseek":
+        from .llm_providers.deepseek_provider import DeepSeekProvider
+        _provider_cache = DeepSeekProvider(llm_cfg)
     elif provider_name == "anthropic":
         from .llm_providers.anthropic_provider import AnthropicProvider
         _provider_cache = AnthropicProvider(llm_cfg)

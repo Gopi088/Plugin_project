@@ -252,16 +252,24 @@ B.E in CIVIL Engineering from GITAM School of Technology 2013-2017
         self.assertTrue(pepsi.conflict["extends_after_employment"])
         self.assertEqual(pepsi.conflict["parent_org"], "Tech Mahindra")
         self.assertLess(pepsi.confidence, 0.85)
-        # Gap reported under both interpretations.
+        # Primary gap = no dated activity (dated projects count): 27 months.
+        # The larger employment-only reading is shown as an alternate.
         gaps = [g for g in ctx.recruiter_output.get("gaps", []) if g.get("state") == "POTENTIAL_GAP"]
         self.assertTrue(gaps)
+        self.assertEqual(gaps[0]["months"], 27)  # Feb 2020 – Apr 2022 per resume dates
+        self.assertEqual(gaps[0]["evidence"]["coverage_scope"], "all_dated_activity")
+        self.assertLess(gaps[0]["confidence"], 0.9)  # conflict-dependent bound
         interp = gaps[0]["evidence"]["interpretations"]
-        self.assertIn("all_dated_activity", interp)
         self.assertIn("employment_only", interp)
-        emp = interp["employment_only"]
-        emp_months = emp[0]["months"] if isinstance(emp, list) else emp["months"]
-        self.assertEqual(emp_months, 35)  # Jun 2019 – Apr 2022 per resume dates
-        self.assertEqual(interp["all_dated_activity"]["months"], 27)  # Feb 2020 – Apr 2022
+        alts = interp["employment_only"]
+        self.assertEqual(len(alts), 1)
+        self.assertEqual(alts[0]["months"], 35)  # Jun 2019 – Apr 2022
+        self.assertEqual(alts[0]["start"], [2019, 6])
+        self.assertEqual(alts[0]["end"], [2022, 4])
+        self.assertIn("May 2019", alts[0]["note"])
+        # Route stays auto_approve: a single project-level conflict escalates nothing.
+        self.assertEqual(ctx.meta["routing"]["route"], "auto_approve")
+        self.assertGreaterEqual(ctx.meta["routing"]["score"], 75)
 
 
 if __name__ == "__main__":

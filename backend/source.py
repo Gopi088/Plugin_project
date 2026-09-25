@@ -18,25 +18,145 @@ def normalized_line(text, chars, normalize, page, width=None, height=None, offse
     left = len(clean) - len(clean.lstrip())
     right = len(clean.rstrip())
     return {'text': clean[left:right], 'chars': mapped[left:right], 'page': page,
-            'width': width, 'height': height, 'offset': offset + left}
+            'width': width, 'height': height, 'offset': offset + left,
+            'bold': (sum(bool(c and c.get('bold')) for c in chars) > len(text.strip()) / 2)
+                    if width is not None else None}
+
+
+def _extract_textmap_lines(page, normalize, root_page=None):
+    root = root_page or page
+    lines, text, chars = [], '', []
+    for value, char in page.get_textmap().tuples:
+        for letter in value:
+            if letter == '\n':
+                lines.append(normalized_line(text, chars, normalize, root.page_number,
+                                             root.width, root.height))
+                text, chars = '', []
+            else:
+                text += letter
+                chars.append({'x0': char['x0'] - root.bbox[0], 'top': char['top'] - root.bbox[1],
+                              'x1': char['x1'] - root.bbox[0], 'bottom': char['bottom'] - root.bbox[1],
+                              'bold': any(weight in char.get('fontname', '').lower()
+                                          for weight in ('bold', 'black', 'demi'))} if char else None)
+    lines.append(normalized_line(text, chars, normalize, root.page_number, root.width, root.height))
+    return [l for l in lines if l['text'].strip()]
 
 
 def pdf_lines(page, normalize):
     # TextMap provides the exact character objects used by extract_text(),
     # including inserted whitespace (None); no fuzzy text-to-page search.
-    lines, text, chars = [], '', []
-    for value, char in page.get_textmap().tuples:
-        for letter in value:
-            if letter == '\n':
-                lines.append(normalized_line(text, chars, normalize, page.page_number,
-                                             page.width, page.height))
-                text, chars = '', []
-            else:
-                text += letter
-                chars.append({'x0': char['x0'] - page.bbox[0], 'top': char['top'] - page.bbox[1],
-                              'x1': char['x1'] - page.bbox[0], 'bottom': char['bottom'] - page.bbox[1]} if char else None)
-    lines.append(normalized_line(text, chars, normalize, page.page_number, page.width, page.height))
-    return lines
+    words = page.extract_words() if hasattr(page, 'extract_words') else []
+    if not words or len(words) < 20:
+        return _extract_textmap_lines(page, normalize)
+
+    w, h = page.width, page.height
+    best = None
+    min_cross = 999
+    # Check vertical gutters for two-column or sidebar layouts
+    for x in range(int(0.18 * w), int(0.82 * w), 5):
+        left_words = [wd for wd in words if wd['x1'] <= x]
+        right_words = [wd for wd in words if wd['x0'] >= x]
+        crossing_words = [wd for wd in words if wd['x0'] < x < wd['x1']]
+        if len(left_words) >= 12 and len(right_words) >= 15:
+            if len(crossing_words) <= 2:
+                if len(crossing_words) < min_cross:
+                    min_cross = len(crossing_words)
+                    best = (x, 0)
+            elif len(crossing_words) <= 12:
+                max_crossing_y = max(wd['bottom'] for wd in crossing_words)
+                if max_crossing_y < h * 0.5:
+                    below_cross = [wd for wd in words if wd['top'] >= max_crossing_y and wd['x0'] < x < wd['x1']]
+                    if len(below_cross) == 0:
+                        if len(crossing_words) < min_cross:
+                            min_cross = len(crossing_words)
+                            best = (x, max_crossing_y)
+
+    if best is None:
+        return _extract_textmap_lines(page, normalize)
+
+    gx, split_y = best
+    header_lines = []
+    if split_y > 0:
+        top_crop = page.crop((0, 0, w, split_y + 3))
+        header_lines = _extract_textmap_lines(top_crop, normalize, root_page=page)
+
+    left_crop = page.crop((0, split_y, gx, h))
+    right_crop = page.crop((gx, split_y, w, h))
+
+    left_lines = _extract_textmap_lines(left_crop, normalize, root_page=page)
+    right_lines = _extract_textmap_lines(right_crop, normalize, root_page=page)
+
+    # Check row alignment: do dates in left match titles in right?
+    import re
+    l_words = left_crop.extract_words()
+    r_words = right_crop.extract_words()
+    date_ys = [wd['top'] for wd in l_words if re.search(r'\d{2}/\d{4}|\b(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{4}\b|\b(?:19|20)\d{2}\b', wd['text'])]
+    row_aligned = False
+    for dy in date_ys:
+        near = [rw for rw in r_words if abs(rw['top'] - dy) <= 18]
+        near_text = ' '.join(rw['text'] for rw in near)
+        if any(k in near_text.lower() for k in ['manager', 'developer', 'analyst', 'engineer', 'consultant', 'programmer', 'bachelor', 'master', 'diploma', 'lead', 'architect', 'specialist', 'officer', 'associate']):
+            row_aligned = True
+            break
+
+    body_lines = []
+    if row_aligned:
+        def get_line_top(line):
+            chars = [c for c in line['chars'] if c and 'top' in c]
+            return min((c['top'] for c in chars), default=0)
+
+        date_tops = []
+        for l in left_lines:
+            if re.search(r'\b\d{2}/\d{4}\b|\b(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{4}\b', l['text']):
+                top = get_line_top(l)
+                if top > 0:
+                    date_tops.append(top)
+        date_tops = sorted(list(set(date_tops)))
+        if date_tops:
+            first_top = date_tops[0]
+            pre_l = [l for l in left_lines if get_line_top(l) < first_top - 5]
+            pre_r = [l for l in right_lines if get_line_top(l) < first_top - 5]
+            body_lines.extend(pre_l)
+            body_lines.extend(pre_r)
+
+            for k, y_s in enumerate(date_tops):
+                y_e = date_tops[k+1] if k+1 < len(date_tops) else h + 10
+                band_l = [l for l in left_lines if y_s - 5 <= get_line_top(l) < y_e - 5]
+                band_r = [l for l in right_lines if y_s - 5 <= get_line_top(l) < y_e - 5]
+
+                def split_header_body(lines_list, y_anchor):
+                    hdr, body = [], []
+                    in_body = False
+                    for l in lines_list:
+                        t = l['text'].strip()
+                        top = get_line_top(l)
+                        if in_body or t.startswith(('•', '●', '■', '▪', '·', '*', '-')) or top > y_anchor + 75:
+                            in_body = True
+                            body.append(l)
+                        else:
+                            hdr.append(l)
+                    return hdr, body
+
+                hdr_l, body_l = split_header_body(band_l, y_s)
+                hdr_r, body_r = split_header_body(band_r, y_s)
+
+                body_lines.extend(hdr_l)
+                body_lines.extend(hdr_r)
+                body_lines.extend(body_r)
+                body_lines.extend(body_l)
+        else:
+            body_lines.extend(left_lines)
+            body_lines.extend(right_lines)
+    else:
+        # Standard sidebar
+        if gx < w * 0.5:
+            body_lines.extend(left_lines)
+            body_lines.extend(right_lines)
+        else:
+            body_lines.extend(left_lines)
+            body_lines.extend(right_lines)
+
+    return header_lines + body_lines
 
 
 def locations(block, start=0, end=None):

@@ -26,6 +26,7 @@ _PREREQ = {
     "gap_detection": ("coverage_analysis", "timeline_reconciliation"),
     "confidence_evidence": ("gap_detection",),
     "recruiter_output": ("gap_detection",),
+    "verification": ("recruiter_output",),
 }
 
 

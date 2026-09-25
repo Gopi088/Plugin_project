@@ -182,3 +182,13 @@ for reproducible commands and label requirements. The 1,554 saved extraction rec
 are source text, not independent ground truth: the previous 91.43% overall accuracy
 claim was invalid. [The corrected report](accuracy_report.md) separates processing
 statuses and source diagnostics from measured labeled metrics.
+
+
+## Period checks across all timeline categories
+
+`./check_all_resumes` and `./check_resume_score` now report work experience,
+projects and education separately, including calendar durations, overlap and
+incomplete dates. See [period analysis](docs/PERIOD_ANALYSIS.md). The generated
+percentage measures date-range availability, not model accuracy. Newly parsed
+results are in `model_parsed_periods/`; reanalyze existing documents to update
+stored gaps with project and education coverage.

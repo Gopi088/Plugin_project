@@ -6,6 +6,7 @@ decides wherever the answer is unambiguous; ML (ml_assist) only supplies
 hints. Nothing is ever invented: ambiguous cases stay AMBIGUOUS/UNRESOLVED.
 """
 
+import calendar
 import re
 import hashlib
 import json
@@ -70,12 +71,15 @@ def _norm(text):
 
 
 def _is_header_line(s):
-    t = s.strip().strip(":").strip()
+    t = s.strip().strip("#* ").strip(":").strip()
+    t = re.sub(r"^\d+[.)]?\s+", "", t)
     if not t or len(t.split()) > 8:
         return None
     if re.match(r"(?i)^(?:key\s+result\s+areas?|responsibilities|key\s+responsibilities|roles?\s*(?:and|&)\s*responsibilities|duties|tools|technologies|environment)\b", t):
         return None
     low = t.lower()
+    if re.fullmatch(r"open[ -]source\s+(?:projects?|contributions?)", low):
+        return "PROJECTS"
     for kind, names in SECTION_KINDS:
         if low in [n.lower() for n in names]:
             if re.search(r"\d", t) and kind == "EXPERIENCE" and "professional" not in low and "work" not in low:
@@ -112,8 +116,8 @@ def s01_document_processing(ctx):
             with pdfplumber.open(io.BytesIO(ctx.raw_bytes)) as pdf:
                 pages = len(pdf.pages)
                 for p in pdf.pages:
-                    page_text = p.extract_text() or ""
                     lines = SRC.pdf_lines(p, _norm)
+                    page_text = "\n".join(line['text'] for line in lines) if lines else (p.extract_text() or "")
                     if not page_text.strip():
                         ctx.meta["reading_incomplete"] = True
                         try:
@@ -258,7 +262,7 @@ def s02_text_representation(ctx):
             continue
         order += 1
         block = M.TextBlock(f"b{order}", line['page'], order, text,
-                            bold=text.isupper() and len(text.split()) <= 8)
+                            bold=bool(line.get("bold")) or (text.isupper() and len(text.split()) <= 8))
         block.source_parts = parts
         blocks.append(block)
     ctx.blocks = blocks
@@ -291,17 +295,21 @@ def _looks_like_job_start(blocks, i):
         return False
 
     has_date_range = any(m['is_range'] for m in D.find_mentions(text))
+    prev_has_date = False
+    if not has_date_range and i > 0:
+        prev_t = blocks[i - 1].text.strip()
+        prev_has_date = any(m['is_range'] for m in D.find_mentions(prev_t)) and not DEGREE_CUE.search(prev_t)
     adj_has_date = False
-    if not has_date_range and i + 1 < len(blocks):
+    if not has_date_range and not prev_has_date and i + 1 < len(blocks):
         next_t = blocks[i + 1].text.strip()
         adj_has_date = any(m['is_range'] for m in D.find_mentions(next_t)) and not DEGREE_CUE.search(next_t)
 
     has_title = bool(TITLE_CUE.search(text))
     has_comp = bool(COMPANY_HINT.search(text))
     has_emp_syntax = bool(re.search(r"(?i)\b(?:as\s+(?:an?\s+)?\w+|at\s+[A-Z]|\bworked\b|\bworking\b|\bemployed\b|intern\b)", text))
-    has_label = bool(re.match(r"(?i)^\s*(?:company|employer|organization|position|designation|job title)\s*:", text))
+    has_label = bool(re.match(r"(?i)^\s*(?:company|employer|organization|position|designation|job title)\s*[:]", text))
 
-    if has_date_range:
+    if has_date_range or prev_has_date:
         return has_title or has_comp or has_emp_syntax or has_label or (text[0].isupper() and len(text.split()) <= 15)
     elif adj_has_date:
         return has_title or has_comp or has_label
@@ -332,6 +340,11 @@ def s03_section_detection(ctx):
     bounds = []  # (index, kind, header_text, is_implicit)
     for i, b in enumerate(ctx.blocks):
         kind = _is_header_line(b.text)
+        if (kind == "PROJECTS" and b.text.strip().casefold() == "project" and i
+                and D.find_mentions(ctx.blocks[i - 1].text)
+                and TITLE_CUE.search(ctx.blocks[i - 1].text)):
+            # A wrapped job title ending in "... in AML / Project" is not a section.
+            continue
         if kind:
             bounds.append((i, kind, b.text.strip(), False))
 
@@ -357,9 +370,19 @@ def s03_section_detection(ctx):
             continue
         if containing_range is not None:
             start, end, kind = containing_range
+            if kind == "PROJECTS":
+                # Roles and date ranges in explicit project sections stay projects.
+                continue
             if kind in ("SKILLS", "PROJECTS", "OTHER", "PERSONAL", "SUMMARY"):
                 peers = sum(1 for j in job_start_set if start <= j < end)
-                if peers < 2:
+                # Check if this job start has a date on current or previous line
+                blk = ctx.blocks[j_idx]
+                has_date_here = any(m['is_range'] for m in D.find_mentions(blk.text))
+                has_date_prev = False
+                if j_idx > 0:
+                    prev_blk = ctx.blocks[j_idx - 1]
+                    has_date_prev = any(m['is_range'] for m in D.find_mentions(prev_blk.text))
+                if peers < 2 and not (has_date_here or has_date_prev):
                     # Isolated job-looking line inside a non-experience section:
                     # treat as skill bullet / project line, not a new section.
                     continue
@@ -383,6 +406,11 @@ def s03_section_detection(ctx):
     for n, (idx, kind, header, is_implicit) in enumerate(bounds):
         nxt = bounds[n + 1][0] if n + 1 < len(bounds) else len(ctx.blocks)
         start_idx = idx if is_implicit else idx + 1
+        # For implicit EXPERIENCE sections, include preceding date line if present
+        if is_implicit and kind == "EXPERIENCE" and start_idx > 0:
+            prev_block = ctx.blocks[start_idx - 1]
+            if any(m['is_range'] for m in D.find_mentions(prev_block.text)):
+                start_idx -= 1
         bids = [b.id for b in ctx.blocks[start_idx:nxt]]
         sec = M.Section(f"s{n}", kind, header, bids, 0.9 if not is_implicit else 0.85,
                         "SECTION_HEADER_MATCH" if not is_implicit else "IMPLICIT_SECTION_DETECTED")
@@ -436,9 +464,9 @@ def _header_candidate(line, kind):
         if re.match(r"(?i)^\s*(?:details|roles?\s*(?:&|and)?\s*responsibilities|approach|outcome|objective)\b", s):
             return False
         return bool(PROJECT_HEAD.match(s) or re.match(r"(?i)^\s*(?:project|poc)(?:[-#]?\s*\d+|[\s:]|$)", s))
-    if re.match(r"(?i)^(?:company|organization|organisation|employer)\s*:", s):
+    if re.match(r"(?i)^(?:company|organization|organisation|employer)\s*[:\-–—]", s):
         return True
-    if re.match(r"(?i)^(?:position|designation|job title)\s*:", s):
+    if re.match(r"(?i)^(?:position|designation|job title)\s*[:\-–—]", s):
         return True
     if re.match(r"(?i)^(?:worked|working|employed)\s+at\s+", s):
         return True
@@ -446,7 +474,8 @@ def _header_candidate(line, kind):
     title = TITLE_CUE.search(s)
     if title and len(s.split()) <= 18 and len(s[:title.start()].split()) <= 4:
         return True
-    return bool(has_range and s[0].isupper() and len(s.split()) <= 18)
+    # Accept date lines starting with digits (e.g., "08/2024 – Present")
+    return bool(has_range and (s[0].isupper() or s[0].isdigit()) and len(s.split()) <= 18)
 
 
 def _looks_like_entry_start(line, sec_kind="EXPERIENCE"):
@@ -457,6 +486,14 @@ def _looks_like_entry_start(line, sec_kind="EXPERIENCE"):
         return False
     if re.match(r"(?i)^\s*(period|duration|timeline|tenure|client|role|environment|technologies|tools|responsibilities|project role)\b", raw):
         return False
+    # Company/Employer/Organization labels are field metadata, not new entries
+    if re.match(r"(?i)^\s*(?:company|employer|organization|organisation)\s*[:\-–—]", raw):
+        return False
+    # Pure date lines (just a date range) are not entry starts
+    if any(m['is_range'] for m in D.find_mentions(raw)) and len(raw.split()) <= 6:
+        # Check if it's ONLY a date (no title/company keywords)
+        if not (TITLE_CUE.search(raw) or COMPANY_HINT.search(raw) or re.search(r"(?i)\b(?:as|at|worked|working|employed|intern)\b", raw)):
+            return False
     if sec_kind == "EXPERIENCE" and (PROJECT_HEAD.match(raw) or re.match(r"(?i)^\s*(?:project|poc)(?:[-#]?\s*\d+|[\s:]|$)", raw)):
         return False
     if sec_kind == "PROJECTS":
@@ -471,9 +508,105 @@ def _looks_like_entry_start(line, sec_kind="EXPERIENCE"):
     return _header_candidate(line, sec_kind)
 
 
+PROJECT_METADATA = re.compile(
+    r"(?i)^(?:client(?:\s+name)?|role|position|designation|project role|"
+    r"duration|period|tenure|timeline|title|project title|project name|"
+    r"tools|technologies|environment|tech stack)\s*[:\-]"
+)
+PROJECT_SUBHEADING = re.compile(
+    r"(?i)^(?:details|description|roles?\s*(?:&|and)?\s*responsibilities|"
+    r"responsibilities|approach|outcome|objective|features|key features|"
+    r"key result areas?|highlights|key contributions|project (?:description|overview)|"
+    r"(?:\d+[.)]?\s*)?project information)\s*:?$"
+)
+
+
+def _project_title(text):
+    """Remove presentation markup, keeping the literal title words."""
+    return re.sub(r"^#{1,6}\s+", "", text.strip()).strip("* ")
+
+
+def _explicit_project_heading(text):
+    title = re.sub(r"^\d+[.)]\s*", "", _project_title(text))
+    return not PROJECT_SUBHEADING.match(title) and bool(re.match(
+        r"(?i)^(?:project|poc)(?:[-#:]?\s*\d+|[\s:]|$)", title))
+
+
+def _project_bullet(text):
+    raw = text.strip()
+    if raw.startswith("**") and raw.endswith("**"):
+        return False
+    return raw.startswith(BULLET_PREFIXES) or bool(re.match(r"^\d+[.)]\s+", raw))
+
+
+def _project_entry_starts(blocks):
+    """Find titled blocks within a project section, independent of field labels.
+
+    Explicit Project/POC identifiers remain supported. For unlabelled titles,
+    require supporting bullets or a styled heading followed by prose. This
+    works on extracted plain text, where original bold formatting may be lost.
+    Body bullets, wrapped prose and metadata never create entries themselves.
+    """
+    starts = set()
+    for index, block in enumerate(blocks):
+        title = _project_title(block.text)
+        if not title or _is_header_line(title):
+            continue
+        if _explicit_project_heading(title):
+            starts.add(block.id)
+            continue
+        if (_project_bullet(block.text) or PROJECT_METADATA.match(title)
+                or PROJECT_SUBHEADING.match(title) or DESCRIPTION.match(title)
+                or len(title.split()) > 18 or title.rstrip("\uf020 ").endswith((".", ";"))
+                or not any(c.isalpha() for c in title) or title[0].islower()):
+            continue
+        # A plain line wrapped from a bullet is still body text. Real PDF bold
+        # or Markdown headings provide stronger evidence than capitalization.
+        styled = block.bold or block.text.strip().startswith(("**", "#"))
+        previous = blocks[index - 1].text.strip() if index else ""
+        if (previous and not styled and not previous.endswith((".", ";", ":"))
+                and not PROJECT_METADATA.match(previous)
+                and not PROJECT_SUBHEADING.match(previous)
+                and index + 1 < len(blocks)
+                and not PROJECT_METADATA.match(blocks[index + 1].text.strip())):
+            continue
+        in_description = False
+        for following in blocks[index + 1:]:
+            text = following.text.strip()
+            if PROJECT_METADATA.match(text):
+                continue
+            if PROJECT_SUBHEADING.match(text):
+                in_description = True
+                continue
+            if _explicit_project_heading(text) or _is_header_line(text):
+                break
+            if _project_bullet(text):
+                # Company headings followed by career-summary bullets group
+                # projects; the employer name itself is not a project title.
+                body = text.lstrip("•*- ")
+                if (D.find_mentions(title) and COMPANY_HINT.search(title)
+                        and re.match(r"(?i)^(?:worked|working)\s+(?:as|at)\b", body)):
+                    break
+                if text.lstrip("•*- ").strip("\uf020 "):
+                    starts.add(block.id)
+                break
+            if (styled and not following.bold
+                    and not text.startswith(("**", "#"))
+                    and any(c.isalpha() for c in text)):
+                # A visually marked heading may introduce prose instead of a
+                # list. The paragraph is supporting content, not a field label.
+                starts.add(block.id)
+                break
+            if not in_description:
+                break
+    return starts
+
+
 def _segment_section(sec_id, sec_kind, header_text, bids, by_id, entries, warnings, is_implicit_experience=False):
     """Segment one section's blocks into entries preserving all child content."""
     cur_lines, cur_bids, pending, pending_ids = [], [], [], []
+    project_starts = (_project_entry_starts([by_id[bid] for bid in bids if bid in by_id])
+                      if sec_kind == "PROJECTS" else set())
 
     def flush():
         if cur_lines:
@@ -494,13 +627,13 @@ def _segment_section(sec_id, sec_kind, header_text, bids, by_id, entries, warnin
                 flush()
                 cur_lines, cur_bids = [], []
             continue
-        # In PROJECTS sections, ONLY Project:/POC: headers start a new entry.
-        # Title:/Details:/Roles & Responsibilities/bullets/numbered items all
-        # continue the current project (they are not separate projects).
-        if sec_kind == "PROJECTS" and cur_lines and not (
-                PROJECT_HEAD.match(line) or re.match(r"(?i)^\s*(?:project|poc)(?:[-#]?\s*\d+|[\s:]|$)", line)):
-            cur_lines.append(line)
-            cur_bids.append(bid)
+        if sec_kind == "PROJECTS":
+            if bid in project_starts:
+                flush()
+                cur_lines, cur_bids = [line], [bid]
+            elif cur_lines:
+                cur_lines.append(line)
+                cur_bids.append(bid)
             continue
         if _looks_like_entry_start(line, sec_kind):
             # project / tenure metadata continues current entry
@@ -530,6 +663,15 @@ def _segment_section(sec_id, sec_kind, header_text, bids, by_id, entries, warnin
                 cur_lines[-1] += " " + line
                 cur_bids.append(bid)
                 continue
+            # If current entry already has a date range, and this line is a new date range
+            # WITHOUT a title (pure date line), flush current entry and put date in pending
+            if cur_lines and any(m["is_range"] for m in D.find_mentions(line)) and not TITLE_CUE.search(line):
+                has_curr_date = any(D.find_mentions(cl) for cl in cur_lines)
+                if has_curr_date and not re.match(r"(?i)^\s*(period|duration|timeline|tenure)\s*[:\-]", line):
+                    flush()
+                    pending.append(line)
+                    pending_ids.append(bid)
+                    continue
             if cur_lines:
                 flush()
             cur_lines = pending + [line]
@@ -540,11 +682,21 @@ def _segment_section(sec_id, sec_kind, header_text, bids, by_id, entries, warnin
             cur_lines.append(line)
             cur_bids.append(bid)
             continue
+        # Header candidates (date, company, position) that appear after a job
+        # description belong to the NEXT job, not the current one.
+        is_header_cand = _header_candidate(line, sec_kind)
+        if is_header_cand and cur_lines:
+            has_curr_date = any(D.find_mentions(cl) for cl in cur_lines)
+            if has_curr_date:
+                flush()
+                pending.append(line)
+                pending_ids.append(bid)
+                continue
         if cur_lines:
             cur_lines[-1] += " " + line
             cur_bids.append(bid)
             continue
-        if _header_candidate(line, sec_kind):
+        if is_header_cand:
             pending.append(line)
             pending_ids.append(bid)
     if cur_lines:
@@ -786,13 +938,8 @@ def _header_labels(lines, kind):
         return degree, institution
     if kind == 'PROJECTS':
         client = next((re.sub(r'(?i)^client(?:\s*name)?\s*:\s*', '', t).strip() for t in clean if re.match(r'(?i)^client(?:\s*name)?\s*:', t)), '')
-        role = next((re.sub(r'(?i)^(?:role|position|designation|project role)\s*:\s*', '', t).strip() for t in clean if re.match(r'(?i)^(?:role|position|designation|project role)\s*:', t)), '')
         title = next((re.sub(r'(?i)^(?:title|project title|project name)\s*:\s*', '', t).strip() for t in clean if re.match(r'(?i)^(?:title|project title|project name)\s*:', t)), '')
-        name = next((t for t in clean if PROJECT_HEAD.match(t) or re.match(r'(?i)^\s*(?:project|poc)(?:[-#]?\s*\d+|[\s:]|$)', t)), '')
-        final_title = role or title or name
-        final_title = role or title or name or (clean[0] if clean else '')
-        final_org = client or (name if final_title != name else '')
-        return final_title, _clean_org(final_org)
+        return title or _project_title(clean[0]), _clean_org(client)
     for t in clean:
         match = re.match(r'(?i)^(?:worked|working|employed)\s+at\s+(.+?)(?:\s+as\s+(?:an?\s+)?(.+))?$', t)
         if match:
@@ -812,10 +959,13 @@ def _header_labels(lines, kind):
                 return _strip_leading_caps(title).strip(" -–—[]|(),"), _clean_org(org)
     title, org, explicit_employer = '', '', ''
     for t in clean:
-        m_comp = re.match(r'(?i)^(?:company|organization|organisation|employer)\s*:\s*(.+)$', t)
+        m_comp = re.match(r'(?i)^(?:company|organization|organisation|employer)\s*[:\-–—]\s*(.+)$', t)
         if m_comp and not org:
-            org = _clean_org(m_comp.group(1).split(',')[0].strip())
-        m_pos = re.match(r'(?i)^(?:position|designation|job title|role)\s*:\s*(.+)$', t)
+            comp_val = m_comp.group(1).strip()
+            # Stop at project/technology keywords
+            comp_val = re.split(r'(?i)\s+(?:project\s+(?:description|desc|details)|technology|tech\s+stack|tools|skills|responsibilities|duties)\b', comp_val)[0]
+            org = _clean_org(comp_val.split(',')[0].strip())
+        m_pos = re.match(r'(?i)^(?:position|designation|job title|role)\s*[:\-–—]\s*(.+)$', t)
         if m_pos and not title:
             title = m_pos.group(1).split(',')[0].strip()
     for t in clean:
@@ -894,17 +1044,26 @@ def s07_event_classification(ctx):
                     break
             else:
                 break
+        if sec.kind == "PROJECTS":
+            header_ids = [entry.block_ids[0]] + [
+                bid for bid in entry.block_ids[1:]
+                if PROJECT_METADATA.match(blocks[bid].text.strip())]
         if not header_ids:
             continue
         lines = [blocks[bid].text for bid in header_ids]
-        # Guard: generic sub-labels (Details:, Roles & Responsibilities, bare
-        # outcome/approach sentences) are project content, never standalone
-        # PROJECT events. Only Project:/POC:-headed entries become events.
-        if sec.kind == "PROJECTS":
-            first = lines[0].strip() if lines else ""
-            if not (PROJECT_HEAD.match(first) or re.match(r"(?i)^\s*(?:project|poc)(?:[-#]?\s*\d+|[\s:]|$)", first)):
-                continue
         title, org = _header_labels(lines, sec.kind)
+        # Fallback: if no org found in header lines, search entry text for company patterns
+        if sec.kind == "EXPERIENCE" and not org:
+            entry_text = entry.text
+            # Look for "Company - X" or "Company: X" patterns
+            m_comp = re.search(r'(?i)(?:company|employer|organization)\s*[:\-–—]\s*([^.\n]+?)(?:\s+(?:project|technology|tech|tools|skills|responsibilities|duties|description|client)\b|$)', entry_text)
+            if m_comp:
+                org = _clean_org(m_comp.group(1).strip())
+            # Look for "at X" or "in X" after title-like words
+            if not org:
+                m_at = re.search(r'(?i)\b(?:at|in)\s+([A-Z][A-Za-z0-9&.\-\']*(?:\s+[A-Z][A-Za-z0-9&.\-\']*)*)\b', entry_text)
+                if m_at and COMPANY_HINT.search(m_at.group(1)):
+                    org = _clean_org(m_at.group(1))
         if not title and not org:
             continue
         etype = {'EXPERIENCE': 'EMPLOYMENT', 'EDUCATION': 'EDUCATION', 'PROJECTS': 'PROJECT'}.get(sec.kind, 'OTHER')
@@ -921,13 +1080,38 @@ def s07_event_classification(ctx):
             if m.is_range and m.id not in seen_mention_ids:
                 explicit.append(m)
                 seen_mention_ids.add(m.id)
+        
+        # For EDUCATION, also accept single dates (graduation dates) as valid
+        if etype == 'EDUCATION' and not explicit:
+            for m in header_mentions:
+                if not m.is_range and m.id not in seen_mention_ids:
+                    explicit.append(m)
+                    seen_mention_ids.add(m.id)
+        
         status, span, precision = 'UNRESOLVED', None, 'month'
         if len(explicit) == 1:
             m = explicit[0]
-            span, precision, status = (m.start, m.end), m.precision, 'CONFIRMED'
+            if m.is_range:
+                span, precision, status = (m.start, m.end), m.precision, 'CONFIRMED'
+            elif etype == 'EDUCATION':
+                # For education, single date = graduation date (use as end, start = None)
+                span, precision, status = (None, m.end), m.precision, 'CONFIRMED'
+            else:
+                status = 'AMBIGUOUS'
+                warnings.append(f'{entry.id}: single date without range')
         elif len(explicit) > 1:
-            status = 'AMBIGUOUS'
-            warnings.append(f'{entry.id}: dates cannot be assigned unambiguously')
+            # Multiple dates - check if they form a range
+            ranges = [m for m in explicit if m.is_range]
+            if len(ranges) == 1:
+                m = ranges[0]
+                span, precision, status = (m.start, m.end), m.precision, 'CONFIRMED'
+            elif etype == 'EDUCATION' and len(explicit) >= 1:
+                # Multiple single dates for education - use earliest as start, latest as end
+                dates = sorted([m.end for m in explicit])
+                span, precision, status = (dates[0], dates[-1]), explicit[0].precision, 'CONFIRMED'
+            else:
+                status = 'AMBIGUOUS'
+                warnings.append(f'{entry.id}: dates cannot be assigned unambiguously')
         elif header_mentions:
             # Separate date points or completion dates do not establish a tenure.
             status = 'AMBIGUOUS'
@@ -967,7 +1151,7 @@ def s07_event_classification(ctx):
             ctx.unresolved.append(entry.id)
         events.append(event)
     _include_project_periods(ctx, events)
-    # Deduplicate events with same org and overlapping dates, preferring INTERNSHIP > EMPLOYMENT > PROJECT
+    # Deduplicate repeated facts without discarding overlapping activities.
     events = _deduplicate_events(events)
     ctx.events = events
     return _sr('event_classification', confidence=0.8, warnings=warnings,
@@ -977,32 +1161,48 @@ def s07_event_classification(ctx):
 # ---------------------------------------------------------------- stage 8
 
 def _deduplicate_events(events):
-    """Remove duplicate events with same org and overlapping dates.
-    Preference order: INTERNSHIP > EMPLOYMENT > PROJECT > EDUCATION > OTHER."""
-    type_rank = {"INTERNSHIP": 4, "EMPLOYMENT": 3, "PROJECT": 2, "EDUCATION": 1, "OTHER": 0}
-    # Group by org (case-insensitive)
-    from collections import defaultdict
-    groups = defaultdict(list)
-    for e in events:
-        groups[e.org.strip().lower()].append(e)
-    kept = []
-    for org, evs in groups.items():
-        # Sort by type rank desc, then by start date
-        evs.sort(key=lambda e: (-type_rank.get(e.type, 0), e.start or (0,0)))
-        kept_org = []
-        for e in evs:
-            # Check overlap with already kept for this org
-            overlap = False
-            for k in kept_org:
-                if e.start and k.start and e.end and k.end:
-                    # overlap if ranges intersect
-                    if not (e.end < k.start or e.start > k.end):
-                        overlap = True
-                        break
-            if not overlap:
-                kept_org.append(e)
-        kept.extend(kept_org)
+    """Collapse repeated facts, never distinct roles or merely overlapping dates.
+
+    Empty organizations are not an identity. Type, title, and the complete
+    date range must agree; promotions and internships can share a boundary month.
+    Also merge events with same title/org where one has dates and one doesn't.
+    """
+    # First pass: group by (type, title, org) and keep the one with dates
+    by_title_org = {}
+    for event in events:
+        key = (event.type, event.title.strip().casefold(), event.org.strip().casefold())
+        if key not in by_title_org:
+            by_title_org[key] = []
+        by_title_org[key].append(event)
+    
+    merged = []
+    for key, group in by_title_org.items():
+        if len(group) == 1:
+            merged.append(group[0])
+        else:
+            # Multiple events with same title/org - prefer one with dates
+            with_dates = [e for e in group if e.start and e.end]
+            without_dates = [e for e in group if not (e.start and e.end)]
+            if with_dates:
+                # Keep the one with dates (prefer CONFIRMED over AMBIGUOUS)
+                best = max(with_dates, key=lambda e: (e.status == 'CONFIRMED', e.confidence))
+                merged.append(best)
+            else:
+                # All without dates - keep the best one
+                best = max(group, key=lambda e: e.confidence)
+                merged.append(best)
+    
+    # Second pass: exact deduplication on full key
+    kept, seen = [], set()
+    for event in merged:
+        key = (event.type, event.title.strip().casefold(),
+               event.org.strip().casefold(), event.start, event.end,
+               event.precision, event.status)
+        if key not in seen:
+            kept.append(event)
+            seen.add(key)
     return kept
+
 
 def _strip_project_prefix(name):
     """Strip leading 'Project N:' / 'POC N:' numbering prefixes from project names.
@@ -1216,6 +1416,10 @@ def s10_gap_detection(ctx):
                    "uncertain_event_ids": [e.id for e in uncertain]})
         gaps = [g]
     else:
+        # Primary gap = no dated activity clearly represented (original rule:
+        # dated project/education intervals count as activity). The
+        # employment-only reading is reported as an alternate, and only when
+        # it actually differs from the primary.
         max_end = dated[0].end
         last_event = dated[0]
         for b in dated[1:]:
@@ -1223,19 +1427,27 @@ def s10_gap_detection(ctx):
             if gm > 0 and last_event.precision == "month" and b.precision == "month":
                 gap_start = D.add_months(max_end, 1)
                 gap_end = D.add_months(b.start, -1)
+                alternates = []
+                for r in employment_only_gaps:
+                    if ((r["months"], r["start"], r["end"])
+                            == (gm, list(gap_start), list(gap_end))):
+                        continue  # identical reading: not listed twice
+                    emp_end = D.add_months(r["start"], -1)
+                    r = dict(r)
+                    r["note"] = (
+                        "employment-only reading (dated client/project work "
+                        "excluded); applies if employer end date "
+                        f"{calendar.month_name[emp_end[1]]} {emp_end[0]} is correct"
+                    )
+                    alternates.append(r)
+                evidence = {"event_before": last_event.id, "event_after": b.id,
+                            "coverage_scope": "employment" if employment_only else "all_dated_activity",
+                            "unplaced_activity_ids": unplaced}
+                if alternates:
+                    evidence["interpretations"] = {"employment_only": alternates}
                 g = M.Gap("g" + hashlib.sha256(f"{last_event.id}:{b.id}:{gap_start}:{gap_end}".encode()).hexdigest()[:16], list(gap_start), list(gap_end), gm, "POTENTIAL_GAP",
                           0.0, ["GAP_NO_COVERAGE"],  # confidence filled in stage 11
-                          {"event_before": last_event.id, "event_after": b.id,
-                           "coverage_scope": "employment" if employment_only else "all_dated_activity",
-                           "unplaced_activity_ids": unplaced,
-                           "interpretations": {
-                               "all_dated_activity": {
-                                   "months": gm,
-                                   "start": list(gap_start),
-                                   "end": list(gap_end),
-                               },
-                               "employment_only": employment_only_gaps,
-                           }})
+                          evidence)
                 gaps.append(g)
             if D.month_index(b.end) > D.month_index(max_end):
                 max_end = b.end
@@ -1330,16 +1542,12 @@ def extract_project_blocks(ctx):
                 client = next((re.sub(r'(?i)^client(?:\s*name)?\s*:\s*', '', t).strip() for t in lines if re.match(r'(?i)^client(?:\s*name)?\s*:', t)), '')
                 role = next((re.sub(r'(?i)^(?:role|position|designation|project role)\s*:\s*', '', t).strip() for t in lines if re.match(r'(?i)^(?:role|position|designation|project role)\s*:', t)), '')
                 dur = next((re.sub(r'(?i)^(?:duration|period|tenure)\s*[:\-]\s*', '', t).strip() for t in lines if re.match(r'(?i)^(?:duration|period|tenure)\s*[:\-]', t)), '')
-                if not dur:
-                    for t in lines[:3]:
-                        p_ms = D.find_mentions(t)
-                        if p_ms:
-                            dur = ' - '.join(m['raw'] for m in p_ms)
-                            break
                 title = next((re.sub(r'(?i)^(?:title|project title|project name)\s*[:\-]\s*', '', t).strip() for t in lines if re.match(r'(?i)^(?:title|project title|project name)\s*:', t)), '')
-                head = next((t for t in lines if re.match(r'(?i)^\s*(?:project|poc)(?:[-#]?\s*\d+|[\s:]|$)', t)), '')
+                head = re.sub(r'^\d+[.)]\s*', '', _project_title(lines[0])) if lines else ''
+                if not _explicit_project_heading(head):
+                    head = ''
 
-                name = title or (f'{head}: {client}' if head and client else (head or client or (lines[0].lstrip("•●■▪·○◆◇➢✔►▸✓★-*–— ") if lines else 'Project')))
+                name = title or (f'{head}: {client}' if head and client else (head or client or (_project_title(lines[0]) if lines else 'Project')))
                 name = _strip_project_prefix(name)
                 details = [line.strip() for line in lines if line.strip() and not re.match(r'(?i)^(?:client|role|duration|period|tenure|title|project|poc)\b', line.strip())]
 
@@ -1421,7 +1629,8 @@ def extract_project_blocks(ctx):
 
 def s12_recruiter_output(ctx):
     """Input: everything. Output: extension-facing DTO (timeline, gaps, evidence)."""
-    dated = sorted((e for e in ctx.events if e.start and e.end), key=lambda e: D.month_index(e.start))
+    # Include events with at least an end date (for education graduation dates)
+    dated = sorted((e for e in ctx.events if e.end), key=lambda e: D.month_index(e.end if e.end else e.start))
     blocks_by_id = ctx.blocks_by_id()
     entries_by_id = ctx.entries_by_id()
     dto_events = []
@@ -1482,6 +1691,15 @@ def s12_recruiter_output(ctx):
         "document_accuracy": round(max(0.70, min(0.96, base_conf - amb_pen - unres_pen)), 2) if total_ev else 0.88,
     }
     projects = extract_project_blocks(ctx)
+    # Deduplicate projects by name+client
+    seen_proj = set()
+    unique_projects = []
+    for p in projects:
+        key = (p['name'].strip().lower(), p['client'].strip().lower())
+        if key not in seen_proj and p['name'].strip():
+            seen_proj.add(key)
+            unique_projects.append(p)
+    projects = unique_projects
     dto = {
         "doc_id": ctx.doc_id,
         "filename": ctx.filename,
@@ -1507,6 +1725,231 @@ def s12_recruiter_output(ctx):
                output={"events": len(dto_events), "gaps": len(dto_gaps), "projects": len(projects)})
 
 
+# ---------------------------------------------------------------- stage 13: verification
+
+def _verify_event_against_source(event, raw_text, blocks_by_id):
+    """Verify an event's fields appear in source text. Returns verification dict."""
+    text_lower = raw_text.lower()
+    verified = {
+        "title_verified": False,
+        "org_verified": False,
+        "start_verified": False,
+        "end_verified": False,
+        "source_spans": {}
+    }
+    
+    # Helper to generate month name variants
+    MONTH_NAMES = {
+        1: ["january", "jan"],
+        2: ["february", "feb"],
+        3: ["march", "mar"],
+        4: ["april", "apr"],
+        5: ["may"],
+        6: ["june", "jun"],
+        7: ["july", "jul"],
+        8: ["august", "aug"],
+        9: ["september", "sep", "sept"],
+        10: ["october", "oct"],
+        11: ["november", "nov"],
+        12: ["december", "dec"],
+    }
+
+    def _date_variants(year, month):
+        """Return list of string variants for a (year, month) that may appear in text."""
+        variants = []
+        # numeric
+        variants.append(f"{month}/{year}")
+        variants.append(f"{year}-{month:02d}")
+        variants.append(f"{month}-{year}")
+        # month name
+        for name in MONTH_NAMES.get(month, []):
+            variants.append(f"{name} {year}")
+            variants.append(f"{name}. {year}")
+            variants.append(f"{name}-{year}")
+        return variants
+
+    # Verify title
+    if event.title:
+        title_lower = event.title.lower()
+        if title_lower in text_lower:
+            verified["title_verified"] = True
+            idx = text_lower.find(title_lower)
+            verified["source_spans"]["title"] = {"pos": idx, "text": event.title}
+    
+    # Verify org
+    if event.org:
+        org_lower = event.org.lower()
+        if org_lower in text_lower:
+            verified["org_verified"] = True
+            idx = text_lower.find(org_lower)
+            verified["source_spans"]["org"] = {"pos": idx, "text": event.org}
+    
+    # Verify dates - check if date strings appear
+    if event.start:
+        y, m = event.start
+        found = False
+        for fmt in _date_variants(y, m):
+            if fmt.lower() in text_lower:
+                verified["start_verified"] = True
+                verified["source_spans"]["start"] = {"pos": text_lower.find(fmt.lower()), "text": fmt}
+                found = True
+                break
+        # fallback: year only
+        if not found:
+            year_str = str(y)
+            if year_str in raw_text:
+                verified["start_verified"] = True
+                verified["source_spans"]["start"] = {"pos": raw_text.find(year_str), "text": year_str}
+    
+    if event.end and not event.is_present:
+        y, m = event.end
+        found = False
+        for fmt in _date_variants(y, m):
+            if fmt.lower() in text_lower:
+                verified["end_verified"] = True
+                verified["source_spans"]["end"] = {"pos": text_lower.find(fmt.lower()), "text": fmt}
+                found = True
+                break
+        if not found:
+            year_str = str(y)
+            if year_str in raw_text:
+                verified["end_verified"] = True
+                verified["source_spans"]["end"] = {"pos": raw_text.find(year_str), "text": year_str}
+    elif event.is_present:
+        for word in ["present", "till date", "current", "ongoing"]:
+            if word in text_lower:
+                verified["end_verified"] = True
+                verified["source_spans"]["end"] = {"pos": text_lower.find(word), "text": word}
+                break
+    
+    return verified
+
+
+def _compute_verified_gaps(verified_events):
+    """Compute gaps from ONLY verified EMPLOYMENT events (both dates verified)."""
+    dated = [e for e in verified_events 
+             if e["verified"]["start_verified"] and e["verified"]["end_verified"]
+             and e["event"].type == "EMPLOYMENT"]
+    dated.sort(key=lambda e: (e["event"].end[0] * 12 + e["event"].end[1]) if e["event"].end else 0)
+    
+    gaps = []
+    for i in range(len(dated) - 1):
+        curr_end = dated[i]["event"].end
+        next_start = dated[i + 1]["event"].start
+        if curr_end and next_start:
+            gap_months = (next_start[0] * 12 + next_start[1]) - (curr_end[0] * 12 + curr_end[1]) - 1
+            if gap_months > 0:
+                gaps.append({
+                    "months": gap_months,
+                    "start": [curr_end[0], curr_end[1] + 1] if curr_end[1] < 12 else [curr_end[0] + 1, 1],
+                    "end": [next_start[0], next_start[1] - 1] if next_start[1] > 1 else [next_start[0] - 1, 12],
+                    "before": dated[i]["event"].title,
+                    "after": dated[i + 1]["event"].title
+                })
+    return gaps
+
+
+def _compute_verification_metrics(verified_events):
+    """Compute precision/recall style metrics from verification."""
+    total = len(verified_events)
+    if total == 0:
+        return {"precision": 0, "recall": 0, "f1": 0, "field_accuracy": {}}
+    
+    # Field-level accuracy
+    fields = ["title", "org", "start", "end"]
+    field_correct = {f: 0 for f in fields}
+    field_total = {f: 0 for f in fields}
+    
+    for ve in verified_events:
+        v = ve["verified"]
+        for f in fields:
+            key = f"{f}_verified"
+            if v.get(key) is not None:
+                field_total[f] += 1
+                if v[key]:
+                    field_correct[f] += 1
+    
+    field_acc = {}
+    for f in fields:
+        field_acc[f] = round(field_correct[f] / field_total[f], 3) if field_total[f] > 0 else 0
+    
+    # Overall: event is "correct" if all its extracted fields are verified
+    fully_correct = sum(1 for ve in verified_events 
+                       if all(ve["verified"].get(f"{f}_verified", True) for f in fields if ve["event"].__dict__.get(f)))
+    
+    return {
+        "precision": round(fully_correct / total, 3),
+        "field_accuracy": field_acc,
+        "verified_events": fully_correct,
+        "total_events": total
+    }
+
+
+def s13_verification(ctx):
+    """Verify extracted timeline against source text. Compute TRUE accuracy."""
+    if not ctx.events:
+        return _sr("verification", status="SKIPPED", confidence=0.0,
+                   errors=["no events to verify"])
+    
+    raw_text = ctx.raw_text or ""
+    blocks_by_id = ctx.blocks_by_id()
+    
+    # Verify each event
+    verified_events = []
+    for e in ctx.events:
+        verified = _verify_event_against_source(e, raw_text, blocks_by_id)
+        verified_events.append({"event": e, "verified": verified})
+    
+    # Compute verified gaps
+    verified_gaps = _compute_verified_gaps(verified_events)
+    
+    # Compute metrics
+    metrics = _compute_verification_metrics(verified_events)
+    
+    # Store in context
+    ctx.verified_events = verified_events
+    ctx.verified_gaps = verified_gaps
+    ctx.verification_metrics = metrics
+    
+    # Add to recruiter output
+    dto = ctx.recruiter_output
+    if dto:
+        dto["verification"] = {
+            "metrics": metrics,
+            "verified_gaps": verified_gaps,
+            "event_verification": [
+                {
+                    "event_id": ve["event"].id,
+                    "type": ve["event"].type,
+                    "title": ve["event"].title,
+                    "org": ve["event"].org,
+                    "title_verified": ve["verified"]["title_verified"],
+                    "org_verified": ve["verified"]["org_verified"],
+                    "start_verified": ve["verified"]["start_verified"],
+                    "end_verified": ve["verified"]["end_verified"],
+                    "source_spans": ve["verified"]["source_spans"]
+                }
+                for ve in verified_events
+            ]
+        }
+    
+    return _sr("verification", status="SUCCESS", confidence=0.9,
+               output={"verified_events": metrics["verified_events"], 
+                       "total_events": metrics["total_events"],
+                       "precision": metrics["precision"],
+                       "verified_gaps": len(verified_gaps)},
+               evidence={"field_accuracy": metrics["field_accuracy"]})
+
+
+STAGE_FUNCS = (
+    s01_document_processing, s02_text_representation, s03_section_detection,
+    s04_entry_segmentation, s05_date_extraction, s06_date_association,
+    s07_event_classification, s08_timeline_reconciliation, s09_coverage_analysis,
+    s10_gap_detection, s11_confidence_evidence, s12_recruiter_output,
+    s13_verification,
+)
+
+
 def by_en_text(ctx, entry_id):
     e = ctx.entries_by_id().get(entry_id)
     return (e.text[:300] if e else "")
@@ -1526,13 +1969,6 @@ def _overall_status(ctx):
         return "SUCCESS"
     return "PARTIAL"
 
-
-STAGE_FUNCS = (
-    s01_document_processing, s02_text_representation, s03_section_detection,
-    s04_entry_segmentation, s05_date_extraction, s06_date_association,
-    s07_event_classification, s08_timeline_reconciliation, s09_coverage_analysis,
-    s10_gap_detection, s11_confidence_evidence, s12_recruiter_output,
-)
 
 
 STAGE_SPECS = {fn.__name__[4:]: {

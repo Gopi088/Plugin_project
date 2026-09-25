@@ -119,7 +119,8 @@
    "ENGINEERING INITIATIVES",
    "LANGUAGES",
    "INTERESTS",
-   "AWARDS"
+   "AWARDS",
+   "ACCOMPLISHMENTS"
   ]
  },
 "company_suffixes_regex": [
@@ -197,6 +198,7 @@
   "Associate",
   "Designer",
   "Scientist",
+  "Programmer",
   "Leader"
  ],
  "degree_words_regex": [
@@ -216,6 +218,11 @@
   "SSC(?!\\w)",
   "HSC(?!\\w)",
   "CGPA",
+  "Standard\\s*1[02]th",
+  "12th(?!\\w)",
+  "10th(?!\\w)",
+  "Intermediate",
+  "Matriculation",
   "University",
   "College",
   "Institute",
